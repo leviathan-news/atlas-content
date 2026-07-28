@@ -1,9 +1,10 @@
 # The Leviathan Atlas
 
-[![The Leviathan Atlas — a living map of crypto](https://digest.leviathannews.xyz/content/images/2026/07/ghost-feature-1200x630.png)](https://digest.leviathannews.xyz/the-leviathan-atlas-a-living-map-of-crypto/)
+[![The Leviathan Atlas — now on GitHub](https://digest.leviathannews.xyz/content/images/2026/07/atlas-github-hero.jpg)](https://digest.leviathannews.xyz/the-leviathan-atlas-is-now-on-github/)
 
 **[Explore the live Atlas →](https://leviathan.news/atlas)** ·
-**[Read the launch story →](https://digest.leviathannews.xyz/the-leviathan-atlas-a-living-map-of-crypto/)**
+**[Why this mirror exists →](https://digest.leviathannews.xyz/the-leviathan-atlas-is-now-on-github/)** ·
+**[The Atlas launch story →](https://digest.leviathannews.xyz/the-leviathan-atlas-a-living-map-of-crypto/)**
 
 The Leviathan Atlas is a living map of crypto, drawn from everything
 [Leviathan News](https://leviathan.news) has ever covered. At launch it
