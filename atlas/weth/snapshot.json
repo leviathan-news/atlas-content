@@ -1,0 +1,611 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:11:54.030746+00:00",
+      "newsroom_total": 30,
+      "overall_share": 53,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-02",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 3
+        },
+        {
+          "ed_share": 38,
+          "month": "2026-04",
+          "newsroom": 6,
+          "universe": 10
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 9
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 5
+        }
+      ],
+      "total_universe": 57,
+      "universe_total": 27
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:11:53.339570+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "weth",
+          "phrase": "WETH is commonly used as collateral on Aave.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "aave",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "weth",
+          "phrase": "rsETH is a liquid staking token similar to WETH.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "rseth",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "weth",
+          "phrase": "Unclear relation; treating as peer.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "advertising",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "weth",
+          "phrase": "WETH is used in Curve pools for crvUSD.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "crvusd",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "weth",
+          "phrase": "WBTC is a wrapped asset like WETH.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "wbtc",
+          "weight": 23
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "WETH",
+          "slug": "weth",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Aave",
+          "slug": "aave",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "rsETH",
+          "slug": "rseth",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Advertising",
+          "slug": "advertising",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "crvUSD",
+          "slug": "crvusd",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "WBTC",
+          "slug": "wbtc",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T09:11:29.030753+00:00",
+      "events": [
+        {
+          "date": "2017-12",
+          "kind": "launch",
+          "label": "WETH9 contract deployed on Ethereum mainnet",
+          "source": "https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        },
+        {
+          "date": "2023-07",
+          "kind": "exploit",
+          "label": "Conic Finance reentrancy exploit — WETH address assumption disabled ETH omnipool protection",
+          "source": ""
+        },
+        {
+          "date": "2023-11",
+          "kind": "launch",
+          "label": "crvUSD launches WBTC/WETH leveraged markets at 7.5% interest",
+          "source": "https://curve.finance"
+        },
+        {
+          "date": "2024-02",
+          "kind": "exploit",
+          "label": "Entangle hack: 13B tokens minted and swapped for WETH, price collapses to near zero",
+          "source": "https://ourcryptotalk.com/blog/kelpdao-layerzero-exploit-explained"
+        },
+        {
+          "date": "2024-03",
+          "kind": "governance",
+          "label": "Aave Merit program launches, distributing 280 WETH to WETH borrowers in first round",
+          "source": "https://www.galaxy.com/insights/research/aave-how-much-leverage-defi-looping-eth-weth-weeth-rseth-wsteth"
+        },
+        {
+          "date": "2026-04",
+          "kind": "exploit",
+          "label": "KelpDAO rsETH bridge exploit drains ~$290M, Aave WETH reserve hits 100% utilisation",
+          "source": "https://governance.aave.com/t/rseth-incident-report-april-20-2026/24580"
+        },
+        {
+          "date": "2026-04",
+          "kind": "governance",
+          "label": "Aave governance proposes rsETH incident funding update; WETH reserves partially unfrozen",
+          "source": "https://governance.aave.com/t/arfc-rseth-incident-funding-update/24740"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "Aave restores WETH borrowing power across six V3 markets after rsETH recovery steps",
+          "source": "https://thedefiant.io/news/defi/aave-partially-unfreezes-weth-after-rseth-bridge-exploit"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T09:11:29.030598+00:00",
+      "insight": "Readers click WETH stories not for the wrapper mechanics but for the contagion moment — the instant when WETH's deep liquidity makes it either the hacker's exit ramp or the reserve that absorbs a protocol-wide bad-debt shock.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://ourcryptotalk.com/blog/kelpdao-layerzero-exploit-explained"
+    },
+    "reader_signal": {
+      "article_count": 30,
+      "as_of": "2026-07-01T12:11:55.142019+00:00",
+      "most_clicked": {
+        "clicks": 261,
+        "date": "2025-03-09T02:35:21.847224+00:00",
+        "headline": "Entangle, an omnichain messaging protocol, was hacked.  The hacker minted 13b tokens and traded for WETH, driving the price to near zero.",
+        "lev_url": "https://leviathannews.xyz/9723/entangle-an-omnichain-messaging-protocol-was-hacked-the-hacker-minted-13b-tokens-and-traded-for-weth-driving-the-price-to-near-zero"
+      },
+      "provenance": "data",
+      "top_decile_share": 28,
+      "total_clicks": 1770
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T09:11:29.030671+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://ourcryptotalk.com/blog/kelpdao-layerzero-exploit-explained",
+          "thread": "WETH as exploit exit liquidity",
+          "why": "The Entangle hack — where 13 billion minted tokens were immediately dumped for WETH — crystallised readers' awareness that WETH's deep liquidity is the universal off-ramp for every DeFi attack."
+        },
+        {
+          "source": "https://governance.aave.com/t/rseth-incident-report-april-20-2026/24580",
+          "thread": "KelpDAO rsETH crisis, Aave WETH reserves",
+          "why": "Multiple high-click headlines traced the April 2026 rsETH bridge exploit directly to 100% utilisation of Aave's WETH reserve and the subsequent bad-debt debate, showing readers follow systemic contagion chains end-to-end."
+        },
+        {
+          "source": "https://www.galaxy.com/insights/research/aave-how-much-leverage-defi-looping-eth-weth-weeth-rseth-wsteth",
+          "thread": "Aave governance optimising WETH yield",
+          "why": "Proposals to convert idle WETH to stETH, the Merit airdrop rewarding WETH borrowers, and the unfreezing sequence all drew clicks because they show how the DAO actively manages WETH as a productive reserve asset rather than passive collateral."
+        },
+        {
+          "source": "https://curve.finance",
+          "thread": "WETH collateral expansion in stablecoins",
+          "why": "The crvUSD WETH cap proposal and Yield Basis IL-free pools attracted readers interested in whether WETH can anchor new stablecoin collateral regimes without introducing LST counterparty risk."
+        },
+        {
+          "source": "",
+          "thread": "LST vs WETH treasury reallocation",
+          "why": "Origin DAO's decision to swap rETH back to WETH due to disappointing returns — and Frax's push to replace WETH on Curve — framed WETH as the benchmark that liquid-staking tokens must beat, not simply replace."
+        },
+        {
+          "source": "",
+          "thread": "Smart-contract integration bugs around WETH",
+          "why": "Conic Finance's reentrancy failure — caused by assuming a registry would return ETH rather than WETH — resonated as a cautionary tale about address-type assumptions silently disabling security invariants."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T09:11:29.030681+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract (integrations)",
+          "level": "Medium",
+          "note": "The canonical WETH9 contract is immutable and battle-tested, but downstream integrations repeatedly introduce critical bugs — Conic Finance's reentrancy failure stemmed from conflating ETH and WETH addresses in a registry call.",
+          "source": "https://www.weforum.org/stories/2024/07/smart-contracts-technology-cybersecurity-legal-risks/"
+        },
+        {
+          "dimension": "Liquidity / reserve utilisation",
+          "level": "High",
+          "note": "The April 2026 KelpDAO rsETH exploit drove Aave's WETH reserve to 100% utilisation and generated modelled bad-debt estimates of $123M–$230M, demonstrating that deep WETH liquidity can be exhausted rapidly under correlated LRT failures.",
+          "source": "https://governance.aave.com/t/arfc-rseth-incident-funding-update/24740"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Low",
+          "note": "WETH9 on Ethereum mainnet has no owner, no admin key, and no upgrade mechanism; the contract is fully immutable, removing governance-attack and rug-pull vectors at the token layer.",
+          "source": "https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        },
+        {
+          "dimension": "Bridge / cross-chain wrapping",
+          "level": "High",
+          "note": "Non-canonical bridged WETH on alternative chains (e.g. Sei IBC WETH, Fraxtal WETH) carries bridge-exploit and liquidity-fragmentation risk — Sei's SIP-3 forced an emergency migration notice for Wormhole WETH holders.",
+          "source": "https://eco.com/support/en/articles/11751627-bridging-wrapped-tokens-wbtc-weth-wsteth"
+        },
+        {
+          "dimension": "Market / exit-liquidity exploitation",
+          "level": "High",
+          "note": "WETH's position as the deepest on-chain ETH-denominated liquidity pool makes it the default conversion target in large-scale exploits; the Entangle attacker minted 13 billion tokens and liquidated them into WETH, driving the source token to near zero.",
+          "source": "https://whale-alert.io/stories/b7bf016fba9c8e/Token-of-Power-Balancer-pool-exploit-drains-9442-WETH-with-funds-later-moved-to-Tornado-Cash"
+        },
+        {
+          "dimension": "Governance / collateral parameter risk",
+          "level": "Medium",
+          "note": "Aave governance controls WETH supply caps, LTV ratios, and freeze/unfreeze cycles across multiple V3 markets; a delayed governance response to the rsETH exploit left WETH borrowing frozen across six markets for an extended period.",
+          "source": "https://thedefiant.io/news/defi/aave-partially-unfreezes-weth-after-rseth-bridge-exploit"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:11:55.059356+00:00",
+      "items": [
+        {
+          "clicks": 43,
+          "date": "2026-04-16T17:26:20.441951+00:00",
+          "headline": "Sei to disable inbound IBC in SIP-3 EVM-only transition, warns Wormhole WETH holders to bridge out",
+          "hot_score": 2113.569184,
+          "lev_url": "https://leviathannews.xyz/230744/sei-to-disable-inbound-ibc-in-sip-3-evm-only-transition-warns-wormhole-weth-holders-to-bridge-out",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416171449_Z4zrlaiDPw==.png",
+          "url": "https://blog.sei.io/holders-of-wormhole-bridged-weth-on-sei-need-to-act-before-ibc-is-disabled"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-04-20T05:18:26.745568+00:00",
+          "headline": "OneKey's Yishi on KelpDAO hack: 10-15% hacker bounty, LayerZero fund, Aave backstop — don't cut WETH depositors",
+          "hot_score": 750.442594,
+          "lev_url": "https://leviathannews.xyz/233038/onekeys-yishi-on-kelpdao-hack-10-15-hacker-bounty-layerzero-fund-aave-backstop-dont-cut-weth-depositors",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420021519_Z4zrlaiDPw==.png",
+          "url": "https://x.com/ohyishi/status/2046028695161409863"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-04-20T05:49:33.129513+00:00",
+          "headline": "Aave freezes rsETH on V3 and V4 after KelpDAO exploit drains ~$290M and saddles WETH reserve with bad debt",
+          "hot_score": 565.0,
+          "lev_url": "https://leviathannews.xyz/232492/aave-freezes-rseth-on-v3-and-v4-after-kelpdao-exploit-drains-290m-and-saddles-weth-reserve-with-bad-debt",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260418204928_Z4zrlaiDPw==.png",
+          "url": "https://x.com/aave/status/2045593585966252377"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-04-21T03:55:35.484241+00:00",
+          "headline": "LlamaRisk models $123M-$230M Aave bad debt from Kelp rsETH exploit as WETH reserves hit 100% utilization",
+          "hot_score": 491.8,
+          "lev_url": "https://leviathannews.xyz/233949/llamarisk-models-123m-230m-aave-bad-debt-from-kelp-rseth-exploit-as-weth-reserves-hit-100-utilization",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420102230_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/tech/2026/04/20/aave-could-face-up-to-usd230-million-in-losses-after-kelp-dao-bridge-exploit-triggers-defi-chaos"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-05-17T17:41:01.776081+00:00",
+          "headline": "Aave restores WETH borrowing power across six V3 markets after rsETH recovery steps",
+          "hot_score": 486.072427,
+          "lev_url": "https://leviathannews.xyz/244004/aave-restores-weth-borrowing-power-across-six-v3-markets-after-rseth-recovery-steps",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260418204928_Z4zrlaiDPw==.png",
+          "url": "https://x.com/aave/status/2056049190841594179"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-04-21T08:15:06.416814+00:00",
+          "headline": "Aave unfreezes WETH supply on Ethereum Core V3 after Kelp exploit, LTV stays at 0 with L2 markets frozen",
+          "hot_score": 481.6,
+          "lev_url": "https://leviathannews.xyz/234103/aave-unfreezes-weth-supply-on-ethereum-core-v3-after-kelp-exploit-ltv-stays-at-0-with-l2-markets-frozen",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260418204928_Z4zrlaiDPw==.png",
+          "url": "https://x.com/aave/status/2046473573905133953"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-03-02T15:16:33.919723+00:00",
+          "headline": "About 15 min to go for the Leviathan News SQUID Pass auction for this week!\n\nCurrent leading bid is 0.0189 WETH\n\nBid here:",
+          "hot_score": 142.826381,
+          "lev_url": "https://leviathannews.xyz/38296/about-15-min-to-go-for-the-leviathan-news-squid-pass-auction-for-this-weekcurrent-leading-bid-is-00189-wethbid-here",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260302151550_z7bpS08Us3Q=.png",
+          "url": "https://leviathannews.xyz/auctions/1/0xfF737F349e40418Abd9D7b3c865683f93cA3c890/19"
+        },
+        {
+          "clicks": 80,
+          "date": "2026-01-07T16:14:06.660811+00:00",
+          "headline": "Yield Basis is launching IL-free, high-fee WETH–crvUSD “liquidity backbone” pools on Curve to give ETH LPs leveraged yield without impermanent loss.",
+          "hot_score": 125.85682,
+          "lev_url": "https://leviathannews.xyz/23288/yield-basis-is-launching-il-free-high-fee-wethcrvusd-liquidity-backbone-pools-on-curve-to-give-eth-lps-leveraged-yield-without-impermanent-loss",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260107161200_9JbjlDoNBco=.jpg",
+          "url": "https://x.com/yieldbasis/status/2008859121806881270"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:11:54.971344+00:00",
+      "editorial": [
+        {
+          "count": 12,
+          "source": "x.com"
+        },
+        {
+          "count": 8,
+          "source": "leviathannews.xyz"
+        },
+        {
+          "count": 2,
+          "source": "snapshot.org"
+        },
+        {
+          "count": 1,
+          "source": "gov.curve.finance"
+        },
+        {
+          "count": 1,
+          "source": "governance.aave.com"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "aavechan.notion.site"
+        },
+        {
+          "count": 1,
+          "source": "auction.leviathannews.xyz"
+        },
+        {
+          "count": 1,
+          "source": "newsletter.consensys.io"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.sei.io"
+        }
+      ],
+      "editorial_distinct": 11,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 23,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.sei.io"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "bd8be4c047c321730426481cdc922b35bbdc3cb957c17d83843b875fa88f753b",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:38.028362+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.271,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0198,
+        "lift_log": 3.491,
+        "score": 0.2713,
+        "shared": 13
+      },
+      "rationale": "WETH is commonly used as collateral on Aave.",
+      "relation_type": "ecosystem",
+      "slug": "aave",
+      "source": "cotag",
+      "tag_name": "Aave",
+      "title": "Aave, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.241,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0368,
+        "lift_log": 4.879,
+        "score": 0.2413,
+        "shared": 3
+      },
+      "rationale": "Unclear relation; treating as peer.",
+      "relation_type": "peer",
+      "slug": "advertising",
+      "source": "cotag",
+      "tag_name": "Advertising",
+      "title": "Advertising, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.228,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0405,
+        "lift_log": 4.544,
+        "score": 0.2279,
+        "shared": 8
+      },
+      "rationale": "WETH is used in Curve pools for crvUSD.",
+      "relation_type": "ecosystem",
+      "slug": "crvusd",
+      "source": "cotag",
+      "tag_name": "crvUSD",
+      "title": "crvUSD: Complete Guide",
+      "weight": 23
+    },
+    {
+      "confidence": 0.242,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0548,
+        "lift_log": 4.695,
+        "score": 0.2419,
+        "shared": 7
+      },
+      "rationale": "rsETH is a liquid staking token similar to WETH.",
+      "relation_type": "peer",
+      "slug": "rseth",
+      "source": "cotag",
+      "tag_name": "rsETH",
+      "title": "rsETH: Complete Guide",
+      "weight": 24
+    },
+    {
+      "confidence": 0.227,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0337,
+        "lift_log": 4.591,
+        "score": 0.2267,
+        "shared": 5
+      },
+      "rationale": "WBTC is a wrapped asset like WETH.",
+      "relation_type": "peer",
+      "slug": "wbtc",
+      "source": "cotag",
+      "tag_name": "WBTC",
+      "title": "WBTC: Complete Guide",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "weth",
+  "tag_name": "WETH",
+  "title": "WETH: Complete Guide"
+}

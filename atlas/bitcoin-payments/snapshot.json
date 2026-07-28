@@ -1,0 +1,621 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:05:51.874335+00:00",
+      "newsroom_total": 32,
+      "overall_share": 65,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 7
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 4
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-05",
+          "newsroom": 2,
+          "universe": 2
+        },
+        {
+          "ed_share": 40,
+          "month": "2026-06",
+          "newsroom": 2,
+          "universe": 3
+        }
+      ],
+      "total_universe": 49,
+      "universe_total": 17
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:05:51.576623+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "bitcoin-payments",
+          "phrase": "Bitcoin payments are a subset of the broader payments category.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "payments",
+          "weight": 28
+        },
+        {
+          "dir": "out",
+          "from": "bitcoin-payments",
+          "phrase": "Tether is a stablecoin used for payments, competing with Bitcoin payments.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "tether",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "bitcoin-payments",
+          "phrase": "Bitcoin is the underlying asset and network for Bitcoin payments.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "bitcoin",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "bitcoin-payments",
+          "phrase": "Crypto payment is a broader term; Bitcoin payments are a specific instance.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "crypto-payment",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "bitcoin-payments",
+          "phrase": "Bitcoin mining secures the network enabling Bitcoin payments.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin-mining",
+          "weight": 13
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Bitcoin Payments",
+          "slug": "bitcoin-payments",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Payments",
+          "slug": "payments",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 28
+        },
+        {
+          "center": false,
+          "name": "Tether",
+          "slug": "tether",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Crypto Payment",
+          "slug": "crypto-payment",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Bitcoin Mining",
+          "slug": "bitcoin-mining",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T07:01:42.910275+00:00",
+      "events": [
+        {
+          "date": "2024-07",
+          "kind": "milestone",
+          "label": "Mount Gox begins creditor Bitcoin repayments; BTC price falls to ~$54K",
+          "source": ""
+        },
+        {
+          "date": "2024-11",
+          "kind": "launch",
+          "label": "Square processes first Bitcoin Lightning payment at US coffee chain; global merchant rollout begins Nov 10",
+          "source": "https://squareup.com/us/en/press/square-bitcoin"
+        },
+        {
+          "date": "2026-01",
+          "kind": "milestone",
+          "label": "PayPal survey: 4 in 10 US merchants now accept digital assets",
+          "source": "https://newsroom.paypal-corp.com/2026-01-27-Crypto-Goes-Mainstream-4-in-10-US-Merchants-Accept-Digital-Assets"
+        },
+        {
+          "date": "2026-01",
+          "kind": "regulatory",
+          "label": "Tether settles Celsius lawsuit for $299.5M, resolving Bitcoin liquidation disputes",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "launch",
+          "label": "Square launches Bitcoin payments to 4M+ merchants across 8 countries",
+          "source": "https://squareup.com/us/en/press/block-to-roll-out-bitcoin-payments-on-square"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "GoMining launches GoBTC Pay SDK and API for native instant Bitcoin payments",
+          "source": "https://intellectia.ai/news/crypto/gomining-launches-gobtc-pay-sdk-and-api-for-bitcoin-payments"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T07:01:42.910031+00:00",
+      "insight": "Readers click Bitcoin payment stories most when adoption is institutionally compelled — government mandates, court-ordered settlements, and fintech super-app ambitions — not voluntary merchant experimentation, revealing that legitimacy pressure from above, not grassroots uptake, is the actual market driver.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 34,
+      "as_of": "2026-07-01T12:05:52.356395+00:00",
+      "most_clicked": {
+        "clicks": 251,
+        "date": "2023-12-22T09:38:10.635010+00:00",
+        "headline": "Argentina’s Foreign Minister allows Bitcoin payments for contracts, citing legal article without specifying source.",
+        "lev_url": "https://leviathannews.xyz/3649/argentinas-foreign-minister-allows-bitcoin-payments-for-contracts-citing-legal-article-without-specifying-source"
+      },
+      "provenance": "data",
+      "top_decile_share": 23,
+      "total_clicks": 2229
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T07:01:42.910128+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "sovereign and government mandates",
+          "why": "Argentina, Virginia, France, and Liechtenstein stories dominated clicks because readers are tracking whether states will make Bitcoin payments legally binding — not just permissible — which changes the calculus for every business operating in those jurisdictions."
+        },
+        {
+          "source": "https://squareup.com/us/en/press/block-to-roll-out-bitcoin-payments-on-square",
+          "thread": "Lightning Network infrastructure buildout",
+          "why": "Revolut's Lightspark integration, Square's Lightning pilots, Ark protocol, and Lightning's jump to B2B settlement drew readers tracking whether the payment layer is finally production-ready beyond retail tips."
+        },
+        {
+          "source": "",
+          "thread": "real estate and luxury merchant adoption",
+          "why": "La Rosa Holdings, RAK Properties, Gucci/LVMH, and private jet operators attracted clicks because high-ticket-item adoption signals Bitcoin's crossover from speculation into actual large-denomination purchase settlement."
+        },
+        {
+          "source": "https://squareup.com/us/en/press/block-to-roll-out-bitcoin-payments-on-square",
+          "thread": "fintech super-app platform war",
+          "why": "Coinbase, Revolut, World App, and Square stories all converge on the same race to own crypto-native everyday payments, and readers sense a winner-take-most platform battle forming around payment rails."
+        },
+        {
+          "source": "https://pluang.com/en/news-feed/usdt-kembali-ke-bitcoin-rgb-dan-lightning-network-bangun-infrastruktur",
+          "thread": "stablecoin displacement of Bitcoin payments",
+          "why": "The BIS paper and USDT-on-Lightning RGB stories crystallized reader anxiety that stablecoins are capturing cross-border payment volume while Bitcoin remains speculative — making the 'Bitcoin as payment' thesis structurally contested."
+        },
+        {
+          "source": "",
+          "thread": "legal settlement and creditor payouts",
+          "why": "Mount Gox repayments and the Tether-Celsius settlement pulled readers in because these are moments when Bitcoin 'payments' become involuntary, court-mandated, and directly market-moving."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T07:01:42.910181+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Jurisdictions are sharply bifurcated: Argentina and France are legislating Bitcoin payment legitimacy while Russia's central bank explicitly bans Bitcoin as a payment medium, creating cross-border compliance landmines for any platform operating internationally.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / Volatility",
+          "level": "High",
+          "note": "Mount Gox creditor repayments triggered a drop to ~$54K mid-distribution, demonstrating that large scheduled Bitcoin payment events create predictable sell pressure that directly undermines the price stability merchants need for goods pricing.",
+          "source": ""
+        },
+        {
+          "dimension": "Infrastructure / Technical",
+          "level": "Medium",
+          "note": "Lightning Network is maturing from a consumer-tip rail to a B2B settlement layer with average transaction size rising from $24 to $265, but USDT on RGB protocol is unproven at institutional scale and Ark remains an early-stage off-chain protocol.",
+          "source": "https://pluang.com/en/news-feed/usdt-kembali-ke-bitcoin-rgb-dan-lightning-network-bangun-infrastruktur"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Lightspark's position as routing infrastructure for both Revolut and Square's Lightning integrations concentrates channel management in a single intermediary, reintroducing a single point of failure across a meaningful share of retail Bitcoin payment volume.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Cross-border crypto transactions hit $800B quarterly, but BIS research confirms Bitcoin and Ether remain predominantly speculative instruments rather than settlement assets, meaning real payment liquidity depends on stablecoin bridges that introduce additional counterparty risk.",
+          "source": ""
+        },
+        {
+          "dimension": "Merchant Adoption",
+          "level": "Low",
+          "note": "PayPal's January 2026 survey found 4 in 10 US merchants already accept digital assets, and Square's multi-country rollout shows adoption infrastructure is outpacing — not lagging — the regulatory clarity needed to sustain it.",
+          "source": "https://newsroom.paypal-corp.com/2026-01-27-Crypto-Goes-Mainstream-4-in-10-US-Merchants-Accept-Digital-Assets"
+        }
+      ],
+      "sourced": 2,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:05:52.278002+00:00",
+      "items": [
+        {
+          "clicks": 63,
+          "date": "2026-05-31T15:02:52.625670+00:00",
+          "headline": "Ethereum's biggest advantage isn't payments or DeFi alone; it's the \"Long Tail\" of programmable money, enabling countless niche economies that USD and Bitcoin can't easily support",
+          "hot_score": 1032.8602,
+          "lev_url": "https://leviathannews.xyz/250765/this-thesis-applies-chris-andersons-long-tail-concept-from-his-2004-wired-article-and-2006-book-to-money-and-blockchains-amazon-mastered-the-long-tail-by-offering-customers-m",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260531145626_MboX8SWyyHak.jpg",
+          "url": "https://x.com/mkjrstad/status/2060563714936385545"
+        },
+        {
+          "clicks": 25,
+          "date": "2026-06-17T05:18:44.717528+00:00",
+          "headline": "HyperMove launches Bitcoin-backed payment SDK for AI agents, enabling API payments via BTC collateral, x402 rails and vault-secured signing without private keys",
+          "hot_score": 682.176151,
+          "lev_url": "https://leviathannews.xyz/258093/hypermoves-n-payment-sdk-lets-autonomous-agents-pay-for-apis-using-bitcoin-as-collateral-without-ever-touching-a-private-key-in-a-single-call-as-the-second-project-in-the-goa",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260617050029_eCvUkPPlQW2h.jpg",
+          "url": "https://x.com/goatnetwork/status/2066888792632377623"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-06-09T12:50:20.408748+00:00",
+          "headline": "Lightning Network is evolving into a Bitcoin-native B2B settlement rail, with average transaction size jumping from $24 to $265 as USDT on RGB unlocks institutional stablecoin payments",
+          "hot_score": 433.087211,
+          "lev_url": "https://leviathannews.xyz/254604/summary-the-lightning-network-has-undergone-a-fundamental-transformation-what-began-as-an-infrastructure-for-micropayments-and-streaming-tips-has-evolved-into-a-high-value-settlem",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260609061736_PTsWv109rEW4.jpg",
+          "url": "https://x.com/obchakevich_/status/2064002266428817843"
+        },
+        {
+          "clicks": 41,
+          "date": "2026-04-28T05:12:18.489652+00:00",
+          "headline": "Japan’s Bitbank launches crypto-linked Visa card enabling users to settle bills directly in Bitcoin from exchange balances, marking a first in the domestic payments market",
+          "hot_score": 353.8,
+          "lev_url": "https://leviathannews.xyz/236916/japans-bitbank-launches-crypto-linked-visa-card-enabling-users-to-settle-bills-directly-in-bitcoin-from-exchange-balances-marking-a-first-in-the-domestic-payments-market",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260428035340_T8gv7_eRBApT.jpg",
+          "url": "https://www.theblock.co/post/399102/japans-bitbank-crypto-credit-card?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 54,
+          "date": "2025-12-05T07:32:08.641706+00:00",
+          "headline": "Putin aide Maxim Oreshkin says crypto should be counted in Russia’s balance of payments, arguing it already influences imports and FX markets. He also calls Bitcoin mining an undervalued export as Russian firms invest over $1.3B in infrastructure.",
+          "hot_score": 87.19722,
+          "lev_url": "https://leviathannews.xyz/21619/putin-aide-maxim-oreshkin-says-crypto-should-be-counted-in-russias-balance-of-payments-arguing-it-already-influences-imports-and-fx-markets-he-also-calls-bitcoin-mining-an-underval",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251204081622_Ab4RAscLDY8=.jpg",
+          "url": "https://www.dlnews.com/articles/markets/putin-aide-says-crypto-belongs-in-russias-trade-books/?utm_source=twitter&utm_medium=organic_social&utm_campaign="
+        },
+        {
+          "clicks": 47,
+          "date": "2026-05-11T21:08:39.381951+00:00",
+          "headline": "GoMining launches GoBTC Pay to bring native instant payments to Bitcoin.",
+          "hot_score": 75.662612,
+          "lev_url": "https://leviathannews.xyz/240515/gomining-launches-gobtc-pay-to-bring-native-instant-payments-to-bitcoin-20260510",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260510231119_Yb-gMo8Prste.jpg",
+          "url": "https://decrypt.co/367297/gomining-launches-gobtc-pay-to-bring-native-instant-payments-to-bitcoin"
+        },
+        {
+          "clicks": 52,
+          "date": "2025-12-16T18:03:47.371523+00:00",
+          "headline": "Russia’s top crypto lawmaker says Bitcoin will never be allowed for payments, insisting goods and services must be paid in rubles. Crypto may only serve as an investment, aligning with the central bank’s long-standing opposition.",
+          "hot_score": 57.685143,
+          "lev_url": "https://leviathannews.xyz/22575/russias-top-crypto-lawmaker-says-bitcoin-will-never-be-allowed-for-payments-insisting-goods-and-services-must-be-paid-in-rubles-crypto-may-only-serve-as-an-investment-aligning-with",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251216180118_JhBeoOUxnTU=.jpg",
+          "url": "https://www.dlnews.com/articles/regulation/russians-will-never-use-crypto-to-make-payments/?utm_source=twitter&utm_medium=organic_social&utm_campaign="
+        },
+        {
+          "clicks": 38,
+          "date": "2026-01-07T17:04:40.875382+00:00",
+          "headline": "Rumble launched Rumble Wallet, a non-custodial crypto wallet enabling creator tips in Bitcoin, USDT and XAUT, built with Tether’s WDK and powered by MoonPay infrastructure. The platform integration targets millions of users seeking new payment and monetization rails.",
+          "hot_score": 49.407124,
+          "lev_url": "https://leviathannews.xyz/23303/rumble-launched-rumble-wallet-a-non-custodial-crypto-wallet-enabling-creator-tips-in-bitcoin-usdt-and-xaut-built-with-tethers-wdk-and-powered-by-moonpay-infrastructure-the-platform",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260107170354_Rp1wXgOBsvY=.jpg",
+          "url": "https://decrypt.co/353852/youtube-rival-rumble-debuts-bitcoin-tether-wallet-crypto-creator-tips"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:05:52.197524+00:00",
+      "editorial": [
+        {
+          "count": 9,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "cryptonews.com"
+        },
+        {
+          "count": 1,
+          "source": "burakkeceli.medium.com"
+        },
+        {
+          "count": 1,
+          "source": "blockchainreporter.net"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "lightspark.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "fintechnews.ae"
+        },
+        {
+          "count": 1,
+          "source": "reuters.com"
+        }
+      ],
+      "editorial_distinct": 14,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 5,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 3,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "techstartups.com"
+        }
+      ],
+      "universe_distinct": 9
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "3a1c3e7cb50bf446dd81ccef05101a79afabcf25f633036360985e8e7f505420",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:52.512081+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.214,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0091,
+        "lift_log": 2.214,
+        "score": 0.2136,
+        "shared": 44
+      },
+      "rationale": "Bitcoin is the underlying asset and network for Bitcoin payments.",
+      "relation_type": "primitive",
+      "slug": "bitcoin",
+      "source": "cotag",
+      "tag_name": "Bitcoin",
+      "title": "Bitcoin, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.281,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0322,
+        "lift_log": 3.497,
+        "score": 0.2813,
+        "shared": 34
+      },
+      "rationale": "Bitcoin payments are a subset of the broader payments category.",
+      "relation_type": "category",
+      "slug": "payments",
+      "source": "cotag",
+      "tag_name": "Payments",
+      "title": "Payments, Explained",
+      "weight": 28
+    },
+    {
+      "confidence": 0.232,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0134,
+        "lift_log": 2.72,
+        "score": 0.2322,
+        "shared": 7
+      },
+      "rationale": "Tether is a stablecoin used for payments, competing with Bitcoin payments.",
+      "relation_type": "peer",
+      "slug": "tether",
+      "source": "cotag",
+      "tag_name": "Tether",
+      "title": "Tether, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "bitcoin-payments",
+  "tag_name": "Bitcoin Payments",
+  "title": "Bitcoin Payments, Explained"
+}

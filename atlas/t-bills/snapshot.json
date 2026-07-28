@@ -1,0 +1,589 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:15:45.530471+00:00",
+      "newsroom_total": 20,
+      "overall_share": 69,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 2
+        }
+      ],
+      "total_universe": 29,
+      "universe_total": 9
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:15:45.182245+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "t-bills",
+          "phrase": "T-Bills are short-term debt securities issued by the US Treasury.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "us-treasury",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "t-bills",
+          "phrase": "Tokenized money market funds often invest in T-Bills to generate yield.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "tokenized-money-market-fund",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "t-bills",
+          "phrase": "T-Bills provide a yield based on their discount rate.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "yield",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "t-bills",
+          "phrase": "Stablecoins and T-Bills are both considered low-risk assets.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "stablecoins",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "t-bills",
+          "phrase": "discount",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "discount",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "T-Bills",
+          "slug": "t-bills",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "US Treasury",
+          "slug": "us-treasury",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Tokenized Money Market Fund",
+          "slug": "tokenized-money-market-fund",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Yield",
+          "slug": "yield",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Stablecoins",
+          "slug": "stablecoins",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Discount",
+          "slug": "discount",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:30:13.616926+00:00",
+      "events": [
+        {
+          "date": "2023-10",
+          "kind": "milestone",
+          "label": "Tokenized T-bills hit $665M on-chain per CoinGecko Q3 report",
+          "source": "https://www.coingecko.com/research/publications/2023-q3-crypto-report"
+        },
+        {
+          "date": "2023-11",
+          "kind": "launch",
+          "label": "Mountain Protocol launches USDM, yield-bearing stablecoin backed by short-dated Treasuries",
+          "source": "https://mountainprotocol.com/usdm/"
+        },
+        {
+          "date": "2024-05",
+          "kind": "milestone",
+          "label": "Tether Q1 2024 attestation: $4.52B profit, highest-ever T-bill ownership percentage",
+          "source": "https://tether.io/news/tether-releases-q1-2024-attestation-reports-record-breaking-4-52-billion-profit-highest-treasury-bill-ownership-percentage-ever-total-group-equity-of-11-37-billion/"
+        },
+        {
+          "date": "2024-08",
+          "kind": "milestone",
+          "label": "Tether Q2 2024 attestation: $5.2B record profit, $72.5B T-bill exposure, ranked 22nd-largest Treasury buyer",
+          "source": "https://tether.io/news/tether-releases-q1-2024-attestation-reports-record-breaking-4-52-billion-profit-highest-treasury-bill-ownership-percentage-ever-total-group-equity-of-11-37-billion/"
+        },
+        {
+          "date": "2024-09",
+          "kind": "launch",
+          "label": "Spiko launches regulated US and EU tokenized T-bill funds on Arbitrum",
+          "source": "https://www.spiko.io/blog/spiko-launches-the-worlds-first-tokenized-money-market-funds"
+        },
+        {
+          "date": "2025-01",
+          "kind": "governance",
+          "label": "Aave V4 auto-reinvestment module proposal: idle liquidity routed into T-bill products",
+          "source": "https://aave.com/blog/aave-v4-reinvestment-module"
+        },
+        {
+          "date": "2025-04",
+          "kind": "regulatory",
+          "label": "Canada proposes federal stablecoin framework requiring full T-bill or liquid-asset backing",
+          "source": "https://cdhowe.org/publication/the-window-is-closing-how-canada-can-shape-the-future-of-stablecoins-and-digital-payments/"
+        },
+        {
+          "date": "2026-05",
+          "kind": "launch",
+          "label": "Pendle lists USDG T-Bill RWA stablecoin, anchoring institutional fixed-income markets on-chain",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:30:13.616760+00:00",
+      "insight": "Readers click T-bill stories not to learn what T-bills are, but to audit whether a specific protocol's T-bill backing is real, independently attested, and large enough to matter — click volume tracks trust-verification anxiety, not yield curiosity.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.coingecko.com/research/publications/2023-q3-crypto-report"
+    },
+    "reader_signal": {
+      "article_count": 22,
+      "as_of": "2026-07-01T12:15:45.987628+00:00",
+      "most_clicked": {
+        "clicks": 562,
+        "date": "2023-10-25T15:11:52.753045+00:00",
+        "headline": "CoinGecko's 2023 Q3 Crypto Industry Report: Tokenized T-bills take the lead in on-chain RWA assets, reaching a staggering $665 million",
+        "lev_url": "https://leviathannews.xyz/3108/coingeckos-2023-q3-crypto-industry-report-tokenized-t-bills-take-the-lead-in-on-chain-rwa-assets-reaching-a-staggering-665-million"
+      },
+      "provenance": "data",
+      "top_decile_share": 33,
+      "total_clicks": 2171
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:30:13.616829+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.coingecko.com/research/publications/2023-q3-crypto-report",
+          "thread": "tokenized RWA market milestones",
+          "why": "The single highest-clicked headline was a quantified market-size moment — $665M on-chain — giving readers a concrete benchmark for how fast institutional assets were moving into DeFi rails."
+        },
+        {
+          "source": "https://tether.io/news/tether-releases-q1-2024-attestation-reports-record-breaking-4-52-billion-profit-highest-treasury-bill-ownership-percentage-ever-total-group-equity-of-11-37-billion/",
+          "thread": "stablecoin reserve attestations",
+          "why": "Multiple Tether attestation headlines and the FDUSD/Justin Sun solvency dispute drew sustained clicks because readers wanted proof, not promises, that dollar-pegged coins were actually backed by T-bills."
+        },
+        {
+          "source": "https://aave.com/blog/aave-v4-reinvestment-module",
+          "thread": "DeFi protocol T-bill integration",
+          "why": "Aave V4 auto-reinvestment, BlackRock BUIDL into Aave GHO, MakerDAO's $100M allocation proposal, and frxUSD's USTB reserve all signaled that blue-chip DeFi was routing idle liquidity into T-bill wrappers as a yield floor."
+        },
+        {
+          "source": "https://realinvestmentadvice.com/resources/blog/buffett-cash-hoard-why-373-billion-sits-on-the-sidelines/",
+          "thread": "institutional and TradFi T-bill signals",
+          "why": "Buffett's $188B T-bill hoard and BofA's stablecoin-driven Treasury demand forecast let crypto readers triangulate whether on-chain T-bill demand was a blip or part of a macro rotation into short-duration safety."
+        },
+        {
+          "source": "https://www.spiko.io/blog/spiko-launches-the-worlds-first-tokenized-money-market-funds",
+          "thread": "multi-chain tokenization launches",
+          "why": "OpenEden on XRP Ledger, Spiko on Arbitrum, and Woo X's retail T-bill product each marked a new chain or audience segment unlocked, making each launch a credible 'first' story readers tracked as market expansion."
+        },
+        {
+          "source": "https://cdhowe.org/publication/the-window-is-closing-how-canada-can-shape-the-future-of-stablecoins-and-digital-payments/",
+          "thread": "stablecoin regulatory frameworks",
+          "why": "Canada's proposed mandatory T-bill backing and BofA's warning that tokenized T-bills threaten money market funds more than sovereign bond markets signaled that regulators and banks were starting to price in on-chain T-bill competition."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:30:13.616842+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract",
+          "level": "Medium",
+          "note": "Tokenized T-bill wrappers (BUIDL, STBT, USDM) add at least one smart-contract layer between the investor and the underlying Treasury, creating upgrade, oracle, and redemption-logic risk absent from direct T-bill ownership.",
+          "source": "https://securitize.io/blackrock/buidl"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Every major tokenized T-bill product relies on a single permissioned issuer for custody and redemption; KYC-gating means on-chain transfers do not guarantee actual liquidity access for secondary holders.",
+          "source": "https://www.matrixdock.com/stbt"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Tokenized T-bill shares are treated as securities in most jurisdictions, creating cross-border compliance friction and leaving retail DeFi integrations in a legal grey zone that no major regulator has fully resolved.",
+          "source": "https://www.spglobal.com/ratings/en/regulatory/article/stablecoins-financial-stability-and-treasuries-whats-next-for-money-and-safe-assets-s101659822"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "On-chain secondary market depth for T-bill tokens is thin relative to the underlying Treasury market; a coordinated redemption wave could force issuers to liquidate T-bill positions at unfavorable prices if settlement windows don't align.",
+          "source": "https://www.coingecko.com/research/publications/rwa-report-2024"
+        },
+        {
+          "dimension": "Market",
+          "level": "Low",
+          "note": "Short-dated T-bills carry near-zero duration risk and are backed by the full faith and credit of the U.S. government, making the underlying asset the most credit-stable collateral class in existence.",
+          "source": "https://www.investopedia.com/terms/t/treasurybill.asp"
+        },
+        {
+          "dimension": "Counterparty",
+          "level": "Medium",
+          "note": "Stablecoin issuers holding T-bills as reserves (Tether, First Digital) introduce a second counterparty layer — the issuer itself — whose solvency, attestation quality, and custodian relationships become systemic risks for the peg.",
+          "source": "https://www.firstdigitallabs.com/fdusd"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:15:45.912036+00:00",
+      "items": [
+        {
+          "clicks": 161,
+          "date": "2026-02-21T14:23:36.833458+00:00",
+          "headline": "Aave founder Kulechov addresses $9B idle liquidity critique, unveiling V4 auto-reinvestment into T-bills to optimize sub-par yield",
+          "hot_score": 225.899898,
+          "lev_url": "https://leviathannews.xyz/31633/gizmothegizzer-aave-aave-v4-reinvestment-feature-will-move-floats-automatically-into-t-bills-and-other-risk-down-strategies",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260221135121_TkdB8ilBnJs=.jpg",
+          "url": "https://x.com/StaniKulechov/status/2025110652218470754?s=20"
+        },
+        {
+          "clicks": 110,
+          "date": "2025-12-17T06:31:56.089185+00:00",
+          "headline": "Canada’s central bank says stablecoins must be fully redeemable at par, backed by liquid assets like T-bills, with clear, fee-free exit rules. Ottawa plans a federal stablecoin framework in 2025 to support payments modernization.",
+          "hot_score": 171.124935,
+          "lev_url": "https://leviathannews.xyz/22598/canadas-central-bank-says-stablecoins-must-be-fully-redeemable-at-par-backed-by-liquid-assets-like-t-bills-with-clear-fee-free-exit-rules-ottawa-plans-a-federal-stablecoin-framewor",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251217062957_aQG_jCjxi_E=.jpg",
+          "url": "https://cryptonews.com/news/canada-central-bank-pushes-strong-reserve-backing-stablecoins/?feed_id=24710&_unique_id=69423126a529b"
+        },
+        {
+          "clicks": 562,
+          "date": "2023-10-25T15:11:52.753045+00:00",
+          "headline": "CoinGecko's 2023 Q3 Crypto Industry Report: Tokenized T-bills take the lead in on-chain RWA assets, reaching a staggering $665 million",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3108/coingeckos-2023-q3-crypto-industry-report-tokenized-t-bills-take-the-lead-in-on-chain-rwa-assets-reaching-a-staggering-665-million",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.coingecko.com/research/publications/2023-q3-crypto-report"
+        },
+        {
+          "clicks": 139,
+          "date": "2024-08-01T14:49:32.235031+00:00",
+          "headline": "OpenEden launches tokenized T-Bills on XRP Ledger",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6490/openeden-launches-tokenized-t-bills-on-xrp-ledger",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://cointelegraph.com/news/openeden-tokenized-tbills-xrp-ledger-ripple-investment"
+        },
+        {
+          "clicks": 131,
+          "date": "2024-07-31T15:46:17.131136+00:00",
+          "headline": "Tether's Q2 2024 attestation reveals a record $5.2 billion profit, highest treasury bill ownership, and nearly $12 billion in consolidated equity.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6473/tethers-q2-2024-attestation-reveals-a-record-52-billion-profit-highest-treasury-bill-ownership-and-nearly-12-billion-in-consolidated-equity",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240731154556_t4sAHPLPJg==.png",
+          "url": "https://tether.io/news/tether-q2-2024-attestation-reports-record-breaking-5-2-billion-profit-in-first-half-of-2024-highest-treasury-bill-ownership-ever-largest-ever-group-consolidated-equity-at-almost-12-billion/"
+        },
+        {
+          "clicks": 130,
+          "date": "2024-05-05T17:57:07.215105+00:00",
+          "headline": "Buffett is hoarding $188 billion in cash in short term U.S. T-bills collecting 5.4% rate.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5199/buffett-is-hoarding-188-billion-in-cash-in-short-term-us-t-bills-collecting-54-rate",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240505175631_42y4Om-1Lw==.jpg",
+          "url": "https://x.com/GregCrennan/status/1787129139490968059"
+        },
+        {
+          "clicks": 105,
+          "date": "2024-05-01T12:12:04.911195+00:00",
+          "headline": "Tether's Q1 2024 attestation reveals record-breaking $4.52 billion profit and highest ever treasury bill ownership percentage",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5142/tethers-q1-2024-attestation-reveals-record-breaking-452-billion-profit-and-highest-ever-treasury-bill-ownership-percentage",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240501121108_kYcR2c6rUg==.png",
+          "url": "https://tether.io/news/tether-releases-q1-2024-attestation-reports-record-breaking-4-52-billion-profit-highest-treasury-bill-ownership-percentage-ever-total-group-equity-of-11-37-billion/"
+        },
+        {
+          "clicks": 103,
+          "date": "2023-09-11T12:54:44.980313+00:00",
+          "headline": "Mountain Protocol launches, a yield bearing stablecoin backed by short-dated US treasury bills",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2560/mountain-protocol-launches-a-yield-bearing-stablecoin-backed-by-short-dated-us-treasury-bills",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://twitter.com/MountainUSDM/status/1701208170931081576"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:15:45.834110+00:00",
+      "editorial": [
+        {
+          "count": 9,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "tether.io"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptorisks.substack.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "cryptonews.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "prnewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "governance.aave.com"
+        },
+        {
+          "count": 1,
+          "source": "coingecko.com"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        }
+      ],
+      "universe_distinct": 3
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "d14b25dbc0dbd5aa7fbb7ed4369cfa45e0cd5c664dd0258f598a137c81a10d5a",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:32.611229+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.238,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0236,
+        "lift_log": 4.936,
+        "score": 0.2379,
+        "shared": 3
+      },
+      "rationale": "Tokenized money market funds often invest in T-Bills to generate yield.",
+      "relation_type": "product",
+      "slug": "tokenized-money-market-fund",
+      "source": "cotag",
+      "tag_name": "Tokenized Money Market Fund",
+      "title": "Tokenized Money Market Fund, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.239,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0257,
+        "lift_log": 4.946,
+        "score": 0.2394,
+        "shared": 6
+      },
+      "rationale": "T-Bills are short-term debt securities issued by the US Treasury.",
+      "relation_type": "category",
+      "slug": "us-treasury",
+      "source": "cotag",
+      "tag_name": "US Treasury",
+      "title": "US Treasury, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.227,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0031,
+        "lift_log": 2.723,
+        "score": 0.2271,
+        "shared": 3
+      },
+      "rationale": "T-Bills provide a yield based on their discount rate.",
+      "relation_type": "primitive",
+      "slug": "yield",
+      "source": "cotag",
+      "tag_name": "Yield",
+      "title": "Yield, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "t-bills",
+  "tag_name": "T-Bills",
+  "title": "T-Bills, Explained"
+}

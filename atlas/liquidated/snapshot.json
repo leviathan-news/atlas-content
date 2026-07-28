@@ -1,0 +1,636 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:11:42.661400+00:00",
+      "newsroom_total": 43,
+      "overall_share": 41,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 20
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 9
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 22
+        }
+      ],
+      "total_universe": 104,
+      "universe_total": 61
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:11:42.280184+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "liquidated",
+          "phrase": "Liquidated is the past event of the liquidation process.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidations",
+          "weight": 37
+        },
+        {
+          "dir": "out",
+          "from": "liquidated",
+          "phrase": "Liquidated is the result of a liquidation event.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidation",
+          "weight": 34
+        },
+        {
+          "dir": "out",
+          "from": "liquidated",
+          "phrase": "Volatility drives liquidations in leveraged positions.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "volatility",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "liquidated",
+          "phrase": "f(x) Protocol offers stablecoin with liquidation mechanisms.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fx-protocol",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "liquidated",
+          "phrase": "Regulation could impact liquidation practices.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "crypto-market-structure-bill",
+          "weight": 20
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Liquidated",
+          "slug": "liquidated",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Liquidations",
+          "slug": "liquidations",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 37
+        },
+        {
+          "center": false,
+          "name": "Liquidation",
+          "slug": "liquidation",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 34
+        },
+        {
+          "center": false,
+          "name": "Volatility",
+          "slug": "volatility",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "f(x) Protocol",
+          "slug": "fx-protocol",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Crypto Market Structure Bill",
+          "slug": "crypto-market-structure-bill",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T09:01:37.581808+00:00",
+      "events": [
+        {
+          "date": "2022-06",
+          "kind": "milestone",
+          "label": "Ethereum lending liquidations spike to cycle high",
+          "source": "https://chain.link/article/liquidation-cascade-crypto-lending"
+        },
+        {
+          "date": "2023-07",
+          "kind": "exploit",
+          "label": "Curve founder Egorov's CRV positions partially liquidated across multiple DeFi protocols after Curve exploit pressures CRV price",
+          "source": "https://info.arkm.com/research/crypto-liquidation-meaning-futures-perpetuals-guide-avoid"
+        },
+        {
+          "date": "2024-04",
+          "kind": "exploit",
+          "label": "ezETH depegs to 0.5 ETH; Pac Finance liquidates $24M with zero user warning after silent LTV adjustment",
+          "source": "https://eco.com/support/en/articles/14800882-best-defi-lending-protocols-2026-tvl-rates-risk"
+        },
+        {
+          "date": "2024-08",
+          "kind": "milestone",
+          "label": "Black Monday: Japan Nikkei crashes 15%, BTC falls 15%, $900M liquidated in crypto in 24 hours",
+          "source": "https://coinmarketcap.com/charts/liquidations/"
+        },
+        {
+          "date": "2025-03",
+          "kind": "milestone",
+          "label": "Trump Truth Social crypto reserve post triggers $500M in short liquidations within hours",
+          "source": "https://www.coinglass.com/liquidations"
+        },
+        {
+          "date": "2025-04",
+          "kind": "milestone",
+          "label": "April Ethereum lending liquidations hit highest monthly volume since June 2022",
+          "source": "https://info.arkm.com/research/crypto-liquidation-meaning-futures-perpetuals-guide-avoid"
+        },
+        {
+          "date": "2025-05",
+          "kind": "milestone",
+          "label": "James Wynn's $99.3M BTC position liquidated on Hyperliquid, becoming one of the largest single named-trader wipeouts on a perp DEX",
+          "source": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/liquidations"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T09:01:37.581662+00:00",
+      "insight": "Readers click liquidation stories not for the mechanics but for the accountability gap: who designed the system that failed, who bore the loss, and whether anyone stepped up — the f(x) resilience story and the Synthetix founder's personal donation to a liquidated treasurer both outperformed raw billion-dollar wipeout headlines, revealing that protocol behavior and human responsibility outrank scale.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://chain.link/article/liquidation-cascade-crypto-lending"
+    },
+    "reader_signal": {
+      "article_count": 43,
+      "as_of": "2026-07-01T12:11:43.276965+00:00",
+      "most_clicked": {
+        "clicks": 569,
+        "date": "2025-02-25T09:05:44.984694+00:00",
+        "headline": "Despite $300 million worth of ETH being liquidated in the last 24 hours, f(x) protocol prevented any losses through flawless rebalances, extra keepers, and fully functional RPCs. Leviathan is sponsored by the f(x) Protocol.",
+        "lev_url": "https://leviathannews.xyz/9527/despite-300-million-worth-of-eth-being-liquidated-in-the-last-24-hours-fx-protocol-prevented-any-losses-through-flawless-rebalances-extra-keepers-and-fully-functional-rpcs-leviatha"
+      },
+      "provenance": "data",
+      "top_decile_share": 31,
+      "total_clicks": 5411
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T09:01:37.581723+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://aave.com/help/borrowing/liquidations",
+          "thread": "Protocol behavior under pressure",
+          "why": "The f(x) vs. Pac Finance contrast — one protocol flawlessly rebalanced through $300M in ETH liquidations while the other silently adjusted LTV parameters with zero user warning — drew readers into a direct comparison of protocol design philosophy and operator accountability."
+        },
+        {
+          "source": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/liquidations",
+          "thread": "Founder and whale positions liquidated",
+          "why": "Named individuals losing massive positions (Curve's Egorov on Llama Lend, James Wynn's $99.3M BTC on Hyperliquid, GMX whale $13M) turned abstract market events into personal narratives readers could follow and judge."
+        },
+        {
+          "source": "",
+          "thread": "Community response to liquidated peers",
+          "why": "The Synthetix founder personally donating funds to an ex-treasurer wiped out by the weekend plunge surfaced a rare moment of DeFi social accountability, making it the second-highest clicked headline in the set."
+        },
+        {
+          "source": "https://www.coinmetro.com/glossary/cascading-liquidations",
+          "thread": "Short squeeze cascade triggers",
+          "why": "Headlines about billions in short positions wiped in hours after a Trump Truth Social post or BTC rally above $71K revealed how concentrated short bets become liquidation fuel, drawing readers who track market structure for trading signals."
+        },
+        {
+          "source": "https://www.coinglass.com/liquidations",
+          "thread": "Aggregate scale: daily Coinglass totals",
+          "why": "Recurring '$X billion liquidated in 24 hours' Coinglass reports drove consistent moderate engagement, functioning as a daily volatility barometer readers check reflexively during turbulent market periods."
+        },
+        {
+          "source": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/liquidations",
+          "thread": "Platform-specific liquidation risk",
+          "why": "Hyperliquid appearing multiple times — $1.07B in 24h, James Wynn's named position — elevated it from a venue to a character, with readers tracking whether a perp DEX handles extreme stress differently than centralized venues."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T09:01:37.581735+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / protocol logic",
+          "level": "High",
+          "note": "Pac Finance's unannounced LTV adjustment that liquidated $24M in ezETH demonstrates that admin-controlled risk parameters can wipe users with no on-chain warning; the risk is not confined to bugs but extends to privileged parameter changes.",
+          "source": "https://aave.com/help/borrowing/liquidations"
+        },
+        {
+          "dimension": "Liquidity / cascade contagion",
+          "level": "High",
+          "note": "Single-day liquidation events routinely exceed $1B across perp and lending markets, and cascading forced sells — where liquidations push prices lower, triggering further liquidations — can compress weeks of losses into 15 minutes, as seen with the $1.4B BTC wipeout.",
+          "source": "https://chain.link/article/liquidation-cascade-crypto-lending"
+        },
+        {
+          "dimension": "Market / volatility",
+          "level": "High",
+          "note": "Correlated macro shocks such as the August 2024 Black Monday session drove BTC down 15% and eliminated $900M in crypto positions within 24 hours, demonstrating that liquidation cascades are not DeFi-isolated events but can be triggered by global equity sell-offs.",
+          "source": "https://coinmarketcap.com/charts/liquidations/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Protocols with admin keys capable of adjusting collateral ratios, liquidation thresholds, or oracle sources mid-session expose users to governance-by-surprise; decentralized alternatives require on-chain votes but introduce slower response to genuine risk.",
+          "source": "https://eco.com/support/en/articles/14800882-best-defi-lending-protocols-2026-tvl-rates-risk"
+        },
+        {
+          "dimension": "Counterparty / venue risk",
+          "level": "Medium",
+          "note": "Centralized exchange liquidation engines (Binance seeing an $8.21M single BTCUSDT liquidation, HTX handling a $98.46M BTC position) operate with proprietary mark-price mechanisms that can diverge from spot, forcing liquidations before on-chain prices would trigger them.",
+          "source": "https://www.binance.com/en/support/faq/detail/360033525271"
+        },
+        {
+          "dimension": "Oracle / price-feed manipulation",
+          "level": "Medium",
+          "note": "LRT depegs such as ezETH briefly trading at 0.5 ETH can cascade into immediate liquidations for any protocol using real-time spot prices as collateral value, even when the depeg is temporary and the underlying asset is not impaired.",
+          "source": "https://info.arkm.com/research/crypto-liquidation-meaning-futures-perpetuals-guide-avoid"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:11:43.131538+00:00",
+      "items": [
+        {
+          "clicks": 569,
+          "date": "2025-02-25T09:05:44.984694+00:00",
+          "headline": "Despite $300 million worth of ETH being liquidated in the last 24 hours, f(x) protocol prevented any losses through flawless rebalances, extra keepers, and fully functional RPCs. Leviathan is sponsored by the f(x) Protocol.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9527/despite-300-million-worth-of-eth-being-liquidated-in-the-last-24-hours-fx-protocol-prevented-any-losses-through-flawless-rebalances-extra-keepers-and-fully-functional-rpcs-leviatha",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250225090532_8_laUwEt2Zo=.jpg",
+          "url": "https://fx.aladdin.club/v2/trade/"
+        },
+        {
+          "clicks": 559,
+          "date": "2024-08-07T15:47:55.321886+00:00",
+          "headline": "Synthetix founder donates funds to ex-treasurer who was liquidated after weekend market plunge.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6580/synthetix-founder-donates-funds-to-ex-treasurer-who-was-liquidated-after-weekend-market-plunge",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240807145834_OcLyGZ_CBQ==.jpg",
+          "url": "https://www.coindesk.com/business/2024/08/07/synthetix-founder-appears-to-have-sent-portion-of-company-funds-to-beleaguered-ex-treasurer-embercn"
+        },
+        {
+          "clicks": 277,
+          "date": "2025-02-28T10:18:30.481479+00:00",
+          "headline": "Another $1 Billion in Crypto liquidated in 24 Hours amid ongoing market turbulence according to Coinglas",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9596/another-1-billion-in-crypto-liquidated-in-24-hours-amid-ongoing-market-turbulence-according-to-coinglas",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250228095739_r0t6PbqVYxM=.jpg",
+          "url": "https://www.coinglass.com/LiquidationData"
+        },
+        {
+          "clicks": 275,
+          "date": "2024-12-10T14:37:43.568903+00:00",
+          "headline": "In the last 24h over 1.07b where liquidated on hyperliquid.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8182/in-the-last-24h-over-107b-where-liquidated-on-hyperliquid",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241210143658_5NkTlg1AAEs=.jpg",
+          "url": "https://stats.hyperliquid.xyz/"
+        },
+        {
+          "clicks": 229,
+          "date": "2025-01-27T08:42:02.821919+00:00",
+          "headline": "Over 313,000 traders were liquidated in the last 24 hours, totaling $850M; 93.4% in longs, with the largest being a $98.46M BTC position on HTX.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8968/over-313000-traders-were-liquidated-in-the-last-24-hours-totaling-850m-934-in-longs-with-the-largest-being-a-9846m-btc-position-on-htx",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250127083716_rncPgd-EZ3c=.jpg",
+          "url": "https://x.com/macbenson01/status/1883795113417290000"
+        },
+        {
+          "clicks": 222,
+          "date": "2024-06-06T10:18:52.238757+00:00",
+          "headline": "Bitcoin options traders anticipate imminent breakout above $74K to new ATHs.  BTC \"ready to squeeze higher\" with some $1.5 billion worth of shorts concentrated around the $72,000 that can be liquidated.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5776/bitcoin-options-traders-anticipate-imminent-breakout-above-74k-to-new-aths-btc-ready-to-squeeze-higher-with-some-15-billion-worth-of-shorts-concentrated-around-the-72000-that-can-b",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240606101741_-uSW5lgu6w==.jpg",
+          "url": "https://www.coindesk.com/markets/2024/06/05/bitcoin-options-traders-anticipate-imminent-breakout-above-74k-to-new-record-prices/"
+        },
+        {
+          "clicks": 221,
+          "date": "2024-09-23T07:22:59.138421+00:00",
+          "headline": "Ether outperforms Bitcoin with a 2.6% gain as Token 2049 and Solana’s Breakpoint conclude in Singapore, while the overall crypto market remains stagnant, and over $64 million in short positions liquidated in the last 12 hours.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7086/ether-outperforms-bitcoin-with-a-26-gain-as-token-2049-and-solanas-breakpoint-conclude-in-singapore-while-the-overall-crypto-market-remains-stagnant-and-over-64-million-in-short-po",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240923071923_F3sDUB7p8Q==.png",
+          "url": "https://www.coindesk.com/markets/2024/09/23/ether-outperforms-bitcoin-as-token-2049-concludes-overall-crypto-market-stays-flat/"
+        },
+        {
+          "clicks": 178,
+          "date": "2024-02-24T16:31:44.575583+00:00",
+          "headline": "Curve Founder Michael Egorov partly liquidated on Llama Lend",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4088/curve-founder-michael-egorov-partly-liquidated-on-llama-lend",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240224163045_XQgtZSbdYA==.jpg",
+          "url": "https://twitter.com/CurveCap/status/1761427321234538762"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:11:43.048235+00:00",
+      "editorial": [
+        {
+          "count": 16,
+          "source": "coinglass.com"
+        },
+        {
+          "count": 13,
+          "source": "x.com"
+        },
+        {
+          "count": 7,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "stats.hyperliquid.xyz"
+        },
+        {
+          "count": 1,
+          "source": "fx.aladdin.club"
+        },
+        {
+          "count": 1,
+          "source": "leviathannews.substack.com"
+        }
+      ],
+      "editorial_distinct": 8,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 56,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "tass.ru"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "2d5c467f2542981edbe160ec47fb0c8ecf623c7268f4944e5cb9e31397ecfd91",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:13.957042+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.21,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0201,
+        "lift_log": 4.364,
+        "score": 0.21,
+        "shared": 3
+      },
+      "rationale": "f(x) Protocol offers stablecoin with liquidation mechanisms.",
+      "relation_type": "peer",
+      "slug": "fx-protocol",
+      "source": "cotag",
+      "tag_name": "f(x) Protocol",
+      "title": "f(x) Protocol, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.34,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0392,
+        "lift_log": 4.82,
+        "score": 0.3399,
+        "shared": 8
+      },
+      "rationale": "Liquidated is the result of a liquidation event.",
+      "relation_type": "primitive",
+      "slug": "liquidation",
+      "source": "cotag",
+      "tag_name": "Liquidation",
+      "title": "Liquidation, Explained",
+      "weight": 34
+    },
+    {
+      "confidence": 0.366,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0528,
+        "lift_log": 5.259,
+        "score": 0.3662,
+        "shared": 7
+      },
+      "rationale": "Liquidated is the past event of the liquidation process.",
+      "relation_type": "primitive",
+      "slug": "liquidations",
+      "source": "cotag",
+      "tag_name": "Liquidations",
+      "title": "Liquidations, Explained",
+      "weight": 37
+    },
+    {
+      "confidence": 0.232,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0061,
+        "lift_log": 2.815,
+        "score": 0.2325,
+        "shared": 3
+      },
+      "rationale": "Volatility drives liquidations in leveraged positions.",
+      "relation_type": "risk",
+      "slug": "volatility",
+      "source": "cotag",
+      "tag_name": "Volatility",
+      "title": "Volatility, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "liquidated",
+  "tag_name": "Liquidated",
+  "title": "Liquidated, Explained"
+}

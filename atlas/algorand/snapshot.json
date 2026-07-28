@@ -1,0 +1,416 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:16:27.059434+00:00",
+      "newsroom_total": 3,
+      "overall_share": 10,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 20,
+          "month": "2026-03",
+          "newsroom": 2,
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 11
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 5
+        }
+      ],
+      "total_universe": 30,
+      "universe_total": 27
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:16:26.735634+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "algorand",
+          "phrase": "Quantum computing poses a potential threat to Algorand's cryptographic security.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "quantum",
+          "weight": 30
+        },
+        {
+          "dir": "out",
+          "from": "algorand",
+          "phrase": "Algorand is developing post-quantum secure signatures to mitigate quantum risks.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "post-quantum",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "algorand",
+          "phrase": "Quantum computing is a threat to blockchain security, including Algorand.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "threat",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "algorand",
+          "phrase": "Google's quantum advancements influence the narrative around quantum threats to Algorand.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "google",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "algorand",
+          "phrase": "agents",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "agents",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Algorand",
+          "slug": "algorand",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "quantum",
+          "slug": "quantum",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 30
+        },
+        {
+          "center": false,
+          "name": "Post-Quantum",
+          "slug": "post-quantum",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Threat",
+          "slug": "threat",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Google",
+          "slug": "google",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:50:01.961140+00:00",
+      "events": [
+        {
+          "date": "2019-06",
+          "kind": "launch",
+          "label": "Algorand mainnet launch, zero downtime record begins",
+          "source": "https://algorand.co/technology/pure-proof-of-stake"
+        },
+        {
+          "date": "2022-01",
+          "kind": "milestone",
+          "label": "Post-quantum cryptography deployed on mainnet",
+          "source": "https://algorand.co/technology/post-quantum"
+        },
+        {
+          "date": "2025-11",
+          "kind": "milestone",
+          "label": "TEAL smart contract language upgraded with quantum-safe primitives",
+          "source": "https://www.prnewswire.com/news-releases/algorand-enhances-teal-smart-contract-language-in-latest-upgrade-301267971.html"
+        },
+        {
+          "date": "2026-01",
+          "kind": "governance",
+          "label": "Algorand Foundation cuts 25% of staff citing macro uncertainty",
+          "source": "https://www.tradingview.com/news/99Bitcoins:ff2e0c441094b:0-algorand-foundation-cuts-25-of-staff-as-crypto-layoffs-continue/"
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Google Quantum AI paper cites Algorand as post-quantum exemplar, ALGO surges 20%",
+          "source": "https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf"
+        },
+        {
+          "date": "2026-04",
+          "kind": "regulatory",
+          "label": "IMF landmark report spotlights Algorand's atomic settlement and programmable compliance",
+          "source": "https://www.elibrary.imf.org/view/journals/068/2026/001/article-A001-en.xml"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "Algorand announces full quantum resistance roadmap targeting 2028",
+          "source": "https://algorand.co/blog/algorand-post-quantum-cryptography-roadmap"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:50:01.960974+00:00",
+      "insight": "Algorand readers split sharply between institutional anxiety (layoffs, macro) and technical credibility (quantum readiness) — the Google citation converted a niche cryptography story into a price catalyst, revealing that Algorand's value proposition lives or dies on external validators, not organic adoption signals.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf"
+    },
+    "reader_signal": {
+      "article_count": 3,
+      "as_of": "2026-07-01T12:16:27.517075+00:00",
+      "most_clicked": {
+        "clicks": 162,
+        "date": "2026-03-18T21:46:51.366002+00:00",
+        "headline": "Algorand Foundation cuts 25% of staff amid macro gloom, joining OP Labs and Messari in crypto layoff streak",
+        "lev_url": "https://leviathannews.xyz/211935/no-headline-20260318"
+      },
+      "provenance": "data",
+      "top_decile_share": 65,
+      "total_clicks": 251
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:50:01.961051+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.tradingview.com/news/99Bitcoins:ff2e0c441094b:0-algorand-foundation-cuts-25-of-staff-as-crypto-layoffs-continue/",
+          "thread": "Foundation layoffs, macro cuts",
+          "why": "A 25% staff reduction at the nonprofit that stewards the protocol raised direct questions about ALGO's long-term development continuity during a broad crypto downturn."
+        },
+        {
+          "source": "",
+          "thread": "AI displacing crypto jobs",
+          "why": "Readers connected Algorand's cuts to a sector-wide pattern of AI integration shrinking headcount, framing the layoffs as structural rather than isolated."
+        },
+        {
+          "source": "https://algorand.co/blog/algorand-post-quantum-cryptography-roadmap",
+          "thread": "Quantum resistance roadmap 2028",
+          "why": "A concrete multi-year cryptographic overhaul with a named deadline gave readers a rare technically specific forward-looking commitment to evaluate."
+        },
+        {
+          "source": "https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf",
+          "thread": "Google quantum paper price spike",
+          "why": "Multiple headlines about the same event show readers tracking the price reaction to Google's citation of Algorand as a post-quantum exemplar — external validation driving short-term trading thesis."
+        },
+        {
+          "source": "https://www.elibrary.imf.org/view/journals/068/2026/001/article-A001-en.xml",
+          "thread": "IMF tokenized finance recognition",
+          "why": "The IMF spotlighting atomic settlement and programmable compliance mapped directly onto Algorand's existing tech stack, giving readers an institutional legitimacy signal."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:50:01.961062+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart Contract",
+          "level": "Low",
+          "note": "TEAL's constrained execution model limits reentrancy and overflow attack surfaces that plague EVM chains, and the language has received iterative security upgrades.",
+          "source": "https://www.prnewswire.com/news-releases/algorand-enhances-teal-smart-contract-language-in-latest-upgrade-301267971.html"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "The Algorand Foundation controls roadmap execution, cryptographic upgrade timelines, and staffing — a 25% headcount cut demonstrated how much protocol momentum depends on one organization's decisions.",
+          "source": "https://www.tradingview.com/news/99Bitcoins:ff2e0c441094b:0-algorand-foundation-cuts-25-of-staff-as-crypto-layoffs-continue/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Low",
+          "note": "IMF recognition of Algorand's atomic settlement and programmable compliance capabilities positions it favorably relative to peers in an environment of tightening oversight.",
+          "source": "https://www.elibrary.imf.org/view/journals/068/2026/001/article-A001-en.xml"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "ALGO demonstrated sharp news-driven price swings — a 20% surge on Google's quantum citation and a 7.44% drop when the rally faded — indicating thin organic buy support beneath headline catalysts.",
+          "source": "https://coinmarketcap.com/currencies/algorand/"
+        },
+        {
+          "dimension": "Quantum / Cryptographic",
+          "level": "Low",
+          "note": "Algorand deployed FALCON signatures, state proofs, and native key rotation on mainnet ahead of peers, and the 2028 full-resistance roadmap is the most detailed public commitment in the sector.",
+          "source": "https://algorand.co/technology/post-quantum"
+        },
+        {
+          "dimension": "Market / Macro",
+          "level": "High",
+          "note": "Algorand price action has correlated tightly with sector-wide risk-off moves and AI-driven hiring contractions, with no dominant use-case narrative to decouple it from broad altcoin drawdowns.",
+          "source": ""
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:16:27.439310+00:00",
+      "items": [
+        {
+          "clicks": 162,
+          "date": "2026-03-18T21:46:51.366002+00:00",
+          "headline": "Algorand Foundation cuts 25% of staff amid macro gloom, joining OP Labs and Messari in crypto layoff streak",
+          "hot_score": 818.978618,
+          "lev_url": "https://leviathannews.xyz/211935/no-headline-20260318",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260318214244_Z4A_e-YeZz81.jpg",
+          "url": "https://x.com/AlgoFoundation/status/2034298850878652616"
+        },
+        {
+          "clicks": 22,
+          "date": "2026-06-18T14:34:06.606345+00:00",
+          "headline": "Algorand targets full quantum resistance by 2028, launching a multi-year cryptographic overhaul as blockchain networks race to prepare for future quantum threats",
+          "hot_score": 664.750861,
+          "lev_url": "https://leviathannews.xyz/258867/no-headline-20260618-5",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260618142819_m8GAKmvtDXLr.jpg",
+          "url": "https://www.coindesk.com/tech/2026/06/18/algorand-unveils-post-quantum-roadmap-to-secure-blockchain-by-2027"
+        },
+        {
+          "clicks": 67,
+          "date": "2026-03-22T10:25:28.980437+00:00",
+          "headline": "Crypto hiring demand drops 80% year over year in early 2026 as job postings fall sharply, while firms like Algorand, Gemini and Crypto.com cut hundreds of roles due to AI integration",
+          "hot_score": 151.869203,
+          "lev_url": "https://leviathannews.xyz/213798/crypto-hiring-demand-drops-80-yoy-in-early-2026-as-job-postings-fall-sharply-while-firms-like-algorand-gemini-and-cryptocom-cut-hundreds-of-roles",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260322102350_laAM4FQMyRLR.jpg",
+          "url": "https://x.com/i/status/2035590146859610374"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:16:27.355412+00:00",
+      "editorial": [
+        {
+          "count": 2,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        }
+      ],
+      "editorial_distinct": 2,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 13,
+          "source": "x.com"
+        },
+        {
+          "count": 8,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "algorand.co"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        }
+      ],
+      "universe_distinct": 7
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "8f51c99990427008407d4721bb8aac1484df63462692e0f691b05153576151b2",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:48.699879+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.244,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.044,
+        "lift_log": 4.853,
+        "score": 0.2439,
+        "shared": 5
+      },
+      "rationale": "Algorand is developing post-quantum secure signatures to mitigate quantum risks.",
+      "relation_type": "primitive",
+      "slug": "post-quantum",
+      "source": "cotag",
+      "tag_name": "Post-Quantum",
+      "title": "Post-Quantum, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.305,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0247,
+        "lift_log": 4.187,
+        "score": 0.3047,
+        "shared": 5
+      },
+      "rationale": "Quantum computing poses a potential threat to Algorand's cryptographic security.",
+      "relation_type": "risk",
+      "slug": "quantum",
+      "source": "cotag",
+      "tag_name": "quantum",
+      "title": "quantum, Explained",
+      "weight": 30
+    }
+  ],
+  "schema_version": 1,
+  "slug": "algorand",
+  "tag_name": "Algorand",
+  "title": "Algorand, Explained"
+}

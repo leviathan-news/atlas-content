@@ -1,0 +1,570 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:12:27.282581+00:00",
+      "newsroom_total": 22,
+      "overall_share": 54,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-02",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 75,
+          "month": "2026-03",
+          "newsroom": 3,
+          "universe": 1
+        },
+        {
+          "ed_share": 23,
+          "month": "2026-04",
+          "newsroom": 3,
+          "universe": 10
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-05",
+          "newsroom": 2,
+          "universe": 4
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 4
+        }
+      ],
+      "total_universe": 41,
+      "universe_total": 19
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:12:27.016638+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "cybersecurity",
+          "phrase": "Anthropic is an AI safety company, comparable to cybersecurity in risk mitigation.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "anthropic",
+          "weight": 29
+        },
+        {
+          "dir": "out",
+          "from": "cybersecurity",
+          "phrase": "Threat is a core concept in cybersecurity, representing potential harm.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "threat",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "cybersecurity",
+          "phrase": "Claude is an AI assistant by Anthropic, used in cybersecurity contexts.",
+          "relation_type": "product",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "claude",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "cybersecurity",
+          "phrase": "OpenAI develops AI models, comparable to cybersecurity in safety focus.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "openai",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "cybersecurity",
+          "phrase": "digital assets",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "digital-assets",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Cybersecurity",
+          "slug": "cybersecurity",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Anthropic",
+          "slug": "anthropic",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 29
+        },
+        {
+          "center": false,
+          "name": "Threat",
+          "slug": "threat",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Claude",
+          "slug": "claude",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "OpenAI",
+          "slug": "openai",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "Digital Assets",
+          "slug": "digital-assets",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T09:28:57.998790+00:00",
+      "events": [
+        {
+          "date": "2026-02",
+          "kind": "exploit",
+          "label": "Safe{Wallet} breach confirmed as state-backed attack by Mandiant forensics",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Claude Mythos leaked via unsecured cache; Anthropic confirms unprecedented cybersecurity risks",
+          "source": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Firepan AI audit of Yield Basis FeeDistributor finds 18 findings including undocumented MEV vector",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "exploit",
+          "label": "LiteLLM PyPI package backdoored to harvest credentials at Python startup",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "regulatory",
+          "label": "IMF warns AI-fueled cyberattacks pose mounting financial stability risks",
+          "source": "https://www.imf.org/en/blogs/articles/2026/05/07/financial-stability-risks-mount-as-artificial-intelligence-fuels-cyberattacks"
+        },
+        {
+          "date": "2026-05",
+          "kind": "launch",
+          "label": "OpenAI scales GPT-5.4-Cyber access to US and UK government agencies",
+          "source": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "OPSeC coalition launched by DeFi Education Fund, SEAL, and Asymmetric Research",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T09:28:57.998592+00:00",
+      "insight": "Readers aren't clicking on breach mechanics — they're clicking on the identity of the attacker: when AI models, North Korean operatives, or state-backed hackers are the named threat, clicks spike; generic 'smart contract risk' stories flatline.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.imf.org/en/blogs/articles/2026/05/07/financial-stability-risks-mount-as-artificial-intelligence-fuels-cyberattacks"
+    },
+    "reader_signal": {
+      "article_count": 22,
+      "as_of": "2026-07-01T12:12:27.734303+00:00",
+      "most_clicked": {
+        "clicks": 177,
+        "date": "2026-05-13T12:01:00.665165+00:00",
+        "headline": "Yield Basis selected Firepan to perform an AI-powered security review of its live mainnet FeeDistributor contract, identifying 18 findings across 22 attack surfaces, including a previously undocumented MEV vector.",
+        "lev_url": "https://leviathannews.xyz/241691/yield-basis-selected-firepan-to-perform-an-ai-powered-security-review-of-its-live-mainnet-feedistributor-contract-identifying-18-findings-across-22-attack-surfaces-including-a-prev"
+      },
+      "provenance": "data",
+      "top_decile_share": 27,
+      "total_clicks": 1234
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T09:28:57.998666+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.imf.org/en/blogs/articles/2026/05/07/financial-stability-risks-mount-as-artificial-intelligence-fuels-cyberattacks",
+          "thread": "AI as dual-use exploit engine",
+          "why": "Claude Mythos finding 271 Firefox vulnerabilities while simultaneously being flagged as an unprecedented cybersecurity risk crystallized the dual-use paradox — the same model that audits contracts could automate attacks at scale."
+        },
+        {
+          "source": "",
+          "thread": "North Korea inside blockchain firms",
+          "why": "The CoinDesk investigation naming over a dozen infiltrated blockchain companies turned an abstract nation-state threat into a specific, accountability-framed story with real legal exposure for those firms."
+        },
+        {
+          "source": "https://www.fortinet.com/resources/cyberglossary/artificial-intelligence-in-cybersecurity",
+          "thread": "AI-native security platforms emerging",
+          "why": "Microsoft Security Copilot, OpenAI's GPT-5.4-Cyber government rollout, and Groom Lake's Reaper reconnaissance platform signaled to readers that the security tooling market is being rebuilt around AI agents, not traditional SIEMs."
+        },
+        {
+          "source": "",
+          "thread": "Smart contract audit methodology gaps",
+          "why": "Firepan's Yield Basis audit surfacing a previously undocumented MEV vector across 22 attack surfaces — on a live mainnet contract — revealed that even professional audits are still discovering new attack classes in production."
+        },
+        {
+          "source": "",
+          "thread": "Scale of 2025 crypto breach losses",
+          "why": "A 37% year-over-year rise to $3.35B stolen across 630+ breaches reframed the annual loss figure from a statistic into an indictment, amplified by the '$3.8B problem nobody talks about' framing."
+        },
+        {
+          "source": "https://www.cybersecuritydive.com/news/trump-scrutiny-cisa-cuts/744619/",
+          "thread": "US government cybersecurity retreat",
+          "why": "CISA gutted by staff cuts, one-third of the US cyber force gone, and the administration sidelining AI security planning gave readers a concrete failure-of-institutions narrative at the moment AI threats are accelerating."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T09:28:57.998679+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "AI-Enabled Exploit Automation",
+          "level": "High",
+          "note": "Models capable of autonomously identifying hundreds of vulnerabilities in mature codebases compress the attacker's time-to-exploit advantage, and the IMF has flagged this as a mounting financial stability risk.",
+          "source": "https://www.imf.org/en/blogs/articles/2026/05/07/financial-stability-risks-mount-as-artificial-intelligence-fuels-cyberattacks"
+        },
+        {
+          "dimension": "State-Actor / Supply Chain",
+          "level": "High",
+          "note": "North Korean IT workers embedded inside blockchain firms and the LiteLLM PyPI backdoor confirm that the attack surface now extends to trusted contributors and package dependencies, not just deployed contracts.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart Contract / Protocol",
+          "level": "High",
+          "note": "Firepan's 2025 retrospective tallied $3.35B stolen across 630+ breaches, with undocumented MEV vectors still found in audited live mainnet contracts.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory / Government Defense",
+          "level": "Medium",
+          "note": "CISA has been weakened by departures and sidelined from AI security planning, while new legislation — the UK Cyber Security and Resilience Bill and the US Treasury Bitcoin custody study — remains reactive rather than preventive.",
+          "source": "https://www.cybersecuritydive.com/news/trump-scrutiny-cisa-cuts/744619/"
+        },
+        {
+          "dimension": "Cross-Chain Bridge / Custody Infrastructure",
+          "level": "Medium",
+          "note": "The Safe{Wallet} February 2026 breach, confirmed by Mandiant as a state-backed attack, demonstrated that audited multisig custody infrastructure is not immune to advanced persistent threat actors.",
+          "source": "https://chain.link/education-hub/cross-chain-bridge-vulnerabilities"
+        },
+        {
+          "dimension": "Quantum Computing Readiness",
+          "level": "Low",
+          "note": "Quantum risk is flagged in Trump's national cybersecurity strategy and S&P Global reporting as an emerging frontier concern, but cryptographic migration timelines are measured in years and no live crypto exploits have materialized.",
+          "source": "https://www.spglobal.com/ratings/en/regulatory/article/the-frontier-of-cyber-risk-crypto-quantum-and-ai-s101671336"
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:12:27.657205+00:00",
+      "items": [
+        {
+          "clicks": 177,
+          "date": "2026-05-13T12:01:00.665165+00:00",
+          "headline": "Yield Basis selected Firepan to perform an AI-powered security review of its live mainnet FeeDistributor contract, identifying 18 findings across 22 attack surfaces, including a previously undocumented MEV vector.",
+          "hot_score": 5708.026403,
+          "lev_url": "https://leviathannews.xyz/241691/yield-basis-selected-firepan-to-perform-an-ai-powered-security-review-of-its-live-mainnet-feedistributor-contract-identifying-18-findings-across-22-attack-surfaces-including-a-prev",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260513105704_recovery.png",
+          "url": "https://firepan.com/case-studies/yieldbasis/"
+        },
+        {
+          "clicks": 51,
+          "date": "2026-04-16T19:41:51.990628+00:00",
+          "headline": "OpenAI expands cybersecurity push with GPT-5.4-Cyber access for US and UK agencies, partnering with banks and tech giants to strengthen global AI defense systems",
+          "hot_score": 2297.429709,
+          "lev_url": "https://leviathannews.xyz/230832/openai-expands-cybersecurity-push-with-gpt-54-cyber-access-for-us-and-uk-agencies-partnering-with-banks-and-tech-giants-to-strengthen-global-ai-defense-systems",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416185833_3ItYzkIGJXfA.jpg",
+          "url": "https://x.com/i/status/2044843235709686065"
+        },
+        {
+          "clicks": 49,
+          "date": "2026-04-22T07:05:47.316186+00:00",
+          "headline": "Anthropic’s Claude Mythos flags 271 Firefox vulnerabilities, showcasing elite AI-driven cybersecurity power while raising fears of automated exploits",
+          "hot_score": 822.8,
+          "lev_url": "https://leviathannews.xyz/234726/anthropics-claude-mythos-flags-271-firefox-vulnerabilities-showcasing-elite-ai-driven-cybersecurity-power-while-raising-fears-of-automated-exploits",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422043118_m7_YAuWQAOFK.jpg",
+          "url": "https://decrypt.co/365099/anthropic-claude-mythos-ai-271-vulnerabilities-firefox-seriously-powerful"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-16T08:43:04.039308+00:00",
+          "headline": "NVIDIA CEO Jensen Huang says China already has the compute capacity to train Claude Mythos-level AI, raising cybersecurity concerns",
+          "hot_score": 699.191276,
+          "lev_url": "https://leviathannews.xyz/230201/nvidia-ceo-jensen-huang-says-china-already-has-the-compute-capacity-to-train-claude-mythos-level-ai-raising-cybersecurity-concerns",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416071141_fFX3tdmFUjWh.jpg",
+          "url": "https://cointelegraph.com/news/china-has-compute-train-its-own-mythos-ai-nvidia-ceo"
+        },
+        {
+          "clicks": 27,
+          "date": "2026-06-23T14:26:19.008746+00:00",
+          "headline": "DeFi Education Fund, SEAL and Asymmetric Research launch OPSeC coalition to boost crypto cybersecurity, educate lawmakers and strengthen protocol defenses",
+          "hot_score": 563.368779,
+          "lev_url": "https://leviathannews.xyz/261058/no-headline-20260623-4",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260623141041_Y_aGWjTcgjUA.jpg",
+          "url": "https://www.theblock.co/post/405698/new-defi-education-fund-coalition-seeks-harden-crypto-against-cybersecurity-threats?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 74,
+          "date": "2026-03-30T13:31:39.523035+00:00",
+          "headline": "Anthropic Mythos leaked via unsecured cache before announcement — company says it poses unprecedented cybersecurity risks",
+          "hot_score": 321.556807,
+          "lev_url": "https://leviathannews.xyz/217726/anthropic-mythos-leaked-via-unsecured-cache-before-announcement-company-says-it-poses-unprecedented-cybersecurity-risks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260330100128_Z4zrlaiDPw==.png",
+          "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
+        },
+        {
+          "clicks": 77,
+          "date": "2026-03-27T07:02:30.810316+00:00",
+          "headline": "Leak exposes Anthropic’s Claude Mythos model as company confirms testing of its most advanced AI, warning of serious cybersecurity implications",
+          "hot_score": 105.362533,
+          "lev_url": "https://leviathannews.xyz/217086/leak-exposes-anthropics-claude-mythos-model-as-company-confirms-testing-of-its-most-advanced-ai-warning-of-serious-cybersecurity-implications",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260327064006_Pwi1VKSnbCc3.jpg",
+          "url": "https://x.com/i/status/2037379327373775299"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-03-24T16:24:27.228032+00:00",
+          "headline": "Attackers backdoored LiteLLM PyPI package to steal credentials on Python startup",
+          "hot_score": 92.891284,
+          "lev_url": "https://leviathannews.xyz/215313/cz-warns-ai-will-accelerate-software-supply-chain-attacks-urging-developers-and-users-to-stay-vigilant-as-malicious-code-risks-grow-across-open-source-and-dependency-ecosystems",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260324162121_W0bvAR4ovefb.jpg",
+          "url": "https://x.com/hnykda/status/2036414330267193815"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:12:27.572924+00:00",
+      "editorial": [
+        {
+          "count": 7,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "axios.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "theguardian.com"
+        },
+        {
+          "count": 1,
+          "source": "itworldcanada.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "theverge.com"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "fortune.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "firepan.com"
+        }
+      ],
+      "editorial_distinct": 12,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 7,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "spglobal.com"
+        },
+        {
+          "count": 1,
+          "source": "orochi.network"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        }
+      ],
+      "universe_distinct": 8
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "edfebd0b3adaa834784e735b494ec7159cf2437800212876adea6d4cd41f280c",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:59.388254+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.289,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0277,
+        "lift_log": 3.809,
+        "score": 0.2889,
+        "shared": 7
+      },
+      "rationale": "Anthropic is an AI safety company, comparable to cybersecurity in risk mitigation.",
+      "relation_type": "peer",
+      "slug": "anthropic",
+      "source": "cotag",
+      "tag_name": "Anthropic",
+      "title": "Anthropic, Explained",
+      "weight": 29
+    },
+    {
+      "confidence": 0.262,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0172,
+        "lift_log": 3.334,
+        "score": 0.2619,
+        "shared": 5
+      },
+      "rationale": "Threat is a core concept in cybersecurity, representing potential harm.",
+      "relation_type": "primitive",
+      "slug": "threat",
+      "source": "cotag",
+      "tag_name": "Threat",
+      "title": "Threat, Explained",
+      "weight": 26
+    }
+  ],
+  "schema_version": 1,
+  "slug": "cybersecurity",
+  "tag_name": "Cybersecurity",
+  "title": "Cybersecurity, Explained"
+}

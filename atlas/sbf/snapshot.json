@@ -1,0 +1,611 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:07:14.651882+00:00",
+      "newsroom_total": 38,
+      "overall_share": 70,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 7,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 38,
+          "month": "2026-02",
+          "newsroom": 3,
+          "universe": 5
+        },
+        {
+          "ed_share": 40,
+          "month": "2026-03",
+          "newsroom": 2,
+          "universe": 3
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 6
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 54,
+      "universe_total": 16
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:07:14.171196+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "sbf",
+          "phrase": "SBF was sentenced to prison after his fraud conviction.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "prison",
+          "weight": 36
+        },
+        {
+          "dir": "out",
+          "from": "sbf",
+          "phrase": "SBF founded and was CEO of FTX exchange.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ftx",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "sbf",
+          "phrase": "SBF's criminal trial concluded with a guilty verdict.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "trial",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "sbf",
+          "phrase": "CZ is a rival exchange founder also facing legal issues.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "cz",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "sbf",
+          "phrase": "SBF was a major political donor influencing policy.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "white-house",
+          "weight": 14
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "SBF",
+          "slug": "sbf",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "prison",
+          "slug": "prison",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 36
+        },
+        {
+          "center": false,
+          "name": "FTX",
+          "slug": "ftx",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "Trial",
+          "slug": "trial",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "CZ",
+          "slug": "cz",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "White House",
+          "slug": "white-house",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T07:15:01.729077+00:00",
+      "events": [
+        {
+          "date": "2019-05",
+          "kind": "launch",
+          "label": "FTX exchange founded by SBF",
+          "source": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+        },
+        {
+          "date": "2022-11",
+          "kind": "regulatory",
+          "label": "FTX files Chapter 11 bankruptcy",
+          "source": "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy/"
+        },
+        {
+          "date": "2022-12",
+          "kind": "regulatory",
+          "label": "SBF arrested in the Bahamas, extradited to US",
+          "source": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+        },
+        {
+          "date": "2023-10",
+          "kind": "regulatory",
+          "label": "Criminal trial begins in SDNY",
+          "source": "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried"
+        },
+        {
+          "date": "2023-11",
+          "kind": "milestone",
+          "label": "SBF convicted on all seven federal counts",
+          "source": "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried"
+        },
+        {
+          "date": "2024-03",
+          "kind": "regulatory",
+          "label": "SBF sentenced to 25 years in federal prison",
+          "source": "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried"
+        },
+        {
+          "date": "2024-09",
+          "kind": "regulatory",
+          "label": "Caroline Ellison sentenced to 2 years after cooperation",
+          "source": ""
+        },
+        {
+          "date": "2025-02",
+          "kind": "regulatory",
+          "label": "SBF files formal pardon application to Trump administration",
+          "source": "https://coinmarketcap.com/academy/article/sbf-files-trump-pardon-bid-while-serving-25-year-term"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T07:15:01.728902+00:00",
+      "insight": "Readers click SBF stories not for fraud mechanics but for the spectacle of a fallen billionaire who keeps trying to game systems — pardon bids, PR campaigns, appeal arguments, and celebrity prison cellmates — revealing a fascination with whether elite manipulation ever truly stops working.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+    },
+    "reader_signal": {
+      "article_count": 38,
+      "as_of": "2026-07-01T12:07:15.289121+00:00",
+      "most_clicked": {
+        "clicks": 874,
+        "date": "2024-09-25T05:11:08.470271+00:00",
+        "headline": "SBF and Sean (P-Diddy) Combs share dormitory-style cell in Brooklyn detention center.",
+        "lev_url": "https://leviathannews.xyz/7110/sbf-and-sean-p-diddy-combs-share-dormitory-style-cell-in-brooklyn-detention-center"
+      },
+      "provenance": "data",
+      "top_decile_share": 37,
+      "total_clicks": 4508
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T07:15:01.728974+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://fortune.com/crypto/2025/04/10/sam-bankman-fried-sbf-ftx-victorville-california-oklahoma-brooklyn/",
+          "thread": "Celebrity prison spectacle",
+          "why": "The P-Diddy cellmate story (874 clicks, the top performer by a factor of 2x) shows readers are drawn to SBF's ongoing life as tabloid fodder, not just legal proceedings."
+        },
+        {
+          "source": "https://coinmarketcap.com/academy/article/sbf-files-trump-pardon-bid-while-serving-25-year-term",
+          "thread": "Trump pardon pursuit",
+          "why": "Multiple articles on SBF lobbying Trump, his mother's public appeals, and senator backlash collectively drew hundreds of clicks, revealing strong reader appetite for whether political access can override a 25-year sentence."
+        },
+        {
+          "source": "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried",
+          "thread": "Sentencing drama arc",
+          "why": "Readers followed the sentencing in real time across at least four separate articles — the live thread, the 20-year report, the corrected 25-year report, and the preview — suggesting high emotional investment in the final number."
+        },
+        {
+          "source": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+          "thread": "SBF image versus reality",
+          "why": "Prosecutors' use of SBF's profanity-laden regulator messages directly punctured his carefully constructed 'effective altruist pro-oversight' persona, which readers found compelling as character exposure."
+        },
+        {
+          "source": "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried",
+          "thread": "Co-conspirator sentencing contrast",
+          "why": "The Caroline Ellison sentencing article — framing her potential zero-prison outcome against SBF's 25 years and Ryan Salame's 7.5 — tapped reader interest in how cooperation deals play out asymmetrically."
+        },
+        {
+          "source": "https://abcnews.com/Business/timeline-cryptocurrency-exchange-ftxs-historic-collapse/story?id=93337035",
+          "thread": "FTX collapse market aftermath",
+          "why": "The Robinhood stock buyback and VC funding drought articles show readers tracking the lasting structural damage FTX caused to crypto capital formation, not just the personal drama."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T07:15:01.728985+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "SBF held de facto unilateral control over FTX customer funds, Alameda Research, and political donation flows with no meaningful board or audit oversight.",
+          "source": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "FTX operated across multiple jurisdictions while SBF actively lobbied regulators, and the collapse triggered sweeping congressional hearings and new exchange oversight frameworks globally.",
+          "source": "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "FTX commingled billions in customer deposits with Alameda trading capital, creating a hidden liquidity crisis that became fatal the moment Binance publicly exited its FTT position.",
+          "source": "https://abcnews.com/Business/timeline-cryptocurrency-exchange-ftxs-historic-collapse/story?id=93337035"
+        },
+        {
+          "dimension": "Market",
+          "level": "High",
+          "note": "The FTX collapse wiped out venture confidence for years, with crypto VC funding failing to recover to pre-FTX levels even as token prices rebounded.",
+          "source": "https://abcnews.com/Business/timeline-cryptocurrency-exchange-ftxs-historic-collapse/story?id=93337035"
+        },
+        {
+          "dimension": "Counterparty",
+          "level": "High",
+          "note": "CZ's decision to liquidate Binance's FTT holdings triggered the bank run, illustrating how a single large counterparty action can cascade into exchange insolvency within 72 hours.",
+          "source": "https://www.binance.com/en/square/post/310154215629890"
+        }
+      ],
+      "sourced": 5,
+      "total": 5
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:07:15.209459+00:00",
+      "items": [
+        {
+          "clicks": 143,
+          "date": "2026-04-08T00:52:52.790946+00:00",
+          "headline": "CZ's memoir reveals SBF asked for billions 'like a bologna sandwich' as FTX imploded",
+          "hot_score": 3018.16133,
+          "lev_url": "https://leviathannews.xyz/223200/czs-memoir-reveals-sbf-asked-for-billions-like-a-bologna-sandwich-as-ftx-imploded",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408005206_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/business/2026/04/07/cz-says-sbf-asked-for-billions-like-a-bologna-sandwich-as-ftx-collapsed"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-05-29T17:35:12.799393+00:00",
+          "headline": "Ex-Celsius CEO Mashinsky files pro se motion to vacate 12-year fraud sentence, blames SBF for CEL manipulation",
+          "hot_score": 450.422642,
+          "lev_url": "https://leviathannews.xyz/250173/ex-celsius-ceo-mashinsky-files-pro-se-motion-to-vacate-12-year-fraud-sentence-blames-sbf-for-cel-manipulation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260529161921_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/celsius-alex-mashinsky-motion-vacate-sentence"
+        },
+        {
+          "clicks": 161,
+          "date": "2026-03-21T17:57:24.189154+00:00",
+          "headline": "SBF's Mom Speaks Out on Potential Trump Pardon",
+          "hot_score": 219.944262,
+          "lev_url": "https://leviathannews.xyz/213520/sbfs-mom-speaks-out-on-potential-trump-pardon",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260321175429_QMWiHmWTgMr3.jpg",
+          "url": "https://x.com/coinage_media/status/2035406226364768302"
+        },
+        {
+          "clicks": 120,
+          "date": "2026-03-15T00:20:47.102060+00:00",
+          "headline": "As slick as ever, SBF oils up President Donald Trump",
+          "hot_score": 196.887279,
+          "lev_url": "https://leviathannews.xyz/209851/as-slick-as-ever-sbf-oils-up-president-donald-trump",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260314194521_Xwq26Izxi30v.jpg",
+          "url": "https://x.com/SBF_FTX/status/2032685330537787689"
+        },
+        {
+          "clicks": 61,
+          "date": "2026-02-27T09:42:41.701798+00:00",
+          "headline": "Senator Lummis torches SBF, blasting the pardon‑seeker by warning her Clarity Act would lock him up longer than 25 years and slamming his failed 2022 bid to buy a softer crypto bill.",
+          "hot_score": 144.792927,
+          "lev_url": "https://leviathannews.xyz/35816/senator-lummis-torches-sbf-blasting-the-pardonseeker-by-warning-her-clarity-act-would-lock-him-up-longer-than-25-years-and-slamming-his-failed-2022-bid-to-buy-a-softer-crypto-bill",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260227094056_t06Xx04HjME=.jpg",
+          "url": "https://x.com/SenLummis/status/2027034522517184633"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-02-10T11:01:56.303163+00:00",
+          "headline": "SBF claims FTX was never truly bankrupt and alleges company lawyers staged a bogus bankruptcy filing to enrich themselves.",
+          "hot_score": 49.976752,
+          "lev_url": "https://leviathannews.xyz/26300/sbf-claims-ftx-was-never-truly-bankrupt-and-alleges-company-lawyers-staged-a-bogus-bankruptcy-filing-to-enrich-themselves",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260210105854_-kEEQnNJ8v8=.png",
+          "url": "https://x.com/SBF_FTX/status/2021165548306907339"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-02-19T15:03:36.105927+00:00",
+          "headline": "SBF claims in his latest X post that a new Second Circuit ruling overturning a conviction for wrongly excluding intent evidence bolsters his own appeal, arguing Judge Kaplan likewise blocked his testimony and key evidence about FTX’s business practices.",
+          "hot_score": 40.01095,
+          "lev_url": "https://leviathannews.xyz/30675/sbf-claims-in-his-latest-x-post-that-a-new-second-circuit-ruling-overturning-a-conviction-for-wrongly-excluding-intent-evidence-bolsters-his-own-appeal-arguing-judge-kaplan-likewis",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260219150226_C6PI9Y0plhE=.png",
+          "url": "https://x.com/SBF_FTX/status/2024472689725850004"
+        },
+        {
+          "clicks": 874,
+          "date": "2024-09-25T05:11:08.470271+00:00",
+          "headline": "SBF and Sean (P-Diddy) Combs share dormitory-style cell in Brooklyn detention center.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7110/sbf-and-sean-p-diddy-combs-share-dormitory-style-cell-in-brooklyn-detention-center",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240925040734_qjRm2ov3Nw==.jpg",
+          "url": "https://www.rollingstone.com/music/music-news/sean-combs-sam-bankman-fried-same-jail-cell-brooklyn-1235110844/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:07:15.124816+00:00",
+      "editorial": [
+        {
+          "count": 19,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "reuters.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 2,
+          "source": "axios.com"
+        },
+        {
+          "count": 1,
+          "source": "docdroid.net"
+        },
+        {
+          "count": 1,
+          "source": "documentcloud.org"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "bloomberg.com"
+        }
+      ],
+      "editorial_distinct": 14,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 12,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "5468a925b2152a4750004c72ffd43f4e261c61d82a022023b3af13e133acd4be",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:26.770127+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.271,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0857,
+        "lift_log": 5.006,
+        "score": 0.2709,
+        "shared": 17
+      },
+      "rationale": "SBF founded and was CEO of FTX exchange.",
+      "relation_type": "product",
+      "slug": "ftx",
+      "source": "cotag",
+      "tag_name": "FTX",
+      "title": "FTX, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.358,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0692,
+        "lift_log": 4.912,
+        "score": 0.3584,
+        "shared": 12
+      },
+      "rationale": "SBF was sentenced to prison after his fraud conviction.",
+      "relation_type": "event",
+      "slug": "prison",
+      "source": "cotag",
+      "tag_name": "prison",
+      "title": "prison, Explained",
+      "weight": 36
+    },
+    {
+      "confidence": 0.205,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.027,
+        "lift_log": 4.187,
+        "score": 0.2052,
+        "shared": 4
+      },
+      "rationale": "SBF's criminal trial concluded with a guilty verdict.",
+      "relation_type": "event",
+      "slug": "trial",
+      "source": "cotag",
+      "tag_name": "Trial",
+      "title": "Trial, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "sbf",
+  "tag_name": "SBF",
+  "title": "SBF, Explained"
+}

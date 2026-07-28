@@ -1,0 +1,485 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:51:32.919141+00:00",
+      "newsroom_total": 33,
+      "overall_share": 12,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-03",
+          "newsroom": 8,
+          "universe": 99
+        },
+        {
+          "ed_share": 26,
+          "month": "2026-04",
+          "newsroom": 14,
+          "universe": 40
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-05",
+          "newsroom": 6,
+          "universe": 48
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-06",
+          "newsroom": 5,
+          "universe": 45
+        }
+      ],
+      "total_universe": 270,
+      "universe_total": 237
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:51:29.581159+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "digital-assets",
+          "phrase": "Surveys gauge public sentiment on digital assets.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "survey",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "digital-assets",
+          "phrase": "Vietnam is a key market for digital asset adoption.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "vietnam",
+          "weight": 14
+        },
+        {
+          "dir": "out",
+          "from": "digital-assets",
+          "phrase": "Congress debates regulations affecting digital assets.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "congress",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "digital-assets",
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "digital-assets",
+          "phrase": "central bank",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "central-bank",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Digital Assets",
+          "slug": "digital-assets",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Survey",
+          "slug": "survey",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "Vietnam",
+          "slug": "vietnam",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        },
+        {
+          "center": false,
+          "name": "Congress",
+          "slug": "congress",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Central Bank",
+          "slug": "central-bank",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T02:36:12.781055+00:00",
+      "events": [
+        {
+          "date": "2024-01",
+          "kind": "regulatory",
+          "label": "SEC approves first US spot Bitcoin ETFs",
+          "source": "https://www.crowdfundinsider.com/2026/06/284099-bitcoin-etf-outflows-reach-4-4b-over-13-days-highlighting-structural-changes-in-digital-assets-markets/"
+        },
+        {
+          "date": "2024-12",
+          "kind": "regulatory",
+          "label": "EU MiCA regulation fully applied across all crypto-asset classes",
+          "source": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/industries/banking-capital-markets/documents/ey-gl-global-stablecoin-regulation-comparison-09-2025.pdf"
+        },
+        {
+          "date": "2025-08",
+          "kind": "regulatory",
+          "label": "US CLARITY Act draft circulated, proposing spot ETP tokens as non-securities",
+          "source": "https://www.arnoldporter.com/en/perspectives/advisories/2025/08/clarifying-the-clarity-act"
+        },
+        {
+          "date": "2026-04",
+          "kind": "regulatory",
+          "label": "Gibson Dunn documents accelerating US digital asset regulatory activity across SEC, CFTC, and OCC",
+          "source": "https://www.gibsondunn.com/digital-assets-recent-updates-april-2026/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Australia passes mandatory financial licensing bill for crypto exchanges and custodians",
+          "source": "https://www.gibsondunn.com/digital-assets-recent-updates-april-2026/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Coinbase secures conditional OCC national trust charter, unifying custody under federal oversight",
+          "source": "https://www.gibsondunn.com/digital-assets-recent-updates-april-2026/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T02:36:12.780903+00:00",
+      "insight": "Readers are not clicking DeFi yields or protocol mechanics — they are clicking gatekeeping events: which legacy institutions (BlackRock, Franklin Templeton, Europe's banks, Japan's asset managers) are formally crossing into digital assets, and which regulatory frameworks (CLARITY Act, MiCA, Australia's license mandate, OCC charter) are legally opening the door for them to do so.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.fidelitydigitalassets.com/research-and-insights/maturation-digital-assets"
+    },
+    "reader_signal": {
+      "article_count": 33,
+      "as_of": "2026-07-01T11:51:35.438249+00:00",
+      "most_clicked": {
+        "clicks": 130,
+        "date": "2026-03-30T05:37:13.895775+00:00",
+        "headline": "BlackRock set to hire Managing Director of Digital Assets to lead crypto, stablecoin, and tokenization strategy, signaling deeper institutional commitment to onchain finance",
+        "lev_url": "https://leviathannews.xyz/217624/blackrock-set-to-hire-managing-director-of-digital-assets-to-lead-crypto-stablecoin-and-tokenization-strategy-signaling-deeper-institutional-commitment-to-onchain-finance"
+      },
+      "provenance": "data",
+      "top_decile_share": 20,
+      "total_clicks": 1645
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T02:36:12.780980+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.fidelitydigitalassets.com/research-and-insights/maturation-digital-assets",
+          "thread": "TradFi institutional entry",
+          "why": "The top-clicked story was BlackRock hiring a digital assets MD, and the cluster of Franklin Templeton, Japan institutional intent, and Europe post-MiCA adoption shows readers are tracking which legacy gatekeepers are formally committing — not just experimenting."
+        },
+        {
+          "source": "https://www.imf.org/en/blogs/articles/2025/12/04/how-stablecoins-can-improve-payments-and-global-finance",
+          "thread": "Stablecoin payment rails",
+          "why": "Thunes/Swift, Crypto.com/KG Inicis, and InterLink Visa stories reveal readers are watching whether stablecoins and crypto actually clear transactions at real merchants and banks — not hypothetically but via named infrastructure deals."
+        },
+        {
+          "source": "https://www.arnoldporter.com/en/perspectives/advisories/2025/08/clarifying-the-clarity-act",
+          "thread": "US regulatory framework race",
+          "why": "The CLARITY Act draft, Bessent's CBDC rejection, Coinbase's OCC charter, and Durbin's opposition bill together drew sustained clicks because readers understand US rule-setting will determine which assets are securities and who can custody them."
+        },
+        {
+          "source": "https://www.pwc.com/us/en/tech-effect/emerging-tech/understanding-cryptocurrency-digital-assets.html",
+          "thread": "Retail platform democratization",
+          "why": "TAP Terminal unifying brokerage and crypto, OnePay adding 10 assets, and Vietnam's SME loan proposal all signal readers are interested in the access layer — when does digital assets investing become as frictionless as a brokerage account."
+        },
+        {
+          "source": "",
+          "thread": "Emerging market infrastructure build-out",
+          "why": "Valr/Onafriq covering 43 African markets, Upbit/ICEx in Indonesia, and Vietnam's SME credit gap story show readers recognize that the next wave of digital asset adoption is being structured in markets where traditional banking underserves."
+        },
+        {
+          "source": "https://www.statestreet.com/cn/en/insights/digital-digest-july-2025-digital-asset-custody",
+          "thread": "Custody as critical infrastructure",
+          "why": "The standalone 'custody is infrastructure to consume, not build' story and Coinbase's OCC conditional trust charter both drew clicks because sophisticated readers understand that key management, regulatory capital, and 24/7 ops are existential risks, not IT decisions."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T02:36:12.780988+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "The US CLARITY Act remains unpasssed as of mid-2026, leaving spot ETP token classification, bank custody permissions, and exchange licensing in legal limbo; international regimes (MiCA, Australia, Russia) are moving faster and diverging in scope.",
+          "source": "https://www.arnoldporter.com/en/perspectives/advisories/2025/08/clarifying-the-clarity-act"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Bitcoin ETF outflows of $4.4B over 13 days in 2026 demonstrated that institutionalized spot product access accelerates capital rotation speed, not just inflow — a sell-off can now be structurally faster than in the pre-ETF era.",
+          "source": "https://www.crowdfundinsider.com/2026/06/284099-bitcoin-etf-outflows-reach-4-4b-over-13-days-highlighting-structural-changes-in-digital-assets-markets/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "As regulated custodians (Coinbase under OCC, bank-affiliated entities post-MiCA) consolidate institutional digital asset holdings, systemic counterparty concentration risk increases even as individual custody key-management risk decreases.",
+          "source": "https://www.statestreet.com/cn/en/insights/digital-digest-july-2025-digital-asset-custody"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Reader-clicked analysis flagged that large equity IPOs (SpaceX, Anthropic) can divert institutional capital from digital assets in the absence of strong ETF inflows, revealing crypto markets are now correlated with macro risk-appetite cycles rather than isolated from them.",
+          "source": "https://www.crowdfundinsider.com/2026/06/284099-bitcoin-etf-outflows-reach-4-4b-over-13-days-highlighting-structural-changes-in-digital-assets-markets/"
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "Low",
+          "note": "The clicked headline set shows virtually no reader interest in protocol-level exploits or DeFi smart-contract risk, suggesting the current digital assets story for this audience is institutional and regulatory, not on-chain technical risk.",
+          "source": ""
+        }
+      ],
+      "sourced": 4,
+      "total": 5
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:51:35.351267+00:00",
+      "items": [
+        {
+          "clicks": 71,
+          "date": "2026-04-15T12:08:24.332810+00:00",
+          "headline": "Franklin Templeton Digital Assets warns AI could pressure private credit and DeFi ecosystems, with insights from Roger Bayston on shifting financial conditions",
+          "hot_score": 5972.112684,
+          "lev_url": "https://leviathannews.xyz/229463/franklin-templeton-digital-assets-warns-ai-could-pressure-private-credit-and-defi-ecosystems-with-insights-from-roger-bayston-on-shifting-financial-conditions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415112020_c3n2EsyUKgay.jpg",
+          "url": "https://x.com/i/status/2044037960295731715"
+        },
+        {
+          "clicks": 106,
+          "date": "2026-04-16T04:16:55.211962+00:00",
+          "headline": "TAP, Inc. launches TAP Terminal, unifying brokerage and digital assets for retail investors",
+          "hot_score": 3712.340611,
+          "lev_url": "https://leviathannews.xyz/230106/tap-inc-launches-tap-terminal-a-unified-financial-platform-designed-to-serve-an-estimated-300-million-global-retail-investors",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416003429_Yabbk2ew-3X7.jpg",
+          "url": "https://x.com/TAPinvest/status/2044526258936287420"
+        },
+        {
+          "clicks": 43,
+          "date": "2026-04-10T14:07:44.113750+00:00",
+          "headline": "Valr and Onafriq partner to enable mobile money funding for crypto accounts across 43 African markets.",
+          "hot_score": 2347.933524,
+          "lev_url": "https://leviathannews.xyz/226020/valr-and-onafriq-deliver-mobile-money-access-to-digital-assets-for-millions-across-africa",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410132704_34eV4yQvOzS9.jpg",
+          "url": "https://blog.valr.com/blog/valr-and-onafriq-deliver-mobile-money-access-to-digital-assets-for-millions-across-africa"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-04-21T14:15:47.574046+00:00",
+          "headline": "Nearly 80% of Japan’s institutional investors plan to add crypto within three years, signaling a major shift toward digital assets adoption",
+          "hot_score": 881.6,
+          "lev_url": "https://leviathannews.xyz/234263/nearly-80-of-japans-institutional-investors-plan-to-add-crypto-within-three-years-signaling-a-major-shift-toward-digital-assets-adoption",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421125301_Sg1iToiRed3Z.jpg",
+          "url": "https://www.coindesk.com/markets/2026/04/21/almost-80-of-japanese-institutional-investors-are-eyeing-crypto-for-their-portfolios-by-2029"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-04-22T07:39:52.101675+00:00",
+          "headline": "Russia passes crypto bill in first reading, allowing digital assets for foreign trade while banning domestic payments in bid to control circulation",
+          "hot_score": 780.2,
+          "lev_url": "https://leviathannews.xyz/234799/russia-passes-crypto-bill-in-first-reading-allowing-digital-assets-for-foreign-trade-while-banning-domestic-payments-in-bid-to-control-circulation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422073913_vwqFYSIijriT.jpg",
+          "url": "https://www.theblock.co/post/398402/russias-crypto-bill-first-reading?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-05-26T08:50:26.299592+00:00",
+          "headline": "Franklin Templeton doubles down on crypto adoption, saying digital assets are here to stay as it pushes traditional finance further onchain through its Benji platform",
+          "hot_score": 758.664444,
+          "lev_url": "https://leviathannews.xyz/248273/franklin-templeton-doubles-down-on-crypto-adoption-saying-digital-assets-are-here-to-stay-as-it-pushes-traditional-finance-further-onchain-through-its-benji-platform",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260526083143_0pwEZziOqKM5.jpg",
+          "url": "https://x.com/i/web/status/2058926070326272067"
+        },
+        {
+          "clicks": 48,
+          "date": "2026-05-15T22:29:12.774168+00:00",
+          "headline": "a16z says the CLARITY Act could become crypto’s “1933 Securities Act moment,” creating clear US rules for blockchain networks, builders and digital assets",
+          "hot_score": 727.4,
+          "lev_url": "https://leviathannews.xyz/243190/a16z-says-the-clarity-act-could-become-cryptos-1933-securities-act-moment-creating-clear-us-rules-for-blockchain-networks-builders-and-digital-assets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260515222021_DL6YTvBvP7tJ.jpg",
+          "url": "https://x.com/i/web/status/2055298486543728864"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-05-30T13:13:30.066408+00:00",
+          "headline": "Binance executive Catherine Chen says Wall Street and corporate giants won’t take over crypto despite deeper integration between digital assets and traditional finance",
+          "hot_score": 710.618819,
+          "lev_url": "https://leviathannews.xyz/250495/established-crypto-firms-will-merge-with-traditional-finance-but-neither-wall-street-bankers-nor-corporate-giants-will-take-over-the-crypto-industry-said-binances-head-of-vip-an",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260530130901_zcAd-yR0xc9B.jpg",
+          "url": "https://www.coindesk.com/business/2026/05/26/when-the-market-is-bad-we-build-inside-binance-s-bold-2030-master-plan"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:51:35.195701+00:00",
+      "editorial": [
+        {
+          "count": 10,
+          "source": "x.com"
+        },
+        {
+          "count": 6,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 5,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "prnewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "koreaherald.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "perpetuals.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.valr.com"
+        },
+        {
+          "count": 1,
+          "source": "thunes.com"
+        },
+        {
+          "count": 1,
+          "source": "punchbowl.news"
+        },
+        {
+          "count": 1,
+          "source": "onepay.com"
+        },
+        {
+          "count": 1,
+          "source": "globenewswire.com"
+        }
+      ],
+      "editorial_distinct": 14,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 175,
+          "source": "x.com"
+        },
+        {
+          "count": 24,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 7,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 3,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "forbes.com"
+        },
+        {
+          "count": 1,
+          "source": "circle.com"
+        },
+        {
+          "count": 1,
+          "source": "fnlondon.com"
+        }
+      ],
+      "universe_distinct": 22
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "ecc4d336b7945ac950f5d2fd4384eced946f8cf200b18cb7a92cf0f3cffe8223",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:00.907630+00:00"
+  },
+  "relations": [],
+  "schema_version": 1,
+  "slug": "digital-assets",
+  "tag_name": "Digital Assets",
+  "title": "Digital Assets, Explained"
+}

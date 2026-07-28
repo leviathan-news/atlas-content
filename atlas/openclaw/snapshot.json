@@ -1,0 +1,518 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:59:01.538485+00:00",
+      "newsroom_total": 23,
+      "overall_share": 21,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 41,
+          "month": "2026-02",
+          "newsroom": 11,
+          "universe": 16
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-03",
+          "newsroom": 6,
+          "universe": 43
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-04",
+          "newsroom": 5,
+          "universe": 15
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 4
+        }
+      ],
+      "total_universe": 107,
+      "universe_total": 84
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:59:00.768403+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "openclaw",
+          "phrase": "OpenClaw likely integrates with or builds agents.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "agent",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "openclaw",
+          "phrase": "LLMs are foundational infrastructure for OpenClaw's functionality.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "llm",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "openclaw",
+          "phrase": "OpenClaw is a platform for creating agents.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "agents",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "openclaw",
+          "phrase": "Memory is a core primitive for agent persistence.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "memory",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "openclaw",
+          "phrase": "Claude may be an integrated LLM provider.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "claude",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "OpenClaw",
+          "slug": "openclaw",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Agent",
+          "slug": "agent",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "LLM",
+          "slug": "llm",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Memory",
+          "slug": "memory",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Claude",
+          "slug": "claude",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T03:58:02.001948+00:00",
+      "events": [
+        {
+          "date": "2026-01",
+          "kind": "milestone",
+          "label": "Baidu embeds OpenClaw into main search app ahead of Lunar New Year",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "OpenClaw releases v2026.3.12 with Dashboard v2 and 100+ security fixes",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Shanghai Developer Exchange at West Bund AI Tower",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "exploit",
+          "label": "Civic publishes audit: 40,000 exposed instances, 1,000+ malicious skills, CVSS 9.9",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "exploit",
+          "label": "Malicious npm package impersonating OpenClaw installer discovered deploying RAT",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "exploit",
+          "label": "ClawJacked exploit reported: 40,000 AI agent systems allegedly compromised",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "regulatory",
+          "label": "Anthropic pulls Claude subscription support from OpenClaw and third-party tools with 24h notice",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "governance",
+          "label": "Claw Wars: 11 OpenClaw spin-offs emerge targeting security and cost gaps",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T03:58:02.001688+00:00",
+      "insight": "Readers click OpenClaw security stories not for the vulnerability mechanics but because OpenClaw agents hold live crypto wallets and cloud credentials, turning every exploit into an immediate personal financial threat — the platform's attack surface is a direct extension of its users' assets.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 32,
+      "as_of": "2026-07-01T11:59:02.665987+00:00",
+      "most_clicked": {
+        "clicks": 131,
+        "date": "2026-03-04T08:21:08.737694+00:00",
+        "headline": "OpenClaw hit by “ClawJacked” exploit: 40,000 AI agent systems allegedly compromised via silent web-based takeover bug, as users debate whether viral warning is real fix or social-engineering hoax",
+        "lev_url": "https://leviathannews.xyz/39980/openclaw-hit-by-clawjacked-exploit-40000-ai-agent-systems-allegedly-compromised-via-silent-web-based-takeover-bug-as-users-debate-whether-viral-warning-is-real-fix-or-social-engine"
+      },
+      "provenance": "data",
+      "top_decile_share": 22,
+      "total_clicks": 1575
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T03:58:02.001809+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "ClawJacked exploit blast radius",
+          "why": "40,000 allegedly compromised AI agent systems made the scale feel systemic rather than isolated, and the hoax-vs-real-warning debate kept readers checking back for resolution."
+        },
+        {
+          "source": "",
+          "thread": "Supply chain poisoning via npm",
+          "why": "A trojanized installer stealing crypto wallets, macOS Keychain, and cloud credentials hit the exact audience installing OpenClaw — readers recognized themselves as the target."
+        },
+        {
+          "source": "",
+          "thread": "Anthropic platform dependency risk",
+          "why": "A 24-hour notice pulling Claude subscription support from third-party tools exposed how single-vendor dependency can instantly strand an entire developer ecosystem."
+        },
+        {
+          "source": "",
+          "thread": "Claw Wars ecosystem fragmentation",
+          "why": "Eleven lean spin-offs emerging simultaneously signaled that OpenClaw's security and cost problems were severe enough to fracture its own community into competing alternatives."
+        },
+        {
+          "source": "",
+          "thread": "On-chain DeFi agent integrations",
+          "why": "ObolClaw, SerenAI Polymarket skills, and MoonPay payments showed readers a concrete path from AI agent to live on-chain execution, making the financial stakes of security gaps tangible."
+        },
+        {
+          "source": "",
+          "thread": "Civic/CVSS 9.9 institutional audit",
+          "why": "A named security firm citing over 1,000 malicious skills and a near-maximum CVSS score gave credibility to fears that had previously been dismissed as FUD."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T03:58:02.001820+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / wallet exposure",
+          "level": "High",
+          "note": "OpenClaw agents are routinely provisioned with live wallet private keys and on-chain signing capabilities, meaning a single agent compromise translates directly to fund loss.",
+          "source": ""
+        },
+        {
+          "dimension": "Supply chain",
+          "level": "High",
+          "note": "Malicious npm packages mimicking the official installer and a ClawHub flaw enabling faked skill downloads demonstrate an actively exploited and wide software supply chain attack surface.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization / platform dependency",
+          "level": "High",
+          "note": "Anthropic's ability to revoke Claude access from third-party tools with 24-hour notice creates a single point of failure that can render the entire agent framework non-functional overnight.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Baidu's mass-market deployment across 700 million Chinese users and MoonPay's in-agent crypto purchases draw the platform into cross-jurisdictional payment and AI regulatory scrutiny.",
+          "source": ""
+        },
+        {
+          "dimension": "Operational security (opsec)",
+          "level": "High",
+          "note": "The Owocki Bot incident — a real project exposing its wallet private key in a public git commit — illustrates that developer opsec failures are a routine, not edge-case, risk vector.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / fragmentation",
+          "level": "Medium",
+          "note": "Eleven competing spin-offs emerging simultaneously introduces liquidity fragmentation across ecosystems and raises the risk that tooling and skills built for one fork become incompatible with another.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:59:02.585935+00:00",
+      "items": [
+        {
+          "clicks": 91,
+          "date": "2026-04-08T19:15:56.296541+00:00",
+          "headline": "Civic flags critical OpenClaw security gaps including 40,000 exposed instances, over 1,000 malicious skills, and a 9.9 CVSS vulnerability",
+          "hot_score": 341942.110751,
+          "lev_url": "https://leviathannews.xyz/224140/40000-openclaw-instances-exposed-online-1184-malicious-skills-on-clawhub-a-99-cvss-vulnerability-picking-the-right-host-wont-fix-any-of-that-we-wrote-about-what-hosting",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408191411_KRWk_xMrcKqJ.jpg",
+          "url": "https://x.com/civickey/status/2041953920046502207"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-04-21T05:37:54.400620+00:00",
+          "headline": "MoonPay integrates crypto payments into OpenClaw AI agents on Rumble Cloud, enabling users to buy, swap, and manage crypto directly via chat with zero setup",
+          "hot_score": 921.2,
+          "lev_url": "https://leviathannews.xyz/234042/moonpay-integrates-crypto-payments-into-openclaw-ai-agents-on-rumble-cloud-enabling-users-to-buy-swap-and-manage-crypto-directly-via-chat-with-zero-setup",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421050433_IJucCpoo2Omn.jpg",
+          "url": "https://x.com/i/status/2046338124759117964"
+        },
+        {
+          "clicks": 131,
+          "date": "2026-03-04T08:21:08.737694+00:00",
+          "headline": "OpenClaw hit by “ClawJacked” exploit: 40,000 AI agent systems allegedly compromised via silent web-based takeover bug, as users debate whether viral warning is real fix or social-engineering hoax",
+          "hot_score": 826.154224,
+          "lev_url": "https://leviathannews.xyz/39980/openclaw-hit-by-clawjacked-exploit-40000-ai-agent-systems-allegedly-compromised-via-silent-web-based-takeover-bug-as-users-debate-whether-viral-warning-is-real-fix-or-social-engine",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260304081914_tB_WL2Do9-U=.jpg",
+          "url": "https://x.com/zaimiri/status/2029019676601401827"
+        },
+        {
+          "clicks": 71,
+          "date": "2026-05-11T07:12:26.804711+00:00",
+          "headline": "CoinGecko unveils guide linking its market data APIs with OpenClaw AI agents for real-time crypto monitoring, automation and custom trading workflows",
+          "hot_score": 766.90602,
+          "lev_url": "https://leviathannews.xyz/240571/real-time-crypto-ai-agents-are-only-as-good-as-the-market-data-powering-them-in-this-article-we-break-down-how-to-connect-coingecko-api-tools-to-openclaw-for-market-monitoring-cust",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260511070155_h9J_9dcPOIXg.jpg",
+          "url": "https://x.com/coingecko/status/2053580909102985510"
+        },
+        {
+          "clicks": 72,
+          "date": "2026-03-17T12:39:18.081625+00:00",
+          "headline": "Pieverse launches Purr-Fect Claw: The first \"on-chain OpenClaw\" infrastructure for Line, Kakao, WhatsApp.",
+          "hot_score": 352.191784,
+          "lev_url": "https://leviathannews.xyz/210791/pieverse-launches-purr-fect-claw-the-first-on-chain-openclaw-infrastructure-for-line-kakao-whatsapp-20260317",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260317105348_0FDC7sx0bC12.jpg",
+          "url": "https://x.com/pieverse_io/status/2033791178156757094"
+        },
+        {
+          "clicks": 92,
+          "date": "2026-03-13T06:38:40.670637+00:00",
+          "headline": "FlashLabs launches FlashClaw - One-click cloud hosting for OpenClaw agents.",
+          "hot_score": 333.998002,
+          "lev_url": "https://leviathannews.xyz/209098/flashlabs-launches-flashclaw-one-click-cloud-hosting-for-openclaw-agents",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260313010443_T6Sh7oY0Sch1.jpg",
+          "url": "https://www.prnewswire.com/news-releases/flashlabs-launches-flashclaw---one-click-cloud-hosting-for-openclaw-agents-302712011.html"
+        },
+        {
+          "clicks": 69,
+          "date": "2026-03-05T21:31:27.572543+00:00",
+          "headline": "SerenAI launches Polymarket strategy skills with x402 & Openclaw:",
+          "hot_score": 291.75315,
+          "lev_url": "https://leviathannews.xyz/41879/serenai-launches-polymarket-strategy-skills-with-x402-openclaw",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260305211208_BcnY1m0iXTc=.jpg",
+          "url": "https://serendb.com/blog/seren-polymarket-strategy-skills"
+        },
+        {
+          "clicks": 69,
+          "date": "2026-02-25T09:34:00.850495+00:00",
+          "headline": "ObolClaw launches as Obol Stack adds native OpenClaw support, giving AI agents wallets, RPC access, and onchain skills to power Ethereum.",
+          "hot_score": 190.827651,
+          "lev_url": "https://leviathannews.xyz/33736/obolclaw-launches-as-obol-stack-adds-native-openclaw-support-giving-ai-agents-wallets-rpc-access-and-onchain-skills-to-power-ethereum",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260225091259_muSrKGP8wD8=.jpg",
+          "url": "https://x.com/i/status/2026326274680017344"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:59:02.402810+00:00",
+      "editorial": [
+        {
+          "count": 16,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "serendb.com"
+        },
+        {
+          "count": 1,
+          "source": "coinage.substack.com"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "alphanometech.substack.com"
+        },
+        {
+          "count": 1,
+          "source": "thehackernews.com"
+        },
+        {
+          "count": 1,
+          "source": "prnewswire.com"
+        }
+      ],
+      "editorial_distinct": 7,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 59,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 3,
+          "source": "civic.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "aethir.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "multiversx.com"
+        },
+        {
+          "count": 1,
+          "source": "phala.com"
+        },
+        {
+          "count": 1,
+          "source": "saharaai.com"
+        },
+        {
+          "count": 1,
+          "source": "treeofalpha.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        }
+      ],
+      "universe_distinct": 17
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "0ab19754063343a296d28cce509601c498e530ad88c86e115c22f98b6e4b500b",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:22:19.908151+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.264,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0358,
+        "lift_log": 3.141,
+        "score": 0.2644,
+        "shared": 21
+      },
+      "rationale": "OpenClaw likely integrates with or builds agents.",
+      "relation_type": "ecosystem",
+      "slug": "agent",
+      "source": "cotag",
+      "tag_name": "Agent",
+      "title": "Agent, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.22,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0389,
+        "lift_log": 4.374,
+        "score": 0.2196,
+        "shared": 5
+      },
+      "rationale": "LLMs are foundational infrastructure for OpenClaw's functionality.",
+      "relation_type": "infrastructure",
+      "slug": "llm",
+      "source": "cotag",
+      "tag_name": "LLM",
+      "title": "LLM, Explained",
+      "weight": 22
+    }
+  ],
+  "schema_version": 1,
+  "slug": "openclaw",
+  "tag_name": "OpenClaw",
+  "title": "OpenClaw, Explained"
+}

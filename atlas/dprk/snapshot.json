@@ -1,0 +1,585 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:14:09.298607+00:00",
+      "newsroom_total": 18,
+      "overall_share": 51,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-03",
+          "newsroom": 2,
+          "universe": 2
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-04",
+          "newsroom": 3,
+          "universe": 12
+        },
+        {
+          "ed_share": 67,
+          "month": "2026-05",
+          "newsroom": 4,
+          "universe": 2
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 1
+        }
+      ],
+      "total_universe": 35,
+      "universe_total": 17
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:14:08.997291+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "dprk",
+          "phrase": "DPRK is the official name for North Korea.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "north-korea",
+          "weight": 33
+        },
+        {
+          "dir": "out",
+          "from": "dprk",
+          "phrase": "DPRK hackers use social engineering in attacks.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "social-engineering",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "dprk",
+          "phrase": "DPRK develops and deploys malware.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "malware",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "dprk",
+          "phrase": "DPRK is associated with state-sponsored hackers.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "hacker",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "dprk",
+          "phrase": "DPRK exploits vulnerabilities in systems.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "vulnerability",
+          "weight": 20
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "DPRK",
+          "slug": "dprk",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "North Korea",
+          "slug": "north-korea",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 33
+        },
+        {
+          "center": false,
+          "name": "Social Engineering",
+          "slug": "social-engineering",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "malware",
+          "slug": "malware",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Hacker",
+          "slug": "hacker",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "vulnerability",
+          "slug": "vulnerability",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:41:51.278353+00:00",
+      "events": [
+        {
+          "date": "2023-06",
+          "kind": "exploit",
+          "label": "Atomic Wallet hack; Andreyev BTC address later tied to proceeds",
+          "source": "https://home.treasury.gov/news/press-releases/jy0916"
+        },
+        {
+          "date": "2024-02",
+          "kind": "exploit",
+          "label": "Bybit $1.5B ETH hack attributed to DPRK Lazarus Group",
+          "source": "https://www.chainalysis.com/blog/crypto-hacking-stolen-funds-2026/"
+        },
+        {
+          "date": "2024-05",
+          "kind": "regulatory",
+          "label": "UN Security Council report documents DPRK $3B+ cumulative crypto theft",
+          "source": "https://www.securitycouncilreport.org/monthly-forecast/2024-05/dprk-north-korea-26.php"
+        },
+        {
+          "date": "2025-02",
+          "kind": "milestone",
+          "label": "ZachXBT exposes 390-account DPRK IT worker network earning ~$1M/month",
+          "source": "https://www.trmlabs.com/resources/blog/north-korea-and-the-industrialization-of-cryptocurrency-theft"
+        },
+        {
+          "date": "2025-09",
+          "kind": "exploit",
+          "label": "THORChain/Vultisig co-founder JP loses $1.35M via Telegram call scam",
+          "source": ""
+        },
+        {
+          "date": "2025-12",
+          "kind": "exploit",
+          "label": "Drift Protocol $285M–$295M DPRK heist after 6-month insider dwell",
+          "source": "https://www.trmlabs.com/resources/blog/north-korean-hackers-attack-drift-protocol-in-285-million-heist?scLang=en"
+        },
+        {
+          "date": "2026-04",
+          "kind": "exploit",
+          "label": "KelpDAO/LayerZero $290M+ exploit attributed to DPRK Lazarus Group via poisoned DVN infrastructure",
+          "source": "https://www.chainalysis.com/blog/kelpdao-bridge-exploit-april-2026/"
+        },
+        {
+          "date": "2026-04",
+          "kind": "regulatory",
+          "label": "Chainalysis signs KNPA MOU to train Korean police on DPRK crypto tracing",
+          "source": "https://www.chainalysis.com/blog/chainalysis-and-the-korean-national-police-agency-knpa-sign-mou-to-strengthen-virtual-asset-investigation-capabilities/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:41:51.278189+00:00",
+      "insight": "Readers click DPRK crypto stories not for the hacks themselves but for the infiltration angle — the revelation that North Korean operatives are already inside the protocols, firms, and even personal networks they use.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.trmlabs.com/resources/blog/north-korean-hackers-attack-drift-protocol-in-285-million-heist?scLang=en"
+    },
+    "reader_signal": {
+      "article_count": 18,
+      "as_of": "2026-07-01T12:14:09.856691+00:00",
+      "most_clicked": {
+        "clicks": 149,
+        "date": "2025-09-12T08:36:03.011897+00:00",
+        "headline": "JP (THORChain co-founder & Vultisig co-founder) had a personal wallet drained for $1.35M by DPRK on September 9, 2025 after a meeting call scam on Telegram.",
+        "lev_url": "https://leviathannews.xyz/16496/jp-thorchain-co-founder-vultisig-co-founder-had-a-personal-wallet-drained-for-135m-by-dprk-on-september-9-2025-after-a-meeting-call-scam-on-telegram-ironically-jp-and-his-p"
+      },
+      "provenance": "data",
+      "top_decile_share": 12,
+      "total_clicks": 1210
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:41:51.278263+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.trmlabs.com/resources/blog/north-korean-hackers-attack-drift-protocol-in-285-million-heist?scLang=en",
+          "thread": "insider infiltration of DeFi teams",
+          "why": "The Drift six-month dwell-time story and the 40+ DeFi teams finding hit readers hardest because it reframes DPRK from external attacker to embedded insider threat."
+        },
+        {
+          "source": "https://holder.io/news/ethereum-dprk-crypto-infiltration/",
+          "thread": "IT worker network exposure",
+          "why": "ZachXBT's 390-account network and the Ethereum Foundation's ETH Rangers closing report gave readers named, quantified operations — accountability they could track."
+        },
+        {
+          "source": "",
+          "thread": "social engineering personal wallets",
+          "why": "JP's $1.35M Telegram call scam drained by DPRK made the threat personal — a named, respected founder targeted via a routine meeting, not a protocol flaw."
+        },
+        {
+          "source": "https://www.chainalysis.com/blog/kelpdao-bridge-exploit-april-2026/",
+          "thread": "bridge and cross-chain exploit mechanics",
+          "why": "The KelpDAO/LayerZero $290M+ breach and its DVN default exposure showed readers how cross-chain infrastructure is the new attack surface for state-level hackers."
+        },
+        {
+          "source": "https://home.treasury.gov/news/press-releases/jy0916",
+          "thread": "sanctions and laundering countermeasures",
+          "why": "OFAC sanctions, Treasury mixer testimony, and the Bybit ETH laundering trail gave readers the enforcement dimension — who is being caught and how funds are moved."
+        },
+        {
+          "source": "https://unit42.paloaltonetworks.com/north-korean-threat-actors-lure-tech-job-seekers-as-fake-recruiters/",
+          "thread": "job-lure malware campaigns",
+          "why": "The Contagious Interview campaign and fake-recruiter Python malware stories resonated because they weaponize routine developer hiring workflows."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:41:51.278274+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / Protocol",
+          "level": "High",
+          "note": "DPRK actors demonstrated six-month pre-exploit dwell time inside Drift before the $285M–$295M heist, and poisoned downstream RPCs in the KelpDAO/LayerZero breach.",
+          "source": "https://www.trmlabs.com/resources/blog/north-korean-hackers-attack-drift-protocol-in-285-million-heist?scLang=en"
+        },
+        {
+          "dimension": "Centralization / Supply-chain",
+          "level": "High",
+          "note": "Up to 20% of crypto firms may unknowingly employ DPRK IT workers; nearly 40% of job applications at some firms are DPRK-linked, concentrating insider risk across the industry.",
+          "source": "https://www.trmlabs.com/resources/blog/north-korea-and-the-industrialization-of-cryptocurrency-theft"
+        },
+        {
+          "dimension": "Regulatory / Sanctions",
+          "level": "High",
+          "note": "OFAC has sanctioned networks enabling DPRK laundering, and Treasury has formally flagged crypto mixers as a primary DPRK tool, increasing compliance exposure for protocols that interact with flagged addresses.",
+          "source": "https://home.treasury.gov/news/press-releases/sb0416"
+        },
+        {
+          "dimension": "Market / Liquidity",
+          "level": "Medium",
+          "note": "Roughly 500,000 ETH from the Bybit hack remains in various laundering stages, with 432,748 ETH already swapped to BTC via mixers and cross-chain bridges, creating persistent sell-side overhang.",
+          "source": "https://www.chainalysis.com/blog/crypto-hacking-stolen-funds-2026/"
+        },
+        {
+          "dimension": "Censorship / Governance",
+          "level": "Medium",
+          "note": "Arbitrum's aggressive on-chain freeze of DPRK assets raised DeFi censorship concerns, surfacing a governance tension between compliance and permissionlessness.",
+          "source": ""
+        },
+        {
+          "dimension": "Social Engineering / Operational",
+          "level": "High",
+          "note": "DPRK's Contagious Interview and fake-recruiter campaigns directly target developer workflows — malicious repos and job tests — making individual developer hygiene a systemic security variable.",
+          "source": "https://unit42.paloaltonetworks.com/north-korean-threat-actors-lure-tech-job-seekers-as-fake-recruiters/"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:14:09.780134+00:00",
+      "items": [
+        {
+          "clicks": 62,
+          "date": "2026-04-09T23:50:56.528514+00:00",
+          "headline": "North Korea spent 6 months inside Drift before $285M heist as researchers find DPRK devs in 40+ DeFi teams",
+          "hot_score": 44377.161288,
+          "lev_url": "https://leviathannews.xyz/222573/north-korea-spent-6-months-inside-drift-before-285m-heist-as-researchers-find-dprk-devs-in-40-defi-teams",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407125000_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/tech/2026/04/07/how-north-korea-s-6-month-long-secret-espionage-program-has-crypto-community-rethinking-security"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-04-16T17:29:47.026695+00:00",
+          "headline": "Ethereum Foundation's ETH Rangers identifies ~100 DPRK IT workers across 53 projects, recovers $5.8M in closing report",
+          "hot_score": 2150.306232,
+          "lev_url": "https://leviathannews.xyz/230752/ethereum-foundations-eth-rangers-identifies-100-dprk-it-workers-across-53-projects-recovers-58m-in-closing-report",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416171558_Z4zrlaiDPw==.png",
+          "url": "https://blog.ethereum.org/2026/04/16/eth-rangers-recap"
+        },
+        {
+          "clicks": 84,
+          "date": "2026-04-09T04:51:28.936789+00:00",
+          "headline": "ZachXBT exposes 390-account DPRK IT worker network making ~$1M monthly and $3.5M since November",
+          "hot_score": 1225.959294,
+          "lev_url": "https://leviathannews.xyz/224470/zachxbt-exposes-390-account-dprk-it-worker-network-making-1m-monthly-and-35m-since-november",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409034438_Z4zrlaiDPw==.png",
+          "url": "https://x.com/zachxbt/status/2041873508180095032"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-06-10T07:56:00.920953+00:00",
+          "headline": "Chainalysis signs KNPA deal to train Korean police after DPRK hackers stole over $2B in 2025",
+          "hot_score": 711.278563,
+          "lev_url": "https://leviathannews.xyz/255117/chainalysis-signs-knpa-deal-to-train-korean-police-after-dprk-hackers-stole-over-2b-in-2025",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260610062840_Z4zrlaiDPw==.png",
+          "url": "https://www.chainalysis.com/blog/chainalysis-and-the-korean-national-police-agency-knpa-sign-mou-to-strengthen-virtual-asset-investigation-capabilities/"
+        },
+        {
+          "clicks": 43,
+          "date": "2026-05-05T19:01:55.331973+00:00",
+          "headline": "Drift Protocol unveils recovery plan after $295M DPRK-linked exploit, proposing tokenized user claims, revenue-backed pool, and security overhaul to restore funds",
+          "hot_score": 620.765525,
+          "lev_url": "https://leviathannews.xyz/238027/drift-protocol-unveils-recovery-plan-after-295m-dprk-linked-exploit-proposing-tokenized-user-claims-revenue-backed-pool-and-security-overhaul-to-restore-funds",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260505190059_KrKhEsiingcd.jpg",
+          "url": "https://www.coindesk.com/business/2026/05/05/drift-outlines-a-recovery-plan-for-users-after-usd295-million-dprk-linked-exploit"
+        },
+        {
+          "clicks": 51,
+          "date": "2026-05-16T19:38:18.111023+00:00",
+          "headline": "DPRK-linked Contagious Interview campaign turns Web3 job tests into wallet-stealing malware",
+          "hot_score": 533.503878,
+          "lev_url": "https://leviathannews.xyz/243658/dprk-linked-contagious-interview-campaign-turns-web3-job-tests-into-wallet-stealing-malware",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260516193729_hW737u5ojnKW.jpg",
+          "url": "https://x.com/i/article/2054822341679398912"
+        },
+        {
+          "clicks": 89,
+          "date": "2026-05-08T19:16:24.335134+00:00",
+          "headline": "KelpDAO disputes LayerZero's blame for $300M+ hack, reveals DPRK-linked breach of LayerZero infrastructure, exposes widespread 1-1 DVN defaults, migrating to Chainlink CCIP",
+          "hot_score": 78.4,
+          "lev_url": "https://leviathannews.xyz/240099/kelpdao-disputes-layerzeros-blame-for-300m-hack-reveals-dprk-linked-breach-of-layerzero-infrastructure-exposes-widespread-1-1-dvn-defaults-migrating-to-chainlink-ccip",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260508191523_AhTw3j-7IL85.jpg",
+          "url": "https://x.com/kelpdao/status/2051754226351771772"
+        },
+        {
+          "clicks": 40,
+          "date": "2026-05-02T11:16:41.480247+00:00",
+          "headline": "Arbitrum's aggressive fund freeze raises censorship fears in DeFi after seizing DPRK assets.",
+          "hot_score": 70.0,
+          "lev_url": "https://leviathannews.xyz/237576/this-is-why-the-arbitrum-security-council-was-not-kind-to-the-dao-lawyers-for-dprk-victims-have-now-found-a-large-pile-of-dprk-assets-to-seize-to-make-good-on-a-2015-judgement-aga",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260502095549_tFCmllMO39S8.jpg",
+          "url": "https://x.com/imperiumpaper/status/2050395870831456601"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:14:09.695803+00:00",
+      "editorial": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "home.treasury.gov"
+        },
+        {
+          "count": 1,
+          "source": "ketman.org"
+        },
+        {
+          "count": 1,
+          "source": "elliptic.co"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "blog.ethereum.org"
+        },
+        {
+          "count": 1,
+          "source": "chainalysis.com"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 13,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "certik.com"
+        }
+      ],
+      "universe_distinct": 4
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "807f66b46f25ce635e1e25631f68f2cb2a9da9ab1ea7ff502e6f6253c4d2aee6",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:01.806885+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.215,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0349,
+        "lift_log": 4.319,
+        "score": 0.2153,
+        "shared": 6
+      },
+      "rationale": "DPRK is associated with state-sponsored hackers.",
+      "relation_type": "peer",
+      "slug": "hacker",
+      "source": "cotag",
+      "tag_name": "Hacker",
+      "title": "Hacker, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.222,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0317,
+        "lift_log": 4.501,
+        "score": 0.2217,
+        "shared": 3
+      },
+      "rationale": "DPRK develops and deploys malware.",
+      "relation_type": "primitive",
+      "slug": "malware",
+      "source": "cotag",
+      "tag_name": "malware",
+      "title": "malware, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.335,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0461,
+        "lift_log": 4.629,
+        "score": 0.3347,
+        "shared": 7
+      },
+      "rationale": "DPRK is the official name for North Korea.",
+      "relation_type": "peer",
+      "slug": "north-korea",
+      "source": "cotag",
+      "tag_name": "North Korea",
+      "title": "North Korea, Explained",
+      "weight": 33
+    },
+    {
+      "confidence": 0.264,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.052,
+        "lift_log": 5.209,
+        "score": 0.2635,
+        "shared": 3
+      },
+      "rationale": "DPRK hackers use social engineering in attacks.",
+      "relation_type": "primitive",
+      "slug": "social-engineering",
+      "source": "cotag",
+      "tag_name": "Social Engineering",
+      "title": "Social Engineering, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.202,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0258,
+        "lift_log": 4.125,
+        "score": 0.2019,
+        "shared": 3
+      },
+      "rationale": "DPRK exploits vulnerabilities in systems.",
+      "relation_type": "primitive",
+      "slug": "vulnerability",
+      "source": "cotag",
+      "tag_name": "vulnerability",
+      "title": "vulnerability, Explained",
+      "weight": 20
+    }
+  ],
+  "schema_version": 1,
+  "slug": "dprk",
+  "tag_name": "DPRK",
+  "title": "DPRK, Explained"
+}

@@ -1,0 +1,592 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:06:32.334373+00:00",
+      "newsroom_total": 42,
+      "overall_share": 86,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 43,
+          "month": "2026-04",
+          "newsroom": 3,
+          "universe": 4
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 2
+        }
+      ],
+      "total_universe": 49,
+      "universe_total": 7
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:06:31.032807+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "cowswap",
+          "phrase": "COW is the governance and utility token of CoW DAO.",
+          "relation_type": "token",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "cow-token",
+          "weight": 47
+        },
+        {
+          "dir": "out",
+          "from": "cowswap",
+          "phrase": "Liquidity is a core DeFi mechanism for CoW Swap's batch auctions.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "cowswap",
+          "phrase": "CoW DAO is the governance body behind the CoW Protocol.",
+          "relation_type": "governance",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "dao",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "cowswap",
+          "phrase": "CoW Swap aims to protect users from MEV via batch auctions.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "mev",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "cowswap",
+          "phrase": "AMMs like Uniswap are competitors to CoW Swap's order-book model.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "amm",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "CoW DAO",
+          "slug": "cowswap",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "COW",
+          "slug": "cow-token",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 47
+        },
+        {
+          "center": false,
+          "name": "Liquidity",
+          "slug": "liquidity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "DAO",
+          "slug": "dao",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "MEV",
+          "slug": "mev",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "AMM",
+          "slug": "amm",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T06:58:51.186400+00:00",
+      "events": [
+        {
+          "date": "2022-02",
+          "kind": "launch",
+          "label": "COW token launch and CoW DAO formally constituted",
+          "source": ""
+        },
+        {
+          "date": "2023-10",
+          "kind": "milestone",
+          "label": "FM-AMM research collaboration with Robin Fritsch (ETH Zurich) announced",
+          "source": ""
+        },
+        {
+          "date": "2024-03",
+          "kind": "milestone",
+          "label": "CoW Protocol and Balancer announce joint CoW AMM development",
+          "source": ""
+        },
+        {
+          "date": "2024-05",
+          "kind": "milestone",
+          "label": "Ethereum Foundation executes 5,000 ETH to stablecoin TWAP via CoW DAO",
+          "source": ""
+        },
+        {
+          "date": "2024-08",
+          "kind": "launch",
+          "label": "CoW AMM exits beta and goes live on Balancer UI",
+          "source": ""
+        },
+        {
+          "date": "2024-10",
+          "kind": "governance",
+          "label": "Fee switch activated to capture revenue on cumulative $33B trading volume",
+          "source": ""
+        },
+        {
+          "date": "2024-11",
+          "kind": "milestone",
+          "label": "Safe{Wallet} launches native swaps powered by CoW Swap",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "governance",
+          "label": "Core team requests 13.8M USDC and 100M COW for 2026 operations budget",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T06:58:51.186204+00:00",
+      "insight": "Readers click CoW DAO stories not as traders hunting swap rates but as infrastructure watchers tracking whether CoW's batch-auction model becomes the invisible settlement layer inside every major wallet and protocol — the Safe{Wallet} integration drew five times more clicks than any competitive, tokenomics, or security angle combined.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 44,
+      "as_of": "2026-07-01T12:06:33.404704+00:00",
+      "most_clicked": {
+        "clicks": 991,
+        "date": "2024-05-14T12:09:45.626648+00:00",
+        "headline": "Safe{Wallet} now has native swaps – powered by CoW Swap!",
+        "lev_url": "https://leviathannews.xyz/5367/safewallet-now-has-native-swaps-powered-by-cow-swap"
+      },
+      "provenance": "data",
+      "top_decile_share": 38,
+      "total_clicks": 4294
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T06:58:51.186288+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Safe Wallet native integration",
+          "why": "Embedding CoW Swap directly into Safe{Wallet} signals CoW graduating from optional aggregator to default smart-account infrastructure, which readers recognized as a distribution moat more durable than market-share statistics."
+        },
+        {
+          "source": "",
+          "thread": "Fee switch revenue capture",
+          "why": "Whether CoW could monetize $33B+ in cumulative volume without distorting solver competition is a live DAO-sustainability question that drew readers tracking the gap between protocol usage and token value accrual."
+        },
+        {
+          "source": "",
+          "thread": "CoW AMM LVR resistance design",
+          "why": "The FM-AMM and CoW AMM work targeting loss-versus-rebalancing attracted readers who see LVR as the last major unsolved MEV problem for on-chain liquidity providers."
+        },
+        {
+          "source": "",
+          "thread": "Aave revenue diversion dispute",
+          "why": "Accusations that CoW swap fees generated inside Aave were not flowing to the Aave DAO lit up governance-watchers tracking how cross-protocol integrations create silent revenue-routing conflicts."
+        },
+        {
+          "source": "",
+          "thread": "Encrypted order MEV protection",
+          "why": "The FairyCoW encrypted-order collaboration with Fairblock and Anagram told readers that frontrunning protection on CoW's order flow was moving from research promise to live product."
+        },
+        {
+          "source": "",
+          "thread": "L2 expansion and market share race",
+          "why": "The Arbitrum deployment and the 26% DEX aggregator share story together framed CoW shifting from Ethereum-native niche to a credible multi-chain 1inch challenger."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T06:58:51.186299+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart Contract",
+          "level": "Medium",
+          "note": "A surplus-shifting bug that harmed traders while inadvertently benefiting CoW AMM LPs was publicly disclosed by the core team, and a separate multi-block MEV attack on batch settlement was also identified — two distinct execution-layer vulnerabilities in the same protocol era.",
+          "source": ""
+        },
+        {
+          "dimension": "Governance",
+          "level": "Medium",
+          "note": "The core team's request for 13.8M USDC plus 100M COW tokens vested over four years, combined with the Aave revenue-routing controversy, reveals structural tension between team operational control and meaningful DAO accountability.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Professional solver competition is permissioned and concentrated among a small set of sophisticated actors; the delegate program was introduced specifically to address thin token-holder governance participation rather than solver decentralization.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / Competitive",
+          "level": "Low",
+          "note": "CoW reached 26% DEX aggregator market share and approximately $5B in monthly volume, surpassing 1inch in growth trajectory, materially reducing near-term competitive displacement risk.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Low",
+          "note": "As a non-custodial batch auction router that never directly holds user funds and settles via competing solvers, CoW Protocol carries lower direct regulatory surface area than custodial or order-book venues.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity / Execution Quality",
+          "level": "Low",
+          "note": "Internal RPC research showed that suboptimal RPC selection measurably degrades output tokens for users on Ethereum, indicating execution quality is sensitive to infrastructure choices that most users do not control.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:06:33.301048+00:00",
+      "items": [
+        {
+          "clicks": 43,
+          "date": "2026-04-14T16:55:30.551155+00:00",
+          "headline": "CoW Swap frontend compromised as Blockaid flags site malicious, DAO urges users to stop trading",
+          "hot_score": 3885.223966,
+          "lev_url": "https://leviathannews.xyz/228787/cow-swap-frontend-compromised-as-blockaid-flags-site-malicious-dao-urges-users-to-stop-trading",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260414162421_Z4zrlaiDPw==.png",
+          "url": "https://x.com/CoWSwap/status/2044078590514327888"
+        },
+        {
+          "clicks": 53,
+          "date": "2026-04-15T19:23:28.798661+00:00",
+          "headline": "CoWSwap regains full control of original domain",
+          "hot_score": 2905.527516,
+          "lev_url": "https://leviathannews.xyz/229902/cowswap-regains-full-control-of-original-domain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415192246_ixlnzErdsLTj.jpg",
+          "url": "https://x.com/CoWSwap/status/2044479727860080664"
+        },
+        {
+          "clicks": 59,
+          "date": "2026-04-08T16:29:02.194913+00:00",
+          "headline": "Ethereum Foundation to convert 5,000 ETH into stablecoins via CoW DAO TWAP for R&D and grants",
+          "hot_score": 973.947774,
+          "lev_url": "https://leviathannews.xyz/223881/ethereum-foundation-to-convert-5000-eth-into-stablecoins-via-cow-dao-twap-for-rd-and-grants",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408150948_Z4zrlaiDPw==.png",
+          "url": "https://x.com/ethereumfndn/status/2041878615625728167"
+        },
+        {
+          "clicks": 52,
+          "date": "2026-05-16T13:48:29.516128+00:00",
+          "headline": "New security audit released for CoWSwap’s CoW-Euler integration, enabling atomic leverage on Euler",
+          "hot_score": 535.807739,
+          "lev_url": "https://leviathannews.xyz/243533/new-security-audit-report-available-for-cowswap-this-audit-covers-their-new-cow-euler-integration-enabling-atomic-leveraged-position-management-on-euler-through-the-cow-swap-protoc",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260516134522_-t7TaQZnYoT3.jpg",
+          "url": "https://x.com/yauditdao/status/2055295648006553781"
+        },
+        {
+          "clicks": 142,
+          "date": "2025-12-12T13:19:21.374110+00:00",
+          "headline": "Aave Chan Initiative Accuses Aave Labs of Diverting DAO Revenues and Privatizing Protocol Economics, Demands Clarity on CowSwap Integration, Vault Fees, Horizon Deals, and V4 Liquidation Engine Incentives.",
+          "hot_score": 222.871069,
+          "lev_url": "https://leviathannews.xyz/22306/aave-chan-initiative-accuses-aave-labs-of-diverting-dao-revenues-and-privatizing-protocol-economics-demands-clarity-on-cowswap-integration-vault-fees-horizon-deals-and-v4-liquidati",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251212131800_yPje1VNj9JI=.png",
+          "url": "https://governance.aave.com/t/aave-cowswap-integration-tokenholder-questions/23530/16"
+        },
+        {
+          "clicks": 69,
+          "date": "2025-12-12T10:41:52.759218+00:00",
+          "headline": "Tensions erupt around Aave governance, including a spat in the Lobsters channel between Avara CEO Stani Kulechov and Aave Chan Initiative founder Marc Zeller, following reports of revenues from CoW swaps (15-25 bps) not going to the Aave DAO",
+          "hot_score": 105.892268,
+          "lev_url": "https://leviathannews.xyz/22279/aave-implemented-extra-fees-for-swaps-15-25-bps-after-the-cowswap-integration-but-revenues-generated-dont-go-for-aave-dao",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251212103759_R3YLfla7HEI=.png",
+          "url": "https://governance.aave.com/t/aave-cowswap-integration-tokenholder-questions/23530"
+        },
+        {
+          "clicks": 58,
+          "date": "2026-01-22T20:14:45.528675+00:00",
+          "headline": "RAILGUN is advancing private DeFi with RAILGUN_connect, a universal connector that lets users interact with existing Ethereum DeFi apps from private 0zk addresses. Built with Gnosis Guild, it’s already been tested on CoWSwap and brings near-full DeFi functionality to private capital without bridges or new chains.",
+          "hot_score": 90.736229,
+          "lev_url": "https://leviathannews.xyz/23971/railgun-is-advancing-private-defi-with-railgun_connect-a-universal-connector-that-lets-users-interact-with-existing-ethereum-defi-apps-from-private-0zk-addresses-built-with-gnosis-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260122201406_jYEfkxPS-E4=.jpg",
+          "url": "https://x.com/i/status/2014326994725728526"
+        },
+        {
+          "clicks": 50,
+          "date": "2025-12-06T00:27:57.271527+00:00",
+          "headline": "The CoW core team requests 13.8M in $USDC for 2026 operations, plus an additional 100MM $COW tokens vested over four years",
+          "hot_score": 82.388706,
+          "lev_url": "https://leviathannews.xyz/21723/the-cow-core-team-requests-34mm-in-usdc-and-cow-tokens-for-2026-operations",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251205192748_yjQYu-xYGc4=.png",
+          "url": "https://x.com/tranvictor/status/1996938002489352588?s=46&t=0j2bh7DSt0-7r0TRlBbRwA"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:06:33.188999+00:00",
+      "editorial": [
+        {
+          "count": 33,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "governance.aave.com"
+        },
+        {
+          "count": 2,
+          "source": "forum.cow.fi"
+        },
+        {
+          "count": 2,
+          "source": "cow.fi"
+        },
+        {
+          "count": 1,
+          "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "snapshot.box"
+        }
+      ],
+      "editorial_distinct": 7,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "cow.fi"
+        }
+      ],
+      "universe_distinct": 2
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "cc604511b239bae545423d8fa7866e393561968317278ebf07c2917ef0c9f588",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:21:57.977766+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.472,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.3139,
+        "lift_log": 7.139,
+        "score": 0.472,
+        "shared": 29
+      },
+      "rationale": "COW is the governance and utility token of CoW DAO.",
+      "relation_type": "token",
+      "slug": "cow-token",
+      "source": "cotag",
+      "tag_name": "COW",
+      "title": "COW: Complete Guide",
+      "weight": 47
+    },
+    {
+      "confidence": 0.227,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0099,
+        "lift_log": 2.658,
+        "score": 0.2272,
+        "shared": 5
+      },
+      "rationale": "Liquidity is a core DeFi mechanism for CoW Swap's batch auctions.",
+      "relation_type": "primitive",
+      "slug": "liquidity",
+      "source": "cotag",
+      "tag_name": "Liquidity",
+      "title": "Liquidity, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "cowswap",
+  "tag_name": "CoW DAO",
+  "title": "CoW DAO, Explained"
+}

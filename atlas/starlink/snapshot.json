@@ -1,0 +1,368 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:13:41.409404+00:00",
+      "newsroom_total": 2,
+      "overall_share": 5,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-03",
+          "newsroom": 2,
+          "universe": 10
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 9
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 11
+        }
+      ],
+      "total_universe": 39,
+      "universe_total": 37
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:13:41.132353+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "starlink",
+          "phrase": "SpaceX is the company that created and operates Starlink.",
+          "relation_type": "founder",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "spacex",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "starlink",
+          "phrase": "Security risks are a concern for Starlink's satellite network.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "security-risk",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "starlink",
+          "phrase": "Launches are key milestones for deploying Starlink satellites.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "launch",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "starlink",
+          "phrase": "adoption",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "adoption",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "starlink",
+          "phrase": "infrastructure",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "infrastructure",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Starlink",
+          "slug": "starlink",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "SpaceX",
+          "slug": "spacex",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Security Risk",
+          "slug": "security-risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Launch",
+          "slug": "launch",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "Adoption",
+          "slug": "adoption",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Infrastructure",
+          "slug": "infrastructure",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:28:44.891179+00:00",
+      "events": [
+        {
+          "date": "2019-05",
+          "kind": "launch",
+          "label": "First 60 Starlink satellites launched on Falcon 9",
+          "source": "https://en.wikipedia.org/wiki/Starlink"
+        },
+        {
+          "date": "2020-10",
+          "kind": "launch",
+          "label": "Starlink public beta ('Better Than Nothing Beta') opens",
+          "source": "https://en.wikipedia.org/wiki/Starlink"
+        },
+        {
+          "date": "2023-01",
+          "kind": "milestone",
+          "label": "Starlink surpasses 1 million active subscribers globally",
+          "source": "https://en.wikipedia.org/wiki/Starlink"
+        },
+        {
+          "date": "2025-03",
+          "kind": "regulatory",
+          "label": "White House security experts warn Starlink poses infrastructure minefield risks",
+          "source": "https://www.itbrew.com/stories/2025/03/28/white-house-starlink-internet-is-a-security-minefield-experts-warn"
+        },
+        {
+          "date": "2025-12",
+          "kind": "milestone",
+          "label": "Constellation exceeds 10,000 active satellites, achieving near-global coverage",
+          "source": "https://starlink.com/public-files/starlinkProgressReport_2025.pdf"
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Airtel Africa completes Starlink direct-to-cell testing across 14 markets",
+          "source": "https://spaceinafrica.com/2026/03/24/airtel-africa-completes-successful-testing-of-starlink-direct-to-cell-services/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Arkham Intelligence confirms SpaceX holds 8,285 BTC ahead of reported $1.75T IPO",
+          "source": "https://x.com/arkham/status/2035207667824959886"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:28:44.891020+00:00",
+      "insight": "Leviathan readers click Starlink as a BTC-treasury-and-IPO arbitrage story, not as a connectivity infrastructure story — the 78-click dominant headline fuses SpaceX's 8,285 BTC position with a $1.75T 2026 IPO, while purely operational headlines (launches, school access, speeds) collectively draw fewer than 10 clicks total.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://x.com/arkham/status/2035207667824959886"
+    },
+    "reader_signal": {
+      "article_count": 2,
+      "as_of": "2026-07-01T12:13:41.855865+00:00",
+      "most_clicked": {
+        "clicks": 78,
+        "date": "2026-03-21T07:22:02.381294+00:00",
+        "headline": "SpaceX holds 8,285 BTC as it launches Starlink satellites and eyes $1.75T 2026 IPO",
+        "lev_url": "https://leviathannews.xyz/213422/bitcoin-company-launching-satellites-spacex-just-launched-29-starlink-satellites-and-holds-8285-btc-5738m-with-10000-satellites-in-orbit-and-a-potential-175t-ipo-one-of-the-worlds--20260321"
+      },
+      "provenance": "data",
+      "top_decile_share": 64,
+      "total_clicks": 122
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:28:44.891084+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://x.com/arkham/status/2035207667824959886",
+          "thread": "SpaceX BTC treasury exposure",
+          "why": "Readers treating Starlink's impending IPO as a de facto Bitcoin proxy — SpaceX's 8,285 BTC hoard makes any public listing a leveraged bet on both satellite dominance and crypto treasury strategy simultaneously."
+        },
+        {
+          "source": "https://www.spacex.com/updates",
+          "thread": "Starlink IPO at $1.75T",
+          "why": "The $1.75T 2026 IPO figure reframes Starlink not as a telecom play but as a valuation event that would dwarf most public companies, pulling in readers speculating on pre-IPO positioning."
+        },
+        {
+          "source": "https://en.wikipedia.org/wiki/Starlink",
+          "thread": "Satellite infrastructure moat",
+          "why": "11,400+ satellites launched and ~10,000 active represents a physical-layer monopoly that readers recognize as the hard-to-replicate asset underpinning both the IPO premium and BTC treasury credibility."
+        },
+        {
+          "source": "https://interpret.csis.org/translations/the-u-s-starlink-project-and-its-implications-from-the-perspective-of-international-and-national-security/",
+          "thread": "Security and geopolitical risk",
+          "why": "Expert warnings that Starlink's single-operator architecture creates a critical infrastructure vulnerability drew readers interested in the adversarial case against the bull thesis."
+        },
+        {
+          "source": "https://spaceinafrica.com/2026/03/24/airtel-africa-completes-successful-testing-of-starlink-direct-to-cell-services/",
+          "thread": "Emerging market expansion",
+          "why": "Africa, Central Asia, and Latin America rollouts signal addressable market expansion that supports the IPO valuation narrative, drawing low but consistent reader interest."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:28:44.891094+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "A single private company (SpaceX) controls the ground stations, satellite constellation, user terminals, and BTC treasury, creating a single point of failure for both the network and any downstream financial exposure.",
+          "source": "https://interpret.csis.org/translations/the-u-s-starlink-project-and-its-implications-from-the-perspective-of-international-and-national-security/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "South Africa's denial of a Starlink license over black ownership rules illustrates that national regulators can block market entry outright, threatening the global-coverage thesis that underpins the IPO valuation.",
+          "source": "https://www.itbrew.com/stories/2025/03/28/white-house-starlink-internet-is-a-security-minefield-experts-warn"
+        },
+        {
+          "dimension": "Market / Valuation",
+          "level": "High",
+          "note": "A $1.75T IPO target for a pre-revenue-at-scale entity with a BTC treasury introduces correlated drawdown risk — a crypto bear market could deflate both the BTC holdings and investor appetite for the IPO simultaneously.",
+          "source": "https://x.com/arkham/status/2035207667824959886"
+        },
+        {
+          "dimension": "Security / Cyberattack",
+          "level": "High",
+          "note": "Documented vulnerabilities in Starlink-connected hardware (e.g., Subaru Starlink exploit) and White House expert warnings confirm that the satellite-to-ground attack surface is active and inadequately hardened.",
+          "source": "https://westoahu.hawaii.edu/cyber/vulnerability-research/vulnerabilities-weekly-summaries/subarus-starlink-vulnerability/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Starlink remains privately held; there is no public market for direct exposure, forcing crypto-native investors into indirect plays (SpaceX secondary markets, BTC correlation) with wide bid-ask spreads and transfer restrictions.",
+          "source": "https://www.spacex.com/updates"
+        },
+        {
+          "dimension": "Geopolitical / Supply Chain",
+          "level": "Medium",
+          "note": "Dual-use satellite infrastructure has drawn scrutiny from multiple governments over military and surveillance implications, creating a regulatory tail risk that could fragment Starlink's global operating licenses.",
+          "source": "https://interpret.csis.org/translations/the-u-s-starlink-project-and-its-implications-from-the-perspective-of-international-and-national-security/"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:13:41.782285+00:00",
+      "items": [
+        {
+          "clicks": 44,
+          "date": "2026-03-04T09:02:21.696318+00:00",
+          "headline": "Starlink has become one of the largest and fastest infrastructure builds in history, with over 11,400 satellites launched and nearly 10,000 active, delivering global high‑speed internet coverage",
+          "hot_score": 310.342689,
+          "lev_url": "https://leviathannews.xyz/40006/starlink-becomes-one-of-the-largest-and-fastest-infrastructure-builds-in-history-with-over-11400-satellites-launched-and-nearly-10000-active-to-deliver-global-highspeed-internet-co",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260304090001_xQYBnDosRe0=.jpg",
+          "url": "https://x.com/teslaownersSV/status/2029093399798923547"
+        },
+        {
+          "clicks": 78,
+          "date": "2026-03-21T07:22:02.381294+00:00",
+          "headline": "SpaceX holds 8,285 BTC as it launches Starlink satellites and eyes $1.75T 2026 IPO",
+          "hot_score": 70.108356,
+          "lev_url": "https://leviathannews.xyz/213422/bitcoin-company-launching-satellites-spacex-just-launched-29-starlink-satellites-and-holds-8285-btc-5738m-with-10000-satellites-in-orbit-and-a-potential-175t-ipo-one-of-the-worlds--20260321",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260321071525_KcZVEWfxnIDY.png",
+          "url": "https://x.com/arkham/status/2035207667824959886"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:13:41.700006+00:00",
+      "editorial": [
+        {
+          "count": 2,
+          "source": "x.com"
+        }
+      ],
+      "editorial_distinct": 1,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 37,
+          "source": "x.com"
+        }
+      ],
+      "universe_distinct": 1
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "ea12b1cb88f8c7cec50e12c266a1970a29f2bc43703e459cc637977563cb03e3",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:31.138332+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.233,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0094,
+        "lift_log": 2.784,
+        "score": 0.2328,
+        "shared": 3
+      },
+      "rationale": "SpaceX is the company that created and operates Starlink.",
+      "relation_type": "founder",
+      "slug": "spacex",
+      "source": "cotag",
+      "tag_name": "SpaceX",
+      "title": "SpaceX, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "starlink",
+  "tag_name": "Starlink",
+  "title": "Starlink, Explained"
+}

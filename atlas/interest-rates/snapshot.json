@@ -1,0 +1,616 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:14:07.622663+00:00",
+      "newsroom_total": 29,
+      "overall_share": 69,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 38,
+          "month": "2026-03",
+          "newsroom": 3,
+          "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 5
+        }
+      ],
+      "total_universe": 42,
+      "universe_total": 13
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:14:07.321636+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "interest-rates",
+          "phrase": "Rates is a direct synonym for interest rates.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "rates",
+          "weight": 46
+        },
+        {
+          "dir": "out",
+          "from": "interest-rates",
+          "phrase": "FED sets monetary policy affecting interest rates.",
+          "relation_type": "influence",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fed",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "interest-rates",
+          "phrase": "Interest rates are a key component of macroeconomics.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "macro",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "interest-rates",
+          "phrase": "Liquity uses interest rates for its stability mechanism.",
+          "relation_type": "protocol",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquity",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "interest-rates",
+          "phrase": "Federal Reserve",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "federal-reserve",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Interest rates",
+          "slug": "interest-rates",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Rates",
+          "slug": "rates",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 46
+        },
+        {
+          "center": false,
+          "name": "FED",
+          "slug": "fed",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Macro",
+          "slug": "macro",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Liquity",
+          "slug": "liquity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Federal Reserve",
+          "slug": "federal-reserve",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:34:16.889323+00:00",
+      "events": [
+        {
+          "date": "2024-09",
+          "kind": "launch",
+          "label": "Liquity v2 announced: user-set rates, BOLD stablecoin, multi-collateral CDPs",
+          "source": "https://www.banque-france.fr/en/publications-and-statistics/publications/interest-rates-decentralised-finance"
+        },
+        {
+          "date": "2025-01",
+          "kind": "exploit",
+          "label": "USD0++ depeg: Usual Money changes redemption rules, spikes Morpho/Pendle borrow rates, traps leveraged farmers",
+          "source": "https://www.banque-france.fr/en/publications-and-statistics/publications/interest-rates-decentralised-finance"
+        },
+        {
+          "date": "2025-07",
+          "kind": "milestone",
+          "label": "Polymarket whale bets $1.3M on Fed no-change at July FOMC; CME FedWatch tracks 69% cut probability for December",
+          "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+        },
+        {
+          "date": "2025-12",
+          "kind": "regulatory",
+          "label": "FedWatch shows 69.4% probability of 25bp Fed cut in December",
+          "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+        },
+        {
+          "date": "2026-01",
+          "kind": "regulatory",
+          "label": "FOMC holds rates at 4.25%–4.5% range; Asymmetry Finance launches USDaf with user-fixed borrow rates",
+          "source": "https://www.jpmorgan.com/insights/outlook/economic-outlook/fed-meeting-may-2025"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Fed's Waller holds rates citing Iran war oil-price spike, signals cuts remain possible later in 2026",
+          "source": "https://www.richmondfed.org/publications/research/economic_brief/2026/eb_26-05"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:34:16.889129+00:00",
+      "insight": "Readers click interest-rate stories not for the rate number itself but for the power struggle over who sets it — governance attacks on lending curves, protocol designs that hand rate control to borrowers, and Fed decisions that cascade into DeFi collateral mechanics collectively dominate the top of the click chart, revealing that 'rate risk' in crypto is fundamentally a control and accountability story.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.banque-france.fr/en/publications-and-statistics/publications/interest-rates-decentralised-finance"
+    },
+    "reader_signal": {
+      "article_count": 29,
+      "as_of": "2026-07-01T12:14:08.235192+00:00",
+      "most_clicked": {
+        "clicks": 241,
+        "date": "2026-03-21T17:45:41.383570+00:00",
+        "headline": "Private credit stress spreads as BNPL loans and fintech lending weaken, with funds limiting withdrawals amid rising defaults and pressure from higher interest rates",
+        "lev_url": "https://leviathannews.xyz/213511/private-credit-stress-spreads-as-bnpl-loans-and-fintech-lending-weaken-with-funds-limiting-withdrawals-amid-rising-defaults-and-pressure-from-higher-interest-rates"
+      },
+      "provenance": "data",
+      "top_decile_share": 15,
+      "total_clicks": 2572
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:34:16.889222+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.banque-france.fr/en/publications-and-statistics/publications/interest-rates-decentralised-finance",
+          "thread": "User-set DeFi borrowing rates",
+          "why": "Liquity v2's BOLD stablecoin and Asymmetry's USDaf both let borrowers fix their own rates, inverting the protocol-controlled model readers had grown skeptical of — the design itself was the news."
+        },
+        {
+          "source": "https://www.llamarisk.com/research/morpho-vaults-risk-disclaimer",
+          "thread": "Protocol rate governance attacks",
+          "why": "Morpho's hard-kink deposit-withdraw loop exploit, Abracadabra's governance vote jacking CRV loan rates to 200%, and Prisma's 15% mint-rate proposal showed readers that on-chain rate governance is a live attack surface, not a safety feature."
+        },
+        {
+          "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+          "thread": "Fed/ECB macro decisions rippling into DeFi",
+          "why": "FOMC holds, Waller's oil-shock pivot, and FedWatch probability shifts directly moved collateral yields and stablecoin revenues, making traditional monetary policy a front-page DeFi story."
+        },
+        {
+          "source": "https://www.banque-france.fr/en/publications-and-statistics/publications/interest-rates-decentralised-finance",
+          "thread": "Stablecoin depeg from rate mechanic failures",
+          "why": "USD0++'s abrupt redemption-policy change spiked borrow rates, trapped leveraged Morpho and Pendle farmers, and exposed how a single protocol's rate decision can cascade into a sector-wide liquidity crisis."
+        },
+        {
+          "source": "https://www.sciencedirect.com/science/article/abs/pii/S1042957325000348",
+          "thread": "Private credit and RWA rate arbitrage",
+          "why": "Rising TradFi rates drove companies to blockchain-based private credit (55% sector surge) and tokenized Treasuries (ONDO), while simultaneously stressing funds that had lent at locked rates, creating both opportunity and withdrawal pressure."
+        },
+        {
+          "source": "https://lex.substack.com/p/analysis-our-circle-ipo-primer-16b",
+          "thread": "Rate-dependent business model risk",
+          "why": "Circle's S-1 revealing 99% of revenue tied to Fed rates, and Robinhood/Revolut earnings pressure from rate compression, made readers confront that the most 'crypto-native' firms are deeply exposed to central bank decisions."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:34:16.889233+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / curve design",
+          "level": "High",
+          "note": "Morpho's hard-kink utilization model allowed deposit-withdraw loops that let large depositors manipulate the effective borrow rate paid by smaller borrowers, triggering a curve redesign review.",
+          "source": "https://www.llamarisk.com/research/morpho-vaults-risk-disclaimer"
+        },
+        {
+          "dimension": "Centralization / governance capture",
+          "level": "High",
+          "note": "Abracadabra governance voted to push CRV loan rates to 200%, which a core Fraxlend developer publicly called a 'rug,' illustrating how token-weighted governance can weaponize rate levers against minority borrowers.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "USD0++ redemption-rule changes and private-credit fund withdrawal limits both demonstrated that rate-shock events can simultaneously freeze exit routes and spike borrow costs, compressing the window for leveraged positions to unwind safely.",
+          "source": "https://www.banque-france.fr/en/publications-and-statistics/publications/interest-rates-decentralised-finance"
+        },
+        {
+          "dimension": "Regulatory / macro",
+          "level": "Medium",
+          "note": "Fed rate holds driven by geopolitical shocks (Iran war oil spike, 2026) rather than domestic inflation data introduce unpredictable timing risk for DeFi yield strategies that price in consensus-driven cut schedules.",
+          "source": "https://www.richmondfed.org/publications/research/economic_brief/2026/eb_26-05"
+        },
+        {
+          "dimension": "Market / rate-revenue correlation",
+          "level": "Medium",
+          "note": "Stablecoin issuers earning Treasury yields (Circle, Usual Money) and RWA protocols (ONDO) face direct revenue compression if the Fed cuts to near-zero, a structural fragility Circle's S-1 quantified as near-total revenue exposure.",
+          "source": "https://lex.substack.com/p/analysis-our-circle-ipo-primer-16b"
+        },
+        {
+          "dimension": "Fiscal dominance / systemic",
+          "level": "Medium",
+          "note": "With global debt at $307 trillion and credible warnings of fiscal dominance forcing central banks to suppress rates regardless of inflation, DeFi protocols built on high-yield RWA collateral face a regime-change tail risk that has no on-chain hedge.",
+          "source": "https://www.bostonfed.org/publications/research-department-working-paper/2025/household-beliefs-about-fiscal-dominance.aspx"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:14:08.159943+00:00",
+      "items": [
+        {
+          "clicks": 241,
+          "date": "2026-03-21T17:45:41.383570+00:00",
+          "headline": "Private credit stress spreads as BNPL loans and fintech lending weaken, with funds limiting withdrawals amid rising defaults and pressure from higher interest rates",
+          "hot_score": 322.148887,
+          "lev_url": "https://leviathannews.xyz/213511/private-credit-stress-spreads-as-bnpl-loans-and-fintech-lending-weaken-with-funds-limiting-withdrawals-amid-rising-defaults-and-pressure-from-higher-interest-rates",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260321172828_AoeX6CxfmDFw.jpg",
+          "url": "https://x.com/i/status/2035380944979329153"
+        },
+        {
+          "clicks": 111,
+          "date": "2026-03-28T20:28:58.512916+00:00",
+          "headline": "Borrowers raise rate rigging flags on Morpho as hard kink model allows deposit-withdraw loops, sparking curve redesign review",
+          "hot_score": 143.121226,
+          "lev_url": "https://leviathannews.xyz/217417/the-problem-is-pretty-evident-these-are-the-most-recent-complaints-ive-been-sent-forwarded-in-the-last-couple-of-weeks-anon-morpho-borrower-would-you-be-able-to-ask-anon1-to-stop-d",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260328161514_oRnod6UcgIKa.jpg",
+          "url": "https://x.com/flipdazed/status/2037895740551274569"
+        },
+        {
+          "clicks": 123,
+          "date": "2026-03-20T14:08:20.034255+00:00",
+          "headline": "Fed's Waller went in ready to cut rates, but Iran war oil spike forced a hold — says cuts still possible later in 2026",
+          "hot_score": 74.865128,
+          "lev_url": "https://leviathannews.xyz/213099/no-headline-20260320",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260320135807_V_hEViT6H4pf.jpg",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-20/fed-s-waller-cautious-on-oil-may-advocate-for-rate-cuts-later"
+        },
+        {
+          "clicks": 52,
+          "date": "2026-02-01T17:12:03.457188+00:00",
+          "headline": "Crypto’s post-2021 stagnation comes down to tight liquidity, high interest rates, and weakening USD stability, keeping risk-on assets capped despite visible progress. Stablecoins stand out as the only sector with real institutional traction, while AI has absorbed most speculative capital and broader crypto awaits a clear macro or regulatory shift.",
+          "hot_score": 54.733524,
+          "lev_url": "https://leviathannews.xyz/24469/cryptos-post-2021-stagnation-comes-down-to-tight-liquidity-high-interest-rates-and-weakening-usd-stability-keeping-risk-on-assets-capped-despite-visible-progress-stablecoins-stand-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260201170311_CvjD6NacweQ=.jpg",
+          "url": "https://x.com/i/status/2017837845743050924"
+        },
+        {
+          "clicks": 157,
+          "date": "2025-01-13T20:29:41.160251+00:00",
+          "headline": "In today’s The Tentacle, we explore the USD0++ depeg drama that shook DeFi this weekend. Usual Money’s abrupt redemption changes sent ripples through Morpho, Pendle, and beyond—trapping leveraged farmers, spiking interest rates, and raising eyebrows over MEV Capital’s role in the chaos. Is this a case of mismanagement, bad comms, a calculated play, or all three?\n\nWe break down the mechanics, the fallout, and what this means for DeFi’s future in our latest newsletter. Don’t miss it—stay informed, stay ahead.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8650/in-todays-the-tentacle-we-explore-the-usd0-depeg-drama-that-shook-defi-this-weekend-usual-moneys-abrupt-redemption-changes-sent-ripples-through-morpho-pendle-and-beyondtrapping-lev",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250113202926_a75rshIqb5s=.jpg",
+          "url": "https://leviathannews.substack.com/p/collateral-damage-usd0-depeg-leaves"
+        },
+        {
+          "clicks": 153,
+          "date": "2024-03-08T23:47:41.085327+00:00",
+          "headline": "First MakerDao, now Prisma proposes a 5% mint fee or 15% interest rates for minting its stablecoin",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4173/first-makerdao-now-prisma-proposes-a-5-mint-fee-or-15-interest-rates-for-minting-its-stablecoin",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240308234624_4bV235p0Ag==.jpg",
+          "url": "https://x.com/prismafi/status/1766236839747412261?s=46"
+        },
+        {
+          "clicks": 144,
+          "date": "2023-12-18T10:07:37.379346+00:00",
+          "headline": "Companies flock to Blockchain-Based Private Credit amid interest rate hike, Triggering 55% surge in sector. The rise in interest rates prompts a growing number of companies to seek financing through blockchain-based private credit, resulting in a substantial boost to the sector.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3623/companies-flock-to-blockchain-based-private-credit-amid-interest-rate-hike-triggering-55-surge-in-sector-the-rise-in-interest-rates-prompts-a-growing-number-of-companies-to-seek-fi",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://cryptonews.com/news/blockchain-based-private-credit-surges-55-as-companies-seek-financing-amid-rising-interest-rates.htm"
+        },
+        {
+          "clicks": 141,
+          "date": "2023-09-19T16:34:18.373557+00:00",
+          "headline": "Despite rising interest rates, global debt reaches unprecedented levels of $307 trillion in Q2, driven by United States and Japan, says IIF",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2687/despite-rising-interest-rates-global-debt-reaches-unprecedented-levels-of-307-trillion-in-q2-driven-by-united-states-and-japan-says-iif",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "www.reuters.com/markets/global-debt-hits-record-307-trillion-debt-ratios-climb-iif-2023-09-19/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:14:08.076704+00:00",
+      "editorial": [
+        {
+          "count": 11,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "leviathannews.substack.com"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 1,
+          "source": "snapshot.org"
+        },
+        {
+          "count": 1,
+          "source": "vendorfinance.medium.com"
+        },
+        {
+          "count": 1,
+          "source": "thedefiant.io"
+        },
+        {
+          "count": 1,
+          "source": "cryptonews.com"
+        },
+        {
+          "count": 1,
+          "source": "federalreserve.gov"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "livesquawk.com"
+        },
+        {
+          "count": 1,
+          "source": "polymarket.com"
+        }
+      ],
+      "editorial_distinct": 15,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 2,
+          "source": "metamask.io"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "ac6cb8bd88177d92490fe9c519de1631faeac285e0e68bcc9d2608619f1c4819",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:10.190274+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.254,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0397,
+        "lift_log": 5.116,
+        "score": 0.2536,
+        "shared": 4
+      },
+      "rationale": "FED sets monetary policy affecting interest rates.",
+      "relation_type": "influence",
+      "slug": "fed",
+      "source": "cotag",
+      "tag_name": "FED",
+      "title": "FED, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.204,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0165,
+        "lift_log": 4.272,
+        "score": 0.2041,
+        "shared": 4
+      },
+      "rationale": "Liquity uses interest rates for its stability mechanism.",
+      "relation_type": "protocol",
+      "slug": "liquity",
+      "source": "cotag",
+      "tag_name": "Liquity",
+      "title": "Liquity, Explained",
+      "weight": 20
+    },
+    {
+      "confidence": 0.206,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0203,
+        "lift_log": 4.275,
+        "score": 0.2062,
+        "shared": 3
+      },
+      "rationale": "Interest rates are a key component of macroeconomics.",
+      "relation_type": "category",
+      "slug": "macro",
+      "source": "cotag",
+      "tag_name": "Macro",
+      "title": "Macro, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.462,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.1565,
+        "lift_log": 6.309,
+        "score": 0.4623,
+        "shared": 25
+      },
+      "rationale": "Rates is a direct synonym for interest rates.",
+      "relation_type": "peer",
+      "slug": "rates",
+      "source": "cotag",
+      "tag_name": "Rates",
+      "title": "Rates, Explained",
+      "weight": 46
+    }
+  ],
+  "schema_version": 1,
+  "slug": "interest-rates",
+  "tag_name": "Interest rates",
+  "title": "Interest rates, Explained"
+}

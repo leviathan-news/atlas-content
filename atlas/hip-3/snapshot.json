@@ -1,0 +1,458 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:15:36.402777+00:00",
+      "newsroom_total": 5,
+      "overall_share": 14,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 6,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 15
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-04",
+          "newsroom": 2,
+          "universe": 6
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 2
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 8
+        }
+      ],
+      "total_universe": 36,
+      "universe_total": 31
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:15:36.087538+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "hip-3",
+          "phrase": "Both are perp DEX platforms; Hyperliquid is a direct competitor.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "hyperliquid",
+          "weight": 32
+        },
+        {
+          "dir": "out",
+          "from": "hip-3",
+          "phrase": "Open interest is a core metric for perp trading on HIP-3.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "open-interest",
+          "weight": 28
+        },
+        {
+          "dir": "out",
+          "from": "hip-3",
+          "phrase": "CEX platforms compete with HIP-3 in perp trading.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "cex",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "hip-3",
+          "phrase": "HIP-3 is a perpetual futures DEX, so perps is its category.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "perps",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "hip-3",
+          "phrase": "HIP-3 is a decentralized exchange, so DEX is its category.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "dex",
+          "weight": 16
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "HIP-3",
+          "slug": "hip-3",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Hyperliquid",
+          "slug": "hyperliquid",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 32
+        },
+        {
+          "center": false,
+          "name": "Open Interest",
+          "slug": "open-interest",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 28
+        },
+        {
+          "center": false,
+          "name": "CEX",
+          "slug": "cex",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Perps",
+          "slug": "perps",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "DEX",
+          "slug": "dex",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:28:25.592487+00:00",
+      "events": [
+        {
+          "date": "2025-10",
+          "kind": "launch",
+          "label": "HIP-3 framework launches on Hyperliquid mainnet",
+          "source": "https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Active trader count hits record 231,000 as RWA perps boom",
+          "source": "https://www.cryptotimes.io/2026/03/24/hyperliquid-hits-record-231000-active-traders-as-rwa-perpetuals-boom/"
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "HIP-3 open interest crosses $2B; tokenized equities overtake metals",
+          "source": "https://defieducation.substack.com/p/understanding-hyperliquids-expansion"
+        },
+        {
+          "date": "2026-05",
+          "kind": "governance",
+          "label": "Felix selects RedStone oracle for HIP-3 perp markets citing $600M DeFi loss landscape",
+          "source": "https://blog.redstone.finance/2026/05/15/the-600m-warning-why-felix-chose-a-redstone-for-hip-3-perp-markets/"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "Hyperliquid May perps volume reaches record 6.63% of global CEX total, driven by HIP-3",
+          "source": "https://thedefiant.io/news/defi/builder-deployed-perp-markets-push-hyperliquid-to-record-share-of-global-perps-volume"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "SPCX SpaceX pre-IPO perp generates ~$1.4B on IPO day, $3.1B cumulative over 9 days",
+          "source": "https://www.cryptopolitan.com/hyperliquid-hip-3-custom-markets-trades/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "HIP-3 daily volume hits $5.4B record; RWA open interest surpasses $2.3B ATH",
+          "source": "https://ourcryptotalk.com/news/hyperliquid-rwa-hip-3-3b-open-interest"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "RWA open interest on Hyperliquid reaches new ATH of $3B",
+          "source": "https://ourcryptotalk.com/news/hyperliquid-rwa-hip-3-3b-open-interest"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:28:25.592346+00:00",
+      "insight": "Readers click HIP-3 for the assets, not the architecture — the spike on commodity and pre-IPO equity milestones reveals that the real draw is 24/7 onchain access to markets traditionally gated by TradFi hours and broker relationships, with volume records serving as proof that retail demand for those assets is real.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://thedefiant.io/news/defi/builder-deployed-perp-markets-push-hyperliquid-to-record-share-of-global-perps-volume"
+    },
+    "reader_signal": {
+      "article_count": 5,
+      "as_of": "2026-07-01T12:15:36.943652+00:00",
+      "most_clicked": {
+        "clicks": 55,
+        "date": "2026-03-25T09:39:44.817494+00:00",
+        "headline": "Hyperliquid HIP-3 prints record $5.4B daily volume with $1.3B in silver and $1.2B in crude oil perps",
+        "lev_url": "https://leviathannews.xyz/215720/hyperliquid-hip-3-prints-record-54b-daily-volume-with-13b-in-silver-and-12b-in-crude-oil-perps"
+      },
+      "provenance": "data",
+      "top_decile_share": 28,
+      "total_clicks": 200
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:28:25.592404+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://bitsgap.com/blog/trading-gold-oil-and-stocks-on-chain-how-rwa-perps-work-in-2026",
+          "thread": "Commodity perps volume records",
+          "why": "Silver and crude oil perpetuals printing a $5.4B daily volume record — dwarfing prior benchmarks — made HIP-3 legible to readers as a genuine macro trading venue, not a crypto novelty."
+        },
+        {
+          "source": "https://www.cryptopolitan.com/hyperliquid-hip-3-custom-markets-trades/",
+          "thread": "SpaceX pre-IPO perp SPCX",
+          "why": "The prospect of trading a SpaceX perp before the company IPOs crystallised HIP-3's unique value proposition — onchain price discovery for assets TradFi explicitly locks away from retail."
+        },
+        {
+          "source": "https://ourcryptotalk.com/news/hyperliquid-rwa-hip-3-3b-open-interest",
+          "thread": "RWA open interest milestones",
+          "why": "Sequential OI all-time highs ($2B → $2.3B → $3B) gave readers a compounding growth narrative that framed HIP-3 as the dominant venue for tokenized real-world assets."
+        },
+        {
+          "source": "https://defieducation.substack.com/p/understanding-hyperliquids-expansion",
+          "thread": "Tokenized equities displacing metals",
+          "why": "The compositional shift — equities overtaking silver and gold in open interest — signalled a maturation of the product mix and attracted readers tracking which asset class captures the next wave of capital."
+        },
+        {
+          "source": "https://bitsgap.com/blog/trading-gold-oil-and-stocks-on-chain-how-rwa-perps-work-in-2026",
+          "thread": "Leverage risk and storm warnings",
+          "why": "The Bitget Wallet piece foregrounded the systemic danger of high leverage on 24/7 markets with no circuit breakers, drawing readers who wanted a risk-adjusted view of the opportunity."
+        },
+        {
+          "source": "https://thedefiant.io/news/defi/builder-deployed-perp-markets-push-hyperliquid-to-record-share-of-global-perps-volume",
+          "thread": "HIP-3 share of global perps market",
+          "why": "HIP-3 accounting for 90%+ of perp DEX volume and Hyperliquid reaching a record share of global CEX perps gave readers a competitive-positioning angle on the protocol's growth trajectory."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:28:25.592412+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / oracle",
+          "level": "Medium",
+          "note": "Builder-deployed markets rely on third-party deployers choosing their own oracle setups; the RedStone integration for Felix's markets highlights that oracle quality is deployer-dependent and inconsistent across the 100+ live markets.",
+          "source": "https://blog.redstone.finance/2026/05/15/the-600m-warning-why-felix-chose-a-redstone-for-hip-3-perp-markets/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Hyperliquid's validator set remains small relative to its trading volume, concentrating consensus risk even as HIP-3 market deployment is permissionless at the application layer.",
+          "source": "https://classic.artemis.ai/asset/Hyperliquid?tab=deep_dives"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Offering perpetuals on pre-IPO equity (e.g., SPCX/SpaceX) and registered commodities to global retail without KYC creates direct exposure to securities and derivatives regulation in multiple jurisdictions.",
+          "source": "https://www.cryptopolitan.com/hyperliquid-hip-3-custom-markets-trades/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Open interest is heavily concentrated in a handful of marquee assets (crude oil, silver, SPCX); tail markets could face severe illiquidity and wide spreads during stress events.",
+          "source": "https://ourcryptotalk.com/news/hyperliquid-rwa-hip-3-3b-open-interest"
+        },
+        {
+          "dimension": "Market / gap risk",
+          "level": "High",
+          "note": "24/7 perpetual trading of assets that only price during TradFi hours (equities, commodities) creates gap-open risk on Monday opens and after macro shocks when underlying spot markets are closed but the perp continues trading.",
+          "source": "https://bitsgap.com/blog/trading-gold-oil-and-stocks-on-chain-how-rwa-perps-work-in-2026"
+        },
+        {
+          "dimension": "Leverage / liquidation cascade",
+          "level": "High",
+          "note": "High leverage available on illiquid commodity and pre-IPO markets raises the probability of cascading liquidations that can temporarily disconnect the perp price from fair value with no exchange-level circuit breaker.",
+          "source": "https://bitsgap.com/blog/trading-gold-oil-and-stocks-on-chain-how-rwa-perps-work-in-2026"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:15:36.866309+00:00",
+      "items": [
+        {
+          "clicks": 33,
+          "date": "2026-04-16T03:58:54.584811+00:00",
+          "headline": "Hyperliquid HIP-3 surpasses $2B in open interest as tokenized equities displace metals",
+          "hot_score": 3466.972338,
+          "lev_url": "https://leviathannews.xyz/229882/hyperliquid-hip-3-surpasses-2b-in-open-interest-as-tokenized-equities-displace-metals",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416002117_ggLZyq4zI_hr.jpg",
+          "url": "https://www.theblock.co/post/397276/hip-3-open-interest-2-billion-demand-24-7-tokenized-equity-exposure"
+        },
+        {
+          "clicks": 22,
+          "date": "2026-06-28T19:43:17.602620+00:00",
+          "headline": "Hyper Foundation offers $10M in USDH sunset grants to HIP-1, HIP-3, and HyperEVM builders",
+          "hot_score": 1505.349653,
+          "lev_url": "https://leviathannews.xyz/264233/hyper-foundation-offers-10m-in-usdh-sunset-grants-to-hip-1-hip-3-and-hyperevm-builders",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629001559_7sUaW3KuObGa.jpg",
+          "url": "https://x.com/wublockchain/status/2071263440451084628"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-05-17T17:40:40.487793+00:00",
+          "headline": "TradeXYZ buys $SPCX HIP-3 ticker for 500 HYPE ahead of likely SpaceX pre-IPO perp",
+          "hot_score": 498.757673,
+          "lev_url": "https://leviathannews.xyz/243980/tradexyz-buys-spcx-hip-3-ticker-for-500-hype-ahead-of-likely-spacex-pre-ipo-perp",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260517162607_Z4zrlaiDPw==.png",
+          "url": "https://hypurrscan.io/tx/0xf7f5fe86e25f02d3f96f043b9c57500201b5006c7d5221a69bbea9d9a152dcbe"
+        },
+        {
+          "clicks": 54,
+          "date": "2026-04-06T12:50:58.361225+00:00",
+          "headline": "Hyperliquid RWA open interest surpasses $2.3B as HIP-3 commodity perps hit new all-time high",
+          "hot_score": 177.939916,
+          "lev_url": "https://leviathannews.xyz/221613/hyperliquid-rwa-open-interest-surpasses-23b-as-hip-3-commodity-perps-hit-new-all-time-high",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260406113427_Z4zrlaiDPw==.png",
+          "url": "https://x.com/HyperliquidX/status/2041095119231959265"
+        },
+        {
+          "clicks": 55,
+          "date": "2026-03-25T09:39:44.817494+00:00",
+          "headline": "Hyperliquid HIP-3 prints record $5.4B daily volume with $1.3B in silver and $1.2B in crude oil perps",
+          "hot_score": 110.777568,
+          "lev_url": "https://leviathannews.xyz/215720/hyperliquid-hip-3-prints-record-54b-daily-volume-with-13b-in-silver-and-12b-in-crude-oil-perps",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260325055937_Z4zrlaiDPw==.png",
+          "url": "https://x.com/0xslayerrrr/status/2036451857669730673"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:15:36.787346+00:00",
+      "editorial": [
+        {
+          "count": 3,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "hypurrscan.io"
+        }
+      ],
+      "editorial_distinct": 3,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 20,
+          "source": "x.com"
+        },
+        {
+          "count": 7,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.redstone.finance"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "f7f27fb9f8faf2cec9515000015a393eaf30d98dc55d8ffa32f60d57d54980ab",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:08.760138+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.226,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0346,
+        "lift_log": 4.561,
+        "score": 0.2259,
+        "shared": 3
+      },
+      "rationale": "CEX platforms compete with HIP-3 in perp trading.",
+      "relation_type": "peer",
+      "slug": "cex",
+      "source": "cotag",
+      "tag_name": "CEX",
+      "title": "CEX, Explained",
+      "weight": 23
+    },
+    {
+      "confidence": 0.316,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0354,
+        "lift_log": 4.271,
+        "score": 0.3157,
+        "shared": 18
+      },
+      "rationale": "Both are perp DEX platforms; Hyperliquid is a direct competitor.",
+      "relation_type": "peer",
+      "slug": "hyperliquid",
+      "source": "cotag",
+      "tag_name": "Hyperliquid",
+      "title": "Hyperliquid, Explained",
+      "weight": 32
+    },
+    {
+      "confidence": 0.278,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0706,
+        "lift_log": 5.326,
+        "score": 0.2776,
+        "shared": 5
+      },
+      "rationale": "Open interest is a core metric for perp trading on HIP-3.",
+      "relation_type": "primitive",
+      "slug": "open-interest",
+      "source": "cotag",
+      "tag_name": "Open Interest",
+      "title": "Open Interest, Explained",
+      "weight": 28
+    }
+  ],
+  "schema_version": 1,
+  "slug": "hip-3",
+  "tag_name": "HIP-3",
+  "title": "HIP-3, Explained"
+}

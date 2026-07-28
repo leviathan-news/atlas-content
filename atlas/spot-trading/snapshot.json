@@ -1,0 +1,523 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:02:57.471855+00:00",
+      "newsroom_total": 12,
+      "overall_share": 15,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 25
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-04",
+          "newsroom": 4,
+          "universe": 16
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 12
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-06",
+          "newsroom": 2,
+          "universe": 10
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 79,
+      "universe_total": 67
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:02:57.009944+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "spot-trading",
+          "phrase": "Binance is a major centralized exchange offering spot trading.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "binance",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "spot-trading",
+          "phrase": "Coinbase is a major centralized exchange offering spot trading.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "coinbase",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "spot-trading",
+          "phrase": "Retail traders are primary users of spot trading platforms.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "retail",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "spot-trading",
+          "phrase": "Bitcoin is a commonly traded asset on spot markets.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "spot-trading",
+          "phrase": "Telegram is used for trading signals and community coordination.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "telegram",
+          "weight": 12
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Spot Trading",
+          "slug": "spot-trading",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Binance",
+          "slug": "binance",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Coinbase",
+          "slug": "coinbase",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Retail",
+          "slug": "retail",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "Telegram",
+          "slug": "telegram",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 12
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T05:43:00.770580+00:00",
+      "events": [
+        {
+          "date": "2022-11",
+          "kind": "milestone",
+          "label": "FTX collapse triggers industry-wide spot volume contraction",
+          "source": "https://www.decentrader.com/education/introduction-to-crypto-trading-spot-vs-derivatives/"
+        },
+        {
+          "date": "2023-03",
+          "kind": "milestone",
+          "label": "Binance temporarily suspends spot trading operations",
+          "source": ""
+        },
+        {
+          "date": "2023-06",
+          "kind": "milestone",
+          "label": "Coinbase reports 52% year-over-year spot volume drop, gains Binance market share",
+          "source": "https://data.coindesk.com/order-book"
+        },
+        {
+          "date": "2023-09",
+          "kind": "milestone",
+          "label": "Genesis Global Trading shuts down crypto spot trading desk",
+          "source": ""
+        },
+        {
+          "date": "2024-01",
+          "kind": "regulatory",
+          "label": "SEC approves first U.S. spot Bitcoin ETFs, opening institutional spot exposure without CEX custody",
+          "source": "https://www.investopedia.com/spot-bitcoin-etfs-8358373"
+        },
+        {
+          "date": "2024-05",
+          "kind": "regulatory",
+          "label": "SEC approves U.S. spot Ethereum ETFs",
+          "source": "https://coinmarketcap.com/etf/ethereum/"
+        },
+        {
+          "date": "2025-06",
+          "kind": "launch",
+          "label": "Bybit offers SpaceX IPO access via USDC spot subscriptions, blurring spot crypto and tokenized equity",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "launch",
+          "label": "Charles Schwab launches spot Bitcoin and Ethereum trading for 37 million retail clients",
+          "source": "https://www.investopedia.com/spot-bitcoin-etfs-8358373"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T05:43:00.770418+00:00",
+      "insight": "Readers click spot trading stories not to learn mechanics but to track institutional survival signals — volume collapses, exchange exits, and TradFi entry bids reveal who is winning or losing the race to make spot trading a viable long-term business.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.decentrader.com/education/introduction-to-crypto-trading-spot-vs-derivatives/"
+    },
+    "reader_signal": {
+      "article_count": 12,
+      "as_of": "2026-07-01T12:02:57.968199+00:00",
+      "most_clicked": {
+        "clicks": 252,
+        "date": "2023-09-25T06:24:44.960197+00:00",
+        "headline": "With spot trading volumes tumbling, Coinbase explored an acquisition of FTX Europe. Though never reaching a late stage, Coinbase interest in FTX Europe demonstrates the growing importance of derivatives to the Coinbase global business plan.",
+        "lev_url": "https://leviathannews.xyz/2762/with-spot-trading-volumes-tumbling-coinbase-explored-an-acquisition-of-ftx-europe-though-never-reaching-a-late-stage-coinbase-interest-in-ftx-europe-demonstrates-the-growing-import"
+      },
+      "provenance": "data",
+      "top_decile_share": 30,
+      "total_clicks": 844
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T05:43:00.770487+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.coinbase.com/learn/futures/trading-futures-in-bear-market",
+          "thread": "spot volume collapse, exchange pivots",
+          "why": "Top clicks clustered around Coinbase exploring FTX Europe, Genesis shutting down, and Binance volume halving — readers tracking which firms survive the volume drought by acquiring or exiting."
+        },
+        {
+          "source": "https://www.investopedia.com/spot-bitcoin-etfs-8358373",
+          "thread": "TradFi giants entering spot",
+          "why": "Charles Schwab's $7T client base announcing spot BTC/ETH drew repeated headline clicks, signaling reader appetite for mainstream distribution milestones."
+        },
+        {
+          "source": "https://data.coindesk.com/order-book",
+          "thread": "Coinbase vs Binance market share",
+          "why": "Coinbase reporting a 52% volume drop yet gaining relative share against Binance reframed a loss as a competitive win, generating outsized reader interest in the duopoly dynamic."
+        },
+        {
+          "source": "https://www.binance.com/en/academy/articles/your-guide-to-binance-spot-trading",
+          "thread": "altcoin spot listings as signals",
+          "why": "Listings of Quai Network and ZEC (with privacy restrictions) drew clicks because each listing encodes a regulatory or technical opinion by the exchange, not just a new pair."
+        },
+        {
+          "source": "https://www.binance.com/en/academy/articles/your-guide-to-binance-spot-trading",
+          "thread": "exchange liquidity program arms race",
+          "why": "Binance expanding its Spot Altcoin Liquidity Boost Program to 40 pairs attracted readers watching spread-and-slippage competition as a proxy for who controls altcoin flow."
+        },
+        {
+          "source": "https://www.sec.gov/newsroom/speeches-statements/trading-markets-121725-statement-custody-crypto-asset-securities-broker-dealers",
+          "thread": "geographic retail licensing expansion",
+          "why": "Huobi HK offering retail spot trading in Hong Kong flagged the city's post-2023 regulated crypto hub ambitions, pulling readers tracking jurisdiction-level licensing races."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T05:43:00.770500+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization / Counterparty",
+          "level": "High",
+          "note": "Spot trading on centralized exchanges exposes users to custodial failure; Genesis Global Trading's spot desk shutdown and the FTX collapse illustrate that exchange insolvency can freeze or eliminate customer balances with no on-chain recourse.",
+          "source": "https://www.decentrader.com/education/introduction-to-crypto-trading-spot-vs-derivatives/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Retail spot crypto remains subject to rapidly shifting licensing requirements across jurisdictions — Robinhood's ZEC listing paired with deposit/withdrawal restrictions and Hong Kong's conditional retail approvals both demonstrate how regulatory constraints directly constrain asset access.",
+          "source": "https://www.sec.gov/newsroom/speeches-statements/trading-markets-121725-statement-custody-crypto-asset-securities-broker-dealers"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Spot volume across major exchanges fell 50%+ in 2023 and remains structurally lower than derivatives volume; thin order books during low-activity periods widen spreads and increase slippage for altcoin pairs, as Binance's need for a dedicated Liquidity Boost Program illustrates.",
+          "source": "https://data.coindesk.com/order-book"
+        },
+        {
+          "dimension": "Market / Price",
+          "level": "Medium",
+          "note": "Spot positions carry full directional exposure with no built-in hedge; unlike perpetuals, there is no funding-rate offset, so a 30% market drawdown translates directly to a 30% unrealized loss with no expiry-based recovery mechanism.",
+          "source": "https://www.datawallet.com/crypto/perpetual-vs-spot-trading-in-crypto-explained"
+        },
+        {
+          "dimension": "Smart Contract (DEX spot)",
+          "level": "Medium",
+          "note": "On-chain spot markets such as Solana AMMs face smart-contract exploit risk, MEV sandwich attacks on large trades, and impermanent loss for liquidity providers — risks absent from CEX spot order books but increasingly relevant as DEX spot volume grows.",
+          "source": "https://ideas.repec.org/p/arx/papers/2506.08718.html"
+        },
+        {
+          "dimension": "Settlement / Custody",
+          "level": "Low",
+          "note": "Spot trades settle immediately (T+0 on-chain, near-T+0 on CEX), eliminating settlement-period counterparty risk that exists in traditional equities; the primary residual risk is custodial rather than settlement-process risk.",
+          "source": "https://www.coinbase.com/learn/crypto-basics/what-is-spot-trading-in-crypto-and-how-does-it-work"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:02:57.889478+00:00",
+      "items": [
+        {
+          "clicks": 49,
+          "date": "2026-04-10T17:05:37.676220+00:00",
+          "headline": "Kraken opens spot trading for Quai Network, merged-mined PoW chain claiming 50,000+ TPS",
+          "hot_score": 33143.385781,
+          "lev_url": "https://leviathannews.xyz/225984/kraken-opens-spot-trading-for-quai-network-merged-mined-pow-chain-claiming-50000-tps",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410125523_Z4zrlaiDPw==.png",
+          "url": "https://blog.kraken.com/product/asset-listings/quai-is-available-for-trading"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-06-03T07:54:18.744996+00:00",
+          "headline": "Meteora's Co-lead argues Solana can challenge Hyperliquid by making every asset liquid onchain, combining deep spot markets, tokenized equities and perpetuals into a unified trading ecosystem",
+          "hot_score": 701.541148,
+          "lev_url": "https://leviathannews.xyz/252116/meteoras-co-lead-argues-solana-can-challenge-hyperliquid-by-making-every-asset-liquid-onchain-combining-deep-spot-markets-tokenized-equities-and-perpetuals-into-a-unified-trading-e",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260603074547_lrLydrhelTb6.jpg",
+          "url": "https://x.com/0xsoju/status/2061828283965243400"
+        },
+        {
+          "clicks": 62,
+          "date": "2026-06-07T09:19:40.007286+00:00",
+          "headline": "Bybit opens SpaceX IPO Express subscriptions in USDC for VIP and Pro users before June 12 spot trading",
+          "hot_score": 495.872902,
+          "lev_url": "https://leviathannews.xyz/253846/bybit-opens-spacex-ipo-express-subscriptions-in-usdc-for-vip-and-pro-users-before-june-12-spot-trading",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260607090738_Z4zrlaiDPw==.png",
+          "url": "https://announcements.bybit.com/en/article/introducing-spacex-the-first-ipo-on-bybit-ipo-express-blt360da1ebb3f31f8a/"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-04-23T14:51:15.072947+00:00",
+          "headline": "Robinhood lists $ZEC for spot trading, blocks deposits and restricts withdrawals to unshielded addresses",
+          "hot_score": 356.4,
+          "lev_url": "https://leviathannews.xyz/235695/robinhood-lists-zec-for-spot-trading-blocks-deposits-and-restricts-withdrawals-to-unshielded-addresses",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423134710_Z4zrlaiDPw==.png",
+          "url": "https://robinhood.com/us/en/crypto/ZEC"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-11T13:14:19.334799+00:00",
+          "headline": "Binance expands Spot Altcoin Liquidity Boost Program to 40 pairs, improving spreads, reducing slippage, and enhancing trading efficiency across supported altcoins",
+          "hot_score": 82.481267,
+          "lev_url": "https://leviathannews.xyz/226689/binance-updates-the-spot-altcoin-liquidity-boost-program-weve-doubled-the-number-of-supported-pairs-from-20-to-40-meaning-more-altcoins-now-benefit-from-tighter-spreads-r",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411115047_tLV2IubpoYFD.jpg",
+          "url": "https://x.com/i/status/2042890803408966115"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-03T16:13:57.868986+00:00",
+          "headline": "$7T Charles Schwab to offer spot Bitcoin and Ethereum trading to 37M clients by mid-April",
+          "hot_score": 50.176752,
+          "lev_url": "https://leviathannews.xyz/220888/7t-charles-schwab-to-offer-spot-bitcoin-and-ethereum-trading-to-37m-clients-by-mid-april",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260403160936_Z4zrlaiDPw==.png",
+          "url": "https://www.crowdfundinsider.com/2026/04/270986-the-everything-app-charles-schwab-to-offer-crypto-trading/"
+        },
+        {
+          "clicks": 252,
+          "date": "2023-09-25T06:24:44.960197+00:00",
+          "headline": "With spot trading volumes tumbling, Coinbase explored an acquisition of FTX Europe. Though never reaching a late stage, Coinbase interest in FTX Europe demonstrates the growing importance of derivatives to the Coinbase global business plan.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2762/with-spot-trading-volumes-tumbling-coinbase-explored-an-acquisition-of-ftx-europe-though-never-reaching-a-late-stage-coinbase-interest-in-ftx-europe-demonstrates-the-growing-import",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://archive.ph/MluxD"
+        },
+        {
+          "clicks": 137,
+          "date": "2023-09-06T08:13:37.407244+00:00",
+          "headline": "Genesis Global Trading (GGT) will shutter its crypto spot trading operations in September",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2498/genesis-global-trading-ggt-will-shutter-its-crypto-spot-trading-operations-in-september",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.blockworks.co/news/genesis-global-trading-shutter-september"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:02:57.807220+00:00",
+      "editorial": [
+        {
+          "count": 3,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.kraken.com"
+        },
+        {
+          "count": 1,
+          "source": "robinhood.com"
+        },
+        {
+          "count": 1,
+          "source": "announcements.bybit.com"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 42,
+          "source": "x.com"
+        },
+        {
+          "count": 20,
+          "source": "treeofalpha.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
+        }
+      ],
+      "universe_distinct": 7
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "81be3943be194a9fe71685a5c3604fe165dc648a337cbd550ace332655112a9b",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:29.746453+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.2,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0104,
+        "lift_log": 2.022,
+        "score": 0.2002,
+        "shared": 16
+      },
+      "rationale": "Binance is a major centralized exchange offering spot trading.",
+      "relation_type": "peer",
+      "slug": "binance",
+      "source": "cotag",
+      "tag_name": "Binance",
+      "title": "Binance, Explained",
+      "weight": 20
+    }
+  ],
+  "schema_version": 1,
+  "slug": "spot-trading",
+  "tag_name": "Spot Trading",
+  "title": "Spot Trading, Explained"
+}

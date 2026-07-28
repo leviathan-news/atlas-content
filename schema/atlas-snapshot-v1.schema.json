@@ -1,0 +1,76 @@
+{
+  "$id": "https://leviathan.news/schema/atlas-snapshot-v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "atlas_blocks": {
+      "type": "object"
+    },
+    "official_links": {
+      "type": "array"
+    },
+    "pillar_state_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "model_name": {
+          "type": "string"
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "model_name",
+        "published_at",
+        "source",
+        "updated_at"
+      ],
+      "type": "object"
+    },
+    "relations": {
+      "type": "array"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "slug": {
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "type": "string"
+    },
+    "tag_name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "atlas_blocks",
+    "official_links",
+    "pillar_state_sha256",
+    "provenance",
+    "relations",
+    "schema_version",
+    "slug",
+    "tag_name",
+    "title"
+  ],
+  "title": "Leviathan Atlas generated snapshot v1",
+  "type": "object"
+}

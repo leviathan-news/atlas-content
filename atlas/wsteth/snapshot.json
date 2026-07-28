@@ -1,0 +1,582 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:12:03.868776+00:00",
+      "newsroom_total": 29,
+      "overall_share": 57,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 6,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-03",
+          "newsroom": 2,
+          "universe": 12
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 3
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 3
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 4
+        }
+      ],
+      "total_universe": 51,
+      "universe_total": 22
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:12:01.756268+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "wsteth",
+          "phrase": "f(x) Protocol uses wstETH as collateral for its stablecoin.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fx-protocol",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "wsteth",
+          "phrase": "wstETH is a wrapped version of stETH from Lido.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "lido",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "wsteth",
+          "phrase": "wstETH represents staked ETH with staking rewards.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "staking",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "wsteth",
+          "phrase": "Sponsorships may involve wstETH as a promotional asset.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "sponsorships",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "wsteth",
+          "phrase": "wstETH is used as collateral on Aave.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "aave",
+          "weight": 16
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "wstETH",
+          "slug": "wsteth",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "f(x) Protocol",
+          "slug": "fx-protocol",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Lido Finance",
+          "slug": "lido",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Staking",
+          "slug": "staking",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Sponsorships",
+          "slug": "sponsorships",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Aave",
+          "slug": "aave",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T09:10:23.898209+00:00",
+      "events": [
+        {
+          "date": "2021-05",
+          "kind": "launch",
+          "label": "Lido introduces wstETH wrapper to make rebasing stETH composable with DeFi protocols",
+          "source": "https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth"
+        },
+        {
+          "date": "2023-03",
+          "kind": "launch",
+          "label": "Aave V3 launches first-ever custom pool deployment for stETH and wstETH",
+          "source": "https://aave.com/blog/lido-aave-case-study"
+        },
+        {
+          "date": "2024-04",
+          "kind": "exploit",
+          "label": "ZKasino rug: wstETH returned to team multi-sig after Dutch police arrest founder and seize personal assets",
+          "source": ""
+        },
+        {
+          "date": "2024-10",
+          "kind": "governance",
+          "label": "Lido adopts Chainlink CCIP as official cross-chain bridge framework for wstETH, citing rate limiting and exploit protection",
+          "source": "https://blog.lido.fi/announcing-partnership-with-chainlink-on-adopting-ccip-as-official-cross-chain-infrastructure-for-wsteth/"
+        },
+        {
+          "date": "2025-04",
+          "kind": "exploit",
+          "label": "Lido pauses ZKsync wstETH bridge after discovering potential security weakness",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "exploit",
+          "label": "Aave suffers ~$21M in wrongful wstETH liquidations caused by Chaos Labs automated oracle exchange-rate cap misconfiguration",
+          "source": "https://governance.aave.com/t/post-mortem-exchange-rate-misallignment-on-wsteth-core-and-prime-instances/24269"
+        },
+        {
+          "date": "2025-07",
+          "kind": "governance",
+          "label": "Lido DAO votes to revoke canonical wstETH bridge support across nine networks",
+          "source": "https://x.com/LidoFinance/status/2028803376306336068"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T09:10:23.898095+00:00",
+      "insight": "Readers' clicks reveal that wstETH's DeFi risk concentrates at the oracle translation layer — not at the staking level — because a single automated exchange-rate cap misconfiguration produced $21M in wrongful liquidations on healthy positions, showing that correct rebasing-to-non-rebasing conversion in downstream protocols is where systemic failure actually originates.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://governance.aave.com/t/post-mortem-exchange-rate-misallignment-on-wsteth-core-and-prime-instances/24269"
+    },
+    "reader_signal": {
+      "article_count": 29,
+      "as_of": "2026-07-01T12:12:05.444035+00:00",
+      "most_clicked": {
+        "clicks": 293,
+        "date": "2026-03-10T21:09:43.642364+00:00",
+        "headline": "Aave suffered about $21M dollars in wrongful liquidations after an automated wstETH oracle cap update from Chaos Labs’ system underpriced collateral, briefly making healthy positions appear undercollateralized",
+        "lev_url": "https://leviathannews.xyz/203657/aave-suffered-about-21m-dollars-in-wrongful-liquidations-after-an-automated-wsteth-oracle-cap-update-from-chaos-labs-system-underpriced-collateral-briefly-making-healthy-positions-"
+      },
+      "provenance": "data",
+      "top_decile_share": 24,
+      "total_clicks": 2283
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T09:10:23.898146+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://governance.aave.com/t/post-mortem-exchange-rate-misallignment-on-wsteth-core-and-prime-instances/24269",
+          "thread": "Oracle-triggered wrongful liquidations",
+          "why": "The Aave $21M incident — where a Chaos Labs automated cap update underpriced wstETH collateral and flagged solvent positions as undercollateralized — pulled readers who wanted to understand both the mechanism and who bore the loss."
+        },
+        {
+          "source": "https://aave.com/blog/lido-aave-case-study",
+          "thread": "Aave governance wstETH adoption",
+          "why": "Back-to-back high-traffic Aave DAO stories — converting 1,600 ETH to wstETH/rETH and launching the first custom V3 Lido pool — show readers treating institutional DeFi endorsement of wstETH as a directional market signal."
+        },
+        {
+          "source": "https://fx.aladdin.club",
+          "thread": "f(x) Protocol TVL growth",
+          "why": "Repeated milestone coverage from 9K to 18K wstETH TVL drew consistent clicks across many articles, with readers apparently using sponsored concentration data as a live proxy for protocol-level wstETH risk appetite."
+        },
+        {
+          "source": "https://blog.lido.fi/announcing-partnership-with-chainlink-on-adopting-ccip-as-official-cross-chain-infrastructure-for-wsteth/",
+          "thread": "Lido bridge security and revocation",
+          "why": "Lido pausing the ZKsync wstETH bridge over a discovered vulnerability — and then revoking canonical bridge support across nine networks — attracted readers tracking where wstETH is and is not safely movable cross-chain."
+        },
+        {
+          "source": "",
+          "thread": "wstETH as stablecoin collateral",
+          "why": "Launches of wstETH backing on crvUSD, Curve DAO ($150M quorum), Liquity V2, and Raft showed readers following the token's expansion from yield asset to foundational DeFi collateral layer."
+        },
+        {
+          "source": "",
+          "thread": "Lending yield on wstETH",
+          "why": "Gearbox (up to 19% APY), Prisma Finance vaults, and Term Finance fixed-rate pairs drew clicks from readers comparing yield-on-staked-ETH across risk profiles, particularly for shorter-duration borrow strategies."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T09:10:23.898154+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Oracle / Exchange-rate translation",
+          "level": "High",
+          "note": "The Aave post-mortem confirmed that wstETH's non-rebasing exchange rate must be converted correctly at the oracle layer; an automated cap that undershot the real rate triggered ~$21M in wrongful liquidations of healthy positions.",
+          "source": "https://governance.aave.com/t/post-mortem-exchange-rate-misallignment-on-wsteth-core-and-prime-instances/24269"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Lido controls the canonical wstETH contract and has unilaterally paused bridges and revoked support on nine networks via DAO vote, concentrating upgrade and bridge governance in a single protocol.",
+          "source": "https://docs.lido.fi/contracts/wsteth/"
+        },
+        {
+          "dimension": "Bridge / Cross-chain",
+          "level": "Medium",
+          "note": "Lido's adoption of Chainlink CCIP as the sole official wstETH cross-chain framework reduces fragmentation risk but introduces single-vendor dependency for cross-chain mobility; the ZKsync pause demonstrated that individual bridge legs can be severed on short notice.",
+          "source": "https://blog.lido.fi/announcing-partnership-with-chainlink-on-adopting-ccip-as-official-cross-chain-infrastructure-for-wsteth/"
+        },
+        {
+          "dimension": "Slashing / Staking penalty",
+          "level": "Low",
+          "note": "Chaos Labs research identified consensus-layer slashing as a tail risk for wstETH and other LSTs, though Lido's validator diversification meaningfully limits per-event exposure relative to solo staking.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Low",
+          "note": "A wstETH liquidity scare noted in Curve's July 2025 roundup was averted, and a $30M on-chain swap demonstrated deep mainnet pool depth, though cross-chain liquidity remains thinner and fragmented after bridge revocations.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "wstETH's classification as a liquid staking derivative issued by a DAO remains unresolved across major jurisdictions, exposing large protocol integrations — particularly institutional Aave treasury positions — to retroactive compliance reclassification risk.",
+          "source": ""
+        }
+      ],
+      "sourced": 3,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:12:05.365787+00:00",
+      "items": [
+        {
+          "clicks": 293,
+          "date": "2026-03-10T21:09:43.642364+00:00",
+          "headline": "Aave suffered about $21M dollars in wrongful liquidations after an automated wstETH oracle cap update from Chaos Labs’ system underpriced collateral, briefly making healthy positions appear undercollateralized",
+          "hot_score": 1475.799159,
+          "lev_url": "https://leviathannews.xyz/203657/aave-suffered-about-21m-dollars-in-wrongful-liquidations-after-an-automated-wsteth-oracle-cap-update-from-chaos-labs-system-underpriced-collateral-briefly-making-healthy-positions-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260310210918_yE03da_j3_8t.jpg",
+          "url": "https://x.com/yieldsandmore/status/2031468808012210538"
+        },
+        {
+          "clicks": 53,
+          "date": "2026-05-15T07:09:17.222716+00:00",
+          "headline": "Lido contributors detail why Chainlink CCIP became wstETH’s official bridge framework, citing decentralization, rate limiting and protection from exploit vectors",
+          "hot_score": 780.8,
+          "lev_url": "https://leviathannews.xyz/242746/lido-contributors-detail-why-chainlink-ccip-became-wsteths-official-bridge-framework-citing-decentralization-rate-limiting-and-protection-from-exploit-vectors",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260515070844_jy-DXYyQc5Re.jpg",
+          "url": "https://x.com/i/web/status/2055000355029807117"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-06-23T12:27:08.508812+00:00",
+          "headline": "Lido revokes canonical wstETH bridge support on nine networks following DAO vote",
+          "hot_score": 602.228821,
+          "lev_url": "https://leviathannews.xyz/260948/lido-revokes-canonical-wsteth-bridge-support-on-nine-networks-following-dao-vote",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260623121309_Z4zrlaiDPw==.png",
+          "url": "https://blog.lido.fi/lido-multichain-update-june-2026/"
+        },
+        {
+          "clicks": 82,
+          "date": "2026-03-03T12:56:26.633758+00:00",
+          "headline": "Lido pauses the ZKsync wstETH bridge after discovering a potential security weakness",
+          "hot_score": 352.032921,
+          "lev_url": "https://leviathannews.xyz/39146/lido-pauses-the-zksync-wsteth-bridge-after-discovering-a-potential-security-weakness",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260303125527_S5Q_RqUSBDk=.jpg",
+          "url": "https://x.com/LidoFinance/status/2028803376306336068"
+        },
+        {
+          "clicks": 64,
+          "date": "2026-04-03T14:06:39.872719+00:00",
+          "headline": "Li.Fi integrates Chainlink CCIP for one-click cross-chain staking of wstETH",
+          "hot_score": 67.803841,
+          "lev_url": "https://leviathannews.xyz/220769/live-leading-bridge-aggregator-lifiprotocol-has-integrated-chainlink-to-support-one-click-cross-chain-wsteth-staking-by-eliminating-the-friction-of-app-hopping-dex-slippage-bridge-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260403131526_3QK9fUS0-9vS.jpg",
+          "url": "https://x.com/chainlink/status/2040051765660233859"
+        },
+        {
+          "clicks": 263,
+          "date": "2023-07-07T21:16:23.898479+00:00",
+          "headline": "Aave DAO votes to convert 1600 ETH to wstETH and rETH ",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/1747/aave-dao-votes-to-convert-1600-eth-to-wsteth-and-reth",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://app.aave.com/governance/proposal/?proposalId=261"
+        },
+        {
+          "clicks": 198,
+          "date": "2025-01-17T11:48:53.620671+00:00",
+          "headline": "f(x) Protocol milestone alert: \nOver 9,500 wstETH in TVL and All-Time High in USD Value 📈",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8753/fx-protocol-milestone-alert-over-9500-wsteth-in-tvl-and-all-time-high-in-usd-value",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250117114752_NFxM27GQV4U=.jpg",
+          "url": "https://x.com/protocol_fx/status/1880207820492259585"
+        },
+        {
+          "clicks": 146,
+          "date": "2024-07-29T18:47:32.308822+00:00",
+          "headline": "The AAVE DAO just approved a V3 pool designed for Lidofinance's stETH and wstETH, marking the first custom deployment on AAVE V3 and highlighting the protocol’s flexibility for specialized use cases.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6435/the-aave-dao-just-approved-a-v3-pool-designed-for-lidofinances-steth-and-wsteth-marking-the-first-custom-deployment-on-aave-v3-and-highlighting-the-protocols-flexibility-for-specia",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240729184713_pUtKX8MpNw==.jpg",
+          "url": "https://x.com/aave/status/1817983808538558847"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:12:05.277329+00:00",
+      "editorial": [
+        {
+          "count": 24,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "app.aave.com"
+        },
+        {
+          "count": 1,
+          "source": "mirror.xyz"
+        },
+        {
+          "count": 1,
+          "source": "cdn.sanity.io"
+        },
+        {
+          "count": 1,
+          "source": "news.curve.finance"
+        },
+        {
+          "count": 1,
+          "source": "blog.lido.fi"
+        }
+      ],
+      "editorial_distinct": 6,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 19,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        }
+      ],
+      "universe_distinct": 4
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "c8069b9437b62e078f81745c4bc626ba8ae416a145186fb0e3c0696656bcc961",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:38.844174+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.262,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0546,
+        "lift_log": 5.139,
+        "score": 0.2615,
+        "shared": 8
+      },
+      "rationale": "f(x) Protocol uses wstETH as collateral for its stablecoin.",
+      "relation_type": "ecosystem",
+      "slug": "fx-protocol",
+      "source": "cotag",
+      "tag_name": "f(x) Protocol",
+      "title": "f(x) Protocol, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.249,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0416,
+        "lift_log": 5.001,
+        "score": 0.2492,
+        "shared": 11
+      },
+      "rationale": "wstETH is a wrapped version of stETH from Lido.",
+      "relation_type": "product",
+      "slug": "lido",
+      "source": "cotag",
+      "tag_name": "Lido Finance",
+      "title": "Lido Finance, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.214,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0315,
+        "lift_log": 4.327,
+        "score": 0.2138,
+        "shared": 8
+      },
+      "rationale": "Sponsorships may involve wstETH as a promotional asset.",
+      "relation_type": "event",
+      "slug": "sponsorships",
+      "source": "cotag",
+      "tag_name": "Sponsorships",
+      "title": "Sponsorships, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.226,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.007,
+        "lift_log": 2.654,
+        "score": 0.2255,
+        "shared": 3
+      },
+      "rationale": "wstETH represents staked ETH with staking rewards.",
+      "relation_type": "primitive",
+      "slug": "staking",
+      "source": "cotag",
+      "tag_name": "Staking",
+      "title": "Staking, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "wsteth",
+  "tag_name": "wstETH",
+  "title": "wstETH: Complete Guide"
+}

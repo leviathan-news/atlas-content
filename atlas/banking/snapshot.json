@@ -1,0 +1,566 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:51:14.274867+00:00",
+      "newsroom_total": 52,
+      "overall_share": 23,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 11
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-03",
+          "newsroom": 5,
+          "universe": 52
+        },
+        {
+          "ed_share": 40,
+          "month": "2026-04",
+          "newsroom": 21,
+          "universe": 31
+        },
+        {
+          "ed_share": 22,
+          "month": "2026-05",
+          "newsroom": 19,
+          "universe": 67
+        },
+        {
+          "ed_share": 28,
+          "month": "2026-06",
+          "newsroom": 7,
+          "universe": 18
+        }
+      ],
+      "total_universe": 231,
+      "universe_total": 179
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:51:13.692735+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "banking",
+          "phrase": "Senate oversees banking regulation and legislation.",
+          "relation_type": "governance",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "senate",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "banking",
+          "phrase": "CLARITY Act proposes regulatory clarity for banking and crypto.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "clarity-act",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "banking",
+          "phrase": "Central banks are distinct from commercial banking but related.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "central-bank",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "banking",
+          "phrase": "Stablecoins are a product offered by some banking platforms.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "stablecoins",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "banking",
+          "phrase": "Market structure defines the framework for banking activities.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "market-structure",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Banking",
+          "slug": "banking",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Senate",
+          "slug": "senate",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "CLARITY Act",
+          "slug": "clarity-act",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Central Bank",
+          "slug": "central-bank",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Stablecoins",
+          "slug": "stablecoins",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Market Structure",
+          "slug": "market-structure",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T02:32:00.697811+00:00",
+      "events": [
+        {
+          "date": "2024-01",
+          "kind": "regulatory",
+          "label": "RBI revokes Paytm Payments Bank license",
+          "source": ""
+        },
+        {
+          "date": "2024-10",
+          "kind": "milestone",
+          "label": "Chainlink-Swift capital markets infrastructure pilot expands",
+          "source": ""
+        },
+        {
+          "date": "2025-02",
+          "kind": "regulatory",
+          "label": "Delaware Payment Stablecoin Act filed — 1:1 reserves, yield ban",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "launch",
+          "label": "Monument Bank announces £250M tokenized deposit pilot on Midnight",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "launch",
+          "label": "Liquid Banking launches as first onchain banking layer on Hyperliquid",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "regulatory",
+          "label": "Senate Banking Committee approves CLARITY Act after Democratic defections",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "governance",
+          "label": "Senators and White House reach stablecoin yield agreement in principle",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T02:32:00.697633+00:00",
+      "insight": "Readers click banking stories not for DeFi innovation per se, but for the fault lines where legacy banking infrastructure visibly fails or gets legally replaced — regulatory license revocations, legislative standoffs, and onchain layers that route around correspondent banking costs are the actual draws, not protocol mechanics.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 52,
+      "as_of": "2026-07-01T11:51:14.897329+00:00",
+      "most_clicked": {
+        "clicks": 1489,
+        "date": "2026-04-27T10:11:18.938436+00:00",
+        "headline": "RBI revokes Paytm Payments Bank's banking license and plans High Court filing for company winding up",
+        "lev_url": "https://leviathannews.xyz/236720/rbi-revokes-paytm-payments-banks-banking-licence-will-move-high-court-for-winding-up"
+      },
+      "provenance": "data",
+      "top_decile_share": 49,
+      "total_clicks": 3943
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T02:32:00.697718+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Regulatory license battles",
+          "why": "The Paytm license revocation dwarfed every other headline, signaling readers are riveted by state power exercised against crypto-adjacent banking entities — and what fills the vacuum."
+        },
+        {
+          "source": "",
+          "thread": "TradFi-blockchain integration rails",
+          "why": "Headlines pairing legacy giants (Swift, JPMorgan, DTCC, Citigroup) with blockchain infrastructure drew sustained clicks, reflecting reader interest in whether Wall Street will absorb or be disrupted by onchain settlement."
+        },
+        {
+          "source": "",
+          "thread": "Stablecoin legislation standoff",
+          "why": "Multiple Senate Banking Committee headlines accumulated clicks across the CLARITY Act and stablecoin yield compromise, showing readers tracking a slow-moving legislative fight with real market consequences."
+        },
+        {
+          "source": "",
+          "thread": "Onchain banking layers",
+          "why": "Liquid Banking on Hyperliquid and its Nigeria NGN offramp extension clicked together, pointing to reader appetite for native onchain substitutes for bank accounts rather than bridges to legacy systems."
+        },
+        {
+          "source": "",
+          "thread": "AI-native agentic banking",
+          "why": "JPMorgan's $19.8B AI spend, Backbase's Banking OS, Anchorage's agentic capital access, and Catena's OCC application clustered around the question of who owns the AI banking layer — incumbent or challenger."
+        },
+        {
+          "source": "",
+          "thread": "Deposit tokenization risk",
+          "why": "Monument Bank's £250M tokenized deposits and UniCredit's MiCA reserve warning drew clicks from readers assessing whether tokenized retail deposits introduce new systemic fragility rather than reducing it."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T02:32:00.697733+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Stablecoin reserve requirements, OCC charter applications, MiCA deposit-protection gaps, and active license revocations create a fragmented and fast-shifting compliance surface across jurisdictions.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "UniCredit explicitly warned that stablecoin reserve risks could outgrow EU deposit protections under MiCA, and the Delaware act's 1:1 reserve mandate underscores that undercollateralization remains the core systemic threat.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "OCC trust charter concentration (Kraken, Catena Labs) and single-point legacy-bank tokenization platforms (Monument, Finzly) reintroduce centralized chokepoints that onchain rails were meant to eliminate.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "Medium",
+          "note": "Tokenized retail deposits on novel chains like Midnight carry unaudited contract risk layered on top of existing regulatory uncertainty, with no established FSCS claim precedent for on-chain deposit failures.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Stablecoins displacing correspondent banking in EM remittance corridors concentrates FX corridor volume on a small number of issuers, amplifying contagion risk if a major stablecoin depegs during a stress event.",
+          "source": ""
+        },
+        {
+          "dimension": "Operational",
+          "level": "Medium",
+          "note": "Russia's banking failure triggered by a VPN/Telegram block demonstrated that digital payment dependencies on internet infrastructure create fragility vectors that neither banks nor regulators have adequately stress-tested.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:51:14.785283+00:00",
+      "items": [
+        {
+          "clicks": 45,
+          "date": "2026-04-13T18:44:43.541177+00:00",
+          "headline": "Hyperbeat brings “liquid banking” to Nigeria with NGN offramp on Hyperliquid, offering near-instant fiat withdrawals and bridging crypto with local banking rails",
+          "hot_score": 7289.77762,
+          "lev_url": "https://leviathannews.xyz/228043/hyperbeat-brings-liquid-banking-to-nigeria-with-ngn-offramp-on-hyperliquid-offering-near-instant-fiat-withdrawals-and-bridging-crypto-with-local-banking-rails",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260413175448_kopj_14MRVqB.jpg",
+          "url": "https://x.com/i/status/2043687526083264882"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-04-14T20:03:12.173702+00:00",
+          "headline": "JPMorgan CFO warns stablecoins risk becoming 'giant arbitrage backdoor' around banking regulation",
+          "hot_score": 4181.909726,
+          "lev_url": "https://leviathannews.xyz/228715/jpmorgan-cfo-warns-stablecoins-risk-becoming-giant-arbitrage-backdoor-around-banking-regulation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260414150531_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/business/2026/04/14/jpmorgan-cfo-warns-stablecoins-risk-becoming-regulatory-arbitrage-play"
+        },
+        {
+          "clicks": 54,
+          "date": "2026-04-10T18:43:52.458859+00:00",
+          "headline": "Crossmint launches stablecoin-backed Visa credit cards with Rain, letting developers issue cards and wallets via a single integration without complex banking or licensing setup",
+          "hot_score": 3763.256098,
+          "lev_url": "https://leviathannews.xyz/226096/crossmint-launches-stablecoin-backed-visa-credit-cards-with-rain-letting-developers-issue-cards-and-wallets-via-a-single-integration-without-complex-banking-or-licensing-setup",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410143911_ib2uet1sNuV3.jpg",
+          "url": "https://x.com/i/status/2042252745626042453"
+        },
+        {
+          "clicks": 25,
+          "date": "2026-06-30T16:45:03.305001+00:00",
+          "headline": "Binance adds Anchorage Digital's Atlas to triparty banking network for institutional settlement",
+          "hot_score": 3514.859511,
+          "lev_url": "https://leviathannews.xyz/265621/binance-adds-anchorage-digitals-atlas-to-triparty-banking-network-for-institutional-settlement",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630164246_YykpXmoo-Z88.jpg",
+          "url": "https://www.binance.com/en/blog/vip/binance-expands-triparty-banking-network-with-anchorage-digitals-atlas-integration-5634840922160162828"
+        },
+        {
+          "clicks": 17,
+          "date": "2026-06-29T12:04:14.606181+00:00",
+          "headline": "FundBank becomes IRACE Digital after Tenet deal, with ex-Zodia CEO running crypto banking buildout",
+          "hot_score": 1382.989762,
+          "lev_url": "https://leviathannews.xyz/264550/fundbank-becomes-irace-digital-after-tenet-deal-with-ex-zodia-ceo-running-crypto-banking-buildout",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629114346_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/business/2026/06/29/fundbank-becomes-irace-digital-in-bid-to-bridge-traditional-finance-and-crypto"
+        },
+        {
+          "clicks": 71,
+          "date": "2026-04-09T08:57:24.812710+00:00",
+          "headline": "Liquid Banking is live. The first fully onchain banking layer on Hyperliquid.",
+          "hot_score": 1168.207996,
+          "lev_url": "https://leviathannews.xyz/224651/liquid-banking-is-live-the-first-fully-onchain-banking-layer-on-hyperliquid",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409085347_O-K7407I2Dbg.jpg",
+          "url": "https://x.com/hyperbeat/status/2041878671179321849"
+        },
+        {
+          "clicks": 41,
+          "date": "2026-05-14T14:57:16.459827+00:00",
+          "headline": "The LIVE Senate Banking Committee is holding a closed‑door executive session Digital Asset Market Clarity Act of 2025,",
+          "hot_score": 1122.19715,
+          "lev_url": "https://leviathannews.xyz/242212/the-live-senate-banking-committee-is-holding-a-closeddoor-executive-session-on-may-14-2026-to-consider-hr-3633-the-digital-asset-market-clarity-act-of-2025-with-the-proceedings-web",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514145608_fjEF6TvuQTU8.jpg",
+          "url": "https://www.banking.senate.gov/hearings/05/08/2026/executive-session"
+        },
+        {
+          "clicks": 29,
+          "date": "2026-05-14T16:31:36.533759+00:00",
+          "headline": "Stablecoin-powered neobank Fasset raises $51M to expand Shariah-compliant banking and crypto payments services across emerging markets",
+          "hot_score": 834.2,
+          "lev_url": "https://leviathannews.xyz/242330/no-headline-20260514-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514162658_mn484Oo9Vdeu.jpg",
+          "url": "https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:51:14.689809+00:00",
+      "editorial": [
+        {
+          "count": 18,
+          "source": "x.com"
+        },
+        {
+          "count": 8,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "crypto.news"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "globenewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "senatedems.delaware.gov"
+        },
+        {
+          "count": 1,
+          "source": "investors.sofi.com"
+        },
+        {
+          "count": 1,
+          "source": "finzly.com"
+        },
+        {
+          "count": 1,
+          "source": "politico.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "financialit.net"
+        }
+      ],
+      "editorial_distinct": 23,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 106,
+          "source": "x.com"
+        },
+        {
+          "count": 16,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 11,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 8,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 8,
+          "source": "theblock.co"
+        },
+        {
+          "count": 5,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 3,
+          "source": "federalreserve.gov"
+        },
+        {
+          "count": 3,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "cn.wsj.com"
+        },
+        {
+          "count": 2,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "wsj.com"
+        }
+      ],
+      "universe_distinct": 24
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "a9d3ab4d33aa3f124bba01cbdccaf2a82043dfee22beefe45e94db674c613c20",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:21:51.178827+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.207,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0113,
+        "lift_log": 2.198,
+        "score": 0.2068,
+        "shared": 3
+      },
+      "rationale": "Central banks are distinct from commercial banking but related.",
+      "relation_type": "peer",
+      "slug": "central-bank",
+      "source": "cotag",
+      "tag_name": "Central Bank",
+      "title": "Central Bank, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.213,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0846,
+        "lift_log": 3.656,
+        "score": 0.2129,
+        "shared": 36
+      },
+      "rationale": "CLARITY Act proposes regulatory clarity for banking and crypto.",
+      "relation_type": "event",
+      "slug": "clarity-act",
+      "source": "cotag",
+      "tag_name": "CLARITY Act",
+      "title": "CLARITY Act, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.228,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.1027,
+        "lift_log": 3.75,
+        "score": 0.2281,
+        "shared": 51
+      },
+      "rationale": "Senate oversees banking regulation and legislation.",
+      "relation_type": "governance",
+      "slug": "senate",
+      "source": "cotag",
+      "tag_name": "Senate",
+      "title": "Senate, Explained",
+      "weight": 23
+    },
+    {
+      "confidence": 0.202,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0192,
+        "lift_log": 1.861,
+        "score": 0.2024,
+        "shared": 45
+      },
+      "rationale": "Stablecoins are a product offered by some banking platforms.",
+      "relation_type": "product",
+      "slug": "stablecoins",
+      "source": "cotag",
+      "tag_name": "Stablecoins",
+      "title": "Stablecoins, Explained",
+      "weight": 20
+    }
+  ],
+  "schema_version": 1,
+  "slug": "banking",
+  "tag_name": "Banking",
+  "title": "Banking, Explained"
+}

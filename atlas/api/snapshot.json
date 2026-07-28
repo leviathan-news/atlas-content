@@ -1,0 +1,640 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:46:11.166320+00:00",
+      "newsroom_total": 67,
+      "overall_share": 5,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": 5,
+          "month": "2026-02",
+          "newsroom": 4,
+          "universe": 70
+        },
+        {
+          "ed_share": 2,
+          "month": "2026-03",
+          "newsroom": 8,
+          "universe": 363
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-04",
+          "newsroom": 17,
+          "universe": 263
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-05",
+          "newsroom": 10,
+          "universe": 213
+        },
+        {
+          "ed_share": 2,
+          "month": "2026-06",
+          "newsroom": 6,
+          "universe": 270
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 2
+        }
+      ],
+      "total_universe": 1248,
+      "universe_total": 1181
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:46:10.424344+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "api",
+          "phrase": "APIs enable agent interactions and integrations.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "agents",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "api",
+          "phrase": "APIs provide interfaces for AI agents to access services.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ai-agents",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "api",
+          "phrase": "APIs often interact with databases to retrieve or store data.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "database",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "api",
+          "phrase": "APIs are used to call LLMs for inference.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "llm",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "api",
+          "phrase": "APIs allow wallets to interact with blockchain services.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "wallets",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "API",
+          "slug": "api",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "AI Agents",
+          "slug": "ai-agents",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Database",
+          "slug": "database",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "LLM",
+          "slug": "llm",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "wallets",
+          "slug": "wallets",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T01:07:21.809622+00:00",
+      "events": [
+        {
+          "date": "2023-09",
+          "kind": "exploit",
+          "label": "OpenSea third-party API key breach prompts mass key rotation",
+          "source": ""
+        },
+        {
+          "date": "2023-11",
+          "kind": "exploit",
+          "label": "Kronos Research API breach results in $20.3M theft",
+          "source": ""
+        },
+        {
+          "date": "2024-12",
+          "kind": "exploit",
+          "label": "Clipper Exchange exploited via API vulnerability, $500K lost",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "launch",
+          "label": "Venice AI opens public API and launches VVV token on Base",
+          "source": ""
+        },
+        {
+          "date": "2025-02",
+          "kind": "launch",
+          "label": "XMR402 stateless Monero API payment protocol announced",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "launch",
+          "label": "Uniswap Labs opens beta developer platform with API key generation",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "milestone",
+          "label": "Messari integrates x402 enabling USDC micropayments for institutional data API access",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "exploit",
+          "label": "Researchers disclose 26 LLM API routers stealing developer credentials via injected malicious code",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T01:07:21.809482+00:00",
+      "insight": "Readers click API stories not for the technology itself but for two high-stakes edge cases: when AI agents start autonomously paying for data on-chain (a new economic actor that bypasses traditional gatekeeping), and when API keys get compromised and eight-figure sums evaporate — revealing that a single credential is now a systemic attack surface in crypto.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 68,
+      "as_of": "2026-07-01T11:46:12.065445+00:00",
+      "most_clicked": {
+        "clicks": 490,
+        "date": "2026-04-10T10:31:01.604741+00:00",
+        "headline": "Claude platform introduces advisor strategy pairing Opus with Sonnet or Haiku, enabling near-Opus intelligence in agents at lower cost with single API calls and improved performance in evals",
+        "lev_url": "https://leviathannews.xyz/225741/claude-platform-introduces-advisor-strategy-pairing-opus-with-sonnet-or-haiku-enabling-near-opus-intelligence-in-agents-at-lower-cost-with-single-api-calls-and-improved-performance"
+      },
+      "provenance": "data",
+      "top_decile_share": 30,
+      "total_clicks": 4472
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T01:07:21.809544+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "AI agents as API consumers",
+          "why": "The highest-clicked stories all share a structural shift: AI is no longer just a tool layered on top of APIs but an autonomous economic agent that calls, pays for, and acts on API data without human intermediation — readers recognize this changes who controls information flow."
+        },
+        {
+          "source": "",
+          "thread": "API key breach accountability",
+          "why": "Three separate incidents — Kronos ($20.3M), OpenSea (third-party key leak), Clipper ($500K) — made readers confront that API keys are bearer instruments indistinguishable from private keys, and the question of who bears liability after a breach is unresolved."
+        },
+        {
+          "source": "",
+          "thread": "x402 micropayment API monetization",
+          "why": "The cluster of x402-linked headlines (XMR402 Monero, SerenAI USDC, Messari USDC, CoinGecko partnership) signals readers tracking whether pay-per-call stablecoin micropayments can replace subscription API keys and eliminate KYC friction for agents."
+        },
+        {
+          "source": "",
+          "thread": "DEX platform API developer race",
+          "why": "Uniswap, Jupiter, and Parsec all opened or expanded developer APIs within a short window; readers followed the competitive dynamic of which liquidity layer becomes the canonical integration point for the next generation of on-chain apps."
+        },
+        {
+          "source": "",
+          "thread": "TradFi institutions adopting crypto APIs",
+          "why": "Google Cloud GCUL and Japan's Project Pax (MUFG/SMBC/Mizuho via SWIFT API rails) showed readers that the question is no longer whether banks adopt blockchain but which API abstraction layer they choose, and what compliance tradeoffs come with it."
+        },
+        {
+          "source": "",
+          "thread": "AI displacing financial research workflows",
+          "why": "The SpaceX IPO memo story resonated because it made concrete a previously abstract threat: a single autonomous system using paid on-chain APIs produced institutional-grade research output, putting a dollar figure on what gets disrupted."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T01:07:21.809554+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / API integration",
+          "level": "High",
+          "note": "The Clipper Exchange exploit demonstrated that an API vulnerability in a DEX's price or liquidity endpoint can be weaponized to drain pools without any smart-contract code flaw — the attack surface extends to off-chain API layers.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Kronos Research lost $20.3M through a single compromised API key, illustrating that centralized credential management creates a single point of catastrophic failure regardless of how decentralized the underlying protocol is.",
+          "source": ""
+        },
+        {
+          "dimension": "Supply-chain / Third-party",
+          "level": "High",
+          "note": "OpenSea's breach originated at a third-party API provider, and researchers found 26 LLM API routers injecting malicious code and stealing developer credentials — the trust chain now extends well beyond the primary protocol.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Google Cloud GCUL and Project Pax both market compliance-first API design as a differentiator, signaling that regulators are beginning to treat API access points as supervisable financial infrastructure rather than neutral software.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Deloitte's acqui-hire of Blocknative and the subsequent sunset of its APIs removed a widely-used mempool data layer, showing that liquidity-dependent tooling can disappear rapidly when infrastructure consolidation occurs.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "The convergence of AI agent spending (autonomous API calls) with micropayment rails (x402, XMR402) introduces reflexive demand loops where agent activity could spike API costs unpredictably, compressing margins for protocols that monetize data access.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:46:11.983683+00:00",
+      "items": [
+        {
+          "clicks": 66,
+          "date": "2026-04-08T12:43:18.800967+00:00",
+          "headline": "Jupiter launches Express Verification API, letting DEXes, launchpads, and agents integrate instant token verification directly into user flows and streamline onboarding",
+          "hot_score": 14819.391309,
+          "lev_url": "https://leviathannews.xyz/223652/jupiter-launches-express-verification-api-letting-dexes-launchpads-and-agents-integrate-instant-token-verification-directly-into-user-flows-and-streamline-onboarding",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408120453_9oTxCkGi2T6Q.jpg",
+          "url": "https://x.com/i/status/2041536872242172415"
+        },
+        {
+          "clicks": 48,
+          "date": "2026-04-15T09:44:20.082944+00:00",
+          "headline": "Coinbase launches Bazaar MCP, enabling AI agents to discover, evaluate, and pay for APIs autonomously, unlocking seamless tool usage with trust-based rankings",
+          "hot_score": 6740.318562,
+          "lev_url": "https://leviathannews.xyz/229262/coinbase-launches-bazaar-mcp-enabling-ai-agents-to-discover-evaluate-and-pay-for-apis-autonomously-unlocking-seamless-tool-usage-with-trust-based-rankings",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415071721_Nf6bOqGN-syz.png",
+          "url": "https://x.com/i/status/2044085459845034484"
+        },
+        {
+          "clicks": 62,
+          "date": "2026-04-13T10:13:26.447018+00:00",
+          "headline": "Researchers find 26 LLM API routers secretly injecting malicious code and stealing developer credentials",
+          "hot_score": 4544.630077,
+          "lev_url": "https://leviathannews.xyz/227458/researchers-find-26-llm-api-routers-secretly-injecting-malicious-code-and-stealing-developer-credentials",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260413032809_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/researchers-discover-malicious-ai-agent-routers-that-can-steal-crypto"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-04-16T13:46:56.020729+00:00",
+          "headline": "Teneo Protocol joins CoinMarketCap Labs to power AI agents with autonomous API access and workflow execution, processing 1.45M+ requests across Avalanche, Base, and BNB Chain",
+          "hot_score": 4372.948227,
+          "lev_url": "https://leviathannews.xyz/230530/teneo-protocol-joins-coinmarketcap-labs-to-power-ai-agents-with-autonomous-api-access-and-workflow-execution-processing-145m-requests-across-avalanche-base-and-bnb-chain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416134123_aajvkgexce24.png",
+          "url": "https://x.com/i/status/2044732661214642193"
+        },
+        {
+          "clicks": 57,
+          "date": "2026-04-16T16:34:48.460230+00:00",
+          "headline": "Uniswap launches Developer Platform with AI-first tools, API dashboard, and liquidity endpoints, enabling builders to integrate swaps and LPing across 18+ chains",
+          "hot_score": 4144.642702,
+          "lev_url": "https://leviathannews.xyz/230716/uniswap-launches-developer-platform-with-ai-first-tools-api-dashboard-and-liquidity-endpoints-enabling-builders-to-integrate-swaps-and-lping-across-18-chains",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416163410_on_EZodXu_2U.jpg",
+          "url": "https://x.com/i/status/2044801774809227294"
+        },
+        {
+          "clicks": 16,
+          "date": "2026-07-01T01:24:46.405548+00:00",
+          "headline": "Exa AI launches on Solana, enabling agents to access web and content search using USDC payments via x402 without accounts, API keys, or subscriptions",
+          "hot_score": 3734.828917,
+          "lev_url": "https://leviathannews.xyz/265987/exaailabs-is-now-live-on-solana-exa-provides-web-and-content-search-without-the-need-for-an-account-api-key-or-subscription-just-pay-per-request-in-usdc-via-x402-this-is-ideal-for-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701002340_yuFf1LTw8U3d.jpg",
+          "url": "https://x.com/solana/status/2072021932405665961"
+        },
+        {
+          "clicks": 17,
+          "date": "2026-06-29T15:46:16.148511+00:00",
+          "headline": "Uniswap adds MegaETH swaps, LPing, and API support with 100,000 TPS and 10ms blocks",
+          "hot_score": 3234.547585,
+          "lev_url": "https://leviathannews.xyz/264800/uniswap-adds-megaeth-swaps-lping-and-api-support-with-100000-tps-and-10ms-blocks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629153853_Z4zrlaiDPw==.png",
+          "url": "https://blog.uniswap.org/MegaETH-is-live-on-Uniswap-apps"
+        },
+        {
+          "clicks": 20,
+          "date": "2026-04-21T08:19:18.784847+00:00",
+          "headline": "The Graph unveils 2026 economic overhaul, introducing REO to tie rewards to real data work while expanding demand through new products like Substreams, Token API, and Amp",
+          "hot_score": 906.6,
+          "lev_url": "https://leviathannews.xyz/234057/the-graph-unveils-2026-economic-overhaul-introducing-reo-to-tie-rewards-to-real-data-work-while-expanding-demand-through-new-products-like-substreams-token-api-and-amp",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421051459_WG0bs32GwyHW.jpg",
+          "url": "https://x.com/i/status/2046222085173789120"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:46:11.887469+00:00",
+      "editorial": [
+        {
+          "count": 40,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "serendb.com"
+        },
+        {
+          "count": 1,
+          "source": "dune.com"
+        },
+        {
+          "count": 1,
+          "source": "velodata.app"
+        },
+        {
+          "count": 1,
+          "source": "datachain.jp"
+        },
+        {
+          "count": 1,
+          "source": "news.curve.finance"
+        },
+        {
+          "count": 1,
+          "source": "cloud.google.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptoslate.com"
+        },
+        {
+          "count": 1,
+          "source": "gov.uniswap.org"
+        },
+        {
+          "count": 1,
+          "source": "fernhq.com"
+        }
+      ],
+      "editorial_distinct": 21,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 799,
+          "source": "x.com"
+        },
+        {
+          "count": 87,
+          "source": "bybit.com"
+        },
+        {
+          "count": 30,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 29,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 23,
+          "source": "theblock.co"
+        },
+        {
+          "count": 23,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 19,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 14,
+          "source": "wsj.com"
+        },
+        {
+          "count": 11,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 11,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 10,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 7,
+          "source": "dlnews.com"
+        }
+      ],
+      "universe_distinct": 78
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "c9db93ec9cb6856ec08a523ebdb141e2d191363b94c2d5e6292cf7d214af82c1",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:21:49.195119+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.218,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0309,
+        "lift_log": 2.167,
+        "score": 0.2179,
+        "shared": 23
+      },
+      "rationale": "APIs enable agent interactions and integrations.",
+      "relation_type": "ecosystem",
+      "slug": "agents",
+      "source": "cotag",
+      "tag_name": "agents",
+      "title": "agents, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.207,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0295,
+        "lift_log": 1.87,
+        "score": 0.2072,
+        "shared": 45
+      },
+      "rationale": "APIs provide interfaces for AI agents to access services.",
+      "relation_type": "ecosystem",
+      "slug": "ai-agents",
+      "source": "cotag",
+      "tag_name": "AI Agents",
+      "title": "AI Agents, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "api",
+  "tag_name": "API",
+  "title": "API, Explained"
+}

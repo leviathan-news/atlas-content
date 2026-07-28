@@ -1,0 +1,508 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:15:31.342505+00:00",
+      "newsroom_total": 7,
+      "overall_share": 26,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 10
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 4
+        }
+      ],
+      "total_universe": 27,
+      "universe_total": 20
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:15:30.417824+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "alchemy-pay",
+          "phrase": "Alchemy Pay is a payment solution by Alchemy, integrating its ecosystem.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "alchemy",
+          "weight": 65
+        },
+        {
+          "dir": "out",
+          "from": "alchemy-pay",
+          "phrase": "Alchemy Pay enables fiat-to-crypto on-ramp, a core DeFi primitive.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fiat",
+          "weight": 36
+        },
+        {
+          "dir": "out",
+          "from": "alchemy-pay",
+          "phrase": "Alchemy Pay holds licenses for compliant payment operations.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "license",
+          "weight": 28
+        },
+        {
+          "dir": "out",
+          "from": "alchemy-pay",
+          "phrase": "Securities classification poses regulatory risk for Alchemy Pay.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "securities",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "alchemy-pay",
+          "phrase": "Update refers to a product or protocol update for Alchemy Pay.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "update",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Alchemy Pay",
+          "slug": "alchemy-pay",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Alchemy",
+          "slug": "alchemy",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 65
+        },
+        {
+          "center": false,
+          "name": "Fiat",
+          "slug": "fiat",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 36
+        },
+        {
+          "center": false,
+          "name": "License",
+          "slug": "license",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 28
+        },
+        {
+          "center": false,
+          "name": "Securities",
+          "slug": "securities",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "update",
+          "slug": "update",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:13:14.623059+00:00",
+      "events": [
+        {
+          "date": "2021-09",
+          "kind": "milestone",
+          "label": "MEXC Global fiat on-ramp partnership announced",
+          "source": "https://www.prnewswire.com/news-releases/alchemy-pay-partners-mexc-global-to-provide-fiat-on-ramps-and-crypto-acceptance-301350233.html"
+        },
+        {
+          "date": "2024-12",
+          "kind": "launch",
+          "label": "Alchemy Chain cross-border payment network unveiled with Q4 2025 stablecoin target",
+          "source": "https://alchemypay.org/news-and-press/alchemy-chain-introduces-the-ach-supply-framework-to-power-a-stablecoin-payment-native-blockchain"
+        },
+        {
+          "date": "2025-02",
+          "kind": "regulatory",
+          "label": "Delaware money transmitter license secured (15th US state)",
+          "source": "https://alchemypay.org/news-and-press/alchemy-pay-expands-u-s-compliance-with-delaware-money-transmitter-license"
+        },
+        {
+          "date": "2025-04",
+          "kind": "milestone",
+          "label": "Fiat24 Web3 digital bank partnership live with Swiss-regulated banking rails",
+          "source": "https://alchemypay.org/news-and-press/alchemy-pay-partners-with-fiat24-to-power-web3-digital-bank-service-with-swiss-regulated-banking-solutions"
+        },
+        {
+          "date": "2025-05",
+          "kind": "launch",
+          "label": "Backed and xStocks partnerships launch fiat-to-tokenized-equity platform across 170+ countries",
+          "source": "https://alchemypay.org/news-and-press/alchemy-pay-partners-with-backed-to-integrate-xstocks-on-its-platform-pioneering-the-first-direct-fiat-access-to-tokenized-stocks-and-etfs"
+        },
+        {
+          "date": "2025-07",
+          "kind": "regulatory",
+          "label": "HTF Securities Hong Kong SFC Type 1 (Dealing in Securities) license uplifted",
+          "source": "https://alchemypay.org/news-and-press/alchemy-pay-and-htf-securities-successfully-uplift-sfc-type-1-dealing-in-securities-license"
+        },
+        {
+          "date": "2025-12",
+          "kind": "regulatory",
+          "label": "HTF Securities Hong Kong SFC Type 4 (Virtual Asset Advisory) license secured",
+          "source": "https://www.prnewswire.com/news-releases/alchemy-pay-and-htf-securities-secure-hong-kong-sfc-type-4-license-upgrade-for-virtual-asset-advisory-services-302683685.html"
+        },
+        {
+          "date": "2026-02",
+          "kind": "launch",
+          "label": "Alchemy Chain testnet goes live; ACH supply framework published",
+          "source": "https://alchemypay.org/news-and-press/alchemy-chain-introduces-the-ach-supply-framework-to-power-a-stablecoin-payment-native-blockchain"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:13:14.622867+00:00",
+      "insight": "Readers engage Alchemy Pay primarily through its partnership dealflow that unlocks new market access — US licensing and tokenized-asset rails — not its underlying ACH token or payment-widget mechanics, revealing that the real story is whether Alchemy Pay can become infrastructure for regulated financial rails rather than a crypto-native tool.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://alchemypay.org/news-and-press/alchemy-pay-partners-with-backed-to-integrate-xstocks-on-its-platform-pioneering-the-first-direct-fiat-access-to-tokenized-stocks-and-etfs"
+    },
+    "reader_signal": {
+      "article_count": 7,
+      "as_of": "2026-07-01T12:15:32.410484+00:00",
+      "most_clicked": {
+        "clicks": 211,
+        "date": "2024-12-24T14:56:37.138533+00:00",
+        "headline": "Oak Grove Ventures, Alchemy pay’s partner, powers Gate group’s bold acquisition of Japan’s Coin Master crypto exchange.",
+        "lev_url": "https://leviathannews.xyz/8466/oak-grove-ventures-alchemy-pays-partner-powers-gate-groups-bold-acquisition-of-japans-coin-master-crypto-exchange"
+      },
+      "provenance": "data",
+      "top_decile_share": 46,
+      "total_clicks": 462
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:13:14.622938+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Oak Grove Gate Group acquisition",
+          "why": "The 210-click lead suggests readers saw Alchemy Pay's investor/partner network as a strategic force reshaping Asian crypto exchange consolidation, not just a payments vendor."
+        },
+        {
+          "source": "https://alchemypay.org/news-and-press/alchemy-pay-expands-u-s-compliance-with-delaware-money-transmitter-license",
+          "thread": "US money transmitter licensing",
+          "why": "A rolling state-by-state license count (15 → 16 → 18 states) gave readers a concrete compliance scoreboard to track, making regulatory progress feel like a live competition metric."
+        },
+        {
+          "source": "https://alchemypay.org/news-and-press/alchemy-pay-partners-with-backed-to-integrate-xstocks-on-its-platform-pioneering-the-first-direct-fiat-access-to-tokenized-stocks-and-etfs",
+          "thread": "RWA tokenized stock access",
+          "why": "The xStocks and Backed partnerships let readers see Alchemy Pay as an on-ramp to tokenized equities across 170+ countries, framing it as a retail brokerage disruptor rather than a crypto gateway."
+        },
+        {
+          "source": "https://alchemypay.org/news-and-press/alchemy-pay-partners-with-fiat24-to-power-web3-digital-bank-service-with-swiss-regulated-banking-solutions",
+          "thread": "Swiss Web3 banking rails",
+          "why": "The Fiat24 deal positioned Alchemy Pay as plumbing for a regulated European digital bank, appealing to readers tracking institutional-grade fiat-crypto integration."
+        },
+        {
+          "source": "https://alchemypay.org/news-and-press/alchemy-chain-introduces-the-ach-supply-framework-to-power-a-stablecoin-payment-native-blockchain",
+          "thread": "Alchemy Chain own blockchain",
+          "why": "Announcing a proprietary chain with a native stablecoin shifted the narrative from payment plugin to independent payment-native L1, attracting readers following infrastructure bets."
+        },
+        {
+          "source": "https://www.prnewswire.com/news-releases/alchemy-pay-and-htf-securities-secure-hong-kong-sfc-type-4-license-upgrade-for-virtual-asset-advisory-services-302683685.html",
+          "thread": "Hong Kong SFC license upgrades",
+          "why": "Sequential Type 1 and Type 4 SFC license milestones signaled an Asia regulatory moat being built alongside the US state-license campaign."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:13:14.622949+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Active US multi-state MTL campaign (18+ states) and Hong Kong SFC licenses reduce acute shutdown risk, but operating across 170+ countries means a patchwork of overlapping and evolving payment regulations with no single consolidated license.",
+          "source": "https://alchemypay.org/news-and-press/alchemy-pay-secures-money-transmitter-license-in-maine-advancing-u-s-regulatory-expansion-and-global-compliance-strategy"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Core value proposition depends on centralized partnerships with Visa, Mastercard, SEPA networks, and regulated custodians — disruption or policy changes at any major rail directly impairs the service.",
+          "source": "https://alchemypay.org/news-and-press/alchemy-pay-partners-with-backed-to-integrate-xstocks-on-its-platform-pioneering-the-first-direct-fiat-access-to-tokenized-stocks-and-etfs"
+        },
+        {
+          "dimension": "Smart-contract / Technical",
+          "level": "Medium",
+          "note": "Alchemy Chain is still in testnet phase as of early 2026, meaning the proprietary L1 and its native stablecoin carry unaudited-in-production risk at launch.",
+          "source": "https://alchemypay.org/news-and-press/alchemy-chain-introduces-the-ach-supply-framework-to-power-a-stablecoin-payment-native-blockchain"
+        },
+        {
+          "dimension": "Market / Token",
+          "level": "High",
+          "note": "ACH token utility is loosely coupled to actual payment volume; the business generates revenue from merchant processing fees rather than token burns or staking, leaving token price largely speculative.",
+          "source": "https://coinmarketcap.com/currencies/alchemy-pay/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Fiat on-ramp liquidity relies on third-party custodians and banking partners; a partner withdrawal — as with Fiat24 or xStocks custodians — could freeze user access to tokenized positions.",
+          "source": "https://alchemypay.org/news-and-press/alchemy-pay-partners-with-fiat24-to-power-web3-digital-bank-service-with-swiss-regulated-banking-solutions"
+        },
+        {
+          "dimension": "Counterparty / Partner",
+          "level": "Medium",
+          "note": "With 1,200+ integrated partners, concentration risk is low in aggregate, but flagship partnerships with Binance and Shopify create reputational dependency on counterparties outside Alchemy Pay's control.",
+          "source": "https://www.prnewswire.com/news-releases/alchemy-pay-partners-mexc-global-to-provide-fiat-on-ramps-and-crypto-acceptance-301350233.html"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:15:32.326848+00:00",
+      "items": [
+        {
+          "clicks": 27,
+          "date": "2026-05-20T06:24:11.909048+00:00",
+          "headline": "Alchemy Pay adds Rhode Island currency transmitter license, bringing U.S. state approvals to 16",
+          "hot_score": 457.026187,
+          "lev_url": "https://leviathannews.xyz/245521/alchemy-pay-adds-rhode-island-currency-transmitter-license-bringing-us-state-approvals-to-16",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260520062339_UBJ_IqjE52I8.jpg",
+          "url": "https://alchemypay.org/news-and-press/alchemy-pay-secures-currency-transmitter-license-in-rhode-island"
+        },
+        {
+          "clicks": 211,
+          "date": "2024-12-24T14:56:37.138533+00:00",
+          "headline": "Oak Grove Ventures, Alchemy pay’s partner, powers Gate group’s bold acquisition of Japan’s Coin Master crypto exchange.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8466/oak-grove-ventures-alchemy-pays-partner-powers-gate-groups-bold-acquisition-of-japans-coin-master-crypto-exchange",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241224144917_1PymKoPR-vM=.jpg",
+          "url": "https://alchemypay.medium.com/oak-grove-ventures-alchemy-pays-associate-company-enables-gate-group-s-acquisition-of-coin-79294978daea"
+        },
+        {
+          "clicks": 74,
+          "date": "2023-09-21T09:03:29.848281+00:00",
+          "headline": "Alchemy Pay secures money transmitter license in United States, boosting crypto payment solutions",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2727/alchemy-pay-secures-money-transmitter-license-in-united-states-boosting-crypto-payment-solutions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://cointelegraph.com/news/crypto-payment-firm-alchemy-pay-arkansas-license"
+        },
+        {
+          "clicks": 47,
+          "date": "2025-09-08T06:02:40.782504+00:00",
+          "headline": "Alchemy Pay partners with Fiat24 to power Web3 Digital Bank service with Swiss-regulated banking solutions.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/16102/alchemy-pay-partners-with-fiat24-to-power-web3-digital-bank-service-with-swiss-regulated-banking-solutions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250908020211_dGjohCzdLdo=.jpg",
+          "url": "https://alchemypay.org/news-and-press/alchemy-pay-partners-with-fiat24-to-power-web3-digital-bank-service-with-swiss-regulated-banking-solutions"
+        },
+        {
+          "clicks": 40,
+          "date": "2025-09-17T11:38:15.762912+00:00",
+          "headline": "Alchemy Pay has launched a fiat-to-RWA investment platform in partnership with xStocks, enabling users across 170+ countries to buy tokenized U.S. stocks and ETFs directly using local fiat via Visa, Mastercard, SEPA, Apple Pay, Google Pay, and more. The platform’s assets are backed 1:1 by regulated custodians, allow fractional ownership starting at $1, and use real-time data and liquidity to ensure transparency and smooth access.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/16856/alchemy-pay-has-launched-a-fiat-to-rwa-investment-platform-in-partnership-with-xstocks-enabling-users-across-170-countries-to-buy-tokenized-us-stocks-and-etfs-directly-using-local-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250917101209_C14HRT75F-8=.webp",
+          "url": "https://crypto.news/alchemy-pay-fiat-to-rwa-investment-platform-2025/"
+        },
+        {
+          "clicks": 34,
+          "date": "2025-06-12T09:19:53.820484+00:00",
+          "headline": "Alchemy Pay partners with Backed to offer tokenized ETFs and equities to global users",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/12301/alchemy-pay-partners-with-backed-to-offer-tokenized-etfs-and-equities-to-global-users",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250612091254_vz3tGhAAnjk=.jpg",
+          "url": "https://x.com/AlchemyPay/status/1933087578347209150"
+        },
+        {
+          "clicks": 29,
+          "date": "2025-06-19T16:52:49.591482+00:00",
+          "headline": "Alchemy Pay unveils Alchemy Chain for compliant cross-border payments, with native stablecoin launch slated for Q4 2025",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/12724/alchemy-pay-unveils-alchemy-chain-for-compliant-cross-border-payments-with-native-stablecoin-launch-slated-for-q4-2025",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250619164508_G9lyeL36pXw=.jpg",
+          "url": "https://alchemypay.org/news-and-press/global-stablecoin-legislation-gains-momentum-as-alchemy-chain-advances-toward-stablecoin-centric-launch"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:15:32.240385+00:00",
+      "editorial": [
+        {
+          "count": 3,
+          "source": "alchemypay.org"
+        },
+        {
+          "count": 1,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "alchemypay.medium.com"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        }
+      ],
+      "editorial_distinct": 5,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 8,
+          "source": "x.com"
+        },
+        {
+          "count": 8,
+          "source": "alchemypay.org"
+        },
+        {
+          "count": 2,
+          "source": "api.alchemypay.org"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "0e794145103dbb3f54a811624eba66b6c0c3f81aa53ce78b7347008a438ddc42",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:48.619219+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.65,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.4981,
+        "lift_log": 6.987,
+        "score": 0.65,
+        "shared": 28
+      },
+      "rationale": "Alchemy Pay is a payment solution by Alchemy, integrating its ecosystem.",
+      "relation_type": "ecosystem",
+      "slug": "alchemy",
+      "source": "cotag",
+      "tag_name": "Alchemy",
+      "title": "Alchemy, Explained",
+      "weight": 65
+    },
+    {
+      "confidence": 0.361,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0533,
+        "lift_log": 5.137,
+        "score": 0.3609,
+        "shared": 4
+      },
+      "rationale": "Alchemy Pay enables fiat-to-crypto on-ramp, a core DeFi primitive.",
+      "relation_type": "primitive",
+      "slug": "fiat",
+      "source": "cotag",
+      "tag_name": "Fiat",
+      "title": "Fiat, Explained",
+      "weight": 36
+    },
+    {
+      "confidence": 0.283,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0764,
+        "lift_log": 5.387,
+        "score": 0.2832,
+        "shared": 7
+      },
+      "rationale": "Alchemy Pay holds licenses for compliant payment operations.",
+      "relation_type": "event",
+      "slug": "license",
+      "source": "cotag",
+      "tag_name": "License",
+      "title": "License, Explained",
+      "weight": 28
+    }
+  ],
+  "schema_version": 1,
+  "slug": "alchemy-pay",
+  "tag_name": "Alchemy Pay",
+  "title": "Alchemy Pay, Explained"
+}

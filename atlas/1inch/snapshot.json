@@ -1,0 +1,616 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:01:44.679759+00:00",
+      "newsroom_total": 23,
+      "overall_share": 26,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-03",
+          "newsroom": 2,
+          "universe": 20
+        },
+        {
+          "ed_share": 8,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 11
+        },
+        {
+          "ed_share": 18,
+          "month": "2026-05",
+          "newsroom": 3,
+          "universe": 14
+        },
+        {
+          "ed_share": 5,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 18
+        }
+      ],
+      "total_universe": 88,
+      "universe_total": 65
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:01:44.240859+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "1inch",
+          "phrase": "Fusion is a product built by 1inch for atomic swaps.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fusion",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "1inch",
+          "phrase": "Liquidity is a core DeFi primitive that 1inch aggregates.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "1inch",
+          "phrase": "Wallet is a product offering from 1inch for self-custody.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "wallet",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "1inch",
+          "phrase": "MCP is a tool or infrastructure used by 1inch.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "mcp",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "1inch",
+          "phrase": "MEV is a risk dimension that 1inch mitigates via Fusion.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "mev",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "1inch",
+          "slug": "1inch",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Fusion",
+          "slug": "fusion",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Liquidity",
+          "slug": "liquidity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Wallet",
+          "slug": "wallet",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "MCP",
+          "slug": "mcp",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "MEV",
+          "slug": "mev",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T05:09:19.031523+00:00",
+      "events": [
+        {
+          "date": "2020-12",
+          "kind": "launch",
+          "label": "1INCH token launched via airdrop",
+          "source": "https://1inch.com/blog/post/1inch-token-is-released"
+        },
+        {
+          "date": "2023-06",
+          "kind": "launch",
+          "label": "Fusion swap mode released, introducing intent-based routing via solvers",
+          "source": "https://1inch.com/blog/post/a-deep-dive-into-1inch-fusion"
+        },
+        {
+          "date": "2025-03",
+          "kind": "exploit",
+          "label": "Fusion v1 resolver vulnerability identified; no end-user funds lost",
+          "source": ""
+        },
+        {
+          "date": "2025-09",
+          "kind": "milestone",
+          "label": "1inch unveils new branding at Token2049",
+          "source": ""
+        },
+        {
+          "date": "2025-10",
+          "kind": "exploit",
+          "label": "TrustedVolumes solver exploited for ~$5.87M on Ethereum",
+          "source": "https://bitcoinfoundation.org/news/crimes-and-fraud-news/1inch-provider-hacked/"
+        },
+        {
+          "date": "2025-11",
+          "kind": "launch",
+          "label": "Aqua shared liquidity layer released",
+          "source": "https://1inch.com/aqua"
+        },
+        {
+          "date": "2026-01",
+          "kind": "launch",
+          "label": "Native cross-chain swaps between Solana and EVM chains launched",
+          "source": "https://x.com/1inch/status/2066542748363022569"
+        },
+        {
+          "date": "2026-03",
+          "kind": "launch",
+          "label": "1inch Business MCP released for agentic DeFi trading access",
+          "source": "https://x.com/1inch/status/2033581667458138187"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T05:09:19.031341+00:00",
+      "insight": "Readers engage with 1inch not as passive users but as governance watchdogs: the two highest-clicked stories both expose value extraction or liability that the protocol quietly imposed on users and participants, revealing that trust in the DEX aggregator layer is the real stakes.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://1inch.com"
+    },
+    "reader_signal": {
+      "article_count": 23,
+      "as_of": "2026-07-01T12:01:45.139633+00:00",
+      "most_clicked": {
+        "clicks": 340,
+        "date": "2023-06-13T23:50:59.034230+00:00",
+        "headline": "1inch DAO votes to discontinue stealing \"positive slippage\" from users when trades result in a surplus",
+        "lev_url": "https://leviathannews.xyz/1428/1inch-dao-votes-to-discontinue-stealing-positive-slippage-from-users-when-trades-result-in-a-surplus"
+      },
+      "provenance": "data",
+      "top_decile_share": 27,
+      "total_clicks": 2230
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T05:09:19.031426+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://1inch.com",
+          "thread": "DAO governance & user extraction",
+          "why": "The positive-slippage vote exposed that 1inch was capturing surplus trade value from users, making it a concrete governance-accountability story rather than an abstract DAO vote."
+        },
+        {
+          "source": "",
+          "thread": "DAO legal liability shield",
+          "why": "A 50,000 USDC on-chain vote to hire a lawyer made the abstract threat of DAO member liability suddenly tangible and actionable, drawing readers who hold governance tokens."
+        },
+        {
+          "source": "https://bitcoinfoundation.org/news/crimes-and-fraud-news/1inch-provider-hacked/",
+          "thread": "Fusion protocol & solver exploits",
+          "why": "The TrustedVolumes hack and Fusion v1 vulnerability revealed that the solver network outsourcing model transfers protocol risk onto third-party resolvers in ways users did not fully understand."
+        },
+        {
+          "source": "https://1inch.com/blog/post/a-deep-dive-into-1inch-fusion",
+          "thread": "Intent-based & cross-chain swaps",
+          "why": "The atomic-swap white paper and Solana cross-chain launch represented a genuine architectural shift away from routing aggregation, attracting readers tracking whether 1inch can stay ahead of UniswapX and CoW Swap."
+        },
+        {
+          "source": "",
+          "thread": "DEX aggregator competitive pressure",
+          "why": "CoW Swap's rise to 26% market share and potential dethroning of 1inch framed the aggregator war as a zero-sum race, giving readers a scoreboard to follow."
+        },
+        {
+          "source": "",
+          "thread": "Token unlock & airdrop sell-pressure",
+          "why": "Research showing up to 95% of airdrop proceeds sold within two transfer steps, combined with $750M+ in scheduled token unlocks, gave holders a concrete reason to track price risk."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T05:09:19.031441+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / solver risk",
+          "level": "High",
+          "note": "The TrustedVolumes exploit drained approximately $5.87M (1,291 ETH + stablecoins + WBTC) from a Fusion-era resolver, and Blockaid linked the attacker to the earlier 2025 Fusion V1 vulnerability, indicating the solver architecture has a recurring attack surface.",
+          "source": "https://bitcoinfoundation.org/news/crimes-and-fraud-news/1inch-provider-hacked/"
+        },
+        {
+          "dimension": "Competitive / market-share risk",
+          "level": "High",
+          "note": "CoW Swap surpassed $5B monthly volume and approached 26% DEX aggregator market share, directly threatening 1inch's dominant position as the default routing layer.",
+          "source": ""
+        },
+        {
+          "dimension": "Governance / centralization risk",
+          "level": "Medium",
+          "note": "Key protocol parameters—including positive slippage capture and treasury actions like an $10M ETH purchase and 11,000 ETH test sale—are controlled by a DAO whose member liability exposure prompted a rushed lawyer-hire, suggesting governance structures are still maturing.",
+          "source": "https://1inch.com"
+        },
+        {
+          "dimension": "Regulatory risk",
+          "level": "Medium",
+          "note": "The DAO's decision to hire legal counsel for member liability protection signals awareness of regulatory exposure; 1inch's legal chief publicly endorsed the Clarity Act as DeFi-friendly, indicating the team is actively lobbying to shape the outcome.",
+          "source": "https://1inch.com/blog/post/what-is-the-clarity-act"
+        },
+        {
+          "dimension": "Liquidity / solver concentration risk",
+          "level": "Medium",
+          "note": "The Fusion model routes trades through a permissioned solver network; the TrustedVolumes hack demonstrated that a single solver's compromise disrupts live order flow and end-user confidence even when core contracts remain intact.",
+          "source": "https://1inch.com/aqua"
+        },
+        {
+          "dimension": "Token / unlock pressure",
+          "level": "Medium",
+          "note": "1inch was included in a cohort projected to unlock over $750M in tokens by December alongside dYdX, Optimism, and Aptos, and independent research found airdrop recipients historically sell up to 95% of proceeds within two transfer steps.",
+          "source": ""
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:01:45.059354+00:00",
+      "items": [
+        {
+          "clicks": 54,
+          "date": "2026-04-20T05:45:02.460840+00:00",
+          "headline": "Fluid rolls out $1B-cap aWETH Redemption Protocol with Lido Finance, EtherFi, and 1inch to reduce systemic DeFi risk and unlock trapped ETH liquidity on Aave",
+          "hot_score": 1158.787713,
+          "lev_url": "https://leviathannews.xyz/233158/fluid-rolls-out-1b-cap-aweth-redemption-protocol-with-lido-etherfi-0x-and-1inch-to-reduce-systemic-defi-risk-and-unlock-trapped-eth-liquidity-on-aave",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420054329_fQ_1rtRVhwP7.jpg",
+          "url": "https://x.com/i/status/2045977506721960420"
+        },
+        {
+          "clicks": 68,
+          "date": "2026-05-07T05:45:46.173672+00:00",
+          "headline": "1inch liquidity provider TrustedVolumes suffers ongoing $5.87M exploit on Ethereum, with Blockaid linking attacker to 2025 Fusion V1 hack",
+          "hot_score": 932.281535,
+          "lev_url": "https://leviathannews.xyz/238929/1inch-liquidity-provider-trustedvolumes-suffers-ongoing-587m-exploit-on-ethereum-with-blockaid-linking-attacker-to-2025-fusion-v1-hack",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260507054237_jGq885Xo5hxJ.jpg",
+          "url": "https://www.theblock.co/post/400332/1inch-trustedvolumes-exploit"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-06-16T16:23:27.937786+00:00",
+          "headline": "98.7% of all @OndoFinance SPCXon swap volume on @ethereum and @BNBCHAIN has been routed through 1inch.",
+          "hot_score": 440.254381,
+          "lev_url": "https://leviathannews.xyz/257783/987-of-all-ondofinance-spcxon-swap-volume-on-ethereum-and-bnbchain-has-been-routed-through-1inch",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260616152126_Z4zrlaiDPw==.png",
+          "url": "https://x.com/1inch/status/2066861019268350339"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-03-31T08:45:51.583461+00:00",
+          "headline": "1inch Business launches model context protocol for agentic DeFi trading .",
+          "hot_score": 226.222378,
+          "lev_url": "https://leviathannews.xyz/218359/1inch-business-launches-model-context-protocol-for-agentic-defi-trading",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260331083133_64sbmkOKO7Bu.gif",
+          "url": "https://blog.1inch.com/1inch-business-mcp/"
+        },
+        {
+          "clicks": 79,
+          "date": "2026-05-07T07:34:08.183429+00:00",
+          "headline": " TrustedVolumes one of many 1inch's solvers hacked. Loss: ~1,291.16 ETH + ~1,268,771 USDC + ~206,282 USDT + ~16.94 WBTC so far",
+          "hot_score": 218.977146,
+          "lev_url": "https://leviathannews.xyz/238998/slowmist-ti-alert-loss-129116-eth-1268771-usdc-206282-usdt-1694-wbtc-trustedvolumes-root-cause-in-fillorder-function-selector-0x4112e1c2-of-rfq-imple",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260507073228_934BLFpTHQTs.jpg",
+          "url": "https://x.com/slowmist_team/status/2052227002980253715"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-03-04T15:37:29.890496+00:00",
+          "headline": "1inch launches intent-based swaps via Ledger Wallet",
+          "hot_score": 200.306508,
+          "lev_url": "https://leviathannews.xyz/40414/security-and-gains-all-in-one-place-1inch-intent-based-swaps-are-now-live-via-ledger-wallet-experience-seamless-gasless-swaps-for-eligible-transactions-with-the-industrys",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260304152708_Z4zrlaiDPw==.png",
+          "url": "https://x.com/Ledger/status/2029201250835657200?s=20"
+        },
+        {
+          "clicks": 62,
+          "date": "2026-05-11T10:56:28.785009+00:00",
+          "headline": "1inch partners with OpenUX on DeFi user survey: share your views in 10 minutes",
+          "hot_score": 124.426147,
+          "lev_url": "https://leviathannews.xyz/240656/can-you-help-us-build-better-defi-were-working-with-openux-to-understand-how-you-feel-about-different-tools-and-projects-give-us-your-opinions-by-completing-this-survey-httpssurvey",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260511100100_XAcg9HkB-UdO.jpg",
+          "url": "https://x.com/1inch/status/2053769845993349221"
+        },
+        {
+          "clicks": 340,
+          "date": "2023-06-13T23:50:59.034230+00:00",
+          "headline": "1inch DAO votes to discontinue stealing \"positive slippage\" from users when trades result in a surplus",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/1428/1inch-dao-votes-to-discontinue-stealing-positive-slippage-from-users-when-trades-result-in-a-surplus",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://blog.1inch.io/the-1inch-dao-discontinues-swap-surplus-collection/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:01:44.979802+00:00",
+      "editorial": [
+        {
+          "count": 13,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "blog.1inch.io"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "researchgate.net"
+        },
+        {
+          "count": 1,
+          "source": "blog.1inch.com"
+        }
+      ],
+      "editorial_distinct": 7,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 23,
+          "source": "blog.1inch.com"
+        },
+        {
+          "count": 22,
+          "source": "x.com"
+        },
+        {
+          "count": 10,
+          "source": "1inch-network.ghost.io"
+        },
+        {
+          "count": 2,
+          "source": "financewire.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        }
+      ],
+      "universe_distinct": 10
+    }
+  },
+  "official_links": [
+    {
+      "handle": "1inchcom",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/1inchcom"
+    },
+    {
+      "handle": "1inch",
+      "platform": "x",
+      "url": "https://x.com/1inch"
+    }
+  ],
+  "pillar_state_sha256": "5f496cdce788bc1edcbde01c68cf8d683b2afd9287739055409172c1844eba66",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:46.753804+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.247,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0391,
+        "lift_log": 4.981,
+        "score": 0.2473,
+        "shared": 5
+      },
+      "rationale": "Fusion is a product built by 1inch for atomic swaps.",
+      "relation_type": "product",
+      "slug": "fusion",
+      "source": "cotag",
+      "tag_name": "Fusion",
+      "title": "Fusion, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.234,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0174,
+        "lift_log": 2.73,
+        "score": 0.2345,
+        "shared": 6
+      },
+      "rationale": "Liquidity is a core DeFi primitive that 1inch aggregates.",
+      "relation_type": "primitive",
+      "slug": "liquidity",
+      "source": "cotag",
+      "tag_name": "Liquidity",
+      "title": "Liquidity, Explained",
+      "weight": 23
+    },
+    {
+      "confidence": 0.225,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0158,
+        "lift_log": 2.539,
+        "score": 0.2254,
+        "shared": 8
+      },
+      "rationale": "Wallet is a product offering from 1inch for self-custody.",
+      "relation_type": "product",
+      "slug": "wallet",
+      "source": "cotag",
+      "tag_name": "Wallet",
+      "title": "Wallet, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "1inch",
+  "tag_name": "1inch",
+  "title": "1inch, Explained"
+}

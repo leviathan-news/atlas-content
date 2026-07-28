@@ -1,0 +1,573 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:00:02.979464+00:00",
+      "newsroom_total": 28,
+      "overall_share": 26,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 18,
+          "month": "2026-03",
+          "newsroom": 3,
+          "universe": 14
+        },
+        {
+          "ed_share": 31,
+          "month": "2026-04",
+          "newsroom": 13,
+          "universe": 29
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-05",
+          "newsroom": 2,
+          "universe": 17
+        },
+        {
+          "ed_share": 15,
+          "month": "2026-06",
+          "newsroom": 3,
+          "universe": 17
+        }
+      ],
+      "total_universe": 108,
+      "universe_total": 80
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:00:02.106409+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "post-quantum",
+          "phrase": "Both are related to quantum technology; post-quantum focuses on cryptography resistant to quantum attacks.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "quantum",
+          "weight": 41
+        },
+        {
+          "dir": "out",
+          "from": "post-quantum",
+          "phrase": "Algorand uses a quantum-secure signature scheme, aligning with post-quantum principles.",
+          "relation_type": "protocol",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "algorand",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "post-quantum",
+          "phrase": "Quantum computing is the broader field; post-quantum cryptography aims to secure against it.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "quantum-computing",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "post-quantum",
+          "phrase": "Google's quantum supremacy milestone drives urgency for post-quantum solutions.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "google",
+          "weight": 16
+        },
+        {
+          "dir": "out",
+          "from": "post-quantum",
+          "phrase": "A fork may be needed to implement post-quantum upgrades in a blockchain.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "fork",
+          "weight": 16
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Post-Quantum",
+          "slug": "post-quantum",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "quantum",
+          "slug": "quantum",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 41
+        },
+        {
+          "center": false,
+          "name": "Algorand",
+          "slug": "algorand",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Quantum Computing",
+          "slug": "quantum-computing",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Google",
+          "slug": "google",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        },
+        {
+          "center": false,
+          "name": "fork",
+          "slug": "fork",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T04:30:46.893086+00:00",
+      "events": [
+        {
+          "date": "2024-08",
+          "kind": "regulatory",
+          "label": "NIST finalizes first post-quantum cryptography standards",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "milestone",
+          "label": "Ethereum Foundation launches Post Quantum team led by Thomas Coratger",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "launch",
+          "label": "Aptos deploys live post-quantum signatures; Coinbase council endorses readiness",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "milestone",
+          "label": "Solana post-quantum tests reveal 90% speed drop and 40x signature size increase",
+          "source": ""
+        },
+        {
+          "date": "2025-09",
+          "kind": "launch",
+          "label": "Starknet adds Falcon-512 wallet support without a hard fork",
+          "source": ""
+        },
+        {
+          "date": "2026-01",
+          "kind": "regulatory",
+          "label": "Trump signs executive order mandating federal post-quantum migration by 2031",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "milestone",
+          "label": "Ripple begins ML-DSA validator testing with Project Eleven, targets 2028 XRPL migration",
+          "source": ""
+        },
+        {
+          "date": "2029-01",
+          "kind": "milestone",
+          "label": "Ethereum targets full post-quantum migration; Google sets same internal deadline",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T04:30:46.892888+00:00",
+      "insight": "Readers are not clicking post-quantum stories for abstract threat warnings — they click when a specific chain names a deadline, a real cost, or a concrete mechanism, revealing that urgency is only credible when it comes with a migration date or a line of code.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 29,
+      "as_of": "2026-07-01T12:00:04.647359+00:00",
+      "most_clicked": {
+        "clicks": 93,
+        "date": "2026-04-04T15:47:17.514555+00:00",
+        "headline": "Solana post-quantum cryptography tests slash network speed by 90% as signatures balloon to 40x current size",
+        "lev_url": "https://leviathannews.xyz/221243/solana-post-quantum-cryptography-tests-slash-network-speed-by-90-as-signatures-balloon-to-40x-current-size"
+      },
+      "provenance": "data",
+      "top_decile_share": 14,
+      "total_clicks": 1310
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T04:30:46.892989+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Chain-specific migration roadmaps",
+          "why": "Readers engaged most when Ethereum, Bitcoin, Solana, Ripple, and others put concrete timelines on post-quantum upgrades, making the abstract threat feel actionable and chain-specific."
+        },
+        {
+          "source": "",
+          "thread": "Performance cost of quantum-safe signatures",
+          "why": "Solana's 90% speed drop and 40x signature size balloon made the engineering trade-off visceral and quantifiable, driving the highest single-headline click count."
+        },
+        {
+          "source": "",
+          "thread": "Bitcoin governance gap",
+          "why": "The contrast between Bitcoin having known solutions and lacking coordination to deploy them struck readers as the most politically charged and unresolved tension in the space."
+        },
+        {
+          "source": "",
+          "thread": "No-fork, low-cost account protection",
+          "why": "The finding that Ethereum accounts could be quantum-hardened today for roughly $0.07 without a hard fork reframed post-quantum migration from catastrophic to tractable."
+        },
+        {
+          "source": "",
+          "thread": "Hardware architecture shift to TPUs",
+          "why": "The argument that TPUs — not GPUs — are the right engine for post-quantum math offered a non-obvious infrastructure angle that differentiated this story from standard cryptography coverage."
+        },
+        {
+          "source": "",
+          "thread": "Threat timeline calibration",
+          "why": "Both a16z and Borderless Capital framing quantum risk as overstated-but-real, with harvest-now-decrypt-later as the genuine near-term vector, pulled readers looking for a credible risk framework rather than hype."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T04:30:46.892999+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / Signature Risk",
+          "level": "High",
+          "note": "Elliptic curve signatures underpinning every major chain are theoretically breakable by a sufficiently powerful quantum computer, and researchers have already slashed the estimated qubit requirement 20-fold.",
+          "source": ""
+        },
+        {
+          "dimension": "Governance / Coordination",
+          "level": "High",
+          "note": "Bitcoin's lack of a coordinated upgrade path and Grayscale's explicit warning about governance failure represent the most acute near-term blocker to quantum resilience across major chains.",
+          "source": ""
+        },
+        {
+          "dimension": "Performance / Throughput",
+          "level": "High",
+          "note": "Solana's testnet showed a 90% network speed reduction when quantum-safe signatures were applied, indicating that NIST-standard post-quantum schemes impose severe latency penalties at scale.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "U.S. federal mandates require agency migration by 2031 and Google set an internal 2029 deadline, creating compliance pressure that will ripple into financial infrastructure including blockchain payment rails.",
+          "source": ""
+        },
+        {
+          "dimension": "Harvest-Now-Decrypt-Later",
+          "level": "Medium",
+          "note": "Encrypted blockchain data captured today can be stored by adversaries and decrypted once quantum hardware matures, making encryption migration more urgent than signature migration on most chains.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / Liquidity",
+          "level": "Low",
+          "note": "No immediate market dislocation from post-quantum migration has materialized; risk remains forward-looking and contingent on quantum hardware timelines that most experts place at decade-end or later.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:00:04.454391+00:00",
+      "items": [
+        {
+          "clicks": 56,
+          "date": "2026-04-09T23:50:13.840062+00:00",
+          "headline": "Grayscale says Bitcoin has post-quantum solutions but lacks governance to deploy them",
+          "hot_score": 40803.019198,
+          "lev_url": "https://leviathannews.xyz/222775/grayscale-says-bitcoin-has-post-quantum-solutions-but-lacks-governance-to-deploy-them",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260405175938_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/tech/2026/04/07/grayscale-says-bitcoin-s-quantum-problem-is-governance-not-engineering"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-04-15T19:09:15.711692+00:00",
+          "headline": "Justin Sun reveals Tron’s post-quantum upgrade, targeting NIST-standard signatures to protect network from quantum computing risks and future-proof transactions",
+          "hot_score": 5596.042375,
+          "lev_url": "https://leviathannews.xyz/229659/justin-sun-reveals-trons-post-quantum-upgrade-targeting-nist-standard-signatures-to-protect-network-from-quantum-computing-risks-and-future-proof-transactions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415143913_y8DMU5aNatSA.jpg",
+          "url": "https://www.theblock.co/post/397572/justin-sun-says-tron-launching-post-quantum-upgrade-plan?utm_source=twitter&utm_medium=social"
+        },
+        {
+          "clicks": 69,
+          "date": "2026-04-08T20:14:31.462641+00:00",
+          "headline": "Cloudflare fast-tracks post-quantum roadmap to 2029 as researchers slash qubit requirements for breaking ECC 20-fold",
+          "hot_score": 955.033291,
+          "lev_url": "https://leviathannews.xyz/224115/cloudflare-fast-tracks-post-quantum-roadmap-to-2029-as-researchers-slash-qubit-requirements-for-breaking-ecc-20-fold",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408190213_Z4zrlaiDPw==.png",
+          "url": "https://blog.cloudflare.com/post-quantum-roadmap/"
+        },
+        {
+          "clicks": 48,
+          "date": "2026-06-14T08:23:39.919561+00:00",
+          "headline": "Ethereum researcher Nico says post-quantum account protection can be deployed today without a hard fork, costing roughly $0.07 per account and undergoing further audits",
+          "hot_score": 712.749952,
+          "lev_url": "https://leviathannews.xyz/256794/ethereum-can-already-start-preparing-accounts-for-a-post-quantum-world-without-waiting-for-a-hard-fork-today-it-would-be-just-007-further-audits-incoming-though-i-squeez",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260614080831_UL-nHBAgKCV_.jpg",
+          "url": "https://x.com/ncsgy/status/2065791130457747707"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-05-16T19:37:07.045184+00:00",
+          "headline": "Aptos says post-quantum signatures are live as Coinbase council calls chain well-positioned",
+          "hot_score": 514.651532,
+          "lev_url": "https://leviathannews.xyz/243656/aptos-says-post-quantum-signatures-are-live-as-coinbase-council-calls-chain-well-positioned",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260516193442_Z4zrlaiDPw==.png",
+          "url": "https://x.com/aptoslabs/status/2055725022313144371"
+        },
+        {
+          "clicks": 40,
+          "date": "2026-04-20T17:19:06.869005+00:00",
+          "headline": "Sonic Labs unveils its post-quantum roadmap",
+          "hot_score": 505.0,
+          "lev_url": "https://leviathannews.xyz/233808/sonic-labs-unveils-its-post-quantum-roadmap",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420171828_Ql3c5JFs1b09.jpg",
+          "url": "https://x.com/SonicLabs/status/2046274736293085512?s=20"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-05-20T06:23:15.512602+00:00",
+          "headline": "Blockstream sets liquid network roadmap with 0-conf payments, bitvm research and post-quantum security push",
+          "hot_score": 457.715385,
+          "lev_url": "https://leviathannews.xyz/245508/blockstream-unveils-liquid-roadmap-featuring-bitvm-research-and-post-quantum-security",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260520051143_sAW1ESKJx2hs.jpg",
+          "url": "https://btctimes.com/blockstream-unveils-liquid-roadmap-featuring-bitvm-research-and-post-quantum-security-2"
+        },
+        {
+          "clicks": 43,
+          "date": "2026-06-13T21:53:36.928809+00:00",
+          "headline": "SPHINCS- verifies post-quantum Ethereum signatures at 127K gas without precompile or hard fork",
+          "hot_score": 446.847575,
+          "lev_url": "https://leviathannews.xyz/256711/sphincs-verifies-post-quantum-ethereum-signatures-at-127k-gas-without-precompile-or-hard-fork",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260613171320_Z4zrlaiDPw==.png",
+          "url": "https://ethresear.ch/t/sphincs-minus-efficient-stateless-post-quantum-signature-verification-on-the-evm/25165"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:00:04.248643+00:00",
+      "editorial": [
+        {
+          "count": 10,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "globenewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "a16zcrypto.com"
+        },
+        {
+          "count": 1,
+          "source": "bis.org"
+        },
+        {
+          "count": 1,
+          "source": "blog.google"
+        },
+        {
+          "count": 1,
+          "source": "blog.cloudflare.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "ripple.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        }
+      ],
+      "editorial_distinct": 14,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 50,
+          "source": "x.com"
+        },
+        {
+          "count": 7,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "naorisprotocol.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "binance.com"
+        },
+        {
+          "count": 1,
+          "source": "certik.com"
+        },
+        {
+          "count": 1,
+          "source": "hedera.com"
+        }
+      ],
+      "universe_distinct": 17
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "9d185fbacdda868e5bc05598c137743112ee7ac947ca718146814abf6b5bc044",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:22:22.558530+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.244,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.044,
+        "lift_log": 4.853,
+        "score": 0.2439,
+        "shared": 5
+      },
+      "rationale": "Algorand uses a quantum-secure signature scheme, aligning with post-quantum principles.",
+      "relation_type": "protocol",
+      "slug": "algorand",
+      "source": "cotag",
+      "tag_name": "Algorand",
+      "title": "Algorand, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.413,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.1813,
+        "lift_log": 4.855,
+        "score": 0.4132,
+        "shared": 44
+      },
+      "rationale": "Both are related to quantum technology; post-quantum focuses on cryptography resistant to quantum attacks.",
+      "relation_type": "peer",
+      "slug": "quantum",
+      "source": "cotag",
+      "tag_name": "quantum",
+      "title": "quantum, Explained",
+      "weight": 41
+    },
+    {
+      "confidence": 0.203,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0444,
+        "lift_log": 3.958,
+        "score": 0.2033,
+        "shared": 8
+      },
+      "rationale": "Quantum computing is the broader field; post-quantum cryptography aims to secure against it.",
+      "relation_type": "peer",
+      "slug": "quantum-computing",
+      "source": "cotag",
+      "tag_name": "Quantum Computing",
+      "title": "Quantum Computing, Explained",
+      "weight": 20
+    }
+  ],
+  "schema_version": 1,
+  "slug": "post-quantum",
+  "tag_name": "Post-Quantum",
+  "title": "Post-Quantum, Explained"
+}

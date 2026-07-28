@@ -1,0 +1,623 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:02:38.482688+00:00",
+      "newsroom_total": 37,
+      "overall_share": 43,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-02",
+          "newsroom": 4,
+          "universe": 4
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-03",
+          "newsroom": 4,
+          "universe": 8
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-04",
+          "newsroom": 2,
+          "universe": 8
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-05",
+          "newsroom": 3,
+          "universe": 15
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 15
+        }
+      ],
+      "total_universe": 87,
+      "universe_total": 50
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:02:38.149262+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "kyc",
+          "phrase": "KYC is used to prevent money laundering.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "money-laundering",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "kyc",
+          "phrase": "KYC is a key component of regulatory compliance.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "compliance",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "kyc",
+          "phrase": "ZK proofs offer privacy alternatives to KYC.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "zk",
+          "weight": 14
+        },
+        {
+          "dir": "out",
+          "from": "kyc",
+          "phrase": "decentralization",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "decentralization",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "kyc",
+          "phrase": "legal",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "legal",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "KYC",
+          "slug": "kyc",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Money laundering",
+          "slug": "money-laundering",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "compliance",
+          "slug": "compliance",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "ZK",
+          "slug": "zk",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        },
+        {
+          "center": false,
+          "name": "Decentralization",
+          "slug": "decentralization",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "legal",
+          "slug": "legal",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T05:47:31.667983+00:00",
+      "events": [
+        {
+          "date": "2024-11",
+          "kind": "regulatory",
+          "label": "IRS proposes KYC broker rule covering DeFi front-ends",
+          "source": "https://www.steptoe.com/en/news-publications/blockchain-blog/the-genius-act-and-financial-crimes-compliance-a-detailed-guide.html"
+        },
+        {
+          "date": "2025-01",
+          "kind": "regulatory",
+          "label": "IRS finalizes DeFi broker rule; KYC for front-ends mandated from 2027",
+          "source": "https://www.steptoe.com/en/news-publications/blockchain-blog/the-genius-act-and-financial-crimes-compliance-a-detailed-guide.html"
+        },
+        {
+          "date": "2025-02",
+          "kind": "exploit",
+          "label": "Bybit $1.5B hack; exchange tightens KYC across all platforms in response",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "regulatory",
+          "label": "US Senate votes 70-27 to overturn Biden-era DeFi broker rule",
+          "source": "https://www.steptoe.com/en/news-publications/blockchain-blog/the-genius-act-and-financial-crimes-compliance-a-detailed-guide.html"
+        },
+        {
+          "date": "2025-04",
+          "kind": "regulatory",
+          "label": "US House votes 292-131 to kill broker rule; Biden signs repeal",
+          "source": "https://www.steptoe.com/en/news-publications/blockchain-blog/the-genius-act-and-financial-crimes-compliance-a-detailed-guide.html"
+        },
+        {
+          "date": "2025-04",
+          "kind": "governance",
+          "label": "USDai restricts mint and redeem to KYC-verified institutions only",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "regulatory",
+          "label": "South Korea fines Bithumb $24M, orders six-month partial suspension for KYC violations",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "regulatory",
+          "label": "EU AMLA begins operationalizing anonymous-account ban and €10k cash limit for crypto",
+          "source": "https://www.amla.europa.eu/index_en"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T05:47:31.667799+00:00",
+      "insight": "The runaway top story — a hacker demanding the Prisma team perform a live 'KYC' face-reveal as extortion — exposes the real reader hook: KYC is not a compliance checkbox but a coercion vector, and readers click to see who holds the unmasking power, whether that's a blackhat, a regulator, or a BlackRock exec.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 37,
+      "as_of": "2026-07-01T12:02:39.148070+00:00",
+      "most_clicked": {
+        "clicks": 1238,
+        "date": "2024-03-30T14:15:36.535205+00:00",
+        "headline": "Terms presented to Prisma: \"Your team need to do an online press conference, in which all of your team must show their faces with ids (its like KYC), and send apologies and thanks to all of your users, your investors, and me.\"",
+        "lev_url": "https://leviathannews.xyz/4517/terms-presented-to-prisma-your-team-need-to-do-an-online-press-conference-in-which-all-of-your-team-must-show-their-faces-with-ids-its-like-kyc-and-send-apologies-and-thanks-to-all"
+      },
+      "provenance": "data",
+      "top_decile_share": 40,
+      "total_clicks": 4400
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T05:47:31.667881+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "hacker weaponizes KYC as extortion",
+          "why": "The Prisma attacker's demand for a public doxxing-style reveal reframed KYC from bureaucratic requirement to personal threat, making it viscerally engaging in a way no compliance headline can."
+        },
+        {
+          "source": "https://resources.fenergo.com/blogs/kyc-automation-guide",
+          "thread": "TradFi gatekeeping via KYC",
+          "why": "Headlines from BlackRock, Pendle, World Liberty Financial, and Ripple showed institutional finance treating KYC not as a burden but as the toll booth it controls, which pulled in readers tracking whether DeFi can survive that chokepoint."
+        },
+        {
+          "source": "https://www.complycube.com/en/the-dangers-a-no-kyc-crypto-exchange-can-bring/",
+          "thread": "no-KYC services criminalized",
+          "why": "The Bank of Italy's 'Crime-as-a-Service' label, the BIS proposal to blacklist wallets, and Google Play's banking-license requirement landed in quick succession, signaling a coordinated global squeeze on pseudonymous infrastructure that readers tracked as an existential threat."
+        },
+        {
+          "source": "https://www.steptoe.com/en/news-publications/blockchain-blog/the-genius-act-and-financial-crimes-compliance-a-detailed-guide.html",
+          "thread": "DeFi broker rule battles",
+          "why": "The IRS proposed and then finalized rules forcing DeFi front-ends to KYC users, while Congress fought back with lopsided votes to kill the Biden-era broker rule — a live legislative clash readers followed as a proxy war over DeFi's survival."
+        },
+        {
+          "source": "",
+          "thread": "exchange AML suspensions",
+          "why": "South Korea's actions against Upbit and Bithumb — multi-million-dollar fines and partial operating suspensions over KYC failures — gave readers concrete evidence that regulatory enforcement bites hardest at the exchange layer."
+        },
+        {
+          "source": "",
+          "thread": "AI deepfakes defeating KYC",
+          "why": "A dark-web real-time deepfake kit and reports of AI-generated passports clearing exchange checks revealed that the identity layer KYC relies on is already being industrially spoofed, drawing readers who follow both crypto security and AI fraud."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T05:47:31.667893+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "The US finalized DeFi-facing KYC broker rules, the EU's new AMLA authority is operationalizing a €10,000 cash limit and ban on anonymous crypto accounts, and South Korea has suspended major exchanges for AML violations — enforcement is no longer theoretical.",
+          "source": "https://www.amla.europa.eu/index_en"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "KYC requirements funneled through a handful of identity vendors and regulated front-ends create single points of failure: a vendor breach (Bitfinex data incident) or a policy change (USDai restricting mint to institutions only) can wall off entire user segments overnight.",
+          "source": "https://www.togggle.io/blog/on-chain-kyc-a-new-era-of-digital-identity"
+        },
+        {
+          "dimension": "Smart-contract / Protocol",
+          "level": "Medium",
+          "note": "Uniswap v4's optional KYC hook architecture and Keyring's zkVerified Markets show that permissioned pools can be embedded at the protocol level, creating a fragmentation risk where KYC and non-KYC liquidity pools coexist but do not interoperate.",
+          "source": "https://www.togggle.io/blog/on-chain-kyc-a-new-era-of-digital-identity"
+        },
+        {
+          "dimension": "Data breach / Identity fraud",
+          "level": "High",
+          "note": "AI-generated deepfake kits sold on the dark web now defeat real-time liveness checks at major exchanges, while KYC data accumulated by platforms represents a high-value breach target — the Bitfinex dispute illustrated how disputed leaks still erode user trust regardless of outcome.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / Liquidity",
+          "level": "Medium",
+          "note": "Exchange suspensions (Upbit, Bithumb) and permissioned-only issuance (USDai) can rapidly strand retail liquidity; low-KYC crypto card programs carry chronic shutdown risk as issuing-bank relationships collapse under compliance pressure.",
+          "source": ""
+        },
+        {
+          "dimension": "Privacy / Censorship",
+          "level": "High",
+          "note": "The BIS proposal to blacklist any coin that has touched a no-KYC wallet, combined with the Bank of Italy's 'Crime-as-a-Service' framing and Google Play's banking-license requirement for wallets, would effectively make pseudonymous on-chain activity radioactive within regulated rails.",
+          "source": "https://www.tradingview.com/news/coinpedia:2235b8622094b:0-eu-to-impose-10k-cash-limit-and-ban-on-anonymous-crypto-accounts/"
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:02:39.064136+00:00",
+      "items": [
+        {
+          "clicks": 35,
+          "date": "2026-04-23T09:52:43.670404+00:00",
+          "headline": "Rolly unveils rolly.io, a ZK-powered casino and sportsbook with non-custodial, no-KYC access to Tier-1 games, promising provably fair, trustless onchain betting",
+          "hot_score": 714.4,
+          "lev_url": "https://leviathannews.xyz/235594/rolly-unveils-rollyio-a-zk-powered-casino-and-sportsbook-with-non-custodial-no-kyc-access-to-tier-1-games-promising-provably-fair-trustless-onchain-betting",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423094408_GWfb0vSBQdbW.jpg",
+          "url": "https://x.com/i/status/2046950547282854013"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-05-29T14:04:57.426015+00:00",
+          "headline": "Trust Wallet integrates Hyperliquid's HIP-4 prediction markets with no KYC, no leverage, and zero platform fees",
+          "hot_score": 702.885863,
+          "lev_url": "https://leviathannews.xyz/250138/trust-wallet-integrates-hyperliquids-hip-4-prediction-markets-with-no-kyc-no-leverage-and-zero-platform-fees",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260529135424_Z4zrlaiDPw==.png",
+          "url": "https://trustwallet.com/blog/Announcements/hyperliquid-hip-4-outcome-contracts-now-live-on-trust-wallet"
+        },
+        {
+          "clicks": 110,
+          "date": "2026-03-04T02:12:06.137663+00:00",
+          "headline": "XMR402 is a stateless protocol that lets AI agents pay for APIs using Monero with zero KYC and instant verification",
+          "hot_score": 673.625445,
+          "lev_url": "https://leviathannews.xyz/39744/http-402-was-invented-in-1997-in-2026-monero-finally-makes-it-useful-for-the-machine-economy-the-internet-is-no-longer-a-place-where-humans-browse-its-a-place-where-autonomo",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260304011608_UDwoFHSZQDY=.jpg",
+          "url": "https://x.com/XBToshi/status/2028841886866424292"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-05-28T10:46:04.049348+00:00",
+          "headline": "Polymarket VP says KYC only applies to early beta product, not main platform",
+          "hot_score": 433.321228,
+          "lev_url": "https://leviathannews.xyz/249399/polymarket-vp-says-kyc-only-applies-to-early-beta-product-not-main-platform",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260425080401_Z4zrlaiDPw==.png",
+          "url": "https://x.com/devjoshstevens/status/2059657154093535449"
+        },
+        {
+          "clicks": 75,
+          "date": "2026-04-06T14:24:50.356729+00:00",
+          "headline": "Dark web actor Jinkusu hawks AI fraud kit that defeats crypto and bank KYC with real-time deepfakes",
+          "hot_score": 246.412373,
+          "lev_url": "https://leviathannews.xyz/221658/dark-web-actor-jinkusu-hawks-ai-fraud-kit-that-defeats-crypto-and-bank-kyc-with-real-time-deepfakes",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260406135442_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/ai-cybercrime-tool-crypto-bank-kyc-deepfakes"
+        },
+        {
+          "clicks": 56,
+          "date": "2026-03-16T13:29:19.828681+00:00",
+          "headline": "South Korea fines Bithumb $24 million, orders 6-month partial suspension over AML violations. The fine stems from approximately 6.65 million violations related to KYC and transaction restrictions.",
+          "hot_score": 197.361905,
+          "lev_url": "https://leviathannews.xyz/210275/south-korea-fines-bithumb-24-million-orders-6-month-partial-suspension-over-aml-violations-the-fine-stems-from-approximately-665-million-violations-related-to-kyc-and-transaction-r",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260316131141_0ZVOFtxSunb0.jpg",
+          "url": "https://archive.ph/evZxj"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-05-08T09:43:06.668211+00:00",
+          "headline": "Consensus Miami panelists say perpetual DEXs remain unattractive to institutions due to security concerns, compliance hurdles and KYC friction",
+          "hot_score": 195.4,
+          "lev_url": "https://leviathannews.xyz/239728/panelists-at-consensus-miami-said-institutional-investors-remain-largely-absent-from-decentralized-perpetual-futures-exchanges-due-to-security-concerns-and-compliance-requirements",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260508091931_v_E1wZ6vvwrT.jpg",
+          "url": "https://www.coindesk.com/markets/2026/05/08/perp-dexs-still-don-t-work-for-institutions-consensus-panelists-explain-why"
+        },
+        {
+          "clicks": 81,
+          "date": "2026-01-15T09:15:43.438108+00:00",
+          "headline": "Manhattan DA Alvin Bragg urged New York lawmakers to criminalize unlicensed crypto operations, pushing mandatory licensing and KYC to combat money laundering and large-scale scams. He warned regulatory gaps enable a growing criminal crypto economy.",
+          "hot_score": 115.439792,
+          "lev_url": "https://leviathannews.xyz/23677/manhattan-da-alvin-bragg-urged-new-york-lawmakers-to-criminalize-unlicensed-crypto-operations-pushing-mandatory-licensing-and-kyc-to-combat-money-laundering-and-large-scale-scams-h",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260115080948_AT6wKKrjux4=.jpg",
+          "url": "https://decrypt.co/354689/manhattan-da-urges-lawmakers-strengthen-crypto-enforcement"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:02:38.966786+00:00",
+      "editorial": [
+        {
+          "count": 15,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "therage.co"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "galaxy.com"
+        },
+        {
+          "count": 1,
+          "source": "etherscan.io"
+        },
+        {
+          "count": 1,
+          "source": "cbsnews.com"
+        },
+        {
+          "count": 1,
+          "source": "bancaditalia.it"
+        },
+        {
+          "count": 1,
+          "source": "mk.co.kr"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "medium.com"
+        }
+      ],
+      "editorial_distinct": 19,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 34,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "orochi.network"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "thorchain.org"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "financewire.com"
+        }
+      ],
+      "universe_distinct": 9
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "3ade49a0338c6f308ade6014919296e5bcfb57fe7ecab9711c1079ce8f37d643",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:12.191470+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.244,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0146,
+        "lift_log": 2.978,
+        "score": 0.244,
+        "shared": 3
+      },
+      "rationale": "KYC is used to prevent money laundering.",
+      "relation_type": "risk",
+      "slug": "money-laundering",
+      "source": "cotag",
+      "tag_name": "Money laundering",
+      "title": "Money laundering, Explained",
+      "weight": 24
+    }
+  ],
+  "schema_version": 1,
+  "slug": "kyc",
+  "tag_name": "KYC",
+  "title": "KYC, Explained"
+}

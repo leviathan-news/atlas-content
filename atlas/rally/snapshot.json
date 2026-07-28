@@ -1,0 +1,670 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:58:53.146399+00:00",
+      "newsroom_total": 42,
+      "overall_share": 17,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 6,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 8,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 12
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 71
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 49
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 42
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 27
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 244,
+      "universe_total": 202
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:58:52.816943+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "rally",
+          "phrase": "Rally is a market event influenced by macroeconomic conditions.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "macro",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "rally",
+          "phrase": "Bitcoin often rallies alongside or leads crypto market rallies.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "bitcoin",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "rally",
+          "phrase": "Fed policy decisions can trigger or suppress market rallies.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "fed",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "rally",
+          "phrase": "Trump's statements or policies can influence market rallies.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "trump",
+          "weight": 14
+        },
+        {
+          "dir": "out",
+          "from": "rally",
+          "phrase": "Optimism is a blockchain project, not directly related to a rally.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "optimism",
+          "weight": 14
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Rally",
+          "slug": "rally",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Macro",
+          "slug": "macro",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "FED",
+          "slug": "fed",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Trump",
+          "slug": "trump",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        },
+        {
+          "center": false,
+          "name": "Optimism",
+          "slug": "optimism",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T03:57:09.018489+00:00",
+      "events": [
+        {
+          "date": "2024-01",
+          "kind": "regulatory",
+          "label": "SEC approves U.S. spot Bitcoin ETFs",
+          "source": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023"
+        },
+        {
+          "date": "2024-04",
+          "kind": "milestone",
+          "label": "Bitcoin halving cuts block reward to 3.125 BTC",
+          "source": ""
+        },
+        {
+          "date": "2024-12",
+          "kind": "milestone",
+          "label": "Bitcoin crosses $100,000 for the first time",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "launch",
+          "label": "TRUMP memecoin launches, fueling volatile altcoin rally",
+          "source": ""
+        },
+        {
+          "date": "2025-02",
+          "kind": "milestone",
+          "label": "Stablecoin market cap hits record $190B amid BTC and SOL surge",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "milestone",
+          "label": "Bitcoin drops below $89K on yen rally and stock risk aversion, $1.35B liquidated",
+          "source": "https://www.bloomberg.com/news/articles/2026-04-16/bitcoin-s-fragile-recovery-sets-up-a-big-short-squeeze-risk"
+        },
+        {
+          "date": "2026-01",
+          "kind": "governance",
+          "label": "Aave fee-switch temp check sparks $188M AAVE market cap rally",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Bitcoin tops $124K on Fed rate-cut bets and Trump-era crypto reform momentum",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T03:57:09.018350+00:00",
+      "insight": "Readers click rally coverage not for price charts but for causation: the #1 story was a single governance proposal (Aave fee switch) adding $188M in market cap, revealing that readers are hunting for the specific mechanism — a vote, a macro call, a whale accumulation signal — that explains why a rally started.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.investopedia.com/terms/r/rally.asp"
+    },
+    "reader_signal": {
+      "article_count": 42,
+      "as_of": "2026-07-01T11:58:53.771366+00:00",
+      "most_clicked": {
+        "clicks": 425,
+        "date": "2024-07-29T19:44:00.342116+00:00",
+        "headline": "Aave's fee switch proposal sparks major rally in AAVE token, adding $188 million to its market cap after Mark Zeller's \"temp check.\"",
+        "lev_url": "https://leviathannews.xyz/6436/aaves-fee-switch-proposal-sparks-major-rally-in-aave-token-adding-188-million-to-its-market-cap-after-mark-zellers-temp-check"
+      },
+      "provenance": "data",
+      "top_decile_share": 30,
+      "total_clicks": 3344
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T03:57:09.018413+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.ig.com/en/trading-strategies/stock-market-rallies--what-you-need-to-know-200811",
+          "thread": "Protocol governance as price catalyst",
+          "why": "The Aave fee-switch 'temp check' generated the most clicks by far, showing readers want to understand how a governance vote can directly move a token's market cap by hundreds of millions overnight."
+        },
+        {
+          "source": "https://www.bloomberg.com/news/articles/2026-04-16/bitcoin-s-fragile-recovery-sets-up-a-big-short-squeeze-risk",
+          "thread": "Bitcoin ATH milestone chasing",
+          "why": "Multiple stories around $100K, $122K, and $124K price records drew strong repeat engagement, with readers tracking each new all-time high as a discrete event worth examining."
+        },
+        {
+          "source": "",
+          "thread": "ETH vs BTC rally divergence",
+          "why": "Three separate headlines covering Ethereum lagging Bitcoin, its 'most hated' rally near $4K, and whale accumulation patterns collectively drew heavy clicks — readers wanted to understand why ETH underperformed in the same bull cycle."
+        },
+        {
+          "source": "",
+          "thread": "Macro triggers and Arthur Hayes calls",
+          "why": "Two Arthur Hayes blog posts — one bullish (gold/BTC amid Treasury selloff) and one bearish (predicting $70K) — both ranked highly, suggesting readers treat Hayes's macro framing as a primary signal for rally timing."
+        },
+        {
+          "source": "",
+          "thread": "Institutional and pension accumulation signals",
+          "why": "Stories on Wisconsin and Michigan pension funds eyeing Bitcoin, ETH whale doubling of holdings, and stablecoins hitting $190B drew clicks as readers searched for on-chain and institutional confirmation that a rally had structural backing."
+        },
+        {
+          "source": "https://www.bloomberg.com/news/articles/2026-04-16/bitcoin-s-fragile-recovery-sets-up-a-big-short-squeeze-risk",
+          "thread": "Short squeeze and liquidation risk",
+          "why": "The ETH rally story flagging $331M in shorts at liquidation risk and the BTC drop triggering $1.35B in liquidations both performed well, showing readers are watching leverage positioning as a rally amplifier."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T03:57:09.018422+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Market / Macro reversal",
+          "level": "High",
+          "note": "Arthur Hayes's bearish flip to $70K after a memecoin-driven top illustrates how quickly macro narrative shifts — Treasury yields, Fed signals, geopolitical events — can invalidate a rally thesis.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity / Leverage cascade",
+          "level": "High",
+          "note": "The $1.35B liquidation event when BTC fell below $89K on yen-rally risk aversion shows that rally-phase leverage accumulates rapidly and unwinds violently on macro shocks.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Trump-era pro-crypto reforms helped fuel the $124K Bitcoin rally, but regime-specific tailwinds create concentration risk — policy reversal or a new SEC posture could remove a key structural driver.",
+          "source": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023"
+        },
+        {
+          "dimension": "Governance / Catalyst dependency",
+          "level": "Medium",
+          "note": "Token rallies increasingly depend on discrete governance catalysts (fee switches, sequencing proposals) rather than organic demand, meaning a failed vote or delayed implementation can erase gains as quickly as they appeared.",
+          "source": "https://www.ig.com/en/trading-strategies/stock-market-rallies--what-you-need-to-know-200811"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Low",
+          "note": "Based sequencing adoption across Optimism, Arbitrum, and ten rollup founders reduces single-sequencer risk for Ethereum L2s, though concentration among a handful of founding teams remains a governance concern.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "Low",
+          "note": "Rally-phase DeFi inflows stress protocol liquidity pools and oracle pricing, but no smart-contract exploit in the clicked headline set directly caused a rally-phase failure; risk is elevated but not the dominant reader concern here.",
+          "source": ""
+        }
+      ],
+      "sourced": 2,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:58:53.672769+00:00",
+      "items": [
+        {
+          "clicks": 69,
+          "date": "2026-02-11T12:30:02.701453+00:00",
+          "headline": "Bitcoin and Ether Slide to Multi‑Day Lows as Crypto Markets Sink Despite Record‑Setting Global Stocks Rally (",
+          "hot_score": 16.374831,
+          "lev_url": "https://leviathannews.xyz/26643/bitcoin-and-ether-slide-to-multiday-lows-as-crypto-markets-sink-despite-recordsetting-global-stocks-rally",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260211122703_ELmpVL4uuZc=.jpg",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-11/bitcoin-slides-below-67-000-as-crypto-diverges-from-stocks"
+        },
+        {
+          "clicks": 425,
+          "date": "2024-07-29T19:44:00.342116+00:00",
+          "headline": "Aave's fee switch proposal sparks major rally in AAVE token, adding $188 million to its market cap after Mark Zeller's \"temp check.\"",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6436/aaves-fee-switch-proposal-sparks-major-rally-in-aave-token-adding-188-million-to-its-market-cap-after-mark-zellers-temp-check",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240729194201_UPxiRXFGJw==.jpg",
+          "url": "https://www.theblock.co/post/308154/aaves-fee-switch-proposal-sparks-major-rally-in-aave-token"
+        },
+        {
+          "clicks": 246,
+          "date": "2023-07-29T13:42:31.604124+00:00",
+          "headline": "Arkham customers rally behind crypto bounty initiative to expose culprits behind FTX, Wintermute hacks and meme-coin rug pull",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2040/arkham-customers-rally-behind-crypto-bounty-initiative-to-expose-culprits-behind-ftx-wintermute-hacks-and-meme-coin-rug-pull",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.coindesk.com/business/2023/07/28/despite-uproar-crypto-bounties-to-unmask-bad-actors-starts-to-get-traction/"
+        },
+        {
+          "clicks": 170,
+          "date": "2023-10-25T16:07:03.904358+00:00",
+          "headline": "Arthur Hayes Blog: Bitcoin and Gold rally amidst aggressive selloff in long-end US Treasuries, foreseeing an inflationary world war situation",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3110/arthur-hayes-blog-bitcoin-and-gold-rally-amidst-aggressive-selloff-in-long-end-us-treasuries-foreseeing-an-inflationary-world-war-situation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://cryptohayes.substack.com/p/the-periphery"
+        },
+        {
+          "clicks": 168,
+          "date": "2025-01-29T12:44:08.769633+00:00",
+          "headline": "Arthur Hayes flips bearish, predicting Bitcoin could plunge to $70K, citing macro risks, treasury trends, and the volatile $TRUMP memecoin rally.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9032/arthur-hayes-flips-bearish-predicting-bitcoin-could-plunge-to-70k-citing-macro-risks-treasury-trends-and-the-volatile-trump-memecoin-rally",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250129123823_-vUTlfg1D_E=.jpg",
+          "url": "https://cryptohayes.substack.com/p/the-ugly"
+        },
+        {
+          "clicks": 164,
+          "date": "2024-11-26T08:53:02.765553+00:00",
+          "headline": "Stablecoins hit $190B record as Bitcoin and Solana surge. \nStablecoin market value reached an all-time high of $190 billion, fueled by Bitcoin’s rally and increased adoption. Tether dominates with over 70% share, while Circle and Ethena stablecoins saw double-digit growth this month.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7878/stablecoins-hit-190b-record-as-bitcoin-and-solana-surge-stablecoin-market-value-reached-an-all-time-high-of-190-billion-fueled-by-bitcoins-rally-and-increased-adoption-tether-domin",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241126085126_O2JBtVel6g==.jpg",
+          "url": "https://www.dlnews.com/articles/markets/stablecoin-sector-breaks-record-alongside-bitcoin-and-solana/"
+        },
+        {
+          "clicks": 163,
+          "date": "2025-01-17T14:20:28.803172+00:00",
+          "headline": "Bitcoin-based DeFi saw explosive growth in 2024, with TVL skyrocketing from $307M to $6.5B, fueled by staking innovations, spot ETFs, and BTC’s post-halving rally.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8759/bitcoin-based-defi-saw-explosive-growth-in-2024-with-tvl-skyrocketing-from-307m-to-65b-fueled-by-staking-innovations-spot-etfs-and-btcs-post-halving-rally",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250117142012_ZZbN9FFdOUM=.jpg",
+          "url": "https://cointelegraph.com/news/bitcoin-defi-tvl-2000-percent-2024-btc-price-adoption"
+        },
+        {
+          "clicks": 127,
+          "date": "2024-12-05T03:26:37.417427+00:00",
+          "headline": "Bitcoin tops $100,000 as monster 2024 rally reaches new heights",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8072/bitcoin-tops-100000-as-monster-2024-rally-reaches-new-heights",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241205032607_92_GcANNzA==.jpeg",
+          "url": "https://www.cnbc.com/2024/12/05/bitcoin-tops-100000-as-monster-2024-rally-reaches-new-heights.html"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:58:53.558885+00:00",
+      "editorial": [
+        {
+          "count": 5,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 4,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 2,
+          "source": "cryptohayes.substack.com"
+        },
+        {
+          "count": 2,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 2,
+          "source": "coinage.media"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "ft.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.is"
+        },
+        {
+          "count": 1,
+          "source": "finance.yahoo.com"
+        }
+      ],
+      "editorial_distinct": 24,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 66,
+          "source": "x.com"
+        },
+        {
+          "count": 46,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 20,
+          "source": "theblock.co"
+        },
+        {
+          "count": 11,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 11,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 11,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 11,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 5,
+          "source": "barrons.com"
+        },
+        {
+          "count": 4,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 4,
+          "source": "forbes.com"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "ft.com"
+        }
+      ],
+      "universe_distinct": 19
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "52ef87754fdfdda3262cd495b45b1548d78c72c2a2746e38c1c7d6584f7c0a6a",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:23.972287+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.201,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0106,
+        "lift_log": 1.893,
+        "score": 0.2008,
+        "shared": 61
+      },
+      "rationale": "Bitcoin often rallies alongside or leads crypto market rallies.",
+      "relation_type": "peer",
+      "slug": "bitcoin",
+      "source": "cotag",
+      "tag_name": "Bitcoin",
+      "title": "Bitcoin, Explained",
+      "weight": 20
+    },
+    {
+      "confidence": 0.233,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0134,
+        "lift_log": 2.752,
+        "score": 0.233,
+        "shared": 4
+      },
+      "rationale": "Rally is a market event influenced by macroeconomic conditions.",
+      "relation_type": "category",
+      "slug": "macro",
+      "source": "cotag",
+      "tag_name": "Macro",
+      "title": "Macro, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "rally",
+  "tag_name": "Rally",
+  "title": "Rally, Explained"
+}

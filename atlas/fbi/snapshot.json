@@ -1,0 +1,686 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:02:19.068590+00:00",
+      "newsroom_total": 27,
+      "overall_share": 32,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 27
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-04",
+          "newsroom": 2,
+          "universe": 16
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 84,
+      "universe_total": 57
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:02:16.569556+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "fbi",
+          "phrase": "FBI investigates crimes as part of its law enforcement mandate.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "crime",
+          "weight": 30
+        },
+        {
+          "dir": "out",
+          "from": "fbi",
+          "phrase": "FBI conducts seizures of assets in criminal investigations.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "seizure",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "fbi",
+          "phrase": "Fraud is a type of crime investigated by the FBI.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fraud",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "fbi",
+          "phrase": "Theft is a crime that falls under FBI jurisdiction.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "theft",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "fbi",
+          "phrase": "FBI is a component agency of the Department of Justice.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "doj",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "FBI",
+          "slug": "fbi",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Crime",
+          "slug": "crime",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 30
+        },
+        {
+          "center": false,
+          "name": "Seizure",
+          "slug": "seizure",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Fraud",
+          "slug": "fraud",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Theft",
+          "slug": "theft",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "DOJ",
+          "slug": "doj",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T05:14:52.879595+00:00",
+      "events": [
+        {
+          "date": "2023-07",
+          "kind": "regulatory",
+          "label": "FBI/CFTC/SEC charge Mashinsky and Celsius Network",
+          "source": ""
+        },
+        {
+          "date": "2023-09",
+          "kind": "regulatory",
+          "label": "FBI attributes $41M Stake.com theft to Lazarus Group",
+          "source": ""
+        },
+        {
+          "date": "2024-05",
+          "kind": "regulatory",
+          "label": "FBI seizes BreachForums hacking marketplace",
+          "source": ""
+        },
+        {
+          "date": "2024-11",
+          "kind": "regulatory",
+          "label": "FBI raids Polymarket CEO Shayne Coplan, seizes devices",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "regulatory",
+          "label": "FBI intercepts Miami $2M crypto abduction plot",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "regulatory",
+          "label": "FBI drops all charges against Kraken founder Jesse Powell",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "regulatory",
+          "label": "FBI arrests Ryan Wedding in Saint Martin for drug-crypto laundering",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "FBI and French police arrest John Daghita for $46M U.S. Marshals crypto theft",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T05:14:52.879433+00:00",
+      "insight": "Readers click FBI-crypto stories primarily when a named individual faces personal legal jeopardy — raids on Jesse Powell, Shayne Coplan, and Ryan Salame collectively outperform abstract fraud-loss tallies and policy warnings, revealing that the audience treats FBI coverage as a live accountability ledger for crypto's power class, not as general law-enforcement news.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 27,
+      "as_of": "2026-07-01T12:02:21.201281+00:00",
+      "most_clicked": {
+        "clicks": 340,
+        "date": "2023-09-07T16:35:14.108425+00:00",
+        "headline": "FBI identifies Lazarus Group as responsible for theft of $41 million from Stake.com",
+        "lev_url": "https://leviathannews.xyz/2532/fbi-identifies-lazarus-group-as-responsible-for-theft-of-41-million-from-stakecom"
+      },
+      "provenance": "data",
+      "top_decile_share": 21,
+      "total_clicks": 3056
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T05:14:52.879502+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Crypto exec home raids",
+          "why": "Three separate FBI raids on named executives (Kraken's Powell, Polymarket's Coplan, FTX's Salame) generated compulsive clicks because each raid signals the FBI has crossed from investigating platforms to personally targeting founders."
+        },
+        {
+          "source": "",
+          "thread": "Lazarus Group crypto attribution",
+          "why": "The FBI publicly naming North Korea's Lazarus Group as the Stake.com thief was the single highest-clicked story, showing readers want state-actor attribution, not just theft mechanics."
+        },
+        {
+          "source": "",
+          "thread": "Industry insider cooperation",
+          "why": "Peter Thiel as FBI informant and Railgun's co-founder voluntarily speaking at an FBI conference tapped reader appetite for who in crypto is quietly cooperating with law enforcement versus resisting it."
+        },
+        {
+          "source": "",
+          "thread": "Stablecoin surveillance compliance",
+          "why": "Tether's CEO announcing FBI and Secret Service integration into its compliance stack, paired with the FBI's MSB registration PSA, showed readers that stablecoin issuers are becoming law-enforcement infrastructure."
+        },
+        {
+          "source": "",
+          "thread": "Physical crypto crime heists",
+          "why": "The Miami $2M abduction-plot interception and Ryan Wedding's drug-laundering-via-Tether bounty attracted readers because they show crypto crime extending into real-world violence and fugitive manhunts."
+        },
+        {
+          "source": "",
+          "thread": "FBI memecoin entanglement",
+          "why": "The FBI running and rugging its own memecoin, plus the HAWK memecoin SEC/FBI probe of Haliey Welch, crystallized reader anxiety that retail token launches are now active FBI honeypots."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T05:14:52.879519+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "The FBI has moved from exchange-level investigations to raiding individual executives' homes and seizing personal devices, marking a phase shift from institutional to personal legal exposure for crypto operators.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Tether's voluntary integration of FBI and Secret Service into its compliance pipeline means the largest stablecoin's freeze and surveillance functions are now partially co-piloted by U.S. law enforcement.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "FBI public attribution of stolen funds (Lazarus Group/$41M Stake.com, $10M bounty on Ryan Wedding) creates recoverable asset uncertainty that suppresses liquidity at affected platforms.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "Low",
+          "note": "FBI crypto enforcement has focused on custodial platforms, money transmitters, and individual actors rather than on-chain protocol vulnerabilities, leaving DeFi smart contracts largely outside the current enforcement perimeter.",
+          "source": ""
+        },
+        {
+          "dimension": "Privacy/Operational",
+          "level": "High",
+          "note": "The FBI's outreach to Railgun and seizure of Polymarket CEO's devices signals active surveillance of privacy tools and prediction markets previously assumed to sit in regulatory gray zones.",
+          "source": ""
+        },
+        {
+          "dimension": "Fraud/Scam",
+          "level": "High",
+          "note": "FBI data showing Americans lost $11.4 billion to crypto fraud in 2025 — a 22% year-over-year increase driven by AI-powered scams — represents a systemic harm level that will accelerate federal enforcement mandates.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:02:21.118448+00:00",
+      "items": [
+        {
+          "clicks": 108,
+          "date": "2026-04-07T15:59:32.350988+00:00",
+          "headline": "FBI reports Americans lost $11.4B to crypto fraud in 2025, up 22%, as AI-powered scams hit $893M",
+          "hot_score": 490842.773005,
+          "lev_url": "https://leviathannews.xyz/222776/fbi-reports-americans-lost-114b-to-crypto-fraud-in-2025-up-22-as-ai-powered-scams-hit-893m",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407155557_w2DzF2MDmQR2.jpg",
+          "url": "https://www.fbi.gov/news/press-releases/cryptocurrency-and-ai-scams-bilk-americans-of-billions"
+        },
+        {
+          "clicks": 27,
+          "date": "2026-04-23T08:10:36.683466+00:00",
+          "headline": "Apple patches iOS bug that let FBI forensically extract deleted Signal messages from iPhone notification cache",
+          "hot_score": 352.0,
+          "lev_url": "https://leviathannews.xyz/235541/apple-patches-ios-bug-that-let-fbi-forensically-extract-deleted-signal-messages-from-iphone-notification-cache",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423072021_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/apple-fixes-bug-fbi-read-encrypted-messages-signal-via-notifications"
+        },
+        {
+          "clicks": 66,
+          "date": "2026-03-05T15:39:49.510395+00:00",
+          "headline": "FBI Director Kash Patel announces arrest of contractor John Daghita in Saint Martin for allegedly stealing over $46M in cryptocurrency from the U.S. Marshals Service in joint FBI–French raid",
+          "hot_score": 221.773832,
+          "lev_url": "https://leviathannews.xyz/41536/fbi-director-kash-patel-announces-arrest-of-contractor-john-daghita-in-saint-martin-for-allegedly-stealing-over-46m-in-cryptocurrency-from-the-us-marshals-service-in-joint-fbifrenc",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260305153640_H14W70AXy-4=.jpg",
+          "url": "https://x.com/FBIDirectorKash/status/2029574256959389933"
+        },
+        {
+          "clicks": 53,
+          "date": "2026-01-24T09:44:14.818107+00:00",
+          "headline": "FBI arrests ex-Olympian drug 'kingpin' who allegedly used crypto to move proceedsThe U.S. caught a top-ten most-wanted fugitive when they arrested Ryan Wedding, a former top snowboarder who's said to have used digital assets in his crimes.",
+          "hot_score": 72.041182,
+          "lev_url": "https://leviathannews.xyz/23999/fbi-arrests-ex-olympian-drug-kingpin-who-allegedly-used-crypto-to-move-proceedsthe-us-caught-a-top-ten-most-wanted-fugitive-when-they-arrested-ryan-wedding-a-former-top-snowboarder",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260124023828_6Y-FeyLMMS0=.jpg",
+          "url": "https://decrypt.co/355728/olympic-snowboarder-turned-alleged-crypto-crime-kingpin-arrested-mexico"
+        },
+        {
+          "clicks": 340,
+          "date": "2023-09-07T16:35:14.108425+00:00",
+          "headline": "FBI identifies Lazarus Group as responsible for theft of $41 million from Stake.com",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2532/fbi-identifies-lazarus-group-as-responsible-for-theft-of-41-million-from-stakecom",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.fbi.gov/news/press-releases/fbi-identifies-lazarus-group-cyber-actors-as-responsible-for-theft-of-41-million-from-stakecom"
+        },
+        {
+          "clicks": 306,
+          "date": "2023-07-07T11:20:03.013775+00:00",
+          "headline": "FBI raids house of former Kraken CEO Jesse Powell",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/1734/fbi-raids-house-of-former-kraken-ceo-jesse-powell",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.coindesk.com/policy/2023/07/07/kraken-co-founder-jesse-powell-under-fbi-investigation-on-claims-of-hacking-cyberstalking-non-profit/?utm_term=organic&utm_source=twitter&utm_medium=social&utm_content=editorial&utm_campaign=coindesk_main"
+        },
+        {
+          "clicks": 195,
+          "date": "2023-10-19T22:02:01.733265+00:00",
+          "headline": "Peter Thiel was reportedly an FBI informant / A report from Insider alleges that Thiel passed info about foreign contacts and ‘Silicon Valley intrigue’ to the agency starting in 2021.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3046/peter-thiel-was-reportedly-an-fbi-informant-a-report-from-insider-alleges-that-thiel-passed-info-about-foreign-contacts-and-silicon-valley-intrigue-to-the-agency-starting-in-2021",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.theverge.com/2023/10/19/23923759/peter-thiel-fbi-informant-foreign-influence-report"
+        },
+        {
+          "clicks": 182,
+          "date": "2023-12-16T19:38:10.824834+00:00",
+          "headline": "Tether CEO unveils new security measures, involving FBI and Secret Service, to prevent illicit use of stablecoins.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3616/tether-ceo-unveils-new-security-measures-involving-fbi-and-secret-service-to-prevent-illicit-use-of-stablecoins",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.theblock.co/post/267973/tether-weve-onboarded-fbi-secret-service-to-our-platform"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:02:21.017527+00:00",
+      "editorial": [
+        {
+          "count": 4,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "fbi.gov"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "justice.gov"
+        },
+        {
+          "count": 1,
+          "source": "nytimes.com"
+        },
+        {
+          "count": 1,
+          "source": "fortune.com"
+        },
+        {
+          "count": 1,
+          "source": "ic3.gov"
+        },
+        {
+          "count": 1,
+          "source": "theverge.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "bleepingcomputer.com"
+        }
+      ],
+      "editorial_distinct": 15,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 13,
+          "source": "x.com"
+        },
+        {
+          "count": 11,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 6,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 6,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "foxbusiness.com"
+        },
+        {
+          "count": 1,
+          "source": "news.bloomberglaw.com"
+        },
+        {
+          "count": 1,
+          "source": "forbes.com"
+        },
+        {
+          "count": 1,
+          "source": "cbsnews.com"
+        },
+        {
+          "count": 1,
+          "source": "nypost.com"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        }
+      ],
+      "universe_distinct": 19
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "bb9f318786dc84fcfd37f6cb240ec938217f2815f37fda34338e47d56b7e14fe",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:22:04.549170+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.3,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.028,
+        "lift_log": 4.058,
+        "score": 0.2998,
+        "shared": 3
+      },
+      "rationale": "FBI investigates crimes as part of its law enforcement mandate.",
+      "relation_type": "category",
+      "slug": "crime",
+      "source": "cotag",
+      "tag_name": "Crime",
+      "title": "Crime, Explained",
+      "weight": 30
+    },
+    {
+      "confidence": 0.237,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0135,
+        "lift_log": 2.846,
+        "score": 0.2374,
+        "shared": 3
+      },
+      "rationale": "Fraud is a type of crime investigated by the FBI.",
+      "relation_type": "category",
+      "slug": "fraud",
+      "source": "cotag",
+      "tag_name": "Fraud",
+      "title": "Fraud, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.258,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0194,
+        "lift_log": 3.223,
+        "score": 0.2575,
+        "shared": 3
+      },
+      "rationale": "FBI conducts seizures of assets in criminal investigations.",
+      "relation_type": "event",
+      "slug": "seizure",
+      "source": "cotag",
+      "tag_name": "Seizure",
+      "title": "Seizure, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.217,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0312,
+        "lift_log": 4.411,
+        "score": 0.2174,
+        "shared": 4
+      },
+      "rationale": "Theft is a crime that falls under FBI jurisdiction.",
+      "relation_type": "category",
+      "slug": "theft",
+      "source": "cotag",
+      "tag_name": "Theft",
+      "title": "Theft, Explained",
+      "weight": 22
+    }
+  ],
+  "schema_version": 1,
+  "slug": "fbi",
+  "tag_name": "FBI",
+  "title": "FBI, Explained"
+}

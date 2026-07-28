@@ -1,0 +1,541 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:13:21.170869+00:00",
+      "newsroom_total": 40,
+      "overall_share": 93,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 16,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 3
+        }
+      ],
+      "total_universe": 43,
+      "universe_total": 3
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:13:19.752417+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "prisma",
+          "phrase": "Resupply is a yield optimizer built on Prisma's liquid staking tokens.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "resupply",
+          "weight": 29
+        },
+        {
+          "dir": "out",
+          "from": "prisma",
+          "phrase": "Prisma uses Curve pools for liquidity of its mkUSD stablecoin.",
+          "relation_type": "protocol",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "curve",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "prisma",
+          "phrase": "Yearn is a yield aggregator comparable to Prisma's yield strategies.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "yearn",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "prisma",
+          "phrase": "Convex",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "convex",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "prisma",
+          "phrase": "fork",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "fork",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Prisma",
+          "slug": "prisma",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Resupply",
+          "slug": "resupply",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 29
+        },
+        {
+          "center": false,
+          "name": "Curve",
+          "slug": "curve",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Yearn",
+          "slug": "yearn",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Convex",
+          "slug": "convex",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "fork",
+          "slug": "fork",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:01:31.099958+00:00",
+      "events": [
+        {
+          "date": "2023-09",
+          "kind": "launch",
+          "label": "Prisma Finance launches; mkUSD CDP stablecoin goes live",
+          "source": "https://iq.wiki/wiki/prisma-finance-mkusd"
+        },
+        {
+          "date": "2024-03",
+          "kind": "exploit",
+          "label": "$11.1M exploit; emergency multisig pauses protocol",
+          "source": "https://rekt.news/prismafi-rekt"
+        },
+        {
+          "date": "2024-03",
+          "kind": "governance",
+          "label": "Exploiter issues public KYC and apology ransom demands",
+          "source": "https://hackmd.io/@PrismaRisk/PostMortem0328"
+        },
+        {
+          "date": "2024-04",
+          "kind": "governance",
+          "label": "Post-mortem published; PIP-038 victim repayment plan proposed",
+          "source": "https://hackmd.io/@PrismaRisk/PostMortem0328"
+        },
+        {
+          "date": "2024-04",
+          "kind": "milestone",
+          "label": "On-chain investigation identifies alleged exploiter linked to prior hacks",
+          "source": "https://www.coinspeaker.com/identity-prisma-finance-hacker/"
+        },
+        {
+          "date": "2024-05",
+          "kind": "milestone",
+          "label": "ULTRA stablecoin backed by LRTs announced",
+          "source": "https://thedefiant.io/news/defi/prisma-introduces-ultra-stablecoin-backed-by-liquid-restaking-tokens"
+        },
+        {
+          "date": "2024-05",
+          "kind": "governance",
+          "label": "Snapshot vote passes to shut down Prisma and launch Resupply",
+          "source": "https://x.com/PrismaFi/status/1792915610755555676"
+        },
+        {
+          "date": "2024-05",
+          "kind": "milestone",
+          "label": "Resupply team discovers multiple high-severity bugs during shutdown code review",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:01:31.099783+00:00",
+      "insight": "Readers clicked the oracle MEV analysis first but devoted the most collective attention to the hacker's extortion theater — KYC demands, whitehat speculation, and on-chain identity investigation — revealing that Prisma's audience treats exploit accountability as live courtroom drama, not a technical postmortem.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://hackmd.io/@PrismaRisk/PostMortem0328"
+    },
+    "reader_signal": {
+      "article_count": 40,
+      "as_of": "2026-07-01T12:13:22.127779+00:00",
+      "most_clicked": {
+        "clicks": 1306,
+        "date": "2024-03-22T12:26:52.819649+00:00",
+        "headline": "Prisma Risk team historical analysis between oracles: \"Implementing the Curve Oracle would have resulted in decreased MEV by bots and provided a better exchange rate for users\"",
+        "lev_url": "https://leviathannews.xyz/4340/prisma-risk-team-historical-analysis-between-oracles-implementing-the-curve-oracle-would-have-resulted-in-decreased-mev-by-bots-and-provided-a-better-exchange-rate-for-users"
+      },
+      "provenance": "data",
+      "top_decile_share": 44,
+      "total_clicks": 9992
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:01:31.099859+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://hackmd.io/@PrismaRisk/PostMortem0328",
+          "thread": "Oracle MEV risk tradeoff",
+          "why": "The top-clicked headline — PrismaRisk showing the Curve Oracle would have cut MEV and improved user rates — signals readers wanted to understand which pre-hack technical choices made the protocol a target."
+        },
+        {
+          "source": "https://www.coinspeaker.com/identity-prisma-finance-hacker/",
+          "thread": "Hacker identity and extortion demands",
+          "why": "The exploiter's bizarre KYC-and-public-apology ransom note, followed by an on-chain investigation linking them to prior exploits, generated nearly 1,500 combined clicks and became the dominant post-hack narrative."
+        },
+        {
+          "source": "https://rekt.news/prismafi-rekt",
+          "thread": "Whitehat or blackhat framing",
+          "why": "Early ambiguity over whether the $11.1M drain was a rescue operation kept readers returning through multiple updates as the community debated intent before the exploiter's extortion demands settled the question."
+        },
+        {
+          "source": "https://hackmd.io/@PrismaRisk/PostMortem0328",
+          "thread": "Victim repayment governance",
+          "why": "The sequential actions — fee pause, 50% emissions cut, PIP-038 repayment plan — generated sustained clicks as affected users tracked whether and how they would be made whole."
+        },
+        {
+          "source": "https://x.com/PrismaFi/status/1792915610755555676",
+          "thread": "Protocol shutdown and Resupply pivot",
+          "why": "The Snapshot vote to shut down Prisma and launch Resupply — which then uncovered multiple additional high-severity bugs during the shutdown audit — confirmed readers' suspicion that the hack exposed deeper code quality failures."
+        },
+        {
+          "source": "https://thedefiant.io/news/defi/prisma-introduces-ultra-stablecoin-backed-by-liquid-restaking-tokens",
+          "thread": "LRT stablecoin expansion",
+          "why": "Headlines about ULTRA (backed by liquid restaking tokens) and PrismaLRT drew niche but real interest from readers tracking whether the protocol could evolve beyond mkUSD before its closure."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:01:31.099870+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract security",
+          "level": "High",
+          "note": "A $11.1M exploit in March 2024 was followed by the Resupply team discovering multiple additional high-severity bugs in the contracts during the shutdown audit, and a community dev review concluded the hack was 'the inevitable consequence of the team behavior regarding security.'",
+          "source": "https://rekt.news/prismafi-rekt"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "The emergency multisig unilaterally paused the entire protocol immediately after the exploit, and the hacker's demand that the founding team publicly dox themselves exposed how small and identifiable the control structure was.",
+          "source": "https://hackmd.io/@PrismaRisk/PostMortem0328"
+        },
+        {
+          "dimension": "Oracle / MEV exposure",
+          "level": "Medium",
+          "note": "PrismaRisk's historical analysis found that choosing the Curve Oracle over the deployed oracle would have reduced MEV extraction by bots and improved exchange rates for users, indicating the oracle selection was a material and avoidable risk factor.",
+          "source": "https://hackmd.io/@PrismaRisk/PostMortem0328"
+        },
+        {
+          "dimension": "Governance",
+          "level": "Medium",
+          "note": "Post-exploit governance (fee pause, 50% emissions cut, PIP-038 repayment plan, and eventual shutdown vote) showed the DAO could mobilize rapidly but that all critical decisions were made reactively under duress rather than through proactive risk management.",
+          "source": "https://hackmd.io/@PrismaRisk/PostMortem0328"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Sequential protocol pauses, proposed fee increases mirroring MakerDAO's 5% mint fee or 15% interest rate model, and a 50% cut to emissions progressively eroded LP and mkUSD/ULTRA holder incentives ahead of the eventual shutdown.",
+          "source": "https://iq.wiki/wiki/prisma-finance-mkusd"
+        },
+        {
+          "dimension": "Collateral / LSD-LRT risk",
+          "level": "Medium",
+          "note": "PrismaRisk flagged sfrxETH as promising but still-evolving collateral; the subsequent ULTRA expansion into liquid restaking tokens added newer, less battle-tested collateral categories shortly before the protocol was shut down.",
+          "source": "https://thedefiant.io/news/defi/prisma-introduces-ultra-stablecoin-backed-by-liquid-restaking-tokens"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:13:22.046403+00:00",
+      "items": [
+        {
+          "clicks": 1306,
+          "date": "2024-03-22T12:26:52.819649+00:00",
+          "headline": "Prisma Risk team historical analysis between oracles: \"Implementing the Curve Oracle would have resulted in decreased MEV by bots and provided a better exchange rate for users\"",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4340/prisma-risk-team-historical-analysis-between-oracles-implementing-the-curve-oracle-would-have-resulted-in-decreased-mev-by-bots-and-provided-a-better-exchange-rate-for-users",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240322122635_3cO8mshXZQ==.png",
+          "url": "https://hackmd.io/@PrismaRisk/AlternativeOracles"
+        },
+        {
+          "clicks": 1238,
+          "date": "2024-03-30T14:15:36.535205+00:00",
+          "headline": "Terms presented to Prisma: \"Your team need to do an online press conference, in which all of your team must show their faces with ids (its like KYC), and send apologies and thanks to all of your users, your investors, and me.\"",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4517/terms-presented-to-prisma-your-team-need-to-do-an-online-press-conference-in-which-all-of-your-team-must-show-their-faces-with-ids-its-like-kyc-and-send-apologies-and-thanks-to-all",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240330141032_CA7AGIw-yA==.png",
+          "url": "https://etherscan.io/idm?addresses=0x2d413803a6ec3cb1ed1a93bf90608f63b157507a%2C0xd8531a94100f15af7521a7b6e724ac4959e0a025&type=1"
+        },
+        {
+          "clicks": 929,
+          "date": "2024-03-29T00:17:48.595189+00:00",
+          "headline": "Prisma Finance hack possibly a whitehat rescue?",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4492/prisma-finance-hack-possibly-a-whitehat-rescue",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240329001740_UCC_QugV-w==.png",
+          "url": "https://etherscan.io/idm?addresses=0x2d413803a6ec3cb1ed1a93bf90608f63b157507a,0xd8531a94100f15af7521a7b6e724ac4959e0a025&type=1"
+        },
+        {
+          "clicks": 876,
+          "date": "2024-03-30T11:13:04.600352+00:00",
+          "headline": "Prisma proposes pausing all fees",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4515/prisma-proposes-pausing-all-fees",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240330111257_KKAi8E6i4w==.png",
+          "url": "https://gov.prismafinance.com/t/pip-034-pause-protocol-fee-distribution-to-veprisma-holders/155"
+        },
+        {
+          "clicks": 780,
+          "date": "2024-03-31T20:46:06.121124+00:00",
+          "headline": "Prisma posts update on events, issues new recommendation of 50% cut to protocol emissions",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4522/prisma-posts-update-on-events-issues-new-recommendation-of-50-cut-to-protocol-emissions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240331204544_MyoPePylWw==.png",
+          "url": "https://gov.prismafinance.com/t/a-path-forward-after-the-security-incident/157"
+        },
+        {
+          "clicks": 724,
+          "date": "2024-03-29T10:41:28.697132+00:00",
+          "headline": "What do you think of the term \"Smart Contract\"?\n-- Prisma Exploiter",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4498/what-do-you-think-of-the-term-smart-contract-prisma-exploiter",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240329104050_yqblvAMhfg==.png",
+          "url": "https://etherscan.io/idm?addresses=0x2d413803a6ec3cb1ed1a93bf90608f63b157507a,0xd8531a94100f15af7521a7b6e724ac4959e0a025&type=1"
+        },
+        {
+          "clicks": 708,
+          "date": "2024-05-02T23:16:24.199600+00:00",
+          "headline": "Prisma posts PIP-038: Victim Repayment Plan",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5170/prisma-posts-pip-038-victim-repayment-plan",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240502231600_uMEuKxq1CA==.png",
+          "url": "https://gov.prismafinance.com/t/pip-038-victim-repayment-plan/171"
+        },
+        {
+          "clicks": 308,
+          "date": "2024-12-24T11:05:10.532378+00:00",
+          "headline": "A new Prisma Finance Snapshot vote is live - shut down Prisma Finance and introduce Resupply",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8462/a-new-prisma-finance-snapshot-vote-is-live-shut-down-prisma-finance-and-introduce-resupply",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241224110632_HT5qkCqSzKI=.jpg",
+          "url": "https://snapshot.prismafinance.com/#/proposal/0x6ea5a626b1bb3b32d95a1f46472fcfc54fc8b3084f0d7300ae1629d1e5e0d1fe"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:13:21.955404+00:00",
+      "editorial": [
+        {
+          "count": 23,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "gov.prismafinance.com"
+        },
+        {
+          "count": 3,
+          "source": "etherscan.io"
+        },
+        {
+          "count": 2,
+          "source": "hackmd.io"
+        },
+        {
+          "count": 2,
+          "source": "youtube.com"
+        },
+        {
+          "count": 2,
+          "source": "mirror.xyz"
+        },
+        {
+          "count": 1,
+          "source": "napier.finance"
+        },
+        {
+          "count": 1,
+          "source": "blog.yearn.fi"
+        },
+        {
+          "count": 1,
+          "source": "snapshot.prismafinance.com"
+        },
+        {
+          "count": 1,
+          "source": "wavey.info"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 3,
+          "source": "x.com"
+        }
+      ],
+      "universe_distinct": 1
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "4394e511d71cb83c95d0c6a2317572cbf92e1a0521da595695f28f29967c62b2",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:22.811382+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.24,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0034,
+        "lift_log": 2.998,
+        "score": 0.2396,
+        "shared": 4
+      },
+      "rationale": "Prisma uses Curve pools for liquidity of its mkUSD stablecoin.",
+      "relation_type": "protocol",
+      "slug": "curve",
+      "source": "cotag",
+      "tag_name": "Curve",
+      "title": "Curve, Explained",
+      "weight": 24
+    }
+  ],
+  "schema_version": 1,
+  "slug": "prisma",
+  "tag_name": "Prisma",
+  "title": "Prisma, Explained"
+}

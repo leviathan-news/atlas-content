@@ -1,0 +1,649 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:07:44.745664+00:00",
+      "newsroom_total": 41,
+      "overall_share": 55,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 11
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 5
+        },
+        {
+          "ed_share": 15,
+          "month": "2026-05",
+          "newsroom": 2,
+          "universe": 11
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 6
+        }
+      ],
+      "total_universe": 75,
+      "universe_total": 34
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:07:43.473764+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "wbtc",
+          "phrase": "Both are wrapped tokens representing native assets (BTC and ETH) on Ethereum.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "weth",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "wbtc",
+          "phrase": "WBTC relies on custody providers like BitGo to hold the underlying Bitcoin.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "custody",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "wbtc",
+          "phrase": "Delisting events (e.g., from exchanges) pose a risk to WBTC liquidity and adoption.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "delisting",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "wbtc",
+          "phrase": "TRX is a blockchain token, but relation to WBTC is unclear; cautious peer.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "trx",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "wbtc",
+          "phrase": "WBTC is used as collateral in DeFi protocols like MakerDAO to mint DAI.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "dai",
+          "weight": 20
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "WBTC",
+          "slug": "wbtc",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "WETH",
+          "slug": "weth",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Custody",
+          "slug": "custody",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Delisting",
+          "slug": "delisting",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "TRX",
+          "slug": "trx",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "DAI",
+          "slug": "dai",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T07:28:09.808602+00:00",
+      "events": [
+        {
+          "date": "2019-01",
+          "kind": "launch",
+          "label": "WBTC launches on Ethereum mainnet via BitGo",
+          "source": ""
+        },
+        {
+          "date": "2024-01",
+          "kind": "exploit",
+          "label": "Orbit Chain exploited for $81.5M including 230 WBTC",
+          "source": ""
+        },
+        {
+          "date": "2024-08",
+          "kind": "governance",
+          "label": "BitGo announces WBTC custody transition to BiT Global joint venture with Justin Sun",
+          "source": ""
+        },
+        {
+          "date": "2024-08",
+          "kind": "governance",
+          "label": "BA Labs proposes emergency limits on WBTC exposure in MakerDAO and SparkLend",
+          "source": ""
+        },
+        {
+          "date": "2024-09",
+          "kind": "milestone",
+          "label": "Coinbase launches cbBTC and delists WBTC",
+          "source": ""
+        },
+        {
+          "date": "2024-10",
+          "kind": "governance",
+          "label": "MakerDAO governance vote removes WBTC as DAI collateral and disables SparkLend borrowing",
+          "source": ""
+        },
+        {
+          "date": "2024-11",
+          "kind": "governance",
+          "label": "Llama Risk proposes reducing WBTC LTV to 0 on Aave markets",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "regulatory",
+          "label": "Bit Global files $1 billion lawsuit against Coinbase over WBTC delisting",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T07:28:09.808461+00:00",
+      "insight": "Readers clicked WBTC stories not for wrapped-BTC mechanics but for a single governance crisis: whether Justin Sun's indirect control over BTC custody made every protocol holding WBTC a counterparty to a sanctioned actor, forcing DeFi's biggest lending markets into a live stress-test of their risk frameworks.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 41,
+      "as_of": "2026-07-01T12:07:45.375489+00:00",
+      "most_clicked": {
+        "clicks": 327,
+        "date": "2025-01-22T19:31:09.298544+00:00",
+        "headline": "World Liberty Financial has been diversifying its holdings, acquiring assets including Justin Sun-affiliated TRX and WBTC.",
+        "lev_url": "https://leviathannews.xyz/8879/world-liberty-financial-has-been-diversifying-its-holdings-acquiring-assets-including-justin-sun-affiliated-trx-and-wbtc"
+      },
+      "provenance": "data",
+      "top_decile_share": 25,
+      "total_clicks": 4867
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T07:28:09.808523+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Justin Sun custody takeover",
+          "why": "The announcement that BiT Global—linked to Justin Sun—would co-custody WBTC's BTC reserves triggered immediate protocol-level responses and dominated click volume across multiple news cycles."
+        },
+        {
+          "source": "",
+          "thread": "MakerDAO/Sky WBTC offboarding",
+          "why": "MakerDAO's governance vote to remove WBTC as collateral was a concrete, high-stakes outcome readers tracked from proposal through execution, affecting billions in open positions."
+        },
+        {
+          "source": "",
+          "thread": "Aave and lending risk limits",
+          "why": "LlamaRisk and Llama Risk proposals to cut WBTC LTV to zero on Aave represented the practical risk-management debate readers wanted to follow in real time."
+        },
+        {
+          "source": "",
+          "thread": "WBTC supply collapse",
+          "why": "The disappearance of over 86,000 WBTC from circulation in a single year was a measurable signal of market-wide loss of confidence that readers found alarming."
+        },
+        {
+          "source": "",
+          "thread": "Wrapped BTC alternatives emerging",
+          "why": "cbBTC, dlcBTC, and swBTC all surfaced as credible replacements precisely because the custody controversy created demand for trust-minimized or non-custodial alternatives."
+        },
+        {
+          "source": "",
+          "thread": "HTX proof-of-reserves opacity",
+          "why": "HTX redeeming thousands of WBTC without proof-of-reserves, and later burning 5,182 WBTC, raised questions about undisclosed movements of BTC backing tied to the Sun ecosystem."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T07:28:09.808530+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "WBTC's BTC custody is controlled by a joint venture involving BiT Global, a firm associated with Justin Sun, meaning a single politically exposed actor has indirect influence over the peg's backing.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract / Collateral",
+          "level": "High",
+          "note": "MakerDAO and Sky governance voted to offboard WBTC as collateral, and Aave's risk committees proposed zeroing out LTV—indicating protocol-level consensus that WBTC's smart-contract collateral risk is no longer acceptable.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Justin Sun's OFAC-adjacent profile and Coinbase's decision to delist WBTC—cited in an antitrust case as a response to potential Sun control—signal that regulatory exposure is priced into WBTC's institutional acceptance.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "Over 86,000 WBTC left circulation in a single year and Coinbase delisted the token; combined with protocol offboarding from the two largest DeFi lending markets, exit liquidity for large holders has structurally narrowed.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "WBTC retains a significant market cap and on-chain DeFi integrations (Curve, Yield Basis, f(x) Protocol, crvUSD proposals) continue, but its market share is being actively eroded by cbBTC and other alternatives.",
+          "source": ""
+        },
+        {
+          "dimension": "Operational / Hack Exposure",
+          "level": "Medium",
+          "note": "WBTC has appeared in multiple protocol exploits as incidental collateral—Orbit Chain lost 230+ WBTC in a $81.5M hack and a 1inch solver was drained of ~17 WBTC—indicating systemic exposure through DeFi integrations rather than the token itself.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:07:45.300454+00:00",
+      "items": [
+        {
+          "clicks": 45,
+          "date": "2026-05-18T22:41:10.414642+00:00",
+          "headline": "Echo Protocol faces suspected Monad exploit after 1K eBTC mint lets attacker max-borrow WBTC on Curvance",
+          "hot_score": 501.600045,
+          "lev_url": "https://leviathannews.xyz/244704/echo-protocol-faces-suspected-monad-exploit-after-1k-ebtc-mint-lets-attacker-max-borrow-wbtc-on-curvance",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260518223437_Z4zrlaiDPw==.png",
+          "url": "https://x.com/dcfgod/status/2056493905680720238"
+        },
+        {
+          "clicks": 59,
+          "date": "2026-04-22T06:08:38.278273+00:00",
+          "headline": "Phishing drainer hits four wallets for $585K in 11 hours; one victim loses 3 WBTC to increaseApproval sig after Aave withdrawal",
+          "hot_score": 430.6,
+          "lev_url": "https://leviathannews.xyz/234755/phishing-drainer-hits-four-wallets-for-585k-in-11-hours-one-victim-loses-3-wbtc-to-increaseapproval-sig-after-aave-withdrawal",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422052038_Z4zrlaiDPw==.png",
+          "url": "https://x.com/officer_secret/status/2046803885465927948"
+        },
+        {
+          "clicks": 79,
+          "date": "2026-05-07T07:34:08.183429+00:00",
+          "headline": " TrustedVolumes one of many 1inch's solvers hacked. Loss: ~1,291.16 ETH + ~1,268,771 USDC + ~206,282 USDT + ~16.94 WBTC so far",
+          "hot_score": 218.977146,
+          "lev_url": "https://leviathannews.xyz/238998/slowmist-ti-alert-loss-129116-eth-1268771-usdc-206282-usdt-1694-wbtc-trustedvolumes-root-cause-in-fillorder-function-selector-0x4112e1c2-of-rfq-imple",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260507073228_934BLFpTHQTs.jpg",
+          "url": "https://x.com/slowmist_team/status/2052227002980253715"
+        },
+        {
+          "clicks": 327,
+          "date": "2025-01-22T19:31:09.298544+00:00",
+          "headline": "World Liberty Financial has been diversifying its holdings, acquiring assets including Justin Sun-affiliated TRX and WBTC.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8879/world-liberty-financial-has-been-diversifying-its-holdings-acquiring-assets-including-justin-sun-affiliated-trx-and-wbtc",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250122190807_mEmd6Gs4lw==.jpg",
+          "url": "https://protos.com/trump-endorsed-world-liberty-financial-buys-justin-sun-tokens/"
+        },
+        {
+          "clicks": 320,
+          "date": "2024-10-22T16:08:16.857971+00:00",
+          "headline": "WBTC announced it will transition the custody of bitcoin for the token from BitGo to a joint venture between BitGo, BiT Global, and Sun.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7458/wbtc-announced-it-will-transition-the-custody-of-bitcoin-for-the-token-from-bitgo-to-a-joint-venture-between-bitgo-bit-global-and-sun",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241022160746_U1wcGey4ig==.jpg",
+          "url": "https://protos.com/wbtc-supply-contracts-this-month-following-justin-sun-custody-drama/"
+        },
+        {
+          "clicks": 297,
+          "date": "2024-12-02T18:01:34.601246+00:00",
+          "headline": "HTX pulls off a wild move: redeems thousands of WBTC with zero proof-of-reserves—Justin Sun magic at work?",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8017/htx-pulls-off-a-wild-move-redeems-thousands-of-wbtc-with-zero-proof-of-reservesjustin-sun-magic-at-work",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241202175709_F7LQ-E4Udw==.jpg",
+          "url": "https://protos.com/justin-sun-advised-htx-has-redeemed-7300-wbtc-it-did-not-disclose/"
+        },
+        {
+          "clicks": 271,
+          "date": "2024-08-10T16:00:11.306261+00:00",
+          "headline": "BA Labs urges Immediate Actions to Limit WBTC Exposure in Maker and SparkLend Ahead of August 12 Vote Due to Control Change Risks.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6614/ba-labs-urges-immediate-actions-to-limit-wbtc-exposure-in-maker-and-sparklend-ahead-of-august-12-vote-due-to-control-change-risks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://forum.makerdao.com/t/wbtc-changes-and-risk-mitigation-10-august-2024/24844"
+        },
+        {
+          "clicks": 241,
+          "date": "2023-07-29T15:55:22.379481+00:00",
+          "headline": "Over 86,000 Wrapped Bitcoins (WBTC) Vanish from Circulation in the Past Year",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2043/over-86000-wrapped-bitcoins-wbtc-vanish-from-circulation-in-the-past-year",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://news.bitcoin.com/navigating-the-wrapped-bitcoin-landscape-86000-wbtc-exit-circulation-in-one-year/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:07:45.217976+00:00",
+      "editorial": [
+        {
+          "count": 22,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "protos.com"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "youtube.com"
+        },
+        {
+          "count": 2,
+          "source": "news.bitcoin.com"
+        },
+        {
+          "count": 1,
+          "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "governance.aave.com"
+        },
+        {
+          "count": 1,
+          "source": "thedefiant.io"
+        },
+        {
+          "count": 1,
+          "source": "youtu.be"
+        },
+        {
+          "count": 1,
+          "source": "forum.makerdao.com"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "yieldbasis.com"
+        }
+      ],
+      "editorial_distinct": 12,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 32,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        }
+      ],
+      "universe_distinct": 3
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "a84992b6479f3d846628a5ea444aad76a2e8941c9073e5a5d1e673d4ab621da5",
+  "provenance": {
+    "model_name": "claude-opus-4-8",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "opus_websearch",
+    "updated_at": "2026-07-26T22:22:37.877472+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.224,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0072,
+        "lift_log": 2.632,
+        "score": 0.2245,
+        "shared": 3
+      },
+      "rationale": "WBTC relies on custody providers like BitGo to hold the underlying Bitcoin.",
+      "relation_type": "infrastructure",
+      "slug": "custody",
+      "source": "cotag",
+      "tag_name": "Custody",
+      "title": "Custody, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.2,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0209,
+        "lift_log": 4.145,
+        "score": 0.2003,
+        "shared": 3
+      },
+      "rationale": "WBTC is used as collateral in DeFi protocols like MakerDAO to mint DAI.",
+      "relation_type": "ecosystem",
+      "slug": "dai",
+      "source": "cotag",
+      "tag_name": "DAI",
+      "title": "DAI: Complete Guide",
+      "weight": 20
+    },
+    {
+      "confidence": 0.219,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0262,
+        "lift_log": 4.495,
+        "score": 0.2188,
+        "shared": 4
+      },
+      "rationale": "Delisting events (e.g., from exchanges) pose a risk to WBTC liquidity and adoption.",
+      "relation_type": "risk",
+      "slug": "delisting",
+      "source": "cotag",
+      "tag_name": "Delisting",
+      "title": "Delisting, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.21,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0281,
+        "lift_log": 4.281,
+        "score": 0.21,
+        "shared": 4
+      },
+      "rationale": "TRX is a blockchain token, but relation to WBTC is unclear; cautious peer.",
+      "relation_type": "peer",
+      "slug": "trx",
+      "source": "cotag",
+      "tag_name": "TRX",
+      "title": "TRX: Complete Guide",
+      "weight": 21
+    },
+    {
+      "confidence": 0.227,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0337,
+        "lift_log": 4.591,
+        "score": 0.2267,
+        "shared": 5
+      },
+      "rationale": "Both are wrapped tokens representing native assets (BTC and ETH) on Ethereum.",
+      "relation_type": "peer",
+      "slug": "weth",
+      "source": "cotag",
+      "tag_name": "WETH",
+      "title": "WETH: Complete Guide",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "wbtc",
+  "tag_name": "WBTC",
+  "title": "WBTC: Complete Guide"
+}

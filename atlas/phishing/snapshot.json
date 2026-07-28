@@ -1,0 +1,650 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:07:54.916173+00:00",
+      "newsroom_total": 33,
+      "overall_share": 35,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 27
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 17
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 11
+        }
+      ],
+      "total_universe": 95,
+      "universe_total": 62
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:07:54.485604+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "phishing",
+          "phrase": "Phishing often targets transactions to steal funds.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "transaction",
+          "weight": 32
+        },
+        {
+          "dir": "out",
+          "from": "phishing",
+          "phrase": "Phishing is a type of scam.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "scam",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "phishing",
+          "phrase": "Phishing is a method used to execute exploits.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "exploit",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "phishing",
+          "phrase": "Phishing attacks often target wallets to steal assets.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "wallet",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "phishing",
+          "phrase": "Phishing is a security threat.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "security",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Phishing",
+          "slug": "phishing",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Transaction",
+          "slug": "transaction",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 32
+        },
+        {
+          "center": false,
+          "name": "Scam",
+          "slug": "scam",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "Exploit",
+          "slug": "exploit",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Wallet",
+          "slug": "wallet",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Security",
+          "slug": "security",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T07:18:37.955022+00:00",
+      "events": [
+        {
+          "date": "2021-01",
+          "kind": "milestone",
+          "label": "Approval phishing losses begin accumulating; Coinbase later tracks cumulative total crossing $1B",
+          "source": "https://www.coinbase.com/blog/bringing-approval-phishing-scammers-to-justice"
+        },
+        {
+          "date": "2023-12",
+          "kind": "exploit",
+          "label": "Ledger Connect Kit supply chain compromised via phishing of former employee; CEO calls it 'isolated event'",
+          "source": ""
+        },
+        {
+          "date": "2024-07",
+          "kind": "exploit",
+          "label": "Compound Finance live website hijacked and redirected to freshly registered phishing domain",
+          "source": ""
+        },
+        {
+          "date": "2024-09",
+          "kind": "milestone",
+          "label": "10,000 victims lose $46M to phishing in one month; Q3 2024 phishing total reaches $127M",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "regulatory",
+          "label": "Frankfurt prosecutors seize eXch exchange (€34M) and linked phishing drainer infrastructure",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "exploit",
+          "label": "$330.7M BTC socially engineered from elderly victim; funds laundered via Monero causing 50% XMR price spike",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T07:18:37.954887+00:00",
+      "insight": "Readers click hardest not on raw theft figures but on the moment a trusted signal — a security firm's X account, a verified influencer handle, an official project domain — becomes the phishing delivery mechanism itself, revealing that betrayal of a familiar voice is more alarming than any dollar amount drained.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://financefeeds.com/5-signs-ai-phishing-has-compromised-your-web3-social-media-account/"
+    },
+    "reader_signal": {
+      "article_count": 33,
+      "as_of": "2026-07-01T12:07:55.906712+00:00",
+      "most_clicked": {
+        "clicks": 446,
+        "date": "2024-12-08T14:36:58.216715+00:00",
+        "headline": "Few hours ago a drainer stole $2.2M+ worth of meme coins from a Solana user.\nVictim was drained due to the WallStreetBets ATO on X/Twitter where a phishing site was posted.",
+        "lev_url": "https://leviathannews.xyz/8109/few-hours-ago-a-drainer-stole-22m-worth-of-meme-coins-from-a-solana-user-victim-was-drained-due-to-the-wallstreetbets-ato-on-xtwitter-where-a-phishing-site-was-posted"
+      },
+      "provenance": "data",
+      "top_decile_share": 32,
+      "total_clicks": 2974
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T07:18:37.954944+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://financefeeds.com/5-signs-ai-phishing-has-compromised-your-web3-social-media-account/",
+          "thread": "X account takeover drains",
+          "why": "Multiple top-clicked headlines showed verified or high-follower X accounts — WallStreetBets, CertiK, CZ's Giggle Academy, and 15+ smaller handles — hijacked to broadcast phishing links, making trusted feeds the primary attack surface."
+        },
+        {
+          "source": "",
+          "thread": "Telegram malware replacing phishing",
+          "why": "Scam Sniffer's report of a 2,000% surge in Telegram-based malware scams over traditional phishing signaled a structural shift in attack vector, including fake safeguard bots that drain wallets mid-conversation."
+        },
+        {
+          "source": "https://revoke.cash",
+          "thread": "Security brand and domain impersonation",
+          "why": "CertiK's account posted a fake Uniswap hack tied to a Revoke Cash phishing link, Nansen's sender identity was spoofed, and Compound Finance's live domain redirected to a phishing site — the brands readers trust for safety were weaponized."
+        },
+        {
+          "source": "https://www.coinbase.com/blog/bringing-approval-phishing-scammers-to-justice",
+          "thread": "Investigative exposure of drainer operators",
+          "why": "ZachXBT's 31-minute dox of 'vkevin' and Frankfurt prosecutors' seizure of eXch's phishing drainer infrastructure showed readers that individual scammers and their laundering rails can be identified and dismantled."
+        },
+        {
+          "source": "",
+          "thread": "Nation-state LinkedIn recruitment phishing",
+          "why": "Lazarus Group's use of fake job postings on LinkedIn to steal an estimated $3.4bn framed crypto phishing as a geopolitical threat backed by sovereign resources, not just opportunistic retail scams."
+        },
+        {
+          "source": "https://www.coinbase.com/blog/bringing-approval-phishing-scammers-to-justice",
+          "thread": "Approval and permit signature mechanics",
+          "why": "Headlines on increaseApproval signatures, $1B+ in cumulative approval phishing losses, Permit2 exploits, and the Hyperliquid EOA-to-multisig upgrade attack attracted readers who needed to understand exactly how a single signed transaction empties a wallet."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T07:18:37.954952+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / signature abuse",
+          "level": "High",
+          "note": "Approval phishing and malicious permit signatures have drained over $1B since 2021, with drainers routinely using increaseApproval and Permit2 flows to empty wallets in a single user-signed transaction.",
+          "source": "https://www.coinbase.com/blog/bringing-approval-phishing-scammers-to-justice"
+        },
+        {
+          "dimension": "Social media infrastructure",
+          "level": "High",
+          "note": "X account takeovers of security firms, project accounts, and influencers convert high-trust audiences into phishing targets at scale; SlowMist found the majority of replies to prominent project tweets originate from phishing accounts.",
+          "source": "https://www.darktrace.com/blog/crypto-wallets-continue-to-be-drained-in-elaborate-social-media-scam"
+        },
+        {
+          "dimension": "Messaging-app malware",
+          "level": "High",
+          "note": "Telegram-based malware crypto scams surged 2,000% year-over-year per Scam Sniffer, with fake safeguard bots and clipboard hijackers now outpacing traditional link-based phishing in volume.",
+          "source": ""
+        },
+        {
+          "dimension": "Supply chain",
+          "level": "Medium",
+          "note": "Malicious NPM packages distributed via phishing targeted Ethereum, Solana, and TON developers; the Ledger Connect Kit incident confirmed that hardware wallet vendors' developer toolchains are viable phishing entry points.",
+          "source": "https://socket.dev/blog/ton-wallet-security-threat-malicious-npm-package-steals-cryptocurrency-wallet-keys"
+        },
+        {
+          "dimension": "Regulatory / law enforcement",
+          "level": "Medium",
+          "note": "Frankfurt prosecutors' seizure of eXch and its phishing drainer infrastructure demonstrates growing cross-border enforcement capability, but most drainer operators remain pseudonymous and jurisdiction-agnostic.",
+          "source": ""
+        },
+        {
+          "dimension": "Protocol-layer primitive abuse",
+          "level": "Medium",
+          "note": "The Hyperliquid EOA-to-multisig phishing attack weaponized a native HyperCore multisig primitive to seize full account control without exploiting any smart contract bug, showing that legitimate protocol design features can become attack surfaces.",
+          "source": ""
+        }
+      ],
+      "sourced": 3,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:07:55.827013+00:00",
+      "items": [
+        {
+          "clicks": 59,
+          "date": "2026-04-22T06:08:38.278273+00:00",
+          "headline": "Phishing drainer hits four wallets for $585K in 11 hours; one victim loses 3 WBTC to increaseApproval sig after Aave withdrawal",
+          "hot_score": 430.6,
+          "lev_url": "https://leviathannews.xyz/234755/phishing-drainer-hits-four-wallets-for-585k-in-11-hours-one-victim-loses-3-wbtc-to-increaseapproval-sig-after-aave-withdrawal",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422052038_Z4zrlaiDPw==.png",
+          "url": "https://x.com/officer_secret/status/2046803885465927948"
+        },
+        {
+          "clicks": 104,
+          "date": "2026-01-22T18:51:23.687025+00:00",
+          "headline": "⚠️ Urgent Security Warning: Sophisticated Phishing Attack on Crypto Community",
+          "hot_score": 176.133449,
+          "lev_url": "https://leviathannews.xyz/23953/urgent-security-warning-sophisticated-phishing-attack-on-crypto-communitya-high-level-hacking-campaign-is-currently-targeting-bitcoin-and-crypto-users",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260122184653_3NuDnspR63w=.jpg",
+          "url": "https://x.com/kucharmartin_/status/2014268846094311739"
+        },
+        {
+          "clicks": 446,
+          "date": "2024-12-08T14:36:58.216715+00:00",
+          "headline": "Few hours ago a drainer stole $2.2M+ worth of meme coins from a Solana user.\nVictim was drained due to the WallStreetBets ATO on X/Twitter where a phishing site was posted.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8109/few-hours-ago-a-drainer-stole-22m-worth-of-meme-coins-from-a-solana-user-victim-was-drained-due-to-the-wallstreetbets-ato-on-xtwitter-where-a-phishing-site-was-posted",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241208142238_eFi2SobQPw==.jpg",
+          "url": "https://t.me/investigations/187"
+        },
+        {
+          "clicks": 331,
+          "date": "2025-01-16T10:50:08.905676+00:00",
+          "headline": "Telegram malware crypto scams surge 2,000%, outpacing traditional phishing attacks, reports Scam Sniffer.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8716/telegram-malware-crypto-scams-surge-2000-outpacing-traditional-phishing-attacks-reports-scam-sniffer",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250116104550_S2yKl-Ty69E=.jpg",
+          "url": "https://www.theblock.co/post/334954/telegram-malware-crypto-scams-rampant-over-traditional-phishing-scam-sniffer"
+        },
+        {
+          "clicks": 180,
+          "date": "2024-01-05T11:14:26.920009+00:00",
+          "headline": "CertiK's 𝕏 account apparently compromised, posting inaccurate news about a Uniswap hack tied to a malicious Revoke Cash phishing link.  Exercise caution!",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3698/certiks-x-account-apparently-compromised-posting-inaccurate-news-about-a-uniswap-hack-tied-to-a-malicious-revoke-cash-phishing-link-exercise-caution",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://twitter.com/RevokeCash/status/1743195962082775098"
+        },
+        {
+          "clicks": 148,
+          "date": "2024-11-18T08:59:04.905781+00:00",
+          "headline": "CZ’s Giggle Academy X account hacked, highlighting rising crypto phishing threats during bull run.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7724/czs-giggle-academy-x-account-hacked-highlighting-rising-crypto-phishing-threats-during-bull-run",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://cryptonews.com/news/czs-giggle-academy-suffers-x-breach-crypto-phishing-on-the-rise-during-bull-run/"
+        },
+        {
+          "clicks": 146,
+          "date": "2024-01-30T09:09:03.192758+00:00",
+          "headline": "SlowMist reports: Majority of comments on Tweets from prominent projects come from Phishing Scam account.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3871/slowmist-reports-majority-of-comments-on-tweets-from-prominent-projects-come-from-phishing-scam-account",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://slowmist.medium.com/spotting-the-difference-identifying-genuine-and-fake-twitter-accounts-14258ec0493a"
+        },
+        {
+          "clicks": 139,
+          "date": "2024-10-04T08:11:01.831401+00:00",
+          "headline": "In September, 10,000 victims lost $46M to crypto phishing scams, part of Q3 2024's $127M total, with two major cases accounting for $87M.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7242/in-september-10000-victims-lost-46m-to-crypto-phishing-scams-part-of-q3-2024s-127m-total-with-two-major-cases-accounting-for-87m",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241004081046_Yoo9vFs3Wg==.jpg",
+          "url": "https://x.com/realScamSniffer/status/1842114007286874199"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:07:55.743345+00:00",
+      "editorial": [
+        {
+          "count": 18,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "cryptonews.com"
+        },
+        {
+          "count": 2,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "thedefiant.io"
+        },
+        {
+          "count": 1,
+          "source": "slowmist.medium.com"
+        },
+        {
+          "count": 1,
+          "source": "presseportal.de"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        }
+      ],
+      "editorial_distinct": 11,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 34,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "coinbase.com"
+        },
+        {
+          "count": 5,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 4,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "binance.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
+        }
+      ],
+      "universe_distinct": 10
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "ba3c1069db1ef5bc67f63c43130d7dfd77460a3d35345b6836af275dd92ede97",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:21.583673+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.222,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0092,
+        "lift_log": 2.552,
+        "score": 0.2224,
+        "shared": 6
+      },
+      "rationale": "Phishing is a method used to execute exploits.",
+      "relation_type": "peer",
+      "slug": "exploit",
+      "source": "cotag",
+      "tag_name": "Exploit",
+      "title": "Exploit, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.271,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0221,
+        "lift_log": 3.461,
+        "score": 0.2706,
+        "shared": 14
+      },
+      "rationale": "Phishing is a type of scam.",
+      "relation_type": "peer",
+      "slug": "scam",
+      "source": "cotag",
+      "tag_name": "Scam",
+      "title": "Scam, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.319,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.039,
+        "lift_log": 4.358,
+        "score": 0.3187,
+        "shared": 5
+      },
+      "rationale": "Phishing often targets transactions to steal funds.",
+      "relation_type": "primitive",
+      "slug": "transaction",
+      "source": "cotag",
+      "tag_name": "Transaction",
+      "title": "Transaction, Explained",
+      "weight": 32
+    },
+    {
+      "confidence": 0.202,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0061,
+        "lift_log": 2.156,
+        "score": 0.2025,
+        "shared": 3
+      },
+      "rationale": "Phishing attacks often target wallets to steal assets.",
+      "relation_type": "infrastructure",
+      "slug": "wallet",
+      "source": "cotag",
+      "tag_name": "Wallet",
+      "title": "Wallet, Explained",
+      "weight": 20
+    }
+  ],
+  "schema_version": 1,
+  "slug": "phishing",
+  "tag_name": "Phishing",
+  "title": "Phishing, Explained"
+}

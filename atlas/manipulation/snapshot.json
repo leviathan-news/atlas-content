@@ -1,0 +1,605 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:13:44.704635+00:00",
+      "newsroom_total": 18,
+      "overall_share": 37,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 9
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 49,
+      "universe_total": 31
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:13:44.424749+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "manipulation",
+          "phrase": "Liquidity can be manipulated via wash trading or spoofing.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "manipulation",
+          "phrase": "Bitget may face manipulation risks like other exchanges.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "bitget",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "manipulation",
+          "phrase": "Manipulation is a form of fraud in financial markets.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fraud",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "manipulation",
+          "phrase": "media",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "media",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "manipulation",
+          "phrase": "pump",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "pump",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Manipulation",
+          "slug": "manipulation",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Liquidity",
+          "slug": "liquidity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Bitget",
+          "slug": "bitget",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Fraud",
+          "slug": "fraud",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Media",
+          "slug": "media",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "PUMP",
+          "slug": "pump",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:19:42.527345+00:00",
+      "events": [
+        {
+          "date": "2023-06",
+          "kind": "exploit",
+          "label": "Sturdy Finance loses 1,100 ETH to oracle price manipulation exploit",
+          "source": "https://thedefiant.io/news/hacks/venus-protocol-3-7m-supply-cap-exploit-6072ly"
+        },
+        {
+          "date": "2023-09",
+          "kind": "regulatory",
+          "label": "CFTC brings enforcement actions targeting manipulation and fraud in crypto derivatives",
+          "source": "https://www.cftc.gov/PressRoom/PressReleases/8822-23"
+        },
+        {
+          "date": "2023-10",
+          "kind": "regulatory",
+          "label": "DWF Labs alleged to have conducted coordinated spot manipulation on Binance",
+          "source": "https://www.dlnews.com/articles/markets/market-makers-short-tokens-but-one-firm-wants-transparency/"
+        },
+        {
+          "date": "2024-01",
+          "kind": "exploit",
+          "label": "SEC X account hijacked via SIM swap; false Bitcoin ETF approval tweet spikes BTC price over $1,000",
+          "source": "https://www.sec.gov/secgov-x-account"
+        },
+        {
+          "date": "2025-03",
+          "kind": "governance",
+          "label": "Hyperliquid force-delists JELLY token after coordinated manipulation of HLP vault exposes systemic risk",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "regulatory",
+          "label": "Bitget freezes accounts and announces rollbacks after VOXEL/USDT futures volume hits $12.7B amid manipulation allegations",
+          "source": "https://www.bitget.com/news/detail/12560605414809"
+        },
+        {
+          "date": "2025-04",
+          "kind": "regulatory",
+          "label": "SEC charges 9 fake market makers and promoters with coordinated crypto fraud",
+          "source": "https://www.sec.gov/about/divisions-offices/division-enforcement/cyber-crypto-assets-emerging-technology"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:19:42.527166+00:00",
+      "insight": "Readers most reliably click manipulation stories when there is a named institutional actor — a market maker, an exchange, a regulator — revealing that the real draw is accountability and power asymmetry, not the mechanics of the scheme itself.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.dlnews.com/articles/markets/market-makers-short-tokens-but-one-firm-wants-transparency/"
+    },
+    "reader_signal": {
+      "article_count": 18,
+      "as_of": "2026-07-01T12:13:45.129226+00:00",
+      "most_clicked": {
+        "clicks": 457,
+        "date": "2024-10-10T02:05:36.524571+00:00",
+        "headline": "Aiming to curtail market manipulation and misconduct, the SEC charges 9 phony market makers and crooked promoters with fraud and warns, \"Crypto market investors should be mindful that the deck may be stacked against them\"",
+        "lev_url": "https://leviathannews.xyz/7293/aiming-to-curtail-market-manipulation-and-misconduct-the-sec-charges-9-phony-market-makers-and-crooked-promoters-with-fraud-and-warns-crypto-market-investors-should-be-mindful-that"
+      },
+      "provenance": "data",
+      "top_decile_share": 18,
+      "total_clicks": 2513
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:19:42.527262+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.dlnews.com/articles/markets/market-makers-short-tokens-but-one-firm-wants-transparency/",
+          "thread": "market maker misconduct",
+          "why": "SEC charges against fake market makers, DWF Labs allegations on Binance, and Cobie's post on opaque loan-and-option deals collectively dominated clicks because readers sense market makers hold structural pricing power with almost no public accountability."
+        },
+        {
+          "source": "https://www.bitget.com/news/detail/12560605414809",
+          "thread": "exchange intervention as manipulation",
+          "why": "Bitget freezing accounts and planning rollbacks over VOXEL, and Hyperliquid force-delisting JELLY, forced readers to confront whether a centralized venue's 'protective' intervention is itself a form of manipulation against traders."
+        },
+        {
+          "source": "https://thedefiant.io/news/hacks/venus-protocol-3-7m-supply-cap-exploit-6072ly",
+          "thread": "DeFi oracle and price exploit vectors",
+          "why": "Sturdy Finance's 1,100 ETH loss and Venus Protocol's $3.7M supply-cap risk showed readers that price manipulation is the primary attack surface against DeFi lending protocols, not a purely trading-desk phenomenon."
+        },
+        {
+          "source": "",
+          "thread": "insider token rugging",
+          "why": "The YZY sniping video boast and Movement's market-maker agreement scandal resonated because they showed insiders openly flaunting manipulation with zero apparent fear of consequence."
+        },
+        {
+          "source": "",
+          "thread": "DAO and governance vote gaming",
+          "why": "Sushiswap's $40M treasury vote passing amid manipulation allegations and MakerDAO's yield-driven Dai surge raised the question of whether token-weighted governance is as gameable as a spot order book."
+        },
+        {
+          "source": "https://www.sec.gov/about/divisions-offices/division-enforcement/cyber-crypto-assets-emerging-technology",
+          "thread": "regulatory enforcement escalation",
+          "why": "The SEC fraud charges, CFTC actions, and an Alabama man's prison sentence for the SEC X-account SIM swap provided the accountability narrative that manipulation coverage rarely delivers — proof that consequences occasionally land."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:19:42.527273+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Market integrity",
+          "level": "High",
+          "note": "Wash trading, spoofing, and coordinated pump-and-dump schemes remain endemic across crypto spot and futures markets, with the SEC identifying a systemic pattern of fake market-making used to inflate token prices before retail exit.",
+          "source": "https://www.sec.gov/about/divisions-offices/division-enforcement/cyber-crypto-assets-emerging-technology"
+        },
+        {
+          "dimension": "Smart-contract / Oracle",
+          "level": "High",
+          "note": "Price oracle manipulation is a primary DeFi attack vector — artificially inflating collateral values to drain lending pools — as demonstrated concretely by Sturdy Finance's 1,100 ETH loss.",
+          "source": "https://thedefiant.io/news/hacks/venus-protocol-3-7m-supply-cap-exploit-6072ly"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "Opaque market-maker agreements structured as token loans with call options create incentives for market makers to short the very tokens they are contracted to support, quietly draining on-chain depth.",
+          "source": "https://www.dlnews.com/articles/markets/market-makers-short-tokens-but-one-firm-wants-transparency/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Centralized exchanges and hybrid DeFi venues can freeze accounts, force liquidations, or delist assets unilaterally, creating a second-order manipulation surface that disadvantages ordinary traders relative to insiders.",
+          "source": "https://www.bitget.com/news/detail/12560605414809"
+        },
+        {
+          "dimension": "Governance",
+          "level": "Medium",
+          "note": "Token-weighted DAO votes are vulnerable to last-minute whale accumulation and quorum gaming, enabling small coordinated groups to pass proposals controlling tens of millions in treasury funds.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "SEC and CFTC enforcement against market makers, promoters, and exchange operators is accelerating, but jurisdictional gaps and the pseudonymous nature of most on-chain activity leave the majority of manipulation in a deterrence gray zone.",
+          "source": "https://www.cftc.gov/PressRoom/PressReleases/8822-23"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:13:45.051826+00:00",
+      "items": [
+        {
+          "clicks": 51,
+          "date": "2025-12-06T02:38:33.302072+00:00",
+          "headline": "Uniswap emphasizes robust technical design and product-focused approach as other crypto projects repeatedly fail, blaming users for exploits, airdrop sniping, and oracle manipulation",
+          "hot_score": 74.110686,
+          "lev_url": "https://leviathannews.xyz/21752/uniswap-emphasizes-robust-technical-design-and-product-focused-approach-as-other-crypto-projects-repeatedly-fail-blaming-users-for-exploits-airdrop-sniping-and-oracle-manipulation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251206023519_84h3MNn74so=.jpg",
+          "url": "https://x.com/haydenzadams/status/1996967898368114916?t=WactaU_zotU76vRRwmQtjg&s=19"
+        },
+        {
+          "clicks": 457,
+          "date": "2024-10-10T02:05:36.524571+00:00",
+          "headline": "Aiming to curtail market manipulation and misconduct, the SEC charges 9 phony market makers and crooked promoters with fraud and warns, \"Crypto market investors should be mindful that the deck may be stacked against them\"",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7293/aiming-to-curtail-market-manipulation-and-misconduct-the-sec-charges-9-phony-market-makers-and-crooked-promoters-with-fraud-and-warns-crypto-market-investors-should-be-mindful-that",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.sec.gov/newsroom/press-releases/2024-166"
+        },
+        {
+          "clicks": 379,
+          "date": "2023-08-31T07:42:28.615602+00:00",
+          "headline": "MakerDAO community divided over high yields as Dai supply skyrockets 25%, sparking concerns over sustainability and potential manipulation",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2403/makerdao-community-divided-over-high-yields-as-dai-supply-skyrockets-25-sparking-concerns-over-sustainability-and-potential-manipulation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.dlnews.com/articles/defi/high-yields-split-makerdao-community-as-dai-supply-surges/"
+        },
+        {
+          "clicks": 348,
+          "date": "2025-04-20T16:46:24.552424+00:00",
+          "headline": "Bitget flags irregular VOXEL/USDT activity after volume soars to $12.7B, freezing accounts and planning rollbacks amid manipulation concerns.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10620/bitget-flags-irregular-voxelusdt-activity-after-volume-soars-to-127b-freezing-accounts-and-planning-rollbacks-amid-manipulation-concerns",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250420164259_8RmtPH4j7u4=.jpg",
+          "url": "https://www.bitgetapps.com/support/articles/12560603825918"
+        },
+        {
+          "clicks": 198,
+          "date": "2025-04-23T20:47:11.556362+00:00",
+          "headline": "LegalBlock’s Dr. Rasit Tavus warns crypto market makers could face charges as some liquidity tactics blur into price manipulation amid sharp token declines.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10731/legalblocks-dr-rasit-tavus-warns-crypto-market-makers-could-face-charges-as-some-liquidity-tactics-blur-into-price-manipulation-amid-sharp-token-declines",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250423204516_HkUqWlPJesk=.jpg",
+          "url": "https://www.dlnews.com/research/internal/why-crypto-market-makers-could-face-charges-over-price-manipulation-tactics/"
+        },
+        {
+          "clicks": 122,
+          "date": "2023-05-30T10:23:22.648769+00:00",
+          "headline": "Arbitrum DeFi project Ede Finance confesses to price manipulation after alleged white hat hack.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/1159/arbitrum-defi-project-ede-finance-confesses-to-price-manipulation-after-alleged-white-hat-hack",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.theblock.co/post/232506/ede-finance-made-ill-advised-decision-to-manipulate-prices-on-its-protocol"
+        },
+        {
+          "clicks": 118,
+          "date": "2025-03-26T17:19:05.282695+00:00",
+          "headline": "Bitget CEO Gracy: Hyperliquid may be on track to become FTX 2.0. The way it handled the JELLY incident was immature, unethical, and unprofessional, triggering user losses and casting serious doubts over its integrity. Hyperliquid operates more like an offshore CEX with no KYC/AML, enabling illicit flows and bad actors. Its product design reveals alarming flaws: mixed vaults that expose users to systemic risk, and unrestricted position sizes that open the door to manipulation.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10183/bitget-ceo-gracy-hyperliquid-may-be-on-track-to-become-ftx-20-the-way-it-handled-the-jelly-incident-was-immature-unethical-and-unprofessional-triggering-user-losses-and-casting-ser",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250326171755_6PEga6G3Y50=.jpg",
+          "url": "https://x.com/GracyBitget/status/1904941729834557453"
+        },
+        {
+          "clicks": 106,
+          "date": "2024-05-09T23:49:48.456416+00:00",
+          "headline": "DWF Labs is among the firms accused of engaging in market manipulation on the crypto exchange Binance last year.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5264/dwf-labs-is-among-the-firms-accused-of-engaging-in-market-manipulation-on-the-crypto-exchange-binance-last-year",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240509181957_bAFhj5tzgw==.jpg",
+          "url": "https://www.dlnews.com/articles/people-culture/dwf-denies-market-manipulation-wash-trading-on-binance"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:13:44.972405+00:00",
+      "editorial": [
+        {
+          "count": 7,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "sec.gov"
+        },
+        {
+          "count": 1,
+          "source": "bitgetapps.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "snapshot.org"
+        },
+        {
+          "count": 1,
+          "source": "justice.gov"
+        },
+        {
+          "count": 1,
+          "source": "ventureburn.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptonews.com"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 21,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "orochi.network"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        }
+      ],
+      "universe_distinct": 7
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "b2a0c1e1d7527fba733a0a602811d9a1434ce4dfa6535bd6d3824dd6df99a4c9",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:15.440891+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.215,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0278,
+        "lift_log": 4.389,
+        "score": 0.2148,
+        "shared": 4
+      },
+      "rationale": "Bitget may face manipulation risks like other exchanges.",
+      "relation_type": "peer",
+      "slug": "bitget",
+      "source": "cotag",
+      "tag_name": "Bitget",
+      "title": "Bitget, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.207,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0268,
+        "lift_log": 4.232,
+        "score": 0.2073,
+        "shared": 5
+      },
+      "rationale": "Manipulation is a form of fraud in financial markets.",
+      "relation_type": "category",
+      "slug": "fraud",
+      "source": "cotag",
+      "tag_name": "Fraud",
+      "title": "Fraud, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.257,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0116,
+        "lift_log": 3.288,
+        "score": 0.2571,
+        "shared": 4
+      },
+      "rationale": "Liquidity can be manipulated via wash trading or spoofing.",
+      "relation_type": "primitive",
+      "slug": "liquidity",
+      "source": "cotag",
+      "tag_name": "Liquidity",
+      "title": "Liquidity, Explained",
+      "weight": 26
+    }
+  ],
+  "schema_version": 1,
+  "slug": "manipulation",
+  "tag_name": "Manipulation",
+  "title": "Manipulation, Explained"
+}

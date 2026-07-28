@@ -1,0 +1,592 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:08:28.389638+00:00",
+      "newsroom_total": 20,
+      "overall_share": 19,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 2
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-03",
+          "newsroom": 6,
+          "universe": 53
+        },
+        {
+          "ed_share": 19,
+          "month": "2026-04",
+          "newsroom": 3,
+          "universe": 13
+        },
+        {
+          "ed_share": 27,
+          "month": "2026-05",
+          "newsroom": 3,
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 105,
+      "universe_total": 85
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:08:27.342149+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "resolv",
+          "phrase": "USR is the stablecoin issued by Resolv.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "usr",
+          "weight": 49
+        },
+        {
+          "dir": "out",
+          "from": "resolv",
+          "phrase": "Fluid is a competing stablecoin protocol.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fluid",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "resolv",
+          "phrase": "Bad debt is a key risk for stablecoin protocols.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "bad-debt",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "resolv",
+          "phrase": "Exploits are a security risk for Resolv.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "exploit",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "resolv",
+          "phrase": "Risk management is core to Resolv's design.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "risk-management",
+          "weight": 22
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Resolv",
+          "slug": "resolv",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "USR",
+          "slug": "usr",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 49
+        },
+        {
+          "center": false,
+          "name": "Fluid",
+          "slug": "fluid",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "Bad Debt",
+          "slug": "bad-debt",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Exploit",
+          "slug": "exploit",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Risk Management",
+          "slug": "risk-management",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T07:32:29.349387+00:00",
+      "events": [
+        {
+          "date": "2026-03",
+          "kind": "exploit",
+          "label": "March 22 exploit: compromised contractor GitHub credential exposes AWS signing key; 80M unbacked USR minted, $25M in losses",
+          "source": "https://resolv.xyz/blog/resolv-postmortem-march-22-2026-incident"
+        },
+        {
+          "date": "2026-03",
+          "kind": "governance",
+          "label": "Fluid automated ceilings trigger, USR markets paused; Fluid core team secures personal loans to cover 100% of bad debt",
+          "source": "https://cryptorank.io/news/feed/bae26-fluid-repays-resolv-hack-debt"
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Chainalysis publishes attribution trace linking exploit to compromised AWS key",
+          "source": "https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/"
+        },
+        {
+          "date": "2026-03",
+          "kind": "governance",
+          "label": "Resolv burns 57% of illicitly minted USR; Resolv postmortem published",
+          "source": "https://resolv.xyz/blog/resolv-postmortem-march-22-2026-incident"
+        },
+        {
+          "date": "2026-04",
+          "kind": "milestone",
+          "label": "Resolv publishes 2026 roadmap and three-month USR/RLP/LP recovery program; launches Vault Street with primeUSD institutional RWA product",
+          "source": "https://bingx.com/en/flash-news/post/resolv-sets-usr-recovery-after-march-exploit-and-launches-vault-street-rwa-line"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "RESOLV airdrop registration window opens; mandatory registration deadline May 16, genesis event deadline May 25",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "governance",
+          "label": "Resolv Foundation Q1 2026 report: $722K revenue, weekly fees under $10K, staking frontend still offline during recovery",
+          "source": "https://resolv.xyz/blog/resolv-foundation-q1-2026-report"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T07:32:29.349236+00:00",
+      "insight": "Readers clicked the Resolv exploit not for the hack mechanics but for the liability chain: who backstops unbacked stablecoins, which protocols absorb losses, and whether informal bailouts shift risk to uninvolved users — the Fluid internal credit line controversy drew nearly as much engagement as the exploit itself.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://defiprime.com/fluid-resolv-treasury-governance"
+    },
+    "reader_signal": {
+      "article_count": 20,
+      "as_of": "2026-07-01T12:08:31.307371+00:00",
+      "most_clicked": {
+        "clicks": 263,
+        "date": "2026-03-22T19:46:10.630603+00:00",
+        "headline": "Resolv exploit ripples through Morpho ecosystem, hitting Gauntlet, MEV Capital, and Steakhouse USDC vaults",
+        "lev_url": "https://leviathannews.xyz/213960/a-semi-comprehensive-list-of-every-vaultprotocol-hit-by-the-resolvlabs-exploit-morpho-vaults-gauntlet-usdc-core-gauntlet-usdc-frontier-resolv-usdc-9summits-usdc-extra"
+      },
+      "provenance": "data",
+      "top_decile_share": 27,
+      "total_clicks": 1586
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T07:32:29.349299+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.spglobal.com/ratings/en/regulatory/article/digital-assets-brief-defi-hacks-underscore-the-significance-of-operational-security-and-risk-management-s101686023",
+          "thread": "Morpho ecosystem contagion",
+          "why": "The single highest-clicked story was not the exploit itself but its downstream hit on Gauntlet, MEV Capital, and Steakhouse USDC vaults — readers track DeFi liability chains, not isolated incidents."
+        },
+        {
+          "source": "https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/",
+          "thread": "Compromised credential attribution",
+          "why": "Readers wanted to know how 80M unbacked USR got minted — Chainalysis tracing the breach to a contractor GitHub credential and then an AWS signing key gave the story a concrete, accountable villain."
+        },
+        {
+          "source": "https://defiprime.com/fluid-resolv-treasury-governance",
+          "thread": "Fluid bad debt backstop",
+          "why": "Whether the Fluid core team used a $8M DEX Lite credit line before a DAO vote — effectively shifting cleanup risk to USDC and USDT suppliers — became its own controversy distinct from the original hack."
+        },
+        {
+          "source": "",
+          "thread": "Token airdrop mechanics",
+          "why": "Multiple registration-deadline headlines (May 16 and May 25 cutoffs) generated consistent mid-tier clicks, showing a distinct reader cohort tracking eligibility windows around the RESOLV TGE."
+        },
+        {
+          "source": "https://resolv.xyz/blog/resolv-foundation-q1-2026-report",
+          "thread": "Post-exploit recovery roadmap",
+          "why": "Readers followed the structured three-month recovery program for USR, RLP, and LP holders alongside the Q1 revenue report, tracking whether Resolv could re-establish operational credibility."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T07:32:29.349309+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Operational / Key Management",
+          "level": "High",
+          "note": "The March 2026 exploit was not a smart-contract bug but a compromised contractor GitHub credential that exposed an AWS signing key, enabling unauthorized minting of 80M USR — a purely operational failure.",
+          "source": "https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "A single off-chain signing key controlled the ability to mint unbacked stablecoins, meaning no on-chain governance or multisig threshold prevented the $25M loss.",
+          "source": "https://resolv.xyz/blog/resolv-postmortem-march-22-2026-incident"
+        },
+        {
+          "dimension": "Liquidity / Contagion",
+          "level": "High",
+          "note": "USR depegged sharply post-exploit and exposure propagated through Morpho vaults (Gauntlet, MEV Capital, Steakhouse USDC), Fluid lending markets, and briefly threatened Aave liquidity providers.",
+          "source": "https://www.spglobal.com/ratings/en/regulatory/article/digital-assets-brief-defi-hacks-underscore-the-significance-of-operational-security-and-risk-management-s101686023"
+        },
+        {
+          "dimension": "Smart Contract",
+          "level": "Medium",
+          "note": "Fluid's automated borrowing ceilings triggered correctly and paused USR markets, limiting on-chain smart-contract damage — the vulnerability was off-chain credential management, not contract logic.",
+          "source": "https://defiprime.com/resolv-usr-exploit"
+        },
+        {
+          "dimension": "Governance / Treasury",
+          "level": "Medium",
+          "note": "The Fluid core team deployed an $8M DEX Lite credit line before a DAO vote to cover bad debt, raising questions about whether informal treasury actions bypass user-earmarked funds and governance norms.",
+          "source": "https://defiprime.com/fluid-resolv-treasury-governance"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "USR's 74% depeg reinforces regulatory scrutiny of algorithmic and partially-backed stablecoins; the incident surfaced in S&P Global coverage of DeFi operational-security risks at a time when US stablecoin legislation remains unresolved.",
+          "source": "https://www.spglobal.com/ratings/en/regulatory/article/digital-assets-brief-defi-hacks-underscore-the-significance-of-operational-security-and-risk-management-s101686023"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:08:31.189332+00:00",
+      "items": [
+        {
+          "clicks": 263,
+          "date": "2026-03-22T19:46:10.630603+00:00",
+          "headline": "Resolv exploit ripples through Morpho ecosystem, hitting Gauntlet, MEV Capital, and Steakhouse USDC vaults",
+          "hot_score": 1079.144272,
+          "lev_url": "https://leviathannews.xyz/213960/a-semi-comprehensive-list-of-every-vaultprotocol-hit-by-the-resolvlabs-exploit-morpho-vaults-gauntlet-usdc-core-gauntlet-usdc-frontier-resolv-usdc-9summits-usdc-extra",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260322194023_f5htx0NxxBPY.jpg",
+          "url": "https://x.com/wumpycrypto/status/2035787782455451908?s=46"
+        },
+        {
+          "clicks": 66,
+          "date": "2026-05-16T10:54:22.346997+00:00",
+          "headline": "Researcher finds fluid treasury covered Resolv bad debt using internal credit line, not funds earmarked for users",
+          "hot_score": 560.810694,
+          "lev_url": "https://leviathannews.xyz/243472/i-investigated-fluids-activity-in-cleaning-up-the-resolve-depeg-from-march-22-that-left-fluid-with-21m-in-bad-debt-i-found-that-8m-that-was-supposed-to-come-from-the-treasury-inste",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260516094525_3x52F7CGa259.jpg",
+          "url": "https://x.com/jpn_memelord/status/2055332354424467646"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-05-17T17:38:28.700099+00:00",
+          "headline": "Fluid uses $8M DEX Lite credit line before DAO vote, shifting Resolv cleanup risk to USDC and USDT suppliers",
+          "hot_score": 508.582512,
+          "lev_url": "https://leviathannews.xyz/243974/fluid-uses-8m-dex-lite-credit-line-before-dao-vote-shifting-resolv-cleanup-risk-to-usdc-and-usdt-suppliers",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260517162425_Z4zrlaiDPw==.png",
+          "url": "https://defiprime.com/fluid-resolv-treasury-governance"
+        },
+        {
+          "clicks": 72,
+          "date": "2026-03-24T09:00:30.520721+00:00",
+          "headline": "Chainalysis traces Resolv's $25M exploit to compromised AWS key that minted 80M unbacked USR",
+          "hot_score": 475.598173,
+          "lev_url": "https://leviathannews.xyz/214788/chainalysis-traces-resolvs-25m-exploit-to-compromised-aws-key-that-minted-80m-unbacked-usr",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260324011719_Z4zrlaiDPw==.png",
+          "url": "https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-05-26T19:07:36.692724+00:00",
+          "headline": "Resolv unveils a three‑month exploit recovery program for USR, RLP and LP users and launches Vault Street with its first leveraged institutional RWA product, primeUSD, while keeping RESOLV token utility and staking unchanged.",
+          "hot_score": 447.616239,
+          "lev_url": "https://leviathannews.xyz/248545/resolv-unveils-a-threemonth-exploit-recovery-program-for-usr-rlp-and-lp-users-and-launches-vault-street-with-its-first-leveraged-institutional-rwa-product-primeusd-while-keeping-re",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260526190553_45L1uUopTbTa.jpg",
+          "url": "https://x.com/resolvcore/status/2059298604595269830"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-04-24T15:51:19.635555+00:00",
+          "headline": "Resolv posts $722K Q1 revenue with weekly fees under $10K as post-exploit recovery keeps staking frontend offline",
+          "hot_score": 340.2,
+          "lev_url": "https://leviathannews.xyz/236204/resolv-posts-722k-q1-revenue-with-weekly-fees-under-10k-as-post-exploit-recovery-keeps-staking-frontend-offline",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260404204612_Z4zrlaiDPw==.png",
+          "url": "https://resolv.xyz/blog/resolv-foundation-q1-2026-report"
+        },
+        {
+          "clicks": 125,
+          "date": "2026-03-22T05:06:05.830865+00:00",
+          "headline": "Resolv has been exploited, exploiter minted 50M $USR with 100K $USDC",
+          "hot_score": 273.242271,
+          "lev_url": "https://leviathannews.xyz/213703/resolv-has-been-exploited-exploiter-minted-50m-usr-with-100k-usdc",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260322050546_Pi3ywQRukV6G.jpg",
+          "url": "https://x.com/3yield/status/2035549240747851883"
+        },
+        {
+          "clicks": 52,
+          "date": "2026-03-23T21:01:24.387639+00:00",
+          "headline": "Fluid core team personally secures loans to cover 100% of bad debt from Resolv USR exploit",
+          "hot_score": 184.39318,
+          "lev_url": "https://leviathannews.xyz/214659/fluid-core-team-personally-secures-loans-to-cover-100-of-bad-debt-from-resolv-usr-exploit",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260323205136_Z4zrlaiDPw==.png",
+          "url": "https://x.com/0xfluid/status/2036180670590947633"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:08:31.080036+00:00",
+      "editorial": [
+        {
+          "count": 12,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "resolv.xyz"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "chainalysis.com"
+        },
+        {
+          "count": 1,
+          "source": "defiprime.com"
+        }
+      ],
+      "editorial_distinct": 5,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 52,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "resolv.xyz"
+        },
+        {
+          "count": 3,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 2,
+          "source": "feed.bithumb.com"
+        },
+        {
+          "count": 2,
+          "source": "upbit.com"
+        },
+        {
+          "count": 1,
+          "source": "politico.com"
+        },
+        {
+          "count": 1,
+          "source": "ts3.bountycloud.io"
+        }
+      ],
+      "universe_distinct": 18
+    }
+  },
+  "official_links": [
+    {
+      "handle": "resolvlabs",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/resolvlabs"
+    }
+  ],
+  "pillar_state_sha256": "681717d7efe1ac6ac5f551d2951aed0352c2db6d0e789fd82bbc8026a561cc69",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:24.935040+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.255,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0579,
+        "lift_log": 4.95,
+        "score": 0.2546,
+        "shared": 5
+      },
+      "rationale": "Bad debt is a key risk for stablecoin protocols.",
+      "relation_type": "risk",
+      "slug": "bad-debt",
+      "source": "cotag",
+      "tag_name": "Bad Debt",
+      "title": "Bad Debt, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.238,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0156,
+        "lift_log": 2.812,
+        "score": 0.2379,
+        "shared": 9
+      },
+      "rationale": "Exploits are a security risk for Resolv.",
+      "relation_type": "risk",
+      "slug": "exploit",
+      "source": "cotag",
+      "tag_name": "Exploit",
+      "title": "Exploit, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.268,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.075,
+        "lift_log": 5.061,
+        "score": 0.2678,
+        "shared": 7
+      },
+      "rationale": "Fluid is a competing stablecoin protocol.",
+      "relation_type": "peer",
+      "slug": "fluid",
+      "source": "cotag",
+      "tag_name": "Fluid",
+      "title": "Fluid, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.224,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0342,
+        "lift_log": 4.53,
+        "score": 0.2242,
+        "shared": 3
+      },
+      "rationale": "Risk management is core to Resolv's design.",
+      "relation_type": "primitive",
+      "slug": "risk-management",
+      "source": "cotag",
+      "tag_name": "Risk Management",
+      "title": "Risk Management, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.486,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.3998,
+        "lift_log": 6.56,
+        "score": 0.4863,
+        "shared": 28
+      },
+      "rationale": "USR is the stablecoin issued by Resolv.",
+      "relation_type": "product",
+      "slug": "usr",
+      "source": "cotag",
+      "tag_name": "USR",
+      "title": "USR: Complete Guide",
+      "weight": 49
+    }
+  ],
+  "schema_version": 1,
+  "slug": "resolv",
+  "tag_name": "Resolv",
+  "title": "Resolv, Explained"
+}

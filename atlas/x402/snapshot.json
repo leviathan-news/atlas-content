@@ -1,0 +1,602 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:55:55.650933+00:00",
+      "newsroom_total": 45,
+      "overall_share": 30,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": 31,
+          "month": "2026-02",
+          "newsroom": 4,
+          "universe": 9
+        },
+        {
+          "ed_share": 18,
+          "month": "2026-03",
+          "newsroom": 7,
+          "universe": 33
+        },
+        {
+          "ed_share": 19,
+          "month": "2026-04",
+          "newsroom": 7,
+          "universe": 30
+        },
+        {
+          "ed_share": 22,
+          "month": "2026-05",
+          "newsroom": 5,
+          "universe": 18
+        },
+        {
+          "ed_share": 24,
+          "month": "2026-06",
+          "newsroom": 5,
+          "universe": 16
+        },
+        {
+          "ed_share": null,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 0
+        }
+      ],
+      "total_universe": 151,
+      "universe_total": 106
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:55:54.887277+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "x402",
+          "phrase": "x402 is a payment protocol for AI agents.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "payments",
+          "weight": 28
+        },
+        {
+          "dir": "out",
+          "from": "x402",
+          "phrase": "x402 enables payments for AI agent services.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ai-agents",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "x402",
+          "phrase": "x402 facilitates agent-to-agent payments.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "agents",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "x402",
+          "phrase": "x402 uses USDC for stablecoin payments.",
+          "relation_type": "token",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "usdc",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "x402",
+          "phrase": "x402 may integrate with MCP for agent communication.",
+          "relation_type": "protocol",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "mcp",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "x402",
+          "slug": "x402",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Payments",
+          "slug": "payments",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 28
+        },
+        {
+          "center": false,
+          "name": "AI Agents",
+          "slug": "ai-agents",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "USDC",
+          "slug": "usdc",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "MCP",
+          "slug": "mcp",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T03:21:18.804940+00:00",
+      "events": [
+        {
+          "date": "2025-04",
+          "kind": "launch",
+          "label": "Coinbase publishes x402 open-source protocol spec on Base",
+          "source": "https://www.coinbase.com/developer-platform/discover/launches/x402"
+        },
+        {
+          "date": "2025-07",
+          "kind": "launch",
+          "label": "x402 v2 launches, introducing 'extensions' for metadata transmission between parties",
+          "source": "https://www.x402.org/writing/x402-v2-launch"
+        },
+        {
+          "date": "2025-08",
+          "kind": "governance",
+          "label": "Coinbase, Cloudflare, and Stripe co-found x402 open-source foundation",
+          "source": "https://www.coinbase.com/developer-platform/discover/launches/x402"
+        },
+        {
+          "date": "2025-10",
+          "kind": "milestone",
+          "label": "Weekly x402 transactions surge 4,300% to 957K as AI agent integrations multiply",
+          "source": "https://www.kucoin.com/news/flash/agentic-payments-surpass-100m-transactions-on-base"
+        },
+        {
+          "date": "2026-01",
+          "kind": "milestone",
+          "label": "Agentic payments on Base surpass 100 million cumulative transactions",
+          "source": "https://www.kucoin.com/news/flash/agentic-payments-surpass-100m-transactions-on-base"
+        },
+        {
+          "date": "2026-04",
+          "kind": "launch",
+          "label": "Coinbase adds universal ERC-20 support via Permit2 and gas sponsorship extensions",
+          "source": "https://x.com/coinbase/article/2064435868153131329"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "x402 cumulative transactions reach 160 million; inventor Erik Reppel exits Coinbase Developer Platform",
+          "source": "https://www.kucoin.com/news/flash/coinbase-processes-1t-in-stablecoin-payments-annually-x402-hits-160m-transactions"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T03:21:18.804669+00:00",
+      "insight": "Readers click x402 not as a financial primitive but as an infrastructure commitment test — the top-clicked angles all reduce to 'who is building on this and will they stay committed': a product launch, a v2 upgrade, the inventor's exit, and a 4,300% transaction spike followed by a 99% crash each outperformed generic protocol explainers.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.coinbase.com/developer-platform/discover/launches/x402"
+    },
+    "reader_signal": {
+      "article_count": 48,
+      "as_of": "2026-07-01T11:55:58.224601+00:00",
+      "most_clicked": {
+        "clicks": 123,
+        "date": "2025-12-17T15:14:45.215830+00:00",
+        "headline": "Leviathan News launches first AI-native advertising network with SerenAI x402 on Base",
+        "lev_url": "https://leviathannews.xyz/22649/leviathan-news-launches-first-ai-native-advertising-network-with-serenai-x402-on-base"
+      },
+      "provenance": "data",
+      "top_decile_share": 18,
+      "total_clicks": 2569
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T03:21:18.804828+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.x402.org",
+          "thread": "Specific builder integrations",
+          "why": "Readers bypassed abstract protocol coverage and clicked concrete build stories — SerenAI, Pangea, Messari, MoltBrain — tracking which real products are paying per-API-call via x402 rather than reading the spec."
+        },
+        {
+          "source": "https://aws.amazon.com/blogs/industries/x402-and-agentic-commerce-redefining-autonomous-payments-in-financial-services/",
+          "thread": "AI agents as autonomous economic actors",
+          "why": "The Galaxy research framing of x402 as turning blockchains into invisible machine-to-machine payment rails — not consumer crypto — gave readers a macro thesis that recontextualised every builder story above it."
+        },
+        {
+          "source": "https://www.kucoin.com/news/flash/agentic-payments-surpass-100m-transactions-on-base",
+          "thread": "Transaction volume spike and crash",
+          "why": "A 4,300% weekly surge to 957K transactions followed by a 99% crater made readers actively track whether x402 adoption was organic demand or automated test noise."
+        },
+        {
+          "source": "https://www.coinbase.com/developer-platform/discover/launches/x402",
+          "thread": "Institutional foundation formation",
+          "why": "Coinbase, Cloudflare, and Stripe co-founding an open-source foundation reframed x402 as a contested open standard rather than a Coinbase proprietary feature, raising the competitive stakes."
+        },
+        {
+          "source": "",
+          "thread": "Erik Reppel inventor exit",
+          "why": "The departure of x402's inventor from Coinbase Developer Platform raised unresolved questions about protocol stewardship and whether corporate or community interests would shape the roadmap."
+        },
+        {
+          "source": "https://x.com/coinbase/article/2064435868153131329",
+          "thread": "Universal ERC-20 and gasless payment extensions",
+          "why": "Adding Permit2-based support for any ERC-20 token with gas sponsorship removed the USDC-only constraint that blocked most agent developer stacks from adopting x402."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T03:21:18.804845+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "x402 was invented at and remains primarily governed by Coinbase; the foundation structure with Cloudflare and Stripe is new and unproven as an independent governance body, and the exit of inventor Erik Reppel leaves a key stewardship gap.",
+          "source": "https://www.coinbase.com/developer-platform/discover/launches/x402"
+        },
+        {
+          "dimension": "Market adoption",
+          "level": "High",
+          "note": "Weekly transaction volume surged 4,300% to 957K then fell 99% from peak within weeks, indicating current usage is concentrated in a small number of automated pipelines rather than broad organic adoption.",
+          "source": "https://www.kucoin.com/news/flash/agentic-payments-surpass-100m-transactions-on-base"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "HTTP-layer stablecoin micropayments settled autonomously by AI agents with no user-facing friction may attract AML and money-transmission scrutiny as volumes scale, particularly given the ongoing Visa/Stripe debate over whether crypto rails are necessary at all.",
+          "source": "https://aws.amazon.com/blogs/industries/x402-and-agentic-commerce-redefining-autonomous-payments-in-financial-services/"
+        },
+        {
+          "dimension": "Ecosystem integrity",
+          "level": "Medium",
+          "note": "Unauthorized API wrappers reselling third-party services via x402 without provider consent have already emerged, creating legal liability and eroding trust among the institutional data providers x402 needs to sustain its supply side.",
+          "source": ""
+        },
+        {
+          "dimension": "Competitive displacement",
+          "level": "Medium",
+          "note": "Google UCP, Anthropic MCP, Visa agentic payments, and Stripe are building parallel agent commerce and payment layers that could reduce x402 to one option among many rather than the dominant open standard.",
+          "source": "https://aws.amazon.com/blogs/industries/x402-and-agentic-commerce-redefining-autonomous-payments-in-financial-services/"
+        },
+        {
+          "dimension": "Smart contract",
+          "level": "Low",
+          "note": "The protocol is HTTP-layer with on-chain settlement via Permit2 ERC-20 signatures; smart contract surface area is narrow compared to DeFi protocols, but Permit2 signature phishing remains a residual attack vector for agent wallets.",
+          "source": "https://www.openfort.io/blog/x402-how-it-works"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:55:58.035192+00:00",
+      "items": [
+        {
+          "clicks": 69,
+          "date": "2026-04-10T17:06:19.510737+00:00",
+          "headline": "Coinbase adds usage-based pricing to x402 for AI agents as weekly transactions crater 99% from peak",
+          "hot_score": 43128.41287,
+          "lev_url": "https://leviathannews.xyz/226200/coinbase-adds-usage-based-pricing-to-x402-for-ai-agents-as-weekly-transactions-crater-99-from-peak",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410165256_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/coinbase-x402-rolls-out-usage-based-pricing-agentic-ai"
+        },
+        {
+          "clicks": 20,
+          "date": "2026-07-01T08:58:15.702618+00:00",
+          "headline": "Base says AI agents are already spending millions via x402, paying for search, scraping, browser automation, and data services to complete tasks autonomously",
+          "hot_score": 4097.6624,
+          "lev_url": "https://leviathannews.xyz/266229/written-by-must_be_ash-youve-heard-the-slogans-the-agentic-economy-is-here-and-agents-are-becoming-the-internets-newest-paying-customers-they-sound-big-but-they-skip-the",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701085522_-7amVVgj-0Vq.jpg",
+          "url": "https://x.com/base/status/2072209466058064327"
+        },
+        {
+          "clicks": 16,
+          "date": "2026-07-01T01:24:46.405548+00:00",
+          "headline": "Exa AI launches on Solana, enabling agents to access web and content search using USDC payments via x402 without accounts, API keys, or subscriptions",
+          "hot_score": 3730.691058,
+          "lev_url": "https://leviathannews.xyz/265987/exaailabs-is-now-live-on-solana-exa-provides-web-and-content-search-without-the-need-for-an-account-api-key-or-subscription-just-pay-per-request-in-usdc-via-x402-this-is-ideal-for-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701002340_yuFf1LTw8U3d.jpg",
+          "url": "https://x.com/solana/status/2072021932405665961"
+        },
+        {
+          "clicks": 12,
+          "date": "2026-06-30T06:36:52.824926+00:00",
+          "headline": "Monad Foundation joins x402 Foundation to bring HTTP-native agent payments into DeFi",
+          "hot_score": 3097.642084,
+          "lev_url": "https://leviathannews.xyz/264978/monad-foundation-joins-x402-foundation-to-bring-http-native-agent-payments-into-defi",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629195042_Z4zrlaiDPw==.png",
+          "url": "https://blog.monad.xyz/blog/monad-foundation-joins-x402-foundation"
+        },
+        {
+          "clicks": 119,
+          "date": "2026-03-19T11:08:12.632571+00:00",
+          "headline": "Coinbase x402 protocol adds universal ERC-20 support, enabling gasless payments for any token across EVM chains using Permit2 and gas sponsorship extensions",
+          "hot_score": 726.54943,
+          "lev_url": "https://leviathannews.xyz/212232/coinbase-x402-protocol-adds-universal-erc-20-support-enabling-gasless-payments-for-any-token-across-evm-chains-using-permit2-and-gas-sponsorship-extensions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260319110137_eiEsy0CNhXCJ.jpg",
+          "url": "https://x.com/i/status/2034321807441097129"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-06-16T01:14:22.432339+00:00",
+          "headline": "Coinbase brings x402 agent payments to AWS CloudFront and WAF for a quarter of the web",
+          "hot_score": 721.731957,
+          "lev_url": "https://leviathannews.xyz/257392/coinbase-brings-x402-agent-payments-to-aws-cloudfront-and-waf-for-a-quarter-of-the-web",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260616004310_eT_J6WJ7zs9f.jpg",
+          "url": "https://www.coinbase.com/blog/coinbase-and-aws-let-publishers-accept-agents-as-customers-via-x402"
+        },
+        {
+          "clicks": 49,
+          "date": "2026-04-26T08:25:15.521315+00:00",
+          "headline": "x402 ecosystem faces scrutiny as unauthorized API wrappers resell services without provider consent, risking legal backlash and undermining trust in emerging agentic marketplaces",
+          "hot_score": 708.8,
+          "lev_url": "https://leviathannews.xyz/236518/x402-ecosystem-faces-scrutiny-as-unauthorized-api-wrappers-resell-services-without-provider-consent-risking-legal-backlash-and-undermining-trust-in-emerging-agentic-marketplaces",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260426080824_9DZfpGENSQU4.jpg",
+          "url": "https://x.com/i/status/2048049242787213330"
+        },
+        {
+          "clicks": 25,
+          "date": "2026-06-17T05:18:44.717528+00:00",
+          "headline": "HyperMove launches Bitcoin-backed payment SDK for AI agents, enabling API payments via BTC collateral, x402 rails and vault-secured signing without private keys",
+          "hot_score": 682.176151,
+          "lev_url": "https://leviathannews.xyz/258093/hypermoves-n-payment-sdk-lets-autonomous-agents-pay-for-apis-using-bitcoin-as-collateral-without-ever-touching-a-private-key-in-a-single-call-as-the-second-project-in-the-goa",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260617050029_eCvUkPPlQW2h.jpg",
+          "url": "https://x.com/goatnetwork/status/2066888792632377623"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:55:57.812552+00:00",
+      "editorial": [
+        {
+          "count": 24,
+          "source": "x.com"
+        },
+        {
+          "count": 7,
+          "source": "serendb.com"
+        },
+        {
+          "count": 2,
+          "source": "app.distro.media"
+        },
+        {
+          "count": 2,
+          "source": "coinbase.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptoslate.com"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "galaxy.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "binance.com"
+        },
+        {
+          "count": 1,
+          "source": "allunity.com"
+        }
+      ],
+      "editorial_distinct": 14,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 74,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "blog.skale.space"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "coinbase.com"
+        },
+        {
+          "count": 1,
+          "source": "aptosnetwork.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.sei.io"
+        },
+        {
+          "count": 1,
+          "source": "solana.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.chromia.com"
+        },
+        {
+          "count": 1,
+          "source": "algorand.co"
+        }
+      ],
+      "universe_distinct": 20
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "f7606389a2d632f4bddb43c5b0029b05d3ed6ed0667ddca82401b54d4a36fa0a",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:38.920588+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.238,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0277,
+        "lift_log": 2.655,
+        "score": 0.2376,
+        "shared": 16
+      },
+      "rationale": "x402 facilitates agent-to-agent payments.",
+      "relation_type": "ecosystem",
+      "slug": "agents",
+      "source": "cotag",
+      "tag_name": "agents",
+      "title": "agents, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.245,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0321,
+        "lift_log": 2.668,
+        "score": 0.2448,
+        "shared": 45
+      },
+      "rationale": "x402 enables payments for AI agent services.",
+      "relation_type": "ecosystem",
+      "slug": "ai-agents",
+      "source": "cotag",
+      "tag_name": "AI Agents",
+      "title": "AI Agents, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.28,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0532,
+        "lift_log": 3.172,
+        "score": 0.2802,
+        "shared": 59
+      },
+      "rationale": "x402 is a payment protocol for AI agents.",
+      "relation_type": "category",
+      "slug": "payments",
+      "source": "cotag",
+      "tag_name": "Payments",
+      "title": "Payments, Explained",
+      "weight": 28
+    },
+    {
+      "confidence": 0.213,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0187,
+        "lift_log": 2.095,
+        "score": 0.2129,
+        "shared": 48
+      },
+      "rationale": "x402 uses USDC for stablecoin payments.",
+      "relation_type": "token",
+      "slug": "usdc",
+      "source": "cotag",
+      "tag_name": "USDC",
+      "title": "USDC: Complete Guide",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "x402",
+  "tag_name": "x402",
+  "title": "x402, Explained"
+}

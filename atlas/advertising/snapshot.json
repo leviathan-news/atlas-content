@@ -1,0 +1,538 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:14:12.669970+00:00",
+      "newsroom_total": 13,
+      "overall_share": 42,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 2
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 7
+        }
+      ],
+      "total_universe": 31,
+      "universe_total": 18
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:14:12.233423+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "advertising",
+          "phrase": "WETH is used as a token for transactions in advertising platforms.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "weth",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "advertising",
+          "phrase": "Google is a major competitor in digital advertising.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "google",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "advertising",
+          "phrase": "Telegram is a platform where advertising can be integrated.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "telegram",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "advertising",
+          "phrase": "Polymarket is a prediction market, not directly related to advertising.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "polymarket",
+          "weight": 12
+        },
+        {
+          "dir": "out",
+          "from": "advertising",
+          "phrase": "agents",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "agents",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Advertising",
+          "slug": "advertising",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "WETH",
+          "slug": "weth",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Google",
+          "slug": "google",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Telegram",
+          "slug": "telegram",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "Polymarket",
+          "slug": "polymarket",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 12
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:01:01.868848+00:00",
+      "events": [
+        {
+          "date": "2024-01",
+          "kind": "regulatory",
+          "label": "Google updates policy to permit US crypto trust advertising ahead of spot Bitcoin ETF approval",
+          "source": ""
+        },
+        {
+          "date": "2024-01",
+          "kind": "regulatory",
+          "label": "Dogwifhat community $700K Las Vegas Sphere crypto ad attempt blocked by venue rules",
+          "source": "https://x.com/DecryptMedia/status/1965559634208415956"
+        },
+        {
+          "date": "2025-01",
+          "kind": "milestone",
+          "label": "Pudgy Penguins wraps Las Vegas Sphere by reframing activation as consumer merch, bypassing crypto ad ban",
+          "source": "https://x.com/DecryptMedia/status/1965559634208415956"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "BlackRock launches Bitcoin ETF advertising campaign on Bloomberg homepage",
+          "source": "https://www.bloomberg.com/news/videos/2026-06-16/blackrock-launches-new-bitcoin-income-etf-video"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "OpenAI launches cost-per-click ads inside ChatGPT, entering the digital advertising market",
+          "source": "https://digiday.com/marketing/openai-turns-on-cost-per-click-ads-inside-chatgpt/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Leviathan News and SerenAI launch first AI-native advertising network using x402 on Base",
+          "source": "https://serendb.com/blog"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "LG Electronics pilots onchain advertising network on Arbitrum",
+          "source": "https://x.com/arbitrum/status/2065518311723483403"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:01:01.868680+00:00",
+      "insight": "Leviathan readers engage with crypto advertising most when they are potential buyers of attention, not observers of it — the highest-clicked stories are all about acquiring ad slots or disrupting who controls them, revealing a readership that sees advertising as an investable market position, not a media category.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 17,
+      "as_of": "2026-07-01T12:14:13.165514+00:00",
+      "most_clicked": {
+        "clicks": 139,
+        "date": "2024-12-14T21:35:43.810470+00:00",
+        "headline": "A little over 70 hours to go - who will get to have the pinned posts on our Telegram and X available for advertising for a whole week?! Leviathan News",
+        "lev_url": "https://leviathannews.xyz/8310/a-little-over-70-hours-to-go-who-will-get-to-have-the-pinned-posts-on-our-telegram-and-x-available-for-advertising-for-a-whole-week-leviathan-news"
+      },
+      "provenance": "data",
+      "top_decile_share": 17,
+      "total_clicks": 807
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:01:01.868748+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "SQUID Pass pinned-post auctions",
+          "why": "Four separate auction-cycle headlines drew a combined ~320 clicks, revealing that Leviathan's own on-chain ad product is the single most compelling advertising story for this audience — readers track live bidding and treat pinned-post slots as a tradeable asset."
+        },
+        {
+          "source": "https://www.bloomberg.com/news/videos/2026-06-16/blackrock-launches-new-bitcoin-income-etf-video",
+          "thread": "BlackRock ETF ad campaign",
+          "why": "133 clicks for a single headline shows readers treat institutional ad spend on mainstream financial media (Bloomberg homepage) as a signal of Bitcoin legitimacy, not just a marketing note."
+        },
+        {
+          "source": "https://serendb.com/blog",
+          "thread": "AI-native ad infrastructure",
+          "why": "The SerenAI x402 launch drew 123 clicks because it combined three reader magnets at once: AI, Base L2, and a novel payment rail for advertising, positioning on-chain micropayments as the infrastructure layer replacing display-ad networks."
+        },
+        {
+          "source": "https://x.com/DecryptMedia/status/1965559634208415956",
+          "thread": "Crypto venue restriction bypass",
+          "why": "Pudgy Penguins routing around the Las Vegas Sphere's crypto ad ban by framing the activation as consumer products (toys, merch) rather than crypto drew 50 clicks — readers are interested in the regulatory arbitrage tactic, not the NFT brand itself."
+        },
+        {
+          "source": "https://digiday.com/marketing/openai-turns-on-cost-per-click-ads-inside-chatgpt/",
+          "thread": "OpenAI entering pay-per-click",
+          "why": "OpenAI's CPC ads inside ChatGPT pulled 31 clicks alongside a separate AI-agents-vs-Google angle (26 clicks), indicating readers see AI search as a live threat to the Google/Meta ad duopoly that matters to crypto projects dependent on those platforms."
+        },
+        {
+          "source": "",
+          "thread": "Regulatory crypto ad policy shifts",
+          "why": "Google's policy update permitting US crypto trust advertising drew 24 clicks specifically because it was timed to ETF approval — readers use ad-policy changes as a leading indicator of institutional access opening up."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:01:01.868762+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Platform-level crypto ad bans (venue rules, Google policy, Meta restrictions) remain the dominant constraint — Pudgy Penguins had to disguise a crypto activation as consumer merchandise to bypass the Las Vegas Sphere's outright ban.",
+          "source": "https://x.com/DecryptMedia/status/1965559634208415956"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Google and Meta control the majority of digital ad spend, and AI agents (OpenAI ChatGPT CPC, AI search) are disrupting that duopoly in ways that could sharply reduce crypto project distribution reach on legacy platforms before on-chain alternatives scale.",
+          "source": "https://digiday.com/marketing/openai-turns-on-cost-per-click-ads-inside-chatgpt/"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "QMMM Holdings surged ~1,750% on a digital assets treasury announcement with no advertising product change, illustrating how speculative crypto treasury narratives can detach ad-sector equity prices from underlying business fundamentals.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "Medium",
+          "note": "On-chain ad networks (x402 micropayments on Base, LG's Arbitrum pilot) introduce smart-contract risk into ad delivery infrastructure — a bug or oracle failure can silently misdirect payments or suppress impressions with no traditional dispute path.",
+          "source": "https://x.com/arbitrum/status/2065518311723483403"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "SQUID Pass auction slots are priced in WETH and crvUSD on Fraxtal mainnet; thin secondary liquidity in those assets means bid spreads can widen sharply between auction cycles, making effective floor prices volatile for advertisers budgeting in USD terms.",
+          "source": ""
+        },
+        {
+          "dimension": "Censorship / Platform",
+          "level": "High",
+          "note": "Dogwifhat's $700K community-led Las Vegas Sphere attempt was blocked outright by the venue's crypto advertising rules, demonstrating that even large, well-funded crypto ad campaigns face unilateral cancellation with no recourse once a venue or platform opts out.",
+          "source": "https://x.com/DecryptMedia/status/1965559634208415956"
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:14:13.086758+00:00",
+      "items": [
+        {
+          "clicks": 31,
+          "date": "2026-04-22T21:03:54.450092+00:00",
+          "headline": "OpenAI launches pay-per-click ads inside ChatGPT, entering digital advertising and challenging Google and Meta for ad spend in AI-driven search",
+          "hot_score": 737.6,
+          "lev_url": "https://leviathannews.xyz/235249/openai-launches-pay-per-click-ads-inside-chatgpt-entering-digital-advertising-and-challenging-google-and-meta-for-ad-spend-in-ai-driven-search",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422193634_oxkm4cUqir_3.webp",
+          "url": "https://crypto.news/openai-charges-advertisers-per-click/"
+        },
+        {
+          "clicks": 123,
+          "date": "2025-12-17T15:14:45.215830+00:00",
+          "headline": "Leviathan News launches first AI-native advertising network with SerenAI x402 on Base",
+          "hot_score": 128.126325,
+          "lev_url": "https://leviathannews.xyz/22649/leviathan-news-launches-first-ai-native-advertising-network-with-serenai-x402-on-base",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251217151314__8Jip2Tb2Oc=.jpg",
+          "url": "https://serendb.com/blog/the-first-ai-native-advertising-network-leviathan-news-launches-on-serenai-x402"
+        },
+        {
+          "clicks": 50,
+          "date": "2025-12-24T21:17:22.140406+00:00",
+          "headline": "Pudgy Penguins successfully wrapped the Las Vegas Sphere with its cartoon characters by positioning the activation around physical products—merch, toys, and animations—rather than crypto, allowing it to bypass the venue’s strict crypto advertising rules that previously blocked Dogwifhat’s $700K community-led attempt.",
+          "hot_score": 61.224153,
+          "lev_url": "https://leviathannews.xyz/22947/pudgy-penguins-successfully-wrapped-the-las-vegas-sphere-with-its-cartoon-characters-by-positioning-the-activation-around-physical-productsmerch-toys-and-animationsrather-than-cryp",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251224205236_D1lb4b3u7s4=.jpg",
+          "url": "https://decrypt.co/353166/how-pudgy-penguins-landed-las-vegas-sphere-dogwifhat-couldnt"
+        },
+        {
+          "clicks": 51,
+          "date": "2026-01-08T06:04:59.285997+00:00",
+          "headline": "The SQUID Pass auction for next week is live - who will get the best deal in DeFi advertising on the market, with our pinned posts on Telegram and X for the entire week?\n\nBid now on our app, much more conveniently than before, on Mainnet, with either WETH or crvUSD",
+          "hot_score": 46.937619,
+          "lev_url": "https://leviathannews.xyz/23324/the-squid-pass-auction-for-next-week-is-live-who-will-get-the-best-deal-in-defi-advertising-on-the-market-with-our-pinned-posts-on-telegram-and-x-for-next-weekbid-now-on-our-app-no",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260108051917_RGfJ2RjTr68=.jpg",
+          "url": "https://leviathannews.xyz/auctions/1/0xfF737F349e40418Abd9D7b3c865683f93cA3c890/10"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-01-30T01:14:44.189667+00:00",
+          "headline": "The SQUID Pass auction for next week is live - and for longer than usual, so you have the whole weekend basically to try and get the best deal in DeFi advertising!\n\nGet the pinned posts on our Leviathan News X and Telegram accounts for the entire week, to share your message with our savvy community, consisted of active DeFi users, with real funds onchain.\n\nBidding this week starts at 0.014 WETH, bid here now:",
+          "hot_score": 27.992891,
+          "lev_url": "https://leviathannews.xyz/24204/the-squid-pass-auction-for-next-week-is-live-and-for-longer-than-usual-so-you-have-the-whole-weekend-basically-to-try-and-get-the-best-deal-in-defi-advertisingget-the-pinned-posts-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260130010109_SWzeErxlngE=.png",
+          "url": "https://leviathannews.xyz/auctions/1/0xfF737F349e40418Abd9D7b3c865683f93cA3c890/14"
+        },
+        {
+          "clicks": 139,
+          "date": "2024-12-14T21:35:43.810470+00:00",
+          "headline": "A little over 70 hours to go - who will get to have the pinned posts on our Telegram and X available for advertising for a whole week?! Leviathan News",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8310/a-little-over-70-hours-to-go-who-will-get-to-have-the-pinned-posts-on-our-telegram-and-x-available-for-advertising-for-a-whole-week-leviathan-news",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241214213359_54IbgQh4bTw=.jpg",
+          "url": "https://opensea.io/assets/base/0x53ce0b909baaa830c6f8ba526c943f002078fc32/1"
+        },
+        {
+          "clicks": 133,
+          "date": "2024-04-11T23:12:45.168923+00:00",
+          "headline": "BlackRock launches Bitcoin ETF advertising campaign on Bloomberg's homepage.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4813/blackrock-launches-bitcoin-etf-advertising-campaign-on-bloombergs-homepage",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240411231131_sb0s1TVlMQ==.jpg",
+          "url": "https://twitter.com/WatcherGuru/status/1778471816073298316?t=7J6aFJlg5g8-BhJueLHwqw&s=19"
+        },
+        {
+          "clicks": 100,
+          "date": "2025-03-13T15:25:36.154831+00:00",
+          "headline": "Under 24 hours to go on our three open auction sponsored content slots - the best deal in DeFi advertising, and it's not even close. Get some $SQUID on Fraxtal and participate (or use wETH).\n\nNot one closer thing to free marketing in the industry right now",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9890/under-24-hours-to-go-on-our-three-open-auction-sponsored-content-slots-the-best-deal-in-defi-advertising-and-its-not-even-close-get-some-squid-on-fraxtal-and-participate-or-use-wet",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250313152130_XzP_9zwpgMY=.jpg",
+          "url": "https://auction.leviathannews.xyz/auctions/7"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:14:13.000675+00:00",
+      "editorial": [
+        {
+          "count": 3,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "leviathannews.xyz"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "support.google.com"
+        },
+        {
+          "count": 1,
+          "source": "opensea.io"
+        },
+        {
+          "count": 1,
+          "source": "auction.leviathannews.xyz"
+        },
+        {
+          "count": 1,
+          "source": "serendb.com"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        }
+      ],
+      "editorial_distinct": 9,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 8,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 3,
+          "source": "wsj.com"
+        },
+        {
+          "count": 2,
+          "source": "whitehouse.gov"
+        },
+        {
+          "count": 1,
+          "source": "gunzillagames.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.sui.io"
+        }
+      ],
+      "universe_distinct": 6
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "59929f7e3dcd8f48371a225dbe9e23d358de85deb5563d2efd385e021dda90d7",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:47.719109+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.223,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0061,
+        "lift_log": 2.613,
+        "score": 0.2233,
+        "shared": 3
+      },
+      "rationale": "Google is a major competitor in digital advertising.",
+      "relation_type": "peer",
+      "slug": "google",
+      "source": "cotag",
+      "tag_name": "Google",
+      "title": "Google, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.241,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0368,
+        "lift_log": 4.879,
+        "score": 0.2413,
+        "shared": 3
+      },
+      "rationale": "WETH is used as a token for transactions in advertising platforms.",
+      "relation_type": "infrastructure",
+      "slug": "weth",
+      "source": "cotag",
+      "tag_name": "WETH",
+      "title": "WETH: Complete Guide",
+      "weight": 24
+    }
+  ],
+  "schema_version": 1,
+  "slug": "advertising",
+  "tag_name": "Advertising",
+  "title": "Advertising, Explained"
+}

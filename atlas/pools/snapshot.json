@@ -1,0 +1,477 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:10:54.516320+00:00",
+      "newsroom_total": 12,
+      "overall_share": 11,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 32
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-04",
+          "newsroom": 6,
+          "universe": 24
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-05",
+          "newsroom": 3,
+          "universe": 22
+        },
+        {
+          "ed_share": 19,
+          "month": "2026-06",
+          "newsroom": 3,
+          "universe": 13
+        }
+      ],
+      "total_universe": 108,
+      "universe_total": 96
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:10:54.200141+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "pools",
+          "phrase": "Raydium is a DEX with liquidity pools, similar to Pools.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "raydium",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "pools",
+          "phrase": "frxUSD is a stablecoin used in liquidity pools.",
+          "relation_type": "token",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "frxusd",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "pools",
+          "phrase": "Liquidity is the core asset provided in pools.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "pools",
+          "phrase": "FX is a token associated with liquidity pools.",
+          "relation_type": "token",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "fx",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "pools",
+          "phrase": "Aerodrome is a DEX with liquidity pools, similar to Pools.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "aerodrome",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Pools",
+          "slug": "pools",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Raydium",
+          "slug": "raydium",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "frxUSD",
+          "slug": "frxusd",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Liquidity",
+          "slug": "liquidity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "FX",
+          "slug": "fx",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Aerodrome",
+          "slug": "aerodrome",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T08:39:18.579209+00:00",
+      "events": [
+        {
+          "date": "2021-05",
+          "kind": "launch",
+          "label": "Uniswap V3 introduces concentrated liquidity, allowing LPs to specify price ranges",
+          "source": "https://rareskills.io/post/uniswap-v3-concentrated-liquidity"
+        },
+        {
+          "date": "2022-03",
+          "kind": "launch",
+          "label": "Aave V3 launches with isolation mode to silo risk per asset pool",
+          "source": ""
+        },
+        {
+          "date": "2023-07",
+          "kind": "exploit",
+          "label": "Curve Finance reentrancy exploit drains $70M+ across multiple pools",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "launch",
+          "label": "Uniswap V4 deploys hooks framework enabling permissionless custom pool logic",
+          "source": "https://rareskills.io/post/uniswap-v3-concentrated-liquidity"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T08:39:18.579060+00:00",
+      "insight": "Readers click pool exploits not for the hack mechanics but for the contagion — when a single pool failure cascades to 100% utilization and zero liquidity in adjacent lending markets, the real story is which protocol absorbs the loss and who pays.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://keyrock.com/knowledge-hub/guide-liquidity-pool-management/"
+    },
+    "reader_signal": {
+      "article_count": 12,
+      "as_of": "2026-07-01T12:10:55.097118+00:00",
+      "most_clicked": {
+        "clicks": 85,
+        "date": "2026-05-08T14:30:28.271188+00:00",
+        "headline": "Aave V2 security breach highlights ongoing DeFi risks as $229k stolen from aUSDT and aSTETH pools",
+        "lev_url": "https://leviathannews.xyz/239844/security-alert-aave-v2-ausdt-asteth-positions-tied-chain-ethereum-loss-2290309713-usdt-realized-to-attacker-target-aave-v2-ausdtasteth-positions-attack-tx-funds-flow"
+      },
+      "provenance": "data",
+      "top_decile_share": 16,
+      "total_clicks": 545
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T08:39:18.579134+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://keyrock.com/knowledge-hub/guide-liquidity-pool-management/",
+          "thread": "pool exploit accountability",
+          "why": "Three separate pool exploits — Aave V2 ($229k), Rhea Finance ($18.4M via fake token manipulation), and Raydium's deprecated V3 pools ($1.34M) — drew the highest aggregate clicks because readers are tracking not just the breach but whether protocols reimburse, how losses are categorized, and what governance follows."
+        },
+        {
+          "source": "",
+          "thread": "ZK shielded pool privacy",
+          "why": "Both the Delphi Digital privacy-convergence thesis and the EIP-8182 shielded pool proposal attracted readers watching whether ZK-powered privacy is graduating from opt-in tooling to a default protocol-layer primitive."
+        },
+        {
+          "source": "",
+          "thread": "liquidity stress cascade",
+          "why": "The KelpDAO rsETH hack instantly pushing Kamino USDC lending pools to 100% utilization and zero available liquidity showed readers how quickly a targeted exploit in one protocol bleeds into the borrowing capacity of unrelated markets."
+        },
+        {
+          "source": "https://rareskills.io/post/uniswap-v3-concentrated-liquidity",
+          "thread": "permissionless pool deployment risk",
+          "why": "Uniswap hooks enabling pool creation without approvals — counterpointed by one hook spawning 100K pools and raising rug-pull fears — drew readers focused on whether removing gatekeepers transfers systemic risk onto end users."
+        },
+        {
+          "source": "",
+          "thread": "modular vs shared lending pools",
+          "why": "Morpho, Aave, and Euler competing to replace shared-pool credit markets with isolated-risk vaults attracted readers who understand that pool architecture determines who bears bad-debt contagion in a liquidation cascade."
+        },
+        {
+          "source": "https://x.com/fraxfinance/status/2066934532096262452",
+          "thread": "FX and stablecoin pool infrastructure",
+          "why": "Polygon, Frax, and Curve deploying six onchain FX liquidity pools with frxUSD as the base pair pulled in readers tracking whether DeFi pool infrastructure can credibly substitute for forex market depth."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T08:39:18.579147+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract",
+          "level": "High",
+          "note": "Three distinct pool exploit archetypes surfaced in the same news cycle: balance manipulation via fake tokens (Rhea Finance, $18.4M), stale code paths in deprecated contracts (Raydium V3, $1.34M), and access-control failure on live lending pools (Aave V2, $229k).",
+          "source": "https://keyrock.com/knowledge-hub/guide-liquidity-pool-management/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "The KelpDAO rsETH hack drove Kamino USDC pools to 100% utilization with zero withdrawable liquidity, demonstrating that cross-protocol liquidity stress can materialize in minutes when collateral assets depeg under forced unwinding.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Permissionless pool deployment via Uniswap V4 hooks removes the approval bottleneck but produced a scenario where a single hook created 100K pools simultaneously, concentrating spam and rug-pull risk in a system with no gatekeeping fallback.",
+          "source": "https://rareskills.io/post/uniswap-v3-concentrated-liquidity"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "EIP-8182's proposal to embed ZK shielded pools natively at the Ethereum protocol layer — combined with FHE-based wallet privacy — directly challenges AML/KYC compliance regimes that depend on address-level transaction traceability.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "LP migration campaigns by YieldBasis, Curve, and Aerodrome reveal that pool TVL depth is structurally contingent on rotating incentive programs, making baseline liquidity fragile the moment emission rewards shift to a competing pool.",
+          "source": "https://x.com/AerodromeFi/status/2061466559835779379"
+        }
+      ],
+      "sourced": 3,
+      "total": 5
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:10:55.019304+00:00",
+      "items": [
+        {
+          "clicks": 83,
+          "date": "2026-04-09T08:57:38.266453+00:00",
+          "headline": "Delphi Digital says crypto privacy is finally “coming together” as advances in zero-knowledge pools, FHE, and wallet integration reshape compliance and default user anonymity",
+          "hot_score": 13548.914893,
+          "lev_url": "https://leviathannews.xyz/224526/delphi-digital-says-crypto-privacy-is-finally-coming-together-as-advances-in-zero-knowledge-pools-fhe-and-wallet-integration-reshape-compliance-and-default-user-anonymity",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409051723_U85Swe3QK1Me.jpg",
+          "url": "https://x.com/i/status/2042054650770403530"
+        },
+        {
+          "clicks": 56,
+          "date": "2026-04-20T05:31:24.665773+00:00",
+          "headline": "DeFi outflows spill into Solana after KelpDAO rsETH hack, pushing Kamino USDC markets to extreme stress with 100% utilization and zero liquidity in key lending pools",
+          "hot_score": 1408.044233,
+          "lev_url": "https://leviathannews.xyz/233134/defi-outflows-spill-into-solana-after-kelpdao-rseth-hack-pushing-kamino-usdc-markets-to-extreme-stress-with-100-utilization-and-zero-liquidity-in-key-lending-pools",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420053041_O-IgxD6R4AX0.jpg",
+          "url": "https://x.com/i/status/2046074831645651452"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-04-17T22:44:22.524142+00:00",
+          "headline": "Rhea Finance exploit losses surge to $18.4M after post-mortem, as attackers manipulated liquidity pools using fake tokens",
+          "hot_score": 1164.140633,
+          "lev_url": "https://leviathannews.xyz/232023/rhea-finance-exploit-losses-surge-to-184m-after-post-mortem-as-attackers-manipulated-liquidity-pools-using-fake-tokens",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417215212_qkH5Czo7hZ_s.jpg",
+          "url": "https://www.theblock.co/post/397961/rhea-finance-post-mortem-exploit-losses-18-4-million-double-initial-estimates?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 26,
+          "date": "2026-06-17T10:02:03.412296+00:00",
+          "headline": "DeFi lending is shifting from shared pools to modular risk isolation as Morpho, Aave, and Euler battle to become the institutional backbone for onchain credit",
+          "hot_score": 676.683542,
+          "lev_url": "https://leviathannews.xyz/258185/written-by-fromadistance11-ryanyoon_eth-as-institutional-investors-enter-the-onchain-lending-market-defi-is-moving-away-from-single-shared-pool-architecture-toward-structures",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260617075245_H8iH7WBtTvL5.jpg",
+          "url": "https://x.com/tiger_research_/status/2067068857676972062"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-06-10T17:15:48.106359+00:00",
+          "headline": "Raydium reveals plan to reimburse users after an exploit drained roughly $1.34M from five inactive liquidity pools tied to its retired AMM V3 program, which has been phased out since 2021",
+          "hot_score": 669.517943,
+          "lev_url": "https://leviathannews.xyz/255393/no-headline-20260610-5",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260610171326_2Yzn3ouSaAhR.jpg",
+          "url": "https://www.theblock.co/post/404304/raydium-dex-1-34-million-exploit-retired-amm-program-treasury-cover-losses?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-05-15T13:20:56.315199+00:00",
+          "headline": "Crossover launches CROSSx Disclosed, giving institutions a new flagship to navigate 30+ OTC crypto makers, custom liquidity pools and top-tier fees from just 0.5 bps",
+          "hot_score": 557.4,
+          "lev_url": "https://leviathannews.xyz/242865/crossover-opens-disclosed-crossx-liquidity-pools-for-institutions-with-30-otc-makers-and-05-bps-top-tier-fees",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260515113607_bJ0zDCIJnC2G.jpg",
+          "url": "https://crossovermarkets.com/crossover-markets-launches-crossx-disclosed/"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-04-09T23:41:18.665843+00:00",
+          "headline": "Polygon, Frax, and Curve deploy six onchain FX liquidity pools with frxUSD as base dollar pair",
+          "hot_score": 482.662446,
+          "lev_url": "https://leviathannews.xyz/225397/polygon-frax-and-curve-deploy-six-onchain-fx-liquidity-pools-with-frxusd-as-base-dollar-pair",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409225842_Z4zrlaiDPw==.png",
+          "url": "https://x.com/0xPolygon/status/2042266173765787828"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-05-25T19:52:35.737499+00:00",
+          "headline": "YieldBasis launches new pools with most capacity reserved for LP migrations as Curve flags crvUSD upside",
+          "hot_score": 465.644691,
+          "lev_url": "https://leviathannews.xyz/248026/yieldbasis-launches-new-pools-with-most-capacity-reserved-for-lp-migrations-as-curve-flags-crvusd-upside",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260525195110_Z4zrlaiDPw==.png",
+          "url": "https://x.com/newmichwill/status/2058832343511572993"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:10:54.936569+00:00",
+      "editorial": [
+        {
+          "count": 8,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "crossovermarkets.com"
+        }
+      ],
+      "editorial_distinct": 4,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 87,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "coin98.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "treeofalpha.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "metamask.io"
+        }
+      ],
+      "universe_distinct": 8
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "822138603612adb912c6fb0c286bda58ff57c6c3ba7c3edd2ada5f583523c15e",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:22.401544+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.255,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0647,
+        "lift_log": 4.891,
+        "score": 0.2552,
+        "shared": 6
+      },
+      "rationale": "frxUSD is a stablecoin used in liquidity pools.",
+      "relation_type": "token",
+      "slug": "frxusd",
+      "source": "cotag",
+      "tag_name": "frxUSD",
+      "title": "frxUSD: Complete Guide",
+      "weight": 26
+    },
+    {
+      "confidence": 0.236,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0136,
+        "lift_log": 2.799,
+        "score": 0.2356,
+        "shared": 4
+      },
+      "rationale": "Liquidity is the core asset provided in pools.",
+      "relation_type": "primitive",
+      "slug": "liquidity",
+      "source": "cotag",
+      "tag_name": "Liquidity",
+      "title": "Liquidity, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.269,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0597,
+        "lift_log": 5.251,
+        "score": 0.2691,
+        "shared": 4
+      },
+      "rationale": "Raydium is a DEX with liquidity pools, similar to Pools.",
+      "relation_type": "peer",
+      "slug": "raydium",
+      "source": "cotag",
+      "tag_name": "Raydium",
+      "title": "Raydium, Explained",
+      "weight": 27
+    }
+  ],
+  "schema_version": 1,
+  "slug": "pools",
+  "tag_name": "Pools",
+  "title": "Pools, Explained"
+}

@@ -1,0 +1,566 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:58:24.839501+00:00",
+      "newsroom_total": 47,
+      "overall_share": 66,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 7,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 1
+        },
+        {
+          "ed_share": 67,
+          "month": "2026-03",
+          "newsroom": 2,
+          "universe": 1
+        },
+        {
+          "ed_share": 53,
+          "month": "2026-04",
+          "newsroom": 8,
+          "universe": 7
+        },
+        {
+          "ed_share": 38,
+          "month": "2026-05",
+          "newsroom": 5,
+          "universe": 8
+        },
+        {
+          "ed_share": 53,
+          "month": "2026-06",
+          "newsroom": 8,
+          "universe": 7
+        }
+      ],
+      "total_universe": 71,
+      "universe_total": 24
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:58:23.166661+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "stablecoin-rules",
+          "phrase": "GENIUS Act is a US legislative proposal for stablecoin regulation.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "genius",
+          "weight": 28
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-rules",
+          "phrase": "Stablecoin rules govern the broader category of stablecoins.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "stablecoins",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-rules",
+          "phrase": "ECB influences stablecoin regulation through policy statements.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "ecb",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-rules",
+          "phrase": "Regulated stablecoins are a subset under stablecoin rules.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "regulated-stablecoin",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-rules",
+          "phrase": "US Treasury shapes stablecoin rules via reports and guidance.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "us-treasury",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Stablecoin Rules",
+          "slug": "stablecoin-rules",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "GENIUS Act",
+          "slug": "genius",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 28
+        },
+        {
+          "center": false,
+          "name": "Stablecoins",
+          "slug": "stablecoins",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "ECB",
+          "slug": "ecb",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Regulated Stablecoin",
+          "slug": "regulated-stablecoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "US Treasury",
+          "slug": "us-treasury",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T04:15:03.444686+00:00",
+      "events": [
+        {
+          "date": "2022-06",
+          "kind": "regulatory",
+          "label": "NYDFS issues first U.S. stablecoin guidance requiring 1:1 reserve backing and monthly attestations",
+          "source": "https://www.dfs.ny.gov/industry_guidance/industry_letters/il20220608_issuance_stablecoins"
+        },
+        {
+          "date": "2024-06",
+          "kind": "regulatory",
+          "label": "MiCA stablecoin provisions take effect in EU, mandating zero-yield reserves and capping daily transaction volumes",
+          "source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica"
+        },
+        {
+          "date": "2025-02",
+          "kind": "regulatory",
+          "label": "GENIUS Act introduced in U.S. Senate, establishing a federal permissioned payment stablecoin framework",
+          "source": "https://bitcoinfoundation.org/news/regulation/genius-act-soften/"
+        },
+        {
+          "date": "2026-04",
+          "kind": "regulatory",
+          "label": "Treasury publishes GENIUS Act AML rule in Federal Register, classifying permitted payment stablecoin issuers as financial institutions under the Bank Secrecy Act",
+          "source": "https://www.federalregister.gov/documents/2026/04/10/2026-06963/permitted-payment-stablecoin-issuer-anti-money-launderingcountering-the-financing-of-terrorism"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Fed, FinCEN, and bank regulators jointly propose customer identification program rules for stablecoin issuers",
+          "source": "https://www.fincen.gov/news/news-releases/fincen-agencies-propose-rule-implement-genius-act-customer-identification"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "NYDFS issues updated guidance reinforcing reserve and redemption requirements for New York-regulated stablecoin issuers",
+          "source": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20260609"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "FDIC proposes GENIUS Act-aligned rules setting reserve, capital, and redemption standards specifically for bank stablecoin issuers",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T04:15:03.444306+00:00",
+      "insight": "Readers aren't following stablecoin regulation as a compliance checkbox story — the click pattern reveals they're tracking a structural fork: whether stablecoins get absorbed into the regulated banking system (yield prohibition, Fed access, GENIUS Act reserve rules) or remain a sovereign alternative (Type III immutability, MiCA rejection, Tether's defiance of EU rules).",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.fincen.gov/news/news-releases/treasury-seeks-public-comment-implementation-genius-act"
+    },
+    "reader_signal": {
+      "article_count": 47,
+      "as_of": "2026-07-01T11:58:26.191277+00:00",
+      "most_clicked": {
+        "clicks": 213,
+        "date": "2026-04-01T18:13:41.785066+00:00",
+        "headline": "U.S. Treasury proposes first GENIUS Act rule, seeking public input on allowing smaller stablecoin issuers to operate under state-level oversight frameworks",
+        "lev_url": "https://leviathannews.xyz/219512/us-treasury-proposes-first-genius-act-rule-seeking-public-input-on-allowing-smaller-stablecoin-issuers-to-operate-under-state-level-oversight-frameworks"
+      },
+      "provenance": "data",
+      "top_decile_share": 21,
+      "total_clicks": 2713
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T04:15:03.444572+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.fincen.gov/news/news-releases/treasury-seeks-public-comment-implementation-genius-act",
+          "thread": "GENIUS Act architecture fight",
+          "why": "The top-clicked headline — Treasury's first GENIUS Act rule seeking public input on state-level issuer oversight — signals readers are closely watching how the U.S. federal-vs-state framework gets wired, knowing it sets the global template."
+        },
+        {
+          "source": "",
+          "thread": "Yield prohibition vs. banking parity",
+          "why": "JPMorgan's Dimon and the Senate yield-compromise headlines drew heavy clicks because they expose the core tension: if stablecoins can't pay yield, they lose a key competitive edge; if they can, banks argue it creates an unregulated parallel system."
+        },
+        {
+          "source": "",
+          "thread": "Type III autonomous governance",
+          "why": "Cap Labs' 'Type III' concept pulled 129 clicks — second overall — because it represents the ideological pole opposite to every regulatory framework in the list: stablecoins governed by immutable code with no human override."
+        },
+        {
+          "source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
+          "thread": "MiCA competitiveness trap",
+          "why": "Tether's MiCA defiance, the ECB's refusal to loosen rules, and the report showing euro stablecoins at under 1% global market share collectively show readers tracking whether strict EU rules protect or simply sideline European issuers."
+        },
+        {
+          "source": "https://www.fincen.gov/news/news-releases/fincen-agencies-propose-rule-implement-genius-act-customer-identification",
+          "thread": "Travel Rule and AML enforcement",
+          "why": "WalletConnect's compliance framework and the Fed/FinCEN customer-ID proposal attracted clicks because they represent the operational reality of compliance — issuers must now embed identity verification directly into payment flows."
+        },
+        {
+          "source": "",
+          "thread": "Global regulatory race fragmentation",
+          "why": "Dubai, South Korea, Hong Kong, Canada, and the UK each appeared in clicked headlines, showing readers tracking whether national frameworks converge or splinter — and which jurisdiction wins issuer domicile by being fastest or most permissive."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T04:15:03.444590+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "No single global standard exists: the U.S. GENIUS Act is still being rule-written, MiCA enforces strict zero-yield reserve rules in the EU, and Dubai, Hong Kong, South Korea, and the UK are each building separate frameworks, creating genuine fragmentation risk for cross-border issuers.",
+          "source": "https://www.federalregister.gov/documents/2026/04/10/2026-06963/permitted-payment-stablecoin-issuer-anti-money-launderingcountering-the-financing-of-terrorism"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Tether's dominant market position and its explicit rejection of MiCA compliance concentrates systemic exposure in a single issuer operating outside the EU regulatory perimeter, while bank-issued stablecoins (JPMorgan, BofA trajectory) would shift concentration to regulated incumbents.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Canada's T-bill backing requirement, the FDIC's proposed reserve and redemption standards, and the Basel Committee's contested risk-weighting debate all center on whether reserve assets are liquid enough to support par redemption under stress without triggering fire-sale dynamics.",
+          "source": "https://www.bankofengland.co.uk/paper/2025/cp/proposed-regulatory-regime-for-sterling-denominated-systemic-stablecoins"
+        },
+        {
+          "dimension": "Smart-contract / Protocol",
+          "level": "Medium",
+          "note": "The emergence of Type III 'autonomously enforced' stablecoin designs introduces a new category of protocol risk: immutable rule sets offer censorship resistance but eliminate the human override needed to respond to bugs, oracle failures, or black-swan market events.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "MiCA's zero-yield requirement has confined euro stablecoins to under 1% of global supply, and a similar yield prohibition in the U.S. GENIUS Act — actively contested by Coinbase — could suppress adoption of compliant dollar stablecoins in favor of offshore alternatives.",
+          "source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica"
+        },
+        {
+          "dimension": "AML / Illicit Finance",
+          "level": "Medium",
+          "note": "The GENIUS Act's AML rule proposed in April 2026 and the subsequent Fed/FinCEN customer-ID rule both treat stablecoin issuers as financial institutions subject to Bank Secrecy Act obligations, raising compliance costs and creating potential transaction-blocking liability for issuers that lack real-time sanctions screening.",
+          "source": "https://www.fincen.gov/news/news-releases/fincen-agencies-propose-rule-implement-genius-act-customer-identification"
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:58:26.086139+00:00",
+      "items": [
+        {
+          "clicks": 42,
+          "date": "2026-04-07T19:23:32.226479+00:00",
+          "headline": "FDIC proposes GENIUS Act rules setting reserve, capital, and redemption standards for bank stablecoin issuers",
+          "hot_score": 5608.017093,
+          "lev_url": "https://leviathannews.xyz/222916/fdic-proposes-genius-act-rules-setting-reserve-capital-and-redemption-standards-for-bank-stablecoin-issuers",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407192310_Z4zrlaiDPw==.png",
+          "url": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-04-14T07:06:35.672450+00:00",
+          "headline": "Revised PARITY Act brings crypto wash sale rules, stablecoin safe harbor, and staking tax deferral",
+          "hot_score": 4618.22123,
+          "lev_url": "https://leviathannews.xyz/228274/revised-parity-act-brings-crypto-wash-sale-rules-stablecoin-safe-harbor-and-staking-tax-deferral",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260414030156_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/policy/2026/04/13/u-s-lawmakers-take-another-swing-at-crypto-tax-policy-with-revised-bill"
+        },
+        {
+          "clicks": 13,
+          "date": "2026-06-30T06:51:37.585894+00:00",
+          "headline": "The UK finalizes a sweeping crypto framework covering capital requirements, market abuse rules, and stablecoin standards ahead of a 2027 licensing regime",
+          "hot_score": 3104.642593,
+          "lev_url": "https://leviathannews.xyz/265227/uk-sets-capital-market-abuse-rules-in-landmark-crypto-framework-20260630-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630064047_UALyxrCKCPRz.jpg",
+          "url": "https://www.theblock.co/post/406546/uk-sets-capital-market-abuse-rules-landmark-crypto-framework?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-06-01T08:45:55.116742+00:00",
+          "headline": "Citrea aims to unlock institutional Bitcoin utility with a zk-rollup that enables lending, stablecoins and DeFi without altering Bitcoin's consensus rules",
+          "hot_score": 1008.177859,
+          "lev_url": "https://leviathannews.xyz/251093/written-by-c4lvin-key-takeaways-bitcoin-is-the-largest-cryptocurrency-and-the-most-thoroughly-tested-asset-yet-it-is-also-the-least-utilized-the-arrival-of-spot-etfs-has-opened",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260601082418_AolWDcXj-_sG.jpg",
+          "url": "https://x.com/fourpillarsfp/status/2061266106548121960"
+        },
+        {
+          "clicks": 54,
+          "date": "2026-04-08T17:37:27.082723+00:00",
+          "headline": "Treasury proposes GENIUS Act rules requiring stablecoin firms to block illicit transactions",
+          "hot_score": 930.35905,
+          "lev_url": "https://leviathannews.xyz/223947/treasury-proposes-genius-act-rules-requiring-stablecoin-firms-to-block-illicit-transactions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408160652_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/policy/2026/04/08/u-s-treasury-to-propose-demands-that-stablecoin-firms-be-set-to-police-bad-transactions"
+        },
+        {
+          "clicks": 213,
+          "date": "2026-04-01T18:13:41.785066+00:00",
+          "headline": "U.S. Treasury proposes first GENIUS Act rule, seeking public input on allowing smaller stablecoin issuers to operate under state-level oversight frameworks",
+          "hot_score": 922.530085,
+          "lev_url": "https://leviathannews.xyz/219512/us-treasury-proposes-first-genius-act-rule-seeking-public-input-on-allowing-smaller-stablecoin-issuers-to-operate-under-state-level-oversight-frameworks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401175203_jnZU4DOvp27J.jpg",
+          "url": "https://www.theblock.co/post/396093/treasury-genius-act-rule-proposal-seeks-comment-oversight-smaller-issuers?utm_source=twitter&utm_medium=social"
+        },
+        {
+          "clicks": 112,
+          "date": "2026-05-21T07:21:56.837921+00:00",
+          "headline": "WalletConnect unveils compliance framework combining Travel Rule data collection and wallet ownership verification inside stablecoin payment flows",
+          "hot_score": 841.314788,
+          "lev_url": "https://leviathannews.xyz/246203/the-travel-rule-requires-financial-institutions-to-exchange-information-about-their-respective-customers-on-either-side-of-a-funds-wire-transfer-the-travel-rule-is-adopted-across",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260521071118_O0CHFjQc9hNq.jpg",
+          "url": "https://x.com/i/web/status/2057124525364445248"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-06-05T09:52:43.265666+00:00",
+          "headline": "a16z urges Treasury to keep state stablecoin rules aligned with the GENIUS Act, warning fragmented regulations could undermine fungibility, competition and nationwide adoption",
+          "hot_score": 718.181824,
+          "lev_url": "https://leviathannews.xyz/253214/a16z-crypto-policy-regulatory-teams-the-genius-act-guiding-and-establishing-national-innovation-for-us-stablecoins-act-was-the-first-major-piece-of-crypto-legislation-in-the",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260605095053_Mi2osWESsK8X.jpg",
+          "url": "https://x.com/a16zcrypto/status/2062271456210559291"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:58:25.903347+00:00",
+      "editorial": [
+        {
+          "count": 9,
+          "source": "x.com"
+        },
+        {
+          "count": 6,
+          "source": "theblock.co"
+        },
+        {
+          "count": 6,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "cryptonews.com"
+        },
+        {
+          "count": 2,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 1,
+          "source": "review.stanfordblockchain.xyz"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "ft.com"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "cryptopotato.com"
+        }
+      ],
+      "editorial_distinct": 25,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 12,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "news.bloomberglaw.com"
+        }
+      ],
+      "universe_distinct": 7
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "87a26beccfed2c33498706ad1b4df40c27d09965b0346c8c95b37403e5716d9c",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:30.404436+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.282,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.123,
+        "lift_log": 4.853,
+        "score": 0.2823,
+        "shared": 21
+      },
+      "rationale": "GENIUS Act is a US legislative proposal for stablecoin regulation.",
+      "relation_type": "event",
+      "slug": "genius",
+      "source": "cotag",
+      "tag_name": "GENIUS Act",
+      "title": "GENIUS Act, Explained",
+      "weight": 28
+    },
+    {
+      "confidence": 0.275,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0398,
+        "lift_log": 3.055,
+        "score": 0.2745,
+        "shared": 88
+      },
+      "rationale": "Stablecoin rules govern the broader category of stablecoins.",
+      "relation_type": "category",
+      "slug": "stablecoins",
+      "source": "cotag",
+      "tag_name": "Stablecoins",
+      "title": "Stablecoins, Explained",
+      "weight": 27
+    }
+  ],
+  "schema_version": 1,
+  "slug": "stablecoin-rules",
+  "tag_name": "Stablecoin Rules",
+  "title": "Stablecoin Rules, Explained"
+}

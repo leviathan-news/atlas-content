@@ -1,0 +1,555 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:11:35.562513+00:00",
+      "newsroom_total": 20,
+      "overall_share": 37,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 67,
+          "month": "2026-02",
+          "newsroom": 2,
+          "universe": 1
+        },
+        {
+          "ed_share": 13,
+          "month": "2026-03",
+          "newsroom": 2,
+          "universe": 13
+        },
+        {
+          "ed_share": 46,
+          "month": "2026-04",
+          "newsroom": 6,
+          "universe": 7
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 8
+        }
+      ],
+      "total_universe": 54,
+      "universe_total": 34
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:11:34.971900+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "xai",
+          "phrase": "Grok is the AI chatbot product built by xAI.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "grok",
+          "weight": 39
+        },
+        {
+          "dir": "out",
+          "from": "xai",
+          "phrase": "Elon Musk is the founder of xAI.",
+          "relation_type": "founder",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "elon-musk",
+          "weight": 35
+        },
+        {
+          "dir": "out",
+          "from": "xai",
+          "phrase": "SpaceX is a company owned by Elon Musk, related via founder.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "spacex",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "xai",
+          "phrase": "Tesla is a company owned by Elon Musk, related via founder.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "tesla",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "xai",
+          "phrase": "OpenAI is a direct competitor in AI research and products.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "openai",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "xAI",
+          "slug": "xai",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Grok",
+          "slug": "grok",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 39
+        },
+        {
+          "center": false,
+          "name": "Elon Musk",
+          "slug": "elon-musk",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 35
+        },
+        {
+          "center": false,
+          "name": "SpaceX",
+          "slug": "spacex",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Tesla",
+          "slug": "tesla",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "OpenAI",
+          "slug": "openai",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T08:56:35.790329+00:00",
+      "events": [
+        {
+          "date": "2023-07",
+          "kind": "launch",
+          "label": "xAI incorporated by Elon Musk",
+          "source": "https://en.wikipedia.org/wiki/XAI_(company)"
+        },
+        {
+          "date": "2024-05",
+          "kind": "milestone",
+          "label": "xAI closes $6B Series B (a16z, Sequoia)",
+          "source": "https://x.ai/news/series-b"
+        },
+        {
+          "date": "2024-08",
+          "kind": "milestone",
+          "label": "XAI token unlock in $900M+ multi-asset cohort",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "launch",
+          "label": "Grok 3 launched; open-source commitment for Grok 2.5",
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "date": "2025-09",
+          "kind": "milestone",
+          "label": "Colossus supercomputer cluster operational in Memphis",
+          "source": "https://x.ai/colossus"
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Terafab announced: xAI, SpaceX, Tesla, Intel alliance",
+          "source": "https://semiwiki.com/forum/threads/intel-is-proud-to-join-the-terafab-project-with-spacex-xai-and-tesla-to-help-refactor-silicon-fab-technology.24892/"
+        },
+        {
+          "date": "2026-04",
+          "kind": "regulatory",
+          "label": "EU DSA condemnation; California AG cease-and-desist over Grok deepfakes",
+          "source": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-sends-cease-and-desist-letter-xai-demands-it-halt-illegal"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Grok 4 livestream launch; SpaceX files confidential IPO",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T08:56:35.790171+00:00",
+      "insight": "Readers click xAI as a collision object — where Elon Musk's AI company crashes into crypto token markets (XAI unlock pressure), child-safety law, national security clearance, and trademark disputes with an Ethereum gaming token — revealing that the audience treats xAI primarily as a systemic disruption vector, not an AI-capability story.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://en.wikipedia.org/wiki/XAI_(company)"
+    },
+    "reader_signal": {
+      "article_count": 20,
+      "as_of": "2026-07-01T12:11:36.164404+00:00",
+      "most_clicked": {
+        "clicks": 102,
+        "date": "2024-07-31T15:53:54.735616+00:00",
+        "headline": "According to TokenUnlocks, the major August unlockings, exceeding $900 million, include DYDX, SUI, ZETA, GAL, W, IMX, XAI, APT, SAND, STARK, ARB, APE, ROSE, PIXEL, AVAX, and OP.",
+        "lev_url": "https://leviathannews.xyz/6474/according-to-tokenunlocks-the-major-august-unlockings-exceeding-900-million-include-dydx-sui-zeta-gal-w-imx-xai-apt-sand-stark-arb-ape-rose-pixel-avax-and-op"
+      },
+      "provenance": "data",
+      "top_decile_share": 18,
+      "total_clicks": 1082
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T08:56:35.790236+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "XAI token unlock pressure",
+          "why": "The top-clicked headline placed XAI alongside DYDX, SUI, and ARB in a $900M+ August unlock cohort, making xAI instantly legible as a sell-side event for crypto holders."
+        },
+        {
+          "source": "https://semiwiki.com/forum/threads/intel-is-proud-to-join-the-terafab-project-with-spacex-xai-and-tesla-to-help-refactor-silicon-fab-technology.24892/",
+          "thread": "Terafab compute empire",
+          "why": "Two separate Terafab headlines totaling 160 clicks showed readers tracking whether the xAI–SpaceX–Tesla–Intel alliance rewrites the silicon supply chain, not just builds data centers."
+        },
+        {
+          "source": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-sends-cease-and-desist-letter-xai-demands-it-halt-illegal",
+          "thread": "Grok deepfake legal siege",
+          "why": "CSAM class actions, EU DSA condemnation, California AG cease-and-desist, and Colorado anti-discrimination suit collectively drew 190+ clicks, framing Grok as a regulatory flashpoint rather than a product."
+        },
+        {
+          "source": "",
+          "thread": "Pentagon-Grok classified clearance",
+          "why": "The contradiction — U.S. agencies publicly warning about Grok safety while the Pentagon simultaneously approved it for classified networks — generated dual-headline curiosity about dual-use risk."
+        },
+        {
+          "source": "https://x.ai/news/series-b",
+          "thread": "Series B valuation race",
+          "why": "The $6B raise backed by a16z and Sequoia, paired with a retail-access AngelList fund, signaled xAI entering the same investment narrative as OpenAI and Anthropic."
+        },
+        {
+          "source": "",
+          "thread": "XAI vs. xAI trademark clash",
+          "why": "The Ethereum gaming network Xai suing Elon Musk's xAI drew 71 clicks from a crypto audience keenly aware that brand confusion directly affects token value and protocol identity."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T08:56:35.790244+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "xAI faces simultaneous enforcement actions from the EU under the Digital Services Act, California AG cease-and-desist orders, a federal DOJ intervention in the Colorado AI anti-discrimination lawsuit, and multiple state-level class actions over Grok-generated CSAM.",
+          "source": "https://www.justice.gov/opa/pr/justice-department-intervenes-xai-lawsuit-challenging-colorados-algorithmic-discrimination"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "A single founder controls xAI, SpaceX, Tesla, and the Terafab venture simultaneously, concentrating compute procurement, capital allocation, and AI model governance in one individual with no independent board check.",
+          "source": "https://en.wikipedia.org/wiki/XAI_(company)"
+        },
+        {
+          "dimension": "Market / Token Liquidity",
+          "level": "High",
+          "note": "The XAI gaming token — distinct from Elon's xAI but entangled by name — faced a $900M+ unlock cohort alongside DYDX, SUI, and ARB in August, creating correlated sell pressure in an already crowded unlock calendar.",
+          "source": ""
+        },
+        {
+          "dimension": "Financial / Burn Rate",
+          "level": "Medium",
+          "note": "xAI's infrastructure costs were reported to have flipped SpaceX's $8B profit to nearly a $5B loss ahead of a potential SpaceX IPO, raising questions about cross-entity subsidy and capital sustainability.",
+          "source": ""
+        },
+        {
+          "dimension": "Reputational / Safety",
+          "level": "High",
+          "note": "Top AI researchers publicly resigned citing existential risk concerns, while Grok's 'Spicy Mode' generated illegal imagery at scale — dual talent and trust erosion that compounds regulatory exposure.",
+          "source": "https://en.wikipedia.org/wiki/Grok_(chatbot)"
+        },
+        {
+          "dimension": "Smart-Contract / Protocol",
+          "level": "Low",
+          "note": "xAI (the Elon Musk entity) has no direct on-chain protocol exposure; risks are concentrated in the separate XAI Ethereum gaming token's vesting schedule and trademark litigation outcome.",
+          "source": ""
+        }
+      ],
+      "sourced": 3,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:11:36.082654+00:00",
+      "items": [
+        {
+          "clicks": 91,
+          "date": "2026-04-07T14:38:02.942195+00:00",
+          "headline": "Intel partners with Elon Musk's SpaceX, xAI, and Tesla on Terafab to scale chip production toward 1TW/year of compute, targeting massive AI and robotics acceleration",
+          "hot_score": 410559.284823,
+          "lev_url": "https://leviathannews.xyz/222682/intel-partners-with-elon-musks-spacex-xai-and-tesla-on-terafab-to-scale-chip-production-toward-1twyear-of-compute-targeting-massive-ai-and-robotics-acceleration",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407142459_AavAPjqoh7DT.jpg",
+          "url": "https://x.com/i/status/2041501301318766866"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-04-10T06:46:28.930399+00:00",
+          "headline": "xAI sues Colorado over AI anti-discrimination law, argues mandated Grok changes violate First Amendment",
+          "hot_score": 9022.674083,
+          "lev_url": "https://leviathannews.xyz/225629/xai-sues-colorado-over-ai-anti-discrimination-law-argues-mandated-grok-changes-violate-first-amendment",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410055306_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/xai-sues-colorado-over-ai-law-restricting-free-speech"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-04-11T21:36:21.444180+00:00",
+          "headline": "SpaceX holds 8,285 BTC worth $603M steady as xAI costs flip $8B profit to nearly $5B loss ahead of IPO",
+          "hot_score": 1791.901762,
+          "lev_url": "https://leviathannews.xyz/226867/spacex-holds-8285-btc-worth-603m-steady-as-xai-costs-flip-8b-profit-to-nearly-5b-loss-ahead-of-ipo",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411204530_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/markets/2026/04/11/musk-s-spacex-holds-usd603-million-in-bitcoin-despite-usd5-billion-loss-stemming-from-xai"
+        },
+        {
+          "clicks": 70,
+          "date": "2026-03-23T08:46:03.496461+00:00",
+          "headline": "Tesla, xAI and SpaceX chart a course for Terafab, a new venture in galactic infrastructure towards becoming a galactic civilization.",
+          "hot_score": 620.46043,
+          "lev_url": "https://leviathannews.xyz/213917/announcing-terafab-the-next-step-towards-becoming-a-galactic-civilization-by-tesla-xai-spacex",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260322150432_YhShiGG04yEc.jpg",
+          "url": "https://x.com/xai/status/2035520240684032012"
+        },
+        {
+          "clicks": 26,
+          "date": "2026-05-18T01:00:55.953835+00:00",
+          "headline": "xAI lets Grok subscribers plug Grok 4.3, TTS, and Imagine into Hermes Agent",
+          "hot_score": 486.184417,
+          "lev_url": "https://leviathannews.xyz/244087/xai-lets-grok-subscribers-plug-grok-43-tts-and-imagine-into-hermes-agent",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260517224301_Z4zrlaiDPw==.png",
+          "url": "https://x.ai/news/grok-hermes"
+        },
+        {
+          "clicks": 81,
+          "date": "2026-03-17T07:03:38.435682+00:00",
+          "headline": "Minors sue xAI in California over alleged Grok deepfake images. The class action alleges Elon Musk's AI company knowingly produced and profited from child sexual abuse material.",
+          "hot_score": 394.682437,
+          "lev_url": "https://leviathannews.xyz/210704/minors-sue-xai-in-california-over-alleged-grok-deepfake-images-the-class-action-alleges-elon-musks-ai-company-knowingly-produced-and-profited-from-child-sexual-abuse-material",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260317065434_PG2SOSnPuGGN.jpg",
+          "url": "https://decrypt.co/361331/minors-sue-xai-california-alleged-grok-deepfake-images"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-22T21:03:30.598814+00:00",
+          "headline": "AngelList launches USVC fund offering retail investors exposure to OpenAI, Anthropic, and xAI with just $500 minimum, opening access to private AI giants",
+          "hot_score": 382.6,
+          "lev_url": "https://leviathannews.xyz/235293/angellist-launches-usvc-fund-offering-retail-investors-exposure-to-openai-anthropic-and-xai-with-just-500-minimum-opening-access-to-private-ai-giants",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422204536_jt9K5lpe0xTb.png",
+          "url": "https://decrypt.co/365157/angellist-usvc-investors-exposure-openai-anthropic-xai-starting-500"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-04-02T06:01:36.086651+00:00",
+          "headline": "Elon Musk's SpaceX reportedly files confidential IPO with SEC targeting June 2026 debut at $1.75T valuation, eyeing up to $75B raise in what could become the largest IPO in history",
+          "hot_score": 190.388542,
+          "lev_url": "https://leviathannews.xyz/219748/elon-musks-spacex-reportedly-files-confidential-ipo-with-sec-targeting-june-2026-debut-at-175t-valuation-eyeing-up-to-75b-raise-in-what-could-become-the-largest-ipo-in-history",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260402043134_5vhEqPKSgtfI.webp",
+          "url": "https://crypto.news/spacex-said-to-file-confidential-ipo-plans-with-sec-at-up-to-1-75t-valuation/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:11:35.996376+00:00",
+      "editorial": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "reuters.com"
+        },
+        {
+          "count": 1,
+          "source": "token.unlocks.app"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "axios.com"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "wsj.com"
+        },
+        {
+          "count": 1,
+          "source": "x.ai"
+        }
+      ],
+      "editorial_distinct": 11,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 25,
+          "source": "x.com"
+        },
+        {
+          "count": 7,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        }
+      ],
+      "universe_distinct": 4
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "76e0ff83bedf0b568d3a58f6520264af288a99c083eb93c6bb173782f7e6f12f",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:39.000361+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.353,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0688,
+        "lift_log": 4.798,
+        "score": 0.3531,
+        "shared": 11
+      },
+      "rationale": "Elon Musk is the founder of xAI.",
+      "relation_type": "founder",
+      "slug": "elon-musk",
+      "source": "cotag",
+      "tag_name": "Elon Musk",
+      "title": "Elon Musk, Explained",
+      "weight": 35
+    },
+    {
+      "confidence": 0.388,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.1119,
+        "lift_log": 5.081,
+        "score": 0.3878,
+        "shared": 24
+      },
+      "rationale": "Grok is the AI chatbot product built by xAI.",
+      "relation_type": "product",
+      "slug": "grok",
+      "source": "cotag",
+      "tag_name": "Grok",
+      "title": "Grok, Explained",
+      "weight": 39
+    },
+    {
+      "confidence": 0.263,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0192,
+        "lift_log": 3.326,
+        "score": 0.2627,
+        "shared": 6
+      },
+      "rationale": "SpaceX is a company owned by Elon Musk, related via founder.",
+      "relation_type": "ecosystem",
+      "slug": "spacex",
+      "source": "cotag",
+      "tag_name": "SpaceX",
+      "title": "SpaceX, Explained",
+      "weight": 26
+    }
+  ],
+  "schema_version": 1,
+  "slug": "xai",
+  "tag_name": "xAI",
+  "title": "xAI, Explained"
+}

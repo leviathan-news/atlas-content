@@ -1,0 +1,626 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:59:42.473327+00:00",
+      "newsroom_total": 42,
+      "overall_share": 38,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 39,
+          "month": "2026-04",
+          "newsroom": 26,
+          "universe": 41
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-05",
+          "newsroom": 8,
+          "universe": 24
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-06",
+          "newsroom": 2,
+          "universe": 2
+        }
+      ],
+      "total_universe": 111,
+      "universe_total": 69
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:59:42.179583+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "rseth",
+          "phrase": "Kelp is the platform that issues rsETH as a liquid restaking token.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "kelp",
+          "weight": 46
+        },
+        {
+          "dir": "out",
+          "from": "rseth",
+          "phrase": "Kelp DAO governs the Kelp protocol and rsETH.",
+          "relation_type": "governance",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "kelp-dao",
+          "weight": 44
+        },
+        {
+          "dir": "out",
+          "from": "rseth",
+          "phrase": "Exploits are a risk to rsETH's security and value.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "exploit",
+          "weight": 32
+        },
+        {
+          "dir": "out",
+          "from": "rseth",
+          "phrase": "Bad debt could arise from rsETH's lending positions.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "bad-debt",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "rseth",
+          "phrase": "Restaking is the core mechanism behind rsETH.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "restaking",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "rseth",
+          "phrase": "rsETH is often paired with WETH in liquidity pools.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "weth",
+          "weight": 24
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "rsETH",
+          "slug": "rseth",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Kelp",
+          "slug": "kelp",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 46
+        },
+        {
+          "center": false,
+          "name": "Kelp DAO",
+          "slug": "kelp-dao",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 44
+        },
+        {
+          "center": false,
+          "name": "Exploit",
+          "slug": "exploit",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 32
+        },
+        {
+          "center": false,
+          "name": "Bad Debt",
+          "slug": "bad-debt",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "Restaking",
+          "slug": "restaking",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "WETH",
+          "slug": "weth",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T04:07:49.276941+00:00",
+      "events": [
+        {
+          "date": "2024-05",
+          "kind": "milestone",
+          "label": "KelpDAO enables rsETH withdrawals into ETHx, stETH, sfrxETH",
+          "source": "https://x.com/KelpDAO/status/2051755467328913637"
+        },
+        {
+          "date": "2026-04",
+          "kind": "exploit",
+          "label": "LayerZero bridge exploit: 116,500 unbacked rsETH forged, $292M at risk on Aave",
+          "source": "https://blockaid.io/blog/how-a-single-layerzero-dvn-compromise-drained-292m-from-kelpdao"
+        },
+        {
+          "date": "2026-04",
+          "kind": "governance",
+          "label": "Aave freezes rsETH, models $230M bad debt, adjusts rates across v3 instances",
+          "source": "https://governance.aave.com/t/rseth-incident-2026-04-18/24481?page=2"
+        },
+        {
+          "date": "2026-04",
+          "kind": "governance",
+          "label": "DeFi United coalition pledges 43,500+ ETH; Mantle repays $204M in 48 hours",
+          "source": "https://www.crowdfundinsider.com/2026/04/276065-defi-united-introduces-recovery-plan-for-rseth-after-kelp-dao-exploit/"
+        },
+        {
+          "date": "2026-04",
+          "kind": "governance",
+          "label": "Aave governance liquidates attacker's remaining rsETH via oracle adjustment",
+          "source": "https://x.com/aave/article/2060901386611499378"
+        },
+        {
+          "date": "2026-04",
+          "kind": "governance",
+          "label": "Kelp internal memo blames LayerZero documentation; CCIP migration announced; 15+ protocols freeze LayerZero bridging",
+          "source": "https://www.certora.com/blog/bridge-single-points-of-failure"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "KelpDAO shuts rsETH bridging on 19 networks with June 15 return-to-mainnet deadline",
+          "source": "https://x.com/KelpDAO/status/2068047308806385688"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T04:07:49.276739+00:00",
+      "insight": "Readers clicked rsETH stories not for the hack mechanics but for exit and loss-allocation drama — the top headline (199 clicks) is about withdrawal redemption paths that predates the exploit entirely, and post-exploit engagement clusters around who absorbs the $292M (DeFi United pledges, Mantle's 30k ETH offer, three socialization options) rather than how the LayerZero message was forged.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.chainalysis.com/blog/kelpdao-bridge-exploit-april-2026/"
+    },
+    "reader_signal": {
+      "article_count": 42,
+      "as_of": "2026-07-01T11:59:43.369256+00:00",
+      "most_clicked": {
+        "clicks": 199,
+        "date": "2024-04-26T02:38:47.429536+00:00",
+        "headline": "KelpDAO to enable $rsETH withdrawals on May 03, 2024, initially into $ETHx, $stETH and $sfrxETH",
+        "lev_url": "https://leviathannews.xyz/5051/kelpdao-to-enable-rseth-withdrawals-on-may-03-2024-initially-into-ethx-steth-and-sfrxeth"
+      },
+      "provenance": "data",
+      "top_decile_share": 22,
+      "total_clicks": 2373
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T04:07:49.276859+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://blockaid.io/blog/how-a-single-layerzero-dvn-compromise-drained-292m-from-kelpdao",
+          "thread": "$292M bridge exploit fallout",
+          "why": "A single forged LayerZero message released 116,500 unbacked rsETH and triggered the largest coordinated DeFi recovery effort readers had witnessed, with Aave bad-debt models reaching $230M across L1/L2 scenarios."
+        },
+        {
+          "source": "https://www.crowdfundinsider.com/2026/04/276065-defi-united-introduces-recovery-plan-for-rseth-after-kelp-dao-exploit/",
+          "thread": "DeFi United recovery coalition",
+          "why": "Readers tracked whether a novel multi-protocol pledge — 43,500+ ETH from Mantle, Lido, EtherFi, and Compound — could actually make rsETH holders whole, establishing a new template for socialized exploit recovery."
+        },
+        {
+          "source": "https://www.certora.com/blog/bridge-single-points-of-failure",
+          "thread": "LayerZero vs KelpDAO blame dispute",
+          "why": "Kelp's internal memo blaming LayerZero's documentation and setup guidance, while 15+ protocols froze LayerZero bridging entirely, turned a technical post-mortem into a public accountability and liability fight."
+        },
+        {
+          "source": "https://governance.aave.com/t/rseth-incident-2026-04-18/24481?page=2",
+          "thread": "Aave market stress and liquidations",
+          "why": "The exploit drove WETH lending to 100% utilization, forced emergency USDC rate-steepening proposals, and cascaded into Kamino markets on Solana, making rsETH risk tangible to any DeFi lending user."
+        },
+        {
+          "source": "https://x.com/aave/article/2060901386611499378",
+          "thread": "Loss socialization options",
+          "why": "Three competing proposals — burn bridged-rsETH holders, haircut all holders, or use a pre-exploit snapshot — forced readers to confront that loss allocation in DeFi exploits is a governance choice, not an automatic outcome."
+        },
+        {
+          "source": "https://www.llamarisk.com/research/collateral-risk-rseth",
+          "thread": "rsETH withdrawal and redemption mechanics",
+          "why": "The pre-exploit question of how rsETH redeems into underlying LSTs (ETHx, stETH, sfrxETH) became urgent context once the bridge exploit froze cross-chain positions and users needed to understand their exit paths."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T04:07:49.276870+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Bridge / Cross-chain",
+          "level": "High",
+          "note": "A single compromised LayerZero DVN forged a cross-chain message minting 116,500 unbacked rsETH; KelpDAO subsequently shut down bridging across 19 networks and announced migration to Chainlink CCIP.",
+          "source": "https://blockaid.io/blog/how-a-single-layerzero-dvn-compromise-drained-292m-from-kelpdao"
+        },
+        {
+          "dimension": "Smart Contract",
+          "level": "High",
+          "note": "Separate from the bridge exploit, KelpDAO's fee minter contract minted excess rsETH to its own fee address, indicating incomplete audit coverage of protocol-controlled minting paths.",
+          "source": "https://www.llamarisk.com/research/collateral-risk-rseth"
+        },
+        {
+          "dimension": "Oracle Manipulation",
+          "level": "High",
+          "note": "An MEV-driven attacker manipulated the rsETH/ETH price feed on Moonwell across Base and Optimism, draining over $1M and demonstrating that LRT oracle feeds are an independent attack surface from bridge risk.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "The April 2026 exploit drove WETH lending to 100% utilization on Aave, locked stablecoin positions, and cascaded into Kamino USDC markets on Solana, demonstrating severe cross-protocol contagion from a single LRT incident.",
+          "source": "https://governance.aave.com/t/rseth-incident-2026-04-18/24481?page=2"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "LlamaRisk flagged substantial centralization vectors and off-chain processes controlled by the protocol team; post-exploit recovery required KelpDAO operators to manually transfer rsETH batches to the LayerZero lockbox over multiple days.",
+          "source": "https://www.llamarisk.com/research/collateral-risk-rseth"
+        },
+        {
+          "dimension": "Market / Depeg",
+          "level": "Medium",
+          "note": "Despite 116,500 unbacked rsETH in circulation, rsETH held near peg on secondary markets as traders priced in full recovery, though LlamaRisk warned that points-driven LRT demand can unwind rapidly and cause sustained depeg events.",
+          "source": "https://www.llamarisk.com/research/collateral-risk-rseth"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:59:43.286237+00:00",
+      "items": [
+        {
+          "clicks": 37,
+          "date": "2026-04-19T20:10:57.616254+00:00",
+          "headline": "Kelp DAO bridge exploit nets attacker $291M in rsETH, triggers $6.2B Aave withdrawal run",
+          "hot_score": 1496.70566,
+          "lev_url": "https://leviathannews.xyz/232938/kelp-dao-bridge-exploit-nets-attacker-291m-in-rseth-triggers-62b-aave-withdrawal-run",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260419192609_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/364849/kelp-dao-exploit-aave-liquidity-crunch-6-2-billion-withdrawal-panic/"
+        },
+        {
+          "clicks": 56,
+          "date": "2026-04-20T05:31:24.665773+00:00",
+          "headline": "DeFi outflows spill into Solana after KelpDAO rsETH hack, pushing Kamino USDC markets to extreme stress with 100% utilization and zero liquidity in key lending pools",
+          "hot_score": 1408.044233,
+          "lev_url": "https://leviathannews.xyz/233134/defi-outflows-spill-into-solana-after-kelpdao-rseth-hack-pushing-kamino-usdc-markets-to-extreme-stress-with-100-utilization-and-zero-liquidity-in-key-lending-pools",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420053041_O-IgxD6R4AX0.jpg",
+          "url": "https://x.com/i/status/2046074831645651452"
+        },
+        {
+          "clicks": 56,
+          "date": "2026-04-19T09:49:34.407143+00:00",
+          "headline": "Stablecoin markets turn illiquid as ETH lending hits 100% utilization, locking positions and distorting incentives amid rsETH risks.",
+          "hot_score": 1238.911529,
+          "lev_url": "https://leviathannews.xyz/232705/with-stablecoin-markets-beginning-to-become-illiquid-the-situation-is-now-entering-a-more-dangerous-stage-imo-to-break-down-the-driving-factors-the-eth-market-is-165-backed-by-rset",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260419093045_E5Ygd6ZEGNlc.jpg",
+          "url": "https://x.com/MonetSupply/status/2045689534877213083"
+        },
+        {
+          "clicks": 66,
+          "date": "2026-04-20T06:24:15.249606+00:00",
+          "headline": "Following the $292M Kelp DAO rsETH exploit, 15+ protocols have frozen LayerZero bridging. Here is the full list",
+          "hot_score": 1038.0,
+          "lev_url": "https://leviathannews.xyz/233199/following-the-292m-kelp-dao-rseth-exploit-15-protocols-have-frozen-layerzero-bridging-here-is-the-full-list",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420062350_LFVTGZy7vAGy.jpg",
+          "url": "https://x.com/i/status/2045957724538650624"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-04-20T05:49:45.932017+00:00",
+          "headline": "Aave confirms rsETH on Ethereum remains fully backed post-incident, while freezing markets across V3 and V4 to cap exposure and prevent further risk escalation",
+          "hot_score": 1032.8,
+          "lev_url": "https://leviathannews.xyz/233152/aave-confirms-rseth-on-ethereum-remains-fully-backed-post-incident-while-freezing-markets-across-v3-and-v4-to-cap-exposure-and-prevent-further-risk-escalation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420053713_ujA2bnGQKC6M.png",
+          "url": "https://x.com/i/status/2045944827510939696"
+        },
+        {
+          "clicks": 49,
+          "date": "2026-05-06T07:13:41.621754+00:00",
+          "headline": "Kelp DAO to migrate rsETH to Chainlink CCIP after $292M exploit, blaming LayerZero bridge setup as dispute intensifies over cross-chain security failures",
+          "hot_score": 808.016286,
+          "lev_url": "https://leviathannews.xyz/238263/kelp-dao-to-migrate-rseth-to-chainlink-ccip-after-292m-exploit-blaming-layerzero-bridge-setup-as-dispute-intensifies-over-cross-chain-security-failures",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260506071154_RFfZpN2kOjos.jpg",
+          "url": "https://cointelegraph.com/news/kelp-dao-to-migrate-rseth-to-chainlink-as-it-continues-to-blame-layerzero-infrastructure-failure"
+        },
+        {
+          "clicks": 71,
+          "date": "2026-05-06T22:23:04.558911+00:00",
+          "headline": "Aave liquidates Kelp DAO attacker’s remaining rsETH positions via governance-led oracle adjustment, securing collateral as part of $292M exploit recovery plan",
+          "hot_score": 788.570435,
+          "lev_url": "https://leviathannews.xyz/238825/aave-liquidates-kelp-dao-attackers-remaining-rseth-positions-via-governance-led-oracle-adjustment-securing-collateral-as-part-of-292m-exploit-recovery-plan",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260506222227_jKrUUxX8Q64s.jpg",
+          "url": "https://www.theblock.co/post/400315/aave-liquidates-kelp-dao-attackers-remaining-rseth-positions"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-20T05:18:35.681953+00:00",
+          "headline": "Three options for Kelp to socialize $292M exploit losses: burn bridged rsETH holders, haircut all holders, or pre-exploit snapshot",
+          "hot_score": 768.263357,
+          "lev_url": "https://leviathannews.xyz/233040/three-options-for-kelp-to-socialize-292m-exploit-losses-burn-bridged-rseth-holders-haircut-all-holders-or-pre-exploit-snapshot",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420021604_Z4zrlaiDPw==.png",
+          "url": "https://x.com/0xedenau/status/2045769191513629155"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:59:43.192644+00:00",
+      "editorial": [
+        {
+          "count": 25,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "governance.aave.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "polygon.technology"
+        },
+        {
+          "count": 1,
+          "source": "wublockchain.xyz"
+        },
+        {
+          "count": 1,
+          "source": "forum.mantle.xyz"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        }
+      ],
+      "editorial_distinct": 13,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 58,
+          "source": "x.com"
+        },
+        {
+          "count": 6,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "blogs.kerneldao.com"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "6b50532ba1783975ab39817562280b1121ae9cd0d517f5e4f853d49a114debac",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:26.212593+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.268,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0776,
+        "lift_log": 5.029,
+        "score": 0.268,
+        "shared": 10
+      },
+      "rationale": "Bad debt could arise from rsETH's lending positions.",
+      "relation_type": "risk",
+      "slug": "bad-debt",
+      "source": "cotag",
+      "tag_name": "Bad Debt",
+      "title": "Bad Debt, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.321,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0802,
+        "lift_log": 3.838,
+        "score": 0.3209,
+        "shared": 46
+      },
+      "rationale": "Exploits are a risk to rsETH's security and value.",
+      "relation_type": "risk",
+      "slug": "exploit",
+      "source": "cotag",
+      "tag_name": "Exploit",
+      "title": "Exploit, Explained",
+      "weight": 32
+    },
+    {
+      "confidence": 0.458,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.2353,
+        "lift_log": 5.327,
+        "score": 0.4578,
+        "shared": 38
+      },
+      "rationale": "Kelp is the platform that issues rsETH as a liquid restaking token.",
+      "relation_type": "ecosystem",
+      "slug": "kelp",
+      "source": "cotag",
+      "tag_name": "Kelp",
+      "title": "Kelp, Explained",
+      "weight": 46
+    },
+    {
+      "confidence": 0.445,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.2042,
+        "lift_log": 5.383,
+        "score": 0.4448,
+        "shared": 32
+      },
+      "rationale": "Kelp DAO governs the Kelp protocol and rsETH.",
+      "relation_type": "governance",
+      "slug": "kelp-dao",
+      "source": "cotag",
+      "tag_name": "Kelp DAO",
+      "title": "Kelp DAO, Explained",
+      "weight": 44
+    },
+    {
+      "confidence": 0.263,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0114,
+        "lift_log": 3.427,
+        "score": 0.263,
+        "shared": 3
+      },
+      "rationale": "Restaking is the core mechanism behind rsETH.",
+      "relation_type": "primitive",
+      "slug": "restaking",
+      "source": "cotag",
+      "tag_name": "Restaking",
+      "title": "Restaking, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.242,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0548,
+        "lift_log": 4.695,
+        "score": 0.2419,
+        "shared": 7
+      },
+      "rationale": "rsETH is often paired with WETH in liquidity pools.",
+      "relation_type": "product",
+      "slug": "weth",
+      "source": "cotag",
+      "tag_name": "WETH",
+      "title": "WETH: Complete Guide",
+      "weight": 24
+    }
+  ],
+  "schema_version": 1,
+  "slug": "rseth",
+  "tag_name": "rsETH",
+  "title": "rsETH: Complete Guide"
+}

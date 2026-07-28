@@ -1,0 +1,652 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:01:01.449802+00:00",
+      "newsroom_total": 30,
+      "overall_share": 17,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 7
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 36
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 25
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 36
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 40
+        }
+      ],
+      "total_universe": 174,
+      "universe_total": 144
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:01:00.629117+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "marketplace",
+          "phrase": "Marketplaces can host agent-based services or AI agents.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "agents",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "marketplace",
+          "phrase": "A marketplace may celebrate its founding anniversary.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "birthday",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "marketplace",
+          "phrase": "AI agents can be traded or deployed via marketplaces.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "ai-agents",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "marketplace",
+          "phrase": "Marketplaces often announce milestones like volume or users.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "milestone",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "marketplace",
+          "phrase": "Agents are participants or products within a marketplace.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "agent",
+          "weight": 16
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Marketplace",
+          "slug": "marketplace",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Birthday",
+          "slug": "birthday",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "AI Agents",
+          "slug": "ai-agents",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Milestone",
+          "slug": "milestone",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Agent",
+          "slug": "agent",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T05:00:00.913963+00:00",
+      "events": [
+        {
+          "date": "2013-10",
+          "kind": "regulatory",
+          "label": "Ross Ulbricht arrested, Silk Road seized",
+          "source": ""
+        },
+        {
+          "date": "2015-05",
+          "kind": "regulatory",
+          "label": "Ulbricht sentenced to two life terms",
+          "source": ""
+        },
+        {
+          "date": "2022-11",
+          "kind": "launch",
+          "label": "Yuga Labs and Magic Eden launch royalty-enforcing ETH NFT marketplace",
+          "source": ""
+        },
+        {
+          "date": "2023-02",
+          "kind": "regulatory",
+          "label": "GameStop shuts NFT marketplace citing regulatory uncertainty",
+          "source": ""
+        },
+        {
+          "date": "2023-09",
+          "kind": "regulatory",
+          "label": "Ninth Circuit greenlights U.S. confiscation of 69K Silk Road BTC",
+          "source": ""
+        },
+        {
+          "date": "2024-07",
+          "kind": "launch",
+          "label": "Clearpool launches undercollateralized lending on Optimism",
+          "source": ""
+        },
+        {
+          "date": "2024-10",
+          "kind": "milestone",
+          "label": "Elliptic report: Huione rolls out its own stablecoin",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "regulatory",
+          "label": "Telegram shuts Huione and Xinbi after $35B in illicit stablecoin flows",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T05:00:00.913780+00:00",
+      "insight": "Readers click marketplace stories not for product mechanics but for the collision of legitimacy and criminality — auditors blessing illicit platforms, dark-web precedents reshaping crypto law, and royalty enforcement debates reveal that the marketplace layer is where crypto's social contract is actually contested.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 31,
+      "as_of": "2026-07-01T12:01:02.845142+00:00",
+      "most_clicked": {
+        "clicks": 283,
+        "date": "2025-01-14T13:44:15.936253+00:00",
+        "headline": "Huione, a Telegram-based illicit marketplace that offers personal data and money laundering services has rolled out its own stablecoin, according to report by blockchain security firm Elliptic.",
+        "lev_url": "https://leviathannews.xyz/8659/huione-a-telegram-based-illicit-marketplace-that-offers-personal-data-and-money-laundering-services-has-rolled-out-its-own-stablecoin-according-to-report-by-blockchain-security-fir"
+      },
+      "provenance": "data",
+      "top_decile_share": 25,
+      "total_clicks": 2687
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T05:00:00.913872+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Illicit marketplace stablecoin adoption",
+          "why": "Huione launching its own stablecoin after processing billions in illicit flows showed readers that criminal infrastructure is maturing into self-sufficient financial systems, not just exploiting existing ones."
+        },
+        {
+          "source": "",
+          "thread": "NFT marketplace royalty wars",
+          "why": "Yuga Labs and Magic Eden committing to enforced creator royalties, while OpenSea bled executives and X2Y2 shut down, revealed a high-stakes battle over who controls NFT economics."
+        },
+        {
+          "source": "",
+          "thread": "Silk Road legal aftermath",
+          "why": "Ross Ulbricht's life sentence and successive court rulings on 69K BTC confiscation kept readers tracking how the original dark-web marketplace continues to set regulatory and legal precedents years later."
+        },
+        {
+          "source": "",
+          "thread": "Audit firms blessing illicit platforms",
+          "why": "CertiK auditing a marketplace tied to human trafficking scandalized readers because it exposed how credentialing in crypto can be captured by bad actors."
+        },
+        {
+          "source": "",
+          "thread": "NFT marketplace consolidation and exits",
+          "why": "GameStop's regulatory-driven shutdown and X2Y2's pivot illustrated that NFT marketplaces are consolidating under legal pressure, not just market pressure."
+        },
+        {
+          "source": "",
+          "thread": "DeFi credit and yield marketplace primitives",
+          "why": "Clearpool's undercollateralized lending on Optimism and Marinade's auction marketplace showed readers that the next frontier is marketplaces for risk-priced credit and optimized yield, not just asset trading."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T05:00:00.913883+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Telegram's shutdown of Huione and Xinbi after $35B in illicit stablecoin flows, GameStop's NFT exit citing regulatory uncertainty, and ongoing U.S. DOJ action on Silk Road BTC all signal aggressive multi-jurisdictional enforcement targeting marketplace infrastructure.",
+          "source": ""
+        },
+        {
+          "dimension": "Counterparty / Audit integrity",
+          "level": "High",
+          "note": "CertiK's audit of a human-trafficking-linked marketplace demonstrates that third-party security credentialing can be weaponized to legitimize illicit platforms, undermining trust in the broader audit ecosystem.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "NFT marketplace volume has fragmented across competing venues enforcing different royalty regimes, with multiple shutdowns reducing liquidity depth and increasing execution risk for sellers.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "Medium",
+          "note": "Emerging undercollateralized lending marketplaces like Clearpool and convertible debt platforms like Myso Finance introduce novel credit-risk smart-contract surfaces with limited historical exploit data.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Pump.fun insider-favoritism lawsuit and LlamaRisk's proposal to disable Elixir marketplace gauges both highlight governance capture risk where marketplace operators or insiders can tilt outcomes against retail participants.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / Sentiment",
+          "level": "Medium",
+          "note": "Executive departures at OpenSea and multiple marketplace shutdowns signal structural demand contraction in NFT trading, compressing fee revenues and threatening long-term viability of standalone marketplace businesses.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:01:02.747508+00:00",
+      "items": [
+        {
+          "clicks": 46,
+          "date": "2026-04-24T16:05:49.463664+00:00",
+          "headline": "AWS Marketplace integrates Chainlink data standards, enabling developers to connect traditional cloud services with blockchain apps using Data Feeds, Streams, and Proof of Reserve",
+          "hot_score": 684.2,
+          "lev_url": "https://leviathannews.xyz/236239/aws-marketplace-integrates-chainlink-data-standards-enabling-developers-to-connect-traditional-cloud-services-with-blockchain-apps-using-data-feeds-streams-and-proof-of-reserve",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260424160524_WVm-y0iUCaup.jpg",
+          "url": "https://www.theblock.co/post/398820/aws-marketplace-integrates-chainlink?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 78,
+          "date": "2025-12-10T16:38:55.957079+00:00",
+          "headline": "Pineapple Financial starts migrating its $10B mortgage portfolio onchain via Injective. The Canadian fintech has already put data tied to about $412 million in funded mortgages onchain, and aims to migrate more than 29,000 loans over time. Each tokenized mortgage record includes more than 500 data points and will underpin a permissioned data marketplace and a planned product offering onchain mortgage-backed yields.",
+          "hot_score": 113.770287,
+          "lev_url": "https://leviathannews.xyz/22092/pineapple-financial-starts-migrating-its-10b-mortgage-portfolio-onchain-via-injective-the-canadian-fintech-has-already-put-data-tied-to-about-412-million-in-funded-mortgages-onchai-20251210",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251210130737_ViuILt9PDN4=.jpg",
+          "url": "https://archive.ph/K6Npl"
+        },
+        {
+          "clicks": 68,
+          "date": "2025-12-16T18:53:27.410170+00:00",
+          "headline": "Judge Allows Amended Lawsuit Alleging Pump.fun Marketplace Was Tilted to Favor Insiders on Solana",
+          "hot_score": 108.831277,
+          "lev_url": "https://leviathannews.xyz/22580/judge-allows-amended-lawsuit-alleging-pumpfun-marketplace-was-tilted-to-favor-insiders-on-solana",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251216184848_Dlzou2UWMhs=.jpg",
+          "url": "https://x.com/burwicklaw/status/2000635043421835390"
+        },
+        {
+          "clicks": 56,
+          "date": "2026-02-02T17:58:53.356915+00:00",
+          "headline": "Vultisig launched its Plugin Marketplace, introducing the first fully self-custodial, on-chain automation layer that enables DCA, payroll, and other automated actions across 30+ chains without exposing keys or seed phrases.",
+          "hot_score": 53.681267,
+          "lev_url": "https://leviathannews.xyz/24595/vultisig-launched-its-plugin-marketplace-introducing-the-first-fully-self-custodial-on-chain-automation-layer-that-enables-dca-payroll-and-other-automated-actions-across-30-chains-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260202175742_4MpZS2SXML0=.jpg",
+          "url": "https://x.com/i/status/2018349045081620746"
+        },
+        {
+          "clicks": 31,
+          "date": "2025-12-09T04:40:17.700775+00:00",
+          "headline": "Pye Finance raises $5M seed round led by Variant and Coinbase Ventures. The platform aims to make locked Solana staking positions tradable via an onchain marketplace.",
+          "hot_score": 32.781581,
+          "lev_url": "https://leviathannews.xyz/21984/pye-finance-raises-5m-seed-round-led-by-variant-and-coinbase-ventures-the-platform-aims-to-make-locked-solana-staking-positions-tradable-via-an-onchain-marketplace",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251209000252_To7Yg_421JU=.jpg",
+          "url": "https://archive.ph/R4MbN"
+        },
+        {
+          "clicks": 283,
+          "date": "2025-01-14T13:44:15.936253+00:00",
+          "headline": "Huione, a Telegram-based illicit marketplace that offers personal data and money laundering services has rolled out its own stablecoin, according to report by blockchain security firm Elliptic.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8659/huione-a-telegram-based-illicit-marketplace-that-offers-personal-data-and-money-laundering-services-has-rolled-out-its-own-stablecoin-according-to-report-by-blockchain-security-fir",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250114133709_VJEpQsw9Jg==.jpg",
+          "url": "https://www.coindesk.com/business/2025/01/14/company-behind-illicit-24-b-telegram-marketplaces-launches-stablecoin"
+        },
+        {
+          "clicks": 209,
+          "date": "2024-06-19T13:17:19.408508+00:00",
+          "headline": "Solana liquid staking protocol Marinade unveils 'auction marketplace' to optimize yields",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5981/solana-liquid-staking-protocol-marinade-unveils-auction-marketplace-to-optimize-yields",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240619131552_H750ZMo7pg==.jpg",
+          "url": "https://www.theblock.co/post/300834/solana-marinade-stake-auction-marketplace"
+        },
+        {
+          "clicks": 193,
+          "date": "2025-02-11T14:18:09.372002+00:00",
+          "headline": "CertiK caught in chaos: Audits stablecoin for marketplace tied to Human trafficking, Now scrambling to apologize.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9262/certik-caught-in-chaos-audits-stablecoin-for-marketplace-tied-to-human-trafficking-now-scrambling-to-apologize",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250211140610_4UHPyP5Zwg==.jpg",
+          "url": "https://www.dlnews.com/articles/defi/certik-apologises-for-cambodia-firm-linked-to-forced-labour/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:01:02.652903+00:00",
+      "editorial": [
+        {
+          "count": 9,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "ft.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "forbes.com"
+        },
+        {
+          "count": 1,
+          "source": "mirror.xyz"
+        }
+      ],
+      "editorial_distinct": 15,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 116,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 5,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 4,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "medium.com"
+        },
+        {
+          "count": 2,
+          "source": "wsj.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "0g.ai"
+        },
+        {
+          "count": 1,
+          "source": "animocabrands.com"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.roninchain.com"
+        }
+      ],
+      "universe_distinct": 14
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "d599cfba5c8b07fdf6040bc528f5daeccf6f9c1ea1a496c828118adaec340eb4",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:22:15.682419+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.264,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0291,
+        "lift_log": 3.224,
+        "score": 0.2643,
+        "shared": 15
+      },
+      "rationale": "Marketplaces can host agent-based services or AI agents.",
+      "relation_type": "ecosystem",
+      "slug": "agents",
+      "source": "cotag",
+      "tag_name": "agents",
+      "title": "agents, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.214,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0288,
+        "lift_log": 4.362,
+        "score": 0.2141,
+        "shared": 3
+      },
+      "rationale": "A marketplace may celebrate its founding anniversary.",
+      "relation_type": "event",
+      "slug": "birthday",
+      "source": "cotag",
+      "tag_name": "Birthday",
+      "title": "Birthday, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "marketplace",
+  "tag_name": "Marketplace",
+  "title": "Marketplace, Explained"
+}

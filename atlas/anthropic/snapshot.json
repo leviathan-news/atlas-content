@@ -1,0 +1,586 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:48:32.286886+00:00",
+      "newsroom_total": 81,
+      "overall_share": 32,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 32,
+          "month": "2026-02",
+          "newsroom": 7,
+          "universe": 15
+        },
+        {
+          "ed_share": 42,
+          "month": "2026-03",
+          "newsroom": 19,
+          "universe": 26
+        },
+        {
+          "ed_share": 45,
+          "month": "2026-04",
+          "newsroom": 26,
+          "universe": 32
+        },
+        {
+          "ed_share": 21,
+          "month": "2026-05",
+          "newsroom": 7,
+          "universe": 27
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-06",
+          "newsroom": 12,
+          "universe": 73
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 3
+        }
+      ],
+      "total_universe": 257,
+      "universe_total": 176
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:48:29.042655+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "anthropic",
+          "phrase": "Claude is the flagship AI assistant product built by Anthropic.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "claude",
+          "weight": 39
+        },
+        {
+          "dir": "out",
+          "from": "anthropic",
+          "phrase": "OpenAI is a direct competitor in the AI research and deployment space.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "openai",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "anthropic",
+          "phrase": "Cloud platforms provide the computing infrastructure for Anthropic's AI models.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "cloud",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "anthropic",
+          "phrase": "Cybersecurity is a key application area for Anthropic's AI safety research.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "cybersecurity",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "anthropic",
+          "phrase": "Research is the core activity of Anthropic as an AI company.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "research",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Anthropic",
+          "slug": "anthropic",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Claude",
+          "slug": "claude",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 39
+        },
+        {
+          "center": false,
+          "name": "OpenAI",
+          "slug": "openai",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "cloud",
+          "slug": "cloud",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Cybersecurity",
+          "slug": "cybersecurity",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Research",
+          "slug": "research",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T01:50:30.439716+00:00",
+      "events": [
+        {
+          "date": "2024-10",
+          "kind": "launch",
+          "label": "Claude computer use launched — autonomous desktop and browser control",
+          "source": "https://www.anthropic.com/company"
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Claude 4.6 ships 1M-token context, tops frontier recall benchmarks",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "milestone",
+          "label": "Anthropic study reveals AI agents cracked 63% of legacy smart contracts",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "regulatory",
+          "label": "Pentagon designates Anthropic a supply chain risk; Dario Amodei appears on CBS News",
+          "source": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/"
+        },
+        {
+          "date": "2026-05",
+          "kind": "exploit",
+          "label": "Claude Mythos (Fable 5) leaked via unsecured cache; Anthropic warns of cybersecurity implications",
+          "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Trump orders all federal agencies to immediately cease Anthropic use",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Anthropic sues U.S. government over supply-chain-risk designation",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Federal judge blocks Pentagon's Anthropic blacklist, citing First Amendment retaliation",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T01:50:30.439532+00:00",
+      "insight": "Crypto readers click Anthropic stories not as AI coverage but as macro-risk signals — the Mythos sandbox escape, Pentagon standoff, and smart-contract exploit findings collectively feed one thesis: a single frontier model's capability jumps can simultaneously crash equity markets, reshape government policy, and expose every legacy DeFi contract written before AI-level auditing existed.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/"
+    },
+    "reader_signal": {
+      "article_count": 81,
+      "as_of": "2026-07-01T11:48:35.431905+00:00",
+      "most_clicked": {
+        "clicks": 176,
+        "date": "2026-05-04T08:52:09.686836+00:00",
+        "headline": "Anthropic unveils playbook for “zero-headcount” startups powered by Claude Code, where one human CEO oversees fully autonomous AI agents handling operations end-to-end",
+        "lev_url": "https://leviathannews.xyz/237680/anthropic-unveils-playbook-for-zero-headcount-startups-powered-by-claude-code-where-one-human-ceo-oversees-fully-autonomous-ai-agents-handling-operations-end-to-end"
+      },
+      "provenance": "data",
+      "top_decile_share": 21,
+      "total_clicks": 4890
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T01:50:30.439628+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "thread": "Mythos sandbox escape fallout",
+          "why": "Headlines showing Mythos finding zero-days in every major OS and triggering a ~500-point Nasdaq selloff made Anthropic's most capable model a systemic market event, not a product launch."
+        },
+        {
+          "source": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/",
+          "thread": "Pentagon/government confrontation",
+          "why": "The chain of supply-chain-risk designation, Trump's federal ban, Anthropic's lawsuit, and a federal judge's injunction created a multi-week regulatory drama with direct implications for any defense-adjacent crypto or AI infrastructure project."
+        },
+        {
+          "source": "",
+          "thread": "Claude Code developer disruption",
+          "why": "Zero-headcount startup framing and autonomous agent tooling made Claude Code feel like an existential shift in how software — including smart contracts and DeFi tooling — gets built and audited."
+        },
+        {
+          "source": "",
+          "thread": "AI agents cracking smart contracts",
+          "why": "Anthropic's own study showing AI agents exploited 63% of 405 legacy contracts directly alarmed DeFi readers holding or building on older protocol code."
+        },
+        {
+          "source": "https://www.thestreet.com/crypto/markets/hyperliquid-loses-anthropic-openai-markets",
+          "thread": "Onchain Anthropic equity exposure",
+          "why": "Kraken's xStocks tokenizing the Fundrise VCX fund gave crypto-native readers a direct on-chain proxy to Anthropic's valuation, creating a new DeFi-adjacent risk surface."
+        },
+        {
+          "source": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
+          "thread": "Pricing and access volatility",
+          "why": "Abrupt removals of Claude Code from the Pro plan and third-party tool cutoffs with 24-hour notice signaled that Anthropic's platform policies are unpredictable, a key concern for teams building on Claude APIs."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T01:50:30.439662+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / protocol security",
+          "level": "High",
+          "note": "An Anthropic-led study found AI agents successfully exploited 63% of 405 legacy smart contracts, confirming that AI-level adversaries have operationalized the same playbook at scale.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory / government action",
+          "level": "High",
+          "note": "Anthropic has simultaneously faced a Pentagon supply-chain-risk blacklist, a Trump executive order banning all federal agency use, and its own lawsuit against the U.S. government — the most acute regulatory exposure of any frontier AI lab.",
+          "source": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/"
+        },
+        {
+          "dimension": "Market contagion",
+          "level": "High",
+          "note": "News of Mythos's capabilities triggered a tech-led Nasdaq selloff of roughly 500 points, demonstrating that Anthropic model announcements are now macro equity risk events that bleed into correlated crypto markets.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization / platform dependency",
+          "level": "Medium",
+          "note": "Anthropic's 24-hour notice removal of Claude from third-party tools and unilateral Pro plan changes show that projects built on Claude APIs carry single-vendor dependency risk with little contractual protection.",
+          "source": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
+        },
+        {
+          "dimension": "Data / training privacy",
+          "level": "Medium",
+          "note": "Stanford research found Anthropic defaults to using chat conversations for model training with weak consent controls, and Reddit's breach-of-contract lawsuit for unauthorized training data use adds legal exposure that could affect enterprise API customers.",
+          "source": ""
+        },
+        {
+          "dimension": "Capability theft / supply chain integrity",
+          "level": "Medium",
+          "note": "Anthropic's disclosure of large-scale illicit model distillation by Chinese AI labs via millions of fraudulent Claude queries means safety-critical model alignment may be systematically stripped out in cloned derivatives used in unaudited DeFi automation.",
+          "source": "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule"
+        }
+      ],
+      "sourced": 3,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:48:35.262503+00:00",
+      "items": [
+        {
+          "clicks": 72,
+          "date": "2026-04-16T14:33:34.910268+00:00",
+          "headline": "Anthropic ships Opus 4.7 with 3x coding gains and tripled image resolution, holding pricing steady",
+          "hot_score": 100599.147069,
+          "lev_url": "https://leviathannews.xyz/230570/anthropic-is-an-ai-safety-and-research-company-thats-working-to-build-reliable-interpretable-and-steerable-ai-systems",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416143104_QLh_3ObLM_b4.jpg",
+          "url": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "clicks": 146,
+          "date": "2026-04-07T20:11:46.937579+00:00",
+          "headline": "Anthropic unveils Project Glasswing powered by Claude Mythos Preview, targeting critical software security with AI that detects vulnerabilities at near expert-human level",
+          "hot_score": 51987.29741,
+          "lev_url": "https://leviathannews.xyz/222944/anthropic-unveils-project-glasswing-powered-by-claude-mythos-preview-targeting-critical-software-security-with-ai-that-detects-vulnerabilities-at-near-expert-human-level",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407200202_YsbzFLRqU8_0.jpg",
+          "url": "https://x.com/i/status/2041578392852517128"
+        },
+        {
+          "clicks": 91,
+          "date": "2026-04-22T00:25:33.235915+00:00",
+          "headline": "Anthropic yanks Claude Code from Pro plan without warning, forcing 5x pricing jump to $100/month Max tier",
+          "hot_score": 34467.4,
+          "lev_url": "https://leviathannews.xyz/234673/anthropic-just-pulled-claude-code-from-the-pro-plan-pro-users-wanting-it-need-max-now-100month-minimum-5x-jump-im-on-max-20x-so-im-fine-flagging-for-anyone-on-pro-wh",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422002215_-ekbI47lI3IR.jpg",
+          "url": "https://x.com/TheGeorgePu/status/2046705634331025855?s=20"
+        },
+        {
+          "clicks": 55,
+          "date": "2026-04-17T16:36:15.785195+00:00",
+          "headline": "Anthropic debuts Claude Design, generating slides, prototypes, and one-pagers from chat on Opus 4.7 with Canva export",
+          "hot_score": 31542.567722,
+          "lev_url": "https://leviathannews.xyz/231718/introducing-claude-design-by-anthropic-labs-make-prototypes-slides-and-one-pagers-by-talking-to-claude-powered-by-claude-opus-47-our-most-capable-vision-model-available-in",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417163325_aSx5rJBV3w5f.jpg",
+          "url": "https://x.com/claudeai/status/2045156267690213649"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-04-15T11:38:24.683065+00:00",
+          "headline": "Anthropic appoints Vas Narasimhan to board via Long-Term Benefit Trust, strengthening focus on responsible AI in healthcare and life sciences",
+          "hot_score": 5816.928931,
+          "lev_url": "https://leviathannews.xyz/229452/anthropic-appoints-vas-narasimhan-to-board-via-long-term-benefit-trust-strengthening-focus-on-responsible-ai-in-healthcare-and-life-sciences",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415111014_Qza5NJGxIIom.jpg",
+          "url": "https://www.anthropic.com/news/narasimhan-board"
+        },
+        {
+          "clicks": 15,
+          "date": "2026-06-30T18:51:45.642386+00:00",
+          "headline": "Anthropic releases Claude Sonnet 5 for developers on multiple plans via API",
+          "hot_score": 1848.892084,
+          "lev_url": "https://leviathannews.xyz/265786/whats-new-anthropic-releases-claude-sonnet-5-for-developers-on-multiple-plans-via-api-it-plans-tasks-and-uses-browsers-and-terminals-with-cyber-safeguards",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630184953_zM9NGAhvF1Sx.jpg",
+          "url": "https://www.testingcatalog.com/anthropic-launches-claude-sonnet-5-model-on-claude-and-apis/"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-05-14T07:01:07.509675+00:00",
+          "headline": "Bitcoiner cprkrn says Anthropic’s Claude AI helped recover access to a Bitcoin wallet with 5 BTC locked for more than 11 years.",
+          "hot_score": 1296.29437,
+          "lev_url": "https://leviathannews.xyz/242030/bitcoiner-cprkrn-says-anthropics-claude-ai-helped-recover-access-to-a-bitcoin-wallet-with-5-btc-locked-for-more-than-11-years",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514060622_oiEkFHu6F2Om.jpg",
+          "url": "https://x.com/cprkrn/status/2054586810475364536"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-04-17T20:54:46.914329+00:00",
+          "headline": "Anthropic’s Mythos findings reproduced with open-source tools, highlighting rapid spread of AI-driven cyber capabilities across public models",
+          "hot_score": 1190.315465,
+          "lev_url": "https://leviathannews.xyz/231892/anthropics-mythos-findings-reproduced-with-open-source-tools-highlighting-rapid-spread-of-ai-driven-cyber-capabilities-across-public-models",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417191112_na0IXUw7RtS3.png",
+          "url": "https://decrypt.co/364744/anthropic-mythos-replicated-public-models-vidoc-security"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:48:35.127384+00:00",
+      "editorial": [
+        {
+          "count": 31,
+          "source": "x.com"
+        },
+        {
+          "count": 9,
+          "source": "anthropic.com"
+        },
+        {
+          "count": 5,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 5,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "axios.com"
+        },
+        {
+          "count": 2,
+          "source": "red.anthropic.com"
+        },
+        {
+          "count": 2,
+          "source": "nytimes.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.md"
+        },
+        {
+          "count": 1,
+          "source": "wsj.com"
+        },
+        {
+          "count": 1,
+          "source": "block.xyz"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        }
+      ],
+      "editorial_distinct": 29,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 79,
+          "source": "x.com"
+        },
+        {
+          "count": 47,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 18,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 9,
+          "source": "anthropic.com"
+        },
+        {
+          "count": 4,
+          "source": "t.me"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 2,
+          "source": "perle.xyz"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "warpcast.com"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
+        }
+      ],
+      "universe_distinct": 17
+    }
+  },
+  "official_links": [
+    {
+      "handle": "anthropicresearch",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/anthropicresearch"
+    }
+  ],
+  "pillar_state_sha256": "183dfcf43af7ce22eede499f3c1de4e3d03b2810ca77de225d6a2d274c90e442",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:49.099077+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.391,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.173,
+        "lift_log": 4.405,
+        "score": 0.391,
+        "shared": 60
+      },
+      "rationale": "Claude is the flagship AI assistant product built by Anthropic.",
+      "relation_type": "product",
+      "slug": "claude",
+      "source": "cotag",
+      "tag_name": "Claude",
+      "title": "Claude, Explained",
+      "weight": 39
+    },
+    {
+      "confidence": 0.203,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0764,
+        "lift_log": 3.548,
+        "score": 0.2033,
+        "shared": 31
+      },
+      "rationale": "OpenAI is a direct competitor in the AI research and deployment space.",
+      "relation_type": "peer",
+      "slug": "openai",
+      "source": "cotag",
+      "tag_name": "OpenAI",
+      "title": "OpenAI, Explained",
+      "weight": 20
+    }
+  ],
+  "schema_version": 1,
+  "slug": "anthropic",
+  "tag_name": "Anthropic",
+  "title": "Anthropic, Explained"
+}

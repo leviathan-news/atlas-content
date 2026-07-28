@@ -1,0 +1,510 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:16:33.101167+00:00",
+      "newsroom_total": 10,
+      "overall_share": 50,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-04",
+          "newsroom": 2,
+          "universe": 4
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 2
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 2
+        }
+      ],
+      "total_universe": 20,
+      "universe_total": 10
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:16:32.792787+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "metals",
+          "phrase": "Gold is a specific metal, comparable to the broader metals category.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "gold",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "metals",
+          "phrase": "Perps are trading instruments that can be used for metals exposure.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "perps",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "metals",
+          "phrase": "Metals are a subset of real-world assets.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "real-world-assets",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "metals",
+          "phrase": "custody",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "custody",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "metals",
+          "phrase": "futures",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "futures",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Metals",
+          "slug": "metals",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Gold",
+          "slug": "gold",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Perps",
+          "slug": "perps",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Real World Assets",
+          "slug": "real-world-assets",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "Custody",
+          "slug": "custody",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Futures",
+          "slug": "futures",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:53:16.734350+00:00",
+      "events": [
+        {
+          "date": "2023-02",
+          "kind": "milestone",
+          "label": "Hong Kong issues first tokenized green bond",
+          "source": "https://www.techflowpost.com/en-US/article/31736"
+        },
+        {
+          "date": "2025-04",
+          "kind": "milestone",
+          "label": "Gold's worst single-day crash in 40+ years; Bitcoin holds ~$82K",
+          "source": "https://x.com/WuBlockchain/status/1941396712272322701"
+        },
+        {
+          "date": "2025-05",
+          "kind": "regulatory",
+          "label": "New Hampshire signs law permitting state investment in crypto and precious metals",
+          "source": "https://www.facebook.com/KellyAyotteForNH/posts/new-hampshire-is-once-again-first-in-the-nation-just-signed-a-new-law-allowing-o/1231536788344143/"
+        },
+        {
+          "date": "2025-07",
+          "kind": "launch",
+          "label": "Ostium lists palladium (XPD) and platinum (XPT) perpetuals",
+          "source": "https://x.com/OstiumLabs/status/1945540768355197124"
+        },
+        {
+          "date": "2025-09",
+          "kind": "milestone",
+          "label": "Hong Kong issues second tokenized green bond; plans metals tokenization expansion",
+          "source": "https://www.techflowpost.com/en-US/article/31736"
+        },
+        {
+          "date": "2026-01",
+          "kind": "launch",
+          "label": "Pyth launches 24/7 index feeds covering metals, oil, and US equities",
+          "source": "https://www.pyth.network/blog/24-7-finance-needs-24-7-price-infrastructure-introducing-pyth-indices"
+        },
+        {
+          "date": "2026-03",
+          "kind": "launch",
+          "label": "Tezos backs Metals.io launch with gold, uranium, and rare earth tokenization",
+          "source": "https://thedefiant.io/news/blockchains/metals-io-brings-tokenized-gold-uranium-and-rare-earth-metals-to-tezos"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "ICE parent (NYSE) taps Chainlink to bring forex and precious metals data onchain",
+          "source": "https://chain.link/article/tokenized-metals-onchain"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:53:16.734026+00:00",
+      "insight": "Readers click metals-in-crypto stories not for yield or DeFi composability — but to validate that the category is real: the two highest-clicked stories are both legitimacy signals (a NASDAQ-parent oracle deal and a state law), while the 'tokenized metals sit unused onchain' story also got heavy traffic, revealing an audience actively stress-testing whether metals tokenization has substance beyond market-cap headlines.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://a16zcrypto.com/posts/article/tokenized-asset-rwa-market-data-charts/"
+    },
+    "reader_signal": {
+      "article_count": 10,
+      "as_of": "2026-07-01T12:16:33.734695+00:00",
+      "most_clicked": {
+        "clicks": 87,
+        "date": "2025-08-11T13:07:41.234157+00:00",
+        "headline": "NYSE-parent ICE taps Chainlink to bring forex, precious metals data onchain",
+        "lev_url": "https://leviathannews.xyz/14253/nyse-parent-ice-taps-chainlink-to-bring-forex-precious-metals-data-onchain"
+      },
+      "provenance": "data",
+      "top_decile_share": 19,
+      "total_clicks": 463
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:53:16.734247+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://chain.link/article/tokenized-metals-onchain",
+          "thread": "TradFi oracle rails for metals",
+          "why": "ICE parent backing Chainlink for forex and metals data onchain was the single highest-clicked story, signaling readers treat institutional data infrastructure as the credibility gate for the whole metals-tokenization thesis."
+        },
+        {
+          "source": "https://www.facebook.com/KellyAyotteForNH/posts/new-hampshire-is-once-again-first-in-the-nation-just-signed-a-new-law-allowing-o/1231536788344143/",
+          "thread": "State and sovereign endorsement",
+          "why": "New Hampshire's law permitting state-level investment in crypto and precious metals and Hong Kong's multi-round tokenized bond program with explicit metals expansion plans read as green lights from real governments, not just DeFi natives."
+        },
+        {
+          "source": "https://x.com/OstiumLabs/status/1945540768355197124",
+          "thread": "New perpetuals venues for metals",
+          "why": "Ostium's palladium and platinum listings and Hyperliquid's HIP-3 crossing $2B open interest show readers tracking where actual price-discovery liquidity is forming for metals, not just custody."
+        },
+        {
+          "source": "https://thedefiant.io/news/blockchains/metals-io-brings-tokenized-gold-uranium-and-rare-earth-metals-to-tezos",
+          "thread": "Exotic and strategic metals onchain",
+          "why": "The Tezos-backed Metals.io pitch — uranium and rare earths alongside gold — tapped a distinct angle: AI and industrial demand, not just store-of-value, as the demand driver for tokenized commodity access."
+        },
+        {
+          "source": "https://a16zcrypto.com/posts/article/tokenized-asset-rwa-market-data-charts/",
+          "thread": "Tokenized metals DeFi utilization gap",
+          "why": "The a16z-sourced finding that bonds and metals have large tokenized market caps but almost no DeFi activity attracted clicks precisely because it punctures the hype with data on actual usage."
+        },
+        {
+          "source": "https://x.com/WuBlockchain/status/1941396712272322701",
+          "thread": "Gold crash Bitcoin rotation thesis",
+          "why": "Gold's worst single-day drop in four decades coinciding with Bitcoin holding above $82K gave the BTC-as-digital-gold narrative a live test case readers wanted to examine."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:53:16.734263+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / oracle",
+          "level": "Medium",
+          "note": "Tokenized metals pricing depends entirely on oracle feeds (Chainlink, Pyth); a manipulated price feed can trigger mass liquidations on metals perps without any underlying custody failure.",
+          "source": "https://www.pyth.network/blog/24-7-finance-needs-24-7-price-infrastructure-introducing-pyth-indices"
+        },
+        {
+          "dimension": "Centralization / custody",
+          "level": "High",
+          "note": "Physical metal backing requires trusted custodians — unlike crypto-native collateral, there is no on-chain proof of reserve that cannot be faked at the auditor layer, making the entire category dependent on off-chain institutional trust.",
+          "source": "https://chain.link/article/tokenized-metals-onchain"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "The a16z RWA dataset shows metals have among the largest tokenized market caps but among the lowest on-chain DeFi utilization rates, meaning exit liquidity in a stress event is shallow relative to headline TVL.",
+          "source": "https://a16zcrypto.com/posts/article/tokenized-asset-rwa-market-data-charts/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "U.S. state-level signals (New Hampshire) and Hong Kong's bond programs are positive, but no federal U.S. framework exists for tokenized commodity securities, leaving custody and transfer rules ambiguous for institutional participants.",
+          "source": "https://www.facebook.com/KellyAyotteForNH/posts/new-hampshire-is-once-again-first-in-the-nation-just-signed-a-new-law-allowing-o/1231536788344143/"
+        },
+        {
+          "dimension": "Market / correlation",
+          "level": "Medium",
+          "note": "Gold's sharp single-day selloff demonstrated that tokenized metals inherit macro-commodity volatility in full; perpetuals on metals amplify this with leverage, and thin on-chain order books can gap far worse than the spot market.",
+          "source": "https://x.com/WuBlockchain/status/1941396712272322701"
+        },
+        {
+          "dimension": "Counterparty / legal",
+          "level": "Medium",
+          "note": "The XRP-precious-metals theft lawsuit illustrates that off-chain claims over metals held alongside crypto create contested legal ownership that blockchain provenance alone cannot resolve.",
+          "source": ""
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:16:33.659572+00:00",
+      "items": [
+        {
+          "clicks": 45,
+          "date": "2026-04-16T22:52:26.435717+00:00",
+          "headline": "Tezos backs Metals platform bringing gold, uranium, and rare earth assets onchain, enabling investors to access critical materials driving AI and industrial growth",
+          "hot_score": 3902.315025,
+          "lev_url": "https://leviathannews.xyz/230326/tezos-backs-metals-platform-bringing-gold-uranium-and-rare-earth-assets-onchain-enabling-investors-to-access-critical-materials-driving-ai-and-industrial-growth",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416094615_EEFiliT1CAvC.jpg",
+          "url": "https://x.com/i/status/2044702445402829308"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-04-16T03:58:54.584811+00:00",
+          "headline": "Hyperliquid HIP-3 surpasses $2B in open interest as tokenized equities displace metals",
+          "hot_score": 3466.972338,
+          "lev_url": "https://leviathannews.xyz/229882/hyperliquid-hip-3-surpasses-2b-in-open-interest-as-tokenized-equities-displace-metals",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416002117_ggLZyq4zI_hr.jpg",
+          "url": "https://www.theblock.co/post/397276/hip-3-open-interest-2-billion-demand-24-7-tokenized-equity-exposure"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-06-10T13:14:55.457705+00:00",
+          "headline": "Pyth launches 24/7 indices for US stocks, oil and metals, enabling round-the-clock trading across perps, prediction markets and tokenized assets",
+          "hot_score": 688.38675,
+          "lev_url": "https://leviathannews.xyz/255283/no-headline-20260610",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260610130637_ZLDfFSciFbH0.jpg",
+          "url": "https://www.theblock.co/post/404238/pyth-launches-24-7-proprietary-indices-for-us-equities-oil-and-metals?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-05-26T17:49:54.370636+00:00",
+          "headline": "Most tokenized RWAs just sit onchain: bonds and metals have huge tokenized caps but minimal DeFi use, while DeFi-native assets like reinsurance and private credit see far higher onchain utilization.",
+          "hot_score": 450.257074,
+          "lev_url": "https://leviathannews.xyz/248523/most-tokenized-rwas-just-sit-onchain-bonds-and-metals-have-huge-tokenized-caps-but-minimal-defi-use-while-defi-native-assets-like-reinsurance-and-private-credit-see-far-higher-onch",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260526174906_snqWcf0lkMQP.jpg",
+          "url": "https://x.com/a16zcrypto/status/2059326250234327186"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-02-01T00:16:11.819088+00:00",
+          "headline": "Gold suffered its worst single-day crash in over 40 years, with ~$3T wiped from precious metals, while Bitcoin held above ~$82k—fueling a thesis that capital may rotate from crowded gold trades into BTC over the next few months as macro liquidity improves.",
+          "hot_score": 36.906435,
+          "lev_url": "https://leviathannews.xyz/24356/gold-suffered-its-worst-single-day-crash-in-over-40-years-with-3t-wiped-from-precious-metals-while-bitcoin-held-above-82kfueling-a-thesis-that-capital-may-rotate-from-crowded-gold-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260131233630_IDNKOYolhNc=.jpg",
+          "url": "https://x.com/i/status/2017533732102504519"
+        },
+        {
+          "clicks": 25,
+          "date": "2026-01-14T00:14:58.262787+00:00",
+          "headline": "A Tennessee man accused of stealing over $11M in XRP from Nancy Jones, widow of country music legend George Jones, has countersued, claiming entitlement to the crypto, cash, and precious metals after allegedly managing and growing the assets during their relationship.",
+          "hot_score": 28.842572,
+          "lev_url": "https://leviathannews.xyz/23608/a-tennessee-man-accused-of-stealing-over-11m-in-xrp-from-nancy-jones-widow-of-country-music-legend-george-jones-has-countersued-claiming-entitlement-to-the-crypto-cash-and-precious",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260114000750_AECwWK9i_jI=.jpg",
+          "url": "https://decrypt.co/354492/alleged-11-million-xrp-thief-countersues-widow-george-jones"
+        },
+        {
+          "clicks": 87,
+          "date": "2025-08-11T13:07:41.234157+00:00",
+          "headline": "NYSE-parent ICE taps Chainlink to bring forex, precious metals data onchain",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/14253/nyse-parent-ice-taps-chainlink-to-bring-forex-precious-metals-data-onchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250811125134_EM6qBE6F8EM=.jpg",
+          "url": "https://cointelegraph.com/news/chainlink-ice-forex-precious-metals-data-onchain"
+        },
+        {
+          "clicks": 69,
+          "date": "2025-05-06T17:31:31.004962+00:00",
+          "headline": "New Hampshire takes the lead as Governor Kelly Ayotte signs groundbreaking law allowing state investments in crypto and precious metals.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/11065/new-hampshire-takes-the-lead-as-governor-kelly-ayotte-signs-groundbreaking-law-allowing-state-investments-in-crypto-and-precious-metals",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250506172343_OfaayYROBe4=.jpg",
+          "url": "https://x.com/KellyAyotte/status/1919783147463426283"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:16:33.575412+00:00",
+      "editorial": [
+        {
+          "count": 5,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "dw-media.tkww.hk"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        }
+      ],
+      "editorial_distinct": 5,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 5,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "pyth.network"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "spotlight.tezos.com"
+        }
+      ],
+      "universe_distinct": 6
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "01b9f0d28fad48c21c4d1d0f49e82fdcd73478a834c6713ac560ac5529257723",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:16.565209+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.243,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0074,
+        "lift_log": 3.036,
+        "score": 0.2435,
+        "shared": 3
+      },
+      "rationale": "Gold is a specific metal, comparable to the broader metals category.",
+      "relation_type": "peer",
+      "slug": "gold",
+      "source": "cotag",
+      "tag_name": "Gold",
+      "title": "Gold, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.2,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0204,
+        "lift_log": 4.147,
+        "score": 0.2004,
+        "shared": 3
+      },
+      "rationale": "Perps are trading instruments that can be used for metals exposure.",
+      "relation_type": "infrastructure",
+      "slug": "perps",
+      "source": "cotag",
+      "tag_name": "Perps",
+      "title": "Perps, Explained",
+      "weight": 20
+    }
+  ],
+  "schema_version": 1,
+  "slug": "metals",
+  "tag_name": "Metals",
+  "title": "Metals, Explained"
+}

@@ -1,0 +1,444 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:15:21.819782+00:00",
+      "newsroom_total": 5,
+      "overall_share": 16,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 6
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-04",
+          "newsroom": 2,
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 4
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-06",
+          "newsroom": 2,
+          "universe": 6
+        }
+      ],
+      "total_universe": 32,
+      "universe_total": 27
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:15:21.493518+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "spreads",
+          "phrase": "Malware can manipulate spreads via price manipulation attacks.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "malware",
+          "weight": 35
+        },
+        {
+          "dir": "out",
+          "from": "spreads",
+          "phrase": "Spreads are directly affected by liquidity in order books.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "spreads",
+          "phrase": "Unclear direct relation; both are broad tech concepts.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "microsoft",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "spreads",
+          "phrase": "Wallets execute trades that determine spreads.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "wallet",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "spreads",
+          "phrase": "lending",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "lending",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Spreads",
+          "slug": "spreads",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "malware",
+          "slug": "malware",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 35
+        },
+        {
+          "center": false,
+          "name": "Liquidity",
+          "slug": "liquidity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Microsoft",
+          "slug": "microsoft",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Wallet",
+          "slug": "wallet",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "Lending",
+          "slug": "lending",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:29:13.542922+00:00",
+      "events": [
+        {
+          "date": "2026-02",
+          "kind": "regulatory",
+          "label": "Microsoft identifies Tor-based crypto clipper spreading via USB .lnk shortcuts",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "milestone",
+          "label": "Binance expands Spot Altcoin Liquidity Boost Program to 40 trading pairs",
+          "source": "https://coinmarketcap.com/academy/glossary/bid-ask-spread"
+        },
+        {
+          "date": "2026-05",
+          "kind": "exploit",
+          "label": "avUSD interest rate hits -87% on Aave; contagion spreads to Morpho",
+          "source": "https://eco.com/support/en/articles/12271620-best-defi-lending-platforms-2026"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Spreads.fi launches live with tokenized stocks and politician portfolio copy-trading",
+          "source": "https://alearesearch.substack.com/p/spreadsfi-defi-equity-markets"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:29:13.542672+00:00",
+      "insight": "Readers click 'spreads' for two opposite reasons that rarely overlap: platform alpha (a new venue letting retail copy-trade political portfolios in one click) and contagion alarm (a spread blowing out on Aave signals systemic stress) — meaning the word itself is a sentiment barometer, not a single topic.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://alearesearch.substack.com/p/spreadsfi-defi-equity-markets"
+    },
+    "reader_signal": {
+      "article_count": 5,
+      "as_of": "2026-07-01T12:15:22.375575+00:00",
+      "most_clicked": {
+        "clicks": 102,
+        "date": "2026-03-23T23:19:50.828832+00:00",
+        "headline": "Spreads is live, offering users to trade tokenized stocks, and copy trade politicians, funds, and social media equities portfolio in one click",
+        "lev_url": "https://leviathannews.xyz/214740/spreads-is-live-offering-users-to-trade-tokenized-stocks-and-copy-trade-politicians-funds-and-social-media-equities-portfolio-in-one-click"
+      },
+      "provenance": "data",
+      "top_decile_share": 38,
+      "total_clicks": 265
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:29:13.542759+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://alearesearch.substack.com/p/spreadsfi-defi-equity-markets",
+          "thread": "Spreads.fi tokenized equity copy-trading",
+          "why": "The platform's pitch — trade tokenized stocks and mirror politicians' or funds' portfolios in one click — hit a nerve with readers primed for RWA and social-trading narratives simultaneously."
+        },
+        {
+          "source": "https://www.investopedia.com/terms/y/yieldspread.asp",
+          "thread": "avUSD Aave contagion blowout",
+          "why": "An -87% interest rate on a stablecoin inside a top lending protocol is a systemic stress signal; readers treat it as an early-warning spread for broader DeFi contagion."
+        },
+        {
+          "source": "https://coinmarketcap.com/academy/glossary/bid-ask-spread",
+          "thread": "Binance altcoin liquidity program",
+          "why": "A centralized exchange actively subsidizing tighter spreads across 40 pairs signals that thin altcoin liquidity is a recognised structural problem, not a fringe edge case."
+        },
+        {
+          "source": "",
+          "thread": "USB malware hijacking wallet addresses",
+          "why": "Microsoft's warning about a Tor-routed clipper that spreads via USB shortcuts tied 'spreads' to a real, deniable attack vector that hits non-technical holders hardest."
+        },
+        {
+          "source": "https://metamask.io/news/5-cent-spread-prediction-markets",
+          "thread": "PropAMM oracle-driven spread compression",
+          "why": "Oracle-priced AMMs promising CEX-tight spreads and MEV resistance represent the leading structural alternative to constant-product pools, drawing readers tracking execution quality."
+        },
+        {
+          "source": "https://metamask.io/news/5-cent-spread-prediction-markets",
+          "thread": "Prediction market bid-ask efficiency",
+          "why": "Wide spreads in prediction markets directly erode expected value for informed bettors, making spread width a proxy for market maturity and manipulation resistance."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:29:13.542771+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "Altcoin pairs on both CEXs and DEXs routinely show spreads wide enough to make round-trip trades unprofitable without exchange subsidy programs or oracle pricing.",
+          "source": "https://coinmarketcap.com/academy/glossary/bid-ask-spread"
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "High",
+          "note": "The avUSD -87% Aave rate event shows that a single protocol's interest-rate curve miscalibration can cascade spread blowouts across connected money markets like Morpho.",
+          "source": "https://eco.com/support/en/articles/12271620-best-defi-lending-platforms-2026"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Basis and funding-rate spreads that institutional desks exploit via perpetual-spot arbitrage can compress or invert rapidly under risk-off flows, trapping leveraged positions.",
+          "source": "https://www.cv5capital.io/en/insights/crypto-basis-trades-institutional-funds"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Tokenized-stock trading platforms like Spreads.fi operate in a legal grey zone where offering synthetic equities to retail without broker-dealer registration invites SEC enforcement.",
+          "source": "https://alearesearch.substack.com/p/spreadsfi-defi-equity-markets"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Oracle-dependent PropAMMs achieve tight spreads only as long as price-feed providers remain manipulation-resistant and online; a stale or corrupted oracle reverts execution quality to zero.",
+          "source": "https://metamask.io/news/5-cent-spread-prediction-markets"
+        },
+        {
+          "dimension": "Security",
+          "level": "High",
+          "note": "The Tor-routed USB clipper identified by Microsoft silently swaps wallet addresses at the clipboard level, requiring zero user interaction beyond plugging in a drive — no smart-contract audit covers this vector.",
+          "source": ""
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:15:22.298717+00:00",
+      "items": [
+        {
+          "clicks": 27,
+          "date": "2026-06-28T05:22:24.055585+00:00",
+          "headline": "Hypercall brings S&P 500 options live next to SPCX with calls, puts, spreads, and strategy templates",
+          "hot_score": 1021.601924,
+          "lev_url": "https://leviathannews.xyz/264077/hypercall-brings-sp-500-options-live-next-to-spcx-with-calls-puts-spreads-and-strategy-templates",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628022910_Z4zrlaiDPw==.png",
+          "url": "https://x.com/synapseprotocol/status/2071044954378387735"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-06-19T10:20:46.192648+00:00",
+          "headline": "Microsoft warns Tor-based crypto clipper spreads via USB shortcuts to steal seed phrases and swap wallet addresses",
+          "hot_score": 699.658423,
+          "lev_url": "https://leviathannews.xyz/259212/microsoft-warns-tor-based-crypto-clipper-spreads-via-usb-shortcuts-to-steal-seed-phrases-and-swap-wallet-addresses",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260619060705_Z4zrlaiDPw==.png",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
+        },
+        {
+          "clicks": 53,
+          "date": "2026-04-21T03:54:51.816348+00:00",
+          "headline": "Avant's avUSD hits -87% interest rate on Aave as contagion spreads to Morpho",
+          "hot_score": 495.2,
+          "lev_url": "https://leviathannews.xyz/234027/avants-avusd-hits-87-interest-rate-on-aave-as-contagion-spreads-to-morpho",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421025537_Z4zrlaiDPw==.png",
+          "url": "https://x.com/AlphaFolio/status/2046410281493180576"
+        },
+        {
+          "clicks": 102,
+          "date": "2026-03-23T23:19:50.828832+00:00",
+          "headline": "Spreads is live, offering users to trade tokenized stocks, and copy trade politicians, funds, and social media equities portfolio in one click",
+          "hot_score": 492.474796,
+          "lev_url": "https://leviathannews.xyz/214740/spreads-is-live-offering-users-to-trade-tokenized-stocks-and-copy-trade-politicians-funds-and-social-media-equities-portfolio-in-one-click",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260323231656_coh-wR_g8s15.jpg",
+          "url": "https://x.com/spreads_fi/status/2036147829211591034"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-11T13:14:19.334799+00:00",
+          "headline": "Binance expands Spot Altcoin Liquidity Boost Program to 40 pairs, improving spreads, reducing slippage, and enhancing trading efficiency across supported altcoins",
+          "hot_score": 82.481267,
+          "lev_url": "https://leviathannews.xyz/226689/binance-updates-the-spot-altcoin-liquidity-boost-program-weve-doubled-the-number-of-supported-pairs-from-20-to-40-meaning-more-altcoins-now-benefit-from-tighter-spreads-r",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411115047_tLV2IubpoYFD.jpg",
+          "url": "https://x.com/i/status/2042890803408966115"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:15:22.212932+00:00",
+      "editorial": [
+        {
+          "count": 4,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "microsoft.com"
+        }
+      ],
+      "editorial_distinct": 2,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 21,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "metamask.io"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        }
+      ],
+      "universe_distinct": 7
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "2afb5c5ac42d6ee993f9d092453d5fd4a2f0c5fc6956d0ad7399a63ca04f0360",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:29.823573+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.246,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.01,
+        "lift_log": 3.068,
+        "score": 0.2461,
+        "shared": 3
+      },
+      "rationale": "Spreads are directly affected by liquidity in order books.",
+      "relation_type": "primitive",
+      "slug": "liquidity",
+      "source": "cotag",
+      "tag_name": "Liquidity",
+      "title": "Liquidity, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.347,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0456,
+        "lift_log": 4.902,
+        "score": 0.3466,
+        "shared": 3
+      },
+      "rationale": "Malware can manipulate spreads via price manipulation attacks.",
+      "relation_type": "risk",
+      "slug": "malware",
+      "source": "cotag",
+      "tag_name": "malware",
+      "title": "malware, Explained",
+      "weight": 35
+    },
+    {
+      "confidence": 0.238,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0443,
+        "lift_log": 4.731,
+        "score": 0.2383,
+        "shared": 4
+      },
+      "rationale": "Unclear direct relation; both are broad tech concepts.",
+      "relation_type": "peer",
+      "slug": "microsoft",
+      "source": "cotag",
+      "tag_name": "Microsoft",
+      "title": "Microsoft, Explained",
+      "weight": 24
+    }
+  ],
+  "schema_version": 1,
+  "slug": "spreads",
+  "tag_name": "Spreads",
+  "title": "Spreads, Explained"
+}

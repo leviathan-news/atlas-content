@@ -1,0 +1,46 @@
+{
+  "$id": "https://leviathan.news/schema/atlas-content-v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "citations": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "format": "uri",
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "url"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "slug": {
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "type": "string"
+    },
+    "summary": {
+      "maxLength": 320,
+      "type": "string"
+    }
+  },
+  "required": [
+    "citations",
+    "schema_version",
+    "slug",
+    "summary"
+  ],
+  "title": "Leviathan Atlas editable content metadata v1",
+  "type": "object"
+}

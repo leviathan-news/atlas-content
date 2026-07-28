@@ -1,0 +1,511 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:07:50.471649+00:00",
+      "newsroom_total": 12,
+      "overall_share": 15,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 3
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-03",
+          "newsroom": 2,
+          "universe": 21
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 8
+        },
+        {
+          "ed_share": 15,
+          "month": "2026-05",
+          "newsroom": 4,
+          "universe": 22
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 16
+        }
+      ],
+      "total_universe": 82,
+      "universe_total": 70
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:07:50.140933+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "stacks",
+          "phrase": "Stacks published a white paper describing its architecture.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "white-paper",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "stacks",
+          "phrase": "Stacks enables yield through stacking (STX staking).",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "yield",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "stacks",
+          "phrase": "Stacks is a layer-2 blockchain for Bitcoin.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "layer-2",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "stacks",
+          "phrase": "Stacks settles transactions on Bitcoin blockchain.",
+          "relation_type": "protocol",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "stacks",
+          "phrase": "AI agents can be built on Stacks via smart contracts.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "ai-agents",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Stacks",
+          "slug": "stacks",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "White Paper",
+          "slug": "white-paper",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Yield",
+          "slug": "yield",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Layer 2",
+          "slug": "layer-2",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "AI Agents",
+          "slug": "ai-agents",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T07:38:50.098068+00:00",
+      "events": [
+        {
+          "date": "2024-10",
+          "kind": "milestone",
+          "label": "Nakamoto upgrade activates on mainnet",
+          "source": "https://docs.stacks.co/reference/nakamoto-upgrade/what-is-the-nakamoto-release"
+        },
+        {
+          "date": "2025-06",
+          "kind": "milestone",
+          "label": "SIP-034 upgrade resets exhausted throughput limits, lifting DeFi capacity up to 30x",
+          "source": "https://docs.stacks.co/reference/nakamoto-upgrade/what-is-the-nakamoto-release"
+        },
+        {
+          "date": "2025-12",
+          "kind": "launch",
+          "label": "USDCx launches on Stacks; Allbridge Core cross-chain integration goes live",
+          "source": "https://www.stacks.co/blog/usdcx-launch-stacks-bitcoin-defi"
+        },
+        {
+          "date": "2026-01",
+          "kind": "milestone",
+          "label": "AI agents begin autonomously earning Bitcoin via STX rails on mainnet",
+          "source": "https://www.stacks.co/blog/ai-agents-are-starting-to-earn-bitcoin"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "Bitcoin staking whitepaper published; $500M in prior PoX payouts cited",
+          "source": "https://chainwire.org/2026/05/13/stacks-publishes-bitcoin-staking-whitepaper-for-self-custodial-bitcoin-yield-backed-by-500m-already-paid-out/"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "UTXO Management (Nakamoto subsidiary) joins as inaugural institutional BTC staking participant",
+          "source": "https://markets.businessinsider.com/news/currencies/utxo-management-nakamoto-subsidiary-joins-stacks-as-inaugural-bitcoin-staking-participant-1036204134"
+        },
+        {
+          "date": "2026-06",
+          "kind": "governance",
+          "label": "2026 roadmap published: self-custodial BTC staking, 100x throughput target, 10K AI agent goal",
+          "source": "https://www.stacks.co/roadmap"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T07:38:50.097906+00:00",
+      "insight": "Readers aren't clicking Stacks for its smart-contract novelty — they're clicking because it frames dormant Bitcoin as a yield-bearing asset you don't have to surrender custody of, and every sub-story (AI agents, institutional staking, throughput upgrades) is really a stress-test of whether that promise holds.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.stacks.co/bitcoin-staking"
+    },
+    "reader_signal": {
+      "article_count": 12,
+      "as_of": "2026-07-01T12:07:51.013436+00:00",
+      "most_clicked": {
+        "clicks": 138,
+        "date": "2024-02-16T09:29:43.075013+00:00",
+        "headline": "Stacks, the 'layer-2' Bitcoin DeFi project, is on the brink of surpassing its previous all-time high, outpacing Bitcoin's climb.",
+        "lev_url": "https://leviathannews.xyz/3995/stacks-the-layer-2-bitcoin-defi-project-is-on-the-brink-of-surpassing-its-previous-all-time-high-outpacing-bitcoins-climb"
+      },
+      "provenance": "data",
+      "top_decile_share": 21,
+      "total_clicks": 647
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T07:38:50.097978+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.stacks.co",
+          "thread": "STX price vs. BTC momentum",
+          "why": "The highest-clicked headline framed Stacks as a Bitcoin-adjacent trade that could outperform BTC itself, which is a rare pitch for a L2 and pulled in traders scanning for leverage on Bitcoin cycles."
+        },
+        {
+          "source": "https://chainwire.org/2026/05/13/stacks-publishes-bitcoin-staking-whitepaper-for-self-custodial-bitcoin-yield-backed-by-500m-already-paid-out/",
+          "thread": "Self-custodial BTC staking yield",
+          "why": "Multiple mid-tier hits clustered around the whitepaper, $500M in prior payouts, and the specific custody question — readers want Bitcoin yield without a custodian, and Stacks is one of very few credible pitches for it."
+        },
+        {
+          "source": "https://www.stacks.co/blog/ai-agents-are-starting-to-earn-bitcoin",
+          "thread": "AI agents earning Bitcoin autonomously",
+          "why": "The angle that software programs are already transacting on-chain and earning real BTC without human input hit a nerve at the intersection of two dominant 2025–26 narratives: AI agents and Bitcoin utility."
+        },
+        {
+          "source": "https://docs.stacks.co/reference/nakamoto-upgrade/what-is-the-nakamoto-release",
+          "thread": "SIP-034 throughput upgrade path",
+          "why": "Readers engaged the technical milestone because it was framed as unlocking DeFi capacity constraints — a credible signal that the L2 is scaling rather than stalling."
+        },
+        {
+          "source": "https://markets.businessinsider.com/news/currencies/utxo-management-nakamoto-subsidiary-joins-stacks-as-inaugural-bitcoin-staking-participant-1036204134",
+          "thread": "Institutional on-ramp (Fireblocks, UTXO Mgmt)",
+          "why": "Fireblocks and UTXO Management headlines attracted clicks from readers who treat institutional custody integrations as a leading indicator of sustained liquidity rather than retail speculation."
+        },
+        {
+          "source": "https://www.stacks.co/roadmap",
+          "thread": "2026 roadmap: 100x throughput, 10K agents",
+          "why": "Concrete numeric targets in the roadmap (throughput multiple, agent count) gave readers something specific to evaluate rather than generic DeFi boosterism."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T07:38:50.097990+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / protocol",
+          "level": "Medium",
+          "note": "Clarity is a decidable, non-Turing-complete language which eliminates entire classes of reentrancy bugs, but the sBTC peg contracts and AI-agent interaction surfaces are novel enough that meaningful unaudited attack surface remains.",
+          "source": "https://github.com/stacks-network/sbtc"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "The Nakamoto upgrade shifted block production to a miner+signer set, improving throughput but concentrating liveness risk in a relatively small set of stackers who must co-sign blocks.",
+          "source": "https://docs.stacks.co/reference/nakamoto-upgrade/what-is-the-nakamoto-release"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "The $160M+ trading volume milestone and cross-chain USDCx bridging via Allbridge are growth signals, but total locked value is still small relative to Ethereum L2s, making large exits price-disruptive.",
+          "source": "https://www.stacks.co/blog/usdcx-launch-stacks-bitcoin-defi"
+        },
+        {
+          "dimension": "Slashing / stacking penalty",
+          "level": "Medium",
+          "note": "PoX stacking carries documented risks of reward skips, dynamic minimum threshold changes, and lock-up losses during missed cycles — real BTC yield is not guaranteed per cycle.",
+          "source": "https://chainwire.org/2026/05/13/stacks-publishes-bitcoin-staking-whitepaper-for-self-custodial-bitcoin-yield-backed-by-500m-already-paid-out/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Stacking yields paid in BTC could be classified as securities income in multiple jurisdictions, and self-custodial staking whitepapers do not insulate the protocol from enforcement actions targeting yield products.",
+          "source": "https://www.stacks.co/bitcoin-staking"
+        },
+        {
+          "dimension": "Market / STX price",
+          "level": "High",
+          "note": "STX is doubly leveraged — it inherits Bitcoin's volatility while also pricing in speculative DeFi and AI-agent adoption curves that remain unproven at scale, making drawdowns sharper than BTC itself.",
+          "source": "https://www.stacks.co"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:07:50.937422+00:00",
+      "items": [
+        {
+          "clicks": 65,
+          "date": "2026-05-07T15:41:34.771237+00:00",
+          "headline": "Stacks unveils 2026 roadmap to turn dormant Bitcoin into productive capital through self-custodial BTC staking, DeFi rails and institutional finance",
+          "hot_score": 756.288788,
+          "lev_url": "https://leviathannews.xyz/238936/stacks-unveils-2026-roadmap-to-turn-dormant-bitcoin-into-productive-capital-through-self-custodial-btc-staking-defi-rails-and-institutional-finance",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260507060018_Y4x6h2gB8txr.jpg",
+          "url": "https://x.com/i/web/status/2051952485414175177"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-05-28T22:37:32.661950+00:00",
+          "headline": "Nakamoto's UTXO Management joins Stacks' Bitcoin staking launch as inaugural institution",
+          "hot_score": 715.221912,
+          "lev_url": "https://leviathannews.xyz/249755/nakamotos-utxo-management-joins-stacks-bitcoin-staking-launch-as-inaugural-institution",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260528223635_Z4zrlaiDPw==.png",
+          "url": "https://x.com/utxomgmt/status/2060023640792396244"
+        },
+        {
+          "clicks": 26,
+          "date": "2026-05-16T18:32:13.388757+00:00",
+          "headline": "Stacks 2026 roadmap targets self-custodial BTC staking, 100x throughput, and 10K AI agents",
+          "hot_score": 492.418797,
+          "lev_url": "https://leviathannews.xyz/243627/stacks-2026-roadmap-targets-self-custodial-btc-staking-100x-throughput-and-10k-ai-agents",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260516181457_Z4zrlaiDPw==.png",
+          "url": "https://www.stacks.co/roadmap"
+        },
+        {
+          "clicks": 66,
+          "date": "2026-03-17T16:33:10.162589+00:00",
+          "headline": "Bitcoin Layer 2 Stacks rolls out SIP-034 upgrade, improving throughput by resetting only exhausted limits and unlocking higher efficiency for DeFi workloads",
+          "hot_score": 271.435264,
+          "lev_url": "https://leviathannews.xyz/211066/bitcoin-layer-2-stacks-rolls-out-sip-034-upgrade-improving-throughput-by-resetting-only-exhausted-limits-and-unlocking-higher-efficiency-for-defi-workloads",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260317163015_9l0rYw0Z_2MC.jpg",
+          "url": "https://www.theblock.co/post/393931/bitcoin-layer-2-stacks-upgrade-boosts-defi-capacity?utm_source=twitter&utm_medium=social"
+        },
+        {
+          "clicks": 66,
+          "date": "2026-03-13T07:59:55.365547+00:00",
+          "headline": "AI agents are beginning to earn Bitcoin on Stacks as autonomous programs trade, run services, and transact on-chain without human input",
+          "hot_score": 214.065183,
+          "lev_url": "https://leviathannews.xyz/209200/ai-agents-are-beginning-to-earn-bitcoin-on-stacks-as-autonomous-programs-trade-run-services-and-transact-on-chain-without-human-input",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260313075309_cEIaLqycOYoS.jpg",
+          "url": "https://x.com/i/status/2032190314400870636"
+        },
+        {
+          "clicks": 72,
+          "date": "2025-12-29T09:32:03.133074+00:00",
+          "headline": "The prison of financial mediocrity. The easiest thing to sell to a crowd like this is \"hope\", and when you understand this, you will understand the rise of the casinos (in all forms, dexes, prediction markets, etc) and the rise of trading gurus, business gurus, courses, and of course, substacks.",
+          "hot_score": 98.414249,
+          "lev_url": "https://leviathannews.xyz/23002/the-prison-of-financial-mediocrity-the-easiest-thing-to-sell-to-a-crowd-like-this-is-hope-and-when-you-understand-this-you-will-understand-the-rise-of-the-casinos-in-all-forms-dexe",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251229075114_C1G5rz2NBT4=.jpg",
+          "url": "https://x.com/systematicls/status/2004900241745883205"
+        },
+        {
+          "clicks": 58,
+          "date": "2025-12-24T21:17:08.360902+00:00",
+          "headline": "2025 wasn’t about one “best” LLM—it was about stacks. Users mixed models by task: Claude for coding, GPT-5.x for agents/chat, DeepSeek/Qwen for cheap scale, Gemini for research, and niche tools for creativity.",
+          "hot_score": 75.580191,
+          "lev_url": "https://leviathannews.xyz/22949/2025-wasnt-about-one-best-llmit-was-about-stacks-users-mixed-models-by-task-claude-for-coding-gpt-5x-for-agentschat-deepseekqwen-for-cheap-scale-gemini-for-research-and-niche-tools",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251224211413_NSAX1AVXPW8=.png",
+          "url": "https://decrypt.co/352615/best-ai-large-learning-models-llms-2025"
+        },
+        {
+          "clicks": 25,
+          "date": "2026-02-05T13:09:58.148807+00:00",
+          "headline": "Fireblocks and Stacks bring institutional access to Bitcoin DeFi.",
+          "hot_score": 34.00192,
+          "lev_url": "https://leviathannews.xyz/24968/fireblocks-and-stacks-bring-institutional-access-to-bitcoin-defi",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260205124327_cByEZZ_4TJA=.jpg",
+          "url": "https://x.com/Stacks/status/2019082785219060068"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:07:50.851289+00:00",
+      "editorial": [
+        {
+          "count": 7,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "stacks.co"
+        }
+      ],
+      "editorial_distinct": 5,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 37,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "forbes.com"
+        },
+        {
+          "count": 5,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 3,
+          "source": "independent.co.uk"
+        },
+        {
+          "count": 3,
+          "source": "wsj.com"
+        },
+        {
+          "count": 2,
+          "source": "nypost.com"
+        },
+        {
+          "count": 2,
+          "source": "channelnewsasia.com"
+        },
+        {
+          "count": 1,
+          "source": "axios.com"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "barrons.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "smh.com.au"
+        }
+      ],
+      "universe_distinct": 20
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "87989bbc0fc1885f99b15eb19bd2e070453b1e15d8eb73edab66786d04c514cc",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:30.643351+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.249,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.05,
+        "lift_log": 4.904,
+        "score": 0.2488,
+        "shared": 4
+      },
+      "rationale": "Stacks published a white paper describing its architecture.",
+      "relation_type": "product",
+      "slug": "white-paper",
+      "source": "cotag",
+      "tag_name": "White Paper",
+      "title": "White Paper, Explained",
+      "weight": 25
+    }
+  ],
+  "schema_version": 1,
+  "slug": "stacks",
+  "tag_name": "Stacks",
+  "title": "Stacks, Explained"
+}

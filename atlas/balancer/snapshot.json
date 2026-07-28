@@ -1,0 +1,575 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:10:23.705913+00:00",
+      "newsroom_total": 44,
+      "overall_share": 79,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 13,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-02",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": 40,
+          "month": "2026-03",
+          "newsroom": 6,
+          "universe": 9
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 3
+        }
+      ],
+      "total_universe": 56,
+      "universe_total": 12
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:10:23.335155+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "balancer",
+          "phrase": "Balancer has suffered exploits, e.g., in 2021 and 2023.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "exploit",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "balancer",
+          "phrase": "Yearn integrates Balancer pools for yield strategies.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "yearn",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "balancer",
+          "phrase": "Paradigm invested in Balancer and supports its development.",
+          "relation_type": "influence",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "paradigm",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "balancer",
+          "phrase": "Balancer has been forked by other projects like Beethoven X.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "fork",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "balancer",
+          "phrase": "Balancer has shut down certain pools or UI versions.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "shut-down",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Balancer",
+          "slug": "balancer",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Exploit",
+          "slug": "exploit",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Yearn",
+          "slug": "yearn",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Paradigm",
+          "slug": "paradigm",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "fork",
+          "slug": "fork",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Shut Down",
+          "slug": "shut-down",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T08:09:53.784145+00:00",
+      "events": [
+        {
+          "date": "2021-05",
+          "kind": "launch",
+          "label": "Balancer V2 launches with vault architecture",
+          "source": "https://www.openzeppelin.com/news/understanding-the-balancer-v2-exploit"
+        },
+        {
+          "date": "2023-08",
+          "kind": "exploit",
+          "label": "Critical V2 vulnerability disclosed; users urged to withdraw composable stable pool LPs",
+          "source": "https://www.openzeppelin.com/news/understanding-the-balancer-v2-exploit"
+        },
+        {
+          "date": "2023-08",
+          "kind": "exploit",
+          "label": "Multi-chain V2 composable stable pool exploit drains $120M–$128M via rounding flaw",
+          "source": "https://research.checkpoint.com/2025/how-an-attacker-drained-128m-from-balancer-through-rounding-error-exploitation/"
+        },
+        {
+          "date": "2023-11",
+          "kind": "exploit",
+          "label": "November 3 exploit drains remaining affected pool funds; Balancer releases full post-mortem",
+          "source": "https://research.checkpoint.com/2025/how-an-attacker-drained-128m-from-balancer-through-rounding-error-exploitation/"
+        },
+        {
+          "date": "2024-01",
+          "kind": "governance",
+          "label": "Balancer Labs winds down; DAO assumes control of protocol future",
+          "source": "https://news.bitcoin.com/balancer-labs-to-shut-down-as-dao-takes-control-of-protocol-future/"
+        },
+        {
+          "date": "2024-06",
+          "kind": "governance",
+          "label": "Governance proposals open for tokenomics overhaul and protocol priority reset",
+          "source": "https://docs.balancer.fi/concepts/governance/"
+        },
+        {
+          "date": "2024-12",
+          "kind": "launch",
+          "label": "Balancer V3 goes live with hooks architecture and brand refresh",
+          "source": "https://dorahacks.io/hackathon/balancer-v3-hookathon/detail"
+        },
+        {
+          "date": "2025-01",
+          "kind": "exploit",
+          "label": "Balancer exploit in 2025 ripples across chains; Berachain validators halt network",
+          "source": "https://zircuit.com/blog/inside-the-balancer-and-yearn-exploits-of-2025"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T08:09:53.784000+00:00",
+      "insight": "Readers click Balancer exploits not for the mechanics but for the audit-accountability gap: $128M drained through a rounding flaw that passed eleven named security firms, exposing that audit coverage lists are risk theater, not risk protection.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://research.checkpoint.com/2025/how-an-attacker-drained-128m-from-balancer-through-rounding-error-exploitation/"
+    },
+    "reader_signal": {
+      "article_count": 44,
+      "as_of": "2026-07-01T12:10:24.220819+00:00",
+      "most_clicked": {
+        "clicks": 275,
+        "date": "2024-07-19T01:36:38.098157+00:00",
+        "headline": "Balancer launches its refreshed brand and new UI/UX - an extensive blazing fast AMM DeFi product suite",
+        "lev_url": "https://leviathannews.xyz/6329/balancer-launches-its-refreshed-brand-and-new-uiux-an-extensive-blazing-fast-amm-defi-product-suite"
+      },
+      "provenance": "data",
+      "top_decile_share": 26,
+      "total_clicks": 3412
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T08:09:53.784065+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://research.checkpoint.com/2025/how-an-attacker-drained-128m-from-balancer-through-rounding-error-exploitation/",
+          "thread": "V2 rounding exploit accountability",
+          "why": "The fact that a stable-pool invariant rounding flaw bypassed OpenZeppelin, Trail of Bits, Certora, and eight other auditors — then drained over $120M — made readers want to understand who was responsible and why no one would comment."
+        },
+        {
+          "source": "https://defillama.com/protocol/balancer",
+          "thread": "Balancer-Aura flywheel mechanics",
+          "why": "The tokenomics coupling between veBAL and Aura represented a genuinely novel liquidity incentive loop, and readers clicked through to understand whether the flywheel was durable or reflexively fragile."
+        },
+        {
+          "source": "",
+          "thread": "LVR-resistant AMM design",
+          "why": "The CoW Protocol collaboration to eliminate loss-versus-rebalancing drew readers who recognized that LVR is the hidden tax conventional AMMs charge LPs, making this a structural competitive differentiation story."
+        },
+        {
+          "source": "https://news.bitcoin.com/balancer-labs-to-shut-down-as-dao-takes-control-of-protocol-future/",
+          "thread": "Near-shutdown tokenomics overhaul",
+          "why": "The revelation that Balancer came close to full shutdown before founder intervention — followed by governance proposals targeting emissions and protocol priorities — pulled readers looking for existential governance drama."
+        },
+        {
+          "source": "https://www.openzeppelin.com/news/understanding-the-balancer-v2-exploit",
+          "thread": "Audit firm credibility crisis",
+          "why": "Named firms declining to comment on the largest hack of the quarter turned an exploit story into a professional-accountability story, which is a rarer and more shareable angle."
+        },
+        {
+          "source": "https://dorahacks.io/hackathon/balancer-v3-hookathon/detail",
+          "thread": "V3 product evolution and rebrand",
+          "why": "Readers engaged with the brand refresh and V3 launch as a signal of whether Balancer could reinvent itself after TVL decline and serial exploits — a recovery narrative with real stakes."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T08:09:53.784075+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract",
+          "level": "High",
+          "note": "A rounding error in the stable pool invariant drained approximately $128M across chains despite eleven audits from top-tier firms, and a separate meta-stable pool vulnerability required white-hat recovery in the same period.",
+          "source": "https://research.checkpoint.com/2025/how-an-attacker-drained-128m-from-balancer-through-rounding-error-exploitation/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "Balancer's own governance analysis acknowledged that eliminating emissions failed to retain TVL, because capital demands risk premiums that superior AMM technology alone does not supply.",
+          "source": "https://defillama.com/protocol/balancer"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "The DAO took formal control of the protocol's future after Balancer Labs wound down, but the near-shutdown episode revealed that a single founder's intervention was decisive — a structural single-point-of-recovery risk.",
+          "source": "https://news.bitcoin.com/balancer-labs-to-shut-down-as-dao-takes-control-of-protocol-future/"
+        },
+        {
+          "dimension": "Governance",
+          "level": "Medium",
+          "note": "Tokenomics overhaul proposals and the Balancer-Aura flywheel create governance interdependency where veBAL holders' incentives may diverge from broader protocol health, particularly around emissions allocation.",
+          "source": "https://docs.balancer.fi/concepts/governance/"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "BAL token value is tightly coupled to the veBAL-Aura flywheel, meaning sentiment shocks — such as exploit news or TVL drawdowns — can compress incentive flows and trigger reflexive liquidity exits.",
+          "source": "https://defillama.com/protocol/balancer"
+        },
+        {
+          "dimension": "Contagion",
+          "level": "High",
+          "note": "The V2 composable stable pool exploit propagated across multiple chains simultaneously, and a subsequent Balancer-related exploit caused Berachain validators to halt the entire network — demonstrating cross-chain blast radius.",
+          "source": "https://zircuit.com/blog/inside-the-balancer-and-yearn-exploits-of-2025"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:10:24.142136+00:00",
+      "items": [
+        {
+          "clicks": 79,
+          "date": "2026-03-24T09:57:06.149201+00:00",
+          "headline": "Balancer came within inches of full shutdown before founder intervened with tokenomics overhaul, 0xngmi reveals",
+          "hot_score": 486.433346,
+          "lev_url": "https://leviathannews.xyz/214971/balancer-came-within-inches-of-full-shutdown-before-founder-intervened-with-tokenomics-overhaul-0xngmi-reveals",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260324094923_RtYuXhkDeAzP.png",
+          "url": "https://x.com/0xngmi/status/2036189205571780947"
+        },
+        {
+          "clicks": 93,
+          "date": "2026-03-12T16:30:38.234672+00:00",
+          "headline": "$128M exploit on Balancer V2 reveals how a rounding error slipped past 11 audits from firms like OpenZeppelin, Certora and many more",
+          "hot_score": 360.806559,
+          "lev_url": "https://leviathannews.xyz/208856/128m-exploit-on-balancer-v2-reveals-how-a-rounding-error-slipped-past-11-audits-from-firms-like-openzeppelin-certora-and-many-more",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260312162648_0zVpA7A09i7G.jpg",
+          "url": "https://x.com/i/status/2032119627824726153"
+        },
+        {
+          "clicks": 27,
+          "date": "2026-04-25T08:09:17.437260+00:00",
+          "headline": "Balancer's $120M exploiter reactivates after 5 months, launders $11M through THORChain mirroring Kelp DAO route",
+          "hot_score": 325.6,
+          "lev_url": "https://leviathannews.xyz/236390/balancers-120m-exploiter-reactivates-after-5-months-launders-11m-through-thorchain-mirroring-kelp-dao-route",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260425080505_Z4zrlaiDPw==.png",
+          "url": "https://www.cryptotimes.io/2026/04/24/balancer-attacker-moves-11-3m-to-btc-via-thorchain-after-kelp-dao-precedent/"
+        },
+        {
+          "clicks": 67,
+          "date": "2026-03-23T21:01:15.367029+00:00",
+          "headline": "Balancer opens two governance proposals targeting tokenomics overhaul and protocol priorities",
+          "hot_score": 269.415213,
+          "lev_url": "https://leviathannews.xyz/214662/two-new-governance-proposals-are-now-live-on-the-balancer-forum-they-cover-tokenomics-changes-and-protocol-priorities-read-both-httpsforumbalancerfitbip-xxx-operation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260323205418_mHXYOwvH_G2D.jpg",
+          "url": "https://x.com/i/status/2036163839050522911"
+        },
+        {
+          "clicks": 51,
+          "date": "2026-03-23T16:45:34.708631+00:00",
+          "headline": "Nerite, arbitrum's Liquity v2 fork, will release their $NERI governance token tomorrow on a Balancer LBP",
+          "hot_score": 159.816704,
+          "lev_url": "https://leviathannews.xyz/214495/nerite-arbitrums-liquity-v2-fork-will-release-their-neri-governance-token-tommorow-on-a-balancer-lbp",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260323163739_cf3VXl5aAJld.jpg",
+          "url": "https://x.com/NeriteOrg/status/2036108122800935258"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-02-25T17:11:25.666293+00:00",
+          "headline": "Balancer published the largest analysis of LBP performance to date!",
+          "hot_score": 127.421281,
+          "lev_url": "https://leviathannews.xyz/34132/balancer-published-the-largest-analysis-of-lbp-performance-to-date",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260225165916_gWYueindXCc=.jpg",
+          "url": "https://x.com/Balancer/status/2026691825688285498?s=20"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-03-03T18:10:20.201683+00:00",
+          "headline": "Balancer V3 is live on Monad!",
+          "hot_score": 125.399257,
+          "lev_url": "https://leviathannews.xyz/39380/balancer-v3-is-live-on-monad",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260303165700_SVln3S7WAcQ=.jpg",
+          "url": "https://x.com/Balancer/status/2028863079275172290?s=20"
+        },
+        {
+          "clicks": 92,
+          "date": "2026-03-27T15:44:48.853626+00:00",
+          "headline": "Balancer emissions elimination fails: superior tech alone won't attract DeFi liquidity. Falling TVL, exploits, and brand damage demand risk premiums; capital exits without compensation. Focus incentives on V3 pools.",
+          "hot_score": 121.137365,
+          "lev_url": "https://leviathannews.xyz/217273/balancer-emissions-elimination-fails-superior-tech-alone-wont-attract-defi-liquidity-falling-tvl-exploits-and-brand-damage-demand-risk-premiums-capital-exits-without-compensation-f",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260327141715_Z4zrlaiDPw==.png",
+          "url": "https://x.com/sagixapothecary/status/2037532853852836330"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:10:24.055837+00:00",
+      "editorial": [
+        {
+          "count": 35,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "blog.aura.finance"
+        },
+        {
+          "count": 1,
+          "source": "balancer.fi"
+        },
+        {
+          "count": 1,
+          "source": "ankr.com"
+        },
+        {
+          "count": 1,
+          "source": "etherscan.io"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptotimes.io"
+        }
+      ],
+      "editorial_distinct": 9,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "8ee9eeddec43b8eadd03bd3fd28ae9a7d9d5066deb6af297ab6f4a9193b550e7",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:51.090349+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.252,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0149,
+        "lift_log": 3.128,
+        "score": 0.252,
+        "shared": 11
+      },
+      "rationale": "Balancer has suffered exploits, e.g., in 2021 and 2023.",
+      "relation_type": "risk",
+      "slug": "exploit",
+      "source": "cotag",
+      "tag_name": "Exploit",
+      "title": "Exploit, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.212,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0317,
+        "lift_log": 4.293,
+        "score": 0.2123,
+        "shared": 3
+      },
+      "rationale": "Paradigm invested in Balancer and supports its development.",
+      "relation_type": "influence",
+      "slug": "paradigm",
+      "source": "cotag",
+      "tag_name": "Paradigm",
+      "title": "Paradigm, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.214,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0325,
+        "lift_log": 4.33,
+        "score": 0.2143,
+        "shared": 3
+      },
+      "rationale": "Yearn integrates Balancer pools for yield strategies.",
+      "relation_type": "ecosystem",
+      "slug": "yearn",
+      "source": "cotag",
+      "tag_name": "Yearn",
+      "title": "Yearn, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "balancer",
+  "tag_name": "Balancer",
+  "title": "Balancer, Explained"
+}

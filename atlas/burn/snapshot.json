@@ -1,0 +1,663 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:46:04.828626+00:00",
+      "newsroom_total": 52,
+      "overall_share": 12,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 13,
+          "month": "2026-02",
+          "newsroom": 2,
+          "universe": 13
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 83
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-04",
+          "newsroom": 8,
+          "universe": 109
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-05",
+          "newsroom": 4,
+          "universe": 58
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-06",
+          "newsroom": 5,
+          "universe": 126
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 442,
+      "universe_total": 390
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:46:04.272376+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "burn",
+          "phrase": "Burn reduces token supply, often funded by protocol revenue.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "revenue",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "burn",
+          "phrase": "Burn is a key mechanism within tokenomics design.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "tokenomics",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "burn",
+          "phrase": "Buybacks and burns are both token supply reduction methods.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "buybacks",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "burn",
+          "phrase": "Fees are often used to fund token burns.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "fees",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "burn",
+          "phrase": "AMMs may implement burn mechanisms, but not directly related.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "amm",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Burn",
+          "slug": "burn",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Revenue",
+          "slug": "revenue",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Tokenomics",
+          "slug": "tokenomics",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Buybacks",
+          "slug": "buybacks",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Fees",
+          "slug": "fees",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "AMM",
+          "slug": "amm",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T01:09:41.827907+00:00",
+      "events": [
+        {
+          "date": "2021-08",
+          "kind": "launch",
+          "label": "Ethereum London Hard Fork activates EIP-1559 base-fee burn",
+          "source": "https://www.homaio.com/glossary/burn"
+        },
+        {
+          "date": "2021-11",
+          "kind": "milestone",
+          "label": "Crypto.com burns ~70 billion CRO tokens, reducing supply",
+          "source": ""
+        },
+        {
+          "date": "2024-03",
+          "kind": "milestone",
+          "label": "Slerf memecoin presale tokens accidentally burned, $10M destroyed",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "governance",
+          "label": "MANTRA announces 150M OM token burn post-unstaking period",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "governance",
+          "label": "Cronos proposes minting 70B CRO to undo 2021 supply burn",
+          "source": ""
+        },
+        {
+          "date": "2025-10",
+          "kind": "milestone",
+          "label": "Sonic sets October 15 final claim deadline; 32.7M unclaimed S tokens burned",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T01:09:41.827750+00:00",
+      "insight": "Readers click burn stories hardest when supply destruction is contested, reversed, or accidental — the Cronos un-burn proposal, Lybra DAO controversy, and Slerf accident drew more engagement than routine quarterly burns, revealing that readers treat burn decisions as trust signals about team intent, not just deflationary mechanics.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://tokenomics-learning.com/en/buyback-and-burn-2/"
+    },
+    "reader_signal": {
+      "article_count": 52,
+      "as_of": "2026-07-01T11:46:05.327252+00:00",
+      "most_clicked": {
+        "clicks": 147,
+        "date": "2025-01-28T14:30:33.651290+00:00",
+        "headline": "Justin Sun joins Messari CEO Eric Turner to highlight Tron's 35% Q4 growth, 415M TRX burn, USDD V2 launch, and AI-driven blockchain innovation.",
+        "lev_url": "https://leviathannews.xyz/9010/justin-sun-joins-messari-ceo-eric-turner-to-highlight-trons-35-q4-growth-415m-trx-burn-usdd-v2-launch-and-ai-driven-blockchain-innovation"
+      },
+      "provenance": "data",
+      "top_decile_share": 20,
+      "total_clicks": 3195
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T01:09:41.827829+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://tokenomics-learning.com/en/buyback-and-burn-2/",
+          "thread": "Buyback-and-burn protocol mechanics",
+          "why": "Uniswap fee switch, BNB quarterly burns, QuickSwap, and the Inferno privacy-burn concept all drew clicks because readers track how protocols redirect revenue into supply destruction as a value-accrual signal."
+        },
+        {
+          "source": "https://www.homaio.com/glossary/burn",
+          "thread": "Contested and reversed burns",
+          "why": "The Cronos proposal to undo a 2021 70B CRO burn and the Lybra DAO 'malicious intent' allegation drew strong engagement because reversals reframe burns as revocable team decisions rather than permanent supply commitments."
+        },
+        {
+          "source": "https://www.homaio.com/glossary/burn",
+          "thread": "ETH burn rate and EIP-1559 trajectory",
+          "why": "Readers tracked Ethereum's cumulative $12.7B burn and its drop to historic lows as a real-time gauge of network demand and deflationary pressure on ETH supply."
+        },
+        {
+          "source": "https://tokenomics-learning.com/en/buyback-and-burn-2/",
+          "thread": "Ve-tokenomics versus buy-and-burn debate",
+          "why": "Research comparing ve-tokenomics to buy-and-burn and the veCRV article both clicked because readers are weighing which model produces sustainable protocol value rather than short-term price pops."
+        },
+        {
+          "source": "",
+          "thread": "Viral and stunt burns",
+          "why": "The accidental Slerf $10M burn, the 500 ETH protest transaction, and the artist minting ERC20s for burned legal tender all clustered around burns used as spectacle or statement rather than tokenomics."
+        },
+        {
+          "source": "https://www.coinbase.com/learn/crypto-glossary/what-is-a-proof-of-burn-in-crypto",
+          "thread": "Proof-of-burn as utility primitive",
+          "why": "BETH tokenized burn receipts and the WORM privacy-exit concept attracted clicks by framing burn not as destruction but as a verifiable on-chain input — for institutions or whale privacy."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T01:09:41.827838+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart Contract",
+          "level": "Medium",
+          "note": "Burn addresses are simple but fee-switch and buyback routing contracts introduce composable attack surface; a misconfigured burn route can permanently destroy treasury funds with no recovery path.",
+          "source": "https://tokenomics-learning.com/en/buyback-and-burn-2/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Most project burns remain foundation- or team-controlled decisions, as shown by unilateral proposals from Cronos, MANTRA, Astar, and BNX — a single insider can propose reversals or manipulate burn timing to move price.",
+          "source": "https://www.homaio.com/glossary/burn"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Scheduled buyback-and-burn programs that correlate with price appreciation may draw market-manipulation scrutiny from regulators, particularly where the burning entity holds significant supply.",
+          "source": "https://www.bitstamp.net/en-gb/learn/crypto-101/what-is-tokenomics/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Aggressive burn schedules reduce circulating supply and can amplify price volatility in both directions; the Slerf accidental burn produced a $479M valuation spike from a thin-float illusion.",
+          "source": "https://tokenomics-learning.com/en/buyback-and-burn-2/"
+        },
+        {
+          "dimension": "Market Sensitivity",
+          "level": "High",
+          "note": "ETH's burn rate is mechanically tied to gas demand, meaning deflationary pressure evaporates during low-activity periods — Ethereum's burn fell to historic lows as active addresses declined, turning a deflationary asset inflationary again.",
+          "source": "https://www.homaio.com/glossary/burn"
+        },
+        {
+          "dimension": "Governance",
+          "level": "Medium",
+          "note": "DAO-controlled burn proposals (RSR, Uniswap fee switch, Lybra token burn) create governance capture risk where a motivated bloc can redirect or block supply destruction to benefit their own position.",
+          "source": "https://tokenomics-learning.com/en/buyback-and-burn-2/"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:46:05.241353+00:00",
+      "items": [
+        {
+          "clicks": 22,
+          "date": "2026-06-30T06:51:03.750896+00:00",
+          "headline": "Canton burns nearly 9% of total supply in under two years as institutional transaction volume builds",
+          "hot_score": 3183.646527,
+          "lev_url": "https://leviathannews.xyz/265086/canton-burns-nearly-9-of-total-supply-in-under-two-years-as-institutional-transaction-volume-builds",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630005013_Z4zrlaiDPw==.png",
+          "url": "https://x.com/cantonnetwork/status/2071753331693752651"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-04-15T23:11:49.828705+00:00",
+          "headline": "Venice automates VVV buy-and-burn with per-subscription triggers as 42.9% of total supply already removed",
+          "hot_score": 3096.667042,
+          "lev_url": "https://leviathannews.xyz/229940/venice-automates-vvv-buy-and-burn-with-per-subscription-triggers-as-429-of-total-supply-already-removed",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415201231_Z4zrlaiDPw==.png",
+          "url": "https://venice.ai/blog/programmatic-vvv-buy-and-burn"
+        },
+        {
+          "clicks": 17,
+          "date": "2026-06-29T07:40:36.908498+00:00",
+          "headline": "AIDC burn bug lets attacker drain 220.12 WBNB from PancakeSwap pair by abusing sync()",
+          "hot_score": 2533.403702,
+          "lev_url": "https://leviathannews.xyz/264401/aidc-burn-bug-lets-attacker-drain-22012-wbnb-from-pancakeswap-pair-by-abusing-sync",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629072846_Z4zrlaiDPw==.png",
+          "url": "https://x.com/slowmist_team/status/2071437371590238249"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-17T05:25:35.240180+00:00",
+          "headline": "U.S. government moves $606K in 2016 Bitfinex hack bitcoin to Coinbase; exchange to redeem all RRTs and burn LEO",
+          "hot_score": 1829.30179,
+          "lev_url": "https://leviathannews.xyz/231186/us-government-moves-606k-in-2016-bitfinex-hack-bitcoin-to-coinbase-exchange-to-redeem-all-rrts-and-burn-leo",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260405175938_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/markets/2026/04/17/the-u-s-government-moves-usd606-000-in-bitcoin-linked-to-the-2016-bitfinex-hack-to-coinbase"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-20T05:18:35.681953+00:00",
+          "headline": "Three options for Kelp to socialize $292M exploit losses: burn bridged rsETH holders, haircut all holders, or pre-exploit snapshot",
+          "hot_score": 768.263357,
+          "lev_url": "https://leviathannews.xyz/233040/three-options-for-kelp-to-socialize-292m-exploit-losses-burn-bridged-rseth-holders-haircut-all-holders-or-pre-exploit-snapshot",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420021604_Z4zrlaiDPw==.png",
+          "url": "https://x.com/0xedenau/status/2045769191513629155"
+        },
+        {
+          "clicks": 72,
+          "date": "2026-05-21T12:21:21.118835+00:00",
+          "headline": "Solv Protocol is shutting down burn-mint permissions for SolvBTC assets across major chains, urging users to redeem and withdraw underlying assets before June ends",
+          "hot_score": 760.973386,
+          "lev_url": "https://leviathannews.xyz/246389/solv-protocol-is-shutting-down-burn-mint-permissions-for-solvbtc-assets-across-major-chains-urging-users-to-redeem-and-withdraw-underlying-assets-before-june-ends",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260521114508_AfUcp6y-rhhx.jpg",
+          "url": "https://x.com/i/web/status/2057382136252891192"
+        },
+        {
+          "clicks": 50,
+          "date": "2026-06-06T09:16:00.947483+00:00",
+          "headline": "Solana draft SIMD-0553 targets 7,500-9,000 SOL/day burn with resource-based transaction fee",
+          "hot_score": 724.615282,
+          "lev_url": "https://leviathannews.xyz/253594/solana-draft-simd-0553-targets-7500-9000-solday-burn-with-resource-based-transaction-fee",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260606011645_Z4zrlaiDPw==.png",
+          "url": "https://github.com/solana-foundation/solana-improvement-documents/pull/553"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-05-19T17:18:54.609327+00:00",
+          "headline": "Circle expands CCTP to Stellar, enabling developers and institutions to move USDC across 23 blockchains using canonical burn-and-mint infrastructure",
+          "hot_score": 714.208196,
+          "lev_url": "https://leviathannews.xyz/245197/circle-expands-cctp-to-stellar-enabling-developers-and-institutions-to-move-usdc-across-23-blockchains-using-canonical-burn-and-mint-infrastructure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260519165251_OdyM4FRKDIbz.jpg",
+          "url": "https://x.com/i/web/status/2056767949445472739"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:46:05.153244+00:00",
+      "editorial": [
+        {
+          "count": 26,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 3,
+          "source": "github.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "blog.soniclabs.com"
+        },
+        {
+          "count": 1,
+          "source": "ethresear.ch"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "coinage.media"
+        },
+        {
+          "count": 1,
+          "source": "mantrachain.io"
+        },
+        {
+          "count": 1,
+          "source": "news.curve.finance"
+        }
+      ],
+      "editorial_distinct": 18,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 366,
+          "source": "x.com"
+        },
+        {
+          "count": 6,
+          "source": "chiliz.com"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "forbes.com"
+        },
+        {
+          "count": 1,
+          "source": "akash.network"
+        },
+        {
+          "count": 1,
+          "source": "pagesix.com"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 1,
+          "source": "sonic-insights.ghost.io"
+        },
+        {
+          "count": 1,
+          "source": "cdn.venice.ai"
+        },
+        {
+          "count": 1,
+          "source": "blog.pancakeswap.finance"
+        }
+      ],
+      "universe_distinct": 14
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "77a7fe88268cc5b4e4adbeb7deac0fef8dab6e901d5ba77027290b3eb0121bb2",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:54.505833+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.205,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0873,
+        "lift_log": 3.428,
+        "score": 0.2052,
+        "shared": 47
+      },
+      "rationale": "Buybacks and burns are both token supply reduction methods.",
+      "relation_type": "peer",
+      "slug": "buybacks",
+      "source": "cotag",
+      "tag_name": "Buybacks",
+      "title": "Buybacks, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.247,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0474,
+        "lift_log": 2.584,
+        "score": 0.2465,
+        "shared": 35
+      },
+      "rationale": "Burn reduces token supply, often funded by protocol revenue.",
+      "relation_type": "primitive",
+      "slug": "revenue",
+      "source": "cotag",
+      "tag_name": "Revenue",
+      "title": "Revenue, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.234,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0397,
+        "lift_log": 2.394,
+        "score": 0.2335,
+        "shared": 33
+      },
+      "rationale": "Burn is a key mechanism within tokenomics design.",
+      "relation_type": "category",
+      "slug": "tokenomics",
+      "source": "cotag",
+      "tag_name": "Tokenomics",
+      "title": "Tokenomics, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "burn",
+  "tag_name": "Burn",
+  "title": "Burn, Explained"
+}

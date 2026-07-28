@@ -1,0 +1,545 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:15:04.423762+00:00",
+      "newsroom_total": 18,
+      "overall_share": 62,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": null,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 6
+        }
+      ],
+      "total_universe": 29,
+      "universe_total": 11
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:15:04.070286+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "mt-gox",
+          "phrase": "Mt. Gox's collapse led to a Bitcoin fork (Bitcoin Cash) due to scaling debates.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fork",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "mt-gox",
+          "phrase": "Mt. Gox was a Bitcoin exchange, handling the majority of BTC trades.",
+          "relation_type": "product",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "mt-gox",
+          "phrase": "custody",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "custody",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "mt-gox",
+          "phrase": "liquidity",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "liquidity",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "mt-gox",
+          "phrase": "regulation",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "regulation",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Mt. Gox",
+          "slug": "mt-gox",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "fork",
+          "slug": "fork",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Custody",
+          "slug": "custody",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Liquidity",
+          "slug": "liquidity",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Regulation",
+          "slug": "regulation",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:03:15.271266+00:00",
+      "events": [
+        {
+          "date": "2010-07",
+          "kind": "launch",
+          "label": "Mt. Gox launched by Jed McCaleb as Bitcoin exchange",
+          "source": "https://en.wikipedia.org/wiki/Mt._Gox"
+        },
+        {
+          "date": "2011-06",
+          "kind": "exploit",
+          "label": "Hacker crashes BTC from $17 to $0.01 via compromised auditor account",
+          "source": "https://www.facebook.com/cryptosrus/posts/15-years-ago-bitcoin-crashed-to-001on-june-19-2011-a-compromised-mt-gox-account-/1636960601769102/"
+        },
+        {
+          "date": "2014-02",
+          "kind": "regulatory",
+          "label": "Mt. Gox suspends trading, files for bankruptcy; 850,000 BTC reported lost",
+          "source": "https://www.facebook.com/cointelegraph/posts/-history-on-this-day-12-years-ago-mt-gox-collapsed-after-losing-850k-btc-marking/1230785915894901/"
+        },
+        {
+          "date": "2018-06",
+          "kind": "governance",
+          "label": "Civil rehabilitation plan approved, replacing liquidation with creditor repayment process",
+          "source": "https://www.mtgox.com/img/pdf/20180622_announcement_en.pdf"
+        },
+        {
+          "date": "2024-07",
+          "kind": "milestone",
+          "label": "Bitcoin and Bitcoin Cash repayments to creditors begin via Bitstamp and Kraken",
+          "source": "https://www.mtgox.com"
+        },
+        {
+          "date": "2024-10",
+          "kind": "governance",
+          "label": "Repayment deadline extended to October 2024, then again to October 2026",
+          "source": "https://www.mtgox.com/d/04y7ivbnz5gw.pdf"
+        },
+        {
+          "date": "2025-11",
+          "kind": "milestone",
+          "label": "Trustee moves $2.9B in BTC for first time in five years amid creditor distribution activity",
+          "source": "https://coinmetrics.substack.com/p/state-of-the-network-issue-268"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Creditors report JPY repayments via PayPal; $4B+ BTC still held by trustee",
+          "source": "https://www.mtgox.com"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:03:15.271089+00:00",
+      "insight": "Readers treat large BTC wallet movements as a real-time repayment oracle — the most-clicked stories are either 'transfer happened, repayment imminent?' or 'creditors actually received funds,' revealing that after a decade of delays, the community has learned to decode on-chain signals as the only reliable update ahead of official announcements.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://coinmetrics.substack.com/p/state-of-the-network-issue-268"
+    },
+    "reader_signal": {
+      "article_count": 18,
+      "as_of": "2026-07-01T12:15:05.026605+00:00",
+      "most_clicked": {
+        "clicks": 374,
+        "date": "2023-12-27T17:25:38.054486+00:00",
+        "headline": "Several Mt. Gox creditors claim they've received JPY repayments through PayPal after posting testimonials on the subreddit.",
+        "lev_url": "https://leviathannews.xyz/3663/several-mt-gox-creditors-claim-theyve-received-jpy-repayments-through-paypal-after-posting-testimonials-on-the-subreddit"
+      },
+      "provenance": "data",
+      "top_decile_share": 20,
+      "total_clicks": 1825
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:03:15.271163+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.mtgox.com",
+          "thread": "Creditor repayments finally arriving",
+          "why": "After 10+ years of waiting, stories confirming actual fiat and crypto distributions — JPY via PayPal, Bitstamp processing — drove the single highest-clicked headline, signaling readers want proof of payment, not promises."
+        },
+        {
+          "source": "https://coinmetrics.substack.com/p/state-of-the-network-issue-268",
+          "thread": "Massive BTC wallet transfer alerts",
+          "why": "Multiple high-click headlines tracked individual transfers of $700M–$2.9B, as readers treated each on-chain move as a potential signal that sell pressure or distributions were imminent."
+        },
+        {
+          "source": "https://www.facebook.com/bloombergbusiness/posts/bitcoin-is-under-pressure-again-on-concerns-about-possible-sales-of-the-token-by/899037395415688/",
+          "thread": "Market price impact of BTC overhang",
+          "why": "With billions in BTC still held, readers repeatedly engaged with whether large transfers would crash the market — and were relieved when analysis showed price stability despite the moves."
+        },
+        {
+          "source": "https://www.mtgox.com/d/04y7ivbnz5gw.pdf",
+          "thread": "Perpetual repayment deadline extensions",
+          "why": "Two separate deadline-extension stories drew clicks, reflecting creditor frustration at the cycle of delayed timelines stretching from 2024 through 2026."
+        },
+        {
+          "source": "https://cryptonews.net/news/bitcoin/30027186/",
+          "thread": "Institutional acquisition of bankruptcy claims",
+          "why": "Vivek Ramaswamy's Strive pursuing 75,000 BTC worth of Mt. Gox claims framed the bankruptcy estate as a live supply-dynamics play, attracting readers tracking corporate Bitcoin treasury strategies."
+        },
+        {
+          "source": "",
+          "thread": "DEX trust vs. centralized exchange failure",
+          "why": "The 'Mt. Gox to Hyperliquid' framing drew readers using the collapse as a benchmark for how far crypto infrastructure has evolved in handling custody and counterparty risk."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:03:15.271176+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization / Custodial",
+          "level": "High",
+          "note": "A single court-appointed trustee controls tens of thousands of BTC on behalf of ~127,000 creditors, making the entire repayment process dependent on one centralized actor and one jurisdiction.",
+          "source": "https://en.wikipedia.org/wiki/Mt._Gox"
+        },
+        {
+          "dimension": "Market / Sell-pressure",
+          "level": "Medium",
+          "note": "Tens of thousands of BTC distributed to creditors who have waited over a decade create real liquidation risk, though multiple large transfers in 2024–2025 passed without measurable price impact, suggesting the market has largely priced in the overhang.",
+          "source": "https://coinmetrics.substack.com/p/state-of-the-network-issue-268"
+        },
+        {
+          "dimension": "Counterparty / Exchange",
+          "level": "High",
+          "note": "Mt. Gox's collapse — triggered by years of undetected theft from a single exchange with no proof-of-reserves or external audit — remains the canonical example of exchange counterparty risk in crypto.",
+          "source": "https://www.cybereason.com/blog/malicious-life-podcast-the-fall-of-mt.-gox-part-1"
+        },
+        {
+          "dimension": "Regulatory / Legal",
+          "level": "Medium",
+          "note": "The civil rehabilitation process spans Japanese bankruptcy law, cross-border creditor eligibility checks across dozens of countries, and exchange compliance requirements at distribution partners like Bitstamp and Kraken, creating persistent procedural delays.",
+          "source": "https://www.mtgox.com/img/pdf/20180622_announcement_en.pdf"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Remaining holdings of roughly 34,000–35,000 BTC represent a known but concentrated liquidity event; distributions are staggered through exchange partners rather than dumped on-chain, moderating spot impact.",
+          "source": "https://es.tradingview.com/news/cointelegraph:22f58f8e9094b:0-mt-gox-moves-739m-in-bitcoin-from-cold-wallets-arkham/"
+        }
+      ],
+      "sourced": 5,
+      "total": 5
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:15:04.948269+00:00",
+      "items": [
+        {
+          "clicks": 77,
+          "date": "2026-04-09T11:22:54.643566+00:00",
+          "headline": "From Mt. Gox to Hyperliquid: How crypto trading finally solved the trust problem",
+          "hot_score": 9230.978596,
+          "lev_url": "https://leviathannews.xyz/224696/from-mt-gox-to-hyperliquid-how-crypto-trading-finally-solved-the-trust-problem",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409094755_P-yXk_kADu6x.jpg",
+          "url": "https://x.com/i/status/2041857776998322456"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-06-02T06:02:17.114025+00:00",
+          "headline": "Mt. Gox moves 10,306 BTC, worth about $731M, to a new wallet after two months of inactivity",
+          "hot_score": 864.806948,
+          "lev_url": "https://leviathannews.xyz/251499/mt-gox-moves-10306-btc-worth-about-731m-to-a-new-wallet-after-two-months-of-inactivity",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260602053852_Z4zrlaiDPw==.png",
+          "url": "https://x.com/onchainlens/status/2061673703755374917"
+        },
+        {
+          "clicks": 374,
+          "date": "2023-12-27T17:25:38.054486+00:00",
+          "headline": "Several Mt. Gox creditors claim they've received JPY repayments through PayPal after posting testimonials on the subreddit.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3663/several-mt-gox-creditors-claim-theyve-received-jpy-repayments-through-paypal-after-posting-testimonials-on-the-subreddit",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://blockworks.co/news/mt-gox-paypal-payment-creditors"
+        },
+        {
+          "clicks": 183,
+          "date": "2024-12-05T08:48:22.576396+00:00",
+          "headline": "Mt. Gox drops a $2.4B Bitcoin bomb—24,000 BTC moved to mystery wallet as Bitcoin hits $100K rocket zone.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8073/mt-gox-drops-a-24b-bitcoin-bomb24000-btc-moved-to-mystery-wallet-as-bitcoin-hits-100k-rocket-zone",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241205084808_v5OrtQG246Y=.jpg",
+          "url": "https://www.theblock.co/post/329552/mt-gox-moves-2-8-billion-worth-of-bitcoin-arkham"
+        },
+        {
+          "clicks": 158,
+          "date": "2024-06-24T12:33:39.529652+00:00",
+          "headline": "Mt. Gox to distribute Bitcoin, Bitcoin Cash repayments starting beginning of July 2024.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6067/mt-gox-to-distribute-bitcoin-bitcoin-cash-repayments-starting-beginning-of-july-2024",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240624090633_ad1WyNRf7w==.png",
+          "url": "https://twitter.com/News_Of_Alpha/status/1805164162500190253"
+        },
+        {
+          "clicks": 153,
+          "date": "2024-04-22T11:49:09.013557+00:00",
+          "headline": "Mt. Gox creditors receive optimistic signal as repayment data updated; Fiat payments already arriving, crypto repayments expected soon.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4947/mt-gox-creditors-receive-optimistic-signal-as-repayment-data-updated-fiat-payments-already-arriving-crypto-repayments-expected-soon",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://cointelegraph.com/news/mt-gox-trustee-table-bitcoin-cash-repayment"
+        },
+        {
+          "clicks": 132,
+          "date": "2025-03-25T07:13:34.093138+00:00",
+          "headline": "Mt. Gox transfers $1 billion Bitcoin. \nLarge movements in the past have occasionally preceded creditor repayments.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10118/mt-gox-transfers-1-billion-bitcoin-large-movements-in-the-past-have-occasionally-preceded-creditor-repayments",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250325071132_sC9hymAQrhk=.jpg",
+          "url": "https://www.theblock.co/post/347884/mt-gox-makes-1-billion-bitcoin-transfer-still-holds-35583-btc-arkham"
+        },
+        {
+          "clicks": 121,
+          "date": "2024-05-28T03:58:04.579472+00:00",
+          "headline": "Mt. Gox moves at least $2.9 billion in bitcoin for first time in five years.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5679/mt-gox-moves-at-least-29-billion-in-bitcoin-for-first-time-in-five-years",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.theblock.co/post/296922/mt-gox-moves-at-least-2-9-billion-in-bitcoin-for-first-time-in-five-years"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:15:04.858580+00:00",
+      "editorial": [
+        {
+          "count": 5,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "blockonomi.com"
+        },
+        {
+          "count": 1,
+          "source": "intel.arkm.com"
+        },
+        {
+          "count": 1,
+          "source": "mtgox.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptonews.com"
+        }
+      ],
+      "editorial_distinct": 9,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        }
+      ],
+      "universe_distinct": 6
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "a0201638760dcfec4f0cba35d4d42874b0a05b946ffe20c1f4aa6f2eb2532686",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:18.001389+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.245,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0411,
+        "lift_log": 4.917,
+        "score": 0.2453,
+        "shared": 4
+      },
+      "rationale": "Mt. Gox's collapse led to a Bitcoin fork (Bitcoin Cash) due to scaling debates.",
+      "relation_type": "event",
+      "slug": "fork",
+      "source": "cotag",
+      "tag_name": "fork",
+      "title": "fork, Explained",
+      "weight": 25
+    }
+  ],
+  "schema_version": 1,
+  "slug": "mt-gox",
+  "tag_name": "Mt. Gox",
+  "title": "Mt. Gox, Explained"
+}

@@ -1,0 +1,489 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:13:57.238067+00:00",
+      "newsroom_total": 16,
+      "overall_share": 36,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-02",
+          "newsroom": 2,
+          "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 11
+        },
+        {
+          "ed_share": 40,
+          "month": "2026-04",
+          "newsroom": 4,
+          "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 4
+        }
+      ],
+      "total_universe": 45,
+      "universe_total": 29
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:13:56.743301+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "rpc",
+          "phrase": "RPCs are essential for interacting with L2 networks.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "l2",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "rpc",
+          "phrase": "Both relate to blockchain transaction ordering and execution.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "mev",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "rpc",
+          "phrase": "RPCs enable stablecoin payment transactions on blockchain.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "stablecoin-payments",
+          "weight": 12
+        },
+        {
+          "dir": "out",
+          "from": "rpc",
+          "phrase": "agents",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "agents",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "rpc",
+          "phrase": "AI agents",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "ai-agents",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "RPC",
+          "slug": "rpc",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "L2",
+          "slug": "l2",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "MEV",
+          "slug": "mev",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Stablecoin Payments",
+          "slug": "stablecoin-payments",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 12
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "AI Agents",
+          "slug": "ai-agents",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:35:19.666690+00:00",
+      "events": [
+        {
+          "date": "2021-09",
+          "kind": "launch",
+          "label": "Flashbots Protect RPC launched for frontrun protection",
+          "source": ""
+        },
+        {
+          "date": "2024-10",
+          "kind": "milestone",
+          "label": "Unichain L2 bridge and RPC discovered by community before official launch",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "launch",
+          "label": "Polygon launches private mempool with one-line RPC integration for MEV protection",
+          "source": "https://polygon.technology/blog/polygon-launches-private-mempool-mev-protection-is-now-a-one-line-integration"
+        },
+        {
+          "date": "2026-04",
+          "kind": "exploit",
+          "label": "KelpDAO bridge exploit linked to compromised RPC nodes; Lazarus Group attributed",
+          "source": "https://www.chainalysis.com/blog/kelpdao-bridge-exploit-april-2026/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "CoWSwap publishes RPC comparison research showing provider-dependent swap price divergence on Ethereum",
+          "source": "https://x.com/CoWSwap/status/1936019952370438317"
+        },
+        {
+          "date": "2026-06",
+          "kind": "governance",
+          "label": "Starknet v0.14.3 ships to mainnet, deprecating RPC v0.8",
+          "source": "https://community.starknet.io/t/starknet-0-14-3-pre-release-notes/116211"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:35:19.666509+00:00",
+      "insight": "Readers click RPC stories not for infrastructure curiosity but because RPC choice is a hidden execution tax — the wrong provider silently degrades swap output, exposes transactions to MEV, enables exploits, and can even unmask stealth protocol launches before teams are ready.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://x.com/CoWSwap/status/1936019952370438317"
+    },
+    "reader_signal": {
+      "article_count": 16,
+      "as_of": "2026-07-01T12:13:57.731732+00:00",
+      "most_clicked": {
+        "clicks": 201,
+        "date": "2024-11-12T08:02:33.382590+00:00",
+        "headline": "Uniswap’s new L2 Unichain is quietly launched, and degens sniffed out the bridge and RPC. In response, Uniswap acknowledged it’s existence and subsequently killed all trading.",
+        "lev_url": "https://leviathannews.xyz/7665/uniswaps-new-l2-unichain-is-quietly-launched-and-degens-sniffed-out-the-bridge-and-rpc-in-response-uniswap-acknowledged-its-existence-and-subsequently-killed-all-trading"
+      },
+      "provenance": "data",
+      "top_decile_share": 18,
+      "total_clicks": 1104
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:35:19.666581+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Unichain stealth launch exposed",
+          "why": "Degens reverse-engineered Uniswap's unannounced L2 by sniffing bridge and RPC endpoints before the team could control the narrative, revealing RPC as an inadvertent public disclosure surface."
+        },
+        {
+          "source": "https://polygon.technology/blog/polygon-launches-private-mempool-mev-protection-is-now-a-one-line-integration",
+          "thread": "Private mempool MEV protection",
+          "why": "Multiple high-click stories on Flashbots Protect, Polygon private mempool, and DeFiLlama's MEV-protected RPC show readers actively hunting for ways to stop frontrunning at the transaction submission layer."
+        },
+        {
+          "source": "https://x.com/CoWSwap/status/1936019952370438317",
+          "thread": "RPC swap price divergence",
+          "why": "CoWSwap's empirical research proving that public RPC choice directly affects token output on every swap turned an abstract infrastructure concern into a personal financial one."
+        },
+        {
+          "source": "",
+          "thread": "RPC failure triggering liquidations",
+          "why": "The f(x) Protocol incident — where simultaneous failure of parallel RPC endpoints forced rare liquidations — showed readers that RPC redundancy is a direct risk management problem, not just a DevOps concern."
+        },
+        {
+          "source": "https://www.chainalysis.com/blog/kelpdao-bridge-exploit-april-2026/",
+          "thread": "KelpDAO exploit RPC culprit",
+          "why": "LayerZero's attribution of the KelpDAO bridge exploit to compromised RPC nodes, linked to the Lazarus Group, crystallised RPC as a high-value attack surface for state-level adversaries."
+        },
+        {
+          "source": "https://www.sec.gov/files/ctf-written-input-defi-education-fund-042126.pdf",
+          "thread": "Regulatory broker carve-out for RPC",
+          "why": "The DeFi Education Fund's SEC petition to exempt RPC providers from broker classification surfaced the existential regulatory question: does routing a transaction make you a financial intermediary?"
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:35:19.666589+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Swappers using private mempools must fully trust the RPC provider, block builder, and relayer not to misuse exclusive mempool data — there is no cryptographic enforcement of provider honesty.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract / Execution",
+          "level": "High",
+          "note": "Simultaneous failure of parallel RPC endpoints can produce erroneous price reads that trigger protocol liquidations, as demonstrated by the f(x) Protocol incident.",
+          "source": ""
+        },
+        {
+          "dimension": "Security",
+          "level": "High",
+          "note": "The April 2026 KelpDAO exploit showed that compromised RPC nodes can be used as an entry point to manipulate cross-chain message validation, with attribution to the Lazarus Group.",
+          "source": "https://www.chainalysis.com/blog/kelpdao-bridge-exploit-april-2026/"
+        },
+        {
+          "dimension": "Market / Execution Quality",
+          "level": "Medium",
+          "note": "Empirical research by CoWSwap confirmed that the choice of public RPC endpoint produces measurable differences in swap token output on Ethereum, making provider selection a financial decision.",
+          "source": "https://x.com/CoWSwap/status/1936019952370438317"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "The SEC's broad broker definition could classify RPC operators as regulated intermediaries; the DeFi Education Fund and Digital Chamber submitted a formal petition for an explicit carve-out.",
+          "source": "https://www.sec.gov/files/ctf-written-input-defi-education-fund-042126.pdf"
+        },
+        {
+          "dimension": "Availability / Infrastructure",
+          "level": "Medium",
+          "note": "DeFi frontends served through single RPC providers fail during exactly the volatility spikes when users most need access; multi-RPC fallback architecture is emerging as a mitigation.",
+          "source": "https://communityone.io/servers/1441975503085895894/the-upside/news/walrus-sites-v2-6-multi-rpc-fallback-uptime/"
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:13:57.652300+00:00",
+      "items": [
+        {
+          "clicks": 39,
+          "date": "2026-04-13T17:35:16.158298+00:00",
+          "headline": "The Graph eyes JSON-RPC integration to deliver full-stack Web3 data services, combining indexed data with live chain interaction for streamlined developer experience",
+          "hot_score": 7147.191951,
+          "lev_url": "https://leviathannews.xyz/228004/the-graph-eyes-json-rpc-integration-to-deliver-full-stack-web3-data-services-combining-indexed-data-with-live-chain-interaction-for-streamlined-developer-experience",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260413172158_L0SyLtm68J75.jpg",
+          "url": "https://x.com/i/status/2043678698608423013"
+        },
+        {
+          "clicks": 48,
+          "date": "2026-04-20T04:42:03.603474+00:00",
+          "headline": "LayerZero attributes KelpDAO exploit with Lazarus Group. RPC probably the culprit",
+          "hot_score": 886.754713,
+          "lev_url": "https://leviathannews.xyz/233106/on-april-18-2026-kelpdao-was-exploited-for-approximately-290m-preliminary-indicators-suggest-attribution-to-a-highly-sophisticated-state-actor-likely-dprks-lazarus-group-mor",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420044030_vxBtSHkrpMth.png",
+          "url": "https://x.com/layerzero_core/status/2046081551574983137?s=46&t=iFQa_A_ZkIJab2Wryf70uQ"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-04-24T15:49:45.102465+00:00",
+          "headline": "DeFi Education Fund and Digital Chamber petition SEC to codify broker carve-outs for validators, oracles, and RPC providers",
+          "hot_score": 325.6,
+          "lev_url": "https://leviathannews.xyz/236208/defi-education-fund-and-digital-chamber-petition-sec-to-codify-broker-carve-outs-for-validators-oracles-and-rpc-providers",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260424154045_Z4zrlaiDPw==.png",
+          "url": "https://www.crowdfundinsider.com/2026/04/275311-defi-education-fund-crypto-groups-including-the-digital-chamber-request-sec-rulemaking-on-defi/"
+        },
+        {
+          "clicks": 69,
+          "date": "2026-02-25T09:34:00.850495+00:00",
+          "headline": "ObolClaw launches as Obol Stack adds native OpenClaw support, giving AI agents wallets, RPC access, and onchain skills to power Ethereum.",
+          "hot_score": 190.827651,
+          "lev_url": "https://leviathannews.xyz/33736/obolclaw-launches-as-obol-stack-adds-native-openclaw-support-giving-ai-agents-wallets-rpc-access-and-onchain-skills-to-power-ethereum",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260225091259_muSrKGP8wD8=.jpg",
+          "url": "https://x.com/i/status/2026326274680017344"
+        },
+        {
+          "clicks": 53,
+          "date": "2026-04-02T12:46:17.281292+00:00",
+          "headline": "Polygon launches private mempool with one-line RPC swap for native MEV protection",
+          "hot_score": 181.221186,
+          "lev_url": "https://leviathannews.xyz/219992/polygon-launches-private-mempool-with-one-line-rpc-swap-for-native-mev-protection",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260402120732_Z4zrlaiDPw==.png",
+          "url": "https://polygon.technology/blog/polygon-launches-private-mempool-mev-protection-is-now-a-one-line-integration"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-02-12T07:40:53.628775+00:00",
+          "headline": "Kraken supercharges global trading with Lava Network's breakthrough RPC infrastructure",
+          "hot_score": 37.306435,
+          "lev_url": "https://leviathannews.xyz/26899/kraken-partners-with-magma-devs-to-leverage-lava-networks-technology-for-global-trading-operations",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260212014048_tzNpdokhWSY=.jpg",
+          "url": "https://x.com/magmadevs/status/2021591710279647456"
+        },
+        {
+          "clicks": 201,
+          "date": "2024-11-12T08:02:33.382590+00:00",
+          "headline": "Uniswap’s new L2 Unichain is quietly launched, and degens sniffed out the bridge and RPC. In response, Uniswap acknowledged it’s existence and subsequently killed all trading.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7665/uniswaps-new-l2-unichain-is-quietly-launched-and-degens-sniffed-out-the-bridge-and-rpc-in-response-uniswap-acknowledged-its-existence-and-subsequently-killed-all-trading",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241112080228_-C2u1Id9BA==.png",
+          "url": "https://x.com/unichain/status/1856209898444587101?s=46"
+        },
+        {
+          "clicks": 174,
+          "date": "2023-11-30T11:19:36.359528+00:00",
+          "headline": "Research from Uniswap Labs introduces Reordering Slippage, a new metric that ensures swappers receive optimal prices in private mempools, mitigating against the risk of hacks and unconfirmed transactions. However, users must trust the integrity of private RPC providers, as well as RPC operators, block builders, and relayers, to prevent misuse of exclusive data.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3458/research-from-uniswap-labs-introduces-reordering-slippage-a-new-metric-that-ensures-swappers-receive-optimal-prices-in-private-mempools-mitigating-against-the-risk-of-hacks-and-unc",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://blog.uniswap.org/auditing-mev-supply-chain"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:13:57.563432+00:00",
+      "editorial": [
+        {
+          "count": 10,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "ankr.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "docs.flashbots.net"
+        },
+        {
+          "count": 1,
+          "source": "blog.uniswap.org"
+        },
+        {
+          "count": 1,
+          "source": "polygon.technology"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
+        }
+      ],
+      "editorial_distinct": 7,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 24,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "hedera.com"
+        },
+        {
+          "count": 1,
+          "source": "coin98.com"
+        },
+        {
+          "count": 1,
+          "source": "wsj.com"
+        },
+        {
+          "count": 1,
+          "source": "ankr.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        }
+      ],
+      "universe_distinct": 6
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "85a5b7ccba88c05fee342267a5783523cc941bd54ed6e936e4a8fd69fdabe27f",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:26.135185+00:00"
+  },
+  "relations": [],
+  "schema_version": 1,
+  "slug": "rpc",
+  "tag_name": "RPC",
+  "title": "RPC, Explained"
+}

@@ -1,0 +1,566 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:12:16.577710+00:00",
+      "newsroom_total": 24,
+      "overall_share": 49,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 17
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 2
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 3
+        }
+      ],
+      "total_universe": 49,
+      "universe_total": 25
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:12:16.090720+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "gmx",
+          "phrase": "MegaETH is a high-performance L2; GMX is a perp DEX on Arbitrum, not directly comparable.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "megaeth",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "gmx",
+          "phrase": "GMX is deployed on Arbitrum, relying on it for execution.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "arbitrum",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "gmx",
+          "phrase": "GMX generates yield through fees and staking rewards.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "yield",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "gmx",
+          "phrase": "GMX is a decentralized perpetual exchange (perps).",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "perps",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "gmx",
+          "phrase": "GMX uses Chainlink oracles for price feeds.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "chainlink",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "GMX",
+          "slug": "gmx",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "MegaETH",
+          "slug": "megaeth",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Arbitrum",
+          "slug": "arbitrum",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Yield",
+          "slug": "yield",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Perps",
+          "slug": "perps",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Chainlink",
+          "slug": "chainlink",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T09:25:12.913855+00:00",
+      "events": [
+        {
+          "date": "2023-08",
+          "kind": "launch",
+          "label": "GMX V2 beta launches on Arbitrum and Avalanche",
+          "source": ""
+        },
+        {
+          "date": "2023-10",
+          "kind": "milestone",
+          "label": "GMX receives largest share of Arbitrum's $40m STIP grant",
+          "source": ""
+        },
+        {
+          "date": "2023-11",
+          "kind": "exploit",
+          "label": "$42m reentrancy exploit hits GMX V1 GLP; attacker bridges funds to Ethereum",
+          "source": ""
+        },
+        {
+          "date": "2023-11",
+          "kind": "governance",
+          "label": "GMX offers 10% white-hat bounty (~$4.2m) for return of stolen funds",
+          "source": ""
+        },
+        {
+          "date": "2023-11",
+          "kind": "milestone",
+          "label": "Hacker returns $37.5m; retains $5m ETH as negotiated bounty",
+          "source": ""
+        },
+        {
+          "date": "2024-01",
+          "kind": "exploit",
+          "label": "Abracadabra MIM-GMX strategy exploited for 6,260 ETH",
+          "source": ""
+        },
+        {
+          "date": "2024-06",
+          "kind": "launch",
+          "label": "GMX introduces GLV — GMX Liquidity Vaults — as new LP product",
+          "source": ""
+        },
+        {
+          "date": "2024-09",
+          "kind": "milestone",
+          "label": "Arthur Hayes sells $9.6m of GMX, citing point-system protocol competition",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T09:25:12.913716+00:00",
+      "insight": "Readers follow GMX not as a static DeFi blue-chip but as a live accountability ledger — they click every stage of the exploit-to-recovery arc and treat insider exits like Arthur Hayes's $9.6m sale as hard evidence that newer incentive models are winning the perp DEX war.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 24,
+      "as_of": "2026-07-01T12:12:17.220153+00:00",
+      "most_clicked": {
+        "clicks": 281,
+        "date": "2024-04-08T21:35:59.659985+00:00",
+        "headline": "Arthur Hayes sells $9.6m of GMX as newer protocols eat market share with point systems",
+        "lev_url": "https://leviathannews.xyz/4716/arthur-hayes-sells-96m-of-gmx-as-newer-protocols-eat-market-share-with-point-systems"
+      },
+      "provenance": "data",
+      "top_decile_share": 23,
+      "total_clicks": 2435
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T09:25:12.913785+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Exploit accountability arc",
+          "why": "The $42m V1 GLP reentrancy hack generated three separate high-click articles — the breach, the white-hat bounty offer, and the fund return — showing readers stayed engaged through every accountability beat, not just the initial shock."
+        },
+        {
+          "source": "",
+          "thread": "Arbitrum grant competition",
+          "why": "Readers wanted to know who captured the largest slice of Arbitrum's $40m ecosystem grant, signaling that protocol-level capital allocation races matter as much as product news."
+        },
+        {
+          "source": "",
+          "thread": "Arthur Hayes exit as signal",
+          "why": "A named insider dumping $9.6m while citing point-system competitors framed GMX's competitive decline as a concrete, attributable event rather than vague market pressure."
+        },
+        {
+          "source": "",
+          "thread": "V2 evolution and new products",
+          "why": "GMX V2 mainnet launch, GLV vaults, TWAP orders, and gold/silver perps each drew clicks, reflecting reader appetite for evidence that the protocol was iterating against faster rivals."
+        },
+        {
+          "source": "",
+          "thread": "Whale liquidation tracking",
+          "why": "A $13m GMX whale liquidation featured in the weekly roundup alongside Hyperliquid whale cross-platform positioning shows readers use large-position unwinds as real-time market-health indicators."
+        },
+        {
+          "source": "",
+          "thread": "Multichain and infrastructure bets",
+          "why": "Expansion to Base, MegaETH, and the LayerZero partnership each generated clicks, reflecting reader interest in whether GMX's cross-chain strategy could offset share lost on Arbitrum."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T09:25:12.913798+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract",
+          "level": "High",
+          "note": "GMX V1 suffered a $42m GLP reentrancy exploit, a separate Abracadabra/MIM strategy exploit for 6,260 ETH, and an earlier exploit where the hacker ultimately kept $5m as a bounty — a pattern of material on-chain losses.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / Competitive",
+          "level": "High",
+          "note": "Arthur Hayes's public $9.6m sale explicitly cited point-system protocols eating GMX's market share, signaling that liquidity-mining incumbents face structural user-acquisition disadvantage against newer incentive designs.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "GLP pools are the counterparty to all trades, meaning large directional trader wins directly drain liquidity provider returns; the $13m whale liquidation and recurring large open-interest events amplify this dynamic.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization / Infrastructure",
+          "level": "Medium",
+          "note": "GMX depends on Chainlink Data Streams for real-time perp execution and selected LayerZero as its sole cross-chain messaging layer, creating concentrated oracle and bridge dependency risk.",
+          "source": ""
+        },
+        {
+          "dimension": "Governance",
+          "level": "Low",
+          "note": "The DAO successfully voted to direct 10% of revenues to treasury with no apparent controversy, and the Chaos Labs V2 Risk Portal added granular controls, suggesting governance is functional if not deeply contested.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Low",
+          "note": "No regulatory enforcement actions appear in the most-clicked GMX coverage; the protocol's permissionless perp model carries latent jurisdiction risk but has not yet drawn direct regulator attention based on reader-signal headlines.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:12:17.141992+00:00",
+      "items": [
+        {
+          "clicks": 61,
+          "date": "2026-04-10T14:11:26.764642+00:00",
+          "headline": "GMX launches 24/7 gold and silver perps with up to 100x leverage, powered by Chainlink",
+          "hot_score": 2559.465128,
+          "lev_url": "https://leviathannews.xyz/225983/gmx-launches-247-gold-and-silver-perps-with-up-to-100x-leverage-powered-by-chainlink",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410125437_Z4zrlaiDPw==.png",
+          "url": "https://gmxio.substack.com/p/247-gold-and-silver-perp-markets"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-05-15T15:33:29.942379+00:00",
+          "headline": "GMX traders pay 65% less funding after late-April changes flatten long-tail perp rates",
+          "hot_score": 552.8,
+          "lev_url": "https://leviathannews.xyz/243026/gmx-traders-pay-65-less-funding-after-late-april-changes-flatten-long-tail-perp-rates",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260515153246_Z4zrlaiDPw==.png",
+          "url": "https://gmxio.substack.com/p/funding-costs-on-gmx-are-now-much"
+        },
+        {
+          "clicks": 43,
+          "date": "2026-03-31T20:36:51.755865+00:00",
+          "headline": "GMX goes live on MegaETH with 50x leverage perps and 10ms execution via Chainlink",
+          "hot_score": 182.253496,
+          "lev_url": "https://leviathannews.xyz/218208/gmx-goes-live-on-megaeth-with-50x-leverage-perps-and-10ms-execution-via-chainlink",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260330231912_Z4zrlaiDPw==.png",
+          "url": "https://gmxio.substack.com/p/gmx-is-now-live-on-megaeth-trade"
+        },
+        {
+          "clicks": 281,
+          "date": "2024-04-08T21:35:59.659985+00:00",
+          "headline": "Arthur Hayes sells $9.6m of GMX as newer protocols eat market share with point systems",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4716/arthur-hayes-sells-96m-of-gmx-as-newer-protocols-eat-market-share-with-point-systems",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240408210012_zh7js6uhXg==.jpg",
+          "url": "https://www.dlnews.com/articles/defi/bitmex-co-founder-arthur-hayes-sells-96-million-of-gmx/"
+        },
+        {
+          "clicks": 279,
+          "date": "2023-10-13T10:50:56.763051+00:00",
+          "headline": "GMX to receive largest share of Arbitrum's $40 million grant, Lido misses out.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2961/gmx-to-receive-largest-share-of-arbitrums-40-million-grant-lido-misses-out",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.theblock.co/post/256282/gmx-receives-largest-share-of-40-million-arbitrum-grants-lido-misses-out"
+        },
+        {
+          "clicks": 198,
+          "date": "2024-09-05T07:47:39.178017+00:00",
+          "headline": "GMX introduces GLV - GMX Liquidity Vaults ",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6868/gmx-introduces-glv-gmx-liquidity-vaults",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240905074731_Rw2DklEEaA==.jpg",
+          "url": "https://x.com/GMX_IO/status/1831403607972892737"
+        },
+        {
+          "clicks": 185,
+          "date": "2023-08-03T15:49:43.133530+00:00",
+          "headline": "GMX V2 beta is live - The second iteration of the GMX protocol is now live on Arbitrum and Avalanche mainnet! ",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2120/gmx-v2-beta-is-live-the-second-iteration-of-the-gmx-protocol-is-now-live-on-arbitrum-and-avalanche-mainnet",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://gmxio.substack.com/p/gmx-v2-beta-is-now-live?nthPub=651"
+        },
+        {
+          "clicks": 157,
+          "date": "2025-07-09T13:49:31.814434+00:00",
+          "headline": "⚠️ Looks like GMX has been exploited",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/13256/looks-like-gmx-exploit-is-underway",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250709134551_CUQXY5TzjWE=.jpg",
+          "url": "https://arbiscan.io/tx/0x86486dceddcf581d43ab74e2ca381d4a8ee30a405ae17a81f4615986c0c75419"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:12:17.061850+00:00",
+      "editorial": [
+        {
+          "count": 9,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "gmxio.substack.com"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "leviathannews.substack.com"
+        },
+        {
+          "count": 1,
+          "source": "snapshot.box"
+        },
+        {
+          "count": 1,
+          "source": "snapshot.org"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "app.gmx.io"
+        },
+        {
+          "count": 1,
+          "source": "arbiscan.io"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        }
+      ],
+      "editorial_distinct": 11,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 18,
+          "source": "x.com"
+        },
+        {
+          "count": 7,
+          "source": "gmxio.substack.com"
+        }
+      ],
+      "universe_distinct": 2
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "65c03876646ec85b132817bc32aa67d9944af8191ab6c594681d14eef0bab4c6",
+  "provenance": {
+    "model_name": "claude-opus-4-8",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "opus_websearch",
+    "updated_at": "2026-07-26T22:22:07.293648+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.211,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0052,
+        "lift_log": 2.364,
+        "score": 0.2112,
+        "shared": 4
+      },
+      "rationale": "GMX is deployed on Arbitrum, relying on it for execution.",
+      "relation_type": "infrastructure",
+      "slug": "arbitrum",
+      "source": "cotag",
+      "tag_name": "Arbitrum",
+      "title": "Arbitrum, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.25,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0458,
+        "lift_log": 4.981,
+        "score": 0.2502,
+        "shared": 3
+      },
+      "rationale": "MegaETH is a high-performance L2; GMX is a perp DEX on Arbitrum, not directly comparable.",
+      "relation_type": "peer",
+      "slug": "megaeth",
+      "source": "cotag",
+      "tag_name": "MegaETH",
+      "title": "MegaETH, Explained",
+      "weight": 25
+    }
+  ],
+  "schema_version": 1,
+  "slug": "gmx",
+  "tag_name": "GMX",
+  "title": "GMX, Explained"
+}

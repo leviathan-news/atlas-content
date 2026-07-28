@@ -1,0 +1,628 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:47:09.442071+00:00",
+      "newsroom_total": 54,
+      "overall_share": 21,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 4
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-03",
+          "newsroom": 6,
+          "universe": 61
+        },
+        {
+          "ed_share": 15,
+          "month": "2026-04",
+          "newsroom": 14,
+          "universe": 82
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-05",
+          "newsroom": 3,
+          "universe": 27
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-06",
+          "newsroom": 3,
+          "universe": 32
+        }
+      ],
+      "total_universe": 260,
+      "universe_total": 206
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:47:08.754464+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "threat",
+          "phrase": "Both are threat categories; quantum threats to cryptography.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "quantum",
+          "weight": 31
+        },
+        {
+          "dir": "out",
+          "from": "threat",
+          "phrase": "Hacking is a type of threat to crypto systems.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "hacking",
+          "weight": 29
+        },
+        {
+          "dir": "out",
+          "from": "threat",
+          "phrase": "Threat is a concern within the security domain.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "security",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "threat",
+          "phrase": "Quantum computing poses a threat to current cryptography.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "quantum-computing",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "threat",
+          "phrase": "Daniel Bernstein is a cryptographer addressing quantum threats.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bernstein",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Threat",
+          "slug": "threat",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "quantum",
+          "slug": "quantum",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 31
+        },
+        {
+          "center": false,
+          "name": "Hacking",
+          "slug": "hacking",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 29
+        },
+        {
+          "center": false,
+          "name": "Security",
+          "slug": "security",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Quantum Computing",
+          "slug": "quantum-computing",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Bernstein",
+          "slug": "bernstein",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T01:31:15.071337+00:00",
+      "events": [
+        {
+          "date": "2024-08",
+          "kind": "milestone",
+          "label": "NIST releases first 3 finalized post-quantum encryption standards",
+          "source": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards"
+        },
+        {
+          "date": "2025-06",
+          "kind": "regulatory",
+          "label": "G7 summit in Canada formally addresses North Korean crypto hacks as global security threat",
+          "source": "https://coinpedia.org/news/g7-labels-north-koreas-crypto-thefts-a-global-security-threat/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "exploit",
+          "label": "Bloomberg reports 50% token wipeout in incident linked to AI-enabled hacking",
+          "source": "https://www.bloomberg.com/news/articles/2026-06-14/crypto-token-s-50-wipeout-shows-magnitude-of-ai-hacking-threat"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Microsoft documents crypto-clipper malware using Tor worm-like propagation",
+          "source": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "CertiK publishes stablecoin threat intelligence report on systemic displacement risks",
+          "source": "https://www.certik.com/skynet-report/skynet-2026-stablecoin-threat-intelligence-report"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "TRM Labs 2026 Crypto Crime Report released, quantifying nation-state and malware losses",
+          "source": "https://www.trmlabs.com/reports-and-whitepapers/2026-crypto-crime-report"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T01:31:15.071196+00:00",
+      "insight": "Readers click 'threat' stories not for technical mechanics but for adversary identity and institutional vulnerability: the dominant pull is knowing *who* is attacking (North Korea, named malware authors, PayPal) and *what* is being displaced (ETH, T-bills, credit cards, the dollar) — threat-as-power-shift, not threat-as-bug.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.trmlabs.com/reports-and-whitepapers/2026-crypto-crime-report"
+    },
+    "reader_signal": {
+      "article_count": 54,
+      "as_of": "2026-07-01T11:47:09.964420+00:00",
+      "most_clicked": {
+        "clicks": 266,
+        "date": "2025-04-01T06:32:46.402980+00:00",
+        "headline": "Paradigm’s Samczsun uncovers North Korea’s broader hacking arsenal beyond Lazarus, exposing multiple advanced threat groups and tactics.",
+        "lev_url": "https://leviathannews.xyz/10307/paradigms-samczsun-uncovers-north-koreas-broader-hacking-arsenal-beyond-lazarus-exposing-multiple-advanced-threat-groups-and-tactics"
+      },
+      "provenance": "data",
+      "top_decile_share": 25,
+      "total_clicks": 4666
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T01:31:15.071262+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://coinpedia.org/news/g7-labels-north-koreas-crypto-thefts-a-global-security-threat/",
+          "thread": "North Korea state-actor attribution",
+          "why": "Multiple high-click headlines named specific groups (Lazarus adjacents, UNC5342) and escalated to G7 diplomacy, making nation-state hacking feel like a geopolitical emergency rather than an IT problem."
+        },
+        {
+          "source": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
+          "thread": "Malware and supply-chain hijacks",
+          "why": "Clipper malware, trojanized GitHub repos, and AI-generated malware showed readers that the attack surface had expanded from smart contracts to dev tooling and clipboard itself."
+        },
+        {
+          "source": "https://www.certik.com/skynet-report/skynet-2026-stablecoin-threat-intelligence-report",
+          "thread": "Stablecoin systemic displacement",
+          "why": "Five separate headlines framed stablecoins as a threat to ETH, credit cards, money market funds, and dollar dominance, signalling that readers track stablecoins as an offensive financial weapon, not just a peg."
+        },
+        {
+          "source": "",
+          "thread": "Regulatory veto and MiCA exposure",
+          "why": "FIT21 veto-threat coverage and MiCA MEV market-abuse risk pulled readers who wanted to know which policy move would legally constrain DeFi participants first."
+        },
+        {
+          "source": "",
+          "thread": "Offline and physical targeting",
+          "why": "Wrench-attack surge and journalist death threats over Polymarket outcomes revealed that on-chain wealth creates off-chain physical danger, a risk vector most crypto coverage ignores."
+        },
+        {
+          "source": "https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/",
+          "thread": "Quantum repricing of Bitcoin dormancy",
+          "why": "BIP-361's proposal to freeze 5.6M dormant BTC against quantum attacks framed the quantum threat as an imminent market event with a specific worst-case price impact, not a distant research concern."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T01:31:15.071272+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "State-actor / nation-state hacking",
+          "level": "High",
+          "note": "North Korean threat groups beyond Lazarus are actively targeting exchanges and wallets using AI-assisted malware and EtherHiding techniques, with G7 governments treating crypto theft as a national-security issue.",
+          "source": "https://coinpedia.org/news/g7-labels-north-koreas-crypto-thefts-a-global-security-threat/"
+        },
+        {
+          "dimension": "Malware and supply-chain compromise",
+          "level": "High",
+          "note": "Crypto-clipper malware with Tor-based worm propagation and trojanized open-source repos (e.g. Claude Code source leak exploited for Vidar infostealer) have extended the attack surface to developer infrastructure.",
+          "source": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
+        },
+        {
+          "dimension": "Regulatory and legal",
+          "level": "Medium",
+          "note": "MiCA Art. 92 creates material risk that MEV extraction is reclassified as market abuse in the EU, while U.S. Treasury cyber-threat frameworks are now being extended to crypto firms, closing the compliance gap with TradFi.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / liquidation",
+          "level": "Medium",
+          "note": "Geopolitical shocks (e.g. Trump Iran threats spiking oil past $107) can cascade into tokenized-commodity liquidations at scale, as seen in the $17M Hyperliquid event tied to tokenized Brent crude.",
+          "source": ""
+        },
+        {
+          "dimension": "Stablecoin centralization / control",
+          "level": "Medium",
+          "note": "Dominant stablecoin issuers face competitive pressure from PayPal and major banks entering the market, while critics argue the stablecoin model itself is a backdoor to programmable financial surveillance.",
+          "source": "https://www.certik.com/skynet-report/skynet-2026-stablecoin-threat-intelligence-report"
+        },
+        {
+          "dimension": "Quantum cryptography",
+          "level": "Low",
+          "note": "NIST finalized the first three post-quantum encryption standards in August 2024, but migration timelines for crypto wallets and protocols remain undefined, leaving dormant UTXO holders exposed to a credible long-horizon risk.",
+          "source": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards"
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:47:09.839994+00:00",
+      "items": [
+        {
+          "clicks": 116,
+          "date": "2026-04-09T18:47:05.981065+00:00",
+          "headline": "U.S. Treasury extends cyber threat alerts to crypto firms, closing gap with traditional finance",
+          "hot_score": 192776.127034,
+          "lev_url": "https://leviathannews.xyz/225182/us-treasury-extends-cyber-threat-alerts-to-crypto-firms-closing-gap-with-traditional-finance",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409172545_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/policy/2026/04/09/u-s-treasury-to-loop-in-crypto-sector-on-hacker-warnings-shared-with-traditional-firms"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-16T08:45:13.899775+00:00",
+          "headline": "BitMEX Research proposes “canary fund” mechanism to delay Bitcoin quantum freeze unless a real quantum threat is proven onchain",
+          "hot_score": 7147.607413,
+          "lev_url": "https://leviathannews.xyz/230205/bitmex-research-proposes-canary-fund-mechanism-to-delay-bitcoin-quantum-freeze-unless-a-real-quantum-threat-is-proven-onchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416071345_SJFXQTLA6DPa.jpg",
+          "url": "https://x.com/i/status/2044517060315697382"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-06-27T06:02:06.396155+00:00",
+          "headline": "TradeXYZ's dominance in equity, commodity and index perps isn't an existential threat to Hyperliquid, it's a growth engine driving users, fees and HYPE buybacks",
+          "hot_score": 1101.706477,
+          "lev_url": "https://leviathannews.xyz/263872/tradexyzs-dominance-in-equity-commodity-and-index-perps-isnt-an-existential-threat-to-hyperliquid-its-a-growth-engine-driving-users-fees-and-hype-buybacks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260627030432_YIU8UUsZ0acP.jpg",
+          "url": "https://x.com/kidponga/status/2070574856668590437"
+        },
+        {
+          "clicks": 222,
+          "date": "2026-04-02T12:53:08.167680+00:00",
+          "headline": "Tokenized Brent crude triggers $17M Hyperliquid liquidation, rivaling bitcoin as Trump Iran threats spike oil past $107",
+          "hot_score": 1021.531417,
+          "lev_url": "https://leviathannews.xyz/219840/tokenized-brent-crude-triggers-17m-hyperliquid-liquidation-rivaling-bitcoin-as-trump-iran-threats-spike-oil-past-107",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260402074115_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/markets/2026/04/02/oil-trader-takes-usd17m-hit-as-tokenized-crude-rivals-bitcoin-liquidations"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-04-20T08:49:51.752534+00:00",
+          "headline": "Quantum threat debate intensifies as Bitcoin leans on gradual upgrades and Ethereum accelerates multi-layer defenses, signaling contrasting approaches to future-proofing blockchain security",
+          "hot_score": 987.2,
+          "lev_url": "https://leviathannews.xyz/233309/quantum-threat-debate-intensifies-as-bitcoin-leans-on-gradual-upgrades-and-ethereum-accelerates-multi-layer-defenses-signaling-contrasting-approaches-to-future-proofing-blockchain-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420081245_CsaMZDDGtbDG.jpg",
+          "url": "https://cointelegraph.com/explained/bitcoin-and-ethereum-quantum-threat-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-04-21T14:17:15.069822+00:00",
+          "headline": "Bybit CEO Ben Zhou warns crypto security threats are a constant battle, reflecting on lessons from last year’s $1.5B hack and the need for stronger industry defenses",
+          "hot_score": 875.0,
+          "lev_url": "https://leviathannews.xyz/234285/bybit-ceo-ben-zhou-warns-crypto-security-threats-are-a-constant-battle-reflecting-on-lessons-from-last-years-15b-hack-and-the-need-for-stronger-industry-defenses",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421132946_PQrdZTKWJGoe.jpg",
+          "url": "https://x.com/i/status/2046432981221618122"
+        },
+        {
+          "clicks": 173,
+          "date": "2026-03-29T22:13:29.831139+00:00",
+          "headline": "Stablecoins, not Bitcoin, pose real flippening threat to ETH as Polymarket odds surge past 59%",
+          "hot_score": 686.802044,
+          "lev_url": "https://leviathannews.xyz/217490/stablecoins-not-bitcoin-pose-real-flippening-threat-to-eth-as-polymarket-odds-surge-past-59",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260329135053_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/etheruem-flippening-odds-rise-wont-involve-bitcoin"
+        },
+        {
+          "clicks": 96,
+          "date": "2026-03-19T09:27:05.142940+00:00",
+          "headline": "New wallet security rankings reveal major gaps in protection, with some popular crypto wallets scoring below 50% in threat prevention despite growing DeFi adoption",
+          "hot_score": 686.712955,
+          "lev_url": "https://leviathannews.xyz/211961/new-wallet-security-rankings-reveal-major-gaps-in-protection-with-some-popular-crypto-wallets-scoring-below-50-in-threat-prevention-despite-growing-defi-adoption",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260319000712_5Ff4X4fKGNws.jpg",
+          "url": "https://x.com/i/status/2034310397084549409"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:47:09.757837+00:00",
+      "editorial": [
+        {
+          "count": 16,
+          "source": "x.com"
+        },
+        {
+          "count": 9,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 5,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "archive.ph"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "cloud.google.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "forbes.com"
+        },
+        {
+          "count": 1,
+          "source": "galaxy.com"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "ecb.europa.eu"
+        }
+      ],
+      "editorial_distinct": 21,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 59,
+          "source": "x.com"
+        },
+        {
+          "count": 43,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 16,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 15,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 11,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 11,
+          "source": "theblock.co"
+        },
+        {
+          "count": 7,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 6,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 5,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 5,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "whitehouse.gov"
+        },
+        {
+          "count": 2,
+          "source": "forbes.com"
+        }
+      ],
+      "universe_distinct": 33
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "3ce96104a1800ca3943f9eac2f27cee6696725b547f2474ad5e469bbaf03273e",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:33.644770+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.291,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0191,
+        "lift_log": 3.953,
+        "score": 0.2913,
+        "shared": 5
+      },
+      "rationale": "Hacking is a type of threat to crypto systems.",
+      "relation_type": "peer",
+      "slug": "hacking",
+      "source": "cotag",
+      "tag_name": "Hacking",
+      "title": "Hacking, Explained",
+      "weight": 29
+    },
+    {
+      "confidence": 0.308,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0809,
+        "lift_log": 3.607,
+        "score": 0.3083,
+        "shared": 32
+      },
+      "rationale": "Both are threat categories; quantum threats to cryptography.",
+      "relation_type": "peer",
+      "slug": "quantum",
+      "source": "cotag",
+      "tag_name": "quantum",
+      "title": "quantum, Explained",
+      "weight": 31
+    }
+  ],
+  "schema_version": 1,
+  "slug": "threat",
+  "tag_name": "Threat",
+  "title": "Threat, Explained"
+}

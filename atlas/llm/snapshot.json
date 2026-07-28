@@ -1,0 +1,504 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:14:05.897086+00:00",
+      "newsroom_total": 7,
+      "overall_share": 8,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 19
+        },
+        {
+          "ed_share": 28,
+          "month": "2026-04",
+          "newsroom": 5,
+          "universe": 13
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 26
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 16
+        }
+      ],
+      "total_universe": 84,
+      "universe_total": 77
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:14:05.614572+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "llm",
+          "phrase": "LLMs are a key area of AI research.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "research",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "llm",
+          "phrase": "Unclear relation; possibly a competitor or unrelated.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "openclaw",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "llm",
+          "phrase": "LLMs are used to power AI agents.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "agents",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "llm",
+          "phrase": "SDKs provide tools to build with LLMs.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "sdk",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "llm",
+          "phrase": "APIs allow access to LLM models.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "api",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "LLM",
+          "slug": "llm",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Research",
+          "slug": "research",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "OpenClaw",
+          "slug": "openclaw",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "SDK",
+          "slug": "sdk",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "API",
+          "slug": "api",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:48:15.255666+00:00",
+      "events": [
+        {
+          "date": "2025-02",
+          "kind": "milestone",
+          "label": "LIFE resilient self-improving multi-agent LLM framework proposed",
+          "source": "https://arxiv.org/html/2502.04780v1"
+        },
+        {
+          "date": "2025-03",
+          "kind": "exploit",
+          "label": "26 malicious LLM API routers discovered injecting code and stealing credentials",
+          "source": "https://arxiv.org/html/2503.02167v1"
+        },
+        {
+          "date": "2025-04",
+          "kind": "launch",
+          "label": "Google releases Gemma 4 open models: 256K context, multimodal, Apache 2.0",
+          "source": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+        },
+        {
+          "date": "2025-04",
+          "kind": "milestone",
+          "label": "Agentic LLM decision-making and blockchain optimization papers accepted to WWW'26",
+          "source": "https://arxiv.org/html/2504.09059v1"
+        },
+        {
+          "date": "2025-04",
+          "kind": "launch",
+          "label": "Google launches Gemma 4 12B encoder-free model targeting local inference",
+          "source": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+        },
+        {
+          "date": "2025-07",
+          "kind": "launch",
+          "label": "Anthropic ships Claude Opus 4.7 with 3x coding gains at unchanged pricing",
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:48:15.255504+00:00",
+      "insight": "Crypto readers click LLM stories not for capability benchmarks but for infrastructure trust: the top-performing headlines all reduce to a single question — who controls the model stack, and what happens when that controller is malicious, centralized, or corruptible.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://arxiv.org/html/2503.02167v1"
+    },
+    "reader_signal": {
+      "article_count": 7,
+      "as_of": "2026-07-01T12:14:06.365071+00:00",
+      "most_clicked": {
+        "clicks": 77,
+        "date": "2026-04-02T11:50:23.087020+00:00",
+        "headline": "Vitalik Buterin unveils self-sovereign local LLM stack, prioritizing privacy, on-device inference, and secure data pipelines to eliminate reliance on centralized AI services",
+        "lev_url": "https://leviathannews.xyz/219916/my-self-sovereign-local-private-secure-llm-setup-april-2026-20260402-1"
+      },
+      "provenance": "data",
+      "top_decile_share": 19,
+      "total_clicks": 411
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:48:15.255577+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Sovereign on-device inference",
+          "why": "Vitalik framing local LLM inference as a self-custody problem — eliminating dependence on closed API providers the same way non-custodial wallets eliminate exchange counterparty risk — translated AI privacy into crypto-native terms readers already accept."
+        },
+        {
+          "source": "https://arxiv.org/html/2503.02167v1",
+          "thread": "Malicious LLM router supply chain",
+          "why": "26 production API routers secretly injecting code and stealing credentials showed that the middleware layer between developers and models is an active attack surface, not a passive pipe."
+        },
+        {
+          "source": "",
+          "thread": "AI-powered DeFi exploit escalation",
+          "why": "Firepan opening its scanner free specifically because LLM-driven attacks were surging signaled to readers that AI is already being operationalized against smart contracts, not merely theorized."
+        },
+        {
+          "source": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+          "thread": "Open-weight model capability convergence",
+          "why": "Google releasing Gemma 4 with 256K context and multimodal support under Apache 2.0 reinforced the thesis that frontier capability is migrating off closed API providers and onto self-hostable infrastructure."
+        },
+        {
+          "source": "https://www.anthropic.com/news/claude-opus-4-7",
+          "thread": "Frontier model pricing pressure",
+          "why": "Anthropic holding Opus 4.7 pricing flat despite 3x coding gains set a concrete benchmark that developers use to evaluate whether closed API centralization is still economically justified."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:48:15.255586+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / protocol",
+          "level": "High",
+          "note": "LLM-generated exploit tooling lowers the skill floor for DeFi attacks; the emergence of dedicated AI-powered vulnerability scanners (Firepan) confirms the threat is operationally real.",
+          "source": ""
+        },
+        {
+          "dimension": "Supply chain",
+          "level": "High",
+          "note": "Researchers confirmed 26 production LLM API routers actively injecting malicious code and exfiltrating developer credentials, compromising the tooling layer before code ever reaches a smart contract.",
+          "source": "https://arxiv.org/html/2503.02167v1"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Dependence on a handful of closed LLM API providers creates surveillance and single-point-of-failure risk that Vitalik's sovereign local stack explicitly targets as the next self-custody frontier.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Open-weight releases under Apache 2.0 reduce regulatory surface versus closed APIs, but AI-assisted DeFi exploits are likely to accelerate enforcement attention on the LLM-crypto intersection.",
+          "source": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Stable closed-API pricing alongside rising open-weight capability compresses the moat of proprietary model providers and pressures AI infrastructure token valuations tied to exclusive model access.",
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        }
+      ],
+      "sourced": 3,
+      "total": 5
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:14:06.290052+00:00",
+      "items": [
+        {
+          "clicks": 72,
+          "date": "2026-04-16T14:33:34.910268+00:00",
+          "headline": "Anthropic ships Opus 4.7 with 3x coding gains and tripled image resolution, holding pricing steady",
+          "hot_score": 100599.147069,
+          "lev_url": "https://leviathannews.xyz/230570/anthropic-is-an-ai-safety-and-research-company-thats-working-to-build-reliable-interpretable-and-steerable-ai-systems",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416143104_QLh_3ObLM_b4.jpg",
+          "url": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "clicks": 60,
+          "date": "2026-04-19T20:11:52.212232+00:00",
+          "headline": "Firepan opens $239/mo DeFi vulnerability scanner for free as AI-powered exploits surge, urging developers to secure codebases before LLM-driven attacks escalate",
+          "hot_score": 61744.274518,
+          "lev_url": "https://leviathannews.xyz/232876/firepan-opens-239mo-defi-vulnerability-scanner-for-free-as-ai-powered-exploits-surge-urging-developers-to-secure-codebases-before-llm-driven-attacks-escalate",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260419163846_myFkc99_u1KR.jpg",
+          "url": "https://x.com/i/status/2045657000663461897"
+        },
+        {
+          "clicks": 62,
+          "date": "2026-04-13T10:13:26.447018+00:00",
+          "headline": "Researchers find 26 LLM API routers secretly injecting malicious code and stealing developer credentials",
+          "hot_score": 4544.630077,
+          "lev_url": "https://leviathannews.xyz/227458/researchers-find-26-llm-api-routers-secretly-injecting-malicious-code-and-stealing-developer-credentials",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260413032809_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/researchers-discover-malicious-ai-agent-routers-that-can-steal-crypto"
+        },
+        {
+          "clicks": 77,
+          "date": "2026-04-02T11:50:23.087020+00:00",
+          "headline": "Vitalik Buterin unveils self-sovereign local LLM stack, prioritizing privacy, on-device inference, and secure data pipelines to eliminate reliance on centralized AI services",
+          "hot_score": 286.22803,
+          "lev_url": "https://leviathannews.xyz/219916/my-self-sovereign-local-private-secure-llm-setup-april-2026-20260402-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260402094220_RLfr34kcDKKp.jpg",
+          "url": "https://x.com/i/status/2039577760935657677"
+        },
+        {
+          "clicks": 52,
+          "date": "2026-04-02T18:44:16.028508+00:00",
+          "headline": "Google releases Gemma 4 open models with 256K context and multimodal support under Apache 2.0 license",
+          "hot_score": 137.857322,
+          "lev_url": "https://leviathannews.xyz/220247/we-just-released-gemma-4-our-most-intelligent-open-models-to-date-built-from-the-same-world-class-research-as-gemini-3-gemma-4-brings-breakthrough-intelligence-directly-to-yo",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260402165929_tjDfKG3PVJ38.jpg",
+          "url": "https://x.com/i/status/2039736220834480233"
+        },
+        {
+          "clicks": 54,
+          "date": "2026-06-04T12:18:39.397003+00:00",
+          "headline": "Google launches Gemma 4 12B encoder-free AI model, signaling a major shift in local LLM approach",
+          "hot_score": -290.898659,
+          "lev_url": "https://leviathannews.xyz/252777/no-headline-20260604",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260604121537_Zvi7dfHFq2Ur.jpg",
+          "url": "https://www.perplexity.ai/page/google-launches-encoder-free-g-LgpvnxhzR3y.GLvCByajMw"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-05-19T15:44:29.120903+00:00",
+          "headline": "Karpathy Joins Anthropic: AI Visionary Returns to Frontier LLM R&D, Betting the Next Few Years Will Redefine Artificial Intelligence While Putting His Education Mission Briefly on Hold",
+          "hot_score": -362.295039,
+          "lev_url": "https://leviathannews.xyz/245167/karpathy-joins-anthropic-ai-visionary-returns-to-frontier-llm-rd-betting-the-next-few-years-will-redefine-artificial-intelligence-while-putting-his-education-mission-briefly-on-hol",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260519154223_ZCmg5Dc44OYB.jpg",
+          "url": "https://x.com/karpathy/status/2056753169888334312"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:14:06.206858+00:00",
+      "editorial": [
+        {
+          "count": 4,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "anthropic.com"
+        },
+        {
+          "count": 1,
+          "source": "perplexity.ai"
+        }
+      ],
+      "editorial_distinct": 4,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 63,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "warpcast.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "aethir.com"
+        },
+        {
+          "count": 1,
+          "source": "vitalik.eth.limo"
+        },
+        {
+          "count": 1,
+          "source": "io.net"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 1,
+          "source": "coinbase.com"
+        }
+      ],
+      "universe_distinct": 11
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "b1d076aa98e51414d51e70828be456f37fe9d769139d566693259080e89df6bf",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:14.904378+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.209,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.006,
+        "lift_log": 2.291,
+        "score": 0.2086,
+        "shared": 3
+      },
+      "rationale": "LLMs are used to power AI agents.",
+      "relation_type": "ecosystem",
+      "slug": "agents",
+      "source": "cotag",
+      "tag_name": "agents",
+      "title": "agents, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.22,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0389,
+        "lift_log": 4.374,
+        "score": 0.2196,
+        "shared": 5
+      },
+      "rationale": "Unclear relation; possibly a competitor or unrelated.",
+      "relation_type": "peer",
+      "slug": "openclaw",
+      "source": "cotag",
+      "tag_name": "OpenClaw",
+      "title": "OpenClaw, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.254,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0135,
+        "lift_log": 3.199,
+        "score": 0.2537,
+        "shared": 3
+      },
+      "rationale": "LLMs are a key area of AI research.",
+      "relation_type": "category",
+      "slug": "research",
+      "source": "cotag",
+      "tag_name": "Research",
+      "title": "Research, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.206,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0289,
+        "lift_log": 4.192,
+        "score": 0.2063,
+        "shared": 3
+      },
+      "rationale": "SDKs provide tools to build with LLMs.",
+      "relation_type": "infrastructure",
+      "slug": "sdk",
+      "source": "cotag",
+      "tag_name": "SDK",
+      "title": "SDK, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "llm",
+  "tag_name": "LLM",
+  "title": "LLM, Explained"
+}

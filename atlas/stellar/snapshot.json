@@ -1,0 +1,473 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:05:15.181422+00:00",
+      "newsroom_total": 9,
+      "overall_share": 13,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 15
+        },
+        {
+          "ed_share": 40,
+          "month": "2026-04",
+          "newsroom": 6,
+          "universe": 9
+        },
+        {
+          "ed_share": 5,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 20
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 16
+        }
+      ],
+      "total_universe": 70,
+      "universe_total": 61
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:05:14.880191+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "stellar",
+          "phrase": "DTCC explores blockchain settlement, potentially integrating with Stellar.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "dtcc",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "stellar",
+          "phrase": "Stellar is a blockchain network focused on payments.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "payments",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "stellar",
+          "phrase": "Stellar specializes in fast, low-cost cross-border payments.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "cross-border-payments",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "stellar",
+          "phrase": "Stellar supports stablecoin issuance and transfers on its network.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "stablecoins",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "stellar",
+          "phrase": "fees",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "fees",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Stellar",
+          "slug": "stellar",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "DTCC",
+          "slug": "dtcc",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Payments",
+          "slug": "payments",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Cross-Border Payments",
+          "slug": "cross-border-payments",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Stablecoins",
+          "slug": "stablecoins",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Fees",
+          "slug": "fees",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T06:47:07.739264+00:00",
+      "events": [
+        {
+          "date": "2021-10",
+          "kind": "launch",
+          "label": "MoneyGram USDC corridor launched on Stellar",
+          "source": "https://stellar.org/learn/cross-border-payments"
+        },
+        {
+          "date": "2024-09",
+          "kind": "milestone",
+          "label": "Franklin Templeton BENJI tokenized fund goes live on Stellar",
+          "source": "https://stellar.org/use-cases/tokenization"
+        },
+        {
+          "date": "2025-06",
+          "kind": "launch",
+          "label": "Societe Generale-FORGE deploys EURCV euro stablecoin on Stellar",
+          "source": "https://stellar.org/learn/what-are-stablecoins"
+        },
+        {
+          "date": "2025-11",
+          "kind": "milestone",
+          "label": "CME Group adds Stellar futures, pushing crypto futures market cap coverage past 75%",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "launch",
+          "label": "Circle expands CCTP to Stellar as domain 27 across 23 chains",
+          "source": "https://x.com/circle/status/2067721402095206425"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "DTCC tokenization service connects to Stellar public blockchain",
+          "source": "https://www.dtcc.com/news/2026/may/27/tokenization-service-to-connect-with-stellar-public-blockchain-as-dtc-advances-multi-chain-strategy"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Mastercard expands intraday stablecoin settlement to Stellar network",
+          "source": "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-expands-settlement-capabilities-to-include-stablecoin.html"
+        },
+        {
+          "date": "2026-06",
+          "kind": "governance",
+          "label": "Quantum Preparedness Plan targets Ed25519 migration, quantum-safe signers by 2027",
+          "source": "https://stellar.org/blog/foundation-news/introducing-the-quantum-preparedness-plan"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T06:47:07.738912+00:00",
+      "insight": "Readers click Stellar not for DeFi speculation but for TradFi legitimacy signals — every high-performing headline is a name-brand institution (CME, MoneyGram, Mastercard, Societe Generale) treating Stellar as settlement infrastructure, which means reader appetite is really a proxy for 'is this network safe enough for real money.'",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-expands-settlement-capabilities-to-include-stablecoin.html"
+    },
+    "reader_signal": {
+      "article_count": 9,
+      "as_of": "2026-07-01T12:05:15.708474+00:00",
+      "most_clicked": {
+        "clicks": 58,
+        "date": "2026-04-09T14:20:53.464886+00:00",
+        "headline": "Splyce Finance lands major strategic backing from Sui, Stellar, Solana foundations signaling DeFi surge.",
+        "lev_url": "https://leviathannews.xyz/224972/splyce-finance-closed-its-strategic-round-backed-by-sui-foundation-stellar-solana-foundation-lucid-drakes-sarson-funds-and-kin-capital"
+      },
+      "provenance": "data",
+      "top_decile_share": 17,
+      "total_clicks": 349
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T06:47:07.739131+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://stellar.org",
+          "thread": "Foundation strategic backing race",
+          "why": "Splyce's simultaneous backing from Sui, Stellar, and Solana foundations signaled a competitive war for DeFi developer mindshare, pulling readers who track which L1s are winning builder loyalty."
+        },
+        {
+          "source": "",
+          "thread": "TradFi derivatives coverage expansion",
+          "why": "CME adding Stellar futures alongside Cardano and Chainlink — hitting 75% of total crypto market cap — told readers that institutional hedging infrastructure was catching up to spot markets faster than expected."
+        },
+        {
+          "source": "https://www.prnewswire.com/news-releases/moneygram-launches-mgusd-a-stablecoin-to-power-its-own-global-network-302787799.html",
+          "thread": "Stablecoin payment rails buildout",
+          "why": "MoneyGram's USDC-powered cash on/off-ramps and Wirex's native Stellar payment cards represent the specific use case Stellar was designed for, drawing readers tracking whether the network's decade-long remittance thesis is finally closing."
+        },
+        {
+          "source": "https://x.com/circle/status/2067721402095206425",
+          "thread": "USDC cross-chain infrastructure",
+          "why": "Circle's CCTP expansion making Stellar domain 27 across 23 chains turned Stellar into a canonical USDC corridor, which readers recognized as a structural liquidity upgrade with institutional weight behind it."
+        },
+        {
+          "source": "https://stellar.org/blog/foundation-news/introducing-the-quantum-preparedness-plan",
+          "thread": "Quantum safety timeline",
+          "why": "Stellar's 2027 quantum-safe signer roadmap and its architectural advantage — account identity separated from signing keys — gave readers a concrete answer to an abstract threat that other chains have not yet addressed."
+        },
+        {
+          "source": "https://stellar.org/use-cases/tokenization",
+          "thread": "RWA and tokenized fund adoption",
+          "why": "Franklin Templeton's BENJI and Amundi's $100M tokenized fund choosing Stellar over Ethereum-first alternatives told readers that regulated asset managers were vetting the network's compliance posture, not just its throughput."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T06:47:07.739158+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / Soroban maturity",
+          "level": "Medium",
+          "note": "Soroban smart contracts are live on mainnet but the ecosystem is nascent; oracle incidents (RedStone's $10M exploit highlighting feed risks) show Stellar DeFi inherits the same composability attack surface as other chains.",
+          "source": "https://developers.stellar.org/docs/build/smart-contracts/overview"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "The Stellar Development Foundation controls protocol upgrades, the community fund, and a large share of XLM supply, creating meaningful governance concentration even as validator diversity has grown.",
+          "source": "https://communityfund.stellar.org"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Low",
+          "note": "Stellar's compliance-first design — built around KYC-compatible stablecoins and regulated partners like Mastercard and Societe Generale — reduces regulatory risk compared to permissionless DeFi chains, though stablecoin reserve and issuer oversight rules remain unsettled globally.",
+          "source": "https://bpi.com/stablecoin-risks-some-warning-bells/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "RWA TVL crossing $1B and then $2B is a headline milestone, but thin secondary-market liquidity for tokenized assets on Stellar means large redemptions face friction if institutional holders exit simultaneously.",
+          "source": "https://stellar.org/use-cases/tokenization"
+        },
+        {
+          "dimension": "Market / XLM price dependency",
+          "level": "Medium",
+          "note": "Transaction fees and spam-prevention reserves are denominated in XLM, so a sustained price decline can make the network economically unviable for micropayment use cases that define Stellar's core value proposition.",
+          "source": "https://stellar.org/learn/lumens"
+        },
+        {
+          "dimension": "Quantum / cryptographic migration",
+          "level": "Low",
+          "note": "NIST places the practical quantum threat to Ed25519 at 2029 and beyond; Stellar's 2027 quantum-safe signer target gives a meaningful runway, and its key-account separation architecture makes migration less disruptive than chains where account identity is derived directly from the signing key.",
+          "source": "https://stellar.org/blog/foundation-news/introducing-the-quantum-preparedness-plan"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:05:15.629350+00:00",
+      "items": [
+        {
+          "clicks": 36,
+          "date": "2026-04-16T21:36:26.692538+00:00",
+          "headline": "Alchemy brings Stellar ecosystem to its platform, enabling builders to scale RWA platforms, cross-border payments, and financial apps with enterprise integrations",
+          "hot_score": 3872.58788,
+          "lev_url": "https://leviathannews.xyz/230903/alchemy-brings-stellar-ecosystem-to-its-platform-enabling-builders-to-scale-rwa-platforms-cross-border-payments-and-financial-apps-with-enterprise-integrations",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416201545_ejs0plKIyJFg.jpg",
+          "url": "https://x.com/i/status/2044785236454850858"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-05-19T17:18:54.609327+00:00",
+          "headline": "Circle expands CCTP to Stellar, enabling developers and institutions to move USDC across 23 blockchains using canonical burn-and-mint infrastructure",
+          "hot_score": 714.208196,
+          "lev_url": "https://leviathannews.xyz/245197/circle-expands-cctp-to-stellar-enabling-developers-and-institutions-to-move-usdc-across-23-blockchains-using-canonical-burn-and-mint-infrastructure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260519165251_OdyM4FRKDIbz.jpg",
+          "url": "https://x.com/i/web/status/2056767949445472739"
+        },
+        {
+          "clicks": 11,
+          "date": "2026-06-10T08:00:03.892045+00:00",
+          "headline": "Stellar plans quantum-safe signers for all accounts by 2027 as QPP targets Ed25519 risk",
+          "hot_score": 397.002207,
+          "lev_url": "https://leviathannews.xyz/254892/stellar-plans-quantum-safe-signers-for-all-accounts-by-2027-as-qpp-targets-ed25519-risk",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260609180950_Z4zrlaiDPw==.png",
+          "url": "https://stellar.org/blog/foundation-news/introducing-the-quantum-preparedness-plan"
+        },
+        {
+          "clicks": 41,
+          "date": "2026-04-22T14:49:43.676898+00:00",
+          "headline": "MoneyGram and Stellar extend partnership to scale global stablecoin adoption, expanding USDC-powered cash on/off-ramps and app balances across Latin America",
+          "hot_score": 396.2,
+          "lev_url": "https://leviathannews.xyz/235041/moneygram-and-stellar-extend-partnership-to-scale-global-stablecoin-adoption-expanding-usdc-powered-cash-onoff-ramps-and-app-balances-across-latin-america",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422144854_bH4Ury2M5qtt.jpg",
+          "url": "https://www.prnewswire.com/news-releases/moneygram-and-stellar-extend-partnership-to-scale-real-world-stablecoin-utility-globally-302749574.html"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-04-29T17:48:58.386744+00:00",
+          "headline": "Stellar CMO urges crypto to abandon hype cycles for “get rich slow” mindset, emphasizing long-term value creation as key to mainstream trust",
+          "hot_score": 268.0,
+          "lev_url": "https://leviathannews.xyz/237157/stellar-cmo-urges-crypto-to-abandon-hype-cycles-for-get-rich-slow-mindset-emphasizing-long-term-value-creation-as-key-to-mainstream-trust",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260429173859_xWQjytTeAMlX.png",
+          "url": "https://www.coindesk.com/coindesk-news/2026/04/29/stellar-s-cmo-says-crypto-must-ditch-hype-and-get-rich-slow-to-win-mainstream-trust"
+        },
+        {
+          "clicks": 49,
+          "date": "2026-03-02T22:21:53.370729+00:00",
+          "headline": "CME Group says crypto futures suite now covers over 75% of total market cap after adding Cardano, Chainlink, and Stellar contracts",
+          "hot_score": 200.768833,
+          "lev_url": "https://leviathannews.xyz/38622/cme-group-says-crypto-futures-suite-now-covers-over-75-of-total-market-cap-after-adding-cardano-chainlink-and-stellar-contracts",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260302221527_gzct9AgK_hA=.jpg",
+          "url": "https://www.cmegroup.com/articles/2026/navigating-the-crypto-market-evolution-with-cardano-chainlink-and-stellar-futures.html"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-04-02T14:59:39.457754+00:00",
+          "headline": "Volatility Shares launches 2x leveraged ETFs for Cardano, Stellar, and Chainlink",
+          "hot_score": 136.693675,
+          "lev_url": "https://leviathannews.xyz/219658/volatility-shares-launches-2x-leveraged-etfs-for-cardano-stellar-and-chainlink",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401225754_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/363089/volatility-shares-everaged-crypto-etfs-three-altcoins/"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-04-03T06:19:51.650097+00:00",
+          "headline": "Wirex expands to Stellar with Ultrastellar, launching native payment rails for cards, accounts, payouts, and stablecoin yield to power real-world financial apps",
+          "hot_score": 77.556833,
+          "lev_url": "https://leviathannews.xyz/220529/1-were-expanding-our-payment-infrastructure-to-stellar-together-with-ultrastellar-the-team-behind-lobstr-and-stellarxhq-we-are-launching-native-stellar-payment-infrastruct",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260403050246_r8fP4UcPHPsF.jpg",
+          "url": "https://x.com/wirexapp/status/2039689359411249182"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:05:15.548529+00:00",
+      "editorial": [
+        {
+          "count": 4,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "cmegroup.com"
+        },
+        {
+          "count": 1,
+          "source": "prnewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "stellar.org"
+        }
+      ],
+      "editorial_distinct": 6,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 36,
+          "source": "x.com"
+        },
+        {
+          "count": 9,
+          "source": "stellar.org"
+        },
+        {
+          "count": 4,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.redstone.finance"
+        },
+        {
+          "count": 1,
+          "source": "techinasia.com"
+        }
+      ],
+      "universe_distinct": 9
+    }
+  },
+  "official_links": [
+    {
+      "handle": "stellar-development-foundation",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/stellar-development-foundation"
+    }
+  ],
+  "pillar_state_sha256": "47b8eff4716039ca977ca495bab968ba053e5acb2959333bd541dfed33d1af9e",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:31.220849+00:00"
+  },
+  "relations": [],
+  "schema_version": 1,
+  "slug": "stellar",
+  "tag_name": "Stellar",
+  "title": "Stellar, Explained"
+}

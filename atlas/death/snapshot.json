@@ -1,0 +1,535 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:08:05.587816+00:00",
+      "newsroom_total": 11,
+      "overall_share": 12,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 31
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 23
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 10
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 18
+        }
+      ],
+      "total_universe": 95,
+      "universe_total": 84
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:08:05.083838+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "death",
+          "phrase": "Both death and threat involve potential harm or danger.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "threat",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "death",
+          "phrase": "Unclear direct relation; both are general topics.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "israel",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "death",
+          "phrase": "War often results in death, but not a direct crypto relation.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "war",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "death",
+          "phrase": "Scams can lead to financial death, but not directly related.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "scam",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "death",
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "death",
+          "slug": "death",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Threat",
+          "slug": "threat",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Israel",
+          "slug": "israel",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "War",
+          "slug": "war",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "Scam",
+          "slug": "scam",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T07:42:17.733299+00:00",
+      "events": [
+        {
+          "date": "2022-05",
+          "kind": "exploit",
+          "label": "Terra UST-LUNA algorithmic death spiral wipes $40B",
+          "source": ""
+        },
+        {
+          "date": "2023-09",
+          "kind": "regulatory",
+          "label": "Thodex founder Faruk Fatih Özer sentenced to 11,196 years in Turkey",
+          "source": ""
+        },
+        {
+          "date": "2024-08",
+          "kind": "governance",
+          "label": "Tornado Cash governance effectively killed after OFAC sanctions and founder arrests",
+          "source": ""
+        },
+        {
+          "date": "2025-02",
+          "kind": "regulatory",
+          "label": "LIBRA insider trading scandal erupts; accused flee amid death threats",
+          "source": ""
+        },
+        {
+          "date": "2026-02",
+          "kind": "regulatory",
+          "label": "Terraform bankruptcy administrator files Jane Street lawsuit in Manhattan over UST-LUNA spiral",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Thodex founder found dead in Turkish prison cell; authorities investigate",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T07:42:17.733151+00:00",
+      "insight": "Readers don't click 'death' for morbid novelty — they click for human consequence and accountability: who fled the country, who died in prison, whose $40B spiral was allegedly engineered, and whether the founder faking his death got away with it.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 11,
+      "as_of": "2026-07-01T12:08:06.167281+00:00",
+      "most_clicked": {
+        "clicks": 217,
+        "date": "2025-02-25T15:50:36.520331+00:00",
+        "headline": "Influencer accused of LIBRA insider trading flees country over death threats",
+        "lev_url": "https://leviathannews.xyz/9539/influencer-accused-of-libra-insider-trading-flees-country-over-death-threats"
+      },
+      "provenance": "data",
+      "top_decile_share": 26,
+      "total_clicks": 848
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T07:42:17.733209+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "crypto violence and death threats",
+          "why": "The highest-clicked story tied LIBRA insider trading directly to physical flight from death threats, collapsing the boundary between on-chain fraud and real-world danger in a way readers found viscerally compelling."
+        },
+        {
+          "source": "",
+          "thread": "protocol and ecosystem obituaries",
+          "why": "Udi's 'Death of ETH' party recycled a culturally loaded moment from crypto history, inviting readers to debate whether Ethereum's decline is cyclical or terminal."
+        },
+        {
+          "source": "",
+          "thread": "corporate BTC treasury death rattle",
+          "why": "The framing of leveraged treasury companies borrowing to buy back shares below NAV as a 'death rattle' gave readers a structural collapse narrative around MicroStrategy-style copycats."
+        },
+        {
+          "source": "",
+          "thread": "algorithmic death spiral accountability",
+          "why": "Jane Street being accused of deliberately engineering the Terra UST-LUNA collapse reframed the $40B wipeout from a protocol failure into a potential fraud, drawing readers who want someone to blame."
+        },
+        {
+          "source": "",
+          "thread": "founder death in custody",
+          "why": "Thodex's Faruk Fatih Özer — sentenced to over 11,000 years and then found dead in a Turkish prison — compressed the entire arc of a crypto fraud into a single, unavoidable consequence story."
+        },
+        {
+          "source": "",
+          "thread": "prediction markets on political deaths",
+          "why": "Kalshi and Polymarket's Khamenei death markets attracted readers because they exposed the ethical edge of prediction market design: who profits, who gets threatened, and what counts as an acceptable bet."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T07:42:17.733217+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Market / Reflexivity",
+          "level": "High",
+          "note": "Leveraged corporate treasury structures and algorithmic stablecoin designs have both demonstrated capacity for self-reinforcing death spirals that vaporize billions within days.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Jurisdictions from Myanmar (death penalty for coercion) to the US (proposed Death Bets Act, Terraform bankruptcy litigation) are aggressively expanding legal liability for crypto-linked harms.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Tornado Cash's governance collapse illustrates how even ostensibly decentralized protocols can be rendered non-functional when core contributors are removed or coerced.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "The MSTR preferred-share debt structure and treasury companies trading below Bitcoin NAV signal that leveraged accumulation strategies face terminal liquidity crises if BTC price momentum reverses.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-Contract / Mechanism Design",
+          "level": "High",
+          "note": "The Terra UST-LUNA death spiral demonstrated that algorithmic peg mechanisms can become self-executing destruction engines under adversarial or panic conditions, regardless of on-paper soundness.",
+          "source": ""
+        },
+        {
+          "dimension": "Reputational / Personal Safety",
+          "level": "Medium",
+          "note": "Death threats against LIBRA insiders and Polymarket-linked journalists represent an emerging pattern where on-chain market outcomes translate into off-chain physical intimidation of identifiable individuals.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:08:06.057503+00:00",
+      "items": [
+        {
+          "clicks": 31,
+          "date": "2026-05-15T13:22:14.260972+00:00",
+          "headline": "Myanmar anti-scam bill seeks death penalty for coercion, life terms for crypto fraud",
+          "hot_score": 555.2,
+          "lev_url": "https://leviathannews.xyz/242942/myanmar-anti-scam-bill-seeks-death-penalty-for-coercion-life-terms-for-crypto-fraud",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260515132125_UYq93EbaPLW4.jpg",
+          "url": "https://www.thestar.com.my/aseanplus/2026/05/14/myanmar-proposes-death-sentence-for-cyber-scam-offences"
+        },
+        {
+          "clicks": 60,
+          "date": "2026-02-24T08:14:16.577374+00:00",
+          "headline": "Jane Street Accused of Orchestrating 2022 Terra UST–LUNA Death Spiral, Triggering $40B Crypto Meltdown, as Terraform Bankruptcy Administrator Files Manhattan Lawsuit in February 2026",
+          "hot_score": 114.753612,
+          "lev_url": "https://leviathannews.xyz/32983/jane-street-accused-of-orchestrating-2022-terra-ustluna-death-spiral-triggering-40b-crypto-meltdown-as-terraform-bankruptcy-administrator-files-manhattan-lawsuit-in-february-2026",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260224081150_2h2WOk7iY5U=.jpg",
+          "url": "https://www.wsj.com/finance/currencies/jane-street-accused-of-insider-trading-that-helped-collapse-terraform-659e6993"
+        },
+        {
+          "clicks": 45,
+          "date": "2025-12-15T00:06:09.522377+00:00",
+          "headline": "A public debate saw critics label transhumanism a “death cult,” arguing it erases human meaning, while advocates defended it as a humanitarian effort to end aging and suffering through technology. Philosophers warned promises of digital immortality carry deep ethical and social risks.",
+          "hot_score": 70.971677,
+          "lev_url": "https://leviathannews.xyz/22464/a-public-debate-saw-critics-label-transhumanism-a-death-cult-arguing-it-erases-human-meaning-while-advocates-defended-it-as-a-humanitarian-effort-to-end-aging-and-suffering-through",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251214230543_1BgDJS9VYTA=.png",
+          "url": "https://decrypt.co/352249/transhumanism-branded-death-cult-thinkers-clash-humanitys-future"
+        },
+        {
+          "clicks": 31,
+          "date": "2025-12-05T07:33:07.614345+00:00",
+          "headline": "After faking death, Zerebro founder Jeffy Yu unveils AI-penned manifesto and new Solana coin. The manifesto, which did not mention a token, argues for a future in which AI and humans will converge biologically, chemically, and surgically in a new form of humanity. Physical Limits of Intelligence (PLOI) quickly surged to a $5.4 million market cap before retracing to a recent $1.1 million market cap. The top trader, known as PainCrypt0, realized profits of over $26,800 from a $2,634 investment, according to DEX Screener.",
+          "hot_score": 39.8596,
+          "lev_url": "https://leviathannews.xyz/21652/after-faking-death-zerebro-founder-jeffy-yu-unveils-ai-penned-manifesto-and-new-solana-coin-the-manifesto-which-did-not-mention-a-token-argues-for-a-future-in-which-ai-and-humans-w",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251205000134_GQlnOYKEtYk=.jpg",
+          "url": "https://decrypt.co/350928/faking-death-zerebro-founder-unveils-ai-manifesto-solana-coin"
+        },
+        {
+          "clicks": 217,
+          "date": "2025-02-25T15:50:36.520331+00:00",
+          "headline": "Influencer accused of LIBRA insider trading flees country over death threats",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9539/influencer-accused-of-libra-insider-trading-flees-country-over-death-threats",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250225153804_ohJPw59J7w==.jpg",
+          "url": "https://protos.com/influencer-accused-of-libra-insider-trading-flees-country-over-death-threats"
+        },
+        {
+          "clicks": 163,
+          "date": "2024-11-20T15:35:26.422458+00:00",
+          "headline": "Udi brings back the legendary \"Death of ETH\" Party—will history repeat Itself?",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7780/udi-brings-back-the-legendary-death-of-eth-partywill-history-repeat-itself",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241120153324_qppW5YANLg==.png",
+          "url": "https://x.com/udiWertheimer/status/1852064118636679574"
+        },
+        {
+          "clicks": 89,
+          "date": "2025-09-28T07:55:20.220766+00:00",
+          "headline": "Digital asset treasuries are borrowing hundreds of millions to buy back their own shares as market caps sink below their Bitcoin holdings, signaling what analysts call the “death rattle” of the corporate BTC craze. Mergers like Strive’s $1.2B Semler deal hint that consolidation—not endless accumulation—may be the only path forward.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/17707/digital-asset-treasuries-are-borrowing-hundreds-of-millions-to-buy-back-their-own-shares-as-market-caps-sink-below-their-bitcoin-holdings-signaling-what-analysts-call-the-death-rat",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250928054601_xy3jny-sZEM=.jpg",
+          "url": "https://crypto.news/digital-asset-treasuries-buy-own-stocks-to-survive/"
+        },
+        {
+          "clicks": 76,
+          "date": "2024-06-04T18:08:29.997157+00:00",
+          "headline": "Today in The Tentacle: Death and DeFi: Infineo, Pudgy Penguins mobile game, Hamster Kombat token launch, Thailand's Bitcoin ETF, and more.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5750/today-in-the-tentacle-death-and-defi-infineo-pudgy-penguins-mobile-game-hamster-kombat-token-launch-thailands-bitcoin-etf-and-more",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240604180020_e2ycXJ8_bg==.png",
+          "url": "https://leviathannews.substack.com/p/infineo-death-and-defi"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:08:05.972874+00:00",
+      "editorial": [
+        {
+          "count": 3,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "leviathannews.substack.com"
+        },
+        {
+          "count": 1,
+          "source": "protos.com"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "wsj.com"
+        },
+        {
+          "count": 1,
+          "source": "thestar.com.my"
+        }
+      ],
+      "editorial_distinct": 8,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 31,
+          "source": "x.com"
+        },
+        {
+          "count": 8,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 6,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 4,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "dailymail.co.uk"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 2,
+          "source": "independent.co.uk"
+        },
+        {
+          "count": 2,
+          "source": "portal.illuvium.io"
+        },
+        {
+          "count": 1,
+          "source": "news.bloomberglaw.com"
+        }
+      ],
+      "universe_distinct": 28
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "8ed645b7298c80026b9401d089277f6fcac98cad5696d035c0de8c194b41e921",
+  "provenance": {
+    "model_name": "claude-opus-4-8",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "opus_websearch",
+    "updated_at": "2026-07-26T22:21:59.935990+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.244,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0162,
+        "lift_log": 2.962,
+        "score": 0.2444,
+        "shared": 5
+      },
+      "rationale": "Both death and threat involve potential harm or danger.",
+      "relation_type": "peer",
+      "slug": "threat",
+      "source": "cotag",
+      "tag_name": "Threat",
+      "title": "Threat, Explained",
+      "weight": 24
+    }
+  ],
+  "schema_version": 1,
+  "slug": "death",
+  "tag_name": "death",
+  "title": "death, Explained"
+}

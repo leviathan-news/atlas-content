@@ -1,0 +1,525 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:10:02.878766+00:00",
+      "newsroom_total": 13,
+      "overall_share": 14,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 5,
+          "month": "2026-03",
+          "newsroom": 2,
+          "universe": 35
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-04",
+          "newsroom": 4,
+          "universe": 19
+        },
+        {
+          "ed_share": 23,
+          "month": "2026-05",
+          "newsroom": 5,
+          "universe": 17
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-06",
+          "newsroom": 2,
+          "universe": 10
+        }
+      ],
+      "total_universe": 96,
+      "universe_total": 83
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:10:02.237302+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "market-structure",
+          "phrase": "Legislation directly addressing market structure regulation.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "crypto-market-structure-bill",
+          "weight": 38
+        },
+        {
+          "dir": "out",
+          "from": "market-structure",
+          "phrase": "Senate debates and passes market structure bills.",
+          "relation_type": "governance",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "senate",
+          "weight": 29
+        },
+        {
+          "dir": "out",
+          "from": "market-structure",
+          "phrase": "Proposed act to clarify market structure rules.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "clarity-act",
+          "weight": 28
+        },
+        {
+          "dir": "out",
+          "from": "market-structure",
+          "phrase": "Banking sector interacts with market structure.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "banking",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "market-structure",
+          "phrase": "Congress creates laws shaping market structure.",
+          "relation_type": "governance",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "congress",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Market Structure",
+          "slug": "market-structure",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Crypto Market Structure Bill",
+          "slug": "crypto-market-structure-bill",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 38
+        },
+        {
+          "center": false,
+          "name": "Senate",
+          "slug": "senate",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 29
+        },
+        {
+          "center": false,
+          "name": "CLARITY Act",
+          "slug": "clarity-act",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 28
+        },
+        {
+          "center": false,
+          "name": "Banking",
+          "slug": "banking",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Congress",
+          "slug": "congress",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T08:21:56.876204+00:00",
+      "events": [
+        {
+          "date": "2025-05",
+          "kind": "regulatory",
+          "label": "CCMR publishes U.S. digital asset regulatory framework blueprint",
+          "source": "https://capmktsreg.org/wp-content/uploads/2025/05/CCMR-Designing-a-U.S.-Digital-Asset-Regulatory-Framework-05.14.25-Final.pdf"
+        },
+        {
+          "date": "2026-01",
+          "kind": "regulatory",
+          "label": "SEC crypto task force issues guidance: most tokens not securities; mining, staking, airdrops excluded",
+          "source": "https://www.sec.gov/securities-topics/crypto-task-force"
+        },
+        {
+          "date": "2026-03",
+          "kind": "regulatory",
+          "label": "Senate Banking Committee targets April markup for crypto market structure bill",
+          "source": "https://x.com/CoinDesk/status/2044493088119296268"
+        },
+        {
+          "date": "2026-04",
+          "kind": "regulatory",
+          "label": "Senate Banking Committee holds CLARITY Act markup hearing",
+          "source": "https://www.dwt.com/blogs/financial-services-law-advisor/2026/05/senate-banking-crypto-market-structure-bill"
+        },
+        {
+          "date": "2026-05",
+          "kind": "governance",
+          "label": "100+ crypto firms including Coinbase, Ripple, a16z send joint Senate letter demanding CLARITY Act passage",
+          "source": "https://www.facebook.com/CoinMarketCap/posts/latest-over-100-crypto-firms-including-coinbase-ripple-and-a16z-are-urging-the-s/1379963440827712/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "TD Cowen cuts CLARITY Act passage odds to one-in-three as Democratic swing votes waver",
+          "source": "https://financefeeds.com/7-democrats-could-decide-fate-of-us-crypto-market/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Banks and crypto firms reach private deal on Bitcoin market structure bill; announcement imminent",
+          "source": "https://bpi.com/4-things-to-know-about-crypto-market-structure-legislation/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T08:21:56.876056+00:00",
+      "insight": "Readers are tracking the CLARITY Act as a political prediction market, clicking hardest on swing-vote counts, odds cuts, and backroom deal rumors — not on the policy substance — revealing that the audience treats U.S. crypto market structure legislation as a binary risk event rather than a regulatory process.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://financefeeds.com/7-democrats-could-decide-fate-of-us-crypto-market/"
+    },
+    "reader_signal": {
+      "article_count": 13,
+      "as_of": "2026-07-01T12:10:03.707384+00:00",
+      "most_clicked": {
+        "clicks": 130,
+        "date": "2026-04-06T20:23:03.666221+00:00",
+        "headline": "BREAKING: Banks and crypto firms have privately agreed on a deal for the Bitcoin market structure bill. An announcement is expected this week.",
+        "lev_url": "https://leviathannews.xyz/221896/breaking-banks-and-crypto-firms-have-privately-agreed-on-a-deal-for-the-bitcoin-market-structure-bill-an-announcement-is-expected-this-week"
+      },
+      "provenance": "data",
+      "top_decile_share": 20,
+      "total_clicks": 648
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T08:21:56.876121+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://financefeeds.com/7-democrats-could-decide-fate-of-us-crypto-market/",
+          "thread": "CLARITY Act Senate vote math",
+          "why": "Readers fixated on the precise head-count — seven swing Democrats, 60-vote threshold, and TD Cowen's probability cut — treating passage odds like a tradeable asset."
+        },
+        {
+          "source": "https://www.sec.gov/securities-topics/crypto-task-force",
+          "thread": "SEC vs CFTC jurisdiction lines",
+          "why": "The SEC's declaration that most crypto assets are not securities, and that mining, staking, and airdrops don't create securities, directly sets the boundary between the two regulators that the CLARITY Act formalizes."
+        },
+        {
+          "source": "https://coinbureau.com/education/what-are-crypto-market-structures",
+          "thread": "Derivatives volume dominance",
+          "why": "The structural shift of crypto exchange competition toward derivatives — now dominating spot trading volume — signals a maturation that makes exchange-level market structure rules more urgent."
+        },
+        {
+          "source": "https://www.facebook.com/CoinMarketCap/posts/latest-over-100-crypto-firms-including-coinbase-ripple-and-a16z-are-urging-the-s/1379963440827712/",
+          "thread": "Industry lobbying pressure",
+          "why": "A coalition of 100+ firms including Coinbase, Ripple, and a16z demanding clear SEC-CFTC role splits showed readers that industry had moved from commentary to coordinated political action."
+        },
+        {
+          "source": "https://blockchair.com/pl/news/clarity-act-banking-groups-continue-stablecoin-yield-push-as-senate-focus-shifts-to-ethics-defi--24cfe6630210cd8c",
+          "thread": "Stablecoin-market structure linkage",
+          "why": "The Circle and Coinbase rally tied to lawmakers redefining stablecoin yield incentives revealed that stablecoin policy and market structure bills were being negotiated as a package, not independently."
+        },
+        {
+          "source": "",
+          "thread": "AI-driven VC model disruption",
+          "why": "Falling build costs from AI collapsing the value of capital-for-product VC deals shifted reader attention to how project financing and token distribution economics will change under new market structure rules."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T08:21:56.876134+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Without enacted legislation, the SEC and CFTC operate under overlapping and sometimes contradictory authority over digital assets, creating enforcement uncertainty for every exchange, protocol, and token issuer.",
+          "source": "https://capmktsreg.org/wp-content/uploads/2025/05/CCMR-Designing-a-U.S.-Digital-Asset-Regulatory-Framework-05.14.25-Final.pdf"
+        },
+        {
+          "dimension": "Legislative timing",
+          "level": "High",
+          "note": "NYDIG warned the CLARITY Act could stall entirely if it misses the pre-midterm window, and TD Cowen placed passage odds at one-in-three, making the bill's fate a near-term binary risk for the entire industry.",
+          "source": "https://www.dwt.com/blogs/financial-services-law-advisor/2026/05/senate-banking-crypto-market-structure-bill"
+        },
+        {
+          "dimension": "Market competition",
+          "level": "Medium",
+          "note": "Derivatives now dominate crypto trading volume, concentrating systemic risk in leveraged venues that existing spot-focused market structure frameworks were not designed to govern.",
+          "source": "https://coinbureau.com/education/what-are-crypto-market-structures"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Bitcoin basis-trade unwinds in derivatives markets have cascaded into spot price dislocations, exposing fragility in the connection between futures and underlying asset liquidity.",
+          "source": "https://cryptoslate.substack.com/p/bitcoin-basis-trade-unwind-reflected"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "The VC model shift toward backing founders and distribution channels rather than products concentrates early-stage crypto capital in fewer hands and fewer networks, increasing systemic correlation.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart contract",
+          "level": "Low",
+          "note": "For market structure specifically, smart contract risk is secondary; the dominant risk is regulatory ambiguity that delays institutional adoption rather than on-chain protocol failure.",
+          "source": ""
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:10:03.627641+00:00",
+      "items": [
+        {
+          "clicks": 30,
+          "date": "2026-06-29T09:47:05.965210+00:00",
+          "headline": "Galaxy Research cuts 2026 CLARITY Act odds to 50-50 as Senate calendar crowds out crypto market structure",
+          "hot_score": 2652.809566,
+          "lev_url": "https://leviathannews.xyz/264463/galaxy-research-cuts-2026-clarity-act-odds-to-50-50-as-senate-calendar-crowds-out-crypto-market-structure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629085825_Z4zrlaiDPw==.png",
+          "url": "https://x.com/intangiblecoins/status/2070523994629947719"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-05-18T06:34:57.191628+00:00",
+          "headline": "NYDIG says the Senate’s crypto market structure bill may not pass until August, warning the legislation could stall entirely if it misses the pre-midterm window",
+          "hot_score": 730.319401,
+          "lev_url": "https://leviathannews.xyz/244228/nydigs-greg-cipolaro-says-the-senate-could-pass-a-long-awaited-crypto-bill-as-late-as-august-and-that-if-it-doesnt-the-legislation-is-at-risk-as-congress-winds-up-for-the-midter",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260518062711_WSRdRIJ3qL51.jpg",
+          "url": "https://cointelegraph.com/news/senate-crypto-bill-august-advance-in-lame-duck-session-nydig"
+        },
+        {
+          "clicks": 48,
+          "date": "2026-04-23T10:39:59.596674+00:00",
+          "headline": "Over 100 crypto firms push U.S. Senate to advance market structure bill, demanding clear SEC-CFTC roles and protections for non-custodial developers",
+          "hot_score": 715.0,
+          "lev_url": "https://leviathannews.xyz/235622/over-100-crypto-firms-push-us-senate-to-advance-market-structure-bill-demanding-clear-sec-cftc-roles-and-protections-for-non-custodial-developers",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423103914_zAlYJL3cZjte.jpg",
+          "url": "https://www.coindesk.com/policy/2026/04/23/more-than-100-crypto-firms-urge-senate-to-move-on-u-s-market-structure-bill"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-05-11T06:53:51.923649+00:00",
+          "headline": "Galaxy Digital says seven Senate Democrats could decide the fate of the CLARITY Act, a key crypto market structure bill facing markup this Thursday",
+          "hot_score": 590.579046,
+          "lev_url": "https://leviathannews.xyz/240561/seven-of-the-11-democrats-on-the-us-senate-banking-committee-could-be-swayed-to-pass-the-clarity-act-during-the-markup-on-thursday-according-to-crypto-investment-company-galaxy-di",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260511064918_vw9shU5PeSq4.jpg",
+          "url": "https://cointelegraph.com/news/senate-banking-clarity-act-galaxy-digital-support-crypto-bill"
+        },
+        {
+          "clicks": 130,
+          "date": "2026-04-06T20:23:03.666221+00:00",
+          "headline": "BREAKING: Banks and crypto firms have privately agreed on a deal for the Bitcoin market structure bill. An announcement is expected this week.",
+          "hot_score": 515.788059,
+          "lev_url": "https://leviathannews.xyz/221896/breaking-banks-and-crypto-firms-have-privately-agreed-on-a-deal-for-the-bitcoin-market-structure-bill-an-announcement-is-expected-this-week",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260406202151_P2rSIw0mvHu8.jpg",
+          "url": "https://x.com/bulltheoryio/status/2041239242035417149?s=46"
+        },
+        {
+          "clicks": 41,
+          "date": "2026-05-28T04:06:17.054046+00:00",
+          "headline": "Trump pledges future-proof crypto market structure as CLARITY Act faces 60-vote Senate math",
+          "hot_score": 452.088958,
+          "lev_url": "https://leviathannews.xyz/249281/trump-pledges-future-proof-crypto-market-structure-as-clarity-act-faces-60-vote-senate-math",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260528040507_xU6k2wMNMCl4.jpg",
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/116648950505497613"
+        },
+        {
+          "clicks": 80,
+          "date": "2026-03-17T20:08:40.619457+00:00",
+          "headline": "SEC Says Most Crypto Assets Aren’t Securities, Clarifying That Protocol Mining, Staking and Airdrops Do Not Create Securities and Paving the Way for Clearer U.S. Crypto Market Structure Rules [",
+          "hot_score": 339.463431,
+          "lev_url": "https://leviathannews.xyz/211204/sec-says-most-crypto-assets-arent-securities-clarifying-that-protocol-mining-staking-and-airdrops-do-not-create-securities-and-paving-the-way-for-clearer-us-crypto-market-structure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260317200817_R7P7rnjnxCjl.jpg",
+          "url": "https://decrypt.co/361446/sec-most-crypto-assets-not-securities-staking-airdrops-bitcoin-mining"
+        },
+        {
+          "clicks": 52,
+          "date": "2026-04-02T05:48:47.707147+00:00",
+          "headline": "Crypto VC model breaks as AI slashes build costs, shifting focus from products to founders and distribution",
+          "hot_score": 292.668301,
+          "lev_url": "https://leviathannews.xyz/219746/crypto-vc-model-breaks-as-ai-slashes-build-costs-shifting-focus-from-products-to-founders-distribution-and-market-structure-as-the-real-sources-of-defensibility-in-2026",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260402042429_oG8qbc-5hPe7.jpg",
+          "url": "https://x.com/i/status/2039285106335187419"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:10:03.542859+00:00",
+      "editorial": [
+        {
+          "count": 5,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
+        }
+      ],
+      "editorial_distinct": 7,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 47,
+          "source": "x.com"
+        },
+        {
+          "count": 8,
+          "source": "theblock.co"
+        },
+        {
+          "count": 7,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 6,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 5,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 5,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "axios.com"
+        },
+        {
+          "count": 1,
+          "source": "news.bgov.com"
+        },
+        {
+          "count": 1,
+          "source": "sec.gov"
+        }
+      ],
+      "universe_distinct": 11
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "04d15aca0119c98721cca6ea5140be84f8b193799127cd552ba7446f0a5b7484",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:15.842084+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.284,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.033,
+        "lift_log": 3.63,
+        "score": 0.2839,
+        "shared": 11
+      },
+      "rationale": "Proposed act to clarify market structure rules.",
+      "relation_type": "event",
+      "slug": "clarity-act",
+      "source": "cotag",
+      "tag_name": "CLARITY Act",
+      "title": "CLARITY Act, Explained",
+      "weight": 28
+    },
+    {
+      "confidence": 0.382,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.2413,
+        "lift_log": 5.846,
+        "score": 0.3818,
+        "shared": 24
+      },
+      "rationale": "Legislation directly addressing market structure regulation.",
+      "relation_type": "event",
+      "slug": "crypto-market-structure-bill",
+      "source": "cotag",
+      "tag_name": "Crypto Market Structure Bill",
+      "title": "Crypto Market Structure Bill, Explained",
+      "weight": 38
+    },
+    {
+      "confidence": 0.287,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0356,
+        "lift_log": 3.668,
+        "score": 0.2874,
+        "shared": 15
+      },
+      "rationale": "Senate debates and passes market structure bills.",
+      "relation_type": "governance",
+      "slug": "senate",
+      "source": "cotag",
+      "tag_name": "Senate",
+      "title": "Senate, Explained",
+      "weight": 29
+    }
+  ],
+  "schema_version": 1,
+  "slug": "market-structure",
+  "tag_name": "Market Structure",
+  "title": "Market Structure, Explained"
+}

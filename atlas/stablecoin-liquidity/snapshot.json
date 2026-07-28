@@ -1,0 +1,637 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:09:36.982094+00:00",
+      "newsroom_total": 51,
+      "overall_share": 88,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 10,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 11,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 58,
+      "universe_total": 7
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:09:36.709858+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "stablecoin-liquidity",
+          "phrase": "Stablecoin liquidity is a subset of overall liquidity.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity",
+          "weight": 30
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-liquidity",
+          "phrase": "Both refer to liquidity, but onchain is broader.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "onchain-liquidity",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-liquidity",
+          "phrase": "Lending markets depend on stablecoin liquidity.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "lending",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-liquidity",
+          "phrase": "Incentives attract stablecoin liquidity.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity-incentives",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-liquidity",
+          "phrase": "Pools provide the venue for stablecoin liquidity.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity-pool",
+          "weight": 21
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Stablecoin Liquidity",
+          "slug": "stablecoin-liquidity",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Liquidity",
+          "slug": "liquidity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 30
+        },
+        {
+          "center": false,
+          "name": "Onchain Liquidity",
+          "slug": "onchain-liquidity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Lending",
+          "slug": "lending",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Liquidity Incentives",
+          "slug": "liquidity-incentives",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Liquidity Pool",
+          "slug": "liquidity-pool",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T07:44:18.737734+00:00",
+      "events": [
+        {
+          "date": "2020-08",
+          "kind": "launch",
+          "label": "Curve Finance launches as DeFi's dedicated stablecoin AMM with StableSwap invariant",
+          "source": ""
+        },
+        {
+          "date": "2023-07",
+          "kind": "launch",
+          "label": "Aave launches GHO stablecoin; liquidity committee later convenes to approve repeg plan",
+          "source": ""
+        },
+        {
+          "date": "2023-08",
+          "kind": "launch",
+          "label": "PayPal launches PYUSD stablecoin; later integrates with Spark for $1B DeFi liquidity",
+          "source": ""
+        },
+        {
+          "date": "2024-12",
+          "kind": "regulatory",
+          "label": "EU MiCA stablecoin rules take effect; Binance delists USDT for EU users, USDC share jumps from 0.48% to 8.26%",
+          "source": ""
+        },
+        {
+          "date": "2024-12",
+          "kind": "launch",
+          "label": "Ripple unveils RLUSD globally with full USD backing and compliance-first positioning",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "milestone",
+          "label": "Spark Liquidity Layer integrates with Aave to deploy up to $1.5B across Core, Prime, and Base markets",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T07:44:18.737582+00:00",
+      "insight": "Readers aren't clicking stablecoin liquidity stories for yield mechanics — they're tracking systemic fragility: Tether's un-audited 75% market dominance and DeFi protocols' reactive governance cuts reveal a shared reader fear that the liquidity underpinning the entire crypto market rests on unverifiable reserves and reflexive AMM mechanics that can self-amplify in either direction.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 51,
+      "as_of": "2026-07-01T12:09:37.395109+00:00",
+      "most_clicked": {
+        "clicks": 219,
+        "date": "2024-09-20T08:25:08.016068+00:00",
+        "headline": "Tether’s dominance, surpassing 75% of the Stablecoin market, raises $118 billion in investor concerns over potential FTX-like liquidity issues, exacerbated by the lack of third-party audits and warnings from experts like Cyber Capital's Justin Bons.",
+        "lev_url": "https://leviathannews.xyz/7064/tethers-dominance-surpassing-75-of-the-stablecoin-market-raises-118-billion-in-investor-concerns-over-potential-ftx-like-liquidity-issues-exacerbated-by-the-lack-of-third-party-aud"
+      },
+      "provenance": "data",
+      "top_decile_share": 26,
+      "total_clicks": 3331
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T07:44:18.737649+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Tether opacity and dominance risk",
+          "why": "75%+ market share without third-party audits maps directly onto FTX-style contagion anxiety, making Tether's unverified reserve sheet the highest-stakes open question in crypto liquidity."
+        },
+        {
+          "source": "",
+          "thread": "DeFi governance under peg stress",
+          "why": "GHO's liquidity committee repeg plan and AaveDAO slashing stablecoin borrowing power in response to the UNI Compound crunch show readers tracking real-time protocol crisis responses."
+        },
+        {
+          "source": "",
+          "thread": "AMM reflexivity and liquidation cascades",
+          "why": "Uniswap V3 concentrated-liquidity positions that flip fully to one asset when out of range create a self-amplifying sell spiral — a structural risk embedded in DeFi's core price-discovery layer."
+        },
+        {
+          "source": "",
+          "thread": "TradFi and institutional stablecoin rails",
+          "why": "B3, Ripple RLUSD, BitGo USDS, and the first institutional on-chain stablecoin repo signal that legacy finance is building parallel settlement infrastructure, raising who-controls-liquidity questions."
+        },
+        {
+          "source": "",
+          "thread": "Regulatory compliance as liquidity moat",
+          "why": "EU-driven USDT delistings and a16z naming sovereign policy conflicts as a top stablecoin challenge show readers watching compliance as the structural divide that will determine the next market-share winner."
+        },
+        {
+          "source": "",
+          "thread": "Cross-chain liquidity aggregation",
+          "why": "Spark's $1.5B Aave deployment, River's chain-abstraction system, and the stablecoin payments value-chain thread reveal readers mapping where liquidity actually concentrates across fragmented ecosystems."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T07:44:18.737657+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Tether's 75%+ market share with no third-party audit concentrates systemic liquidity risk in a single opaque balance sheet, with expert warnings likening potential failure to FTX-scale contagion.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "EU MiCA stablecoin enforcement driving major exchange USDT delistings and BIS warnings about tokenized MMFs creating DeFi-TradFi contagion channels signal intensifying sovereign pressure on liquidity infrastructure.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "Uniswap V3 concentrated-liquidity reflexivity and AaveDAO's emergency stablecoin borrowing-power cuts demonstrate that on-chain liquidity can enter self-reinforcing collapse or pump without external trigger.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "Medium",
+          "note": "CDP and governance-steered stablecoins like GHO require active parameter changes to restore pegs, exposing the system to misconfiguration risk precisely during high-volatility windows when response time is shortest.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Ethereum's stablecoin supply reaching $166B deepens ecosystem-wide settlement dependency, concentrating the blast radius of any major de-peg or issuer failure across the entire DeFi stack.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 5
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:09:37.318543+00:00",
+      "items": [
+        {
+          "clicks": 62,
+          "date": "2026-05-19T17:19:39.778950+00:00",
+          "headline": "Checker raises $8M to give institutions one API for stablecoin liquidity and compliance",
+          "hot_score": 516.730173,
+          "lev_url": "https://leviathannews.xyz/245200/checker-raises-8m-to-give-institutions-one-api-for-stablecoin-liquidity-and-compliance",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260519170157_t4wznN9TS-rq.jpg",
+          "url": "https://www.theblock.co/post/401906/stablecoin-infrastructure-startup-checker-funding"
+        },
+        {
+          "clicks": 63,
+          "date": "2026-03-31T08:31:38.042000+00:00",
+          "headline": "StraitsX launches XSGD and XUSD on Solana, uniting native SGD and USD stablecoin liquidity onchain",
+          "hot_score": 408.643008,
+          "lev_url": "https://leviathannews.xyz/218282/straitsx-launches-xsgd-and-xusd-on-solana-uniting-native-sgd-and-usd-stablecoin-liquidity-onchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260331042253_Z4zrlaiDPw==.png",
+          "url": "https://www.straitsx.com/blog-post/xsgd-and-xusd-live-on-solana"
+        },
+        {
+          "clicks": 114,
+          "date": "2025-12-18T05:55:35.289548+00:00",
+          "headline": "Brazilian stock exchange B3 to launch its own tokenization platform and stablecoin. The stablecoin will facilitate tokenized asset transactions and is expected to be linked to the Brazilian real. The tokenization platform is set to allow assets to be tokenized and traded on the exchange, with Luiz Masagão ,B3’s vice president of products and clients, saying both systems will share the same liquidity pool..",
+          "hot_score": 195.628497,
+          "lev_url": "https://leviathannews.xyz/22676/brazilian-stock-exchange-b3-to-launch-its-own-tokenization-platform-and-stablecoin-the-stablecoin-will-facilitate-tokenized-asset-transactions-and-is-expected-to-be-linked-to-the-b",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251218001743_96ppTMa9Scw=.jpg",
+          "url": "https://archive.ph/YLJoO"
+        },
+        {
+          "clicks": 78,
+          "date": "2025-12-13T12:16:30.606999+00:00",
+          "headline": "Stablecoins don’t replace banks—they route around them. Nearly all “onchain” payments still rely on fiat rails, FX liquidity, and banking buffers, meaning real speed and reliability belong to teams that control underlying fiat infrastructure.",
+          "hot_score": 109.431277,
+          "lev_url": "https://leviathannews.xyz/22429/stablecoins-dont-replace-banksthey-route-around-them-nearly-all-onchain-payments-still-rely-on-fiat-rails-fx-liquidity-and-banking-buffers-meaning-real-speed-and-reliability-belong",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251213121341_QF8zD_e-8sE=.webp",
+          "url": "https://stabledash.com/news/2025-12-11-the-hidden-banking-layer-behind-stablecoin-payments"
+        },
+        {
+          "clicks": 47,
+          "date": "2025-12-16T16:10:54.780290+00:00",
+          "headline": "A new stablecoin unifying liquidity across use cases, built for scale. Coming soon on BNB Chain.",
+          "hot_score": 79.119201,
+          "lev_url": "https://leviathannews.xyz/22560/a-new-stablecoin-unifying-liquidity-across-use-cases-built-for-scale-coming-soon-on-bnb-chain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251216160826_LECPhdWeQ_I=.jpg",
+          "url": "https://x.com/BNBCHAIN/status/2000933669721272714"
+        },
+        {
+          "clicks": 53,
+          "date": "2025-12-24T21:17:31.225758+00:00",
+          "headline": "First institutional stablecoin-for-stablecoin repo on a public blockchain settled and serviced on Membrane. The transaction marks the creation of a standardized, institutional-grade stablecoin funding market that brings familiar TradFi liquidity tools directly onto public blockchain rails. This structure represents the first time a native stablecoin has served as the asset leg in an institutional repo. Solstice posted its native stablecoin, USX, as the asset leg, while Cor Prime provided USDC as the cash leg.",
+          "hot_score": 77.649696,
+          "lev_url": "https://leviathannews.xyz/22942/first-institutional-stablecoin-for-stablecoin-repo-on-a-public-blockchain-settled-and-serviced-on-membrane-the-transaction-marks-the-creation-of-a-standardized-institutional-grade-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251224135548_BiWmzVKUJSE=.jpg",
+          "url": "https://membranelabs.com/first-institutional-stablecoin-for-stablecoin-repo-on-a-public-blockchain/"
+        },
+        {
+          "clicks": 51,
+          "date": "2026-01-15T16:47:18.009229+00:00",
+          "headline": "DeFi lending is entering “Gen 2” after the 2025 crash exposed overcollateralization, fragility, and poor real-world utility. The next phase centers on compliant stablecoins, privacy-preserving credit, cross-chain liquidity, consumer-first interfaces, and reputation-based undercollateralized loans.",
+          "hot_score": 73.510686,
+          "lev_url": "https://leviathannews.xyz/23695/defi-lending-is-entering-gen-2-after-the-2025-crash-exposed-overcollateralization-fragility-and-poor-real-world-utility-the-next-phase-centers-on-compliant-stablecoins-privacy-pres",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260115164021_Kns8aeMLcDQ=.jpg",
+          "url": "https://x.com/i/status/2011727310207197493"
+        },
+        {
+          "clicks": 44,
+          "date": "2025-12-04T14:55:42.029257+00:00",
+          "headline": "Governance voted to accept BUIDL (BlackRock’s USD Institutional Digital Liquidity fund), tokenized by Securitize, as eligible collateral for stablecoins built on M0. BUIDL can now be utilized by any M0 issuer as part of its collateral composition.",
+          "hot_score": 56.485143,
+          "lev_url": "https://leviathannews.xyz/21638/governance-voted-to-accept-buidl-blackrocks-usd-institutional-digital-liquidity-fund-tokenized-by-securitize-as-eligible-collateral-for-stablecoins-built-on-m0-buidl-can-now-be-uti",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251204145453_Xq5q-RsRvA8=.jpg",
+          "url": "https://x.com/m0/status/1996580318438924445"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:09:37.239036+00:00",
+      "editorial": [
+        {
+          "count": 22,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "archive.ph"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "news.curve.finance"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "snapshot.org"
+        },
+        {
+          "count": 1,
+          "source": "ripple.com"
+        },
+        {
+          "count": 1,
+          "source": "mirror.xyz"
+        },
+        {
+          "count": 1,
+          "source": "a16zcrypto.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        }
+      ],
+      "editorial_distinct": 21,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 5,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "hedera.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        }
+      ],
+      "universe_distinct": 3
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "65230baf700c2c147aa135a27f07944c7252878091bba39679e27f7fe235891e",
+  "provenance": {
+    "model_name": "claude-opus-4-8",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "opus_websearch",
+    "updated_at": "2026-07-26T22:22:30.250009+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.225,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0077,
+        "lift_log": 2.628,
+        "score": 0.2246,
+        "shared": 3
+      },
+      "rationale": "Lending markets depend on stablecoin liquidity.",
+      "relation_type": "primitive",
+      "slug": "lending",
+      "source": "cotag",
+      "tag_name": "Lending",
+      "title": "Lending, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.296,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0318,
+        "lift_log": 3.91,
+        "score": 0.2959,
+        "shared": 12
+      },
+      "rationale": "Stablecoin liquidity is a subset of overall liquidity.",
+      "relation_type": "category",
+      "slug": "liquidity",
+      "source": "cotag",
+      "tag_name": "Liquidity",
+      "title": "Liquidity, Explained",
+      "weight": 30
+    },
+    {
+      "confidence": 0.213,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0293,
+        "lift_log": 4.339,
+        "score": 0.2132,
+        "shared": 4
+      },
+      "rationale": "Incentives attract stablecoin liquidity.",
+      "relation_type": "primitive",
+      "slug": "liquidity-incentives",
+      "source": "cotag",
+      "tag_name": "Liquidity Incentives",
+      "title": "Liquidity Incentives, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.211,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.025,
+        "lift_log": 4.338,
+        "score": 0.2111,
+        "shared": 3
+      },
+      "rationale": "Pools provide the venue for stablecoin liquidity.",
+      "relation_type": "infrastructure",
+      "slug": "liquidity-pool",
+      "source": "cotag",
+      "tag_name": "Liquidity Pool",
+      "title": "Liquidity Pool, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.234,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0448,
+        "lift_log": 4.641,
+        "score": 0.2343,
+        "shared": 5
+      },
+      "rationale": "Both refer to liquidity, but onchain is broader.",
+      "relation_type": "peer",
+      "slug": "onchain-liquidity",
+      "source": "cotag",
+      "tag_name": "Onchain Liquidity",
+      "title": "Onchain Liquidity, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "stablecoin-liquidity",
+  "tag_name": "Stablecoin Liquidity",
+  "title": "Stablecoin Liquidity, Explained"
+}

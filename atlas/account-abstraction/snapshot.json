@@ -1,0 +1,496 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:15:38.112523+00:00",
+      "newsroom_total": 13,
+      "overall_share": 48,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 30,
+          "month": "2026-03",
+          "newsroom": 3,
+          "universe": 7
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 3
+        }
+      ],
+      "total_universe": 27,
+      "universe_total": 14
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:15:37.814496+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "account-abstraction",
+          "phrase": "Account abstraction is defined by EIPs like EIP-4337.",
+          "relation_type": "protocol",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ethereum-improvement-proposal",
+          "weight": 34
+        },
+        {
+          "dir": "out",
+          "from": "account-abstraction",
+          "phrase": "Account abstraction runs on EVM-compatible chains.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "evm",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "account-abstraction",
+          "phrase": "Vitalik Buterin proposed and advocates for account abstraction.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "vitalik-buterin",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "account-abstraction",
+          "phrase": "custody",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "custody",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "account-abstraction",
+          "phrase": "payments",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "payments",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Account Abstraction",
+          "slug": "account-abstraction",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "EIP",
+          "slug": "ethereum-improvement-proposal",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 34
+        },
+        {
+          "center": false,
+          "name": "EVM",
+          "slug": "evm",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Vitalik Buterin",
+          "slug": "vitalik-buterin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Custody",
+          "slug": "custody",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Payments",
+          "slug": "payments",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:20:35.939538+00:00",
+      "events": [
+        {
+          "date": "2021-09",
+          "kind": "milestone",
+          "label": "ERC-4337 proposed by Vitalik Buterin et al.",
+          "source": "https://eips.ethereum.org/EIPS/eip-4337"
+        },
+        {
+          "date": "2023-03",
+          "kind": "launch",
+          "label": "ERC-4337 deployed to Ethereum mainnet",
+          "source": "https://www.galaxy.com/insights/research/the-road-to-account-abstraction-on-ethereum"
+        },
+        {
+          "date": "2025-05",
+          "kind": "milestone",
+          "label": "Ethereum Pectra upgrade ships EIP-7702, enabling EOA-to-smart-account upgrades",
+          "source": "https://consensys.io/ethereum-pectra-upgrade"
+        },
+        {
+          "date": "2025-11",
+          "kind": "governance",
+          "label": "Ethereum Interop Layer (EIL) proposed to unify AA across L2s via ERC-4337",
+          "source": "https://blog.ethereum.org/2025/11/18/eil"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:20:35.939327+00:00",
+      "insight": "Readers click AA stories most when abstraction disappears beneath a familiar product — wallet UX, stablecoin gas costs, or a specific L2 — and clicks on pure protocol explainers lagged a 'decade-long problem finally solved' framing by roughly 30x, revealing that the demand signal is AA as silent infrastructure, not as a cryptographic concept.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.galaxy.com/insights/research/the-road-to-account-abstraction-on-ethereum"
+    },
+    "reader_signal": {
+      "article_count": 13,
+      "as_of": "2026-07-01T12:15:38.586929+00:00",
+      "most_clicked": {
+        "clicks": 101,
+        "date": "2023-08-02T14:07:34.214955+00:00",
+        "headline": "OKX adds new account abstraction feature to its Web3 wallet",
+        "lev_url": "https://leviathannews.xyz/2103/okx-adds-new-account-abstraction-feature-to-its-web3-wallet"
+      },
+      "provenance": "data",
+      "top_decile_share": 14,
+      "total_clicks": 727
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:20:35.939437+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://eips.ethereum.org/EIPS/eip-8141",
+          "thread": "EIP-8141 protocol endgame",
+          "why": "Vitalik's 'Frame Transactions' framing — that a single EIP finally closes ten years of incomplete AA — drove high engagement because it offered narrative closure on a story readers had been following since ERC-4337."
+        },
+        {
+          "source": "https://blog.ethereum.org/2025/11/18/eil",
+          "thread": "L2 fragmentation via ERC-4337",
+          "why": "The Ethereum Interop Layer headline drew clicks by linking AA directly to a concrete pain point — wallets and balances siloed across Optimism, Arbitrum, and other L2s — rather than describing AA abstractly."
+        },
+        {
+          "source": "https://thirdweb.com/learn/guides/account-abstraction-the-developers-guide",
+          "thread": "Wallet product adoption",
+          "why": "The top-clicked headline was OKX shipping AA into its live Web3 wallet, confirming readers engage most when AA moves from proposal to a named product they can open today."
+        },
+        {
+          "source": "https://docs.safe.global/advanced/eip-7702/overview",
+          "thread": "EIP-7702 EOA upgrade path",
+          "why": "Multiple mid-tier headlines covering Particle Network, Sonic, and Circle USDC v2.2 all keyed on EIP-7702 as the near-term, backwards-compatible on-ramp for existing wallets, signaling readers tracking the incremental migration over a hard cut-over."
+        },
+        {
+          "source": "https://www.circle.com/blog/how-the-pectra-upgrade-is-unlocking-gasless-usdc-transactions-with-eip-7702",
+          "thread": "Stablecoin gas abstraction",
+          "why": "Circle's USDC v2.2 framing — paying gas in stablecoins rather than ETH — translated AA from developer infrastructure into a tangible user-facing benefit that stablecoin holders immediately understood."
+        },
+        {
+          "source": "https://docs.safe.global/advanced/eip-7702/overview",
+          "thread": "Real-world crypto payments",
+          "why": "The GnosisDAO/Safe angle drew clicks by grounding AA in physical-world spending, making the technology legible to readers skeptical that on-chain UX improvements ever reach checkout counters."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:20:35.939451+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract",
+          "level": "High",
+          "note": "ERC-4337 UserOperations and Paymasters introduce novel attack surfaces — malicious Paymasters can drain sponsorship pools and bundler mempools remain a target for griefing attacks not present in standard EOA flows.",
+          "source": "https://eips.ethereum.org/EIPS/eip-4337"
+        },
+        {
+          "dimension": "Fragmentation / Interoperability",
+          "level": "High",
+          "note": "Competing AA standards (ERC-4337, EIP-7702, EIP-8141, chain-native implementations) risk producing incompatible smart account formats across L2s, recreating the bridge fragmentation problem at the wallet layer.",
+          "source": "https://blog.ethereum.org/2025/11/18/eil"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Bundler and Paymaster markets are currently dominated by a small number of providers (Alchemy, Stackup, Pimlico), creating single points of failure and censorship risk for sponsored transactions.",
+          "source": "https://www.stackup.fi/resources/what-is-eip-4337"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Gas sponsorship via Paymasters — where a third party pays fees on behalf of users — may attract money-transmission or payment-processor classification in jurisdictions that focus on who controls the fee flow.",
+          "source": "https://www.circle.com/usdc"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Low",
+          "note": "Paymaster float must be pre-funded in ETH or accepted ERC-20s on each chain, creating working-capital overhead for sponsors but posing no systemic liquidity risk to broader DeFi markets.",
+          "source": "https://www.stackup.fi/resources/what-is-eip-4337"
+        },
+        {
+          "dimension": "Market",
+          "level": "Low",
+          "note": "AA does not introduce new token-price exposure; its primary market risk is adoption velocity — slow uptake leaves Paymaster and bundler operators with stranded infrastructure investment.",
+          "source": "https://www.galaxy.com/insights/research/the-road-to-account-abstraction-on-ethereum"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:15:38.510138+00:00",
+      "items": [
+        {
+          "clicks": 32,
+          "date": "2026-06-19T07:32:54.637895+00:00",
+          "headline": "After ten years under sail, Ethereum’s account abstraction battles stormy seas and the growing risk of fragmented waters",
+          "hot_score": 680.437482,
+          "lev_url": "https://leviathannews.xyz/259246/ethereum-has-been-arguing-about-account-abstraction-for-the-better-part-of-a-decade-what-has-changed-recently-is-that-the-pieces-of-a-coherent-answer-now-exist-at-the-same-time-t",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260619071135_fMAlXN5rxhbp.jpg",
+          "url": "https://x.com/biconomy/status/2067554649008463882"
+        },
+        {
+          "clicks": 90,
+          "date": "2026-03-03T18:08:44.977811+00:00",
+          "headline": "Vitalik’s EIP-8141 frame transactions simplify a decade of account abstraction into one core primitive for Ethereum",
+          "hot_score": 354.703539,
+          "lev_url": "https://leviathannews.xyz/38842/vitalik-buterins-eip-8141-frame-transactions-proposal-compresses-a-decade-of-account-abstraction-research-into-one-minimal-primitive-n-frames-that-can-authorize-a-sender-and-gas-pa",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260303042524_wdG2hIyWRhs=.jpg",
+          "url": "https://x.com/i/status/2028406419993850053"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-03-25T18:48:14.549322+00:00",
+          "headline": "Frame Transactions (EIP-8141) emerges as a flexible foundation for Ethereum account abstraction, enabling gas payments in ERC20 and modular transaction flows",
+          "hot_score": 139.330146,
+          "lev_url": "https://leviathannews.xyz/215929/frame-transactions-eip-8141-emerges-as-a-flexible-foundation-for-ethereum-account-abstraction-enabling-gas-payments-in-erc20-and-modular-transaction-flows",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260325171323_UVKZIRNXLRx5.jpg",
+          "url": "https://x.com/i/status/2036697881512701997"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-03-24T14:25:55.379339+00:00",
+          "headline": "Particle Network adds EIP-7702 support, letting EOAs upgrade to smart accounts with cross-chain balances and gas abstraction",
+          "hot_score": 109.345478,
+          "lev_url": "https://leviathannews.xyz/215220/universal-accounts-make-every-app-chain-agnostic-but-they-require-developers-to-generate-new-accounts-forcing-users-to-migrate-their-assets-or-at-least-that-was-the-case-until",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260324142009_IbpXXe9tLFtu.png",
+          "url": "https://blog.particle.network/eip-7702"
+        },
+        {
+          "clicks": 101,
+          "date": "2023-08-02T14:07:34.214955+00:00",
+          "headline": "OKX adds new account abstraction feature to its Web3 wallet",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2103/okx-adds-new-account-abstraction-feature-to-its-web3-wallet",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.theblock.co/post/242702/okx-account-abstraction-web3-wallet"
+        },
+        {
+          "clicks": 97,
+          "date": "2025-11-19T08:34:19.475381+00:00",
+          "headline": "The Ethereum Foundation proposes the Ethereum Interop Layer to reduce L2 fragmentation via ERC-4337 account abstraction",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/20851/disclaimer-the-following-blog-is-a-proposal-from-the-account-abstraction-team-content-may-not-imply-consensus-views-and-the-ef-is-a-broad-organization-that-includes-a-healthy-di",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251119065901_mWdmEZYhf30=.jpeg",
+          "url": "https://blog.ethereum.org/2025/11/18/eil"
+        },
+        {
+          "clicks": 85,
+          "date": "2024-04-07T14:47:30.709934+00:00",
+          "headline": "Alchemy launches support for Account Abstraction on Zora and Fraxtal, a step towards providing embedded accounts for the entire Optimism Superchain",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4685/alchemy-launches-support-for-account-abstraction-on-zora-and-fraxtal-a-step-towards-providing-embedded-accounts-for-the-entire-optimism-superchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240407090718_L4_Zp2kMMQ==.jpg",
+          "url": "https://twitter.com/AlchemyPlatform/status/1776046414545760625?t=Vlgq0Swtyt06FAagGGF0Zg&s=19"
+        },
+        {
+          "clicks": 77,
+          "date": "2023-11-09T16:35:19.336637+00:00",
+          "headline": "Circle enhances USDC and EURC Stablecoins with v2.2 Upgrade, reducing gas fees and bolstering security. \"Improvements to USDC and EURC smart contracts on EVM blockchains include decreased gas costs, enhanced support for account abstraction, and heightened transaction security,\" states Circle.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3251/circle-enhances-usdc-and-eurc-stablecoins-with-v22-upgrade-reducing-gas-fees-and-bolstering-security-improvements-to-usdc-and-eurc-smart-contracts-on-evm-blockchains-include-decrea",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.theblock.co/post/262414/circle-v2-2-usdc-eurc-stablecoins-improvements-account-abstraction-security-lower-gas-fees"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:15:38.427934+00:00",
+      "editorial": [
+        {
+          "count": 7,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "iglootools.xyz"
+        },
+        {
+          "count": 1,
+          "source": "blog.ethereum.org"
+        },
+        {
+          "count": 1,
+          "source": "blog.particle.network"
+        }
+      ],
+      "editorial_distinct": 5,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 10,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "warpcast.com"
+        },
+        {
+          "count": 1,
+          "source": "coin98.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.biconomy.io"
+        }
+      ],
+      "universe_distinct": 4
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "31f08a6a2c882b35d3f8571ef8a3130f079ff03fb63849eb733eecf6efaed024",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:47.322213+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.338,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.1265,
+        "lift_log": 6.073,
+        "score": 0.3376,
+        "shared": 8
+      },
+      "rationale": "Account abstraction is defined by EIPs like EIP-4337.",
+      "relation_type": "protocol",
+      "slug": "ethereum-improvement-proposal",
+      "source": "cotag",
+      "tag_name": "EIP",
+      "title": "EIP, Explained",
+      "weight": 34
+    },
+    {
+      "confidence": 0.214,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0255,
+        "lift_log": 4.384,
+        "score": 0.2137,
+        "shared": 4
+      },
+      "rationale": "Account abstraction runs on EVM-compatible chains.",
+      "relation_type": "infrastructure",
+      "slug": "evm",
+      "source": "cotag",
+      "tag_name": "EVM",
+      "title": "EVM, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "account-abstraction",
+  "tag_name": "Account Abstraction",
+  "title": "Account Abstraction, Explained"
+}

@@ -1,0 +1,520 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:12:12.153294+00:00",
+      "newsroom_total": 13,
+      "overall_share": 29,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": 40,
+          "month": "2026-02",
+          "newsroom": 2,
+          "universe": 3
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 9
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-04",
+          "newsroom": 2,
+          "universe": 4
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 9
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 7
+        }
+      ],
+      "total_universe": 45,
+      "universe_total": 32
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:12:10.702511+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "trust-wallet",
+          "phrase": "Trust Wallet is a type of wallet.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "wallet",
+          "weight": 32
+        },
+        {
+          "dir": "out",
+          "from": "trust-wallet",
+          "phrase": "Unclear direct relation; both are crypto tools.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ai-agents",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "trust-wallet",
+          "phrase": "Unclear direct relation; both are crypto platforms.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "hyperliquid",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "trust-wallet",
+          "phrase": "agents",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "agents",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "trust-wallet",
+          "phrase": "automation",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "automation",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Trust Wallet",
+          "slug": "trust-wallet",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Wallet",
+          "slug": "wallet",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 32
+        },
+        {
+          "center": false,
+          "name": "AI Agents",
+          "slug": "ai-agents",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Hyperliquid",
+          "slug": "hyperliquid",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Automation",
+          "slug": "automation",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T09:39:50.089947+00:00",
+      "events": [
+        {
+          "date": "2023-04",
+          "kind": "exploit",
+          "label": "Chrome extension v2.68 breach; $6M+ drained from users",
+          "source": ""
+        },
+        {
+          "date": "2023-12",
+          "kind": "exploit",
+          "label": "Kaspersky identifies 26 fake iOS wallet apps; Apple removes all",
+          "source": ""
+        },
+        {
+          "date": "2024-04",
+          "kind": "exploit",
+          "label": "Trust Wallet issues high-risk iMessage zero-day warning for iOS users",
+          "source": ""
+        },
+        {
+          "date": "2025-09",
+          "kind": "milestone",
+          "label": "Trust Wallet becomes first major self-custodial wallet to support tokenized RWA stock swaps",
+          "source": "https://trustwallet.com/blog/announcements/access-spcxb-on-trust-wallet-tokenized-space-x-exposure-onchain"
+        },
+        {
+          "date": "2026-04",
+          "kind": "launch",
+          "label": "Hyperliquid perp DEX integration brings mobile perpetuals trading to 220M users",
+          "source": "https://www.globenewswire.com/news-release/2026/04/29/3284055/0/en/trust-wallet-brings-the-perp-dex-war-to-mobile-with-hyperliquid-integration.html"
+        },
+        {
+          "date": "2026-04",
+          "kind": "launch",
+          "label": "Hyperliquid HIP-4 prediction markets go live in-app with no KYC and zero platform fees",
+          "source": "https://trustwallet.com/blog/announcements/hyperliquid-hip-4-outcome-contracts-now-live-on-trust-wallet"
+        },
+        {
+          "date": "2026-05",
+          "kind": "launch",
+          "label": "AI Agent Kit launched, enabling DCA automation and limit orders via on-chain agents for 220M users",
+          "source": "https://trustwallet.com/blog/announcements/your-ai-agent-can-now-run-your-crypto-strategy-introducing-dca-automation-and-limit-orders-in-trust-wallet-agent-kit"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Developer Portal grants AI agents read-only cross-chain access across 100+ chains",
+          "source": "https://developer.trustwallet.com/developer"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T09:39:50.089742+00:00",
+      "insight": "Readers engage with Trust Wallet primarily as a personal threat surface — the iMessage zero-day warning drew 2.8× more clicks than the next headline (cash deposits), revealing that readers treat Trust Wallet news as a real-time security feed rather than a product discovery channel.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://trustwallet.com/blog/security/private-key-vs-recovery-phrase"
+    },
+    "reader_signal": {
+      "article_count": 13,
+      "as_of": "2026-07-01T12:12:13.239448+00:00",
+      "most_clicked": {
+        "clicks": 229,
+        "date": "2024-04-15T20:09:24.608637+00:00",
+        "headline": "⚠️ Alert for iOS users: We have credible intel regarding a high-risk zero-day exploit targeting iMessage on the Dark Web.This can infiltrate your iPhone without clicking any link. High-value targets are likely. Each use raises detection risk.",
+        "lev_url": "https://leviathannews.xyz/4858/alert-for-ios-users-we-have-credible-intel-regarding-a-high-risk-zero-day-exploit-targeting-imessage-on-the-dark-webthis-can-infiltrate-your-iphone-without-clicking-any-link-high-v"
+      },
+      "provenance": "data",
+      "top_decile_share": 31,
+      "total_clicks": 736
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T09:39:50.089804+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Zero-day and exploit alerts",
+          "why": "The iMessage zero-day warning (229 clicks) and Chrome extension $6M breach (42 clicks) dominated engagement because readers needed to know whether their funds were at immediate risk — urgency and asset-loss potential drove clicks far above any product launch."
+        },
+        {
+          "source": "",
+          "thread": "Fake wallet app impersonation",
+          "why": "Kaspersky's discovery of 26 fake iOS apps mimicking Trust Wallet, MetaMask, and Ledger (51 clicks) tapped a persistent self-custody anxiety: that the wallet download itself is the attack vector."
+        },
+        {
+          "source": "",
+          "thread": "Fiat cash onramp access",
+          "why": "Cash deposit support (82 clicks) attracted readers seeking a bridge from physical cash to crypto without relying on exchanges, positioning Trust Wallet as a banking alternative."
+        },
+        {
+          "source": "https://trustwallet.com/blog/announcements/access-spcxb-on-trust-wallet-tokenized-space-x-exposure-onchain",
+          "thread": "Tokenized RWA self-custody",
+          "why": "The ability to swap USDC for Apple, Amazon, and Tesla stock with no broker and no KYC (65 clicks) signaled a regulatory arbitrage that readers recognized as structurally significant for the wallet's scope."
+        },
+        {
+          "source": "https://trustwallet.com/blog/announcements/hyperliquid-hip-4-outcome-contracts-now-live-on-trust-wallet",
+          "thread": "Hyperliquid perp DEX on mobile",
+          "why": "Two Hyperliquid integration headlines (43 + 38 clicks) showed readers tracking whether mobile self-custody could match the UX of centralized perpetuals trading platforms."
+        },
+        {
+          "source": "https://trustwallet.com/blog/announcements/your-ai-agent-can-now-run-your-crypto-strategy-introducing-dca-automation-and-limit-orders-in-trust-wallet-agent-kit",
+          "thread": "AI agent trading automation",
+          "why": "The agentic wallet race headline (36 clicks) pulled readers curious about whether autonomous on-chain agents represent a genuine usability shift or a new class of smart-contract risk for 220M users."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T09:39:50.089857+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Security / Supply Chain",
+          "level": "High",
+          "note": "The Chrome extension v2.68 breach drained over $6M from users, and fake app campaigns on the iOS App Store actively impersonate Trust Wallet — two distinct supply-chain attack surfaces confirmed in production.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart Contract",
+          "level": "Medium",
+          "note": "Native integration with Hyperliquid perps, Sonic swaps, and prediction market protocols across 100+ chains substantially expands the attack surface beyond the wallet itself.",
+          "source": "https://trustwallet.com/perps"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Trust Wallet is majority-owned by Binance (CZ), meaning governance, roadmap priority, and potential regulatory pressure funnel through a single controlling entity despite the non-custodial architecture.",
+          "source": "https://trustwallet.com/glossary/non-custodial-wallet"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "KYC-free tokenized stock trading (Apple, Amazon, Tesla) and no-KYC prediction markets create direct regulatory exposure in jurisdictions that require broker registration and customer identification for these asset classes.",
+          "source": "https://trustwallet.com/blog/announcements/hyperliquid-hip-4-outcome-contracts-now-live-on-trust-wallet"
+        },
+        {
+          "dimension": "Market",
+          "level": "Low",
+          "note": "As a self-custodial wallet, Trust Wallet does not hold user funds or act as a counterparty — market downturns affect the value of held assets but do not create protocol insolvency risk.",
+          "source": "https://trustwallet.com/glossary/non-custodial-wallet"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Low",
+          "note": "Swap and perp liquidity is sourced from integrated third-party DEXes and Hyperliquid rather than Trust Wallet's own pools, so liquidity risk is inherited from underlying protocols rather than originating at the wallet layer.",
+          "source": "https://trustwallet.com/swap"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:12:13.156358+00:00",
+      "items": [
+        {
+          "clicks": 39,
+          "date": "2026-05-29T14:04:57.426015+00:00",
+          "headline": "Trust Wallet integrates Hyperliquid's HIP-4 prediction markets with no KYC, no leverage, and zero platform fees",
+          "hot_score": 702.885863,
+          "lev_url": "https://leviathannews.xyz/250138/trust-wallet-integrates-hyperliquids-hip-4-prediction-markets-with-no-kyc-no-leverage-and-zero-platform-fees",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260529135424_Z4zrlaiDPw==.png",
+          "url": "https://trustwallet.com/blog/Announcements/hyperliquid-hip-4-outcome-contracts-now-live-on-trust-wallet"
+        },
+        {
+          "clicks": 52,
+          "date": "2026-04-23T05:55:44.447733+00:00",
+          "headline": "Kaspersky flags 26 fake wallet apps on iOS App Store mimicking MetaMask, Ledger, and Trust Wallet — Apple removes all",
+          "hot_score": 377.4,
+          "lev_url": "https://leviathannews.xyz/235410/kaspersky-flags-26-fake-wallet-apps-on-ios-app-store-mimicking-metamask-ledger-and-trust-wallet-apple-removes-all",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423002910_Z4zrlaiDPw==.png",
+          "url": "https://securelist.com/fakewallet-cryptostealer-ios-app-store/119474/"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-03-26T14:02:23.081336+00:00",
+          "headline": "Trust Wallet deploys AI trading agents to 220M users as agentic wallet race heats up",
+          "hot_score": 157.401436,
+          "lev_url": "https://leviathannews.xyz/216563/trust-wallet-deploys-ai-trading-agents-to-220m-users-as-agentic-wallet-race-heats-up",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260326134605_uuPuGuBe2P1g.jpg",
+          "url": "https://www.forbes.com/sites/ninabambysheva/2026/03/26/binance-owned-trust-wallet-now-offers-crypto-trading-ai-agents-to-its-220-million-global-users/"
+        },
+        {
+          "clicks": 82,
+          "date": "2026-02-19T16:09:57.386417+00:00",
+          "headline": "Trust Wallet launches Cash Deposits, enabling users to convert physical cash into crypto.",
+          "hot_score": 109.719306,
+          "lev_url": "https://leviathannews.xyz/30695/trust-wallet-launches-cash-deposits-enabling-users-to-convert-physical-cash-into-crypto",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260219155910_JLXGgt6IupU=.jpg",
+          "url": "https://x.com/TrustWallet/status/2024155081390645727"
+        },
+        {
+          "clicks": 43,
+          "date": "2025-12-26T08:57:18.610089+00:00",
+          "headline": "Trust Wallet confirmed a security incident affecting Chrome extension version 2.68 after reports of unauthorized withdrawals following a recent update, with over $6M drained so far; users are urged to disable and upgrade immediately.",
+          "hot_score": 60.824153,
+          "lev_url": "https://leviathannews.xyz/22967/trust-wallet-confirmed-a-security-incident-affecting-chrome-extension-version-268-after-reports-of-unauthorized-withdrawals-following-a-recent-update-with-over-6m-drained-so-far-us",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251226085347_BBAEx6f5siU=.jpg",
+          "url": "https://x.com/i/status/2004357154829226362"
+        },
+        {
+          "clicks": 32,
+          "date": "2025-12-08T06:28:14.383482+00:00",
+          "headline": "Myriad blends media with on-chain prediction markets, letting users stake USDC on outcomes across news, sports, crypto, and politics. Accessible via browser or Trust Wallet, it aims to realign media incentives with transparent market signals.",
+          "hot_score": 46.468115,
+          "lev_url": "https://leviathannews.xyz/21825/myriad-blends-media-with-on-chain-prediction-markets-letting-users-stake-usdc-on-outcomes-across-news-sports-crypto-and-politics-accessible-via-browser-or-trust-wallet-it-aims-to-r",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251207230852_f-wPQdpZi0Q=.png",
+          "url": "https://decrypt.co/resources/getting-started-with-myriad"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-02-05T16:05:40.885999+00:00",
+          "headline": "Trust Wallet discloses high security alert DoS attack disclosure in conjunction with the Ethereum Foundation",
+          "hot_score": 45.81998,
+          "lev_url": "https://leviathannews.xyz/24988/trust-wallet-discloses-high-security-alert-dos-attack-disclosure-in-conjunction-with-the-ethereum-foundation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260205143947_ivohQY8Ai2E=.jpg",
+          "url": "https://x.com/trust__90/status/2019405287917072393?s=46"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-04-29T23:56:02.616917+00:00",
+          "headline": "Trust Wallet brings the Perp DEX war to mobile with Hyperliquid integration.",
+          "hot_score": 45.6,
+          "lev_url": "https://leviathannews.xyz/237193/trust-wallet-brings-the-perp-dex-war-to-mobile-with-hyperliquid-integration",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260429234311_sxvVJFYrPAFr.jpg",
+          "url": "https://trustwallet.com/blog/announcements/hyperliquid-now-live-in-trust-wallet"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:12:13.048462+00:00",
+      "editorial": [
+        {
+          "count": 7,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "trustwallet.com"
+        },
+        {
+          "count": 1,
+          "source": "forbes.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "beincrypto.com"
+        },
+        {
+          "count": 1,
+          "source": "securelist.com"
+        }
+      ],
+      "editorial_distinct": 6,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 15,
+          "source": "x.com"
+        },
+        {
+          "count": 11,
+          "source": "trustwallet.com"
+        },
+        {
+          "count": 2,
+          "source": "forbes.com"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        }
+      ],
+      "universe_distinct": 6
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "999d64df6a08cbf63a276a764cf72637b78c96f49d4d62f7bd0f0f18e97290e5",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:34.889372+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.208,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0068,
+        "lift_log": 2.249,
+        "score": 0.208,
+        "shared": 9
+      },
+      "rationale": "Unclear direct relation; both are crypto tools.",
+      "relation_type": "peer",
+      "slug": "ai-agents",
+      "source": "cotag",
+      "tag_name": "AI Agents",
+      "title": "AI Agents, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.316,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0456,
+        "lift_log": 4.172,
+        "score": 0.3164,
+        "shared": 21
+      },
+      "rationale": "Trust Wallet is a type of wallet.",
+      "relation_type": "category",
+      "slug": "wallet",
+      "source": "cotag",
+      "tag_name": "Wallet",
+      "title": "Wallet, Explained",
+      "weight": 32
+    }
+  ],
+  "schema_version": 1,
+  "slug": "trust-wallet",
+  "tag_name": "Trust Wallet",
+  "title": "Trust Wallet, Explained"
+}

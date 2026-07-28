@@ -1,0 +1,617 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:12:09.204446+00:00",
+      "newsroom_total": 25,
+      "overall_share": 34,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 19
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 12
+        }
+      ],
+      "total_universe": 73,
+      "universe_total": 48
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:12:08.845034+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "liquidity-pool",
+          "phrase": "Liquidity is the core primitive that liquidity pools provide.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity",
+          "weight": 28
+        },
+        {
+          "dir": "out",
+          "from": "liquidity-pool",
+          "phrase": "Liquidity incentives are rewards offered by liquidity pools to attract capital.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity-incentives",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "liquidity-pool",
+          "phrase": "Stablecoin liquidity is a specific category of liquidity pools focused on stablecoins.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "stablecoin-liquidity",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "liquidity-pool",
+          "phrase": "crvUSD is a stablecoin token issued by Curve, a major liquidity pool platform.",
+          "relation_type": "token",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "crvusd",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "liquidity-pool",
+          "phrase": "Curve is a leading decentralized exchange specializing in stablecoin liquidity pools.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "curve",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Liquidity Pool",
+          "slug": "liquidity-pool",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Liquidity",
+          "slug": "liquidity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 28
+        },
+        {
+          "center": false,
+          "name": "Liquidity Incentives",
+          "slug": "liquidity-incentives",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Stablecoin Liquidity",
+          "slug": "stablecoin-liquidity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "crvUSD",
+          "slug": "crvusd",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Curve",
+          "slug": "curve",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T09:22:08.773676+00:00",
+      "events": [
+        {
+          "date": "2023-07",
+          "kind": "exploit",
+          "label": "Curve Vyper compiler exploit drains multiple pools; emergency multisig kills gauges",
+          "source": "https://www.curve.finance/dex/ethereum/pools/"
+        },
+        {
+          "date": "2023-11",
+          "kind": "exploit",
+          "label": "KyberSwap liquidity pools drained despite multiple audits",
+          "source": "https://www.certik.com/blog/what-is-a-liquidity-pool"
+        },
+        {
+          "date": "2023-11",
+          "kind": "exploit",
+          "label": "Raft Finance infinite mint bug exploited, pool drained",
+          "source": "https://www.certik.com/blog/what-is-a-liquidity-pool"
+        },
+        {
+          "date": "2025-02",
+          "kind": "launch",
+          "label": "Berachain mainnet launches Proof-of-Liquidity, BGT distributed through DeFi pools",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "exploit",
+          "label": "Cetus AMM overflow exploit drains $200M from Sui-based liquidity pools",
+          "source": "https://blog.kyberswap.com/liquidity-pool-analytics-and-performance-a-beginners-guide-for-defi-lps/"
+        },
+        {
+          "date": "2025-07",
+          "kind": "milestone",
+          "label": "Curve July roundup: crosschain boosts, TON launch, scrvUSD near 9% yield, $30M 3pool swap",
+          "source": "https://www.curve.finance/dex/ethereum/pools/"
+        },
+        {
+          "date": "2025-07",
+          "kind": "launch",
+          "label": "Yield Basis launches IL-free WETH–crvUSD leveraged pools on Curve",
+          "source": "https://x.com/yieldbasis/status/2008859121806881270"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T09:22:08.773553+00:00",
+      "insight": "Readers engage with liquidity pools as high-stakes yield positions to monitor, not mechanisms to learn — exploit coverage (audit-certified protocols still drained) and Curve-specific TVL velocity dominate clicks equally, revealing a reader base that is simultaneously tracking which pools are blowing up and which to enter next.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.certik.com/blog/what-is-a-liquidity-pool"
+    },
+    "reader_signal": {
+      "article_count": 25,
+      "as_of": "2026-07-01T12:12:09.725369+00:00",
+      "most_clicked": {
+        "clicks": 172,
+        "date": "2023-11-27T18:32:22.859915+00:00",
+        "headline": "DeFi audits fail to prevent recent protocol exploits. Despite undergoing multiple audits, two DeFi protocols, Raft Finance and KyperSwap, experienced catastrophic exploits that resulted in the draining of funds. Raft Finance fell victim to an infinite mint bug, while KyperSwap had its liquidity pools drained.",
+        "lev_url": "https://leviathannews.xyz/3412/defi-audits-fail-to-prevent-recent-protocol-exploits-despite-undergoing-multiple-audits-two-defi-protocols-raft-finance-and-kyperswap-experienced-catastrophic-exploits-that-resulte"
+      },
+      "provenance": "data",
+      "top_decile_share": 18,
+      "total_clicks": 1898
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T09:22:08.773610+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.certik.com/blog/what-is-a-liquidity-pool",
+          "thread": "audit-certified pools still drained",
+          "why": "The top headline (172 clicks) showed that multiple audits did not prevent KyberSwap and Raft Finance exploits, exposing the gap between audit assurance and actual security."
+        },
+        {
+          "source": "https://www.curve.finance/dex/ethereum/pools/",
+          "thread": "Curve Finance pool dynamics",
+          "why": "At least seven top-clicked stories centered on Curve-specific events — deUSD TVL records, OP incentive distributions, crvUSD pools, Vyper exploit fallout, and cross-chain expansion — making Curve the dominant reference protocol for engaged LP readers."
+        },
+        {
+          "source": "https://x.com/yieldbasis/status/2008859121806881270",
+          "thread": "LP incentive and yield races",
+          "why": "Multiple headlines around gauge emissions, CRV rewards, Yield Basis IL-free pools, and Reserve Protocol yield distribution show readers actively tracking where incentivized yield is flowing next."
+        },
+        {
+          "source": "https://blog.kyberswap.com/liquidity-pool-analytics-and-performance-a-beginners-guide-for-defi-lps/",
+          "thread": "overflow and math exploits",
+          "why": "The Cetus AMM $200M drain via an overflow bug in liquidity calculation (92 clicks) illustrated that LP math vulnerabilities can be weaponized with minimal capital, pulling readers seeking to understand systemic exposure."
+        },
+        {
+          "source": "",
+          "thread": "rug pulls and insider LP setups",
+          "why": "The BeraSwap rug warning and Kanye $YZY suspicious pool setup attracted readers pattern-matching new launches against known rug mechanics like $LIBRA."
+        },
+        {
+          "source": "",
+          "thread": "institutional and TradFi pool entry",
+          "why": "B3 tokenization with a shared liquidity pool, PayPal PYUSD on Curve and Spark, and the IPO capital-drain angle drew readers watching legacy finance absorb or compete with DeFi liquidity infrastructure."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T09:22:08.773618+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract vulnerability",
+          "level": "High",
+          "note": "Arithmetic overflow (Cetus, $200M), infinite mint bugs (Raft Finance), and Vyper compiler flaws have each bypassed multiple audits to drain pools entirely.",
+          "source": "https://www.certik.com/blog/what-is-a-liquidity-pool"
+        },
+        {
+          "dimension": "Rug pull and insider manipulation",
+          "level": "High",
+          "note": "BeraSwap drained its own newly created pool and embedded a rug function in its presale contract; $YZY insiders netted $1.5M via a suspicious LP setup — both patterns repeat across low-cap launches.",
+          "source": ""
+        },
+        {
+          "dimension": "Impermanent loss and LP math",
+          "level": "Medium",
+          "note": "Concentrated liquidity (Uniswap v3-style) amplifies impermanent loss risk in volatile pairs; Yield Basis's IL-free pitch and the demand for stablecoin-only pools reflect how seriously LPs weigh this exposure.",
+          "source": "https://www.binance.com/en/academy/articles/impermanent-loss-explained"
+        },
+        {
+          "dimension": "Liquidity fragmentation",
+          "level": "Medium",
+          "note": "Cross-chain expansion of pools (Curve on TON, Base, Optimism; dYdX MegaVault; Berachain PoL) spreads TVL thin across many venues, reducing depth at any single point and raising slippage risk.",
+          "source": "https://developers.uniswap.org/docs/get-started/concepts/liquidity-providers/concentrated-liquidity"
+        },
+        {
+          "dimension": "Governance and incentive capture",
+          "level": "Medium",
+          "note": "CRV gauge emissions, OP distribution, and Paypal's $132K Votemarket deposit show that liquidity is increasingly directed by vote-buying rather than organic demand, concentrating control in large token holders.",
+          "source": "https://www.curve.finance/dex/ethereum/pools/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Low",
+          "note": "No direct LP-targeted regulatory action appeared in reader-clicked headlines; institutional entry (B3, PayPal) is proceeding through permissioned stablecoin structures rather than triggering enforcement.",
+          "source": ""
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:12:09.648813+00:00",
+      "items": [
+        {
+          "clicks": 38,
+          "date": "2026-04-25T08:08:39.877141+00:00",
+          "headline": "Mega IPO wave led by SpaceX threatens crypto rally as shared liquidity pool faces pressure from record capital demands across AI and tech giants",
+          "hot_score": 677.2,
+          "lev_url": "https://leviathannews.xyz/236372/mega-ipo-wave-led-by-spacex-threatens-crypto-rally-as-shared-liquidity-pool-faces-pressure-from-record-capital-demands-across-ai-and-tech-giants",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260425062525_0aaHC0YLMKAr.jpg",
+          "url": "https://www.coindesk.com/markets/2026/04/24/spacex-s-usd75-billion-ipo-could-drain-the-liquidity-that-s-been-lifting-bitcoin-and-crypto"
+        },
+        {
+          "clicks": 114,
+          "date": "2025-12-18T05:55:35.289548+00:00",
+          "headline": "Brazilian stock exchange B3 to launch its own tokenization platform and stablecoin. The stablecoin will facilitate tokenized asset transactions and is expected to be linked to the Brazilian real. The tokenization platform is set to allow assets to be tokenized and traded on the exchange, with Luiz Masagão ,B3’s vice president of products and clients, saying both systems will share the same liquidity pool..",
+          "hot_score": 195.628497,
+          "lev_url": "https://leviathannews.xyz/22676/brazilian-stock-exchange-b3-to-launch-its-own-tokenization-platform-and-stablecoin-the-stablecoin-will-facilitate-tokenized-asset-transactions-and-is-expected-to-be-linked-to-the-b",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251218001743_96ppTMa9Scw=.jpg",
+          "url": "https://archive.ph/YLJoO"
+        },
+        {
+          "clicks": 80,
+          "date": "2026-01-07T16:14:06.660811+00:00",
+          "headline": "Yield Basis is launching IL-free, high-fee WETH–crvUSD “liquidity backbone” pools on Curve to give ETH LPs leveraged yield without impermanent loss.",
+          "hot_score": 125.85682,
+          "lev_url": "https://leviathannews.xyz/23288/yield-basis-is-launching-il-free-high-fee-wethcrvusd-liquidity-backbone-pools-on-curve-to-give-eth-lps-leveraged-yield-without-impermanent-loss",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260107161200_9JbjlDoNBco=.jpg",
+          "url": "https://x.com/yieldbasis/status/2008859121806881270"
+        },
+        {
+          "clicks": 39,
+          "date": "2025-12-04T15:55:56.807699+00:00",
+          "headline": "Curve debuts FXSwap via pilot CHF-USD liquidity pool on mainnet, powered by $ZCHF from Frankencoin and crvUSD, alongside some juicy CRV emissions.",
+          "hot_score": 55.215639,
+          "lev_url": "https://leviathannews.xyz/21633/fx-is-finally-coming-to-curve-the-first-pilot-chflt-gtusd-liquidity-pool-is-live-on-ethereum-powered-by-zchf-from-frankencoinzchf-and-crvusd-alongside-some-juicy-crv-emissions-up-t",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251204133422_kSyhlwSmqys=.jpg",
+          "url": "https://x.com/CurveFinance/status/1996565099662721034"
+        },
+        {
+          "clicks": 172,
+          "date": "2023-11-27T18:32:22.859915+00:00",
+          "headline": "DeFi audits fail to prevent recent protocol exploits. Despite undergoing multiple audits, two DeFi protocols, Raft Finance and KyperSwap, experienced catastrophic exploits that resulted in the draining of funds. Raft Finance fell victim to an infinite mint bug, while KyperSwap had its liquidity pools drained.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3412/defi-audits-fail-to-prevent-recent-protocol-exploits-despite-undergoing-multiple-audits-two-defi-protocols-raft-finance-and-kyperswap-experienced-catastrophic-exploits-that-resulte",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://blockworks.co/news/audits-cannot-guarantee-defi-exploits"
+        },
+        {
+          "clicks": 169,
+          "date": "2024-08-05T18:10:16.174213+00:00",
+          "headline": "deUSD's TVL on CurveFinance hit $119M in 48 hours, marking one of Curve's fastest-growing liquidity pools.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6551/deusds-tvl-on-curvefinance-hit-119m-in-48-hours-marking-one-of-curves-fastest-growing-liquidity-pools",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240805180758_p1jYx18X7Q==.jpg",
+          "url": "https://x.com/elixir/status/1820513037838696518"
+        },
+        {
+          "clicks": 127,
+          "date": "2024-04-05T10:16:37.085562+00:00",
+          "headline": "Zunami relaunch kicks off \"Early Bird\" campaign for liquidity providers in the zunETH/frxETH pool",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4638/zunami-relaunch-kicks-off-early-bird-campaign-for-liquidity-providers-in-the-zunethfrxeth-pool",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240405092101_Hp9bXpc1AQ==.jpg",
+          "url": "https://x.com/ZunamiProtocol/status/1776173624321306803"
+        },
+        {
+          "clicks": 125,
+          "date": "2025-04-17T10:54:31.416453+00:00",
+          "headline": "Curve to distribute 60,000 $OP over 7 weeks to Optimism markets on Llama Lend and $crvUSD Liquidity Pools",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10587/curve-to-distribute-60000-op-over-7-weeks-to-optimism-markets-on-llama-lend-and-crvusd-liquidity-pools",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250417105346_gwi60JwWols=.png",
+          "url": "https://news.curve.finance/curve-op-incentives/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:12:09.561655+00:00",
+      "editorial": [
+        {
+          "count": 13,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "news.curve.finance"
+        },
+        {
+          "count": 2,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "snapshot.org"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "thedefiant.io"
+        },
+        {
+          "count": 1,
+          "source": "dedaub.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 41,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "blog.kyberswap.com"
+        },
+        {
+          "count": 1,
+          "source": "news.bloomberglaw.com"
+        },
+        {
+          "count": 1,
+          "source": "coin98.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        }
+      ],
+      "universe_distinct": 7
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "aaaae606d8dd93ad90bfc7b2d785f85d7c9a0dc0fc4d8fa21d3fa4e313a4711e",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:14.360996+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.284,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0226,
+        "lift_log": 3.746,
+        "score": 0.2837,
+        "shared": 7
+      },
+      "rationale": "Liquidity is the core primitive that liquidity pools provide.",
+      "relation_type": "primitive",
+      "slug": "liquidity",
+      "source": "cotag",
+      "tag_name": "Liquidity",
+      "title": "Liquidity, Explained",
+      "weight": 28
+    },
+    {
+      "confidence": 0.221,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0309,
+        "lift_log": 4.492,
+        "score": 0.2209,
+        "shared": 4
+      },
+      "rationale": "Liquidity incentives are rewards offered by liquidity pools to attract capital.",
+      "relation_type": "product",
+      "slug": "liquidity-incentives",
+      "source": "cotag",
+      "tag_name": "Liquidity Incentives",
+      "title": "Liquidity Incentives, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.211,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.025,
+        "lift_log": 4.338,
+        "score": 0.2111,
+        "shared": 3
+      },
+      "rationale": "Stablecoin liquidity is a specific category of liquidity pools focused on stablecoins.",
+      "relation_type": "category",
+      "slug": "stablecoin-liquidity",
+      "source": "cotag",
+      "tag_name": "Stablecoin Liquidity",
+      "title": "Stablecoin Liquidity, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "liquidity-pool",
+  "tag_name": "Liquidity Pool",
+  "title": "Liquidity Pool, Explained"
+}

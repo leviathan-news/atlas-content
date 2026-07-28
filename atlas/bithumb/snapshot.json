@@ -1,0 +1,503 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:00:42.605104+00:00",
+      "newsroom_total": 10,
+      "overall_share": 12,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 14,
+          "month": "2026-03",
+          "newsroom": 3,
+          "universe": 18
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-04",
+          "newsroom": 3,
+          "universe": 18
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-05",
+          "newsroom": 3,
+          "universe": 12
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 26
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 85,
+      "universe_total": 75
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:00:41.763561+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "bithumb",
+          "phrase": "Bithumb is a South Korean cryptocurrency exchange.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "south-korea",
+          "weight": 32
+        },
+        {
+          "dir": "out",
+          "from": "bithumb",
+          "phrase": "Bithumb has expanded services to Vietnam.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "vietnam",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "bithumb",
+          "phrase": "Bithumb faced securities law violations in South Korea.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "securities",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "bithumb",
+          "phrase": "Upbit is a direct competitor to Bithumb in South Korea.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "upbit",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "bithumb",
+          "phrase": "Bithumb lists Bitcoin for trading on its exchange.",
+          "relation_type": "product",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 12
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Bithumb",
+          "slug": "bithumb",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "South Korea",
+          "slug": "south-korea",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 32
+        },
+        {
+          "center": false,
+          "name": "Vietnam",
+          "slug": "vietnam",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Securities",
+          "slug": "securities",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Upbit",
+          "slug": "upbit",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 12
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T05:13:57.513559+00:00",
+      "events": [
+        {
+          "date": "2018-06",
+          "kind": "exploit",
+          "label": "Bithumb hacked, loses $30M+",
+          "source": "https://techcrunch.com/2018/06/19/korean-crypto-exchange-bithumb-says-it-lost-over-30m-following-a-hack/"
+        },
+        {
+          "date": "2025-12",
+          "kind": "regulatory",
+          "label": "FIU fines Bithumb $24M, orders 6-month partial suspension for 6.65M AML/KYC violations",
+          "source": "https://forkast.news/south-korea-bithumb-crypto-exchange-license/"
+        },
+        {
+          "date": "2026-01",
+          "kind": "regulatory",
+          "label": "Court lifts six-month partial suspension despite standing fine",
+          "source": "https://forkast.news/south-korea-bithumb-crypto-exchange-license/"
+        },
+        {
+          "date": "2026-02",
+          "kind": "milestone",
+          "label": "Bithumb internal error transfers $42B in Bitcoin to users; FSC mandates 5-minute exchange reconciliation",
+          "source": "https://www.facebook.com/Reuters/videos/south-korean-crypto-firm-sends-users-44-bln-in-bitcoins-in-error/4276445896018753/"
+        },
+        {
+          "date": "2026-03",
+          "kind": "governance",
+          "label": "Bithumb delays IPO past 2028 citing AML fine and Bitcoin misallocation blunder",
+          "source": "https://www.ccn.com/news/crypto/bithumb-claws-25-market-share-korea-ipo/"
+        },
+        {
+          "date": "2026-05",
+          "kind": "launch",
+          "label": "Bithumb partners Vietnam's SSID to pursue local crypto trading license",
+          "source": "https://www.coca.xyz/post/bithumb-partners-with-ssi-digital-to-pursue-crypto-license-in-vietnam"
+        },
+        {
+          "date": "2026-05",
+          "kind": "regulatory",
+          "label": "Bithumb flags MAPO Protocol over unresolved wallet or ledger security incident",
+          "source": "https://cryptorank.io/news/feed/11cda-bithumb-coinone-mapo-delisting-watchlist"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T05:13:57.513343+00:00",
+      "insight": "Readers click Bithumb stories not for hack mechanics but for regulatory teeth: the AML fine, the $42B control failure, and the IPO deferral all signal that South Korea is actively making compliance failure expensive — and readers want to track whether enforcement actually sticks.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.ccn.com/news/crypto/bithumb-claws-25-market-share-korea-ipo/"
+    },
+    "reader_signal": {
+      "article_count": 10,
+      "as_of": "2026-07-01T12:00:43.528576+00:00",
+      "most_clicked": {
+        "clicks": 64,
+        "date": "2026-05-07T06:18:19.439568+00:00",
+        "headline": "South Korean exchange Bithumb partners Vietnam’s SSID to launch a local crypto trading platform, expanding into one of the world’s fastest-growing digital asset markets",
+        "lev_url": "https://leviathannews.xyz/238960/south-korean-exchange-bithumb-partners-vietnams-ssid-to-launch-a-local-crypto-trading-platform-expanding-into-one-of-the-worlds-fastest-growing-digital-asset-markets"
+      },
+      "provenance": "data",
+      "top_decile_share": 14,
+      "total_clicks": 456
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T05:13:57.513415+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://forkast.news/south-korea-bithumb-crypto-exchange-license/",
+          "thread": "AML fine and partial suspension",
+          "why": "A $24M penalty and six-month partial suspension from South Korea's FIU — covering 6.65 million KYC and transaction violations — made concrete the cost of compliance failure at scale."
+        },
+        {
+          "source": "https://www.facebook.com/Reuters/videos/south-korean-crypto-firm-sends-users-44-bln-in-bitcoins-in-error/4276445896018753/",
+          "thread": "$42B Bitcoin misallocation error",
+          "why": "An internal control failure that briefly transferred $42B in Bitcoin to users exposed how thin operational safeguards were at the country's second-largest exchange, prompting regulators to mandate 5-minute asset reconciliation industry-wide."
+        },
+        {
+          "source": "https://www.ccn.com/news/crypto/bithumb-claws-25-market-share-korea-ipo/",
+          "thread": "IPO delay past 2028",
+          "why": "Back-to-back regulatory sanctions forced Bithumb to shelve its public listing timeline, turning the IPO story into a live tracker of whether the exchange can rehabilitate itself."
+        },
+        {
+          "source": "https://www.coca.xyz/post/bithumb-partners-with-ssi-digital-to-pursue-crypto-license-in-vietnam",
+          "thread": "Vietnam expansion partnership",
+          "why": "The deal with SSID to pursue a Vietnamese crypto license signaled a deliberate pivot to growth markets while its home license was under regulatory siege."
+        },
+        {
+          "source": "https://cryptorank.io/news/feed/11cda-bithumb-coinone-mapo-delisting-watchlist",
+          "thread": "MAPO Protocol security flag",
+          "why": "Bithumb flagging MAPO over an unresolved wallet or ledger incident showed readers the exchange's caution-listing process in action during a live security ambiguity."
+        },
+        {
+          "source": "https://forkast.news/south-korea-bithumb-crypto-exchange-license/",
+          "thread": "Court suspension reversal",
+          "why": "A judge lifting the six-month suspension despite the standing fine created a live tension between judicial and regulatory authority that readers tracked for precedent."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T05:13:57.513424+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "South Korea's FIU levied a $24M AML fine and six-month partial suspension covering 6.65 million compliance violations; a circuit-breaker mandate followed the $42B Bitcoin error.",
+          "source": "https://forkast.news/south-korea-bithumb-crypto-exchange-license/"
+        },
+        {
+          "dimension": "Operational / Internal Controls",
+          "level": "High",
+          "note": "A mistaken $42B Bitcoin transfer to user accounts exposed material gaps in internal reconciliation, prompting a direct regulatory response requiring 5-minute asset checks across Korean exchanges.",
+          "source": "https://www.facebook.com/Reuters/videos/south-korean-crypto-firm-sends-users-44-bln-in-bitcoins-in-error/4276445896018753/"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Bithumb has clawed back roughly 25% domestic market share but operates in a concentrated duopoly with Upbit, making it vulnerable to license or reputational shocks.",
+          "source": "https://www.ccn.com/news/crypto/bithumb-claws-25-market-share-korea-ipo/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "As a centralized exchange under direct FSC and FIU oversight, Bithumb's operational continuity is a single-regulator dependency — suspension orders can restrict new user transfers immediately.",
+          "source": "https://sumsub.com/blog/south-korea-crypto-and-travel-rule-regulations-all-you-need-to-know/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Partial suspension restricting new users' crypto transfers, combined with the IPO deferral, creates funding and growth-capital risk that could compress liquidity depth over time.",
+          "source": "https://www.ccn.com/news/crypto/bithumb-claws-25-market-share-korea-ipo/"
+        },
+        {
+          "dimension": "Smart-contract / Custody",
+          "level": "Low",
+          "note": "Bithumb's primary risk profile is custodial and operational rather than on-chain; the MAPO Protocol caution flag reflects token-level counterparty risk, not a smart-contract exploit in Bithumb's own infrastructure.",
+          "source": "https://cryptorank.io/news/feed/11cda-bithumb-coinone-mapo-delisting-watchlist"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:00:43.449745+00:00",
+      "items": [
+        {
+          "clicks": 42,
+          "date": "2026-04-13T14:17:34.537190+00:00",
+          "headline": "South Korea eyes crypto circuit breakers after Bithumb mistakenly transferred $42B in Bitcoin, exposing weak internal controls",
+          "hot_score": 7799.850918,
+          "lev_url": "https://leviathannews.xyz/227633/south-korea-eyes-crypto-circuit-breakers-after-bithumb-mistakenly-transferred-42b-in-bitcoin-exposing-weak-internal-controls",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260413101252_trJtWwjFNXjZ.webp",
+          "url": "https://crypto.news/south-korea-pushes-for-crypto-circuit-breakers-after-bithumb-transfer-error/"
+        },
+        {
+          "clicks": 13,
+          "date": "2026-06-29T06:30:19.430253+00:00",
+          "headline": "Kiwoom Securities seeks stake in Bithumb through new share deal as Korean brokers move on crypto",
+          "hot_score": 1644.050864,
+          "lev_url": "https://leviathannews.xyz/264322/kiwoom-securities-seeks-stake-in-bithumb-through-new-share-deal-as-korean-brokers-move-on-crypto",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629025549_Z4zrlaiDPw==.png",
+          "url": "https://biz.chosun.com/stock/finance/2026/06/29/AR43ARNRKZENDLVIGP23WGF23E/"
+        },
+        {
+          "clicks": 64,
+          "date": "2026-05-07T06:18:19.439568+00:00",
+          "headline": "South Korean exchange Bithumb partners Vietnam’s SSID to launch a local crypto trading platform, expanding into one of the world’s fastest-growing digital asset markets",
+          "hot_score": 904.150698,
+          "lev_url": "https://leviathannews.xyz/238960/south-korean-exchange-bithumb-partners-vietnams-ssid-to-launch-a-local-crypto-trading-platform-expanding-into-one-of-the-worlds-fastest-growing-digital-asset-markets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260507061454_RTdB0oe5Gc_l.jpg",
+          "url": "https://www.theblock.co/post/400341/bithumb-vietnam-ssid?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-05-01T09:39:13.432875+00:00",
+          "headline": "Bithumb wins court relief in South Korea as judge lifts six-month suspension despite $24.6M fine from financial watchdog",
+          "hot_score": 497.2,
+          "lev_url": "https://leviathannews.xyz/237417/the-local-judge-overturned-a-march-financial-intelligence-unit-order-suspending-bithumbs-operations-in-the-country-and-fining-it-246-million",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260501093545_FGoFTxhGoaqb.jpg",
+          "url": "https://www.coindesk.com/policy/2026/05/01/bithumb-scores-a-legal-win-in-south-korea-as-six-month-suspension-is-lifted-by-local-judge"
+        },
+        {
+          "clicks": 43,
+          "date": "2026-05-21T07:23:06.248827+00:00",
+          "headline": "Bithumb flags MAPO Protocol over unresolved wallet or ledger security incident",
+          "hot_score": 472.153563,
+          "lev_url": "https://leviathannews.xyz/246205/bithumb-flags-mapo-protocol-over-unresolved-wallet-or-ledger-security-incident",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260521072211_y5nbuoMbae6D.jpg",
+          "url": "https://feed.bithumb.com/notice/1653339"
+        },
+        {
+          "clicks": 62,
+          "date": "2026-04-02T05:00:45.988793+00:00",
+          "headline": "Bithumb pushes IPO past 2028 after $24M AML fine and Bitcoin misallocation blunder",
+          "hot_score": 376.372035,
+          "lev_url": "https://leviathannews.xyz/219659/bithumb-pushes-ipo-past-2028-after-24m-aml-fine-and-bitcoin-misallocation-blunder",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401225827_Z4zrlaiDPw==.png",
+          "url": "https://www.mk.co.kr/news/stock/12003197"
+        },
+        {
+          "clicks": 58,
+          "date": "2026-04-07T19:26:33.886621+00:00",
+          "headline": "South Korea FSC mandates 5-minute asset reconciliation for crypto exchanges after Bithumb's $42B error",
+          "hot_score": 264.976781,
+          "lev_url": "https://leviathannews.xyz/222571/south-korea-fsc-mandates-5-minute-asset-reconciliation-for-crypto-exchanges-after-bithumbs-42b-error",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407124908_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/south-korea-crypto-exchanges-verify-holdings-5-minutes-fsc-rule"
+        },
+        {
+          "clicks": 56,
+          "date": "2026-03-16T13:29:19.828681+00:00",
+          "headline": "South Korea fines Bithumb $24 million, orders 6-month partial suspension over AML violations. The fine stems from approximately 6.65 million violations related to KYC and transaction restrictions.",
+          "hot_score": 197.361905,
+          "lev_url": "https://leviathannews.xyz/210275/south-korea-fines-bithumb-24-million-orders-6-month-partial-suspension-over-aml-violations-the-fine-stems-from-approximately-665-million-violations-related-to-kyc-and-transaction-r",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260316131141_0ZVOFtxSunb0.jpg",
+          "url": "https://archive.ph/evZxj"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:00:43.331700+00:00",
+      "editorial": [
+        {
+          "count": 1,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "mk.co.kr"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "news1.kr"
+        },
+        {
+          "count": 1,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "feed.bithumb.com"
+        },
+        {
+          "count": 1,
+          "source": "biz.chosun.com"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 24,
+          "source": "feed.bithumb.com"
+        },
+        {
+          "count": 20,
+          "source": "x.com"
+        },
+        {
+          "count": 9,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 6,
+          "source": "theblock.co"
+        },
+        {
+          "count": 4,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "koreatimes.co.kr"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "techinasia.com"
+        }
+      ],
+      "universe_distinct": 11
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "3315fff69799fff4e8edb17f693f17e7d6027431729dc79698de7e9acd0019ea",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:52.977734+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.321,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0735,
+        "lift_log": 4.001,
+        "score": 0.3213,
+        "shared": 22
+      },
+      "rationale": "Bithumb is a South Korean cryptocurrency exchange.",
+      "relation_type": "ecosystem",
+      "slug": "south-korea",
+      "source": "cotag",
+      "tag_name": "South Korea",
+      "title": "South Korea, Explained",
+      "weight": 32
+    }
+  ],
+  "schema_version": 1,
+  "slug": "bithumb",
+  "tag_name": "Bithumb",
+  "title": "Bithumb, Explained"
+}

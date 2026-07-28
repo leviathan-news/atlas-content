@@ -1,0 +1,509 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:13:55.294125+00:00",
+      "newsroom_total": 25,
+      "overall_share": 66,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 22,
+          "universe": 0
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 4
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 5
+        }
+      ],
+      "total_universe": 38,
+      "universe_total": 13
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:13:54.949236+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "usdh",
+          "phrase": "Both are stablecoins or related projects, but unclear direct relation.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "hyperliquid",
+          "weight": 30
+        },
+        {
+          "dir": "out",
+          "from": "usdh",
+          "phrase": "Paxos issues stablecoins like USDP, comparable to USDH.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "paxos",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "usdh",
+          "phrase": "USDC is a major stablecoin, direct competitor to USDH.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "usdc",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "usdh",
+          "phrase": "Proposals may govern USDH's parameters or minting.",
+          "relation_type": "governance",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "proposal",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "usdh",
+          "phrase": "HYPE is the token of Hyperliquid, which may back USDH.",
+          "relation_type": "token",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "hype",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "USDH",
+          "slug": "usdh",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Hyperliquid",
+          "slug": "hyperliquid",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 30
+        },
+        {
+          "center": false,
+          "name": "Paxos",
+          "slug": "paxos",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "USDC",
+          "slug": "usdc",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Proposal",
+          "slug": "proposal",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "HYPE",
+          "slug": "hype",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:46:50.691898+00:00",
+      "events": [
+        {
+          "date": "2025-08",
+          "kind": "governance",
+          "label": "Hyperliquid opens USDH stablecoin RFP to issuers",
+          "source": "https://www.dlnews.com/articles/defi/paxos-frax-agora-and-native-markets-compete-to-build-usdh-stablecoin/"
+        },
+        {
+          "date": "2025-09",
+          "kind": "governance",
+          "label": "Six proposals submitted; community pushback over Stripe-linked bid",
+          "source": "https://www.bankless.com/read/hyperliquids-usdh-bidding-war-2"
+        },
+        {
+          "date": "2025-09",
+          "kind": "governance",
+          "label": "Validator on-chain vote scheduled for September 14; Native Markets wins",
+          "source": "https://www.galaxy.com/insights/research/stablecoin-usdh-ticker-hyperliquid"
+        },
+        {
+          "date": "2025-10",
+          "kind": "launch",
+          "label": "USDH goes live on HyperEVM with $16.5M minted at launch",
+          "source": ""
+        },
+        {
+          "date": "2025-11",
+          "kind": "milestone",
+          "label": "pmUSDH launched as transferable portfolio-margin DeFi collateral",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Coinbase acquires Native Markets; USDH brand assets transferred, stablecoin converted to USDC",
+          "source": "https://www.coinbase.com/blog/coinbase-and-hyperliquid-aligning-markets-on-hyperliquid-to-usdc"
+        },
+        {
+          "date": "2026-06",
+          "kind": "governance",
+          "label": "Hyperion DeFi announces USDH sunset and unwind of $29M HYPE deals",
+          "source": "https://www.globenewswire.com/news-release/2026/06/08/3308030/0/en/hyperion-defi-reiterates-guidance-on-sunset-of-usdh-and-felix-markets.html"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:46:50.691760+00:00",
+      "insight": "Readers tracked the USDH saga not for stablecoin mechanics but for the political drama of who controls Hyperliquid's monetary layer — the top-clicked story being Coinbase's acquisition of the winner reveals that the entire proposal war ended with USDC dependency restored, the precise outcome the competition was designed to prevent.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.coinbase.com/blog/coinbase-and-hyperliquid-aligning-markets-on-hyperliquid-to-usdc"
+    },
+    "reader_signal": {
+      "article_count": 25,
+      "as_of": "2026-07-01T12:13:55.880258+00:00",
+      "most_clicked": {
+        "clicks": 79,
+        "date": "2026-05-14T13:44:49.982863+00:00",
+        "headline": "Coinbase acquires Hyperliquid's USDH deployer, Native Markets, to switch All USDH into USDC",
+        "lev_url": "https://leviathannews.xyz/242173/today-were-expanding-our-support-for-hyperliquidx-by-becoming-the-platforms-official-treasury-deployer-of-usdc-onchain-markets-operate-247-and-require-collateral-that-is-alwa"
+      },
+      "provenance": "data",
+      "top_decile_share": 16,
+      "total_clicks": 967
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:46:50.691824+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.dlnews.com/articles/defi/paxos-frax-agora-and-native-markets-compete-to-build-usdh-stablecoin/",
+          "thread": "multi-bidder proposal war spectacle",
+          "why": "The sight of billion-dollar firms — Paxos, Frax, Agora, Native Markets, Sky — drafting competing proposals and lobbying validators in public Discord channels read as live reality television, driving sustained engagement across every stage of the contest."
+        },
+        {
+          "source": "https://www.coinbase.com/blog/coinbase-and-hyperliquid-aligning-markets-on-hyperliquid-to-usdc",
+          "thread": "Coinbase acquisition ends USDC independence",
+          "why": "The top-clicked headline revealed that Native Markets, the winning USDH deployer, was acquired by Coinbase and the stablecoin converted to USDC — an ironic reversal of Hyperliquid's stated goal of reducing USDC reliance."
+        },
+        {
+          "source": "https://www.galaxy.com/insights/research/stablecoin-usdh-ticker-hyperliquid",
+          "thread": "governance legitimacy and backroom deal accusations",
+          "why": "Dragonfly's Haseeb Qureshi publicly claiming the contest was rigged and that Native Markets had advance notice of the RFP crystallised reader anxiety about whether validator votes on high-stakes economic decisions can be trusted."
+        },
+        {
+          "source": "https://www.bankless.com/read/hyperliquids-usdh-bidding-war-2",
+          "thread": "Stripe-Tempo sovereignty risk",
+          "why": "Community warnings that a Stripe-linked proposal would hand Hyperliquid's monetary layer to a competitor building its own chain (Tempo) via Privy touched a live nerve about economic capture of a supposedly sovereign L1."
+        },
+        {
+          "source": "https://www.galaxy.com/insights/research/stablecoin-usdh-ticker-hyperliquid",
+          "thread": "HYPE tokenomics tied to stablecoin yield",
+          "why": "Proposals routing reserve yield to HYPE buybacks — and the downstream VanEck ETF filing — framed the USDH winner selection as a direct lever on HYPE token value, pulling in stakers and speculators alike."
+        },
+        {
+          "source": "",
+          "thread": "pmUSDH and collateral composability",
+          "why": "The launch of pmUSDH as a transferable, yield-bearing DeFi collateral token extended the USDH narrative beyond governance into concrete DeFi utility, attracting a separate reader segment focused on yield mechanics."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:46:50.691835+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "The winning issuer, Native Markets, was acquired by Coinbase, consolidating USDH issuance under a single US-regulated custodian and reversing Hyperliquid's diversification rationale.",
+          "source": "https://www.coinbase.com/blog/coinbase-and-hyperliquid-aligning-markets-on-hyperliquid-to-usdc"
+        },
+        {
+          "dimension": "Governance capture",
+          "level": "High",
+          "note": "Public allegations of a pre-arranged outcome and validator vote concentrated among well-resourced bidders undermine the legitimacy of Hyperliquid's on-chain governance model for future high-stakes decisions.",
+          "source": "https://www.galaxy.com/insights/research/stablecoin-usdh-ticker-hyperliquid"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Paxos and PayPal's compliance-first framing won validator favour, but Coinbase's acquisition now subjects USDH issuance to US regulatory constraints on a chain marketed as permissionless.",
+          "source": "https://cryptorank.io/news/feed/ee028-paxos-paypal-partner-on-usdh-v2-proposal-with-20m-incentives-for-hyperliquid"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "USDH launched with over $16.5M minted but ultimately sunset, with Hyperion DeFi unwinding $29M in HYPE deals tied to Native Markets, creating unwinding liquidity pressure across HyperEVM.",
+          "source": "https://www.globenewswire.com/news-release/2026/06/08/3308030/0/en/hyperion-defi-reiterates-guidance-on-sunset-of-usdh-and-felix-markets.html"
+        },
+        {
+          "dimension": "Smart contract / protocol",
+          "level": "Low",
+          "note": "No exploit of the USDH contract itself was reported; the primary risk realised was issuer-level (acquisition and sunset) rather than on-chain code failure.",
+          "source": ""
+        },
+        {
+          "dimension": "Counterparty / issuer",
+          "level": "High",
+          "note": "USDH sunset announced June 2026 after Coinbase acquisition, leaving holders dependent on a migration path to USDC and exposing the fragility of a named-ticker stablecoin tied to a single corporate issuer.",
+          "source": "https://www.globenewswire.com/news-release/2026/06/08/3308030/0/en/hyperion-defi-reiterates-guidance-on-sunset-of-usdh-and-felix-markets.html"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:13:55.805147+00:00",
+      "items": [
+        {
+          "clicks": 79,
+          "date": "2026-05-14T13:44:49.982863+00:00",
+          "headline": "Coinbase acquires Hyperliquid's USDH deployer, Native Markets, to switch All USDH into USDC",
+          "hot_score": 116546.047994,
+          "lev_url": "https://leviathannews.xyz/242173/today-were-expanding-our-support-for-hyperliquidx-by-becoming-the-platforms-official-treasury-deployer-of-usdc-onchain-markets-operate-247-and-require-collateral-that-is-alwa",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514120746_zBxeRD-Fas7N.png",
+          "url": "https://x.com/coinbase/status/2054894760859504936"
+        },
+        {
+          "clicks": 22,
+          "date": "2026-06-28T19:43:17.602620+00:00",
+          "headline": "Hyper Foundation offers $10M in USDH sunset grants to HIP-1, HIP-3, and HyperEVM builders",
+          "hot_score": 1506.551431,
+          "lev_url": "https://leviathannews.xyz/264233/hyper-foundation-offers-10m-in-usdh-sunset-grants-to-hip-1-hip-3-and-hyperevm-builders",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629001559_7sUaW3KuObGa.jpg",
+          "url": "https://x.com/wublockchain/status/2071263440451084628"
+        },
+        {
+          "clicks": 58,
+          "date": "2026-03-15T09:23:49.309333+00:00",
+          "headline": "Hyperliquid introduces pmUSDH, a tokenized Portfolio Margin deposit that lets users earn yield while using USDH deposits as transferable DeFi collateral.",
+          "hot_score": 129.081413,
+          "lev_url": "https://leviathannews.xyz/209908/hyperliquid-introduces-pmusdh-a-tokenized-portfolio-margin-deposit-that-lets-users-earn-yield-while-using-usdh-deposits-as-transferable-defi-collateral",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260315081409_YKvzQgOc5URN.jpg",
+          "url": "https://x.com/i/status/2032903523264860423"
+        },
+        {
+          "clicks": 73,
+          "date": "2025-09-10T13:04:33.847755+00:00",
+          "headline": "Check out this comprehensive report on the USDH proposal wars by Zach from Stablewatch. It's a full 24 page analysis covering all 6 proposals, the most indepth yet.\"",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/16282/24-hours-17-pages-every-usdh-proposal-and-more-in-1-living-document-stabledashs-zach-most-ambitious-content-project-in-2-years-watching-the-hyperliquidx-usdh-news-break-and-seeing-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250910111509_tL-WPhlA0L0=.jpg",
+          "url": "https://x.com/zdubs33/status/1965552342197010461"
+        },
+        {
+          "clicks": 60,
+          "date": "2025-09-24T13:51:51.716780+00:00",
+          "headline": "USDH goes live on Hyperliquid with more than $16.50M minted already on HyperEVM",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/17456/usdh-stats-native-markets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250924134948_9Aa2I2QLuYg=.jpg",
+          "url": "https://usdhstats.com/"
+        },
+        {
+          "clicks": 50,
+          "date": "2025-09-10T12:58:57.468088+00:00",
+          "headline": "Track validator support and staking flows for the USDH ticker governance vote on Hyperliquid",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/16288/track-validator-support-and-staking-flows-for-the-usdh-ticker-governance-vote-on-hyperliquid",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250910125804_MAtDN6ZpR4A=.jpg",
+          "url": "https://www.usdhtracker.xyz/"
+        },
+        {
+          "clicks": 47,
+          "date": "2025-09-09T15:10:44.444156+00:00",
+          "headline": "USDH bidding is peak crypto. Bunch of multi-billion dollar companies CEOs having to fight like rats for their lives getting proposals in, but having to speak in cat and role grind discord just to submit. Simply amazing to witness. !rank.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/16222/usdh-bidding-is-peak-crypto-bunch-of-multi-billion-dollar-companies-ceos-are-fighting-for-their-lives-getting-proposals-in-but-having-to-speak-in-cat-and-role-grind-discord-just-to",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250909113948_-4Dl73l5Xvo=.jpg",
+          "url": "https://x.com/0xBreadguy/status/1965235405667926492"
+        },
+        {
+          "clicks": 46,
+          "date": "2025-09-08T07:53:25.750851+00:00",
+          "headline": "Hyperliquid faces community pushback against Stripe-linked USDH proposal. Some community members warned that handing control of the exchange’s monetary layer to Stripe, which is building its own blockchain called Tempo and already controls wallet infrastructure through its Privy acquisition, would amount to ceding economic sovereignty to a competitor. The contest over who issues USDH has attracted heavyweight bidders, including Paxos, Frax as well as a coalition involving Agora and MoonPay.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/16119/hyperliquid-faces-community-pushback-against-stripe-linked-usdh-proposal-some-community-members-warned-that-handing-control-of-the-exchanges-monetary-layer-to-stripe-which-is-build",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250908074239_vK3aa8a0sKY=.jpg",
+          "url": "https://archive.ph/sw7gZ"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:13:55.724809+00:00",
+      "editorial": [
+        {
+          "count": 17,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "cryptonews.com"
+        },
+        {
+          "count": 1,
+          "source": "usdhtracker.xyz"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "thedefiant.io"
+        },
+        {
+          "count": 1,
+          "source": "usdhstats.com"
+        }
+      ],
+      "editorial_distinct": 8,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 8,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "diadata.org"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "wsj.com"
+        },
+        {
+          "count": 1,
+          "source": "across.to"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        }
+      ],
+      "universe_distinct": 6
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "f5618eef8fced4b4af742ea8f7a1ab8f2cdf45f514fd64a7fbb8f4f112dbef70",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:36.062901+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.297,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0268,
+        "lift_log": 3.977,
+        "score": 0.2975,
+        "shared": 19
+      },
+      "rationale": "Both are stablecoins or related projects, but unclear direct relation.",
+      "relation_type": "peer",
+      "slug": "hyperliquid",
+      "source": "cotag",
+      "tag_name": "Hyperliquid",
+      "title": "Hyperliquid, Explained",
+      "weight": 30
+    },
+    {
+      "confidence": 0.263,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0574,
+        "lift_log": 5.149,
+        "score": 0.2633,
+        "shared": 6
+      },
+      "rationale": "Paxos issues stablecoins like USDP, comparable to USDH.",
+      "relation_type": "peer",
+      "slug": "paxos",
+      "source": "cotag",
+      "tag_name": "Paxos",
+      "title": "Paxos, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.207,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0048,
+        "lift_log": 2.243,
+        "score": 0.2074,
+        "shared": 15
+      },
+      "rationale": "USDC is a major stablecoin, direct competitor to USDH.",
+      "relation_type": "peer",
+      "slug": "usdc",
+      "source": "cotag",
+      "tag_name": "USDC",
+      "title": "USDC: Complete Guide",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "usdh",
+  "tag_name": "USDH",
+  "title": "USDH: Complete Guide"
+}

@@ -1,0 +1,562 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:16:11.485770+00:00",
+      "newsroom_total": 21,
+      "overall_share": 91,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 8,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 1
+        }
+      ],
+      "total_universe": 23,
+      "universe_total": 2
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:16:11.094766+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "blobs",
+          "phrase": "Blobs are part of Ethereum's Dencun upgrade.",
+          "relation_type": "protocol",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ethereum-upgrade",
+          "weight": 30
+        },
+        {
+          "dir": "out",
+          "from": "blobs",
+          "phrase": "Arbitrum uses blobs for L2 data availability.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "arbitrum",
+          "weight": 29
+        },
+        {
+          "dir": "out",
+          "from": "blobs",
+          "phrase": "Blobs are defined in EIP-4844.",
+          "relation_type": "protocol",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ethereum-improvement-proposal",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "blobs",
+          "phrase": "Blobs are tested on testnets before mainnet.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "testnet",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "blobs",
+          "phrase": "Validators attest to blobs in Ethereum.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "validators",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Blobs",
+          "slug": "blobs",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Ethereum Upgrade",
+          "slug": "ethereum-upgrade",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 30
+        },
+        {
+          "center": false,
+          "name": "Arbitrum",
+          "slug": "arbitrum",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 29
+        },
+        {
+          "center": false,
+          "name": "EIP",
+          "slug": "ethereum-improvement-proposal",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "Testnet",
+          "slug": "testnet",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Validators",
+          "slug": "validators",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:42:17.726403+00:00",
+      "events": [
+        {
+          "date": "2024-01",
+          "kind": "milestone",
+          "label": "Dencun activates on Goerli testnet",
+          "source": "https://blog.ethereum.org/2024/01/24/sepolia-holesky-dencun"
+        },
+        {
+          "date": "2024-03",
+          "kind": "launch",
+          "label": "Dencun / EIP-4844 live on Ethereum mainnet; Arbitrum blobs active, median swap ~$0.05",
+          "source": "https://eips.ethereum.org/EIPS/eip-4844"
+        },
+        {
+          "date": "2024-03",
+          "kind": "launch",
+          "label": "ArbOS 20 'Atlas' deployed; blob-based data posting cost reductions take effect on Arbitrum One",
+          "source": "https://x.com/arbitrum/status/1768306107318178061"
+        },
+        {
+          "date": "2025-05",
+          "kind": "milestone",
+          "label": "Pectra upgrade on Ethereum mainnet (epoch 364032); blob count doubled via EIP-7691",
+          "source": "https://consensys.io/ethereum-pectra-upgrade"
+        },
+        {
+          "date": "2025-08",
+          "kind": "milestone",
+          "label": "Ethereum fork raises blob target to 14 and blob limit to 21",
+          "source": "https://coinmarketcap.com/academy/article/ethereum-blob-limit-rises-to-21-units-in-latest-upgrade"
+        },
+        {
+          "date": "2025-10",
+          "kind": "milestone",
+          "label": "Fusaka upgrade activates on Holesky testnet, introducing PeerDAS and expanded blob capacity",
+          "source": "https://ethereum.org/roadmap/fusaka/peerdas/"
+        },
+        {
+          "date": "2025-12",
+          "kind": "launch",
+          "label": "Fusaka hard fork on Ethereum mainnet, further doubling blob capacity with PeerDAS",
+          "source": "https://www.binance.com/en/academy/articles/ethereum-fusaka-upgrade-all-you-need-to-know"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:42:17.726184+00:00",
+      "insight": "Readers click blobs not for the cryptography but for the economic conflict: every upgrade milestone is shadowed by a counter-narrative — blobs are either too cheap (compressing ETH value accrual), too congested (inscriptions and txpool blocking), or solving the wrong layer (MEV bots and dApps, not L2s, are the real L1 gas burden).",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.galaxy.com/insights/research/ethereum-blob-market-post-pectra"
+    },
+    "reader_signal": {
+      "article_count": 22,
+      "as_of": "2026-07-01T12:16:12.004162+00:00",
+      "most_clicked": {
+        "clicks": 235,
+        "date": "2025-04-20T20:15:19.227913+00:00",
+        "headline": "Top L1 gas spenders aren’t L2s, they’re dApps and MEV bots, sparking calls to scale the base layer instead of relying on blobs and endless L2 solutions.",
+        "lev_url": "https://leviathannews.xyz/10624/top-l1-gas-spenders-arent-l2s-theyre-dapps-and-mev-bots-sparking-calls-to-scale-the-base-layer-instead-of-relying-on-blobs-and-endless-l2-solutions"
+      },
+      "provenance": "data",
+      "top_decile_share": 22,
+      "total_clicks": 1879
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:42:17.726252+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://x.com/arbitrum/status/1768306107318178061",
+          "thread": "L2 fee collapse, real numbers",
+          "why": "Arbitrum's $0.05 median swap and the $270M L2 revenue breakdown gave readers a concrete before/after that validated or disproved the blob promise."
+        },
+        {
+          "source": "https://ethereum.org/roadmap/danksharding/",
+          "thread": "Base layer vs L2 scaling debate",
+          "why": "The revelation that top L1 gas spenders are dApps and MEV bots — not L2s — reframed whether blobs address the actual bottleneck, pulling readers into a foundational scalability argument."
+        },
+        {
+          "source": "https://ethresear.ch/t/blob-usage-strategies-by-rollups-and-non-rollup-applications/19874",
+          "thread": "Blob congestion and capacity limits",
+          "why": "Inscriptions saturating blob capacity and blobs blocking txpool showed readers that the new data lane has its own demand ceiling, making 'blobs = solved' feel premature."
+        },
+        {
+          "source": "https://blog.ethereum.org/2024/01/24/sepolia-holesky-dencun",
+          "thread": "Upgrade deployment milestones",
+          "why": "Readers tracked each testnet and mainnet activation — Goerli, Dencun, Pectra, Fusaka — as concrete checkpoints confirming the roadmap was real and on schedule."
+        },
+        {
+          "source": "https://www.galaxy.com/insights/research/ethereum-blob-market-post-pectra",
+          "thread": "ETH value accrual post-blobs",
+          "why": "EIP-4844 slashing L2 fees to near-zero reignited debate over whether cheap blobspace cannibalizes ETH burn, making blob success a potential headwind for ETH holders."
+        },
+        {
+          "source": "https://ethereum.org/roadmap/fusaka/peerdas/",
+          "thread": "Future blob roadmap (PeerDAS, EIP-8142)",
+          "why": "Vitalik's post-blob scaling map and proposals like Block-in-Blobs signaled blobs are a floor, not a ceiling, drawing readers tracking where Ethereum goes next."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:42:17.726312+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / execution risk",
+          "level": "Low",
+          "note": "Blob data is ephemeral and lives outside the EVM execution layer, so bugs in blob-carrying transactions affect data availability proofs, not contract state directly.",
+          "source": "https://eips.ethereum.org/EIPS/eip-4844"
+        },
+        {
+          "dimension": "Centralization pressure",
+          "level": "Medium",
+          "note": "Rising blob fees during high-demand periods (inscription surges, post-Pectra capacity fills) incentivize L2s to batch aggressively, concentrating sequencer power among a small number of high-throughput rollups.",
+          "source": "https://arxiv.org/html/2410.04111v2"
+        },
+        {
+          "dimension": "Market / ETH value accrual",
+          "level": "Medium",
+          "note": "Blob fees partially replace execution-layer fees that would otherwise be burned under EIP-1559; if blob demand stays below target, ETH issuance-to-burn dynamics weaken.",
+          "source": "https://www.galaxy.com/insights/research/ethereum-blob-market-post-pectra"
+        },
+        {
+          "dimension": "Capacity / congestion",
+          "level": "Medium",
+          "note": "Non-rollup use cases like inscriptions can saturate the blob target, raising blob base fees and crowding out legitimate L2 data posting without an L2-priority mechanism.",
+          "source": "https://ethresear.ch/t/blob-usage-strategies-by-rollups-and-non-rollup-applications/19874"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Low",
+          "note": "Blobs are a data-availability primitive with no direct financial instrument characteristics, reducing the likelihood of near-term targeted regulatory action compared to staking or tokenized assets.",
+          "source": ""
+        },
+        {
+          "dimension": "Validator / node operator load",
+          "level": "Medium",
+          "note": "PeerDAS and proposals like EIP-8142 are motivated by real concern that full blob data propagation at higher targets increases bandwidth and storage requirements for non-archival nodes.",
+          "source": "https://eips.ethereum.org/EIPS/eip-8142"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:16:11.928840+00:00",
+      "items": [
+        {
+          "clicks": 51,
+          "date": "2026-04-09T01:06:27.587543+00:00",
+          "headline": "Ethereum researchers propose “Block-in-Blobs” (EIP-8142) to shift execution data into blobs, reducing validator load while preserving availability in next-gen network scaling push",
+          "hot_score": 21051.895296,
+          "lev_url": "https://leviathannews.xyz/223627/ethereum-researchers-propose-block-in-blobs-eip-8142-to-shift-execution-data-into-blobs-reducing-validator-load-while-preserving-availability-in-next-gen-network-scaling-push",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408114042_B_j49UxjSvCF.jpg",
+          "url": "https://www.theblock.co/post/396669/blocks-are-dead-long-live-blobs-ethereum-researchers-explore-upgrade-to-ease-validator-data-burden?utm_source=twitter&utm_medium=social"
+        },
+        {
+          "clicks": 82,
+          "date": "2026-02-27T23:19:28.955270+00:00",
+          "headline": "Vitalik maps Ethereum scaling path from Glamsterdam multidimensional gas and ePBS to ZK-EVM multi-proof validation and 8 MB/sec blobs",
+          "hot_score": 108.267048,
+          "lev_url": "https://leviathannews.xyz/36139/vitalik-maps-ethereum-scaling-path-from-glamsterdam-multidimensional-gas-and-epbs-to-zk-evm-multi-proof-validation-and-8-mbsec-blobs",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260227164252_9GIFAaa1P3A=.jpg",
+          "url": "https://x.com/VitalikButerin/status/2027403360484430122"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-01-26T19:55:33.452233+00:00",
+          "headline": "Ethereum L2s entered a brutal post-blob era in 2025, where collapsing fees turned scaling into a knife fight. Despite shrinking profits, Base, Arbitrum, Polygon, Optimism, and Starknet emerged as the Big 5 by capturing real users, apps, and revenue.",
+          "hot_score": 66.232667,
+          "lev_url": "https://leviathannews.xyz/24078/ethereum-l2s-entered-a-brutal-post-blob-era-in-2025-where-collapsing-fees-turned-scaling-into-a-knife-fight-despite-shrinking-profits-base-arbitrum-polygon-optimism-and-starknet-em",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260126190421_zqpfXzo9Gn4=.jpg",
+          "url": "https://x.com/i/status/2015790287583420911"
+        },
+        {
+          "clicks": 53,
+          "date": "2026-01-07T09:25:47.684419+00:00",
+          "headline": "Ethereum activated a planned fork raising its blob target to 14 and blob limit to 21, boosting data availability for Layer 2 rollups such as Base, Optimism, Arbitrum, and Mantle. On-chain data shows blob usage remains far below capacity.",
+          "hot_score": 62.493658,
+          "lev_url": "https://leviathannews.xyz/23252/ethereum-activated-a-planned-fork-raising-its-blob-target-to-14-and-blob-limit-to-21-boosting-data-availability-for-layer-2-rollups-such-as-base-optimism-arbitrum-and-mantle-on-cha",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260107081143_Otfsug6rDUo=.png",
+          "url": "https://decrypt.co/353816/ethereum-lifts-data-limits-tunes-network-scaling"
+        },
+        {
+          "clicks": 235,
+          "date": "2025-04-20T20:15:19.227913+00:00",
+          "headline": "Top L1 gas spenders aren’t L2s, they’re dApps and MEV bots, sparking calls to scale the base layer instead of relying on blobs and endless L2 solutions.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10624/top-l1-gas-spenders-arent-l2s-theyre-dapps-and-mev-bots-sparking-calls-to-scale-the-base-layer-instead-of-relying-on-blobs-and-endless-l2-solutions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250420195522__TswX5vs6IQ=.jpg",
+          "url": "https://etherscan.io/gastracker"
+        },
+        {
+          "clicks": 171,
+          "date": "2024-03-12T08:38:34.543256+00:00",
+          "headline": "Blobs go live on Gnosis Chain ahead of Ethereum’s Dencun upgrade. The developers at Gnosis Chain deployed a version of the Dencun upgrade on the network, activating type 3 blob transactions on the sidechain to help further scale dapps.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4193/blobs-go-live-on-gnosis-chain-ahead-of-ethereums-dencun-upgrade-the-developers-at-gnosis-chain-deployed-a-version-of-the-dencun-upgrade-on-the-network-activating-type-3-blob-transa",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240312083805_vamrG-JQQQ==.jpg",
+          "url": "https://www.theblock.co/post/281867/blobs-go-live-on-gnosis-chain-ahead-of-ethereums-dencun-upgrade"
+        },
+        {
+          "clicks": 152,
+          "date": "2023-04-28T08:09:43.482704+00:00",
+          "headline": "Ethereum’s Next Upgrade To Focus on Blobs",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/784/ethereums-next-upgrade-to-focus-on-blobs",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://blockworks.co/news/ethereum-cancun-upgrade-blobs"
+        },
+        {
+          "clicks": 148,
+          "date": "2024-03-14T19:37:17.762043+00:00",
+          "headline": "Blobs are officially live on Arbitrum. Median gas cost to swap is now around $0.05",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4224/blobs-are-officially-live-on-arbitrum-median-gas-cost-to-swap-is-now-around-005",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240314193654_ZDLSJVrl2Q==.jpg",
+          "url": "https://x.com/Uniswap/status/1768327645396373941?s=20"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:16:11.851172+00:00",
+      "editorial": [
+        {
+          "count": 9,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "blog.ethereum.org"
+        },
+        {
+          "count": 1,
+          "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "vitalik.eth.limo"
+        },
+        {
+          "count": 1,
+          "source": "etherscan.io"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        }
+      ],
+      "editorial_distinct": 9,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 1,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        }
+      ],
+      "universe_distinct": 2
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "33d7c4377243788bc54c605860ab4b914f38492abdfeb2ad93571abda3b8a7ab",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:53.411632+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.294,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0121,
+        "lift_log": 4.088,
+        "score": 0.2938,
+        "shared": 4
+      },
+      "rationale": "Arbitrum uses blobs for L2 data availability.",
+      "relation_type": "ecosystem",
+      "slug": "arbitrum",
+      "source": "cotag",
+      "tag_name": "Arbitrum",
+      "title": "Arbitrum, Explained",
+      "weight": 29
+    },
+    {
+      "confidence": 0.272,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0431,
+        "lift_log": 5.482,
+        "score": 0.272,
+        "shared": 5
+      },
+      "rationale": "Blobs are defined in EIP-4844.",
+      "relation_type": "protocol",
+      "slug": "ethereum-improvement-proposal",
+      "source": "cotag",
+      "tag_name": "EIP",
+      "title": "EIP, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.298,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0596,
+        "lift_log": 5.885,
+        "score": 0.2979,
+        "shared": 6
+      },
+      "rationale": "Blobs are part of Ethereum's Dencun upgrade.",
+      "relation_type": "protocol",
+      "slug": "ethereum-upgrade",
+      "source": "cotag",
+      "tag_name": "Ethereum Upgrade",
+      "title": "Ethereum Upgrade, Explained",
+      "weight": 30
+    },
+    {
+      "confidence": 0.225,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0203,
+        "lift_log": 4.694,
+        "score": 0.2253,
+        "shared": 3
+      },
+      "rationale": "Blobs are tested on testnets before mainnet.",
+      "relation_type": "infrastructure",
+      "slug": "testnet",
+      "source": "cotag",
+      "tag_name": "Testnet",
+      "title": "Testnet, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "blobs",
+  "tag_name": "Blobs",
+  "title": "Blobs, Explained"
+}

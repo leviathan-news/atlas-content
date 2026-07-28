@@ -1,0 +1,521 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:11:28.851956+00:00",
+      "newsroom_total": 10,
+      "overall_share": 21,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 7
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 14
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 3
+        }
+      ],
+      "total_universe": 47,
+      "universe_total": 37
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:11:28.531044+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "florida",
+          "phrase": "Florida has been associated with Ponzi schemes in crypto cases.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ponzi",
+          "weight": 37
+        },
+        {
+          "dir": "out",
+          "from": "florida",
+          "phrase": "Florida's crypto regulation may impact stablecoin usage.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "stablecoins",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "florida",
+          "phrase": "Unclear direct relation; both are entities in tech/regulation.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "openai",
+          "weight": 16
+        },
+        {
+          "dir": "out",
+          "from": "florida",
+          "phrase": "Florida's stance on CBDC is part of broader crypto policy.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "cbdc",
+          "weight": 14
+        },
+        {
+          "dir": "out",
+          "from": "florida",
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Florida",
+          "slug": "florida",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Ponzi",
+          "slug": "ponzi",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 37
+        },
+        {
+          "center": false,
+          "name": "Stablecoins",
+          "slug": "stablecoins",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "OpenAI",
+          "slug": "openai",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        },
+        {
+          "center": false,
+          "name": "CBDC",
+          "slug": "cbdc",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T09:14:51.829920+00:00",
+      "events": [
+        {
+          "date": "2021-12",
+          "kind": "milestone",
+          "label": "DeSantis signals crypto-friendly business posture",
+          "source": "https://fortune.com/2021/12/09/florida-governor-ron-desantis-businesses-fees-crypto/"
+        },
+        {
+          "date": "2023-03",
+          "kind": "regulatory",
+          "label": "DeSantis announces CBDC ban legislation",
+          "source": "https://www.flgov.com/eog/news/press/2023/governor-ron-desantis-announces-legislation-protect-floridians-federally-controlled"
+        },
+        {
+          "date": "2023-05",
+          "kind": "milestone",
+          "label": "DeSantis launches presidential campaign with pro-Bitcoin Twitter Spaces",
+          "source": "https://www.politico.com/newsletters/florida-playbook/2023/08/25/desantis-00112944"
+        },
+        {
+          "date": "2025-02",
+          "kind": "regulatory",
+          "label": "Florida Bitcoin reserve bills HB 487 and SB 550 introduced",
+          "source": "https://www.flsenate.gov/Session/Bill/2026/175/Analyses/h0175z.IBS.PDF"
+        },
+        {
+          "date": "2025-05",
+          "kind": "governance",
+          "label": "Florida Bitcoin reserve bills indefinitely postponed and withdrawn",
+          "source": "https://www.flsenate.gov/Session/Bill/2026/175/Analyses/h0175z.IBS.PDF"
+        },
+        {
+          "date": "2026-02",
+          "kind": "regulatory",
+          "label": "Florida lawmakers renew Bitcoin reserve push with new bill",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "regulatory",
+          "label": "Florida passes SB 314, first US state stablecoin regulatory framework",
+          "source": "https://www.flsenate.gov/Session/Bill/2026/314"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T09:14:51.829709+00:00",
+      "insight": "Florida readers click hardest on the tension between DeSantis-era crypto libertarianism and the institutional reality check — Bitcoin reserve bills die, memecoins get investigated, and the stablecoin law that passed drew immediate surveillance comparisons to the CBDC ban DeSantis championed.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.flsenate.gov/Session/Bill/2026/314"
+    },
+    "reader_signal": {
+      "article_count": 10,
+      "as_of": "2026-07-01T12:11:29.401280+00:00",
+      "most_clicked": {
+        "clicks": 181,
+        "date": "2025-03-06T15:08:11.010513+00:00",
+        "headline": "Andrew Tate struggles to pump memecoin amid Florida criminal inquiry",
+        "lev_url": "https://leviathannews.xyz/9682/andrew-tate-struggles-to-pump-memecoin-amid-florida-criminal-inquiry"
+      },
+      "provenance": "data",
+      "top_decile_share": 25,
+      "total_clicks": 733
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T09:14:51.829791+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.flgov.com/eog/news/press/2023/governor-ron-desantis-announces-legislation-protect-floridians-federally-controlled",
+          "thread": "DeSantis anti-CBDC positioning",
+          "why": "His Twitter Spaces Bitcoin endorsement and CBDC ban framed Florida as the ideological frontline of the federal vs. state crypto sovereignty fight, driving high curiosity clicks."
+        },
+        {
+          "source": "https://www.flsenate.gov/Session/Bill/2026/175/Analyses/h0175z.IBS.PDF",
+          "thread": "Bitcoin reserve bills collapse",
+          "why": "Readers engaged with the gap between legislative ambition and political reality as HB 487 and SB 550 were withdrawn despite repeated attempts across multiple sessions."
+        },
+        {
+          "source": "",
+          "thread": "Andrew Tate memecoin inquiry",
+          "why": "The collision of a polarizing celebrity, a pump-and-dump dynamic, and a criminal investigation made this the single highest-clicked angle on the topic."
+        },
+        {
+          "source": "https://www.flsenate.gov/Session/Bill/2026/314/Analyses/2026s00314.pre.aeg.PDF",
+          "thread": "State stablecoin framework passage",
+          "why": "Florida becoming the first US state to pass a stablecoin bill drew readers tracking whether state-level regulation could outpace federal gridlock."
+        },
+        {
+          "source": "https://www.justice.gov/criminal/case/hyperfund-and-associated-cases",
+          "thread": "Crypto Ponzi enforcement",
+          "why": "Multiple Florida-based fraud cases — including a $328M scheme and a CFTC commodity pool penalty — signaled the state as both a crypto hub and a fraud magnet."
+        },
+        {
+          "source": "https://www.flsenate.gov/Session/Bill/2026/314/Analyses/2026s00314.pre.aeg.PDF",
+          "thread": "Stablecoin surveillance contradiction",
+          "why": "Critics noting that SB 314's compliance framework mirrored the surveillance architecture DeSantis banned under the CBDC blockade created a pointed irony readers clicked to unpack."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T09:14:51.829851+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Florida has passed the first state stablecoin law (SB 314) aligned with the federal GENIUS Act, but Bitcoin reserve legislation failed twice, reflecting inconsistent follow-through on crypto-friendly rhetoric.",
+          "source": "https://www.flsenate.gov/Session/Bill/2026/314"
+        },
+        {
+          "dimension": "Market",
+          "level": "High",
+          "note": "Florida-linked memecoin promotions tied to high-profile figures under criminal scrutiny (Andrew Tate inquiry) and the $PATRIOT token stunt illustrate elevated retail manipulation risk in the state's crypto ecosystem.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "State-run Bitcoin reserve proposals would have concentrated sovereign crypto holdings under a single state treasury without clear custody or governance standards.",
+          "source": "https://www.flsenate.gov/Session/Bill/2026/175/Analyses/h0175z.IBS.PDF"
+        },
+        {
+          "dimension": "Slashing/Penalty",
+          "level": "Medium",
+          "note": "CFTC secured a $1.3M penalty and trading ban against a Florida resident in a commodity pool fraud case, and a $328M Ponzi scheme drew federal charges, indicating active enforcement exposure.",
+          "source": "https://www.justice.gov/criminal/case/hyperfund-and-associated-cases"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Low",
+          "note": "No evidence of systemic DeFi liquidity crises specific to Florida-domiciled protocols; risk is concentrated in retail fraud schemes rather than protocol-level liquidity failure.",
+          "source": ""
+        }
+      ],
+      "sourced": 3,
+      "total": 5
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:11:29.324991+00:00",
+      "items": [
+        {
+          "clicks": 43,
+          "date": "2026-04-15T17:28:32.487007+00:00",
+          "headline": "CFTC secures $1.3M penalty and trading ban against Florida resident in commodity pool fraud case, reinforcing crackdown on market abuse",
+          "hot_score": 5280.678074,
+          "lev_url": "https://leviathannews.xyz/229819/cftc-secures-13m-penalty-and-trading-ban-against-florida-resident-in-commodity-pool-fraud-case-reinforcing-crackdown-on-market-abuse",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415172729_uWX21Zif1Swq.jpg",
+          "url": "https://x.com/i/status/2044459011550925281"
+        },
+        {
+          "clicks": 83,
+          "date": "2026-03-06T20:30:05.071740+00:00",
+          "headline": "Florida passes first US state-level stablecoin bill, SB 314, creating a regulatory framework for payment stablecoin issuers aligned with federal GENIUS Act standards and enhancing consumer protections",
+          "hot_score": 93.944474,
+          "lev_url": "https://leviathannews.xyz/42859/florida-passes-first-us-state-level-stablecoin-bill-sb-314-creating-a-regulatory-framework-for-payment-stablecoin-issuers-aligned-with-federal-genius-act-standards-and-enhancing-co",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260306195417_tPmo2zpvFPE=.jpg",
+          "url": "https://www.theblock.co/post/392733/first-us-state-level-stablecoin-bill-passes-in-florida"
+        },
+        {
+          "clicks": 24,
+          "date": "2026-01-09T06:37:00.026535+00:00",
+          "headline": "Florida lawmakers renew push to launch State Bitcoin Reserve. On Tuesday, Florida lawmakers introduced another bill for the creation of a strategic Bitcoin reserve, less than a year after two attempts were shelved.",
+          "hot_score": 30.912076,
+          "lev_url": "https://leviathannews.xyz/23383/florida-lawmakers-renew-push-to-launch-state-bitcoin-reserve-florida-lawmakers-introduced-another-bill-for-the-creation-of-a-strategic-bitcoin-reserve-less-than-a-year-after-two-at",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260109014303_CAWRJ0LnH6o=.jpg",
+          "url": "https://decrypt.co/353995/florida-lawmakers-renew-push-launch-state-bitcoin-reserve"
+        },
+        {
+          "clicks": 20,
+          "date": "2026-02-03T20:16:08.057404+00:00",
+          "headline": "Why Not!\nCrypto investors behind the $PATRIOT memecoin fund a 15-foot golden “Don Colossus” statue of President Trump, awaiting installation at his Doral golf resort in Florida.",
+          "hot_score": 26.540633,
+          "lev_url": "https://leviathannews.xyz/24739/why-notcrypto-investors-behind-the-patriot-memecoin-fund-a-15-foot-golden-don-colossus-statue-of-president-trump-awaiting-installation-at-his-doral-golf-resort-in-florida",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260203200910_Cl4Pf19MtJo=.jpg",
+          "url": "https://www.nytimes.com/2026/02/03/technology/trump-statue-don-colossus.html"
+        },
+        {
+          "clicks": 20,
+          "date": "2026-01-08T14:39:07.087464+00:00",
+          "headline": "Florida bill proposes creating a state-run strategic crypto reserve that would primarily hold Bitcoin, potentially making it a formal part of Florida’s financial assets by mid-2026.",
+          "hot_score": 25.303562,
+          "lev_url": "https://leviathannews.xyz/23340/florida-bill-proposes-creating-a-state-run-strategic-crypto-reserve-that-would-primarily-hold-bitcoin-potentially-making-it-a-formal-part-of-floridas-financial-assets-by-mid-2026",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260108143734_FzCytdFdVd0=.jpg",
+          "url": "https://x.com/Crypto_Briefing/status/2009272446151741773"
+        },
+        {
+          "clicks": 181,
+          "date": "2025-03-06T15:08:11.010513+00:00",
+          "headline": "Andrew Tate struggles to pump memecoin amid Florida criminal inquiry",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9682/andrew-tate-struggles-to-pump-memecoin-amid-florida-criminal-inquiry",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250306145013_24EyJNG1Zg==.jpg",
+          "url": "https://protos.com/andrew-tate-memecoin-florida-criminal-inquiry/"
+        },
+        {
+          "clicks": 116,
+          "date": "2023-05-25T00:25:58.124614+00:00",
+          "headline": "Florida Governor Ron DeSantis expresses pro-Bitcoin, anti-CBDC sentiments in Twitter Spaces campaign launch: \"The only reason bureaucrats in DC don't like Bitcoin is that they can't control it.\" ",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/1103/florida-governor-ron-desantis-expresses-pro-bitcoin-anti-cbdc-sentiments-in-twitter-spaces-campaign-launch-the-only-reason-bureaucrats-in-dc-dont-like-bitcoin-is-that-they-cant-con",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://twitter.com/elonmusk/status/1661498079386931206"
+        },
+        {
+          "clicks": 113,
+          "date": "2025-05-26T08:51:54.328533+00:00",
+          "headline": "Florida moves to scrap capital gains tax on Bitcoin, XRP, and stocks, aiming to boost crypto investment.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/11633/florida-moves-to-scrap-capital-gains-tax-on-bitcoin-xrp-and-stocks-aiming-to-boost-crypto-investment",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250526085024_ZteLL521LT8=.jpg",
+          "url": "https://southfloridareporter.com/florida-proposes-law-to-eliminate-capital-gains-tax-on-bitcoin/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:11:29.235795+00:00",
+      "editorial": [
+        {
+          "count": 4,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "protos.com"
+        },
+        {
+          "count": 1,
+          "source": "southfloridareporter.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "nytimes.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        }
+      ],
+      "editorial_distinct": 7,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 10,
+          "source": "x.com"
+        },
+        {
+          "count": 10,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 6,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "news.bloomberglaw.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "foxbusiness.com"
+        },
+        {
+          "count": 1,
+          "source": "barrons.com"
+        },
+        {
+          "count": 1,
+          "source": "nypost.com"
+        },
+        {
+          "count": 1,
+          "source": "theguardian.com"
+        }
+      ],
+      "universe_distinct": 11
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "013f5a7a4c56a65de1dd09202b8ab718da60430228fc073cb94a3ff2f0a0770d",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:05.128650+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.375,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0732,
+        "lift_log": 5.235,
+        "score": 0.3747,
+        "shared": 6
+      },
+      "rationale": "Florida has been associated with Ponzi schemes in crypto cases.",
+      "relation_type": "risk",
+      "slug": "ponzi",
+      "source": "cotag",
+      "tag_name": "Ponzi",
+      "title": "Ponzi, Explained",
+      "weight": 37
+    }
+  ],
+  "schema_version": 1,
+  "slug": "florida",
+  "tag_name": "Florida",
+  "title": "Florida, Explained"
+}

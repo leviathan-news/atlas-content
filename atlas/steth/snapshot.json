@@ -1,0 +1,608 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:14:41.490688+00:00",
+      "newsroom_total": 30,
+      "overall_share": 55,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 13
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 4
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 5
+        }
+      ],
+      "total_universe": 55,
+      "universe_total": 25
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:14:40.814904+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "steth",
+          "phrase": "stETH is the liquid staking token issued by Lido Finance.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "lido",
+          "weight": 40
+        },
+        {
+          "dir": "out",
+          "from": "steth",
+          "phrase": "stETH represents staked ETH, enabling staking rewards and liquidity.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "staking",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "steth",
+          "phrase": "AAVE is a governance token for Aave, not directly related to stETH.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "aave-token",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "steth",
+          "phrase": "Lido DAO governs the protocol that issues stETH.",
+          "relation_type": "governance",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "dao",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "steth",
+          "phrase": "stETH is a liquid representation of staked ETH on Ethereum.",
+          "relation_type": "protocol",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "eth",
+          "weight": 13
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "stETH",
+          "slug": "steth",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Lido Finance",
+          "slug": "lido",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 40
+        },
+        {
+          "center": false,
+          "name": "Staking",
+          "slug": "staking",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "AAVE",
+          "slug": "aave-token",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "DAO",
+          "slug": "dao",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "ETH",
+          "slug": "eth",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:51:31.024407+00:00",
+      "events": [
+        {
+          "date": "2022-06",
+          "kind": "milestone",
+          "label": "stETH depegs during Celsius / 3AC collapse",
+          "source": "https://fortune.com/2022/06/29/crypto-winter-crash-nansen-three-arrows-capital-celsius-ether-staked-depeg/"
+        },
+        {
+          "date": "2023-07",
+          "kind": "launch",
+          "label": "AAVE DAO launches Lido-specific V3 market for stETH / wstETH",
+          "source": "https://avara.xyz/blog/aave-dao-launches-lido-specific-market"
+        },
+        {
+          "date": "2024-05",
+          "kind": "launch",
+          "label": "KelpDAO enables rsETH withdrawals into stETH, ETHx, sfrxETH",
+          "source": ""
+        },
+        {
+          "date": "2024-08",
+          "kind": "milestone",
+          "label": "Justin Sun withdraws $1.7B ETH from AAVE, triggering brief stETH depeg",
+          "source": "https://beincrypto.com/ethereum-whale-aave-exit-steth-depeg/"
+        },
+        {
+          "date": "2025-05",
+          "kind": "launch",
+          "label": "Lido v3 (stVaults) goes live on Ethereum mainnet",
+          "source": "https://x.com/LidoFinance/status/1920813837273423895"
+        },
+        {
+          "date": "2025-12",
+          "kind": "regulatory",
+          "label": "WisdomTree launches fully-staked ETH ETP backed by stETH",
+          "source": "https://etfexpress.com/2025/12/09/wisdomtree-launches-fully-staked-eth-etp-list/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:51:31.024275+00:00",
+      "insight": "Readers click stETH stories not for yield mechanics but for its expanding role as DeFi's de facto collateral layer — every high-engagement headline tracks whether stETH is hardening into base-money infrastructure or is one depeg away from systemic collapse.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.ark-invest.com/articles/analyst-research/why-ether-stands-out-among-digital-assets"
+    },
+    "reader_signal": {
+      "article_count": 30,
+      "as_of": "2026-07-01T12:14:42.813781+00:00",
+      "most_clicked": {
+        "clicks": 199,
+        "date": "2024-04-26T02:38:47.429536+00:00",
+        "headline": "KelpDAO to enable $rsETH withdrawals on May 03, 2024, initially into $ETHx, $stETH and $sfrxETH",
+        "lev_url": "https://leviathannews.xyz/5051/kelpdao-to-enable-rseth-withdrawals-on-may-03-2024-initially-into-ethx-steth-and-sfrxeth"
+      },
+      "provenance": "data",
+      "top_decile_share": 22,
+      "total_clicks": 2437
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:51:31.024340+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://avara.xyz/blog/aave-dao-launches-lido-specific-market",
+          "thread": "stETH as universal DeFi collateral",
+          "why": "Headlines about AAVE V3 Lido market, crvUSD borrowing caps, and BadgerDAO's stETH-backed synthetic BTC all scored 80–146 clicks — readers are mapping which protocols have made stETH load-bearing."
+        },
+        {
+          "source": "https://www.ark-invest.com/articles/analyst-research/why-ether-stands-out-among-digital-assets",
+          "thread": "stETH benchmark / reserve asset thesis",
+          "why": "ARK Invest's comparison to the federal funds rate (181 clicks) and stETH surpassing XRP by market cap signal readers tracking whether stETH is graduating from DeFi primitive to macro benchmark."
+        },
+        {
+          "source": "https://etfexpress.com/2025/12/09/wisdomtree-launches-fully-staked-eth-etp-list/",
+          "thread": "Institutional on-ramps and TradFi wrapping",
+          "why": "Custody integrations (Hex Trust, Crypto Finance AG), WisdomTree's staked ETP, and VanEck's ETF filing show readers monitoring the TradFi absorption of stETH as a regulated yield instrument."
+        },
+        {
+          "source": "https://chaoslabs.xyz/posts/chaos-labs-aave-steth-depeg-case-study",
+          "thread": "Depeg contagion and liquidation cascades",
+          "why": "The 2022 Celsius/3AC depeg recap, Justin Sun's $1.7B AAVE withdrawal spiking borrow rates, and Celsius moving $785M in stETH all drew clicks anchored in fear of systemic unwinding."
+        },
+        {
+          "source": "https://lido.fi",
+          "thread": "Lido governance and stETH holder protection",
+          "why": "Dual Governance's dynamic timelock (121 clicks) and the $20M LDO buyback funded from stETH treasury reveal readers probing whether LDO governance can be weaponized against stETH holders."
+        },
+        {
+          "source": "https://www.gearbox.finance/blog/gear-and-arb-rewards-stimmies",
+          "thread": "Leveraged yield loops on stETH",
+          "why": "Gearbox farming rates, AAVE wETH→stETH conversion proposals, and f(x) Protocol's long-ETH vault show readers hunting capital-efficient stETH looping strategies."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:51:31.024349+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart Contract",
+          "level": "Medium",
+          "note": "The Sturdy Finance hack (faulty cB-stETH-STABLE pool oracle) and USPD's proxy admin exploit draining 232 stETH illustrate that risk lives in integrating protocols, not in Lido's core contract, which has remained uncompromised.",
+          "source": "https://crypto.news/uspd-stablecoin-protocol-exploited-proxy-breach-2025/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Lido controls nearly a quarter of all staked ETH and $25B in TVL, making it a single point of failure for Ethereum's validator set; the Dual Governance proposal exists precisely because this concentration lets LDO holders override stETH holders.",
+          "source": "https://lido.fi"
+        },
+        {
+          "dimension": "Liquidity / Depeg",
+          "level": "Medium",
+          "note": "The 2022 depeg driven by Celsius and 3AC forced selling was temporary but cascaded across DeFi; Justin Sun's $1.7B AAVE exit in 2024 demonstrated that a single large actor can still spike borrow rates and trigger brief depeg pressure.",
+          "source": "https://beincrypto.com/ethereum-whale-aave-exit-steth-depeg/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "SEC guidance confirming liquid staking isn't a securities transaction unlocked VanEck's ETF filing and WisdomTree's ETP, but regulatory classification remains unresolved in most non-US jurisdictions.",
+          "source": "https://blog.lido.fi/vaneck-files-for-lido-staked-eth-etf/"
+        },
+        {
+          "dimension": "Slashing / Penalty",
+          "level": "Low",
+          "note": "Lido's distributed node operator set reduces correlated slashing risk, and no material slashing event has hit Lido validators; socialized slashing across stETH holders remains the theoretical tail scenario.",
+          "source": "https://lido.fi"
+        },
+        {
+          "dimension": "Market / Concentration",
+          "level": "Medium",
+          "note": "Blast L2 alone held $640M in stETH at peak, AAVE and the wstETH contract are the two largest holders; concentrated venue risk means a single protocol exploit or governance failure could simultaneously flush a large fraction of circulating stETH into secondary markets.",
+          "source": "https://dune.com/hashed_official/blast"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:14:42.733214+00:00",
+      "items": [
+        {
+          "clicks": 36,
+          "date": "2026-05-15T22:01:51.432940+00:00",
+          "headline": "Lido outlines stETH-backed ETH ETF model to avoid 50%-60% idle ETH buffers",
+          "hot_score": 555.8,
+          "lev_url": "https://leviathannews.xyz/242959/lido-outlines-steth-backed-eth-etf-model-to-avoid-50-60-idle-eth-buffers",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260515141222_Z4zrlaiDPw==.png",
+          "url": "https://blog.lido.fi/blueprint-for-implementing-liquid-staking-for-eth-etfs/"
+        },
+        {
+          "clicks": 24,
+          "date": "2026-06-12T21:56:46.370063+00:00",
+          "headline": "Luganodes brings institutional ETH staking vaults to Lido V3 with stETH liquidity",
+          "hot_score": 411.612254,
+          "lev_url": "https://leviathannews.xyz/256370/luganodes-brings-institutional-eth-staking-vaults-to-lido-v3-with-steth-liquidity",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260612162339_Z4zrlaiDPw==.png",
+          "url": "https://blog.lido.fi/lido-v3-luganodes-expanding-institutional-ethereum-staking-with-stvaults/"
+        },
+        {
+          "clicks": 94,
+          "date": "2026-03-29T22:11:40.892992+00:00",
+          "headline": "Lido DAO proposes $20M LDO buyback using stETH treasury as token trades near all-time lows, aiming to absorb about 8% of circulating supply",
+          "hot_score": 353.275361,
+          "lev_url": "https://leviathannews.xyz/217517/lido-dao-proposes-20m-ldo-buyback-using-steth-treasury-as-token-trades-near-all-time-lows-aiming-to-absorb-about-8-of-circulating-supply",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260329220622_UGv1qj02eM34.jpg",
+          "url": "https://www.theblock.co/post/395584/lido-dao-proposes-20-million-one-off-ldo-buyback-as-token-hovers-near-all-time-low?utm_source=twitter&utm_medium=social"
+        },
+        {
+          "clicks": 83,
+          "date": "2026-01-30T15:02:17.165078+00:00",
+          "headline": "Lido v3 is live on Ethereum mainnet, featuring stETH powered modular staking infrastructure called stVaults",
+          "hot_score": 93.944474,
+          "lev_url": "https://leviathannews.xyz/24217/lido-v3-is-live-on-ethereum-mainnet-featuring-steth-powered-modular-staking-infrastructure-called-stvaults",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260130145146_A2s6SscMp0s=.jpg",
+          "url": "https://blog.lido.fi/lido-v3-is-live-modular-infrastructure-for-a-new-paradigm-of-ethereum-staking/"
+        },
+        {
+          "clicks": 61,
+          "date": "2025-12-05T07:53:15.742355+00:00",
+          "headline": "WisdomTree Launches First Fully-Staked Ethereum ETP Backed by Lido stETH, Bringing Institutional-Grade Staking Directly to TradFi Markets",
+          "hot_score": 71.441182,
+          "lev_url": "https://leviathannews.xyz/21661/wisdomtree-launches-first-fully-staked-ethereum-etp-backed-by-lido-steth-bringing-institutional-grade-staking-directly-to-tradfi-markets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251205075205_EbVp4_4SnDY=.png",
+          "url": "https://blog.lido.fi/wisdomtree-launches-first-fully-staked-eth-etp-backed-by-steth/"
+        },
+        {
+          "clicks": 37,
+          "date": "2025-12-05T07:32:36.064917+00:00",
+          "headline": "USPD suffered a $1M exploit after an attacker seized its proxy admin rights during deployment, enabling the minting of 98M USPD and draining 232 stETH. The team warns users to avoid the token and revoke approvals.",
+          "hot_score": 54.815639,
+          "lev_url": "https://leviathannews.xyz/21657/uspd-suffered-a-1m-exploit-after-an-attacker-seized-its-proxy-admin-rights-during-deployment-enabling-the-minting-of-98m-uspd-and-draining-232-steth-the-team-warns-users-to-avoid-t",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251205072615_tqUKR3EfRPw=.webp",
+          "url": "https://crypto.news/uspd-stablecoin-protocol-exploited-proxy-breach-2025/"
+        },
+        {
+          "clicks": 199,
+          "date": "2024-04-26T02:38:47.429536+00:00",
+          "headline": "KelpDAO to enable $rsETH withdrawals on May 03, 2024, initially into $ETHx, $stETH and $sfrxETH",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5051/kelpdao-to-enable-rseth-withdrawals-on-may-03-2024-initially-into-ethx-steth-and-sfrxeth",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240426003056_AMZA8sPXzQ==.jpg",
+          "url": "https://twitter.com/KelpDAO/status/1783434984356770189?t=-jq0bLB3EInw4VGibE9Mog&s=19"
+        },
+        {
+          "clicks": 181,
+          "date": "2024-10-17T19:14:13.694453+00:00",
+          "headline": "ARK Invest report says staked Ether (stETH) is emerging as a benchmark for the crypto economy, akin to the federal funds rate in traditional finance.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7403/ark-invest-report-says-staked-ether-steth-is-emerging-as-a-benchmark-for-the-crypto-economy-akin-to-the-federal-funds-rate-in-traditional-finance",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241017191343_1OYfV5jfgw==.jpg",
+          "url": "https://www.coindesk.com/markets/2024/10/17/staked-ether-is-creating-a-benchmark-for-the-crypto-economy-says-ark-invest/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:14:42.622594+00:00",
+      "editorial": [
+        {
+          "count": 12,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "blog.lido.fi"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "governance.aave.com"
+        },
+        {
+          "count": 2,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "gov.curve.finance"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "research.lido.fi"
+        },
+        {
+          "count": 1,
+          "source": "beincrypto.com"
+        },
+        {
+          "count": 1,
+          "source": "hextrust.com"
+        }
+      ],
+      "editorial_distinct": 11,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 20,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.lido.fi"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "eb0f17f9ed7330cff1be9e78411ee8d582ce94fbf392c8b9424a75293bac5840",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:31.301346+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.398,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.1882,
+        "lift_log": 6.782,
+        "score": 0.3978,
+        "shared": 23
+      },
+      "rationale": "stETH is the liquid staking token issued by Lido Finance.",
+      "relation_type": "product",
+      "slug": "lido",
+      "source": "cotag",
+      "tag_name": "Lido Finance",
+      "title": "Lido Finance, Explained",
+      "weight": 40
+    },
+    {
+      "confidence": 0.273,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.01,
+        "lift_log": 3.651,
+        "score": 0.2729,
+        "shared": 4
+      },
+      "rationale": "stETH represents staked ETH, enabling staking rewards and liquidity.",
+      "relation_type": "primitive",
+      "slug": "staking",
+      "source": "cotag",
+      "tag_name": "Staking",
+      "title": "Staking, Explained",
+      "weight": 27
+    }
+  ],
+  "schema_version": 1,
+  "slug": "steth",
+  "tag_name": "stETH",
+  "title": "stETH: Complete Guide"
+}

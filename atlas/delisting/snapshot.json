@@ -1,0 +1,486 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:14:27.781856+00:00",
+      "newsroom_total": 9,
+      "overall_share": 17,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 9
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 16
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 7
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 7
+        }
+      ],
+      "total_universe": 53,
+      "universe_total": 44
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:14:27.353452+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "delisting",
+          "phrase": "Delisting of WBTC from exchanges could impact its liquidity and price.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "wbtc",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "delisting",
+          "phrase": "Binance has delisted various tokens, affecting market dynamics.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "binance",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "delisting",
+          "phrase": "Coinbase has delisted tokens due to regulatory or compliance issues.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "coinbase",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "delisting",
+          "phrase": "equity",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "equity",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "delisting",
+          "phrase": "liquidity",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "liquidity",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Delisting",
+          "slug": "delisting",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "WBTC",
+          "slug": "wbtc",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Binance",
+          "slug": "binance",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "Coinbase",
+          "slug": "coinbase",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "Equity",
+          "slug": "equity",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Liquidity",
+          "slug": "liquidity",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:49:45.264557+00:00",
+      "events": [
+        {
+          "date": "2024-06",
+          "kind": "regulatory",
+          "label": "MiCA Title III stablecoin provisions enter force across EU",
+          "source": "https://support.kraken.com/articles/stablecoin-offerings-for-eea-clients"
+        },
+        {
+          "date": "2024-09",
+          "kind": "governance",
+          "label": "Sky (MakerDAO) governance votes to delist WBTC as collateral citing Justin Sun custodian risk",
+          "source": "https://finst.com/en/blog/articles/delist-wbtc-and-steth"
+        },
+        {
+          "date": "2024-11",
+          "kind": "milestone",
+          "label": "Coinbase delist WBTC; Bit Global files $1B lawsuit in Northern District of California",
+          "source": "https://finst.com/en/blog/articles/delist-wbtc-and-steth"
+        },
+        {
+          "date": "2024-12",
+          "kind": "regulatory",
+          "label": "Binance and other EU CASPs begin phased delisting of USDT and non-MiCA stablecoins for EEA users",
+          "source": "https://www.binance.com/en/square/post/17787587546521"
+        },
+        {
+          "date": "2025-02",
+          "kind": "governance",
+          "label": "Anchorage Digital publishes stablecoin safety matrix; Agora CEO alleges pay-to-play delisting of USDC and AUSD",
+          "source": "https://www.anchorage.com/insights/anchorage-digital-publishes-stablecoin-safety-matrix-enables-auto-conversions-to-safe-stablecoins"
+        },
+        {
+          "date": "2025-04",
+          "kind": "milestone",
+          "label": "Coinbase and Bit Global settle WBTC delisting lawsuit; case dismissed in Northern District of California",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:49:45.264402+00:00",
+      "insight": "Readers do not click delistings for the token price impact — they click because high-profile delistings expose who actually controls which assets survive: exchanges and protocols wielding unilateral listing power trigger billion-dollar lawsuits, regulatory realignments, and accusations of pay-to-play curation that reveal listing decisions as de facto industry gatekeeping.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://finst.com/en/blog/articles/delist-wbtc-and-steth"
+    },
+    "reader_signal": {
+      "article_count": 9,
+      "as_of": "2026-07-01T12:14:28.414389+00:00",
+      "most_clicked": {
+        "clicks": 192,
+        "date": "2024-08-16T13:45:27.515797+00:00",
+        "headline": "With Maker's recent delisting of WBTC, dlcBTC could emerge as a safer wrapped Bitcoin—hear insights from Aki, dlcBTC's CEO, on the Unchained podcast.",
+        "lev_url": "https://leviathannews.xyz/6661/with-makers-recent-delisting-of-wbtc-dlcbtc-could-emerge-as-a-safer-wrapped-bitcoinhear-insights-from-aki-dlcbtcs-ceo-on-the-unchained-podcast"
+      },
+      "provenance": "data",
+      "top_decile_share": 23,
+      "total_clicks": 834
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:49:45.264478+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://finst.com/en/blog/articles/delist-wbtc-and-steth",
+          "thread": "WBTC custody war",
+          "why": "Coinbase's WBTC removal and the ensuing $1B Bit Global lawsuit forced readers to confront that the risk was Justin Sun's custodian control, not the token's mechanics — a trust-in-custody question disguised as a delisting story."
+        },
+        {
+          "source": "https://support.kraken.com/articles/stablecoin-offerings-for-eea-clients",
+          "thread": "MiCA stablecoin compliance purge",
+          "why": "EU MiCA rules turned non-compliant stablecoin delistings from isolated exchange decisions into a coordinated, systemic event that reshaped stablecoin market share and DeFi liquidity across Europe."
+        },
+        {
+          "source": "https://unchainedcrypto.com/defillama-delists-aster-perp-volume-over-data-integrity-concerns/",
+          "thread": "DeFi data integrity disputes",
+          "why": "DefiLlama removing Aster over volume data concerns showed that on-chain analytics platforms now exercise listing power comparable to centralized exchanges, and that the community will litigate that power publicly."
+        },
+        {
+          "source": "https://www.anchorage.com/insights/anchorage-digital-publishes-stablecoin-safety-matrix-enables-auto-conversions-to-safe-stablecoins",
+          "thread": "Pay-to-play safety rankings",
+          "why": "Anchorage's stablecoin safety matrix drew accusations from Agora's CEO that safety scores double as paid delisting instruments, exposing commercial incentives behind institutional curation of which stablecoins survive."
+        },
+        {
+          "source": "",
+          "thread": "Wrapped Bitcoin alternatives post-delisting",
+          "why": "Maker's WBTC collateral removal created immediate reader demand for trust-minimized wrapped BTC alternatives like dlcBTC, framing the delisting as a market opening rather than just a loss."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:49:45.264490+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "MiCA stablecoin provisions required EU exchanges to delist non-approved tokens like USDT by hard compliance deadlines, setting a template for jurisdiction-driven forced delistings that will expand to other regions.",
+          "source": "https://support.kraken.com/articles/stablecoin-offerings-for-eea-clients"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Exchange delisting authority is unilateral and legally opaque — Coinbase removed WBTC with no advance remedy path, prompting a $1B lawsuit that underscored how unchecked centralized venue gatekeeping is.",
+          "source": "https://finst.com/en/blog/articles/delist-wbtc-and-steth"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "Phased delistings of widely-held assets such as USDT across EU CASPs simultaneously compress on-chain liquidity pools, force asset migration at scale, and can reprice collateral positions across lending protocols.",
+          "source": "https://www.binance.com/en/square/post/17787587546521"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Smaller-cap token delistings (SPELL, TRX on Binance US; IOTX under caution status) routinely cause sharp price dislocations as liquidity fragments across remaining venues with no guaranteed off-ramp.",
+          "source": "https://sdlccorp.com/post/how-to-handle-delisting-of-tokens-on-crypto-exchange-platforms/"
+        },
+        {
+          "dimension": "Counterparty / Legal",
+          "level": "Medium",
+          "note": "Projects and custodians whose tokens are removed face asymmetric legal options — Bit Global's lawsuit against Coinbase ultimately settled, but the litigation risk deters smaller projects from challenging exchange decisions at all.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract / Protocol",
+          "level": "Low",
+          "note": "Protocol-level delistings (e.g., Spark's rsETH removal) are governance-triggered by on-chain liquidity or bad-debt risk rather than smart-contract exploits, but can still leave collateral locked during wind-down periods.",
+          "source": ""
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:14:28.331225+00:00",
+      "items": [
+        {
+          "clicks": 192,
+          "date": "2024-08-16T13:45:27.515797+00:00",
+          "headline": "With Maker's recent delisting of WBTC, dlcBTC could emerge as a safer wrapped Bitcoin—hear insights from Aki, dlcBTC's CEO, on the Unchained podcast.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6661/with-makers-recent-delisting-of-wbtc-dlcbtc-could-emerge-as-a-safer-wrapped-bitcoinhear-insights-from-aki-dlcbtcs-ceo-on-the-unchained-podcast",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240816134230_IhnzqUdSWw==.jpg",
+          "url": "https://youtu.be/8LDcVt-Ry2o?feature=shared"
+        },
+        {
+          "clicks": 181,
+          "date": "2024-10-09T16:37:48.838583+00:00",
+          "headline": "Coinbase, Binance, and other EU Crypto Asset Service Providers are phasing out and delisting stablecoins not regulated under MiCA",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7284/coinbase-binance-and-other-eu-crypto-asset-service-providers-are-phasing-out-and-delisting-stablecoins-not-regulated-under-mica",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241009124002_cFSnF3eh0A==.png",
+          "url": "https://x.com/paddi_hansen/status/1843950359410073820?s=46&t=4wZnquYtKvTsYB7s5TZeRQ"
+        },
+        {
+          "clicks": 135,
+          "date": "2025-10-06T07:53:19.830444+00:00",
+          "headline": "DefiLlama's 0xngmi rebuts critiques on the delisting of Aster",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/18115/defillamas-0xngmi-rebuts-critiques-on-the-delisting-of-aster",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251006074738_JRvMFQ1gBlA=.jpg",
+          "url": "https://x.com/0xngmi/status/1974896455241629877"
+        },
+        {
+          "clicks": 97,
+          "date": "2024-12-14T02:16:18.958518+00:00",
+          "headline": "Bit Global sues Coinbase for $1 billion over WBTC delisting",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8302/bit-global-sues-coinbase-for-1-billion-over-wbtc-delisting",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241213222334_z1mS6mtNw3o=.jpg",
+          "url": "https://news.bitcoin.com/bit-global-files-1-billion-lawsuit-against-coinbase-over-wbtc-delisting/"
+        },
+        {
+          "clicks": 67,
+          "date": "2025-06-26T16:04:12.315515+00:00",
+          "headline": "Anchorage Digital’s Stablecoin Safety Report draws criticism for alleged inaccuracies and undisclosed Paxos ties, as Agora’s CEO accuses firm of “Pay to Play” tactics in delisting USDC and AUSD",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/12949/anchorage-digitals-stablecoin-safety-report-draws-criticism-for-alleged-inaccuracies-and-undisclosed-paxos-ties-as-agoras-ceo-accuses-firm-of-pay-to-play-tactics-in-delisting-usdc-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250626160141_EcgGypPgsEY=.jpg",
+          "url": "https://x.com/Nick_van_Eck/status/1938239465866092949"
+        },
+        {
+          "clicks": 62,
+          "date": "2025-03-11T08:08:58.654916+00:00",
+          "headline": "Binance’s pivot to USDC is a calculated move, not panic, with USDC’s market share on the exchange jumping from 0.48% to 8.26% year-to-date, as upcoming EU regulations drive the delisting of USDT and fuel a $351B DeFi boom where compliance, liquidity, and stablecoin infrastructure are king.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9791/binances-pivot-to-usdc-is-a-calculated-move-not-panic-with-usdcs-market-share-on-the-exchange-jumping-from-048-to-826-year-to-date-as-upcoming-eu-regulations-drive-the-delisting-of",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250311080755_k_VhMT2fR5c=.jpg",
+          "url": "https://x.com/VU_virtuals/status/1899370107014410601"
+        },
+        {
+          "clicks": 49,
+          "date": "2024-12-17T20:33:43.786550+00:00",
+          "headline": "Coinbase legal responds to BiT Global’s attempt to block wBTC delisting, declares lawsuit baseless and seeks denial of TRO.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8377/coinbase-legal-responds-to-bit-globals-attempt-to-block-wbtc-delisting-declares-lawsuit-baseless-and-seeks-denial-of-tro",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241217203327_QEFvTsOdk_4=.jpg",
+          "url": "https://x.com/iampaulgrewal/status/1869114052179542381?s=46"
+        },
+        {
+          "clicks": 45,
+          "date": "2025-06-07T21:21:44.158435+00:00",
+          "headline": "Coinbase and BiT Global have settled their dispute over the delisting of wBTC, with BiT Global dismissing its lawsuit filed in the Northern District of California.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/12112/coinbase-and-bit-global-have-settled-their-dispute-over-the-delisting-of-wbtc-with-bit-global-dismissing-its-lawsuit-filed-in-the-northern-district-of-california",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250607211315_6HEIYlFYdXw=.jpg",
+          "url": "https://www.coindesk.com/policy/2025/06/07/coinbase-bit-global-end-legal-fight-over-wbtc-delisting"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:14:28.241111+00:00",
+      "editorial": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "youtu.be"
+        },
+        {
+          "count": 1,
+          "source": "news.bitcoin.com"
+        }
+      ],
+      "editorial_distinct": 4,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 37,
+          "source": "bybit.com"
+        },
+        {
+          "count": 4,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "8aa8e3a7f8880d0c1da5e2fc7cd587df78ddd76d7f5657b53315865ae3967d1f",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:00.425258+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.219,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0262,
+        "lift_log": 4.495,
+        "score": 0.2188,
+        "shared": 4
+      },
+      "rationale": "Delisting of WBTC from exchanges could impact its liquidity and price.",
+      "relation_type": "risk",
+      "slug": "wbtc",
+      "source": "cotag",
+      "tag_name": "WBTC",
+      "title": "WBTC: Complete Guide",
+      "weight": 22
+    }
+  ],
+  "schema_version": 1,
+  "slug": "delisting",
+  "tag_name": "Delisting",
+  "title": "Delisting, Explained"
+}

@@ -1,0 +1,513 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:14:56.807738+00:00",
+      "newsroom_total": 7,
+      "overall_share": 19,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 13
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 7
+        }
+      ],
+      "total_universe": 36,
+      "universe_total": 29
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:14:56.445759+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "coinbase-prime",
+          "phrase": "Coinbase Prime is a service offered by Coinbase for institutional clients.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "coinbase",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "coinbase-prime",
+          "phrase": "Seizure refers to asset confiscation, a risk for custodial services like Coinbase Prime.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "seizure",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "coinbase-prime",
+          "phrase": "BlackRock uses Coinbase Prime for Bitcoin ETF custody and trading.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "blackrock",
+          "weight": 16
+        },
+        {
+          "dir": "out",
+          "from": "coinbase-prime",
+          "phrase": "Coinbase Prime supports Bitcoin trading and custody for institutions.",
+          "relation_type": "product",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 14
+        },
+        {
+          "dir": "out",
+          "from": "coinbase-prime",
+          "phrase": "Coinbase Prime provides institutional wallet services for digital assets.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "wallet",
+          "weight": 12
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Coinbase Prime",
+          "slug": "coinbase-prime",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Coinbase",
+          "slug": "coinbase",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Seizure",
+          "slug": "seizure",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "BlackRock",
+          "slug": "blackrock",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        },
+        {
+          "center": false,
+          "name": "Wallet",
+          "slug": "wallet",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 12
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:56:56.741490+00:00",
+      "events": [
+        {
+          "date": "2021-05",
+          "kind": "launch",
+          "label": "Coinbase Prime launched for institutional clients",
+          "source": "https://www.coinbase.com/blog/welcome-to-the-prime-brokerage-era-for-institutional-crypto"
+        },
+        {
+          "date": "2023-06",
+          "kind": "milestone",
+          "label": "BlackRock selects Coinbase Prime as Bitcoin ETF custodian in SEC filing",
+          "source": "https://www.coinbase.com/blog/coinbase-prime-the-institutional-os-ushering-in-the-next-era-of-crypto-trading"
+        },
+        {
+          "date": "2024-01",
+          "kind": "milestone",
+          "label": "BlackRock IBIT Bitcoin ETF goes live; Prime begins ETF custody operations",
+          "source": "https://www.coinbase.com/blog/coinbase-prime-the-institutional-os-ushering-in-the-next-era-of-crypto-trading"
+        },
+        {
+          "date": "2024-11",
+          "kind": "regulatory",
+          "label": "DOJ begins routing Silk Road seized BTC tranches to Coinbase Prime wallet",
+          "source": "https://crypto.news/us-moves-seized-alameda-funds-to-coinbase-prime/"
+        },
+        {
+          "date": "2025-07",
+          "kind": "milestone",
+          "label": "SpaceX transfers 1,163 BTC to Coinbase Prime-linked wallet; total holdings reach 6,095 BTC",
+          "source": ""
+        },
+        {
+          "date": "2025-10",
+          "kind": "launch",
+          "label": "Coinbase Prime launches 24/7 integrated futures alongside spot custody",
+          "source": "https://www.coinbase.com/blog/coinbase-prime-the-institutional-os-ushering-in-the-next-era-of-crypto-trading"
+        },
+        {
+          "date": "2026-01",
+          "kind": "milestone",
+          "label": "Prime introduces unified cross-margin across spot, derivatives, and regulated perps",
+          "source": "https://www.coinbase.com/learn/futures/advanced-guide-to-margin-trading-with-crypto-derivatives"
+        },
+        {
+          "date": "2026-03",
+          "kind": "governance",
+          "label": "Prime suspends vault support for 14 tokens including NOIA, BZRX, and CETH",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:56:56.741332+00:00",
+      "insight": "Readers click Coinbase Prime stories not for the platform's features but because it has become the single on-chain chokepoint where U.S. government seizure liquidations and the world's largest institutional BTC positions converge — making every large transfer a potential market-moving event.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.coinbase.com/prime/custody"
+    },
+    "reader_signal": {
+      "article_count": 7,
+      "as_of": "2026-07-01T12:14:57.264529+00:00",
+      "most_clicked": {
+        "clicks": 203,
+        "date": "2024-06-26T23:30:31.877331+00:00",
+        "headline": "US government just transferred 3940 BTC ($243M) of funds from the Silk Road hack to Coinbase Prime",
+        "lev_url": "https://leviathannews.xyz/6113/us-government-just-transferred-3940-btc-243m-of-funds-from-the-silk-road-hack-to-coinbase-prime"
+      },
+      "provenance": "data",
+      "top_decile_share": 41,
+      "total_clicks": 492
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:56:56.741406+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://crypto.news/us-moves-seized-alameda-funds-to-coinbase-prime/",
+          "thread": "DOJ Silk Road BTC liquidations",
+          "why": "Two headlines totaling 314 clicks showed the U.S. government routing hundreds of millions in Silk Road seizure proceeds through a single Coinbase Prime wallet, framing the platform as the government's preferred off-ramp."
+        },
+        {
+          "source": "https://www.coinbase.com/blog/coinbase-prime-the-institutional-os-ushering-in-the-next-era-of-crypto-trading",
+          "thread": "BlackRock ETF custody flows",
+          "why": "Multiple BlackRock BTC and ETH transfers to Coinbase Prime attracted sustained clicks because they signal whether the world's largest asset manager is accumulating or rebalancing, with direct ETF price implications."
+        },
+        {
+          "source": "",
+          "thread": "SpaceX treasury custody reshuffle",
+          "why": "SpaceX's quiet 1,163 BTC move sparked speculation about strategic repositioning, drawing readers who track corporate treasury behavior as a leading indicator of institutional sentiment."
+        },
+        {
+          "source": "https://crypto.news/us-moves-seized-alameda-funds-to-coinbase-prime/",
+          "thread": "Seized-asset government sell pressure",
+          "why": "Headlines about steroid-bust BTC, Alameda/FTX LINK, and Bitfinex hack proceeds all routing to Coinbase Prime created a recurring fear-of-supply-dump narrative readers track closely."
+        },
+        {
+          "source": "https://www.coinbase.com/learn/futures/advanced-guide-to-margin-trading-with-crypto-derivatives",
+          "thread": "Cross-margin amplified loss risk",
+          "why": "Low-click but present risk headlines warned that unified cross-margin across spot and derivatives could amplify institutional drawdowns, a concern that mirrors systemic leverage fears."
+        },
+        {
+          "source": "https://www.coinbase.com/blog/coinbase-prime-the-institutional-os-ushering-in-the-next-era-of-crypto-trading",
+          "thread": "Integrated futures platform launch",
+          "why": "Coinbase Prime's rollout of 24/7 futures natively alongside custody and spot attracted niche but real clicks from readers tracking whether Prime can displace traditional prime brokers."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:56:56.741415+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "The U.S. government, BlackRock, Fidelity, and SpaceX all route major BTC positions through Coinbase Prime, creating a single-custodian concentration that would be systemically disruptive if Prime faced operational or regulatory failure.",
+          "source": "https://www.coinbase.com/prime/custody"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Prime's role as the DOJ's preferred liquidation venue for Silk Road and Alameda seized assets makes it a recurring counterparty to federal enforcement actions, exposing it to sudden volume shocks and heightened government scrutiny.",
+          "source": "https://crypto.news/us-moves-seized-alameda-funds-to-coinbase-prime/"
+        },
+        {
+          "dimension": "Market",
+          "level": "High",
+          "note": "Large government and ETF-provider transfers to Prime are publicly visible on-chain and routinely interpreted as imminent sell pressure, triggering preemptive market moves regardless of actual intent.",
+          "source": ""
+        },
+        {
+          "dimension": "Counterparty / Custody",
+          "level": "Medium",
+          "note": "Institutions using Prime for unified custody, financing, and derivatives face single-platform counterparty exposure; a Prime outage or insolvency event would simultaneously freeze spot holdings and unwind leveraged positions.",
+          "source": "https://www.coinbase.com/prime/custody"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Cross-margin pooling across spot, futures, and derivatives improves capital efficiency but reduces the firewall between asset classes, meaning a sharp move in one leg can force liquidations across an institution's entire Prime book.",
+          "source": "https://www.coinbase.com/learn/futures/advanced-guide-to-margin-trading-with-crypto-derivatives"
+        },
+        {
+          "dimension": "Operational",
+          "level": "Medium",
+          "note": "Prime's vault suspension of 14 tokens in March 2026 illustrates ongoing token-delisting risk for institutional holders whose treasury or fund mandates may not permit rapid reallocation.",
+          "source": ""
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:14:57.184820+00:00",
+      "items": [
+        {
+          "clicks": 47,
+          "date": "2026-04-11T13:11:08.799612+00:00",
+          "headline": "Bitcoin linked to suspected steroid distribution conspiracy moved by U.S. authorities to Coinbase Prime, highlighting continued handling of seized crypto assets",
+          "hot_score": 2982.376752,
+          "lev_url": "https://leviathannews.xyz/226588/bitcoin-linked-to-suspected-steroid-distribution-conspiracy-moved-by-us-authorities-to-coinbase-prime-highlighting-continued-handling-of-seized-crypto-assets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411045419_g67f1lWwBtRk.jpg",
+          "url": "https://www.theblock.co/post/397104/us-government-bitcoin-possibly-linked-steroid-distribution-conspiracy"
+        },
+        {
+          "clicks": 16,
+          "date": "2025-12-01T14:44:26.609422+00:00",
+          "headline": "A BlackRock-linked wallet shifted 2,156 BTC (~$186M) to Coinbase Prime.",
+          "hot_score": 19.895048,
+          "lev_url": "https://leviathannews.xyz/21501/a-blackrock-linked-wallet-shifted-2156-btc-186m-to-coinbase-prime",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251201143913_A2YrWZpmW9w=.webp",
+          "url": "https://crypto.news/blackrock-linked-wallet-shifts-186m-in-bitcoin-to-coinbase-prime/"
+        },
+        {
+          "clicks": 203,
+          "date": "2024-06-26T23:30:31.877331+00:00",
+          "headline": "US government just transferred 3940 BTC ($243M) of funds from the Silk Road hack to Coinbase Prime",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6113/us-government-just-transferred-3940-btc-243m-of-funds-from-the-silk-road-hack-to-coinbase-prime",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240626232846_dorDFzI_Ig==.jpg",
+          "url": "https://t.me/investigations/137"
+        },
+        {
+          "clicks": 111,
+          "date": "2024-04-02T17:44:33.438239+00:00",
+          "headline": "*DOJ SILK ROAD WALLET MOVES 2,000 BTC ($139 MILLION) TO SAME COINBASE PRIME WALLET: ONCHAIN DATA AND ARKHAM LABELS - THE BLOCK PRO",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4560/doj-silk-road-wallet-moves-2000-btc-139-million-to-same-coinbase-prime-wallet-onchain-data-and-arkham-labels-the-block-pro",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240402172718_Mj5gjGlkdg==.png",
+          "url": "https://x.com/theblockupdates/status/1775211441995333640?s=20"
+        },
+        {
+          "clicks": 51,
+          "date": "2025-02-27T12:23:58.834295+00:00",
+          "headline": "BlackRock shifts BTC and ETH to Coinbase Prime.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9572/blackrock-shifts-btc-and-eth-to-coinbase-prime",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250227120726_iurUQqD-GQ==.png",
+          "url": "https://x.com/solidintel_x/status/1895073822757294304"
+        },
+        {
+          "clicks": 33,
+          "date": "2025-11-27T08:27:10.829363+00:00",
+          "headline": "\nSpaceX quietly shifted 1,163 BTC to a Coinbase Prime-linked wallet, sparking speculation about a strategic custody reshuffle. With holdings now at 6,095 BTC, analysts say it’s restructuring.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/21394/spacex-quietly-shifted-1163-btc-to-a-coinbase-prime-linked-wallet-sparking-speculation-about-a-strategic-custody-reshuffle-with-holdings-now-at-6095-btc-analysts-say-its-restructur",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251127080732_FH16pbjG3Ck=.png",
+          "url": "https://crypto.news/spacex-moves-1163-bitcoin-to-coinbase-prime-linked-wallet/"
+        },
+        {
+          "clicks": 31,
+          "date": "2025-06-02T13:55:02.811467+00:00",
+          "headline": "BlackRock transferred 4,113 BTC worth $429.4M to Coinbase Prime earlier today.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/11887/blackrock-transferred-4113-btc-worth-4294m-to-coinbase-prime-earlier-today",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250602135346_JlNkI2kt8-A=.jpg",
+          "url": "https://x.com/Crypto_Briefing/status/1929536240551862651"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:14:57.099884+00:00",
+      "editorial": [
+        {
+          "count": 3,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        }
+      ],
+      "editorial_distinct": 4,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 23,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "coinbase.com"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "techinasia.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        }
+      ],
+      "universe_distinct": 7
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "34ebe45cb14dcc5b9356bfdf9c77e7a660587c8ccf4c00bc5d79ef143ca9f7ed",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:57.114996+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.25,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0106,
+        "lift_log": 3.052,
+        "score": 0.2499,
+        "shared": 28
+      },
+      "rationale": "Coinbase Prime is a service offered by Coinbase for institutional clients.",
+      "relation_type": "ecosystem",
+      "slug": "coinbase",
+      "source": "cotag",
+      "tag_name": "Coinbase",
+      "title": "Coinbase, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.242,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0485,
+        "lift_log": 4.758,
+        "score": 0.2418,
+        "shared": 6
+      },
+      "rationale": "Seizure refers to asset confiscation, a risk for custodial services like Coinbase Prime.",
+      "relation_type": "risk",
+      "slug": "seizure",
+      "source": "cotag",
+      "tag_name": "Seizure",
+      "title": "Seizure, Explained",
+      "weight": 24
+    }
+  ],
+  "schema_version": 1,
+  "slug": "coinbase-prime",
+  "tag_name": "Coinbase Prime",
+  "title": "Coinbase Prime, Explained"
+}

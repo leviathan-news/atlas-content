@@ -1,0 +1,634 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:49:58.495196+00:00",
+      "newsroom_total": 77,
+      "overall_share": 32,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 6,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": 52,
+          "month": "2026-02",
+          "newsroom": 11,
+          "universe": 10
+        },
+        {
+          "ed_share": 13,
+          "month": "2026-03",
+          "newsroom": 8,
+          "universe": 54
+        },
+        {
+          "ed_share": 30,
+          "month": "2026-04",
+          "newsroom": 14,
+          "universe": 32
+        },
+        {
+          "ed_share": 27,
+          "month": "2026-05",
+          "newsroom": 8,
+          "universe": 22
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-06",
+          "newsroom": 7,
+          "universe": 42
+        }
+      ],
+      "total_universe": 237,
+      "universe_total": 160
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:49:57.844621+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "audit",
+          "phrase": "Audits are a subset of security practices.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "security",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "audit",
+          "phrase": "Audits help ensure regulatory compliance.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "compliance",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "audit",
+          "phrase": "Audits often target smart contracts for bugs.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "smart-contract",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "audit",
+          "phrase": "Tether has undergone audits; comparable entity.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "tether",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "audit",
+          "phrase": "Audits aim to discover vulnerabilities.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "vulnerability",
+          "weight": 13
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Audit",
+          "slug": "audit",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Security",
+          "slug": "security",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "compliance",
+          "slug": "compliance",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Smart Contract",
+          "slug": "smart-contract",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Tether",
+          "slug": "tether",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "vulnerability",
+          "slug": "vulnerability",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T02:02:55.540852+00:00",
+      "events": [
+        {
+          "date": "2024-01",
+          "kind": "exploit",
+          "label": "Abracadabra $13M exploit on singly-audited contracts",
+          "source": ""
+        },
+        {
+          "date": "2024-08",
+          "kind": "exploit",
+          "label": "Balancer V2 $128M exploit slips past 11 audits",
+          "source": "https://cecuro.ai/blog/blockchain-security-auditing-why-it-matters-2025"
+        },
+        {
+          "date": "2025-06",
+          "kind": "governance",
+          "label": "ERC-7512 on-chain audit verification standard proposed",
+          "source": "https://www.cyfrin.io/blog/what-is-a-smart-contract-security-audit"
+        },
+        {
+          "date": "2025-12",
+          "kind": "milestone",
+          "label": "Guardrail research: $2.9B lost across 160 attacks in 2025",
+          "source": "https://financefeeds.com/best-ways-for-non-custodial-crypto-protocols-to-prove-audit-compliance/"
+        },
+        {
+          "date": "2026-03",
+          "kind": "regulatory",
+          "label": "Tether appoints CFO to lead first full financial audit",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "launch",
+          "label": "CertiK AI Auditor opens to public at 88.6% accuracy on real exploits",
+          "source": "https://docs.chaingpt.org/ai-tools-and-applications/ai-smart-contract-auditor"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "Firepan AI catches critical Curve AMM vulnerability missed by traditional auditors",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Liquity V2 launches $350K competitive audit on Cantina",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T02:02:55.540676+00:00",
+      "insight": "Readers click audit coverage not to learn what audits catch, but to interrogate why audits keep failing — the dominant pull is the credibility gap between 'audited' as a trust signal and the reality of eight- and nine-figure exploits on audited code.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.cyfrin.io/blog/what-is-a-smart-contract-security-audit"
+    },
+    "reader_signal": {
+      "article_count": 77,
+      "as_of": "2026-07-01T11:49:59.446297+00:00",
+      "most_clicked": {
+        "clicks": 272,
+        "date": "2023-09-19T14:44:44.309584+00:00",
+        "headline": "ERC-7512 proposal seeks to revolutionize Ethereum smartcontract security with on-chain audit verification",
+        "lev_url": "https://leviathannews.xyz/2684/erc-7512-proposal-seeks-to-revolutionize-ethereum-smartcontract-security-with-on-chain-audit-verification"
+      },
+      "provenance": "data",
+      "top_decile_share": 25,
+      "total_clicks": 4461
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T02:02:55.540747+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://cecuro.ai/blog/blockchain-security-auditing-why-it-matters-2025",
+          "thread": "Audits failing post-exploit",
+          "why": "Headlines showing $128M lost past 11 audits and every major 2025 DeFi hack hitting audited protocols directly challenge the foundational assumption that an audit equals safety."
+        },
+        {
+          "source": "https://docs.chaingpt.org/ai-tools-and-applications/ai-smart-contract-auditor",
+          "thread": "AI auditors replacing humans",
+          "why": "Firepan catching a critical Curve vulnerability that traditional audits missed, plus CertiK's 88.6% accuracy AI auditor going public, signals a structural shift readers are tracking closely."
+        },
+        {
+          "source": "",
+          "thread": "Tether reserve transparency",
+          "why": "138 clicks on Big Four audit talks and 105 on the CFO appointment show sustained reader demand for accountability on USDT's $140B+ backing — a single unresolved trust question spanning years."
+        },
+        {
+          "source": "https://financefeeds.com/best-ways-for-non-custodial-crypto-protocols-to-prove-audit-compliance/",
+          "thread": "Continuous onchain monitoring",
+          "why": "The $2.9B lost across 160 attacks in 2025 framing — with runtime exploits audits can't catch — positions real-time monitoring as the next mandatory security layer, not a supplement."
+        },
+        {
+          "source": "",
+          "thread": "Competitive audit contests",
+          "why": "Liquity V2's $350K Cantina prize pool draws readers interested in crowdsourced security as both a funding model and a signal of protocol confidence."
+        },
+        {
+          "source": "https://www.cyfrin.io/blog/what-is-a-smart-contract-security-audit",
+          "thread": "On-chain audit verification standards",
+          "why": "ERC-7512's top click count reveals readers want infrastructure that makes audit results machine-readable and verifiable on-chain, not just PDF reports."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T02:02:55.540757+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract",
+          "level": "High",
+          "note": "Even protocols passing 11 independent audits (Balancer V2) have suffered nine-figure exploits due to rounding errors and edge cases reviewers missed.",
+          "source": "https://www.cyfrin.io/blog/what-is-a-smart-contract-security-audit"
+        },
+        {
+          "dimension": "Audit-theater / false assurance",
+          "level": "High",
+          "note": "Every major DeFi hack in 2025 hit an audited protocol, meaning 'audited' status now provides legal cover more reliably than it provides security coverage.",
+          "source": "https://cecuro.ai/blog/blockchain-security-auditing-why-it-matters-2025"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Audit market concentration in a handful of firms (CertiK, OpenZeppelin, Certora, ChainSecurity) creates systemic blind spots when shared methodologies miss the same vulnerability classes.",
+          "source": "https://financefeeds.com/best-ways-for-non-custodial-crypto-protocols-to-prove-audit-compliance/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Tether's multi-year absence of a Big Four reserve audit remains the sector's highest-profile regulatory credibility liability, with $140B+ USDT supply at stake.",
+          "source": ""
+        },
+        {
+          "dimension": "Runtime / operational",
+          "level": "High",
+          "note": "$2.9B lost in 2025 to flash loan, oracle, and reentrancy attacks that occurred post-deployment, where pre-launch audits provide zero protection.",
+          "source": "https://financefeeds.com/best-ways-for-non-custodial-crypto-protocols-to-prove-audit-compliance/"
+        },
+        {
+          "dimension": "Supply chain",
+          "level": "Medium",
+          "note": "The node-ipc attack demonstrated that dependency-level compromise bypasses contract-level audits entirely, requiring audit scope to expand to full build environments.",
+          "source": ""
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:49:59.354072+00:00",
+      "items": [
+        {
+          "clicks": 129,
+          "date": "2026-04-07T21:21:52.906719+00:00",
+          "headline": "CertiK opens AI Auditor to public testing after internal success hitting 88.6% accuracy across real 2026 exploits, aiming to reduce audit noise and speed up vulnerability detection",
+          "hot_score": 36734.468906,
+          "lev_url": "https://leviathannews.xyz/223046/certik-opens-ai-auditor-to-public-testing-after-internal-success-hitting-886-accuracy-across-real-2026-exploits-aiming-to-reduce-audit-noise-and-speed-up-vulnerability-detection",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407210349_5VIandGbz-ij.jpg",
+          "url": "https://x.com/i/status/2041501262823268714"
+        },
+        {
+          "clicks": 177,
+          "date": "2026-05-13T12:01:00.665165+00:00",
+          "headline": "Yield Basis selected Firepan to perform an AI-powered security review of its live mainnet FeeDistributor contract, identifying 18 findings across 22 attack surfaces, including a previously undocumented MEV vector.",
+          "hot_score": 5708.026403,
+          "lev_url": "https://leviathannews.xyz/241691/yield-basis-selected-firepan-to-perform-an-ai-powered-security-review-of-its-live-mainnet-feedistributor-contract-identifying-18-findings-across-22-attack-surfaces-including-a-prev",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260513105704_recovery.png",
+          "url": "https://firepan.com/case-studies/yieldbasis/"
+        },
+        {
+          "clicks": 41,
+          "date": "2026-04-16T13:21:48.005398+00:00",
+          "headline": "Aave Labs unveils Aave Checkpoint, a verification tool that audits governance proposals by cross-referencing onchain data with forum specs before execution",
+          "hot_score": 4687.610837,
+          "lev_url": "https://leviathannews.xyz/230322/aave-labs-unveils-aave-checkpoint-a-verification-tool-that-audits-governance-proposals-by-cross-referencing-onchain-data-with-forum-specs-before-execution",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416094122_Lrsv57xR2Q5G.jpg",
+          "url": "https://x.com/i/status/2044476098206175307"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-04-14T20:01:49.112459+00:00",
+          "headline": "Ethereum Foundation Launches Audit Subsidy Program to Lower Security Costs for Developers",
+          "hot_score": 4071.473208,
+          "lev_url": "https://leviathannews.xyz/228789/ethereum-foundation-launches-audit-subsidy-program-to-lower-security-costs-for-developers",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410033008_Z4zrlaiDPw==.png",
+          "url": "https://wublockchain.xyz/news/news-18719"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-04-16T13:22:53.092084+00:00",
+          "headline": "Just 1 of 150+ crypto protocols discloses market-maker terms as Novora audit exposes industry-wide transparency gap",
+          "hot_score": 2417.973028,
+          "lev_url": "https://leviathannews.xyz/230371/just-1-of-150-crypto-protocols-discloses-market-maker-terms-as-novora-audit-exposes-industry-wide-transparency-gap",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416105649_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/crypto-market-maker-disclosure-study-novora-report"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-04-11T16:07:08.332848+00:00",
+          "headline": "Matterhorn and ASI Alliance launch Vibe-Audit to catch vulnerabilities in AI-generated smart contracts",
+          "hot_score": 1488.967722,
+          "lev_url": "https://leviathannews.xyz/226802/matterhorn-and-asi-alliance-launch-vibe-audit-to-catch-vulnerabilities-in-ai-generated-smart-contracts",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411160038_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/364080/asi-alliance-matterhorn-ai-tools-vibe-coding-crypto"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-04-21T09:14:47.099923+00:00",
+          "headline": "Injective launches on-chain AI agents for trading, enabling verifiable identities, automated fee routing, and transparent performance tracking for anyone to audit",
+          "hot_score": 901.2,
+          "lev_url": "https://leviathannews.xyz/234142/injective-launches-on-chain-ai-agents-for-trading-enabling-verifiable-identities-automated-fee-routing-and-transparent-performance-tracking-for-anyone-to-audit",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421084923_TuqTto58jvcJ.jpg",
+          "url": "https://x.com/i/status/2046252214369325182"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-05-07T06:03:35.211927+00:00",
+          "headline": "Sherlock completes audit of Manifest Finance smart contracts with zero high-severity findings as platform prepares USH launch for tokenized home equity",
+          "hot_score": 792.911634,
+          "lev_url": "https://leviathannews.xyz/238932/sherlock-completes-audit-of-manifest-finance-smart-contracts-with-zero-high-severity-findings-as-platform-prepares-ush-launch-for-tokenized-home-equity",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260507055103_0yBYobSdxlcH.jpg",
+          "url": "https://x.com/i/web/status/2052071046522839245"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:49:59.251433+00:00",
+      "editorial": [
+        {
+          "count": 43,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "tether.io"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "crypto.news"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "cryptobriefing.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "gov.curve.finance"
+        },
+        {
+          "count": 1,
+          "source": "cantina.xyz"
+        },
+        {
+          "count": 1,
+          "source": "reuters.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        }
+      ],
+      "editorial_distinct": 23,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 105,
+          "source": "x.com"
+        },
+        {
+          "count": 10,
+          "source": "theblock.co"
+        },
+        {
+          "count": 6,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 5,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 5,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 3,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "tether.io"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        }
+      ],
+      "universe_distinct": 28
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "f1bdc4f41a075c4779c0eed6df4b9f93a0938c40b49681bb808260a3212c9ed5",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:50.691003+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.22,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0237,
+        "lift_log": 2.33,
+        "score": 0.2201,
+        "shared": 13
+      },
+      "rationale": "Audits help ensure regulatory compliance.",
+      "relation_type": "category",
+      "slug": "compliance",
+      "source": "cotag",
+      "tag_name": "compliance",
+      "title": "compliance, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.231,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.029,
+        "lift_log": 2.506,
+        "score": 0.2311,
+        "shared": 18
+      },
+      "rationale": "Audits are a subset of security practices.",
+      "relation_type": "category",
+      "slug": "security",
+      "source": "cotag",
+      "tag_name": "Security",
+      "title": "Security, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "audit",
+  "tag_name": "Audit",
+  "title": "Audit, Explained"
+}

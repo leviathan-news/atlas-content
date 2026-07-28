@@ -1,0 +1,652 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:47:17.900426+00:00",
+      "newsroom_total": 103,
+      "overall_share": 41,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 6,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 6,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 6,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 6,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 13,
+          "month": "2026-02",
+          "newsroom": 2,
+          "universe": 13
+        },
+        {
+          "ed_share": 29,
+          "month": "2026-03",
+          "newsroom": 11,
+          "universe": 27
+        },
+        {
+          "ed_share": 40,
+          "month": "2026-04",
+          "newsroom": 18,
+          "universe": 27
+        },
+        {
+          "ed_share": 21,
+          "month": "2026-05",
+          "newsroom": 10,
+          "universe": 38
+        },
+        {
+          "ed_share": 18,
+          "month": "2026-06",
+          "newsroom": 9,
+          "universe": 41
+        }
+      ],
+      "total_universe": 249,
+      "universe_total": 146
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:47:17.308804+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "openai",
+          "phrase": "ChatGPT is a flagship product built and shipped by OpenAI.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "chatgpt",
+          "weight": 36
+        },
+        {
+          "dir": "out",
+          "from": "openai",
+          "phrase": "Anthropic is a direct competitor in the AI safety and LLM space.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "anthropic",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "openai",
+          "phrase": "Microsoft is a key investor and integration partner for OpenAI.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "microsoft",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "openai",
+          "phrase": "xAI is a competitor founded by Elon Musk, focusing on AI.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "xai",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "openai",
+          "phrase": "Nvidia provides the GPUs that power OpenAI's training and inference.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "nvidia",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "OpenAI",
+          "slug": "openai",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "ChatGPT",
+          "slug": "chatgpt",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 36
+        },
+        {
+          "center": false,
+          "name": "Anthropic",
+          "slug": "anthropic",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Microsoft",
+          "slug": "microsoft",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "xAI",
+          "slug": "xai",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Nvidia",
+          "slug": "nvidia",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T01:37:39.067148+00:00",
+      "events": [
+        {
+          "date": "2023-07",
+          "kind": "launch",
+          "label": "Worldcoin official global launch",
+          "source": ""
+        },
+        {
+          "date": "2023-11",
+          "kind": "governance",
+          "label": "Sam Altman ousted by OpenAI board; Emmett Shear named interim CEO",
+          "source": ""
+        },
+        {
+          "date": "2023-11",
+          "kind": "governance",
+          "label": "Sam Altman reinstated as CEO; new board formed with Bret Taylor as chairman",
+          "source": "https://openai.com/our-structure/"
+        },
+        {
+          "date": "2023-11",
+          "kind": "milestone",
+          "label": "GPT-4 Turbo announced at OpenAI DevDay",
+          "source": "https://help.openai.com/en/articles/9624314-model-release-notes"
+        },
+        {
+          "date": "2023-12",
+          "kind": "regulatory",
+          "label": "New York Times files copyright lawsuit against OpenAI and Microsoft",
+          "source": ""
+        },
+        {
+          "date": "2024-12",
+          "kind": "launch",
+          "label": "Sora video generation model publicly launched",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "milestone",
+          "label": "DeepSeek R1 released; Altman acknowledges competition; global markets react",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "governance",
+          "label": "OpenAI submits confidential S-1; for-profit restructuring formalized",
+          "source": "https://openai.com/index/openai-submits-confidential-s-1/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T01:37:39.066966+00:00",
+      "insight": "Leviathan readers engage with OpenAI not as an AI product story but as a power-concentration event — every spike in clicks traces back to who controls the company, its capital, or its output: Altman's ouster and return, the non-profit restructuring, crypto tokenization of its equity, and blockchain benchmarks that position OpenAI as infrastructure for on-chain systems.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://openai.com/index/evolving-our-structure/"
+    },
+    "reader_signal": {
+      "article_count": 103,
+      "as_of": "2026-07-01T11:47:18.638053+00:00",
+      "most_clicked": {
+        "clicks": 344,
+        "date": "2024-12-09T17:06:24.364634+00:00",
+        "headline": "OpenAI’s video generator Sora is launching today.",
+        "lev_url": "https://leviathannews.xyz/8151/openais-video-generator-sora-is-launching-today"
+      },
+      "provenance": "data",
+      "top_decile_share": 32,
+      "total_clicks": 6846
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T01:37:39.067049+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://openai.com/our-structure/",
+          "thread": "Altman governance crisis and return",
+          "why": "The board ouster, Emmett Shear interlude, and reinstatement with a restructured board generated repeat clicks because it exposed how fragile control of the most-capitalized AI lab actually is."
+        },
+        {
+          "source": "",
+          "thread": "Sora video product arc",
+          "why": "Three separate Sora headlines — announcement, launch day, and shutdown of the standalone app — show readers tracking whether a marquee AI product can survive its own operating costs."
+        },
+        {
+          "source": "https://x.com/arbitrum/status/2063979236432527856",
+          "thread": "Crypto and on-chain integration",
+          "why": "Worldcoin's identity rollout, Kraken tokenizing OpenAI equity exposure via xStocks, and the Paradigm EVMbench smart-contract benchmark pulled readers who want OpenAI to matter inside DeFi, not just alongside it."
+        },
+        {
+          "source": "https://openai.com/index/evolving-our-structure/",
+          "thread": "Non-profit to for-profit restructuring",
+          "why": "Altman's public pivot on OpenAI's governance structure signaled a coming IPO and redistribution of control, directly affecting who captures value from the most-used AI platform."
+        },
+        {
+          "source": "https://help.openai.com/en/articles/9624314-model-release-notes",
+          "thread": "AI model competition and capability leaps",
+          "why": "GPT-4 Turbo, o3-mini, and the open-weight GPT-OSS release each marked a capability threshold; DeepSeek R1's emergence added a geopolitical competitive frame that amplified reader urgency."
+        },
+        {
+          "source": "",
+          "thread": "Copyright and regulatory exposure",
+          "why": "The NYT lawsuit and Stanford's consent/training-data findings framed OpenAI's scale as a liability vector, a recurring concern for readers watching regulatory overhang on AI assets."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T01:37:39.067066+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / on-chain",
+          "level": "Low",
+          "note": "OpenAI's only direct on-chain footprint is the Paradigm EVMbench tool and tokenized equity wrappers like Kraken's xStocks VCX fund — neither represents a live protocol with contract risk.",
+          "source": "https://x.com/arbitrum/status/2063979236432527856"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "The November 2023 board crisis demonstrated that a single-CEO concentration point can destabilize the entire organization within 72 hours, and the restructured board has not materially reduced that concentration.",
+          "source": "https://openai.com/our-structure/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Active copyright litigation from the NYT, a confidential S-1 filing signaling IPO scrutiny, and the non-profit conversion all sit in unresolved regulatory territory simultaneously.",
+          "source": "https://openai.com/index/openai-submits-confidential-s-1/"
+        },
+        {
+          "dimension": "Liquidity / capital structure",
+          "level": "Medium",
+          "note": "OpenAI reported approximately $15M in daily operating costs at the time Sora's standalone app was shuttered, against a revenue base that remains undisclosed; SoftBank's $1.5B secondary provided employee liquidity but did not improve the operating burn picture.",
+          "source": "https://www.wheresyoured.at/exclusive-openai-financials/"
+        },
+        {
+          "dimension": "Market / competitive",
+          "level": "High",
+          "note": "DeepSeek R1's release at a fraction of OpenAI's training cost rattled global markets and forced Altman to publicly acknowledge the competitive threat, compressing the perceived moat on frontier models.",
+          "source": ""
+        },
+        {
+          "dimension": "Governance",
+          "level": "High",
+          "note": "The shift from non-profit to capped-profit to full for-profit structure is ongoing and contested; Microsoft's equity stake renegotiation and a potential IPO introduce alignment conflicts between the original mission and shareholder returns.",
+          "source": "https://openai.com/index/evolving-our-structure/"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:47:18.551446+00:00",
+      "items": [
+        {
+          "clicks": 56,
+          "date": "2026-04-11T08:14:58.763126+00:00",
+          "headline": "OpenAI mandates macOS app updates after Axios supply chain attack exposes code signing certificates",
+          "hot_score": 30625.656098,
+          "lev_url": "https://leviathannews.xyz/226631/openai-mandates-macos-app-updates-after-axios-supply-chain-attack-exposes-code-signing-certificates",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411081100_Z4zrlaiDPw==.png",
+          "url": "https://x.com/OpenAI/status/2042780052669239782"
+        },
+        {
+          "clicks": 62,
+          "date": "2026-04-08T19:01:50.045459+00:00",
+          "headline": "OpenAI Foundation commits $100M+ to AI-driven Alzheimer’s research, backing drug design, biomarkers, and datasets to crack medicine’s toughest disease",
+          "hot_score": 12217.704033,
+          "lev_url": "https://leviathannews.xyz/224017/openai-foundation-commits-100m-to-ai-driven-alzheimers-research-backing-drug-design-biomarkers-and-datasets-to-crack-medicines-toughest-disease",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408171607_S_YM2xCyU8hW.png",
+          "url": "https://openaifoundation.org/news/ai-for-alzheimers"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-04-13T20:36:10.329336+00:00",
+          "headline": "Coinbase international policy VP Tom Duff Gordon departs for OpenAI to lead EMEA policy",
+          "hot_score": 3929.399571,
+          "lev_url": "https://leviathannews.xyz/228127/coinbase-international-policy-vp-tom-duff-gordon-departs-for-openai-to-lead-emea-policy",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260413195849_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/policy/2026/04/13/coinbase-vp-of-international-policy-leaves-the-exchange-for-openai"
+        },
+        {
+          "clicks": 59,
+          "date": "2026-04-11T13:15:11.906249+00:00",
+          "headline": "OpenAI CEO Sam Altman speaks out after Molotov attack on his home, reflecting on AI fears, personal mistakes, and the need to democratize powerful technology amid rising tensions",
+          "hot_score": 2899.256098,
+          "lev_url": "https://leviathannews.xyz/226723/openai-ceo-sam-altman-speaks-out-after-molotov-attack-on-his-home-reflecting-on-ai-fears-personal-mistakes-and-the-need-to-democratize-powerful-technology-amid-rising-tensions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411125831_aBtqZnUfRodo.jpg",
+          "url": "https://x.com/i/status/2042738954550603884"
+        },
+        {
+          "clicks": 51,
+          "date": "2026-04-16T19:41:51.990628+00:00",
+          "headline": "OpenAI expands cybersecurity push with GPT-5.4-Cyber access for US and UK agencies, partnering with banks and tech giants to strengthen global AI defense systems",
+          "hot_score": 2297.429709,
+          "lev_url": "https://leviathannews.xyz/230832/openai-expands-cybersecurity-push-with-gpt-54-cyber-access-for-us-and-uk-agencies-partnering-with-banks-and-tech-giants-to-strengthen-global-ai-defense-systems",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416185833_3ItYzkIGJXfA.jpg",
+          "url": "https://x.com/i/status/2044843235709686065"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-04-16T21:36:17.921985+00:00",
+          "headline": "OpenAI launches GPT-Rosalind for life sciences and drug discovery, with Amgen, Moderna, and Allen Institute on early access",
+          "hot_score": 2115.867626,
+          "lev_url": "https://leviathannews.xyz/230866/openai-launches-gpt-rosalind-for-life-sciences-and-drug-discovery-with-amgen-moderna-and-allen-institute-on-early-access",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416200027_UZ9IKuja1RqU.jpg",
+          "url": "https://openai.com/index/introducing-gpt-rosalind"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-04-16T21:37:57.410557+00:00",
+          "headline": "OpenAI turns Codex into desktop super app with computer use, built-in browser, image gen, and 90+ plugins",
+          "hot_score": 2042.628882,
+          "lev_url": "https://leviathannews.xyz/230944/openai-turns-codex-into-desktop-super-app-with-computer-use-built-in-browser-image-gen-and-90-plugins",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416210605_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/364670/codex-computer-use-browser-image-gen-openai-super-app/"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-04-11T05:32:20.785550+00:00",
+          "headline": "Binance Wallet launches onchain pre-IPO section with tokenized SpaceX and OpenAI among first five assets",
+          "hot_score": 1674.724494,
+          "lev_url": "https://leviathannews.xyz/226561/binance-wallet-launches-onchain-pre-ipo-section-with-tokenized-spacex-and-openai-among-first-five-assets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411021319_Z4zrlaiDPw==.png",
+          "url": "https://x.com/BinanceWallet/status/2042643829090848854"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:47:18.403382+00:00",
+      "editorial": [
+        {
+          "count": 18,
+          "source": "x.com"
+        },
+        {
+          "count": 13,
+          "source": "openai.com"
+        },
+        {
+          "count": 10,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 10,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 6,
+          "source": "axios.com"
+        },
+        {
+          "count": 4,
+          "source": "archive.md"
+        },
+        {
+          "count": 4,
+          "source": "youtube.com"
+        },
+        {
+          "count": 4,
+          "source": "crypto.news"
+        },
+        {
+          "count": 3,
+          "source": "reuters.com"
+        },
+        {
+          "count": 2,
+          "source": "testingcatalog.com"
+        },
+        {
+          "count": 2,
+          "source": "wsj.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        }
+      ],
+      "editorial_distinct": 37,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 57,
+          "source": "x.com"
+        },
+        {
+          "count": 48,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 13,
+          "source": "openai.com"
+        },
+        {
+          "count": 6,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 2,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 2,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "techinasia.com"
+        },
+        {
+          "count": 1,
+          "source": "aethir.com"
+        }
+      ],
+      "universe_distinct": 18
+    }
+  },
+  "official_links": [
+    {
+      "handle": "openai",
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/openai"
+    }
+  ],
+  "pillar_state_sha256": "33a55feaead9da557390ac652b34a5ff720aa3af97b76817c14bd7ed690bdb32",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:19.823716+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.203,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0764,
+        "lift_log": 3.548,
+        "score": 0.2033,
+        "shared": 31
+      },
+      "rationale": "Anthropic is a direct competitor in the AI safety and LLM space.",
+      "relation_type": "peer",
+      "slug": "anthropic",
+      "source": "cotag",
+      "tag_name": "Anthropic",
+      "title": "Anthropic, Explained",
+      "weight": 20
+    },
+    {
+      "confidence": 0.357,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.1038,
+        "lift_log": 4.465,
+        "score": 0.3573,
+        "shared": 33
+      },
+      "rationale": "ChatGPT is a flagship product built and shipped by OpenAI.",
+      "relation_type": "product",
+      "slug": "chatgpt",
+      "source": "cotag",
+      "tag_name": "ChatGPT",
+      "title": "ChatGPT, Explained",
+      "weight": 36
+    }
+  ],
+  "schema_version": 1,
+  "slug": "openai",
+  "tag_name": "OpenAI",
+  "title": "OpenAI, Explained"
+}

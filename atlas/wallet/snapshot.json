@@ -1,0 +1,527 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:43:27.504106+00:00",
+      "newsroom_total": 66,
+      "overall_share": 6,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 67
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 337
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-04",
+          "newsroom": 24,
+          "universe": 233
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-05",
+          "newsroom": 19,
+          "universe": 190
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-06",
+          "newsroom": 23,
+          "universe": 226
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 10
+        }
+      ],
+      "total_universe": 1129,
+      "universe_total": 1063
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:43:26.190212+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "wallet",
+          "phrase": "Trust Wallet is a competing mobile wallet.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "trust-wallet",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "wallet",
+          "phrase": "Unclear relation; likely unrelated.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "agents",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "wallet",
+          "phrase": "Wallets is the broader category of wallet.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "wallets",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "wallet",
+          "phrase": "Malware poses a security risk to wallets.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "malware",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "wallet",
+          "phrase": "USDC is a stablecoin often held in wallets.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "usdc",
+          "weight": 15
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Wallet",
+          "slug": "wallet",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Trust Wallet",
+          "slug": "trust-wallet",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "wallets",
+          "slug": "wallets",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "malware",
+          "slug": "malware",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "USDC",
+          "slug": "usdc",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T00:34:32.304528+00:00",
+      "events": [
+        {
+          "date": "2024-04",
+          "kind": "regulatory",
+          "label": "Samourai Wallet co-founders arrested on money-laundering and unlicensed MSB charges",
+          "source": "https://www.trmlabs.com/reports-and-whitepapers/2026-crypto-crime-report"
+        },
+        {
+          "date": "2025-02",
+          "kind": "exploit",
+          "label": "Bybit suffers ~$1.5B hack via compromised multisig wallet infrastructure — largest crypto theft on record",
+          "source": "https://www.trmlabs.com/reports-and-whitepapers/2026-crypto-crime-report"
+        },
+        {
+          "date": "2025-10",
+          "kind": "exploit",
+          "label": "DPRK Contagious Interview campaign confirmed using Web3 job tests to deliver wallet-stealing malware",
+          "source": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "AI agent Manfred forms U.S. corporation with IRS EIN and live crypto wallet, prepares autonomous trading",
+          "source": "https://www.circle.com/blog/introducing-circle-agent-stack-financial-infrastructure-for-the-agentic-economy"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Binance Wallet launches keyless agentic sub-wallet with MCP support across four chains",
+          "source": "https://x.com/BinanceWallet/status/2067096847102210237"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "WalletConnect unveils Travel Rule compliance framework combining wallet ownership verification with stablecoin payment flows",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "exploit",
+          "label": "Microsoft documents crypto-clipper malware using Tor-based worm propagation to hijack wallet addresses at clipboard level",
+          "source": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "eToro acquires keyless wallet startup Zengo for $70M to bring self-custody to 40M users",
+          "source": "https://walllet.com/articles/best-seedless-wallets"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T00:34:32.304361+00:00",
+      "insight": "Readers click wallet stories not for technical architecture but for sovereignty contests — every top story is about who actually controls the keys when compliance mandates, hackers, dormant-coin lawsuits, or autonomous AI agents challenge the premise that self-custody means self-control.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.investopedia.com/terms/p/private-key.asp"
+    },
+    "reader_signal": {
+      "article_count": 66,
+      "as_of": "2026-07-01T11:43:32.196586+00:00",
+      "most_clicked": {
+        "clicks": 112,
+        "date": "2026-05-21T07:21:56.837921+00:00",
+        "headline": "WalletConnect unveils compliance framework combining Travel Rule data collection and wallet ownership verification inside stablecoin payment flows",
+        "lev_url": "https://leviathannews.xyz/246203/the-travel-rule-requires-financial-institutions-to-exchange-information-about-their-respective-customers-on-either-side-of-a-funds-wire-transfer-the-travel-rule-is-adopted-across"
+      },
+      "provenance": "data",
+      "top_decile_share": 17,
+      "total_clicks": 2724
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T00:34:32.304435+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.fireblocks.com/report/what-is-mpc",
+          "thread": "Privacy vs compliance convergence",
+          "why": "The top two stories by clicks show readers tracking a live collision between ZK/FHE privacy tooling and Travel Rule mandates — they want to know which side is winning."
+        },
+        {
+          "source": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
+          "thread": "Private key theft and malware",
+          "why": "Multiple high-click stories (Eli5DeFi drain, DPRK job-test malware, macOS SEO-poisoning campaign, fake MetaMask/Ledger apps) reveal readers treating key compromise as a recurring category, not isolated incidents."
+        },
+        {
+          "source": "",
+          "thread": "Dormant wallet legal drama",
+          "why": "The 2011 Bitcoin wallet movement tied to a $285B lawsuit and Claude AI's role recovering an 11-year-locked wallet pulled readers drawn to the unsettled legal and recovery question around sleeping coins."
+        },
+        {
+          "source": "https://www.trmlabs.com/reports-and-whitepapers/2026-crypto-crime-report",
+          "thread": "Institutional wallet transparency",
+          "why": "Arkham's BlackRock misattribution panic and NEO's $250M single-wallet treasury dispute show readers are acutely sensitive to centralized control masquerading as institutional legitimacy."
+        },
+        {
+          "source": "https://sherlock.xyz/post/agentic-ai-security-risks-in-web3-what-protocols-need-to-know-in-2026",
+          "thread": "AI agent autonomous wallets",
+          "why": "The AI agent Manfred forming a U.S. corporation and Binance's agentic MCP sub-wallet both signaled a new liability frontier — readers engaged because no one has defined who is legally responsible when an agent holds and moves funds."
+        },
+        {
+          "source": "https://www.trmlabs.com/reports-and-whitepapers/2026-crypto-crime-report",
+          "thread": "Regulatory crackdown on privacy tools",
+          "why": "Samourai Wallet's co-founder facing $2M in legal debt and expected prison time made readers confront that privacy-wallet infrastructure is now a criminal prosecution target, not just a regulatory grey area."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T00:34:32.304444+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Key management / private key theft",
+          "level": "High",
+          "note": "Multiple 2025–2026 incidents — SEO-poisoned malware, fake wallet apps, DPRK job-test campaigns, and internal key compromise — demonstrate that private key exfiltration remains the dominant real-world attack vector regardless of wallet type.",
+          "source": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "NEO's reported $250M treasury held in a single co-founder-controlled wallet and Zonda's 4,500 BTC locked in an inaccessible wallet illustrate that custodial concentration risk persists even in nominally decentralized governance structures.",
+          "source": "https://www.fireblocks.com/report/what-is-mpc"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "WalletConnect's Travel Rule compliance framework and the Samourai Wallet prosecution signal that regulators are now targeting wallet-layer infrastructure directly, not just exchanges, with criminal rather than civil enforcement.",
+          "source": "https://www.trmlabs.com/reports-and-whitepapers/2026-crypto-crime-report"
+        },
+        {
+          "dimension": "Smart-contract / approval-based",
+          "level": "Medium",
+          "note": "Token approval exploits and clipboard-hijacking address-poisoning attacks remain active threats that wallet UX improvements (one-click revoke, in-app warnings) are only partially mitigating.",
+          "source": "https://store.dcentwallet.com/blogs/post/how-to-revoke-token-approvals-and-protect-your-crypto-wallet-from-approval-based-attacks"
+        },
+        {
+          "dimension": "Agentic / autonomous control",
+          "level": "Medium",
+          "note": "AI agents holding wallets and executing on-chain transactions autonomously create novel accountability gaps — neither existing consumer-protection law nor smart-contract audit frameworks address an AI as the wallet owner of record.",
+          "source": "https://sherlock.xyz/post/agentic-ai-security-risks-in-web3-what-protocols-need-to-know-in-2026"
+        },
+        {
+          "dimension": "Market / misinformation",
+          "level": "Medium",
+          "note": "Arkham's misattributed BlackRock sell-off post demonstrates that public wallet-tracking infrastructure can trigger market panic from a single incorrect label, with no correction mechanism fast enough to prevent price impact.",
+          "source": ""
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:43:32.002877+00:00",
+      "items": [
+        {
+          "clicks": 83,
+          "date": "2026-04-09T08:57:38.266453+00:00",
+          "headline": "Delphi Digital says crypto privacy is finally “coming together” as advances in zero-knowledge pools, FHE, and wallet integration reshape compliance and default user anonymity",
+          "hot_score": 13548.914893,
+          "lev_url": "https://leviathannews.xyz/224526/delphi-digital-says-crypto-privacy-is-finally-coming-together-as-advances-in-zero-knowledge-pools-fhe-and-wallet-integration-reshape-compliance-and-default-user-anonymity",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409051723_U85Swe3QK1Me.jpg",
+          "url": "https://x.com/i/status/2042054650770403530"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-04-14T13:51:48.867531+00:00",
+          "headline": "Tether launches tether.wallet, the people’s wallet, extending its global financial infrastructure directly to billions of users left behind by the traditional financial system.",
+          "hot_score": 4170.403231,
+          "lev_url": "https://leviathannews.xyz/228557/tether-launches-tetherwallet-the-peoples-wallet-extending-its-global-financial-infrastructure-directly-to-billions-of-users-left-behind-by-the-traditional-financial-system-20260414",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260414124427_MykMOB6E_TP-.jpg",
+          "url": "https://tether.io/news/tether-launches-tether-wallet-the-peoples-wallet-extending-its-global-financial-infrastructure-directly-to-billions-of-users-left-behind-by-the-traditional-financial-system/"
+        },
+        {
+          "clicks": 29,
+          "date": "2026-04-14T20:01:10.994901+00:00",
+          "headline": "Rakuten Wallet integrates XRP for 44M users, enabling spending at 5M merchants across Japan",
+          "hot_score": 3917.219272,
+          "lev_url": "https://leviathannews.xyz/228909/rakuten-wallet-integrates-xrp-for-44m-users-enabling-spending-at-5m-merchants-across-japan",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260414190835_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/business/2026/04/14/rakuten-to-allow-xrp-to-be-used-as-payment-method-by-its-44-million-customers"
+        },
+        {
+          "clicks": 49,
+          "date": "2026-04-15T11:35:58.621393+00:00",
+          "headline": "eToro acquires keyless wallet startup Zengo for $70M, bringing self-custody to its 40M-user platform",
+          "hot_score": 3204.315828,
+          "lev_url": "https://leviathannews.xyz/229356/etoro-acquires-keyless-wallet-startup-zengo-for-70m-bringing-self-custody-to-its-40m-user-platform",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415094646_cac7b_3Yo9bD.jpg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-15/etoro-etor-to-acquire-crypto-wallet-startup-zengo-in-70-million-deal"
+        },
+        {
+          "clicks": 54,
+          "date": "2026-04-11T04:49:18.168009+00:00",
+          "headline": "Zerion shuts down web app after detecting suspicious activity, confirms user funds are safe and unaffected across mobile apps and browser extension",
+          "hot_score": 3130.742554,
+          "lev_url": "https://leviathannews.xyz/226587/zerion-shuts-down-web-app-after-detecting-suspicious-activity-confirms-user-funds-are-safe-and-unaffected-across-mobile-apps-and-browser-extension",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411044949_Vc33d8ORHjGp.jpg",
+          "url": "https://x.com/zerion/status/2042713634686799885?s=20"
+        },
+        {
+          "clicks": 17,
+          "date": "2026-06-29T07:40:45.582378+00:00",
+          "headline": "Zcash developers rally around a “breach all gates” vision as ZODL ships major wallet upgrades, advances Ironwood migration, and expands privacy-focused infrastructure",
+          "hot_score": 2532.140606,
+          "lev_url": "https://leviathannews.xyz/264395/breach-all-gates-zcash-update",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629072058_Sf-cvc1g3CeA.jpg",
+          "url": "https://x.com/jswihart/status/2071454270470131862"
+        },
+        {
+          "clicks": 40,
+          "date": "2026-04-19T13:49:38.871152+00:00",
+          "headline": "NEO governance tensions rise as co-founder Erik Zhang reportedly controls $250M treasury in single wallet, sparking feud with co-founder Da Hongfei",
+          "hot_score": 2518.729959,
+          "lev_url": "https://leviathannews.xyz/232746/neo-governance-tensions-rise-as-co-founder-erik-zhang-reportedly-controls-250m-treasury-in-single-wallet-sparking-feud-with-co-founder-da-hongfei",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260419110654_3W0HbaspdhX7.jpg",
+          "url": "https://www.coindesk.com/business/2026/04/16/one-person-holds-the-keys-to-usd200-million-of-a-project-s-crypto-his-co-founder-says-that-has-to-end"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-04-16T16:15:02.849248+00:00",
+          "headline": "Zonda admits 4,500 BTC locked in inaccessible wallet as Polish prosecutors launch probe",
+          "hot_score": 2169.690408,
+          "lev_url": "https://leviathannews.xyz/230673/zonda-admits-4500-btc-locked-in-inaccessible-wallet-as-polish-prosecutors-launch-probe",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416160017_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/zonda-crypto-4500-btc-wallet-inaccessible-withdrawal-crisis"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:43:31.780801+00:00",
+      "editorial": [
+        {
+          "count": 30,
+          "source": "x.com"
+        },
+        {
+          "count": 8,
+          "source": "theblock.co"
+        },
+        {
+          "count": 7,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "trustwallet.com"
+        },
+        {
+          "count": 1,
+          "source": "tether.io"
+        },
+        {
+          "count": 1,
+          "source": "forbes.com"
+        },
+        {
+          "count": 1,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 1,
+          "source": "securelist.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "xstocks.fi"
+        }
+      ],
+      "editorial_distinct": 21,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 733,
+          "source": "x.com"
+        },
+        {
+          "count": 42,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 39,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 31,
+          "source": "theblock.co"
+        },
+        {
+          "count": 31,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 24,
+          "source": "treeofalpha.com"
+        },
+        {
+          "count": 22,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 16,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 12,
+          "source": "trustwallet.com"
+        },
+        {
+          "count": 11,
+          "source": "walletconnect.network"
+        },
+        {
+          "count": 10,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 7,
+          "source": "markets.businessinsider.com"
+        }
+      ],
+      "universe_distinct": 61
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "7fe7247a6cadfd85d2665bbf3267625802a3eaaf9989c3e3cd8768ed68ce44cb",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:37.572245+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.216,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0456,
+        "lift_log": 4.172,
+        "score": 0.2164,
+        "shared": 21
+      },
+      "rationale": "Trust Wallet is a competing mobile wallet.",
+      "relation_type": "peer",
+      "slug": "trust-wallet",
+      "source": "cotag",
+      "tag_name": "Trust Wallet",
+      "title": "Trust Wallet, Explained",
+      "weight": 22
+    }
+  ],
+  "schema_version": 1,
+  "slug": "wallet",
+  "tag_name": "Wallet",
+  "title": "Wallet, Explained"
+}

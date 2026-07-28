@@ -1,0 +1,626 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:59:39.571412+00:00",
+      "newsroom_total": 54,
+      "overall_share": 64,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 8,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 24,
+          "month": "2026-03",
+          "newsroom": 5,
+          "universe": 16
+        },
+        {
+          "ed_share": 36,
+          "month": "2026-04",
+          "newsroom": 4,
+          "universe": 7
+        },
+        {
+          "ed_share": 67,
+          "month": "2026-05",
+          "newsroom": 4,
+          "universe": 2
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-06",
+          "newsroom": 6,
+          "universe": 6
+        }
+      ],
+      "total_universe": 85,
+      "universe_total": 31
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:59:38.762509+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "stablecoin-infrastructure",
+          "phrase": "Stablecoin infrastructure is a subset of broader infrastructure.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "infrastructure",
+          "weight": 31
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-infrastructure",
+          "phrase": "Stablecoin infrastructure supports stablecoins as a category.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "stablecoins",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-infrastructure",
+          "phrase": "Stablecoin infrastructure enables payment systems.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "payments",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-infrastructure",
+          "phrase": "Stablecoin payments are a product built on stablecoin infrastructure.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "stablecoin-payments",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "stablecoin-infrastructure",
+          "phrase": "Mastercard integrates with stablecoin infrastructure for payments.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "mastercard",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Stablecoin Infrastructure",
+          "slug": "stablecoin-infrastructure",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Infrastructure",
+          "slug": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 31
+        },
+        {
+          "center": false,
+          "name": "Stablecoins",
+          "slug": "stablecoins",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Payments",
+          "slug": "payments",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Stablecoin Payments",
+          "slug": "stablecoin-payments",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Mastercard",
+          "slug": "mastercard",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T04:27:20.074299+00:00",
+      "events": [
+        {
+          "date": "2025-10",
+          "kind": "milestone",
+          "label": "Stripe begins accepting USDC recurring subscription payments",
+          "source": ""
+        },
+        {
+          "date": "2025-12",
+          "kind": "launch",
+          "label": "SoFi launches SoFiUSD — first US nationally chartered retail bank stablecoin on a public chain",
+          "source": "https://investors.sofi.com/news/news-details/2025/SoFi-Launches-Fully-Reserved-Stablecoin-to-Power-Financial-Infrastructure-for-Banks-Fintechs-and-Enterprise-Partners/default.aspx"
+        },
+        {
+          "date": "2026-01",
+          "kind": "regulatory",
+          "label": "Binance delists USDT under MiCA; USDC share on platform rises from 0.48% to 8.26% YTD",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Stable Summit 2026 convenes in Cannes — first major cross-sector stablecoin policy and infrastructure summit",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "launch",
+          "label": "Standard Chartered, Animoca, and HKT form JV to issue HKD-backed stablecoin under Hong Kong regulatory regime",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "Rain raises $250M led by ICONIQ at $1.95B valuation, lifting total funding above $338M",
+          "source": "https://pulse2.com/trace-finance-raises-32-million-series-a-to-scale-regulated-banking-and-stablecoin-infrastructure/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Mastercard expands settlement capabilities to include stablecoin (USDC, PYUSD, RLUSD)",
+          "source": "https://www.mastercard.com/global/en/news-and-trends/press/2026/june/mastercard-expands-settlement-capabilities-to-include-stablecoin.html"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Stripe's Bridge applies for National Bank Trust Charter to tokenize trillions in stablecoin infrastructure",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T04:27:20.074128+00:00",
+      "insight": "Readers are clicking the picks-and-shovels layer — SCaaS platforms, reserve infrastructure, and oracle rails — not individual stablecoin brands, revealing that the real audience bet is on B2B infrastructure primitives powering a dozen competing issuers rather than any single token winning.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://investors.sofi.com/news/news-details/2025/SoFi-Launches-Fully-Reserved-Stablecoin-to-Power-Financial-Infrastructure-for-Banks-Fintechs-and-Enterprise-Partners/default.aspx"
+    },
+    "reader_signal": {
+      "article_count": 57,
+      "as_of": "2026-07-01T11:59:40.767151+00:00",
+      "most_clicked": {
+        "clicks": 203,
+        "date": "2025-06-25T00:02:00.512658+00:00",
+        "headline": "Looking to form a stable relationship? Stably launches stablecoin-as-a-service (SCaaS) platform to help financial institutions and enterprises issue their own branded stablecoins, built atop infrastructure from Frax and Bridge",
+        "lev_url": "https://leviathannews.xyz/12893/looking-to-form-a-stable-relationship-stably-launches-stablecoin-as-a-service-scaas-platform-to-help-financial-institutions-and-enterprises-issue-their-own-branded-stablecoins-buil"
+      },
+      "provenance": "data",
+      "top_decile_share": 21,
+      "total_clicks": 2814
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T04:27:20.074192+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Stablecoin-as-a-service primitives",
+          "why": "Stably's SCaaS launch, M0 powering Halo and Startale, and Reflect's 'software-as-a-stablecoin' frame all signal readers tracking the infrastructure layer that lets any firm issue branded dollars without building from scratch."
+        },
+        {
+          "source": "https://investors.sofi.com/news/news-details/2025/SoFi-Launches-Fully-Reserved-Stablecoin-to-Power-Financial-Infrastructure-for-Banks-Fintechs-and-Enterprise-Partners/default.aspx",
+          "thread": "Institutional reserve infrastructure",
+          "why": "Headlines from BNY, SoFi (first nationally chartered US retail bank issuer), and Citi/BVNK show readers watching Wall Street build the custody and reserve plumbing that underpins issuer credibility."
+        },
+        {
+          "source": "",
+          "thread": "Yield-bearing stablecoins for AI compute",
+          "why": "USD.AI and USDAI both framing GPU-backed on-chain yield as the killer use case pulled readers interested in a new collateral primitive beyond Treasuries."
+        },
+        {
+          "source": "",
+          "thread": "Regulatory regime compliance rails",
+          "why": "MiCA-driven USDT delisting on Binance, Zerohash's Dutch AFM authorization, Hong Kong's HKD-backed JV, and Japan's yen-stablecoin pilot all show readers monitoring how jurisdiction-specific compliance gates market access."
+        },
+        {
+          "source": "https://pulse2.com/trace-finance-raises-32-million-series-a-to-scale-regulated-banking-and-stablecoin-infrastructure/",
+          "thread": "Payment rails at scale",
+          "why": "Stripe USDC subscription traction, Rain's $250M raise, and Mastercard's settlement expansion represent the reader thread tracking stablecoins crossing from DeFi curiosity into mainstream payment plumbing."
+        },
+        {
+          "source": "",
+          "thread": "Modular issuance stack unbundling",
+          "why": "The MetaMask Dollars analysis arguing issuance, infrastructure, and UX are decoupling resonated as a structural framing for why no single incumbent can own the full stack."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T04:27:20.074205+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / composability",
+          "level": "Medium",
+          "note": "M0 and similar shared-infrastructure primitives power multiple named issuers simultaneously; a flaw in a single underlying contract propagates across every product built on top.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Several competing stablecoins (Halo HUSD, Startale USDSC, and others) all depend on the same small set of infrastructure providers like M0, concentrating systemic risk in otherwise-distinct-looking products.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Simultaneous and divergent rule-making across the EU (MiCA), US (GENIUS Act trajectory), Hong Kong, and Japan creates compliance fragmentation; products legal in one jurisdiction may be non-compliant in another without re-architecture.",
+          "source": "https://thegraph.com/blog/stablecoin-compliance-infrastructure-regulatory-readiness/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Spark's analysis highlights that institutional vault design now prioritizes withdrawal certainty over yield, signaling that redemption-path guarantees — not APY — are the liquidity stress point issuers must engineer around.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / collateral",
+          "level": "Medium",
+          "note": "Yield-bearing stablecoins collateralized by GPU leases or AI infrastructure revenue (USD.AI, USDAI) introduce novel collateral volatility with no established liquidation playbook if hardware demand softens.",
+          "source": ""
+        },
+        {
+          "dimension": "Oracle / reserve verification",
+          "level": "Low",
+          "note": "Chronicle's Proof of Asset oracle deployment on Tempo represents a concrete step toward verifiable on-chain reserves, reducing but not eliminating the off-chain attestation gap that has historically enabled reserve fraud.",
+          "source": ""
+        }
+      ],
+      "sourced": 1,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:59:40.672552+00:00",
+      "items": [
+        {
+          "clicks": 11,
+          "date": "2026-06-30T09:58:16.972601+00:00",
+          "headline": "Solulu Tech expands stablecoin infrastructure to support cross-border payments and multi-currency settlement.",
+          "hot_score": 3175.463586,
+          "lev_url": "https://leviathannews.xyz/265281/solulu-tech-expands-stablecoin-infrastructure-to-support-cross-border-payments-and-multi-currency-settlement",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630080425_EbFvizpaDmKw.jpg",
+          "url": "https://www.globenewswire.com/news-release/2026/06/30/3319362/0/en/solulu-tech-expands-stablecoin-infrastructure-to-support-cross-border-payments-and-multi-currency-settlement.html?_gl=1*1uxeofr*_up*MQ..*_ga*MTMxMjg4NjAzNi4xNzgyODA2MzE2*_ga_B6167QB2TF*czE3ODI4MDYzMTUkbzEkZzAkdDE3ODI4MDYzMTUkajYwJGwwJGgyMzIxMTg5ODE.*_ga_ERWPGTJ5X8*czE3ODI4MDYzMTUkbzEkZzAkdDE3ODI4MDYzMTUkajYwJGwwJGgw"
+        },
+        {
+          "clicks": 22,
+          "date": "2026-06-27T23:32:46.260129+00:00",
+          "headline": "South Korea's biggest banks, fintechs and internet giants are racing to build stablecoin and RWA infrastructure ahead of regulatory clarity, reshaping Asia's blockchain landscape",
+          "hot_score": 1227.140014,
+          "lev_url": "https://leviathannews.xyz/264048/south-koreas-biggest-banks-fintechs-and-internet-giants-are-racing-to-build-stablecoin-and-rwa-infrastructure-ahead-of-regulatory-clarity-reshaping-asias-blockchain-landscape",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260627232703_x3z9BvX6qPU6.png",
+          "url": "https://x.com/sungmo_apac16z/status/2070208873454309848"
+        },
+        {
+          "clicks": 25,
+          "date": "2026-06-26T04:39:00.155136+00:00",
+          "headline": "US credit unions join stablecoin infrastructure program. The pilot allows credit unions to test several blockchain-related products and services, including stablecoin payments, tokenized deposits,",
+          "hot_score": 814.162318,
+          "lev_url": "https://leviathannews.xyz/263126/us-credit-unions-join-stablecoin-infrastructure-program-the-pilot-allows-credit-unions-to-test-several-blockchain-related-products-and-services-including-stablecoin-payments-tokeni",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626035725_x_ffwjVV1q7y.jpg",
+          "url": "https://bitmarkets.com/en/education/cryptopedia/BTC"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-05-28T10:56:52.377560+00:00",
+          "headline": "Aave Labs secures FCA approval for UK crypto exchange operations through Push subsidiaries, expanding regulated stablecoin and payments infrastructure",
+          "hot_score": 738.41913,
+          "lev_url": "https://leviathannews.xyz/249452/aave-labs-uk-subsidiaries-push-labs-ltd-and-push-virtual-assets-ltd-together-push-have-received-approval-from-the-uks-financial-conduct-authority-fca-to-register-as-a-cry",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260528105523_N0KhrYmqjHb6.jpg",
+          "url": "https://x.com/aave/status/2059922168843304970"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-05-27T13:42:47.293722+00:00",
+          "headline": "Mastercard secured a New York BitLicense to expand its stablecoin and blockchain settlement infrastructure as traditional finance deepens crypto adoption",
+          "hot_score": 734.229181,
+          "lev_url": "https://leviathannews.xyz/249036/mastercard-secured-a-new-york-bitlicense-to-expand-its-stablecoin-and-blockchain-settlement-infrastructure-as-traditional-finance-deepens-crypto-adoption",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260527132622_zDurthPYi6GB.jpg",
+          "url": "https://www.coindesk.com/business/2026/05/27/mastercard-secures-new-york-bitlicense-to-support-stablecoin-and-digital-payment-infrastructure"
+        },
+        {
+          "clicks": 48,
+          "date": "2026-05-28T18:38:50.226676+00:00",
+          "headline": "DeFi Technologies President Andrew Forson says DeFi’s $20B TVL decline is a healthy stress test, arguing stablecoin infrastructure and tokenized Treasury demand remain strong",
+          "hot_score": 728.495082,
+          "lev_url": "https://leviathannews.xyz/249694/defi-technologies-president-andrew-forson-says-the-stablecoin-layer-is-thriving-with-more-than-150-billion-in-us-treasuries-backing-coins-like-usdt-and-usdc",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260528182912_KW9Eif-cqtds.jpg",
+          "url": "https://www.coindesk.com/business/2026/05/28/toddlers-learn-by-falling-why-defi-s-usd20-billion-tvl-drop-is-just-a-market-stress-test"
+        },
+        {
+          "clicks": 26,
+          "date": "2026-05-19T06:26:11.512645+00:00",
+          "headline": "Circle says banks are moving beyond digital asset pilots, with institutions now exploring stablecoins and blockchain as core production infrastructure",
+          "hot_score": 709.449324,
+          "lev_url": "https://leviathannews.xyz/244892/circle-says-banks-are-moving-beyond-digital-asset-pilots-with-institutions-now-exploring-stablecoins-and-blockchain-as-core-production-infrastructure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260519061239_jkUKfmNLZsRA.jpg",
+          "url": "https://x.com/i/web/status/2056450383430689147"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-06-11T07:10:52.210699+00:00",
+          "headline": "Crossmint and Paga partner to bring multi-chain stablecoin infrastructure to Africa.",
+          "hot_score": 675.530298,
+          "lev_url": "https://leviathannews.xyz/255507/crossmint-and-paga-partner-to-bring-multi-chain-stablecoin-infrastructure-to-africa",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260611001923_tWKTOjGgVX6A.jpg",
+          "url": "https://x.com/crossmint/status/2064785972965888369"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:59:40.534391+00:00",
+      "editorial": [
+        {
+          "count": 22,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "startale.com"
+        },
+        {
+          "count": 2,
+          "source": "globenewswire.com"
+        },
+        {
+          "count": 2,
+          "source": "prnewswire.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "animocabrands.com"
+        },
+        {
+          "count": 1,
+          "source": "chaoslabs.xyz"
+        },
+        {
+          "count": 1,
+          "source": "stably.io"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "lex.substack.com"
+        }
+      ],
+      "editorial_distinct": 27,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 18,
+          "source": "x.com"
+        },
+        {
+          "count": 6,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "techinasia.com"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.zilliqa.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "kava.io"
+        },
+        {
+          "count": 1,
+          "source": "walletconnect.network"
+        },
+        {
+          "count": 1,
+          "source": "tether.io"
+        }
+      ],
+      "universe_distinct": 9
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "905781a9774336e301de0615a01efab9391e8969498c273afb2a25534b3363bd",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:30.164586+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.307,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0642,
+        "lift_log": 3.663,
+        "score": 0.307,
+        "shared": 50
+      },
+      "rationale": "Stablecoin infrastructure is a subset of broader infrastructure.",
+      "relation_type": "category",
+      "slug": "infrastructure",
+      "source": "cotag",
+      "tag_name": "Infrastructure",
+      "title": "Infrastructure, Explained",
+      "weight": 31
+    },
+    {
+      "confidence": 0.232,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0212,
+        "lift_log": 2.573,
+        "score": 0.232,
+        "shared": 22
+      },
+      "rationale": "Stablecoin infrastructure enables payment systems.",
+      "relation_type": "ecosystem",
+      "slug": "payments",
+      "source": "cotag",
+      "tag_name": "Payments",
+      "title": "Payments, Explained",
+      "weight": 23
+    },
+    {
+      "confidence": 0.212,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0688,
+        "lift_log": 3.814,
+        "score": 0.2125,
+        "shared": 35
+      },
+      "rationale": "Stablecoin payments are a product built on stablecoin infrastructure.",
+      "relation_type": "product",
+      "slug": "stablecoin-payments",
+      "source": "cotag",
+      "tag_name": "Stablecoin Payments",
+      "title": "Stablecoin Payments, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.262,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0321,
+        "lift_log": 2.928,
+        "score": 0.2621,
+        "shared": 71
+      },
+      "rationale": "Stablecoin infrastructure supports stablecoins as a category.",
+      "relation_type": "category",
+      "slug": "stablecoins",
+      "source": "cotag",
+      "tag_name": "Stablecoins",
+      "title": "Stablecoins, Explained",
+      "weight": 26
+    }
+  ],
+  "schema_version": 1,
+  "slug": "stablecoin-infrastructure",
+  "tag_name": "Stablecoin Infrastructure",
+  "title": "Stablecoin Infrastructure, Explained"
+}

@@ -1,0 +1,642 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:54:27.873678+00:00",
+      "newsroom_total": 35,
+      "overall_share": 22,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 1
+        },
+        {
+          "ed_share": 13,
+          "month": "2026-03",
+          "newsroom": 4,
+          "universe": 26
+        },
+        {
+          "ed_share": 27,
+          "month": "2026-04",
+          "newsroom": 9,
+          "universe": 24
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 25
+        },
+        {
+          "ed_share": 23,
+          "month": "2026-06",
+          "newsroom": 14,
+          "universe": 48
+        }
+      ],
+      "total_universe": 159,
+      "universe_total": 124
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:54:26.029980+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "zcash",
+          "phrase": "ZEC is the native token of the Zcash network.",
+          "relation_type": "token",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "zec",
+          "weight": 36
+        },
+        {
+          "dir": "out",
+          "from": "zcash",
+          "phrase": "Zcash uses mining (Proof-of-Work) to secure its network.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "mining",
+          "weight": 30
+        },
+        {
+          "dir": "out",
+          "from": "zcash",
+          "phrase": "Foundry provides mining infrastructure and services for Zcash.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "foundry",
+          "weight": 29
+        },
+        {
+          "dir": "out",
+          "from": "zcash",
+          "phrase": "Zcash is a privacy-focused cryptocurrency.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "privacy",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "zcash",
+          "phrase": "Monero is a direct competitor in privacy coins.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "monero",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "zcash",
+          "phrase": "Vulnerabilities pose security risks to Zcash.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "vulnerability",
+          "weight": 21
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Zcash",
+          "slug": "zcash",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "ZEC",
+          "slug": "zec",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 36
+        },
+        {
+          "center": false,
+          "name": "Mining",
+          "slug": "mining",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 30
+        },
+        {
+          "center": false,
+          "name": "Foundry",
+          "slug": "foundry",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 29
+        },
+        {
+          "center": false,
+          "name": "Privacy",
+          "slug": "privacy",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "Monero",
+          "slug": "monero",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "vulnerability",
+          "slug": "vulnerability",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T03:03:32.118796+00:00",
+      "events": [
+        {
+          "date": "2016-10",
+          "kind": "launch",
+          "label": "Zcash mainnet launch with Sprout shielded pool",
+          "source": "https://z.cash"
+        },
+        {
+          "date": "2021-05",
+          "kind": "milestone",
+          "label": "NU5 upgrade introduces Orchard pool and Halo 2 proving system",
+          "source": "https://z.cash/upgrade/nu5/"
+        },
+        {
+          "date": "2025-12",
+          "kind": "milestone",
+          "label": "Reliance Global Group begins institutional ZEC accumulation strategy",
+          "source": "https://relianceglobalgroup.com/2025/12/08/reliance-global-group-reli-adds-to-zcash-zec-position-and-continues-implementing-its-institutional-zec-adoption-strategy/"
+        },
+        {
+          "date": "2026-02",
+          "kind": "exploit",
+          "label": "AI-assisted researcher discloses Orchard counterfeiting vulnerability; 6-year-old Sprout proof-skip bug also patched; 200 ZEC bounty paid",
+          "source": "https://chamath.substack.com/p/counterfeit-bug-in-zcash-found-via"
+        },
+        {
+          "date": "2026-02",
+          "kind": "milestone",
+          "label": "Zcash coordinates 24-hour emergency upgrade patching Orchard flaw",
+          "source": "https://bitcoinfoundation.org/news/crypto-companies-news/zcash-ironwood-upgrade/"
+        },
+        {
+          "date": "2026-03",
+          "kind": "governance",
+          "label": "Ironwood upgrade proposed: new Orchard pool, legacy pool payment restrictions, formal verification commitment",
+          "source": "https://forum.zcashcommunity.com/t/the-orchard-counterfeiting-vulnerability-and-next-steps/56015"
+        },
+        {
+          "date": "2026-04",
+          "kind": "launch",
+          "label": "Foundry institutional Zcash mining pool launches, captures 30% of network hashrate",
+          "source": "https://www.morningstar.com/news/business-wire/20260413929009/foundry-zcash-pool-launches-with-multiple-institutional-zcash-miners-and-30-of-network-hashrate"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "Shielded supply reaches 4.5M ZEC; ZODL raises $25M from Paradigm, a16z, Winklevoss, Coinbase Ventures",
+          "source": "https://www.bytetree.com/research/2026/05/zcash-monero-and-the-growing-demand-for-financial-privacy/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T03:03:32.118614+00:00",
+      "insight": "Zcash readers click exploits not to watch the protocol fail but to watch institutional capital decide in real time whether to stay — Hayes dumping, Cypherpunk buying, and ZODL raising $25M all within the same vulnerability cycle reveals that Zcash's security surface has become its market-moving narrative.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://forum.zcashcommunity.com/t/the-orchard-counterfeiting-vulnerability-and-next-steps/56015"
+    },
+    "reader_signal": {
+      "article_count": 37,
+      "as_of": "2026-07-01T11:54:30.777962+00:00",
+      "most_clicked": {
+        "clicks": 100,
+        "date": "2026-03-11T21:04:38.941347+00:00",
+        "headline": "Foundry to launch institutional-grade Zcash mining pool in April 2026",
+        "lev_url": "https://leviathannews.xyz/208330/foundry-to-launch-institutional-grade-zcash-mining-pool-in-april-2026"
+      },
+      "provenance": "data",
+      "top_decile_share": 17,
+      "total_clicks": 1593
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T03:03:32.118714+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://chamath.substack.com/p/counterfeit-bug-in-zcash-found-via",
+          "thread": "Orchard counterfeiting flaw fallout",
+          "why": "An AI-assisted researcher exposing an undetectable counterfeiting bug that could undermine ZEC's fixed supply triggered a cascade of institutional position changes and formal governance responses that readers tracked as a live crisis."
+        },
+        {
+          "source": "https://www.crowdfundinsider.com/tag/arthur-hayes/",
+          "thread": "Institutional accumulation despite risk",
+          "why": "Arthur Hayes making ZEC his second-largest holding, Cypherpunk committing to accumulate 5% of all ZEC, and ZODL raising $25M from Paradigm and a16z during an active vulnerability scare created a high-conviction counternarrative readers found compelling."
+        },
+        {
+          "source": "https://www.bytetree.com/research/2026/05/zcash-monero-and-the-growing-demand-for-financial-privacy/",
+          "thread": "Privacy infrastructure buildout",
+          "why": "CipherPay going live, a KYC-free fiat onramp launching, and shielded supply reaching 4.5M ZEC signaled that practical privacy rails are being built now, not theorized, pulling in readers tracking real adoption."
+        },
+        {
+          "source": "https://bitcoinfoundation.org/news/crypto-companies-news/zcash-ironwood-upgrade/",
+          "thread": "Ironwood upgrade and formal verification",
+          "why": "The proposal for a second Orchard pool and formal verification as the new security standard after the counterfeiting flaw gave readers a concrete governance-and-engineering story to follow beyond the initial panic."
+        },
+        {
+          "source": "https://bitcoinfoundation.org/news/altcoins/zec-price-zcash-founder-says-exploit-was-unlikely/",
+          "thread": "Quantum resistance roadmap",
+          "why": "Zooko's commitment to quantum-recoverable wallets within weeks and full quantum-resistant infrastructure by 2027 positioned Zcash as forward-looking on an existential threat that resonates with privacy-focused readers."
+        },
+        {
+          "source": "https://x.com/BSCNews/article/2067920544109138063",
+          "thread": "EU ban and regulatory pressure fueling demand",
+          "why": "Readers connected looming EU privacy coin restrictions directly to a 1,000%+ price surge, with a16z, Hayes, and Buterin all publicly citing privacy as crypto's next frontier, making the regulatory threat paradoxically bullish."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T03:03:32.118722+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / Protocol",
+          "level": "High",
+          "note": "The Orchard counterfeiting vulnerability — discoverable only via AI-assisted formal analysis — and a 6-year-old Sprout proof-verification skip demonstrate that ZKP circuits carry latent flaws that standard audits miss; Ironwood's new pool architecture is a direct response.",
+          "source": "https://forum.zcashcommunity.com/t/the-orchard-counterfeiting-vulnerability-and-next-steps/56015"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Foundry's institutional mining pool immediately captured 30% of network hashrate at launch, concentrating proof-of-work power in a single operator and introducing a single point of regulatory or operational failure.",
+          "source": "https://www.morningstar.com/news/business-wire/20260413929009/foundry-zcash-pool-launches-with-multiple-institutional-zcash-miners-and-30-of-network-hashrate"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Proposed EU privacy coin bans and persistent delistings from major exchanges create ongoing liquidity and legal-access risk, even as enforcement pressure is simultaneously driving retail and institutional demand for shielded transactions.",
+          "source": "https://x.com/BSCNews/article/2067920544109138063"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Grayscale's ZCSH trust and Foundry's mining pool expand institutional access, but exchange delistings driven by AML compliance concerns constrain retail on-ramps and create price-impact risk during stress events.",
+          "source": "https://coinmarketcap.com/currencies/zcash/"
+        },
+        {
+          "dimension": "Governance",
+          "level": "Medium",
+          "note": "Vitalik Buterin's warning that token voting could introduce a 'dark hand' over protocol direction, combined with the dev fund expiry debate, signals unresolved tension between off-chain governance legitimacy and on-chain treasury control.",
+          "source": "https://forum.zcashcommunity.com/t/block-rewards-in-the-case-that-the-dev-fund-is-allowed-to-expire/47750"
+        },
+        {
+          "dimension": "Market / Volatility",
+          "level": "High",
+          "note": "A 1,000%+ price surge driven partly by regulatory fear narratives and institutional positioning — not fundamental usage growth — makes ZEC highly sensitive to sentiment reversals, as Hayes' rapid exit on vulnerability disclosure demonstrated.",
+          "source": "https://www.crowdfundinsider.com/tag/arthur-hayes/"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:54:30.671004+00:00",
+      "items": [
+        {
+          "clicks": 94,
+          "date": "2026-04-09T04:49:37.740775+00:00",
+          "headline": "Peer launches direct fiat-to-Zcash onramp without KYC or intermediaries",
+          "hot_score": 14195.183312,
+          "lev_url": "https://leviathannews.xyz/224417/fiat-to-zcash-is-now-live-on-peer-the-privacy-preserving-onramp-a-privacy-coin-deserves-no-additional-verification-no-middlemen-no-cex-powered-by-near_intents",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409021515_C9kxh_zYTsz2.jpg",
+          "url": "https://x.com/peerxyz/status/2041925071892107592"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-04-10T06:56:13.539624+00:00",
+          "headline": "Zcash roadmap targets global-scale encrypted money with Tachyon scaling to 2,200 TPS and quantum recovery features, aiming to future-proof privacy and network resilience",
+          "hot_score": 13768.287532,
+          "lev_url": "https://leviathannews.xyz/225663/the-following-is-an-excerpt-from-messaricryptos-zcash-building-encrypted-money-at-planetary-scale-you-can-read-the-full-report-here-long-term-success-in-money-may-be",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410063225_jF1NzYfeHI1r.jpg",
+          "url": "https://x.com/i/status/2042262053268680751"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-04-13T16:55:11.294825+00:00",
+          "headline": "Foundry launches institutional Zcash mining pool, already commands 30% of network hashrate",
+          "hot_score": 3927.126008,
+          "lev_url": "https://leviathannews.xyz/227947/foundry-launches-institutional-zcash-mining-pool-already-commands-30-of-network-hashrate",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260413161059_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/business/2026/04/13/foundry-unveils-zcash-block-explorer-as-mining-pool-reaches-30-of-hashrate"
+        },
+        {
+          "clicks": 40,
+          "date": "2026-04-11T12:45:15.595963+00:00",
+          "headline": "Arkham releases ultimate guide to tracking Zcash transactions but with one major catch",
+          "hot_score": 2864.576752,
+          "lev_url": "https://leviathannews.xyz/226705/arkham-releases-ultimate-guide-to-tracking-zcash-transactions-with-one-major-catch",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411121728_u4u5sSIEkmzP.png",
+          "url": "https://x.com/i/status/2042822415722709009"
+        },
+        {
+          "clicks": 17,
+          "date": "2026-06-29T07:40:45.582378+00:00",
+          "headline": "Zcash developers rally around a “breach all gates” vision as ZODL ships major wallet upgrades, advances Ironwood migration, and expands privacy-focused infrastructure",
+          "hot_score": 2527.945623,
+          "lev_url": "https://leviathannews.xyz/264395/breach-all-gates-zcash-update",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629072058_Sf-cvc1g3CeA.jpg",
+          "url": "https://x.com/jswihart/status/2071454270470131862"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-06-01T16:16:19.264167+00:00",
+          "headline": "Variant argues Bitcoin, Ethereum and Zcash should be valued as digital stores of value, citing scarcity, censorship resistance and technical durability as key metrics",
+          "hot_score": 899.880515,
+          "lev_url": "https://leviathannews.xyz/251230/at-variant-a-core-part-of-our-investment-philosophy-revolves-around-the-belief-that-people-should-be-able-to-own-their-money-identity-and-data-we-look-for-large-markets-that-su",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260601160213_XdzOcOPie7xV.jpg",
+          "url": "https://x.com/alanadlevin/status/2061441017333657628"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-06-01T14:51:37.924635+00:00",
+          "headline": "Zcash Foundation ships Zebra 4.5.1 after 4.5.0 leaves critical consensus-split bug alive",
+          "hot_score": 879.343198,
+          "lev_url": "https://leviathannews.xyz/251210/zcash-foundation-ships-zebra-451-after-450-leaves-critical-consensus-split-bug-alive",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260601145013_6PYojt0ON531.jpg",
+          "url": "https://staging8.zfnd.org/zebra-4-5-1-security-fixes/"
+        },
+        {
+          "clicks": 55,
+          "date": "2026-06-05T17:28:00.326754+00:00",
+          "headline": "Zcash treasury firm Cypherpunk dismisses post-vulnerability panic as FUD, reaffirming plans to accumulate 5% of all ZEC while backing formal verification efforts",
+          "hot_score": 734.674518,
+          "lev_url": "https://leviathannews.xyz/253445/zcash-treasury-firm-cypherpunk-dismisses-post-vulnerability-panic-as-fud-reaffirming-plans-to-accumulate-5-of-all-zec-while-backing-formal-verification-efforts",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260605170549_-HqIUPZzAN92.jpg",
+          "url": "https://www.theblock.co/post/403839/zcash-treasury-cypherpunk-remains-committed-accumulating-5-zec-supply?utm_source=telegram1&utm_medium=social"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:54:30.512699+00:00",
+      "editorial": [
+        {
+          "count": 18,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "zodl.com"
+        },
+        {
+          "count": 1,
+          "source": "electriccoin.co"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "businesswire.com"
+        },
+        {
+          "count": 1,
+          "source": "wublockchain.xyz"
+        },
+        {
+          "count": 1,
+          "source": "zfnd.org"
+        },
+        {
+          "count": 1,
+          "source": "staging8.zfnd.org"
+        }
+      ],
+      "editorial_distinct": 12,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 63,
+          "source": "x.com"
+        },
+        {
+          "count": 13,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 11,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 10,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 7,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 6,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 2,
+          "source": "zodl.com"
+        },
+        {
+          "count": 2,
+          "source": "zfnd.org"
+        },
+        {
+          "count": 2,
+          "source": "fortune.com"
+        },
+        {
+          "count": 1,
+          "source": "wsj.com"
+        }
+      ],
+      "universe_distinct": 14
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "6565daa875828e2a91d95c70e40c87773ab5d24cefcf7d7372e3417e93dd2b6d",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T18:13:55.777021+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:39.781423+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.287,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0944,
+        "lift_log": 5.259,
+        "score": 0.2871,
+        "shared": 16
+      },
+      "rationale": "Foundry provides mining infrastructure and services for Zcash.",
+      "relation_type": "infrastructure",
+      "slug": "foundry",
+      "source": "cotag",
+      "tag_name": "Foundry",
+      "title": "Foundry, Explained",
+      "weight": 29
+    },
+    {
+      "confidence": 0.297,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0563,
+        "lift_log": 3.679,
+        "score": 0.2974,
+        "shared": 16
+      },
+      "rationale": "Zcash uses mining (Proof-of-Work) to secure its network.",
+      "relation_type": "primitive",
+      "slug": "mining",
+      "source": "cotag",
+      "tag_name": "Mining",
+      "title": "Mining, Explained",
+      "weight": 30
+    },
+    {
+      "confidence": 0.217,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0457,
+        "lift_log": 4.227,
+        "score": 0.2165,
+        "shared": 8
+      },
+      "rationale": "Monero is a direct competitor in privacy coins.",
+      "relation_type": "peer",
+      "slug": "monero",
+      "source": "cotag",
+      "tag_name": "Monero",
+      "title": "Monero, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.271,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.046,
+        "lift_log": 3.189,
+        "score": 0.2709,
+        "shared": 21
+      },
+      "rationale": "Zcash is a privacy-focused cryptocurrency.",
+      "relation_type": "category",
+      "slug": "privacy",
+      "source": "cotag",
+      "tag_name": "Privacy",
+      "title": "Privacy, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.206,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0528,
+        "lift_log": 3.921,
+        "score": 0.2062,
+        "shared": 11
+      },
+      "rationale": "Vulnerabilities pose security risks to Zcash.",
+      "relation_type": "risk",
+      "slug": "vulnerability",
+      "source": "cotag",
+      "tag_name": "vulnerability",
+      "title": "vulnerability, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.359,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.2335,
+        "lift_log": 5.357,
+        "score": 0.3589,
+        "shared": 41
+      },
+      "rationale": "ZEC is the native token of the Zcash network.",
+      "relation_type": "token",
+      "slug": "zec",
+      "source": "cotag",
+      "tag_name": "ZEC",
+      "title": "ZEC, Explained",
+      "weight": 36
+    }
+  ],
+  "schema_version": 1,
+  "slug": "zcash",
+  "tag_name": "Zcash",
+  "title": "Zcash, Explained"
+}

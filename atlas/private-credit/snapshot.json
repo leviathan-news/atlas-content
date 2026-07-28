@@ -1,0 +1,457 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:09:28.377906+00:00",
+      "newsroom_total": 19,
+      "overall_share": 25,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 22,
+          "month": "2026-03",
+          "newsroom": 5,
+          "universe": 18
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-04",
+          "newsroom": 5,
+          "universe": 15
+        },
+        {
+          "ed_share": 29,
+          "month": "2026-05",
+          "newsroom": 4,
+          "universe": 10
+        },
+        {
+          "ed_share": 26,
+          "month": "2026-06",
+          "newsroom": 5,
+          "universe": 14
+        }
+      ],
+      "total_universe": 76,
+      "universe_total": 57
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:09:27.621082+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "private-credit",
+          "phrase": "Private credit is a subset of real-world assets.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "real-world-assets",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "private-credit",
+          "phrase": "Private credit and bonds are both debt instruments.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bond",
+          "weight": 14
+        },
+        {
+          "dir": "out",
+          "from": "private-credit",
+          "phrase": "Onchain data enables transparency for private credit.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "onchain-data",
+          "weight": 14
+        },
+        {
+          "dir": "out",
+          "from": "private-credit",
+          "phrase": "Tokenization is a core mechanism for onchain private credit.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "tokenization",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "private-credit",
+          "phrase": "Canton Network provides infrastructure for private credit.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "cantonnetwork",
+          "weight": 13
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Private Credit",
+          "slug": "private-credit",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Real World Assets",
+          "slug": "real-world-assets",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "Bond",
+          "slug": "bond",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        },
+        {
+          "center": false,
+          "name": "Onchain Data",
+          "slug": "onchain-data",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        },
+        {
+          "center": false,
+          "name": "Tokenization",
+          "slug": "tokenization",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "Canton Network",
+          "slug": "cantonnetwork",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T07:54:49.963399+00:00",
+      "events": [
+        {
+          "date": "2020-09",
+          "kind": "launch",
+          "label": "Centrifuge launches Tinlake, first onchain private credit primitive",
+          "source": "https://centrifuge.io"
+        },
+        {
+          "date": "2021-05",
+          "kind": "launch",
+          "label": "Maple Finance launches institutional onchain lending market",
+          "source": "https://maple.finance"
+        },
+        {
+          "date": "2022-01",
+          "kind": "milestone",
+          "label": "Goldfinch reaches $100M in active loans to emerging-market borrowers",
+          "source": "https://goldfinch.finance"
+        },
+        {
+          "date": "2022-12",
+          "kind": "exploit",
+          "label": "Maple Finance freezes Orthogonal Trading pool after ~$36M default",
+          "source": "https://maple.finance"
+        },
+        {
+          "date": "2024-10",
+          "kind": "governance",
+          "label": "Apollo caps withdrawals from private credit fund as redemptions near 17%",
+          "source": "https://www.morganstanley.com/ideas/private-credit-outlook-considerations"
+        },
+        {
+          "date": "2025-03",
+          "kind": "launch",
+          "label": "Securitize launches tokenized private credit fund on TRON blockchain",
+          "source": "https://markets.businessinsider.com/news/currencies/securitize-launches-private-credit-fund-on-tron-blockchain-1036217650"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T07:54:49.963223+00:00",
+      "insight": "Readers treat private credit coverage as a systemic-risk early-warning system for crypto broadly — the highest-clicked angles are withdrawal gates, data oracle gaps, and smart-contract computation limits, not tokenization milestones, revealing that the audience is stress-testing whether the $3T market breaks DeFi when it breaks.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.spglobal.com/content/dam/spglobal/global-assets/en/special-reports/Corp_1022_TokenizedPrivateCredit.pdf"
+    },
+    "reader_signal": {
+      "article_count": 19,
+      "as_of": "2026-07-01T12:09:29.203336+00:00",
+      "most_clicked": {
+        "clicks": 241,
+        "date": "2026-03-21T17:45:41.383570+00:00",
+        "headline": "Private credit stress spreads as BNPL loans and fintech lending weaken, with funds limiting withdrawals amid rising defaults and pressure from higher interest rates",
+        "lev_url": "https://leviathannews.xyz/213511/private-credit-stress-spreads-as-bnpl-loans-and-fintech-lending-weaken-with-funds-limiting-withdrawals-amid-rising-defaults-and-pressure-from-higher-interest-rates"
+      },
+      "provenance": "data",
+      "top_decile_share": 18,
+      "total_clicks": 1362
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T07:54:49.963327+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.morganstanley.com/ideas/private-credit-outlook-considerations",
+          "thread": "Fund withdrawal gates",
+          "why": "Apollo capping redemptions and major funds limiting withdrawals hit readers as a live stress signal that semi-liquid private credit structures are cracking under rate pressure, with direct contagion implications for onchain collateral."
+        },
+        {
+          "source": "https://www.spglobal.com/content/dam/spglobal/global-assets/en/special-reports/Corp_1022_TokenizedPrivateCredit.pdf",
+          "thread": "Offchain data oracle gap",
+          "why": "The revelation that onchain credit logic is only as trustworthy as the unverifiable offchain borrower data feeding it exposed a foundational trust problem that smart contracts alone cannot fix, threatening the entire tokenized RWA thesis."
+        },
+        {
+          "source": "https://chain.link/article/tokenized-private-credit",
+          "thread": "Smart contract computation limits",
+          "why": "The argument that amortization schedules, covenant tracking, and default waterfalls require offchain computation and human intermediaries directly challenged whether tokenized private credit can ever operate trustlessly at scale."
+        },
+        {
+          "source": "https://app.rwa.xyz",
+          "thread": "Figure's onchain market dominance",
+          "why": "One originator controlling 70% of onchain private credit volume simultaneously proved the model works at scale and raised acute centralization risk, making Figure a single point of failure for the sector's headline metrics."
+        },
+        {
+          "source": "https://chain.link/article/tokenized-private-credit",
+          "thread": "Private credit as DeFi collateral bridge",
+          "why": "Tokenized private credit becoming usable collateral inside lending markets marked a structural shift from sideshow RWA to core DeFi primitive, drawing readers tracking whether institutional capital would finally anchor onchain liquidity."
+        },
+        {
+          "source": "https://www.morganstanley.com/ideas/private-credit-outlook-considerations",
+          "thread": "AI disruption of credit underwriting",
+          "why": "Franklin Templeton's warning that AI could erode the underwriting edge and cash-flow stability underpinning private credit returns introduced a macro-structural threat readers had not previously mapped onto DeFi ecosystem risk."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T07:54:49.963342+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / computation",
+          "level": "High",
+          "note": "Private credit loan structures — dynamic collateral calls, covenant enforcement, waterfall distributions — require offchain computation and legal recourse that current smart contracts cannot replicate trustlessly, making 'fully onchain' private credit a misnomer today.",
+          "source": "https://www.spglobal.com/content/dam/spglobal/global-assets/en/special-reports/Corp_1022_TokenizedPrivateCredit.pdf"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "Semi-liquid fund structures in traditional private credit are already gating redemptions under rate pressure; tokenized versions inherit the underlying illiquidity mismatch and compound it with thin secondary markets for onchain positions.",
+          "source": "https://www.morganstanley.com/ideas/private-credit-outlook-considerations"
+        },
+        {
+          "dimension": "Data / Oracle",
+          "level": "High",
+          "note": "Onchain private credit logic depends on offchain borrower financials, default notices, and collateral valuations that cannot be cryptographically verified on arrival, creating a systemic trust gap between the chain state and real-world credit performance.",
+          "source": "https://www.spglobal.com/content/dam/spglobal/global-assets/en/special-reports/Corp_1022_TokenizedPrivateCredit.pdf"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Figure's 70%-plus share of onchain private credit origination means sector-wide metrics are dominated by a single platform's HELOC book, masking the fragility of every other protocol in the space.",
+          "source": "https://app.rwa.xyz"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Tokenized private credit spans securities law, lending regulation, and emerging DeFi-specific rules across multiple jurisdictions; proposed 401(k) access signals policy momentum but also draws retail-protection scrutiny that could restrict onchain structures.",
+          "source": "https://www.lordabbett.com/en-us/financial-advisor/insights/investment-objectives/2025/private-credit-and-direct-lending-a-primer-for-investors.html"
+        },
+        {
+          "dimension": "Market / Macro",
+          "level": "Medium",
+          "note": "Higher-for-longer rates inflate default rates in the BNPL and fintech loan pools underlying many tokenized private credit funds, with AI-driven disruption of borrower cash flows adding a forward-looking tail risk.",
+          "source": "https://alterdomus.com/insight/private-debt-vs-bank-lenders/"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:09:29.121368+00:00",
+      "items": [
+        {
+          "clicks": 71,
+          "date": "2026-04-15T12:08:24.332810+00:00",
+          "headline": "Franklin Templeton Digital Assets warns AI could pressure private credit and DeFi ecosystems, with insights from Roger Bayston on shifting financial conditions",
+          "hot_score": 5972.112684,
+          "lev_url": "https://leviathannews.xyz/229463/franklin-templeton-digital-assets-warns-ai-could-pressure-private-credit-and-defi-ecosystems-with-insights-from-roger-bayston-on-shifting-financial-conditions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415112020_c3n2EsyUKgay.jpg",
+          "url": "https://x.com/i/status/2044037960295731715"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-04-17T13:28:09.756011+00:00",
+          "headline": "Hong Kong's Flow Capital to tokenize $150M private credit fund on DigiFT, targets $250M by year-end",
+          "hot_score": 995.317984,
+          "lev_url": "https://leviathannews.xyz/231317/hong-kongs-flow-capital-to-tokenize-150m-private-credit-fund-on-digift-targets-250m-by-year-end",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417085145_Z4zrlaiDPw==.png",
+          "url": "https://www.theblock.co/post/397849/hong-kongs-flow-capital-plans-to-bring-150-million-private-credit-fund-onchain-report"
+        },
+        {
+          "clicks": 206,
+          "date": "2026-04-01T10:59:37.364774+00:00",
+          "headline": "Tokenized RWAs face critical data gap as offchain inputs drive onchain logic, exposing private credit to systemic risk",
+          "hot_score": 973.981704,
+          "lev_url": "https://leviathannews.xyz/219162/tokenized-rwas-face-critical-data-gap-as-offchain-inputs-drive-onchain-logic-exposing-private-credit-markets-to-systemic-risk-without-real-time-verifiable-computation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401103547_JaShmQwZk7Hy.jpg",
+          "url": "https://x.com/i/status/2038972523161792613"
+        },
+        {
+          "clicks": 57,
+          "date": "2026-04-26T22:32:31.939544+00:00",
+          "headline": "Private credit emerges as the first true bridge between TradFi and DeFi, gaining traction not just through tokenization but by becoming usable collateral across lending markets",
+          "hot_score": 726.4,
+          "lev_url": "https://leviathannews.xyz/236614/private-credit-emerges-as-the-first-true-bridge-between-tradfi-and-defi-gaining-traction-not-just-through-tokenization-but-by-becoming-usable-collateral-across-lending-markets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260426221442_GdjTCNxcntfO.jpg",
+          "url": "https://x.com/i/status/2048019141513138404"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-06-19T18:46:57.355183+00:00",
+          "headline": "Can Private Credit Actually Work Onchain? Cap Founder Explains What It Fixes",
+          "hot_score": 700.62566,
+          "lev_url": "https://leviathannews.xyz/259528/can-private-credit-actually-work-onchain-cap-founder-explains-what-it-fixes",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260619182619_4b7jnr2XnoZ2.jpg",
+          "url": "https://youtu.be/-YJbLdK6xiU?si=4pttu1svN1TJI0I3"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-06-09T17:56:21.667149+00:00",
+          "headline": "Trad.Fi and W3 plan $650M Avalanche private credit push with one-day AI loan underwriting",
+          "hot_score": 687.528281,
+          "lev_url": "https://leviathannews.xyz/254853/tradfi-and-w3-plan-650m-avalanche-private-credit-push-with-one-day-ai-loan-underwriting",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260609153505_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/business/2026/06/09/trad-fi-w3-target-usd650-million-in-onchain-private-credit-using-ai-evaluation"
+        },
+        {
+          "clicks": 59,
+          "date": "2026-05-21T13:06:51.940341+00:00",
+          "headline": "Hyperlend launches Aviya, a private credit venue on Hyperliquid for institutional participants",
+          "hot_score": 475.569187,
+          "lev_url": "https://leviathannews.xyz/246406/hyperlend-introduces-aviya-a-private-compliance-gated-credit-venue-built-on-hyperliquid-designed-to-extend-structured-credit-access-to-institutional-participants",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260521120708_yM-P_pvUO5Ua.jpg",
+          "url": "https://x.com/hyperlendx/status/2057144633000395081"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-05-26T17:49:54.370636+00:00",
+          "headline": "Most tokenized RWAs just sit onchain: bonds and metals have huge tokenized caps but minimal DeFi use, while DeFi-native assets like reinsurance and private credit see far higher onchain utilization.",
+          "hot_score": 450.257074,
+          "lev_url": "https://leviathannews.xyz/248523/most-tokenized-rwas-just-sit-onchain-bonds-and-metals-have-huge-tokenized-caps-but-minimal-defi-use-while-defi-native-assets-like-reinsurance-and-private-credit-see-far-higher-onch",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260526174906_snqWcf0lkMQP.jpg",
+          "url": "https://x.com/a16zcrypto/status/2059326250234327186"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:09:29.028708+00:00",
+      "editorial": [
+        {
+          "count": 14,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "youtu.be"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        }
+      ],
+      "editorial_distinct": 5,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 33,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 4,
+          "source": "orochi.network"
+        },
+        {
+          "count": 2,
+          "source": "spaceandtime.webflow.io"
+        },
+        {
+          "count": 2,
+          "source": "reuters.com"
+        },
+        {
+          "count": 1,
+          "source": "plume.org"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "nytimes.com"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "axios.com"
+        },
+        {
+          "count": 1,
+          "source": "fortune.com"
+        },
+        {
+          "count": 1,
+          "source": "spaceandtime.io"
+        }
+      ],
+      "universe_distinct": 17
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "1b5577a35b2d81a6e352a1a96a501bbbbc37c536fc07dee33d195ca75cc541ce",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:23.054474+00:00"
+  },
+  "relations": [],
+  "schema_version": 1,
+  "slug": "private-credit",
+  "tag_name": "Private Credit",
+  "title": "Private Credit, Explained"
+}

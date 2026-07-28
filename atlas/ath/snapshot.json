@@ -1,0 +1,635 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:02:45.135069+00:00",
+      "newsroom_total": 55,
+      "overall_share": 7,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 9,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 32
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 282
+        },
+        {
+          "ed_share": 2,
+          "month": "2026-04",
+          "newsroom": 3,
+          "universe": 133
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 138
+        },
+        {
+          "ed_share": 1,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 138
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 8
+        }
+      ],
+      "total_universe": 786,
+      "universe_total": 731
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:02:44.846706+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "ath",
+          "phrase": "ATH often correlates with high open interest in derivatives.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "open-interest",
+          "weight": 33
+        },
+        {
+          "dir": "out",
+          "from": "ath",
+          "phrase": "Market cap is a key metric for ATH valuation.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "market-cap",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "ath",
+          "phrase": "TVL can indicate network activity near ATH.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "tvl",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "ath",
+          "phrase": "Hyperliquid is a perp DEX; ATH may refer to its price.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "hyperliquid",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "ath",
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "ATH",
+          "slug": "ath",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Open Interest",
+          "slug": "open-interest",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 33
+        },
+        {
+          "center": false,
+          "name": "Market Cap",
+          "slug": "market-cap",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "TVL",
+          "slug": "tvl",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "Hyperliquid",
+          "slug": "hyperliquid",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T05:28:36.698284+00:00",
+      "events": [
+        {
+          "date": "2024-11",
+          "kind": "milestone",
+          "label": "BTC breaks $106K ATH; Mt. Gox moves $172M BTC",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "milestone",
+          "label": "Ethereum stablecoin supply reaches $180B ATH with 60% market share",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "milestone",
+          "label": "Ethereum validator count sets record at 1,083,579 active nodes",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "milestone",
+          "label": "Aave TVL hits $25B all-time high; lending protocol TVL exceeds $130B",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "milestone",
+          "label": "BTC mining difficulty hits 127.6T ATH; hashrate ATH concurrent",
+          "source": ""
+        },
+        {
+          "date": "2025-12",
+          "kind": "milestone",
+          "label": "Gold crosses $4,000/oz all-time high",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "BTC hits $112K ATH then $118K, vaporizing $1B in shorts",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "BTC reaches $125,876 ATH; silver tops $95/oz record",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T05:28:36.698142+00:00",
+      "insight": "Readers treat ATH headlines as cascading confirmation signals across asset classes simultaneously — clicking BTC price records, hashrate records, ETH validator records, DeFi TVL records, and even gold/silver ATHs in the same cycle, revealing they use ATH density as a bull-market health gauge rather than treating each record as an isolated event.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 55,
+      "as_of": "2026-07-01T12:02:45.679305+00:00",
+      "most_clicked": {
+        "clicks": 151,
+        "date": "2025-04-03T10:57:16.296656+00:00",
+        "headline": "BTC’s hash rate just hit a new ATH, but sluggish network activity, low fees, and empty blocks are fueling doubts about the network’s long-term health and utility.",
+        "lev_url": "https://leviathannews.xyz/10378/btcs-hash-rate-just-hit-a-new-ath-but-sluggish-network-activity-low-fees-and-empty-blocks-are-fueling-doubts-about-the-networks-long-term-health-and-utility"
+      },
+      "provenance": "data",
+      "top_decile_share": 19,
+      "total_clicks": 3027
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T05:28:36.698210+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "BTC price ATH cascade",
+          "why": "Sequential BTC ATH breaks from $106K through $125,876 generated repeated click events, showing readers return each time a new threshold falls rather than treating it as a single story."
+        },
+        {
+          "source": "",
+          "thread": "Hashrate ATH vs network utility doubt",
+          "why": "The highest-clicked headline exposed a tension readers found compelling: record mining power coexisting with empty blocks and low fees, framing hashrate ATH as a vanity metric."
+        },
+        {
+          "source": "",
+          "thread": "Ethereum infrastructure records",
+          "why": "Validator count records, daily transaction ATH surpassing 2021, and $180B stablecoin supply share all drew clicks as evidence of ETH layer-one health independent of ETH price."
+        },
+        {
+          "source": "",
+          "thread": "DeFi TVL milestone stacking",
+          "why": "Aave hitting $25B, lending protocols crossing $130B deposited, and Ethereum L2 TVL ATH signaled readers tracking capital rotation into protocols as a separate ATH category."
+        },
+        {
+          "source": "",
+          "thread": "Traditional asset ATHs as macro signal",
+          "why": "Gold above $4,000 and silver above $95 attracted clicks because readers interpreted hard-asset ATHs alongside crypto ATHs as a unified macro liquidity story."
+        },
+        {
+          "source": "",
+          "thread": "$SQUID community token ATH",
+          "why": "Two separate $SQUID ATH headlines drew strong engagement, reflecting reader identity investment in the platform's native token outperforming broader market drawdowns."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T05:28:36.698223+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Market / Reflexivity",
+          "level": "High",
+          "note": "Sequential ATH breaks compress corrections — Arthur Hayes flagged a 36% drawdown from $110K as normal, meaning a $125K ATH implies potential drawdowns to ~$80K within a standard bull cycle.",
+          "source": ""
+        },
+        {
+          "dimension": "Network Utility",
+          "level": "Medium",
+          "note": "Bitcoin hashrate and mining difficulty ATHs occurring alongside low fees and empty blocks signals miner revenue risk if block subsidy halving further compresses transaction-fee income.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "DeFi TVL ATHs of $130B+ in lending protocols create concentrated liquidation cascades if collateral prices reverse sharply from cycle highs.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Low",
+          "note": "Ethereum's validator count exceeding 1,083,579 active nodes reduces single-point-of-failure risk, though staking pool concentration among a few operators remains an open concern.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "U.S. M2 supply hitting a $22T record alongside crypto ATHs invites central bank and congressional scrutiny of stablecoin dominance, particularly as ETH-denominated stablecoin supply crossed $180B.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract / Protocol",
+          "level": "Low",
+          "note": "crvUSD and Aave TVL ATHs reflect sustained user confidence in those specific protocol designs, though high TVL concentrations remain attractive exploit targets.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:02:45.603800+00:00",
+      "items": [
+        {
+          "clicks": 101,
+          "date": "2026-04-09T23:48:22.511642+00:00",
+          "headline": "Ethereum stablecoin supply hits $180B ATH with 60% market share, up 150% in three years",
+          "hot_score": 25396.888344,
+          "lev_url": "https://leviathannews.xyz/223418/ethereum-stablecoin-supply-hits-180b-ath-with-60-market-share-up-150-in-three-years",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408070802_Z4zrlaiDPw==.png",
+          "url": "https://x.com/tokenterminal/status/2041465337149878776"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-04-17T05:17:37.466830+00:00",
+          "headline": "Aave V4 hits new ATH with no incentives or points, Kulechov touts safety-first approach",
+          "hot_score": 1860.172612,
+          "lev_url": "https://leviathannews.xyz/231091/aave-v4-hits-new-ath-with-no-incentives-or-points-kulechov-touts-safety-first-approach",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417004326_Z4zrlaiDPw==.png",
+          "url": "https://x.com/StaniKulechov/status/2044922172062224816"
+        },
+        {
+          "clicks": 27,
+          "date": "2026-06-16T20:37:40.893724+00:00",
+          "headline": "Solana tokenized equities hit $187.9M 24h spot volume ATH as $SPCX clears $105M",
+          "hot_score": 433.366129,
+          "lev_url": "https://leviathannews.xyz/257894/solana-tokenized-equities-hit-1879m-24h-spot-volume-ath-as-spcx-clears-105m",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260616193521_Z4zrlaiDPw==.png",
+          "url": "https://x.com/solana/status/2066909177310552191"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-04-21T20:48:55.556849+00:00",
+          "headline": "Tether hits $188B ATH as Drift's $285M hack and Kelp DAO exploits drive DeFi flight from USDC",
+          "hot_score": 433.0,
+          "lev_url": "https://leviathannews.xyz/234557/tether-hits-188b-ath-as-drifts-285m-hack-and-kelp-dao-exploits-drive-defi-flight-from-usdc",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421194147_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/365049/tether-stablecoin-dominance-over-circle-usdc-major-crypto-hacks/"
+        },
+        {
+          "clicks": 77,
+          "date": "2026-01-20T10:31:56.489597+00:00",
+          "headline": "SILVER HITS $95/OZ FOR THE FIRST TIME IN HISTORY",
+          "hot_score": 133.334839,
+          "lev_url": "https://leviathannews.xyz/23832/silver-hits-95oz-for-the-first-time-in-history",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260120102937_KfaWTmatp_8=.jpg",
+          "url": "https://www.cnbc.com/quotes/@SI.1"
+        },
+        {
+          "clicks": 45,
+          "date": "2025-12-01T11:04:59.987034+00:00",
+          "headline": "Silver is hitting another ATH $58.61",
+          "hot_score": 81.188706,
+          "lev_url": "https://leviathannews.xyz/21495/silver-is-hitting-another-ath-5861",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251201110421_yok-ipJn0Zk=.jpg",
+          "url": "https://www.cnbc.com/quotes/@SI.1"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-03-09T11:52:34.436190+00:00",
+          "headline": "Hyperliquid HIP-3 markets hit $1.2B open interest ATH as Bloomberg spotlights 24/7 price discovery and HSI rings NASDAQ opening bell",
+          "hot_score": 45.61998,
+          "lev_url": "https://leviathannews.xyz/116074/hyperliquid-hip-3-markets-hit-12b-open-interest-ath-as-bloomberg-spotlights-247-price-discovery-and-hsi-rings-nasdaq-opening-bell",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260309114508_DAuMtsqbCQ4f.jpg",
+          "url": "https://t.me/hyperliquid_announcements/523"
+        },
+        {
+          "clicks": 40,
+          "date": "2025-11-30T22:21:19.989527+00:00",
+          "headline": "As Bitcoin falls 30% from its ATH, crypto analysts claim altcoin season is due though only once Bitcoin's price stabilises.",
+          "hot_score": 40.2596,
+          "lev_url": "https://leviathannews.xyz/21472/as-bitcoin-falls-30-from-its-ath-crypto-analysts-claim-altcoin-season-is-due-though-only-once-bitcoins-price-stabilises",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251130202804_X-NlQBJ84CA=.jpg&publishedDate=1763992641796",
+          "url": "https://paragraph.com/@decentralised/noaltseasonuntilbtcstabilises"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:02:45.523645+00:00",
+      "editorial": [
+        {
+          "count": 21,
+          "source": "x.com"
+        },
+        {
+          "count": 8,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 3,
+          "source": "tradingview.com"
+        },
+        {
+          "count": 2,
+          "source": "app.hyperliquid.xyz"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "t.me"
+        },
+        {
+          "count": 2,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "sg.finance.yahoo.com"
+        },
+        {
+          "count": 1,
+          "source": "validatorqueue.com"
+        },
+        {
+          "count": 1,
+          "source": "fred.stlouisfed.org"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "paragraph.com"
+        }
+      ],
+      "editorial_distinct": 22,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 496,
+          "source": "x.com"
+        },
+        {
+          "count": 41,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 23,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 21,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 14,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 13,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 12,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 12,
+          "source": "theblock.co"
+        },
+        {
+          "count": 8,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 5,
+          "source": "wsj.com"
+        },
+        {
+          "count": 4,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 4,
+          "source": "crowdfundinsider.com"
+        }
+      ],
+      "universe_distinct": 65
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "2b53152c78b565fed5d30436c1eb4190a4dbda6a09e068382c3c999ee118409b",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:21:50.456403+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.333,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0494,
+        "lift_log": 4.573,
+        "score": 0.3334,
+        "shared": 6
+      },
+      "rationale": "ATH often correlates with high open interest in derivatives.",
+      "relation_type": "primitive",
+      "slug": "open-interest",
+      "source": "cotag",
+      "tag_name": "Open Interest",
+      "title": "Open Interest, Explained",
+      "weight": 33
+    }
+  ],
+  "schema_version": 1,
+  "slug": "ath",
+  "tag_name": "ATH",
+  "title": "ATH, Explained"
+}

@@ -1,0 +1,550 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:59:04.351721+00:00",
+      "newsroom_total": 22,
+      "overall_share": 59,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 57,
+          "month": "2026-03",
+          "newsroom": 4,
+          "universe": 3
+        },
+        {
+          "ed_share": 57,
+          "month": "2026-04",
+          "newsroom": 4,
+          "universe": 3
+        },
+        {
+          "ed_share": 57,
+          "month": "2026-05",
+          "newsroom": 4,
+          "universe": 3
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-06",
+          "newsroom": 3,
+          "universe": 3
+        }
+      ],
+      "total_universe": 37,
+      "universe_total": 15
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:59:03.829100+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "seizure",
+          "phrase": "Coinbase Prime is used by DOJ to manage seized crypto assets.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "coinbase-prime",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "seizure",
+          "phrase": "Bessent is a key figure in crypto seizure policy discussions.",
+          "relation_type": "influence",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "bessent",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "seizure",
+          "phrase": "DOJ conducts seizures of crypto assets in criminal cases.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "doj",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "seizure",
+          "phrase": "FBI investigates and seizes crypto in law enforcement actions.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "fbi",
+          "weight": 16
+        },
+        {
+          "dir": "out",
+          "from": "seizure",
+          "phrase": "Bitcoin is a commonly seized crypto asset.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 14
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Seizure",
+          "slug": "seizure",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Coinbase Prime",
+          "slug": "coinbase-prime",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Bessent",
+          "slug": "bessent",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "DOJ",
+          "slug": "doj",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "FBI",
+          "slug": "fbi",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T04:18:54.913704+00:00",
+      "events": [
+        {
+          "date": "2013-10",
+          "kind": "regulatory",
+          "label": "FBI shuts down Silk Road, seizes ~144,000 BTC from site wallet",
+          "source": "https://www.chainalysis.com/blog/cryptocurrency-asset-seizure/"
+        },
+        {
+          "date": "2022-02",
+          "kind": "regulatory",
+          "label": "DOJ seizes $3.36B in Bitcoin linked to 2016 Bitfinex hack, largest crypto seizure at the time",
+          "source": "https://www.justice.gov/usao-sdny/pr/us-attorney-announces-historic-336-billion-cryptocurrency-seizure-and-conviction"
+        },
+        {
+          "date": "2024-02",
+          "kind": "regulatory",
+          "label": "Operation Cronos dismantles LockBit ransomware network; 200 crypto accounts seized, 10 wallets sanctioned",
+          "source": "https://www.chainalysis.com/blog/cryptocurrency-asset-seizure/"
+        },
+        {
+          "date": "2024-11",
+          "kind": "regulatory",
+          "label": "Sweden new confiscation law takes effect, enabling seizure of assets with no explainable origin without conviction",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "regulatory",
+          "label": "OFAC designates Central Bank of Iran; $344M USDT tranche frozen on Tron network",
+          "source": "https://www.chainalysis.com/blog/central-bank-of-iran-designation-ofac-update-april-2026/"
+        },
+        {
+          "date": "2025-05",
+          "kind": "milestone",
+          "label": "US Treasury surpasses $1B in seized Iranian crypto under Operation Economic Fury, majority USDT on Tron",
+          "source": "https://rareevo.io/news/us-seizes-1-billion-crypto-iran-irgc-operation-economic-fury"
+        },
+        {
+          "date": "2025-05",
+          "kind": "regulatory",
+          "label": "Arizona passes SB 1649/1042 establishing state digital asset reserve funded by seized crypto",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "regulatory",
+          "label": "Brazil President Lula signs Anti-Gang Law directing seized crypto to police funding without requiring conviction",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T04:18:54.913557+00:00",
+      "insight": "Readers click seizure stories not for enforcement mechanics but for the power-inversion: governments are becoming crypto's largest accidental institutional holders, criminal proceeds are being legislated into state budgets, and centralized stablecoins have proven to be direct enforcement instruments of foreign policy — inverting every 'crypto escapes government' premise simultaneously.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.chainalysis.com/blog/cryptocurrency-asset-seizure/"
+    },
+    "reader_signal": {
+      "article_count": 22,
+      "as_of": "2026-07-01T11:59:04.876832+00:00",
+      "most_clicked": {
+        "clicks": 124,
+        "date": "2023-10-16T09:26:38.408778+00:00",
+        "headline": "Due to major Bitcoin seizures, one of the largest hodlers of Bitcoin is the US government",
+        "lev_url": "https://leviathannews.xyz/2977/due-to-major-bitcoin-seizures-one-of-the-largest-hodlers-of-bitcoin-is-the-us-government"
+      },
+      "provenance": "data",
+      "top_decile_share": 19,
+      "total_clicks": 1069
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T04:18:54.913625+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.chainalysis.com/blog/cryptocurrency-asset-seizure/",
+          "thread": "US government as Bitcoin whale",
+          "why": "The headline that federal seizures made the US one of the largest BTC holders drew the highest clicks by directly collapsing crypto's anti-establishment premise into absurdity."
+        },
+        {
+          "source": "https://www.justice.gov/usao-sdny/pr/us-attorney-announces-historic-336-billion-cryptocurrency-seizure-and-conviction",
+          "thread": "Ransomware and darknet busts",
+          "why": "LockBit, Silk Road follow-on seizures, and darknet marketplace takedowns each demonstrated that blockchain's forensic permanence catches criminal operations years after the fact, making every bust a lesson in traceability."
+        },
+        {
+          "source": "https://rareevo.io/news/us-seizes-1-billion-crypto-iran-irgc-operation-economic-fury",
+          "thread": "Iran sanctions via stablecoins",
+          "why": "Operation Economic Fury crossing $1 billion and the $344M OFAC-frozen USDT case revealed that Tether and other centralized stablecoin issuers function as de facto arms of US foreign policy enforcement."
+        },
+        {
+          "source": "",
+          "thread": "Seized crypto as public revenue",
+          "why": "Brazil directing seized Bitcoin to police budgets and Arizona establishing a state digital asset reserve from forfeited assets signal that governments have normalized criminal crypto as a recurring funding stream."
+        },
+        {
+          "source": "",
+          "thread": "No-conviction confiscation laws",
+          "why": "Sweden's law enabling seizure of assets with no explainable origin — without proof of a crime — and Brazil's anti-gang law represent a global expansion of civil forfeiture into crypto that readers flagged as a due-process frontier."
+        },
+        {
+          "source": "https://recoveris.io/the-344m-tether-case-what-seizing-9-billion-in-a-week-means-for-asset-recovery-lawyers/",
+          "thread": "Civil asset recovery litigation",
+          "why": "Lawyers pursuing Tether directly for $344M in OFAC-frozen USDT showed readers that crypto seizure is increasingly contested through novel civil legal theories, not just criminal enforcement."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T04:18:54.913635+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "The US, EU, UK, Brazil, and Sweden have each expanded seizure powers in 2024–2025, with cross-border coordination (Operation Cronos, Operation Destabilise) now routinely freezing hundreds of wallets across jurisdictions in a single action.",
+          "source": "https://www.chainalysis.com/blog/cryptocurrency-asset-seizure/"
+        },
+        {
+          "dimension": "Stablecoin censorship",
+          "level": "High",
+          "note": "OFAC-directed freezes of Tether USDT — including the $344M Iranian-linked tranche on Tron — confirm that centralized stablecoins carry government-enforced blacklist risk at the issuer level, regardless of user custody.",
+          "source": "https://rareevo.io/news/us-treasury-freezes-344m-usdt-iran-ofac-tether"
+        },
+        {
+          "dimension": "Custodial / key control",
+          "level": "High",
+          "note": "Exchange-held assets are seized via subpoena and cooperative transfers to Coinbase Prime; self-custody is the only structural barrier, yet courts are developing legal theories to compel key disclosure under criminal statutes.",
+          "source": "https://texaslawreview.org/not-your-keys-not-your-coins-unpriced-credit-risk-in-cryptocurrency/"
+        },
+        {
+          "dimension": "Jurisdictional reach",
+          "level": "High",
+          "note": "US authorities seized Iranian-linked USDT on Tron, Australian federal police targeted global darknet markets, and Europol cracked Irish dealer wallets — enforcement is no longer bounded by where the operator physically resides.",
+          "source": "https://www.chainalysis.com/blog/central-bank-of-iran-designation-ofac-update-april-2026/"
+        },
+        {
+          "dimension": "On-chain traceability",
+          "level": "Medium",
+          "note": "Chainalysis-assisted investigations traced Silk Road funds through hundreds of hops years after the original seizure, and Europol cracked a wallet believed permanently lost — blockchain forensics lag is narrowing, not zero.",
+          "source": "https://www.chainalysis.com/blog/cryptocurrency-asset-seizure/"
+        },
+        {
+          "dimension": "Market / liquidation",
+          "level": "Medium",
+          "note": "US Marshals Service auctions of seized Bitcoin have historically created supply overhangs; recurring transfers of seized assets to Coinbase Prime signal structured government liquidation as a persistent market variable.",
+          "source": "https://www.chainalysis.com/blog/cryptocurrency-asset-seizure/"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:59:04.776692+00:00",
+      "items": [
+        {
+          "clicks": 46,
+          "date": "2026-04-16T19:41:43.387554+00:00",
+          "headline": "AI chats ruled admissible in court as US judge denies legal privilege, prompting law firms to warn clients their conversations with tools like Claude can be seized",
+          "hot_score": 4162.519322,
+          "lev_url": "https://leviathannews.xyz/230829/ai-chats-ruled-admissible-in-court-as-us-judge-denies-legal-privilege-prompting-law-firms-to-warn-clients-their-conversations-with-tools-like-claude-can-be-seized",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416185602_ku9rkMGMA3rJ.png",
+          "url": "https://decrypt.co/364653/your-ai-chats-against-you-court-law-firms-scrambling"
+        },
+        {
+          "clicks": 55,
+          "date": "2026-04-16T06:52:37.612115+00:00",
+          "headline": "Propr unveils Hyperliquid trading platform, providing up to $100,000 funding to seize trading opportunities.",
+          "hot_score": 3725.035834,
+          "lev_url": "https://leviathannews.xyz/230107/propr-launches-trading-platform-dangles-funding-up-to-100000-to-trade-anything-on-hyperliquid",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416004456_MK_c2VIcdlZM.jpg",
+          "url": "https://x.com/ProprXYZ/status/2044416179209486756"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-04-11T13:11:08.799612+00:00",
+          "headline": "Bitcoin linked to suspected steroid distribution conspiracy moved by U.S. authorities to Coinbase Prime, highlighting continued handling of seized crypto assets",
+          "hot_score": 2982.376752,
+          "lev_url": "https://leviathannews.xyz/226588/bitcoin-linked-to-suspected-steroid-distribution-conspiracy-moved-by-us-authorities-to-coinbase-prime-highlighting-continued-handling-of-seized-crypto-assets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411045419_g67f1lWwBtRk.jpg",
+          "url": "https://www.theblock.co/post/397104/us-government-bitcoin-possibly-linked-steroid-distribution-conspiracy"
+        },
+        {
+          "clicks": 13,
+          "date": "2026-06-29T15:33:40.240741+00:00",
+          "headline": "Ukraine moves $8.3M in seized USDT to ARMA in first crypto transfer into state custody",
+          "hot_score": 2699.895628,
+          "lev_url": "https://leviathannews.xyz/264547/ukraine-moves-83m-in-seized-usdt-to-arma-in-first-crypto-transfer-into-state-custody",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629114316_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/372279/ukraine-takes-8-3m-in-seized-crypto-under-state-management-in-a-first"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-04-22T08:00:15.684787+00:00",
+          "headline": "Arizona passes SB 1649 and SB 1042 to establish a state digital asset reserve funded by seized crypto, avoiding taxpayer costs and advancing public sector adoption",
+          "hot_score": 801.6,
+          "lev_url": "https://leviathannews.xyz/234790/arizona-passes-sb-1649-and-sb-1042-to-establish-a-state-digital-asset-reserve-funded-by-seized-crypto-avoiding-taxpayer-costs-and-advancing-public-sector-adoption",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422070907_27YHWgmJzbkn.jpg",
+          "url": "https://x.com/i/status/2046648913516429364"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-05-15T06:57:59.550860+00:00",
+          "headline": "Lawyer behind Arbitrum asset seizure case now targets Tether in bid to recover $344M in OFAC-frozen USDT linked to Iran’s Revolutionary Guard",
+          "hot_score": 773.2,
+          "lev_url": "https://leviathannews.xyz/242693/lawyer-behind-arbitrum-asset-seizure-case-now-targets-tether-in-bid-to-recover-344m-in-ofac-frozen-usdt-linked-to-irans-revolutionary-guard",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260515054808_U5ofRRpYdNMm.jpg",
+          "url": "https://www.coindesk.com/policy/2026/05/15/lawyer-behind-arbitrum-crypto-seizure-fight-now-targets-tether-for-usd344-million"
+        },
+        {
+          "clicks": 50,
+          "date": "2026-05-30T07:18:28.930389+00:00",
+          "headline": "US Treasury crosses $1 billion in seized Iranian crypto under Operation Economic Fury, mostly USDT on Tron",
+          "hot_score": 457.02642,
+          "lev_url": "https://leviathannews.xyz/250315/us-treasury-crosses-1-billion-in-seized-iranian-crypto-under-operation-economic-fury-mostly-usdt-on-tron",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260529213039_ejS9AoXYfVk8.jpg",
+          "url": "https://www.theblock.co/post/403075/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says"
+        },
+        {
+          "clicks": 26,
+          "date": "2026-06-07T18:21:33.065541+00:00",
+          "headline": "ZachXBT says law enforcement seized $18.9M from actors tied to Genesis creditor theft",
+          "hot_score": 430.082041,
+          "lev_url": "https://leviathannews.xyz/253926/zachxbt-says-law-enforcement-seized-189m-from-actors-tied-to-genesis-creditor-theft",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260607151533_Z4zrlaiDPw==.png",
+          "url": "https://x.com/zachxbt/status/2063612722315681914"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:59:04.693687+00:00",
+      "editorial": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "justice.gov"
+        },
+        {
+          "count": 1,
+          "source": "europol.europa.eu"
+        },
+        {
+          "count": 1,
+          "source": "forbes.com"
+        },
+        {
+          "count": 1,
+          "source": "irishtimes.com"
+        },
+        {
+          "count": 1,
+          "source": "fintechbrainfood.com"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 5,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "justice.gov"
+        },
+        {
+          "count": 1,
+          "source": "tether.io"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
+        }
+      ],
+      "universe_distinct": 8
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "9ac7d5c31a4c85cf07f6aea1f275693f8ae6e7325a1b60245b4af90d54625d55",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:27.783080+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.208,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0319,
+        "lift_log": 4.185,
+        "score": 0.2076,
+        "shared": 4
+      },
+      "rationale": "Bessent is a key figure in crypto seizure policy discussions.",
+      "relation_type": "influence",
+      "slug": "bessent",
+      "source": "cotag",
+      "tag_name": "Bessent",
+      "title": "Bessent, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.242,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0485,
+        "lift_log": 4.758,
+        "score": 0.2418,
+        "shared": 6
+      },
+      "rationale": "Coinbase Prime is used by DOJ to manage seized crypto assets.",
+      "relation_type": "infrastructure",
+      "slug": "coinbase-prime",
+      "source": "cotag",
+      "tag_name": "Coinbase Prime",
+      "title": "Coinbase Prime, Explained",
+      "weight": 24
+    }
+  ],
+  "schema_version": 1,
+  "slug": "seizure",
+  "tag_name": "Seizure",
+  "title": "Seizure, Explained"
+}

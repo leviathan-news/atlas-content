@@ -1,0 +1,483 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:16:42.707663+00:00",
+      "newsroom_total": 17,
+      "overall_share": 85,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": 67,
+          "month": "2026-03",
+          "newsroom": 4,
+          "universe": 2
+        },
+        {
+          "ed_share": null,
+          "month": "2026-04",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-05",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 20,
+      "universe_total": 3
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:16:42.331722+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "npm",
+          "phrase": "npm packages have been used to distribute malware.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "malware",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "npm",
+          "phrase": "Hackers exploit npm to inject malicious code.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "hacker",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "npm",
+          "phrase": "oracles",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "oracles",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "npm",
+          "phrase": "update",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "update",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "npm",
+          "phrase": "wallet",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "wallet",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "npm",
+          "slug": "npm",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "malware",
+          "slug": "malware",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Hacker",
+          "slug": "hacker",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Oracles",
+          "slug": "oracles",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "update",
+          "slug": "update",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Wallet",
+          "slug": "wallet",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:55:47.338800+00:00",
+      "events": [
+        {
+          "date": "2023-12",
+          "kind": "exploit",
+          "label": "Ledger connect-kit supply chain attack; version 1.1.8 patch issued",
+          "source": "https://www.paloaltonetworks.com/blog/cloud-security/npm-supply-chain-attack/"
+        },
+        {
+          "date": "2024-11",
+          "kind": "milestone",
+          "label": "Checkmarx documents wave of crypto-targeting npm account takeovers",
+          "source": "https://checkmarx.com/blog/most-striking-events-of-november-2024-in-supply-chain-security/"
+        },
+        {
+          "date": "2025-04",
+          "kind": "exploit",
+          "label": "XRPL npm package versions 4.2.1–4.2.4 backdoored to steal private keys",
+          "source": "https://xrpl.org/blog/2025/vulnerabilitydisclosurereport-bug-apr2025"
+        },
+        {
+          "date": "2025-05",
+          "kind": "exploit",
+          "label": "TrapDoor campaign: 34 fake npm/PyPI/Rust packages target Solana, Sui, Aptos developers",
+          "source": "https://socket.dev/blog/trapdoor-crypto-stealer-npm-pypi-crates"
+        },
+        {
+          "date": "2025-09",
+          "kind": "exploit",
+          "label": "Sygnia documents large-scale npm supply chain attack targeting crypto developers",
+          "source": "https://www.sygnia.co/threat-reports-and-advisories/npm-supply-chain-attack-september-2025/"
+        },
+        {
+          "date": "2025-10",
+          "kind": "exploit",
+          "label": "Axios npm maintainer hijacked; cross-platform RAT shipped to 1.x and 0.x branches in 39 minutes",
+          "source": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan"
+        },
+        {
+          "date": "2026-04",
+          "kind": "milestone",
+          "label": "Anthropic Claude Code source maps exposed via public npm registry",
+          "source": "https://www.infoq.com/news/2026/04/claude-code-source-leak/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "exploit",
+          "label": "Multiple Red Hat Cloud Services npm packages compromised in supply chain poisoning",
+          "source": "https://www.stepsecurity.io/blog/multiple-redhat-cloud-services-npm-packages-compromised"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:55:47.338647+00:00",
+      "insight": "Readers click npm attack stories in direct proportion to blast radius — the 307-click story about 18 libraries with 2.6 billion weekly downloads dwarfed all others, revealing that what drives engagement is not the hack mechanism but the discovery that trusted, invisible infrastructure is already weaponized against them.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://checkmarx.com/blog/npm-account-takeover-results-in-crypto-supply-chain-attack/"
+    },
+    "reader_signal": {
+      "article_count": 17,
+      "as_of": "2026-07-01T12:16:43.282661+00:00",
+      "most_clicked": {
+        "clicks": 309,
+        "date": "2025-09-08T17:28:47.589830+00:00",
+        "headline": "npm packages with 2.6 billion weekly downloads hijacked—attackers inject browser malware to steal crypto, replacing wallet addresses in 18 major libraries",
+        "lev_url": "https://leviathannews.xyz/16155/the-popular-packages-debug-and-chalk-on-npm-have-been-compromised-with-malicious-code"
+      },
+      "provenance": "data",
+      "top_decile_share": 23,
+      "total_clicks": 1351
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:55:47.338713+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://checkmarx.com/blog/npm-account-takeover-results-in-crypto-supply-chain-attack/",
+          "thread": "mainstream library wallet hijacking",
+          "why": "The revelation that 18 widely-used npm packages — already installed across billions of weekly downloads — were silently swapping out wallet addresses made the threat feel inescapable rather than avoidable."
+        },
+        {
+          "source": "https://xrpl.org/blog/2025/vulnerabilitydisclosurereport-bug-apr2025",
+          "thread": "SDK backdoors stealing private keys",
+          "why": "The XRPL and TrapDoor incidents showed attackers embedding key-exfiltration directly into crypto-specific SDKs, meaning developers could lose user funds simply by upgrading a dependency."
+        },
+        {
+          "source": "https://www.stepsecurity.io/blog/velora-dex-sdk-compromised-on-npm-malicious-version-drops-macos-backdoor-via-launchctl-persistence",
+          "thread": "dApp frontend supply chain cascade",
+          "why": "The Ledger connect-kit and Velora DEX stories demonstrated how a single poisoned npm package can compromise every dApp frontend loading it, turning a developer tooling issue into an immediate retail wallet-draining risk."
+        },
+        {
+          "source": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+          "thread": "maintainer account takeover",
+          "why": "The Axios breach — where a hijacked maintainer account pushed a RAT to both major version branches within 39 minutes — showed that npm's trust model collapses entirely when a single set of credentials is compromised."
+        },
+        {
+          "source": "https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode",
+          "thread": "invisible Unicode evasion",
+          "why": "Readers engaged with the Unicode obfuscation story because it undermined the last reliable defense — human code review — by hiding malicious logic in characters that render as whitespace."
+        },
+        {
+          "source": "https://www.rescana.com/post/lazarus-group-targets-npm-pypi-and-github-developers-with-fake-job-recruiter-malware-campaign",
+          "thread": "state-sponsored developer targeting",
+          "why": "Lazarus Group's use of fake recruiter lures and poisoned npm packages confirmed that nation-state attackers treat the developer supply chain as a primary entry point into crypto infrastructure."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:55:47.338730+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Supply Chain",
+          "level": "High",
+          "note": "Compromising a single npm maintainer account can inject malware into packages with billions of weekly downloads, giving attackers asymmetric leverage across the entire crypto developer ecosystem.",
+          "source": "https://checkmarx.com/blog/npm-account-takeover-results-in-crypto-supply-chain-attack/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "npm's trust model centralizes enormous power in individual maintainer credentials; there is no multi-sig or threshold requirement before a malicious version reaches production users.",
+          "source": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan"
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "Medium",
+          "note": "npm attacks do not exploit smart-contract logic directly, but backdoored SDKs and wallet libraries can silently redirect transaction signing to attacker-controlled addresses, producing the same fund-loss outcome.",
+          "source": "https://xrpl.org/blog/2025/vulnerabilitydisclosurereport-bug-apr2025"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Software supply chain security is under increasing regulatory scrutiny following high-profile incidents, but no crypto-specific npm disclosure or remediation mandate yet exists.",
+          "source": "https://www.stepsecurity.io/blog/multiple-redhat-cloud-services-npm-packages-compromised"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Discovery of a poisoned SDK in a major protocol typically triggers an immediate advisory to avoid all DeFi dApps, causing short-term liquidity flight and reputational damage even when the attack window is narrow.",
+          "source": "https://www.thestack.technology/vercel-breach-ai-third-party-tools/"
+        },
+        {
+          "dimension": "Detection / Evasion",
+          "level": "High",
+          "note": "Attackers now use invisible Unicode characters to conceal malicious code from human reviewers and standard static-analysis tooling, meaning even careful manual audits of diff output can miss the payload.",
+          "source": "https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:16:43.203319+00:00",
+      "items": [
+        {
+          "clicks": 84,
+          "date": "2026-04-08T16:54:50.169583+00:00",
+          "headline": "Velora identifies and unpublishes malicious npm package version in supply chain attack targeting its DEX aggregator SDK",
+          "hot_score": 366621.848899,
+          "lev_url": "https://leviathannews.xyz/223955/velora-identifies-and-unpublishes-malicious-npm-package-version-in-supply-chain-attack-targeting-its-dex-aggregator-sdk",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408161052_kZwF6iBx6khU.jpg",
+          "url": "https://x.com/VeloraDEX/status/2041664117576962128"
+        },
+        {
+          "clicks": 41,
+          "date": "2026-04-20T07:49:54.446801+00:00",
+          "headline": "Users urged to avoid interacting with any DeFi dApps as Vercel-linked incident involving stolen GitHub and NPM keys raises fears of compromised frontends and supply chain attacks",
+          "hot_score": 1025.8,
+          "lev_url": "https://leviathannews.xyz/233156/users-urged-to-avoid-interacting-with-any-defi-dapps-as-vercel-linked-incident-involving-stolen-github-and-npm-keys-raises-fears-of-compromised-frontends-and-supply-chain-attacks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420054007_xc5WGJIAg3aE.jpg",
+          "url": "https://x.com/i/status/2045904159858204733"
+        },
+        {
+          "clicks": 54,
+          "date": "2026-05-29T12:05:49.020694+00:00",
+          "headline": "Researchers uncover how hackers used over 34 fake npm, PyPI and Rust packages in “TrapDoor” attack targeting Solana, Sui and Aptos developers to steal wallets and cloud credentials",
+          "hot_score": 722.888199,
+          "lev_url": "https://leviathannews.xyz/250041/the-campaign-targets-crypto-defi-ai-and-security-developers-with-fake-tooling-packages-to-steal-wallets-ssh-keys-github-tokens-cloud-credentials-and-browser-data",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260529095117_wfPsMpTD2KjL.jpg",
+          "url": "https://www.coindesk.com/tech/2026/05/29/solana-sui-and-aptos-wallet-data-targeted-in-trapdoor-package-attack"
+        },
+        {
+          "clicks": 94,
+          "date": "2026-03-17T09:07:30.341362+00:00",
+          "headline": "Hackers hide malware in GitHub, npm, and VS Code packages using invisible Unicode so supply‑chain attacks bypass human review and common defenses.",
+          "hot_score": 541.610225,
+          "lev_url": "https://leviathannews.xyz/210757/hackers-hide-malware-in-github-npm-and-vs-code-packages-using-invisible-unicode-so-supplychain-attacks-bypass-human-review-and-common-defenses",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260317090610_zjG-WuqPnm7E.jpg",
+          "url": "https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/"
+        },
+        {
+          "clicks": 78,
+          "date": "2026-03-31T11:24:05.620097+00:00",
+          "headline": "Anthropic's Claude code exposed via map file in public npm registry",
+          "hot_score": 369.826515,
+          "lev_url": "https://leviathannews.xyz/218428/claude-code-source-code-has-been-leaked-via-a-map-file-in-their-npm-registry-code-httpspub-aea8527898604c1bbb12468b1581d95er2devsrczip",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260331101515_bzrTEiSEll2z.jpg",
+          "url": "https://x.com/Fried_rice/status/2038894956459290963"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-04-23T09:31:52.023602+00:00",
+          "headline": "Lazarus Group ramps up Linux developer attacks with fake recruiter lures and poisoned npm, PyPI, and GitHub packages",
+          "hot_score": 362.6,
+          "lev_url": "https://leviathannews.xyz/235576/lazarus-group-ramps-up-linux-developer-attacks-with-fake-recruiter-lures-and-poisoned-npm-pypi-and-github-packages",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423084134_Z4zrlaiDPw==.png",
+          "url": "https://x.com/i/status/2047071481549701362"
+        },
+        {
+          "clicks": 55,
+          "date": "2026-03-31T09:26:23.419349+00:00",
+          "headline": "Attacker hijacks Axios npm maintainer, ships cross-platform RAT to both 1.x and 0.x branches within 39 minutes",
+          "hot_score": 252.549428,
+          "lev_url": "https://leviathannews.xyz/218388/10-million-weekly-downs-axios-npm-compromised",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260331092624_6p-RRlc-6wi-.jpg",
+          "url": "https://x.com/feross/status/2038807290422370479"
+        },
+        {
+          "clicks": 114,
+          "date": "2026-03-09T22:46:47.938091+00:00",
+          "headline": "Malicious npm package disguised as OpenClaw AI installer deploys full RAT stealing crypto wallets, macOS Keychain, and cloud credentials",
+          "hot_score": 157.2293,
+          "lev_url": "https://leviathannews.xyz/144327/malicious-npm-package-disguised-as-openclaw-ai-installer-deploys-full-rat-stealing-crypto-wallets-macos-keychain-and-cloud-credentials",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260309214842_4JwD_yWPPoIM.jpg",
+          "url": "https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:16:43.119403+00:00",
+      "editorial": [
+        {
+          "count": 9,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "thehackernews.com"
+        },
+        {
+          "count": 1,
+          "source": "slowmist.medium.com"
+        },
+        {
+          "count": 1,
+          "source": "aikido.dev"
+        },
+        {
+          "count": 1,
+          "source": "leviathannews.xyz"
+        },
+        {
+          "count": 1,
+          "source": "arstechnica.com"
+        },
+        {
+          "count": 1,
+          "source": "cleanroom.btnomb.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        }
+      ],
+      "editorial_distinct": 8,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 2,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        }
+      ],
+      "universe_distinct": 2
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "9e290b5eaa7e6a7a3e1fb997570967058d384b824c37fc0fe830aec4aa201acb",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:18.634797+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.265,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0484,
+        "lift_log": 5.266,
+        "score": 0.2645,
+        "shared": 4
+      },
+      "rationale": "npm packages have been used to distribute malware.",
+      "relation_type": "risk",
+      "slug": "malware",
+      "source": "cotag",
+      "tag_name": "malware",
+      "title": "malware, Explained",
+      "weight": 26
+    }
+  ],
+  "schema_version": 1,
+  "slug": "npm",
+  "tag_name": "npm",
+  "title": "npm, Explained"
+}

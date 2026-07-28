@@ -1,0 +1,529 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:10:45.179104+00:00",
+      "newsroom_total": 20,
+      "overall_share": 36,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 1
+        },
+        {
+          "ed_share": 19,
+          "month": "2026-03",
+          "newsroom": 3,
+          "universe": 13
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 8
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-05",
+          "newsroom": 2,
+          "universe": 6
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 7
+        }
+      ],
+      "total_universe": 55,
+      "universe_total": 35
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:10:44.718453+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "frxusd",
+          "phrase": "frxUSD is a stablecoin from the Frax ecosystem, which also includes FRAX.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "frax",
+          "weight": 38
+        },
+        {
+          "dir": "out",
+          "from": "frxusd",
+          "phrase": "frxUSD is used in liquidity pools for trading and yield.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "pools",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "frxusd",
+          "phrase": "FX is a related stablecoin or token within the Frax ecosystem.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fx",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "frxusd",
+          "phrase": "frxUSD provides onchain liquidity as a stable asset.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "onchain-liquidity",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "frxusd",
+          "phrase": "crvUSD is a competing decentralized stablecoin from Curve.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "crvusd",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "frxUSD",
+          "slug": "frxusd",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "FRAX",
+          "slug": "frax",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 38
+        },
+        {
+          "center": false,
+          "name": "Pools",
+          "slug": "pools",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "FX",
+          "slug": "fx",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Onchain Liquidity",
+          "slug": "onchain-liquidity",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "crvUSD",
+          "slug": "crvusd",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T08:29:35.728809+00:00",
+      "events": [
+        {
+          "date": "2024-Q4",
+          "kind": "milestone",
+          "label": "frxUSD transitions from hybrid to fully backed fiat-redeemable model via Superstate and BlackRock",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "governance",
+          "label": "DAO vote live to onboard BlackRock BUIDL as first frxUSD backing asset",
+          "source": ""
+        },
+        {
+          "date": "2025-02",
+          "kind": "governance",
+          "label": "Proposal to add Superstate USTB (tokenized T-bills) as additional frxUSD reserves goes live",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "milestone",
+          "label": "Frax announces three-product split: legacy FRAX, frxUSD, and sfrxUSD with independent accounting",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "regulatory",
+          "label": "US Senate passes GENIUS Act; Frax explicitly positions frxUSD as compliant with the new standard",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "launch",
+          "label": "FraxNet launches, enabling mint, redeem, and earn across 20+ chains",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "regulatory",
+          "label": "Brazil advances Bill 4308 naming frxUSD and USDe as banned algorithmic stablecoins with criminal penalties",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "milestone",
+          "label": "frxUSD listed as default stablecoin on Aave V4 launch alongside Morpho vault crossing $1M TVL",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T08:29:35.728639+00:00",
+      "insight": "Readers click hardest on the DAO governance votes choosing frxUSD's reserve assets — not the yield products built on top — revealing that the credibility question ('who backs it and how was that decided?') dominates reader attention over the DeFi utility question.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 20,
+      "as_of": "2026-07-01T12:10:45.838536+00:00",
+      "most_clicked": {
+        "clicks": 376,
+        "date": "2024-12-26T19:39:51.183303+00:00",
+        "headline": "The vote to onboard Blackrock's $BUIDL as the first backing asset for the new Frax USD (frxUSD) stablecoin is live",
+        "lev_url": "https://leviathannews.xyz/8471/the-vote-to-onboard-blackrocks-buidl-as-the-first-backing-asset-for-the-new-frax-usd-frxusd-stablecoin-is-live"
+      },
+      "provenance": "data",
+      "top_decile_share": 31,
+      "total_clicks": 1640
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T08:29:35.728716+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Institutional reserve onboarding votes",
+          "why": "The live DAO votes on BlackRock BUIDL and Superstate USTB as backing assets gave readers a front-row seat to watch a DeFi protocol formally hand reserve custody to TradFi names, a historically rare governance moment."
+        },
+        {
+          "source": "",
+          "thread": "Frax three-product unbundling",
+          "why": "Splitting legacy FRAX, frxUSD, and sfrxUSD into distinct products with separate accounting reframed the entire Frax brand, and readers engaged heavily with what it signals about stablecoin design under incoming regulation."
+        },
+        {
+          "source": "",
+          "thread": "GENIUS Act compliance positioning",
+          "why": "Senate passage of the GENIUS Act and frxUSD's explicit framing as built to that standard made it a real-time case study in regulatory-ready stablecoin architecture."
+        },
+        {
+          "source": "",
+          "thread": "Morpho and Stake DAO yield vaults",
+          "why": "Readers tracking DeFi yield strategies clicked on how frxUSD reserves and LP positions are being recycled into structured lending and boosted vault products via Morpho."
+        },
+        {
+          "source": "",
+          "thread": "Curve PegKeeper liquidity role",
+          "why": "The Llama Risk recommendation and crvUSD/frxUSD pool additions positioned frxUSD as a systemic liquidity backstop on Curve, attracting readers focused on peg-stability mechanics."
+        },
+        {
+          "source": "",
+          "thread": "Regulatory ban risk from Brazil",
+          "why": "Brazil's Bill 4308 explicitly naming frxUSD alongside USDe as algorithmically-adjacent and subject to criminal penalties surfaced jurisdictional risk readers had not priced in."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T08:29:35.728726+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract",
+          "level": "Medium",
+          "note": "frxUSD is deployed across Aave V4, Morpho vaults, Curve PegKeeper pools, and LayerZero bridges simultaneously, multiplying attack surface even as individual audits proceed.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Reserve backing is concentrated in BlackRock BUIDL and Superstate USTB — both off-chain, permissioned instruments — making redemption dependent on TradFi counterparty availability and regulatory standing.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Brazil's Bill 4308 targets frxUSD by name for potential criminal liability, and GENIUS Act compliance remains unproven at scale, creating binary jurisdictional risk in major emerging markets.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "DeFi liquidity is deepening via Curve, Morpho, and Aave integrations, but frxUSD's 'return to DeFi' teaser implies a prior period of thin on-chain liquidity that could recur if institutional backing is disrupted.",
+          "source": ""
+        },
+        {
+          "dimension": "Governance",
+          "level": "Medium",
+          "note": "Reserve asset selection is DAO-voted, meaning a contentious or low-participation vote on a major backing change could introduce instability windows between proposal and execution.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / peg",
+          "level": "Low",
+          "note": "Full 1:1 fiat redemption via Superstate and BlackRock structurally eliminates the algorithmic depeg risk that plagued the prior hybrid model, making market peg risk materially lower than predecessors.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:10:45.759242+00:00",
+      "items": [
+        {
+          "clicks": 41,
+          "date": "2026-06-10T07:57:47.107668+00:00",
+          "headline": "Frax launches frxUSD ReserveLink on Aave, routing reserve yield back to lenders",
+          "hot_score": 697.643818,
+          "lev_url": "https://leviathannews.xyz/254991/frax-launches-frxusd-reservelink-on-aave-routing-reserve-yield-back-to-lenders",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260610002906_Z4zrlaiDPw==.png",
+          "url": "https://x.com/fraxfinance/status/2064412251428180109"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-05-17T06:57:54.095552+00:00",
+          "headline": "Frax expands frxUSD across Tempo and Aave as Morpho vault tops $1M and LayerZero security work advances",
+          "hot_score": 494.51147,
+          "lev_url": "https://leviathannews.xyz/243757/frax-expands-frxusd-across-tempo-and-aave-as-morpho-vault-tops-1m-and-layerzero-security-work-advances",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260517014033_Z4zrlaiDPw==.png",
+          "url": "https://news.frax.com/p/frax-finance-biweekly-project-update-b19"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-04-09T23:41:18.665843+00:00",
+          "headline": "Polygon, Frax, and Curve deploy six onchain FX liquidity pools with frxUSD as base dollar pair",
+          "hot_score": 482.662446,
+          "lev_url": "https://leviathannews.xyz/225397/polygon-frax-and-curve-deploy-six-onchain-fx-liquidity-pools-with-frxusd-as-base-dollar-pair",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409225842_Z4zrlaiDPw==.png",
+          "url": "https://x.com/0xPolygon/status/2042266173765787828"
+        },
+        {
+          "clicks": 102,
+          "date": "2026-03-18T15:32:13.551654+00:00",
+          "headline": "New collateral added to the Stake DAO frxUSD curated vault on Morpho: the OnlyBoost LP from the Curve crvUSD/frxUSD PegKeeper. ↳ Deposit crvUSD/frxUSD on CurveFinance ↳ Stake t...",
+          "hot_score": 448.9917,
+          "lev_url": "https://leviathannews.xyz/211692/new-collateral-added-to-the-stake-dao-frxusd-curated-vault-on-morpho-the-onlyboost-lp-from-the-curve-crvusdfrxusd-pegkeeper-deposit-crvusdfrxusd-on-curvefinance-stake-t",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260318152104_SPRN9WGhXsl4.jpg",
+          "url": "https://x.com/StakeDAOHQ/status/2034288153918357948"
+        },
+        {
+          "clicks": 68,
+          "date": "2026-03-16T17:33:47.615882+00:00",
+          "headline": "Stake DAO ships lending beta via Morpho, letting LPs borrow against OnlyBoost positions while yield keeps stacking",
+          "hot_score": 267.222315,
+          "lev_url": "https://leviathannews.xyz/210440/stake-dao-lending-is-live-in-beta-borrow-against-your-onlyboost-lp-via-morpho-while-your-lp-keeps-earning-rewards-available-now-for-the-metronomedao-fraxfinance-msusdfrxusd",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260316171933_YyNu7E4-a1Hp.png",
+          "url": "https://x.com/StakeDAOHQ/status/2033555853287039315"
+        },
+        {
+          "clicks": 56,
+          "date": "2026-03-11T16:35:53.063207+00:00",
+          "headline": "Earn boosted yield on frxUSD with Stake DAO's new curated vault",
+          "hot_score": 228.12291,
+          "lev_url": "https://leviathannews.xyz/208157/1-a-new-frxusd-curated-vault-is-live-on-stake-dao-deposit-frxusd-in-the-stake-dao-curated-vault-on-morpho-and-earn-yield-from-lending-against-curvefinance-onlyboost-lp-collate",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260311162413_ZQcfqZP4r7Y4.jpg",
+          "url": "https://x.com/StakeDAOHQ/status/2031766392165519368"
+        },
+        {
+          "clicks": 59,
+          "date": "2026-01-27T21:31:47.900206+00:00",
+          "headline": "Frax teases frxUSD return to DeFi",
+          "hot_score": 103.822763,
+          "lev_url": "https://leviathannews.xyz/24125/frax-teases-frxusd-return-to-defi",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260127212840_klioEv5Kmkg=.jpg",
+          "url": "https://x.com/fraxfinance/status/2016178096559271989"
+        },
+        {
+          "clicks": 84,
+          "date": "2026-02-05T17:46:02.461066+00:00",
+          "headline": "Brazil advances Bill 4308 banning algo stables like USDe and FrxUSD, requiring segregated reserves and 8-year jail terms for issuers",
+          "hot_score": 101.205761,
+          "lev_url": "https://leviathannews.xyz/25010/new-legislation-requires-all-stablecoins-to-be-fully-backed-by-reserve-assets-and-introduces-penalties-for-issuing-unbacked-stablecoins",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260205165306_IpOKUKpmK4c=.jpg",
+          "url": "https://www.coindesk.com/policy/2026/02/05/brazil-moves-to-ban-algorithmic-stablecoins-like-ethena-s-usde"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:10:45.679698+00:00",
+      "editorial": [
+        {
+          "count": 15,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "leviathannews.substack.com"
+        },
+        {
+          "count": 1,
+          "source": "snapshot.box"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "news.frax.com"
+        }
+      ],
+      "editorial_distinct": 5,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 34,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        }
+      ],
+      "universe_distinct": 2
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "0688098b92d4b87582d8899c6c59e66d7c5333947643cad14d5f54c53cb5cc48",
+  "provenance": {
+    "model_name": "claude-opus-4-8",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "opus_websearch",
+    "updated_at": "2026-07-26T22:22:05.921814+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.383,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0833,
+        "lift_log": 5.31,
+        "score": 0.3829,
+        "shared": 10
+      },
+      "rationale": "frxUSD is a stablecoin from the Frax ecosystem, which also includes FRAX.",
+      "relation_type": "ecosystem",
+      "slug": "frax",
+      "source": "cotag",
+      "tag_name": "FRAX",
+      "title": "FRAX: Complete Guide",
+      "weight": 38
+    },
+    {
+      "confidence": 0.209,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0405,
+        "lift_log": 4.13,
+        "score": 0.2094,
+        "shared": 7
+      },
+      "rationale": "FX is a related stablecoin or token within the Frax ecosystem.",
+      "relation_type": "ecosystem",
+      "slug": "fx",
+      "source": "cotag",
+      "tag_name": "FX",
+      "title": "FX, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.255,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0647,
+        "lift_log": 4.891,
+        "score": 0.2552,
+        "shared": 6
+      },
+      "rationale": "frxUSD is used in liquidity pools for trading and yield.",
+      "relation_type": "infrastructure",
+      "slug": "pools",
+      "source": "cotag",
+      "tag_name": "Pools",
+      "title": "Pools, Explained",
+      "weight": 26
+    }
+  ],
+  "schema_version": 1,
+  "slug": "frxusd",
+  "tag_name": "frxUSD",
+  "title": "frxUSD: Complete Guide"
+}

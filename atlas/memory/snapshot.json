@@ -1,0 +1,556 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:01:29.701879+00:00",
+      "newsroom_total": 18,
+      "overall_share": 15,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-03",
+          "newsroom": 5,
+          "universe": 30
+        },
+        {
+          "ed_share": 37,
+          "month": "2026-04",
+          "newsroom": 7,
+          "universe": 12
+        },
+        {
+          "ed_share": 5,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 20
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-06",
+          "newsroom": 5,
+          "universe": 31
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 4
+        }
+      ],
+      "total_universe": 120,
+      "universe_total": 102
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:01:27.994615+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "memory",
+          "phrase": "Memory is a capability used by AI agents.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "agent",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "memory",
+          "phrase": "Claude is a competing AI model from Anthropic.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "claude",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "memory",
+          "phrase": "Memory is a capability used by AI agents.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "agents",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "memory",
+          "phrase": "Gemini is a competing AI model from Google.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "gemini",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "memory",
+          "phrase": "OpenClaw is a competing AI model.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "openclaw",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Memory",
+          "slug": "memory",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Agent",
+          "slug": "agent",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "Claude",
+          "slug": "claude",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Gemini",
+          "slug": "gemini",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "OpenClaw",
+          "slug": "openclaw",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T05:53:50.074267+00:00",
+      "events": [
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "MemPalace open-source AI memory system released; achieves perfect score on LongMemEval Benchmark",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "launch",
+          "label": "Hermes Agent v0.7.0 launches modular memory system with six configurable backends",
+          "source": "https://hermes-agent.nousresearch.com/docs/user-guide/features/memory"
+        },
+        {
+          "date": "2026-05",
+          "kind": "launch",
+          "label": "Ghast AI debuts on 0G as first decentralized AI assistant with user-owned, tradeable memory",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "ZetaChain announces private memory layer for AI; Anuma app enables encrypted cross-model chat history import",
+          "source": "https://www.globenewswire.com/news-release/2026/06/01/3304774/0/en/zetachain-the-private-memory-layer-for-ai.html"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Walrus Memory launches as portable agent context layer enabling cross-app memory persistence",
+          "source": "https://walrus.xyz/products/walrus-memory/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "exploit",
+          "label": "Researchers using Mythos Preview expose first public macOS M5 memory corruption exploit bypassing Apple Memory Integrity Enforcement",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Micron and Anthropic announce strategic AI infrastructure partnership covering memory design and multi-year supply agreements",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T05:53:50.074108+00:00",
+      "insight": "Readers aren't clicking memory stories for storage mechanics — they're clicking for control: who holds persistent AI context is the next platform power dispute, and crypto-native memory layers are positioning as the sovereignty escape hatch from model-locked silos.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://hermes-agent.nousresearch.com/docs/user-guide/features/memory"
+    },
+    "reader_signal": {
+      "article_count": 18,
+      "as_of": "2026-07-01T12:01:31.676635+00:00",
+      "most_clicked": {
+        "clicks": 529,
+        "date": "2026-04-10T17:58:21.423443+00:00",
+        "headline": "Hermes Agent redefines AI productivity with persistent memory, multi-agent workflows, and self-improving skills, moving beyond chatbots into a full-stack autonomous assistant system",
+        "lev_url": "https://leviathannews.xyz/226099/hermes-agent-redefines-ai-productivity-with-persistent-memory-multi-agent-workflows-and-self-improving-skills-moving-beyond-chatbots-into-a-full-stack-autonomous-assistant-system"
+      },
+      "provenance": "data",
+      "top_decile_share": 31,
+      "total_clicks": 1702
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T05:53:50.074188+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://hermes-agent.nousresearch.com/docs/user-guide/features/memory",
+          "thread": "agent memory portability across models",
+          "why": "Hermes Agent's pitch that users can retain context and workflows while swapping frontier models reframed memory as the real moat — not the model — drawing readers who distrust vendor lock-in."
+        },
+        {
+          "source": "",
+          "thread": "open-source memory benchmarks",
+          "why": "MemPalace hitting a perfect score on LongMemEval created a public scoreboard that made quality differences between persistent memory systems legible for the first time, giving readers a way to evaluate competing claims."
+        },
+        {
+          "source": "https://walrus.xyz/products/walrus-memory/",
+          "thread": "user-owned decentralized memory",
+          "why": "Ghast AI, Walrus Memory, and Unibase's Membase each offered ownership and tradability of AI context on-chain, directly targeting crypto-native readers already primed to distrust platform data capture."
+        },
+        {
+          "source": "https://www.globenewswire.com/news-release/2026/06/01/3304774/0/en/zetachain-the-private-memory-layer-for-ai.html",
+          "thread": "cross-model context portability",
+          "why": "ZetaChain's Anuma and Google Gemini's chat import tools both attacked accumulated-preference lock-in, and readers recognized that whoever enables painless AI switching gains structural leverage over the model providers themselves."
+        },
+        {
+          "source": "https://archax.com/newsfeed/walrus-memory-enables-ai-agents-to-actually-learn-about-us-mysten-labs-co-founder",
+          "thread": "memory security and poisoning risk",
+          "why": "OpenTusk's persistent encrypted memory flagging audit and credential-leak risks, alongside the macOS M5 memory corruption exploit bypassing Apple's Memory Integrity Enforcement, showed readers that persistent memory creates persistent attack surfaces."
+        },
+        {
+          "source": "",
+          "thread": "AI memory chip supply chokepoint",
+          "why": "Samsung's contingency planning for a memory downturn and Micron's Anthropic partnership framed physical memory hardware as the infrastructure bottleneck that could constrain the entire AI agent buildout."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T05:53:50.074196+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / Protocol",
+          "level": "Medium",
+          "note": "Decentralized memory layers like Walrus and Membase store sensitive agent context in distributed storage with on-chain access control, creating durable exploit surfaces if permission logic is misconfigured.",
+          "source": "https://walrus.xyz/products/walrus-memory/"
+        },
+        {
+          "dimension": "Security / Memory poisoning",
+          "level": "High",
+          "note": "Persistent session memory that carries context across every app an agent runs in is a high-value attack target: a single poisoned memory entry can corrupt agent behavior indefinitely, as OpenTusk's deployment on Walrus explicitly flagged.",
+          "source": "https://archax.com/newsfeed/walrus-memory-enables-ai-agents-to-actually-learn-about-us-mysten-labs-co-founder"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Most agent memory implementations still route through a single model provider API or a centralized coordinator node, meaning decentralization claims are undermined by the inference dependency at the core of every memory read.",
+          "source": "https://www.zetachain.com"
+        },
+        {
+          "dimension": "Regulatory / Privacy",
+          "level": "Medium",
+          "note": "Importing and encrypting entire chat histories from rival platforms across jurisdictions — ZetaChain's Anuma use case — triggers cross-border data portability and informed-consent obligations that no regulator has yet addressed for AI context transfer.",
+          "source": "https://www.globenewswire.com/news-release/2026/06/01/3304774/0/en/zetachain-the-private-memory-layer-for-ai.html"
+        },
+        {
+          "dimension": "Market / Hardware supply",
+          "level": "Medium",
+          "note": "Samsung is already building contingency plans for a memory chip downturn within two years; a supply contraction would raise inference costs and directly pressure memory-intensive decentralized agent infrastructure.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity / Token utility",
+          "level": "Low",
+          "note": "Memory layer tokens such as Ghast on 0G carry thin utility narratives at launch — owning tradeable AI context is a novel primitive with no established price discovery mechanism or secondary market depth.",
+          "source": ""
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:01:31.594178+00:00",
+      "items": [
+        {
+          "clicks": 21,
+          "date": "2026-06-30T06:39:16.902397+00:00",
+          "headline": "ZetaChain goes all-in on AI memory as cross-chain withdrawals close June 30",
+          "hot_score": 3164.856623,
+          "lev_url": "https://leviathannews.xyz/265127/zetachain-goes-all-in-on-ai-memory-as-cross-chain-withdrawals-close-june-30",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630020416_Z4zrlaiDPw==.png",
+          "url": "https://x.com/zetachain/status/2071768181039935714"
+        },
+        {
+          "clicks": 509,
+          "date": "2026-04-07T07:50:47.346107+00:00",
+          "headline": "Milla Jovovich and Ben Sigman release open-source AI memory system MemPalace achieving perfect score on LongMemEval Benchmark.",
+          "hot_score": 1011.395899,
+          "lev_url": "https://leviathannews.xyz/222210/milla-jovovich-and-ben-sigman-release-open-source-ai-memory-system-mempalace-achieving-perfect-score-on-longmemeval-benchmark",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407055635_BnbvifG4JhQk.jpg",
+          "url": "https://x.com/bensig/status/2041229266432733356"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-06-11T07:38:43.700643+00:00",
+          "headline": "Delphi Digital argues AI's next moat is the harness layer, not the model itself, as Hermes Agent lets users retain context, memory and workflows while swapping between frontier models",
+          "hot_score": 670.782299,
+          "lev_url": "https://leviathannews.xyz/255644/delphi-digital-argues-ais-next-moat-is-the-harness-layer-not-the-model-itself-as-hermes-agent-lets-users-retain-context-memory-and-workflows-while-swapping-between-frontier-models",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260611073623_OGXXwFeblt2E.jpg",
+          "url": "https://x.com/delphi_digital/status/2064776753344844160"
+        },
+        {
+          "clicks": 23,
+          "date": "2026-06-22T15:50:48.450385+00:00",
+          "headline": "Micron and Anthropic strike a strategic AI infrastructure partnership covering memory design, multi-year supply agreements, Claude adoption, and a Series H investment.",
+          "hot_score": 575.927768,
+          "lev_url": "https://leviathannews.xyz/260343/micron-and-anthropic-team-up-for-ai-memory-boost-the-deal-covers-joint-design-of-high-bandwidth-memory-dram-and-ssds-optimized-for-anthropics-claude-models-plus-a-multi-year-supply",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622154128_1cfQ39p9Ph1G.jpg",
+          "url": "https://investors.micron.com/news-releases/news-release-details/micron-and-anthropic-announce-strategic-agreement-scale-next?utm_id=ga_org_us_social&utm_source=twitter&utm_medium=org_social&utm_campaign=ga"
+        },
+        {
+          "clicks": 96,
+          "date": "2026-03-13T02:03:30.554255+00:00",
+          "headline": "Samsung preps backup plans for memory downturn it expects within two years, even as chip division eyes record 2026",
+          "hot_score": 479.440103,
+          "lev_url": "https://leviathannews.xyz/209100/samsung-preps-backup-plans-for-memory-downturn-it-expects-within-two-years-even-as-chip-division-eyes-record-2026",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260313011441_tMLMIRRbyckU.png",
+          "url": "https://x.com/jukan05/status/2032262534322143439"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-04-20T20:08:31.709972+00:00",
+          "headline": "Google in talks with Marvell to build next-gen AI chips, including a memory processing unit and new TPU, aiming to boost efficiency and rival Nvidia’s dominance in GPUs",
+          "hot_score": 479.2,
+          "lev_url": "https://leviathannews.xyz/233891/google-is-in-talks-with-marvell-to-develop-new-ai-chips-including-a-memory-unit-and-next-gen-tpu-as-it-looks-to-rival-nvidia-and-scale-its-cloud-infrastructure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420200444_DBEbCoKMZezl.webp",
+          "url": "https://crypto.news/google-looks-to-scale-ai-chip-ecosystem-with-marvell-as-nvidia-competition-heats-up/"
+        },
+        {
+          "clicks": 27,
+          "date": "2026-04-23T19:24:26.563726+00:00",
+          "headline": "Zcash Foundation ships FROST v3.0.0 with automatic memory wiping for signing keys in threshold signature library",
+          "hot_score": 339.2,
+          "lev_url": "https://leviathannews.xyz/235890/zcash-foundation-ships-frost-v300-with-automatic-memory-wiping-for-signing-keys-in-threshold-signature-library",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423191009_Z4zrlaiDPw==.png",
+          "url": "https://zfnd.org/frost-release-v3-0-0/"
+        },
+        {
+          "clicks": 55,
+          "date": "2026-03-17T14:46:16.807262+00:00",
+          "headline": "Tether’s QVAC debuts a BitNet LoRA framework that lets billion-parameter 1‑bit LLMs be fine‑tuned and run on everyday consumer GPUs and smartphones, slashing memory and compute needs.",
+          "hot_score": 144.150272,
+          "lev_url": "https://leviathannews.xyz/210963/tethers-qvac-debuts-a-bitnet-lora-framework-that-lets-billion-parameter-1bit-llms-be-finetuned-and-run-on-everyday-consumer-gpus-and-smartphones-slashing-memory-and-compute-needs",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260317144551_8ESb7arPzkB3.png",
+          "url": "https://tether.io/news/tethers-qvac-launches-worlds-first-cross-platform-bitnet-lora-framework-to-enable-billion-parameter-ai-training-and-inference-on-consumer-gpus-and-smartphones/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:01:31.493445+00:00",
+      "editorial": [
+        {
+          "count": 9,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "openai.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.google"
+        },
+        {
+          "count": 1,
+          "source": "globenewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "tether.io"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "zfnd.org"
+        },
+        {
+          "count": 1,
+          "source": "blog.calif.io"
+        },
+        {
+          "count": 1,
+          "source": "investors.micron.com"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 90,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "federalregister.gov"
+        },
+        {
+          "count": 1,
+          "source": "bnbchain.org"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "blog.zetachain.com"
+        },
+        {
+          "count": 1,
+          "source": "orochi.network"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "aethir.com"
+        }
+      ],
+      "universe_distinct": 10
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "fe088a7d5cdd97145bff9eaedc40b2e55909025f1d0dc63455b9ec98027e1a9b",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:16.406945+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.266,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0339,
+        "lift_log": 3.199,
+        "score": 0.266,
+        "shared": 19
+      },
+      "rationale": "Memory is a capability used by AI agents.",
+      "relation_type": "category",
+      "slug": "agent",
+      "source": "cotag",
+      "tag_name": "Agent",
+      "title": "Agent, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.256,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0288,
+        "lift_log": 3.047,
+        "score": 0.2561,
+        "shared": 15
+      },
+      "rationale": "Memory is a capability used by AI agents.",
+      "relation_type": "category",
+      "slug": "agents",
+      "source": "cotag",
+      "tag_name": "agents",
+      "title": "agents, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.266,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0293,
+        "lift_log": 3.298,
+        "score": 0.2662,
+        "shared": 7
+      },
+      "rationale": "Claude is a competing AI model from Anthropic.",
+      "relation_type": "peer",
+      "slug": "claude",
+      "source": "cotag",
+      "tag_name": "Claude",
+      "title": "Claude, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.249,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0178,
+        "lift_log": 3.052,
+        "score": 0.2489,
+        "shared": 3
+      },
+      "rationale": "Gemini is a competing AI model from Google.",
+      "relation_type": "peer",
+      "slug": "gemini",
+      "source": "cotag",
+      "tag_name": "Gemini",
+      "title": "Gemini, Explained",
+      "weight": 25
+    }
+  ],
+  "schema_version": 1,
+  "slug": "memory",
+  "tag_name": "Memory",
+  "title": "Memory, Explained"
+}

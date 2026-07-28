@@ -1,0 +1,572 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:49:35.923302+00:00",
+      "newsroom_total": 47,
+      "overall_share": 12,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 15
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 66
+        },
+        {
+          "ed_share": 13,
+          "month": "2026-04",
+          "newsroom": 22,
+          "universe": 147
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-05",
+          "newsroom": 11,
+          "universe": 44
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-06",
+          "newsroom": 14,
+          "universe": 69
+        }
+      ],
+      "total_universe": 388,
+      "universe_total": 341
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:49:35.205410+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "quantum",
+          "phrase": "Quantum computing is the core technology that quantum cryptography aims to defend against.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "quantum-computing",
+          "weight": 42
+        },
+        {
+          "dir": "out",
+          "from": "quantum",
+          "phrase": "Post-quantum cryptography is a competing approach to secure systems against quantum attacks.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "post-quantum",
+          "weight": 31
+        },
+        {
+          "dir": "out",
+          "from": "quantum",
+          "phrase": "Quantum computing poses a threat to current cryptographic standards.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "threat",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "quantum",
+          "phrase": "Algorand is exploring quantum-resistant signatures and related research.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "algorand",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "quantum",
+          "phrase": "Bitcoin's ECDSA is vulnerable to quantum attacks, a key risk.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "quantum",
+          "slug": "quantum",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Quantum Computing",
+          "slug": "quantum-computing",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 42
+        },
+        {
+          "center": false,
+          "name": "Post-Quantum",
+          "slug": "post-quantum",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 31
+        },
+        {
+          "center": false,
+          "name": "Threat",
+          "slug": "threat",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Algorand",
+          "slug": "algorand",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T02:11:28.714405+00:00",
+      "events": [
+        {
+          "date": "2025-10",
+          "kind": "milestone",
+          "label": "Google discloses quantum Bitcoin vulnerability research responsibly",
+          "source": "https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/"
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Project Eleven offers 1 BTC bounty; researcher breaks 15-bit elliptic curve key",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "governance",
+          "label": "BIP-361 formally proposed to freeze quantum-vulnerable dormant Bitcoin",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "launch",
+          "label": "Aptos activates live post-quantum signatures on mainnet",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "Eigen Labs open quantum challenge: AI agents reproduce Google's unpublished benchmark in 73 hours",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "governance",
+          "label": "Solana devs Anza and Firedancer align on Falcon post-quantum signatures",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Coinbase Quantum Advisory Council publishes first paper; flags 7M BTC as vulnerable",
+          "source": "https://www.coinbase.com/blog/coinbase-quantum-advisory-council-post-quantum-migration-and-abandoned-coins"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "France announces 2027 deadline to stop certifying non-quantum-safe products",
+          "source": "https://securityboulevard.com/2026/06/france-to-stop-certifying-products-without-quantum-safe-encryption-in-2027/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T02:11:28.714281+00:00",
+      "insight": "Readers click quantum stories not for the physics but for the property-rights crisis underneath: who decides when dormant Bitcoin gets frozen, who pays for migration, and which chain moves fast enough to matter before a cryptographic break becomes real.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.coinbase.com/blog/coinbase-quantum-advisory-council-post-quantum-migration-and-abandoned-coins"
+    },
+    "reader_signal": {
+      "article_count": 53,
+      "as_of": "2026-07-01T11:49:36.774162+00:00",
+      "most_clicked": {
+        "clicks": 71,
+        "date": "2026-04-29T14:21:33.325495+00:00",
+        "headline": "IBM and MIT launch new computing lab to advance AI and quantum research, targeting hybrid systems and next-gen breakthroughs across science and finance",
+        "lev_url": "https://leviathannews.xyz/237126/ibm-and-mit-launch-new-computing-lab-to-advance-ai-and-quantum-research-targeting-hybrid-systems-and-next-gen-breakthroughs-across-science-and-finance"
+      },
+      "provenance": "data",
+      "top_decile_share": 18,
+      "total_clicks": 1743
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T02:11:28.714338+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.coinbase.com/blog/coinbase-quantum-advisory-council-post-quantum-migration-and-abandoned-coins",
+          "thread": "Bitcoin dormant-coin freeze politics",
+          "why": "BIP-361's proposal to freeze 5.6M vulnerable BTC forces a governance showdown — readers grasp that the cure (forced migration) may be as disruptive as the disease."
+        },
+        {
+          "source": "https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/",
+          "thread": "Elliptic-curve break research race",
+          "why": "Project Eleven's 15-bit crack and Eigen Labs reproducing Google's withheld benchmark in 73 hours made the threat concrete and competitive, pulling in readers who track how fast the window is closing."
+        },
+        {
+          "source": "https://ethresear.ch/t/sphincs-minus-efficient-stateless-post-quantum-signature-verification-on-the-evm/25165",
+          "thread": "Ethereum no-hard-fork PQC path",
+          "why": "The discovery that post-quantum account protection costs ~$0.07 and needs no hard fork collapsed the 'too hard to fix' excuse and drove clicks from builders and ETH holders alike."
+        },
+        {
+          "source": "https://stellar.org/blog/foundation-news/introducing-the-quantum-preparedness-plan",
+          "thread": "Chain-level migration races",
+          "why": "Solana (Falcon), Aptos (live PQ sigs), Zcash, Tron, and Sonic all announced timelines within weeks of each other, framing this as a competitive differentiator rather than a shared industry problem."
+        },
+        {
+          "source": "https://www.caltech.edu/about/news/caltech-team-finds-useful-quantum-computers-could-be-built-with-as-few-as-10000-qubits",
+          "thread": "Quantum hardware progress signals",
+          "why": "IBM/MIT lab launches and 6,100-qubit neutral-atom arrays gave readers concrete milestones to judge how far off the actual threat is, anchoring speculation in hardware realities."
+        },
+        {
+          "source": "",
+          "thread": "Quantum internet privacy panic",
+          "why": "Viral claims about a 2027 quantum internet ending anonymity tapped existing crypto-privacy anxieties far beyond the technical community."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T02:11:28.714345+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Cryptographic (ECDSA/secp256k1)",
+          "level": "High",
+          "note": "Harvest-now-decrypt-later attacks are already viable against exposed public keys; Coinbase estimates 7M BTC sit in quantum-vulnerable P2PK or reused P2PKH addresses.",
+          "source": "https://www.coinbase.com/blog/coinbase-quantum-advisory-council-post-quantum-migration-and-abandoned-coins"
+        },
+        {
+          "dimension": "Market / repricing",
+          "level": "High",
+          "note": "BIP-361 proponents acknowledge that freezing dormant coins could trigger the largest single-day Bitcoin repricing event in history as the market prices in supply removal.",
+          "source": ""
+        },
+        {
+          "dimension": "Governance / coordination",
+          "level": "High",
+          "note": "Bitcoin's lack of a central upgrade authority means any forced migration requires social consensus that may be impossible to achieve before a cryptographic break is demonstrated at scale.",
+          "source": "https://www.coinbase.com/blog/coinbase-quantum-advisory-council-post-quantum-migration-and-abandoned-coins"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "France has announced it will stop certifying products without quantum-safe encryption by 2027, creating compliance pressure that will ripple into exchanges and custodians operating in the EU.",
+          "source": "https://securityboulevard.com/2026/06/france-to-stop-certifying-products-without-quantum-safe-encryption-in-2027/"
+        },
+        {
+          "dimension": "Smart-contract layer",
+          "level": "Medium",
+          "note": "SPHINCS- verification at 127K gas on Ethereum is feasible today without a precompile, but gas costs and signature sizes make mass on-chain migration expensive without protocol-level support.",
+          "source": "https://ethresear.ch/t/sphincs-minus-efficient-stateless-post-quantum-signature-verification-on-the-evm/25165"
+        },
+        {
+          "dimension": "Hardware timeline",
+          "level": "Medium",
+          "note": "Caltech estimates a cryptographically relevant quantum computer requires ~10,000 logical qubits; current leading systems are at early logical-qubit demonstration scale, putting a real break years away but not decades.",
+          "source": "https://www.caltech.edu/about/news/caltech-team-finds-useful-quantum-computers-could-be-built-with-as-few-as-10000-qubits"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:49:36.643389+00:00",
+      "items": [
+        {
+          "clicks": 42,
+          "date": "2026-04-15T08:21:22.515403+00:00",
+          "headline": "NVIDIA unveils Ising, first open AI models for quantum computing, enabling scalable systems with AI-driven calibration and error-correction to accelerate practical quantum use",
+          "hot_score": 8002.100126,
+          "lev_url": "https://leviathannews.xyz/229211/nvidia-unveils-ising-first-open-ai-models-for-quantum-computing-enabling-scalable-systems-with-ai-driven-calibration-and-error-correction-to-accelerate-practical-quantum-use",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415055338_I9uOavB5MGlb.jpg",
+          "url": "https://x.com/i/status/2044058999029473407"
+        },
+        {
+          "clicks": 21,
+          "date": "2026-04-14T15:05:34.404562+00:00",
+          "headline": "IonQ awarded DARPA contract for heterogeneous architectures for quantum (HARQ) program to develop quantum memories.",
+          "hot_score": 7279.753477,
+          "lev_url": "https://leviathannews.xyz/228660/ionq-awarded-darpa-contract-for-heterogeneous-architectures-for-quantum-harq-program-to-develop-quantum-memories",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260414142108_6LQFXkLOeu-R.jpg",
+          "url": "https://x.com/IonQ_Inc/status/2044045000254652421"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-16T08:45:13.899775+00:00",
+          "headline": "BitMEX Research proposes “canary fund” mechanism to delay Bitcoin quantum freeze unless a real quantum threat is proven onchain",
+          "hot_score": 7147.607413,
+          "lev_url": "https://leviathannews.xyz/230205/bitmex-research-proposes-canary-fund-mechanism-to-delay-bitcoin-quantum-freeze-unless-a-real-quantum-threat-is-proven-onchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416071345_SJFXQTLA6DPa.jpg",
+          "url": "https://x.com/i/status/2044517060315697382"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-04-15T19:09:15.711692+00:00",
+          "headline": "Justin Sun reveals Tron’s post-quantum upgrade, targeting NIST-standard signatures to protect network from quantum computing risks and future-proof transactions",
+          "hot_score": 5596.042375,
+          "lev_url": "https://leviathannews.xyz/229659/justin-sun-reveals-trons-post-quantum-upgrade-targeting-nist-standard-signatures-to-protect-network-from-quantum-computing-risks-and-future-proof-transactions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415143913_y8DMU5aNatSA.jpg",
+          "url": "https://www.theblock.co/post/397572/justin-sun-says-tron-launching-post-quantum-upgrade-plan?utm_source=twitter&utm_medium=social"
+        },
+        {
+          "clicks": 13,
+          "date": "2026-06-30T16:37:38.723402+00:00",
+          "headline": "StarkWare lays out 3-phase quantum-proofing plan for Starknet as Ben-Sasson tells crypto to stop stalling",
+          "hot_score": 3413.041991,
+          "lev_url": "https://leviathannews.xyz/265530/starkware-lays-out-3-phase-quantum-proofing-plan-for-starknet-as-ben-sasson-tells-crypto-to-stop-stalling",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630135558_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/starkware-ceo-blasts-crypto-complacency-in-quantum-threat-elliptic-illusion"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-04-15T14:04:05.761164+00:00",
+          "headline": "Bitcoiners propose freezing quantum-vulnerable coins in BIP-361.",
+          "hot_score": 2806.493258,
+          "lev_url": "https://leviathannews.xyz/229534/bitcoiners-propose-freezing-quantum-vulnerable-coins-in-bip-361-the-authors-described-it-as-a-private-incentive-to-upgrade-because-lost-or-frozen-coins-will-make-everyone-elses-coi",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415123138_E05GsIQ0XdiT.jpg",
+          "url": "https://cointelegraph.com/news/bitcoin-devs-and-researchers-propose-freezing-quantum-vulnerable-coins-bip-361"
+        },
+        {
+          "clicks": 52,
+          "date": "2026-05-13T21:20:32.739316+00:00",
+          "headline": "Ethereum's Strawmap aims to fix gaps that pushed users to rival chains and prepare for quantum, privacy, and AI demands",
+          "hot_score": 1006.594797,
+          "lev_url": "https://leviathannews.xyz/241889/ethereums-strawmap-is-the-protocols-most-significant-strategic-reframing-since-the-merge-an-attempt-to-fix-the-gaps-that-drove-users-to-rival-chains-and-to-position-ethereum-as-inf",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260513184539_xI5Gx0oEqoP3.jpg",
+          "url": "https://x.com/uptodatenow/status/2054224757684408422"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-04-20T08:49:51.752534+00:00",
+          "headline": "Quantum threat debate intensifies as Bitcoin leans on gradual upgrades and Ethereum accelerates multi-layer defenses, signaling contrasting approaches to future-proofing blockchain security",
+          "hot_score": 987.2,
+          "lev_url": "https://leviathannews.xyz/233309/quantum-threat-debate-intensifies-as-bitcoin-leans-on-gradual-upgrades-and-ethereum-accelerates-multi-layer-defenses-signaling-contrasting-approaches-to-future-proofing-blockchain-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420081245_CsaMZDDGtbDG.jpg",
+          "url": "https://cointelegraph.com/explained/bitcoin-and-ethereum-quantum-threat-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:49:36.536126+00:00",
+      "editorial": [
+        {
+          "count": 15,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "globenewswire.com"
+        },
+        {
+          "count": 2,
+          "source": "coinbase.com"
+        },
+        {
+          "count": 2,
+          "source": "prnewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "wublockchain.xyz"
+        },
+        {
+          "count": 1,
+          "source": "ripple.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        }
+      ],
+      "editorial_distinct": 20,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 136,
+          "source": "x.com"
+        },
+        {
+          "count": 56,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 35,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 34,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 12,
+          "source": "theblock.co"
+        },
+        {
+          "count": 10,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 9,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 7,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 5,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 5,
+          "source": "wsj.com"
+        },
+        {
+          "count": 4,
+          "source": "naorisprotocol.com"
+        },
+        {
+          "count": 4,
+          "source": "forbes.com"
+        }
+      ],
+      "universe_distinct": 33
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "f86d711a927550ca345c1e95af681ed9f62b8d51071f11a9e5d1d7e170e0508f",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:23.557693+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.205,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0247,
+        "lift_log": 4.187,
+        "score": 0.2047,
+        "shared": 5
+      },
+      "rationale": "Algorand is exploring quantum-resistant signatures and related research.",
+      "relation_type": "ecosystem",
+      "slug": "algorand",
+      "source": "cotag",
+      "tag_name": "Algorand",
+      "title": "Algorand, Explained",
+      "weight": 20
+    },
+    {
+      "confidence": 0.313,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.1813,
+        "lift_log": 4.855,
+        "score": 0.3132,
+        "shared": 44
+      },
+      "rationale": "Post-quantum cryptography is a competing approach to secure systems against quantum attacks.",
+      "relation_type": "peer",
+      "slug": "post-quantum",
+      "source": "cotag",
+      "tag_name": "Post-Quantum",
+      "title": "Post-Quantum, Explained",
+      "weight": 31
+    },
+    {
+      "confidence": 0.418,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.1824,
+        "lift_log": 4.957,
+        "score": 0.4181,
+        "shared": 42
+      },
+      "rationale": "Quantum computing is the core technology that quantum cryptography aims to defend against.",
+      "relation_type": "primitive",
+      "slug": "quantum-computing",
+      "source": "cotag",
+      "tag_name": "Quantum Computing",
+      "title": "Quantum Computing, Explained",
+      "weight": 42
+    },
+    {
+      "confidence": 0.208,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0809,
+        "lift_log": 3.607,
+        "score": 0.2083,
+        "shared": 32
+      },
+      "rationale": "Quantum computing poses a threat to current cryptographic standards.",
+      "relation_type": "risk",
+      "slug": "threat",
+      "source": "cotag",
+      "tag_name": "Threat",
+      "title": "Threat, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "quantum",
+  "tag_name": "quantum",
+  "title": "quantum, Explained"
+}

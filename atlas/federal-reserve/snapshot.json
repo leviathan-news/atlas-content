@@ -1,0 +1,640 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:05:09.048156+00:00",
+      "newsroom_total": 33,
+      "overall_share": 33,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 3,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 36
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 9
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 13
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 9
+        }
+      ],
+      "total_universe": 101,
+      "universe_total": 68
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:05:08.469937+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "federal-reserve",
+          "phrase": "The Fed sets interest rates to influence monetary policy.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "rates",
+          "weight": 32
+        },
+        {
+          "dir": "out",
+          "from": "federal-reserve",
+          "phrase": "The Federal Reserve is the central bank of the United States.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "central-bank",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "federal-reserve",
+          "phrase": "Jerome Powell is the current Chair of the Federal Reserve.",
+          "relation_type": "founder",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "powell",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "federal-reserve",
+          "phrase": "The Fed is researching and developing a central bank digital currency.",
+          "relation_type": "product",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "cbdc",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "federal-reserve",
+          "phrase": "The Fed operates payment systems like Fedwire and FedNow.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "payments",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Federal Reserve",
+          "slug": "federal-reserve",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Rates",
+          "slug": "rates",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 32
+        },
+        {
+          "center": false,
+          "name": "Central Bank",
+          "slug": "central-bank",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Powell",
+          "slug": "powell",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "CBDC",
+          "slug": "cbdc",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Payments",
+          "slug": "payments",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T06:37:23.073832+00:00",
+      "events": [
+        {
+          "date": "2023-12",
+          "kind": "regulatory",
+          "label": "SoFi ceases crypto trading under Fed regulatory pressure, customers directed to Blockchain.com before Dec. 19",
+          "source": ""
+        },
+        {
+          "date": "2024-12",
+          "kind": "governance",
+          "label": "Fed cuts rates to 3.5–3.75%; three governors dissent in biggest internal revolt since 2019",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "governance",
+          "label": "Vice Chair Michael Barr announces departure, stalling prospects for crypto-friendly supervisory reform",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "regulatory",
+          "label": "Fed issues enforcement action (bcreg20250424) against crypto-adjacent bank",
+          "source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20250424a.htm"
+        },
+        {
+          "date": "2026-03",
+          "kind": "governance",
+          "label": "Federal Reserve monetary policy rate decision",
+          "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Trump executive order directs regulators to streamline rules and expand Fed payment account access for fintech and digital asset firms",
+          "source": "https://www.globalfinregblog.com/2026/06/president-trump-issues-executive-order-on-fintech-innovation-while-frb-proposes-payment-accounts/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Federal Reserve issues new bank regulatory action (bcreg20260618)",
+          "source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T06:37:23.073584+00:00",
+      "insight": "Readers aren't clicking the Fed for its rate-setting role — they're clicking for its power as crypto's banking gatekeeper: who gets a master account, who gets a cease-and-desist, and which firms are forced out of the US dollar settlement system entirely.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.americanactionforum.org/insight/kraken-and-the-problem-of-who-should-have-access-to-a-fed-master-account/"
+    },
+    "reader_signal": {
+      "article_count": 33,
+      "as_of": "2026-07-01T12:05:09.862968+00:00",
+      "most_clicked": {
+        "clicks": 302,
+        "date": "2023-11-30T11:05:15.017314+00:00",
+        "headline": "SoFi an online banking platform will ceases crypto trading operations in response to new Federal Reserve regulations, prompting customers to transfer holdings to Blockchain.com before Dec. 19.",
+        "lev_url": "https://leviathannews.xyz/3454/sofi-an-online-banking-platform-will-ceases-crypto-trading-operations-in-response-to-new-federal-reserve-regulations-prompting-customers-to-transfer-holdings-to-blockchaincom-befor"
+      },
+      "provenance": "data",
+      "top_decile_share": 30,
+      "total_clicks": 2584
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T06:37:23.073682+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20250424a.htm",
+          "thread": "Crypto bank enforcement crackdowns",
+          "why": "Cease-and-desist orders against SoFi, Customers Bank, United Texas Bank, and Farmington demonstrated that the Fed could sever firms from the banking system through supervisory action alone, without legislation."
+        },
+        {
+          "source": "https://www.americanactionforum.org/insight/kraken-and-the-problem-of-who-should-have-access-to-a-fed-master-account/",
+          "thread": "Master account access fight",
+          "why": "Custodia's multi-year legal battle and Kraken's eventual win crystallized whether crypto firms could ever gain direct access to Fed payment rails — a question with existential stakes for crypto-native banking."
+        },
+        {
+          "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+          "thread": "Rate decisions crashing crypto prices",
+          "why": "Headlines linking Fed rate signals directly to BTC dropping below $90K on a single jobs report pulled readers tracking macro triggers for crypto volatility."
+        },
+        {
+          "source": "",
+          "thread": "Fed political leadership shakeup",
+          "why": "Trump's firing of Lisa Cook, Barr's exit from the Vice Chair role, and Miran's narrow 48–47 confirmation signaled a possible ideological pivot toward crypto-friendlier Fed oversight."
+        },
+        {
+          "source": "https://www.mayerbrown.com/en/insights/publications/2026/05/federal-reserve-access-for-fintechs-executive-order-and-federal-reserve-payment-account-proposal-signal-potential-new-era-for-fintech-payment-access",
+          "thread": "Tokenization and Fed experimentation",
+          "why": "Project Agorá's 40-firm pilot, the NY Fed and BIS testing smart contracts for monetary policy, and the Fed's tokenization conference showed the central bank actively exploring digital asset infrastructure rather than merely policing it."
+        },
+        {
+          "source": "https://www.sec.gov/files/stablecoin_regulatory_framework.pdf",
+          "thread": "Stablecoin regulatory gaps",
+          "why": "Barr's public calls for stablecoin legislation and the Fed's acknowledged reliance on third-party data for stablecoin oversight drew readers watching whether the Fed could actually supervise a sector it didn't yet understand."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T06:37:23.073690+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "The Fed has issued cease-and-desist orders against multiple crypto-adjacent banks and can effectively de-bank a digital asset firm through supervisory action without any new legislation.",
+          "source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20250424a.htm"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Master account access to Fedwire is a single chokepoint controlled by the Fed; denial bars a firm from US dollar settlement, as Custodia's years-long legal fight over its application illustrates.",
+          "source": "https://www.americanactionforum.org/insight/kraken-and-the-problem-of-who-should-have-access-to-a-fed-master-account/"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Fed rate signals directly move crypto prices — BTC dropped 7% below $90K on one stronger-than-expected jobs report, and $454 million in weekly digital asset fund outflows materialized when a March rate cut appeared unlikely.",
+          "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"
+        },
+        {
+          "dimension": "Governance",
+          "level": "Medium",
+          "note": "Political turnover — Cook's firing, Barr's Vice Chair exit, and Miran's narrow confirmation — creates policy uncertainty precisely when the Fed is actively rewriting its crypto supervisory guidance.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Rate-path uncertainty translates directly into digital asset fund flow reversals, with a single shift in Fed cut expectations capable of wiping out months of year-to-date inflows in under a week.",
+          "source": ""
+        },
+        {
+          "dimension": "Stablecoin/CBDC",
+          "level": "Medium",
+          "note": "The Fed's dependence on third-party data leaves stablecoin oversight structurally incomplete, while a congressional CBDC ban through 2030 has closed off the Fed's digital dollar path regardless of its own preferences.",
+          "source": "https://thedefiant.io/converge/regulation/congress-housing-bill-cbdc-ban-through-2030"
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:05:09.780122+00:00",
+      "items": [
+        {
+          "clicks": 86,
+          "date": "2026-04-09T21:25:15.477680+00:00",
+          "headline": "Fed's reliance on third-party data highlights stablecoin oversight gaps",
+          "hot_score": 261032.232195,
+          "lev_url": "https://leviathannews.xyz/225321/a-new-federal-reserve-paper-just-cited-defillama-as-its-primary-source-for-stablecoin-data-when-central-banks-need-reliable-onchain-data-they-come-to-us",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409205702_CF_xqfCNR6ww.png",
+          "url": "https://x.com/defillama/status/2042312079588102271?s=46&t=iFQa_A_ZkIJab2Wryf70uQ"
+        },
+        {
+          "clicks": 18,
+          "date": "2026-06-22T23:18:26.488873+00:00",
+          "headline": "U.S. Senate passes housing bill containing a four-year ban on a Federal Reserve CBDC, advancing efforts to formally block a digital dollar despite limited Fed development",
+          "hot_score": 555.82069,
+          "lev_url": "https://leviathannews.xyz/260513/the-idea-of-a-us-central-bank-digital-currency-though-little-more-than-a-research-topic-at-the-federal-reserve-may-be-getting-formally-blocked",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622231040_ZA0hXi-m9vFq.jpg",
+          "url": "https://www.coindesk.com/policy/2026/06/22/u-s-senate-passes-housing-bill-that-carries-four-year-ban-on-a-fed-cbdc"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-05-20T13:28:37.959564+00:00",
+          "headline": "Trump order pushes US regulators to streamline rules and expand Federal Reserve access so fintech and digital asset firms can integrate into traditional finance while preserving safeguards.",
+          "hot_score": 460.59935,
+          "lev_url": "https://leviathannews.xyz/245777/trump-order-pushes-us-regulators-to-streamline-rules-and-expand-federal-reserve-access-so-fintech-and-digital-asset-firms-can-integrate-into-traditional-finance-while-preserving-sa",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260520132704_pMlhWFPU4qL8.jpg",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/05/integrating-financial-technology-innovation-into-regulatory-frameworks/"
+        },
+        {
+          "clicks": 64,
+          "date": "2026-03-04T11:21:31.071348+00:00",
+          "headline": "Kraken becomes first crypto firm to win a Federal Reserve master account, gaining direct access to Fedwire interbank payments",
+          "hot_score": 340.078081,
+          "lev_url": "https://leviathannews.xyz/40140/kraken-becomes-first-crypto-firm-to-win-a-federal-reserve-master-account-gaining-direct-access-to-fedwire-interbank-payments",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260304112007_6XzrYkuA46I=.jpg",
+          "url": "https://x.com/CoinDesk/status/2029149865888886917"
+        },
+        {
+          "clicks": 55,
+          "date": "2026-01-12T01:15:21.216385+00:00",
+          "headline": "A criminal investigation into Jerome H. Powell, Federal Reserve chair, has been opened by U.S. attorney’s office in the District of Columbia over the central bank’s renovation of its Washington headquarters and whether Mr. Powell lied to Congress about the scope of the project. Jerome H. Powell has posted this video in response",
+          "hot_score": 62.493658,
+          "lev_url": "https://leviathannews.xyz/23501/a-criminal-investigation-into-jerome-h-powell-federal-reserve-chair-has-been-opened-by-us-attorneys-office-in-the-district-of-columbia-over-the-central-banks-renovation-of-its-wash",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260112011052_1zmdnb1xR4k=.jpg",
+          "url": "https://x.com/federalreserve/status/2010510130970849338?s=20"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-01-12T10:27:42.254157+00:00",
+          "headline": "Digital asset funds saw $454 million in weekly outflows, extending a four-day $1.3 billion withdrawal streak that nearly erased $1.5 billion in year-to-date inflows as expectations for a March Federal Reserve rate cut faded.",
+          "hot_score": 42.129105,
+          "lev_url": "https://leviathannews.xyz/23509/digital-asset-funds-saw-454-million-in-weekly-outflows-extending-a-four-day-13-billion-withdrawal-streak-that-nearly-erased-15-billion-in-year-to-date-inflows-as-expectations-for-a",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260112102655_v1K90paQuoY=.jpg",
+          "url": "https://x.com/cryptounfolded/status/2010658310664667324?s=20"
+        },
+        {
+          "clicks": 39,
+          "date": "2025-12-18T10:16:17.026796+00:00",
+          "headline": "The Federal Reserve has scrapped its 2023 crypto guidance, opening the door for both insured and uninsured state banks to engage in digital asset activities under supervision. The shift signals a softer regulatory stance as U.S. banking adapts to crypto innovation.",
+          "hot_score": 34.451086,
+          "lev_url": "https://leviathannews.xyz/22688/the-federal-reserve-has-scrapped-its-2023-crypto-guidance-opening-the-door-for-both-insured-and-uninsured-state-banks-to-engage-in-digital-asset-activities-under-supervision-the-sh",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251218082502_5YzQNg6g4mE=.webp",
+          "url": "https://crypto.news/federal-reserve-scraps-old-crypto-policy-opens-access-to-digital-asset-activities/"
+        },
+        {
+          "clicks": 26,
+          "date": "2025-12-11T00:48:53.502656+00:00",
+          "headline": "Federal Reserve cuts rates to three-year low after fractious meeting. Three top US central bankers object to move in biggest revolt since 2019.  The benchmark rate was cut by a quarter point to between 3.5 to 3.75 per cent as widely anticipated by Wall Street. It marked the third reduction in borrowing costs in a row.",
+          "hot_score": 24.903562,
+          "lev_url": "https://leviathannews.xyz/22145/federal-reserve-cuts-rates-to-three-year-low-after-fractious-meeting-three-top-us-central-bankers-object-to-move-in-biggest-revolt-since-2019-the-benchmark-rate-was-cut-by-a-quarte",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251211002722_NWeyNWGsYp0=.jpg",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:05:09.685462+00:00",
+      "editorial": [
+        {
+          "count": 7,
+          "source": "federalreserve.gov"
+        },
+        {
+          "count": 5,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "bis.org"
+        },
+        {
+          "count": 2,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 2,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "leviathannews.substack.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.md"
+        },
+        {
+          "count": 1,
+          "source": "cryptoslate.com"
+        }
+      ],
+      "editorial_distinct": 18,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 29,
+          "source": "x.com"
+        },
+        {
+          "count": 23,
+          "source": "federalreserve.gov"
+        },
+        {
+          "count": 5,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 2,
+          "source": "lummis.senate.gov"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptoinamerica.com"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "congress.gov"
+        }
+      ],
+      "universe_distinct": 12
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "fbdbab5f51ffbd9e5faf966e4e3ff012abf168c9e90ae4b237e48e2f9ccc358c",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T18:13:55.777021+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:04.707394+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.252,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.016,
+        "lift_log": 3.142,
+        "score": 0.2522,
+        "shared": 4
+      },
+      "rationale": "The Federal Reserve is the central bank of the United States.",
+      "relation_type": "category",
+      "slug": "central-bank",
+      "source": "cotag",
+      "tag_name": "Central Bank",
+      "title": "Central Bank, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.319,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0407,
+        "lift_log": 4.354,
+        "score": 0.3193,
+        "shared": 5
+      },
+      "rationale": "The Fed sets interest rates to influence monetary policy.",
+      "relation_type": "primitive",
+      "slug": "rates",
+      "source": "cotag",
+      "tag_name": "Rates",
+      "title": "Rates, Explained",
+      "weight": 32
+    }
+  ],
+  "schema_version": 1,
+  "slug": "federal-reserve",
+  "tag_name": "Federal Reserve",
+  "title": "Federal Reserve, Explained"
+}

@@ -1,0 +1,53 @@
+A quarterly report is a periodic disclosure—issued roughly every three months—that summarizes an organization's financial position, operational progress, or market activity over the prior fiscal quarter. In crypto, the term spans everything from audited corporate filings and DAO treasury updates to token-burn announcements and macro research, so "the quarterly" means very different things depending on who is publishing it.
+
+## What "Quarterly Report" Means in Crypto
+
+In traditional finance, the quarterly report is a well-defined artifact: a publicly traded company files a Form 10-Q with the U.S. Securities and Exchange Commission, or an equivalent interim statement with a regulator like the UK's Financial Conduct Authority, containing reviewed (not always fully audited) financial statements and management discussion. Crypto inherited that vocabulary but stretched it across a much wider set of publishers, because the industry mixes regulated public companies, offshore exchanges, on-chain protocols, and informal DAOs that have no statutory filing obligation at all.
+
+The result is a spectrum of "quarterly reports" that vary enormously in rigor. At one end sit SEC filings from listed firms such as Coinbase, MicroStrategy (Strategy), and miners, whose 10-Qs are legally binding and carry liability for misstatement. At the other end sit voluntary protocol "progress reports" and DAO treasury updates, which are useful but self-published, unaudited, and shaped by the team's own framing. Reading any of them well starts with knowing which category you are in.
+
+## Corporate Filings and Treasury Disclosures
+
+The most consequential quarterly reports remain the regulated ones. Public crypto companies file 10-Qs that disclose revenue, custody balances, impairment of digital assets, and risk factors. The 2024 adoption of fair-value accounting for corporate crypto holdings (under the U.S. Financial Accounting Standards Board's ASU 2023-08) made these filings materially more informative, because firms now mark Bitcoin and other tokens to market each quarter rather than only writing them down.
+
+A newer category is the **digital asset treasury (DAT)** company—a listed entity whose primary strategy is accumulating crypto on its balance sheet. ARK's *The DeFi Quarterly* for Q3 2025 flagged the rise of these treasuries alongside stablecoins, real-world assets (RWAs), and tokenization as defining structural themes. For DATs, the quarterly report is the main window into how much leverage funded the accumulation and whether the strategy survives a drawdown—an especially important disclosure given how quickly sentiment can reverse.
+
+The cautionary backdrop here is **FTX**. The exchange published glossy metrics and projected solvency right up until its November 2022 collapse, yet its real liabilities only became legible through the post-bankruptcy estate's court-supervised reporting. The lesson is durable: an attractive self-published quarterly deck is not the same as an audited, independently verified statement, and the absence of statutory reporting was central to how FTX hid its hole.
+
+## Protocol and DAO Progress Reports
+
+On-chain organizations have adopted the quarterly cadence as a transparency and accountability tool, even without a regulator requiring it. The **Curve Ecosystem Grant** publishes a quarterly progress report—the March–May 2025 edition, for example, highlighted core protocol developments and strengthened cross-chain capabilities—giving token holders a recurring view into what grant capital funded. Curve founder Michael Egorov similarly began publishing a recurring "Quarterly Progress Report" to consolidate development updates across the Curve ecosystem in one place.
+
+Treasury reporting is the DAO analog of a corporate balance sheet. **StargateDAO's** quarterly treasury report, for instance, lets LayerZero-ecosystem stakeholders track runway, asset composition, and spending. Because DAO treasuries are often held in volatile governance tokens, these reports matter most for what they reveal about diversification and the number of months of operating runway a protocol actually holds.
+
+Two structural caveats apply to all protocol reports. First, they are written by the team being evaluated, so framing and metric selection deserve scrutiny. Second, on-chain data is verifiable in a way a press release is not—a credible protocol report should let readers reproduce its headline figures from public block data rather than asking them to trust a chart. A USDAI quarterly report cited in recent coverage, showing the Fluid lending market capturing roughly 60% of all sUSDai supply since mid-February, is the kind of claim a reader can in principle check against on-chain balances.
+
+## Tokenomics on a Calendar: Burns and Fee Reviews
+
+Some "quarterly reports" are really scheduled tokenomic events. **Binance's** BNB burn is the clearest example: under the BEP-95 auto-burn mechanism, the amount of BNB destroyed each quarter is calculated from BNB's price and the number of blocks produced on BNB Smart Chain, with the program continuing until total supply reaches a 100-million hard cap. The 33rd auto-burn in October 2025 removed more than 1.44 million BNB—worth roughly $1.69 billion at the time—cutting supply to just under 138 million ([CoinDesk](https://www.coindesk.com/markets/2025/10/27/bnb-jumps-over-3-after-usd1-69b-token-burn-overtakes-xrp-s-market-cap); [BNB Chain](https://www.binance.com/en/square/post/10-27-2025-bnb-chain-completes-33rd-quarterly-token-burn-31575046608154)). Newsroom coverage of an earlier roughly $450M burn reflects how the dollar value swings with price even as the mechanism stays fixed.
+
+Governance can also institutionalize quarterly review. The **Tron** network approved a vote to cut network fees by about 60% and to conduct quarterly dynamic reviews of fees thereafter—turning the quarter into a recurring policy checkpoint rather than a one-off. These calendar-driven events are worth distinguishing from informational reports: a burn or fee review changes the asset's supply or economics directly, so the "report" is the action itself.
+
+## Derivatives and the Quarterly Expiry
+
+In derivatives, "quarterly" denotes a contract's settlement cadence rather than a document. Futures and options listed with quarterly expiries settle on fixed dates each quarter (commonly the last business Friday of March, June, September, and December), and those dates concentrate liquidity, rollover activity, and sometimes volatility.
+
+This calendar now sits at the center of regulated crypto trading. **CME Group** reported a record quarter of 29.8 million contracts traded per day, with crypto volume alone reaching $11.3 billion in notional terms, driven heavily by micro ether futures—and announced options on Solana (SOL) and XRP futures launching October 13, 2025, pending regulatory approval, with daily, monthly, and quarterly expiries. On the DeFi side, **Aevo** launched ETH options spanning daily, weekly, monthly, and quarterly expiries, bringing the same structured calendar on-chain. For traders, the quarterly expiry is a scheduling fact to plan around; for analysts, expiry concentration is a recurring data point in any market-structure report.
+
+## Research and Market Reports
+
+A large share of crypto "quarterly reports" are sell-side or independent research products that summarize the prior quarter's market activity. ARK's *The DeFi Quarterly* (Q3 2025) is one example, organized around stablecoins, RWAs, tokenization, and digital asset treasuries. Layer-2 ecosystems increasingly publish quarterly metrics of their own: **Base**, the Coinbase-incubated **L2**, reported figures including roughly $4 billion bridged in from Ethereum L1, about $185 million in "quarterly GDP," $840 million in active loans, and 275,000 weekly stablecoin senders—using a GDP-style framing to describe on-chain economic throughput.
+
+Independent and official-sector research provides a useful counterweight to ecosystem self-reporting. A Bank for International Settlements (BIS) working paper noted that stablecoins are gaining real ground in global payments—with cross-border crypto transactions cited at roughly $800 billion quarterly—while arguing that Bitcoin and Ether remain largely speculative assets. Reading an ecosystem's upbeat quarterly alongside a skeptical central-bank paper is often the fastest way to separate genuine adoption from headline metrics.
+
+## How to Read a Crypto Quarterly Report Critically
+
+Because the label is so elastic, a few habits help. First, identify the publisher's obligations: a regulated 10-Q (U.S.) or an FCA-supervised interim statement (**UK**) carries legal liability that a voluntary blog-post "report" does not. Second, distinguish audited figures from management estimates, and on-chain-verifiable claims from off-chain assertions. Third, watch metric definitions—"GDP," "TVL," and "active loans" are not standardized across reports, and a flattering denominator can inflate a growth number.
+
+The transparency stakes are not abstract. The **Libra** memecoin episode in early 2025—an Argentina-linked token that surged and collapsed amid allegations of insider concentration—underscored how quickly opaque tokenomics can harm participants when no credible, recurring disclosure exists. (The earlier Facebook-led "Libra"/Diem stablecoin project failed for a different reason: regulatory resistance, before any quarterly reporting cadence mattered.) Both share a theme with FTX: the quality of disclosure, not the polish of a chart, determines whether a "report" is information or marketing.
+
+Finally, treat a single quarter as a data point, not a trend. Macro context shifts fast—gold's run to record highs on its biggest quarterly surge in nearly four decades, or hedge-fund assets reaching a record $5 trillion on 18-year-high inflows, show how external capital flows reshape the backdrop against which any crypto quarter is judged.
+
+## Outlook
+
+The quarterly cadence is likely to become more formalized in crypto, not less. Fair-value accounting, growing regulatory clarity in the U.S. and UK, and the rise of disclosure-conscious DAOs all push toward more standardized, comparable reporting. Expect continued convergence between ecosystem self-reporting (Base-style L2 dashboards, Curve and Stargate treasury updates) and independent verification (BIS papers, audited filings, on-chain analytics). For readers, the durable skill is the same regardless of publisher: check who is obligated to tell the truth, confirm what can be verified on-chain, and treat any single quarter as one frame in a longer film.

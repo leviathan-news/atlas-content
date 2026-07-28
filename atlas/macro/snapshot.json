@@ -1,0 +1,645 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:59:29.320395+00:00",
+      "newsroom_total": 44,
+      "overall_share": 33,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": 83,
+          "month": "2026-02",
+          "newsroom": 10,
+          "universe": 2
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-03",
+          "newsroom": 5,
+          "universe": 32
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-04",
+          "newsroom": 2,
+          "universe": 16
+        },
+        {
+          "ed_share": 19,
+          "month": "2026-05",
+          "newsroom": 3,
+          "universe": 13
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 25
+        }
+      ],
+      "total_universe": 132,
+      "universe_total": 88
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:59:28.553476+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "macro",
+          "phrase": "Oil is a key macroeconomic asset often correlated with inflation and growth.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "oil",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "macro",
+          "phrase": "Policy is a broad category that includes macroeconomic decisions.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "policy",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "macro",
+          "phrase": "Interest rates are a core macroeconomic tool influencing borrowing and investment.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "interest-rates",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "macro",
+          "phrase": "Tariffs are trade policy instruments affecting macro conditions.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "tariffs",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "macro",
+          "phrase": "Liquidations can be triggered by macro shocks like rate hikes.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "liquidations",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Macro",
+          "slug": "macro",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "OIL",
+          "slug": "oil",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "policy",
+          "slug": "policy",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Interest rates",
+          "slug": "interest-rates",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Tariffs",
+          "slug": "tariffs",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Liquidations",
+          "slug": "liquidations",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T04:16:23.039598+00:00",
+      "events": [
+        {
+          "date": "2025-12",
+          "kind": "milestone",
+          "label": "Pantera Capital flags extreme altcoin dispersion vs Bitcoin in 2025",
+          "source": ""
+        },
+        {
+          "date": "2026-01",
+          "kind": "launch",
+          "label": "World Liberty Financial unveils Macro Strategy token reserve",
+          "source": ""
+        },
+        {
+          "date": "2026-01",
+          "kind": "milestone",
+          "label": "Arthur Hayes publishes 'The Easy Button' on USDJPY as key macro variable",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Bitcoin posts worst Q1 return since 2018, down 24%",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Arthur Hayes turns bearish, targets $70K Bitcoin on macro risks",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "regulatory",
+          "label": "BlackRock gates $26B private credit fund at 9.3% redemptions",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Hormuz crisis erupts: EU diesel +50%, $200 oil scenario priced in",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Circle S-1 filed; IPO proceeds amid stablecoin competitive threat from corporate America",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T04:16:23.039410+00:00",
+      "insight": "Leviathan readers treat macro not as background context but as the primary trading signal — they click hardest when a named analyst translates a specific macro variable (USDJPY, Fed timing, oil prices, liquidity cycles) directly into a Bitcoin price call, revealing that the audience wants actionable macro-to-crypto translation, not general market commentary.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 44,
+      "as_of": "2026-07-01T11:59:31.419049+00:00",
+      "most_clicked": {
+        "clicks": 216,
+        "date": "2024-05-21T08:47:50.587755+00:00",
+        "headline": "New Arthur Hayes essay - “The Easy Button” is an essay on why USDJPY is the most important macro variable",
+        "lev_url": "https://leviathannews.xyz/5536/new-arthur-hayes-essay-the-easy-button-is-an-essay-on-why-usdjpy-is-the-most-important-macro-variable"
+      },
+      "provenance": "data",
+      "top_decile_share": 25,
+      "total_clicks": 3266
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T04:16:23.039478+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Arthur Hayes macro thesis",
+          "why": "Hayes repeatedly anchored Bitcoin price calls to specific macro variables like USDJPY and treasury trends, giving readers a named, high-conviction framework to follow or challenge."
+        },
+        {
+          "source": "",
+          "thread": "Bitcoin as liquidity proxy",
+          "why": "Multiple analysts framing Bitcoin's returns as driven by global liquidity cycles rather than internal crypto catalysts resonated with readers seeking a macro explanation for prolonged underperformance."
+        },
+        {
+          "source": "",
+          "thread": "Fed rate path and crypto",
+          "why": "The direct link between Fed rate decisions, stablecoin revenue models like Circle's, and risk-asset appetite gave readers a concrete transmission mechanism between TradFi policy and crypto prices."
+        },
+        {
+          "source": "",
+          "thread": "Geopolitical oil shock risk",
+          "why": "The Hormuz crisis breakdown and Iran war oil spike forcing a Fed hold connected energy market disruption directly to crypto risk-off scenarios that readers found immediately actionable."
+        },
+        {
+          "source": "",
+          "thread": "Private credit fund gating",
+          "why": "BlackRock, Blackstone, and Blue Owl freezing redemptions signaled systemic TradFi stress that readers interpreted as a leading indicator for broader risk asset contagion."
+        },
+        {
+          "source": "",
+          "thread": "Asian capital flows reversing",
+          "why": "The questioning of $7.5 trillion in Asian investment in American assets touched on dollar reserve status and capital reallocation narratives that underpin Bitcoin's macro hedge thesis."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T04:16:23.039492+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Market / Liquidity",
+          "level": "High",
+          "note": "Bitcoin shed 24% in Q1 2026 and analysts flagged negative ETF demand and aging drawdowns with no confirmed macro catalyst for reversal as of mid-2026.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Stablecoins are the only sector with clear institutional traction but face intensifying competitive pressure as JPMorgan, Walmart, and PayPal prepare corporate stablecoin entries coinciding with Circle's IPO.",
+          "source": ""
+        },
+        {
+          "dimension": "Geopolitical / Oil Shock",
+          "level": "High",
+          "note": "The Hormuz crisis scenario projecting $200 oil and EU diesel up 50% represents a tail risk that could force sustained Fed tightening and suppress risk-on asset recovery.",
+          "source": ""
+        },
+        {
+          "dimension": "Interest Rate Sensitivity",
+          "level": "High",
+          "note": "Circle's 99% revenue dependence on interest rates illustrates how a Fed rate-cutting cycle could simultaneously unlock crypto risk appetite while devastating stablecoin issuer economics.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization / Institutional Gating",
+          "level": "Medium",
+          "note": "Major private credit funds gating withdrawals at 9.3% redemption rates signals liquidity stress in TradFi that historically precedes forced selling across correlated risk assets including crypto.",
+          "source": ""
+        },
+        {
+          "dimension": "AI-driven macro displacement",
+          "level": "Low",
+          "note": "Citadel Securities rebutted fears of imminent AI-driven macro collapse, arguing current adoption and labor data do not support near-term systemic disruption to investment frameworks.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:59:31.243332+00:00",
+      "items": [
+        {
+          "clicks": 214,
+          "date": "2026-04-01T10:59:54.576308+00:00",
+          "headline": "Bitcoin sheds 24% in Q1, posting worst first-quarter return since 2018 as macro headwinds mount",
+          "hot_score": 1034.622902,
+          "lev_url": "https://leviathannews.xyz/219065/bitcoin-sheds-24-in-q1-posting-worst-first-quarter-return-since-2018-as-macro-headwinds-mount",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401075506_Uo_RigsJ8ijQ.jpg",
+          "url": "https://www.theblock.co/post/395991/bitcoin-worst-q1-since-2018"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-05-18T06:35:22.278243+00:00",
+          "headline": "Crypto bulls suffered $563M in liquidations as macro fears triggered sharp sell-offs across bitcoin and ether, wiping out leveraged rally bets",
+          "hot_score": 728.096268,
+          "lev_url": "https://leviathannews.xyz/244229/crypto-bulls-suffered-563m-in-liquidations-as-macro-fears-triggered-sharp-sell-offs-across-bitcoin-and-ether-wiping-out-leveraged-rally-bets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260518062924_cxaRKi9gqywh.jpg",
+          "url": "https://www.coindesk.com/markets/2026/05/18/crypto-traders-betting-on-a-rally-lose-usd563-million-in-liquidations-ether-and-bitcoin-suffer-the-most"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-05-18T06:32:50.323333+00:00",
+          "headline": "Fundstrat’s Tom Lee says surging oil prices are Ethereum’s biggest macro headwind, with ETH facing record inverse correlation against crude markets",
+          "hot_score": 728.033071,
+          "lev_url": "https://leviathannews.xyz/244227/fundstrats-tom-lee-says-surging-oil-prices-are-ethereums-biggest-macro-headwind-with-eth-facing-record-inverse-correlation-against-crude-markets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260518062118_XzgIV_tJzMYI.jpg",
+          "url": "https://cointelegraph.com/news/surging-oil-prices-key-driver-of-eth-selling-pressure-says-tom-lee"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-06-19T15:11:38.700560+00:00",
+          "headline": "BIS Bulletin 125 shows CEX pay stablecoin holders using reserve returns or market income, with reserve-based yields tracking policy rates while activity-based yields are volatile, potentially shaping future macro-financial implications as stablecoins become bank deposit substitutes or funding for exchanges' risky activities.",
+          "hot_score": 422.290498,
+          "lev_url": "https://leviathannews.xyz/259446/bis-bulletin-125-shows-cex-pay-stablecoin-holders-using-reserve-returns-or-market-income-with-reserve-based-yields-tracking-policy-rates-while-activity-based-yields-are-volatile-po",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260619150942_zSiko1bKJ7WF.jpg",
+          "url": "https://www.bis.org/publ/bisbull125.htm"
+        },
+        {
+          "clicks": 101,
+          "date": "2026-02-25T19:42:41.135069+00:00",
+          "headline": "Citadel Securities published a rebuttal to the Citrini7 piece, arguing in “The 2026 Global Intelligence Crisis” that fears of imminent mass AI-driven job loss and macro collapse are overstated given current adoption, labor, and investment data.",
+          "hot_score": 352.699572,
+          "lev_url": "https://leviathannews.xyz/34292/citadel-securities-published-a-rebuttal-to-the-citrini7-piece-arguing-in-the-2026-global-intelligence-crisis-that-fears-of-imminent-mass-ai-driven-job-loss-and-macro-collapse-are-o",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260225194011_C9YNQbbbtls=.jpg",
+          "url": "https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-05-05T10:50:35.520966+00:00",
+          "headline": "Bitcoin breaks macro playbook as BTC rallies alongside rising inflation signals, marking shift from traditional risk-off behavior and reshaping narrative as a pro-inflation asset",
+          "hot_score": 326.50502,
+          "lev_url": "https://leviathannews.xyz/237903/no-headline-20260505",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260505103732_h7eF8Ilb0Vi-.jpg",
+          "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-used-to-hate-inflation-now-it-might-be-the-opposite"
+        },
+        {
+          "clicks": 62,
+          "date": "2026-02-26T10:05:55.253118+00:00",
+          "headline": "Yield Basis: Solving Impermanent Loss to Scale DeFi for the Bitcoin Macro Cycle",
+          "hot_score": 244.094448,
+          "lev_url": "https://leviathannews.xyz/34750/yield-basis-solving-impermanent-loss-to-scale-defi-for-the-bitcoin-macro-cycle",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260226100456_jSYy0WXnpRc=.jpg",
+          "url": "https://x.com/hell0men/status/2026696319230726441"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-02-24T22:25:40.846276+00:00",
+          "headline": "Insiders are selling at the fastest pace since COVID, macro data keeps missing, and rate cut odds fade as markets flirt with peak fear again.",
+          "hot_score": 157.886483,
+          "lev_url": "https://leviathannews.xyz/33426/insiders-are-selling-at-the-fastest-pace-since-covid-macro-data-keeps-missing-and-rate-cut-odds-fade-as-markets-flirt-with-peak-fear-again",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260224221856_XaxRZQFS134=.jpg",
+          "url": "https://x.com/i/status/2026298129495310561"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:59:31.130250+00:00",
+      "editorial": [
+        {
+          "count": 17,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "nytimes.com"
+        },
+        {
+          "count": 1,
+          "source": "youtu.be"
+        },
+        {
+          "count": 1,
+          "source": "funds.galaxy.com"
+        },
+        {
+          "count": 1,
+          "source": "defillama.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptohayes.substack.com"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        }
+      ],
+      "editorial_distinct": 22,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 55,
+          "source": "x.com"
+        },
+        {
+          "count": 11,
+          "source": "theblock.co"
+        },
+        {
+          "count": 6,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 5,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "diadata.org"
+        },
+        {
+          "count": 1,
+          "source": "woox.io"
+        }
+      ],
+      "universe_distinct": 13
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "ec0649dd927558d41987ca0b1d82dcaec957e5d6217a0dc45fd927a04bbbf753",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:22:15.057594+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.206,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0203,
+        "lift_log": 4.275,
+        "score": 0.2062,
+        "shared": 3
+      },
+      "rationale": "Interest rates are a core macroeconomic tool influencing borrowing and investment.",
+      "relation_type": "primitive",
+      "slug": "interest-rates",
+      "source": "cotag",
+      "tag_name": "Interest rates",
+      "title": "Interest rates, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.224,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0225,
+        "lift_log": 4.646,
+        "score": 0.2242,
+        "shared": 3
+      },
+      "rationale": "Oil is a key macroeconomic asset often correlated with inflation and growth.",
+      "relation_type": "peer",
+      "slug": "oil",
+      "source": "cotag",
+      "tag_name": "OIL",
+      "title": "OIL, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.211,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0122,
+        "lift_log": 2.278,
+        "score": 0.2109,
+        "shared": 4
+      },
+      "rationale": "Policy is a broad category that includes macroeconomic decisions.",
+      "relation_type": "category",
+      "slug": "policy",
+      "source": "cotag",
+      "tag_name": "policy",
+      "title": "policy, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "macro",
+  "tag_name": "Macro",
+  "title": "Macro, Explained"
+}

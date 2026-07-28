@@ -1,0 +1,543 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:15:58.589667+00:00",
+      "newsroom_total": 23,
+      "overall_share": 92,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 8,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 25,
+      "universe_total": 2
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:15:58.269849+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "pectra",
+          "phrase": "Pectra is a specific Ethereum upgrade.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ethereum-upgrade",
+          "weight": 46
+        },
+        {
+          "dir": "out",
+          "from": "pectra",
+          "phrase": "Pectra implements multiple EIPs.",
+          "relation_type": "protocol",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ethereum-improvement-proposal",
+          "weight": 33
+        },
+        {
+          "dir": "out",
+          "from": "pectra",
+          "phrase": "Pectra is tested on testnets before mainnet.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "testnet",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "pectra",
+          "phrase": "Validators are key participants in Pectra's consensus.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "validators",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "pectra",
+          "phrase": "Pectra is deployed on Ethereum mainnet.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "mainnet",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Pectra",
+          "slug": "pectra",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Ethereum Upgrade",
+          "slug": "ethereum-upgrade",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 46
+        },
+        {
+          "center": false,
+          "name": "EIP",
+          "slug": "ethereum-improvement-proposal",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 33
+        },
+        {
+          "center": false,
+          "name": "Testnet",
+          "slug": "testnet",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Validators",
+          "slug": "validators",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Mainnet",
+          "slug": "mainnet",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:32:32.379215+00:00",
+      "events": [
+        {
+          "date": "2025-02",
+          "kind": "milestone",
+          "label": "Pectra activates on Holesky testnet at epoch 115,968",
+          "source": "https://www.blockdaemon.com/blog/ethereums-pectra-upgrade-navigating-the-testnet-incidents"
+        },
+        {
+          "date": "2025-03",
+          "kind": "milestone",
+          "label": "Pectra activates on Sepolia testnet; first buggy test triggers formal delay",
+          "source": "https://www.blockdaemon.com/blog/ethereums-pectra-upgrade-navigating-the-testnet-incidents"
+        },
+        {
+          "date": "2025-03",
+          "kind": "milestone",
+          "label": "Hoodi testnet launched as final pre-mainnet dress rehearsal",
+          "source": "https://etherworld.co/ethereums-hoodi-testnet-launched/"
+        },
+        {
+          "date": "2025-04",
+          "kind": "governance",
+          "label": "Hoodi upgrade succeeds; May 7 mainnet date confirmed by core engineers",
+          "source": "https://blog.ethereum.org/2025/04/23/pectra-mainnet"
+        },
+        {
+          "date": "2025-05",
+          "kind": "launch",
+          "label": "Pectra goes live on Ethereum mainnet at epoch 364032 (May 7, 06:05 ET)",
+          "source": "https://thedefiant.io/news/blockchains/ethereum-pectra-upgrade-live"
+        },
+        {
+          "date": "2025-05",
+          "kind": "exploit",
+          "label": "EIP-7702 wallet-drain bots detected; Wintermute and SlowMist issue public warnings",
+          "source": "https://info.etherscan.com/what-you-need-to-know-about-eip-7702-smart-account/"
+        },
+        {
+          "date": "2025-05",
+          "kind": "exploit",
+          "label": "WLFI targeted via malicious EIP-7702 delegate contracts post-Pectra",
+          "source": "https://info.etherscan.com/what-you-need-to-know-about-eip-7702-smart-account/"
+        },
+        {
+          "date": "2025-05",
+          "kind": "milestone",
+          "label": "Over 11,000 EIP-7702 authorizations recorded in first week; Solidity v0.8.30 released",
+          "source": "https://www.soliditylang.org/blog/2025/05/07/solidity-0.8.30-release-announcement/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:32:32.378985+00:00",
+      "insight": "Readers were most drawn to validator economics (EIP-7251's stake ceiling raise dominated at 636 clicks), but EIP-7702 wallet-drain exploits generated sustained multi-article engagement (172+129+111 clicks across three separate incidents), revealing readers treated the exploit story as an ongoing threat to monitor rather than a single event — security concern outpaced upgrade enthusiasm in aggregate clicks.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://info.etherscan.com/what-you-need-to-know-about-eip-7702-smart-account/"
+    },
+    "reader_signal": {
+      "article_count": 23,
+      "as_of": "2026-07-01T12:15:59.097774+00:00",
+      "most_clicked": {
+        "clicks": 636,
+        "date": "2024-03-22T15:59:54.461505+00:00",
+        "headline": "Ethereum's upcoming Pectra upgrade to adjust validator stake range to ease operational burden and enhance reward opportunities for validators.",
+        "lev_url": "https://leviathannews.xyz/4344/ethereums-upcoming-pectra-upgrade-to-adjust-validator-stake-range-to-ease-operational-burden-and-enhance-reward-opportunities-for-validators"
+      },
+      "provenance": "data",
+      "top_decile_share": 30,
+      "total_clicks": 2783
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:32:32.379077+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://eips.ethereum.org/EIPS/eip-7251",
+          "thread": "EIP-7251 validator stake ceiling",
+          "why": "The raise of the max effective balance from 32 ETH to 2,048 ETH directly affects staking economics for solo and institutional validators, making it the single highest-clicked angle by a wide margin."
+        },
+        {
+          "source": "https://info.etherscan.com/what-you-need-to-know-about-eip-7702-smart-account/",
+          "thread": "EIP-7702 wallet drain exploits",
+          "why": "Multiple articles on bots and hackers exploiting the new delegate-contract authorization flow kept readers returning as each new incident (WLFI, Wintermute warning, bot activity) added a concrete victim or escalation."
+        },
+        {
+          "source": "https://www.blockdaemon.com/blog/ethereums-pectra-upgrade-navigating-the-testnet-incidents",
+          "thread": "Testnet delays and progression",
+          "why": "The sequential Holesky → Sepolia → Hoodi → mainnet cadence, punctuated by a high-profile delay after buggy tests, created a serialized narrative readers followed for launch readiness signals."
+        },
+        {
+          "source": "https://blog.ethereum.org/2025/04/23/pectra-mainnet",
+          "thread": "Mainnet launch date confirmation",
+          "why": "Readers clicked repeatedly on date-anchored articles (May 7 confirmation, epoch 364032 specifics) because a hard activation slot turns speculation into actionable timing for validators and DeFi protocols."
+        },
+        {
+          "source": "https://eco.com/support/en/articles/14796249-eip-7702-explained-account-abstraction-for-eoas",
+          "thread": "Smart wallet adoption post-launch",
+          "why": "Over 11,000 EIP-7702 authorizations in the first week demonstrated real user uptake of account-abstraction features without contract migration, validating a UX narrative that had been theoretical until mainnet."
+        },
+        {
+          "source": "https://blog.lido.fi/lidos-roadmap-to-pectra-navigating-complexity/",
+          "thread": "Lido and staking protocol impacts",
+          "why": "Pectra's validator consolidation mechanics directly enable Lido's stVault migration path, drawing engagement from liquid-staking token holders tracking protocol-level changes to their yield infrastructure."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:32:32.379125+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / EIP-7702 exploit",
+          "level": "High",
+          "note": "EIP-7702 lets EOAs temporarily delegate to arbitrary contracts; malicious delegate contracts can be used to drain wallets if a private key is compromised, with SlowMist and Wintermute both issuing warnings within days of mainnet launch.",
+          "source": "https://info.etherscan.com/what-you-need-to-know-about-eip-7702-smart-account/"
+        },
+        {
+          "dimension": "Centralization / validator consolidation",
+          "level": "Medium",
+          "note": "Raising the max effective balance to 2,048 ETH reduces validator set churn but incentivizes large operators to consolidate, potentially concentrating block-proposal power among fewer entities over time.",
+          "source": "https://eips.ethereum.org/EIPS/eip-7251"
+        },
+        {
+          "dimension": "Slashing / penalty mechanics",
+          "level": "Medium",
+          "note": "EIP-7251 consolidation of validator balances means a single slashing event can affect a much larger stake quantum than the legacy 32 ETH cap, amplifying per-entity penalty exposure for large operators.",
+          "source": "https://eips.ethereum.org/EIPS/eip-7251"
+        },
+        {
+          "dimension": "Testnet / deployment risk",
+          "level": "Low",
+          "note": "Two failed testnet runs on Holesky and Sepolia caused a formal delay, but the subsequent Hoodi testnet succeeded without finalization issues, and mainnet launched cleanly on May 7, 2025.",
+          "source": "https://www.blockdaemon.com/blog/ethereums-pectra-upgrade-navigating-the-testnet-incidents"
+        },
+        {
+          "dimension": "Liquidity / DeFi protocol migration",
+          "level": "Low",
+          "note": "Protocols like Lido required non-trivial engineering to adopt Pectra's consolidation primitives, but the upgrade is backward-compatible and existing validator positions remained operational throughout.",
+          "source": "https://blog.lido.fi/lidos-roadmap-to-pectra-navigating-complexity/"
+        },
+        {
+          "dimension": "Market / sentiment",
+          "level": "Low",
+          "note": "Post-Pectra Ethereum ETF inflows recovered and digital-asset funds logged five consecutive weeks of inflows totalling $7.5B year-to-date through the upgrade window, suggesting the market read the launch as a net positive.",
+          "source": "https://www.ig.com/en/news-and-trade-ideas/ethereum-price-outlook--pectra-upgrade-and-etf-inflows-fail-to-s-260512"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:15:59.018126+00:00",
+      "items": [
+        {
+          "clicks": 58,
+          "date": "2026-04-09T01:11:10.138657+00:00",
+          "headline": "Ethereum’s Pectra upgrade powers Lido’s consolidation mechanism, letting validators transfer balances directly and stay productive while migrating into stVaults",
+          "hot_score": 25983.05143,
+          "lev_url": "https://leviathannews.xyz/223535/ethereums-pectra-upgrade-powers-lidos-consolidation-mechanism-letting-validators-transfer-balances-directly-and-stay-productive-while-migrating-into-stvaults",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408094907_8FCz6mDzF3Ft.jpg",
+          "url": "https://x.com/i/status/2041795861647131100"
+        },
+        {
+          "clicks": 636,
+          "date": "2024-03-22T15:59:54.461505+00:00",
+          "headline": "Ethereum's upcoming Pectra upgrade to adjust validator stake range to ease operational burden and enhance reward opportunities for validators.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4344/ethereums-upcoming-pectra-upgrade-to-adjust-validator-stake-range-to-ease-operational-burden-and-enhance-reward-opportunities-for-validators",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240322155855_EOdmAfhkwQ==.jpeg",
+          "url": "https://www.theblock.co/post/284189/ethereums-pectra-upgrade-to-raise-validator-stake-to-between-32-and-2048-eth"
+        },
+        {
+          "clicks": 186,
+          "date": "2025-02-14T08:38:23.608611+00:00",
+          "headline": "Ethereum developers release Pectra client software for Holesky & Sepolia ahead of April mainnet upgrade.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9327/ethereum-developers-release-pectra-client-software-for-holesky-sepolia-ahead-of-april-mainnet-upgrade",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250214083536_s5iheqvYUkU=.jpg",
+          "url": "https://www.theblock.co/post/340860/ethereum-devs-release-client-software-for-pectra-upgrade-on-testnets-mainnet-launch-expected-in-april"
+        },
+        {
+          "clicks": 173,
+          "date": "2025-09-02T08:32:48.616595+00:00",
+          "headline": "Trump-backed World Liberty Financial (WLFI) is under attack after Ethereum’s Pectra upgrade exposed a flaw in EIP-7702. Hackers are exploiting malicious delegate contracts to drain wallets, with SlowMist warning compromised keys can lead to total asset loss.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/15511/trump-backed-world-liberty-financial-wlfi-is-under-attack-after-ethereums-pectra-upgrade-exposed-a-flaw-in-eip-7702-hackers-are-exploiting-malicious-delegate-contracts-to-drain-wal",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250902082320_1FGGpBZQe4Y=.jpg",
+          "url": "https://cryptonews.com/news/trumps-crypto-project-wlfi-under-attack-as-ethereum-upgrade-backfires-what-went-wrong"
+        },
+        {
+          "clicks": 165,
+          "date": "2025-02-25T10:02:03.546985+00:00",
+          "headline": "Ethereum's Pectra upgrade went live on the Holesky testnet at epoch 115,968, kicking off critical stress tests before its mainnet debut, though finalization remains pending.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9530/ethereums-pectra-upgrade-went-live-on-the-holesky-testnet-at-epoch-115968-kicking-off-critical-stress-tests-before-its-mainnet-debut-though-finalization-remains-pending",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250225095856_Va3jSjL6ENg=.jpg",
+          "url": "https://www.theblock.co/post/343150/ethereum-developers-activate-pectra-upgrade-on-holesky-testnet-finalization-pending"
+        },
+        {
+          "clicks": 153,
+          "date": "2025-03-27T06:55:15.129146+00:00",
+          "headline": "Ethereum takes big step toward Pectra mainnet launch with successful Hoodi testnet upgrade, final deployment likely in Q2.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10200/ethereum-takes-big-step-toward-pectra-mainnet-launch-with-successful-hoodi-testnet-upgrade-final-deployment-likely-in-q2",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250327065408_I4C1pnMvKlg=.jpg",
+          "url": "https://www.theblock.co/post/348367/ethereum-hoodi-pectra-upgrade"
+        },
+        {
+          "clicks": 129,
+          "date": "2025-06-02T05:28:18.366328+00:00",
+          "headline": "It's a bug, not a feature: bots use Ethereum's “Pectra” upgrade EIP-7702 to drain wallets",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/11876/its-a-bug-not-a-feature-bots-use-ethereums-pectra-upgrade-eip-7702-to-drain-wallets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250602050434_K8fHbEJH4YI=.jpg",
+          "url": "https://x.com/BSCNews/status/1929395061982392603"
+        },
+        {
+          "clicks": 124,
+          "date": "2025-01-02T14:46:21.689053+00:00",
+          "headline": "Stani’s latest post highlights Ethereum’s game-changing Pectra upgrade in 2025, set to boost scalability, UX, and smart wallet capabilities, paving the way for a transformative year ahead.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8524/stanis-latest-post-highlights-ethereums-game-changing-pectra-upgrade-in-2025-set-to-boost-scalability-ux-and-smart-wallet-capabilities-paving-the-way-for-a-transformative-year-ahea",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250102144557_iY-EpgvzbQ==.png",
+          "url": "https://x.com/StaniKulechov/status/1874403840750940431"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:15:58.939396+00:00",
+      "editorial": [
+        {
+          "count": 9,
+          "source": "x.com"
+        },
+        {
+          "count": 6,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "docs.zerodev.app"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "consensys.io"
+        },
+        {
+          "count": 1,
+          "source": "coinshares.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptonews.com"
+        }
+      ],
+      "editorial_distinct": 8,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 2,
+          "source": "x.com"
+        }
+      ],
+      "universe_distinct": 1
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "070405f6a24904b7932f80305116b6ab4e5d76cce7475c62e53ae359e083554c",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:21.341225+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.326,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0957,
+        "lift_log": 6.12,
+        "score": 0.3255,
+        "shared": 9
+      },
+      "rationale": "Pectra implements multiple EIPs.",
+      "relation_type": "protocol",
+      "slug": "ethereum-improvement-proposal",
+      "source": "cotag",
+      "tag_name": "EIP",
+      "title": "EIP, Explained",
+      "weight": 33
+    },
+    {
+      "confidence": 0.464,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.2938,
+        "lift_log": 7.181,
+        "score": 0.4643,
+        "shared": 22
+      },
+      "rationale": "Pectra is a specific Ethereum upgrade.",
+      "relation_type": "category",
+      "slug": "ethereum-upgrade",
+      "source": "cotag",
+      "tag_name": "Ethereum Upgrade",
+      "title": "Ethereum Upgrade, Explained",
+      "weight": 46
+    },
+    {
+      "confidence": 0.212,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0176,
+        "lift_log": 4.435,
+        "score": 0.2122,
+        "shared": 3
+      },
+      "rationale": "Pectra is tested on testnets before mainnet.",
+      "relation_type": "infrastructure",
+      "slug": "testnet",
+      "source": "cotag",
+      "tag_name": "Testnet",
+      "title": "Testnet, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "pectra",
+  "tag_name": "Pectra",
+  "title": "Pectra, Explained"
+}

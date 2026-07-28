@@ -1,0 +1,499 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:14:54.862228+00:00",
+      "newsroom_total": 12,
+      "overall_share": 24,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 67,
+          "month": "2026-02",
+          "newsroom": 2,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 12
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-04",
+          "newsroom": 2,
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 9
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 49,
+      "universe_total": 37
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:14:54.327595+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "database",
+          "phrase": "Stripe is a payment processor, not directly comparable to databases.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "stripe",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "database",
+          "phrase": "APIs are used to interact with databases.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "api",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "database",
+          "phrase": "AWS provides cloud database services like RDS.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "aws",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "database",
+          "phrase": "Payments is a different domain from databases.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "payments",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "database",
+          "phrase": "ledger",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "ledger",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Database",
+          "slug": "database",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Stripe",
+          "slug": "stripe",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "API",
+          "slug": "api",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "AWS",
+          "slug": "aws",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Payments",
+          "slug": "payments",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Ledger",
+          "slug": "ledger",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:55:54.506329+00:00",
+      "events": [
+        {
+          "date": "2011-06",
+          "kind": "exploit",
+          "label": "Mt. Gox user database posted for sale on Pastebin ahead of $17→$0.01 crash",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "exploit",
+          "label": "Bitrefill breach via compromised employee device; Lazarus Group suspected; partial database accessed",
+          "source": "https://x.com/bitrefill/status/2033931580352221656?lang=en"
+        },
+        {
+          "date": "2026-03",
+          "kind": "governance",
+          "label": "Polymarket denies 300K-user database breach, attributes circulating data to public API scraping",
+          "source": "https://www.tradingview.com/news/cointelegraph:cf6b539da094b:0-polymarket-denies-data-breach-says-hacker-is-selling-public-data/"
+        },
+        {
+          "date": "2026-04",
+          "kind": "launch",
+          "label": "Monad launches MonadDb, async I/O SSD-aware state database for EVM nodes",
+          "source": "https://www.vldb.org/pvldb/vol16/p1804-li.pdf"
+        },
+        {
+          "date": "2026-04",
+          "kind": "milestone",
+          "label": "NethermindEth receives Ethereum Foundation grant for Paprika, C#-native bespoke state database",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "exploit",
+          "label": "PocketOS founder reports Claude Opus agent wiped full production database in 9 seconds via unchecked API permissions",
+          "source": "https://smarterx.ai/smarterxblog/ai-agent-database-deletion"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "India announces development of global crypto exchange database for cross-border crime and money laundering enforcement",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:55:54.506174+00:00",
+      "insight": "Readers click 'database' stories not for the technology itself but for who controls the chokepoint: governments building surveillance registries, hackers weaponizing public vulnerability catalogs, and AI agents autonomously destroying production data all reveal the same anxiety — that whoever holds the database holds the power.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.ibm.com/think/topics/blockchain-vs-database"
+    },
+    "reader_signal": {
+      "article_count": 12,
+      "as_of": "2026-07-01T12:14:55.487081+00:00",
+      "most_clicked": {
+        "clicks": 193,
+        "date": "2023-10-05T08:06:11.321657+00:00",
+        "headline": "India developing global database of crypto exchanges to combat crypto crimes and money laundering",
+        "lev_url": "https://leviathannews.xyz/2855/india-developing-global-database-of-crypto-exchanges-to-combat-crypto-crimes-and-money-laundering"
+      },
+      "provenance": "data",
+      "top_decile_share": 26,
+      "total_clicks": 733
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:55:54.506244+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Government crypto surveillance registries",
+          "why": "India's proposal for a global exchange database framed compliance infrastructure as a cross-border crime-fighting weapon, making the regulatory overreach feel immediate and global."
+        },
+        {
+          "source": "",
+          "thread": "Vulnerability databases as attack vectors",
+          "why": "The Ordinals submission to the NIST NVD revealed that public security infrastructure could itself be weaponized to suppress on-chain transactions, a novel and alarming threat model."
+        },
+        {
+          "source": "https://www.tradingview.com/news/cointelegraph:cf6b539da094b:0-polymarket-denies-data-breach-says-hacker-is-selling-public-data/",
+          "thread": "Breach claims vs. scraped public data",
+          "why": "Polymarket's denial reframed the standard 'database hack' narrative — readers were drawn to the distinction between a genuine breach and repackaged on-chain data sold as a leak."
+        },
+        {
+          "source": "https://smarterx.ai/smarterxblog/ai-agent-database-deletion",
+          "thread": "AI agents deleting production databases",
+          "why": "The PocketOS incident — Claude Opus wiping a full database in nine seconds — crystallized fears about autonomous coding agents operating without permission boundaries."
+        },
+        {
+          "source": "https://www.vldb.org/pvldb/vol16/p1804-li.pdf",
+          "thread": "Blockchain-native state database performance",
+          "why": "MonadDb and Paprika both signal that EVM throughput bottlenecks have shifted from consensus to storage layer, attracting readers tracking the next node infrastructure race."
+        },
+        {
+          "source": "https://serendb.com/blog",
+          "thread": "x402 agent-commerce database infrastructure",
+          "why": "SerenAI's MongoDB Startups tie-in and the Paloma database-replicator positioned pay-per-call AI agent commerce as needing its own database primitives, not just payment rails."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:55:54.506253+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "National governments actively building cross-border crypto exchange registries create compliance surface area that can be weaponized for financial surveillance or asset freezing.",
+          "source": "https://www.sciencedirect.com/science/article/pii/S1042443125000733"
+        },
+        {
+          "dimension": "Security / Data breach",
+          "level": "High",
+          "note": "Centralized exchange and DeFi platform databases remain primary targets; the Bitrefill breach in March 2026 via a compromised employee device and the Lazarus Group link illustrate persistent nation-state-level threat.",
+          "source": "https://x.com/bitrefill/status/2033931580352221656?lang=en"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Most DeFi front-ends and data platforms rely on centralized off-chain databases, creating single points of failure and censorship; projects like Arkiv explicitly target this gap.",
+          "source": "https://arkiv.network"
+        },
+        {
+          "dimension": "AI agent autonomous risk",
+          "level": "High",
+          "note": "Autonomous coding and operations agents with unchecked database write permissions represent an emergent class of accidental-destruction risk with no established industry guardrails.",
+          "source": "https://smarterx.ai/smarterxblog/ai-agent-database-deletion"
+        },
+        {
+          "dimension": "Smart-contract / state DB",
+          "level": "Medium",
+          "note": "Custom blockchain state databases (MonadDb, Paprika) improve EVM throughput but introduce node-level software diversity risk and unproven storage engines at consensus-critical layers.",
+          "source": "https://www.vldb.org/pvldb/vol16/p1804-li.pdf"
+        },
+        {
+          "dimension": "Privacy / data scraping",
+          "level": "Medium",
+          "note": "On-chain data and public APIs allow adversaries to reconstruct user datasets without a database breach, undermining traditional breach-notification frameworks and user privacy expectations.",
+          "source": "https://www.tradingview.com/news/cointelegraph:cf6b539da094b:0-polymarket-denies-data-breach-says-hacker-is-selling-public-data/"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:14:55.405516+00:00",
+      "items": [
+        {
+          "clicks": 55,
+          "date": "2026-04-29T08:21:37.509337+00:00",
+          "headline": "Polymarket rejects hacker breach claims, says alleged 300K user records are scraped from public APIs and on-chain data, not a database leak",
+          "hot_score": 321.0,
+          "lev_url": "https://leviathannews.xyz/237062/polymarket-rejects-hacker-breach-claims-says-alleged-300k-user-records-are-scraped-from-public-apis-and-on-chain-data-not-a-database-leak",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260429082109_chobCI2xF8S3.jpg",
+          "url": "https://cointelegraph.com/news/polymarket-says-hacker-is-selling-publicly-available-data-while-claiming-security-breach?utm_campaign=rss_partner_inbound&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-04-29T08:11:54.604434+00:00",
+          "headline": "PocketOS founder says Claude Opus agent admitted breaking safety rules after wiping full database in 9 secs, reigniting concerns over autonomous coding tools and unchecked API permissions",
+          "hot_score": 304.0,
+          "lev_url": "https://leviathannews.xyz/237057/pocketos-founder-says-claude-opus-agent-admitted-breaking-safety-rules-after-wiping-full-database-in-9-secs-reigniting-concerns-over-autonomous-coding-tools-and-unchecked-api-permi",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260429081015_H-Qpj1ITw5Po.jpg",
+          "url": "https://decrypt.co/365897/ai-agent-deletes-startup-database-9-seconds-founder-says"
+        },
+        {
+          "clicks": 50,
+          "date": "2025-12-16T16:09:14.386491+00:00",
+          "headline": "SerenAI joins MongoDB Startups to enable pay-per-call x402 payments on MongoDB and Base",
+          "hot_score": 51.676629,
+          "lev_url": "https://leviathannews.xyz/22559/serenai-joins-mongodb-startups-to-enable-pay-per-call-x402-payments-on-mongodb-and-base",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251216155909_971L9irG4uI=.jpg",
+          "url": "https://serendb.com/blog/serenai-joins-mongodb-for-startups-to-enable-pay-per-call-monetization-for-ai-agent-data-access"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-02-08T08:24:36.227683+00:00",
+          "headline": "Monad launches MonadDb, a custom state database that speeds up EVM nodes with async I/O, SSD-aware storage, and persistent trie design.",
+          "hot_score": 50.376752,
+          "lev_url": "https://leviathannews.xyz/25663/monad-launches-monaddb-a-custom-state-database-that-speeds-up-evm-nodes-with-async-io-ssd-aware-storage-and-persistent-trie-design",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260208082335_sdD4kDy3dkk=.jpg",
+          "url": "https://x.com/i/status/2020388066725179801"
+        },
+        {
+          "clicks": 28,
+          "date": "2026-01-07T19:39:34.016120+00:00",
+          "headline": "Web3 project Arkiv is tackling centralized data in blockchain by building decentralized databases for web3 and web2 apps. Its Ethereum-aligned Layer 3 DB-Chains provide globally replicated, always-available, blockchain-secured data, powered by GLM. Arkiv aims to remove single points of failure while enabling DePIN and open-network applications.",
+          "hot_score": 42.529105,
+          "lev_url": "https://leviathannews.xyz/23310/web3-project-arkiv-is-tackling-centralized-data-in-blockchain-by-building-decentralized-databases-for-web3-and-web2-apps-its-ethereum-aligned-layer-3-db-chains-provide-globally-rep",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260107184909_JIFeDQRbYyk=.jpg",
+          "url": "https://crypto.news/centralized-databases-have-failed-us-heres-how-one-web3-project-is-fixing-it/"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-02-02T17:56:06.517954+00:00",
+          "headline": "Concerns are rising around Moltbook’s “AI-only” narrative, as reports highlight weak safeguards, no rate-limiting, exposed databases, and the ease with which humans can impersonate agents via simple API calls. While the platform is undeniably viral and entertaining, questions remain over whether it’s genuine agent coordination or just engagement farming dressed as sci-fi.",
+          "hot_score": 38.558693,
+          "lev_url": "https://leviathannews.xyz/24592/concerns-are-rising-around-moltbooks-ai-only-narrative-as-reports-highlight-weak-safeguards-no-rate-limiting-exposed-databases-and-the-ease-with-which-humans-can-impersonate-agents",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260202174626_mNAx9I_-bA8=.jpg",
+          "url": "https://x.com/i/status/2018287095383818340"
+        },
+        {
+          "clicks": 193,
+          "date": "2023-10-05T08:06:11.321657+00:00",
+          "headline": "India developing global database of crypto exchanges to combat crypto crimes and money laundering",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2855/india-developing-global-database-of-crypto-exchanges-to-combat-crypto-crimes-and-money-laundering",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://economictimes.indiatimes.com/news/india/global-database-of-crypto-exchanges-in-the-works/articleshow/104113864.cms"
+        },
+        {
+          "clicks": 162,
+          "date": "2023-12-10T14:28:58.460469+00:00",
+          "headline": "Ordinals submitted to NIST National Vulnerability Database in attempt to halt transactions",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3552/ordinals-submitted-to-nist-national-vulnerability-database-in-attempt-to-halt-transactions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://twitter.com/LeonidasNFT/status/1733731086817964388"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:14:55.318050+00:00",
+      "editorial": [
+        {
+          "count": 5,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "serendb.com"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "atlanticcouncil.org"
+        },
+        {
+          "count": 1,
+          "source": "economictimes.indiatimes.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        }
+      ],
+      "editorial_distinct": 7,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 18,
+          "source": "x.com"
+        },
+        {
+          "count": 17,
+          "source": "orochi.network"
+        },
+        {
+          "count": 1,
+          "source": "spaceandtime.webflow.io"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        }
+      ],
+      "universe_distinct": 4
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "d861df3f8198eb9ee7869f9b0b2a00f06ff9158e83dec86ca31d03f1c09f87d7",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:59.852159+00:00"
+  },
+  "relations": [],
+  "schema_version": 1,
+  "slug": "database",
+  "tag_name": "Database",
+  "title": "Database, Explained"
+}

@@ -1,0 +1,527 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:50:32.254774+00:00",
+      "newsroom_total": 45,
+      "overall_share": 12,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 23
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 119
+        },
+        {
+          "ed_share": 24,
+          "month": "2026-04",
+          "newsroom": 21,
+          "universe": 68
+        },
+        {
+          "ed_share": 26,
+          "month": "2026-05",
+          "newsroom": 18,
+          "universe": 52
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-06",
+          "newsroom": 6,
+          "universe": 60
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 368,
+      "universe_total": 323
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:50:31.452627+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "wallets",
+          "phrase": "Agents integrate with wallets for automated transactions.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "agents",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "wallets",
+          "phrase": "Wallet is a singular form of the plural wallets.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "wallet",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "wallets",
+          "phrase": "Arkham provides wallet analytics and intelligence.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "arkham",
+          "weight": 16
+        },
+        {
+          "dir": "out",
+          "from": "wallets",
+          "phrase": "Quantum computing poses a threat to wallet security.",
+          "relation_type": "risk",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "quantum",
+          "weight": 13
+        },
+        {
+          "dir": "out",
+          "from": "wallets",
+          "phrase": "THORChain enables cross-chain swaps via wallets.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "thorchain",
+          "weight": 12
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "wallets",
+          "slug": "wallets",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "agents",
+          "slug": "agents",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Wallet",
+          "slug": "wallet",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Arkham",
+          "slug": "arkham",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        },
+        {
+          "center": false,
+          "name": "quantum",
+          "slug": "quantum",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 13
+        },
+        {
+          "center": false,
+          "name": "THORChain",
+          "slug": "thorchain",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 12
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T02:27:35.346749+00:00",
+      "events": [
+        {
+          "date": "2025-08",
+          "kind": "milestone",
+          "label": "a16z-linked wallets begin accumulating HYPE, reach ~$356M position",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "exploit",
+          "label": "Gnosis Pay Zodiac delay-module exploit drains user wallets; co-founder pledges full reimbursement",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "regulatory",
+          "label": "Tether freezes $344M USDT across two wallets flagged by U.S. authorities",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "exploit",
+          "label": "TrapDoor campaign: 34 fake packages across npm/PyPI/Rust target Solana, Sui, Aptos devs",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Bitcoin Depot discloses $3.6M BTC theft from corporate wallets in SEC filing",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Tempo releases Accounts SDK: passkey-based wallets with 1-line integration and gas sponsorship",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Zcash announces quantum-recoverable wallet launch within weeks; full resistance roadmap by 2027",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "New York lawsuit filed seeking ownership of 39,069 dormant Bitcoin wallets holding $285B",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T02:27:35.346561+00:00",
+      "insight": "Readers click wallet stories at both extremes of the custody spectrum — catastrophic loss of control (OpSec failures, draining dormant wallets, phishing drainers) and frictionless gain of control (passkey SDKs, AI-bot trading, one-line integrations) — revealing that the central anxiety is not security in the abstract but who holds the keys and whether that person is competent or even awake.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 56,
+      "as_of": "2026-07-01T11:50:33.318996+00:00",
+      "most_clicked": {
+        "clicks": 156,
+        "date": "2026-04-07T20:14:37.279822+00:00",
+        "headline": "Tempo releases Accounts SDK enabling passkey-based wallets with 1-line integration, bringing Face ID logins, transaction simulation, and gas sponsorship to apps",
+        "lev_url": "https://leviathannews.xyz/222946/tempo-releases-accounts-sdk-enabling-passkey-based-wallets-with-1-line-integration-bringing-face-id-logins-transaction-simulation-and-gas-sponsorship-to-apps"
+      },
+      "provenance": "data",
+      "top_decile_share": 23,
+      "total_clicks": 2218
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T02:27:35.346642+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "OpSec failures and phishing drains",
+          "why": "Readers are drawn to post-mortems that name the exact mistake — increaseApproval signatures, reused keys, DNS hijacks — turning abstract risk into a personal checklist."
+        },
+        {
+          "source": "",
+          "thread": "Passkey and UX abstraction",
+          "why": "The highest-clicked story was a developer SDK collapsing wallet creation to one line with Face ID, signalling readers see UX as the real adoption bottleneck, not price."
+        },
+        {
+          "source": "",
+          "thread": "Dormant wallet reactivation",
+          "why": "Sleeping wallets suddenly draining or becoming targets of legal claims carry a thriller quality — unclaimed fortune or forgotten risk that can resurface years later."
+        },
+        {
+          "source": "",
+          "thread": "On-chain whale and institutional tracking",
+          "why": "Readers track large named wallets (Tom Lee's BitMine, a16z HYPE accumulation, Bhutan sovereign BTC) to infer institutional positioning before it hits headlines."
+        },
+        {
+          "source": "",
+          "thread": "Compliance freezes and law enforcement cooperation",
+          "why": "Tether freezing $344M across two wallets at OFAC request spotlights that stablecoin balances are not truly sovereign — a tension that resonates with self-custody advocates."
+        },
+        {
+          "source": "",
+          "thread": "One-API developer wallet infrastructure",
+          "why": "Multiple headlines (Crossmint, Base MCP, Polygon Open Money Stack, Enso Quote Simulator) show readers tracking the race to commoditise wallet plumbing for builders."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T02:27:35.346653+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / approval exploit",
+          "level": "High",
+          "note": "Phishing drainers exploiting increaseApproval signatures stole $585K across four wallets in under 12 hours, demonstrating that standard ERC-20 approval flows remain a reliable attack surface.",
+          "source": ""
+        },
+        {
+          "dimension": "Operational security (human error)",
+          "level": "High",
+          "note": "A review of 47 OpSec failures found one mistake present in 100% of victim cases, indicating that protocol hardening alone cannot compensate for predictable user behaviour patterns.",
+          "source": ""
+        },
+        {
+          "dimension": "Custodial / counterparty risk",
+          "level": "High",
+          "note": "Bitcoin Depot disclosed a $3.6M BTC theft from corporate wallets via SEC filing two weeks after the breach, illustrating that even regulated custodians experience material losses with delayed disclosure.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory / asset freeze",
+          "level": "Medium",
+          "note": "Tether froze $344M in USDT across two flagged wallets on OFAC request, confirming that stablecoin balances are subject to unilateral seizure regardless of private-key custody.",
+          "source": ""
+        },
+        {
+          "dimension": "Supply-chain / developer tooling",
+          "level": "Medium",
+          "note": "The TrapDoor campaign embedded wallet-stealing code across 34 fake npm, PyPI and Rust packages targeting Solana, Sui and Aptos developers, turning the package registry into an attack vector against builders.",
+          "source": ""
+        },
+        {
+          "dimension": "Quantum cryptography",
+          "level": "Low",
+          "note": "Zcash announced quantum-recoverable wallets as a near-term launch with full quantum-resistant infrastructure targeted for 2027, representing an early-stage but credible forward risk being actively mitigated.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:50:33.238586+00:00",
+      "items": [
+        {
+          "clicks": 109,
+          "date": "2026-04-08T22:19:03.656040+00:00",
+          "headline": "Bitcoin Depot discloses $3.6M BTC theft from corporate wallets in SEC filing, two weeks after breach",
+          "hot_score": 319432.879689,
+          "lev_url": "https://leviathannews.xyz/224254/bitcoin-depot-discloses-36m-btc-theft-from-corporate-wallets-in-sec-filing-two-weeks-after-breach",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408221854_PXix7i8jJlCF.jpg",
+          "url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1901799/000119312526147772/btm-20260406.htm"
+        },
+        {
+          "clicks": 156,
+          "date": "2026-04-07T20:14:37.279822+00:00",
+          "headline": "Tempo releases Accounts SDK enabling passkey-based wallets with 1-line integration, bringing Face ID logins, transaction simulation, and gas sponsorship to apps",
+          "hot_score": 58436.712549,
+          "lev_url": "https://leviathannews.xyz/222946/tempo-releases-accounts-sdk-enabling-passkey-based-wallets-with-1-line-integration-bringing-face-id-logins-transaction-simulation-and-gas-sponsorship-to-apps",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407200013_K2vEWN0g0F-n.jpg",
+          "url": "https://x.com/i/status/2041580718829269117"
+        },
+        {
+          "clicks": 52,
+          "date": "2026-04-10T17:06:17.701664+00:00",
+          "headline": "Exodus Pay brings Visa and Apple Pay spending to self-custodial Bitcoin wallets, rolls out in five states",
+          "hot_score": 42110.994811,
+          "lev_url": "https://leviathannews.xyz/226199/exodus-pay-brings-visa-and-apple-pay-spending-to-self-custodial-bitcoin-wallets-rolls-out-in-five-states",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410165244_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/363947/exodus-pay-bitcoin-wallet-spending-app/"
+        },
+        {
+          "clicks": 83,
+          "date": "2026-04-12T22:34:17.403304+00:00",
+          "headline": "Analyst reviews 47 crypto OpSec failures, revealing one common mistake made by 100% of victims, highlighting critical security gaps across wallets, users, and Web3 practices",
+          "hot_score": 8945.528502,
+          "lev_url": "https://leviathannews.xyz/227344/analyst-reviews-47-crypto-opsec-failures-revealing-one-common-mistake-made-by-100-of-victims-highlighting-critical-security-gaps-across-wallets-users-and-web3-practices",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260412214013_KHMJUjtGJ5U0.jpg",
+          "url": "https://x.com/i/status/2043406886968455551"
+        },
+        {
+          "clicks": 51,
+          "date": "2026-04-15T00:45:45.159364+00:00",
+          "headline": "Analyst shares guide on defending against DNS & BGP hijacks in Web3, outlining how attackers exploit domains to drain wallets via malicious frontends",
+          "hot_score": 8197.409199,
+          "lev_url": "https://leviathannews.xyz/229053/analyst-shares-guide-on-defending-against-dns-bgp-hijacks-in-web3-outlining-how-attackers-exploit-domains-to-drain-wallets-via-malicious-frontends",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415001935_RL3rLfSJkCEO.jpg",
+          "url": "https://x.com/i/status/2044147555618173261"
+        },
+        {
+          "clicks": 54,
+          "date": "2026-04-12T22:35:34.890714+00:00",
+          "headline": "Thunes brings USDC settlement to 12B wallets across 140+ countries via Circle Payments Network",
+          "hot_score": 4773.58938,
+          "lev_url": "https://leviathannews.xyz/227320/thunes-brings-usdc-settlement-to-12b-wallets-across-140-countries-via-circle-payments-network",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260412223606_vPp-YEhxWKH5.jpg",
+          "url": "https://www.prnewswire.com/news-releases/thunes-joins-circle-payments-network-managed-payments-to-advance-global-payment-interoperability-302737086.html"
+        },
+        {
+          "clicks": 54,
+          "date": "2026-04-10T18:43:52.458859+00:00",
+          "headline": "Crossmint launches stablecoin-backed Visa credit cards with Rain, letting developers issue cards and wallets via a single integration without complex banking or licensing setup",
+          "hot_score": 3763.256098,
+          "lev_url": "https://leviathannews.xyz/226096/crossmint-launches-stablecoin-backed-visa-credit-cards-with-rain-letting-developers-issue-cards-and-wallets-via-a-single-integration-without-complex-banking-or-licensing-setup",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410143911_ib2uet1sNuV3.jpg",
+          "url": "https://x.com/i/status/2042252745626042453"
+        },
+        {
+          "clicks": 55,
+          "date": "2026-04-20T09:40:26.480633+00:00",
+          "headline": "WhatsApp enables XRP trading after Solana integration via AI bots and noncustodial wallets",
+          "hot_score": 1005.8,
+          "lev_url": "https://leviathannews.xyz/233381/whatsapp-enables-xrp-trading-after-solana-integration-via-ai-bots-and-noncustodial-wallets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420093947_nf9_oAuEwVz5.webp",
+          "url": "https://crypto.news/xrp-trading-goes-live-on-whatsapp-after-solana-integration/"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:50:33.152700+00:00",
+      "editorial": [
+        {
+          "count": 26,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "prnewswire.com"
+        },
+        {
+          "count": 2,
+          "source": "tether.io"
+        },
+        {
+          "count": 1,
+          "source": "sec.gov"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "bitdefender.com"
+        },
+        {
+          "count": 1,
+          "source": "wublockchain.xyz"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "app.santiment.net"
+        },
+        {
+          "count": 1,
+          "source": "polygon.technology"
+        }
+      ],
+      "editorial_distinct": 13,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 232,
+          "source": "x.com"
+        },
+        {
+          "count": 20,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 14,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 11,
+          "source": "theblock.co"
+        },
+        {
+          "count": 8,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 7,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 5,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 3,
+          "source": "forbes.com"
+        },
+        {
+          "count": 2,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 2,
+          "source": "circle.com"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "tass.ru"
+        }
+      ],
+      "universe_distinct": 27
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "5a34703317d342f08846f1de71ceaa17ee6d23722ce346df821efc4214db366f",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:22:37.649577+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.201,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0177,
+        "lift_log": 1.968,
+        "score": 0.2006,
+        "shared": 11
+      },
+      "rationale": "Agents integrate with wallets for automated transactions.",
+      "relation_type": "ecosystem",
+      "slug": "agents",
+      "source": "cotag",
+      "tag_name": "agents",
+      "title": "agents, Explained",
+      "weight": 20
+    }
+  ],
+  "schema_version": 1,
+  "slug": "wallets",
+  "tag_name": "wallets",
+  "title": "wallets, Explained"
+}

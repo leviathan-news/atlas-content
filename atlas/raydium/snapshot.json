@@ -1,0 +1,586 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:15:41.480670+00:00",
+      "newsroom_total": 9,
+      "overall_share": 35,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 1
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 4
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 7
+        }
+      ],
+      "total_universe": 26,
+      "universe_total": 17
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:15:41.198942+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "raydium",
+          "phrase": "Raydium operates liquidity pools for automated market making.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "pools",
+          "weight": 37
+        },
+        {
+          "dir": "out",
+          "from": "raydium",
+          "phrase": "Spotlight likely refers to a launch or feature event on Raydium.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "spotlight",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "raydium",
+          "phrase": "Raydium is built on the Solana blockchain.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "solana",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "raydium",
+          "phrase": "Raydium is an automated market maker (AMM) DEX.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "amm",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "raydium",
+          "phrase": "Raydium suffered an exploit in December 2022.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "exploit",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "raydium",
+          "phrase": "Vulnerabilities are security risks relevant to Raydium.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "vulnerability",
+          "weight": 21
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Raydium",
+          "slug": "raydium",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Pools",
+          "slug": "pools",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 37
+        },
+        {
+          "center": false,
+          "name": "Spotlight",
+          "slug": "spotlight",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Solana",
+          "slug": "solana",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "AMM",
+          "slug": "amm",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Exploit",
+          "slug": "exploit",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "vulnerability",
+          "slug": "vulnerability",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:23:13.956855+00:00",
+      "events": [
+        {
+          "date": "2021-02",
+          "kind": "launch",
+          "label": "Raydium AMM launches on Solana mainnet",
+          "source": "https://nansen.ai/post/what-is-raydium-guide-to-solanas-high-speed-amm-dex"
+        },
+        {
+          "date": "2024-07",
+          "kind": "milestone",
+          "label": "Immunefi pays $505k whitehat bounty for critical Raydium vulnerability",
+          "source": "https://x.com/immunefi/status/1812919481032716408"
+        },
+        {
+          "date": "2025-03",
+          "kind": "launch",
+          "label": "PumpSwap launches; becomes Solana #2 AMM by volume within days",
+          "source": "https://coinlaunch.space/blog/pump-fun-launches-pumpswap-to-challenge-raydium/"
+        },
+        {
+          "date": "2025-03",
+          "kind": "milestone",
+          "label": "Pump.fun announces internal AMM testing; RAY drops 25%",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "exploit",
+          "label": "Legacy AMM V3 pools exploited for $1.34M via LP mint validation flaw",
+          "source": "https://www.fereai.xyz/share/68e5691e-5e7c-471c-b3dd-d9fa33864135/how-did-raydium-lose-1-3m-on-legacy-solana-pools-2026-jun-10-68e5691e"
+        },
+        {
+          "date": "2026-06",
+          "kind": "governance",
+          "label": "Raydium pledges full reimbursement to exploit victims",
+          "source": "https://crypto.news/raydium-promises-full-refund-after-1-3m-solana-pool-exploit/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:23:13.956640+00:00",
+      "insight": "Readers clicked Raydium stories to track its structural displacement from the Solana memecoin liquidity throne — the PumpSwap competitive collapse drew more combined engagement than a $505k security bounty and a live exploit combined, revealing that readers understand market-share loss as a more immediate existential threat than code risk.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://coinlaunch.space/blog/pump-fun-launches-pumpswap-to-challenge-raydium/"
+    },
+    "reader_signal": {
+      "article_count": 9,
+      "as_of": "2026-07-01T12:15:41.937045+00:00",
+      "most_clicked": {
+        "clicks": 223,
+        "date": "2025-03-26T09:35:04.920137+00:00",
+        "headline": "PumpSwap rises to be Solana’s #2 AMM by volume in just a matter of days after its launch",
+        "lev_url": "https://leviathannews.xyz/10171/pumpswap-rises-to-be-solanas-2-amm-by-volume-in-just-a-matter-of-days-after-its-launch"
+      },
+      "provenance": "data",
+      "top_decile_share": 25,
+      "total_clicks": 897
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:23:13.956754+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://coinlaunch.space/blog/pump-fun-launches-pumpswap-to-challenge-raydium/",
+          "thread": "PumpSwap displacement of graduation flow",
+          "why": "Pump.fun routing its own memecoin graduations to PumpSwap instead of Raydium directly eliminated Raydium's primary volume and fee source, making this a structural revenue story rather than ordinary competition."
+        },
+        {
+          "source": "https://x.com/immunefi/status/1812919481032716408",
+          "thread": "Whitehat bounty accountability",
+          "why": "A $505,000 Immunefi payout for a critical vulnerability drew readers who wanted to see whether Raydium would handle disclosed security risk responsibly rather than suffer a damaging exploit."
+        },
+        {
+          "source": "https://x.com/SolanaCollectiv/status/2057498528512115024",
+          "thread": "Dark pool volume migration",
+          "why": "HumidiFi surpassing Raydium and Meteora with $1.1B in daily volume via dark pools showed traders actively migrating for privacy and efficiency, signaling that Raydium faces competitive erosion on multiple fronts simultaneously."
+        },
+        {
+          "source": "",
+          "thread": "Flash loan graduation griefing",
+          "why": "A former Pump.fun employee using flash loans to fill bonding curves and block Raydium graduations exposed a systemic attack vector that harmed token creators and undermined confidence in the Pump.fun–Raydium pipeline."
+        },
+        {
+          "source": "https://crypto.news/raydium-promises-full-refund-after-1-3m-solana-pool-exploit/",
+          "thread": "Legacy pool exploit and refund pledge",
+          "why": "The $1.34M drain of deprecated AMM V3 pools tested whether Raydium would honor liabilities from retired code — a credibility question that readers tracked from exploit to reimbursement announcement."
+        },
+        {
+          "source": "https://x.com/Raydium/status/2066608816255570170",
+          "thread": "CLMM maker suite as competitive response",
+          "why": "Limit orders, dynamic fees, and quote-only fees represent Raydium's attempt to retain sophisticated liquidity providers as memecoin volume migrates, signaling a strategic pivot toward professional market-making infrastructure."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:23:13.956766+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract",
+          "level": "Medium",
+          "note": "A June 2026 exploit drained ~$1.34M from deprecated AMM V3 pools via an LP mint validation flaw; active pools were unaffected, but the incident confirms that legacy code surface risk persists even after formal deprecation.",
+          "source": "https://crypto.news/raydium-promises-full-refund-after-1-3m-solana-pool-exploit/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "PumpSwap captured the #2 Solana DEX position by volume within days of launch by redirecting memecoin graduation liquidity away from Raydium, while HumidiFi simultaneously surpassed Raydium in daily volume via dark pools.",
+          "source": "https://coinlaunch.space/blog/pump-fun-launches-pumpswap-to-challenge-raydium/"
+        },
+        {
+          "dimension": "Market",
+          "level": "High",
+          "note": "RAY token fell 25% on Pump.fun's in-house AMM announcement, reflecting market consensus that the loss of memecoin graduation fees is a structural revenue threat, not a temporary dislocation.",
+          "source": "https://coinlaunch.space/blog/pump-fun-launches-pumpswap-to-challenge-raydium/"
+        },
+        {
+          "dimension": "Smart-contract (bounty surface)",
+          "level": "Medium",
+          "note": "A critical vulnerability existed in the live protocol and required a $505,000 Immunefi payout to a whitehat researcher; the Immunefi program remains active, implying the attack surface is material enough to warrant ongoing bounty investment.",
+          "source": "https://immunefi.com/bug-bounty/raydium/information/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "RAY was flagged alongside high-risk assets in New York regulatory scrutiny via a Coinbase listing notice, and its availability on Robinhood and Revolut increases mainstream regulatory visibility as DeFi-to-retail distribution expands.",
+          "source": "https://x.com/CoinbaseMarkets/status/2035027584220528971"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Low",
+          "note": "Raydium operates as a permissionless on-chain AMM with no reported admin key incidents or governance capture in the clicked coverage; pool creation is open and non-custodial.",
+          "source": "https://docs.raydium.io"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:15:41.863818+00:00",
+      "items": [
+        {
+          "clicks": 39,
+          "date": "2026-04-16T13:44:31.972806+00:00",
+          "headline": "AllUnity expands MiCA-regulated euro stablecoin EURAU to Uniswap, Raydium, and Tempo via Flowdesk",
+          "hot_score": 2214.01389,
+          "lev_url": "https://leviathannews.xyz/230491/allunity-expands-mica-regulated-euro-stablecoin-eurau-to-uniswap-raydium-and-tempo-via-flowdesk",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416132541_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/allunity-mica-regulated-euro-stablecoin-eurau-defi"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-06-10T17:15:48.106359+00:00",
+          "headline": "Raydium reveals plan to reimburse users after an exploit drained roughly $1.34M from five inactive liquidity pools tied to its retired AMM V3 program, which has been phased out since 2021",
+          "hot_score": 669.517943,
+          "lev_url": "https://leviathannews.xyz/255393/no-headline-20260610-5",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260610171326_2Yzn3ouSaAhR.jpg",
+          "url": "https://www.theblock.co/post/404304/raydium-dex-1-34-million-exploit-retired-amm-program-treasury-cover-losses?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 28,
+          "date": "2026-05-19T05:46:11.900443+00:00",
+          "headline": "Raydium adds opt-in limit orders, dynamic fees, and quote-only fees for Solana CLMM pool creators",
+          "hot_score": 469.837305,
+          "lev_url": "https://leviathannews.xyz/244830/raydium-adds-opt-in-limit-orders-dynamic-fees-and-quote-only-fees-for-solana-clmm-pool-creators",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260519024851_Z4zrlaiDPw==.png",
+          "url": "https://x.com/raydium/status/2056424620912463891"
+        },
+        {
+          "clicks": 223,
+          "date": "2025-03-26T09:35:04.920137+00:00",
+          "headline": "PumpSwap rises to be Solana’s #2 AMM by volume in just a matter of days after its launch",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10171/pumpswap-rises-to-be-solanas-2-amm-by-volume-in-just-a-matter-of-days-after-its-launch",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250326092749_FAWdWRhbX0M=.jpg",
+          "url": "https://blockworks.co/news/pumpswap-large-amm-solana"
+        },
+        {
+          "clicks": 185,
+          "date": "2024-07-17T14:11:53.540948+00:00",
+          "headline": "Whitehat discovers critical Raydium protocol vulnerability, receives $505,000 bounty",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6301/whitehat-discovers-critical-raydium-protocol-vulnerability-receives-505000-bounty",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240717133723_Zx9-c0owYA==.png",
+          "url": "https://medium.com/immunefi/raydium-tick-manipulation-bugfix-review-c6aae4527ed6"
+        },
+        {
+          "clicks": 161,
+          "date": "2025-03-20T18:08:46.618092+00:00",
+          "headline": "Pumpfun has launched PumpSwap, replacing Raydium as the launch venue for popular memecoins",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10011/pumpfun-has-launched-pumpswap-replacing-raydium-as-the-launch-venue-for-popular-memecoins",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250320174052_OE5w0EZv3Xw=.jpg",
+          "url": "https://www.coindesk.com/markets/2025/03/20/inside-pump-fun-s-plan-to-dominate-solana-defi-trading"
+        },
+        {
+          "clicks": 96,
+          "date": "2025-10-20T13:11:38.010799+00:00",
+          "headline": "HumidiFi becomes Solana’s top DEX with over $1.1B in daily volume, overtaking Meteora and Raydium as traders flock to dark pools for privacy and efficiency.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/18950/humidifi-becomes-solanas-top-dex-with-over-11b-in-daily-volume-overtaking-meteora-and-raydium-as-traders-flock-to-dark-pools-for-privacy-and-efficiency",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251020130101_szWx1D98utQ=.jpg",
+          "url": "https://crypto.news/humidifi-becomes-solanas-largest-dex-with-1-1b-volume/"
+        },
+        {
+          "clicks": 74,
+          "date": "2024-05-16T18:06:42.153466+00:00",
+          "headline": "A former employee of Pump.fun STACCoverflow is using flash loans from Margin.fi to buy all tokens of new projects launched on Pump.fun, filling the bonding curve to 100% and preventing tokens from being listed on Raydium DEX as intended. Estimated losses are 2k SOL ($300k).",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5462/a-former-employee-of-pumpfun-staccoverflow-is-using-flash-loans-from-marginfi-to-buy-all-tokens-of-new-projects-launched-on-pumpfun-filling-the-bonding-curve-to-100-and-preventing-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240516180546_nnFUCK5ijw==.png",
+          "url": "https://x.com/FrankResearcher/status/1791164323047293325"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:15:41.783855+00:00",
+      "editorial": [
+        {
+          "count": 3,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        }
+      ],
+      "editorial_distinct": 7,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 14,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        }
+      ],
+      "universe_distinct": 3
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "bad87b101e21346a71d0f20ab65710f29db471a2803d6e40ea5fa32be89a7a8e",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:24.210279+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.253,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0463,
+        "lift_log": 5.046,
+        "score": 0.2535,
+        "shared": 4
+      },
+      "rationale": "Raydium is an automated market maker (AMM) DEX.",
+      "relation_type": "category",
+      "slug": "amm",
+      "source": "cotag",
+      "tag_name": "AMM",
+      "title": "AMM, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.253,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0101,
+        "lift_log": 3.201,
+        "score": 0.2527,
+        "shared": 5
+      },
+      "rationale": "Raydium suffered an exploit in December 2022.",
+      "relation_type": "risk",
+      "slug": "exploit",
+      "source": "cotag",
+      "tag_name": "Exploit",
+      "title": "Exploit, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.369,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0597,
+        "lift_log": 5.251,
+        "score": 0.3691,
+        "shared": 4
+      },
+      "rationale": "Raydium operates liquidity pools for automated market making.",
+      "relation_type": "primitive",
+      "slug": "pools",
+      "source": "cotag",
+      "tag_name": "Pools",
+      "title": "Pools, Explained",
+      "weight": 37
+    },
+    {
+      "confidence": 0.257,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.011,
+        "lift_log": 3.268,
+        "score": 0.257,
+        "shared": 10
+      },
+      "rationale": "Raydium is built on the Solana blockchain.",
+      "relation_type": "infrastructure",
+      "slug": "solana",
+      "source": "cotag",
+      "tag_name": "Solana",
+      "title": "Solana, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.26,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0481,
+        "lift_log": 5.18,
+        "score": 0.2604,
+        "shared": 3
+      },
+      "rationale": "Spotlight likely refers to a launch or feature event on Raydium.",
+      "relation_type": "event",
+      "slug": "spotlight",
+      "source": "cotag",
+      "tag_name": "Spotlight",
+      "title": "Spotlight, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.205,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0234,
+        "lift_log": 4.228,
+        "score": 0.2054,
+        "shared": 3
+      },
+      "rationale": "Vulnerabilities are security risks relevant to Raydium.",
+      "relation_type": "risk",
+      "slug": "vulnerability",
+      "source": "cotag",
+      "tag_name": "vulnerability",
+      "title": "vulnerability, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "raydium",
+  "tag_name": "Raydium",
+  "title": "Raydium, Explained"
+}

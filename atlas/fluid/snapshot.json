@@ -1,0 +1,656 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:09:42.639447+00:00",
+      "newsroom_total": 28,
+      "overall_share": 43,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 43,
+          "month": "2026-02",
+          "newsroom": 3,
+          "universe": 4
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 16
+        },
+        {
+          "ed_share": 60,
+          "month": "2026-04",
+          "newsroom": 3,
+          "universe": 2
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-05",
+          "newsroom": 2,
+          "universe": 4
+        },
+        {
+          "ed_share": 15,
+          "month": "2026-06",
+          "newsroom": 2,
+          "universe": 11
+        }
+      ],
+      "total_universe": 65,
+      "universe_total": 37
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:09:41.761975+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "fluid",
+          "phrase": "Bad debt is a risk dimension for lending protocols like Fluid.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "bad-debt",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "fluid",
+          "phrase": "Resolv is a related project or integration in Fluid's ecosystem.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "resolv",
+          "weight": 27
+        },
+        {
+          "dir": "out",
+          "from": "fluid",
+          "phrase": "USR is likely a token associated with Fluid.",
+          "relation_type": "token",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "usr",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "fluid",
+          "phrase": "Vaults are a core DeFi primitive used by Fluid.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "vaults",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "fluid",
+          "phrase": "Venus is a comparable lending protocol on BNB Chain.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "venus",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "fluid",
+          "phrase": "Euler is a direct competitor in the lending space.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "euler",
+          "weight": 22
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Fluid",
+          "slug": "fluid",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Bad Debt",
+          "slug": "bad-debt",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "Resolv",
+          "slug": "resolv",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 27
+        },
+        {
+          "center": false,
+          "name": "USR",
+          "slug": "usr",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Vaults",
+          "slug": "vaults",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Venus",
+          "slug": "venus",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Euler",
+          "slug": "euler",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T08:26:18.134202+00:00",
+      "events": [
+        {
+          "date": "2024-Q1",
+          "kind": "launch",
+          "label": "Fluid lending protocol launches out of Instadapp test phase",
+          "source": "https://docs.fluid.instadapp.io"
+        },
+        {
+          "date": "2024-07",
+          "kind": "launch",
+          "label": "Fluid DEX goes live, marketed as most capital-efficient AMM",
+          "source": "https://mixbytes.io/blog/modern-defi-lending-protocols-how-its-made-fluid-vault"
+        },
+        {
+          "date": "2025-01",
+          "kind": "milestone",
+          "label": "Venus Flux unified liquidity layer launches on BNB Chain via Fluid",
+          "source": "https://imaginaryblend.com/2025/01/10/fluid-flux-documentation/"
+        },
+        {
+          "date": "2025-03",
+          "kind": "governance",
+          "label": "Rebranding proposal: $INST token renamed to $FLUID with growth plan",
+          "source": "https://gov.fluid.io/t/rebranding-and-growth-plan-for-fluid-protocol/985"
+        },
+        {
+          "date": "2025-04",
+          "kind": "governance",
+          "label": "Arbitrum Foundation proposes Fluid DEX deployment with 400k $ARB incentives",
+          "source": "https://x.com/0xfluid/status/2024512115776655705"
+        },
+        {
+          "date": "2025-05",
+          "kind": "exploit",
+          "label": "Resolv USR bad debt incident; Fluid core team personally covers losses",
+          "source": "https://nexusmutual.io/blog/resolv-protocol-incident-report-by-nexus-mutual"
+        },
+        {
+          "date": "2025-06",
+          "kind": "exploit",
+          "label": "Rewards contract key compromise drains 125k FLUID and 51.9k GHO via Tornado Cash",
+          "source": "https://coinstats.app/news/6ff6ee0713dfb3201f044423d3065a3b81e30919da86084b2d39d457256ba565_Fluid-Rewards-Drain-Exposes-Key-Control-Failure-After-215K-Theft"
+        },
+        {
+          "date": "2025-07",
+          "kind": "milestone",
+          "label": "Jupiter Lend powered by Fluid launches on Solana",
+          "source": "https://x.com/0xfluid/status/2035651370607419902"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T08:26:18.134082+00:00",
+      "insight": "Readers track Fluid almost entirely through its governance and token-economic moves — multichain incentive packages, the $INST→$FLUID rebrand, and DAO debt-coverage votes — revealing that the protocol's credibility is being stress-tested at the governance layer, not the smart-contract layer.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://gov.fluid.io/t/rebranding-and-growth-plan-for-fluid-protocol/985"
+    },
+    "reader_signal": {
+      "article_count": 28,
+      "as_of": "2026-07-01T12:09:43.261714+00:00",
+      "most_clicked": {
+        "clicks": 931,
+        "date": "2024-06-06T18:27:12.466172+00:00",
+        "headline": "Instadapp Fluid is going multichain. \nA new proposal to deploy on Arbitrum is now available on the governance forum. Arbitrum deployment and 400k $ARB incentives.",
+        "lev_url": "https://leviathannews.xyz/5787/instadapp-fluid-is-going-multichain-a-new-proposal-to-deploy-on-arbitrum-is-now-available-on-the-governance-forum-arbitrum-deployment-and-400k-arb-incentives"
+      },
+      "provenance": "data",
+      "top_decile_share": 42,
+      "total_clicks": 2935
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T08:26:18.134138+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://x.com/0xfluid/status/2024512115776655705",
+          "thread": "Arbitrum multichain expansion",
+          "why": "The combination of a live governance proposal and 400k $ARB incentives made this the most concrete near-term alpha on the page, drawing nearly 4× more clicks than any other story."
+        },
+        {
+          "source": "https://gov.fluid.io/t/rebranding-and-growth-plan-for-fluid-protocol/985",
+          "thread": "$INST to $FLUID rebrand",
+          "why": "Token rename proposals directly threaten existing holder value and unlock airdrop speculation, reliably pulling readers who need to decide whether to hold, sell, or accumulate."
+        },
+        {
+          "source": "https://coinstats.app/news/6ff6ee0713dfb3201f044423d3065a3b81e30919da86084b2d39d457256ba565_Fluid-Rewards-Drain-Exposes-Key-Control-Failure-After-215K-Theft",
+          "thread": "Bad debt and exploit accountability",
+          "why": "Three separate incidents — rewards-contract key compromise, Resolv USR bad debt covered personally by the core team, and unilateral use of an $8M credit line before a DAO vote — gave readers a running accountability scoreboard for who absorbs losses."
+        },
+        {
+          "source": "https://phemex.com/news/article/fluid-to-launch-v2-with-flash-accounting-surpassing-200-billion-in-volume-64480",
+          "thread": "Capital-efficiency DEX design",
+          "why": "The 'most capital-efficient exchange' framing and v2 Smart Collateral/Smart Debt range features positioned Fluid as a direct challenger to incumbent AMMs, attracting readers benchmarking against Uniswap and Curve."
+        },
+        {
+          "source": "https://thedefiant.io/news/defi/defi-protocols-launch-joint-escape-hatch-for-aave-eth-lenders-and-loopers",
+          "thread": "Cross-protocol partnerships and integrations",
+          "why": "Venus Flux on BNB, Jupiter Lend on Solana, and the Lido/EtherFi/1inch aWETH redemption protocol each represented new TVL surfaces, and readers clicked to gauge whether Fluid's liquidity was genuinely expanding or just being recycled."
+        },
+        {
+          "source": "https://x.com/cletusEllijah/status/2034344132634882359",
+          "thread": "Curve community rivalry and dev drama",
+          "why": "The 'Low IQ' jab at the Curve community condensed an ongoing narrative about Fluid's aggressive positioning into a single quotable moment that functioned as social proof of competitive tension."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T08:26:18.134145+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / key management",
+          "level": "High",
+          "note": "A compromised off-chain key allowed an attacker to submit empty-proof Merkle claims and drain 125k FLUID plus 51.9k GHO; funds were laundered via Tornado Cash before the team quietly paused claims with no public disclosure.",
+          "source": "https://coinstats.app/news/6ff6ee0713dfb3201f044423d3065a3b81e30919da86084b2d39d457256ba565_Fluid-Rewards-Drain-Exposes-Key-Control-Failure-After-215K-Theft"
+        },
+        {
+          "dimension": "Centralization / governance execution",
+          "level": "High",
+          "note": "The core team drew an $8M DEX Lite credit line and had members personally guarantee bad debt before DAO votes concluded, demonstrating that consequential financial decisions can bypass on-chain governance when the team judges speed necessary.",
+          "source": "https://x.com/smykjain/status/1993644710867747315"
+        },
+        {
+          "dimension": "Liquidity / LP loss exposure",
+          "level": "Medium",
+          "note": "The v1 USDC-ETH pool incurred rebalancing losses significant enough to prompt a 500k $FLUID vesting proposal to cover LPs, signaling that the smart-collateral AMM design carries non-trivial impermanent-loss-equivalent risk.",
+          "source": "https://x.com/0xfluid/status/2034298868989362451"
+        },
+        {
+          "dimension": "Counterparty / integration risk",
+          "level": "Medium",
+          "note": "Fluid's rapid multichain and cross-protocol expansion — Aave, Lido, EtherFi, Resolv, Venus, Jupiter — means a failure in any integrated protocol can propagate losses directly into Fluid vaults, as the Resolv USR incident demonstrated.",
+          "source": "https://nexusmutual.io/blog/resolv-protocol-incident-report-by-nexus-mutual"
+        },
+        {
+          "dimension": "Market / token dilution",
+          "level": "Medium",
+          "note": "The $INST→$FLUID rebrand, combined with 400k $ARB incentive outlays and a proposed 500k $FLUID LP compensation package, creates meaningful near-term token supply pressure without a clear buyback or burn offset mechanism.",
+          "source": "https://gov.fluid.io/t/rebranding-and-growth-plan-for-fluid-protocol/985"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Low",
+          "note": "Fluid operates as a non-custodial on-chain protocol with no fiat on-ramps; current regulatory pressure in the sector is concentrated on custodial and yield-bearing products rather than permissionless lending AMMs of this type.",
+          "source": ""
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:09:43.186119+00:00",
+      "items": [
+        {
+          "clicks": 17,
+          "date": "2026-06-29T19:16:37.999595+00:00",
+          "headline": "Fluid commits $100M of its own capital to deepen sUSDai DEX liquidity for USD.AI",
+          "hot_score": 2791.870856,
+          "lev_url": "https://leviathannews.xyz/264925/fluid-commits-100m-of-its-own-capital-to-deepen-susdai-dex-liquidity-for-usdai",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629182807_Z4zrlaiDPw==.png",
+          "url": "https://usd.ai/insights/usdai-fluid-100m-liquidity-facility"
+        },
+        {
+          "clicks": 54,
+          "date": "2026-04-20T05:45:02.460840+00:00",
+          "headline": "Fluid rolls out $1B-cap aWETH Redemption Protocol with Lido Finance, EtherFi, and 1inch to reduce systemic DeFi risk and unlock trapped ETH liquidity on Aave",
+          "hot_score": 1158.787713,
+          "lev_url": "https://leviathannews.xyz/233158/fluid-rolls-out-1b-cap-aweth-redemption-protocol-with-lido-etherfi-0x-and-1inch-to-reduce-systemic-defi-risk-and-unlock-trapped-eth-liquidity-on-aave",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420054329_fQ_1rtRVhwP7.jpg",
+          "url": "https://x.com/i/status/2045977506721960420"
+        },
+        {
+          "clicks": 43,
+          "date": "2026-04-23T08:07:34.595098+00:00",
+          "headline": "Avici launches “Grow” yield vaults and “Smart Credit” lending, letting users earn instantly and get paid to borrow USDC/EURC against SOL via Jupiter Lend and Fluid",
+          "hot_score": 723.6,
+          "lev_url": "https://leviathannews.xyz/235525/avici-launches-grow-yield-vaults-and-smart-credit-lending-letting-users-earn-instantly-and-get-paid-to-borrow-usdceurc-against-sol-via-jupiter-lend-and-fluid",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423064538_5eOXk_GVTnzD.jpg",
+          "url": "https://x.com/i/status/2047025804648046606"
+        },
+        {
+          "clicks": 27,
+          "date": "2026-06-23T15:16:37.304555+00:00",
+          "headline": "Hashi adds Cumberland, Fluid, and SwissBorg before July global testnet to unlock over $1T in dormant BTC",
+          "hot_score": 564.22443,
+          "lev_url": "https://leviathannews.xyz/261033/hashi-adds-cumberland-fluid-and-swissborg-before-july-global-testnet-to-unlock-over-1t-in-dormant-btc",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260623134552_Z4zrlaiDPw==.png",
+          "url": "https://blog.sui.io/hashi-global-coalition-expands/"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-05-17T17:38:28.700099+00:00",
+          "headline": "Fluid uses $8M DEX Lite credit line before DAO vote, shifting Resolv cleanup risk to USDC and USDT suppliers",
+          "hot_score": 508.582512,
+          "lev_url": "https://leviathannews.xyz/243974/fluid-uses-8m-dex-lite-credit-line-before-dao-vote-shifting-resolv-cleanup-risk-to-usdc-and-usdt-suppliers",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260517162425_Z4zrlaiDPw==.png",
+          "url": "https://defiprime.com/fluid-resolv-treasury-governance"
+        },
+        {
+          "clicks": 65,
+          "date": "2026-05-31T16:44:01.545160+00:00",
+          "headline": "⚠️ Fluid rewards exploit: attacker abused “empty-proof” Merkle claims after a key compromise to drain 125k FLUID and 51.9k GHO, swap and launder via Tornado Cash, while Fluid quietly paused claims without disclosing the loss.",
+          "hot_score": 506.75023,
+          "lev_url": "https://leviathannews.xyz/250798/fluid-rewards-exploit-attacker-abused-empty-proof-merkle-claims-after-a-key-compromise-to-drain-125k-fluid-and-519k-gho-swap-and-launder-via-tornado-cash-while-fluid-quietly-paused",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260531164253_TBUB-gGwyhJo.jpg",
+          "url": "https://x.com/yieldsandmore/status/2061100297502540145"
+        },
+        {
+          "clicks": 43,
+          "date": "2026-04-22T16:05:46.944743+00:00",
+          "headline": "Fluid's aWETH redemption protocol clears 166,772 aETH ($400M) from Aave in two days",
+          "hot_score": 395.2,
+          "lev_url": "https://leviathannews.xyz/235079/fluids-aweth-redemption-protocol-clears-166772-aeth-400m-from-aave-in-two-days",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422160313_7L9fHDaUqef7.jpg",
+          "url": "https://wublockchain.xyz/news/news-18834"
+        },
+        {
+          "clicks": 70,
+          "date": "2026-02-26T15:25:43.673851+00:00",
+          "headline": "Venus Protocol partners with Fluid to launch Venus Flux, a unified liquidity layer on BNB Chain enabling lend, borrow, swap from one pool.",
+          "hot_score": 185.129597,
+          "lev_url": "https://leviathannews.xyz/35084/venus-protocol-partners-with-fluid-to-launch-venus-flux-a-unified-liquidity-layer-on-bnb-chain-enabling-lend-borrow-swap-from-one-pool",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260226151406_YwUvcc6IWPM=.jpg",
+          "url": "https://x.com/i/status/2026945418303545675"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:09:43.096391+00:00",
+      "editorial": [
+        {
+          "count": 15,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "gov.instadapp.io"
+        },
+        {
+          "count": 2,
+          "source": "gov.fluid.io"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "atlas.instadapp.io"
+        },
+        {
+          "count": 1,
+          "source": "chosun.com"
+        },
+        {
+          "count": 1,
+          "source": "plasma.to"
+        },
+        {
+          "count": 1,
+          "source": "wublockchain.xyz"
+        },
+        {
+          "count": 1,
+          "source": "defiprime.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.sui.io"
+        },
+        {
+          "count": 1,
+          "source": "usd.ai"
+        }
+      ],
+      "editorial_distinct": 12,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 33,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "blog.sui.io"
+        },
+        {
+          "count": 1,
+          "source": "blog.huma.finance"
+        },
+        {
+          "count": 1,
+          "source": "usd.ai"
+        }
+      ],
+      "universe_distinct": 5
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "be5f045a47b5176a15c01949a286ca3b8c61238f4619a69f4b0d6e5bc4ff4ac9",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:05.205172+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.271,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0673,
+        "lift_log": 5.204,
+        "score": 0.2705,
+        "shared": 5
+      },
+      "rationale": "Bad debt is a risk dimension for lending protocols like Fluid.",
+      "relation_type": "risk",
+      "slug": "bad-debt",
+      "source": "cotag",
+      "tag_name": "Bad Debt",
+      "title": "Bad Debt, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.217,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0298,
+        "lift_log": 4.427,
+        "score": 0.2174,
+        "shared": 3
+      },
+      "rationale": "Euler is a direct competitor in the lending space.",
+      "relation_type": "peer",
+      "slug": "euler",
+      "source": "cotag",
+      "tag_name": "Euler",
+      "title": "Euler, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.268,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.075,
+        "lift_log": 5.061,
+        "score": 0.2678,
+        "shared": 7
+      },
+      "rationale": "Resolv is a related project or integration in Fluid's ecosystem.",
+      "relation_type": "ecosystem",
+      "slug": "resolv",
+      "source": "cotag",
+      "tag_name": "Resolv",
+      "title": "Resolv, Explained",
+      "weight": 27
+    },
+    {
+      "confidence": 0.249,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0509,
+        "lift_log": 4.902,
+        "score": 0.249,
+        "shared": 4
+      },
+      "rationale": "USR is likely a token associated with Fluid.",
+      "relation_type": "token",
+      "slug": "usr",
+      "source": "cotag",
+      "tag_name": "USR",
+      "title": "USR: Complete Guide",
+      "weight": 25
+    },
+    {
+      "confidence": 0.234,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0114,
+        "lift_log": 2.781,
+        "score": 0.2339,
+        "shared": 5
+      },
+      "rationale": "Vaults are a core DeFi primitive used by Fluid.",
+      "relation_type": "primitive",
+      "slug": "vaults",
+      "source": "cotag",
+      "tag_name": "Vaults",
+      "title": "Vaults, Explained",
+      "weight": 23
+    },
+    {
+      "confidence": 0.223,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0421,
+        "lift_log": 4.422,
+        "score": 0.2232,
+        "shared": 5
+      },
+      "rationale": "Venus is a comparable lending protocol on BNB Chain.",
+      "relation_type": "peer",
+      "slug": "venus",
+      "source": "cotag",
+      "tag_name": "Venus",
+      "title": "Venus, Explained",
+      "weight": 22
+    }
+  ],
+  "schema_version": 1,
+  "slug": "fluid",
+  "tag_name": "Fluid",
+  "title": "Fluid, Explained"
+}

@@ -1,0 +1,558 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:16:15.636013+00:00",
+      "newsroom_total": 19,
+      "overall_share": 59,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 8
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 3
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 32,
+      "universe_total": 13
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:16:15.305463+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "rate-cut",
+          "phrase": "Rate cuts aim to control or respond to inflation levels.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "inflation",
+          "weight": 35
+        },
+        {
+          "dir": "out",
+          "from": "rate-cut",
+          "phrase": "The FED sets interest rates, directly deciding rate cuts.",
+          "relation_type": "influence",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fed",
+          "weight": 31
+        },
+        {
+          "dir": "out",
+          "from": "rate-cut",
+          "phrase": "Central banks implement rate cuts as monetary policy.",
+          "relation_type": "influence",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "central-bank",
+          "weight": 29
+        },
+        {
+          "dir": "out",
+          "from": "rate-cut",
+          "phrase": "Rate cuts are a type of monetary policy action.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "policy",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "rate-cut",
+          "phrase": "Bitcoin's price often reacts to rate cut expectations.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 14
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Rate Cut",
+          "slug": "rate-cut",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Inflation",
+          "slug": "inflation",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 35
+        },
+        {
+          "center": false,
+          "name": "FED",
+          "slug": "fed",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 31
+        },
+        {
+          "center": false,
+          "name": "Central Bank",
+          "slug": "central-bank",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 29
+        },
+        {
+          "center": false,
+          "name": "policy",
+          "slug": "policy",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 14
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:38:30.782861+00:00",
+      "events": [
+        {
+          "date": "2024-03",
+          "kind": "milestone",
+          "label": "BTC near $73K; March CPI at 3.3% kills April cut odds",
+          "source": "https://www.nydig.com/research/bitcoin-may-be-telling-us-something-about-rate-cuts"
+        },
+        {
+          "date": "2024-12",
+          "kind": "regulatory",
+          "label": "Fed 25bps cut; QT pause; crypto sells off on Powell caution",
+          "source": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        },
+        {
+          "date": "2025-03",
+          "kind": "regulatory",
+          "label": "ECB cuts rates; eurozone inflation drops below 2% target",
+          "source": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp250306~d4340800b3.en.html"
+        },
+        {
+          "date": "2025-06",
+          "kind": "regulatory",
+          "label": "ECB cuts deposit facility rate to 2%",
+          "source": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp250605~3b5f67d007.en.html"
+        },
+        {
+          "date": "2025-06",
+          "kind": "regulatory",
+          "label": "Swiss National Bank cuts key rate to zero",
+          "source": "https://think.ing.com/articles/the-swiss-national-bank-cut-its-key-rate-to-0/"
+        },
+        {
+          "date": "2025-12",
+          "kind": "regulatory",
+          "label": "RBI delivers steepest rate cuts since 2019 amid low inflation",
+          "source": "https://indbiz.gov.in/rbi-ends-2025-with-sharp-growth-pivot-after-most-aggressive-rate-cuts-since-2019/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:38:30.782683+00:00",
+      "insight": "Leviathan readers click rate-cut stories not for macroeconomic theory but for crypto's structural exposure: the top headline is stablecoin revenue math, revealing that readers understand rate cuts simultaneously juice Bitcoin while destroying the income model of the two largest dollar-pegged issuers.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://coinledger.io/learn/how-do-interest-rates-impact-crypto-prices"
+    },
+    "reader_signal": {
+      "article_count": 19,
+      "as_of": "2026-07-01T12:16:16.111645+00:00",
+      "most_clicked": {
+        "clicks": 127,
+        "date": "2024-09-24T16:22:30.726855+00:00",
+        "headline": "For every rate cut of 50 bps, Tether loses $488M and Circle loses $144M in annualized revenue.",
+        "lev_url": "https://leviathannews.xyz/7100/for-every-rate-cut-of-50-bps-tether-loses-488m-and-circle-loses-144m-in-annualized-revenue"
+      },
+      "provenance": "data",
+      "top_decile_share": 12,
+      "total_clicks": 1040
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:38:30.782758+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Stablecoin yield revenue cliff",
+          "why": "The highest-clicked headline quantified exactly how much T-bill income Tether and Circle forfeit per 50bps cut, making rate policy feel like an existential stablecoin business story, not just a macro one."
+        },
+        {
+          "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+          "thread": "Fed cut odds collapse",
+          "why": "Readers tracked the probability dial — rate cut bets swinging from near-certainty to sub-3% odds, with oil-driven inflation and potential hikes back on the table — because those odds directly gate Bitcoin's next leg."
+        },
+        {
+          "source": "https://www.nydig.com/research/bitcoin-may-be-telling-us-something-about-rate-cuts",
+          "thread": "Bitcoin price vs rate expectations",
+          "why": "Multiple clicked headlines tied BTC's $73K peak, fund outflows, and all-time-high proximity directly to shifting Fed cut probability, confirming readers treat FedWatch as a leading BTC indicator."
+        },
+        {
+          "source": "https://think.ing.com/articles/the-swiss-national-bank-cut-its-key-rate-to-0/",
+          "thread": "Global central bank divergence",
+          "why": "The Swiss National Bank cutting to zero, the ECB dropping below its 2% target, and India's steepest cut in five years showed readers that rate easing is a global phenomenon with uneven crypto implications."
+        },
+        {
+          "source": "",
+          "thread": "Crypto fund flow sensitivity",
+          "why": "A four-day $1.3B withdrawal streak erasing year-to-date inflows when March Fed cut hopes faded illustrated that institutional positioning in crypto is tightly coupled to rate-cut calendar bets."
+        },
+        {
+          "source": "https://bitcoinsuisse.com/learn/seasonality-halving-elections-ratecuts",
+          "thread": "MicroStrategy accumulation on cuts",
+          "why": "Saylor's post-cut BTC purchase tied corporate Bitcoin treasury strategy to rate decisions, framing each Fed easing as a procurement signal for leveraged BTC buyers."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:38:30.782773+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Stablecoin revenue",
+          "level": "High",
+          "note": "Every 50bps of easing costs Tether an estimated $488M and Circle $144M in annualized T-bill income, creating structural pressure on reserve yields that back peg stability.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / liquidity",
+          "level": "High",
+          "note": "Crypto fund flows have proven acutely sensitive to rate-cut probability shifts, with $1.3B in outflows recorded over four days when March 2024 Fed cut expectations collapsed.",
+          "source": "https://coinledger.io/learn/how-do-interest-rates-impact-crypto-prices"
+        },
+        {
+          "dimension": "Inflation / macro",
+          "level": "High",
+          "note": "Oil-driven inflation surges have repeatedly collapsed rate-cut odds to near zero, removing the liquidity tailwind markets had priced into crypto valuations.",
+          "source": "https://www.investopedia.com/ask/answers/12/inflation-interest-rate-relationship.asp"
+        },
+        {
+          "dimension": "Regulatory / central bank",
+          "level": "Medium",
+          "note": "Fed internal division over December cuts and hawkish dissents signal that the rate path is politically contested, adding forecast uncertainty that destabilizes crypto positioning.",
+          "source": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        },
+        {
+          "dimension": "Negative rate contagion",
+          "level": "Medium",
+          "note": "The SNB's return to zero revived fears of a negative-rate era; negative benchmark rates historically compressed stablecoin reserve yields to existential lows.",
+          "source": "https://think.ing.com/articles/the-swiss-national-bank-cut-its-key-rate-to-0/"
+        },
+        {
+          "dimension": "Leverage / liquidation",
+          "level": "Medium",
+          "note": "Powell's cautious post-cut language in late 2024 triggered a crypto selloff despite the rate cut itself, exposing how leveraged long positioning unwinds when forward guidance disappoints.",
+          "source": "https://coinledger.io/learn/how-do-interest-rates-impact-crypto-prices"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:16:16.034100+00:00",
+      "items": [
+        {
+          "clicks": 50,
+          "date": "2026-04-10T17:06:16.833560+00:00",
+          "headline": "Bitcoin taps $73K as March CPI beats expectations at 3.3%, April rate cut odds still at zero",
+          "hot_score": 40894.724494,
+          "lev_url": "https://leviathannews.xyz/226198/bitcoin-taps-73k-as-march-cpi-beats-expectations-at-33-april-rate-cut-odds-still-at-zero",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410165233_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/cpi-april-interest-rate-cuts-unlikely"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-05-18T07:03:57.629192+00:00",
+          "headline": "US 10Y yield hit 4.63%, highest since Feb 2025, surpassing the level that triggered Trump's tariff pause, with mortgage rates near 7% and Fed rate cut odds collapsing to 2%",
+          "hot_score": 491.464264,
+          "lev_url": "https://leviathannews.xyz/244251/us-10y-yield-hit-463-highest-since-feb-2025-surpassing-the-level-that-triggered-trumps-tariff-pause-with-mortgage-rates-near-7-and-fed-rate-cut-odds-collapsing-to-2",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260518070332_c0FAyeZ7aa3t.jpg",
+          "url": "https://x.com/kobeissiletter/status/2056184339390419205"
+        },
+        {
+          "clicks": 115,
+          "date": "2026-03-29T17:32:51.918776+00:00",
+          "headline": "Rate cut bets collapse to 2.9% as markets price 30% chance of Fed hikes amid oil-fueled inflation surge",
+          "hot_score": 389.518847,
+          "lev_url": "https://leviathannews.xyz/217505/rate-cut-bets-collapse-to-29-as-markets-price-30-chance-of-fed-hikes-amid-oil-fueled-inflation-surge",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260329165659_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/markets/2026/03/29/markets-move-to-price-in-rate-hikes-as-inflation-fears-and-geopolitics-reshape-fed-expectations"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-02-24T22:25:40.846276+00:00",
+          "headline": "Insiders are selling at the fastest pace since COVID, macro data keeps missing, and rate cut odds fade as markets flirt with peak fear again.",
+          "hot_score": 157.886483,
+          "lev_url": "https://leviathannews.xyz/33426/insiders-are-selling-at-the-fastest-pace-since-covid-macro-data-keeps-missing-and-rate-cut-odds-fade-as-markets-flirt-with-peak-fear-again",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260224221856_XaxRZQFS134=.jpg",
+          "url": "https://x.com/i/status/2026298129495310561"
+        },
+        {
+          "clicks": 52,
+          "date": "2025-12-07T12:47:56.780244+00:00",
+          "headline": "Market week ahead: Fed’s Expected December Rate Cut Poised to Set the Tone for Global Central Banks in a Pivotal Week for Monetary Policy.",
+          "hot_score": 45.468115,
+          "lev_url": "https://leviathannews.xyz/21806/market-week-ahead-feds-expected-december-rate-cut-poised-to-set-the-tone-for-global-central-banks-in-a-pivotal-week-for-monetary-policy",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251207124614_OcFAwzndVRg=.jpeg",
+          "url": "https://www.cnbc.com/2025/12/07/global-week-ahead-feds-december-decision-to-inform-worlds-central-banks.html"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-01-12T10:27:42.254157+00:00",
+          "headline": "Digital asset funds saw $454 million in weekly outflows, extending a four-day $1.3 billion withdrawal streak that nearly erased $1.5 billion in year-to-date inflows as expectations for a March Federal Reserve rate cut faded.",
+          "hot_score": 42.129105,
+          "lev_url": "https://leviathannews.xyz/23509/digital-asset-funds-saw-454-million-in-weekly-outflows-extending-a-four-day-13-billion-withdrawal-streak-that-nearly-erased-15-billion-in-year-to-date-inflows-as-expectations-for-a",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260112102655_v1K90paQuoY=.jpg",
+          "url": "https://x.com/cryptounfolded/status/2010658310664667324?s=20"
+        },
+        {
+          "clicks": 127,
+          "date": "2024-09-24T16:22:30.726855+00:00",
+          "headline": "For every rate cut of 50 bps, Tether loses $488M and Circle loses $144M in annualized revenue.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/7100/for-every-rate-cut-of-50-bps-tether-loses-488m-and-circle-loses-144m-in-annualized-revenue",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240924153655_5UhMbBsQVg==.jpg",
+          "url": "https://x.com/bluechip_org/status/1838300130673316133?s=46"
+        },
+        {
+          "clicks": 78,
+          "date": "2025-06-19T08:01:34.445098+00:00",
+          "headline": "Swiss National Bank Slashes Rates to Zero, Reviving Fears of Negative Interest Era",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/12661/swiss-national-bank-slashes-rates-to-zero-reviving-fears-of-negative-interest-era",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250619074431_1PZQo7Eke6I=.jpg",
+          "url": "https://www.cnbc.com/2025/06/19/switzerland-returns-to-era-of-zero-interest-rates.html"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:16:15.954661+00:00",
+      "editorial": [
+        {
+          "count": 5,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 5,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.md"
+        },
+        {
+          "count": 1,
+          "source": "reuters.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptoslate.com"
+        },
+        {
+          "count": 1,
+          "source": "wsj.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        }
+      ],
+      "editorial_distinct": 9,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "forbes.com"
+        }
+      ],
+      "universe_distinct": 4
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "37e35149b7e19c1537bfd753cb7cd099bd40743c38eea1b6e99fc2f573c20a17",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:24.049658+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.29,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0155,
+        "lift_log": 3.971,
+        "score": 0.29,
+        "shared": 3
+      },
+      "rationale": "Central banks implement rate cuts as monetary policy.",
+      "relation_type": "influence",
+      "slug": "central-bank",
+      "source": "cotag",
+      "tag_name": "Central Bank",
+      "title": "Central Bank, Explained",
+      "weight": 29
+    },
+    {
+      "confidence": 0.313,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0919,
+        "lift_log": 5.891,
+        "score": 0.3132,
+        "shared": 7
+      },
+      "rationale": "The FED sets interest rates, directly deciding rate cuts.",
+      "relation_type": "influence",
+      "slug": "fed",
+      "source": "cotag",
+      "tag_name": "FED",
+      "title": "FED, Explained",
+      "weight": 31
+    },
+    {
+      "confidence": 0.351,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0406,
+        "lift_log": 5.056,
+        "score": 0.3513,
+        "shared": 4
+      },
+      "rationale": "Rate cuts aim to control or respond to inflation levels.",
+      "relation_type": "primitive",
+      "slug": "inflation",
+      "source": "cotag",
+      "tag_name": "Inflation",
+      "title": "Inflation, Explained",
+      "weight": 35
+    },
+    {
+      "confidence": 0.259,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.009,
+        "lift_log": 3.361,
+        "score": 0.259,
+        "shared": 3
+      },
+      "rationale": "Rate cuts are a type of monetary policy action.",
+      "relation_type": "category",
+      "slug": "policy",
+      "source": "cotag",
+      "tag_name": "policy",
+      "title": "policy, Explained",
+      "weight": 26
+    }
+  ],
+  "schema_version": 1,
+  "slug": "rate-cut",
+  "tag_name": "Rate Cut",
+  "title": "Rate Cut, Explained"
+}

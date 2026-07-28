@@ -1,0 +1,579 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:47:06.172201+00:00",
+      "newsroom_total": 56,
+      "overall_share": 21,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 22,
+          "month": "2026-03",
+          "newsroom": 5,
+          "universe": 18
+        },
+        {
+          "ed_share": 32,
+          "month": "2026-04",
+          "newsroom": 12,
+          "universe": 26
+        },
+        {
+          "ed_share": 13,
+          "month": "2026-05",
+          "newsroom": 7,
+          "universe": 45
+        },
+        {
+          "ed_share": 15,
+          "month": "2026-06",
+          "newsroom": 22,
+          "universe": 121
+        },
+        {
+          "ed_share": null,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 0
+        }
+      ],
+      "total_universe": 266,
+      "universe_total": 210
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:47:04.921788+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "spacex",
+          "phrase": "SpaceX may have an IPO in the future.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ipo",
+          "weight": 36
+        },
+        {
+          "dir": "out",
+          "from": "spacex",
+          "phrase": "SpaceX offers equity to investors.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "equity",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "spacex",
+          "phrase": "Elon Musk is the founder and CEO of SpaceX.",
+          "relation_type": "founder",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "elon-musk",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "spacex",
+          "phrase": "Bitget is a crypto exchange, unrelated to SpaceX.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitget",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "spacex",
+          "phrase": "Bybit is a crypto exchange, unrelated to SpaceX.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bybit",
+          "weight": 16
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "SpaceX",
+          "slug": "spacex",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "IPO",
+          "slug": "ipo",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 36
+        },
+        {
+          "center": false,
+          "name": "Equity",
+          "slug": "equity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Elon Musk",
+          "slug": "elon-musk",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Bitget",
+          "slug": "bitget",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Bybit",
+          "slug": "bybit",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T01:29:02.768014+00:00",
+      "events": [
+        {
+          "date": "2021-08",
+          "kind": "milestone",
+          "label": "SpaceX writes down BTC by $373MM, sells portion of holdings",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "SpaceX moves $152M BTC on-chain, first transfer since 2021",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "SpaceX targets confidential SEC filing for $1.75T IPO",
+          "source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Bybit, Binance, Kraken, Coinbase, Bitget launch competing SpaceX pre-IPO products",
+          "source": "https://www.bitget.com/amp/news/detail/12560605468613"
+        },
+        {
+          "date": "2026-06",
+          "kind": "exploit",
+          "label": "Hyperliquid SPCX perp flash-crashes 45%, liquidates $1.5M",
+          "source": "https://www.bloomberg.com/news/articles/2026-06-16/spacex-crypto-short-squeeze-briefly-sends-value-to-3-trillion"
+        },
+        {
+          "date": "2026-06-16",
+          "kind": "milestone",
+          "label": "SpaceX synthetic short squeeze briefly pushes implied valuation to $3T",
+          "source": "https://www.bloomberg.com/news/articles/2026-06-16/spacex-crypto-short-squeeze-briefly-sends-value-to-3-trillion"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T01:29:02.767847+00:00",
+      "insight": "Readers clicked SpaceX content not out of interest in rockets or Musk, but because every major crypto venue — Bybit, Binance, Coinbase, Kraken, Hyperliquid — raced to tokenize private SpaceX equity before an IPO, turning a company with no public shares into the dominant synthetic-asset battleground of 2026.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://info.arkm.com/research/spcx-on-hyperliquid-what-happens-at-ipo"
+    },
+    "reader_signal": {
+      "article_count": 56,
+      "as_of": "2026-07-01T11:47:07.637242+00:00",
+      "most_clicked": {
+        "clicks": 135,
+        "date": "2026-05-24T04:03:25.906709+00:00",
+        "headline": "AI agents are beginning to replace expensive Wall Street research workflows as one autonomous system produced a SpaceX IPO memo using paid onchain APIs",
+        "lev_url": "https://leviathannews.xyz/247496/ai-agents-are-beginning-to-replace-expensive-wall-street-research-workflows-as-one-autonomous-system-produced-a-spacex-ipo-memo-using-paid-onchain-apis"
+      },
+      "provenance": "data",
+      "top_decile_share": 21,
+      "total_clicks": 2618
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T01:29:02.767923+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.bitget.com/amp/news/detail/12560605468613",
+          "thread": "Pre-IPO perp venue race",
+          "why": "Six or more crypto exchanges launched competing SpaceX pre-IPO perps or tokenized products within weeks, signaling that synthetic private-equity access has become a product category, not a novelty."
+        },
+        {
+          "source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+          "thread": "SpaceX Bitcoin treasury",
+          "why": "A $373MM BTC writedown followed years later by a $152M on-chain transfer made SpaceX one of the most watched corporate Bitcoin holders, with every move treated as a macro signal."
+        },
+        {
+          "source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+          "thread": "IPO valuation and SEC filing",
+          "why": "A reported $1.75T confidential SEC filing would make SpaceX the largest IPO in history, and readers tracked every leak as a potential catalyst for both crypto and broader risk markets."
+        },
+        {
+          "source": "https://coinmarketcap.com/academy/article/stocks-altcoins-onchain-equities-spacex-ipo",
+          "thread": "Tokenized shares vs real equity",
+          "why": "Multiple pieces dissecting the gap between owning a SPCX perp and owning actual SpaceX equity drew readers who wanted to understand the legal and settlement risk before trading."
+        },
+        {
+          "source": "",
+          "thread": "AI agents replacing IPO research",
+          "why": "An autonomous agent producing a full SpaceX IPO memo using paid onchain APIs captured readers who see this as proof that traditional Wall Street research is being automated away."
+        },
+        {
+          "source": "https://x.com/ArrakisFinance/article/2065494466665066808",
+          "thread": "IPO capital rotation out of crypto",
+          "why": "Concern that a record-scale SpaceX raise would drain shared liquidity from crypto markets drew readers looking for macro positioning signals ahead of the offering."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T01:29:02.767931+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / settlement",
+          "level": "High",
+          "note": "All SpaceX pre-IPO perps (Binance, Kraken, Bybit, Hyperliquid) are USDT-settled synthetics with no direct equity backing, so settlement at actual IPO price is at the discretion of the venue, not enforced on-chain.",
+          "source": "https://info.arkm.com/research/spcx-on-hyperliquid-what-happens-at-ipo"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "Hyperliquid's SPCX perp flash-crashed 45% and liquidated $1.5M across 405 traders, demonstrating how thin synthetic private-equity orderbooks collapse under directional pressure.",
+          "source": "https://www.bloomberg.com/news/articles/2026-06-16/spacex-crypto-short-squeeze-briefly-sends-value-to-3-trillion"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Tokenized pre-IPO instruments sold to retail users globally operate in a legal gray zone; a live SpaceX SEC confidential filing could prompt regulators to classify these products as unregistered securities offerings.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "SpaceX is wholly controlled by Elon Musk, who simultaneously runs Tesla, xAI, and Grok and publicly feuded with the U.S. government over Dragon contracts, concentrating headline risk in one individual across all correlated assets.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / valuation",
+          "level": "High",
+          "note": "Pre-IPO perp prices briefly implied a $3T SpaceX valuation during a short squeeze, far above the reported $1.75T IPO target, exposing synthetic longs to violent repricing at actual listing.",
+          "source": "https://www.bloomberg.com/news/articles/2026-06-16/spacex-crypto-short-squeeze-briefly-sends-value-to-3-trillion"
+        },
+        {
+          "dimension": "Counterparty",
+          "level": "Medium",
+          "note": "Retail buyers on platforms like Bitget IPO Prime and Bybit IPO Express bear full counterparty risk to those venues, with no clearinghouse guarantee if the IPO is delayed, cancelled, or prices below synthetic levels.",
+          "source": "https://www.bitget.com/amp/news/detail/12560605468613"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:47:07.541061+00:00",
+      "items": [
+        {
+          "clicks": 91,
+          "date": "2026-04-07T14:38:02.942195+00:00",
+          "headline": "Intel partners with Elon Musk's SpaceX, xAI, and Tesla on Terafab to scale chip production toward 1TW/year of compute, targeting massive AI and robotics acceleration",
+          "hot_score": 410559.284823,
+          "lev_url": "https://leviathannews.xyz/222682/intel-partners-with-elon-musks-spacex-xai-and-tesla-on-terafab-to-scale-chip-production-toward-1twyear-of-compute-targeting-massive-ai-and-robotics-acceleration",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407142459_AavAPjqoh7DT.jpg",
+          "url": "https://x.com/i/status/2041501301318766866"
+        },
+        {
+          "clicks": 12,
+          "date": "2026-07-01T06:27:53.634128+00:00",
+          "headline": "U.S. spot Bitcoin ETFs suffered a record $4.5B in June outflows, with BlackRock's IBIT leading withdrawals as investors rotated capital toward SpaceX's historic IPO",
+          "hot_score": 3889.70369,
+          "lev_url": "https://leviathannews.xyz/266132/spot-bitcoin-etfs-record-worst-month-since-debut-shedding-45-billion-in-june-20260701-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701060011_nl7Snd5DorH6.jpg",
+          "url": "https://www.theblock.co/post/406802/bitcoin-etf-worst-month-yet?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 71,
+          "date": "2026-04-10T10:25:27.760896+00:00",
+          "headline": "Bitget opens tokenized pre-IPO trading with SpaceX as first asset on new IPO Prime platform",
+          "hot_score": 3655.591003,
+          "lev_url": "https://leviathannews.xyz/225847/bitget-opens-tokenized-pre-ipo-trading-with-spacex-as-first-asset-on-new-ipo-prime-platform",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410102430_YfhQpPlFAVSF.jpg",
+          "url": "https://www.theblock.co/post/396976/bitget-debuts-ipo-prime"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-04-11T21:36:21.444180+00:00",
+          "headline": "SpaceX holds 8,285 BTC worth $603M steady as xAI costs flip $8B profit to nearly $5B loss ahead of IPO",
+          "hot_score": 1791.901762,
+          "lev_url": "https://leviathannews.xyz/226867/spacex-holds-8285-btc-worth-603m-steady-as-xai-costs-flip-8b-profit-to-nearly-5b-loss-ahead-of-ipo",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411204530_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/markets/2026/04/11/musk-s-spacex-holds-usd603-million-in-bitcoin-despite-usd5-billion-loss-stemming-from-xai"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-04-11T05:32:20.785550+00:00",
+          "headline": "Binance Wallet launches onchain pre-IPO section with tokenized SpaceX and OpenAI among first five assets",
+          "hot_score": 1674.724494,
+          "lev_url": "https://leviathannews.xyz/226561/binance-wallet-launches-onchain-pre-ipo-section-with-tokenized-spacex-and-openai-among-first-five-assets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411021319_Z4zrlaiDPw==.png",
+          "url": "https://x.com/BinanceWallet/status/2042643829090848854"
+        },
+        {
+          "clicks": 135,
+          "date": "2026-05-24T04:03:25.906709+00:00",
+          "headline": "AI agents are beginning to replace expensive Wall Street research workflows as one autonomous system produced a SpaceX IPO memo using paid onchain APIs",
+          "hot_score": 893.334329,
+          "lev_url": "https://leviathannews.xyz/247496/ai-agents-are-beginning-to-replace-expensive-wall-street-research-workflows-as-one-autonomous-system-produced-a-spacex-ipo-memo-using-paid-onchain-apis",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260524002722_sAaeTvk5yvTm.jpg",
+          "url": "https://x.com/i/web/status/2058218634183667725"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-04-21T17:03:10.412638+00:00",
+          "headline": "Bitget partners Republic to launch IPO Prime, bringing pre-IPO tokens like SpaceX to retail users on Solana and expanding access to private market investments",
+          "hot_score": 862.8,
+          "lev_url": "https://leviathannews.xyz/234429/bitget-partners-republic-to-launch-ipo-prime-bringing-pre-ipo-tokens-like-spacex-to-retail-users-on-solana-and-expanding-access-to-private-market-investments",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421160954_Yx8B2yaNIk7r.jpg",
+          "url": "https://www.coindesk.com/business/2026/04/21/bitget-exchange-brings-pre-ipo-tokens-to-masses-starting-with-spacex-on-solana"
+        },
+        {
+          "clicks": 29,
+          "date": "2026-05-06T14:03:02.437788+00:00",
+          "headline": "OKX taps pre-IPO trading craze with perpetual futures tied to OpenAI and SpaceX, offering retail exposure to top private firms without equity ownership",
+          "hot_score": 786.973128,
+          "lev_url": "https://leviathannews.xyz/238448/crypto-exchanges-are-increasingly-competing-to-offer-retail-traders-exposure-to-silicon-valleys-most-valuable-private-firms-despite-the-products-conferring-neither-equity-ownersh",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260506130150_FKNbpW9uJooj.jpg",
+          "url": "https://www.coindesk.com/markets/2026/05/06/okx-joins-crypto-s-pre-ipo-frenzy-with-openai-spacex-perpetual-futures"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:47:07.354436+00:00",
+      "editorial": [
+        {
+          "count": 18,
+          "source": "x.com"
+        },
+        {
+          "count": 12,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 5,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "crypto.news"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "blog.kraken.com"
+        },
+        {
+          "count": 2,
+          "source": "theinformation.com"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "intel.arkm.com"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "bloomberg.com"
+        }
+      ],
+      "editorial_distinct": 19,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 101,
+          "source": "x.com"
+        },
+        {
+          "count": 18,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 14,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 13,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 7,
+          "source": "theblock.co"
+        },
+        {
+          "count": 6,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 5,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 4,
+          "source": "metamask.io"
+        },
+        {
+          "count": 4,
+          "source": "wsj.com"
+        },
+        {
+          "count": 3,
+          "source": "barrons.com"
+        },
+        {
+          "count": 3,
+          "source": "fortune.com"
+        },
+        {
+          "count": 3,
+          "source": "reuters.com"
+        }
+      ],
+      "universe_distinct": 32
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "033364c2e47cc19079395eb12057866071cab51aa9390c47c6dd779b5f56f7ac",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:29.429699+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.204,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0578,
+        "lift_log": 3.794,
+        "score": 0.204,
+        "shared": 20
+      },
+      "rationale": "Elon Musk is the founder and CEO of SpaceX.",
+      "relation_type": "founder",
+      "slug": "elon-musk",
+      "source": "cotag",
+      "tag_name": "Elon Musk",
+      "title": "Elon Musk, Explained",
+      "weight": 20
+    },
+    {
+      "confidence": 0.237,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0209,
+        "lift_log": 2.74,
+        "score": 0.2368,
+        "shared": 7
+      },
+      "rationale": "SpaceX offers equity to investors.",
+      "relation_type": "product",
+      "slug": "equity",
+      "source": "cotag",
+      "tag_name": "Equity",
+      "title": "Equity, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.364,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.3008,
+        "lift_log": 4.4,
+        "score": 0.3641,
+        "shared": 139
+      },
+      "rationale": "SpaceX may have an IPO in the future.",
+      "relation_type": "event",
+      "slug": "ipo",
+      "source": "cotag",
+      "tag_name": "IPO",
+      "title": "IPO, Explained",
+      "weight": 36
+    }
+  ],
+  "schema_version": 1,
+  "slug": "spacex",
+  "tag_name": "SpaceX",
+  "title": "SpaceX, Explained"
+}

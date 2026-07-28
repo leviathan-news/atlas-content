@@ -1,0 +1,614 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:04:21.144848+00:00",
+      "newsroom_total": 26,
+      "overall_share": 37,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-04",
+          "newsroom": 12,
+          "universe": 24
+        },
+        {
+          "ed_share": 26,
+          "month": "2026-05",
+          "newsroom": 6,
+          "universe": 17
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 3
+        }
+      ],
+      "total_universe": 70,
+      "universe_total": 44
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:04:20.747031+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "kelp-dao",
+          "phrase": "Kelp DAO builds the Kelp restaking product.",
+          "relation_type": "product",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "kelp",
+          "weight": 70
+        },
+        {
+          "dir": "out",
+          "from": "kelp-dao",
+          "phrase": "rsETH is the liquid restaking token issued by Kelp DAO.",
+          "relation_type": "token",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "rseth",
+          "weight": 44
+        },
+        {
+          "dir": "out",
+          "from": "kelp-dao",
+          "phrase": "Kelp DAO is a decentralized autonomous organization.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "dao",
+          "weight": 36
+        },
+        {
+          "dir": "out",
+          "from": "kelp-dao",
+          "phrase": "Restaking is the core DeFi mechanism Kelp DAO uses.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "restaking",
+          "weight": 28
+        },
+        {
+          "dir": "out",
+          "from": "kelp-dao",
+          "phrase": "Kelp DAO uses LayerZero for cross-chain messaging.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "layerzero",
+          "weight": 28
+        },
+        {
+          "dir": "out",
+          "from": "kelp-dao",
+          "phrase": "CCIP is used by Kelp DAO for cross-chain interoperability.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "ccip",
+          "weight": 25
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Kelp DAO",
+          "slug": "kelp-dao",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Kelp",
+          "slug": "kelp",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 70
+        },
+        {
+          "center": false,
+          "name": "rsETH",
+          "slug": "rseth",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 44
+        },
+        {
+          "center": false,
+          "name": "DAO",
+          "slug": "dao",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 36
+        },
+        {
+          "center": false,
+          "name": "Restaking",
+          "slug": "restaking",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 28
+        },
+        {
+          "center": false,
+          "name": "LayerZero",
+          "slug": "layerzero",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 28
+        },
+        {
+          "center": false,
+          "name": "CCIP",
+          "slug": "ccip",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T06:02:58.443041+00:00",
+      "events": [
+        {
+          "date": "2024-05",
+          "kind": "milestone",
+          "label": "rsETH withdrawals enabled into stETH, ETHx, and sfrxETH",
+          "source": "https://www.octobot.cloud/what-is-kelp_dao_restaked_eth"
+        },
+        {
+          "date": "2024-09",
+          "kind": "launch",
+          "label": "KEP token launched, tokenizing EigenLayer airdrop points; $340M market at ~$0.17",
+          "source": "https://kerneldao.com/kelp/"
+        },
+        {
+          "date": "2025-01",
+          "kind": "governance",
+          "label": "Llama Risk publishes rsETH risk report, advises bug bounty and DAO decentralization",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "exploit",
+          "label": "$292M rsETH bridge exploit via LayerZero 1-of-1 DVN vulnerability; $6.2B Aave withdrawal run follows",
+          "source": "https://www.chainalysis.com/blog/kelpdao-bridge-exploit-april-2026/"
+        },
+        {
+          "date": "2026-04",
+          "kind": "governance",
+          "label": "Aave-led DeFi United coalition pledges $300M+ to backstop rsETH; Kelp publishes LayerZero blame memo",
+          "source": "https://www.tradingview.com/news/cointelegraph:757d0e11e094b:0-aave-linked-defi-united-unveils-rseth-recovery-plan-after-293m-kelp-exploit/"
+        },
+        {
+          "date": "2026-04",
+          "kind": "exploit",
+          "label": "TraderTraitor (North Korea) attributed as attacker; begins laundering via THORChain",
+          "source": "https://www.trmlabs.com/resources/blog/north-korea-stole-76-of-all-crypto-hack-value-in-2026-with-just-two-attacks?scLang=en"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "rsETH deposits and withdrawals fully restored; Kelp announces Chainlink CCIP migration",
+          "source": "https://www.tradingview.com/news/cointelegraph:d10669e72094b:0-kelp-dao-says-rseth-restored-5-weeks-after-293m-protocol-hack/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "governance",
+          "label": "Arbitrum DAO votes to release 30,766 ETH frozen from exploit to support DeFi United recovery",
+          "source": "https://x.com/chainlink/status/2051755742953144331"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T06:02:58.442867+00:00",
+      "insight": "Readers followed Kelp DAO from points-program euphoria to catastrophic bridge exploit, but the click distribution reveals the real obsession was accountability: not the hack mechanics, but the LayerZero blame memo, whether DeFi could self-rescue via coalition, and whether rsETH holders would be made whole.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.galaxy.com/insights/research/kelpdao-layerzero-exploit-defi"
+    },
+    "reader_signal": {
+      "article_count": 26,
+      "as_of": "2026-07-01T12:04:21.882880+00:00",
+      "most_clicked": {
+        "clicks": 291,
+        "date": "2024-02-29T08:07:34.598041+00:00",
+        "headline": "Kelp DAO tokenizes EigenLayer airdrop points, launching $340m market with KEP trading around $0.17 after 4.6 million tokens claimed.",
+        "lev_url": "https://leviathannews.xyz/4133/kelp-dao-tokenizes-eigenlayer-airdrop-points-launching-340m-market-with-kep-trading-around-017-after-46-million-tokens-claimed"
+      },
+      "provenance": "data",
+      "top_decile_share": 25,
+      "total_clicks": 2015
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T06:02:58.442941+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://kerneldao.com/kelp/",
+          "thread": "EigenLayer points tokenization",
+          "why": "The KEP token launch converted abstract restaking points into a tradeable $340M market, directly monetizing reader exposure to EigenLayer's airdrop and making an otherwise opaque mechanism tangible."
+        },
+        {
+          "source": "https://nansen.ai/post/what-is-kelp-dao",
+          "thread": "LRT TVL race",
+          "why": "Readers tracked Kelp's position in the liquid restaking protocol competition as sector TVL surpassed $3.5B, framing the story as a structural DeFi power shift rather than a niche product launch."
+        },
+        {
+          "source": "https://www.galaxy.com/insights/research/kelpdao-layerzero-exploit-defi",
+          "thread": "LayerZero exploit attribution",
+          "why": "Kelp's prepared memo blaming LayerZero's 1-of-1 DVN configuration for the $292M exploit — rather than its own contracts — turned a hack story into a public inter-protocol dispute over documentation and setup liability."
+        },
+        {
+          "source": "https://www.tradingview.com/news/cointelegraph:757d0e11e094b:0-aave-linked-defi-united-unveils-rseth-recovery-plan-after-293m-kelp-exploit/",
+          "thread": "DeFi United recovery coalition",
+          "why": "The Aave-led collective response pledging $300M+ to backstop rsETH holders became a stress test for whether DeFi protocols could coordinate mutual rescue at scale, attracting readers focused on systemic contagion."
+        },
+        {
+          "source": "",
+          "thread": "rsETH code similarity controversy",
+          "why": "Allegations that Kelp and Renzo shipped near-identical code raised questions about the LRT sector's auditability and whether competitive differentiation was meaningful or cosmetic."
+        },
+        {
+          "source": "https://www.trmlabs.com/resources/blog/north-korea-stole-76-of-all-crypto-hack-value-in-2026-with-just-two-attacks?scLang=en",
+          "thread": "North Korea laundering trail",
+          "why": "Attribution of the exploit to North Korea's TraderTraitor group and subsequent on-chain tracking of $220M+ laundered via THORChain elevated the incident beyond DeFi into geopolitical crypto crime."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T06:02:58.442955+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Bridge / cross-chain",
+          "level": "High",
+          "note": "Kelp's LayerZero deployment used a 1-of-1 DVN configuration that allowed a single compromised validator to forge cross-chain messages; 47% of LayerZero OApps shared the same vulnerable setup at the time of the $292M exploit.",
+          "source": "https://www.galaxy.com/insights/research/kelpdao-layerzero-exploit-defi"
+        },
+        {
+          "dimension": "Smart contract",
+          "level": "High",
+          "note": "A fee minter contract bug caused excess rsETH to be minted to the fee address, and the bridge exploit demonstrated that cross-chain message validation failures can drain protocol reserves entirely.",
+          "source": "https://defiprime.com/kelpdao-rseth-exploit"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Llama Risk warned of substantial centralization vectors and reliance on off-chain services overseen by the protocol team, advising transition to a fully decentralized DAO structure before rsETH should be considered safe collateral.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "High",
+          "note": "The rsETH exploit triggered a $6.2B Aave withdrawal run; Llama Risk separately warned that points-driven LRT demand is structurally fragile and can cause sustained depeg events when sentiment shifts.",
+          "source": "https://x.com/aave/status/2048958367658332413?lang=en"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "An SDNY judge delayed Aave's motion to unlock $71M in ETH frozen after the exploit, introducing legal process into DeFi recovery timelines and signaling that US courts may assert jurisdiction over on-chain enforcement actions.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "KEP token and rsETH valuations are tightly coupled to EigenLayer points sentiment, creating reflexive demand that can unwind rapidly if restaking narratives shift or airdrop expectations disappoint.",
+          "source": "https://www.stakingrewards.com/asset/kelp-dao-restaked-eth"
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:04:21.806244+00:00",
+      "items": [
+        {
+          "clicks": 37,
+          "date": "2026-04-19T20:10:57.616254+00:00",
+          "headline": "Kelp DAO bridge exploit nets attacker $291M in rsETH, triggers $6.2B Aave withdrawal run",
+          "hot_score": 1496.70566,
+          "lev_url": "https://leviathannews.xyz/232938/kelp-dao-bridge-exploit-nets-attacker-291m-in-rseth-triggers-62b-aave-withdrawal-run",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260419192609_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/364849/kelp-dao-exploit-aave-liquidity-crunch-6-2-billion-withdrawal-panic/"
+        },
+        {
+          "clicks": 66,
+          "date": "2026-04-20T06:24:15.249606+00:00",
+          "headline": "Following the $292M Kelp DAO rsETH exploit, 15+ protocols have frozen LayerZero bridging. Here is the full list",
+          "hot_score": 1038.0,
+          "lev_url": "https://leviathannews.xyz/233199/following-the-292m-kelp-dao-rseth-exploit-15-protocols-have-frozen-layerzero-bridging-here-is-the-full-list",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420062350_LFVTGZy7vAGy.jpg",
+          "url": "https://x.com/i/status/2045957724538650624"
+        },
+        {
+          "clicks": 19,
+          "date": "2026-04-21T19:53:07.198540+00:00",
+          "headline": "Jefferies warns $293M Kelp DAO exploit could derail institutional blockchain momentum, as banks reassess exposure to DeFi vulnerabilities and onchain infrastructure risks",
+          "hot_score": 824.6,
+          "lev_url": "https://leviathannews.xyz/234528/jefferies-warns-293m-kelp-dao-exploit-could-derail-institutional-blockchain-momentum-as-banks-reassess-exposure-to-defi-vulnerabilities-and-onchain-infrastructure-risks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421183744_h0SzsDMehLLm.jpg",
+          "url": "https://www.coindesk.com/business/2026/04/21/crypto-s-massive-exploit-may-force-big-banks-to-rethink-their-blockchain-plans-jefferies-warns"
+        },
+        {
+          "clicks": 49,
+          "date": "2026-05-06T07:13:41.621754+00:00",
+          "headline": "Kelp DAO to migrate rsETH to Chainlink CCIP after $292M exploit, blaming LayerZero bridge setup as dispute intensifies over cross-chain security failures",
+          "hot_score": 808.016286,
+          "lev_url": "https://leviathannews.xyz/238263/kelp-dao-to-migrate-rseth-to-chainlink-ccip-after-292m-exploit-blaming-layerzero-bridge-setup-as-dispute-intensifies-over-cross-chain-security-failures",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260506071154_RFfZpN2kOjos.jpg",
+          "url": "https://cointelegraph.com/news/kelp-dao-to-migrate-rseth-to-chainlink-as-it-continues-to-blame-layerzero-infrastructure-failure"
+        },
+        {
+          "clicks": 71,
+          "date": "2026-05-06T22:23:04.558911+00:00",
+          "headline": "Aave liquidates Kelp DAO attacker’s remaining rsETH positions via governance-led oracle adjustment, securing collateral as part of $292M exploit recovery plan",
+          "hot_score": 788.570435,
+          "lev_url": "https://leviathannews.xyz/238825/aave-liquidates-kelp-dao-attackers-remaining-rseth-positions-via-governance-led-oracle-adjustment-securing-collateral-as-part-of-292m-exploit-recovery-plan",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260506222227_jKrUUxX8Q64s.jpg",
+          "url": "https://www.theblock.co/post/400315/aave-liquidates-kelp-dao-attackers-remaining-rseth-positions"
+        },
+        {
+          "clicks": 53,
+          "date": "2026-05-14T19:50:10.829808+00:00",
+          "headline": "SDNY judge delays Aave bid to unlock $71M in ETH from Kelp DAO hack until June 5",
+          "hot_score": 667.213216,
+          "lev_url": "https://leviathannews.xyz/242446/sdny-judge-delays-aave-bid-to-unlock-71m-in-eth-from-kelp-dao-hack-until-june-5",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514194247_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/judge-delays-aaves-emergency-bid-to-unfreeze-71m-hacked-crypto"
+        },
+        {
+          "clicks": 49,
+          "date": "2026-05-14T18:55:44.664871+00:00",
+          "headline": "Kraken’s kBTC and other major protocols are abandoning LayerZero after the Kelp DAO exploit, shifting over $2.5B in TVL to Chainlink’s CCIP for stronger, enterprise-focused cross-chain security.",
+          "hot_score": 630.398395,
+          "lev_url": "https://leviathannews.xyz/242434/krakens-kbtc-and-other-major-protocols-are-abandoning-layerzero-after-the-kelp-dao-exploit-shifting-over-25b-in-tvl-to-chainlinks-ccip-for-stronger-enterprise-focused-cross-chain-s",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514185401_ylfZ8WOS1M1s.jpg",
+          "url": "https://www.theblock.co/post/401368/chainlink-ccip-gains-over-2-5-billion-tvl-from-protocols-migrating-layerzero-kraken-bitcoin-latest?utm_source=telegram1&utm_medium=social"
+        },
+        {
+          "clicks": 73,
+          "date": "2026-04-20T15:32:03.751807+00:00",
+          "headline": "SCOOP by Coindesk: Kelp DAO Prepares Memo Blaming LayerZero for $292 Million rsETH Exploit, Citing Reliance on Documentation and Setup Guidance",
+          "hot_score": 550.8,
+          "lev_url": "https://leviathannews.xyz/233707/scoop-by-coindesk-kelp-dao-prepares-memo-blaming-layerzero-for-292-million-rseth-exploit-citing-reliance-on-documentation-and-setup-guidance",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420153122_OE05MmeDzNUK.jpg",
+          "url": "https://x.com/CoinDesk/status/2046240731220656216"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:04:21.717486+00:00",
+      "editorial": [
+        {
+          "count": 10,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "protos.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptotimes.io"
+        }
+      ],
+      "editorial_distinct": 8,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 15,
+          "source": "x.com"
+        },
+        {
+          "count": 6,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 5,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 5,
+          "source": "theblock.co"
+        },
+        {
+          "count": 5,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "techinasia.com"
+        }
+      ],
+      "universe_distinct": 9
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "78d841f750816045ac6d3821d375724d5632895be520396d27c69af3b56d6ce4",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:11.879575+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.251,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0607,
+        "lift_log": 4.843,
+        "score": 0.2512,
+        "shared": 6
+      },
+      "rationale": "CCIP is used by Kelp DAO for cross-chain interoperability.",
+      "relation_type": "infrastructure",
+      "slug": "ccip",
+      "source": "cotag",
+      "tag_name": "CCIP",
+      "title": "CCIP, Explained",
+      "weight": 25
+    },
+    {
+      "confidence": 0.36,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.2393,
+        "lift_log": 5.218,
+        "score": 0.36,
+        "shared": 70
+      },
+      "rationale": "Kelp DAO is a decentralized autonomous organization.",
+      "relation_type": "category",
+      "slug": "dao",
+      "source": "cotag",
+      "tag_name": "DAO",
+      "title": "DAO, Explained",
+      "weight": 36
+    },
+    {
+      "confidence": 0.697,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.6587,
+        "lift_log": 6.265,
+        "score": 0.6966,
+        "shared": 66
+      },
+      "rationale": "Kelp DAO builds the Kelp restaking product.",
+      "relation_type": "product",
+      "slug": "kelp",
+      "source": "cotag",
+      "tag_name": "Kelp",
+      "title": "Kelp, Explained",
+      "weight": 70
+    },
+    {
+      "confidence": 0.282,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.1196,
+        "lift_log": 4.874,
+        "score": 0.2816,
+        "shared": 20
+      },
+      "rationale": "Kelp DAO uses LayerZero for cross-chain messaging.",
+      "relation_type": "infrastructure",
+      "slug": "layerzero",
+      "source": "cotag",
+      "tag_name": "LayerZero",
+      "title": "LayerZero, Explained",
+      "weight": 28
+    },
+    {
+      "confidence": 0.285,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0161,
+        "lift_log": 3.85,
+        "score": 0.2846,
+        "shared": 3
+      },
+      "rationale": "Restaking is the core DeFi mechanism Kelp DAO uses.",
+      "relation_type": "primitive",
+      "slug": "restaking",
+      "source": "cotag",
+      "tag_name": "Restaking",
+      "title": "Restaking, Explained",
+      "weight": 28
+    },
+    {
+      "confidence": 0.445,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.2042,
+        "lift_log": 5.383,
+        "score": 0.4448,
+        "shared": 32
+      },
+      "rationale": "rsETH is the liquid restaking token issued by Kelp DAO.",
+      "relation_type": "token",
+      "slug": "rseth",
+      "source": "cotag",
+      "tag_name": "rsETH",
+      "title": "rsETH: Complete Guide",
+      "weight": 44
+    }
+  ],
+  "schema_version": 1,
+  "slug": "kelp-dao",
+  "tag_name": "Kelp DAO",
+  "title": "Kelp DAO, Explained"
+}

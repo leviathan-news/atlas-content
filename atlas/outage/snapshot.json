@@ -1,0 +1,603 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:15:54.889527+00:00",
+      "newsroom_total": 15,
+      "overall_share": 31,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 19
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 11
+        }
+      ],
+      "total_universe": 49,
+      "universe_total": 34
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:15:54.442320+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "outage",
+          "phrase": "Coinbase has experienced outages similar to other crypto exchanges.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "coinbase",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "outage",
+          "phrase": "AWS outages can cause downtime for crypto platforms relying on its cloud services.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "aws",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "outage",
+          "phrase": "Base chain may experience outages due to network congestion or issues.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "base",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "outage",
+          "phrase": "infrastructure",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "infrastructure",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "outage",
+          "phrase": "Starknet",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "starknet",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Outage",
+          "slug": "outage",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Coinbase",
+          "slug": "coinbase",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "AWS",
+          "slug": "aws",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Base Chain",
+          "slug": "base",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Infrastructure",
+          "slug": "infrastructure",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Starknet",
+          "slug": "starknet",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:27:33.542400+00:00",
+      "events": [
+        {
+          "date": "2025-05",
+          "kind": "milestone",
+          "label": "Coinbase 8-hour outage from AWS data center failure",
+          "source": "https://www.coinbase.com/blog/Retrospective-AWS-Outage-Impact-and-Coinbase-Next-Steps"
+        },
+        {
+          "date": "2025-09",
+          "kind": "milestone",
+          "label": "Starknet suffers four-hour outage",
+          "source": "https://www.starknet.io/blog/starknet-incident-report-september-2-2025/"
+        },
+        {
+          "date": "2025-09",
+          "kind": "milestone",
+          "label": "Linea and Polygon operational setbacks on Sept. 10",
+          "source": "https://thedefiant.io/news/blockchains/layer-2-starknet-recovers-after-four-hour-outage"
+        },
+        {
+          "date": "2025-10",
+          "kind": "milestone",
+          "label": "AWS October 20 outage disrupts exchanges and chains; L2s most exposed",
+          "source": "https://www.metrika.co/blog/post-mortem-aws-outage-10-2025"
+        },
+        {
+          "date": "2025-11",
+          "kind": "milestone",
+          "label": "Cloudflare outage November 18 affects Google, Amazon, and crypto services",
+          "source": "https://blog.cloudflare.com/18-november-2025-outage/"
+        },
+        {
+          "date": "2026-03",
+          "kind": "exploit",
+          "label": "DarkStorm group DDoS takes down X; Musk cites possible state-level attack",
+          "source": "https://news.ycombinator.com/item?id=43324157"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:27:33.542236+00:00",
+      "insight": "Readers click outage stories as proof-of-centralization moments — the top stories all expose how supposedly decentralized infrastructure (Base on AWS, Coinbase on AWS, TON validators) fails through the exact same single points of failure as traditional finance.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.metrika.co/blog/post-mortem-aws-outage-10-2025"
+    },
+    "reader_signal": {
+      "article_count": 15,
+      "as_of": "2026-07-01T12:15:55.360169+00:00",
+      "most_clicked": {
+        "clicks": 227,
+        "date": "2024-05-14T08:49:40.200592+00:00",
+        "headline": "Coinbase experienced a system wide outage. Now resolved.",
+        "lev_url": "https://leviathannews.xyz/5359/coinbase-experienced-a-system-wide-outage-now-resolved"
+      },
+      "provenance": "data",
+      "top_decile_share": 15,
+      "total_clicks": 1487
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:27:33.542305+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.metrika.co/blog/post-mortem-aws-outage-10-2025",
+          "thread": "AWS dependency exposed",
+          "why": "The post-mortem ranking L2s as most AWS-dependent and L1s like Solana as least hit a raw nerve about decentralization being architecturally hollow for rollups."
+        },
+        {
+          "source": "https://downdetector.com/status/coinbase/",
+          "thread": "Major exchange downtime",
+          "why": "Coinbase's system-wide outage and Gate.io's compensation-with-a-catch showed readers that custodial access is never guaranteed, even at top-tier venues."
+        },
+        {
+          "source": "https://www.ccn.com/news/crypto/base-network-online-temporary-hiccup/",
+          "thread": "L2 reliability crisis",
+          "why": "Back-to-back Base outages with an incident report admitting infrastructure weakness deepened reader skepticism about whether rollups are production-ready."
+        },
+        {
+          "source": "https://protos.com/gate-io-to-compensate-users-for-outage-losses-but-theres-a-catch/",
+          "thread": "Post-outage accountability gaps",
+          "why": "Gate.io's compensation caveat and Base's infrastructure admission showed readers that 'resolved' rarely means 'made whole' or 'fixed the root cause.'"
+        },
+        {
+          "source": "https://news.ycombinator.com/item?id=43324157",
+          "thread": "Cyberattack-driven outages",
+          "why": "DarkStorm's DDoS taking down X, confirmed by Musk as possibly state-level, reframed outages from accidents to deliberate attacks on critical infrastructure."
+        },
+        {
+          "source": "https://www.channelnewsasia.com/business/asx-outage-deepens-investors-doubts-over-tech-overhaul-5529846",
+          "thread": "Regulatory fallout from failures",
+          "why": "The ASX regulator inquiry after a botched upgrade outage showed readers that sustained outages at financial infrastructure attract governance investigations, not just apologies."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:27:33.542320+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "L2 networks like Base are heavily dependent on AWS; a single AWS regional failure caused cascading halts across exchanges and chains simultaneously.",
+          "source": "https://www.metrika.co/blog/post-mortem-aws-outage-10-2025"
+        },
+        {
+          "dimension": "Infrastructure",
+          "level": "High",
+          "note": "The October 2025 AWS outage and November 2025 Cloudflare outage demonstrated that shared cloud providers are single points of failure for the majority of crypto trading infrastructure.",
+          "source": "https://cryptoslate.com/aws-failure-exposes-cryptos-centralized-weak-point/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "TON's six-hour block production halt prompted Binance and Bybit to suspend deposits and withdrawals, freezing user funds with no on-chain recourse during the downtime.",
+          "source": "https://www.binance.com/en-IN/square/post/12774391986242"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Australia's ASIC opening a formal inquiry into the ASX after repeated outages signals that regulators are moving from warnings to investigations when financial infrastructure fails repeatedly.",
+          "source": "https://www.channelnewsasia.com/business/asx-outage-deepens-investors-doubts-over-tech-overhaul-5529846"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Exchange outages during high-volatility periods prevent users from executing trades or withdrawals, with SUI dropping over 5% during its network stall as confidence eroded.",
+          "source": "https://beincrypto.com/sui-network-stalls-price-drops/"
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "Low",
+          "note": "The dominant outage vector in this cycle is infrastructure and validator coordination failure, not smart-contract exploits; on-chain logic itself was not the failure point in any top-clicked incident.",
+          "source": ""
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:15:55.283056+00:00",
+      "items": [
+        {
+          "clicks": 227,
+          "date": "2024-05-14T08:49:40.200592+00:00",
+          "headline": "Coinbase experienced a system wide outage. Now resolved.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5359/coinbase-experienced-a-system-wide-outage-now-resolved",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240514073126_yJscycTIeQ==.png",
+          "url": "https://twitter.com/CoinbaseSupport/status/1790239326321733819?t=JwAcD-zpXBhDbayWLWrKmw"
+        },
+        {
+          "clicks": 212,
+          "date": "2024-08-28T06:01:37.607251+00:00",
+          "headline": "TON blockchain experienced over six-hour outage, halting block production and prompting Binance and Bybit to suspend transactions.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6779/ton-blockchain-experienced-over-six-hour-outage-halting-block-production-and-prompting-binance-and-bybit-to-suspend-transactions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.theblock.co/post/313367/ton-blockchain-now-down-six-hours"
+        },
+        {
+          "clicks": 151,
+          "date": "2025-08-06T11:41:27.597739+00:00",
+          "headline": "Base Incident report reveals infrastructure weakness behind outage",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/14058/base-incident-report-reveals-infrastructure-weakness-behind-outage",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250806110405_25CjbOAawzQ=.jpg",
+          "url": "https://news.bitcoin.com/base-incident-report-reveals-infrastructure-weakness-behind-outage/"
+        },
+        {
+          "clicks": 148,
+          "date": "2025-10-20T10:10:54.428928+00:00",
+          "headline": "AWS Several major online services, including Coinbase, experienced access issues following a widespread disruption at Amazon Web Services",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/18942/aws-outage-disrupts-major-online-platforms-including-coinbaseseveral-major-online-services-experienced-access-issues-following-a-widespread-disruption-at-amazon-web-services-aws",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251020090311_-LUpL-0A688=.jpg",
+          "url": "https://cryptonews.com/news/major-online-platforms-face-outages-amid-aws-disruption-coinbase-among-those-affected"
+        },
+        {
+          "clicks": 147,
+          "date": "2025-08-05T09:36:45.887853+00:00",
+          "headline": "Base chain resumes block production after one hour outage",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/14011/basechain-resumes-block-production-after-one-hour-outage",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250805093556_fB_RnZrRHIY=.jpg",
+          "url": "https://status.base.org/incidents/kdq3t8s13gfs"
+        },
+        {
+          "clicks": 121,
+          "date": "2025-10-25T14:50:31.640784+00:00",
+          "headline": "AWS Blockchain Tracker provides a post mortem analysis on the impact of the October 20th AWS outage on various chains. L1's such as Solana prove to be the least dependent on AWS, with L2's like Base being the most dependent.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/19388/aws-blockchain-tracker-provides-a-post-mortem-analysis-on-the-impact-of-the-october-20th-aws-outage-on-various-chains-solana-comes-out-as-the-least-dependent-on-aws-and-base-being-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251025141817_erq3bwCGwLQ=.jpg",
+          "url": "https://www.awsblockchaintracker.com/"
+        },
+        {
+          "clicks": 110,
+          "date": "2025-04-23T13:53:45.346759+00:00",
+          "headline": "Gate .io to compensate users for outage losses — but there’s a catch",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10703/gate-io-to-compensate-users-for-outage-losses-but-theres-a-catch",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250423125100_9Yke6oQYnC4=.jpg",
+          "url": "https://protos.com/gate-io-to-compensate-users-for-outage-losses-but-theres-a-catch/"
+        },
+        {
+          "clicks": 69,
+          "date": "2025-06-16T08:37:13.793746+00:00",
+          "headline": "Australia’s corporate regulator has initiated an inquiry into the Australian Securities Exchange for \"repeated and serious failures\" that have eroded public market confidence, focusing on governance and risk management after a botched system upgrade and a significant outage before last Christmas, causing a 6% drop in the operator’s shares",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/12440/australias-corporate-regulator-has-initiated-an-inquiry-into-the-australian-securities-exchange-for-repeated-and-serious-failures-that-have-eroded-public-market-confidence-focusing",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250616083205_af4l3GIgiY8=.jpg",
+          "url": "https://archive.md/ua4xN"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:15:55.200858+00:00",
+      "editorial": [
+        {
+          "count": 4,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.md"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "thehill.com"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "protos.com"
+        },
+        {
+          "count": 1,
+          "source": "status.base.org"
+        },
+        {
+          "count": 1,
+          "source": "news.bitcoin.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptoslate.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptonews.com"
+        },
+        {
+          "count": 1,
+          "source": "awsblockchaintracker.com"
+        },
+        {
+          "count": 1,
+          "source": "bbc.com"
+        }
+      ],
+      "editorial_distinct": 12,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 10,
+          "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 5,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 3,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "timesofindia.indiatimes.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "channelnewsasia.com"
+        },
+        {
+          "count": 1,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 1,
+          "source": "news.bloomberglaw.com"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        }
+      ],
+      "universe_distinct": 12
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "3f161f852584375f5b1b48b29d90ca9655cedf2dd17124ddc0f354a23c088764",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:20.638656+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.209,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0236,
+        "lift_log": 4.304,
+        "score": 0.2092,
+        "shared": 4
+      },
+      "rationale": "AWS outages can cause downtime for crypto platforms relying on its cloud services.",
+      "relation_type": "infrastructure",
+      "slug": "aws",
+      "source": "cotag",
+      "tag_name": "AWS",
+      "title": "AWS, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.202,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0197,
+        "lift_log": 4.201,
+        "score": 0.2024,
+        "shared": 3
+      },
+      "rationale": "Base chain may experience outages due to network congestion or issues.",
+      "relation_type": "ecosystem",
+      "slug": "base",
+      "source": "cotag",
+      "tag_name": "Base Chain",
+      "title": "Base Chain: Complete Guide",
+      "weight": 20
+    },
+    {
+      "confidence": 0.21,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0036,
+        "lift_log": 2.318,
+        "score": 0.2099,
+        "shared": 11
+      },
+      "rationale": "Coinbase has experienced outages similar to other crypto exchanges.",
+      "relation_type": "peer",
+      "slug": "coinbase",
+      "source": "cotag",
+      "tag_name": "Coinbase",
+      "title": "Coinbase, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "outage",
+  "tag_name": "Outage",
+  "title": "Outage, Explained"
+}

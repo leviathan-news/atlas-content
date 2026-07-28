@@ -1,0 +1,608 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:50:27.183019+00:00",
+      "newsroom_total": 75,
+      "overall_share": 34,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": 48,
+          "month": "2026-02",
+          "newsroom": 10,
+          "universe": 11
+        },
+        {
+          "ed_share": 43,
+          "month": "2026-03",
+          "newsroom": 15,
+          "universe": 20
+        },
+        {
+          "ed_share": 51,
+          "month": "2026-04",
+          "newsroom": 24,
+          "universe": 23
+        },
+        {
+          "ed_share": 16,
+          "month": "2026-05",
+          "newsroom": 7,
+          "universe": 37
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-06",
+          "newsroom": 6,
+          "universe": 48
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 5
+        }
+      ],
+      "total_universe": 219,
+      "universe_total": 144
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:50:26.332059+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "claude",
+          "phrase": "Anthropic is the company that created and maintains Claude.",
+          "relation_type": "founder",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "anthropic",
+          "weight": 39
+        },
+        {
+          "dir": "out",
+          "from": "claude",
+          "phrase": "ChatGPT is a direct competitor to Claude in the AI chatbot space.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "chatgpt",
+          "weight": 31
+        },
+        {
+          "dir": "out",
+          "from": "claude",
+          "phrase": "OpenAI develops ChatGPT, a direct competitor to Claude.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "openai",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "claude",
+          "phrase": "Google develops Gemini, a competitor to Claude.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "google",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "claude",
+          "phrase": "MCP is a protocol that Claude can use for tool integration.",
+          "relation_type": "protocol",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "mcp",
+          "weight": 19
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Claude",
+          "slug": "claude",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Anthropic",
+          "slug": "anthropic",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 39
+        },
+        {
+          "center": false,
+          "name": "ChatGPT",
+          "slug": "chatgpt",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 31
+        },
+        {
+          "center": false,
+          "name": "OpenAI",
+          "slug": "openai",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Google",
+          "slug": "google",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "MCP",
+          "slug": "mcp",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T02:20:37.686779+00:00",
+      "events": [
+        {
+          "date": "2024-10",
+          "kind": "launch",
+          "label": "Anthropic ships computer use for Claude, enabling autonomous desktop and browser control",
+          "source": ""
+        },
+        {
+          "date": "2025-02",
+          "kind": "launch",
+          "label": "Claude Code released publicly, enabling agentic software development from terminal",
+          "source": ""
+        },
+        {
+          "date": "2025-06",
+          "kind": "governance",
+          "label": "Anthropic pulls Claude Code from Pro plan, forces 5x price jump to $100/month Max tier",
+          "source": ""
+        },
+        {
+          "date": "2025-08",
+          "kind": "exploit",
+          "label": "Claude Code npm source map leaked, exposing agent loops and unreleased features",
+          "source": ""
+        },
+        {
+          "date": "2025-09",
+          "kind": "exploit",
+          "label": "Threat actors seed GitHub with trojanized Claude Code repos distributing Vidar infostealer",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "kind": "exploit",
+          "label": "Moonwell Finance exploited for $1.78MM after Claude Opus 4.6 hard-coded cbETH price",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "regulatory",
+          "label": "Trump executive order mandates all federal agencies immediately cease Anthropic use",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Anthropic ships Opus 4.7 with 3x coding gains and 1M token context on Claude 4.6",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T02:20:37.686632+00:00",
+      "insight": "Readers click Claude content not for AI benchmarks but for the boundary moments where Claude becomes a financial decision-maker — the Moonwell hard-coded price exploit, the delta-neutral bot built in an hour, the 700-job autonomous job hunt — revealing that the real tension is whether Claude is a tool you wield or an agent that acts without you.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 76,
+      "as_of": "2026-07-01T11:50:27.706587+00:00",
+      "most_clicked": {
+        "clicks": 490,
+        "date": "2026-04-10T10:31:01.604741+00:00",
+        "headline": "Claude platform introduces advisor strategy pairing Opus with Sonnet or Haiku, enabling near-Opus intelligence in agents at lower cost with single API calls and improved performance in evals",
+        "lev_url": "https://leviathannews.xyz/225741/claude-platform-introduces-advisor-strategy-pairing-opus-with-sonnet-or-haiku-enabling-near-opus-intelligence-in-agents-at-lower-cost-with-single-api-calls-and-improved-performance"
+      },
+      "provenance": "data",
+      "top_decile_share": 26,
+      "total_clicks": 5199
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T02:20:37.686700+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Claude Code as DeFi automation layer",
+          "why": "Headlines showing Claude Code building live trading bots and autonomous job-search systems in hours pulled readers chasing a step-change productivity edge in on-chain workflows."
+        },
+        {
+          "source": "",
+          "thread": "Smart-contract exploits via AI hard-coding",
+          "why": "The Moonwell $1.78MM loss caused by Claude Opus 4.6 hard-coding a cbETH price crystallised the specific new risk class of AI-introduced pricing bugs in DeFi integrations."
+        },
+        {
+          "source": "",
+          "thread": "Claude Code security: leaks, trojans, malware",
+          "why": "Three distinct attack vectors — trojanized GitHub repos pushing Vidar infostealer, SEO-poisoned macOS malware targeting Claude Code searches, and the npm registry source leak — showed Claude Code's popularity had made it a target surface for crypto wallet theft."
+        },
+        {
+          "source": "",
+          "thread": "Anthropic access pricing shocks",
+          "why": "Sudden removal of Claude Code from Pro with a 5x price jump to $100/month Max and 24-hour notice pulling third-party tool subscriptions made centralized access control a live financial risk for builders."
+        },
+        {
+          "source": "",
+          "thread": "Crypto platform Claude integrations",
+          "why": "Launches from Dune MCP, Nansen AI, Pendle Skills, and Trail of Bits web3 security tools signalled a structural shift toward Claude as the default AI runtime layer for on-chain data and execution."
+        },
+        {
+          "source": "",
+          "thread": "Regulatory and military standoff",
+          "why": "Trump's executive order halting all federal Anthropic use after a Pentagon standoff over Claude military safeguards introduced sovereign and enterprise continuity risk for institutions relying on Claude infrastructure."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T02:20:37.686710+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / AI-introduced bugs",
+          "level": "High",
+          "note": "Claude Opus 4.6 hard-coding cbETH at $1.12 led directly to a $1.78MM Moonwell exploit, establishing a documented loss event from AI-generated on-chain code with incorrect price assumptions.",
+          "source": ""
+        },
+        {
+          "dimension": "Supply-chain / malware",
+          "level": "High",
+          "note": "Threat actors seeded trojanized Claude Code repos with Vidar infostealer and ran SEO-poisoned macOS malware campaigns specifically targeting developers searching for Claude Code, making the tool's install surface a crypto wallet theft vector.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization / vendor lock-in",
+          "level": "High",
+          "note": "Anthropic's unilateral removal of Claude Code from Pro without warning and withdrawal of third-party subscription support demonstrates that any DeFi stack dependent on Claude API access inherits Anthropic's pricing and policy decisions as an operational risk.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "A Trump executive order mandating immediate cessation of all federal Anthropic use and the Pentagon's unresolved standoff over Claude military safeguards show that government-adjacent and regulated institutional deployments face abrupt shutdown risk.",
+          "source": ""
+        },
+        {
+          "dimension": "Adversarial capability theft",
+          "level": "Medium",
+          "note": "Anthropic's documented finding of large-scale illicit distillation campaigns by Chinese AI labs via millions of fraudulent Claude queries introduces risk that safety-eroded model clones trained on Claude outputs enter unregulated crypto-AI tooling.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / repricing",
+          "level": "Medium",
+          "note": "The jump from Pro to $100/month Max for Claude Code access compresses margins for solo builders and small DeFi teams using Claude as core infrastructure, and signals that Anthropic is actively repricing enterprise leverage upward.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:50:27.574545+00:00",
+      "items": [
+        {
+          "clicks": 75,
+          "date": "2026-04-08T18:10:15.732486+00:00",
+          "headline": "Anthropic launches managed agents, a hosted infrastructure product for deploying Claude-powered AI agents at enterprise scale",
+          "hot_score": 346369.342968,
+          "lev_url": "https://leviathannews.xyz/224079/introducing-claude-managed-agents-everything-you-need-to-build-and-deploy-agents-at-scale-it-pairs-an-agent-harness-tuned-for-performance-with-production-infrastructure-so-you",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408180907_spbMvhEyaQi6.jpg",
+          "url": "https://x.com/claudeai/status/2041927687460024721"
+        },
+        {
+          "clicks": 72,
+          "date": "2026-04-16T14:33:34.910268+00:00",
+          "headline": "Anthropic ships Opus 4.7 with 3x coding gains and tripled image resolution, holding pricing steady",
+          "hot_score": 100599.147069,
+          "lev_url": "https://leviathannews.xyz/230570/anthropic-is-an-ai-safety-and-research-company-thats-working-to-build-reliable-interpretable-and-steerable-ai-systems",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416143104_QLh_3ObLM_b4.jpg",
+          "url": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "clicks": 146,
+          "date": "2026-04-07T20:11:46.937579+00:00",
+          "headline": "Anthropic unveils Project Glasswing powered by Claude Mythos Preview, targeting critical software security with AI that detects vulnerabilities at near expert-human level",
+          "hot_score": 51987.29741,
+          "lev_url": "https://leviathannews.xyz/222944/anthropic-unveils-project-glasswing-powered-by-claude-mythos-preview-targeting-critical-software-security-with-ai-that-detects-vulnerabilities-at-near-expert-human-level",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407200202_YsbzFLRqU8_0.jpg",
+          "url": "https://x.com/i/status/2041578392852517128"
+        },
+        {
+          "clicks": 91,
+          "date": "2026-04-22T00:25:33.235915+00:00",
+          "headline": "Anthropic yanks Claude Code from Pro plan without warning, forcing 5x pricing jump to $100/month Max tier",
+          "hot_score": 34467.4,
+          "lev_url": "https://leviathannews.xyz/234673/anthropic-just-pulled-claude-code-from-the-pro-plan-pro-users-wanting-it-need-max-now-100month-minimum-5x-jump-im-on-max-20x-so-im-fine-flagging-for-anyone-on-pro-wh",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422002215_-ekbI47lI3IR.jpg",
+          "url": "https://x.com/TheGeorgePu/status/2046705634331025855?s=20"
+        },
+        {
+          "clicks": 55,
+          "date": "2026-04-17T16:36:15.785195+00:00",
+          "headline": "Anthropic debuts Claude Design, generating slides, prototypes, and one-pagers from chat on Opus 4.7 with Canva export",
+          "hot_score": 31542.567722,
+          "lev_url": "https://leviathannews.xyz/231718/introducing-claude-design-by-anthropic-labs-make-prototypes-slides-and-one-pagers-by-talking-to-claude-powered-by-claude-opus-47-our-most-capable-vision-model-available-in",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417163325_aSx5rJBV3w5f.jpg",
+          "url": "https://x.com/claudeai/status/2045156267690213649"
+        },
+        {
+          "clicks": 175,
+          "date": "2026-04-07T14:08:13.485793+00:00",
+          "headline": "Is building a complex delta neutral trading bot in an hour with Claude code and Synth too good to be true?",
+          "hot_score": 6198.924893,
+          "lev_url": "https://leviathannews.xyz/222388/build-a-hyperliquid-delta-neutral-trading-bot-with-claude-code-and-synth-in-an-hour",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407092438_cA4qYcDbdMz4.jpg",
+          "url": "https://x.com/SynthdataCo/status/2039295847163211836"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-16T19:41:43.387554+00:00",
+          "headline": "AI chats ruled admissible in court as US judge denies legal privilege, prompting law firms to warn clients their conversations with tools like Claude can be seized",
+          "hot_score": 4162.519322,
+          "lev_url": "https://leviathannews.xyz/230829/ai-chats-ruled-admissible-in-court-as-us-judge-denies-legal-privilege-prompting-law-firms-to-warn-clients-their-conversations-with-tools-like-claude-can-be-seized",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416185602_ku9rkMGMA3rJ.png",
+          "url": "https://decrypt.co/364653/your-ai-chats-against-you-court-law-firms-scrambling"
+        },
+        {
+          "clicks": 9,
+          "date": "2026-06-30T06:36:56.724145+00:00",
+          "headline": "Claude Cowork on Amazon Bedrock brings real-time web intelligence, but expands security and compliance risks",
+          "hot_score": 3068.83197,
+          "lev_url": "https://leviathannews.xyz/265026/claude-cowork-on-amazon-bedrock-brings-real-time-web-intelligence-but-expands-security-and-compliance-risks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629210913_DPhIy35crMSa.jpg",
+          "url": "https://brave.com/blog/claude-cowork-amazon-bedrock-brave-mcp"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:50:27.489709+00:00",
+      "editorial": [
+        {
+          "count": 39,
+          "source": "x.com"
+        },
+        {
+          "count": 9,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 4,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 4,
+          "source": "anthropic.com"
+        },
+        {
+          "count": 1,
+          "source": "red.anthropic.com"
+        },
+        {
+          "count": 1,
+          "source": "leviathannews.substack.com"
+        },
+        {
+          "count": 1,
+          "source": "moltbook.com"
+        },
+        {
+          "count": 1,
+          "source": "bleepingcomputer.com"
+        },
+        {
+          "count": 1,
+          "source": "ccunpacked.dev"
+        },
+        {
+          "count": 1,
+          "source": "axios.com"
+        },
+        {
+          "count": 1,
+          "source": "claude.com"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
+        }
+      ],
+      "editorial_distinct": 23,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 86,
+          "source": "x.com"
+        },
+        {
+          "count": 31,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 9,
+          "source": "anthropic.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "circle.com"
+        },
+        {
+          "count": 1,
+          "source": "goplussecurity.medium.com"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "semafor.com"
+        },
+        {
+          "count": 1,
+          "source": "perle.xyz"
+        },
+        {
+          "count": 1,
+          "source": "aethir.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        }
+      ],
+      "universe_distinct": 17
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "f781b8606c27030e120fe34bc39d183ae70b97667877102796949d1966d9ebf7",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:21:56.492910+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.391,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.173,
+        "lift_log": 4.405,
+        "score": 0.391,
+        "shared": 60
+      },
+      "rationale": "Anthropic is the company that created and maintains Claude.",
+      "relation_type": "founder",
+      "slug": "anthropic",
+      "source": "cotag",
+      "tag_name": "Anthropic",
+      "title": "Anthropic, Explained",
+      "weight": 39
+    },
+    {
+      "confidence": 0.311,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0568,
+        "lift_log": 3.973,
+        "score": 0.3107,
+        "shared": 13
+      },
+      "rationale": "ChatGPT is a direct competitor to Claude in the AI chatbot space.",
+      "relation_type": "peer",
+      "slug": "chatgpt",
+      "source": "cotag",
+      "tag_name": "ChatGPT",
+      "title": "ChatGPT, Explained",
+      "weight": 31
+    },
+    {
+      "confidence": 0.205,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0176,
+        "lift_log": 2.077,
+        "score": 0.2051,
+        "shared": 9
+      },
+      "rationale": "Google develops Gemini, a competitor to Claude.",
+      "relation_type": "peer",
+      "slug": "google",
+      "source": "cotag",
+      "tag_name": "Google",
+      "title": "Google, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.23,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0239,
+        "lift_log": 2.549,
+        "score": 0.2297,
+        "shared": 9
+      },
+      "rationale": "OpenAI develops ChatGPT, a direct competitor to Claude.",
+      "relation_type": "peer",
+      "slug": "openai",
+      "source": "cotag",
+      "tag_name": "OpenAI",
+      "title": "OpenAI, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "claude",
+  "tag_name": "Claude",
+  "title": "Claude, Explained"
+}

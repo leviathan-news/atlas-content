@@ -1,0 +1,515 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:14:14.372523+00:00",
+      "newsroom_total": 13,
+      "overall_share": 38,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 3
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 9
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-04",
+          "newsroom": 2,
+          "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 2
+        }
+      ],
+      "total_universe": 34,
+      "universe_total": 21
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:14:14.035838+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "seed-phrase",
+          "phrase": "Seed phrases are used to recover wallets.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "wallet",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "seed-phrase",
+          "phrase": "South Korea has regulations affecting seed phrase security.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "south-korea",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "seed-phrase",
+          "phrase": "Both are crypto topics but not directly related.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "crypto-taxes",
+          "weight": 16
+        },
+        {
+          "dir": "out",
+          "from": "seed-phrase",
+          "phrase": "Bitcoin uses seed phrases but is a separate concept.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "seed-phrase",
+          "phrase": "banking",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "banking",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Seed Phrase",
+          "slug": "seed-phrase",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Wallet",
+          "slug": "wallet",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "South Korea",
+          "slug": "south-korea",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Crypto Taxes",
+          "slug": "crypto-taxes",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "Banking",
+          "slug": "banking",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T10:52:40.792362+00:00",
+      "events": [
+        {
+          "date": "2013-09",
+          "kind": "milestone",
+          "label": "BIP-39 mnemonic seed phrase standard ratified",
+          "source": "https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki"
+        },
+        {
+          "date": "2023-05",
+          "kind": "governance",
+          "label": "Ledger Recover firmware update sparks global backlash over encrypted key extraction",
+          "source": "https://www.ledger.com/academy/private-key-and-seed-phrase-whats-the-difference"
+        },
+        {
+          "date": "2024-06",
+          "kind": "exploit",
+          "label": "Counterfeit Ledger Nano S Plus with embedded WiFi discovered on Chinese marketplace",
+          "source": "https://www.tradingview.com/news/cointelegraph:45ec33f2a094b:0-cybersecurity-researcher-uncovers-fake-ledger-sold-on-chinese-marketplace/"
+        },
+        {
+          "date": "2025-03",
+          "kind": "regulatory",
+          "label": "South Korea tax agency leaks seized wallet seed phrase; $4.8M transferred instantly",
+          "source": "https://www.tradingview.com/news/cointelegraph:0f18b8787094b:0-south-korea-s-tax-office-leaks-wallet-seed-and-loses-4-8m-in-seized-tokens/"
+        },
+        {
+          "date": "2025-06",
+          "kind": "regulatory",
+          "label": "UK High Court allows £176M BTC theft lawsuit alleging CCTV seed phrase capture to proceed",
+          "source": "https://divorce.law/guides/news/ex-wife-accused-stealing-180-million-bitcoin-seed-phrase-divorce/"
+        },
+        {
+          "date": "2025-10",
+          "kind": "milestone",
+          "label": "Consensys acquires Web3Auth to replace MetaMask seed phrases with social login recovery",
+          "source": "https://www.coinbase.com/learn/wallet/what-is-a-seed-phrase"
+        },
+        {
+          "date": "2026-06",
+          "kind": "exploit",
+          "label": "Microsoft warns of Tor-based USB worm targeting seed phrases and clipboard wallet addresses",
+          "source": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T10:52:40.792212+00:00",
+      "insight": "Readers click seed phrase stories not for cryptographic mechanics but for institutional betrayal: the highest-engaged headlines all feature a trusted party — police bodycams, a hardware wallet company's own firmware, a government tax agency, a spouse — as the exposure vector, not a remote hacker.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.ledger.com/academy/private-key-and-seed-phrase-whats-the-difference"
+    },
+    "reader_signal": {
+      "article_count": 14,
+      "as_of": "2026-07-01T12:14:14.863776+00:00",
+      "most_clicked": {
+        "clicks": 187,
+        "date": "2025-06-20T00:44:28.149697+00:00",
+        "headline": "Crypto wallet drained after police bodycam footage exposes seed phrase during arrest",
+        "lev_url": "https://leviathannews.xyz/12738/crypto-wallet-drained-after-police-bodycam-footage-exposes-seed-phrase-during-arrest"
+      },
+      "provenance": "data",
+      "top_decile_share": 17,
+      "total_clicks": 1106
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T10:52:40.792275+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://divorce.law/guides/news/ex-wife-accused-stealing-180-million-bitcoin-seed-phrase-divorce/",
+          "thread": "surveillance and physical exposure",
+          "why": "Stories where a camera — bodycam during an arrest or home CCTV in a divorce — became the attack surface hit hardest, because they collapse the security model down to a single line of sight."
+        },
+        {
+          "source": "https://www.tradingview.com/news/cointelegraph:45ec33f2a094b:0-cybersecurity-researcher-uncovers-fake-ledger-sold-on-chinese-marketplace/",
+          "thread": "hardware wallet company trust",
+          "why": "Ledger's firmware update extracting encrypted seed phrases and a counterfeit Ledger sold with embedded WiFi forced readers to ask whether the device meant to protect them was itself the threat."
+        },
+        {
+          "source": "https://www.coinbase.com/learn/wallet/what-is-a-seed-phrase",
+          "thread": "seed phrase alternatives going mainstream",
+          "why": "Launches from Avara, Coinbase, Vultisig, and Consensys/Web3Auth all promised to eliminate seed phrases entirely, signaling that the UX tradeoff is being resolved and readers are tracking who gets there first."
+        },
+        {
+          "source": "https://www.afp.gov.au/news-centre/media-release/operation-kraken-afp-restrains-93-million-crypto-linked-alleged-head",
+          "thread": "law enforcement forensics cracking wallets",
+          "why": "AFP's Operation Kraken and the bodycam arrest showed that seed phrase security now cuts both ways — what protects a legitimate holder can also shield a criminal, and investigators are finding ways through."
+        },
+        {
+          "source": "https://3rditeration.github.io/mnemonic-recovery/src/index.html",
+          "thread": "partial seed recovery and rescue tools",
+          "why": "The story of brute-forcing a wallet from one missing word resonated because it sits at the intersection of catastrophic loss and unexpected salvation — a scenario every holder quietly fears."
+        },
+        {
+          "source": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
+          "thread": "malware and supply-chain theft vectors",
+          "why": "A Tor-propagating USB clipper and a WiFi-embedded counterfeit hardware wallet showed readers that seed phrase theft has moved beyond phishing into persistent, worm-like and physical-layer attacks."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T10:52:40.792288+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Physical / surveillance exposure",
+          "level": "High",
+          "note": "Seed phrases written on paper or displayed on screen can be captured by CCTV, bodycams, or shoulder-surfing with no technical exploit required, as demonstrated in both the UK £176M BTC case and the US arrest footage incident.",
+          "source": "https://divorce.law/guides/news/ex-wife-accused-stealing-180-million-bitcoin-seed-phrase-divorce/"
+        },
+        {
+          "dimension": "Supply chain / hardware integrity",
+          "level": "High",
+          "note": "Counterfeit Ledger Nano S Plus units sold on Chinese marketplaces shipped with embedded WiFi that exfiltrated seed phrases to remote servers, bypassing all software-layer defenses.",
+          "source": "https://www.tradingview.com/news/cointelegraph:45ec33f2a094b:0-cybersecurity-researcher-uncovers-fake-ledger-sold-on-chinese-marketplace/"
+        },
+        {
+          "dimension": "Custodial / centralization creep",
+          "level": "Medium",
+          "note": "Ledger's opt-in Recover firmware demonstrated that a closed-source hardware wallet manufacturer can ship code capable of extracting and transmitting an encrypted copy of a user's seed phrase, even if the user never opts in.",
+          "source": "https://www.ledger.com/academy/private-key-and-seed-phrase-whats-the-difference"
+        },
+        {
+          "dimension": "Malware and OS-layer interception",
+          "level": "High",
+          "note": "Microsoft documented a Tor-based crypto clipper spreading via USB shortcut files that specifically harvests seed phrases from clipboard and local storage across Windows systems.",
+          "source": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
+        },
+        {
+          "dimension": "Regulatory and law-enforcement access",
+          "level": "Medium",
+          "note": "Australian Federal Police cracked a $6M wallet under Operation Kraken by identifying human-made pattern tweaks in the seed phrase, establishing that sufficiently motivated state actors can defeat user-generated entropy.",
+          "source": "https://www.afp.gov.au/news-centre/media-release/operation-kraken-afp-restrains-93-million-crypto-linked-alleged-head"
+        },
+        {
+          "dimension": "Irrecoverable loss (no custodian)",
+          "level": "High",
+          "note": "Self-custody means a single missing or corrupted seed word can permanently lock funds; the 24,576-attempt recovery story and the Phantom iOS wipe incident illustrate that there is no support desk fallback.",
+          "source": "https://www.tradingview.com/news/cointelegraph:90dbe4c1a094b:0-phantom-issues-emergency-patch-after-update-knocks-users-from-ios-wallet-app/"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:14:14.785914+00:00",
+      "items": [
+        {
+          "clicks": 84,
+          "date": "2026-04-09T11:15:20.842699+00:00",
+          "headline": "Solo developer launches 5 working products from seed recovery tool to batch bridging and NFT rescue, highlighting speed of execution and low barrier to building in crypto today",
+          "hot_score": 9725.124556,
+          "lev_url": "https://leviathannews.xyz/224678/in-the-last-few-months-i-shipped-5-products-all-live-and-working-perfectly-1-seed-phrase-recovery-tool-if-u-lose-1-3-words-from-your-seed-phrase-u-can-try-recovering-those",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409092629_6fxvjWSAtoQ7.jpg",
+          "url": "https://x.com/i/status/2042156823789396380"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-06-19T10:20:46.192648+00:00",
+          "headline": "Microsoft warns Tor-based crypto clipper spreads via USB shortcuts to steal seed phrases and swap wallet addresses",
+          "hot_score": 699.658423,
+          "lev_url": "https://leviathannews.xyz/259212/microsoft-warns-tor-based-crypto-clipper-spreads-via-usb-shortcuts-to-steal-seed-phrases-and-swap-wallet-addresses",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260619060705_Z4zrlaiDPw==.png",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-04-17T16:02:31.825498+00:00",
+          "headline": "Counterfeit Ledger Nano S Plus with embedded WiFi sold on Chinese marketplace, steals seed phrases via fake Ledger Live",
+          "hot_score": 666.272237,
+          "lev_url": "https://leviathannews.xyz/231214/counterfeit-ledger-nano-s-plus-with-embedded-wifi-sold-on-chinese-marketplace-steals-seed-phrases-via-fake-ledger-live",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417061429_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/fake-ledger-device-sold-chinese-market-place"
+        },
+        {
+          "clicks": 77,
+          "date": "2026-03-17T09:11:17.683934+00:00",
+          "headline": "UK court in awe after woman is allegedly accused of stealing 2,323 BTC worth $176M after allegedly using CCTV to capture husband’s seed phrase and wallet access",
+          "hot_score": 448.290732,
+          "lev_url": "https://leviathannews.xyz/210759/uk-court-in-awe-after-woman-is-allegedly-accused-of-stealing-2323-btc-worth-176m-after-allegedly-using-cctv-to-capture-husbands-seed-phrase-and-wallet-access",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260317091055_QWERyls_ymZX.jpg",
+          "url": "https://cointelegraph.com/news/uk-wife-accused-stealing-176m-bitcoin-cctv-seed-phrase"
+        },
+        {
+          "clicks": 56,
+          "date": "2026-02-02T17:58:53.356915+00:00",
+          "headline": "Vultisig launched its Plugin Marketplace, introducing the first fully self-custodial, on-chain automation layer that enables DCA, payroll, and other automated actions across 30+ chains without exposing keys or seed phrases.",
+          "hot_score": 53.681267,
+          "lev_url": "https://leviathannews.xyz/24595/vultisig-launched-its-plugin-marketplace-introducing-the-first-fully-self-custodial-on-chain-automation-layer-that-enables-dca-payroll-and-other-automated-actions-across-30-chains-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260202175742_4MpZS2SXML0=.jpg",
+          "url": "https://x.com/i/status/2018349045081620746"
+        },
+        {
+          "clicks": 187,
+          "date": "2025-06-20T00:44:28.149697+00:00",
+          "headline": "Crypto wallet drained after police bodycam footage exposes seed phrase during arrest",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/12738/crypto-wallet-drained-after-police-bodycam-footage-exposes-seed-phrase-during-arrest",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250620002406_yd2QHFj8XlY=.jpg",
+          "url": "https://x.com/DeFiRoze/status/1935719863970103705"
+        },
+        {
+          "clicks": 146,
+          "date": "2025-04-02T13:16:22.869480+00:00",
+          "headline": "Aave’s parent Avara rolls out simplified self-custody with Family Wallet, enabling users to sign up using email or SMS instead of traditional seed phrases.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10346/aaves-parent-avara-rolls-out-simplified-self-custody-with-family-wallet-enabling-users-to-sign-up-using-email-or-sms-instead-of-traditional-seed-phrases",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250402131543_deLHj9baVp8=.jpg",
+          "url": "https://www.coindesk.com/business/2025/04/02/creators-of-defi-firm-aave-simplify-its-family-self-custody-wallet"
+        },
+        {
+          "clicks": 124,
+          "date": "2025-06-24T15:52:10.609871+00:00",
+          "headline": "Ledger announces Ledger Recovery Key, a PIN protected physical card enabling storage of 24-word seed phrases.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/12886/ledger-announces-ledger-recovery-key-a-pin-protected-physical-card-enabling-storage-of-24-word-seed-phrases",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250624155013_UlWxal6JcG0=.jpg",
+          "url": "https://x.com/P3b7_/status/1937501354232008974"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:14:14.697686+00:00",
+      "editorial": [
+        {
+          "count": 6,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "old.reddit.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "microsoft.com"
+        }
+      ],
+      "editorial_distinct": 7,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 10,
+          "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "coin98.com"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        }
+      ],
+      "universe_distinct": 8
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "d112840fdcb00c414ffab3c2d4b0c070aac9776662d6c6a17986d3cb8f81e3c8",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:27.548388+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.227,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0067,
+        "lift_log": 2.688,
+        "score": 0.2273,
+        "shared": 3
+      },
+      "rationale": "Seed phrases are used to recover wallets.",
+      "relation_type": "infrastructure",
+      "slug": "wallet",
+      "source": "cotag",
+      "tag_name": "Wallet",
+      "title": "Wallet, Explained",
+      "weight": 23
+    }
+  ],
+  "schema_version": 1,
+  "slug": "seed-phrase",
+  "tag_name": "Seed Phrase",
+  "title": "Seed Phrase, Explained"
+}

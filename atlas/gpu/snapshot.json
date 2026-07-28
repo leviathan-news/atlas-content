@@ -1,0 +1,514 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:09:58.620586+00:00",
+      "newsroom_total": 9,
+      "overall_share": 8,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 2,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 43
+        },
+        {
+          "ed_share": 22,
+          "month": "2026-04",
+          "newsroom": 5,
+          "universe": 18
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 25
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-06",
+          "newsroom": 2,
+          "universe": 19
+        }
+      ],
+      "total_universe": 117,
+      "universe_total": 108
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:09:57.874977+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "gpu",
+          "phrase": "GPUs are often rented via cloud services for compute.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "cloud",
+          "weight": 30
+        },
+        {
+          "dir": "out",
+          "from": "gpu",
+          "phrase": "Open-source projects leverage GPUs for decentralized compute.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "open-source",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "gpu",
+          "phrase": "GPU is a key component of computing infrastructure.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "infrastructure",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "gpu",
+          "phrase": "Uncertain relation; guide may explain GPU usage.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "guide",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "gpu",
+          "phrase": "gaming",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "gaming",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "GPU",
+          "slug": "gpu",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "cloud",
+          "slug": "cloud",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 30
+        },
+        {
+          "center": false,
+          "name": "open source",
+          "slug": "open-source",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Infrastructure",
+          "slug": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Guide",
+          "slug": "guide",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Gaming",
+          "slug": "gaming",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T08:31:36.181119+00:00",
+      "events": [
+        {
+          "date": "2024-12",
+          "kind": "milestone",
+          "label": "Aethir crosses 430,000 GPU containers across 94 countries",
+          "source": "https://aethir.com/blog-posts/aethirs-2025-wrap-up-decentralized-gpu-cloud-milestones"
+        },
+        {
+          "date": "2025-01",
+          "kind": "milestone",
+          "label": "Aethir publishes 2025 DePIN GPU cloud milestone wrap-up",
+          "source": "https://aethir.com/blog-posts/aethirs-2025-wrap-up-decentralized-gpu-cloud-milestones"
+        },
+        {
+          "date": "2025-03",
+          "kind": "milestone",
+          "label": "Leonardo.Ai cuts GPU costs 50%+ via io.net, scaling from 14K to 19M users",
+          "source": "https://io.net/blog/leonardo-ai-case-study"
+        },
+        {
+          "date": "2025-06",
+          "kind": "regulatory",
+          "label": "CoreWeave $8.5B AI loan draws scrutiny over customer concentration and GPU collateral risk",
+          "source": "https://www.quinnemanuel.com/the-firm/publications/client-alert-emerging-litigation-risks-in-financing-ai-data-centers-boom/"
+        },
+        {
+          "date": "2026-02",
+          "kind": "launch",
+          "label": "a16z leads Ornn $33M seed to build GPU price indices and compute futures markets",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "milestone",
+          "label": "AlphaTON Capital closes $43M NVIDIA B300 GPU deal with Vertical Data for Telegram Cocoon AI",
+          "source": ""
+        },
+        {
+          "date": "2026-05",
+          "kind": "launch",
+          "label": "Aethir begins provisioning Axe Compute 2,304-GPU B300 cluster after $43M payment",
+          "source": "https://aethir.com/blog-posts/aethirs-2025-wrap-up-decentralized-gpu-cloud-milestones"
+        },
+        {
+          "date": "2026-06",
+          "kind": "governance",
+          "label": "Qubic abandons Monero mining after 51% hashrate capture, redirects GPU fleet to AI inference",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T08:31:36.180983+00:00",
+      "insight": "Readers click GPU stories not for hardware specs but for sector-crossing power grabs — miners abandoning proof-of-work, shoe brands becoming compute landlords, and Wall Street building futures markets on GPU capacity — revealing that GPU is the new prime real estate and readers want to know who is seizing it.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://ecosystem.aethir.com/blog-posts/the-financial-shift-in-ai-scaling-why-gpu-as-a-service-is-replacing-capital-expenditure"
+    },
+    "reader_signal": {
+      "article_count": 9,
+      "as_of": "2026-07-01T12:09:59.993485+00:00",
+      "most_clicked": {
+        "clicks": 53,
+        "date": "2026-04-01T14:24:59.778412+00:00",
+        "headline": "Qubic drops Monero for Dogecoin ASIC mining after capturing 51% of XMR hashrate, dedicates full GPU fleet to AI",
+        "lev_url": "https://leviathannews.xyz/219320/qubic-drops-monero-for-dogecoin-asic-mining-after-capturing-51-of-xmr-hashrate-dedicates-full-gpu-fleet-to-ai"
+      },
+      "provenance": "data",
+      "top_decile_share": 16,
+      "total_clicks": 323
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T08:31:36.181047+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Mining-to-AI compute pivot",
+          "why": "Qubic capturing 51% of Monero hashrate then immediately abandoning it for AI GPU workloads dramatized how proof-of-work economics are losing to inference demand."
+        },
+        {
+          "source": "https://aethir.com/blog-posts/aethirs-2025-wrap-up-decentralized-gpu-cloud-milestones",
+          "thread": "Decentralized GPU marketplaces",
+          "why": "DEPINfer on Solana and Aethir's B300 cluster provisioning showed readers a credible alternative to AWS/Azure with on-chain settlement and token incentives."
+        },
+        {
+          "source": "",
+          "thread": "Corporate pivot GPU-as-a-service",
+          "why": "Allbirds rebranding to NewBird AI and gaining 400% stock appreciation made the GPU cloud land-grab legible to readers tracking speculative narratives."
+        },
+        {
+          "source": "https://www.quinnemanuel.com/the-firm/publications/client-alert-emerging-litigation-risks-in-financing-ai-data-centers-boom/",
+          "thread": "GPU infrastructure debt financing",
+          "why": "HIVE's $75M zero-coupon note and AlphaTON's $43M NVIDIA B300 deal signaled that crypto-native firms are using capital markets to stack physical AI hardware, not tokens."
+        },
+        {
+          "source": "",
+          "thread": "Financialization of compute capacity",
+          "why": "Ornn's $33M a16z seed to build GPU price indices and futures markets indicated that GPU capacity is becoming a tradeable commodity asset class with derivative infrastructure."
+        },
+        {
+          "source": "",
+          "thread": "GPU passive income narratives",
+          "why": "AI GPU Rental's framing of supercomputing as a Bitcoin passive earnings layer recycled familiar crypto yield marketing into the AI infrastructure story."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T08:31:36.181057+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / Protocol",
+          "level": "Medium",
+          "note": "DePIN GPU marketplaces like DEPINfer and io.net rely on on-chain job settlement and token payments; a pricing oracle failure or contract exploit can freeze compute capacity mid-job.",
+          "source": "https://io.net/blog/io-net-vs-akash-network-comparing-gpu-cloud-pricing-and-features"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "NVIDIA's B300 GPU supply concentration means a handful of deals (AlphaTON $43M, Aethir/Axe $43M) control scarce hardware, giving NVIDIA and large buyers structural pricing power over the entire decentralized compute sector.",
+          "source": "https://ecosystem.aethir.com/blog-posts/the-financial-shift-in-ai-scaling-why-gpu-as-a-service-is-replacing-capital-expenditure"
+        },
+        {
+          "dimension": "Liquidity / Collateral",
+          "level": "High",
+          "note": "GPU-backed loans at 80% LTV and GPU-collateralized stablecoins like USDai face severe liquidation risk if GPU spot prices fall sharply, as occurred when crypto mining demand collapsed post-merge.",
+          "source": "https://usd.ai/insights/how-to-finance-gpu-cluster-7-days-usd-ai"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "GPU debt financing structures and tokenized GPU futures are novel instruments that lack established regulatory classification in the US and EU, creating enforcement uncertainty for issuers and investors.",
+          "source": "https://www.quinnemanuel.com/the-firm/publications/client-alert-emerging-litigation-risks-in-financing-ai-data-centers-boom/"
+        },
+        {
+          "dimension": "Market / Demand volatility",
+          "level": "High",
+          "note": "GPU-as-a-service pricing is highly sensitive to AI training cycle cadence; a shift toward inference-optimized ASICs or model efficiency gains could rapidly deflate spot GPU rental rates and impair collateral values.",
+          "source": "https://www.barchart.com/story/news/2325319/usd-ai-provides-98-1m-debt-financing-to-support-duos-edge-ai-gpu-deployment-managed-by-hydra-host"
+        },
+        {
+          "dimension": "Counterparty / Credit",
+          "level": "Medium",
+          "note": "Customer concentration risk is material — CoreWeave's $8.5B AI loan depends on a small number of hyperscaler commitments, and similar dependency exists in smaller DePIN GPU clusters funded by single anchor clients.",
+          "source": "https://www.quinnemanuel.com/the-firm/publications/client-alert-emerging-litigation-risks-in-financing-ai-data-centers-boom/"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:09:59.905423+00:00",
+      "items": [
+        {
+          "clicks": 40,
+          "date": "2026-04-15T22:09:46.988004+00:00",
+          "headline": "Allbirds stock soars 400% after shocking pivot to AI compute, as footwear brand rebrands to NewBird AI and enters GPU-as-a-service market with $50M backing",
+          "hot_score": 5769.845986,
+          "lev_url": "https://leviathannews.xyz/229657/allbirds-stock-soars-400-after-shocking-pivot-to-ai-compute-as-footwear-brand-rebrands-to-newbird-ai-and-enters-gpu-as-a-service-market-with-50m-backing",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415143523_4eoFopCznd_I.png",
+          "url": "https://decrypt.co/364446/allbirds-stock-spikes-400-pivot-shoe-brand-ai-compute-yes-really"
+        },
+        {
+          "clicks": 40,
+          "date": "2026-04-16T13:23:13.746471+00:00",
+          "headline": "Bitcoin miner HIVE plans $75M zero-coupon note offering to fund GPU and AI data center expansion",
+          "hot_score": 2445.45713,
+          "lev_url": "https://leviathannews.xyz/230373/bitcoin-miner-hive-plans-75m-zero-coupon-note-offering-to-fund-gpu-and-ai-data-center-expansion",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416105814_Z4zrlaiDPw==.png",
+          "url": "https://www.newsfilecorp.com/release/292755/HIVE-Digital-Announces-Private-Offering-of-US75-Million-of-Exchangeable-Senior-Notes-due-2031"
+        },
+        {
+          "clicks": 20,
+          "date": "2026-06-30T23:25:48.849788+00:00",
+          "headline": "USDAI and BSQ Capital launch $1B GPU compute fund for AI boom, kickstarting with $300M across APAC",
+          "hot_score": 1983.867498,
+          "lev_url": "https://leviathannews.xyz/265459/usdai-and-bsq-capital-partners-are-forming-a-joint-venture-to-finance-ai-compute-across-apac-the-jv-targets-up-to-300m-in-gpu-backed-financings-in-its-initial-deployment-with-a-pat-20260630",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630124643_6Dpf3Fv0YJcT.png",
+          "url": "https://x.com/usdai_official/status/2071934127314759929"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-06-24T14:20:55.073936+00:00",
+          "headline": "a16z leads Ornn's $33M seed round to build financial markets for AI compute, introducing GPU price indices, futures, and capital products for data center investors",
+          "hot_score": 582.183289,
+          "lev_url": "https://leviathannews.xyz/261867/investing-in-ornn-a-market-for-compute",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260624140806_dw1Nzobi8lbr.jpg",
+          "url": "https://x.com/alive_/status/2069762771135148490"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-04-09T23:42:01.516145+00:00",
+          "headline": "AlphaTON Capital inks $43M NVIDIA B300 GPU deal with Vertical Data to power Telegram's Cocoon AI",
+          "hot_score": 458.319955,
+          "lev_url": "https://leviathannews.xyz/225220/alphaton-capital-inks-43m-nvidia-b300-gpu-deal-with-vertical-data-to-power-telegrams-cocoon-ai",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409183641_Z4zrlaiDPw==.png",
+          "url": "https://www.globenewswire.com/news-release/2026/04/09/3271061/0/en/AlphaTON-Capital-Announces-43-Million-AI-Infrastructure-and-Financing-Partnership-with-Vertical-Data.html"
+        },
+        {
+          "clicks": 23,
+          "date": "2026-05-28T12:40:41.085135+00:00",
+          "headline": "Aethir starts provisioning Axe Compute's 2,304-GPU B300 cluster after first $43M customer payment",
+          "hot_score": 431.302288,
+          "lev_url": "https://leviathannews.xyz/249457/aethir-starts-provisioning-axe-computes-2304-gpu-b300-cluster-after-first-43m-customer-payment",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260528111747_Z4zrlaiDPw==.png",
+          "url": "https://aethir.com/blog-posts/aethir-begins-provisioning-axe-computes-260m-b300-cluster-as-first-payment-lands"
+        },
+        {
+          "clicks": 51,
+          "date": "2026-03-26T08:07:36.207327+00:00",
+          "headline": "OTC-listed Tianrong launches DEPINfer, a Solana-based decentralized GPU compute marketplace backed by $DEPIN token",
+          "hot_score": 309.368461,
+          "lev_url": "https://leviathannews.xyz/216130/tianrong-internet-products-and-services-inc-otc-tips-announces-front-end-marketplace-launch-for-depinfer-decentralized-gpu-compute-platform-powered-by-depin-token-on-solana",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260326011911_PdNhbZ8C6gEO.jpg",
+          "url": "https://www.globenewswire.com/news-release/2026/03/25/3262209/0/en/Tianrong-Internet-Products-and-Services-Inc-OTC-TIPS-Announces-Front-End-Marketplace-Launch-for-DEPINfer-Decentralized-GPU-Compute-Platform-Powered-by-DEPIN-Token-on-Solana.html?_gl=1*7dhp94*_up*MQ..*_ga*NDg4NjQ4MDUuMTc3NDQ4NzA1NA..*_ga_B6167QB2TF*czE3NzQ0ODcwNTMkbzEkZzAkdDE3NzQ0ODcwNTMkajYwJGwwJGgw*_ga_ERWPGTJ5X8*czE3NzQ0ODcwNTMkbzEkZzAkdDE3NzQ0ODcwNTMkajYwJGwwJGgw"
+        },
+        {
+          "clicks": 53,
+          "date": "2026-04-01T14:24:59.778412+00:00",
+          "headline": "Qubic drops Monero for Dogecoin ASIC mining after capturing 51% of XMR hashrate, dedicates full GPU fleet to AI",
+          "hot_score": 167.056051,
+          "lev_url": "https://leviathannews.xyz/219320/qubic-drops-monero-for-dogecoin-asic-mining-after-capturing-51-of-xmr-hashrate-dedicates-full-gpu-fleet-to-ai",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401133654_Z4zrlaiDPw==.png",
+          "url": "https://qubic.org/blog-detail/qubic-dogecoin-mining-transition-plan-april-2026"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:09:59.803059+00:00",
+      "editorial": [
+        {
+          "count": 3,
+          "source": "globenewswire.com"
+        },
+        {
+          "count": 2,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "qubic.org"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "newsfilecorp.com"
+        },
+        {
+          "count": 1,
+          "source": "aethir.com"
+        }
+      ],
+      "editorial_distinct": 6,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 77,
+          "source": "x.com"
+        },
+        {
+          "count": 9,
+          "source": "io.net"
+        },
+        {
+          "count": 8,
+          "source": "aethir.com"
+        },
+        {
+          "count": 3,
+          "source": "barrons.com"
+        },
+        {
+          "count": 3,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "icn.global"
+        },
+        {
+          "count": 1,
+          "source": "blog.brevis.network"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "tether.io"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "usd.ai"
+        }
+      ],
+      "universe_distinct": 12
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "0d4745140c1d70ee43a81d20a2a1e0683a78d060052049a2fb845976f5f64812",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:07.701551+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.299,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0388,
+        "lift_log": 3.915,
+        "score": 0.299,
+        "shared": 8
+      },
+      "rationale": "GPUs are often rented via cloud services for compute.",
+      "relation_type": "infrastructure",
+      "slug": "cloud",
+      "source": "cotag",
+      "tag_name": "cloud",
+      "title": "cloud, Explained",
+      "weight": 30
+    },
+    {
+      "confidence": 0.222,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0353,
+        "lift_log": 4.47,
+        "score": 0.222,
+        "shared": 3
+      },
+      "rationale": "Open-source projects leverage GPUs for decentralized compute.",
+      "relation_type": "ecosystem",
+      "slug": "open-source",
+      "source": "cotag",
+      "tag_name": "Open Source",
+      "title": "open source, Explained",
+      "weight": 22
+    }
+  ],
+  "schema_version": 1,
+  "slug": "gpu",
+  "tag_name": "GPU",
+  "title": "GPU, Explained"
+}

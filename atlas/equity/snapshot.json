@@ -1,0 +1,528 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:00:06.549934+00:00",
+      "newsroom_total": 31,
+      "overall_share": 22,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 31
+        },
+        {
+          "ed_share": 44,
+          "month": "2026-04",
+          "newsroom": 14,
+          "universe": 18
+        },
+        {
+          "ed_share": 24,
+          "month": "2026-05",
+          "newsroom": 7,
+          "universe": 22
+        },
+        {
+          "ed_share": 21,
+          "month": "2026-06",
+          "newsroom": 10,
+          "universe": 37
+        }
+      ],
+      "total_universe": 139,
+      "universe_total": 108
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:00:05.934841+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "equity",
+          "phrase": "Both equity and derivatives are financial instruments, with derivatives deriving value from underlying assets.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "derivatives",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "equity",
+          "phrase": "Cantor provides financial services and market infrastructure for equity trading.",
+          "relation_type": "infrastructure",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "cantor",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "equity",
+          "phrase": "Securitize tokenizes equity securities, enabling digital issuance and trading.",
+          "relation_type": "product",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "securitize",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "equity",
+          "phrase": "Equity indices track a basket of stocks, representing a segment of the equity market.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "index",
+          "weight": 16
+        },
+        {
+          "dir": "out",
+          "from": "equity",
+          "phrase": "An IPO is the process where private equity becomes publicly traded equity.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "ipo",
+          "weight": 15
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Equity",
+          "slug": "equity",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Derivatives",
+          "slug": "derivatives",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Cantor",
+          "slug": "cantor",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Securitize",
+          "slug": "securitize",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Index",
+          "slug": "index",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        },
+        {
+          "center": false,
+          "name": "IPO",
+          "slug": "ipo",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T04:54:21.057006+00:00",
+      "events": [
+        {
+          "date": "2026-02",
+          "kind": "milestone",
+          "label": "Cornell publishes institutional analysis as tokenized equity market gains momentum",
+          "source": "https://business.cornell.edu/article/2026/02/tokenized-equities/"
+        },
+        {
+          "date": "2026-05",
+          "kind": "regulatory",
+          "label": "SEC delays rulemaking for crypto-native versions of U.S. stocks",
+          "source": "https://www.bloomberg.com/news/articles/2026-05-22/sec-delays-plan-allowing-for-crypto-versions-of-us-stocks"
+        },
+        {
+          "date": "2026-05",
+          "kind": "launch",
+          "label": "Franklin Templeton files two Bitcoin DRIP ETFs reinvesting equity dividends into BTC",
+          "source": "https://bitcoinmagazine.com/news/franklin-templeton-files-two-etfs-bitcoin"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Base integrates Centrifuge to offer 24/7 tokenized S&P 500 exposure onchain",
+          "source": "https://morpho.org/stories/centrifuge/"
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Solana reaches 97% share of tokenized equity trading volume across all platforms",
+          "source": "https://solana.com/news/ondo-global-markets-tokenized-stocks-etfs-solana"
+        },
+        {
+          "date": "2026-06",
+          "kind": "launch",
+          "label": "Ondo launches tokenized equity perpetuals with 20x leverage for non-U.S. traders",
+          "source": "https://www.thestreet.com/crypto/innovation/ondo-is-bringing-leveraged-stock-trading-on-chain"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Securitize clears SEC hurdle for SPAC merger with Cantor Equity Partners II, NYSE listing as SECZ imminent",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "milestone",
+          "label": "Tokenized equity market surpasses $5.5B as SpaceX IPO access opens on Kraken and Bybit",
+          "source": "https://www.crowdfundinsider.com/2026/06/285340-spacex-ipo-launch-highlights-fundamental-contrast-between-blockchain-based-tokenized-stocks-exposure-and-traditional-equity-acquisition/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T04:54:21.056870+00:00",
+      "insight": "Readers are not clicking equity stories for tokenization-as-investment thesis — they click when equity becomes functional DeFi infrastructure: collateral inside a stablecoin reserve, an oracle feed powering a prediction market, or the underlying of a 20x leveraged perpetual, revealing demand for equity-as-primitive rather than equity-as-asset.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://business.cornell.edu/article/2026/02/tokenized-equities/"
+    },
+    "reader_signal": {
+      "article_count": 31,
+      "as_of": "2026-07-01T12:00:07.074283+00:00",
+      "most_clicked": {
+        "clicks": 127,
+        "date": "2026-04-06T15:24:44.396506+00:00",
+        "headline": "Ethena proposes USDe reserve overhaul, adding institutional lending, RWAs, equity & commodity basis, and prime lending to reduce concentration and boost resilience",
+        "lev_url": "https://leviathannews.xyz/221704/ethena-proposes-usde-reserve-overhaul-adding-institutional-lending-rwas-equity-commodity-basis-and-prime-lending-to-reduce-concentration-and-boost-resilience"
+      },
+      "provenance": "data",
+      "top_decile_share": 21,
+      "total_clicks": 1443
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T04:54:21.056927+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://solana.com/news/ondo-global-markets-tokenized-stocks-etfs-solana",
+          "thread": "tokenized equity infrastructure race",
+          "why": "Solana capturing 97% of tokenized equity trading volume, Base adding S&P 500 exposure via Centrifuge, and Ondo's Solana deployment made readers track which chain wins the pipe-laying competition for real-world equity settlement."
+        },
+        {
+          "source": "https://www.thestreet.com/crypto/innovation/ondo-is-bringing-leveraged-stock-trading-on-chain",
+          "thread": "equity perps and onchain leverage",
+          "why": "Ondo's 20x leveraged equity perps, Ostium's Nasdaq data integration, and the funding-rate arbitrage angle gave readers concrete products to evaluate — offshore leverage on stocks with no brokerage account required."
+        },
+        {
+          "source": "https://www.coinbase.com/blog/pre-ipos-are-launching-on-coinbase-starting-with-spacex",
+          "thread": "pre-IPO and private equity access",
+          "why": "OKX offering SpaceX and OpenAI perpetuals, Coinbase launching pre-IPO listings, and the $5.5B tokenized equity market milestone showed readers a genuine route into previously gated private-company exposure."
+        },
+        {
+          "source": "",
+          "thread": "equity as DeFi collateral",
+          "why": "Ethena's USDe reserve overhaul adding equity basis trades alongside RWAs was the single highest-clicked story, signaling reader appetite for equity embedded inside stablecoin yield infrastructure rather than held as a standalone token."
+        },
+        {
+          "source": "https://www.bloomberg.com/news/articles/2026-05-22/sec-delays-plan-allowing-for-crypto-versions-of-us-stocks",
+          "thread": "regulatory gatekeeping of retail access",
+          "why": "The SEC's May 2026 delay on crypto stock rules, Securitize's SPAC hurdle, and employer 401k fiduciary liability fears clustered as a thread about which institutions get to block or unlock retail equity exposure."
+        },
+        {
+          "source": "https://bitcoinmagazine.com/news/franklin-templeton-files-two-etfs-bitcoin",
+          "thread": "TradFi capital structure convergence",
+          "why": "Jamie Dimon questioning the IPO drought, Franklin Templeton filing Bitcoin DRIP ETFs, and Strategy shifting from debt to equity financing read together as institutions quietly rewiring capital structure around crypto rails."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T04:54:21.056935+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "The SEC delayed its crypto-native equity rulemaking in May 2026, leaving tokenized stock issuers operating without a clear legal framework and exposing holders to potential forced unwind or repatriation requirements.",
+          "source": "https://www.bloomberg.com/news/articles/2026-05-22/sec-delays-plan-allowing-for-crypto-versions-of-us-stocks"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Solana absorbing 97% of tokenized equity trading volume concentrates systemic risk on a single chain — one outage or targeted enforcement action could halt the entire nascent market simultaneously.",
+          "source": "https://solana.com/news/ondo-global-markets-tokenized-stocks-etfs-solana"
+        },
+        {
+          "dimension": "Market / Leverage",
+          "level": "High",
+          "note": "Ondo's 20x leveraged equity perpetuals and funding-rate arbitrage products amplify equity volatility inside crypto settlement rails with no circuit breakers equivalent to those on traditional exchanges.",
+          "source": "https://www.thestreet.com/crypto/innovation/ondo-is-bringing-leveraged-stock-trading-on-chain"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Despite 24/7 trading claims, the $5.5B tokenized equity market remains a rounding error against underlying equity liquidity, creating de-peg and redemption-queue risk during stress periods.",
+          "source": "https://www.kraken.com/learn/tokenized-equities"
+        },
+        {
+          "dimension": "Smart Contract",
+          "level": "Medium",
+          "note": "Tokenized equity protocols stack custody, oracle, and issuance layers on top of on-chain logic; a clean audit on one layer (as with Manifest Finance's Sherlock review) does not cover the full attack surface.",
+          "source": ""
+        },
+        {
+          "dimension": "Custodial / Counterparty",
+          "level": "Medium",
+          "note": "Tokenized equity holders carry legal exposure to the issuer's solvency and redemption mechanics rather than direct share ownership, a gap that 401k plan fiduciaries explicitly cited as a lawsuit liability in 2026.",
+          "source": ""
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:00:06.970790+00:00",
+      "items": [
+        {
+          "clicks": 55,
+          "date": "2026-04-10T05:59:18.568531+00:00",
+          "headline": "OKX Ventures, HashKey take equity in VPBank's CAEX to compete for Vietnam's five-slot crypto pilot",
+          "hot_score": 9206.027924,
+          "lev_url": "https://leviathannews.xyz/225560/okx-ventures-hashkey-take-equity-in-vpbanks-caex-to-compete-for-vietnams-five-slot-crypto-pilot",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410032822_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/okx-and-hashkey-back-vpbank-linked-bid-for-vietnam-s-tight-crypto-pilot"
+        },
+        {
+          "clicks": 23,
+          "date": "2026-04-14T20:01:23.888141+00:00",
+          "headline": "Figure and Hastra expand DeFi credit with auto loans, bringing tokenized consumer lending beyond home equity and testing real-world yield markets onchain",
+          "hot_score": 7309.489986,
+          "lev_url": "https://leviathannews.xyz/228833/figure-and-hastra-expand-defi-credit-with-auto-loans-bringing-tokenized-consumer-lending-beyond-home-equity-and-testing-real-world-yield-markets-onchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260414172602_bAoNWBD5jwrQ.jpg",
+          "url": "https://cointelegraph.com/news/figure-hastra-expand-tokenized-credit-auto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "clicks": 49,
+          "date": "2026-04-15T08:20:13.984450+00:00",
+          "headline": "SIX Group taps Chainlink DataLink to bring Swiss and Spanish equity data onchain",
+          "hot_score": 4332.266076,
+          "lev_url": "https://leviathannews.xyz/229220/six-group-taps-chainlink-datalink-to-bring-swiss-and-spanish-equity-data-onchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415060449_edg1OSGXMN7D.jpg",
+          "url": "https://www.theblock.co/post/397450/major-european-six-group-stock-exchanges-feeding-data-to-chainlink"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-04-15T19:10:06.072876+00:00",
+          "headline": "TeraWulf stock drops ~6% after upsizing equity raise to $900M, pricing 47.4M shares at $19 to fund AI data center expansion",
+          "hot_score": 3222.819108,
+          "lev_url": "https://leviathannews.xyz/229401/terawulf-stock-drops-6-after-upsizing-equity-raise-to-900m-pricing-474m-shares-at-19-to-fund-ai-data-center-expansion",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415102216_JM8q7DXU_gR8.jpg",
+          "url": "https://www.theblock.co/post/397514/terawulf-shares-fall-after-upsized-900-million-equity-raise-to-fund-ai-data-center-buildout?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-04-15T22:12:20.243943+00:00",
+          "headline": "Jane Street signs $6B CoreWeave AI cloud deal, takes $1B equity stake at $109 per share",
+          "hot_score": 2958.734371,
+          "lev_url": "https://leviathannews.xyz/229944/jane-street-signs-6b-coreweave-ai-cloud-deal-takes-1b-equity-stake-at-109-per-share",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415201345_Z4zrlaiDPw==.png",
+          "url": "https://www.coreweave.com/news/jane-street-signs-6-billion-ai-cloud-agreement-with-coreweave"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-04-11T13:19:03.922998+00:00",
+          "headline": "Employers balk at adding crypto and private equity to 401(k)s over fiduciary lawsuit risk",
+          "hot_score": 1487.533524,
+          "lev_url": "https://leviathannews.xyz/226740/employers-balk-at-adding-crypto-and-private-equity-to-401ks-over-fiduciary-lawsuit-risk",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411131440_Z4zrlaiDPw==.png",
+          "url": "https://www.nytimes.com/2026/04/11/business/dealbook/crypto-private-equity-401ks.html"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-06-27T06:02:06.396155+00:00",
+          "headline": "TradeXYZ's dominance in equity, commodity and index perps isn't an existential threat to Hyperliquid, it's a growth engine driving users, fees and HYPE buybacks",
+          "hot_score": 1099.781191,
+          "lev_url": "https://leviathannews.xyz/263872/tradexyzs-dominance-in-equity-commodity-and-index-perps-isnt-an-existential-threat-to-hyperliquid-its-a-growth-engine-driving-users-fees-and-hype-buybacks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260627030432_YIU8UUsZ0acP.jpg",
+          "url": "https://x.com/kidponga/status/2070574856668590437"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-04-20T20:09:27.003498+00:00",
+          "headline": "Coinbase and Bybit reportedly explore collaboration on tokenizing U.S. stocks, focusing on custody and distribution without any equity stake or market entry deal",
+          "hot_score": 962.6,
+          "lev_url": "https://leviathannews.xyz/233895/coinbase-and-bybit-reportedly-explore-collaboration-on-tokenizing-us-stocks-focusing-on-custody-and-distribution-without-any-equity-stake-or-market-entry-deal",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420200827_z_N9wYbKzzyK.jpg",
+          "url": "https://www.coindesk.com/business/2026/04/20/coinbase-bybit-said-to-be-working-together-on-tokenization-custody-and-distribution-of-u-s-stocks"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:00:06.887715+00:00",
+      "editorial": [
+        {
+          "count": 13,
+          "source": "x.com"
+        },
+        {
+          "count": 6,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "hwke.com"
+        },
+        {
+          "count": 1,
+          "source": "fairmint.com"
+        },
+        {
+          "count": 1,
+          "source": "nytimes.com"
+        },
+        {
+          "count": 1,
+          "source": "businesswire.com"
+        },
+        {
+          "count": 1,
+          "source": "coreweave.com"
+        },
+        {
+          "count": 1,
+          "source": "sec.gov"
+        },
+        {
+          "count": 1,
+          "source": "synd.io"
+        }
+      ],
+      "editorial_distinct": 11,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 65,
+          "source": "x.com"
+        },
+        {
+          "count": 10,
+          "source": "theblock.co"
+        },
+        {
+          "count": 4,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 4,
+          "source": "listingcenter.nasdaq.com"
+        },
+        {
+          "count": 3,
+          "source": "treeofalpha.com"
+        },
+        {
+          "count": 3,
+          "source": "binance.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "federalreserve.gov"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "foxbusiness.com"
+        }
+      ],
+      "universe_distinct": 23
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "5d7afa88b9a2aebb88c857384f74e7f8034bf80e55ce4e845b7c3fe870b17e92",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:03.063757+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.24,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0468,
+        "lift_log": 4.737,
+        "score": 0.2399,
+        "shared": 5
+      },
+      "rationale": "Cantor provides financial services and market infrastructure for equity trading.",
+      "relation_type": "infrastructure",
+      "slug": "cantor",
+      "source": "cotag",
+      "tag_name": "Cantor",
+      "title": "Cantor, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.245,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0193,
+        "lift_log": 2.937,
+        "score": 0.2445,
+        "shared": 4
+      },
+      "rationale": "Both equity and derivatives are financial instruments, with derivatives deriving value from underlying assets.",
+      "relation_type": "peer",
+      "slug": "derivatives",
+      "source": "cotag",
+      "tag_name": "Derivatives",
+      "title": "Derivatives, Explained",
+      "weight": 24
+    }
+  ],
+  "schema_version": 1,
+  "slug": "equity",
+  "tag_name": "Equity",
+  "title": "Equity, Explained"
+}

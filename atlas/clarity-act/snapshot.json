@@ -1,0 +1,555 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:46:23.821964+00:00",
+      "newsroom_total": 50,
+      "overall_share": 15,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 5,
+          "month": "2026-03",
+          "newsroom": 3,
+          "universe": 55
+        },
+        {
+          "ed_share": 22,
+          "month": "2026-04",
+          "newsroom": 14,
+          "universe": 51
+        },
+        {
+          "ed_share": 18,
+          "month": "2026-05",
+          "newsroom": 22,
+          "universe": 103
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-06",
+          "newsroom": 11,
+          "universe": 78
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 341,
+      "universe_total": 291
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:46:23.496205+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "clarity-act",
+          "phrase": "The CLARITY Act is a bill introduced in the Senate.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "senate",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "clarity-act",
+          "phrase": "The act relates to banking regulations for digital assets.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "banking",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "clarity-act",
+          "phrase": "The act defines and regulates digital assets.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "digital-assets",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "clarity-act",
+          "phrase": "Bessent is a key figure advocating for the act.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bessent",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "clarity-act",
+          "phrase": "The act aims to establish market structure for crypto.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "market-structure",
+          "weight": 18
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "CLARITY Act",
+          "slug": "clarity-act",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Senate",
+          "slug": "senate",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Banking",
+          "slug": "banking",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Digital Assets",
+          "slug": "digital-assets",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Bessent",
+          "slug": "bessent",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Market Structure",
+          "slug": "market-structure",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T01:21:33.646213+00:00",
+      "events": [
+        {
+          "date": "2025-05",
+          "kind": "regulatory",
+          "label": "House Clarity Act of 2025 final draft published",
+          "source": "https://financialservices.house.gov/uploadedfiles/2025-05-29_-_sbs_-_clarity_act_of_2025_-_final.pdf"
+        },
+        {
+          "date": "2025-07",
+          "kind": "regulatory",
+          "label": "House Financial Services releases updated Clarity Act one-pager and final text",
+          "source": "https://financialservices.house.gov/uploadedfiles/2025-07-10_--_one-pager_clarity_act.pdf"
+        },
+        {
+          "date": "2026-03",
+          "kind": "regulatory",
+          "label": "Senate Banking Committee holds closed-door executive session on Digital Asset Market Clarity Act",
+          "source": "https://www.dwt.com/blogs/financial-services-law-advisor/2026/05/senate-banking-crypto-market-structure-bill"
+        },
+        {
+          "date": "2026-04",
+          "kind": "governance",
+          "label": "Tillis-Alsobrooks compromise draft bans passive stablecoin yield, preserves activity rewards",
+          "source": "https://blockchair.com/pl/news/clarity-act-banking-groups-continue-stablecoin-yield-push-as-senate-focus-shifts-to-ethics-defi--24cfe6630210cd8c"
+        },
+        {
+          "date": "2026-04",
+          "kind": "regulatory",
+          "label": "Senate Banking Committee advances Clarity Act 15-9 with DeFi developer shield removed",
+          "source": "https://www.dwt.com/blogs/financial-services-law-advisor/2026/05/senate-banking-crypto-market-structure-bill"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "200-plus crypto firms urge Senate floor vote; Galaxy cuts passage odds to ~60%",
+          "source": "https://thedefiant.io/converge/regulation/200-crypto-firms-urge-senate-vote-clarity-act-galaxy-cuts-passage-odds-60-percent"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Senate Banking Committee formally approves Clarity Act after Democratic defections; 60-vote floor threshold remains unresolved",
+          "source": "https://www.dwt.com/blogs/financial-services-law-advisor/2026/05/senate-banking-crypto-market-structure-bill"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T01:21:33.646009+00:00",
+      "insight": "Readers aren't clicking for abstract policy — they're tracking the yield ban as a regulatory moat mechanism: the most-clicked angle is specifically that the stablecoin yield prohibition disadvantages DeFi protocols (Aave, Uniswap, dYdX) while entrenching Circle's centralized model, revealing readers are stress-testing which business models survive the bill's passage.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://hodder.law/clarity-act-defi-developer-safe-harbors-stablecoin-regulation-2026/"
+    },
+    "reader_signal": {
+      "article_count": 50,
+      "as_of": "2026-07-01T11:46:24.430180+00:00",
+      "most_clicked": {
+        "clicks": 133,
+        "date": "2026-03-29T17:20:36.563668+00:00",
+        "headline": "CLARITY Act yield ban creates headwind for Aave, Uniswap, dYdX while boosting Circle moat",
+        "lev_url": "https://leviathannews.xyz/217507/clarity-act-yield-ban-creates-headwind-for-aave-uniswap-dydx-while-boosting-circle-moat"
+      },
+      "provenance": "data",
+      "top_decile_share": 20,
+      "total_clicks": 2258
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T01:21:33.646087+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://hodder.law/clarity-act-defi-developer-safe-harbors-stablecoin-regulation-2026/",
+          "thread": "stablecoin yield ban winners/losers",
+          "why": "The top-clicked headline names specific protocols hurt (Aave, Uniswap, dYdX) and one winner (Circle), making the yield prohibition a concrete competitive-moat story rather than an abstract rule."
+        },
+        {
+          "source": "https://hodder.law/clarity-act-defi-developer-safe-harbors-stablecoin-regulation-2026/",
+          "thread": "DeFi developer liability shield",
+          "why": "Multiple high-click headlines focus on the last-minute removal of a DeFi developer safe harbor and a Senate amendment that could expose protocol builders to SEC oversight, making developer legal exposure a distinct storyline."
+        },
+        {
+          "source": "https://thedefiant.io/converge/regulation/200-crypto-firms-urge-senate-vote-clarity-act-galaxy-cuts-passage-odds-60-percent",
+          "thread": "Senate passage math and gridlock",
+          "why": "Headlines about the 60-vote filibuster threshold, seven swing-vote Democrats, and Coin Center's warning that gridlock leaves crypto one administration away from DOJ crackdowns drew sustained clicks across weeks of markup delays."
+        },
+        {
+          "source": "",
+          "thread": "Armstrong and Coinbase position flip",
+          "why": "Armstrong reversing after twice blocking the bill and the Dimon-Armstrong Davos confrontation gave readers a named-executive conflict to follow, turning an abstract lobbying story into a personality-driven drama."
+        },
+        {
+          "source": "",
+          "thread": "institutional adoption unlock",
+          "why": "a16z framing the bill as crypto's '1933 Securities Act moment' and Y Combinator claiming it would embed crypto across its entire portfolio (including Airbnb and DoorDash) attracted readers looking for upside scenarios, not just risk."
+        },
+        {
+          "source": "https://blockchair.com/pl/news/clarity-act-banking-groups-continue-stablecoin-yield-push-as-senate-focus-shifts-to-ethics-defi--24cfe6630210cd8c",
+          "thread": "anti-manipulation language lobbying",
+          "why": "The revelation that Coinbase, Kraken, and Gemini lobbied to strip anti-manipulation provisions raised questions about whether the bill was being weakened to benefit incumbent exchanges at the expense of market integrity."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T01:21:33.646140+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "The bill requires 60 Senate votes to break a filibuster, faces Democratic defections on DeFi and ethics provisions, and Polymarket passage odds fell to 47% amid markup delays, leaving the entire crypto market-structure framework uncertain.",
+          "source": "https://thedefiant.io/converge/regulation/200-crypto-firms-urge-senate-vote-clarity-act-galaxy-cuts-passage-odds-60-percent"
+        },
+        {
+          "dimension": "Smart-contract / DeFi",
+          "level": "High",
+          "note": "A Senate amendment removed the DeFi developer safe harbor from the 15-9 committee-passed text, meaning protocol builders could remain exposed to SEC enforcement even if the bill passes in its current form.",
+          "source": "https://hodder.law/clarity-act-defi-developer-safe-harbors-stablecoin-regulation-2026/"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "The idle-balance yield ban structurally advantages centralized issuers like Circle that can monetize reserves internally, while disadvantaging on-chain yield protocols — regulatorily encoding a two-tier stablecoin market.",
+          "source": "https://hodder.law/clarity-act-defi-developer-safe-harbors-stablecoin-regulation-2026/"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Industry executives warned that banning passive yield could drive capital toward AI-powered yield infrastructure or offshore products, fragmenting dollar-denominated liquidity rather than concentrating it under US oversight.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "HashKey Research flagged that Asia could capture yield-seeking demand redirected away from US-registered stablecoins if the yield ban stands, weakening dollar stablecoin dominance globally.",
+          "source": ""
+        },
+        {
+          "dimension": "Governance",
+          "level": "Medium",
+          "note": "Senator Gillibrand tied her support to a bar on officials with industry ties, and Hoskinson warned the bill could be politically weaponized and take 15 years to implement, raising long-term governance capture risk.",
+          "source": "https://www.dwt.com/blogs/financial-services-law-advisor/2026/05/senate-banking-crypto-market-structure-bill"
+        }
+      ],
+      "sourced": 4,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:46:24.348225+00:00",
+      "items": [
+        {
+          "clicks": 45,
+          "date": "2026-04-12T22:33:58.127124+00:00",
+          "headline": "Senator Cynthia Lummis calls for passing the Clarity Act, blaming prior US policies for driving crypto firms offshore and urging clear rules to bring the digital asset industry back",
+          "hot_score": 8722.069479,
+          "lev_url": "https://leviathannews.xyz/227352/senator-cynthia-lummis-calls-for-passing-the-clarity-act-blaming-prior-us-policies-for-driving-crypto-firms-offshore-and-urging-clear-rules-to-bring-the-digital-asset-industry-back",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260412220408_hxBbRtWIrhdU.jpg",
+          "url": "https://x.com/i/status/2043438004857872846"
+        },
+        {
+          "clicks": 60,
+          "date": "2026-04-10T07:12:33.660223+00:00",
+          "headline": "Armstrong reverses on Clarity Act after blocking it twice, tells Bessent 'we agree' on crypto bill",
+          "hot_score": 7404.156277,
+          "lev_url": "https://leviathannews.xyz/225686/armstrong-reverses-on-clarity-act-after-blocking-it-twice-tells-bessent-we-agree-on-crypto-bill",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410071132_Z4zrlaiDPw==.png",
+          "url": "https://x.com/brian_armstrong/status/2042395055349231820"
+        },
+        {
+          "clicks": 40,
+          "date": "2026-04-15T05:46:22.630670+00:00",
+          "headline": "Tillis-Alsobrooks draft bans passive stablecoin yield, preserves activity rewards to unblock CLARITY Act",
+          "hot_score": 4244.908495,
+          "lev_url": "https://leviathannews.xyz/229184/tillis-alsobrooks-draft-bans-passive-stablecoin-yield-preserves-activity-rewards-to-unblock-clarity-act",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415044300_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/crypto-banks-continue-senate-bill-spat-with-new-proposal-concerns-report"
+        },
+        {
+          "clicks": 53,
+          "date": "2026-04-07T19:27:44.756651+00:00",
+          "headline": "Clarity Act vote, SEC innovation exemption, and MiCA expiry converge in Q2 to test crypto's regulatory future",
+          "hot_score": 3720.644714,
+          "lev_url": "https://leviathannews.xyz/222313/clarity-act-vote-sec-innovation-exemption-and-mica-expiry-converge-in-q2-to-test-cryptos-regulatory-future",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407080315_Z4zrlaiDPw==.png",
+          "url": "https://www.dlnews.com/articles/regulation/how-these-key-crypto-regulatory-dates-in-q2-will-affect-the-industry/"
+        },
+        {
+          "clicks": 21,
+          "date": "2026-06-29T17:42:14.705184+00:00",
+          "headline": "The White House will meet with law enforcement groups to address concerns over illicit-finance provisions as lawmakers push forward with the Clarity Act",
+          "hot_score": 2781.283455,
+          "lev_url": "https://leviathannews.xyz/264810/white-house-to-speak-with-law-enforcement-groups-to-push-cryptos-clarity-act-20260629",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629154331_TLppL1rHF6VX.jpg",
+          "url": "https://www.coindesk.com/policy/2026/06/29/white-house-to-speak-with-law-enforcement-groups-to-push-crypto-s-clarity-act"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-06-29T09:47:05.965210+00:00",
+          "headline": "Galaxy Research cuts 2026 CLARITY Act odds to 50-50 as Senate calendar crowds out crypto market structure",
+          "hot_score": 2662.010465,
+          "lev_url": "https://leviathannews.xyz/264463/galaxy-research-cuts-2026-clarity-act-odds-to-50-50-as-senate-calendar-crowds-out-crypto-market-structure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629085825_Z4zrlaiDPw==.png",
+          "url": "https://x.com/intangiblecoins/status/2070523994629947719"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-04-17T05:24:51.411194+00:00",
+          "headline": "Clarity Act punts stablecoin yield language to late-April markup while idle-balance yield ban stays intact",
+          "hot_score": 1820.17483,
+          "lev_url": "https://leviathannews.xyz/231157/clarity-act-punts-stablecoin-yield-language-to-late-april-markup-while-idle-balance-yield-ban-stays-intact",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417052411_kOEoIMLDLgMn.jpg",
+          "url": "https://www.theblock.co/post/397838/clarity-act-stablecoin-yield-delayed"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-04-11T20:07:03.467946+00:00",
+          "headline": "Wintermute's Hammond puts Clarity Act passage at just 30%, half the odds crypto markets are pricing",
+          "hot_score": 1695.745783,
+          "lev_url": "https://leviathannews.xyz/226782/wintermutes-hammond-puts-clarity-act-passage-at-just-30-half-the-odds-crypto-markets-are-pricing",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411144458_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/policy/2026/04/11/crypto-clarity-bill-has-30-chance-of-passing-this-year-wintermute-s-hammond-says"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:46:24.241909+00:00",
+      "editorial": [
+        {
+          "count": 13,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 13,
+          "source": "x.com"
+        },
+        {
+          "count": 7,
+          "source": "theblock.co"
+        },
+        {
+          "count": 5,
+          "source": "cryptoinamerica.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "crypto.news"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "banking.senate.gov"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 1,
+          "source": "theblockchainassociation.org"
+        }
+      ],
+      "editorial_distinct": 13,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 136,
+          "source": "x.com"
+        },
+        {
+          "count": 27,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 23,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 23,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 15,
+          "source": "theblock.co"
+        },
+        {
+          "count": 14,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 13,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 11,
+          "source": "cryptoinamerica.com"
+        },
+        {
+          "count": 9,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 3,
+          "source": "foxbusiness.com"
+        },
+        {
+          "count": 3,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 2,
+          "source": "wsj.com"
+        }
+      ],
+      "universe_distinct": 22
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "f0f6aedd71934020f939d6b2a3c3edf7773bfbd6f641a6d236078fffbe2935c3",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:56.415822+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.213,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0846,
+        "lift_log": 3.656,
+        "score": 0.2129,
+        "shared": 36
+      },
+      "rationale": "The act relates to banking regulations for digital assets.",
+      "relation_type": "category",
+      "slug": "banking",
+      "source": "cotag",
+      "tag_name": "Banking",
+      "title": "Banking, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.21,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.018,
+        "lift_log": 2.175,
+        "score": 0.2096,
+        "shared": 8
+      },
+      "rationale": "The act defines and regulates digital assets.",
+      "relation_type": "category",
+      "slug": "digital-assets",
+      "source": "cotag",
+      "tag_name": "Digital Assets",
+      "title": "Digital Assets, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.262,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.1589,
+        "lift_log": 3.782,
+        "score": 0.2625,
+        "shared": 90
+      },
+      "rationale": "The CLARITY Act is a bill introduced in the Senate.",
+      "relation_type": "event",
+      "slug": "senate",
+      "source": "cotag",
+      "tag_name": "Senate",
+      "title": "Senate, Explained",
+      "weight": 26
+    }
+  ],
+  "schema_version": 1,
+  "slug": "clarity-act",
+  "tag_name": "CLARITY Act",
+  "title": "CLARITY Act, Explained"
+}

@@ -1,0 +1,669 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:44:10.269933+00:00",
+      "newsroom_total": 108,
+      "overall_share": 26,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 7,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 15,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 7,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 6,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 6,
+          "universe": 0
+        },
+        {
+          "ed_share": 16,
+          "month": "2026-02",
+          "newsroom": 3,
+          "universe": 16
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-03",
+          "newsroom": 4,
+          "universe": 96
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-04",
+          "newsroom": 10,
+          "universe": 39
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-05",
+          "newsroom": 11,
+          "universe": 82
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-06",
+          "newsroom": 8,
+          "universe": 74
+        }
+      ],
+      "total_universe": 415,
+      "universe_total": 307
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:44:07.628023+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "senate",
+          "phrase": "The CLARITY Act is a legislative event considered by the Senate.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "clarity-act",
+          "weight": 26
+        },
+        {
+          "dir": "out",
+          "from": "senate",
+          "phrase": "The Senate is a legislative body that produces legislation.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "legislation",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "senate",
+          "phrase": "Banking is a sector regulated by the Senate.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "banking",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "senate",
+          "phrase": "A bill debated in the Senate regarding crypto market structure.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "crypto-market-structure-bill",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "senate",
+          "phrase": "CBDC is a policy topic discussed in the Senate.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "cbdc",
+          "weight": 20
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Senate",
+          "slug": "senate",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "CLARITY Act",
+          "slug": "clarity-act",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 26
+        },
+        {
+          "center": false,
+          "name": "Legislation",
+          "slug": "legislation",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Banking",
+          "slug": "banking",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Crypto Market Structure Bill",
+          "slug": "crypto-market-structure-bill",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "CBDC",
+          "slug": "cbdc",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T00:41:31.024924+00:00",
+      "events": [
+        {
+          "date": "2024-05",
+          "kind": "regulatory",
+          "label": "Senate passes SAB 121 CRA; Biden vetoes",
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00053.htm"
+        },
+        {
+          "date": "2025-01",
+          "kind": "regulatory",
+          "label": "Scott Bessent confirmed Treasury Secretary 68-29",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "regulatory",
+          "label": "Senate Banking Committee approves GENIUS Act",
+          "source": "https://www.mayerbrown.com/en/insights/publications/2025/03/congress-moves-forward-on-stablecoin-legislation-the-us-senate-banking-committee-approves-the-genius-act"
+        },
+        {
+          "date": "2025-03",
+          "kind": "regulatory",
+          "label": "Senate votes 70-27 to repeal IRS broker rule",
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00053.htm"
+        },
+        {
+          "date": "2025-05",
+          "kind": "governance",
+          "label": "Senate rejects GENIUS Act cloture vote",
+          "source": "https://www.paulhastings.com/insights/crypto-policy-tracker/stablecoin-legislation-and-market-structure-bill"
+        },
+        {
+          "date": "2025-06",
+          "kind": "milestone",
+          "label": "GENIUS Act clears Senate; stablecoin bill enacted",
+          "source": "https://www.lw.com/en/insights/the-genius-act-of-2025-stablecoin-legislation-adopted-in-the-us"
+        },
+        {
+          "date": "2025-12",
+          "kind": "regulatory",
+          "label": "CLARITY Act market-structure markup delayed; 2025 passage unlikely",
+          "source": "https://www.dwt.com/blogs/financial-services-law-advisor/2026/05/senate-banking-crypto-market-structure-bill"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T00:41:31.024724+00:00",
+      "insight": "Readers click Senate crypto coverage as a binary scorecard — did the Senate kill a hostile rule or stall a friendly one — which means vote outcomes and named appointments generate far more engagement than the policy substance those votes produce.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.paulhastings.com/insights/crypto-policy-tracker/stablecoin-legislation-and-market-structure-bill"
+    },
+    "reader_signal": {
+      "article_count": 108,
+      "as_of": "2026-07-01T11:44:13.001876+00:00",
+      "most_clicked": {
+        "clicks": 330,
+        "date": "2025-02-16T19:36:58.957194+00:00",
+        "headline": "Pantera Capital’s Dan Morehead faces U.S. tax probe over $850M crypto profits after relocating to Puerto Rico, per Senate Finance Committee letter.",
+        "lev_url": "https://leviathannews.xyz/9370/pantera-capitals-dan-morehead-faces-us-tax-probe-over-850m-crypto-profits-after-relocating-to-puerto-rico-per-senate-finance-committee-letter"
+      },
+      "provenance": "data",
+      "top_decile_share": 27,
+      "total_clicks": 6881
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T00:41:31.024797+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.lw.com/en/insights/the-genius-act-of-2025-stablecoin-legislation-adopted-in-the-us",
+          "thread": "GENIUS Act stablecoin passage",
+          "why": "A single landmark bill moved through multiple high-drama stages — committee markup, cloture defeat, eventual passage — keeping readers returning to track whether U.S. stablecoin law would materialize."
+        },
+        {
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00053.htm",
+          "thread": "Biden-era rule kill votes",
+          "why": "The IRS broker rule repeal (70-27 Senate, 292-131 House) and SAB 121 CRA handed crypto its clearest legislative wins in years, and readers tracked each vote as a scoreboard update."
+        },
+        {
+          "source": "",
+          "thread": "Morehead Puerto Rico tax probe",
+          "why": "The Senate Finance Committee targeting a high-profile crypto fund manager over $850M in offshore gains made abstract tax-haven strategy suddenly feel like personal legal exposure."
+        },
+        {
+          "source": "https://www.mayerbrown.com/en/insights/publications/2025/03/congress-moves-forward-on-stablecoin-legislation-the-us-senate-banking-committee-approves-the-genius-act",
+          "thread": "Stablecoin yield bank clash",
+          "why": "Senators framing yield-bearing stablecoins as a deposit-flight risk to community banks gave readers a concrete mechanism for why this bill kept stalling even after bipartisan support."
+        },
+        {
+          "source": "https://in.tradingview.com/news/cointelegraph:b68610e19094b:0-crypto-pac-has-12m-stake-in-senate-primary-runoff-as-alabama-voters-head-to-polls/",
+          "thread": "Crypto PAC Senate targeting",
+          "why": "A 440,000-member crypto PAC entering Senate races — and the Warren fundraising counter-battle — showed readers that legislative outcomes were now being fought at the electoral level."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T00:41:31.024805+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Back-to-back Senate fights over stablecoin legislation, broker-rule repeal, and market-structure bills signal that the U.S. regulatory framework remains unsettled and highly vote-dependent.",
+          "source": "https://www.paulhastings.com/insights/crypto-policy-tracker/stablecoin-legislation-and-market-structure-bill"
+        },
+        {
+          "dimension": "Surveillance / AML expansion",
+          "level": "High",
+          "note": "Galaxy's analysis of the stablecoin bill warned it would trigger the largest expansion of Treasury surveillance authority since the Patriot Act, including new powers over digital asset flows.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Senate Banking Committee hearings explicitly flagged yield-bearing stablecoin programs as capable of triggering large-scale deposit flight from community banks, creating systemic liquidity risk if broadly adopted.",
+          "source": "https://www.mayerbrown.com/en/insights/publications/2025/03/congress-moves-forward-on-stablecoin-legislation-the-us-senate-banking-committee-approves-the-genius-act"
+        },
+        {
+          "dimension": "Market structure",
+          "level": "Medium",
+          "note": "The CLARITY Act market-structure bill stalled heading into end-of-2025 as Democratic demands for tighter rules clashed with Republican urgency, leaving DeFi protocol classification legally unresolved.",
+          "source": "https://www.dwt.com/blogs/financial-services-law-advisor/2026/05/senate-banking-crypto-market-structure-bill"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Proposed stablecoin legislation concentrates approval authority at the Fed and Treasury level, giving two executive-branch bodies outsized veto power over which issuers may operate.",
+          "source": "https://www.hunton.com/blockchain-legal-resource/senate-releases-crypto-market-structure-bills"
+        }
+      ],
+      "sourced": 4,
+      "total": 5
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:44:12.869243+00:00",
+      "items": [
+        {
+          "clicks": 38,
+          "date": "2026-04-15T22:11:21.192600+00:00",
+          "headline": "Crypto Super PACs pour $8M into Ohio Senate race as 2026 midterms echo 2024 spending blitz",
+          "hot_score": 2996.636269,
+          "lev_url": "https://leviathannews.xyz/229880/crypto-super-pacs-pour-8m-into-ohio-senate-race-as-2026-midterms-echo-2024-spending-blitz",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260415185925_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/us-election-mirrors-2024-crypto-ohio"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-04-16T10:56:52.402911+00:00",
+          "headline": "Solana Policy Institute bankrolls PACs with $3.5M as crypto targets Sherrod Brown's Ohio Senate comeback",
+          "hot_score": 2995.278827,
+          "lev_url": "https://leviathannews.xyz/230092/solana-policy-institute-bankrolls-pacs-with-35m-as-crypto-targets-sherrod-browns-ohio-senate-comeback",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416001256_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/policy/2026/04/15/solana-policy-institute-backed-pac-spends-millions-to-jam-sherrod-brown-s-senate-run"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-06-29T09:47:05.965210+00:00",
+          "headline": "Galaxy Research cuts 2026 CLARITY Act odds to 50-50 as Senate calendar crowds out crypto market structure",
+          "hot_score": 2663.668708,
+          "lev_url": "https://leviathannews.xyz/264463/galaxy-research-cuts-2026-clarity-act-odds-to-50-50-as-senate-calendar-crowds-out-crypto-market-structure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629085825_Z4zrlaiDPw==.png",
+          "url": "https://x.com/intangiblecoins/status/2070523994629947719"
+        },
+        {
+          "clicks": 41,
+          "date": "2026-05-14T14:57:16.459827+00:00",
+          "headline": "The LIVE Senate Banking Committee is holding a closed‑door executive session Digital Asset Market Clarity Act of 2025,",
+          "hot_score": 1122.19715,
+          "lev_url": "https://leviathannews.xyz/242212/the-live-senate-banking-committee-is-holding-a-closeddoor-executive-session-on-may-14-2026-to-consider-hr-3633-the-digital-asset-market-clarity-act-of-2025-with-the-proceedings-web",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514145608_fjEF6TvuQTU8.jpg",
+          "url": "https://www.banking.senate.gov/hearings/05/08/2026/executive-session"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-05-14T16:58:47.506311+00:00",
+          "headline": "Senate Banking Committee approves the Clarity Act after key Democratic defections, pushing major U.S. crypto legislation closer to becoming law",
+          "hot_score": 817.8,
+          "lev_url": "https://leviathannews.xyz/242366/no-headline-20260514-2",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514165743_9N4qGtNHpFFT.jpg",
+          "url": "https://decrypt.co/367871/democrats-split-clarity-act-crypto-bill-passes-senate-committee-vote"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-05-18T06:34:57.191628+00:00",
+          "headline": "NYDIG says the Senate’s crypto market structure bill may not pass until August, warning the legislation could stall entirely if it misses the pre-midterm window",
+          "hot_score": 730.319401,
+          "lev_url": "https://leviathannews.xyz/244228/nydigs-greg-cipolaro-says-the-senate-could-pass-a-long-awaited-crypto-bill-as-late-as-august-and-that-if-it-doesnt-the-legislation-is-at-risk-as-congress-winds-up-for-the-midter",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260518062711_WSRdRIJ3qL51.jpg",
+          "url": "https://cointelegraph.com/news/senate-crypto-bill-august-advance-in-lame-duck-session-nydig"
+        },
+        {
+          "clicks": 41,
+          "date": "2026-05-15T22:14:25.027077+00:00",
+          "headline": "Analysts say the CLARITY Act still faces major hurdles despite Senate Banking Committee approval, with Democrats and Trump conflict concerns threatening passage",
+          "hot_score": 721.6,
+          "lev_url": "https://leviathannews.xyz/243181/analysts-say-the-clarity-act-still-faces-major-hurdles-despite-senate-banking-committee-approval-with-democrats-and-trump-conflict-concerns-threatening-passage",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260515220639_ypl9QeR1FRL6.jpg",
+          "url": "https://www.theblock.co/post/401528/crypto-market-structure-bill-significant-hurdles-despite-senate-committee-win-analysts"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-06-03T07:01:44.087618+00:00",
+          "headline": "Blockchain Association presses Senate on CLARITY Act with 160 security, intelligence, and law enforcement veterans",
+          "hot_score": 717.40873,
+          "lev_url": "https://leviathannews.xyz/252075/blockchain-association-presses-senate-on-clarity-act-with-160-security-intelligence-and-law-enforcement-veterans",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260603041604_Z4zrlaiDPw==.png",
+          "url": "https://theblockchainassociation.org/posts/blockchain-association-letter-from-law-enforcement-to-senate-leadership"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:44:12.696389+00:00",
+      "editorial": [
+        {
+          "count": 29,
+          "source": "x.com"
+        },
+        {
+          "count": 14,
+          "source": "theblock.co"
+        },
+        {
+          "count": 11,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 9,
+          "source": "cryptoinamerica.com"
+        },
+        {
+          "count": 7,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 3,
+          "source": "banking.senate.gov"
+        },
+        {
+          "count": 2,
+          "source": "leviathannews.substack.com"
+        },
+        {
+          "count": 2,
+          "source": "youtube.com"
+        },
+        {
+          "count": 2,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 2,
+          "source": "bitcoinmagazine.com"
+        }
+      ],
+      "editorial_distinct": 32,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 93,
+          "source": "x.com"
+        },
+        {
+          "count": 69,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 27,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 20,
+          "source": "theblock.co"
+        },
+        {
+          "count": 19,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 14,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 13,
+          "source": "whitehouse.gov"
+        },
+        {
+          "count": 11,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 5,
+          "source": "thehill.com"
+        },
+        {
+          "count": 4,
+          "source": "lummis.senate.gov"
+        },
+        {
+          "count": 4,
+          "source": "politico.com"
+        },
+        {
+          "count": 3,
+          "source": "techinasia.com"
+        }
+      ],
+      "universe_distinct": 32
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "3b0e3365a7be17e9370eb3dbd78b2fff35b2f4f3dce168cc46cf2634e6eab3ef",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:27.937124+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.228,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.1027,
+        "lift_log": 3.75,
+        "score": 0.2281,
+        "shared": 51
+      },
+      "rationale": "Banking is a sector regulated by the Senate.",
+      "relation_type": "peer",
+      "slug": "banking",
+      "source": "cotag",
+      "tag_name": "Banking",
+      "title": "Banking, Explained",
+      "weight": 23
+    },
+    {
+      "confidence": 0.262,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.1589,
+        "lift_log": 3.782,
+        "score": 0.2625,
+        "shared": 90
+      },
+      "rationale": "The CLARITY Act is a legislative event considered by the Senate.",
+      "relation_type": "event",
+      "slug": "clarity-act",
+      "source": "cotag",
+      "tag_name": "CLARITY Act",
+      "title": "CLARITY Act, Explained",
+      "weight": 26
+    },
+    {
+      "confidence": 0.201,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0508,
+        "lift_log": 3.794,
+        "score": 0.2013,
+        "shared": 25
+      },
+      "rationale": "A bill debated in the Senate regarding crypto market structure.",
+      "relation_type": "event",
+      "slug": "crypto-market-structure-bill",
+      "source": "cotag",
+      "tag_name": "Crypto Market Structure Bill",
+      "title": "Crypto Market Structure Bill, Explained",
+      "weight": 20
+    },
+    {
+      "confidence": 0.252,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0137,
+        "lift_log": 3.142,
+        "score": 0.2517,
+        "shared": 7
+      },
+      "rationale": "The Senate is a legislative body that produces legislation.",
+      "relation_type": "category",
+      "slug": "legislation",
+      "source": "cotag",
+      "tag_name": "Legislation",
+      "title": "Legislation, Explained",
+      "weight": 25
+    }
+  ],
+  "schema_version": 1,
+  "slug": "senate",
+  "tag_name": "Senate",
+  "title": "Senate, Explained"
+}

@@ -1,0 +1,572 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:16:04.641028+00:00",
+      "newsroom_total": 13,
+      "overall_share": 39,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 1
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 7
+        }
+      ],
+      "total_universe": 33,
+      "universe_total": 20
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:16:04.331045+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "encryption",
+          "phrase": "Quantum computing threatens to break current encryption algorithms.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "quantum-computing",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "encryption",
+          "phrase": "Encryption is a tool for privacy, but they are distinct concepts.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "privacy",
+          "weight": 24
+        },
+        {
+          "dir": "out",
+          "from": "encryption",
+          "phrase": "Bitcoin uses encryption for secure transactions and wallet keys.",
+          "relation_type": "product",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "encryption",
+          "phrase": "Google develops encryption technologies like HTTPS and end-to-end encryption.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "google",
+          "weight": 16
+        },
+        {
+          "dir": "out",
+          "from": "encryption",
+          "phrase": "Encryption is a fundamental component of cybersecurity.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "security",
+          "weight": 15
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Encryption",
+          "slug": "encryption",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Quantum Computing",
+          "slug": "quantum-computing",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Privacy",
+          "slug": "privacy",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 24
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "Google",
+          "slug": "google",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        },
+        {
+          "center": false,
+          "name": "Security",
+          "slug": "security",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:36:38.902905+00:00",
+      "events": [
+        {
+          "date": "2024-08",
+          "kind": "milestone",
+          "label": "NIST releases first three finalized post-quantum encryption standards",
+          "source": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards"
+        },
+        {
+          "date": "2024-11",
+          "kind": "regulatory",
+          "label": "US agencies attribute Salt Typhoon telecom hack to China, urge E2E encryption adoption",
+          "source": "https://cryptonews.net/news/security/33026509/"
+        },
+        {
+          "date": "2025-02",
+          "kind": "milestone",
+          "label": "Google Quantum AI publishes responsible-disclosure research on breaking elliptic-curve cryptography",
+          "source": "https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/"
+        },
+        {
+          "date": "2025-04",
+          "kind": "launch",
+          "label": "Fairblock raises $2.5M to deploy conditional encryption for blockchain transactions",
+          "source": "https://www.fairblock.network/articles"
+        },
+        {
+          "date": "2025-05",
+          "kind": "regulatory",
+          "label": "UK drops demand for Apple encryption backdoor in major E2E policy reversal",
+          "source": "https://www.cloudflare.com/learning/privacy/what-is-end-to-end-encryption/"
+        },
+        {
+          "date": "2025-07",
+          "kind": "launch",
+          "label": "Elon Musk announces X Chat with Bitcoin-style P2P encryption and Rust architecture",
+          "source": "https://www.tradingview.com/news/coinpedia:4059f79f0094b:0-whatsapp-killer-elon-musk-reveals-x-chat-a-bitcoin-style-encrypted-messaging-app/"
+        },
+        {
+          "date": "2025-10",
+          "kind": "regulatory",
+          "label": "Switzerland advances legislation threatening secure encryption and online anonymity",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "milestone",
+          "label": "a16z crypto publishes analysis reframing quantum blockchain threat as migration-planning problem, not imminent crisis",
+          "source": "https://a16zcrypto.com/posts/article/quantum-computing-misconceptions-realities-blockchains-planning-migrations/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:36:38.902746+00:00",
+      "insight": "Readers click encryption stories not for the cryptography but for the power struggle — every top headline frames encryption as a front line between state/corporate surveillance and individual sovereignty, with Bitcoin serving as the ideological benchmark for what 'real' security looks like.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://mullvad.net/en/why-privacy-matters/going-dark"
+    },
+    "reader_signal": {
+      "article_count": 13,
+      "as_of": "2026-07-01T12:16:05.079594+00:00",
+      "most_clicked": {
+        "clicks": 196,
+        "date": "2025-04-16T21:41:33.855592+00:00",
+        "headline": "Secure encryption and online anonymity are now at risk in Switzerland",
+        "lev_url": "https://leviathannews.xyz/10582/secure-encryption-and-online-anonymity-are-now-at-risk-in-switzerland"
+      },
+      "provenance": "data",
+      "top_decile_share": 19,
+      "total_clicks": 1018
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:36:38.902812+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://mullvad.net/en/why-privacy-matters/going-dark",
+          "thread": "Government backdoor battles",
+          "why": "Switzerland, the US/EU 'Going Dark' collaboration, Apple's UK victory, and the Salt Typhoon attribution collectively dominated clicks because they show democratic governments actively dismantling the encryption they publicly endorse."
+        },
+        {
+          "source": "https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/",
+          "thread": "Quantum threat to Bitcoin keys",
+          "why": "Google's quantum AI research framing a concrete 2048-bit RSA cracking timeline injected urgency into a risk most readers considered theoretical, linking it directly to BTC holdings."
+        },
+        {
+          "source": "https://www.tradingview.com/news/coinpedia:4059f79f0094b:0-whatsapp-killer-elon-musk-reveals-x-chat-a-bitcoin-style-encrypted-messaging-app/",
+          "thread": "X Chat Bitcoin-level encryption",
+          "why": "Two separate Musk/X Chat headlines drew ~158 combined clicks because invoking 'Bitcoin-level' and 'Rust' security as marketing language lets readers test whether a mainstream app can match crypto-native privacy standards."
+        },
+        {
+          "source": "https://www.fairblock.network/articles",
+          "thread": "Conditional and novel blockchain encryption",
+          "why": "Fairblock's conditional encryption raise signaled a meaningful departure from ZK orthodoxy, attracting readers tracking the next cryptographic primitive likely to underpin private DeFi."
+        },
+        {
+          "source": "https://www.vaneck.com/blogs/digital-assets/the-investment-case-for-bitcoin/",
+          "thread": "Bitcoin privacy vulnerability reassessment",
+          "why": "VanEck's public hedge toward Zcash revealed institutional doubt about Bitcoin's long-term encryption assumptions, a rare admission that pulled in readers holding both assets."
+        },
+        {
+          "source": "https://apps.apple.com/fr/app/pearpass/id6752954830",
+          "thread": "Crypto-native E2E productivity tools",
+          "why": "Tether's PearPass and dDocs demonstrated that the encryption ethos is expanding beyond wallets into everyday software, resonating with readers who distrust cloud-first incumbents."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:36:38.902825+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Coordinated US/EU 'Going Dark' efforts and Swiss legislative pressure show a sustained policy push to mandate encryption backdoors, directly threatening self-custody wallet security and private messaging layers used by DeFi participants.",
+          "source": "https://mullvad.net/en/why-privacy-matters/going-dark"
+        },
+        {
+          "dimension": "Quantum computing",
+          "level": "Medium",
+          "note": "Google's research indicates a sufficiently large quantum computer could break elliptic-curve cryptography underpinning Bitcoin and most blockchain signing schemes, with harvest-now-decrypt-later attacks already posing a near-term risk to long-dormant wallets.",
+          "source": "https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/"
+        },
+        {
+          "dimension": "Post-quantum migration",
+          "level": "Medium",
+          "note": "NIST finalized three post-quantum encryption standards in August 2024, but blockchain signature upgrades require social consensus and slow deliberate adoption, creating a dangerous window between threat maturity and protocol readiness.",
+          "source": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards"
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "End-to-end encrypted apps like X Chat still expose metadata and key-storage risks at centralized servers, meaning encryption at the message layer does not eliminate single points of failure that governments or attackers can target.",
+          "source": "https://windowsforum.com/threads/xchat-e2ee-promise-falls-short-exif-and-key-storage-risks.379859/"
+        },
+        {
+          "dimension": "Smart contract",
+          "level": "Low",
+          "note": "Fully homomorphic encryption and conditional encryption primitives are pre-production for most DeFi use cases, so current smart contract encryption risk is low but will rise as private on-chain computation layers deploy.",
+          "source": "https://chain.link/education-hub/homomorphic-encryption"
+        },
+        {
+          "dimension": "Market",
+          "level": "Low",
+          "note": "Institutional reassessment of Bitcoin's encryption durability, as flagged by VanEck, has not yet produced measurable capital rotation, but sustained quantum-threat headlines could compress long-term holding confidence.",
+          "source": "https://www.vaneck.com/blogs/digital-assets/the-investment-case-for-bitcoin/"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:16:05.003685+00:00",
+      "items": [
+        {
+          "clicks": 18,
+          "date": "2026-06-29T11:59:20.285095+00:00",
+          "headline": "Fhenix bets Fully Homomorphic Encryption will power confidential finance, enabling private stablecoins, MEV-resistant DeFi, and encrypted smart contracts",
+          "hot_score": 2623.397609,
+          "lev_url": "https://leviathannews.xyz/264554/the-future-of-confidential-finance-is-hiding-in-plain-sight",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629114612_QMxkVFqDGgg2.jpg",
+          "url": "https://x.com/blocmates/status/2071553258896732583"
+        },
+        {
+          "clicks": 49,
+          "date": "2025-12-17T15:27:04.349522+00:00",
+          "headline": "Tether releases PearPass, a local password manager, a free peer-to-peer app that stores passwords locally and syncs them encrypted across devices without any central servers. It features a password generator, end-to-end encryption via Libsodium, user-key recovery, and full open-source code on GitHub, plus an independent audit by Secfault Security.",
+          "hot_score": 66.832667,
+          "lev_url": "https://leviathannews.xyz/22651/tether-releases-pearpass-a-local-password-manager-a-free-peer-to-peer-app-that-stores-passwords-locally-and-syncs-them-encrypted-across-devices-without-any-central-servers-it-featu",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251217152318_TtUICTABsFg=.jpg",
+          "url": "https://x.com/Tether_to/status/2001269408296058890"
+        },
+        {
+          "clicks": 27,
+          "date": "2025-12-06T09:57:33.889437+00:00",
+          "headline": "Quantum computing threats to blockchains are widely overstated, but urgent migration to post-quantum encryption is needed due to harvest-now-decrypt-later risks. Signature upgrades, however, require slower, deliberate adoption—especially for Bitcoin.",
+          "hot_score": 23.634057,
+          "lev_url": "https://leviathannews.xyz/21759/quantum-computing-threats-to-blockchains-are-widely-overstated-but-urgent-migration-to-post-quantum-encryption-is-needed-due-to-harvest-now-decrypt-later-risks-signature-upgrades-h",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251206095137_PHo7MFtBYwM=.jpg",
+          "url": "https://a16zcrypto.com/posts/article/quantum-computing-misconceptions-realities-blockchains-planning-migrations/#where-are-we-on-timing"
+        },
+        {
+          "clicks": 196,
+          "date": "2025-04-16T21:41:33.855592+00:00",
+          "headline": "Secure encryption and online anonymity are now at risk in Switzerland",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10582/secure-encryption-and-online-anonymity-are-now-at-risk-in-switzerland",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250416213712_nwmMynCMe6I=.jpg",
+          "url": "https://www.techradar.com/vpn/vpn-privacy-security/secure-encryption-and-online-anonymity-are-now-at-risk-in-switzerland-heres-what-you-need-to-know"
+        },
+        {
+          "clicks": 114,
+          "date": "2024-12-15T18:39:08.738062+00:00",
+          "headline": "U.S. Federal agencies link China to massive 'Salt Typhoon' hack targeting AT&T, Verizon, and government officials, urging end-to-end encryption for protection.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8313/us-federal-agencies-link-china-to-massive-salt-typhoon-hack-targeting-att-verizon-and-government-officials-urging-end-to-end-encryption-for-protection",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241215183831_O4MI_vLTxg==.jpeg",
+          "url": "https://www.cnbc.com/2024/12/15/why-the-fbi-wants-you-to-use-end-to-end-encrypted-messaging.html"
+        },
+        {
+          "clicks": 106,
+          "date": "2024-05-22T06:54:03.085559+00:00",
+          "headline": "Going Dark: The war on encryption is on the rise. Through a shady collaboration between the US and the EU",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/5561/going-dark-the-war-on-encryption-is-on-the-rise-through-a-shady-collaboration-between-the-us-and-the-eu",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240522001945_0SwUh6znsw==.jpg",
+          "url": "https://mullvad.net/en/why-privacy-matters/going-dark"
+        },
+        {
+          "clicks": 103,
+          "date": "2025-05-25T17:11:33.851847+00:00",
+          "headline": "Google's Quantum AI advances could crack 2048-bit RSA encryption 20 times quicker, posing a Bitcoin security risk within five years.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/11623/googles-quantum-ai-advances-could-crack-2048-bit-rsa-encryption-20-times-quicker-posing-a-bitcoin-security-risk-within-five-years",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250525171022_36585nuLCDg=.jpg",
+          "url": "https://thedefiant.io/news/blockchains/google-quantum-ai-breakthrough-makes-2048-bit-rsa-encryption-20-times-easier-to-81e80139"
+        },
+        {
+          "clicks": 86,
+          "date": "2025-06-01T18:35:02.709318+00:00",
+          "headline": "Elon Musk reveals the new XChat launch featuring end-to-end encryption, disappearing messages, universal file sharing, plus audio and video calls, all built on Rust with Bitcoin-level security and a completely revamped architecture.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/11870/elon-musk-reveals-the-new-xchat-launch-featuring-end-to-end-encryption-disappearing-messages-universal-file-sharing-plus-audio-and-video-calls-all-built-on-rust-with-bitcoin-level-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250601183124_EddJe7q8mZg=.jpg",
+          "url": "https://x.com/elonmusk/status/1929238157872312773"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:16:04.916819+00:00",
+      "editorial": [
+        {
+          "count": 4,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "techradar.com"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "mullvad.net"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "thedefiant.io"
+        },
+        {
+          "count": 1,
+          "source": "reuters.com"
+        },
+        {
+          "count": 1,
+          "source": "a16zcrypto.com"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 11,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "binance.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        }
+      ],
+      "universe_distinct": 9
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "279c4365dee9834ff02edb2bc7052d95bcfdbf5cf911703c6bb764daa8cde7df",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:02.827673+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.24,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0066,
+        "lift_log": 2.962,
+        "score": 0.2396,
+        "shared": 3
+      },
+      "rationale": "Encryption is a tool for privacy, but they are distinct concepts.",
+      "relation_type": "peer",
+      "slug": "privacy",
+      "source": "cotag",
+      "tag_name": "Privacy",
+      "title": "Privacy, Explained",
+      "weight": 24
+    },
+    {
+      "confidence": 0.253,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.047,
+        "lift_log": 5.033,
+        "score": 0.2535,
+        "shared": 5
+      },
+      "rationale": "Quantum computing threatens to break current encryption algorithms.",
+      "relation_type": "risk",
+      "slug": "quantum-computing",
+      "source": "cotag",
+      "tag_name": "Quantum Computing",
+      "title": "Quantum Computing, Explained",
+      "weight": 25
+    }
+  ],
+  "schema_version": 1,
+  "slug": "encryption",
+  "tag_name": "Encryption",
+  "title": "Encryption, Explained"
+}

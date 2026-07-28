@@ -1,0 +1,590 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:15:11.922397+00:00",
+      "newsroom_total": 20,
+      "overall_share": 61,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 0,
+          "universe": 3
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-06",
+          "newsroom": 1,
+          "universe": 2
+        }
+      ],
+      "total_universe": 33,
+      "universe_total": 13
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:15:11.640983+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "wormhole",
+          "phrase": "Wormhole is a crosschain messaging protocol enabling interoperability.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "crosschain",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "wormhole",
+          "phrase": "Wormhole connects EVM chains like Ethereum to other networks.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "evm",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "wormhole",
+          "phrase": "bridges",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bridges",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "wormhole",
+          "phrase": "developers",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "developers",
+          "weight": 10
+        },
+        {
+          "dir": "out",
+          "from": "wormhole",
+          "phrase": "infrastructure",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "infrastructure",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Wormhole",
+          "slug": "wormhole",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Crosschain",
+          "slug": "crosschain",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "EVM",
+          "slug": "evm",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Bridges",
+          "slug": "bridges",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Developers",
+          "slug": "developers",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        },
+        {
+          "center": false,
+          "name": "Infrastructure",
+          "slug": "infrastructure",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T11:06:16.308913+00:00",
+      "events": [
+        {
+          "date": "2022-02",
+          "kind": "exploit",
+          "label": "~$320M bridge exploit via signature verification flaw",
+          "source": "https://wormhole.com/docs/protocol/security/"
+        },
+        {
+          "date": "2023-09",
+          "kind": "milestone",
+          "label": "Jump Trading spins off Wormhole as independent entity",
+          "source": ""
+        },
+        {
+          "date": "2024-03",
+          "kind": "milestone",
+          "label": "W token airdrop launched; exploiter address qualified",
+          "source": "https://wormhole.com/blog/how-to-claim-w-airdrop"
+        },
+        {
+          "date": "2024-04",
+          "kind": "governance",
+          "label": "Uniswap DAO selects Wormhole for cross-chain governance alongside Axelar",
+          "source": ""
+        },
+        {
+          "date": "2024-07",
+          "kind": "governance",
+          "label": "Lido DAO withdraws LayerZero support, backs Wormhole and Axelar",
+          "source": ""
+        },
+        {
+          "date": "2024-08",
+          "kind": "launch",
+          "label": "W governance staking module launched for token holders",
+          "source": "https://wormhole.com/blog/w-staking-rewards-program"
+        },
+        {
+          "date": "2024-11",
+          "kind": "launch",
+          "label": "Wormhole launches reserve tying protocol revenue to W token with new yield schedule",
+          "source": "https://blockworks.com/news/wormhole-launches-reserve"
+        },
+        {
+          "date": "2025-03",
+          "kind": "launch",
+          "label": "Native USDT transfers go live across 7 networks via NTT standard",
+          "source": "https://wormhole.com/docs/products/token-transfers/native-token-transfers/overview/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T11:06:16.308728+00:00",
+      "insight": "Readers' clicks split almost evenly between Wormhole's practical utility launches (native USDT transfers) and DAO endorsement battles (Lido, Uniswap), revealing that Wormhole's market position is being decided by protocol governance votes rather than developer traction or security track record.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://wormhole.com/docs/products/token-transfers/native-token-transfers/overview/"
+    },
+    "reader_signal": {
+      "article_count": 20,
+      "as_of": "2026-07-01T12:15:12.358886+00:00",
+      "most_clicked": {
+        "clicks": 1001,
+        "date": "2024-07-09T08:11:46.587350+00:00",
+        "headline": "Wormhole introduces native USDT transfers for 7 networks.",
+        "lev_url": "https://leviathannews.xyz/6222/wormhole-introduces-native-usdt-transfers-for-7-networks"
+      },
+      "provenance": "data",
+      "top_decile_share": 42,
+      "total_clicks": 3417
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T11:06:16.308802+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://wormhole.com/docs/products/token-transfers/native-token-transfers/overview/",
+          "thread": "Native token transfer utility",
+          "why": "The single highest-clicked story — native USDT across 7 networks — signals readers are watching whether Wormhole can move beyond wrapped-asset bridging into canonical transfer infrastructure."
+        },
+        {
+          "source": "",
+          "thread": "DAO bridge-wars endorsements",
+          "why": "Lido and Uniswap both choosing Wormhole over LayerZero drew combined heavy clicks, framing Wormhole's growth story as institutional legitimacy capture rather than organic usage."
+        },
+        {
+          "source": "",
+          "thread": "Jump Trading spin-off independence",
+          "why": "Readers clicked the corporate separation story sharply, likely tracking whether Wormhole's ties to a distressed trading firm created counterparty risk for the protocol."
+        },
+        {
+          "source": "https://wormhole.com/blog/how-to-claim-w-airdrop",
+          "thread": "Airdrop and exploiter controversy",
+          "why": "The exploiter receiving the W airdrop nearly matched the airdrop announcement itself in clicks, showing readers were drawn to the accountability angle, not the token distribution mechanics."
+        },
+        {
+          "source": "https://ripple.com/insights/ripple-usd-rlusd-expands-to-l2s-with-wormhole-ntt-standard/",
+          "thread": "Ecosystem grants and RWA expansion",
+          "why": "Seven-figure grants (Curvance) and RWA integrations (Hamilton Lane, Centrifuge, Ripple RLUSD) pulled readers tracking whether Wormhole is becoming default cross-chain plumbing for institutional DeFi."
+        },
+        {
+          "source": "https://tokenomist.ai/wormhole",
+          "thread": "Token unlock and staking economics",
+          "why": "W appearing alongside $900M+ in August unlocks, plus the reserve and staking module launches, attracted readers pricing dilution risk against new yield mechanisms."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T11:06:16.308816+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / bridge exploit",
+          "level": "High",
+          "note": "Wormhole suffered a ~$320M exploit in February 2022 due to a signature verification flaw; the protocol's security model has been overhauled but the incident remains the largest bridge hack on record and sets the baseline risk expectation.",
+          "source": "https://wormhole.com/docs/protocol/security/"
+        },
+        {
+          "dimension": "Centralization (Guardian network)",
+          "level": "Medium",
+          "note": "Cross-chain message validity depends on a permissioned set of 19 Guardian nodes reaching super-majority (13/19) consensus; compromise of a majority of Guardians would allow fraudulent message attestation.",
+          "source": "https://wormhole.com/docs/protocol/infrastructure/guardians/"
+        },
+        {
+          "dimension": "Market / token unlock pressure",
+          "level": "Medium",
+          "note": "W token appeared among the largest August unlock cohorts (>$900M across multiple assets), and the reserve/yield schedule was launched partly to counteract sell-side pressure from vesting tranches.",
+          "source": "https://tokenomist.ai/wormhole"
+        },
+        {
+          "dimension": "Governance capture",
+          "level": "Medium",
+          "note": "Wormhole actively lobbied Uniswap and Lido DAOs during competitive bridge-selection votes, and countered LayerZero's Stargate bid; heavy reliance on DAO endorsements creates concentration risk if a single large voter switches allegiance.",
+          "source": ""
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Low",
+          "note": "Wormhole's NTT standard is being adopted by regulated issuers (Ripple RLUSD, Hamilton Lane HLSCOPE), which increases compliance scrutiny on the protocol's message layer but also signals institutional legitimacy.",
+          "source": "https://ripple.com/insights/ripple-usd-rlusd-expands-to-l2s-with-wormhole-ntt-standard/"
+        },
+        {
+          "dimension": "Liquidity / chain sunset risk",
+          "level": "Low",
+          "note": "Sei's IBC disable required Wormhole-bridged WETH holders to act within a fixed migration window, illustrating that chain-level pivots can strand bridged assets with limited notice.",
+          "source": "https://blog.sei.io/announcements/holders-of-wormhole-bridged-weth-on-sei-need-to-act-before-ibc-is-disabled/"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:15:12.282103+00:00",
+      "items": [
+        {
+          "clicks": 43,
+          "date": "2026-04-16T17:26:20.441951+00:00",
+          "headline": "Sei to disable inbound IBC in SIP-3 EVM-only transition, warns Wormhole WETH holders to bridge out",
+          "hot_score": 2113.569184,
+          "lev_url": "https://leviathannews.xyz/230744/sei-to-disable-inbound-ibc-in-sip-3-evm-only-transition-warns-wormhole-weth-holders-to-bridge-out",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416171449_Z4zrlaiDPw==.png",
+          "url": "https://blog.sei.io/holders-of-wormhole-bridged-weth-on-sei-need-to-act-before-ibc-is-disabled"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-06-04T20:55:46.593585+00:00",
+          "headline": "Ripple's RLUSD goes multichain via Wormhole NTT, joining standard used by 100+ assets across 40+ chains",
+          "hot_score": 429.828198,
+          "lev_url": "https://leviathannews.xyz/252935/ripples-rlusd-goes-multichain-via-wormhole-ntt-joining-standard-used-by-100-assets-across-40-chains",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260604190959_Z4zrlaiDPw==.png",
+          "url": "https://x.com/wormhole/status/2062535099829408226"
+        },
+        {
+          "clicks": 46,
+          "date": "2025-12-15T17:24:15.754760+00:00",
+          "headline": "Ripple announced plans to expand its $1.3B RLUSD stablecoin to Ethereum layer-2 networks next year, including Optimism, Base, Kraken’s Ink, and Unichain, using Wormhole for interoperability. The move aims to boost DeFi adoption, payments, and on-chain utility as Ripple pushes a multichain strategy, following recent approval to pursue a national trust banking charter.",
+          "hot_score": 40.2596,
+          "lev_url": "https://leviathannews.xyz/22510/ripple-announced-plans-to-expand-its-13b-rlusd-stablecoin-to-ethereum-layer-2-networks-next-year-including-optimism-base-krakens-ink-and-unichain-using-wormhole-for-interoperabilit",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251215171157_cCdJlcZAE4I=.png",
+          "url": "https://decrypt.co/352375/ripple-expand-1-3-billion-rlusd-stablecoin-ethereum-layer-2-networks?utm_source=twitter&utm_medium=social&utm_campaign=auto"
+        },
+        {
+          "clicks": 1001,
+          "date": "2024-07-09T08:11:46.587350+00:00",
+          "headline": "Wormhole introduces native USDT transfers for 7 networks.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6222/wormhole-introduces-native-usdt-transfers-for-7-networks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240709071753_S2Liw7DZkg==.jpg",
+          "url": "https://x.com/wormhole/status/1810328297949303076"
+        },
+        {
+          "clicks": 435,
+          "date": "2025-01-20T22:37:53.873839+00:00",
+          "headline": "Live now with Frax + Superstate w Sam Kazemian and Jim Hiltner",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8835/live-now-with-frax-superstate-w-sam-kazemian-and-jim-hiltner",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250120223142_MTWOQtQkFXg=.jpg",
+          "url": "https://youtube.com/live/EiRvjNkvlPU?feature=share"
+        },
+        {
+          "clicks": 326,
+          "date": "2024-01-25T16:49:03.586036+00:00",
+          "headline": "Lido DAO withdraws support from LayerZero, throws weight behind Wormhole and Axelar for crypto bridge.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3841/lido-dao-withdraws-support-from-layerzero-throws-weight-behind-wormhole-and-axelar-for-crypto-bridge",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.coindesk.com/tech/2024/01/25/lido-dao-rebukes-layerzero-by-endorsing-rivals-wormhole-axelar-for-crypto-bridge/"
+        },
+        {
+          "clicks": 311,
+          "date": "2023-11-17T17:23:48.309267+00:00",
+          "headline": "Jump Trading spins off cross-chain protocol Wormhole as an independent entity, while downsizing its cryptocurrency arm.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3342/jump-trading-spins-off-cross-chain-protocol-wormhole-as-an-independent-entity-while-downsizing-its-cryptocurrency-arm",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.theblock.co/post/263539/jump-trading-makes-cross-chain-protocol-wormhole-a-separate-business-bloomberg"
+        },
+        {
+          "clicks": 199,
+          "date": "2024-02-22T15:23:23.829123+00:00",
+          "headline": "Curvance x  Wormhole Foundation  Grant Announcement.“We're thrilled to announce that Curvance has been awarded a seven-figure grant from the Wormhole Foundation to build DeFi's unified liquidity layer.”🧵h",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4052/curvance-x-wormhole-foundation-grant-announcementwere-thrilled-to-announce-that-curvance-has-been-awarded-a-seven-figure-grant-from-the-wormhole-foundation-to-build-defis-unified-l",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://twitter.com/Curvance/status/1760681114887451014"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:15:12.197089+00:00",
+      "editorial": [
+        {
+          "count": 9,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "token.unlocks.app"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "thedefiant.io"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "blog.sei.io"
+        }
+      ],
+      "editorial_distinct": 10,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 8,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "wormhole.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.sei.io"
+        },
+        {
+          "count": 1,
+          "source": "dailymail.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "npr.org"
+        }
+      ],
+      "universe_distinct": 6
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "0877def54c83469c6971d1be1de71c69bf11a5e13d6030167e668610007150f9",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:22:38.769422+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.215,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0231,
+        "lift_log": 4.446,
+        "score": 0.2152,
+        "shared": 5
+      },
+      "rationale": "Wormhole is a crosschain messaging protocol enabling interoperability.",
+      "relation_type": "category",
+      "slug": "crosschain",
+      "source": "cotag",
+      "tag_name": "Crosschain",
+      "title": "Crosschain, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.205,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0206,
+        "lift_log": 4.255,
+        "score": 0.2054,
+        "shared": 3
+      },
+      "rationale": "Wormhole connects EVM chains like Ethereum to other networks.",
+      "relation_type": "ecosystem",
+      "slug": "evm",
+      "source": "cotag",
+      "tag_name": "EVM",
+      "title": "EVM, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "wormhole",
+  "tag_name": "Wormhole",
+  "title": "Wormhole, Explained"
+}

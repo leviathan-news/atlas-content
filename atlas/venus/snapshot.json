@@ -1,0 +1,532 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:04:04.971930+00:00",
+      "newsroom_total": 7,
+      "overall_share": 9,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-02",
+          "newsroom": 1,
+          "universe": 9
+        },
+        {
+          "ed_share": 3,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 28
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-04",
+          "newsroom": 1,
+          "universe": 13
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 9
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 3
+        }
+      ],
+      "total_universe": 74,
+      "universe_total": 67
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:04:04.515307+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "venus",
+          "phrase": "Fluid is a competing lending protocol on BNB Chain.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "fluid",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "venus",
+          "phrase": "Venus is a lending and borrowing protocol.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "lending",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "venus",
+          "phrase": "Liquidity is a core DeFi primitive that Venus provides.",
+          "relation_type": "primitive",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "liquidity",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "venus",
+          "phrase": "Bad debt is a risk Venus faces from undercollateralized loans.",
+          "relation_type": "risk",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "bad-debt",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "venus",
+          "phrase": "USR is the stablecoin minted by Venus.",
+          "relation_type": "token",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "usr",
+          "weight": 20
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Venus",
+          "slug": "venus",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Fluid",
+          "slug": "fluid",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Lending",
+          "slug": "lending",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Liquidity",
+          "slug": "liquidity",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Bad Debt",
+          "slug": "bad-debt",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "USR",
+          "slug": "usr",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T06:13:50.814947+00:00",
+      "events": [
+        {
+          "date": "2022-10",
+          "kind": "exploit",
+          "label": "BNB Bridge exploiter liquidated for $30M on Venus lending market",
+          "source": ""
+        },
+        {
+          "date": "2024-11",
+          "kind": "exploit",
+          "label": "Venus Protocol suffers $3.7M exploit via THE token illiquid collateral manipulation",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "exploit",
+          "label": "User drained $27M via phishing approval; protocol pauses and recovers funds through forced liquidation",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "exploit",
+          "label": "Thena THE token exploit leaves Venus with $2M bad debt",
+          "source": ""
+        },
+        {
+          "date": "2025-12",
+          "kind": "launch",
+          "label": "Venus Flux launches on BNB Chain with $1M incentives via Fluid partnership",
+          "source": ""
+        },
+        {
+          "date": "2026-01",
+          "kind": "governance",
+          "label": "Venus Flux USR markets anchored during depeg; funds protected",
+          "source": ""
+        },
+        {
+          "date": "2026-04",
+          "kind": "milestone",
+          "label": "Venus Q1 2026 Recap: new products, infrastructure, and partner assets launched",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T06:13:50.814745+00:00",
+      "insight": "Readers click Venus exploits not for the attack mechanics but for the resolution moment — who absorbs the loss, whether governance steps in to force a liquidation, and whether funds actually come back — treating protocol incident response as the real product test.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 7,
+      "as_of": "2026-07-01T12:04:05.694491+00:00",
+      "most_clicked": {
+        "clicks": 116,
+        "date": "2026-03-15T14:46:22.550387+00:00",
+        "headline": "Suspected $3.7M exploit hits Venus Protocol after attacker uses illiquid token as collateral.",
+        "lev_url": "https://leviathannews.xyz/209962/suspected-37m-exploit-hits-venus-protocol-after-attacker-uses-illiquid-token-as-collateral"
+      },
+      "provenance": "data",
+      "top_decile_share": 34,
+      "total_clicks": 341
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T06:13:50.814822+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "illiquid collateral oracle exploit",
+          "why": "The $3.7M THE token attack showed that accepting low-liquidity tokens as collateral creates a price-manipulation vector even with supply caps, pulling readers focused on structural lending risk."
+        },
+        {
+          "source": "",
+          "thread": "Venus Flux unified liquidity launch",
+          "why": "The Fluid partnership and single-pool lend/borrow/swap architecture on BNB Chain attracted readers curious whether unified liquidity layers can displace siloed money markets."
+        },
+        {
+          "source": "",
+          "thread": "phishing victim forced liquidation",
+          "why": "A $27M approval-based phishing drain followed by community-approved forced liquidation to recover funds compressed the full arc of DeFi incident governance into one story."
+        },
+        {
+          "source": "",
+          "thread": "oracle multi-layer defense",
+          "why": "Venus's published breakdown of how its oracle stack resists price manipulation drew readers benchmarking what separates protocols that survive collateral attacks from those that don't."
+        },
+        {
+          "source": "",
+          "thread": "BNB Bridge exploiter liquidation",
+          "why": "Watching the BNB bridge hacker get liquidated on the very protocol they used created a satisfying accountability narrative that transcended the technical details."
+        },
+        {
+          "source": "",
+          "thread": "Venus zkVM proving speed",
+          "why": "Cysic's unrelated 'Venus' graph-based zkVM drew niche ZK infrastructure readers, revealing audience bleed between the DeFi brand and ZK research circles."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T06:13:50.814831+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Smart-contract / collateral",
+          "level": "High",
+          "note": "Two distinct illiquid-collateral exploits materialized — a $3.7M THE token supply-cap attack and a separate $2M bad debt event via Thena THE token price manipulation — confirming this as Venus Protocol's primary attack surface.",
+          "source": ""
+        },
+        {
+          "dimension": "Oracle / price manipulation",
+          "level": "High",
+          "note": "Both the $3.7M and $2M incidents exploited the gap between a token's listed price and its real on-chain liquidity depth, a vector Venus has since attempted to address with multi-layer oracle defenses.",
+          "source": ""
+        },
+        {
+          "dimension": "Social engineering / user error",
+          "level": "High",
+          "note": "A single malicious token approval drained $27M from one user, forcing a protocol-wide pause and requiring community governance to authorize forced liquidation for fund recovery.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity / depeg",
+          "level": "Medium",
+          "note": "Venus Flux USR markets were temporarily anchored during a stablecoin depeg event; the protocol confirmed user funds were protected but transparency and response speed drew criticism.",
+          "source": ""
+        },
+        {
+          "dimension": "Governance / centralization",
+          "level": "Medium",
+          "note": "Emergency actions — including forced liquidation of a phishing victim's position — required explicit community approval, exposing that time-critical responses are bottlenecked by on-chain governance latency.",
+          "source": ""
+        },
+        {
+          "dimension": "Market / token",
+          "level": "Medium",
+          "note": "Bithumb extended a caution flag on XVS, and the BNB bridge exploiter's concentrated $30M position on Venus created systemic liquidation risk tied to a single externally compromised actor.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:04:05.616409+00:00",
+      "items": [
+        {
+          "clicks": 54,
+          "date": "2026-04-09T10:23:00.744954+00:00",
+          "headline": "Venus's multi-layer oracle defense: How your DeFi Assets stay protected",
+          "hot_score": 784.218744,
+          "lev_url": "https://leviathannews.xyz/224694/how-venus-protects-your-assets-the-resilient-oracle-system-your-money-your-collateral-your-liquidation-threshold-all-of-these-depend-on-one-thing-accurate-price-data",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409094047_iwjcDS6ZU4AD.jpg",
+          "url": "https://x.com/i/status/2041816724446544003"
+        },
+        {
+          "clicks": 14,
+          "date": "2026-05-20T06:17:28.079296+00:00",
+          "headline": "Cysic Venus v0.2.0 ships Rust proving-key setup with 3x faster key generation",
+          "hot_score": 438.924277,
+          "lev_url": "https://leviathannews.xyz/245415/cysic-venus-v020-ships-rust-proving-key-setup-with-3x-faster-key-generation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260520005245_Z4zrlaiDPw==.png",
+          "url": "https://github.com/cysic-labs/venus/releases/tag/v0.2.0"
+        },
+        {
+          "clicks": 116,
+          "date": "2026-03-15T14:46:22.550387+00:00",
+          "headline": "Suspected $3.7M exploit hits Venus Protocol after attacker uses illiquid token as collateral.",
+          "hot_score": 329.14111,
+          "lev_url": "https://leviathannews.xyz/209962/suspected-37m-exploit-hits-venus-protocol-after-attacker-uses-illiquid-token-as-collateral",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260315143148_4dC8ezG3jV3T.jpg",
+          "url": "https://news.bitcoin.com/suspected-3-7m-exploit-hits-venus-protocol-after-attacker-uses-illiquid-token-as-collateral/"
+        },
+        {
+          "clicks": 70,
+          "date": "2026-02-26T15:25:43.673851+00:00",
+          "headline": "Venus Protocol partners with Fluid to launch Venus Flux, a unified liquidity layer on BNB Chain enabling lend, borrow, swap from one pool.",
+          "hot_score": 185.129597,
+          "lev_url": "https://leviathannews.xyz/35084/venus-protocol-partners-with-fluid-to-launch-venus-flux-a-unified-liquidity-layer-on-bnb-chain-enabling-lend-borrow-swap-from-one-pool",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260226151406_YwUvcc6IWPM=.jpg",
+          "url": "https://x.com/i/status/2026945418303545675"
+        },
+        {
+          "clicks": 40,
+          "date": "2025-09-02T09:37:37.756694+00:00",
+          "headline": "A user of VenusProtocol  has been drained ~$27M in crypto after falling for a phishing scam.\nThe victim approved a malicious transaction, granting token approval to the attacker's address (0x7fd8...202a) for asset transfer.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/15526/peckshieldalert-a-user-of-venusprotocol-has-been-drained-27m-in-crypto-after-falling-for-a-phishing-scam-the-victim-approved-a-malicious-transaction-granting-token-approval",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250902093558_WSQAQYaxonY=.jpg",
+          "url": "https://x.com/PeckShieldAlert/status/1962811018268287096"
+        },
+        {
+          "clicks": 30,
+          "date": "2025-09-03T14:01:22.222004+00:00",
+          "headline": "Venus Protocol is back online after a user lost $27M in a phishing scam. The protocol wasn’t breached; it paused services, then recovered the stolen funds through forced liquidation with community approval. Withdrawals and liquidations have now fully resumed.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/15614/the-venus-protocol-has-restored-its-services-after-a-user-lost-approximately-27-million-in-a-phishing-scam-the-protocol-itself-was-not-exploited-the-incident-occurred-when-a-user-a",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250903135751_6zztV0aUAw8=.jpg",
+          "url": "https://cryptonews.com/news/venus-protocol-restores-services-after-recovering-27m-from-exploiter-through-force-liquidation/?feed_id=20133&_unique_id=68b83e542cf54"
+        },
+        {
+          "clicks": 17,
+          "date": "2023-08-22T13:39:52.946052+00:00",
+          "headline": "BNB Bridge exploiter liquidated for another $30m on Venus lending market",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2301/bnb-bridge-exploiter-liquidated-for-another-30m-on-venus-lending-market",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.coindesk.com/tech/2023/08/21/bnb-chain-exploiter-liquidated-for-30m-on-venus-protocol"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:04:05.532038+00:00",
+      "editorial": [
+        {
+          "count": 3,
+          "source": "x.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "cryptonews.com"
+        },
+        {
+          "count": 1,
+          "source": "news.bitcoin.com"
+        },
+        {
+          "count": 1,
+          "source": "github.com"
+        }
+      ],
+      "editorial_distinct": 5,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 63,
+          "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        }
+      ],
+      "universe_distinct": 4
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "d98aa656927c764d5e7531f123cd036b2d8eacf51a6538d667327e8e63644f0e",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:22:36.845510+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.205,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0282,
+        "lift_log": 4.179,
+        "score": 0.2054,
+        "shared": 3
+      },
+      "rationale": "Bad debt is a risk Venus faces from undercollateralized loans.",
+      "relation_type": "risk",
+      "slug": "bad-debt",
+      "source": "cotag",
+      "tag_name": "Bad Debt",
+      "title": "Bad Debt, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.223,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0421,
+        "lift_log": 4.422,
+        "score": 0.2232,
+        "shared": 5
+      },
+      "rationale": "Fluid is a competing lending protocol on BNB Chain.",
+      "relation_type": "peer",
+      "slug": "fluid",
+      "source": "cotag",
+      "tag_name": "Fluid",
+      "title": "Fluid, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.216,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0098,
+        "lift_log": 2.425,
+        "score": 0.2163,
+        "shared": 3
+      },
+      "rationale": "Venus is a lending and borrowing protocol.",
+      "relation_type": "category",
+      "slug": "lending",
+      "source": "cotag",
+      "tag_name": "Lending",
+      "title": "Lending, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.214,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0109,
+        "lift_log": 2.356,
+        "score": 0.2139,
+        "shared": 4
+      },
+      "rationale": "Liquidity is a core DeFi primitive that Venus provides.",
+      "relation_type": "primitive",
+      "slug": "liquidity",
+      "source": "cotag",
+      "tag_name": "Liquidity",
+      "title": "Liquidity, Explained",
+      "weight": 21
+    },
+    {
+      "confidence": 0.202,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0277,
+        "lift_log": 4.115,
+        "score": 0.2023,
+        "shared": 3
+      },
+      "rationale": "USR is the stablecoin minted by Venus.",
+      "relation_type": "token",
+      "slug": "usr",
+      "source": "cotag",
+      "tag_name": "USR",
+      "title": "USR: Complete Guide",
+      "weight": 20
+    }
+  ],
+  "schema_version": 1,
+  "slug": "venus",
+  "tag_name": "Venus",
+  "title": "Venus, Explained"
+}

@@ -1,0 +1,664 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:08:12.161656+00:00",
+      "newsroom_total": 44,
+      "overall_share": 50,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 9,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 8,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 12
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 22
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 4
+        }
+      ],
+      "total_universe": 88,
+      "universe_total": 44
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:08:11.457748+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "bitcoin-reserve",
+          "phrase": "El Salvador adopted Bitcoin as legal tender, a key event for bitcoin reserves.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "el-salvador",
+          "weight": 34
+        },
+        {
+          "dir": "out",
+          "from": "bitcoin-reserve",
+          "phrase": "Legislation is a broader category that includes bitcoin reserve laws.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "legislation",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "bitcoin-reserve",
+          "phrase": "Bitfinex is a crypto exchange, comparable to entities holding bitcoin reserves.",
+          "relation_type": "peer",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "bitfinex",
+          "weight": 22
+        },
+        {
+          "dir": "out",
+          "from": "bitcoin-reserve",
+          "phrase": "Texas proposed a bitcoin reserve bill, a relevant legislative event.",
+          "relation_type": "event",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "texas",
+          "weight": 21
+        },
+        {
+          "dir": "out",
+          "from": "bitcoin-reserve",
+          "phrase": "Bitcoin is the underlying asset for a bitcoin reserve.",
+          "relation_type": "primitive",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "bitcoin",
+          "weight": 20
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Bitcoin Reserve",
+          "slug": "bitcoin-reserve",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "El Salvador",
+          "slug": "el-salvador",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 34
+        },
+        {
+          "center": false,
+          "name": "Legislation",
+          "slug": "legislation",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Bitfinex",
+          "slug": "bitfinex",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 22
+        },
+        {
+          "center": false,
+          "name": "Texas",
+          "slug": "texas",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 21
+        },
+        {
+          "center": false,
+          "name": "Bitcoin",
+          "slug": "bitcoin",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T07:30:21.243951+00:00",
+      "events": [
+        {
+          "date": "2024-07",
+          "kind": "regulatory",
+          "label": "Senator Lummis introduces BITCOIN Act to create US strategic reserve",
+          "source": ""
+        },
+        {
+          "date": "2024-11",
+          "kind": "milestone",
+          "label": "Bitcoin surpasses $106k as Trump hints at national strategic reserve post-election",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "regulatory",
+          "label": "Trump crypto executive orders issued on day one, including Bitcoin reserve designation",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "regulatory",
+          "label": "Trump signs EO formally establishing US Strategic Bitcoin Reserve from forfeited assets",
+          "source": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/"
+        },
+        {
+          "date": "2025-06",
+          "kind": "milestone",
+          "label": "30+ states have introduced Bitcoin reserve legislation",
+          "source": ""
+        },
+        {
+          "date": "2026-01",
+          "kind": "regulatory",
+          "label": "Florida Bitcoin reserve bills HB 487 and SB 550 indefinitely postponed and withdrawn",
+          "source": "https://www.flsenate.gov/Session/Bill/2026/1038"
+        },
+        {
+          "date": "2026-05",
+          "kind": "regulatory",
+          "label": "Texas Governor signs SB 21 into law; acting Comptroller names Strategic Bitcoin Reserve advisory committee",
+          "source": "https://comptroller.texas.gov/about/media-center/news/20260528-acting-texas-comptroller-kelly-hancock-names-strategic-bitcoin-reserve-advisory-committee-members-1778774749224"
+        },
+        {
+          "date": "2026-06",
+          "kind": "regulatory",
+          "label": "Treasury Secretary Bessent pushes Senate to pass Clarity Act; reserve described as advancing at 'deliberate speed'",
+          "source": "https://unchainedcrypto.com/bessent-pushes-senate-to-pass-clarity-act-this-summer-as-strategic-bitcoin-reserve-advances-at-deliberate-speed/"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T07:30:21.243833+00:00",
+      "insight": "Readers click Bitcoin Reserve stories in strict order of political commitment — federal executive action dwarfs state bills, which dwarf foreign precedents — revealing they are not tracking a crypto trend but a specific question: will sovereign governments actually put BTC on their balance sheets, or will the signal evaporate before legislation crystallizes?",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/"
+    },
+    "reader_signal": {
+      "article_count": 44,
+      "as_of": "2026-07-01T12:08:14.242755+00:00",
+      "most_clicked": {
+        "clicks": 355,
+        "date": "2024-12-16T10:39:38.594804+00:00",
+        "headline": "Bitcoin soars past $106k as Trump hints at US Bitcoin strategic reserve, fueling bullish sentiment and market optimism.",
+        "lev_url": "https://leviathannews.xyz/8319/bitcoin-soars-past-106k-as-trump-hints-at-us-bitcoin-strategic-reserve-fueling-bullish-sentiment-and-market-optimism"
+      },
+      "provenance": "data",
+      "top_decile_share": 26,
+      "total_clicks": 3452
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T07:30:21.243883+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+          "thread": "Trump federal reserve action",
+          "why": "The highest-clicked headlines all pivot on whether Trump would convert campaign rhetoric into a signed executive order, making each new signal a potential 'orange candle' moment for price."
+        },
+        {
+          "source": "https://comptroller.texas.gov/about/media-center/news/20260528-acting-texas-comptroller-kelly-hancock-names-strategic-bitcoin-reserve-advisory-committee-members-1778774749224",
+          "thread": "State legislation wave",
+          "why": "Readers tracked a rolling count of states introducing reserve bills — Alabama, Minnesota, Texas, Arizona, Illinois, Florida, Pennsylvania — treating each new state entry as confirmation of a bottom-up political inevitability."
+        },
+        {
+          "source": "https://unchainedcrypto.com/bessent-pushes-senate-to-pass-clarity-act-this-summer-as-strategic-bitcoin-reserve-advances-at-deliberate-speed/",
+          "thread": "Congressional codification risk",
+          "why": "Even after Trump's EO, readers clicked on whether Congress would lock in the reserve permanently, with Lummis publicly doubting sufficient backing and Donalds moving to codify the order."
+        },
+        {
+          "source": "https://blog.redstone.finance/2026/03/23/redstone-powers-lombard-to-bring-real-time-bitcoin-reserve-verification-onchain/",
+          "thread": "Custodial proof-of-reserve risk",
+          "why": "The cbBTC headline — warning of no audits, freeze capability, and seizure risk — tapped reader anxiety that 'Bitcoin reserves' held through custodians replicate the central bank model Bitcoin was designed to escape."
+        },
+        {
+          "source": "https://www.kucoin.com/news/flash/strategy-raises-620m-in-stream-preferred-stock-offering",
+          "thread": "Sovereign and corporate reserve precedents",
+          "why": "Bhutan's 40%-of-GDP BTC position, El Salvador's 7,600 BTC, and Strategy's €620M preferred-stock raise gave readers concrete proof-of-concept data points for the reserve thesis before the US moved."
+        },
+        {
+          "source": "https://bitcoinmagazine.com/news/france-proposes-national-bitcoin-reserve",
+          "thread": "International policy divergence",
+          "why": "The UK's flat rejection, France's pro-crypto bill proposing a national reserve, Brazil's ambitions, and Switzerland's failed signature campaign showed readers the US move was contested globally, not inevitable."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T07:30:21.243893+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory / Legislative Durability",
+          "level": "Medium",
+          "note": "Trump's EO established the reserve via executive action using only forfeited assets, but it lacks Congressional codification; Lummis cited insufficient Senate backing and the order remains reversible by a future administration.",
+          "source": "https://unchainedcrypto.com/bessent-pushes-senate-to-pass-clarity-act-this-summer-as-strategic-bitcoin-reserve-advances-at-deliberate-speed/"
+        },
+        {
+          "dimension": "Centralization / Custodial",
+          "level": "High",
+          "note": "Wrapped and custodied BTC products used as reserve proxies (e.g. cbBTC) carry unilateral freeze risk, no proof-of-reserve audits, and are vulnerable to government subpoenas — concentrating trust in a single custodian.",
+          "source": "https://blog.redstone.finance/2026/03/23/redstone-powers-lombard-to-bring-real-time-bitcoin-reserve-verification-onchain/"
+        },
+        {
+          "dimension": "Market / Price",
+          "level": "High",
+          "note": "Bitcoin dropped roughly $5,000 immediately after Trump's actual EO signing because the reserve was funded only from forfeited assets rather than new purchases, demonstrating that execution details matter more than headline announcements.",
+          "source": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/"
+        },
+        {
+          "dimension": "Liquidity / Supply",
+          "level": "Medium",
+          "note": "Only approximately 86,000 BTC (43% of US government holdings) is classified as forfeited and available for a reserve; the remaining 112,000 BTC is ring-fenced for Bitfinex restitution and unavailable.",
+          "source": "https://www.vaneck.com/us/en/us-bitcoin-strategic-reserve-calculator/"
+        },
+        {
+          "dimension": "Regulatory / State Fragmentation",
+          "level": "Medium",
+          "note": "State reserve bills vary widely in asset scope and investment caps, and several have already been withdrawn (Florida HB 487 / SB 550), signaling that state-level momentum is uneven and reversible.",
+          "source": "https://www.flsenate.gov/Session/Bill/2026/1038"
+        },
+        {
+          "dimension": "Smart-Contract / Technical",
+          "level": "Low",
+          "note": "For sovereign reserves holding native BTC the smart-contract risk is minimal; risk is material only for tokenized or wrapped reserve vehicles, where on-chain proof-of-reserve integrations (e.g. Chainlink PoR for dlcBTC) partially mitigate but do not eliminate custodial failure modes.",
+          "source": "https://blog.redstone.finance/2026/03/23/redstone-powers-lombard-to-bring-real-time-bitcoin-reserve-verification-onchain/"
+        }
+      ],
+      "sourced": 6,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:08:14.163925+00:00",
+      "items": [
+        {
+          "clicks": 65,
+          "date": "2026-03-29T17:14:50.833830+00:00",
+          "headline": "El Salvador's Strategic Bitcoin Reserve surpasses 7,600 BTC, now valued at $506M",
+          "hot_score": 208.922688,
+          "lev_url": "https://leviathannews.xyz/217504/el-salvadors-strategic-bitcoin-reserve-surpasses-7600-btc-now-valued-at-506m",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260329165651_Z4zrlaiDPw==.png",
+          "url": "https://bitcoin.gob.sv/"
+        },
+        {
+          "clicks": 24,
+          "date": "2026-01-09T06:37:00.026535+00:00",
+          "headline": "Florida lawmakers renew push to launch State Bitcoin Reserve. On Tuesday, Florida lawmakers introduced another bill for the creation of a strategic Bitcoin reserve, less than a year after two attempts were shelved.",
+          "hot_score": 30.912076,
+          "lev_url": "https://leviathannews.xyz/23383/florida-lawmakers-renew-push-to-launch-state-bitcoin-reserve-florida-lawmakers-introduced-another-bill-for-the-creation-of-a-strategic-bitcoin-reserve-less-than-a-year-after-two-at",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260109014303_CAWRJ0LnH6o=.jpg",
+          "url": "https://decrypt.co/353995/florida-lawmakers-renew-push-launch-state-bitcoin-reserve"
+        },
+        {
+          "clicks": 355,
+          "date": "2024-12-16T10:39:38.594804+00:00",
+          "headline": "Bitcoin soars past $106k as Trump hints at US Bitcoin strategic reserve, fueling bullish sentiment and market optimism.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8319/bitcoin-soars-past-106k-as-trump-hints-at-us-bitcoin-strategic-reserve-fueling-bullish-sentiment-and-market-optimism",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241216103924_uZVBJI-7eQ==.jpg",
+          "url": "https://www.reuters.com/markets/currencies/bitcoin-powers-above-105000-first-time-2024-12-15/"
+        },
+        {
+          "clicks": 198,
+          "date": "2025-03-10T13:31:57.059125+00:00",
+          "headline": "In his CNBC interview, SkyBridge Capital's Anthony Scaramucci calls Bitcoin “a crucial long-term strategic asset” and advocates for a U.S. strategic Bitcoin reserve.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9755/in-his-cnbc-interview-skybridge-capitals-anthony-scaramucci-calls-bitcoin-a-crucial-long-term-strategic-asset-and-advocates-for-a-us-strategic-bitcoin-reserve",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250310132458_hboi1AKO-A==.jpg",
+          "url": "https://www.youtube.com/watch?v=7NV7ERKvHmE"
+        },
+        {
+          "clicks": 176,
+          "date": "2025-01-15T20:07:19.551159+00:00",
+          "headline": "Donald Trump hasn’t even taken office yet, but reports suggest the President-elect is preparing sweeping crypto-friendly executive orders for day one. Among them: reversing restrictive accounting policies, tackling de-banking, and potentially designating Bitcoin as a national reserve asset. Could this be the “orange candle” moment the market has been waiting for?\n\nMeanwhile, Ethena takes a major step forward by integrating into Spark’s Liquidity Layer, unlocking direct access to up to $1.1 billion in holdings and driving higher yields for DeFi users. Bubblemaps launched $BMT to incentivize community-driven blockchain investigations, and Derive unveiled its $DRV token with staking rewards and governance features, kicking off a new era for on-chain derivatives trading.\n\nCheck out today’s newsletter for the full story and deeper insights into these developments.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8703/donald-trump-hasnt-even-taken-office-yet-but-reports-suggest-the-president-elect-is-preparing-sweeping-crypto-friendly-executive-orders-for-day-one-among-them-reversing-restrictive",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250115200702_oxRof05DNg==.png",
+          "url": "https://leviathannews.substack.com/p/trumps-crypto-playbook-game-changer"
+        },
+        {
+          "clicks": 172,
+          "date": "2025-03-07T08:48:34.100946+00:00",
+          "headline": "President Trump establishes U.S. Strategic Bitcoin Reserve using forfeited assets, causing Bitcoin to drop $5,000 after the announcement; Crypto Czar David Sacks emphasizes no taxpayer funds will be involved.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9697/president-trump-establishes-us-strategic-bitcoin-reserve-using-forfeited-assets-causing-bitcoin-to-drop-5000-after-the-announcement-crypto-czar-david-sacks-emphasizes-no-taxpayer-f",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250307083834_gJeMI_D7Xic=.jpg",
+          "url": "https://www.axios.com/2025/03/07/trump-crypto-reserve-bitcoin"
+        },
+        {
+          "clicks": 150,
+          "date": "2025-01-17T09:40:46.773717+00:00",
+          "headline": "Trump to prioritize crypto with executive orders, including Bitcoin strategic reserve and advisory council",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8748/trump-to-prioritize-crypto-with-executive-orders-including-bitcoin-strategic-reserve-and-advisory-council",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250117093943_DRHtnYpJjw==.jpg",
+          "url": "https://www.bloomberg.com/news/articles/2025-01-16/trump-plans-to-designate-cryptocurrency-as-a-national-priority"
+        },
+        {
+          "clicks": 138,
+          "date": "2024-09-12T14:59:15.526898+00:00",
+          "headline": "“cbbtc lacks Proof of Reserve, no audits, and can freeze anyone's balance anytime. Essentially, it’s just 'trust me.' Any U.S. government subpoena could seize all your BTC. There’s no better representation of central bank Bitcoin than this. It’s a dark day for BTC.”",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6953/cbbtc-lacks-proof-of-reserve-no-audits-and-can-freeze-anyones-balance-anytime-essentially-its-just-trust-me-any-us-government-subpoena-could-seize-all-your-btc-theres-no-better-rep",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240912145827_zKQc39t3Ug==.png",
+          "url": "https://x.com/justinsuntron/status/1834242086079750335?s=46"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:08:14.052311+00:00",
+      "editorial": [
+        {
+          "count": 18,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "axios.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "cryptobriefing.com"
+        },
+        {
+          "count": 1,
+          "source": "news.bitcoin.com"
+        },
+        {
+          "count": 1,
+          "source": "archive.md"
+        },
+        {
+          "count": 1,
+          "source": "globenewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "dlc.link"
+        }
+      ],
+      "editorial_distinct": 23,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 20,
+          "source": "x.com"
+        },
+        {
+          "count": 8,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "blog.redstone.finance"
+        },
+        {
+          "count": 1,
+          "source": "foxbusiness.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "congress.gov"
+        }
+      ],
+      "universe_distinct": 11
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "62787dfc08627733408d758650db71cd3c44431220f8b4848e007c2f23acf590",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:52.589639+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.221,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0312,
+        "lift_log": 4.489,
+        "score": 0.2209,
+        "shared": 3
+      },
+      "rationale": "Bitfinex is a crypto exchange, comparable to entities holding bitcoin reserves.",
+      "relation_type": "peer",
+      "slug": "bitfinex",
+      "source": "cotag",
+      "tag_name": "Bitfinex",
+      "title": "Bitfinex, Explained",
+      "weight": 22
+    },
+    {
+      "confidence": 0.337,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0337,
+        "lift_log": 4.814,
+        "score": 0.3369,
+        "shared": 3
+      },
+      "rationale": "El Salvador adopted Bitcoin as legal tender, a key event for bitcoin reserves.",
+      "relation_type": "event",
+      "slug": "el-salvador",
+      "source": "cotag",
+      "tag_name": "El Salvador",
+      "title": "El Salvador, Explained",
+      "weight": 34
+    },
+    {
+      "confidence": 0.226,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.034,
+        "lift_log": 4.573,
+        "score": 0.2261,
+        "shared": 4
+      },
+      "rationale": "Legislation is a broader category that includes bitcoin reserve laws.",
+      "relation_type": "category",
+      "slug": "legislation",
+      "source": "cotag",
+      "tag_name": "Legislation",
+      "title": "Legislation, Explained",
+      "weight": 23
+    },
+    {
+      "confidence": 0.209,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0329,
+        "lift_log": 4.219,
+        "score": 0.2095,
+        "shared": 6
+      },
+      "rationale": "Texas proposed a bitcoin reserve bill, a relevant legislative event.",
+      "relation_type": "event",
+      "slug": "texas",
+      "source": "cotag",
+      "tag_name": "Texas",
+      "title": "Texas, Explained",
+      "weight": 21
+    }
+  ],
+  "schema_version": 1,
+  "slug": "bitcoin-reserve",
+  "tag_name": "Bitcoin Reserve",
+  "title": "Bitcoin Reserve, Explained"
+}

@@ -1,0 +1,629 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:03:59.642591+00:00",
+      "newsroom_total": 40,
+      "overall_share": 26,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-06",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-07",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-09",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-05",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 8,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 2
+        },
+        {
+          "ed_share": 2,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 41
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-04",
+          "newsroom": 0,
+          "universe": 34
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 0,
+          "universe": 27
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-06",
+          "newsroom": 0,
+          "universe": 11
+        }
+      ],
+      "total_universe": 155,
+      "universe_total": 115
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:03:59.276520+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "conference",
+          "phrase": "Hackathons are often held at conferences as side events.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "hackathon",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "conference",
+          "phrase": "Conferences can be hosted in Italy, making it a location.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "italy",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "conference",
+          "phrase": "Tron may host or sponsor conferences, but relation is unclear.",
+          "relation_type": "peer",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "tron",
+          "weight": 16
+        },
+        {
+          "dir": "out",
+          "from": "conference",
+          "phrase": "Media covers and partners with conferences for promotion.",
+          "relation_type": "ecosystem",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "media",
+          "weight": 15
+        },
+        {
+          "dir": "out",
+          "from": "conference",
+          "phrase": "developers",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "developers",
+          "weight": 10
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Conference",
+          "slug": "conference",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Hackathon",
+          "slug": "hackathon",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Italy",
+          "slug": "italy",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Tron",
+          "slug": "tron",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        },
+        {
+          "center": false,
+          "name": "Media",
+          "slug": "media",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 15
+        },
+        {
+          "center": false,
+          "name": "Developers",
+          "slug": "developers",
+          "source": "autolink",
+          "tier": "mentioned",
+          "weight": 10
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T05:59:25.296609+00:00",
+      "events": [
+        {
+          "date": "1998-08",
+          "kind": "milestone",
+          "label": "Hal Finney presents zero-knowledge proofs at Crypto '98",
+          "source": ""
+        },
+        {
+          "date": "2024-02",
+          "kind": "milestone",
+          "label": "ETHDenver 2024 draws 21 cited community takeaways",
+          "source": ""
+        },
+        {
+          "date": "2024-07",
+          "kind": "regulatory",
+          "label": "Trump Bitcoin Conference Nashville speech: stockpile, Gensler, Ulbricht",
+          "source": ""
+        },
+        {
+          "date": "2024-11",
+          "kind": "milestone",
+          "label": "Devcon 7 held in Bangkok, Thailand",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "milestone",
+          "label": "Bitcoin 2025 Las Vegas: Ross Ulbricht first public appearance",
+          "source": ""
+        },
+        {
+          "date": "2025-07",
+          "kind": "milestone",
+          "label": "Stable Summit Paris stablecoin conference, July 15–16",
+          "source": "https://parisblockchainweek.com"
+        },
+        {
+          "date": "2025-07",
+          "kind": "milestone",
+          "label": "EthCC Cannes: BlackRock, Robinhood, Deutsche Bank signal institutional Ethereum embrace",
+          "source": ""
+        },
+        {
+          "date": "2025-11",
+          "kind": "launch",
+          "label": "El Salvador hosts Bitcoin Histórico, first government-sponsored Bitcoin conference",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T05:59:25.296486+00:00",
+      "insight": "Readers click crypto conference stories not for panels or networking — they click when a conference becomes the stage for a power assertion: a presidential candidate's policy declaration, a hack victim's public shaming of an anonymous team, or a regulator's coordinated enforcement announcement.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 40,
+      "as_of": "2026-07-01T12:04:00.331975+00:00",
+      "most_clicked": {
+        "clicks": 1238,
+        "date": "2024-03-30T14:15:36.535205+00:00",
+        "headline": "Terms presented to Prisma: \"Your team need to do an online press conference, in which all of your team must show their faces with ids (its like KYC), and send apologies and thanks to all of your users, your investors, and me.\"",
+        "lev_url": "https://leviathannews.xyz/4517/terms-presented-to-prisma-your-team-need-to-do-an-online-press-conference-in-which-all-of-your-team-must-show-their-faces-with-ids-its-like-kyc-and-send-apologies-and-thanks-to-all"
+      },
+      "provenance": "data",
+      "top_decile_share": 41,
+      "total_clicks": 4631
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T05:59:25.296543+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Exploit accountability press conference demands",
+          "why": "The top story by a factor of five involved hack victims publicly demanding Prisma's team unmask themselves with ID on camera — readers are drawn to moments when anonymous DeFi teams are forced into real-world accountability."
+        },
+        {
+          "source": "",
+          "thread": "Political keynotes at Bitcoin Conference",
+          "why": "Trump's Bitcoin stockpile/Gensler/Ulbricht speech, Harris campaign flirtation, and Ulbricht's first public appearance collectively show readers treat the annual Bitcoin conference as a barometer of where U.S. political power stands on crypto."
+        },
+        {
+          "source": "https://parisblockchainweek.com",
+          "thread": "Stablecoin policy announcements",
+          "why": "David Sacks' dollar-dominance press conference, Stable Summit in Paris, Frax at Bitcoin Conference, and U.S. Bancorp's Morgan Stanley reveal show readers tracking how stablecoins are moving from niche DeFi to official monetary policy terrain."
+        },
+        {
+          "source": "",
+          "thread": "Regulatory enforcement press conferences",
+          "why": "The CFTC/FBI/SEC/SDNY joint announcement on Celsius and the FOMC Powell watch both drew clicks, revealing readers monitor enforcement press conferences as leading indicators of legal risk across crypto."
+        },
+        {
+          "source": "",
+          "thread": "Ethereum ecosystem conference milestones",
+          "why": "EthCC Cannes institutional embrace (BlackRock, Deutsche Bank), Devcon 7 Bangkok, Devconnect Argentina, and ETHDenver recaps show a sustained reader appetite for Ethereum's conference-driven narrative of legitimization."
+        },
+        {
+          "source": "",
+          "thread": "Protocol launches announced at conferences",
+          "why": "Jump's Frankendancer going live at Solana Breakpoint and Phantom Prediction Markets at Breakpoint Abu Dhabi show readers use conference announcements as the authoritative signal for when major technical milestones are real."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T05:59:25.296549+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Joint CFTC/FBI/SEC/SDNY enforcement announcements and FOMC press conferences both moved crypto markets and reader attention, signaling that regulatory press conferences now function as enforcement triggers rather than policy commentary.",
+          "source": ""
+        },
+        {
+          "dimension": "Smart-contract / Exploit",
+          "level": "High",
+          "note": "The Prisma hack accountability demand — the most-clicked conference story by a wide margin — illustrates that exploit fallout now spills into public press-conference theater, raising reputational risk for any pseudonymous team.",
+          "source": ""
+        },
+        {
+          "dimension": "Fraud / Impersonation",
+          "level": "Medium",
+          "note": "A fake Uniswap conference with no affiliation to Uniswap or the Uniswap Foundation ran in Shenzhen, demonstrating that brand-spoofing conference fraud is an active vector for scams targeting retail attendees.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Conference-adjacent catalysts — Trump's national stockpile speech, Cantor Fitzgerald's USDC/USDT reserve critique, and major token unlock schedules highlighted at Davos — routinely move prices, making conference calendars a market-timing risk factor.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "The demand that Prisma's team perform face-on-camera KYC to their own users highlights a structural tension: DeFi projects market decentralization but are expected to produce identifiable humans when things go wrong.",
+          "source": ""
+        },
+        {
+          "dimension": "Reputation",
+          "level": "Low",
+          "note": "Reader interest in an opinion piece questioning whether the crypto conference craze hurts industry growth suggests saturation fatigue is emerging, but it remains a minority signal against overwhelmingly event-driven click data.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:04:00.252296+00:00",
+      "items": [
+        {
+          "clicks": 50,
+          "date": "2026-03-23T19:33:18.930952+00:00",
+          "headline": "\"The Stablest Crypto Conference\" \n\nStable Summit is starting this Friday, and Zach, the CEO of Party Action People, the team behind Stable Summit, and others, is with DAdvisoor to tell us all about it!\n\nLive in a few minutes!\n\nEnjoy!",
+          "hot_score": 200.877107,
+          "lev_url": "https://leviathannews.xyz/214619/the-stablest-crypto-conference-stable-summit-is-starting-this-friday-and-zach-the-ceo-of-party-action-people-the-team-behind-stable-summit-and-others-is-with-us-to-tell-us-all-abou",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260323193223_GsvtB7lOd6hJ.jpg",
+          "url": "https://www.youtube.com/watch?v=Q8nfILWqOKo"
+        },
+        {
+          "clicks": 41,
+          "date": "2025-12-12T14:03:59.080746+00:00",
+          "headline": "Phantom Prediction Markets have entered the chat, powered by Kalshi. The new feature was announced at Solana's Breakpoint conference in Abu Dhabi.",
+          "hot_score": 40.2596,
+          "lev_url": "https://leviathannews.xyz/22308/phantom-prediction-markets-have-entered-the-chat-powered-by-kalshi-the-new-feature-was-announced-at-solanas-breakpoint-conference-in-abu-dhabi",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251212134635_VJp0hnJjJ5k=.jpg",
+          "url": "https://x.com/phantom/status/1999442547039756491"
+        },
+        {
+          "clicks": 1238,
+          "date": "2024-03-30T14:15:36.535205+00:00",
+          "headline": "Terms presented to Prisma: \"Your team need to do an online press conference, in which all of your team must show their faces with ids (its like KYC), and send apologies and thanks to all of your users, your investors, and me.\"",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4517/terms-presented-to-prisma-your-team-need-to-do-an-online-press-conference-in-which-all-of-your-team-must-show-their-faces-with-ids-its-like-kyc-and-send-apologies-and-thanks-to-all",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240330141032_CA7AGIw-yA==.png",
+          "url": "https://etherscan.io/idm?addresses=0x2d413803a6ec3cb1ed1a93bf90608f63b157507a%2C0xd8531a94100f15af7521a7b6e724ac4959e0a025&type=1"
+        },
+        {
+          "clicks": 251,
+          "date": "2025-02-04T19:49:23.730901+00:00",
+          "headline": "\"Stablecoins really have the potential to ensure American Dollar dominance internationally\" - Digital assets press conference by David Sacks",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9114/stablecoins-really-have-the-potential-to-ensure-american-dollar-dominance-internationally-digital-assets-press-conference-by-david-sacks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250204194902_OAOKqigwpQ==.jpg",
+          "url": "https://www.youtube.com/watch?v=LqTsyTuLSSI"
+        },
+        {
+          "clicks": 202,
+          "date": "2024-07-28T00:41:48.228876+00:00",
+          "headline": "Trump speech at the Bitcoin Conference addresses creating a national stockpile, firing Gary Gensler, and commuting the sentence of Ross Ulbricht",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6429/trump-speech-at-the-bitcoin-conference-addresses-creating-a-national-stockpile-firing-gary-gensler-and-commuting-the-sentence-of-ross-ulbricht",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240728004120_vFKTqitsfA==.jpg",
+          "url": "https://x.com/balajis/status/1817342210549199154"
+        },
+        {
+          "clicks": 201,
+          "date": "2024-01-15T10:30:27.337598+00:00",
+          "headline": "Week ahead:  Coinbase's legal battle with SEC, $150 Million in tokens unlock, World Economic Forum conference in Davos.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3743/week-ahead-coinbases-legal-battle-with-sec-150-million-in-tokens-unlock-world-economic-forum-conference-in-davos",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.theblock.co/post/272552/weekly-preview-coinbase-v-sec-big-token-unlocks-and-more"
+        },
+        {
+          "clicks": 186,
+          "date": "2023-07-12T21:13:50.371686+00:00",
+          "headline": "Stablecoin Summer in France: speaker list finalized for the July 15-16 Stable Summit conference in Paris",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/1813/stablecoin-summer-in-france-speaker-list-finalized-for-the-july-15-16-stable-summit-conference-in-paris",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://stablesummit.xyz/speakers/"
+        },
+        {
+          "clicks": 181,
+          "date": "2023-09-21T08:28:41.845054+00:00",
+          "headline": "Hal Finney, recipient of the first bitcoin transaction, discusses the potential of zero-knowledge proofs in a 25-year-old video from the Crypto '98 conference",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/2726/hal-finney-recipient-of-the-first-bitcoin-transaction-discusses-the-potential-of-zero-knowledge-proofs-in-a-25-year-old-video-from-the-crypto-98-conference",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://blockworks.co/news/hal-finney-bitcoin-satoshi-nakamoto-zk-proofs"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:04:00.152744+00:00",
+      "editorial": [
+        {
+          "count": 16,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "youtube.com"
+        },
+        {
+          "count": 2,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 2,
+          "source": "blog.ethereum.org"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "youtu.be"
+        },
+        {
+          "count": 1,
+          "source": "lu.ma"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "stablesummit.xyz"
+        },
+        {
+          "count": 1,
+          "source": "blockworks.co"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "etherscan.io"
+        }
+      ],
+      "editorial_distinct": 20,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 81,
+          "source": "x.com"
+        },
+        {
+          "count": 7,
+          "source": "wsj.com"
+        },
+        {
+          "count": 5,
+          "source": "markets.businessinsider.com"
+        },
+        {
+          "count": 3,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 3,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 3,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 1,
+          "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "fortune.com"
+        },
+        {
+          "count": 1,
+          "source": "timesofindia.indiatimes.com"
+        },
+        {
+          "count": 1,
+          "source": "rezolve.com"
+        },
+        {
+          "count": 1,
+          "source": "barrons.com"
+        }
+      ],
+      "universe_distinct": 19
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "abaff55352e4018b277861d33603f085d7b25b6f0e2addcf79b659312d51512f",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:57.347017+00:00"
+  },
+  "relations": [],
+  "schema_version": 1,
+  "slug": "conference",
+  "tag_name": "Conference",
+  "title": "Conference, Explained"
+}

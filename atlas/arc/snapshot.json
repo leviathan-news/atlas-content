@@ -1,0 +1,554 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T12:09:24.367832+00:00",
+      "newsroom_total": 24,
+      "overall_share": 1,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 5,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 119
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-03",
+          "newsroom": 1,
+          "universe": 703
+        },
+        {
+          "ed_share": 1,
+          "month": "2026-04",
+          "newsroom": 4,
+          "universe": 329
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 205
+        },
+        {
+          "ed_share": 1,
+          "month": "2026-06",
+          "newsroom": 3,
+          "universe": 262
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 7
+        }
+      ],
+      "total_universe": 1649,
+      "universe_total": 1625
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T12:09:23.898760+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "arc",
+          "phrase": "Arc integrates with Circle's USDC for stablecoin payments.",
+          "relation_type": "ecosystem",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "circle",
+          "weight": 34
+        },
+        {
+          "dir": "out",
+          "from": "arc",
+          "phrase": "USDC is the stablecoin used within Arc's payment system.",
+          "relation_type": "token",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "usdc",
+          "weight": 25
+        },
+        {
+          "dir": "out",
+          "from": "arc",
+          "phrase": "Arc launched on testnet for initial testing.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "testnet",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "arc",
+          "phrase": "Arc's valuation was reported after a funding round.",
+          "relation_type": "event",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "valuation",
+          "weight": 19
+        },
+        {
+          "dir": "out",
+          "from": "arc",
+          "phrase": "Arc is a stablecoin-based payment protocol.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "stablecoins",
+          "weight": 16
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Arc",
+          "slug": "arc",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Circle",
+          "slug": "circle",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 34
+        },
+        {
+          "center": false,
+          "name": "USDC",
+          "slug": "usdc",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 25
+        },
+        {
+          "center": false,
+          "name": "Testnet",
+          "slug": "testnet",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Valuation",
+          "slug": "valuation",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 19
+        },
+        {
+          "center": false,
+          "name": "Stablecoins",
+          "slug": "stablecoins",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 16
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T08:08:00.524161+00:00",
+      "events": [
+        {
+          "date": "2025-04",
+          "kind": "launch",
+          "label": "Arc publicly introduced as Circle's open L1 for stablecoin finance",
+          "source": "https://www.circle.com/blog/introducing-arc-an-open-layer-1-blockchain-purpose-built-for-stablecoin-finance"
+        },
+        {
+          "date": "2025-10",
+          "kind": "milestone",
+          "label": "Arc public testnet launched with 100+ institutional partners including BlackRock, Visa, AWS, and Anthropic",
+          "source": "https://x.com/circle/status/1955246636223135976?lang=en"
+        },
+        {
+          "date": "2025-11",
+          "kind": "milestone",
+          "label": "ERC-8004 deployed on Arc testnet, enabling AI agents with persistent identities and transferable reputation",
+          "source": "https://x.com/DromosLabs/status/2065516942576759159"
+        },
+        {
+          "date": "2026-01",
+          "kind": "milestone",
+          "label": "ERC-8183 launched on Arc testnet, introducing verifiable onchain jobs between AI agents",
+          "source": ""
+        },
+        {
+          "date": "2026-02",
+          "kind": "milestone",
+          "label": "Circle publishes post-quantum security whitepaper covering USDC and Arc",
+          "source": "https://www.kucoin.com/news/flash/circle-publishes-post-quantum-security-whitepaper-for-usdc-and-arc-blockchain"
+        },
+        {
+          "date": "2026-03",
+          "kind": "milestone",
+          "label": "Visa expands stablecoin settlement to Arc, hitting $7B annualized volume with 50% QoQ growth",
+          "source": "https://investor.visa.com/news/news-details/2026/Visa-Accelerates-Stablecoin-Momentum-Adding-Five-Blockchains-for-Settlement/default.aspx"
+        },
+        {
+          "date": "2026-05",
+          "kind": "milestone",
+          "label": "Circle signs agreement to acquire Interop Labs team and IP to accelerate Arc multichain infrastructure",
+          "source": ""
+        },
+        {
+          "date": "2026-06",
+          "kind": "governance",
+          "label": "Arc announces phased roadmap for post-quantum blockchain security implementation",
+          "source": "https://www.kucoin.com/news/flash/circle-publishes-post-quantum-security-whitepaper-for-usdc-and-arc-blockchain"
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T08:08:00.523910+00:00",
+      "insight": "Readers treat Arc not as a generic L1 competitor but as a compliance-native settlement layer — clicks concentrate on institutional legitimacy signals (Visa, BlackRock, quantum resistance) and AI-agent identity standards rather than on tokenomics or yield, revealing that the audience is evaluating Arc as payments infrastructure, not a speculative chain.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": "https://www.circle.com/blog/introducing-arc-an-open-layer-1-blockchain-purpose-built-for-stablecoin-finance"
+    },
+    "reader_signal": {
+      "article_count": 26,
+      "as_of": "2026-07-01T12:09:26.515790+00:00",
+      "most_clicked": {
+        "clicks": 85,
+        "date": "2026-04-04T07:58:05.603608+00:00",
+        "headline": "Arc unveils phased roadmap for post-quantum blockchain security",
+        "lev_url": "https://leviathannews.xyz/221073/quantum-resilience-cant-wait-until-the-market-forces-it-arcs-post-quantum-roadmap-is-designed-to-secure-blockchain-infrastructure-in-phases-post-quantum-wallet-signatures-quantum-s"
+      },
+      "provenance": "data",
+      "top_decile_share": 14,
+      "total_clicks": 1087
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T08:08:00.524022+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "https://www.circle.com/blog/introducing-arc-an-open-layer-1-blockchain-purpose-built-for-stablecoin-finance",
+          "thread": "Circle's stablecoin-native L1 thesis",
+          "why": "The founding announcement and Jeremy Allaire's 'economic OS' framing drew readers assessing whether a purpose-built stablecoin chain is a credible alternative to general-purpose L1s."
+        },
+        {
+          "source": "https://www.kucoin.com/news/flash/circle-publishes-post-quantum-security-whitepaper-for-usdc-and-arc-blockchain",
+          "thread": "Post-quantum security roadmap",
+          "why": "The highest-clicked single headline was Arc's phased quantum-resistance plan, signaling readers want to know whether the chain is architected to survive cryptographic obsolescence before it even launches at mainnet."
+        },
+        {
+          "source": "https://x.com/DromosLabs/status/2065516942576759159",
+          "thread": "AI agent identity standards on Arc",
+          "why": "ERC-8004 persistent agent identities and ERC-8183 verifiable onchain jobs drew combined engagement rivaling the launch announcement, indicating readers see Arc as the most credible venue for agent-to-agent commerce."
+        },
+        {
+          "source": "https://investor.visa.com/news/news-details/2026/Visa-Accelerates-Stablecoin-Momentum-Adding-Five-Blockchains-for-Settlement/default.aspx",
+          "thread": "Visa and institutional settlement expansion",
+          "why": "Visa crossing $7B annualized stablecoin volume and adding Arc as a settlement network gave readers a concrete revenue signal beyond Circle's own marketing."
+        },
+        {
+          "source": "https://www.tekedia.com/circle-exploring-native-token-for-its-arc-network-with-potential-shift-to-proof-of-stake/",
+          "thread": "Arc independence and governance token",
+          "why": "Headlines about Arc building as an independent L1 and Circle exploring a native proof-of-stake token raised questions about how decentralized the network will actually be, pulling in readers concerned about long-term control."
+        },
+        {
+          "source": "https://www.arc.io/blog/arc-transaction-memos-structured-context-for-onchain-transactions",
+          "thread": "Privacy features and memo complexity",
+          "why": "Opt-in privacy and structured transaction memos attracted readers who flagged the tension between enterprise confidentiality demands and blockchain transparency norms."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T08:08:00.524032+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Centralization",
+          "level": "High",
+          "note": "Circle designed and controls Arc's consensus parameters, fee token (USDC), and validator set at launch; a native governance token and proof-of-stake transition are only being explored, not yet live.",
+          "source": "https://www.tekedia.com/circle-exploring-native-token-for-its-arc-network-with-potential-shift-to-proof-of-stake/"
+        },
+        {
+          "dimension": "Regulatory",
+          "level": "Medium",
+          "note": "Arc's dollar-denominated fees and Circle's compliance-first posture align with incoming stablecoin legislation, but the chain's proprietary nature and Circle's dual role as issuer and chain operator invite scrutiny over conflict of interest.",
+          "source": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/PDFs/arc_whitepaper.pdf"
+        },
+        {
+          "dimension": "Smart-contract",
+          "level": "Medium",
+          "note": "Arc is a novel L1 still on public testnet; ERC-8004 and ERC-8183 agent standards introduce new attack surfaces for autonomous onchain commerce that have not been battle-tested at scale.",
+          "source": "https://x.com/DromosLabs/status/2065516942576759159"
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Medium",
+          "note": "Over 100 institutional partners joined the testnet and Visa settlement is live, but mainnet depth depends on USDC issuance growth and stablecoin pair liquidity that has not yet been demonstrated post-launch.",
+          "source": "https://investor.visa.com/news/news-details/2026/Visa-Accelerates-Stablecoin-Momentum-Adding-Five-Blockchains-for-Settlement/default.aspx"
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "No native tradeable token exists at this stage; Circle acquiring Interop Labs IP raised concerns that AXL tokenholders who funded the team received nothing, signaling tokenomics risk if a native Arc token is eventually issued.",
+          "source": ""
+        },
+        {
+          "dimension": "Technical / Quantum",
+          "level": "Low",
+          "note": "Circle published a phased post-quantum whitepaper for both USDC and Arc, making it one of the few L1s with a documented migration path before quantum threats materialize.",
+          "source": "https://www.kucoin.com/news/flash/circle-publishes-post-quantum-security-whitepaper-for-usdc-and-arc-blockchain"
+        }
+      ],
+      "sourced": 5,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T12:09:26.428281+00:00",
+      "items": [
+        {
+          "clicks": 30,
+          "date": "2026-04-14T14:59:05.570637+00:00",
+          "headline": "Circle exploring native Arc token for governance and incentives, targeting eventual proof-of-stake transition",
+          "hot_score": 4099.460085,
+          "lev_url": "https://leviathannews.xyz/228311/circle-exploring-native-arc-token-for-governance-and-incentives-targeting-eventual-proof-of-stake-transition",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260414090750_oCEBemhZ6fS7.jpg",
+          "url": "https://www.youtube.com/live/v8gt5KBsazQ?si=4lQgVmRA0A1lZe50"
+        },
+        {
+          "clicks": 9,
+          "date": "2026-07-01T05:56:43.650930+00:00",
+          "headline": "Circle's Arc joins Chainlink Scale with CCIP, Data Streams, Data Feeds, and Proof of Reserve",
+          "hot_score": 3830.17794,
+          "lev_url": "https://leviathannews.xyz/266082/circles-arc-joins-chainlink-scale-with-ccip-data-streams-data-feeds-and-proof-of-reserve",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701033403_Z4zrlaiDPw==.png",
+          "url": "https://x.com/arc/status/2071988197715030231"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-06-27T02:56:18.465949+00:00",
+          "headline": "Arc launches open-source stablecoin FX app on testnet, pitching a flagship multi-currency hub for global stablecoin finance",
+          "hot_score": 1018.015378,
+          "lev_url": "https://leviathannews.xyz/263812/arc-built-open-source-stablecoin-fx-sample-app-on-testnet-and-welcomes-developers-to-showcase-their-skills-to-build-the-global-app-for-multiple-stablecoin-currencies",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260627002840_w9ZSihegT8MA.jpg",
+          "url": "https://x.com/arc/status/2070537809379897786"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-06-08T16:54:52.052151+00:00",
+          "headline": "Circle announced that cirBTC, a 1:1 BTC-backed wrapped bitcoin token, is now live on Ethereum, bringing secure and neutral collateral to DeFi markets with planned Arc and multichain support for institutional users.",
+          "hot_score": 460.716586,
+          "lev_url": "https://leviathannews.xyz/254332/circle-announced-that-cirbtc-a-11-btc-backed-wrapped-bitcoin-token-is-now-live-on-ethereum-bringing-secure-and-neutral-collateral-to-defi-markets-with-planned-arc-and-multichain-su",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260608165253_ZIlcHYlqH8_b.jpg",
+          "url": "https://www.circle.com/blog/cirbtc-is-now-live-on-ethereum"
+        },
+        {
+          "clicks": 28,
+          "date": "2026-05-30T07:24:59.473396+00:00",
+          "headline": "Circle details post‑quantum security roadmap for USDC and Arc in new whitepaper",
+          "hot_score": 422.0449,
+          "lev_url": "https://leviathannews.xyz/250319/circle-releases-whitepaper-detailing-post-quantum-security-roadmap-for-usdc-and-arc-network",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260529212838_raxIOCuR1BdZ.jpg",
+          "url": "https://x.com/arc/status/2060376870198104148"
+        },
+        {
+          "clicks": 71,
+          "date": "2026-03-17T16:48:22.520682+00:00",
+          "headline": "ERC-8004 launches on Arc testnet, enabling AI agents with persistent identities and transferable reputation across DeFi and apps",
+          "hot_score": 308.010593,
+          "lev_url": "https://leviathannews.xyz/211070/ai-agents-can-now-build-financial-reputation-on-arc-erc-8004-is-now-live-on-arc-testnet-enabling-verifiable-onchain-identity-discoverability-and-portable-reputation-for-autonomous-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260317163101_vwl6h-E2QxwD.jpg",
+          "url": "https://x.com/arc/status/2033936397518737738"
+        },
+        {
+          "clicks": 58,
+          "date": "2026-04-29T17:48:49.316876+00:00",
+          "headline": "Visa expands stablecoin settlement pilot to Base, Polygon, Canton, Arc and Tempo, hitting $7B annualized volume with 50% QoQ growth",
+          "hot_score": 287.2,
+          "lev_url": "https://leviathannews.xyz/237159/visa-expands-stablecoin-settlement-pilot-to-base-polygon-canton-arc-and-tempo-hitting-7b-annualized-volume-with-50-qoq-growth",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260429174320_T-er_hX_ckaZ.jpg",
+          "url": "https://decrypt.co/365968/visa-base-polygon-canton-arc-tempo-stablecoin-settlement-program"
+        },
+        {
+          "clicks": 51,
+          "date": "2026-04-01T08:03:43.554152+00:00",
+          "headline": "ERC-8183 launches on Arc Testnet introducing Jobs for verifiable onchain work between AI agents and trustless commerce",
+          "hot_score": 275.181434,
+          "lev_url": "https://leviathannews.xyz/219045/erc-8183-launches-on-arc-testnet-introducing-jobs-for-escrowded-verifiable-onchain-work-between-ai-agents-laying-foundation-for-standardized-agent-coordination-in-web3-economy",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401070628_KcjN5WtZhR5x.jpg",
+          "url": "https://x.com/i/status/2039100425551688117"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T12:09:26.345661+00:00",
+      "editorial": [
+        {
+          "count": 15,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "circle.com"
+        },
+        {
+          "count": 1,
+          "source": "businesswire.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        }
+      ],
+      "editorial_distinct": 7,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 1124,
+          "source": "x.com"
+        },
+        {
+          "count": 41,
+          "source": "warpcast.com"
+        },
+        {
+          "count": 34,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 33,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 31,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 25,
+          "source": "theblock.co"
+        },
+        {
+          "count": 20,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 20,
+          "source": "fortune.com"
+        },
+        {
+          "count": 16,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 9,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 8,
+          "source": "medium.com"
+        },
+        {
+          "count": 7,
+          "source": "chainwire.org"
+        }
+      ],
+      "universe_distinct": 90
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "dc698f146d46d2acb6ed507d5d250a98dd83d151024474853b142c5caccc70cc",
+  "provenance": {
+    "model_name": "sonar-deep-research",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "pplx_sonar",
+    "updated_at": "2026-07-26T22:21:49.663685+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.344,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0761,
+        "lift_log": 4.439,
+        "score": 0.3444,
+        "shared": 35
+      },
+      "rationale": "Arc integrates with Circle's USDC for stablecoin payments.",
+      "relation_type": "ecosystem",
+      "slug": "circle",
+      "source": "cotag",
+      "tag_name": "Circle",
+      "title": "Circle, Explained",
+      "weight": 34
+    },
+    {
+      "confidence": 0.247,
+      "evidence": {
+        "autolink": true,
+        "jaccard": 0.0165,
+        "lift_log": 2.873,
+        "score": 0.2466,
+        "shared": 42
+      },
+      "rationale": "USDC is the stablecoin used within Arc's payment system.",
+      "relation_type": "token",
+      "slug": "usdc",
+      "source": "cotag",
+      "tag_name": "USDC",
+      "title": "USDC: Complete Guide",
+      "weight": 25
+    }
+  ],
+  "schema_version": 1,
+  "slug": "arc",
+  "tag_name": "Arc",
+  "title": "Arc, Explained"
+}

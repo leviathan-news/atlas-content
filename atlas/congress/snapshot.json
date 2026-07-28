@@ -1,0 +1,658 @@
+{
+  "atlas_blocks": {
+    "coverage_timeline": {
+      "as_of": "2026-07-01T11:54:58.260880+00:00",
+      "newsroom_total": 52,
+      "overall_share": 20,
+      "provenance": "data",
+      "series": [
+        {
+          "ed_share": null,
+          "month": "2023-06",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-08",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-11",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-12",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-03",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-05",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-10",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-11",
+          "newsroom": 3,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-03",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-04",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-07",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-08",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-11",
+          "newsroom": 4,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2025-12",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-01",
+          "newsroom": 1,
+          "universe": 0
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-02",
+          "newsroom": 0,
+          "universe": 11
+        },
+        {
+          "ed_share": 8,
+          "month": "2026-03",
+          "newsroom": 4,
+          "universe": 44
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-04",
+          "newsroom": 3,
+          "universe": 44
+        },
+        {
+          "ed_share": 2,
+          "month": "2026-05",
+          "newsroom": 1,
+          "universe": 45
+        },
+        {
+          "ed_share": 3,
+          "month": "2026-06",
+          "newsroom": 2,
+          "universe": 59
+        }
+      ],
+      "total_universe": 255,
+      "universe_total": 203
+    },
+    "entity_graph": {
+      "as_of": "2026-07-01T11:54:56.161946+00:00",
+      "edges": [
+        {
+          "dir": "out",
+          "from": "congress",
+          "phrase": "Bessent is a person influencing congressional crypto policy.",
+          "relation_type": "influence",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "bessent",
+          "weight": 23
+        },
+        {
+          "dir": "out",
+          "from": "congress",
+          "phrase": "Congress creates legislation, including crypto laws.",
+          "relation_type": "category",
+          "source": "published_relation",
+          "tier": "close",
+          "to": "legislation",
+          "weight": 20
+        },
+        {
+          "dir": "out",
+          "from": "congress",
+          "phrase": "Atkins is a person influencing congressional crypto policy.",
+          "relation_type": "influence",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "atkins",
+          "weight": 18
+        },
+        {
+          "dir": "out",
+          "from": "congress",
+          "phrase": "Market structure is a regulatory topic Congress addresses.",
+          "relation_type": "category",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "market-structure",
+          "weight": 17
+        },
+        {
+          "dir": "out",
+          "from": "congress",
+          "phrase": "CFTC is a regulator Congress oversees for crypto.",
+          "relation_type": "infrastructure",
+          "source": "draft_relation",
+          "tier": "related",
+          "to": "cftc",
+          "weight": 17
+        }
+      ],
+      "nodes": [
+        {
+          "center": true,
+          "name": "Congress",
+          "slug": "congress",
+          "source": "topic",
+          "tier": "center"
+        },
+        {
+          "center": false,
+          "name": "Bessent",
+          "slug": "bessent",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 23
+        },
+        {
+          "center": false,
+          "name": "Legislation",
+          "slug": "legislation",
+          "source": "published_relation",
+          "tier": "close",
+          "weight": 20
+        },
+        {
+          "center": false,
+          "name": "Atkins",
+          "slug": "atkins",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 18
+        },
+        {
+          "center": false,
+          "name": "Market Structure",
+          "slug": "market-structure",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        },
+        {
+          "center": false,
+          "name": "CFTC",
+          "slug": "cftc",
+          "source": "draft_relation",
+          "tier": "related",
+          "weight": 17
+        }
+      ],
+      "provenance": "data"
+    },
+    "event_timeline": {
+      "as_of": "2026-06-26T03:08:19.768933+00:00",
+      "events": [
+        {
+          "date": "2024-05",
+          "kind": "regulatory",
+          "label": "House passes FIT21 market structure bill with bipartisan majority",
+          "source": ""
+        },
+        {
+          "date": "2024-11",
+          "kind": "milestone",
+          "label": "US elections produce majority pro-crypto House; crypto PACs spend ~$245M",
+          "source": ""
+        },
+        {
+          "date": "2024-12",
+          "kind": "regulatory",
+          "label": "FSOC 2024 annual report renews stablecoin systemic-risk warnings, urges Congress to act",
+          "source": ""
+        },
+        {
+          "date": "2025-01",
+          "kind": "regulatory",
+          "label": "Gensler departs SEC; Paul Atkins nominated as replacement",
+          "source": ""
+        },
+        {
+          "date": "2025-03",
+          "kind": "milestone",
+          "label": "Trump addresses Digital Asset Summit, calls on Congress to pass stablecoin bill",
+          "source": ""
+        },
+        {
+          "date": "2025-04",
+          "kind": "governance",
+          "label": "GENIUS Act and STABLE Act advance in Senate; competing stablecoin yield provisions trigger industry coalition pushback",
+          "source": ""
+        },
+        {
+          "date": "2025-05",
+          "kind": "regulatory",
+          "label": "SEC Chair Atkins frames token taxonomy guidance as interim; says only Congress can make rules permanent",
+          "source": ""
+        }
+      ],
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet"
+    },
+    "headline_insight": {
+      "as_of": "2026-06-26T03:08:19.768764+00:00",
+      "insight": "Readers click Congress/crypto headlines not for policy detail but for institutional combat — the drama of whether the SEC, CFTC, or Congress itself holds the whip hand over digital assets, with Gensler as the recurring villain and stablecoin bills as the contested prize.",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "source": ""
+    },
+    "reader_signal": {
+      "article_count": 52,
+      "as_of": "2026-07-01T11:54:59.611914+00:00",
+      "most_clicked": {
+        "clicks": 354,
+        "date": "2023-07-27T14:04:42.011702+00:00",
+        "headline": "As Congress discusses the possibility of intelligent life in our galaxy, crypto devs target unintelligent life on Earth with the launch of 50+ extraterrestrial-themed memecoins",
+        "lev_url": "https://leviathannews.xyz/2002/as-congress-discusses-the-possibility-of-intelligent-life-in-our-galaxy-crypto-devs-target-unintelligent-life-on-earth-with-the-launch-of-50-extraterrestrial-themed-memecoins"
+      },
+      "provenance": "data",
+      "top_decile_share": 27,
+      "total_clicks": 3561
+    },
+    "reader_threads": {
+      "as_of": "2026-06-26T03:08:19.768854+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "threads": [
+        {
+          "source": "",
+          "thread": "Gensler vs Congress showdown",
+          "why": "Multiple high-click headlines framed Gensler as defying, misleading, or contemptuous of Congress, making him a personified antagonist readers tracked obsessively."
+        },
+        {
+          "source": "",
+          "thread": "Stablecoin bill race",
+          "why": "The GENIUS Act vs STABLE Act rivalry gave readers a concrete legislative horse race with clear winners and losers — banks, DeFi protocols, Tether — which drove sustained engagement."
+        },
+        {
+          "source": "",
+          "thread": "Crypto lobbying money flood",
+          "why": "Headlines quantifying PAC spending, Tether's 150% lobbying surge, and $245M in pro-crypto funding revealed a money-politics feedback loop readers found alarming and compelling."
+        },
+        {
+          "source": "",
+          "thread": "FIT21 market structure vote",
+          "why": "The House FIT21 vote was framed as a binary referendum on the White House's anti-crypto stance, giving readers a clear political stakes moment to follow."
+        },
+        {
+          "source": "",
+          "thread": "Regulatory turf war SEC vs CFTC",
+          "why": "The CFTC chair calling the agency 'handcuffed' while the SEC pushed Congress to block FIT21 exposed an interagency power vacuum readers recognized as the root of crypto's legal limbo."
+        },
+        {
+          "source": "",
+          "thread": "Pro-crypto Congress composition",
+          "why": "Post-election headlines declaring a majority pro-crypto House gave readers a scoreboard moment after years of hostile regulatory headlines."
+        }
+      ]
+    },
+    "risk_matrix": {
+      "as_of": "2026-06-26T03:08:19.768869+00:00",
+      "model": "claude-sonnet-4-6",
+      "provenance": "sonnet",
+      "rows": [
+        {
+          "dimension": "Regulatory",
+          "level": "High",
+          "note": "Competing SEC, CFTC, and congressional jurisdictional claims leave core market-structure and stablecoin rules unresolved, creating persistent enforcement uncertainty for any project operating in the US.",
+          "source": ""
+        },
+        {
+          "dimension": "Legislative",
+          "level": "Medium",
+          "note": "Stablecoin and market-structure bills (GENIUS Act, STABLE Act, FIT21) have advanced further than any prior cycle but remain subject to Senate amendment battles and White House signaling.",
+          "source": ""
+        },
+        {
+          "dimension": "Centralization",
+          "level": "Medium",
+          "note": "Stablecoin yield bans in draft legislation would entrench bank-issued stablecoins and disadvantage decentralized alternatives like DAI, concentrating reserve issuance in regulated financial institutions.",
+          "source": ""
+        },
+        {
+          "dimension": "Market",
+          "level": "Medium",
+          "note": "Crypto PAC spending of $245M+ to elect a pro-crypto Congress creates a regulatory capture risk where industry-friendly rules may underprice systemic risk, exposing retail holders to unhedged tail events.",
+          "source": ""
+        },
+        {
+          "dimension": "Liquidity",
+          "level": "Low",
+          "note": "FSOC's 2024 report flagged Tether's dominance and opacity as a systemic run-risk vector, but congressional inaction has left no reserve or redemption standards in place.",
+          "source": ""
+        },
+        {
+          "dimension": "Sanctions / AML",
+          "level": "Medium",
+          "note": "Treasury's congressional testimony linking crypto mixers to DPRK hacking and ransomware keeps mixer and privacy-tool operators under active enforcement scrutiny regardless of legislative outcomes.",
+          "source": ""
+        }
+      ],
+      "sourced": 0,
+      "total": 6
+    },
+    "significant": {
+      "as_of": "2026-07-01T11:54:59.503308+00:00",
+      "items": [
+        {
+          "clicks": 26,
+          "date": "2026-04-17T20:54:38.206175+00:00",
+          "headline": "Elizabeth Warren accuses SEC Chair Paul Atkins of misleading Congress over declining enforcement actions, raising concerns about investor protection",
+          "hot_score": 644.340633,
+          "lev_url": "https://leviathannews.xyz/231884/elizabeth-warren-accuses-sec-chair-paul-atkins-of-misleading-congress-over-declining-enforcement-actions-raising-concerns-about-investor-protection",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417185221_C779k2KJSezs.jpg",
+          "url": "https://decrypt.co/364758/elizabeth-warren-accuses-sec-chair-paul-atkins-lying-congress"
+        },
+        {
+          "clicks": 28,
+          "date": "2026-04-17T19:03:52.499825+00:00",
+          "headline": "Rep. Sheri Biggs discloses Bitcoin purchase up to $250K, among largest BTC buys ever filed by a sitting Congress member",
+          "hot_score": 614.688376,
+          "lev_url": "https://leviathannews.xyz/231664/rep-sheri-biggs-discloses-bitcoin-purchase-up-to-250k-among-largest-btc-buys-ever-filed-by-a-sitting-congress-member",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417155334_Z4zrlaiDPw==.png",
+          "url": "https://x.com/QuiverQuant/status/2045130283956027862"
+        },
+        {
+          "clicks": 19,
+          "date": "2026-06-22T15:29:26.578781+00:00",
+          "headline": "Crypto lobby groups urge Congress to pass the Tax Clarity for Mining and Staking Act unchanged, allowing staking rewards to be taxed only when sold",
+          "hot_score": 566.377383,
+          "lev_url": "https://leviathannews.xyz/260330/no-headline-20260622-2",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622151826_rnAtdYI1hr7O.jpg",
+          "url": "https://www.theblock.co/post/405603/crypto-industry-groups-urge-congress-pass-tax-staking-mining-bill-unchanged?utm_source=rss&utm_medium=rss?utm_source=telegram1&utm_medium=social"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-05-29T06:21:56.970755+00:00",
+          "headline": "Bessent rules out U.S. CBDC and urges Congress to bring digital assets onshore with CLARITY",
+          "hot_score": 440.940092,
+          "lev_url": "https://leviathannews.xyz/249826/bessent-rules-out-us-cbdc-and-urges-congress-to-bring-digital-assets-onshore-with-clarity",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260529021320_Z4zrlaiDPw==.png",
+          "url": "https://x.com/rapidresponse47/status/2060064861787189433"
+        },
+        {
+          "clicks": 19,
+          "date": "2026-06-17T07:26:41.687732+00:00",
+          "headline": "Gaming groups, tribes and unions press Congress to block sports prediction markets in crypto bill",
+          "hot_score": 412.706212,
+          "lev_url": "https://leviathannews.xyz/258165/gaming-groups-tribes-and-unions-press-congress-to-block-sports-prediction-markets-in-crypto-bill",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260617071526_Z4zrlaiDPw==.png",
+          "url": "https://www.semafor.com/article/06/16/2026/gaming-industry-unions-push-for-prediction-market-rules-in-crypto-bill"
+        },
+        {
+          "clicks": 83,
+          "date": "2026-04-01T20:18:49.692236+00:00",
+          "headline": "Tether regulatory VP Jesse Spiro takes helm of $100M Fellowship PAC as Congress debates stablecoin rules",
+          "hot_score": 394.040509,
+          "lev_url": "https://leviathannews.xyz/219529/tether-regulatory-vp-jesse-spiro-takes-helm-of-100m-fellowship-pac-as-congress-debates-stablecoin-rules",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401201836_CDSqS9ODU5nu.jpg",
+          "url": "https://www.theblock.co/post/396081/crypto-super-pac-names-tether-exec-chairman-as-stablecoin-debate-in-d-c-intensifies"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-03-26T07:57:44.474286+00:00",
+          "headline": "Bipartisan PREDICT Act bans Congress, president, and appointees from political prediction markets with 10% fines",
+          "hot_score": 279.709532,
+          "lev_url": "https://leviathannews.xyz/216243/bipartisan-predict-act-bans-congress-president-and-appointees-from-political-prediction-markets-with-10-fines",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260326062618_Z4zrlaiDPw==.png",
+          "url": "https://adriansmith.house.gov/media/press-releases/smith-budzinski-introduce-bipartisan-bill-ban-members-congress-federal"
+        },
+        {
+          "clicks": 57,
+          "date": "2026-03-25T19:53:29.159161+00:00",
+          "headline": "SEC Chair Atkins frames landmark token taxonomy as mere 'end of the beginning' — says only Congress can make crypto rules stick",
+          "hot_score": 250.515792,
+          "lev_url": "https://leviathannews.xyz/215895/sec-chair-atkins-frames-landmark-token-taxonomy-as-mere-end-of-the-beginning-says-only-congress-can-make-crypto-rules-stick",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260325195258_la93xvA-aEzI.jpg",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-digital-asset-summit-032426"
+        }
+      ],
+      "provenance": "data"
+    },
+    "source_map": {
+      "as_of": "2026-07-01T11:54:59.393146+00:00",
+      "editorial": [
+        {
+          "count": 19,
+          "source": "x.com"
+        },
+        {
+          "count": 6,
+          "source": "theblock.co"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "cnbc.com"
+        },
+        {
+          "count": 3,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "leviathannews.substack.com"
+        },
+        {
+          "count": 1,
+          "source": "forbes.com"
+        },
+        {
+          "count": 1,
+          "source": "marketwatch.com"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
+        },
+        {
+          "count": 1,
+          "source": "washingtonpost.com"
+        }
+      ],
+      "editorial_distinct": 19,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 94,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 47,
+          "source": "x.com"
+        },
+        {
+          "count": 12,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 10,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 8,
+          "source": "whitehouse.gov"
+        },
+        {
+          "count": 5,
+          "source": "theblock.co"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "thehill.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 2,
+          "source": "politico.com"
+        },
+        {
+          "count": 1,
+          "source": "news.bloomberglaw.com"
+        }
+      ],
+      "universe_distinct": 24
+    }
+  },
+  "official_links": [],
+  "pillar_state_sha256": "153c4ab654120a062ab3028980f7d0e8d952558657c67d6f65575d57a34a0237",
+  "provenance": {
+    "model_name": "claude-sonnet-4-6",
+    "published_at": "2026-06-22T20:04:15.953106+00:00",
+    "source": "sonnet_websearch",
+    "updated_at": "2026-07-26T22:21:57.423877+00:00"
+  },
+  "relations": [
+    {
+      "confidence": 0.231,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.047,
+        "lift_log": 4.526,
+        "score": 0.2306,
+        "shared": 7
+      },
+      "rationale": "Bessent is a person influencing congressional crypto policy.",
+      "relation_type": "influence",
+      "slug": "bessent",
+      "source": "cotag",
+      "tag_name": "Bessent",
+      "title": "Bessent, Explained",
+      "weight": 23
+    },
+    {
+      "confidence": 0.203,
+      "evidence": {
+        "autolink": false,
+        "jaccard": 0.0305,
+        "lift_log": 4.095,
+        "score": 0.2029,
+        "shared": 7
+      },
+      "rationale": "Congress creates legislation, including crypto laws.",
+      "relation_type": "category",
+      "slug": "legislation",
+      "source": "cotag",
+      "tag_name": "Legislation",
+      "title": "Legislation, Explained",
+      "weight": 20
+    }
+  ],
+  "schema_version": 1,
+  "slug": "congress",
+  "tag_name": "Congress",
+  "title": "Congress, Explained"
+}
