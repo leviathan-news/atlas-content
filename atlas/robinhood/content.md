@@ -68,6 +68,10 @@ Robinhood's crypto business has operated under substantial regulatory uncertaint
 
 A more favorable regulatory posture from U.S. financial regulators beginning in late 2024 and into 2025–2026 opened new product lines. The permission extended to Coinbase and Robinhood to offer crypto perpetual futures to U.S. retail customers — a product previously unavailable domestically — was significant both commercially and symbolically, signaling that U.S. regulators were prepared to allow retail participation in instruments common on offshore venues. Perpetual futures give traders leveraged exposure to crypto prices without an expiry date, and their availability on regulated U.S. platforms represents a meaningful expansion of the accessible product set.
 
+## The Multi-Venue Contest
+
+Prediction markets are becoming a distribution business as much as a product category. The Block, citing the Wall Street Journal, reported that Robinhood is in talks with Crypto.com about adding that exchange's event contracts to its app. The report says a deal would let Robinhood supplement its present mix of Kalshi, ForecastEx, and Rothera contracts, although the talks may not result in an agreement. If the talks become a deal, they would widen Robinhood's supply of contracts; for now, they show how quickly the fight for retail liquidity is moving beyond a single venue.
+
 ## Outlook
 
 Robinhood enters the second half of the 2020s as something considerably more complex than the commission-free stock app that made its name. Its prediction markets business is scaling at a rate that few anticipated; its crypto platform is deepening through wallet infrastructure, asset expansion, and international acquisitions; and its AI integration and wealth management moves suggest it is serious about competing across the full financial services stack.
