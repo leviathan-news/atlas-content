@@ -42,6 +42,8 @@ An ecosystem formed around it quickly. Arkham added Robinhood Chain data and API
 
 The same month supplied a caution about what crypto-native distribution costs. Robinhood said CEO Vlad Tenev's X account was compromised and used to promote a fake "VLAD" token. No Robinhood product was involved, but the episode illustrates a new operational reality: when a brokerage runs its own chain, its executives' social accounts become market-moving surfaces — and securing them becomes part of the product.
 
+The first-month surge now has a more useful test: whether capital turns into repeatable activity. [The Block’s July 28 analysis](https://www.theblock.co/post/409813/robinhood-chain-deposits-climb-volume-users-fade-memecoin-fueled-launch) put Robinhood Chain’s TVL at about $325 million, but its daily DEX volume had slipped to a $553 million average, down 27% week over week, while active accounts averaged roughly 275,000, down 7%. Its turnover measure fell from 9.25x in the second week of July to 1.68x by late July, indicating that capital was arriving faster than it was being traded. The crucial question is no longer whether Robinhood can attract liquidity; it is whether yield deposits and a fading memecoin surge can give way to transactions users return for.
+
 ## International Expansion: The WonderFi Acquisition
 
 One of Robinhood's most concrete strategic moves of the current cycle was its acquisition of WonderFi, a Canadian crypto company, for approximately C$250 million (around USD $180 million). The deal closed in 2026 and gave Robinhood immediate access to the Canadian market through WonderFi's operating subsidiaries: Bitbuy, a regulated crypto exchange, and Coinsquare, one of the longest-running crypto platforms in Canada. Together, those assets brought roughly 300,000 funded customers into the Robinhood ecosystem.
@@ -67,6 +69,10 @@ The Ark Invest portfolio adjustment — buying $18 million in Coinbase shares wh
 Robinhood's crypto business has operated under substantial regulatory uncertainty for several years. In the U.S., the question of which crypto assets constitute securities — and therefore fall under SEC jurisdiction — remained unresolved through much of the early 2020s. Robinhood was among the platforms that received Wells Notices and navigated enforcement uncertainty by limiting which assets it would list.
 
 A more favorable regulatory posture from U.S. financial regulators beginning in late 2024 and into 2025–2026 opened new product lines. The permission extended to Coinbase and Robinhood to offer crypto perpetual futures to U.S. retail customers — a product previously unavailable domestically — was significant both commercially and symbolically, signaling that U.S. regulators were prepared to allow retail participation in instruments common on offshore venues. Perpetual futures give traders leveraged exposure to crypto prices without an expiry date, and their availability on regulated U.S. platforms represents a meaningful expansion of the accessible product set.
+
+## The Multi-Venue Contest
+
+Prediction markets are becoming a distribution business as much as a product category. The Block, citing the Wall Street Journal, reported that Robinhood is in talks with Crypto.com about adding that exchange's event contracts to its app. The report says a deal would let Robinhood supplement its present mix of Kalshi, ForecastEx, and Rothera contracts, although the talks may not result in an agreement. If the talks become a deal, they would widen Robinhood's supply of contracts; for now, they show how quickly the fight for retail liquidity is moving beyond a single venue.
 
 ## Outlook
 
