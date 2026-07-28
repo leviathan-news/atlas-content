@@ -12,7 +12,8 @@ For the initial pilot, change one existing territory and only one or both of:
 - `atlas/<slug>/content.md`
 - `atlas/<slug>/metadata.json`
 
-Do not change `snapshot.json`, `catalog.json`, schemas, policy files, licensing,
+Do not change the generated `atlas/<slug>/README.md` covers, `snapshot.json`,
+`catalog.json`, schemas, policy files, licensing,
 ownership, repository settings, or add/remove/rename a territory. Do not submit
 raw HTML, scripts, symlinks, generated files, private correspondence,
 credentials, allegations requiring confidential handling, or material you lack

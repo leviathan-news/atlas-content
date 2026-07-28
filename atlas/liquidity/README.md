@@ -1,0 +1,19 @@
+# Liquidity, Explained
+
+> Comprehensive explainer on crypto liquidity, covering order books, AMMs, stablecoins, DeFi pools, tokenized assets, AI agents and market structure, with practical insights for traders, LPs and analysts.
+
+**[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/liquidity)**
+
+The live page at [https://leviathan.news/atlas/liquidity](https://leviathan.news/atlas/liquidity) carries this territory's
+current body with fresh reporting attached as it lands; this mirror
+captures the published body as of the last export.
+
+---
+
+Part of the [Leviathan Atlas](https://leviathan.news/atlas) — a living
+map of crypto, drawn from everything Leviathan News has ever covered.
+
+*This cover page is generated — do not edit it in a pull request.
+Propose changes to [content.md](content.md) (the editorial body) or
+[metadata.json](metadata.json) (summary and citations); see the
+repository [contribution guide](../../CONTRIBUTING.md).*
