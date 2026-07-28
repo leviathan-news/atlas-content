@@ -1,6 +1,6 @@
 # DefiLlama, Explained
 
-> DefiLlama is DeFi's leading open-source analytics aggregator, tracking TVL, fees, stablecoins, and yields across hundreds of chains — expanding in 2026 with LlamaAI, a Python SDK, and private-market data via the Bulletin acquisition.
+> DefiLlama is DeFi's leading open-source analytics aggregator, tracking TVL, fees, stablecoins, and yields across hundreds of chains — expanding in 2026 with LlamaAI and private-market data via the Bulletin acquisition.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/defillama)**
 

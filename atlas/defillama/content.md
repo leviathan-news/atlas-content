@@ -80,7 +80,7 @@ The platform's hiring of additional developers (fully async, distributed positio
 
 **Institutional and regulatory observers** are increasingly in the audience. The Federal Reserve's use of third-party stablecoin data — and the governance questions that raises — points to a future where aggregators like DefiLlama may occupy a quasi-infrastructure role in financial oversight, without having been formally designated as such.
 
-**Developers** gained a programmatic access path in 2026 with the release of an official Python SDK for DefiLlama's APIs, making it easier to build applications and analytics tools on top of the platform's data.
+
 
 ## Outlook
 
