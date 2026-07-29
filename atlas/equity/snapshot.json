@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:00:06.549934+00:00",
-      "newsroom_total": 31,
-      "overall_share": 22,
+      "as_of": "2026-07-29T22:58:44.551279+00:00",
+      "newsroom_total": 34,
+      "overall_share": 18,
       "provenance": "data",
       "series": [
         {
@@ -29,62 +29,103 @@
           "month": "2026-06",
           "newsroom": 10,
           "universe": 37
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-07",
+          "newsroom": 3,
+          "universe": 46
         }
       ],
-      "total_universe": 139,
-      "universe_total": 108
+      "total_universe": 188,
+      "universe_total": 154
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:00:05.934841+00:00",
+      "as_of": "2026-07-29T22:58:44.353742+00:00",
       "edges": [
         {
+          "confidence": 0.245,
+          "description": "Co-covered in 5 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "equity",
-          "phrase": "Both equity and derivatives are financial instruments, with derivatives deriving value from underlying assets.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-22",
+          "phrase": "Co-covered in 5 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "derivatives",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.24,
+          "description": "Co-covered in 8 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "equity",
-          "phrase": "Cantor provides financial services and market infrastructure for equity trading.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-08",
+          "phrase": "Co-covered in 8 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cantor",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.19,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "equity",
-          "phrase": "Securitize tokenizes equity securities, enabling digital issuance and trading.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "securitize",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.159,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "equity",
-          "phrase": "Equity indices track a basket of stocks, representing a segment of the equity market.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "index",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.146,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "equity",
-          "phrase": "An IPO is the process where private equity becomes publicly traded equity.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ipo",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -98,42 +139,62 @@
         },
         {
           "center": false,
+          "confidence": 0.245,
           "name": "Derivatives",
+          "observed_at": "2026-07-22",
           "slug": "derivatives",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 24
-        },
-        {
-          "center": false,
-          "name": "Cantor",
-          "slug": "cantor",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 24
-        },
-        {
-          "center": false,
-          "name": "Securitize",
-          "slug": "securitize",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 24
+        },
+        {
+          "center": false,
+          "confidence": 0.24,
+          "name": "Cantor",
+          "observed_at": "2026-07-08",
+          "slug": "cantor",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 24
+        },
+        {
+          "center": false,
+          "confidence": 0.19,
+          "name": "Securitize",
+          "observed_at": null,
+          "slug": "securitize",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.159,
           "name": "Index",
+          "observed_at": null,
           "slug": "index",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.146,
           "name": "IPO",
+          "observed_at": null,
           "slug": "ipo",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -202,17 +263,17 @@
       "source": "https://business.cornell.edu/article/2026/02/tokenized-equities/"
     },
     "reader_signal": {
-      "article_count": 31,
-      "as_of": "2026-07-01T12:00:07.074283+00:00",
+      "article_count": 34,
+      "as_of": "2026-07-29T22:58:44.930652+00:00",
       "most_clicked": {
-        "clicks": 127,
+        "clicks": 128,
         "date": "2026-04-06T15:24:44.396506+00:00",
         "headline": "Ethena proposes USDe reserve overhaul, adding institutional lending, RWAs, equity & commodity basis, and prime lending to reduce concentration and boost resilience",
         "lev_url": "https://leviathannews.xyz/221704/ethena-proposes-usde-reserve-overhaul-adding-institutional-lending-rwas-equity-commodity-basis-and-prime-lending-to-reduce-concentration-and-boost-resilience"
       },
       "provenance": "data",
-      "top_decile_share": 21,
-      "total_clicks": 1443
+      "top_decile_share": 19,
+      "total_clicks": 1646
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:54:21.056927+00:00",
@@ -297,10 +358,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:00:06.970790+00:00",
+      "as_of": "2026-07-29T22:58:44.926079+00:00",
       "items": [
         {
-          "clicks": 55,
+          "clicks": 60,
           "date": "2026-04-10T05:59:18.568531+00:00",
           "headline": "OKX Ventures, HashKey take equity in VPBank's CAEX to compete for Vietnam's five-slot crypto pilot",
           "hot_score": 9206.027924,
@@ -309,7 +370,7 @@
           "url": "https://cointelegraph.com/news/okx-and-hashkey-back-vpbank-linked-bid-for-vietnam-s-tight-crypto-pilot"
         },
         {
-          "clicks": 23,
+          "clicks": 25,
           "date": "2026-04-14T20:01:23.888141+00:00",
           "headline": "Figure and Hastra expand DeFi credit with auto loans, bringing tokenized consumer lending beyond home equity and testing real-world yield markets onchain",
           "hot_score": 7309.489986,
@@ -318,7 +379,7 @@
           "url": "https://cointelegraph.com/news/figure-hastra-expand-tokenized-credit-auto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "clicks": 49,
+          "clicks": 52,
           "date": "2026-04-15T08:20:13.984450+00:00",
           "headline": "SIX Group taps Chainlink DataLink to bring Swiss and Spanish equity data onchain",
           "hot_score": 4332.266076,
@@ -327,7 +388,7 @@
           "url": "https://www.theblock.co/post/397450/major-european-six-group-stock-exchanges-feeding-data-to-chainlink"
         },
         {
-          "clicks": 36,
+          "clicks": 37,
           "date": "2026-04-15T19:10:06.072876+00:00",
           "headline": "TeraWulf stock drops ~6% after upsizing equity raise to $900M, pricing 47.4M shares at $19 to fund AI data center expansion",
           "hot_score": 3222.819108,
@@ -336,7 +397,7 @@
           "url": "https://www.theblock.co/post/397514/terawulf-shares-fall-after-upsized-900-million-equity-raise-to-fund-ai-data-center-buildout?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 35,
+          "clicks": 38,
           "date": "2026-04-15T22:12:20.243943+00:00",
           "headline": "Jane Street signs $6B CoreWeave AI cloud deal, takes $1B equity stake at $109 per share",
           "hot_score": 2958.734371,
@@ -345,7 +406,7 @@
           "url": "https://www.coreweave.com/news/jane-street-signs-6-billion-ai-cloud-agreement-with-coreweave"
         },
         {
-          "clicks": 46,
+          "clicks": 47,
           "date": "2026-04-11T13:19:03.922998+00:00",
           "headline": "Employers balk at adding crypto and private equity to 401(k)s over fiduciary lawsuit risk",
           "hot_score": 1487.533524,
@@ -354,31 +415,31 @@
           "url": "https://www.nytimes.com/2026/04/11/business/dealbook/crypto-private-equity-401ks.html"
         },
         {
-          "clicks": 45,
-          "date": "2026-06-27T06:02:06.396155+00:00",
-          "headline": "TradeXYZ's dominance in equity, commodity and index perps isn't an existential threat to Hyperliquid, it's a growth engine driving users, fees and HYPE buybacks",
-          "hot_score": 1099.781191,
-          "lev_url": "https://leviathannews.xyz/263872/tradexyzs-dominance-in-equity-commodity-and-index-perps-isnt-an-existential-threat-to-hyperliquid-its-a-growth-engine-driving-users-fees-and-hype-buybacks",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260627030432_YIU8UUsZ0acP.jpg",
-          "url": "https://x.com/kidponga/status/2070574856668590437"
-        },
-        {
-          "clicks": 31,
+          "clicks": 34,
           "date": "2026-04-20T20:09:27.003498+00:00",
           "headline": "Coinbase and Bybit reportedly explore collaboration on tokenizing U.S. stocks, focusing on custody and distribution without any equity stake or market entry deal",
           "hot_score": 962.6,
           "lev_url": "https://leviathannews.xyz/233895/coinbase-and-bybit-reportedly-explore-collaboration-on-tokenizing-us-stocks-focusing-on-custody-and-distribution-without-any-equity-stake-or-market-entry-deal",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420200827_z_N9wYbKzzyK.jpg",
           "url": "https://www.coindesk.com/business/2026/04/20/coinbase-bybit-said-to-be-working-together-on-tokenization-custody-and-distribution-of-u-s-stocks"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-05-07T06:03:35.211927+00:00",
+          "headline": "Sherlock completes audit of Manifest Finance smart contracts with zero high-severity findings as platform prepares USH launch for tokenized home equity",
+          "hot_score": 792.911634,
+          "lev_url": "https://leviathannews.xyz/238932/sherlock-completes-audit-of-manifest-finance-smart-contracts-with-zero-high-severity-findings-as-platform-prepares-ush-launch-for-tokenized-home-equity",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260507055103_0yBYobSdxlcH.jpg",
+          "url": "https://x.com/i/web/status/2052071046522839245"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:00:06.887715+00:00",
+      "as_of": "2026-07-29T22:58:44.914159+00:00",
       "editorial": [
         {
-          "count": 13,
+          "count": 16,
           "source": "x.com"
         },
         {
@@ -426,11 +487,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 65,
+          "count": 104,
           "source": "x.com"
         },
         {
-          "count": 10,
+          "count": 12,
           "source": "theblock.co"
         },
         {
@@ -458,23 +519,23 @@
           "source": "crowdfundinsider.com"
         },
         {
+          "count": 2,
+          "source": "securitize.io"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
           "count": 1,
           "source": "markets.businessinsider.com"
         },
         {
           "count": 1,
           "source": "federalreserve.gov"
-        },
-        {
-          "count": 1,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 1,
-          "source": "foxbusiness.com"
         }
       ],
-      "universe_distinct": 23
+      "universe_distinct": 26
     }
   },
   "official_links": [],
@@ -485,42 +546,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:29.683269+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.24,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0468,
-        "lift_log": 4.737,
-        "score": 0.2399,
-        "shared": 5
-      },
-      "rationale": "Cantor provides financial services and market infrastructure for equity trading.",
-      "relation_type": "infrastructure",
-      "slug": "cantor",
-      "source": "cotag",
-      "tag_name": "Cantor",
-      "title": "Cantor, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.245,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0193,
-        "lift_log": 2.937,
-        "score": 0.2445,
-        "shared": 4
-      },
-      "rationale": "Both equity and derivatives are financial instruments, with derivatives deriving value from underlying assets.",
-      "relation_type": "peer",
-      "slug": "derivatives",
-      "source": "cotag",
-      "tag_name": "Derivatives",
-      "title": "Derivatives, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "equity",
   "tag_name": "Equity",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:14:05.897086+00:00",
-      "newsroom_total": 7,
-      "overall_share": 8,
+      "as_of": "2026-07-29T23:01:25.202997+00:00",
+      "newsroom_total": 9,
+      "overall_share": 9,
       "provenance": "data",
       "series": [
         {
@@ -35,62 +35,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 16
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 17
         }
       ],
-      "total_universe": 84,
-      "universe_total": 77
+      "total_universe": 103,
+      "universe_total": 94
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:14:05.614572+00:00",
+      "as_of": "2026-07-29T23:01:24.662036+00:00",
       "edges": [
         {
+          "confidence": 0.254,
+          "description": "Co-covered in 4 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "llm",
-          "phrase": "LLMs are a key area of AI research.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-02",
+          "phrase": "Co-covered in 4 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "research",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.22,
+          "description": "Co-covered in 5 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "llm",
-          "phrase": "Unclear relation; possibly a competitor or unrelated.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-21",
+          "phrase": "Co-covered in 5 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "openclaw",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.209,
+          "description": "Co-covered in 1 approved story; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "llm",
-          "phrase": "LLMs are used to power AI agents.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-20",
+          "phrase": "Co-covered in 1 approved story; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 3 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "llm",
-          "phrase": "SDKs provide tools to build with LLMs.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-02",
+          "phrase": "Co-covered in 3 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "sdk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.184,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "llm",
-          "phrase": "APIs allow access to LLM models.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "api",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -104,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.254,
           "name": "Research",
+          "observed_at": "2026-07-02",
           "slug": "research",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.22,
           "name": "OpenClaw",
+          "observed_at": "2026-05-21",
           "slug": "openclaw",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.209,
           "name": "agents",
+          "observed_at": "2026-07-20",
           "slug": "agents",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "SDK",
-          "slug": "sdk",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "API",
-          "slug": "api",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.206,
+          "name": "SDK",
+          "observed_at": "2026-04-02",
+          "slug": "sdk",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.184,
+          "name": "API",
+          "observed_at": null,
+          "slug": "api",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -196,17 +257,17 @@
       "source": "https://arxiv.org/html/2503.02167v1"
     },
     "reader_signal": {
-      "article_count": 7,
-      "as_of": "2026-07-01T12:14:06.365071+00:00",
+      "article_count": 9,
+      "as_of": "2026-07-29T23:01:25.679971+00:00",
       "most_clicked": {
-        "clicks": 77,
+        "clicks": 78,
         "date": "2026-04-02T11:50:23.087020+00:00",
         "headline": "Vitalik Buterin unveils self-sovereign local LLM stack, prioritizing privacy, on-device inference, and secure data pipelines to eliminate reliance on centralized AI services",
         "lev_url": "https://leviathannews.xyz/219916/my-self-sovereign-local-private-secure-llm-setup-april-2026-20260402-1"
       },
       "provenance": "data",
-      "top_decile_share": 19,
-      "total_clicks": 411
+      "top_decile_share": 16,
+      "total_clicks": 481
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:48:15.255577+00:00",
@@ -280,10 +341,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:14:06.290052+00:00",
+      "as_of": "2026-07-29T23:01:25.674565+00:00",
       "items": [
         {
-          "clicks": 72,
+          "clicks": 76,
           "date": "2026-04-16T14:33:34.910268+00:00",
           "headline": "Anthropic ships Opus 4.7 with 3x coding gains and tripled image resolution, holding pricing steady",
           "hot_score": 100599.147069,
@@ -292,7 +353,7 @@
           "url": "https://www.anthropic.com/news/claude-opus-4-7"
         },
         {
-          "clicks": 60,
+          "clicks": 62,
           "date": "2026-04-19T20:11:52.212232+00:00",
           "headline": "Firepan opens $239/mo DeFi vulnerability scanner for free as AI-powered exploits surge, urging developers to secure codebases before LLM-driven attacks escalate",
           "hot_score": 61744.274518,
@@ -301,7 +362,7 @@
           "url": "https://x.com/i/status/2045657000663461897"
         },
         {
-          "clicks": 62,
+          "clicks": 70,
           "date": "2026-04-13T10:13:26.447018+00:00",
           "headline": "Researchers find 26 LLM API routers secretly injecting malicious code and stealing developer credentials",
           "hot_score": 4544.630077,
@@ -310,7 +371,16 @@
           "url": "https://cointelegraph.com/news/researchers-discover-malicious-ai-agent-routers-that-can-steal-crypto"
         },
         {
-          "clicks": 77,
+          "clicks": 35,
+          "date": "2026-07-08T07:16:57.535143+00:00",
+          "headline": "BunnyOS picks Venice for uncensored, private LLM inference, boosting open-source adoption",
+          "hot_score": 426.622578,
+          "lev_url": "https://leviathannews.xyz/270898/bunnyos-announce-that-venice-is-now-integrated-as-its-sole-llm-inference-provider-bunnyos-love-the-product-and-recommend-it-for-any-llm-use-case",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260708065402_rDBvdnwP1-QR.jpg",
+          "url": "https://x.com/officialbunnyos/status/2074498358807499074"
+        },
+        {
+          "clicks": 78,
           "date": "2026-04-02T11:50:23.087020+00:00",
           "headline": "Vitalik Buterin unveils self-sovereign local LLM stack, prioritizing privacy, on-device inference, and secure data pipelines to eliminate reliance on centralized AI services",
           "hot_score": 286.22803,
@@ -319,7 +389,7 @@
           "url": "https://x.com/i/status/2039577760935657677"
         },
         {
-          "clicks": 52,
+          "clicks": 53,
           "date": "2026-04-02T18:44:16.028508+00:00",
           "headline": "Google releases Gemma 4 open models with 256K context and multimodal support under Apache 2.0 license",
           "hot_score": 137.857322,
@@ -337,22 +407,22 @@
           "url": "https://www.perplexity.ai/page/google-launches-encoder-free-g-LgpvnxhzR3y.GLvCByajMw"
         },
         {
-          "clicks": 34,
-          "date": "2026-05-19T15:44:29.120903+00:00",
-          "headline": "Karpathy Joins Anthropic: AI Visionary Returns to Frontier LLM R&D, Betting the Next Few Years Will Redefine Artificial Intelligence While Putting His Education Mission Briefly on Hold",
-          "hot_score": -362.295039,
-          "lev_url": "https://leviathannews.xyz/245167/karpathy-joins-anthropic-ai-visionary-returns-to-frontier-llm-rd-betting-the-next-few-years-will-redefine-artificial-intelligence-while-putting-his-education-mission-briefly-on-hol",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260519154223_ZCmg5Dc44OYB.jpg",
-          "url": "https://x.com/karpathy/status/2056753169888334312"
+          "clicks": 18,
+          "date": "2026-07-20T10:12:57.293153+00:00",
+          "headline": "Japanese researchers' CitySim uses 1 million LLM-powered agents to simulate Tokyo with near-perfect accuracy",
+          "hot_score": -340.272776,
+          "lev_url": "https://leviathannews.xyz/278456/japanese-researchers-created-a-system-that-simulates-an-entire-city-by-generating-up-to-1-million-virtual-residents-who-behave-like-humans-using-llms-and-it-predicted-real-world-wi",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260720044842_2oOgq7TQjfZa.jpg",
+          "url": "https://x.com/thesupermanmx/status/2078847665752957086"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:14:06.206858+00:00",
+      "as_of": "2026-07-29T23:01:25.663721+00:00",
       "editorial": [
         {
-          "count": 4,
+          "count": 6,
           "source": "x.com"
         },
         {
@@ -372,7 +442,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 63,
+          "count": 78,
           "source": "x.com"
         },
         {
@@ -386,6 +456,10 @@
         {
           "count": 2,
           "source": "aethir.com"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
         },
         {
           "count": 1,
@@ -405,18 +479,18 @@
         },
         {
           "count": 1,
-          "source": "financefeeds.com"
-        },
-        {
-          "count": 1,
           "source": "truthsocial.com"
         },
         {
           "count": 1,
           "source": "coinbase.com"
+        },
+        {
+          "count": 1,
+          "source": "venice.ai"
         }
       ],
-      "universe_distinct": 11
+      "universe_distinct": 12
     }
   },
   "official_links": [],
@@ -427,76 +501,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:41.408589+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.209,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.006,
-        "lift_log": 2.291,
-        "score": 0.2086,
-        "shared": 3
-      },
-      "rationale": "LLMs are used to power AI agents.",
-      "relation_type": "ecosystem",
-      "slug": "agents",
-      "source": "cotag",
-      "tag_name": "agents",
-      "title": "agents, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.22,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0389,
-        "lift_log": 4.374,
-        "score": 0.2196,
-        "shared": 5
-      },
-      "rationale": "Unclear relation; possibly a competitor or unrelated.",
-      "relation_type": "peer",
-      "slug": "openclaw",
-      "source": "cotag",
-      "tag_name": "OpenClaw",
-      "title": "OpenClaw, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.254,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0135,
-        "lift_log": 3.199,
-        "score": 0.2537,
-        "shared": 3
-      },
-      "rationale": "LLMs are a key area of AI research.",
-      "relation_type": "category",
-      "slug": "research",
-      "source": "cotag",
-      "tag_name": "Research",
-      "title": "Research, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0289,
-        "lift_log": 4.192,
-        "score": 0.2063,
-        "shared": 3
-      },
-      "rationale": "SDKs provide tools to build with LLMs.",
-      "relation_type": "infrastructure",
-      "slug": "sdk",
-      "source": "cotag",
-      "tag_name": "SDK",
-      "title": "SDK, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "llm",
   "tag_name": "LLM",

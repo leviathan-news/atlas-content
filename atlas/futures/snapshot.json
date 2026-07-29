@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:46:33.351821+00:00",
+      "as_of": "2026-07-29T22:59:22.686674+00:00",
       "newsroom_total": 104,
-      "overall_share": 20,
+      "overall_share": 17,
       "provenance": "data",
       "series": [
         {
@@ -227,62 +227,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 129
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 109
         }
       ],
-      "total_universe": 516,
-      "universe_total": 412
+      "total_universe": 625,
+      "universe_total": 521
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:46:32.938025+00:00",
+      "as_of": "2026-07-29T22:59:21.921043+00:00",
       "edges": [
         {
+          "confidence": 0.336,
+          "description": "Co-covered in 29 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "futures",
-          "phrase": "CME Group offers regulated Bitcoin futures, competing with crypto-native futures exchanges.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-18",
+          "phrase": "Co-covered in 29 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cme-group",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 34
         },
         {
+          "confidence": 0.298,
+          "description": "Co-covered in 144 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "futures",
-          "phrase": "Binance is a major crypto exchange offering futures trading, a direct competitor.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 144 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "binance",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.267,
+          "description": "Co-covered in 14 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "futures",
-          "phrase": "Leverage is a core mechanism in futures trading, allowing amplified exposure.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-14",
+          "phrase": "Co-covered in 14 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "leverage",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.192,
+          "description": "Co-covered in 26 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "futures",
-          "phrase": "Futures originated in traditional finance (TradFi) and are now used in crypto.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 26 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tradfi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "futures",
-          "phrase": "COIN is the stock ticker for Coinbase, which offers futures trading.",
-          "relation_type": "token",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "coin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -296,42 +337,62 @@
         },
         {
           "center": false,
+          "confidence": 0.336,
           "name": "CME Group",
+          "observed_at": "2026-06-18",
           "slug": "cme-group",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 34
         },
         {
           "center": false,
+          "confidence": 0.298,
           "name": "Binance",
+          "observed_at": "2026-07-29",
           "slug": "binance",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.267,
           "name": "Leverage",
+          "observed_at": "2026-04-14",
           "slug": "leverage",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.192,
           "name": "TradFi",
+          "observed_at": null,
           "slug": "tradfi",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "COIN",
+          "observed_at": null,
           "slug": "coin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -401,16 +462,16 @@
     },
     "reader_signal": {
       "article_count": 104,
-      "as_of": "2026-07-01T11:46:34.178467+00:00",
+      "as_of": "2026-07-29T22:59:23.218059+00:00",
       "most_clicked": {
-        "clicks": 276,
+        "clicks": 282,
         "date": "2023-11-20T11:59:08.590991+00:00",
         "headline": "Bitcoin options open interest on Deribit skyrockets to $15 billion, surpassing previous record and outpacing futures market.",
         "lev_url": "https://leviathannews.xyz/3362/bitcoin-options-open-interest-on-deribit-skyrockets-to-15-billion-surpassing-previous-record-and-outpacing-futures-market"
       },
       "provenance": "data",
       "top_decile_share": 26,
-      "total_clicks": 8154
+      "total_clicks": 8294
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:13:38.897584+00:00",
@@ -495,10 +556,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:46:34.097301+00:00",
+      "as_of": "2026-07-29T22:59:23.208812+00:00",
       "items": [
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2026-05-14T16:51:07.936808+00:00",
           "headline": "Binance Futures to launch USD1-settled BTC perpetual with 100x leverage on May 18",
           "hot_score": 645.6,
@@ -507,7 +568,7 @@
           "url": "https://www.binance.com/en/support/announcement/binance-futures-will-launch-usd%E2%93%88-margined-btcusd1-perpetual-contract-2026-05-18-5a6284dbe6a7420b85a94054b6fb6613"
         },
         {
-          "clicks": 23,
+          "clicks": 27,
           "date": "2026-06-23T01:30:02.943420+00:00",
           "headline": "TX3 Futures rolls out capital funding platform after $35M in payouts, as futures traders face growing competition and platform risk.",
           "hot_score": 569.860832,
@@ -516,7 +577,7 @@
           "url": "https://www.globenewswire.com/news-release/2026/06/22/3315481/0/en/tx3-futures-debuts-capital-funding-platform-surpassing-35-million-in-cumulative-trader-payouts.html?_gl=1*1dp7glp*_up*MQ..*_ga*MTM5NTk1NTM1LjE3ODIxNzA4NzY.*_ga_B6167QB2TF*czE3ODIxNzA4NzYkbzEkZzAkdDE3ODIxNzA4NzYkajYwJGwwJGg3NDc0MzQwODc.*_ga_ERWPGTJ5X8*czE3ODIxNzA4NzYkbzEkZzAkdDE3ODIxNzA4NzYkajYwJGwwJGgw"
         },
         {
-          "clicks": 74,
+          "clicks": 75,
           "date": "2026-03-04T19:27:58.477969+00:00",
           "headline": "OKX launches perpetual futures for equities including NVDA, AAPL, and META with up to 5x leverage, blurring crypto-TradFi lines",
           "hot_score": 343.788716,
@@ -534,7 +595,7 @@
           "url": "https://www.cmegroup.com/articles/2026/navigating-the-crypto-market-evolution-with-cardano-chainlink-and-stellar-futures.html"
         },
         {
-          "clicks": 65,
+          "clicks": 73,
           "date": "2025-12-06T14:29:49.976351+00:00",
           "headline": "Vitalik proposes a trustless onchain gas futures market to allow hedging against gas price changes",
           "hot_score": 91.336229,
@@ -543,7 +604,7 @@
           "url": "https://x.com/VitalikButerin/status/1997279838252531823"
         },
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-01-15T12:43:59.771503+00:00",
           "headline": "Frax jumps 60% as Binance announces they have completed the FXS to FRAX token swap and enabled FRAX markets for their Earn, Buy Crypto, Convert, Margin & Futures products.",
           "hot_score": 85.327715,
@@ -552,7 +613,7 @@
           "url": "https://bingx.com/en/news/post/frax-frax-jumps-in-hours-as-binance-completes-fxs-to-frax-token-swap-and-supply-tightens"
         },
         {
-          "clicks": 48,
+          "clicks": 72,
           "date": "2026-03-24T23:11:37.048180+00:00",
           "headline": "$580M in oil futures traded minutes before Trump's Iran post sparks insider trading scrutiny",
           "hot_score": 82.730454,
@@ -573,7 +634,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:46:33.997170+00:00",
+      "as_of": "2026-07-29T22:59:23.190310+00:00",
       "editorial": [
         {
           "count": 22,
@@ -628,44 +689,44 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 166,
+          "count": 215,
           "source": "x.com"
         },
         {
-          "count": 79,
+          "count": 106,
           "source": "treeofalpha.com"
         },
         {
-          "count": 41,
+          "count": 55,
           "source": "binance.com"
         },
         {
-          "count": 26,
+          "count": 31,
           "source": "cointelegraph.com"
         },
         {
-          "count": 17,
+          "count": 19,
           "source": "financefeeds.com"
         },
         {
-          "count": 14,
+          "count": 15,
           "source": "decrypt.co"
         },
         {
-          "count": 12,
+          "count": 14,
           "source": "metamask.io"
+        },
+        {
+          "count": 9,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 8,
+          "source": "theblock.co"
         },
         {
           "count": 7,
           "source": "crowdfundinsider.com"
-        },
-        {
-          "count": 6,
-          "source": "theblock.co"
-        },
-        {
-          "count": 6,
-          "source": "coindesk.com"
         },
         {
           "count": 5,
@@ -673,10 +734,10 @@
         },
         {
           "count": 4,
-          "source": "cmegroup.com"
+          "source": "wsj.com"
         }
       ],
-      "universe_distinct": 33
+      "universe_distinct": 34
     }
   },
   "official_links": [],
@@ -687,59 +748,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:32.884730+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.298,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0824,
-        "lift_log": 3.05,
-        "score": 0.2983,
-        "shared": 120
-      },
-      "rationale": "Binance is a major crypto exchange offering futures trading, a direct competitor.",
-      "relation_type": "peer",
-      "slug": "binance",
-      "source": "cotag",
-      "tag_name": "Binance",
-      "title": "Binance, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.336,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0883,
-        "lift_log": 4.165,
-        "score": 0.3361,
-        "shared": 29
-      },
-      "rationale": "CME Group offers regulated Bitcoin futures, competing with crypto-native futures exchanges.",
-      "relation_type": "peer",
-      "slug": "cme-group",
-      "source": "cotag",
-      "tag_name": "CME Group",
-      "title": "CME Group, Explained",
-      "weight": 34
-    },
-    {
-      "confidence": 0.267,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0321,
-        "lift_log": 3.28,
-        "score": 0.2671,
-        "shared": 14
-      },
-      "rationale": "Leverage is a core mechanism in futures trading, allowing amplified exposure.",
-      "relation_type": "primitive",
-      "slug": "leverage",
-      "source": "cotag",
-      "tag_name": "Leverage",
-      "title": "Leverage, Explained",
-      "weight": 27
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "futures",
   "tag_name": "Futures",

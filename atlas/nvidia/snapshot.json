@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:59:45.247647+00:00",
-      "newsroom_total": 41,
-      "overall_share": 29,
+      "as_of": "2026-07-29T23:02:43.987790+00:00",
+      "newsroom_total": 42,
+      "overall_share": 25,
       "provenance": "data",
       "series": [
         {
@@ -103,66 +103,101 @@
           "universe": 15
         },
         {
-          "ed_share": null,
+          "ed_share": 11,
           "month": "2026-07",
-          "newsroom": 2,
-          "universe": 0
+          "newsroom": 3,
+          "universe": 25
         }
       ],
-      "total_universe": 139,
-      "universe_total": 98
+      "total_universe": 165,
+      "universe_total": 123
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:59:44.369053+00:00",
+      "as_of": "2026-07-29T23:02:43.606158+00:00",
       "edges": [
         {
+          "confidence": 0.28,
+          "description": "Co-covered in 9 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "nvidia",
-          "phrase": "Microsoft uses Nvidia GPUs for Azure AI and cloud services.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 9 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "microsoft",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 28
         },
         {
+          "confidence": 0.214,
+          "description": "Co-covered in 13 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "nvidia",
-          "phrase": "Tesla uses Nvidia chips for autonomous driving and AI.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-26",
+          "phrase": "Co-covered in 13 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "tesla",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.207,
+          "description": "Co-covered in 4 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "nvidia",
-          "phrase": "Nvidia GPUs are key infrastructure for cloud computing.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-13",
+          "phrase": "Co-covered in 4 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cloud",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 9 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "nvidia",
-          "phrase": "Google uses Nvidia GPUs for AI and cloud services.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 9 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "google",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.194,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "nvidia",
-          "phrase": "Apple uses Nvidia GPUs for machine learning.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "apple",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -176,42 +211,62 @@
         },
         {
           "center": false,
+          "confidence": 0.28,
           "name": "Microsoft",
+          "observed_at": "2026-07-29",
           "slug": "microsoft",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 28
         },
         {
           "center": false,
+          "confidence": 0.214,
           "name": "Tesla",
+          "observed_at": "2026-05-26",
           "slug": "tesla",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "cloud",
-          "slug": "cloud",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Google",
-          "slug": "google",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Apple",
-          "slug": "apple",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.207,
+          "name": "cloud",
+          "observed_at": "2026-07-13",
+          "slug": "cloud",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.206,
+          "name": "Google",
+          "observed_at": "2026-07-27",
+          "slug": "google",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.194,
+          "name": "Apple",
+          "observed_at": null,
+          "slug": "apple",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -280,17 +335,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 41,
-      "as_of": "2026-07-01T11:59:45.774054+00:00",
+      "article_count": 42,
+      "as_of": "2026-07-29T23:02:44.320041+00:00",
       "most_clicked": {
-        "clicks": 257,
+        "clicks": 259,
         "date": "2025-01-27T09:04:34.050969+00:00",
         "headline": "China’s DeepSeek sparks AI market rout, dragging BTC down 6% Nasdaq futures down 2.6% and hitting tech giants Nvidia (-8.5%), Tesla, and Meta (-2%).",
         "lev_url": "https://leviathannews.xyz/8970/chinas-deepseek-sparks-ai-market-rout-dragging-btc-down-6-nasdaq-futures-down-26-and-hitting-tech-giants-nvidia-85-tesla-and-meta-2"
       },
       "provenance": "data",
-      "top_decile_share": 33,
-      "total_clicks": 2340
+      "top_decile_share": 32,
+      "total_clicks": 2488
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:17:25.748807+00:00",
@@ -375,10 +430,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:59:45.678640+00:00",
+      "as_of": "2026-07-29T23:02:44.313002+00:00",
       "items": [
         {
-          "clicks": 42,
+          "clicks": 49,
           "date": "2026-04-15T08:21:22.515403+00:00",
           "headline": "NVIDIA unveils Ising, first open AI models for quantum computing, enabling scalable systems with AI-driven calibration and error-correction to accelerate practical quantum use",
           "hot_score": 8002.100126,
@@ -387,16 +442,7 @@
           "url": "https://x.com/i/status/2044058999029473407"
         },
         {
-          "clicks": 19,
-          "date": "2026-07-01T00:09:12.105351+00:00",
-          "headline": "Ornn launches compute forward curves for Nvidia H100, H200, and B200 GPUs, bringing transparent market-based pricing to future AI compute demand and supply",
-          "hot_score": 3721.909208,
-          "lev_url": "https://leviathannews.xyz/265898/what-is-a-compute-forward-curve-a-compute-forward-curve-is-the-set-of-prices-the-market-will-pay-today-for-gpu-capacity-delivered-at-some-future-date-whether-that-is-at-the-end-o",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630215316_1nzhtIXMTV6b.jpg",
-          "url": "https://x.com/ornnexchange/status/2071933704163745971"
-        },
-        {
-          "clicks": 209,
+          "clicks": 210,
           "date": "2026-03-30T15:45:51.150186+00:00",
           "headline": "Bitdeer pivots into AI infrastructure with deal to build Norway’s largest data center, supporting Nvidia next-gen chips",
           "hot_score": 915.35516,
@@ -405,7 +451,16 @@
           "url": "https://www.theblock.co/post/395673/bitdeer-deal-build-norways-largest-ai-data-center-nvidias-next-gen-chips?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 46,
+          "clicks": 35,
+          "date": "2026-07-01T00:09:12.105351+00:00",
+          "headline": "Ornn launches compute forward curves for Nvidia H100, H200, and B200 GPUs, bringing transparent market-based pricing to future AI compute demand and supply",
+          "hot_score": 788.016106,
+          "lev_url": "https://leviathannews.xyz/265898/what-is-a-compute-forward-curve-a-compute-forward-curve-is-the-set-of-prices-the-market-will-pay-today-for-gpu-capacity-delivered-at-some-future-date-whether-that-is-at-the-end-o",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630215316_1nzhtIXMTV6b.jpg",
+          "url": "https://x.com/ornnexchange/status/2071933704163745971"
+        },
+        {
+          "clicks": 47,
           "date": "2026-04-16T08:43:04.039308+00:00",
           "headline": "NVIDIA CEO Jensen Huang says China already has the compute capacity to train Claude Mythos-level AI, raising cybersecurity concerns",
           "hot_score": 699.191276,
@@ -414,7 +469,7 @@
           "url": "https://cointelegraph.com/news/china-has-compute-train-its-own-mythos-ai-nvidia-ceo"
         },
         {
-          "clicks": 32,
+          "clicks": 33,
           "date": "2026-04-20T20:08:31.709972+00:00",
           "headline": "Google in talks with Marvell to build next-gen AI chips, including a memory processing unit and new TPU, aiming to boost efficiency and rival Nvidia’s dominance in GPUs",
           "hot_score": 479.2,
@@ -423,7 +478,7 @@
           "url": "https://crypto.news/google-looks-to-scale-ai-chip-ecosystem-with-marvell-as-nvidia-competition-heats-up/"
         },
         {
-          "clicks": 64,
+          "clicks": 65,
           "date": "2026-04-02T05:39:28.666970+00:00",
           "headline": "Bybit welcomes new users with NVDAX tokenized NVIDIA equity giveaway: Earn $20 NVDAX by completing tasks plus 100 USDT rewards for ai boom exposure",
           "hot_score": 371.355014,
@@ -432,7 +487,7 @@
           "url": "https://www.bybit.com/en/press/post/bybit-gives-away-nvidia-tokenized-equity-welcoming-new-users-blt7104f8b14c8e5d12"
         },
         {
-          "clicks": 38,
+          "clicks": 39,
           "date": "2026-03-26T07:20:21.730589+00:00",
           "headline": "Nvidia faces certified class action over alleged $1B+ undisclosed crypto mining GPU revenue, as court finds potential stock price impact from disclosures",
           "hot_score": 217.836125,
@@ -441,7 +496,7 @@
           "url": "https://decrypt.co/362410/nvidia-class-action-lawsuit-alleged-crypto-mining-revenue-gaps"
         },
         {
-          "clicks": 48,
+          "clicks": 49,
           "date": "2026-04-07T22:20:32.670730+00:00",
           "headline": "NVIDIA spotlights rise of physical AI as robots move from simulation to real-world deployment, powering solar builds and sustainable farming with advanced AI models",
           "hot_score": 186.871573,
@@ -453,7 +508,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:59:45.595419+00:00",
+      "as_of": "2026-07-29T23:02:44.297584+00:00",
       "editorial": [
         {
           "count": 10,
@@ -504,15 +559,15 @@
           "source": "archive.md"
         }
       ],
-      "editorial_distinct": 18,
+      "editorial_distinct": 19,
       "provenance": "data",
       "universe": [
         {
-          "count": 50,
+          "count": 65,
           "source": "x.com"
         },
         {
-          "count": 17,
+          "count": 20,
           "source": "decrypt.co"
         },
         {
@@ -532,6 +587,14 @@
           "source": "thestreet.com"
         },
         {
+          "count": 3,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 2,
+          "source": "bloomberg.com"
+        },
+        {
           "count": 2,
           "source": "wired.com"
         },
@@ -541,22 +604,14 @@
         },
         {
           "count": 1,
-          "source": "bloomberg.com"
-        },
-        {
-          "count": 1,
           "source": "fortune.com"
         },
         {
           "count": 1,
           "source": "markets.businessinsider.com"
-        },
-        {
-          "count": 1,
-          "source": "yzilabs.com"
         }
       ],
-      "universe_distinct": 18
+      "universe_distinct": 22
     }
   },
   "official_links": [
@@ -573,76 +628,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:45.245644+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.207,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0102,
-        "lift_log": 2.219,
-        "score": 0.2071,
-        "shared": 3
-      },
-      "rationale": "Nvidia GPUs are key infrastructure for cloud computing.",
-      "relation_type": "infrastructure",
-      "slug": "cloud",
-      "source": "cotag",
-      "tag_name": "cloud",
-      "title": "cloud, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.012,
-        "lift_log": 2.174,
-        "score": 0.2063,
-        "shared": 6
-      },
-      "rationale": "Google uses Nvidia GPUs for AI and cloud services.",
-      "relation_type": "ecosystem",
-      "slug": "google",
-      "source": "cotag",
-      "tag_name": "Google",
-      "title": "Google, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.28,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0292,
-        "lift_log": 3.602,
-        "score": 0.2797,
-        "shared": 6
-      },
-      "rationale": "Microsoft uses Nvidia GPUs for Azure AI and cloud services.",
-      "relation_type": "ecosystem",
-      "slug": "microsoft",
-      "source": "cotag",
-      "tag_name": "Microsoft",
-      "title": "Microsoft, Explained",
-      "weight": 28
-    },
-    {
-      "confidence": 0.214,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0572,
-        "lift_log": 4.059,
-        "score": 0.2144,
-        "shared": 13
-      },
-      "rationale": "Tesla uses Nvidia chips for autonomous driving and AI.",
-      "relation_type": "ecosystem",
-      "slug": "tesla",
-      "source": "cotag",
-      "tag_name": "Tesla",
-      "title": "Tesla, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "nvidia",
   "tag_name": "Nvidia",

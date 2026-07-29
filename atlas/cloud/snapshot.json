@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:50:54.297172+00:00",
+      "as_of": "2026-07-29T22:57:31.945845+00:00",
       "newsroom_total": 61,
-      "overall_share": 23,
+      "overall_share": 19,
       "provenance": "data",
       "series": [
         {
@@ -125,62 +125,103 @@
           "month": "2026-06",
           "newsroom": 6,
           "universe": 38
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 60
         }
       ],
-      "total_universe": 269,
-      "universe_total": 208
+      "total_universe": 329,
+      "universe_total": 268
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:50:53.929363+00:00",
+      "as_of": "2026-07-29T22:57:31.534411+00:00",
       "edges": [
         {
+          "confidence": 0.305,
+          "description": "Co-covered in 48 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cloud",
-          "phrase": "Google is a major cloud provider competing with cloud services.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-20",
+          "phrase": "Co-covered in 48 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "google",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 31
         },
         {
+          "confidence": 0.246,
+          "description": "Co-covered in 6 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cloud",
-          "phrase": "Microsoft Azure is a direct competitor in cloud computing.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-02",
+          "phrase": "Co-covered in 6 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "microsoft",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.199,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cloud",
-          "phrase": "GPUs are critical hardware for cloud computing workloads.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "gpu",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.185,
+          "description": "Co-covered in 12 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cloud",
-          "phrase": "Cloud is a subset of broader IT infrastructure.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 12 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.173,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cloud",
-          "phrase": "Cloud fees are a cost risk for users and providers.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "fees",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -194,42 +235,62 @@
         },
         {
           "center": false,
+          "confidence": 0.305,
           "name": "Google",
+          "observed_at": "2026-07-20",
           "slug": "google",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 31
         },
         {
           "center": false,
+          "confidence": 0.246,
           "name": "Microsoft",
+          "observed_at": "2026-07-02",
           "slug": "microsoft",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.199,
           "name": "GPU",
+          "observed_at": null,
           "slug": "gpu",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.185,
           "name": "Infrastructure",
+          "observed_at": null,
           "slug": "infrastructure",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.173,
           "name": "Fees",
+          "observed_at": null,
           "slug": "fees",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -299,16 +360,16 @@
     },
     "reader_signal": {
       "article_count": 61,
-      "as_of": "2026-07-01T11:50:54.974490+00:00",
+      "as_of": "2026-07-29T22:57:32.190681+00:00",
       "most_clicked": {
-        "clicks": 230,
+        "clicks": 245,
         "date": "2023-10-11T19:35:47.876284+00:00",
         "headline": "Amazon and Immutable join forces in a bid to revolutionize Web3 gaming, empowering game studios with generous cloud service coverage worth $100k",
         "lev_url": "https://leviathannews.xyz/2935/amazon-and-immutable-join-forces-in-a-bid-to-revolutionize-web3-gaming-empowering-game-studios-with-generous-cloud-service-coverage-worth-100k"
       },
       "provenance": "data",
       "top_decile_share": 28,
-      "total_clicks": 3925
+      "total_clicks": 4005
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:19:43.971460+00:00",
@@ -393,10 +454,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:50:54.859425+00:00",
+      "as_of": "2026-07-29T22:57:32.185261+00:00",
       "items": [
         {
-          "clicks": 35,
+          "clicks": 38,
           "date": "2026-04-15T22:12:20.243943+00:00",
           "headline": "Jane Street signs $6B CoreWeave AI cloud deal, takes $1B equity stake at $109 per share",
           "hot_score": 2958.734371,
@@ -405,7 +466,7 @@
           "url": "https://www.coreweave.com/news/jane-street-signs-6-billion-ai-cloud-agreement-with-coreweave"
         },
         {
-          "clicks": 31,
+          "clicks": 34,
           "date": "2026-04-21T05:37:54.400620+00:00",
           "headline": "MoonPay integrates crypto payments into OpenClaw AI agents on Rumble Cloud, enabling users to buy, swap, and manage crypto directly via chat with zero setup",
           "hot_score": 921.2,
@@ -414,7 +475,7 @@
           "url": "https://x.com/i/status/2046338124759117964"
         },
         {
-          "clicks": 200,
+          "clicks": 203,
           "date": "2026-03-30T15:44:15.212692+00:00",
           "headline": "Hoskinson's $200M privacy chain Midnight launches mainnet with Google Cloud, Telegram, MoneyGram running nodes",
           "hot_score": 908.742559,
@@ -423,7 +484,7 @@
           "url": "https://www.coindesk.com/tech/2026/03/30/charles-hoskinson-s-usd200-million-bet-midnight-goes-live-to-tackle-crypto-s-biggest-flaws"
         },
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2026-05-06T00:04:52.078861+00:00",
           "headline": "Anchorage Digital unveils “Agentic Banking” to give AI agents regulated access to capital, partnering with Google Cloud to power identity, policy enforcement, and settlement",
           "hot_score": 753.826664,
@@ -432,7 +493,7 @@
           "url": "https://x.com/i/web/status/2051701424031977959"
         },
         {
-          "clicks": 42,
+          "clicks": 43,
           "date": "2026-05-23T08:16:21.334669+00:00",
           "headline": "Eigen cloud founder Sreeram Kannan argues AI agents will rely on crypto rails for payments, accountability and verification as autonomous systems evolve beyond human oversight",
           "hot_score": 730.018339,
@@ -441,7 +502,7 @@
           "url": "https://x.com/i/web/status/2057588211480989972"
         },
         {
-          "clicks": 54,
+          "clicks": 57,
           "date": "2026-05-29T12:05:49.020694+00:00",
           "headline": "Researchers uncover how hackers used over 34 fake npm, PyPI and Rust packages in “TrapDoor” attack targeting Solana, Sui and Aptos developers to steal wallets and cloud credentials",
           "hot_score": 722.888199,
@@ -450,7 +511,7 @@
           "url": "https://www.coindesk.com/tech/2026/05/29/solana-sui-and-aptos-wallet-data-targeted-in-trapdoor-package-attack"
         },
         {
-          "clicks": 44,
+          "clicks": 45,
           "date": "2026-04-23T08:09:23.703156+00:00",
           "headline": "HashKey Cloud partners with EthAppsGuild to roll out ETH staking infrastructure, launching EAG Contribution Pool to expand participation and support Ethereum builders",
           "hot_score": 721.6,
@@ -471,7 +532,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:50:54.775510+00:00",
+      "as_of": "2026-07-29T22:57:32.171958+00:00",
       "editorial": [
         {
           "count": 19,
@@ -526,8 +587,12 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 144,
+          "count": 188,
           "source": "x.com"
+        },
+        {
+          "count": 11,
+          "source": "io.net"
         },
         {
           "count": 7,
@@ -535,7 +600,11 @@
         },
         {
           "count": 6,
-          "source": "io.net"
+          "source": "chainwire.org"
+        },
+        {
+          "count": 6,
+          "source": "cointelegraph.com"
         },
         {
           "count": 6,
@@ -543,23 +612,19 @@
         },
         {
           "count": 5,
-          "source": "chainwire.org"
-        },
-        {
-          "count": 5,
           "source": "medium.com"
         },
         {
           "count": 5,
-          "source": "cointelegraph.com"
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 4,
           "source": "coindesk.com"
         },
         {
-          "count": 3,
-          "source": "crowdfundinsider.com"
+          "count": 2,
+          "source": "aethir.com"
         },
         {
           "count": 2,
@@ -568,13 +633,9 @@
         {
           "count": 2,
           "source": "wax-io.medium.com"
-        },
-        {
-          "count": 2,
-          "source": "phala.com"
         }
       ],
-      "universe_distinct": 28
+      "universe_distinct": 32
     }
   },
   "official_links": [],
@@ -585,42 +646,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:23.200859+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.305,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0781,
-        "lift_log": 3.552,
-        "score": 0.3053,
-        "shared": 44
-      },
-      "rationale": "Google is a major cloud provider competing with cloud services.",
-      "relation_type": "peer",
-      "slug": "google",
-      "source": "cotag",
-      "tag_name": "Google",
-      "title": "Google, Explained",
-      "weight": 31
-    },
-    {
-      "confidence": 0.246,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0191,
-        "lift_log": 2.96,
-        "score": 0.2455,
-        "shared": 5
-      },
-      "rationale": "Microsoft Azure is a direct competitor in cloud computing.",
-      "relation_type": "peer",
-      "slug": "microsoft",
-      "source": "cotag",
-      "tag_name": "Microsoft",
-      "title": "Microsoft, Explained",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "cloud",
   "tag_name": "cloud",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:59:54.210579+00:00",
+      "as_of": "2026-07-29T22:59:15.882731+00:00",
       "newsroom_total": 100,
-      "overall_share": 84,
+      "overall_share": 80,
       "provenance": "data",
       "series": [
         {
@@ -221,63 +221,104 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 6
         }
       ],
-      "total_universe": 119,
-      "universe_total": 19
+      "total_universe": 125,
+      "universe_total": 25
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:59:53.112306+00:00",
+      "as_of": "2026-07-29T22:59:15.481180+00:00",
       "edges": [
         {
+          "confidence": 0.411,
+          "description": "Co-covered in 11 approved stories; most recently September 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "frax",
-          "phrase": "Fraxtal is Frax's own L2.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-09-04",
+          "phrase": "Co-covered in 11 approved stories; most recently September 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fraxtal",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 41
         },
         {
+          "confidence": 0.383,
+          "description": "Co-covered in 10 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "frax",
-          "phrase": "frxUSD is Frax's stablecoin.",
-          "relation_type": "token",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-23",
+          "phrase": "Co-covered in 10 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "frxusd",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 38
         },
         {
+          "confidence": 0.213,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "frax",
-          "phrase": "Frax runs its own oracle stack (e.g. for frxUSD).",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "oracles",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.203,
+          "description": "Co-covered in 2 approved stories; most recently September 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "frax",
-          "phrase": "Frax and Convex are core players in the Curve gauge wars.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
-          "to": "convex",
-          "weight": 21
-        },
-        {
-          "dir": "out",
-          "from": "frax",
-          "phrase": "USDH is a peer stablecoin.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-09-09",
+          "phrase": "Co-covered in 2 approved stories; most recently September 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "usdh",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
+        },
+        {
+          "confidence": 0.193,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
+          "dir": "out",
+          "from": "frax",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
+          "to": "stablecoin-liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 19
         }
       ],
       "nodes": [
@@ -290,43 +331,63 @@
         },
         {
           "center": false,
+          "confidence": 0.411,
           "name": "Fraxtal",
+          "observed_at": "2025-09-04",
           "slug": "fraxtal",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 41
         },
         {
           "center": false,
+          "confidence": 0.383,
           "name": "frxUSD",
+          "observed_at": "2026-03-23",
           "slug": "frxusd",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 38
         },
         {
           "center": false,
+          "confidence": 0.213,
           "name": "Oracles",
+          "observed_at": null,
           "slug": "oracles",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
-          "name": "Convex",
-          "slug": "convex",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
+          "confidence": 0.203,
           "name": "USDH",
+          "observed_at": "2025-09-09",
           "slug": "usdh",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
+        },
+        {
+          "center": false,
+          "confidence": 0.193,
+          "name": "Stablecoin Liquidity",
+          "observed_at": null,
+          "slug": "stablecoin-liquidity",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 19
         }
       ],
       "provenance": "data"
@@ -389,16 +450,16 @@
     },
     "reader_signal": {
       "article_count": 100,
-      "as_of": "2026-07-01T11:59:55.209357+00:00",
+      "as_of": "2026-07-29T22:59:16.153969+00:00",
       "most_clicked": {
-        "clicks": 1162,
+        "clicks": 1184,
         "date": "2024-12-20T22:59:41.515119+00:00",
         "headline": "BlackRock has proposed adding its tokenized U.S. Treasury fund, BUIDL, as a reserve asset for Frax's stablecoin treasury.",
         "lev_url": "https://leviathannews.xyz/8437/blackrock-has-proposed-adding-its-tokenized-us-treasury-fund-buidl-as-a-reserve-asset-for-fraxs-stablecoin-treasury"
       },
       "provenance": "data",
       "top_decile_share": 35,
-      "total_clicks": 11328
+      "total_clicks": 11440
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:22:19.620051+00:00",
@@ -477,10 +538,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T11:59:55.102864+00:00",
+      "as_of": "2026-07-29T22:59:16.148753+00:00",
       "items": [
         {
-          "clicks": 68,
+          "clicks": 70,
           "date": "2026-03-16T17:33:47.615882+00:00",
           "headline": "Stake DAO ships lending beta via Morpho, letting LPs borrow against OnlyBoost positions while yield keeps stacking",
           "hot_score": 267.222315,
@@ -498,7 +559,7 @@
           "url": "https://www.coindesk.com/policy/2026/02/05/brazil-moves-to-ban-algorithmic-stablecoins-like-ethena-s-usde"
         },
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-01-15T12:43:59.771503+00:00",
           "headline": "Frax jumps 60% as Binance announces they have completed the FXS to FRAX token swap and enabled FRAX markets for their Earn, Buy Crypto, Convert, Margin & Futures products.",
           "hot_score": 85.327715,
@@ -507,7 +568,7 @@
           "url": "https://bingx.com/en/news/post/frax-frax-jumps-in-hours-as-binance-completes-fxs-to-frax-token-swap-and-supply-tightens"
         },
         {
-          "clicks": 1162,
+          "clicks": 1184,
           "date": "2024-12-20T22:59:41.515119+00:00",
           "headline": "BlackRock has proposed adding its tokenized U.S. Treasury fund, BUIDL, as a reserve asset for Frax's stablecoin treasury.",
           "hot_score": 0.0,
@@ -516,7 +577,7 @@
           "url": "https://gov.frax.finance/t/fip-4xx-buidl-as-a-backing-asset-for-frax-usd/3533"
         },
         {
-          "clicks": 435,
+          "clicks": 441,
           "date": "2025-01-20T22:37:53.873839+00:00",
           "headline": "Live now with Frax + Superstate w Sam Kazemian and Jim Hiltner",
           "hot_score": 0.0,
@@ -525,7 +586,7 @@
           "url": "https://youtube.com/live/EiRvjNkvlPU?feature=share"
         },
         {
-          "clicks": 376,
+          "clicks": 382,
           "date": "2024-12-26T19:39:51.183303+00:00",
           "headline": "The vote to onboard Blackrock's $BUIDL as the first backing asset for the new Frax USD (frxUSD) stablecoin is live",
           "hot_score": 0.0,
@@ -555,7 +616,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:59:54.918102+00:00",
+      "as_of": "2026-07-29T22:59:16.137301+00:00",
       "editorial": [
         {
           "count": 59,
@@ -610,7 +671,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 18,
+          "count": 24,
           "source": "x.com"
         },
         {
@@ -629,76 +690,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:32.343993+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.411,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0801,
-        "lift_log": 5.969,
-        "score": 0.4113,
-        "shared": 11
-      },
-      "rationale": "Fraxtal is Frax's own L2.",
-      "relation_type": "product",
-      "slug": "fraxtal",
-      "source": "cotag",
-      "tag_name": "Fraxtal",
-      "title": "Fraxtal, Explained",
-      "weight": 41
-    },
-    {
-      "confidence": 0.383,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0833,
-        "lift_log": 5.308,
-        "score": 0.3829,
-        "shared": 10
-      },
-      "rationale": "frxUSD is Frax's stablecoin.",
-      "relation_type": "token",
-      "slug": "frxusd",
-      "source": "cotag",
-      "tag_name": "frxUSD",
-      "title": "frxUSD: Complete Guide",
-      "weight": 38
-    },
-    {
-      "confidence": 0.213,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0171,
-        "lift_log": 4.468,
-        "score": 0.2133,
-        "shared": 2
-      },
-      "rationale": "Frax runs its own oracle stack (e.g. for frxUSD).",
-      "relation_type": "infrastructure",
-      "slug": "oracles",
-      "source": "cotag",
-      "tag_name": "Oracles",
-      "title": "Oracles, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.203,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0204,
-        "lift_log": 4.219,
-        "score": 0.2035,
-        "shared": 2
-      },
-      "rationale": "USDH is a peer stablecoin.",
-      "relation_type": "peer",
-      "slug": "usdh",
-      "source": "cotag",
-      "tag_name": "USDH",
-      "title": "USDH: Complete Guide",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "frax",
   "tag_name": "FRAX",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:53:38.084378+00:00",
-      "newsroom_total": 74,
-      "overall_share": 47,
+      "as_of": "2026-07-29T22:57:46.592663+00:00",
+      "newsroom_total": 75,
+      "overall_share": 43,
       "provenance": "data",
       "series": [
         {
@@ -167,62 +167,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 13
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 17
         }
       ],
-      "total_universe": 157,
-      "universe_total": 83
+      "total_universe": 175,
+      "universe_total": 100
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:53:36.741387+00:00",
+      "as_of": "2026-07-29T22:57:46.379174+00:00",
       "edges": [
         {
+          "confidence": 0.311,
+          "description": "Co-covered in 81 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crypto-payment",
-          "phrase": "Crypto payment is a subset of the broader payments category.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-20",
+          "phrase": "Co-covered in 81 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "payments",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 31
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crypto-payment",
-          "phrase": "MoonPay is a direct competitor in crypto payment services.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "moonpay",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.182,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crypto-payment",
-          "phrase": "Bitcoin payments are a specific type of crypto payment, often compared.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin-payments",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.173,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crypto-payment",
-          "phrase": "Crypto.com offers payment services, competing in the same space.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "crypto-dotcom",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.17,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crypto-payment",
-          "phrase": "Crypto payments rely on underlying blockchain infrastructure.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -236,42 +277,62 @@
         },
         {
           "center": false,
+          "confidence": 0.311,
           "name": "Payments",
+          "observed_at": "2026-07-20",
           "slug": "payments",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 31
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "MoonPay",
+          "observed_at": null,
           "slug": "moonpay",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.182,
           "name": "Bitcoin Payments",
+          "observed_at": null,
           "slug": "bitcoin-payments",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.173,
           "name": "Crypto.com",
+          "observed_at": null,
           "slug": "crypto-dotcom",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.17,
           "name": "Infrastructure",
+          "observed_at": null,
           "slug": "infrastructure",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -316,17 +377,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 75,
-      "as_of": "2026-07-01T11:53:40.218017+00:00",
+      "article_count": 76,
+      "as_of": "2026-07-29T22:57:46.803162+00:00",
       "most_clicked": {
-        "clicks": 503,
+        "clicks": 508,
         "date": "2024-10-16T14:20:11.024678+00:00",
         "headline": "Do Kwon has allegedly been able to make crypto payments from prison after authorities took 72 days to seize his crypto wallet login details.",
         "lev_url": "https://leviathannews.xyz/7367/do-kwon-has-allegedly-been-able-to-make-crypto-payments-from-prison-after-authorities-took-72-days-to-seize-his-crypto-wallet-login-details"
       },
       "provenance": "data",
       "top_decile_share": 29,
-      "total_clicks": 5399
+      "total_clicks": 5500
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:55:31.175357+00:00",
@@ -411,10 +472,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:53:40.136875+00:00",
+      "as_of": "2026-07-29T22:57:46.797742+00:00",
       "items": [
         {
-          "clicks": 45,
+          "clicks": 50,
           "date": "2026-04-15T15:12:56.663319+00:00",
           "headline": "OP Mainnet logs largest TVL surge in history as Etherfi migrates $200M, bringing 70K cards and 300K users to Optimism to scale real-world crypto payments",
           "hot_score": 5302.179252,
@@ -423,7 +484,7 @@
           "url": "https://www.theblock.co/post/397465/op-mainnet-largest-tvl-event-history-crypto-card-provider-etherfi-live?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 86,
+          "clicks": 91,
           "date": "2026-04-09T04:49:44.435935+00:00",
           "headline": "Paysafe partners with MoonPay to unlock crypto deposits in booming US iGaming market.",
           "hot_score": 1249.169735,
@@ -432,7 +493,7 @@
           "url": "https://www.moonpay.com/newsroom/moonpay-paysafe?from=%2Fnewsroom%2Fpartnerships"
         },
         {
-          "clicks": 31,
+          "clicks": 34,
           "date": "2026-04-21T05:37:54.400620+00:00",
           "headline": "MoonPay integrates crypto payments into OpenClaw AI agents on Rumble Cloud, enabling users to buy, swap, and manage crypto directly via chat with zero setup",
           "hot_score": 921.2,
@@ -450,13 +511,22 @@
           "url": "https://newsroom.oobit.com/oobit-launches-in-colombia-as-latin-americas-44b-crypto-market-surges/"
         },
         {
-          "clicks": 29,
+          "clicks": 30,
           "date": "2026-05-14T16:31:36.533759+00:00",
           "headline": "Stablecoin-powered neobank Fasset raises $51M to expand Shariah-compliant banking and crypto payments services across emerging markets",
           "hot_score": 834.2,
           "lev_url": "https://leviathannews.xyz/242330/no-headline-20260514-1",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514162658_mn484Oo9Vdeu.jpg",
           "url": "https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-07-01T18:59:21.315424+00:00",
+          "headline": "Stripe is building the on-ramp to own crypto payments, not just the dollar",
+          "hot_score": 761.479708,
+          "lev_url": "https://leviathannews.xyz/266835/stripe-isnt-trying-to-own-the-dollar-it-wants-to-own-the-pipe",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701184428_idxEIGxcP3Y1.jpg",
+          "url": "https://x.com/gaspardlezin/status/2072371078895186368"
         },
         {
           "clicks": 37,
@@ -468,31 +538,22 @@
           "url": "https://x.com/i/web/status/2056012014292734320"
         },
         {
-          "clicks": 54,
+          "clicks": 55,
           "date": "2026-05-20T12:07:59.784782+00:00",
           "headline": "Singapore revoked BSQ’s crypto payment license after MAS uncovered “serious breaches” of regulatory requirements, escalating the city-state’s crackdown on digital asset risks",
           "hot_score": 736.912516,
           "lev_url": "https://leviathannews.xyz/245679/singapore-revoked-bsqs-crypto-payment-license-after-mas-uncovered-serious-breaches-of-regulatory-requirements-escalating-the-city-states-crackdown-on-digital-asset-risks",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260520110317_WcApNtN4QSeq.jpg",
           "url": "https://www.bloomberg.com/news/articles/2026-05-20/singapore-revokes-bsquared-crypto-permit-over-serious-breaches"
-        },
-        {
-          "clicks": 35,
-          "date": "2026-04-24T09:57:45.407960+00:00",
-          "headline": "KuCoin launches KuCard via Mastercard's global network to advance crypto payments in Australia",
-          "hot_score": 686.8,
-          "lev_url": "https://leviathannews.xyz/236096/kucoin-launches-kucard-on-mastercards-global-network-in-australia-advancing-real-world-crypto-payments",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260424093732_UDz5ZId9ZdrA.jpg",
-          "url": "https://decrypt.co/365427/kucoin-launches-kucard-on-mastercards-global-network-in-australia-advancing-real-world-crypto-payments"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:53:39.963466+00:00",
+      "as_of": "2026-07-29T22:57:46.784947+00:00",
       "editorial": [
         {
-          "count": 24,
+          "count": 25,
           "source": "x.com"
         },
         {
@@ -544,24 +605,24 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 26,
+          "count": 33,
           "source": "x.com"
         },
         {
-          "count": 8,
+          "count": 11,
           "source": "financefeeds.com"
+        },
+        {
+          "count": 7,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 7,
+          "source": "chainwire.org"
         },
         {
           "count": 6,
           "source": "markets.businessinsider.com"
-        },
-        {
-          "count": 6,
-          "source": "chainwire.org"
-        },
-        {
-          "count": 5,
-          "source": "cointelegraph.com"
         },
         {
           "count": 4,
@@ -569,11 +630,11 @@
         },
         {
           "count": 4,
-          "source": "coindesk.com"
+          "source": "decrypt.co"
         },
         {
-          "count": 3,
-          "source": "decrypt.co"
+          "count": 4,
+          "source": "coindesk.com"
         },
         {
           "count": 3,
@@ -585,14 +646,14 @@
         },
         {
           "count": 2,
-          "source": "timesofindia.indiatimes.com"
+          "source": "thestreet.com"
         },
         {
           "count": 2,
-          "source": "wsj.com"
+          "source": "timesofindia.indiatimes.com"
         }
       ],
-      "universe_distinct": 20
+      "universe_distinct": 22
     }
   },
   "official_links": [],
@@ -603,25 +664,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:25.389962+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.311,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0752,
-        "lift_log": 3.54,
-        "score": 0.311,
-        "shared": 78
-      },
-      "rationale": "Crypto payment is a subset of the broader payments category.",
-      "relation_type": "category",
-      "slug": "payments",
-      "source": "cotag",
-      "tag_name": "Payments",
-      "title": "Payments, Explained",
-      "weight": 31
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "crypto-payment",
   "tag_name": "Crypto Payment",

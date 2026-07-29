@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:46:49.220497+00:00",
-      "newsroom_total": 99,
-      "overall_share": 34,
+      "as_of": "2026-07-29T23:00:13.270484+00:00",
+      "newsroom_total": 109,
+      "overall_share": 26,
       "provenance": "data",
       "series": [
         {
@@ -190,63 +190,104 @@
           "ed_share": 12,
           "month": "2026-06",
           "newsroom": 10,
-          "universe": 74
+          "universe": 75
+        },
+        {
+          "ed_share": 8,
+          "month": "2026-07",
+          "newsroom": 10,
+          "universe": 121
         }
       ],
-      "total_universe": 289,
-      "universe_total": 190
+      "total_universe": 421,
+      "universe_total": 312
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:46:48.680506+00:00",
+      "as_of": "2026-07-29T23:00:12.775028+00:00",
       "edges": [
         {
+          "confidence": 0.298,
+          "description": "Co-covered in 77 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "japan",
-          "phrase": "SBI is a major Japanese financial group involved in crypto.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-24",
+          "phrase": "Co-covered in 77 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "sbi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.202,
+          "description": "Co-covered in 22 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "japan",
-          "phrase": "Metaplanet is a Japanese firm investing in Bitcoin.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 22 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "metaplanet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.201,
+          "description": "Co-covered in 5 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "japan",
-          "phrase": "Securities are regulated financial instruments in Japan.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-15",
+          "phrase": "Co-covered in 5 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "securities",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.181,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "japan",
-          "phrase": "Stocks are equity securities traded in Japanese markets.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stocks",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.162,
+          "description": "Co-covered in 19 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "japan",
-          "phrase": "Bonds are debt instruments issued in Japan.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 19 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bond",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -260,42 +301,62 @@
         },
         {
           "center": false,
+          "confidence": 0.298,
           "name": "SBI",
+          "observed_at": "2026-07-24",
           "slug": "sbi",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.202,
           "name": "Metaplanet",
+          "observed_at": "2026-07-27",
           "slug": "metaplanet",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 20
-        },
-        {
-          "center": false,
-          "name": "Securities",
-          "slug": "securities",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 20
-        },
-        {
-          "center": false,
-          "name": "Stocks",
-          "slug": "stocks",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 20
+        },
+        {
+          "center": false,
+          "confidence": 0.201,
+          "name": "Securities",
+          "observed_at": "2026-06-15",
+          "slug": "securities",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 20
+        },
+        {
+          "center": false,
+          "confidence": 0.181,
+          "name": "Stocks",
+          "observed_at": null,
+          "slug": "stocks",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.162,
           "name": "Bond",
+          "observed_at": null,
           "slug": "bond",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -364,17 +425,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 99,
-      "as_of": "2026-07-01T11:46:49.894072+00:00",
+      "article_count": 109,
+      "as_of": "2026-07-29T23:00:13.753250+00:00",
       "most_clicked": {
-        "clicks": 404,
+        "clicks": 417,
         "date": "2023-05-23T10:30:35.904112+00:00",
         "headline": "Pakistan, Nigeria, Turkey, Japan... why emerging markets are turning to crypto",
         "lev_url": "https://leviathannews.xyz/1070/pakistan-nigeria-turkey-japan-why-emerging-markets-are-turning-to-crypto"
       },
       "provenance": "data",
       "top_decile_share": 29,
-      "total_clicks": 5991
+      "total_clicks": 6472
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:24:04.758474+00:00",
@@ -459,10 +520,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:46:49.806166+00:00",
+      "as_of": "2026-07-29T23:00:13.738021+00:00",
       "items": [
         {
-          "clicks": 61,
+          "clicks": 67,
           "date": "2026-04-10T07:17:14.372975+00:00",
           "headline": "Japan approves bill reclassifying crypto as financial products, slashing tax from 55% to flat 20%",
           "hot_score": 7412.735753,
@@ -471,7 +532,7 @@
           "url": "https://www.nikkei.com/article/DGXZQOUB101480Q6A410C2000000/"
         },
         {
-          "clicks": 29,
+          "clicks": 30,
           "date": "2026-04-14T20:01:10.994901+00:00",
           "headline": "Rakuten Wallet integrates XRP for 44M users, enabling spending at 5M merchants across Japan",
           "hot_score": 3917.219272,
@@ -480,16 +541,7 @@
           "url": "https://www.coindesk.com/business/2026/04/14/rakuten-to-allow-xrp-to-be-used-as-payment-method-by-its-44-million-customers"
         },
         {
-          "clicks": 21,
-          "date": "2026-06-28T15:17:45.350235+00:00",
-          "headline": "SBI's $289M acquisition of Bitbank signals a new phase of consolidation in Japan's crypto industry as regulation pushes exchanges toward scale and institutional strength",
-          "hot_score": 1443.81742,
-          "lev_url": "https://leviathannews.xyz/264187/the-investment-bank-said-the-purchase-of-japanese-crypto-exchange-bitbank-is-a-bet-on-regulated-scale-as-sweeping-reforms-reshape-the-countrys-digital-asset-market",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628150157_ZQNDwaySQLj_.jpg",
-          "url": "https://www.coindesk.com/business/2026/06/28/sbi-s-usd289-million-bitbank-deal-is-symptomatic-of-japan-s-crypto-consolidation-architect-partners"
-        },
-        {
-          "clicks": 31,
+          "clicks": 34,
           "date": "2026-04-19T13:49:23.683294+00:00",
           "headline": "Nomura finds 65% of Japanese institutional investors see crypto as vital portfolio diversifier, 80% plan to invest",
           "hot_score": 1379.13131,
@@ -498,7 +550,7 @@
           "url": "https://www.coindesk.com/business/2026/04/19/nomura-study-says-65-of-institutional-investors-see-crypto-as-a-vital-portfolio-diversifier"
         },
         {
-          "clicks": 32,
+          "clicks": 35,
           "date": "2026-04-21T08:47:34.939303+00:00",
           "headline": "Japan’s JSCC teams up with Mizuho and Nomura to pilot blockchain-based government bond collateral, testing real-time settlement with compliance safeguards",
           "hot_score": 913.4,
@@ -516,7 +568,7 @@
           "url": "https://www.coindesk.com/policy/2026/06/01/japan-s-ruling-party-supports-crypto-etf-trading-yen-based-stablecoins"
         },
         {
-          "clicks": 33,
+          "clicks": 37,
           "date": "2026-04-21T14:15:47.574046+00:00",
           "headline": "Nearly 80% of Japan’s institutional investors plan to add crypto within three years, signaling a major shift toward digital assets adoption",
           "hot_score": 881.6,
@@ -525,7 +577,16 @@
           "url": "https://www.coindesk.com/markets/2026/04/21/almost-80-of-japanese-institutional-investors-are-eyeing-crypto-for-their-portfolios-by-2029"
         },
         {
-          "clicks": 50,
+          "clicks": 40,
+          "date": "2026-07-16T14:51:37.642367+00:00",
+          "headline": "Ondo and SBI plan tokenized Japanese equities with JPYSC settlement and collateral",
+          "hot_score": 766.646001,
+          "lev_url": "https://leviathannews.xyz/276628/ondo-and-sbi-plan-tokenized-japanese-equities-with-jpysc-settlement-and-collateral",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260716130239_Z4zrlaiDPw==.png",
+          "url": "https://ondo.finance/blog/ondo-partners-with-sbi-group"
+        },
+        {
+          "clicks": 51,
           "date": "2026-05-23T08:16:42.794752+00:00",
           "headline": "Arkham highlights Japan’s proposed AI-crypto framework as the LDP pushes for tokenized banking rails, stablecoins and autonomous financial agents",
           "hot_score": 736.555954,
@@ -537,14 +598,14 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:46:49.720750+00:00",
+      "as_of": "2026-07-29T23:00:13.713142+00:00",
       "editorial": [
         {
-          "count": 17,
+          "count": 19,
           "source": "x.com"
         },
         {
-          "count": 14,
+          "count": 16,
           "source": "coindesk.com"
         },
         {
@@ -552,12 +613,16 @@
           "source": "archive.ph"
         },
         {
-          "count": 7,
+          "count": 9,
           "source": "theblock.co"
         },
         {
           "count": 4,
           "source": "crypto.news"
+        },
+        {
+          "count": 4,
+          "source": "nikkei.com"
         },
         {
           "count": 3,
@@ -582,53 +647,49 @@
         {
           "count": 2,
           "source": "decrypt.co"
-        },
-        {
-          "count": 2,
-          "source": "startale.com"
         }
       ],
-      "editorial_distinct": 41,
+      "editorial_distinct": 43,
       "provenance": "data",
       "universe": [
         {
-          "count": 99,
+          "count": 177,
           "source": "x.com"
         },
         {
-          "count": 13,
+          "count": 23,
           "source": "cointelegraph.com"
         },
         {
-          "count": 13,
+          "count": 22,
           "source": "theblock.co"
         },
         {
-          "count": 11,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 10,
-          "source": "financefeeds.com"
-        },
-        {
-          "count": 8,
+          "count": 13,
           "source": "coindesk.com"
         },
         {
-          "count": 5,
+          "count": 13,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 13,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 6,
           "source": "techinasia.com"
         },
         {
-          "count": 4,
+          "count": 6,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 4,
+          "count": 6,
           "source": "asia.nikkei.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "bloomberg.com"
         },
         {
@@ -640,7 +701,7 @@
           "source": "dw.com"
         }
       ],
-      "universe_distinct": 26
+      "universe_distinct": 34
     }
   },
   "official_links": [],
@@ -651,59 +712,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:37.567998+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.202,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.039,
-        "lift_log": 3.959,
-        "score": 0.2016,
-        "shared": 15
-      },
-      "rationale": "Metaplanet is a Japanese firm investing in Bitcoin.",
-      "relation_type": "ecosystem",
-      "slug": "metaplanet",
-      "source": "cotag",
-      "tag_name": "Metaplanet",
-      "title": "Metaplanet, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.298,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1499,
-        "lift_log": 4.841,
-        "score": 0.2976,
-        "shared": 42
-      },
-      "rationale": "SBI is a major Japanese financial group involved in crypto.",
-      "relation_type": "ecosystem",
-      "slug": "sbi",
-      "source": "cotag",
-      "tag_name": "SBI",
-      "title": "SBI, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.201,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0129,
-        "lift_log": 2.042,
-        "score": 0.2006,
-        "shared": 5
-      },
-      "rationale": "Securities are regulated financial instruments in Japan.",
-      "relation_type": "category",
-      "slug": "securities",
-      "source": "cotag",
-      "tag_name": "Securities",
-      "title": "Securities, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "japan",
   "tag_name": "Japan",

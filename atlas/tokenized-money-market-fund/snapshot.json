@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:06:59.078343+00:00",
+      "as_of": "2026-07-29T23:05:33.763810+00:00",
       "newsroom_total": 46,
-      "overall_share": 74,
+      "overall_share": 68,
       "provenance": "data",
       "series": [
         {
@@ -149,62 +149,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 6
         }
       ],
-      "total_universe": 62,
-      "universe_total": 16
+      "total_universe": 68,
+      "universe_total": 22
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:06:58.544137+00:00",
+      "as_of": "2026-07-29T23:05:33.533401+00:00",
       "edges": [
         {
+          "confidence": 0.238,
+          "description": "Co-covered in 3 approved stories; most recently August 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tokenized-money-market-fund",
-          "phrase": "T-Bills are the underlying asset that tokenized money market funds invest in.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-08-21",
+          "phrase": "Co-covered in 3 approved stories; most recently August 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "t-bills",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.195,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tokenized-money-market-fund",
-          "phrase": "JPMorgan is a traditional finance competitor exploring tokenized funds.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "jpmorgan",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.162,
+          "description": "Co-covered in 10 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tokenized-money-market-fund",
-          "phrase": "BlackRock is a major asset manager with competing tokenized fund products.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 10 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "blackrock",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.161,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tokenized-money-market-fund",
-          "phrase": "Franklin Templeton offers a tokenized money market fund, a direct competitor.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "franklin-templeton",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.154,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tokenized-money-market-fund",
-          "phrase": "Tokenization is the broader concept enabling tokenized money market funds.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tokenization",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -218,42 +259,62 @@
         },
         {
           "center": false,
+          "confidence": 0.238,
           "name": "T-Bills",
+          "observed_at": "2025-08-21",
           "slug": "t-bills",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.195,
           "name": "JPMorgan",
+          "observed_at": null,
           "slug": "jpmorgan",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.162,
           "name": "BlackRock",
+          "observed_at": null,
           "slug": "blackrock",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.161,
           "name": "Franklin Templeton",
+          "observed_at": null,
           "slug": "franklin-templeton",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.154,
           "name": "Tokenization",
+          "observed_at": null,
           "slug": "tokenization",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -323,16 +384,16 @@
     },
     "reader_signal": {
       "article_count": 46,
-      "as_of": "2026-07-01T12:06:59.730584+00:00",
+      "as_of": "2026-07-29T23:05:34.103513+00:00",
       "most_clicked": {
-        "clicks": 815,
+        "clicks": 816,
         "date": "2024-05-01T21:55:50.075622+00:00",
         "headline": "Liquity releases details on v2 BOLD stability pool opportunities: \"Will behave similarly to money markets but with opposite spreads: depending on the utilization and integration of BOLD in the broader DeFi ecosystem, the Stability Pool will generally exceed the average borrow rates\"",
         "lev_url": "https://leviathannews.xyz/5152/liquity-releases-details-on-v2-bold-stability-pool-opportunities-will-behave-similarly-to-money-markets-but-with-opposite-spreads-depending-on-the-utilization-and-integration-of-bo"
       },
       "provenance": "data",
-      "top_decile_share": 33,
-      "total_clicks": 4689
+      "top_decile_share": 32,
+      "total_clicks": 4757
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:13:02.541343+00:00",
@@ -411,19 +472,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:06:59.641650+00:00",
+      "as_of": "2026-07-29T23:05:34.097837+00:00",
       "items": [
         {
           "clicks": 29,
-          "date": "2026-06-28T09:12:11.502031+00:00",
-          "headline": "Onchain money laid the foundation for tokenized assets, with Treasuries, money market funds and equities now following stablecoins onto blockchain rails",
-          "hot_score": 1388.737332,
-          "lev_url": "https://leviathannews.xyz/264099/tokenized-assets-also-called-real-world-assets-or-rwas-are-a-small-but-fast-growing-market-stablecoins-aside-roughly-32-billion-sits-on-public-chains-today-up-nearly-fourfold",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628062817_TFVhPIVzNdyd.jpg",
-          "url": "https://x.com/jevgenijs/status/2070812143595786511"
-        },
-        {
-          "clicks": 26,
           "date": "2026-05-14T06:58:44.008602+00:00",
           "headline": "J.P. Morgan launches second tokenized money market fund on Ethereum",
           "hot_score": 1026.005507,
@@ -432,7 +484,16 @@
           "url": "https://am.jpmorgan.com/us/en/asset-management/adv/about-us/media/press-releases/jp-morgan-asset-management-launches-second-tokenized-fund-on-ethereum/"
         },
         {
-          "clicks": 202,
+          "clicks": 34,
+          "date": "2026-06-28T09:12:11.502031+00:00",
+          "headline": "Onchain money laid the foundation for tokenized assets, with Treasuries, money market funds and equities now following stablecoins onto blockchain rails",
+          "hot_score": 547.207418,
+          "lev_url": "https://leviathannews.xyz/264099/tokenized-assets-also-called-real-world-assets-or-rwas-are-a-small-but-fast-growing-market-stablecoins-aside-roughly-32-billion-sits-on-public-chains-today-up-nearly-fourfold",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628062817_TFVhPIVzNdyd.jpg",
+          "url": "https://x.com/jevgenijs/status/2070812143595786511"
+        },
+        {
+          "clicks": 204,
           "date": "2026-02-20T17:48:16.930466+00:00",
           "headline": "BNP Paribas tests tokenised French money market fund shares on the public Ethereum blockchain via its AssetFoundry platform under a permissioned, regulated framework.",
           "hot_score": 272.172135,
@@ -441,7 +502,7 @@
           "url": "https://group.bnpparibas/en/press-release/bnp-paribas-explores-public-blockchain-infrastructure-for-money-market-fund-tokenisation"
         },
         {
-          "clicks": 86,
+          "clicks": 88,
           "date": "2025-12-15T13:07:36.230571+00:00",
           "headline": "JPMorgan is expanding its push into digital assets by launching a tokenized money-market fund called My OnChain Net Yield Fund, or “MONY,” on Ethereum, seeding the private vehicle with $100 million and opening it to qualified investors.",
           "hot_score": 143.082363,
@@ -468,7 +529,7 @@
           "url": "https://x.com/circle/status/2032169763645100046"
         },
         {
-          "clicks": 40,
+          "clicks": 42,
           "date": "2025-12-17T15:26:36.578210+00:00",
           "headline": "Uniform Labs launches Multiliquid to solve tokenization's $35B liquidity crisis. The new protocol offers instant swaps between tokenized money market funds and stablecoins as regulators scrutinize yield-bearing stablecoin models.",
           "hot_score": 51.276629,
@@ -489,7 +550,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:06:59.547556+00:00",
+      "as_of": "2026-07-29T23:05:34.084762+00:00",
       "editorial": [
         {
           "count": 16,
@@ -544,7 +605,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 10,
+          "count": 15,
           "source": "x.com"
         },
         {
@@ -566,9 +627,13 @@
         {
           "count": 1,
           "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
         }
       ],
-      "universe_distinct": 6
+      "universe_distinct": 7
     }
   },
   "official_links": [],
@@ -579,25 +644,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:37:01.136798+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.238,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0236,
-        "lift_log": 4.936,
-        "score": 0.2379,
-        "shared": 3
-      },
-      "rationale": "T-Bills are the underlying asset that tokenized money market funds invest in.",
-      "relation_type": "primitive",
-      "slug": "t-bills",
-      "source": "cotag",
-      "tag_name": "T-Bills",
-      "title": "T-Bills, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "tokenized-money-market-fund",
   "tag_name": "Tokenized Money Market Fund",

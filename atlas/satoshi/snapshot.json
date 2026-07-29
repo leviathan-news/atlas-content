@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:01:39.227576+00:00",
-      "newsroom_total": 30,
-      "overall_share": 33,
+      "as_of": "2026-07-29T23:04:06.067154+00:00",
+      "newsroom_total": 31,
+      "overall_share": 28,
       "provenance": "data",
       "series": [
         {
@@ -131,62 +131,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 7
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 17
         }
       ],
-      "total_universe": 92,
-      "universe_total": 62
+      "total_universe": 110,
+      "universe_total": 79
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:01:38.856221+00:00",
+      "as_of": "2026-07-29T23:04:05.849970+00:00",
       "edges": [
         {
+          "confidence": 0.21,
+          "description": "Co-covered in 67 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "satoshi",
-          "phrase": "Satoshi created Bitcoin, the first cryptocurrency.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 67 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.189,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "satoshi",
-          "phrase": "Quantum computing threatens Bitcoin's cryptographic security.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "quantum",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "satoshi",
-          "phrase": "Bitcoin forks like Bitcoin Cash originated from Satoshi's code.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "fork",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.144,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "satoshi",
-          "phrase": "Zcash is a privacy-focused cryptocurrency like Bitcoin.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "zcash",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.129,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "satoshi",
-          "phrase": "Cardano is a blockchain platform comparable to Bitcoin.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cardano",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         }
       ],
@@ -200,42 +241,62 @@
         },
         {
           "center": false,
+          "confidence": 0.21,
           "name": "Bitcoin",
+          "observed_at": "2026-07-29",
           "slug": "bitcoin",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.189,
           "name": "quantum",
+          "observed_at": null,
           "slug": "quantum",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "fork",
+          "observed_at": null,
           "slug": "fork",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.144,
           "name": "Zcash",
+          "observed_at": null,
           "slug": "zcash",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.129,
           "name": "Cardano",
+          "observed_at": null,
           "slug": "cardano",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         }
       ],
@@ -304,17 +365,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 30,
-      "as_of": "2026-07-01T12:01:39.760941+00:00",
+      "article_count": 31,
+      "as_of": "2026-07-29T23:04:06.383105+00:00",
       "most_clicked": {
-        "clicks": 426,
+        "clicks": 427,
         "date": "2024-10-03T12:58:39.275835+00:00",
         "headline": "An in-depth review of 2009 blocks suggests it's highly likely that Satoshi used hash power to reorganize Bitcoin’s blockchain.",
         "lev_url": "https://leviathannews.xyz/7231/an-in-depth-review-of-2009-blocks-suggests-its-highly-likely-that-satoshi-used-hash-power-to-reorganize-bitcoins-blockchain"
       },
       "provenance": "data",
-      "top_decile_share": 32,
-      "total_clicks": 2834
+      "top_decile_share": 31,
+      "total_clicks": 2923
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:59:30.390734+00:00",
@@ -399,10 +460,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:01:39.681057+00:00",
+      "as_of": "2026-07-29T23:04:06.378732+00:00",
       "items": [
         {
-          "clicks": 33,
+          "clicks": 37,
           "date": "2026-04-09T23:47:39.947925+00:00",
           "headline": "Adam Back denies Satoshi claims after Carreyrou's year-long NYT probe cites 67 shared hyphenation errors",
           "hot_score": 22409.120194,
@@ -411,7 +472,7 @@
           "url": "https://www.nytimes.com/2026/04/08/business/bitcoin-satoshi-nakamoto-identity-adam-back.html"
         },
         {
-          "clicks": 35,
+          "clicks": 39,
           "date": "2026-04-15T22:13:46.380771+00:00",
           "headline": "$70M Bitcoin film “Killing Satoshi” starring Casey Affleck explores the mystery of Satoshi Nakamoto, with heavy use of AI in production",
           "hot_score": 5546.706929,
@@ -420,7 +481,16 @@
           "url": "https://decrypt.co/364505/killing-satoshi-70m-bitcoin-film-starring-casey-affleck-will-make-heavy-use-of-ai"
         },
         {
-          "clicks": 52,
+          "clicks": 51,
+          "date": "2026-07-19T13:07:59.573599+00:00",
+          "headline": "Project Eleven unveils a zero-knowledge recovery system for Bitcoin's quantum-vulnerable wallets under BIP 361, but Satoshi's estimated 1.1M BTC remains unrecoverable -",
+          "hot_score": 756.321542,
+          "lev_url": "https://leviathannews.xyz/278264/bitcoins-quantum-problem-gets-a-recovery-tool-but-not-for-satoshis-11-million-coins-20260719",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260719130223_tFYiEvLaVNAZ.jpg",
+          "url": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-quantum-problem-gets-a-recovery-tool-but-not-for-satoshi-s-1-1-million-coin"
+        },
+        {
+          "clicks": 53,
           "date": "2026-04-22T04:24:40.979185+00:00",
           "headline": "“Finding Satoshi” documentary gets early release via Coinbase app for US users, as Brian Armstrong praises its deep exploration of Bitcoin’s mysterious creator",
           "hot_score": 428.8,
@@ -429,7 +499,7 @@
           "url": "https://x.com/i/status/2046686837448589578"
         },
         {
-          "clicks": 43,
+          "clicks": 44,
           "date": "2026-04-22T14:29:31.445294+00:00",
           "headline": "Hal Finney and Len Sassaman were Bitcoin's co-creators, new 'Finding Satoshi' documentary argues",
           "hot_score": 396.8,
@@ -438,7 +508,7 @@
           "url": "https://www.theblock.co/post/398423/finding-satoshi-documentary-makes-case-hal-finney-len-sassaman-bitcoins-co-creators"
         },
         {
-          "clicks": 39,
+          "clicks": 41,
           "date": "2026-04-24T22:59:58.261113+00:00",
           "headline": "Paul Sztorc announces eCash Bitcoin hard fork to ship drivechains and reassign 550K Satoshi-era coins",
           "hot_score": 335.2,
@@ -447,7 +517,7 @@
           "url": "https://x.com/Truthcoin/status/2047639261453680838"
         },
         {
-          "clicks": 83,
+          "clicks": 85,
           "date": "2026-04-06T12:57:44.684556+00:00",
           "headline": "Bitcoin devs propose freezing Satoshi's $75B stash as Google warns quantum cracking feasible by 2029",
           "hot_score": 298.938117,
@@ -463,21 +533,12 @@
           "lev_url": "https://leviathannews.xyz/219278/z-is-the-first-programmable-privacy-platform-for-ai-agents-anonymous-activity-autonomous-apps-and-now-were-officially-partnering-with-the-core-foundation-the-team-behind-satoshi-pl",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401130101_4vtoeL3bKTDY.jpg",
           "url": "https://x.com/_zprotocol/status/2038977760081957241"
-        },
-        {
-          "clicks": 143,
-          "date": "2026-04-05T12:27:48.791186+00:00",
-          "headline": "MoonPay’s AI sci-fi film “Satoshi Sunrise” hits 1.2M views in a week, showcasing new era of AI-powered filmmaking challenging traditional finance narratives",
-          "hot_score": 131.871372,
-          "lev_url": "https://leviathannews.xyz/221366/12-million-people-have-watched-our-ai-x-sci-fi-movie-this-week-about-a-man-seeking-revenge-against-tradfi-its-called-satoshi-sunrise-and-its-directed-by-ryanlightbourn-tools-used-k",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260405081531_x252BJMq1toq.jpg",
-          "url": "https://x.com/moonpay/status/2040595871700561994"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:01:39.598583+00:00",
+      "as_of": "2026-07-29T23:04:06.367206+00:00",
       "editorial": [
         {
           "count": 15,
@@ -486,6 +547,10 @@
         {
           "count": 2,
           "source": "protos.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
         },
         {
           "count": 2,
@@ -509,10 +574,6 @@
         },
         {
           "count": 1,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 1,
           "source": "prnewswire.com"
         },
         {
@@ -532,7 +593,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 21,
+          "count": 27,
           "source": "x.com"
         },
         {
@@ -540,12 +601,20 @@
           "source": "decrypt.co"
         },
         {
-          "count": 4,
+          "count": 8,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 5,
           "source": "cointelegraph.com"
         },
         {
           "count": 4,
-          "source": "financefeeds.com"
+          "source": "coindesk.com"
+        },
+        {
+          "count": 4,
+          "source": "thestreet.com"
         },
         {
           "count": 3,
@@ -569,18 +638,10 @@
         },
         {
           "count": 2,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 2,
-          "source": "thestreet.com"
-        },
-        {
-          "count": 1,
-          "source": "theguardian.com"
+          "source": "crowdfundinsider.com"
         }
       ],
-      "universe_distinct": 21
+      "universe_distinct": 22
     }
   },
   "official_links": [],
@@ -591,25 +652,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:53.281024+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.21,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0111,
-        "lift_log": 2.084,
-        "score": 0.2102,
-        "shared": 56
-      },
-      "rationale": "Satoshi created Bitcoin, the first cryptocurrency.",
-      "relation_type": "product",
-      "slug": "bitcoin",
-      "source": "cotag",
-      "tag_name": "Bitcoin",
-      "title": "Bitcoin, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "satoshi",
   "tag_name": "Satoshi",

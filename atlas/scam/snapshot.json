@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:44:43.811185+00:00",
-      "newsroom_total": 125,
-      "overall_share": 38,
+      "as_of": "2026-07-29T23:04:10.305546+00:00",
+      "newsroom_total": 130,
+      "overall_share": 34,
       "provenance": "data",
       "series": [
         {
@@ -223,66 +223,101 @@
           "universe": 32
         },
         {
-          "ed_share": 0,
+          "ed_share": 10,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 3
+          "newsroom": 5,
+          "universe": 47
         }
       ],
-      "total_universe": 329,
-      "universe_total": 204
+      "total_universe": 378,
+      "universe_total": 248
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:44:42.901204+00:00",
+      "as_of": "2026-07-29T23:04:10.068387+00:00",
       "edges": [
         {
+          "confidence": 0.257,
+          "description": "Co-covered in 20 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "scam",
-          "phrase": "Both are deceptive practices; fraud is a broader category that includes scams.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-11",
+          "phrase": "Co-covered in 20 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fraud",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.21,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "scam",
-          "phrase": "Ponzi schemes are a specific type of scam.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-12",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ponzi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.188,
+          "description": "Co-covered in 16 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "scam",
-          "phrase": "FBI investigates and prosecutes scams.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 16 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "fbi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.171,
+          "description": "Co-covered in 14 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "scam",
-          "phrase": "Phishing is a common method used in scams.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 14 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "phishing",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.165,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "scam",
-          "phrase": "Social engineering is a technique often employed in scams.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "social-engineering",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -296,42 +331,62 @@
         },
         {
           "center": false,
+          "confidence": 0.257,
           "name": "Fraud",
+          "observed_at": "2026-05-11",
           "slug": "fraud",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.21,
           "name": "Ponzi",
+          "observed_at": "2026-03-12",
           "slug": "ponzi",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.188,
           "name": "FBI",
+          "observed_at": null,
           "slug": "fbi",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.171,
           "name": "Phishing",
+          "observed_at": null,
           "slug": "phishing",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.165,
           "name": "Social Engineering",
+          "observed_at": null,
           "slug": "social-engineering",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -388,17 +443,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 125,
-      "as_of": "2026-07-01T11:44:44.429615+00:00",
+      "article_count": 130,
+      "as_of": "2026-07-29T23:04:10.534112+00:00",
       "most_clicked": {
-        "clicks": 400,
+        "clicks": 410,
         "date": "2023-11-24T09:22:53.005229+00:00",
         "headline": "Crypto scam: Inside the billion-dollar ‘pig-butchering’ industry. Fraudulent crypto investment schemes directed from Asia known as “pig butchering” have become a global billion-dollar industry.",
         "lev_url": "https://leviathannews.xyz/3391/crypto-scam-inside-the-billion-dollar-pig-butchering-industry-fraudulent-crypto-investment-schemes-directed-from-asia-known-as-pig-butchering-have-become-a-global-billion-dollar-in"
       },
       "provenance": "data",
-      "top_decile_share": 29,
-      "total_clicks": 11475
+      "top_decile_share": 30,
+      "total_clicks": 11809
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:44:49.606349+00:00",
@@ -477,10 +532,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T11:44:44.353262+00:00",
+      "as_of": "2026-07-29T23:04:10.525554+00:00",
       "items": [
         {
-          "clicks": 108,
+          "clicks": 113,
           "date": "2026-04-07T15:59:32.350988+00:00",
           "headline": "FBI reports Americans lost $11.4B to crypto fraud in 2025, up 22%, as AI-powered scams hit $893M",
           "hot_score": 490842.773005,
@@ -489,7 +544,7 @@
           "url": "https://www.fbi.gov/news/press-releases/cryptocurrency-and-ai-scams-bilk-americans-of-billions"
         },
         {
-          "clicks": 64,
+          "clicks": 67,
           "date": "2026-04-07T19:24:52.751081+00:00",
           "headline": "Lily Liu's viral 'don't waste time with crypto' born from dev's battle with $16M fake token scam on Solana",
           "hot_score": 4673.496724,
@@ -498,7 +553,7 @@
           "url": "https://www.coindesk.com/tech/2026/04/07/don-t-waste-time-with-crypto-here-is-what-solana-foundation-s-cryptic-message-really-means"
         },
         {
-          "clicks": 35,
+          "clicks": 37,
           "date": "2026-04-13T23:32:55.698027+00:00",
           "headline": "Squads warns of address poisoning attack as scammers deploy fake Solana multisigs with lookalike vanity addresses",
           "hot_score": 4142.427297,
@@ -507,7 +562,7 @@
           "url": "https://x.com/multisig/status/2043774255469605288"
         },
         {
-          "clicks": 43,
+          "clicks": 46,
           "date": "2026-04-15T08:22:11.152852+00:00",
           "headline": "Fake VC scam weaponizes Obsidian plugins to deploy PHANTOMPULSE RAT with on-chain C2",
           "hot_score": 4131.848278,
@@ -516,49 +571,49 @@
           "url": "https://www.elastic.co/security-labs/phantom-in-the-vault"
         },
         {
-          "clicks": 33,
+          "clicks": 16,
+          "date": "2026-07-29T13:17:11.479842+00:00",
+          "headline": "Consumer Federation of America estimates crypto scams cost Americans $80.7B in 2025, up 22% year over year",
+          "hot_score": 2923.990995,
+          "lev_url": "https://leviathannews.xyz/284097/consumer-federation-of-america-estimates-crypto-scams-cost-americans-807b-in-2025-up-22-year-over-year",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729130641_Z4zrlaiDPw==.png",
+          "url": "https://consumerfed.org/news/press-releases/americans-lost-an-estimated-148-billion-to-online-scams-crimes-in-2025-up-nearly-26-from-2024-1009-per-household-average/"
+        },
+        {
+          "clicks": 43,
+          "date": "2026-07-28T09:43:59.686772+00:00",
+          "headline": "European police say Binance is hampering efforts to trace scammers and solve criminal cases",
+          "hot_score": 2445.656681,
+          "lev_url": "https://leviathannews.xyz/283155/european-police-say-binance-is-hampering-efforts-to-trace-scammers-and-solve-criminal-cases",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728091211_Z4zrlaiDPw==.png",
+          "url": "https://www.nytimes.com/2026/07/28/us/binance-crypto-crime.html"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-07-28T11:42:19.618830+00:00",
+          "headline": "Myanmar passes anti-scam law authorizing death penalty for deadly coercion and up to life for crypto fraud",
+          "hot_score": 2401.330674,
+          "lev_url": "https://leviathannews.xyz/283238/myanmar-passes-anti-scam-law-authorizing-death-penalty-for-deadly-coercion-and-up-to-life-for-crypto-fraud",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728114000_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/374519/myanmar-approves-death-penalty-for-forced-scam-labor-life-for-crypto-fraud"
+        },
+        {
+          "clicks": 36,
           "date": "2026-04-16T17:30:04.662448+00:00",
           "headline": "Meta-1 Coin founder sentenced to 23 years for $20M scam that claimed the token was backed by $44B in gold and Picassos",
           "hot_score": 2116.926605,
           "lev_url": "https://leviathannews.xyz/230749/meta-1-coin-founder-sentenced-to-23-years-for-20m-scam-that-claimed-the-token-was-backed-by-44b-in-gold-and-picassos",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416172649_mukAQaQeL52F.jpg",
           "url": "https://www.justice.gov/usao-ndil/pr/texas-man-who-orchestrated-20-million-cryptocurrency-scam-sentenced-23-years-prison"
-        },
-        {
-          "clicks": 178,
-          "date": "2026-03-22T23:57:53.321190+00:00",
-          "headline": "0xngmi catches AI-generated DeFi project faking arbitrage profits with Math.random() in bid for DefiLlama listing",
-          "hot_score": 910.090209,
-          "lev_url": "https://leviathannews.xyz/213994/0xngmi-catches-ai-generated-defi-project-faking-arbitrage-profits-with-mathrandom-in-bid-for-defillama-listing",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260322235558_AEx7z8O0YKpL.jpg",
-          "url": "https://x.com/0xngmi/status/2035817587259441309"
-        },
-        {
-          "clicks": 48,
-          "date": "2026-06-23T10:47:20.123154+00:00",
-          "headline": "Yi He says Zhu Pan impersonated her to scam Justin Sun as CoinUp denies ties amid CPX volatility",
-          "hot_score": 610.463888,
-          "lev_url": "https://leviathannews.xyz/260871/yi-he-says-zhu-pan-impersonated-her-to-scam-justin-sun-as-coinup-denies-ties-amid-cpx-volatility",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260623104620_Z4zrlaiDPw==.png",
-          "url": "https://x.com/heyibinance/status/2069260339833975092"
-        },
-        {
-          "clicks": 31,
-          "date": "2026-05-15T13:22:14.260972+00:00",
-          "headline": "Myanmar anti-scam bill seeks death penalty for coercion, life terms for crypto fraud",
-          "hot_score": 555.2,
-          "lev_url": "https://leviathannews.xyz/242942/myanmar-anti-scam-bill-seeks-death-penalty-for-coercion-life-terms-for-crypto-fraud",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260515132125_UYq93EbaPLW4.jpg",
-          "url": "https://www.thestar.com.my/aseanplus/2026/05/14/myanmar-proposes-death-sentence-for-cyber-scam-offences"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:44:44.271677+00:00",
+      "as_of": "2026-07-29T23:04:10.509079+00:00",
       "editorial": [
         {
-          "count": 43,
+          "count": 45,
           "source": "x.com"
         },
         {
@@ -570,7 +625,7 @@
           "source": "theblock.co"
         },
         {
-          "count": 5,
+          "count": 6,
           "source": "decrypt.co"
         },
         {
@@ -606,39 +661,39 @@
           "source": "thedefiant.io"
         }
       ],
-      "editorial_distinct": 39,
+      "editorial_distinct": 40,
       "provenance": "data",
       "universe": [
         {
-          "count": 44,
+          "count": 54,
           "source": "x.com"
         },
         {
-          "count": 30,
+          "count": 36,
           "source": "cointelegraph.com"
         },
         {
-          "count": 25,
+          "count": 32,
           "source": "decrypt.co"
         },
         {
-          "count": 19,
+          "count": 20,
           "source": "financefeeds.com"
         },
         {
-          "count": 8,
+          "count": 12,
           "source": "coinbase.com"
         },
         {
-          "count": 8,
+          "count": 10,
           "source": "theblock.co"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "coindesk.com"
         },
         {
@@ -646,19 +701,19 @@
           "source": "dlnews.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "truthsocial.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "justice.gov"
         },
         {
-          "count": 3,
-          "source": "wired.com"
+          "count": 4,
+          "source": "straitstimes.com"
         }
       ],
-      "universe_distinct": 37
+      "universe_distinct": 39
     }
   },
   "official_links": [],
@@ -669,42 +724,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:53.693780+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.257,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0331,
-        "lift_log": 3.044,
-        "score": 0.2575,
-        "shared": 20
-      },
-      "rationale": "Both are deceptive practices; fraud is a broader category that includes scams.",
-      "relation_type": "peer",
-      "slug": "fraud",
-      "source": "cotag",
-      "tag_name": "Fraud",
-      "title": "Fraud, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.21,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0067,
-        "lift_log": 2.323,
-        "score": 0.2103,
-        "shared": 3
-      },
-      "rationale": "Ponzi schemes are a specific type of scam.",
-      "relation_type": "peer",
-      "slug": "ponzi",
-      "source": "cotag",
-      "tag_name": "Ponzi",
-      "title": "Ponzi, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "scam",
   "tag_name": "Scam",

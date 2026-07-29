@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:10:42.911919+00:00",
-      "newsroom_total": 5,
-      "overall_share": 24,
+      "as_of": "2026-07-29T23:06:23.669557+00:00",
+      "newsroom_total": 6,
+      "overall_share": 22,
       "provenance": "data",
       "series": [
         {
@@ -47,62 +47,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 2
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 5
         }
       ],
-      "total_universe": 21,
-      "universe_total": 16
+      "total_universe": 27,
+      "universe_total": 21
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:10:41.958568+00:00",
+      "as_of": "2026-07-29T23:06:22.573631+00:00",
       "edges": [
         {
+          "confidence": 0.433,
+          "description": "Co-covered in 7 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "vibecoding",
-          "phrase": "Vibe coding is a specific approach to coding.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-15",
+          "phrase": "Co-covered in 7 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "coding",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 43
         },
         {
+          "confidence": 0.312,
+          "description": "Co-covered in 14 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "vibecoding",
-          "phrase": "Unclear direct relation; likely a peer in tech.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-29",
+          "phrase": "Co-covered in 14 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "coti",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 31
         },
         {
+          "confidence": 0.151,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "vibecoding",
-          "phrase": "Vitalik Buterin influences crypto and tech narratives.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "vitalik-buterin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.144,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "vibecoding",
-          "phrase": "Vibe coding can produce apps as output.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "app",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "vibecoding",
+          "observed_at": null,
           "phrase": "agents",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -116,42 +157,62 @@
         },
         {
           "center": false,
+          "confidence": 0.433,
           "name": "Coding",
+          "observed_at": "2026-06-15",
           "slug": "coding",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 43
         },
         {
           "center": false,
+          "confidence": 0.312,
           "name": "COTI",
+          "observed_at": "2026-06-29",
           "slug": "coti",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 31
         },
         {
           "center": false,
+          "confidence": 0.151,
           "name": "Vitalik Buterin",
+          "observed_at": null,
           "slug": "vitalik-buterin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.144,
           "name": "App",
+          "observed_at": null,
           "slug": "app",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -214,17 +275,17 @@
       "source": "https://www.backslash.security/blog/the-vibe-coding-spectrum"
     },
     "reader_signal": {
-      "article_count": 16,
-      "as_of": "2026-07-01T12:10:43.677942+00:00",
+      "article_count": 17,
+      "as_of": "2026-07-29T23:06:24.277841+00:00",
       "most_clicked": {
-        "clicks": 81,
+        "clicks": 87,
         "date": "2025-12-30T21:34:04.455292+00:00",
         "headline": "Want to vibe code like Johnnyonline? A practical guide explains how “vibe coding” lets anyone build software by describing ideas to AI tools, iterating fast, and focusing on what to build rather than how to code, dramatically lowering the barrier to creating real apps.",
         "lev_url": "https://leviathannews.xyz/23008/want-to-vibe-code-like-johnnyonline-a-practical-guide-explains-how-vibe-coding-lets-anyone-build-software-by-describing-ideas-to-ai-tools-iterating-fast-and-focusing-on-what-to-bui"
       },
       "provenance": "data",
-      "top_decile_share": 33,
-      "total_clicks": 249
+      "top_decile_share": 29,
+      "total_clicks": 305
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:28:38.035622+00:00",
@@ -303,10 +364,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:10:43.600608+00:00",
+      "as_of": "2026-07-29T23:06:24.269621+00:00",
       "items": [
         {
-          "clicks": 81,
+          "clicks": 87,
           "date": "2025-12-30T21:34:04.455292+00:00",
           "headline": "Want to vibe code like Johnnyonline? A practical guide explains how “vibe coding” lets anyone build software by describing ideas to AI tools, iterating fast, and focusing on what to build rather than how to code, dramatically lowering the barrier to creating real apps.",
           "hot_score": 111.700782,
@@ -315,7 +376,7 @@
           "url": "https://x.com/i/status/2005610738149433683"
         },
         {
-          "clicks": 68,
+          "clicks": 72,
           "date": "2026-02-13T19:10:28.532086+00:00",
           "headline": "The vibe coding apocalypse. The uncomfortable truth the engineering world is trying to ignore: Software is no longer a craft; it is a content stream.",
           "hot_score": 83.778672,
@@ -324,7 +385,7 @@
           "url": "https://x.com/Eli5defi/status/2020863351031521723"
         },
         {
-          "clicks": 45,
+          "clicks": 46,
           "date": "2026-01-14T11:05:43.489333+00:00",
           "headline": "Ethos announced its first-ever Vibeathon, a vibe-coding contest happening next week with $40k+ in prizes and 10M XP. Open to anyone using Ethos’ onchain reputation, with Claude credits, Base sponsorship, and live judging on X.",
           "hot_score": 62.493658,
@@ -333,7 +394,7 @@
           "url": "https://x.com/i/status/2010816026875674774"
         },
         {
-          "clicks": 41,
+          "clicks": 43,
           "date": "2026-04-24T08:01:19.256224+00:00",
           "headline": "Cluster Protocol raises $5 million to accelerate CodeXero, a browser-native vibe coding AI IDE for EVM, bringing total funding to $7.75 million.",
           "hot_score": 47.4,
@@ -342,7 +403,7 @@
           "url": "https://www.theblock.co/post/398581/cluster-protocol-raises-5-million-to-accelerate-codexero-a-browser-native-vibe-coding-ai-ide-for-evm-bringing-total-funding-to-7-75-million"
         },
         {
-          "clicks": 14,
+          "clicks": 18,
           "date": "2026-01-22T09:50:27.440435+00:00",
           "headline": "NoahAI is hosting the first Solana Vibe Coding Hackathon, focused on shipping real products fast using AI. Builders join weekly SuperTeam sprints, deploy live apps, share progress, and compete for prizes, credits, and up to $100K in fundraising.",
           "hot_score": 17.625543,
@@ -353,27 +414,27 @@
         {
           "clicks": 0,
           "date": null,
-          "headline": "Vibe coding is now the talk of the town. Good took by the way ",
+          "headline": "I trust Coinbase more than most CEX, but seeing them embrace vibe coding to this extent is a good ti",
           "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/23674/re23665_vibe-coding-is-now-the-talk-of-the-town-",
+          "lev_url": "https://leviathannews.xyz/15710/re15678_i-trust-coinbase-more-than-most-cex-but-",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
           "url": ""
         },
         {
           "clicks": 0,
           "date": null,
-          "headline": "Yeah idk ser. You kind of need to be a dev to vibe-code good quality code. But as one dev - you can ",
+          "headline": "Not to be confused with Johnny's good vibes while he is coding haha, \n\n\"you describe what you want. ",
           "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/27728/re27654_yeah-idk-ser-you-kind-of-need-to-be-a-de",
+          "lev_url": "https://leviathannews.xyz/23090/re23008_not-to-be-confused-with-johnnys-good-vib",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
           "url": ""
         },
         {
           "clicks": 0,
           "date": null,
-          "headline": "Vibe coding apocalypse? Sounds like my kinda party 🎉\n\nSoftware a \"content stream\" now? So we're all ",
+          "headline": "tl/dr: Great month for Leviathan, with the launch of both the OPEN money podcast and Vibe Coding wit",
           "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/27806/re27654_vibe-coding-apocalypse-sounds-like-my-ki",
+          "lev_url": "https://leviathannews.xyz/18320/re18319_tldr-great-month-for-leviathan-with-the-",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
           "url": ""
         }
@@ -381,10 +442,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:10:43.514519+00:00",
+      "as_of": "2026-07-29T23:06:24.257334+00:00",
       "editorial": [
         {
-          "count": 4,
+          "count": 5,
           "source": "x.com"
         },
         {
@@ -396,7 +457,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 12,
+          "count": 17,
           "source": "x.com"
         },
         {
@@ -423,42 +484,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:37:04.585095+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.433,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1201,
-        "lift_log": 6.05,
-        "score": 0.4335,
-        "shared": 7
-      },
-      "rationale": "Vibe coding is a specific approach to coding.",
-      "relation_type": "category",
-      "slug": "coding",
-      "source": "cotag",
-      "tag_name": "Coding",
-      "title": "Coding, Explained",
-      "weight": 43
-    },
-    {
-      "confidence": 0.312,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.13,
-        "lift_log": 5.455,
-        "score": 0.3119,
-        "shared": 14
-      },
-      "rationale": "Unclear direct relation; likely a peer in tech.",
-      "relation_type": "peer",
-      "slug": "coti",
-      "source": "cotag",
-      "tag_name": "COTI",
-      "title": "COTI, Explained",
-      "weight": 31
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "vibecoding",
   "tag_name": "Vibe Coding",

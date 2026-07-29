@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:14:27.781856+00:00",
+      "as_of": "2026-07-29T22:58:11.318018+00:00",
       "newsroom_total": 9,
-      "overall_share": 17,
+      "overall_share": 14,
       "provenance": "data",
       "series": [
         {
@@ -77,62 +77,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 7
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 10
         }
       ],
-      "total_universe": 53,
-      "universe_total": 44
+      "total_universe": 63,
+      "universe_total": 54
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:14:27.353452+00:00",
+      "as_of": "2026-07-29T22:58:11.070588+00:00",
       "edges": [
         {
+          "confidence": 0.219,
+          "description": "Co-covered in 4 approved stories; most recently June 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "delisting",
-          "phrase": "Delisting of WBTC from exchanges could impact its liquidity and price.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-06-07",
+          "phrase": "Co-covered in 4 approved stories; most recently June 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "wbtc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.152,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "delisting",
-          "phrase": "Binance has delisted various tokens, affecting market dynamics.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "binance",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.13,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "delisting",
-          "phrase": "Coinbase has delisted tokens due to regulatory or compliance issues.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "coinbase",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "delisting",
+          "observed_at": null,
           "phrase": "equity",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "equity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "delisting",
+          "observed_at": null,
           "phrase": "liquidity",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -146,42 +187,62 @@
         },
         {
           "center": false,
+          "confidence": 0.219,
           "name": "WBTC",
+          "observed_at": "2025-06-07",
           "slug": "wbtc",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.152,
           "name": "Binance",
+          "observed_at": null,
           "slug": "binance",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.13,
           "name": "Coinbase",
+          "observed_at": null,
           "slug": "coinbase",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Equity",
+          "observed_at": null,
           "slug": "equity",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Liquidity",
+          "observed_at": null,
           "slug": "liquidity",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -239,16 +300,16 @@
     },
     "reader_signal": {
       "article_count": 9,
-      "as_of": "2026-07-01T12:14:28.414389+00:00",
+      "as_of": "2026-07-29T22:58:11.695236+00:00",
       "most_clicked": {
-        "clicks": 192,
+        "clicks": 193,
         "date": "2024-08-16T13:45:27.515797+00:00",
         "headline": "With Maker's recent delisting of WBTC, dlcBTC could emerge as a safer wrapped Bitcoin—hear insights from Aki, dlcBTC's CEO, on the Unchained podcast.",
         "lev_url": "https://leviathannews.xyz/6661/with-makers-recent-delisting-of-wbtc-dlcbtc-could-emerge-as-a-safer-wrapped-bitcoinhear-insights-from-aki-dlcbtcs-ceo-on-the-unchained-podcast"
       },
       "provenance": "data",
       "top_decile_share": 23,
-      "total_clicks": 834
+      "total_clicks": 851
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:49:45.264478+00:00",
@@ -328,10 +389,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:14:28.331225+00:00",
+      "as_of": "2026-07-29T22:58:11.688321+00:00",
       "items": [
         {
-          "clicks": 192,
+          "clicks": 193,
           "date": "2024-08-16T13:45:27.515797+00:00",
           "headline": "With Maker's recent delisting of WBTC, dlcBTC could emerge as a safer wrapped Bitcoin—hear insights from Aki, dlcBTC's CEO, on the Unchained podcast.",
           "hot_score": 0.0,
@@ -340,7 +401,7 @@
           "url": "https://youtu.be/8LDcVt-Ry2o?feature=shared"
         },
         {
-          "clicks": 181,
+          "clicks": 186,
           "date": "2024-10-09T16:37:48.838583+00:00",
           "headline": "Coinbase, Binance, and other EU Crypto Asset Service Providers are phasing out and delisting stablecoins not regulated under MiCA",
           "hot_score": 0.0,
@@ -349,7 +410,7 @@
           "url": "https://x.com/paddi_hansen/status/1843950359410073820?s=46&t=4wZnquYtKvTsYB7s5TZeRQ"
         },
         {
-          "clicks": 135,
+          "clicks": 138,
           "date": "2025-10-06T07:53:19.830444+00:00",
           "headline": "DefiLlama's 0xngmi rebuts critiques on the delisting of Aster",
           "hot_score": 0.0,
@@ -358,7 +419,7 @@
           "url": "https://x.com/0xngmi/status/1974896455241629877"
         },
         {
-          "clicks": 97,
+          "clicks": 99,
           "date": "2024-12-14T02:16:18.958518+00:00",
           "headline": "Bit Global sues Coinbase for $1 billion over WBTC delisting",
           "hot_score": 0.0,
@@ -376,7 +437,7 @@
           "url": "https://x.com/Nick_van_Eck/status/1938239465866092949"
         },
         {
-          "clicks": 62,
+          "clicks": 63,
           "date": "2025-03-11T08:08:58.654916+00:00",
           "headline": "Binance’s pivot to USDC is a calculated move, not panic, with USDC’s market share on the exchange jumping from 0.48% to 8.26% year-to-date, as upcoming EU regulations drive the delisting of USDT and fuel a $351B DeFi boom where compliance, liquidity, and stablecoin infrastructure are king.",
           "hot_score": 0.0,
@@ -385,7 +446,7 @@
           "url": "https://x.com/VU_virtuals/status/1899370107014410601"
         },
         {
-          "clicks": 49,
+          "clicks": 53,
           "date": "2024-12-17T20:33:43.786550+00:00",
           "headline": "Coinbase legal responds to BiT Global’s attempt to block wBTC delisting, declares lawsuit baseless and seeks denial of TRO.",
           "hot_score": 0.0,
@@ -394,7 +455,7 @@
           "url": "https://x.com/iampaulgrewal/status/1869114052179542381?s=46"
         },
         {
-          "clicks": 45,
+          "clicks": 46,
           "date": "2025-06-07T21:21:44.158435+00:00",
           "headline": "Coinbase and BiT Global have settled their dispute over the delisting of wBTC, with BiT Global dismissing its lawsuit filed in the Northern District of California.",
           "hot_score": 0.0,
@@ -406,7 +467,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:14:28.241111+00:00",
+      "as_of": "2026-07-29T22:58:11.667170+00:00",
       "editorial": [
         {
           "count": 6,
@@ -429,7 +490,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 37,
+          "count": 44,
           "source": "bybit.com"
         },
         {
@@ -437,19 +498,27 @@
           "source": "x.com"
         },
         {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
           "count": 1,
           "source": "coindesk.com"
         },
         {
           "count": 1,
-          "source": "theblock.co"
+          "source": "dlnews.com"
         },
         {
           "count": 1,
-          "source": "dlnews.com"
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "treeofalpha.com"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 7
     }
   },
   "official_links": [],
@@ -460,25 +529,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:27.036194+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.219,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0262,
-        "lift_log": 4.495,
-        "score": 0.2188,
-        "shared": 4
-      },
-      "rationale": "Delisting of WBTC from exchanges could impact its liquidity and price.",
-      "relation_type": "risk",
-      "slug": "wbtc",
-      "source": "cotag",
-      "tag_name": "WBTC",
-      "title": "WBTC: Complete Guide",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "delisting",
   "tag_name": "Delisting",

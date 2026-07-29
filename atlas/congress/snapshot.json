@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:54:58.260880+00:00",
-      "newsroom_total": 52,
-      "overall_share": 20,
+      "as_of": "2026-07-29T22:57:35.884760+00:00",
+      "newsroom_total": 55,
+      "overall_share": 17,
       "provenance": "data",
       "series": [
         {
@@ -161,62 +161,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 59
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-07",
+          "newsroom": 3,
+          "universe": 66
         }
       ],
-      "total_universe": 255,
-      "universe_total": 203
+      "total_universe": 324,
+      "universe_total": 269
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:54:56.161946+00:00",
+      "as_of": "2026-07-29T22:57:35.651288+00:00",
       "edges": [
         {
+          "confidence": 0.231,
+          "description": "Co-covered in 7 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "congress",
-          "phrase": "Bessent is a person influencing congressional crypto policy.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-29",
+          "phrase": "Co-covered in 7 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bessent",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.203,
+          "description": "Co-covered in 7 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "congress",
-          "phrase": "Congress creates legislation, including crypto laws.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-30",
+          "phrase": "Co-covered in 7 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "legislation",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.185,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "congress",
-          "phrase": "Atkins is a person influencing congressional crypto policy.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "atkins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.171,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "congress",
-          "phrase": "Market structure is a regulatory topic Congress addresses.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "market-structure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.169,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "congress",
-          "phrase": "CFTC is a regulator Congress oversees for crypto.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cftc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -230,42 +271,62 @@
         },
         {
           "center": false,
+          "confidence": 0.231,
           "name": "Bessent",
+          "observed_at": "2026-05-29",
           "slug": "bessent",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.203,
           "name": "Legislation",
+          "observed_at": "2026-05-30",
           "slug": "legislation",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.185,
           "name": "Atkins",
+          "observed_at": null,
           "slug": "atkins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.171,
           "name": "Market Structure",
+          "observed_at": null,
           "slug": "market-structure",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.169,
           "name": "CFTC",
+          "observed_at": null,
           "slug": "cftc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -328,17 +389,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 52,
-      "as_of": "2026-07-01T11:54:59.611914+00:00",
+      "article_count": 55,
+      "as_of": "2026-07-29T22:57:36.108167+00:00",
       "most_clicked": {
-        "clicks": 354,
+        "clicks": 357,
         "date": "2023-07-27T14:04:42.011702+00:00",
         "headline": "As Congress discusses the possibility of intelligent life in our galaxy, crypto devs target unintelligent life on Earth with the launch of 50+ extraterrestrial-themed memecoins",
         "lev_url": "https://leviathannews.xyz/2002/as-congress-discusses-the-possibility-of-intelligent-life-in-our-galaxy-crypto-devs-target-unintelligent-life-on-earth-with-the-launch-of-50-extraterrestrial-themed-memecoins"
       },
       "provenance": "data",
-      "top_decile_share": 27,
-      "total_clicks": 3561
+      "top_decile_share": 26,
+      "total_clicks": 3801
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:08:19.768854+00:00",
@@ -423,10 +484,37 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:54:59.503308+00:00",
+      "as_of": "2026-07-29T22:57:36.102632+00:00",
       "items": [
         {
-          "clicks": 26,
+          "clicks": 24,
+          "date": "2026-07-29T15:21:29.271240+00:00",
+          "headline": "The Solana Policy Institute urges the U.S. Senate to advance the Clarity Act before Congress shifts to election season, calling regulatory certainty critical for crypto innovation",
+          "hot_score": 3064.081275,
+          "lev_url": "https://leviathannews.xyz/284214/the-moment-to-act-is-now-solana-policy-institute-urges-senate-to-move-on-crypto-bill-as-time-dwindles-20260729",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729143848_shI5bd8tplPg.jpg",
+          "url": "https://www.theblock.co/post/410041/the-moment-to-act-is-now-solana-policy-institute-urges-senate-to-move-on-crypto-bill-as-time-dwindles?utm_source=rss&utm_medium=rss?utm_source=telegram1&utm_medium=social"
+        },
+        {
+          "clicks": 40,
+          "date": "2026-07-27T20:38:59.317506+00:00",
+          "headline": "New York AG Letitia James warned the Clarity Act would weaken states' power to prosecute crypto fraud, urging Congress to strengthen AML, ethics and investor protection rules",
+          "hot_score": 2130.375792,
+          "lev_url": "https://leviathannews.xyz/282860/ny-attorney-general-letitia-james-warns-clarity-act-would-dilute-states-ability-to-go-after-fraud-as-pressure-mounts-20260727",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727203542_jo2ZyLDkZNgg.jpg",
+          "url": "https://www.theblock.co/post/409831/ny-attorney-general-letitia-james-warns-clarity-act-dilute-states-ability-fraud-pressure-mounts?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 71,
+          "date": "2026-07-23T07:15:31.558753+00:00",
+          "headline": "a16z Chris Dixon urges Congress to pass the CLARITY ACT, arguing clear blockchain rules will unlock tokenization, stablecoins and institutional crypto adoption while strengthening U.S. leadership",
+          "hot_score": 816.408342,
+          "lev_url": "https://leviathannews.xyz/280513/every-generation-gets-a-chance-to-upgrade-its-infrastructure-in-the-1990s-it-was-the-internet-policymakers-worried-that-it-would-disrupt-existing-industries-and-create-new-risks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260723065935_51sU8WXdXJrP.jpg",
+          "url": "https://x.com/cdixon/status/2079986298434339301"
+        },
+        {
+          "clicks": 28,
           "date": "2026-04-17T20:54:38.206175+00:00",
           "headline": "Elizabeth Warren accuses SEC Chair Paul Atkins of misleading Congress over declining enforcement actions, raising concerns about investor protection",
           "hot_score": 644.340633,
@@ -435,7 +523,7 @@
           "url": "https://decrypt.co/364758/elizabeth-warren-accuses-sec-chair-paul-atkins-lying-congress"
         },
         {
-          "clicks": 28,
+          "clicks": 29,
           "date": "2026-04-17T19:03:52.499825+00:00",
           "headline": "Rep. Sheri Biggs discloses Bitcoin purchase up to $250K, among largest BTC buys ever filed by a sitting Congress member",
           "hot_score": 614.688376,
@@ -444,7 +532,7 @@
           "url": "https://x.com/QuiverQuant/status/2045130283956027862"
         },
         {
-          "clicks": 19,
+          "clicks": 29,
           "date": "2026-06-22T15:29:26.578781+00:00",
           "headline": "Crypto lobby groups urge Congress to pass the Tax Clarity for Mining and Staking Act unchanged, allowing staking rewards to be taxed only when sold",
           "hot_score": 566.377383,
@@ -453,7 +541,7 @@
           "url": "https://www.theblock.co/post/405603/crypto-industry-groups-urge-congress-pass-tax-staking-mining-bill-unchanged?utm_source=rss&utm_medium=rss?utm_source=telegram1&utm_medium=social"
         },
         {
-          "clicks": 35,
+          "clicks": 37,
           "date": "2026-05-29T06:21:56.970755+00:00",
           "headline": "Bessent rules out U.S. CBDC and urges Congress to bring digital assets onshore with CLARITY",
           "hot_score": 440.940092,
@@ -462,53 +550,26 @@
           "url": "https://x.com/rapidresponse47/status/2060064861787189433"
         },
         {
-          "clicks": 19,
+          "clicks": 26,
           "date": "2026-06-17T07:26:41.687732+00:00",
           "headline": "Gaming groups, tribes and unions press Congress to block sports prediction markets in crypto bill",
           "hot_score": 412.706212,
           "lev_url": "https://leviathannews.xyz/258165/gaming-groups-tribes-and-unions-press-congress-to-block-sports-prediction-markets-in-crypto-bill",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260617071526_Z4zrlaiDPw==.png",
           "url": "https://www.semafor.com/article/06/16/2026/gaming-industry-unions-push-for-prediction-market-rules-in-crypto-bill"
-        },
-        {
-          "clicks": 83,
-          "date": "2026-04-01T20:18:49.692236+00:00",
-          "headline": "Tether regulatory VP Jesse Spiro takes helm of $100M Fellowship PAC as Congress debates stablecoin rules",
-          "hot_score": 394.040509,
-          "lev_url": "https://leviathannews.xyz/219529/tether-regulatory-vp-jesse-spiro-takes-helm-of-100m-fellowship-pac-as-congress-debates-stablecoin-rules",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401201836_CDSqS9ODU5nu.jpg",
-          "url": "https://www.theblock.co/post/396081/crypto-super-pac-names-tether-exec-chairman-as-stablecoin-debate-in-d-c-intensifies"
-        },
-        {
-          "clicks": 45,
-          "date": "2026-03-26T07:57:44.474286+00:00",
-          "headline": "Bipartisan PREDICT Act bans Congress, president, and appointees from political prediction markets with 10% fines",
-          "hot_score": 279.709532,
-          "lev_url": "https://leviathannews.xyz/216243/bipartisan-predict-act-bans-congress-president-and-appointees-from-political-prediction-markets-with-10-fines",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260326062618_Z4zrlaiDPw==.png",
-          "url": "https://adriansmith.house.gov/media/press-releases/smith-budzinski-introduce-bipartisan-bill-ban-members-congress-federal"
-        },
-        {
-          "clicks": 57,
-          "date": "2026-03-25T19:53:29.159161+00:00",
-          "headline": "SEC Chair Atkins frames landmark token taxonomy as mere 'end of the beginning' — says only Congress can make crypto rules stick",
-          "hot_score": 250.515792,
-          "lev_url": "https://leviathannews.xyz/215895/sec-chair-atkins-frames-landmark-token-taxonomy-as-mere-end-of-the-beginning-says-only-congress-can-make-crypto-rules-stick",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260325195258_la93xvA-aEzI.jpg",
-          "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-digital-asset-summit-032426"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:54:59.393146+00:00",
+      "as_of": "2026-07-29T22:57:36.089349+00:00",
       "editorial": [
         {
-          "count": 19,
+          "count": 20,
           "source": "x.com"
         },
         {
-          "count": 6,
+          "count": 8,
           "source": "theblock.co"
         },
         {
@@ -556,11 +617,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 94,
+          "count": 118,
           "source": "truthsocial.com"
         },
         {
-          "count": 47,
+          "count": 75,
           "source": "x.com"
         },
         {
@@ -576,11 +637,11 @@
           "source": "whitehouse.gov"
         },
         {
-          "count": 5,
+          "count": 7,
           "source": "theblock.co"
         },
         {
-          "count": 4,
+          "count": 6,
           "source": "coindesk.com"
         },
         {
@@ -597,14 +658,14 @@
         },
         {
           "count": 2,
-          "source": "politico.com"
+          "source": "fortune.com"
         },
         {
-          "count": 1,
-          "source": "news.bloomberglaw.com"
+          "count": 2,
+          "source": "politico.com"
         }
       ],
-      "universe_distinct": 24
+      "universe_distinct": 29
     }
   },
   "official_links": [],
@@ -615,42 +676,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:24.063369+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.231,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.047,
-        "lift_log": 4.526,
-        "score": 0.2306,
-        "shared": 7
-      },
-      "rationale": "Bessent is a person influencing congressional crypto policy.",
-      "relation_type": "influence",
-      "slug": "bessent",
-      "source": "cotag",
-      "tag_name": "Bessent",
-      "title": "Bessent, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.203,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0305,
-        "lift_log": 4.095,
-        "score": 0.2029,
-        "shared": 7
-      },
-      "rationale": "Congress creates legislation, including crypto laws.",
-      "relation_type": "category",
-      "slug": "legislation",
-      "source": "cotag",
-      "tag_name": "Legislation",
-      "title": "Legislation, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "congress",
   "tag_name": "Congress",

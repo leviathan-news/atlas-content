@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:42:56.722233+00:00",
-      "newsroom_total": 119,
-      "overall_share": 21,
+      "as_of": "2026-07-29T23:05:39.511830+00:00",
+      "newsroom_total": 83,
+      "overall_share": 12,
       "provenance": "data",
       "series": [
         {
@@ -13,90 +13,125 @@
           "universe": 32
         },
         {
-          "ed_share": 18,
+          "ed_share": 9,
           "month": "2026-03",
-          "newsroom": 25,
+          "newsroom": 12,
           "universe": 116
         },
         {
-          "ed_share": 30,
+          "ed_share": 21,
           "month": "2026-04",
-          "newsroom": 38,
+          "newsroom": 24,
           "universe": 89
         },
         {
-          "ed_share": 28,
+          "ed_share": 20,
           "month": "2026-05",
-          "newsroom": 32,
+          "newsroom": 21,
           "universe": 83
         },
         {
-          "ed_share": 16,
+          "ed_share": 13,
           "month": "2026-06",
-          "newsroom": 24,
+          "newsroom": 18,
           "universe": 124
         },
         {
-          "ed_share": 0,
+          "ed_share": 4,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 2
+          "newsroom": 8,
+          "universe": 191
         }
       ],
-      "total_universe": 565,
-      "universe_total": 446
+      "total_universe": 718,
+      "universe_total": 635
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:42:52.867115+00:00",
+      "as_of": "2026-07-29T23:05:39.293148+00:00",
       "edges": [
         {
+          "confidence": 0.258,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "treasury",
-          "phrase": "US Treasury is a government entity; treasury here refers to corporate crypto treasury.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "us-treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.234,
+          "description": "Co-covered in 23 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "treasury",
-          "phrase": "Bitcoin Treasury is a specific type of corporate treasury holding BTC.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 23 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitcoin-treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.222,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "treasury",
-          "phrase": "Ethereum Treasury is a specific type of corporate treasury holding ETH.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ethereum-treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.193,
+          "description": "Co-covered in 17 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "treasury",
-          "phrase": "Digital Asset Treasury is a broader category that includes crypto treasuries.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 17 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "digital-asset-treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.172,
+          "description": "Co-covered in 105 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "treasury",
-          "phrase": "Bitcoin is a core digital asset often held in treasuries.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 105 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -110,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.258,
           "name": "US Treasury",
+          "observed_at": null,
           "slug": "us-treasury",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.234,
           "name": "Bitcoin Treasury",
+          "observed_at": "2026-07-28",
           "slug": "bitcoin-treasury",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.222,
           "name": "Ethereum Treasury",
+          "observed_at": null,
           "slug": "ethereum-treasury",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.193,
           "name": "Digital Asset Treasury",
+          "observed_at": null,
           "slug": "digital-asset-treasury",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.172,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -214,17 +269,17 @@
       "source": "https://www.schwab.com/learn/story/understanding-bitcoin-treasury-companies"
     },
     "reader_signal": {
-      "article_count": 119,
-      "as_of": "2026-07-01T11:43:05.115347+00:00",
+      "article_count": 83,
+      "as_of": "2026-07-29T23:05:39.924269+00:00",
       "most_clicked": {
-        "clicks": 213,
-        "date": "2026-04-01T18:13:41.785066+00:00",
-        "headline": "U.S. Treasury proposes first GENIUS Act rule, seeking public input on allowing smaller stablecoin issuers to operate under state-level oversight frameworks",
-        "lev_url": "https://leviathannews.xyz/219512/us-treasury-proposes-first-genius-act-rule-seeking-public-input-on-allowing-smaller-stablecoin-issuers-to-operate-under-state-level-oversight-frameworks"
+        "clicks": 113,
+        "date": "2026-03-17T17:59:22.221703+00:00",
+        "headline": "GSR acquires Autonomous and Architech for $57M to build integrated capital markets and treasury platform for tokenized organizations",
+        "lev_url": "https://leviathannews.xyz/211071/gsr-expands-into-token-lifecycle-management-with-57-million-acquisition-of-autonomous-and-architech-httpswwwtheblockcopost393932gsr-token-lifecycle-management-autonomous-architech-"
       },
       "provenance": "data",
-      "top_decile_share": 23,
-      "total_clicks": 5823
+      "top_decile_share": 18,
+      "total_clicks": 3702
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:28:48.705388+00:00",
@@ -309,28 +364,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:43:04.883911+00:00",
+      "as_of": "2026-07-29T23:05:39.916548+00:00",
       "items": [
         {
-          "clicks": 116,
-          "date": "2026-04-09T18:47:05.981065+00:00",
-          "headline": "U.S. Treasury extends cyber threat alerts to crypto firms, closing gap with traditional finance",
-          "hot_score": 192776.127034,
-          "lev_url": "https://leviathannews.xyz/225182/us-treasury-extends-cyber-threat-alerts-to-crypto-firms-closing-gap-with-traditional-finance",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260409172545_Z4zrlaiDPw==.png",
-          "url": "https://www.coindesk.com/policy/2026/04/09/u-s-treasury-to-loop-in-crypto-sector-on-hacker-warnings-shared-with-traditional-firms"
-        },
-        {
-          "clicks": 148,
-          "date": "2026-04-07T15:25:42.438984+00:00",
-          "headline": "Velora DAO winds down, transferring treasury and operations back to Laita Labs",
-          "hot_score": 73016.513204,
-          "lev_url": "https://leviathannews.xyz/222729/another-dao-winding-down-its-dao-operations-velora-previously-paraswap-whats-changing-dao-governance-stopped-everything-moves-to-laita-labs-the-original-operator-and-protocol-dev-t",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407150057_9FExSXgqz2t6.jpg",
-          "url": "https://x.com/DefiIgnas/status/2041492509105545464"
-        },
-        {
-          "clicks": 102,
+          "clicks": 104,
           "date": "2026-04-08T22:19:48.586283+00:00",
           "headline": "Monad Foundation rolls out device subsidy program for teams with $2.5M+ TVL, funding dedicated signing laptops to boost multisig and treasury security across its ecosystem",
           "hot_score": 12179.124699,
@@ -339,7 +376,7 @@
           "url": "https://x.com/i/status/2041932260077637645"
         },
         {
-          "clicks": 60,
+          "clicks": 62,
           "date": "2026-04-09T14:26:37.509845+00:00",
           "headline": "Tom Lee’s Bitmine uplists to NYSE, revealing 4.8M ETH holdings and expanding share buyback program to $4B in a major crypto-linked corporate treasury move",
           "hot_score": 8062.069296,
@@ -348,22 +385,13 @@
           "url": "https://www.theblock.co/post/396865/tom-lees-bitmine-uplists-nyse-eth-4-billion-buyback-authorization?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 46,
+          "clicks": 48,
           "date": "2026-04-10T09:33:19.281457+00:00",
           "headline": "Chainlink Reserve adds 131,656 LINK worth $1.1M+, pushing total holdings above 3M LINK and entering top-35 holders as it accumulates tokens from enterprise and onchain revenue",
           "hot_score": 5567.377072,
           "lev_url": "https://leviathannews.xyz/225695/chainlink-reserve-adds-131656-link-worth-11m-pushing-total-holdings-above-3m-link-and-entering-top-35-holders-as-it-accumulates-tokens-from-enterprise-and-onchain-revenue",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410072234_LjgyDquiw0Pl.jpg",
           "url": "https://x.com/i/status/2042276752567738912"
-        },
-        {
-          "clicks": 16,
-          "date": "2026-06-29T14:53:34.814976+00:00",
-          "headline": "Bitmine buys 27,084 ETH as treasury hits 5.70M ETH, 4.7% of Ethereum supply",
-          "hot_score": 2698.960312,
-          "lev_url": "https://leviathannews.xyz/264618/bitmine-buys-27084-eth-as-treasury-hits-570m-eth-47-of-ethereum-supply",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629133345_FAj1QYKUypSP.jpg",
-          "url": "https://www.sec.gov/Archives/edgar/data/1829311/000149315226030428/ex99-1.htm"
         },
         {
           "clicks": 40,
@@ -375,55 +403,66 @@
           "url": "https://www.coindesk.com/business/2026/04/16/one-person-holds-the-keys-to-usd200-million-of-a-project-s-crypto-his-co-founder-says-that-has-to-end"
         },
         {
-          "clicks": 40,
+          "clicks": 42,
           "date": "2026-04-16T13:26:51.561157+00:00",
           "headline": "European BTC treasury firms forge own playbook as capital market and regulatory gaps block Strategy model",
           "hot_score": 2407.643196,
           "lev_url": "https://leviathannews.xyz/230422/european-btc-treasury-firms-forge-own-playbook-as-capital-market-and-regulatory-gaps-block-strategy-model",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416120847_Z4zrlaiDPw==.png",
           "url": "https://cointelegraph.com/news/europe-bitcoin-treasury-model-not-copy-strategy-pbw"
+        },
+        {
+          "clicks": 20,
+          "date": "2026-04-16T21:41:04.574896+00:00",
+          "headline": "OMB preparing safeguarded Claude Mythos rollout to federal agencies as Treasury rushes for early access",
+          "hot_score": 2021.946223,
+          "lev_url": "https://leviathannews.xyz/230861/omb-preparing-safeguarded-claude-mythos-rollout-to-federal-agencies-as-treasury-rushes-for-early-access",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416213951_4xBAAf10G2g3.jpg",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-16/white-house-moves-to-give-us-agencies-anthropic-mythos-access"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-07-27T05:20:51.804886+00:00",
+          "headline": "Sen. Cynthia Lummis says the CLARITY Act would give the Treasury new sanctions powers and let crypto firms freeze suspicious transactions before illicit funds move",
+          "hot_score": 1837.83432,
+          "lev_url": "https://leviathannews.xyz/282305/north-koreas-lazarus-group-and-other-bad-actors-thrive-on-gaps-in-our-financial-rules-the-clarity-act-gives-treasury-new-sanctions-authority-and-a-safe-harbor-for-companies-to-fr",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727045604_5SOQS4oyBa2L.jpg",
+          "url": "https://x.com/senlummis/status/2081463313045815759"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-04-20T18:50:22.102910+00:00",
+          "headline": "Pharos breaks down how user USDC is routed, burned on Ethereum, and redeployed into real-world assets, combining RWA yield and treasury subsidies to deliver ~14% APY",
+          "hot_score": 998.2,
+          "lev_url": "https://leviathannews.xyz/233167/pharos-breaks-down-how-user-usdc-is-routed-burned-on-ethereum-and-redeployed-into-real-world-assets-combining-rwa-yield-and-treasury-subsidies-to-deliver-14-apy",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420055423_gQQ-HvKe9fpG.jpg",
+          "url": "https://x.com/i/status/2046094001456259179"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:43:04.496682+00:00",
+      "as_of": "2026-07-29T23:05:39.904174+00:00",
       "editorial": [
         {
-          "count": 34,
+          "count": 28,
           "source": "x.com"
         },
         {
-          "count": 21,
-          "source": "theblock.co"
+          "count": 10,
+          "source": "coindesk.com"
         },
         {
-          "count": 13,
-          "source": "coindesk.com"
+          "count": 10,
+          "source": "theblock.co"
         },
         {
           "count": 6,
           "source": "prnewswire.com"
         },
         {
-          "count": 5,
-          "source": "cointelegraph.com"
-        },
-        {
-          "count": 4,
-          "source": "crypto.news"
-        },
-        {
-          "count": 4,
-          "source": "sec.gov"
-        },
-        {
           "count": 3,
-          "source": "bitcoinmagazine.com"
-        },
-        {
-          "count": 2,
-          "source": "home.treasury.gov"
+          "source": "cointelegraph.com"
         },
         {
           "count": 2,
@@ -431,47 +470,71 @@
         },
         {
           "count": 2,
-          "source": "tether.io"
+          "source": "crypto.news"
         },
         {
           "count": 2,
-          "source": "globenewswire.com"
+          "source": "sec.gov"
+        },
+        {
+          "count": 1,
+          "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "privy.io"
+        },
+        {
+          "count": 1,
+          "source": "dlnews.com"
+        },
+        {
+          "count": 1,
+          "source": "bloomberg.com"
         }
       ],
-      "editorial_distinct": 33,
+      "editorial_distinct": 28,
       "provenance": "data",
       "universe": [
         {
-          "count": 216,
+          "count": 330,
           "source": "x.com"
         },
         {
-          "count": 47,
+          "count": 55,
           "source": "cointelegraph.com"
         },
         {
-          "count": 38,
+          "count": 48,
           "source": "decrypt.co"
         },
         {
-          "count": 30,
+          "count": 40,
           "source": "theblock.co"
         },
         {
-          "count": 23,
+          "count": 36,
           "source": "financefeeds.com"
         },
         {
-          "count": 14,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 14,
+          "count": 20,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 7,
+          "count": 16,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 13,
+          "source": "wsj.com"
+        },
+        {
+          "count": 10,
           "source": "thestreet.com"
+        },
+        {
+          "count": 7,
+          "source": "barrons.com"
         },
         {
           "count": 6,
@@ -479,18 +542,10 @@
         },
         {
           "count": 5,
-          "source": "barrons.com"
-        },
-        {
-          "count": 5,
-          "source": "wsj.com"
-        },
-        {
-          "count": 4,
           "source": "forbes.com"
         }
       ],
-      "universe_distinct": 41
+      "universe_distinct": 46
     }
   },
   "official_links": [],
@@ -501,59 +556,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:37:01.899364+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.234,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.087,
-        "lift_log": 4.053,
-        "score": 0.2338,
-        "shared": 45
-      },
-      "rationale": "Bitcoin Treasury is a specific type of corporate treasury holding BTC.",
-      "relation_type": "peer",
-      "slug": "bitcoin-treasury",
-      "source": "cotag",
-      "tag_name": "Bitcoin Treasury",
-      "title": "Bitcoin Treasury, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.222,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0556,
-        "lift_log": 4.178,
-        "score": 0.2222,
-        "shared": 27
-      },
-      "rationale": "Ethereum Treasury is a specific type of corporate treasury holding ETH.",
-      "relation_type": "peer",
-      "slug": "ethereum-treasury",
-      "source": "cotag",
-      "tag_name": "Ethereum Treasury",
-      "title": "Ethereum Treasury, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.258,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1009,
-        "lift_log": 4.419,
-        "score": 0.2577,
-        "shared": 50
-      },
-      "rationale": "US Treasury is a government entity; treasury here refers to corporate crypto treasury.",
-      "relation_type": "peer",
-      "slug": "us-treasury",
-      "source": "cotag",
-      "tag_name": "US Treasury",
-      "title": "US Treasury, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "treasury",
   "tag_name": "Treasury",

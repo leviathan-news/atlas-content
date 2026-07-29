@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:13:41.409404+00:00",
+      "as_of": "2026-07-29T23:04:57.875171+00:00",
       "newsroom_total": 2,
-      "overall_share": 5,
+      "overall_share": 4,
       "provenance": "data",
       "series": [
         {
@@ -35,62 +35,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 11
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 8
         }
       ],
-      "total_universe": 39,
-      "universe_total": 37
+      "total_universe": 47,
+      "universe_total": 45
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:13:41.132353+00:00",
+      "as_of": "2026-07-29T23:04:57.496595+00:00",
       "edges": [
         {
+          "confidence": 0.233,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "starlink",
-          "phrase": "SpaceX is the company that created and operates Starlink.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-31",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "spacex",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "starlink",
-          "phrase": "Security risks are a concern for Starlink's satellite network.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "security-risk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.134,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "starlink",
-          "phrase": "Launches are key milestones for deploying Starlink satellites.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "launch",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "starlink",
+          "observed_at": null,
           "phrase": "adoption",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "adoption",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "starlink",
+          "observed_at": null,
           "phrase": "infrastructure",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -104,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.233,
           "name": "SpaceX",
+          "observed_at": "2026-03-31",
           "slug": "spacex",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "Security Risk",
+          "observed_at": null,
           "slug": "security-risk",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.134,
           "name": "Launch",
+          "observed_at": null,
           "slug": "launch",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Adoption",
+          "observed_at": null,
           "slug": "adoption",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Infrastructure",
+          "observed_at": null,
           "slug": "infrastructure",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -203,16 +264,16 @@
     },
     "reader_signal": {
       "article_count": 2,
-      "as_of": "2026-07-01T12:13:41.855865+00:00",
+      "as_of": "2026-07-29T23:04:58.410556+00:00",
       "most_clicked": {
-        "clicks": 78,
+        "clicks": 85,
         "date": "2026-03-21T07:22:02.381294+00:00",
         "headline": "SpaceX holds 8,285 BTC as it launches Starlink satellites and eyes $1.75T 2026 IPO",
         "lev_url": "https://leviathannews.xyz/213422/bitcoin-company-launching-satellites-spacex-just-launched-29-starlink-satellites-and-holds-8285-btc-5738m-with-10000-satellites-in-orbit-and-a-potential-175t-ipo-one-of-the-worlds--20260321"
       },
       "provenance": "data",
       "top_decile_share": 64,
-      "total_clicks": 122
+      "total_clicks": 133
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:28:44.891084+00:00",
@@ -292,10 +353,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:13:41.782285+00:00",
+      "as_of": "2026-07-29T23:04:58.404885+00:00",
       "items": [
         {
-          "clicks": 44,
+          "clicks": 48,
           "date": "2026-03-04T09:02:21.696318+00:00",
           "headline": "Starlink has become one of the largest and fastest infrastructure builds in history, with over 11,400 satellites launched and nearly 10,000 active, delivering global high‑speed internet coverage",
           "hot_score": 310.342689,
@@ -304,7 +365,7 @@
           "url": "https://x.com/teslaownersSV/status/2029093399798923547"
         },
         {
-          "clicks": 78,
+          "clicks": 85,
           "date": "2026-03-21T07:22:02.381294+00:00",
           "headline": "SpaceX holds 8,285 BTC as it launches Starlink satellites and eyes $1.75T 2026 IPO",
           "hot_score": 70.108356,
@@ -316,7 +377,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:13:41.700006+00:00",
+      "as_of": "2026-07-29T23:04:58.390525+00:00",
       "editorial": [
         {
           "count": 2,
@@ -327,7 +388,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 37,
+          "count": 45,
           "source": "x.com"
         }
       ],
@@ -342,25 +403,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:57.977680+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.233,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0094,
-        "lift_log": 2.784,
-        "score": 0.2328,
-        "shared": 3
-      },
-      "rationale": "SpaceX is the company that created and operates Starlink.",
-      "relation_type": "founder",
-      "slug": "spacex",
-      "source": "cotag",
-      "tag_name": "SpaceX",
-      "title": "SpaceX, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "starlink",
   "tag_name": "Starlink",

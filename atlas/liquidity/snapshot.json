@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:45:20.462503+00:00",
-      "newsroom_total": 183,
-      "overall_share": 23,
+      "as_of": "2026-07-29T23:01:15.263845+00:00",
+      "newsroom_total": 186,
+      "overall_share": 19,
       "provenance": "data",
       "series": [
         {
@@ -238,69 +238,104 @@
           "ed_share": 0,
           "month": "2026-06",
           "newsroom": 0,
-          "universe": 123
+          "universe": 124
         },
         {
-          "ed_share": 0,
+          "ed_share": 2,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 2
+          "newsroom": 3,
+          "universe": 183
         }
       ],
-      "total_universe": 795,
-      "universe_total": 612
+      "total_universe": 980,
+      "universe_total": 794
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:45:18.776451+00:00",
+      "as_of": "2026-07-29T23:01:14.368321+00:00",
       "edges": [
         {
+          "confidence": 0.236,
+          "description": "Co-covered in 7 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "liquidity",
-          "phrase": "Pools are the core mechanism where liquidity is aggregated for trading.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-20",
+          "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "pools",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.203,
+          "description": "Co-covered in 18 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "liquidity",
-          "phrase": "Onchain liquidity is a specific type of liquidity existing on blockchain.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-29",
+          "phrase": "Co-covered in 18 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "onchain-liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.196,
+          "description": "Co-covered in 12 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "liquidity",
-          "phrase": "Stablecoin liquidity is a subset of liquidity involving stablecoins.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 12 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoin-liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.184,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "liquidity",
-          "phrase": "Liquidity pool is the fundamental structure enabling liquidity provision.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "liquidity-pool",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.169,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "liquidity",
-          "phrase": "Incentives are used to attract and reward liquidity providers.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "liquidity-incentives",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -314,42 +349,62 @@
         },
         {
           "center": false,
+          "confidence": 0.236,
           "name": "Pools",
+          "observed_at": "2026-07-20",
           "slug": "pools",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.203,
           "name": "Onchain Liquidity",
+          "observed_at": "2026-06-29",
           "slug": "onchain-liquidity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.196,
           "name": "Stablecoin Liquidity",
+          "observed_at": null,
           "slug": "stablecoin-liquidity",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.184,
           "name": "Liquidity Pool",
+          "observed_at": null,
           "slug": "liquidity-pool",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.169,
           "name": "Liquidity Incentives",
+          "observed_at": null,
           "slug": "liquidity-incentives",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -418,17 +473,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 183,
-      "as_of": "2026-07-01T11:45:21.413558+00:00",
+      "article_count": 186,
+      "as_of": "2026-07-29T23:01:15.674219+00:00",
       "most_clicked": {
-        "clicks": 659,
+        "clicks": 662,
         "date": "2024-12-16T10:25:41.908499+00:00",
         "headline": "Aave, the largest dApp on Polygon, is discussing leaving the chain entirely because of the PoS Bridge Liquidity Program proposal",
         "lev_url": "https://leviathannews.xyz/8317/aave-the-largest-dapp-on-polygon-is-discussing-leaving-the-chain-entirely-because-of-the-pos-bridge-liquidity-program-proposal"
       },
       "provenance": "data",
       "top_decile_share": 28,
-      "total_clicks": 15368
+      "total_clicks": 15728
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:55:36.289508+00:00",
@@ -513,10 +568,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:45:21.307875+00:00",
+      "as_of": "2026-07-29T23:01:15.662440+00:00",
       "items": [
         {
-          "clicks": 32,
+          "clicks": 34,
           "date": "2026-04-15T00:39:00.734332+00:00",
           "headline": "The Block releases market maker guide, outlining key frameworks for token projects to evaluate liquidity partners and avoid costly mistakes in volatile markets",
           "hot_score": 7931.675947,
@@ -525,7 +580,7 @@
           "url": "https://x.com/i/status/2044160908386029720"
         },
         {
-          "clicks": 78,
+          "clicks": 80,
           "date": "2026-04-10T12:04:17.779821+00:00",
           "headline": "IPOR Labs proposes utility-based pricing model for RWA liquidity in DeFi, helping investors decide between instant sale or delayed redemption using risk-adjusted certainty equivalents",
           "hot_score": 4643.147802,
@@ -534,7 +589,25 @@
           "url": "https://x.com/i/status/2042261702138343534"
         },
         {
-          "clicks": 29,
+          "clicks": 35,
+          "date": "2026-07-01T18:50:21.471821+00:00",
+          "headline": "Aave V4 launches the Global Dollar Hub on Ethereum, introducing its first new Liquidity Hub designed specifically for USDG-correlated assets and stablecoin liquidity",
+          "hot_score": 772.531718,
+          "lev_url": "https://leviathannews.xyz/266840/the-global-dollar-hub-is-now-live-on-aave-v4-its-the-first-new-liquidity-hub-since-v4s-launch-live-on-ethereum-and-built-for-global_dollar-usdg-correlated-assets-20260701",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701184800_lqM2xyREOFWt.jpg",
+          "url": "https://x.com/aave/status/2072334944060268849"
+        },
+        {
+          "clicks": 51,
+          "date": "2026-07-22T10:15:27.226789+00:00",
+          "headline": "ChainSecurity completes a new security audit for Aave V4, reviewing the Liquidity Hub, Spoke and Position Manager contracts ahead of the protocol's next evolution",
+          "hot_score": 726.343917,
+          "lev_url": "https://leviathannews.xyz/279805/a-new-aave-v4-security-audit-by-chain_security-is-now-available-covering-the-liquidity-hub-spoke-and-position-manager-contracts-review-it-below",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260722084657_OY8ZcLxRJDmv.jpg",
+          "url": "https://x.com/aave/status/2079573767861195079"
+        },
+        {
+          "clicks": 34,
           "date": "2026-04-23T09:32:31.655338+00:00",
           "headline": "Rujira launches Custom Concentrated Liquidity on THORChain, letting LPs program price ranges on RUJI Trade orderbook",
           "hot_score": 353.4,
@@ -543,7 +616,7 @@
           "url": "https://blog.thorchain.org/custom-concentrated-liquidity-where-liquidity-becomes-strategy"
         },
         {
-          "clicks": 72,
+          "clicks": 73,
           "date": "2026-04-01T18:29:27.174477+00:00",
           "headline": "Ripple launches onchain treasury system enabling CFOs to manage fiat and crypto flows from a single interface",
           "hot_score": 317.812739,
@@ -552,7 +625,7 @@
           "url": "https://x.com/i/status/2039342251944624497"
         },
         {
-          "clicks": 114,
+          "clicks": 117,
           "date": "2025-12-18T05:55:35.289548+00:00",
           "headline": "Brazilian stock exchange B3 to launch its own tokenization platform and stablecoin. The stablecoin will facilitate tokenized asset transactions and is expected to be linked to the Brazilian real. The tokenization platform is set to allow assets to be tokenized and traded on the exchange, with Luiz Masagão ,B3’s vice president of products and clients, saying both systems will share the same liquidity pool..",
           "hot_score": 195.628497,
@@ -561,40 +634,22 @@
           "url": "https://archive.ph/YLJoO"
         },
         {
-          "clicks": 89,
+          "clicks": 92,
           "date": "2025-12-27T06:43:03.030007+00:00",
           "headline": "AI crypto tokens crashed ~75% in 2025, erasing $53B in value. Losses accelerated in Q4 as hype faded, liquidity thinned, and investors rotated out, with December alone wiping nearly $10B.",
           "hot_score": 120.648306,
           "lev_url": "https://leviathannews.xyz/22979/ai-crypto-tokens-crashed-75-in-2025-erasing-53b-in-value-losses-accelerated-in-q4-as-hype-faded-liquidity-thinned-and-investors-rotated-out-with-december-alone-wiping-nearly-10b",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251227024052_a_WileZoV24=.jpg",
           "url": "https://cryptonews.com/news/ai-tokens-shed-75-in-a-year-wiping-out-53b-in-market-value-report/?feed_id=25097&_unique_id=694d021a838eb"
-        },
-        {
-          "clicks": 85,
-          "date": "2025-12-28T16:45:09.000262+00:00",
-          "headline": "Blocmates published a Macro Catalyst Roadmap for 2026, arguing Bitcoin is now a macro-driven asset where liquidity, not cycles, drives returns. Long-term liquidity favors BTC, but short-term tightening calls for patience, timing, and selective risk-taking.",
-          "hot_score": 120.248306,
-          "lev_url": "https://leviathannews.xyz/22998/blocmates-published-a-macro-catalyst-roadmap-for-2026-arguing-bitcoin-is-now-a-macro-driven-asset-where-liquidity-not-cycles-drives-returns-long-term-liquidity-favors-btc-but-short",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251228164350_R-uvgeM8mg4=.jpg",
-          "url": "https://x.com/i/status/2004925868230222193"
-        },
-        {
-          "clicks": 74,
-          "date": "2025-12-11T02:14:57.536648+00:00",
-          "headline": "State Street and Galaxy to launch tokenized liquidity fund, SWEEP on Solana in 2026. The fund will run on Solana at launch and use PYUSD. Ondo Finance committed about $200 million to seed the tokenized liquidity fund, which will later expand to other chains.",
-          "hot_score": 111.500782,
-          "lev_url": "https://leviathannews.xyz/22155/state-street-and-galaxy-to-launch-tokenized-liquidity-fund-sweep-on-solana-in-2026-the-fund-will-run-on-solana-at-launch-and-use-pyusd-ondo-finance-committed-about-200-million-to-s",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251211005139_mPGjhrTcnQY=.jpg",
-          "url": "https://archive.ph/NMI6D"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:45:21.166721+00:00",
+      "as_of": "2026-07-29T23:01:15.633389+00:00",
       "editorial": [
         {
-          "count": 89,
+          "count": 92,
           "source": "x.com"
         },
         {
@@ -646,28 +701,36 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 495,
+          "count": 639,
           "source": "x.com"
         },
         {
-          "count": 17,
+          "count": 21,
           "source": "financefeeds.com"
         },
         {
-          "count": 15,
+          "count": 17,
           "source": "cointelegraph.com"
         },
         {
-          "count": 9,
+          "count": 13,
           "source": "theblock.co"
         },
         {
-          "count": 8,
+          "count": 12,
           "source": "decrypt.co"
         },
         {
-          "count": 6,
+          "count": 9,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 8,
           "source": "coindesk.com"
+        },
+        {
+          "count": 6,
+          "source": "thestreet.com"
         },
         {
           "count": 5,
@@ -678,23 +741,15 @@
           "source": "blog.kyberswap.com"
         },
         {
-          "count": 4,
-          "source": "chainwire.org"
+          "count": 5,
+          "source": "1inch-network.ghost.io"
         },
         {
           "count": 3,
-          "source": "medium.com"
-        },
-        {
-          "count": 3,
-          "source": "wsj.com"
-        },
-        {
-          "count": 2,
-          "source": "thestreet.com"
+          "source": "financewire.com"
         }
       ],
-      "universe_distinct": 47
+      "universe_distinct": 51
     }
   },
   "official_links": [],
@@ -705,42 +760,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:40.695191+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.203,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0444,
-        "lift_log": 3.929,
-        "score": 0.2032,
-        "shared": 17
-      },
-      "rationale": "Onchain liquidity is a specific type of liquidity existing on blockchain.",
-      "relation_type": "category",
-      "slug": "onchain-liquidity",
-      "source": "cotag",
-      "tag_name": "Onchain Liquidity",
-      "title": "Onchain Liquidity, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.236,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0136,
-        "lift_log": 2.799,
-        "score": 0.2356,
-        "shared": 4
-      },
-      "rationale": "Pools are the core mechanism where liquidity is aggregated for trading.",
-      "relation_type": "primitive",
-      "slug": "pools",
-      "source": "cotag",
-      "tag_name": "Pools",
-      "title": "Pools, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "liquidity",
   "tag_name": "Liquidity",

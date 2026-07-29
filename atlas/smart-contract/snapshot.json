@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:56:28.156792+00:00",
-      "newsroom_total": 53,
-      "overall_share": 29,
+      "as_of": "2026-07-29T23:04:27.785195+00:00",
+      "newsroom_total": 54,
+      "overall_share": 24,
       "provenance": "data",
       "series": [
         {
@@ -137,62 +137,103 @@
           "month": "2026-06",
           "newsroom": 5,
           "universe": 26
+        },
+        {
+          "ed_share": 3,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 38
         }
       ],
-      "total_universe": 184,
-      "universe_total": 131
+      "total_universe": 223,
+      "universe_total": 169
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:56:26.691049+00:00",
+      "as_of": "2026-07-29T23:04:27.590180+00:00",
       "edges": [
         {
+          "confidence": 0.271,
+          "description": "Co-covered in 4 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "smart-contract",
-          "phrase": "Vyper is a smart contract programming language.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-17",
+          "phrase": "Co-covered in 4 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "vyper",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.219,
+          "description": "Co-covered in 12 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "smart-contract",
-          "phrase": "Vulnerabilities are risks in smart contracts.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-26",
+          "phrase": "Co-covered in 12 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "vulnerability",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.217,
+          "description": "Co-covered in 3 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "smart-contract",
-          "phrase": "Developers write and maintain smart contracts.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-13",
+          "phrase": "Co-covered in 3 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "developers",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "smart-contract",
-          "phrase": "Balancer uses smart contracts for automated market making.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "balancer",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.171,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "smart-contract",
-          "phrase": "Litecoin is a cryptocurrency, not directly related to smart contracts.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "litecoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -206,42 +247,62 @@
         },
         {
           "center": false,
+          "confidence": 0.271,
           "name": "Vyper",
+          "observed_at": "2026-07-17",
           "slug": "vyper",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.219,
           "name": "vulnerability",
+          "observed_at": "2026-06-26",
           "slug": "vulnerability",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 22
-        },
-        {
-          "center": false,
-          "name": "Developers",
-          "slug": "developers",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 22
-        },
-        {
-          "center": false,
-          "name": "Balancer",
-          "slug": "balancer",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 22
+        },
+        {
+          "center": false,
+          "confidence": 0.217,
+          "name": "Developers",
+          "observed_at": "2026-04-13",
+          "slug": "developers",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 22
+        },
+        {
+          "center": false,
+          "confidence": 0.174,
+          "name": "Balancer",
+          "observed_at": null,
+          "slug": "balancer",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.171,
           "name": "Litecoin",
+          "observed_at": null,
           "slug": "litecoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -310,17 +371,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 53,
-      "as_of": "2026-07-01T11:56:29.385880+00:00",
+      "article_count": 54,
+      "as_of": "2026-07-29T23:04:28.047902+00:00",
       "most_clicked": {
-        "clicks": 724,
+        "clicks": 728,
         "date": "2024-03-29T10:41:28.697132+00:00",
         "headline": "What do you think of the term \"Smart Contract\"?\n-- Prisma Exploiter",
         "lev_url": "https://leviathannews.xyz/4498/what-do-you-think-of-the-term-smart-contract-prisma-exploiter"
       },
       "provenance": "data",
-      "top_decile_share": 37,
-      "total_clicks": 5037
+      "top_decile_share": 36,
+      "total_clicks": 5171
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:22:06.547632+00:00",
@@ -405,10 +466,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:56:29.297292+00:00",
+      "as_of": "2026-07-29T23:04:28.042387+00:00",
       "items": [
         {
-          "clicks": 77,
+          "clicks": 79,
           "date": "2026-04-09T05:41:23.620275+00:00",
           "headline": "TRON integrates with Hyperlane to unlock cross-chain messaging across 150+ blockchains, enabling developers to move assets, data, and smart contract logic beyond traditional bridges",
           "hot_score": 14658.50289,
@@ -417,7 +478,7 @@
           "url": "https://x.com/i/status/2041932750307934380"
         },
         {
-          "clicks": 84,
+          "clicks": 85,
           "date": "2026-04-10T09:33:27.503435+00:00",
           "headline": "Etherscan rolls out contract tab revamp with IDE-style code browser and improved read/write tabs, making smart contract navigation faster and more intuitive for developers",
           "hot_score": 8830.235058,
@@ -426,7 +487,7 @@
           "url": "https://x.com/i/status/2042215592640565650"
         },
         {
-          "clicks": 69,
+          "clicks": 73,
           "date": "2026-04-10T21:31:05.570423+00:00",
           "headline": "Kamino rolls out Whitelisted Reserves, enforcing smart contract-level controls to restrict lending vault allocations to verified markets and protect user funds from exploits",
           "hot_score": 3455.4219,
@@ -435,7 +496,7 @@
           "url": "https://x.com/i/status/2042260987475063029"
         },
         {
-          "clicks": 69,
+          "clicks": 70,
           "date": "2026-05-05T23:46:04.489254+00:00",
           "headline": "User loses $1,000,000 after approval bug on Ekubo Protocol, sparking urgent calls to revoke token permissions and reassess smart contract risks",
           "hot_score": 890.165626,
@@ -444,7 +505,7 @@
           "url": "https://x.com/i/web/status/2051797069782737266"
         },
         {
-          "clicks": 90,
+          "clicks": 98,
           "date": "2026-03-05T09:14:42.402734+00:00",
           "headline": "Valantis Labs introduces Prime, a smart contract account layer connecting HyperCore and HyperEVM to unify trading, yield, and DeFi workflows",
           "hot_score": 632.555243,
@@ -453,7 +514,7 @@
           "url": "https://x.com/i/status/2029222409467732124"
         },
         {
-          "clicks": 68,
+          "clicks": 69,
           "date": "2026-05-20T13:48:47.719202+00:00",
           "headline": "Canton Network is an institutional blockchain enabling privacy-preserving, interoperable smart contract apps for synchronized multi-party settlement of tokenized assets  per Messari's latest research.",
           "hot_score": 510.281713,
@@ -471,19 +532,19 @@
           "url": "https://www.coindesk.com/tech/2026/05/16/the-usd293-million-kelpdao-hack-shows-why-defi-is-finally-being-forced-to-grow-up"
         },
         {
-          "clicks": 42,
-          "date": "2026-06-19T05:52:59.345066+00:00",
-          "headline": "Lite Strategy backs LitVM with $1 million bet on Litecoin smart contract expansion",
-          "hot_score": 452.267552,
-          "lev_url": "https://leviathannews.xyz/258892/lite-strategy-leads-1m-investment-in-litvm-for-litecoin-smart-contracts",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260618145017_UOXrRmfkVMNK.jpg",
-          "url": "https://x.com/litestrategy/status/2067590567249252389"
+          "clicks": 57,
+          "date": "2026-07-17T10:36:30.377921+00:00",
+          "headline": "Leviathan Atlas is now charting Vyper, the security-first smart contract language behind Curve",
+          "hot_score": 455.575606,
+          "lev_url": "https://leviathannews.xyz/277421/leviathan-atlas-is-now-charting-vyper-the-security-first-smart-contract-language-behind-curve",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260717103505_TZ-LkSkqos1r.png",
+          "url": "https://leviathan.news/atlas/vyper"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:56:29.207756+00:00",
+      "as_of": "2026-07-29T23:04:28.031541+00:00",
       "editorial": [
         {
           "count": 31,
@@ -534,16 +595,24 @@
           "source": "openai.com"
         }
       ],
-      "editorial_distinct": 13,
+      "editorial_distinct": 14,
       "provenance": "data",
       "universe": [
         {
-          "count": 112,
+          "count": 145,
           "source": "x.com"
         },
         {
           "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 3,
           "source": "orochi.network"
+        },
+        {
+          "count": 3,
+          "source": "zetachain.com"
         },
         {
           "count": 2,
@@ -555,19 +624,11 @@
         },
         {
           "count": 2,
-          "source": "zetachain.com"
-        },
-        {
-          "count": 2,
           "source": "cointelegraph.com"
         },
         {
           "count": 1,
           "source": "markets.businessinsider.com"
-        },
-        {
-          "count": 1,
-          "source": "financefeeds.com"
         },
         {
           "count": 1,
@@ -586,7 +647,7 @@
           "source": "coindesk.com"
         }
       ],
-      "universe_distinct": 14
+      "universe_distinct": 16
     }
   },
   "official_links": [],
@@ -597,59 +658,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:55.371487+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.217,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0091,
-        "lift_log": 2.448,
-        "score": 0.217,
-        "shared": 3
-      },
-      "rationale": "Developers write and maintain smart contracts.",
-      "relation_type": "infrastructure",
-      "slug": "developers",
-      "source": "cotag",
-      "tag_name": "Developers",
-      "title": "Developers, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.219,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0606,
-        "lift_log": 4.131,
-        "score": 0.2194,
-        "shared": 12
-      },
-      "rationale": "Vulnerabilities are risks in smart contracts.",
-      "relation_type": "risk",
-      "slug": "vulnerability",
-      "source": "cotag",
-      "tag_name": "vulnerability",
-      "title": "vulnerability, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.271,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0123,
-        "lift_log": 3.593,
-        "score": 0.2711,
-        "shared": 3
-      },
-      "rationale": "Vyper is a smart contract programming language.",
-      "relation_type": "product",
-      "slug": "vyper",
-      "source": "cotag",
-      "tag_name": "Vyper",
-      "title": "Vyper, Explained",
-      "weight": 27
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "smart-contract",
   "tag_name": "Smart Contract",

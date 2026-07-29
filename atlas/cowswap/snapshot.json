@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:06:32.334373+00:00",
+      "as_of": "2026-07-29T22:57:40.083309+00:00",
       "newsroom_total": 42,
-      "overall_share": 86,
+      "overall_share": 84,
       "provenance": "data",
       "series": [
         {
@@ -149,62 +149,103 @@
           "month": "2026-05",
           "newsroom": 1,
           "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
         }
       ],
-      "total_universe": 49,
-      "universe_total": 7
+      "total_universe": 50,
+      "universe_total": 8
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:06:31.032807+00:00",
+      "as_of": "2026-07-29T22:57:39.919784+00:00",
       "edges": [
         {
+          "confidence": 0.472,
+          "description": "Co-covered in 29 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cowswap",
-          "phrase": "COW is the governance and utility token of CoW DAO.",
-          "relation_type": "token",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-11",
+          "phrase": "Co-covered in 29 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cow-token",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 47
         },
         {
+          "confidence": 0.227,
+          "description": "Co-covered in 5 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cowswap",
-          "phrase": "Liquidity is a core DeFi mechanism for CoW Swap's batch auctions.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-20",
+          "phrase": "Co-covered in 5 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.187,
+          "description": "Co-covered in 12 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cowswap",
-          "phrase": "CoW DAO is the governance body behind the CoW Protocol.",
-          "relation_type": "governance",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 12 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "dao",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cowswap",
-          "phrase": "CoW Swap aims to protect users from MEV via batch auctions.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "mev",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.177,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cowswap",
-          "phrase": "AMMs like Uniswap are competitors to CoW Swap's order-book model.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "amm",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -218,42 +259,62 @@
         },
         {
           "center": false,
+          "confidence": 0.472,
           "name": "COW",
+          "observed_at": "2026-03-11",
           "slug": "cow-token",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 47
         },
         {
           "center": false,
+          "confidence": 0.227,
           "name": "Liquidity",
+          "observed_at": "2026-03-20",
           "slug": "liquidity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.187,
           "name": "DAO",
+          "observed_at": null,
           "slug": "dao",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "MEV",
+          "observed_at": null,
           "slug": "mev",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.177,
           "name": "AMM",
+          "observed_at": null,
           "slug": "amm",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -323,16 +384,16 @@
     },
     "reader_signal": {
       "article_count": 44,
-      "as_of": "2026-07-01T12:06:33.404704+00:00",
+      "as_of": "2026-07-29T22:57:40.267883+00:00",
       "most_clicked": {
-        "clicks": 991,
+        "clicks": 998,
         "date": "2024-05-14T12:09:45.626648+00:00",
         "headline": "Safe{Wallet} now has native swaps – powered by CoW Swap!",
         "lev_url": "https://leviathannews.xyz/5367/safewallet-now-has-native-swaps-powered-by-cow-swap"
       },
       "provenance": "data",
-      "top_decile_share": 38,
-      "total_clicks": 4294
+      "top_decile_share": 37,
+      "total_clicks": 4363
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:58:51.186288+00:00",
@@ -417,10 +478,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:06:33.301048+00:00",
+      "as_of": "2026-07-29T22:57:40.261122+00:00",
       "items": [
         {
-          "clicks": 43,
+          "clicks": 45,
           "date": "2026-04-14T16:55:30.551155+00:00",
           "headline": "CoW Swap frontend compromised as Blockaid flags site malicious, DAO urges users to stop trading",
           "hot_score": 3885.223966,
@@ -429,7 +490,7 @@
           "url": "https://x.com/CoWSwap/status/2044078590514327888"
         },
         {
-          "clicks": 53,
+          "clicks": 55,
           "date": "2026-04-15T19:23:28.798661+00:00",
           "headline": "CoWSwap regains full control of original domain",
           "hot_score": 2905.527516,
@@ -438,7 +499,7 @@
           "url": "https://x.com/CoWSwap/status/2044479727860080664"
         },
         {
-          "clicks": 59,
+          "clicks": 64,
           "date": "2026-04-08T16:29:02.194913+00:00",
           "headline": "Ethereum Foundation to convert 5,000 ETH into stablecoins via CoW DAO TWAP for R&D and grants",
           "hot_score": 973.947774,
@@ -447,7 +508,7 @@
           "url": "https://x.com/ethereumfndn/status/2041878615625728167"
         },
         {
-          "clicks": 52,
+          "clicks": 55,
           "date": "2026-05-16T13:48:29.516128+00:00",
           "headline": "New security audit released for CoWSwap’s CoW-Euler integration, enabling atomic leverage on Euler",
           "hot_score": 535.807739,
@@ -456,7 +517,7 @@
           "url": "https://x.com/yauditdao/status/2055295648006553781"
         },
         {
-          "clicks": 142,
+          "clicks": 143,
           "date": "2025-12-12T13:19:21.374110+00:00",
           "headline": "Aave Chan Initiative Accuses Aave Labs of Diverting DAO Revenues and Privatizing Protocol Economics, Demands Clarity on CowSwap Integration, Vault Fees, Horizon Deals, and V4 Liquidation Engine Incentives.",
           "hot_score": 222.871069,
@@ -465,7 +526,7 @@
           "url": "https://governance.aave.com/t/aave-cowswap-integration-tokenholder-questions/23530/16"
         },
         {
-          "clicks": 69,
+          "clicks": 70,
           "date": "2025-12-12T10:41:52.759218+00:00",
           "headline": "Tensions erupt around Aave governance, including a spat in the Lobsters channel between Avara CEO Stani Kulechov and Aave Chan Initiative founder Marc Zeller, following reports of revenues from CoW swaps (15-25 bps) not going to the Aave DAO",
           "hot_score": 105.892268,
@@ -474,7 +535,7 @@
           "url": "https://governance.aave.com/t/aave-cowswap-integration-tokenholder-questions/23530"
         },
         {
-          "clicks": 58,
+          "clicks": 60,
           "date": "2026-01-22T20:14:45.528675+00:00",
           "headline": "RAILGUN is advancing private DeFi with RAILGUN_connect, a universal connector that lets users interact with existing Ethereum DeFi apps from private 0zk addresses. Built with Gnosis Guild, it’s already been tested on CoWSwap and brings near-full DeFi functionality to private capital without bridges or new chains.",
           "hot_score": 90.736229,
@@ -483,7 +544,7 @@
           "url": "https://x.com/i/status/2014326994725728526"
         },
         {
-          "clicks": 50,
+          "clicks": 54,
           "date": "2025-12-06T00:27:57.271527+00:00",
           "headline": "The CoW core team requests 13.8M in $USDC for 2026 operations, plus an additional 100MM $COW tokens vested over four years",
           "hot_score": 82.388706,
@@ -495,7 +556,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:06:33.188999+00:00",
+      "as_of": "2026-07-29T22:57:40.247757+00:00",
       "editorial": [
         {
           "count": 33,
@@ -530,7 +591,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 6,
+          "count": 7,
           "source": "x.com"
         },
         {
@@ -549,42 +610,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:24.602509+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.472,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.3139,
-        "lift_log": 7.139,
-        "score": 0.472,
-        "shared": 29
-      },
-      "rationale": "COW is the governance and utility token of CoW DAO.",
-      "relation_type": "token",
-      "slug": "cow-token",
-      "source": "cotag",
-      "tag_name": "COW",
-      "title": "COW: Complete Guide",
-      "weight": 47
-    },
-    {
-      "confidence": 0.227,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0099,
-        "lift_log": 2.658,
-        "score": 0.2272,
-        "shared": 5
-      },
-      "rationale": "Liquidity is a core DeFi mechanism for CoW Swap's batch auctions.",
-      "relation_type": "primitive",
-      "slug": "liquidity",
-      "source": "cotag",
-      "tag_name": "Liquidity",
-      "title": "Liquidity, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "cowswap",
   "tag_name": "CoW DAO",

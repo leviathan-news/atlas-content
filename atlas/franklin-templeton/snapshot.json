@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:00:35.587626+00:00",
+      "as_of": "2026-07-29T22:59:14.361372+00:00",
       "newsroom_total": 40,
-      "overall_share": 40,
+      "overall_share": 38,
       "provenance": "data",
       "series": [
         {
@@ -155,62 +155,103 @@
           "month": "2026-06",
           "newsroom": 6,
           "universe": 14
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 5
         }
       ],
-      "total_universe": 101,
-      "universe_total": 61
+      "total_universe": 106,
+      "universe_total": 66
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:00:33.899586+00:00",
+      "as_of": "2026-07-29T22:59:14.121768+00:00",
       "edges": [
         {
+          "confidence": 0.254,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "franklin-templeton",
-          "phrase": "Franklin Templeton offers ETFs as part of its investment products.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "etfs",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.218,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "franklin-templeton",
-          "phrase": "Franklin Templeton operates in the digital assets space.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-26",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "digital-assets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.201,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "franklin-templeton",
-          "phrase": "Franklin Templeton uses tokenization for its money market fund.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-26",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "tokenization",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "franklin-templeton",
-          "phrase": "Ondo Finance is a competitor in tokenized assets.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ondo-finance",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.173,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "franklin-templeton",
-          "phrase": "Franklin Templeton's fund is built on the Aptos blockchain.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "aptos",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -224,42 +265,62 @@
         },
         {
           "center": false,
+          "confidence": 0.254,
           "name": "ETFs",
+          "observed_at": null,
           "slug": "etfs",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.218,
           "name": "Digital Assets",
+          "observed_at": "2026-05-26",
           "slug": "digital-assets",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.201,
           "name": "Tokenization",
+          "observed_at": "2026-03-26",
           "slug": "tokenization",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "Ondo Finance",
+          "observed_at": null,
           "slug": "ondo-finance",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.173,
           "name": "Aptos",
+          "observed_at": null,
           "slug": "aptos",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -329,16 +390,16 @@
     },
     "reader_signal": {
       "article_count": 40,
-      "as_of": "2026-07-01T12:00:36.515921+00:00",
+      "as_of": "2026-07-29T22:59:14.584632+00:00",
       "most_clicked": {
-        "clicks": 242,
+        "clicks": 245,
         "date": "2024-08-08T13:17:44.182464+00:00",
         "headline": "Franklin Templeton launches its on-chain money market fund on Arbitrum, expanding FOBXX to Ethereum Layer 2 after previous debuts on Stellar and Polygon.",
         "lev_url": "https://leviathannews.xyz/6593/franklin-templeton-launches-its-on-chain-money-market-fund-on-arbitrum-expanding-fobxx-to-ethereum-layer-2-after-previous-debuts-on-stellar-and-polygon"
       },
       "provenance": "data",
       "top_decile_share": 24,
-      "total_clicks": 2780
+      "total_clicks": 2853
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:33:03.676257+00:00",
@@ -423,10 +484,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:00:36.435287+00:00",
+      "as_of": "2026-07-29T22:59:14.579765+00:00",
       "items": [
         {
-          "clicks": 71,
+          "clicks": 76,
           "date": "2026-04-15T12:08:24.332810+00:00",
           "headline": "Franklin Templeton Digital Assets warns AI could pressure private credit and DeFi ecosystems, with insights from Roger Bayston on shifting financial conditions",
           "hot_score": 5972.112684,
@@ -435,7 +496,7 @@
           "url": "https://x.com/i/status/2044037960295731715"
         },
         {
-          "clicks": 32,
+          "clicks": 33,
           "date": "2026-04-14T16:11:33.799426+00:00",
           "headline": "Unlocking RWA potential: Sandy Kaul's insights from Franklin Templeton",
           "hot_score": 3656.795679,
@@ -444,16 +505,7 @@
           "url": "https://x.com/FTDA_US/status/2043702907078316480"
         },
         {
-          "clicks": 20,
-          "date": "2026-06-28T22:06:16.511845+00:00",
-          "headline": "Aptos Labs says BlackRock, Franklin Templeton, and Apollo tokenized funds are live on Aptos",
-          "hot_score": 1539.282448,
-          "lev_url": "https://leviathannews.xyz/264259/aptos-labs-says-blackrock-franklin-templeton-and-apollo-tokenized-funds-are-live-on-aptos",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260613171253_Z4zrlaiDPw==.png",
-          "url": "https://x.com/aptoslabs/status/2071307661229150394"
-        },
-        {
-          "clicks": 47,
+          "clicks": 52,
           "date": "2026-05-26T08:50:26.299592+00:00",
           "headline": "Franklin Templeton doubles down on crypto adoption, saying digital assets are here to stay as it pushes traditional finance further onchain through its Benji platform",
           "hot_score": 758.664444,
@@ -462,7 +514,7 @@
           "url": "https://x.com/i/web/status/2058926070326272067"
         },
         {
-          "clicks": 26,
+          "clicks": 27,
           "date": "2026-06-03T07:24:07.293655+00:00",
           "headline": "Franklin Templeton CEO Jenny Johnson says Wall Street's resistance to blockchain stems from economics, arguing crypto and tokenization threaten many of traditional finance's most profitable business models",
           "hot_score": 701.55422,
@@ -471,16 +523,7 @@
           "url": "https://www.coindesk.com/business/2026/06/02/franklin-templeton-says-wall-street-fears-blockchain-because-it-threatens-its-profits"
         },
         {
-          "clicks": 27,
-          "date": "2026-06-25T12:50:49.768653+00:00",
-          "headline": "Scrypt partners with Franklin Templeton to bring tokenized treasuries to Swiss-regulated infrastructure",
-          "hot_score": 701.433887,
-          "lev_url": "https://leviathannews.xyz/262510/scrypt-integrates-franklin-templetons-benji-to-tokenise-its-treasury-operations-on-swiss-licensed-infrastructure",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625094952_mtXvotnG7Imq.jpg",
-          "url": "https://www.prnewswire.com/news-releases/scrypt-integrates-franklin-templetons-benji-to-tokenise-its-treasury-operations-on-swiss-licensed-infrastructure-302809652.html"
-        },
-        {
-          "clicks": 37,
+          "clicks": 43,
           "date": "2026-06-19T06:39:55.079401+00:00",
           "headline": "Franklin Templeton files two Bitcoin DRIP ETFs that reinvest equity dividends into BTC",
           "hot_score": 695.414577,
@@ -489,7 +532,25 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1655589/000165558926000869/c485apos.htm"
         },
         {
-          "clicks": 28,
+          "clicks": 29,
+          "date": "2026-06-25T12:50:49.768653+00:00",
+          "headline": "Scrypt partners with Franklin Templeton to bring tokenized treasuries to Swiss-regulated infrastructure",
+          "hot_score": 546.469957,
+          "lev_url": "https://leviathannews.xyz/262510/scrypt-integrates-franklin-templetons-benji-to-tokenise-its-treasury-operations-on-swiss-licensed-infrastructure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625094952_mtXvotnG7Imq.jpg",
+          "url": "https://www.prnewswire.com/news-releases/scrypt-integrates-franklin-templetons-benji-to-tokenise-its-treasury-operations-on-swiss-licensed-infrastructure-302809652.html"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-06-28T22:06:16.511845+00:00",
+          "headline": "Aptos Labs says BlackRock, Franklin Templeton, and Apollo tokenized funds are live on Aptos",
+          "hot_score": 544.863029,
+          "lev_url": "https://leviathannews.xyz/264259/aptos-labs-says-blackrock-franklin-templeton-and-apollo-tokenized-funds-are-live-on-aptos",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260613171253_Z4zrlaiDPw==.png",
+          "url": "https://x.com/aptoslabs/status/2071307661229150394"
+        },
+        {
+          "clicks": 29,
           "date": "2026-06-02T14:08:55.549144+00:00",
           "headline": "Franklin Templeton brings BENJI to MoonPay for 24/7 institutional stablecoin-to-yield swaps",
           "hot_score": 439.648201,
@@ -501,7 +562,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:00:36.273164+00:00",
+      "as_of": "2026-07-29T22:59:14.567027+00:00",
       "editorial": [
         {
           "count": 11,
@@ -556,20 +617,20 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 28,
+          "count": 31,
           "source": "x.com"
         },
         {
-          "count": 5,
+          "count": 6,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 5,
+          "source": "decrypt.co"
         },
         {
           "count": 4,
           "source": "theblock.co"
-        },
-        {
-          "count": 4,
-          "source": "decrypt.co"
         },
         {
           "count": 4,
@@ -615,59 +676,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:32.182306+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.218,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.012,
-        "lift_log": 2.447,
-        "score": 0.2185,
-        "shared": 3
-      },
-      "rationale": "Franklin Templeton operates in the digital assets space.",
-      "relation_type": "category",
-      "slug": "digital-assets",
-      "source": "cotag",
-      "tag_name": "Digital Assets",
-      "title": "Digital Assets, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.254,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0272,
-        "lift_log": 3.02,
-        "score": 0.2538,
-        "shared": 15
-      },
-      "rationale": "Franklin Templeton offers ETFs as part of its investment products.",
-      "relation_type": "product",
-      "slug": "etfs",
-      "source": "cotag",
-      "tag_name": "ETFs",
-      "title": "ETFs, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.201,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0086,
-        "lift_log": 2.104,
-        "score": 0.2011,
-        "shared": 3
-      },
-      "rationale": "Franklin Templeton uses tokenization for its money market fund.",
-      "relation_type": "primitive",
-      "slug": "tokenization",
-      "source": "cotag",
-      "tag_name": "Tokenization",
-      "title": "Tokenization, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "franklin-templeton",
   "tag_name": "Franklin Templeton",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:11:26.934158+00:00",
-      "newsroom_total": 26,
-      "overall_share": 54,
+      "as_of": "2026-07-29T23:06:45.565885+00:00",
+      "newsroom_total": 28,
+      "overall_share": 53,
       "provenance": "data",
       "series": [
         {
@@ -119,62 +119,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 6
+        },
+        {
+          "ed_share": 40,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 3
         }
       ],
-      "total_universe": 48,
-      "universe_total": 22
+      "total_universe": 53,
+      "universe_total": 25
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:11:26.555397+00:00",
+      "as_of": "2026-07-29T23:06:45.350821+00:00",
       "edges": [
         {
+          "confidence": 0.214,
+          "description": "Co-covered in 4 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wintermute",
-          "phrase": "Wintermute provides OTC trading services for crypto assets.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-16",
+          "phrase": "Co-covered in 4 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "otc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.193,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wintermute",
-          "phrase": "Wintermute is a leading liquidity provider in crypto markets.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wintermute",
-          "phrase": "Wintermute trades on EVM-compatible chains like Ethereum.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "evm",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.152,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wintermute",
-          "phrase": "CZ, Binance CEO, influences market dynamics affecting Wintermute.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cz",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.14,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wintermute",
-          "phrase": "Net inflows measure capital flow, relevant to Wintermute's liquidity.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "net-inflows",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         }
       ],
@@ -188,42 +229,62 @@
         },
         {
           "center": false,
+          "confidence": 0.214,
           "name": "OTC",
+          "observed_at": "2026-06-16",
           "slug": "otc",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.193,
           "name": "Liquidity",
+          "observed_at": null,
           "slug": "liquidity",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "EVM",
+          "observed_at": null,
           "slug": "evm",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.152,
           "name": "CZ",
+          "observed_at": null,
           "slug": "cz",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.14,
           "name": "Net Inflows",
+          "observed_at": null,
           "slug": "net-inflows",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         }
       ],
@@ -292,17 +353,17 @@
       "source": "https://www.numencyber.com/an-analysis-of-wintermutes-usd160-million-hacking/"
     },
     "reader_signal": {
-      "article_count": 26,
-      "as_of": "2026-07-01T12:11:27.553707+00:00",
+      "article_count": 28,
+      "as_of": "2026-07-29T23:06:45.847378+00:00",
       "most_clicked": {
-        "clicks": 249,
+        "clicks": 251,
         "date": "2026-02-04T19:47:04.075466+00:00",
         "headline": "Wintermute Founder Evgeny Gaevoy threads a mostly bleak reality check on the current state of crypto",
         "lev_url": "https://leviathannews.xyz/24868/evgeny-gaevoy-threads-a-mostly-bleak-reality-check-on-the-current-state-of-crypto"
       },
       "provenance": "data",
-      "top_decile_share": 18,
-      "total_clicks": 2778
+      "top_decile_share": 17,
+      "total_clicks": 2905
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:52:33.382952+00:00",
@@ -387,10 +448,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:11:27.476222+00:00",
+      "as_of": "2026-07-29T23:06:45.843598+00:00",
       "items": [
         {
-          "clicks": 75,
+          "clicks": 79,
           "date": "2026-04-08T10:54:43.285177+00:00",
           "headline": "Wintermute Ventures highlights shift toward vaults, on-chain FX, and privacy DeFi as builders focus on real products over tokens, with VCs backing traction-driven startups post-EthCC",
           "hot_score": 28306.596015,
@@ -408,7 +469,7 @@
           "url": "https://www.coindesk.com/policy/2026/04/11/crypto-clarity-bill-has-30-chance-of-passing-this-year-wintermute-s-hammond-says"
         },
         {
-          "clicks": 42,
+          "clicks": 47,
           "date": "2026-05-28T04:47:12.565926+00:00",
           "headline": "Wintermute commits $200K to Ethereum security funding, arguing censorship resistance and decentralization mean nothing if the base layer can be exploited",
           "hot_score": 746.857747,
@@ -426,7 +487,7 @@
           "url": "https://x.com/wintermute_t/status/2060331982077280639"
         },
         {
-          "clicks": 185,
+          "clicks": 188,
           "date": "2026-02-26T21:34:40.478807+00:00",
           "headline": "Retail investors now treat crypto and equities as substitutes, with equity inflows draining momentum from altcoins according to Wintermute data.",
           "hot_score": 728.64491,
@@ -435,40 +496,40 @@
           "url": "https://x.com/i/status/2027006538653880495"
         },
         {
-          "clicks": 249,
+          "clicks": 49,
+          "date": "2026-07-15T18:53:31.248367+00:00",
+          "headline": "Wintermute explores whether crypto still has room for innovation, questioning what's left to build after years of L1s, L2s, DeFi and stablecoin growth",
+          "hot_score": 630.197635,
+          "lev_url": "https://leviathannews.xyz/276095/crypto-is-more-than-a-decade-old-the-l1s-shipped-the-l2s-followed-defi-matured-and-stablecoins-became-infrastructure-across-exchanges-lending-perps-and-prediction-markets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260715171412_TBLnPPJvYXGo.png",
+          "url": "https://x.com/wintermute_t/status/2077395703689515387"
+        },
+        {
+          "clicks": 43,
+          "date": "2026-07-17T08:14:14.216728+00:00",
+          "headline": "Wintermute Ventures says prediction markets have outgrown existing infrastructure, backing Pascal's $9M Series A to build a faster, lower-fee trading platform for professionals",
+          "hot_score": 617.766466,
+          "lev_url": "https://leviathannews.xyz/277312/when-we-co-led-pascaldottrades-seed-round-with-dba_xyz-in-august-2025-we-did-so-on-a-simple-conviction-which-was-that-prediction-markets-were-becoming-a-serious-trading-catego",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260717080259_uLMk9yqev9Zs.jpg",
+          "url": "https://x.com/wmt_ventures/status/2077769980053950745"
+        },
+        {
+          "clicks": 251,
           "date": "2026-02-04T19:47:04.075466+00:00",
           "headline": "Wintermute Founder Evgeny Gaevoy threads a mostly bleak reality check on the current state of crypto",
           "hot_score": 342.280491,
           "lev_url": "https://leviathannews.xyz/24868/evgeny-gaevoy-threads-a-mostly-bleak-reality-check-on-the-current-state-of-crypto",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260204185018_EWYkgVYcfko=.jpg",
           "url": "https://x.com/EvgenyGaevoy/status/2019044367160508718"
-        },
-        {
-          "clicks": 54,
-          "date": "2026-03-03T18:35:56.067808+00:00",
-          "headline": "PropAMMs hit EVM as CZ-backed Genius Terminal and Wintermute launch on BNB Chain, promise 70% cheaper swaps",
-          "hot_score": 232.104968,
-          "lev_url": "https://leviathannews.xyz/39471/propamms-hit-evm-as-cz-backed-genius-terminal-and-wintermute-launch-on-bnb-chain-promise-70-cheaper-swaps",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260303182506_cibzTqApccs=.jpg",
-          "url": "https://x.com/GeniusTerminal/status/2028874430731161811"
-        },
-        {
-          "clicks": 131,
-          "date": "2026-01-06T18:01:05.491198+00:00",
-          "headline": "Crypto market-maker Wintermute is reportedly paying more than $1m per employee amid a boom in high-profit digital asset trading.",
-          "hot_score": 187.950478,
-          "lev_url": "https://leviathannews.xyz/23219/crypto-market-maker-wintermute-is-reportedly-paying-more-than-1m-per-employee-amid-a-boom-in-high-profit-digital-asset-trading",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260106175733_eXJmfTFW03A=.jpg",
-          "url": "https://www.fnlondon.com/articles/meet-the-crypto-firm-paying-more-than-1m-per-employee-882c58f3"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:11:27.387608+00:00",
+      "as_of": "2026-07-29T23:06:45.834521+00:00",
       "editorial": [
         {
-          "count": 13,
+          "count": 15,
           "source": "x.com"
         },
         {
@@ -512,7 +573,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 14,
+          "count": 15,
           "source": "x.com"
         },
         {
@@ -522,6 +583,10 @@
         {
           "count": 2,
           "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
         },
         {
           "count": 1,
@@ -540,7 +605,7 @@
           "source": "financefeeds.com"
         }
       ],
-      "universe_distinct": 7
+      "universe_distinct": 8
     }
   },
   "official_links": [
@@ -557,25 +622,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:37:06.084581+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.214,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0341,
-        "lift_log": 4.301,
-        "score": 0.2138,
-        "shared": 4
-      },
-      "rationale": "Wintermute provides OTC trading services for crypto assets.",
-      "relation_type": "product",
-      "slug": "otc",
-      "source": "cotag",
-      "tag_name": "OTC",
-      "title": "OTC, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "wintermute",
   "tag_name": "Wintermute",

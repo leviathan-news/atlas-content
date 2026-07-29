@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:05:28.099948+00:00",
-      "newsroom_total": 54,
-      "overall_share": 62,
+      "as_of": "2026-07-29T23:05:57.957128+00:00",
+      "newsroom_total": 55,
+      "overall_share": 57,
       "provenance": "data",
       "series": [
         {
@@ -155,62 +155,103 @@
           "month": "2026-06",
           "newsroom": 3,
           "universe": 12
+        },
+        {
+          "ed_share": 10,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 9
         }
       ],
-      "total_universe": 87,
-      "universe_total": 33
+      "total_universe": 97,
+      "universe_total": 42
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:05:27.805840+00:00",
+      "as_of": "2026-07-29T23:05:57.691527+00:00",
       "edges": [
         {
+          "confidence": 0.525,
+          "description": "Co-covered in 64 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "usde",
-          "phrase": "Ethena Labs created USDe as a synthetic dollar.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-11",
+          "phrase": "Co-covered in 64 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ethena",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 52
         },
         {
+          "confidence": 0.207,
+          "description": "Co-covered in 5 approved stories; most recently October 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "usde",
-          "phrase": "Both are decentralized stablecoins, competing for market share.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-10-03",
+          "phrase": "Co-covered in 5 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "dai",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "usde",
-          "phrase": "USDe generates yield through delta-neutral strategies.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.175,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "usde",
-          "phrase": "Pendle enables yield tokenization for USDe.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "pendle",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.161,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "usde",
-          "phrase": "AAVE is used as collateral in USDe's backing.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "aave-token",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -224,42 +265,62 @@
         },
         {
           "center": false,
+          "confidence": 0.525,
           "name": "Ethena",
+          "observed_at": "2026-07-11",
           "slug": "ethena",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 52
         },
         {
           "center": false,
+          "confidence": 0.207,
           "name": "DAI",
+          "observed_at": "2025-10-03",
           "slug": "dai",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "Yield",
+          "observed_at": null,
           "slug": "yield",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.175,
           "name": "Pendle",
+          "observed_at": null,
           "slug": "pendle",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.161,
           "name": "AAVE",
+          "observed_at": null,
           "slug": "aave-token",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -328,17 +389,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 54,
-      "as_of": "2026-07-01T12:05:28.561273+00:00",
+      "article_count": 55,
+      "as_of": "2026-07-29T23:05:58.178635+00:00",
       "most_clicked": {
-        "clicks": 322,
+        "clicks": 326,
         "date": "2024-08-01T10:45:45.738840+00:00",
         "headline": "Ethena downplays danger of letting traders use USDe to back risky bets",
         "lev_url": "https://leviathannews.xyz/6481/ethena-downplays-danger-of-letting-traders-use-usde-to-back-risky-bets"
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 5353
+      "total_clicks": 5481
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:54:06.778510+00:00",
@@ -423,19 +484,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:05:28.484079+00:00",
+      "as_of": "2026-07-29T23:05:58.173449+00:00",
       "items": [
         {
-          "clicks": 16,
+          "clicks": 25,
           "date": "2026-06-29T15:31:16.011241+00:00",
           "headline": "BlackRock adds Ethena's USDe to Aladdin as $100M facility opens BUIDL-to-stablecoin swaps",
-          "hot_score": 2715.1406,
+          "hot_score": 800.344626,
           "lev_url": "https://leviathannews.xyz/264718/blackrock-adds-ethenas-usde-to-aladdin-as-100m-facility-opens-buidl-to-stablecoin-swaps",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629150056_54Oidr3L-P0M.jpg",
           "url": "https://www.theblock.co/post/405670/blackrock-ethena-partnership-usde"
         },
         {
-          "clicks": 25,
+          "clicks": 30,
           "date": "2026-06-09T14:17:02.831405+00:00",
           "headline": "Janus Henderson takes a position in ENA and partners with Ethena to explore regulated investment products tied to USDe and ENA",
           "hot_score": 678.158037,
@@ -444,13 +505,22 @@
           "url": "https://www.theblock.co/post/404109/janus-henderson-takes-ena-position-eyes-regulated-investment-products-tied-to-ethena?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 33,
+          "clicks": 41,
           "date": "2026-06-12T04:18:40.120153+00:00",
           "headline": "Coinbase launches Ethena-backed SteakhouseFi USDe yield vault on Morpho",
           "hot_score": 673.140972,
           "lev_url": "https://leviathannews.xyz/255965/coinbase-launches-ethena-backed-steakhousefi-usde-yield-vault-on-morpho",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260611213634_Z4zrlaiDPw==.png",
           "url": "https://x.com/ethena/status/2065147131070210236"
+        },
+        {
+          "clicks": 47,
+          "date": "2026-07-11T12:25:47.596054+00:00",
+          "headline": "OAK Research says Ethena's future hinges on institutional partnerships as shrinking USDe yields, stalled launches and delayed fee switch pressure ENA",
+          "hot_score": 654.995332,
+          "lev_url": "https://leviathannews.xyz/273291/ethena-spent-the-last-three-years-testing-almost-every-growth-lever-available-to-a-crypto-protocol-and-every-narrative-a-proprietary-chain-a-stablecoin-ticker-bid-on-the-industry",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260711122329_lhPmsW8DBKtM.jpg",
+          "url": "https://x.com/oak_res/status/2075606478438715556"
         },
         {
           "clicks": 34,
@@ -462,7 +532,7 @@
           "url": "https://dune.com/blog/lending-institutional-curation-solana"
         },
         {
-          "clicks": 127,
+          "clicks": 128,
           "date": "2026-04-06T15:24:44.396506+00:00",
           "headline": "Ethena proposes USDe reserve overhaul, adding institutional lending, RWAs, equity & commodity basis, and prime lending to reduce concentration and boost resilience",
           "hot_score": 424.740561,
@@ -471,7 +541,7 @@
           "url": "https://x.com/i/status/2041139824263151637"
         },
         {
-          "clicks": 86,
+          "clicks": 87,
           "date": "2026-03-03T18:42:52.788632+00:00",
           "headline": "USDe's growth engine is a thriving derivatives market and sustained leverage demand",
           "hot_score": 356.858118,
@@ -480,31 +550,22 @@
           "url": "https://x.com/i/status/2028348009441063032"
         },
         {
-          "clicks": 45,
+          "clicks": 48,
           "date": "2026-03-11T16:55:44.664613+00:00",
           "headline": "Ethena’s USDe supply could reach $100B–$350B by 2030 as tokenized assets drive institutional derivatives demand, boosting value for ENA holders",
           "hot_score": 165.810823,
           "lev_url": "https://leviathannews.xyz/208152/ethenas-usde-supply-could-reach-100b350b-by-2030-as-tokenized-assets-drive-institutional-derivatives-demand-boosting-value-for-ena-holders",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260311161330_I0wGIgMcOYqx.jpg",
           "url": "https://x.com/i/status/2031367303443488955"
-        },
-        {
-          "clicks": 84,
-          "date": "2026-02-05T17:46:02.461066+00:00",
-          "headline": "Brazil advances Bill 4308 banning algo stables like USDe and FrxUSD, requiring segregated reserves and 8-year jail terms for issuers",
-          "hot_score": 101.205761,
-          "lev_url": "https://leviathannews.xyz/25010/new-legislation-requires-all-stablecoins-to-be-fully-backed-by-reserve-assets-and-introduces-penalties-for-issuing-unbacked-stablecoins",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260205165306_IpOKUKpmK4c=.jpg",
-          "url": "https://www.coindesk.com/policy/2026/02/05/brazil-moves-to-ban-algorithmic-stablecoins-like-ethena-s-usde"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:05:28.401540+00:00",
+      "as_of": "2026-07-29T23:05:58.159681+00:00",
       "editorial": [
         {
-          "count": 26,
+          "count": 27,
           "source": "x.com"
         },
         {
@@ -556,11 +617,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 30,
+          "count": 37,
           "source": "x.com"
         },
         {
-          "count": 1,
+          "count": 2,
           "source": "wsj.com"
         },
         {
@@ -570,9 +631,13 @@
         {
           "count": 1,
           "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "originprotocol.com"
         }
       ],
-      "universe_distinct": 4
+      "universe_distinct": 5
     }
   },
   "official_links": [],
@@ -583,42 +648,7 @@
     "source": "human_gated_edit",
     "updated_at": "2026-07-28T22:37:03.596323+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.207,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0252,
-        "lift_log": 4.237,
-        "score": 0.2066,
-        "shared": 5
-      },
-      "rationale": "Both are decentralized stablecoins, competing for market share.",
-      "relation_type": "peer",
-      "slug": "dai",
-      "source": "cotag",
-      "tag_name": "DAI",
-      "title": "DAI: Complete Guide",
-      "weight": 21
-    },
-    {
-      "confidence": 0.525,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.3135,
-        "lift_log": 6.038,
-        "score": 0.5248,
-        "shared": 54
-      },
-      "rationale": "Ethena Labs created USDe as a synthetic dollar.",
-      "relation_type": "founder",
-      "slug": "ethena",
-      "source": "cotag",
-      "tag_name": "Ethena",
-      "title": "Ethena, Explained",
-      "weight": 52
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "usde",
   "tag_name": "USDe",

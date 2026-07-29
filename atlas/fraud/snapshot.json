@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:52:39.352116+00:00",
+      "as_of": "2026-07-29T22:59:14.983660+00:00",
       "newsroom_total": 88,
-      "overall_share": 30,
+      "overall_share": 24,
       "provenance": "data",
       "series": [
         {
@@ -208,63 +208,98 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 4
+          "universe": 67
         }
       ],
-      "total_universe": 298,
-      "universe_total": 210
+      "total_universe": 361,
+      "universe_total": 273
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:52:37.562924+00:00",
+      "as_of": "2026-07-29T22:59:14.798180+00:00",
       "edges": [
         {
+          "confidence": 0.224,
+          "description": "Co-covered in 5 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fraud",
-          "phrase": "Celsius engaged in fraudulent practices leading to its collapse.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-19",
+          "phrase": "Co-covered in 5 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "celsius",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.207,
+          "description": "Co-covered in 5 approved stories; most recently December 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fraud",
-          "phrase": "Do Kwon is accused of fraud related to Terra's collapse.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-12-06",
+          "phrase": "Co-covered in 5 approved stories; most recently December 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "do-kwon",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.207,
+          "description": "Co-covered in 5 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fraud",
-          "phrase": "Manipulation is a form of fraud in crypto markets.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-27",
+          "phrase": "Co-covered in 5 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "manipulation",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fraud",
-          "phrase": "Rug is a type of scam, closely related to fraud.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "rug",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fraud",
-          "phrase": "Rug pull is a specific fraudulent exit scam.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "rug-pull",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -278,42 +313,62 @@
         },
         {
           "center": false,
+          "confidence": 0.224,
           "name": "Celsius",
+          "observed_at": "2026-06-19",
           "slug": "celsius",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.207,
           "name": "Do Kwon",
+          "observed_at": "2025-12-06",
           "slug": "do-kwon",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Manipulation",
-          "slug": "manipulation",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Rug",
-          "slug": "rug",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.207,
+          "name": "Manipulation",
+          "observed_at": "2026-03-27",
+          "slug": "manipulation",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.186,
+          "name": "Rug",
+          "observed_at": null,
+          "slug": "rug",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "Rug Pull",
+          "observed_at": null,
           "slug": "rug-pull",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -383,16 +438,16 @@
     },
     "reader_signal": {
       "article_count": 88,
-      "as_of": "2026-07-01T11:52:42.362484+00:00",
+      "as_of": "2026-07-29T22:59:15.216999+00:00",
       "most_clicked": {
-        "clicks": 531,
+        "clicks": 536,
         "date": "2024-02-01T08:49:26.080016+00:00",
         "headline": "Denver Pastor accused of crypto fraud spotted preaching in Zambia after skipping US Court appearance. Pastor Eli Regalado, facing charges of scamming $3.2 million through cryptocurrency, was spotted preaching in Zambia despite evading a mandatory court hearing in the United States.",
         "lev_url": "https://leviathannews.xyz/3892/denver-pastor-accused-of-crypto-fraud-spotted-preaching-in-zambia-after-skipping-us-court-appearance-pastor-eli-regalado-facing-charges-of-scamming-32-million-through-cryptocurrenc"
       },
       "provenance": "data",
       "top_decile_share": 28,
-      "total_clicks": 10689
+      "total_clicks": 10837
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:38:11.362531+00:00",
@@ -477,10 +532,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:52:42.271163+00:00",
+      "as_of": "2026-07-29T22:59:15.211480+00:00",
       "items": [
         {
-          "clicks": 58,
+          "clicks": 66,
           "date": "2026-06-24T08:38:13.757852+00:00",
           "headline": "Polymarket paid creators to stage $900K in fake winning bets on cloned sites, courting American users it's banned from serving",
           "hot_score": 3309.205606,
@@ -489,7 +544,7 @@
           "url": "https://www.youtube.com/watch?v=-L-EH5dryuU"
         },
         {
-          "clicks": 101,
+          "clicks": 104,
           "date": "2025-12-17T07:03:32.198691+00:00",
           "headline": "US senators proposed the SAFE Crypto Act to coordinate Treasury, law enforcement, and private firms against crypto scams, including social engineering attacks. Backers say stronger enforcement tools could sharply curb fraud as crypto-related losses surge.",
           "hot_score": 154.099392,
@@ -498,7 +553,7 @@
           "url": "https://cointelegraph.com/news/safe-crypto-act-could-scare-crypto-fraudsters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "clicks": 82,
+          "clicks": 85,
           "date": "2025-12-13T15:05:29.553980+00:00",
           "headline": "Hollywood filmmaker Carl Erik Rinsch scammed Netflix out of $11 million and blew the cash on crypto memes making some profits with Dogecoin",
           "hot_score": 104.022763,
@@ -507,7 +562,7 @@
           "url": "https://www.dlnews.com/articles/people-culture/filmmaker-scams-netflix-11-million-crypto/"
         },
         {
-          "clicks": 54,
+          "clicks": 56,
           "date": "2025-12-15T18:02:12.205893+00:00",
           "headline": "Meta tolerated widespread ad fraud from China to protect billions in revenue, internal documents show, even as the company found that up to 19% of its $18 billion China ad business came from scams and banned content.",
           "hot_score": 85.327715,
@@ -516,7 +571,7 @@
           "url": "https://www.reuters.com/investigations/meta-tolerates-rampant-ad-fraud-china-safeguard-billions-revenue-2025-12-15/"
         },
         {
-          "clicks": 50,
+          "clicks": 51,
           "date": "2025-12-05T07:56:59.528521+00:00",
           "headline": "Europe Dismantles €700M Crypto Fraud Ring That Used Deepfake Ads, Arresting Nine in Major Cross-Border Sting",
           "hot_score": 77.849696,
@@ -525,7 +580,7 @@
           "url": "https://www.europol.europa.eu/media-press/newsroom/news/international-takedown-of-cryptocurrency-fraud-network-laundering-over-eur-700-million"
         },
         {
-          "clicks": 61,
+          "clicks": 64,
           "date": "2025-12-14T09:34:00.645769+00:00",
           "headline": "US prosecutors expanded charges against crypto promoter Rodney Burton over the $1.8B HyperFund fraud, citing wire fraud, money laundering, and flight risk after bail denial.",
           "hot_score": 74.510686,
@@ -534,7 +589,7 @@
           "url": "https://cryptonews.com/news/crypto-promoter-bitcoin-rodney-faces-up-to-20-years-on-new-charges/?feed_id=24571&_unique_id=693e70fdd003b"
         },
         {
-          "clicks": 45,
+          "clicks": 48,
           "date": "2026-03-27T06:41:14.837996+00:00",
           "headline": "India arrests key suspect linked to Myanmar crypto scam compounds, exposing trafficking network that forced victims into global fraud operations across Southeast Asia",
           "hot_score": 46.21998,
@@ -543,7 +598,7 @@
           "url": "https://decrypt.co/362553/india-arrests-suspect-tied-to-myanmar-crypto-scam-compounds"
         },
         {
-          "clicks": 28,
+          "clicks": 31,
           "date": "2025-12-03T03:22:32.793027+00:00",
           "headline": "U.S. authorities just seized a Burma-based scam domain tied to a compound operation, as regulators intensify their crackdown across Southeast Asia. With Huione shuttering branches and freezing withdrawals, the pressure on regional fraud networks is clearly escalating.",
           "hot_score": 34.451086,
@@ -555,7 +610,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:52:42.140583+00:00",
+      "as_of": "2026-07-29T22:59:15.197930+00:00",
       "editorial": [
         {
           "count": 15,
@@ -610,32 +665,36 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 65,
+          "count": 91,
           "source": "x.com"
         },
         {
-          "count": 23,
+          "count": 27,
           "source": "truthsocial.com"
         },
         {
-          "count": 19,
-          "source": "cointelegraph.com"
-        },
-        {
-          "count": 19,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 15,
+          "count": 25,
           "source": "theblock.co"
         },
         {
-          "count": 14,
+          "count": 23,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 23,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 16,
           "source": "financefeeds.com"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "justice.gov"
+        },
+        {
+          "count": 6,
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 4,
@@ -651,14 +710,10 @@
         },
         {
           "count": 3,
-          "source": "foxbusiness.com"
-        },
-        {
-          "count": 3,
-          "source": "crowdfundinsider.com"
+          "source": "asia.nikkei.com"
         }
       ],
-      "universe_distinct": 36
+      "universe_distinct": 41
     }
   },
   "official_links": [],
@@ -669,59 +724,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:32.266595+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.224,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0256,
-        "lift_log": 4.6,
-        "score": 0.2236,
-        "shared": 5
-      },
-      "rationale": "Celsius engaged in fraudulent practices leading to its collapse.",
-      "relation_type": "risk",
-      "slug": "celsius",
-      "source": "cotag",
-      "tag_name": "Celsius",
-      "title": "Celsius, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.207,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0172,
-        "lift_log": 4.315,
-        "score": 0.2066,
-        "shared": 5
-      },
-      "rationale": "Do Kwon is accused of fraud related to Terra's collapse.",
-      "relation_type": "risk",
-      "slug": "do-kwon",
-      "source": "cotag",
-      "tag_name": "Do Kwon",
-      "title": "Do Kwon, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.207,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0268,
-        "lift_log": 4.232,
-        "score": 0.2073,
-        "shared": 5
-      },
-      "rationale": "Manipulation is a form of fraud in crypto markets.",
-      "relation_type": "peer",
-      "slug": "manipulation",
-      "source": "cotag",
-      "tag_name": "Manipulation",
-      "title": "Manipulation, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "fraud",
   "tag_name": "Fraud",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:12:07.156036+00:00",
+      "as_of": "2026-07-29T22:56:57.001899+00:00",
       "newsroom_total": 28,
-      "overall_share": 46,
+      "overall_share": 41,
       "provenance": "data",
       "series": [
         {
@@ -119,62 +119,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 8
         }
       ],
-      "total_universe": 61,
-      "universe_total": 33
+      "total_universe": 69,
+      "universe_total": 41
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:12:06.509824+00:00",
+      "as_of": "2026-07-29T22:56:56.768273+00:00",
       "edges": [
         {
+          "confidence": 0.255,
+          "description": "Co-covered in 52 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "brian-armstrong",
-          "phrase": "Brian Armstrong is the co-founder and CEO of Coinbase.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 52 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "coinbase",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.175,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "brian-armstrong",
-          "phrase": "Coinbase competes with JPMorgan in financial services.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "jpmorgan",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.139,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "brian-armstrong",
-          "phrase": "Coinbase supports Bitcoin trading and custody.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.133,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "brian-armstrong",
-          "phrase": "Brian Armstrong advocates for crypto regulation like the CLARITY Act.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "clarity-act",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "brian-armstrong",
+          "observed_at": null,
           "phrase": "leadership",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "leadership",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -188,42 +229,62 @@
         },
         {
           "center": false,
+          "confidence": 0.255,
           "name": "Coinbase",
+          "observed_at": "2026-07-27",
           "slug": "coinbase",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.175,
           "name": "JPMorgan",
+          "observed_at": null,
           "slug": "jpmorgan",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.139,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.133,
           "name": "CLARITY Act",
+          "observed_at": null,
           "slug": "clarity-act",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Leadership",
+          "observed_at": null,
           "slug": "leadership",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -287,16 +348,16 @@
     },
     "reader_signal": {
       "article_count": 28,
-      "as_of": "2026-07-01T12:12:07.916178+00:00",
+      "as_of": "2026-07-29T22:56:57.332660+00:00",
       "most_clicked": {
-        "clicks": 350,
+        "clicks": 351,
         "date": "2023-06-08T17:15:06.690958+00:00",
         "headline": "In Wall Street Journal video interview, Coinbase CEO Brian Armstrong says he'll fight the SEC for the good of the crypto industry.",
         "lev_url": "https://leviathannews.xyz/1354/in-wall-street-journal-video-interview-coinbase-ceo-brian-armstrong-says-hell-fight-the-sec-for-the-good-of-the-crypto-industry"
       },
       "provenance": "data",
       "top_decile_share": 24,
-      "total_clicks": 2294
+      "total_clicks": 2315
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:13:35.902225+00:00",
@@ -381,10 +442,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:12:07.836389+00:00",
+      "as_of": "2026-07-29T22:56:57.329097+00:00",
       "items": [
         {
-          "clicks": 30,
+          "clicks": 32,
           "date": "2026-05-05T13:35:16.118623+00:00",
           "headline": "Coinbase cuts 14% of workforce, slashing ~700 jobs as Brian Armstrong pivots to AI-native teams, flattening management and reshaping operations amid market pressure",
           "hot_score": 580.30518,
@@ -393,7 +454,7 @@
           "url": "https://cointelegraph.com/news/coinbase-cuts-14-of-workforce-citing-market-slump-and-ai-shift"
         },
         {
-          "clicks": 52,
+          "clicks": 53,
           "date": "2026-04-22T04:24:40.979185+00:00",
           "headline": "“Finding Satoshi” documentary gets early release via Coinbase app for US users, as Brian Armstrong praises its deep exploration of Bitcoin’s mysterious creator",
           "hot_score": 428.8,
@@ -402,7 +463,7 @@
           "url": "https://x.com/i/status/2046686837448589578"
         },
         {
-          "clicks": 39,
+          "clicks": 40,
           "date": "2026-03-26T12:18:49.772646+00:00",
           "headline": "Brian Armstrong faces backlash as critic accuses Coinbase of prioritizing yield over real blockchain adoption, warning delays could stall industry growth to 2030 per Cynthia Lummis",
           "hot_score": 152.680455,
@@ -411,7 +472,7 @@
           "url": "https://x.com/i/status/2036918585629487159"
         },
         {
-          "clicks": 92,
+          "clicks": 95,
           "date": "2026-01-31T08:39:48.761596+00:00",
           "headline": "JPMorgan’s Jamie Dimon Tells Coinbase CEO Brian Armstrong “You Are Full of Sh*t” in Davos Clash Over Claims Banks Are Undermining US Crypto Market Structure Bill [cryptonews](",
           "hot_score": 110.771563,
@@ -420,7 +481,7 @@
           "url": "https://cryptonews.com/news/jpmorgans-dimon-tells-coinbases-armstrong-to-stop-lying-about-crypto-bill/"
         },
         {
-          "clicks": 49,
+          "clicks": 51,
           "date": "2026-01-20T17:18:45.641489+00:00",
           "headline": "Coinbase CEO Brian Armstrong on crypto regulation: Banks should compete on a level playing field",
           "hot_score": 83.05821,
@@ -429,7 +490,7 @@
           "url": "https://www.youtube.com/watch?v=Vq_7hZW5jc4"
         },
         {
-          "clicks": 45,
+          "clicks": 48,
           "date": "2026-01-22T14:28:50.337385+00:00",
           "headline": "\"Bitcoin is a decentralized protocol. There's actually no issuer of it. So in the sense that central banks have independence, Bitcoin is even more independent. There's no country or company or individual who controls it in the world\" - Brian Armstrong answers critics from central bankers at the World Economic Forum in Davos",
           "hot_score": 60.824153,
@@ -438,7 +499,7 @@
           "url": "https://x.com/i/status/2013925760357015594"
         },
         {
-          "clicks": 51,
+          "clicks": 52,
           "date": "2026-04-03T16:41:39.029796+00:00",
           "headline": "Coinbase CEO, Brian Armstrong, pledges personal focus on Bitcoin quantum resistance after Google paper lowers attack threshold",
           "hot_score": 60.542554,
@@ -459,7 +520,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:12:07.756646+00:00",
+      "as_of": "2026-07-29T22:56:57.319938+00:00",
       "editorial": [
         {
           "count": 9,
@@ -514,7 +575,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 17,
+          "count": 23,
           "source": "x.com"
         },
         {
@@ -527,15 +588,15 @@
         },
         {
           "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
           "source": "crowdfundinsider.com"
         },
         {
           "count": 1,
           "source": "dlnews.com"
-        },
-        {
-          "count": 1,
-          "source": "coindesk.com"
         },
         {
           "count": 1,
@@ -556,9 +617,13 @@
         {
           "count": 1,
           "source": "nypost.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
         }
       ],
-      "universe_distinct": 11
+      "universe_distinct": 12
     }
   },
   "official_links": [],
@@ -569,25 +634,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:20.677806+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.255,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0139,
-        "lift_log": 3.089,
-        "score": 0.2545,
-        "shared": 46
-      },
-      "rationale": "Brian Armstrong is the co-founder and CEO of Coinbase.",
-      "relation_type": "founder",
-      "slug": "coinbase",
-      "source": "cotag",
-      "tag_name": "Coinbase",
-      "title": "Coinbase, Explained",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "brian-armstrong",
   "tag_name": "Brian Armstrong",

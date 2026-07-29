@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:12:38.304595+00:00",
+      "as_of": "2026-07-29T22:58:41.585548+00:00",
       "newsroom_total": 38,
-      "overall_share": 88,
+      "overall_share": 86,
       "provenance": "data",
       "series": [
         {
@@ -131,62 +131,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
         }
       ],
-      "total_universe": 43,
-      "universe_total": 5
+      "total_universe": 44,
+      "universe_total": 6
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:12:37.906854+00:00",
+      "as_of": "2026-07-29T22:58:41.320430+00:00",
       "edges": [
         {
+          "confidence": 0.337,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "el-salvador",
-          "phrase": "El Salvador adopted Bitcoin as legal tender and holds a national Bitcoin reserve.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-29",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitcoin-reserve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 34
         },
         {
+          "confidence": 0.223,
+          "description": "Co-covered in 4 approved stories; most recently September 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "el-salvador",
-          "phrase": "Gold is a traditional reserve asset compared to Bitcoin in national reserves.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-09-07",
+          "phrase": "Co-covered in 4 approved stories; most recently September 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "gold",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.2,
+          "description": "Co-covered in 30 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "el-salvador",
-          "phrase": "El Salvador uses Bitcoin as legal tender and promotes its adoption.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-13",
+          "phrase": "Co-covered in 30 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.127,
+          "description": "Co-covered in 14 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "el-salvador",
-          "phrase": "BTC is the ticker for Bitcoin, which El Salvador adopted as legal tender.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 14 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "btc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "el-salvador",
+          "observed_at": null,
           "phrase": "launch",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "launch",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -200,42 +241,62 @@
         },
         {
           "center": false,
+          "confidence": 0.337,
           "name": "Bitcoin Reserve",
+          "observed_at": "2026-03-29",
           "slug": "bitcoin-reserve",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 34
         },
         {
           "center": false,
+          "confidence": 0.223,
           "name": "Gold",
+          "observed_at": "2025-09-07",
           "slug": "gold",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.2,
           "name": "Bitcoin",
+          "observed_at": "2026-07-13",
           "slug": "bitcoin",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.127,
           "name": "BTC",
+          "observed_at": null,
           "slug": "btc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Launch",
+          "observed_at": null,
           "slug": "launch",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -305,16 +366,16 @@
     },
     "reader_signal": {
       "article_count": 38,
-      "as_of": "2026-07-01T12:12:38.758934+00:00",
+      "as_of": "2026-07-29T22:58:41.790001+00:00",
       "most_clicked": {
-        "clicks": 318,
+        "clicks": 322,
         "date": "2024-11-12T00:00:18.286670+00:00",
         "headline": "El Salvador takes a victory lap on their long-term Bitcoin investment",
         "lev_url": "https://leviathannews.xyz/7664/el-salvador-takes-a-victory-lap-on-their-long-term-bitcoin-investment"
       },
       "provenance": "data",
-      "top_decile_share": 24,
-      "total_clicks": 3599
+      "top_decile_share": 23,
+      "total_clicks": 3679
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:45:40.515445+00:00",
@@ -399,10 +460,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:12:38.682727+00:00",
+      "as_of": "2026-07-29T22:58:41.785994+00:00",
       "items": [
         {
-          "clicks": 65,
+          "clicks": 67,
           "date": "2026-03-29T17:14:50.833830+00:00",
           "headline": "El Salvador's Strategic Bitcoin Reserve surpasses 7,600 BTC, now valued at $506M",
           "hot_score": 208.922688,
@@ -411,7 +472,7 @@
           "url": "https://bitcoin.gob.sv/"
         },
         {
-          "clicks": 69,
+          "clicks": 75,
           "date": "2025-11-30T05:36:55.438607+00:00",
           "headline": "Crypto payments firm Truther to launch non-custodial USDT Visa Card in El Salvador on January 29, 2026. The card doesn't require preloading funds or custodial services, and carries a 2% fee on currency conversions, with no IOF tax for Brazilian users. Truther plans to expand its services to other countries, including Argentina, Mexico, Colombia, and Russia, and will integrate more local stablecoins into its self-custody wallet by early 2026.",
           "hot_score": 79.519201,
@@ -420,7 +481,7 @@
           "url": "https://archive.is/QE5JL"
         },
         {
-          "clicks": 318,
+          "clicks": 322,
           "date": "2024-11-12T00:00:18.286670+00:00",
           "headline": "El Salvador takes a victory lap on their long-term Bitcoin investment",
           "hot_score": 0.0,
@@ -429,7 +490,7 @@
           "url": "https://x.com/nayibbukele/status/1856056828108382407"
         },
         {
-          "clicks": 309,
+          "clicks": 313,
           "date": "2024-05-13T10:35:27.941923+00:00",
           "headline": "El Salvador launches online dashboard to monitor its $360MM worth of Bitcoin holdings in realtime",
           "hot_score": 0.0,
@@ -438,7 +499,7 @@
           "url": "https://cointelegraph.com/news/el-salvador-bitcoin-treasury-website"
         },
         {
-          "clicks": 220,
+          "clicks": 223,
           "date": "2025-01-30T09:35:45.954275+00:00",
           "headline": "El Salvador revises Bitcoin adoption strategy to align with $1.4B IMF deal, making BTC acceptance voluntary instead of mandatory for businesses.",
           "hot_score": 0.0,
@@ -447,7 +508,7 @@
           "url": "https://www.theblock.co/post/337885/el-salvador-passes-bill-to-revise-bitcoin-adoption-strategy-per-imf-deal-reuters"
         },
         {
-          "clicks": 178,
+          "clicks": 182,
           "date": "2024-02-05T09:56:23.803784+00:00",
           "headline": "Nayib Bukele claims landslide victory in second term as president of El Salvador, citing overwhelming popular support.",
           "hot_score": 0.0,
@@ -477,7 +538,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:12:38.594154+00:00",
+      "as_of": "2026-07-29T22:58:41.774184+00:00",
       "editorial": [
         {
           "count": 9,
@@ -533,11 +594,11 @@
       "universe": [
         {
           "count": 3,
-          "source": "x.com"
+          "source": "financefeeds.com"
         },
         {
-          "count": 2,
-          "source": "financefeeds.com"
+          "count": 3,
+          "source": "x.com"
         }
       ],
       "universe_distinct": 2
@@ -551,59 +612,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:29.366227+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.2,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0034,
-        "lift_log": 2.091,
-        "score": 0.2005,
-        "shared": 29
-      },
-      "rationale": "El Salvador uses Bitcoin as legal tender and promotes its adoption.",
-      "relation_type": "product",
-      "slug": "bitcoin",
-      "source": "cotag",
-      "tag_name": "Bitcoin",
-      "title": "Bitcoin, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.337,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0337,
-        "lift_log": 4.814,
-        "score": 0.3369,
-        "shared": 3
-      },
-      "rationale": "El Salvador adopted Bitcoin as legal tender and holds a national Bitcoin reserve.",
-      "relation_type": "event",
-      "slug": "bitcoin-reserve",
-      "source": "cotag",
-      "tag_name": "Bitcoin Reserve",
-      "title": "Bitcoin Reserve, Explained",
-      "weight": 34
-    },
-    {
-      "confidence": 0.223,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0054,
-        "lift_log": 2.611,
-        "score": 0.2229,
-        "shared": 4
-      },
-      "rationale": "Gold is a traditional reserve asset compared to Bitcoin in national reserves.",
-      "relation_type": "peer",
-      "slug": "gold",
-      "source": "cotag",
-      "tag_name": "Gold",
-      "title": "Gold, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "el-salvador",
   "tag_name": "El Salvador",

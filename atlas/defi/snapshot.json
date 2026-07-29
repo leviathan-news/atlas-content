@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:43:18.490305+00:00",
-      "newsroom_total": 462,
-      "overall_share": 29,
+      "as_of": "2026-07-29T22:58:08.956958+00:00",
+      "newsroom_total": 466,
+      "overall_share": 24,
       "provenance": "data",
       "series": [
         {
@@ -235,67 +235,102 @@
           "universe": 240
         },
         {
-          "ed_share": 0,
+          "ed_share": 1,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 4
+          "newsroom": 4,
+          "universe": 302
         }
       ],
-      "total_universe": 1609,
-      "universe_total": 1147
+      "total_universe": 1911,
+      "universe_total": 1445
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:43:17.192733+00:00",
+      "as_of": "2026-07-29T22:58:08.673444+00:00",
       "edges": [
         {
+          "confidence": 0.261,
+          "description": "Co-covered in 25 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "defi",
-          "phrase": "Lending is a core DeFi primitive enabling borrowing and lending.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-17",
+          "phrase": "Co-covered in 25 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "lending",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.211,
+          "description": "Co-covered in 6 approved stories; most recently August 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "defi",
-          "phrase": "Developers build and maintain DeFi protocols and dApps.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-08-02",
+          "phrase": "Co-covered in 6 approved stories; most recently August 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "developers",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.183,
+          "description": "Co-covered in 14 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "defi",
-          "phrase": "Michael Egorov is the founder of Curve Finance, a DeFi protocol.",
-          "relation_type": "founder",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "michael-egorov",
-          "weight": 19
-        },
-        {
-          "dir": "out",
-          "from": "defi",
-          "phrase": "FRAX is a DeFi stablecoin protocol within the broader ecosystem.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 14 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "frax",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.169,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "defi",
-          "phrase": "Yearn is a DeFi yield aggregator and ecosystem participant.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "yearn",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
+        },
+        {
+          "confidence": 0.164,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
+          "dir": "out",
+          "from": "defi",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
+          "to": "defillama",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 16
         }
       ],
       "nodes": [
@@ -308,43 +343,63 @@
         },
         {
           "center": false,
+          "confidence": 0.261,
           "name": "Lending",
+          "observed_at": "2026-06-17",
           "slug": "lending",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.211,
           "name": "Developers",
+          "observed_at": "2025-08-02",
           "slug": "developers",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
-          "name": "Michael Egorov",
-          "slug": "michael-egorov",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 19
-        },
-        {
-          "center": false,
+          "confidence": 0.183,
           "name": "FRAX",
+          "observed_at": null,
           "slug": "frax",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.169,
           "name": "Yearn",
+          "observed_at": null,
           "slug": "yearn",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
+        },
+        {
+          "center": false,
+          "confidence": 0.164,
+          "name": "DefiLlama",
+          "observed_at": null,
+          "slug": "defillama",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 16
         }
       ],
       "provenance": "data"
@@ -412,17 +467,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 462,
-      "as_of": "2026-07-01T11:43:21.845076+00:00",
+      "article_count": 466,
+      "as_of": "2026-07-29T22:58:09.446908+00:00",
       "most_clicked": {
-        "clicks": 1145,
+        "clicks": 1152,
         "date": "2024-06-25T14:24:48.557178+00:00",
         "headline": "Introducing Nektar's first LRT Vaults: stUSD Restaking Vault, dlcBTC Bitcoin Staking Pool, and Re7 Nektar ETH Vault, Offering innovative restaking opportunities in partnership with leading DeFi Teams.",
         "lev_url": "https://leviathannews.xyz/6097/introducing-nektars-first-lrt-vaults-stusd-restaking-vault-dlcbtc-bitcoin-staking-pool-and-re7-nektar-eth-vault-offering-innovative-restaking-opportunities-in-partnership-with-lead"
       },
       "provenance": "data",
       "top_decile_share": 30,
-      "total_clicks": 49883
+      "total_clicks": 50517
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:25:16.665854+00:00",
@@ -507,10 +562,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:43:21.707857+00:00",
+      "as_of": "2026-07-29T22:58:09.431671+00:00",
       "items": [
         {
-          "clicks": 111,
+          "clicks": 117,
           "date": "2026-04-08T20:11:07.317886+00:00",
           "headline": "DefiLlama integrates LlamaAI alerts into Telegram, enabling customizable daily notifications for onchain trends and DeFi news",
           "hot_score": 314047.489601,
@@ -519,7 +574,7 @@
           "url": "https://x.com/defillama/status/2041961903056961656?s=46"
         },
         {
-          "clicks": 78,
+          "clicks": 80,
           "date": "2026-04-10T12:04:17.779821+00:00",
           "headline": "IPOR Labs proposes utility-based pricing model for RWA liquidity in DeFi, helping investors decide between instant sale or delayed redemption using risk-adjusted certainty equivalents",
           "hot_score": 4643.147802,
@@ -528,7 +583,16 @@
           "url": "https://x.com/i/status/2042261702138343534"
         },
         {
-          "clicks": 53,
+          "clicks": 29,
+          "date": "2026-07-02T07:33:45.286764+00:00",
+          "headline": "Ethereum Layer 2 Taiko finalizes post-exploit recovery with bridge reopening, confirming full network restoration as a detailed post-mortem nears release",
+          "hot_score": 745.556136,
+          "lev_url": "https://leviathannews.xyz/267258/the-block-ethereum-layer-2-taiko-has-reopened-its-bridge-marking-the-last-step-of-recovery-after-last-months-exploit-our-response-is-complete-the-network-is-fully-restored-a",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260702073000_f-hcskx4dJEt.jpg",
+          "url": "https://x.com/theblockco/status/2072554182230388953"
+        },
+        {
+          "clicks": 57,
           "date": "2026-06-09T17:58:17.647736+00:00",
           "headline": "DefiLlama Research highlights how Starknet is reimagining privacy with the release of the STRK20 privacy token standard.",
           "hot_score": 727.001777,
@@ -546,7 +610,7 @@
           "url": "https://www.coindesk.com/business/2026/06/02/defi-won-t-win-over-big-banks-until-it-fixes-its-hacking-problem-executives-say"
         },
         {
-          "clicks": 115,
+          "clicks": 117,
           "date": "2026-04-01T07:39:39.066482+00:00",
           "headline": "Tangent cracks interest-free DeFi lending — 0% $USG loans on Curve LPs, funded by redirecting your collateral's emissions",
           "hot_score": 661.946171,
@@ -555,7 +619,7 @@
           "url": "https://x.com/Tangent_fi/status/2039009361196912844"
         },
         {
-          "clicks": 79,
+          "clicks": 82,
           "date": "2026-03-24T09:57:06.149201+00:00",
           "headline": "Balancer came within inches of full shutdown before founder intervened with tokenomics overhaul, 0xngmi reveals",
           "hot_score": 486.433346,
@@ -564,31 +628,22 @@
           "url": "https://x.com/0xngmi/status/2036189205571780947"
         },
         {
-          "clicks": 153,
-          "date": "2026-03-01T19:17:54.847151+00:00",
-          "headline": "\"The Financial Infrastructure Layer\"\n\nA new article by Stani Kulechov, founder and CEO of Aave Labs",
-          "hot_score": 437.416563,
-          "lev_url": "https://leviathannews.xyz/37584/the-financial-infrastructure-layera-new-article-by-stani-kulechov-founder-and-ceo-of-aave-labs",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260301191645_sQMPpdjtTfA=.jpg",
-          "url": "https://x.com/StaniKulechov/status/2028186201455251955"
-        },
-        {
-          "clicks": 87,
-          "date": "2026-03-04T15:40:56.499876+00:00",
-          "headline": "Angle Protocol to wind down after facing acute adoption challenges",
-          "hot_score": 431.61376,
-          "lev_url": "https://leviathannews.xyz/40402/no-headline-20260304",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260304153536_3yx51YUFZRM=.jpg",
-          "url": "https://vxtwitter.com/AngleProtocol/status/2029161525580112263?s=20"
+          "clicks": 37,
+          "date": "2026-07-23T06:32:03.152299+00:00",
+          "headline": "Variant leads seed round for Tenor, a decentralized finance protocol focused on fixed-income lending",
+          "hot_score": 474.206348,
+          "lev_url": "https://leviathannews.xyz/280444/variant-leads-seed-round-in-tenor",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260723041133_9ZRoTzX-5SA1.jpg",
+          "url": "https://x.com/tenorfinance/status/2079944150418432279"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:43:21.380940+00:00",
+      "as_of": "2026-07-29T22:58:09.381697+00:00",
       "editorial": [
         {
-          "count": 188,
+          "count": 192,
           "source": "x.com"
         },
         {
@@ -640,39 +695,39 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 705,
+          "count": 909,
           "source": "x.com"
         },
         {
-          "count": 49,
+          "count": 61,
           "source": "financefeeds.com"
         },
         {
-          "count": 42,
+          "count": 54,
           "source": "cointelegraph.com"
         },
         {
-          "count": 33,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 33,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 31,
+          "count": 41,
           "source": "wsj.com"
         },
         {
-          "count": 30,
+          "count": 39,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 37,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 35,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 22,
+          "count": 27,
           "source": "theblock.co"
         },
         {
-          "count": 20,
+          "count": 22,
           "source": "chainwire.org"
         },
         {
@@ -684,11 +739,11 @@
           "source": "markets.businessinsider.com"
         },
         {
-          "count": 10,
+          "count": 11,
           "source": "truthsocial.com"
         }
       ],
-      "universe_distinct": 76
+      "universe_distinct": 89
     }
   },
   "official_links": [],
@@ -699,42 +754,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:26.880803+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.211,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0091,
-        "lift_log": 2.305,
-        "score": 0.2105,
-        "shared": 6
-      },
-      "rationale": "Developers build and maintain DeFi protocols and dApps.",
-      "relation_type": "infrastructure",
-      "slug": "developers",
-      "source": "cotag",
-      "tag_name": "Developers",
-      "title": "Developers, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.261,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0345,
-        "lift_log": 3.113,
-        "score": 0.2607,
-        "shared": 25
-      },
-      "rationale": "Lending is a core DeFi primitive enabling borrowing and lending.",
-      "relation_type": "primitive",
-      "slug": "lending",
-      "source": "cotag",
-      "tag_name": "Lending",
-      "title": "Lending, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "defi",
   "tag_name": "DeFi",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:16:09.786582+00:00",
+      "as_of": "2026-07-29T22:56:14.485302+00:00",
       "newsroom_total": 4,
-      "overall_share": 18,
+      "overall_share": 15,
       "provenance": "data",
       "series": [
         {
@@ -53,62 +53,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 5
         }
       ],
-      "total_universe": 22,
-      "universe_total": 18
+      "total_universe": 27,
+      "universe_total": 23
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:16:09.460920+00:00",
+      "as_of": "2026-07-29T22:56:14.177956+00:00",
       "edges": [
         {
+          "confidence": 0.258,
+          "description": "Co-covered in 7 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "astar",
-          "phrase": "Tokenomics is a broader class that includes Astar's economic model.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-16",
+          "phrase": "Co-covered in 7 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "tokenomics",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.176,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "astar",
-          "phrase": "Staking is a core DeFi mechanism used in Astar's network.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "staking",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.16,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "astar",
-          "phrase": "Stablecoins are a different category; unsure of direct relation.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "astar",
+          "observed_at": null,
           "phrase": "infrastructure",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "astar",
+          "observed_at": null,
           "phrase": "Japan",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "japan",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -122,42 +163,62 @@
         },
         {
           "center": false,
+          "confidence": 0.258,
           "name": "Tokenomics",
+          "observed_at": "2026-03-16",
           "slug": "tokenomics",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.176,
           "name": "Staking",
+          "observed_at": null,
           "slug": "staking",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.16,
           "name": "Stablecoins",
+          "observed_at": null,
           "slug": "stablecoins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Infrastructure",
+          "observed_at": null,
           "slug": "infrastructure",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Japan",
+          "observed_at": null,
           "slug": "japan",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -221,16 +282,16 @@
     },
     "reader_signal": {
       "article_count": 4,
-      "as_of": "2026-07-01T12:16:10.307824+00:00",
+      "as_of": "2026-07-29T22:56:14.694929+00:00",
       "most_clicked": {
-        "clicks": 228,
+        "clicks": 234,
         "date": "2025-05-08T09:09:42.208095+00:00",
         "headline": "Astar Foundation proposes shifting ASTR tokenomics from a dynamic inflationary model to a fixed supply of ~10.5B tokens",
         "lev_url": "https://leviathannews.xyz/11121/astar-foundation-proposes-shifting-astr-tokenomics-from-a-dynamic-inflationary-model-to-a-fixed-supply-of-105b-tokens"
       },
       "provenance": "data",
-      "top_decile_share": 51,
-      "total_clicks": 449
+      "top_decile_share": 50,
+      "total_clicks": 465
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:41:06.459503+00:00",
@@ -315,10 +376,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:16:10.232533+00:00",
+      "as_of": "2026-07-29T22:56:14.691529+00:00",
       "items": [
         {
-          "clicks": 228,
+          "clicks": 234,
           "date": "2025-05-08T09:09:42.208095+00:00",
           "headline": "Astar Foundation proposes shifting ASTR tokenomics from a dynamic inflationary model to a fixed supply of ~10.5B tokens",
           "hot_score": 0.0,
@@ -327,7 +388,7 @@
           "url": "https://forum.astar.network/t/proposal-to-change-astr-tokenomics-to-fixed-supply/8487"
         },
         {
-          "clicks": 104,
+          "clicks": 106,
           "date": "2025-04-16T10:00:19.483625+00:00",
           "headline": "Astar, AltLayer, and EigenLayer unite to launch Fast Finality Layer — Empowering ASTR as Soneium’s staking backbone",
           "hot_score": 0.0,
@@ -336,7 +397,7 @@
           "url": "https://astar.network/blog/astar-alt-layer-and-eigen-layer-unite-to-launch-fast-finality-layer-empowering-astr-as-soneium-s-staking-backbone-192"
         },
         {
-          "clicks": 72,
+          "clicks": 76,
           "date": "2024-06-04T17:17:27.162045+00:00",
           "headline": "Japanese blockchain Astar proposes $38M token burn",
           "hot_score": 0.0,
@@ -345,7 +406,7 @@
           "url": "https://cointelegraph.com/news/japanese-blockchain-astar-proposes-token-burn"
         },
         {
-          "clicks": 45,
+          "clicks": 49,
           "date": "2025-05-21T09:46:22.226885+00:00",
           "headline": "Animoca Brands Invests in Astar Network to pioneer Web3 entertainment and empower Asian IPs",
           "hot_score": 0.0,
@@ -357,7 +418,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:16:10.150869+00:00",
+      "as_of": "2026-07-29T22:56:14.684341+00:00",
       "editorial": [
         {
           "count": 2,
@@ -376,11 +437,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 15,
+          "count": 19,
           "source": "x.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "astar.network"
         },
         {
@@ -405,25 +466,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:16.921539+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.258,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0104,
-        "lift_log": 3.324,
-        "score": 0.2585,
-        "shared": 7
-      },
-      "rationale": "Tokenomics is a broader class that includes Astar's economic model.",
-      "relation_type": "category",
-      "slug": "tokenomics",
-      "source": "cotag",
-      "tag_name": "Tokenomics",
-      "title": "Tokenomics, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "astar",
   "tag_name": "Astar",

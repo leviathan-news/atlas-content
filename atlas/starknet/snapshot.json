@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:00:23.018819+00:00",
-      "newsroom_total": 29,
-      "overall_share": 33,
+      "as_of": "2026-07-29T23:04:56.660524+00:00",
+      "newsroom_total": 32,
+      "overall_share": 30,
       "provenance": "data",
       "series": [
         {
@@ -121,66 +121,101 @@
           "universe": 12
         },
         {
-          "ed_share": 0,
+          "ed_share": 16,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 1
+          "newsroom": 3,
+          "universe": 16
         }
       ],
-      "total_universe": 89,
-      "universe_total": 60
+      "total_universe": 107,
+      "universe_total": 75
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:00:21.831767+00:00",
+      "as_of": "2026-07-29T23:04:56.370163+00:00",
       "edges": [
         {
+          "confidence": 0.273,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "starknet",
-          "phrase": "Starknet is a Layer 2 scaling solution for Ethereum.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-12",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "layer-2",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.244,
+          "description": "Co-covered in 11 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "starknet",
-          "phrase": "Starknet focuses on scalability, not privacy; related but distinct.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-15",
+          "phrase": "Co-covered in 11 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "privacy",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.167,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "starknet",
-          "phrase": "Starknet uses zero-knowledge proofs (ZK-STARKs) for validity.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "zk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.15,
+          "description": "Co-covered in 20 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "starknet",
-          "phrase": "Starknet is an Ethereum L2, not directly related to Bitcoin.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 20 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.149,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "starknet",
-          "phrase": "Starknet is a specific implementation of an L2.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "l2",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -194,42 +229,62 @@
         },
         {
           "center": false,
+          "confidence": 0.273,
           "name": "Layer 2",
+          "observed_at": "2026-05-12",
           "slug": "layer-2",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.244,
           "name": "Privacy",
+          "observed_at": "2026-07-15",
           "slug": "privacy",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.167,
           "name": "ZK",
+          "observed_at": null,
           "slug": "zk",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.15,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.149,
           "name": "L2",
+          "observed_at": null,
           "slug": "l2",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -298,17 +353,17 @@
       "source": "https://www.starknet.io/blog/make-all-erc-20-tokens-private-with-strk20/"
     },
     "reader_signal": {
-      "article_count": 29,
-      "as_of": "2026-07-01T12:00:23.693759+00:00",
+      "article_count": 32,
+      "as_of": "2026-07-29T23:04:57.049010+00:00",
       "most_clicked": {
-        "clicks": 279,
+        "clicks": 289,
         "date": "2024-02-19T13:18:59.468003+00:00",
         "headline": "Airdrop farmers are now spamming GitHub in light of Starknet, Celestia distributions.",
         "lev_url": "https://leviathannews.xyz/4017/airdrop-farmers-are-now-spamming-github-in-light-of-starknet-celestia-distributions"
       },
       "provenance": "data",
-      "top_decile_share": 23,
-      "total_clicks": 2078
+      "top_decile_share": 30,
+      "total_clicks": 2239
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:44:37.437058+00:00",
@@ -387,10 +442,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:00:23.611026+00:00",
+      "as_of": "2026-07-29T23:04:57.040230+00:00",
       "items": [
         {
-          "clicks": 50,
+          "clicks": 51,
           "date": "2026-04-13T14:17:25.526479+00:00",
           "headline": "StarkWare cuts staff and restructures into two units to drive revenue, splitting into applications and Starknet development teams as it pivots beyond infrastructure",
           "hot_score": 7766.961593,
@@ -399,16 +454,16 @@
           "url": "https://www.theblock.co/post/397173/starkware-cuts-staff-reorganizes-into-two-units-as-it-targets-revenue"
         },
         {
-          "clicks": 13,
+          "clicks": 26,
           "date": "2026-06-30T16:37:38.723402+00:00",
           "headline": "StarkWare lays out 3-phase quantum-proofing plan for Starknet as Ben-Sasson tells crypto to stop stalling",
-          "hot_score": 3406.902671,
+          "hot_score": 784.393164,
           "lev_url": "https://leviathannews.xyz/265530/starkware-lays-out-3-phase-quantum-proofing-plan-for-starknet-as-ben-sasson-tells-crypto-to-stop-stalling",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630135558_Z4zrlaiDPw==.png",
           "url": "https://cointelegraph.com/news/starkware-ceo-blasts-crypto-complacency-in-quantum-threat-elliptic-illusion"
         },
         {
-          "clicks": 53,
+          "clicks": 57,
           "date": "2026-06-09T17:58:17.647736+00:00",
           "headline": "DefiLlama Research highlights how Starknet is reimagining privacy with the release of the STRK20 privacy token standard.",
           "hot_score": 727.001777,
@@ -417,58 +472,58 @@
           "url": "https://defillama.com/research/spotlight/how-starknet-is-reimagining-privacy-with-strk20"
         },
         {
-          "clicks": 20,
+          "clicks": 32,
+          "date": "2026-07-14T11:11:05.953062+00:00",
+          "headline": "Starknet makes viewer keys mandatory for STRK20 deposits, allowing scoped disclosure under lawful requests",
+          "hot_score": 621.03978,
+          "lev_url": "https://leviathannews.xyz/274729/starknet-makes-viewer-keys-mandatory-for-strk20-deposits-allowing-scoped-disclosure-under-lawful-requests",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260714105031_Z4zrlaiDPw==.png",
+          "url": "https://www.starknet.io/blog/compliance-layer-onchain-privacy-strk20/"
+        },
+        {
+          "clicks": 36,
+          "date": "2026-07-15T12:46:57.144948+00:00",
+          "headline": "Starknet opens STRK20 Privacy SDK and Wallet API for private transfers, swaps and DeFi integrations",
+          "hot_score": 612.037437,
+          "lev_url": "https://leviathannews.xyz/275709/starknet-opens-strk20-privacy-sdk-and-wallet-api-for-private-transfers-swaps-and-defi-integrations",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260715120554_Z4zrlaiDPw==.png",
+          "url": "https://www.starknet.io/blog/push-to-private/"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-07-03T19:29:28.751736+00:00",
+          "headline": "Starknet launches low-fee STRK20s privacy pool on mainnet for all ERC-20s via Ready and Xverse",
+          "hot_score": 595.143559,
+          "lev_url": "https://leviathannews.xyz/268545/starknet-launches-low-fee-strk20s-privacy-pool-on-mainnet-for-all-erc-20s-via-ready-and-xverse",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260703181422_Z4zrlaiDPw==.png",
+          "url": "https://x.com/starkwareltd/status/2073088809030320488"
+        },
+        {
+          "clicks": 26,
           "date": "2026-06-25T18:15:16.706197+00:00",
           "headline": "Starknet adds shielded USDC balances and private transfers through STRK20, with Ready and XVerse integrations",
-          "hot_score": 719.658316,
+          "hot_score": 533.357747,
           "lev_url": "https://leviathannews.xyz/262860/starknet-adds-shielded-usdc-balances-and-private-transfers-through-strk20-with-ready-and-xverse-integrations",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625171250_Z4zrlaiDPw==.png",
           "url": "https://www.starknet.io/blog/privacy-features-for-usdc-on-starknet/"
         },
         {
-          "clicks": 31,
+          "clicks": 32,
           "date": "2026-04-20T19:08:01.371789+00:00",
           "headline": "Starknet v0.14.2 lands on mainnet with native privacy, adds STRK20 encrypted tokens and shielded strkBTC",
           "hot_score": 508.0,
           "lev_url": "https://leviathannews.xyz/233635/starknet-v0142-lands-on-mainnet-with-native-privacy-adds-strk20-encrypted-tokens-and-shielded-strkbtc",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420142939_Z4zrlaiDPw==.png",
           "url": "https://www.starknet.io/blog/starknet-v0-14-2-the-privacy-engine-arrives/"
-        },
-        {
-          "clicks": 77,
-          "date": "2026-03-12T06:33:12.080568+00:00",
-          "headline": "Starknet introduces STRK20, enabling any ERC-20 token to gain built-in privacy with zero-knowledge proofs and no extra integrations",
-          "hot_score": 489.321161,
-          "lev_url": "https://leviathannews.xyz/208412/starknet-introduces-strk20-enabling-any-erc-20-token-to-gain-built-in-privacy-with-zero-knowledge-proofs-and-no-extra-integrations",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260312021958_uflJnzTTu_5v.jpg",
-          "url": "https://x.com/i/status/2031733289384329635"
-        },
-        {
-          "clicks": 47,
-          "date": "2026-05-25T16:54:25.025571+00:00",
-          "headline": "Starknet says STRK20 lets every ERC-20 on Starknet enter private state in June without wrappers",
-          "hot_score": 477.40737,
-          "lev_url": "https://leviathannews.xyz/247975/starknet-says-strk20-lets-every-erc-20-on-starknet-enter-private-state-in-june-without-wrappers",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260525161554_Z4zrlaiDPw==.png",
-          "url": "https://x.com/starknet/status/2058921735085510909"
-        },
-        {
-          "clicks": 45,
-          "date": "2026-06-09T12:50:29.619043+00:00",
-          "headline": "STRK20 goes live on Starknet with shielded balances and private transfers for any ERC-20",
-          "hot_score": 455.076772,
-          "lev_url": "https://leviathannews.xyz/254751/strk20-goes-live-on-starknet-with-shielded-balances-and-private-transfers-for-any-erc-20",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260609124835_oIt-Zcz9iWS-.jpg",
-          "url": "https://www.theblock.co/post/404008/starknet-rolls-out-zk-privacy-layer-for-erc20-balances-and-transfers"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:00:23.525312+00:00",
+      "as_of": "2026-07-29T23:04:57.026027+00:00",
       "editorial": [
         {
-          "count": 12,
+          "count": 13,
           "source": "x.com"
         },
         {
@@ -476,7 +531,7 @@
           "source": "theblock.co"
         },
         {
-          "count": 2,
+          "count": 4,
           "source": "starknet.io"
         },
         {
@@ -512,11 +567,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 44,
+          "count": 58,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 10,
           "source": "starknet.io"
         },
         {
@@ -547,42 +602,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:57.892344+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.273,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0212,
-        "lift_log": 3.54,
-        "score": 0.2729,
-        "shared": 3
-      },
-      "rationale": "Starknet is a Layer 2 scaling solution for Ethereum.",
-      "relation_type": "category",
-      "slug": "layer-2",
-      "source": "cotag",
-      "tag_name": "Layer 2",
-      "title": "Layer 2, Explained",
-      "weight": 27
-    },
-    {
-      "confidence": 0.244,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0216,
-        "lift_log": 2.893,
-        "score": 0.2442,
-        "shared": 8
-      },
-      "rationale": "Starknet focuses on scalability, not privacy; related but distinct.",
-      "relation_type": "peer",
-      "slug": "privacy",
-      "source": "cotag",
-      "tag_name": "Privacy",
-      "title": "Privacy, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "starknet",
   "tag_name": "Starknet",

@@ -1,11 +1,17 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:44:49.785940+00:00",
-      "newsroom_total": 74,
-      "overall_share": 17,
+      "as_of": "2026-07-29T22:59:20.154826+00:00",
+      "newsroom_total": 83,
+      "overall_share": 15,
       "provenance": "data",
       "series": [
+        {
+          "ed_share": null,
+          "month": "2025-01",
+          "newsroom": 1,
+          "universe": 0
+        },
         {
           "ed_share": 0,
           "month": "2026-02",
@@ -31,66 +37,107 @@
           "universe": 57
         },
         {
-          "ed_share": 17,
+          "ed_share": 16,
           "month": "2026-06",
           "newsroom": 18,
-          "universe": 90
+          "universe": 92
+        },
+        {
+          "ed_share": 8,
+          "month": "2026-07",
+          "newsroom": 8,
+          "universe": 98
         }
       ],
-      "total_universe": 438,
-      "universe_total": 364
+      "total_universe": 547,
+      "universe_total": 464
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:44:48.952323+00:00",
+      "as_of": "2026-07-29T22:59:19.897927+00:00",
       "edges": [
         {
+          "confidence": 0.21,
+          "description": "Co-covered in 4 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "funding",
-          "phrase": "Funding costs are influenced by interest rates.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-17",
+          "phrase": "Co-covered in 4 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "rates",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 18 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "funding",
-          "phrase": "Seed round is an early stage of funding.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 18 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "seed-round",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.157,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "funding",
-          "phrase": "Futures trading can be funded or used for hedging.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "futures",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.129,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "funding",
-          "phrase": "Series A is a later stage of funding.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "series-a",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.12,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "funding",
-          "phrase": "Valuation determines the amount raised in funding.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "valuation",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         }
       ],
@@ -104,42 +151,62 @@
         },
         {
           "center": false,
+          "confidence": 0.21,
           "name": "Rates",
+          "observed_at": "2026-04-17",
           "slug": "rates",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "Seed Round",
+          "observed_at": null,
           "slug": "seed-round",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.157,
           "name": "Futures",
+          "observed_at": null,
           "slug": "futures",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.129,
           "name": "Series A",
+          "observed_at": null,
           "slug": "series-a",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.12,
           "name": "Valuation",
+          "observed_at": null,
           "slug": "valuation",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         }
       ],
@@ -202,17 +269,17 @@
       "source": "https://news.crunchbase.com/venture/us-ai-startup-funding-boom-data/"
     },
     "reader_signal": {
-      "article_count": 74,
-      "as_of": "2026-07-01T11:44:50.726366+00:00",
+      "article_count": 83,
+      "as_of": "2026-07-29T22:59:20.571550+00:00",
       "most_clicked": {
-        "clicks": 207,
+        "clicks": 209,
         "date": "2026-03-01T14:36:50.564472+00:00",
         "headline": "February fintech funding tops $1bn with 29 deals as platforms expand",
         "lev_url": "https://leviathannews.xyz/37408/february-fintech-funding-tops-1bn-with-29-deals-as-platforms-expand"
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 3444
+      "total_clicks": 4078
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:50:27.127254+00:00",
@@ -297,10 +364,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:44:50.627879+00:00",
+      "as_of": "2026-07-29T22:59:20.562645+00:00",
       "items": [
         {
-          "clicks": 104,
+          "clicks": 106,
           "date": "2026-04-09T08:57:30.613676+00:00",
           "headline": "Perplexity launches “Billion Dollar Build,” an 8-week competition challenging teams to create startups with $1B potential using its AI tools, offering up to $2M in funding and credits",
           "hot_score": 13305.560001,
@@ -309,7 +376,7 @@
           "url": "https://x.com/i/status/2041929222135173466"
         },
         {
-          "clicks": 59,
+          "clicks": 61,
           "date": "2026-04-09T09:16:25.086654+00:00",
           "headline": "Base unveils Batch 003 accelerator, selecting 12 teams from 1,100+ applicants to build DeFi, AI, and prediction market startups with funding support and Demo Day in SF",
           "hot_score": 13302.988395,
@@ -318,7 +385,7 @@
           "url": "https://x.com/i/status/2041999145427464301"
         },
         {
-          "clicks": 102,
+          "clicks": 104,
           "date": "2026-04-08T22:19:48.586283+00:00",
           "headline": "Monad Foundation rolls out device subsidy program for teams with $2.5M+ TVL, funding dedicated signing laptops to boost multisig and treasury security across its ecosystem",
           "hot_score": 12179.124699,
@@ -327,7 +394,7 @@
           "url": "https://x.com/i/status/2041932260077637645"
         },
         {
-          "clicks": 57,
+          "clicks": 60,
           "date": "2026-04-10T14:12:53.198170+00:00",
           "headline": "MoonPay partners with Moto Card to integrate virtual accounts via Iron, enabling instant fiat funding for crypto-backed Visa Infinite cards with BNPL perks and up to 5% cashback",
           "hot_score": 4262.847068,
@@ -336,7 +403,7 @@
           "url": "https://x.com/i/status/2042255248262132183"
         },
         {
-          "clicks": 26,
+          "clicks": 32,
           "date": "2026-04-14T16:54:38.869038+00:00",
           "headline": "Pumpcade closes oversubscribed $5M funding round, sails ahead with instant-resolution prediction markets.",
           "hot_score": 3783.287018,
@@ -345,7 +412,7 @@
           "url": "https://x.com/pumpcade/status/2044053149451743586"
         },
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-04-16T06:52:37.612115+00:00",
           "headline": "Propr unveils Hyperliquid trading platform, providing up to $100,000 funding to seize trading opportunities.",
           "hot_score": 3725.035834,
@@ -354,7 +421,7 @@
           "url": "https://x.com/ProprXYZ/status/2044416179209486756"
         },
         {
-          "clicks": 40,
+          "clicks": 44,
           "date": "2026-04-10T18:32:02.290342+00:00",
           "headline": "a16z reports Q1 2026 as the largest venture funding quarter on record, signaling renewed investor appetite and accelerating capital flows into tech and startup ecosystems",
           "hot_score": 3520.481267,
@@ -375,19 +442,23 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:44:50.539373+00:00",
+      "as_of": "2026-07-29T22:59:20.547005+00:00",
       "editorial": [
         {
-          "count": 41,
+          "count": 47,
           "source": "x.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "coindesk.com"
         },
         {
           "count": 3,
           "source": "globenewswire.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
         },
         {
           "count": 2,
@@ -400,10 +471,6 @@
         {
           "count": 2,
           "source": "cointelegraph.com"
-        },
-        {
-          "count": 2,
-          "source": "theblock.co"
         },
         {
           "count": 2,
@@ -426,36 +493,44 @@
           "source": "nytimes.com"
         }
       ],
-      "editorial_distinct": 24,
+      "editorial_distinct": 25,
       "provenance": "data",
       "universe": [
         {
-          "count": 245,
+          "count": 318,
           "source": "x.com"
         },
         {
-          "count": 25,
+          "count": 29,
           "source": "theblock.co"
         },
         {
-          "count": 17,
+          "count": 20,
           "source": "cointelegraph.com"
         },
         {
-          "count": 13,
+          "count": 17,
           "source": "financefeeds.com"
         },
         {
-          "count": 10,
+          "count": 12,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 10,
+          "count": 12,
           "source": "decrypt.co"
         },
         {
-          "count": 9,
+          "count": 11,
           "source": "coindesk.com"
+        },
+        {
+          "count": 5,
+          "source": "treeofalpha.com"
+        },
+        {
+          "count": 4,
+          "source": "truthsocial.com"
         },
         {
           "count": 3,
@@ -468,17 +543,9 @@
         {
           "count": 3,
           "source": "chainwire.org"
-        },
-        {
-          "count": 3,
-          "source": "treeofalpha.com"
-        },
-        {
-          "count": 3,
-          "source": "truthsocial.com"
         }
       ],
-      "universe_distinct": 28
+      "universe_distinct": 33
     }
   },
   "official_links": [],
@@ -489,25 +556,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:32.731955+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.21,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0087,
-        "lift_log": 2.298,
-        "score": 0.2103,
-        "shared": 4
-      },
-      "rationale": "Funding costs are influenced by interest rates.",
-      "relation_type": "peer",
-      "slug": "rates",
-      "source": "cotag",
-      "tag_name": "Rates",
-      "title": "Rates, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "funding",
   "tag_name": "Funding",

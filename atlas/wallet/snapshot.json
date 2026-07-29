@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:43:27.504106+00:00",
-      "newsroom_total": 66,
+      "as_of": "2026-07-29T23:06:34.324417+00:00",
+      "newsroom_total": 95,
       "overall_share": 6,
       "provenance": "data",
       "series": [
@@ -34,69 +34,104 @@
           "ed_share": 9,
           "month": "2026-06",
           "newsroom": 23,
-          "universe": 226
+          "universe": 228
         },
         {
-          "ed_share": 0,
+          "ed_share": 6,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 10
+          "newsroom": 29,
+          "universe": 443
         }
       ],
-      "total_universe": 1129,
-      "universe_total": 1063
+      "total_universe": 1593,
+      "universe_total": 1498
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:43:26.190212+00:00",
+      "as_of": "2026-07-29T23:06:33.982833+00:00",
       "edges": [
         {
+          "confidence": 0.216,
+          "description": "Co-covered in 27 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wallet",
-          "phrase": "Trust Wallet is a competing mobile wallet.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-02",
+          "phrase": "Co-covered in 27 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "trust-wallet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.187,
+          "description": "Co-covered in 20 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wallet",
-          "phrase": "Unclear relation; likely unrelated.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 20 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wallet",
-          "phrase": "Wallets is the broader category of wallet.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "wallets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.155,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wallet",
-          "phrase": "Malware poses a security risk to wallets.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "malware",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.147,
+          "description": "Co-covered in 39 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wallet",
-          "phrase": "USDC is a stablecoin often held in wallets.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 39 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "usdc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -110,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.216,
           "name": "Trust Wallet",
+          "observed_at": "2026-07-02",
           "slug": "trust-wallet",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.187,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "wallets",
+          "observed_at": null,
           "slug": "wallets",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.155,
           "name": "malware",
+          "observed_at": null,
           "slug": "malware",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.147,
           "name": "USDC",
+          "observed_at": null,
           "slug": "usdc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -214,17 +269,17 @@
       "source": "https://www.investopedia.com/terms/p/private-key.asp"
     },
     "reader_signal": {
-      "article_count": 66,
-      "as_of": "2026-07-01T11:43:32.196586+00:00",
+      "article_count": 95,
+      "as_of": "2026-07-29T23:06:35.016031+00:00",
       "most_clicked": {
-        "clicks": 112,
+        "clicks": 116,
         "date": "2026-05-21T07:21:56.837921+00:00",
         "headline": "WalletConnect unveils compliance framework combining Travel Rule data collection and wallet ownership verification inside stablecoin payment flows",
         "lev_url": "https://leviathannews.xyz/246203/the-travel-rule-requires-financial-institutions-to-exchange-information-about-their-respective-customers-on-either-side-of-a-funds-wire-transfer-the-travel-rule-is-adopted-across"
       },
       "provenance": "data",
       "top_decile_share": 17,
-      "total_clicks": 2724
+      "total_clicks": 4131
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:34:32.304435+00:00",
@@ -309,10 +364,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:43:32.002877+00:00",
+      "as_of": "2026-07-29T23:06:34.994378+00:00",
       "items": [
         {
-          "clicks": 83,
+          "clicks": 84,
           "date": "2026-04-09T08:57:38.266453+00:00",
           "headline": "Delphi Digital says crypto privacy is finally “coming together” as advances in zero-knowledge pools, FHE, and wallet integration reshape compliance and default user anonymity",
           "hot_score": 13548.914893,
@@ -321,7 +376,7 @@
           "url": "https://x.com/i/status/2042054650770403530"
         },
         {
-          "clicks": 31,
+          "clicks": 33,
           "date": "2026-04-14T13:51:48.867531+00:00",
           "headline": "Tether launches tether.wallet, the people’s wallet, extending its global financial infrastructure directly to billions of users left behind by the traditional financial system.",
           "hot_score": 4170.403231,
@@ -330,7 +385,7 @@
           "url": "https://tether.io/news/tether-launches-tether-wallet-the-peoples-wallet-extending-its-global-financial-infrastructure-directly-to-billions-of-users-left-behind-by-the-traditional-financial-system/"
         },
         {
-          "clicks": 29,
+          "clicks": 30,
           "date": "2026-04-14T20:01:10.994901+00:00",
           "headline": "Rakuten Wallet integrates XRP for 44M users, enabling spending at 5M merchants across Japan",
           "hot_score": 3917.219272,
@@ -339,7 +394,7 @@
           "url": "https://www.coindesk.com/business/2026/04/14/rakuten-to-allow-xrp-to-be-used-as-payment-method-by-its-44-million-customers"
         },
         {
-          "clicks": 49,
+          "clicks": 52,
           "date": "2026-04-15T11:35:58.621393+00:00",
           "headline": "eToro acquires keyless wallet startup Zengo for $70M, bringing self-custody to its 40M-user platform",
           "hot_score": 3204.315828,
@@ -348,22 +403,13 @@
           "url": "https://www.bloomberg.com/news/articles/2026-04-15/etoro-etor-to-acquire-crypto-wallet-startup-zengo-in-70-million-deal"
         },
         {
-          "clicks": 54,
+          "clicks": 55,
           "date": "2026-04-11T04:49:18.168009+00:00",
           "headline": "Zerion shuts down web app after detecting suspicious activity, confirms user funds are safe and unaffected across mobile apps and browser extension",
           "hot_score": 3130.742554,
           "lev_url": "https://leviathannews.xyz/226587/zerion-shuts-down-web-app-after-detecting-suspicious-activity-confirms-user-funds-are-safe-and-unaffected-across-mobile-apps-and-browser-extension",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411044949_Vc33d8ORHjGp.jpg",
           "url": "https://x.com/zerion/status/2042713634686799885?s=20"
-        },
-        {
-          "clicks": 17,
-          "date": "2026-06-29T07:40:45.582378+00:00",
-          "headline": "Zcash developers rally around a “breach all gates” vision as ZODL ships major wallet upgrades, advances Ironwood migration, and expands privacy-focused infrastructure",
-          "hot_score": 2532.140606,
-          "lev_url": "https://leviathannews.xyz/264395/breach-all-gates-zcash-update",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629072058_Sf-cvc1g3CeA.jpg",
-          "url": "https://x.com/jswihart/status/2071454270470131862"
         },
         {
           "clicks": 40,
@@ -375,7 +421,16 @@
           "url": "https://www.coindesk.com/business/2026/04/16/one-person-holds-the-keys-to-usd200-million-of-a-project-s-crypto-his-co-founder-says-that-has-to-end"
         },
         {
-          "clicks": 44,
+          "clicks": 31,
+          "date": "2026-07-28T11:30:56.918587+00:00",
+          "headline": "1inch launches Aqua across 13 chains, letting liquidity providers deploy one wallet balance across multiple positions without fragmenting capital or surrendering custody",
+          "hot_score": 2398.74146,
+          "lev_url": "https://leviathannews.xyz/283220/1inch-opens-aqua-liquidity-protocol-across-13-chains-20260728",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728111946_ZQEQfGKlZsa6.png",
+          "url": "https://www.coindesk.com/web3/2026/07/27/1inch-opens-aqua-liquidity-protocol-across-13-chains"
+        },
+        {
+          "clicks": 49,
           "date": "2026-04-16T16:15:02.849248+00:00",
           "headline": "Zonda admits 4,500 BTC locked in inaccessible wallet as Polish prosecutors launch probe",
           "hot_score": 2169.690408,
@@ -387,23 +442,27 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:43:31.780801+00:00",
+      "as_of": "2026-07-29T23:06:34.973081+00:00",
       "editorial": [
         {
-          "count": 30,
+          "count": 46,
           "source": "x.com"
         },
         {
-          "count": 8,
-          "source": "theblock.co"
+          "count": 10,
+          "source": "coindesk.com"
         },
         {
-          "count": 7,
-          "source": "coindesk.com"
+          "count": 10,
+          "source": "theblock.co"
         },
         {
           "count": 3,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "securelist.com"
         },
         {
           "count": 2,
@@ -423,10 +482,6 @@
         },
         {
           "count": 1,
-          "source": "securelist.com"
-        },
-        {
-          "count": 1,
           "source": "financefeeds.com"
         },
         {
@@ -438,59 +493,59 @@
           "source": "xstocks.fi"
         }
       ],
-      "editorial_distinct": 21,
+      "editorial_distinct": 28,
       "provenance": "data",
       "universe": [
         {
-          "count": 733,
+          "count": 1054,
           "source": "x.com"
         },
         {
-          "count": 42,
+          "count": 62,
           "source": "cointelegraph.com"
         },
         {
-          "count": 39,
+          "count": 51,
           "source": "financefeeds.com"
         },
         {
-          "count": 31,
-          "source": "theblock.co"
-        },
-        {
-          "count": 31,
+          "count": 48,
           "source": "decrypt.co"
         },
         {
-          "count": 24,
+          "count": 45,
+          "source": "theblock.co"
+        },
+        {
+          "count": 32,
           "source": "treeofalpha.com"
         },
         {
-          "count": 22,
+          "count": 26,
           "source": "coindesk.com"
         },
         {
-          "count": 16,
+          "count": 19,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 12,
+          "count": 16,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 16,
           "source": "trustwallet.com"
         },
         {
-          "count": 11,
+          "count": 15,
           "source": "walletconnect.network"
         },
         {
           "count": 10,
-          "source": "chainwire.org"
-        },
-        {
-          "count": 7,
-          "source": "markets.businessinsider.com"
+          "source": "metamask.io"
         }
       ],
-      "universe_distinct": 61
+      "universe_distinct": 68
     }
   },
   "official_links": [],
@@ -501,25 +556,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:37:05.213749+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.216,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0456,
-        "lift_log": 4.172,
-        "score": 0.2164,
-        "shared": 21
-      },
-      "rationale": "Trust Wallet is a competing mobile wallet.",
-      "relation_type": "peer",
-      "slug": "trust-wallet",
-      "source": "cotag",
-      "tag_name": "Trust Wallet",
-      "title": "Trust Wallet, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "wallet",
   "tag_name": "Wallet",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:09:38.877437+00:00",
-      "newsroom_total": 33,
-      "overall_share": 62,
+      "as_of": "2026-07-29T22:57:37.938197+00:00",
+      "newsroom_total": 35,
+      "overall_share": 51,
       "provenance": "data",
       "series": [
         {
@@ -157,66 +157,101 @@
           "universe": 4
         },
         {
-          "ed_share": null,
+          "ed_share": 19,
           "month": "2026-07",
-          "newsroom": 1,
-          "universe": 0
+          "newsroom": 3,
+          "universe": 13
         }
       ],
-      "total_universe": 53,
-      "universe_total": 20
+      "total_universe": 68,
+      "universe_total": 33
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:09:38.545589+00:00",
+      "as_of": "2026-07-29T22:57:37.726230+00:00",
       "edges": [
         {
+          "confidence": 0.228,
+          "description": "Co-covered in 4 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cosmos",
-          "phrase": "Cosmos chain or app suspended due to incident.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-01",
+          "phrase": "Co-covered in 4 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "suspended",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.219,
+          "description": "Co-covered in 6 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cosmos",
-          "phrase": "dYdX built on Cosmos SDK as app-chain.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-13",
+          "phrase": "Co-covered in 6 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "dydx",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.161,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cosmos",
-          "phrase": "EVM compatibility via Cosmos IBC or Ethermint.",
-          "relation_type": "protocol",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "evm",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.161,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cosmos",
-          "phrase": "Testnet used for Cosmos network testing.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "testnet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "cosmos",
+          "observed_at": null,
           "phrase": "Injective",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "injective",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -230,42 +265,62 @@
         },
         {
           "center": false,
+          "confidence": 0.228,
           "name": "suspended",
+          "observed_at": "2026-07-01",
           "slug": "suspended",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.219,
           "name": "dYdX",
+          "observed_at": "2026-05-13",
           "slug": "dydx",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.161,
           "name": "EVM",
+          "observed_at": null,
           "slug": "evm",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.161,
           "name": "Testnet",
+          "observed_at": null,
           "slug": "testnet",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Injective",
+          "observed_at": null,
           "slug": "injective",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -334,17 +389,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 33,
-      "as_of": "2026-07-01T12:09:39.331317+00:00",
+      "article_count": 35,
+      "as_of": "2026-07-29T22:57:38.174890+00:00",
       "most_clicked": {
-        "clicks": 252,
-        "date": "2023-11-26T09:27:47.864266+00:00",
-        "headline": "Cosmos community votes to limit Atom inflation rate to 10% amidst highest-ever turnout, reducing staking yield from 19% to 13.4%",
-        "lev_url": "https://leviathannews.xyz/3399/cosmos-community-votes-to-limit-atom-inflation-rate-to-10-amidst-highest-ever-turnout-reducing-staking-yield-from-19-to-134"
+        "clicks": 259,
+        "date": "2023-06-29T04:41:22.196090+00:00",
+        "headline": "dYdX releases Cosmos testnet, featuring sub 2s block times",
+        "lev_url": "https://leviathannews.xyz/1621/dydx-releases-cosmos-testnet-featuring-sub-2s-block-times"
       },
       "provenance": "data",
       "top_decile_share": 27,
-      "total_clicks": 2645
+      "total_clicks": 2809
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:12:45.294332+00:00",
@@ -429,19 +484,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:09:39.254727+00:00",
+      "as_of": "2026-07-29T22:57:38.170967+00:00",
       "items": [
         {
-          "clicks": 9,
-          "date": "2026-07-01T06:27:43.845016+00:00",
-          "headline": "Upbit suspends ATOM deposits, withdrawals, and staking applications from July 8 for Cosmos Hub upgrade",
-          "hot_score": 2010.733658,
-          "lev_url": "https://leviathannews.xyz/266135/upbit-suspends-atom-deposits-withdrawals-and-staking-applications-from-july-8-for-cosmos-hub-upgrade",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260527131355_Z4zrlaiDPw==.png",
-          "url": "https://www.upbit.com/service_center/notice?id=6344"
+          "clicks": 32,
+          "date": "2026-07-29T07:47:01.165229+00:00",
+          "headline": "Cosmos SDK v0.54.4 ships state-breaking security fixes, urges chains to coordinate upgrades immediately",
+          "hot_score": 2952.362119,
+          "lev_url": "https://leviathannews.xyz/283801/cosmos-sdk-v0544-ships-state-breaking-security-fixes-urges-chains-to-coordinate-upgrades-immediately",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729053223_Z4zrlaiDPw==.png",
+          "url": "https://github.com/cosmos/cosmos-sdk/releases/tag/v0.54.4"
         },
         {
-          "clicks": 20,
+          "clicks": 24,
           "date": "2026-06-18T03:50:37.085210+00:00",
           "headline": "Cosmos Labs acquires Mintscan as Korea unit stewards Skip:Go, IBC Eureka, and Hub roadmap",
           "hot_score": 672.419547,
@@ -450,7 +505,7 @@
           "url": "https://cosmos.network/blog/cosmos-labs-mintscan-and-team"
         },
         {
-          "clicks": 32,
+          "clicks": 34,
           "date": "2026-06-05T00:00:08.084033+00:00",
           "headline": "Cosmos Labs snaps up Mintscan and centralizes core infrastructure with new Korea arm, raising ecosystem concentration risks",
           "hot_score": 428.76665,
@@ -459,7 +514,25 @@
           "url": "https://x.com/cosmos/status/2062523969748766785"
         },
         {
-          "clicks": 32,
+          "clicks": 38,
+          "date": "2026-07-08T07:18:21.306819+00:00",
+          "headline": "Secret Network proposes SCRT move to Arbitrum on September 1, 2026 as SCRT Labs drops Cosmos L1 support",
+          "hot_score": 426.044281,
+          "lev_url": "https://leviathannews.xyz/270821/secret-network-proposes-scrt-move-to-arbitrum-on-september-1-2026-as-scrt-labs-drops-cosmos-l1-support",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260708042112_Z4zrlaiDPw==.png",
+          "url": "https://forum.scrt.network/t/scrt-is-moving-to-arbitrum/8004"
+        },
+        {
+          "clicks": 23,
+          "date": "2026-07-01T06:27:43.845016+00:00",
+          "headline": "Upbit suspends ATOM deposits, withdrawals, and staking applications from July 8 for Cosmos Hub upgrade",
+          "hot_score": 406.817826,
+          "lev_url": "https://leviathannews.xyz/266135/upbit-suspends-atom-deposits-withdrawals-and-staking-applications-from-july-8-for-cosmos-hub-upgrade",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260527131355_Z4zrlaiDPw==.png",
+          "url": "https://www.upbit.com/service_center/notice?id=6344"
+        },
+        {
+          "clicks": 35,
           "date": "2026-04-22T12:06:03.738403+00:00",
           "headline": "Security researcher Doyeon Park disclosed a 0-day vulnerability in the Cosmos consensus layer. It is a CVSS 7.1 severity issue that can cause nodes to stall during the block synchronization phase.",
           "hot_score": 391.0,
@@ -468,16 +541,7 @@
           "url": "https://x.com/p6rkdoye0n/status/2046563261014012215"
         },
         {
-          "clicks": 252,
-          "date": "2023-11-26T09:27:47.864266+00:00",
-          "headline": "Cosmos community votes to limit Atom inflation rate to 10% amidst highest-ever turnout, reducing staking yield from 19% to 13.4%",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/3399/cosmos-community-votes-to-limit-atom-inflation-rate-to-10-amidst-highest-ever-turnout-reducing-staking-yield-from-19-to-134",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://www.theblock.co/post/264683/cosmos-community-approves-capping-atom-inflation-rate-at-10"
-        },
-        {
-          "clicks": 248,
+          "clicks": 259,
           "date": "2023-06-29T04:41:22.196090+00:00",
           "headline": "dYdX releases Cosmos testnet, featuring sub 2s block times",
           "hot_score": 0.0,
@@ -486,28 +550,19 @@
           "url": "https://testnet.mintscan.io/dydx-testnet"
         },
         {
-          "clicks": 223,
-          "date": "2024-10-16T07:43:02.789354+00:00",
-          "headline": "Cosmos co-founder Jae Kwon blames Iqlusion's Zaki Manian for security risks, alleging North Korean agents developed key parts of the liquid staking module.",
+          "clicks": 256,
+          "date": "2023-11-26T09:27:47.864266+00:00",
+          "headline": "Cosmos community votes to limit Atom inflation rate to 10% amidst highest-ever turnout, reducing staking yield from 19% to 13.4%",
           "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/7362/cosmos-co-founder-jae-kwon-blames-iqlusions-zaki-manian-for-security-risks-alleging-north-korean-agents-developed-key-parts-of-the-liquid-staking-module",
+          "lev_url": "https://leviathannews.xyz/3399/cosmos-community-votes-to-limit-atom-inflation-rate-to-10-amidst-highest-ever-turnout-reducing-staking-yield-from-19-to-134",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://www.theblock.co/post/321351/cosmos-liquid-staking-north-korea"
-        },
-        {
-          "clicks": 190,
-          "date": "2024-06-21T16:25:02.756099+00:00",
-          "headline": "Osmosis DAO to launch fee-free bridge from Bitcoin to Cosmos, as a result of a revenue-sharing agreement with Nomic",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/6035/osmosis-dao-to-launch-fee-free-bridge-from-bitcoin-to-cosmos-as-a-result-of-a-revenue-sharing-agreement-with-nomic",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240621134225_zR88MigxlQ==.JPG",
-          "url": "https://www.coindesk.com/tech/2024/06/21/cosmos-dao-osmosis-to-adopt-fee-free-bitcoin-bridge/"
+          "url": "https://www.theblock.co/post/264683/cosmos-community-approves-capping-atom-inflation-rate-at-10"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:09:39.171399+00:00",
+      "as_of": "2026-07-29T22:57:38.156303+00:00",
       "editorial": [
         {
           "count": 9,
@@ -558,11 +613,11 @@
           "source": "upbit.com"
         }
       ],
-      "editorial_distinct": 12,
+      "editorial_distinct": 14,
       "provenance": "data",
       "universe": [
         {
-          "count": 12,
+          "count": 25,
           "source": "x.com"
         },
         {
@@ -605,42 +660,7 @@
     "source": "human_gated_edit",
     "updated_at": "2026-07-28T22:36:24.370626+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.219,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0277,
-        "lift_log": 4.486,
-        "score": 0.2191,
-        "shared": 6
-      },
-      "rationale": "dYdX built on Cosmos SDK as app-chain.",
-      "relation_type": "ecosystem",
-      "slug": "dydx",
-      "source": "cotag",
-      "tag_name": "dYdX",
-      "title": "dYdX, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.228,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0369,
-        "lift_log": 4.595,
-        "score": 0.2284,
-        "shared": 3
-      },
-      "rationale": "Cosmos chain or app suspended due to incident.",
-      "relation_type": "event",
-      "slug": "suspended",
-      "source": "cotag",
-      "tag_name": "suspended",
-      "title": "suspended, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "cosmos",
   "tag_name": "Cosmos",

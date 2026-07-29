@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:01:01.449802+00:00",
+      "as_of": "2026-07-29T23:01:35.519054+00:00",
       "newsroom_total": 30,
-      "overall_share": 17,
+      "overall_share": 15,
       "provenance": "data",
       "series": [
         {
@@ -149,62 +149,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 40
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 23
         }
       ],
-      "total_universe": 174,
-      "universe_total": 144
+      "total_universe": 197,
+      "universe_total": 167
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:01:00.629117+00:00",
+      "as_of": "2026-07-29T23:01:35.244454+00:00",
       "edges": [
         {
+          "confidence": 0.264,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "marketplace",
-          "phrase": "Marketplaces can host agent-based services or AI agents.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.214,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "marketplace",
-          "phrase": "A marketplace may celebrate its founding anniversary.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-02",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "birthday",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "marketplace",
-          "phrase": "AI agents can be traded or deployed via marketplaces.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ai-agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.169,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "marketplace",
-          "phrase": "Marketplaces often announce milestones like volume or users.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "milestone",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.162,
+          "description": "Co-covered in 15 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "marketplace",
-          "phrase": "Agents are participants or products within a marketplace.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 15 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "agent",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -218,42 +259,62 @@
         },
         {
           "center": false,
+          "confidence": 0.264,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.214,
           "name": "Birthday",
+          "observed_at": "2026-03-02",
           "slug": "birthday",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "AI Agents",
+          "observed_at": null,
           "slug": "ai-agents",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.169,
           "name": "Milestone",
+          "observed_at": null,
           "slug": "milestone",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.162,
           "name": "Agent",
+          "observed_at": null,
           "slug": "agent",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -323,16 +384,16 @@
     },
     "reader_signal": {
       "article_count": 31,
-      "as_of": "2026-07-01T12:01:02.845142+00:00",
+      "as_of": "2026-07-29T23:01:35.877855+00:00",
       "most_clicked": {
-        "clicks": 283,
+        "clicks": 286,
         "date": "2025-01-14T13:44:15.936253+00:00",
         "headline": "Huione, a Telegram-based illicit marketplace that offers personal data and money laundering services has rolled out its own stablecoin, according to report by blockchain security firm Elliptic.",
         "lev_url": "https://leviathannews.xyz/8659/huione-a-telegram-based-illicit-marketplace-that-offers-personal-data-and-money-laundering-services-has-rolled-out-its-own-stablecoin-according-to-report-by-blockchain-security-fir"
       },
       "provenance": "data",
-      "top_decile_share": 25,
-      "total_clicks": 2687
+      "top_decile_share": 26,
+      "total_clicks": 2713
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:00:00.913872+00:00",
@@ -417,7 +478,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:01:02.747508+00:00",
+      "as_of": "2026-07-29T23:01:35.873538+00:00",
       "items": [
         {
           "clicks": 46,
@@ -429,7 +490,7 @@
           "url": "https://www.theblock.co/post/398820/aws-marketplace-integrates-chainlink?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 78,
+          "clicks": 79,
           "date": "2025-12-10T16:38:55.957079+00:00",
           "headline": "Pineapple Financial starts migrating its $10B mortgage portfolio onchain via Injective. The Canadian fintech has already put data tied to about $412 million in funded mortgages onchain, and aims to migrate more than 29,000 loans over time. Each tokenized mortgage record includes more than 500 data points and will underpin a permissioned data marketplace and a planned product offering onchain mortgage-backed yields.",
           "hot_score": 113.770287,
@@ -438,7 +499,7 @@
           "url": "https://archive.ph/K6Npl"
         },
         {
-          "clicks": 68,
+          "clicks": 70,
           "date": "2025-12-16T18:53:27.410170+00:00",
           "headline": "Judge Allows Amended Lawsuit Alleging Pump.fun Marketplace Was Tilted to Favor Insiders on Solana",
           "hot_score": 108.831277,
@@ -447,7 +508,7 @@
           "url": "https://x.com/burwicklaw/status/2000635043421835390"
         },
         {
-          "clicks": 56,
+          "clicks": 57,
           "date": "2026-02-02T17:58:53.356915+00:00",
           "headline": "Vultisig launched its Plugin Marketplace, introducing the first fully self-custodial, on-chain automation layer that enables DCA, payroll, and other automated actions across 30+ chains without exposing keys or seed phrases.",
           "hot_score": 53.681267,
@@ -456,7 +517,7 @@
           "url": "https://x.com/i/status/2018349045081620746"
         },
         {
-          "clicks": 31,
+          "clicks": 32,
           "date": "2025-12-09T04:40:17.700775+00:00",
           "headline": "Pye Finance raises $5M seed round led by Variant and Coinbase Ventures. The platform aims to make locked Solana staking positions tradable via an onchain marketplace.",
           "hot_score": 32.781581,
@@ -465,7 +526,7 @@
           "url": "https://archive.ph/R4MbN"
         },
         {
-          "clicks": 283,
+          "clicks": 286,
           "date": "2025-01-14T13:44:15.936253+00:00",
           "headline": "Huione, a Telegram-based illicit marketplace that offers personal data and money laundering services has rolled out its own stablecoin, according to report by blockchain security firm Elliptic.",
           "hot_score": 0.0,
@@ -474,7 +535,7 @@
           "url": "https://www.coindesk.com/business/2025/01/14/company-behind-illicit-24-b-telegram-marketplaces-launches-stablecoin"
         },
         {
-          "clicks": 209,
+          "clicks": 216,
           "date": "2024-06-19T13:17:19.408508+00:00",
           "headline": "Solana liquid staking protocol Marinade unveils 'auction marketplace' to optimize yields",
           "hot_score": 0.0,
@@ -495,7 +556,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:01:02.652903+00:00",
+      "as_of": "2026-07-29T23:01:35.863365+00:00",
       "editorial": [
         {
           "count": 9,
@@ -550,7 +611,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 116,
+          "count": 137,
           "source": "x.com"
         },
         {
@@ -598,7 +659,7 @@
           "source": "blog.roninchain.com"
         }
       ],
-      "universe_distinct": 14
+      "universe_distinct": 16
     }
   },
   "official_links": [],
@@ -609,42 +670,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:42.183292+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.264,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0291,
-        "lift_log": 3.224,
-        "score": 0.2643,
-        "shared": 15
-      },
-      "rationale": "Marketplaces can host agent-based services or AI agents.",
-      "relation_type": "ecosystem",
-      "slug": "agents",
-      "source": "cotag",
-      "tag_name": "agents",
-      "title": "agents, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.214,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0288,
-        "lift_log": 4.362,
-        "score": 0.2141,
-        "shared": 3
-      },
-      "rationale": "A marketplace may celebrate its founding anniversary.",
-      "relation_type": "event",
-      "slug": "birthday",
-      "source": "cotag",
-      "tag_name": "Birthday",
-      "title": "Birthday, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "marketplace",
   "tag_name": "Marketplace",

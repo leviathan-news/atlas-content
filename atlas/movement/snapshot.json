@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:13:03.604864+00:00",
-      "newsroom_total": 8,
-      "overall_share": 9,
+      "as_of": "2026-07-29T23:02:16.143521+00:00",
+      "newsroom_total": 10,
+      "overall_share": 8,
       "provenance": "data",
       "series": [
         {
@@ -37,66 +37,101 @@
           "universe": 26
         },
         {
-          "ed_share": 0,
+          "ed_share": 4,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 2
+          "newsroom": 2,
+          "universe": 48
         }
       ],
-      "total_universe": 85,
-      "universe_total": 77
+      "total_universe": 133,
+      "universe_total": 123
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:13:03.293255+00:00",
+      "as_of": "2026-07-29T23:02:15.841720+00:00",
       "edges": [
         {
+          "confidence": 0.221,
+          "description": "Co-covered in 9 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "movement",
-          "phrase": "Movement integrates payments as a key use case for its blockchain.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-25",
+          "phrase": "Co-covered in 9 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "payments",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.216,
+          "description": "Co-covered in 7 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "movement",
-          "phrase": "Yield generation is a core DeFi primitive that Movement supports.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-17",
+          "phrase": "Co-covered in 7 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.182,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "movement",
-          "phrase": "Stablecoins are integral to Movement's DeFi ecosystem for liquidity.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.135,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "movement",
-          "phrase": "Stablecoin payments combine two ecosystem components Movement uses.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoin-payments",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "movement",
+          "observed_at": null,
           "phrase": "Layer 2",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "layer-2",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -110,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.221,
           "name": "Payments",
+          "observed_at": "2026-06-25",
           "slug": "payments",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 22
-        },
-        {
-          "center": false,
-          "name": "Yield",
-          "slug": "yield",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 22
-        },
-        {
-          "center": false,
-          "name": "Stablecoins",
-          "slug": "stablecoins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 22
+        },
+        {
+          "center": false,
+          "confidence": 0.216,
+          "name": "Yield",
+          "observed_at": "2026-06-17",
+          "slug": "yield",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 22
+        },
+        {
+          "center": false,
+          "confidence": 0.182,
+          "name": "Stablecoins",
+          "observed_at": null,
+          "slug": "stablecoins",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.135,
           "name": "Stablecoin Payments",
+          "observed_at": null,
           "slug": "stablecoin-payments",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Layer 2",
+          "observed_at": null,
           "slug": "layer-2",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -214,17 +269,17 @@
       "source": "https://www.movementnetwork.xyz/article/movement-secures-money-transmitter-licenses-and-rebrands-as-the-global-settlement-and-yield-layer-for-stablecoins"
     },
     "reader_signal": {
-      "article_count": 8,
-      "as_of": "2026-07-01T12:13:04.147864+00:00",
+      "article_count": 10,
+      "as_of": "2026-07-29T23:02:16.522855+00:00",
       "most_clicked": {
-        "clicks": 106,
+        "clicks": 111,
         "date": "2026-03-30T10:47:35.865581+00:00",
         "headline": "Real-world finance is moving onchain, but most DeFi infrastructure isn’t ready for institutional finance. Tokenized assets, lending, and payments need trusted settlement and seamless capital movement Here’s how USDC + CCTP on Pharos make it possible 🧵",
         "lev_url": "https://leviathannews.xyz/217530/real-world-finance-is-moving-onchain-but-most-defi-infrastructure-isnt-ready-for-institutional-finance-tokenized-assets-lending-and-payments-need-trusted-settlement-and-seamless-ca"
       },
       "provenance": "data",
-      "top_decile_share": 25,
-      "total_clicks": 421
+      "top_decile_share": 20,
+      "total_clicks": 552
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:09:09.895576+00:00",
@@ -304,25 +359,25 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:13:04.071743+00:00",
+      "as_of": "2026-07-29T23:02:16.514168+00:00",
       "items": [
         {
-          "clicks": 35,
-          "date": "2026-06-30T14:02:07.528549+00:00",
-          "headline": "Open USD is a new, enterprise-focused stablecoin backed by 140+ global companies that offers no-cost minting/redemption, partner-shared reserve earnings, and collaborative governance for high‑throughput money movement.[",
-          "hot_score": 1917.599471,
-          "lev_url": "https://leviathannews.xyz/265534/open-usd-is-a-new-enterprise-focused-stablecoin-backed-by-140-global-companies-that-offers-no-cost-mintingredemption-partner-shared-reserve-earnings-and-collaborative-governance-fo",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630140112_sypXdtT832Uy.jpg",
-          "url": "https://joinopenstandard.com/blog/introducing-open-usd"
-        },
-        {
-          "clicks": 46,
+          "clicks": 49,
           "date": "2026-06-02T14:17:31.488234+00:00",
           "headline": "Movement pivots toward global payments and remittances, securing licensed rails across the US, Canada and EU while repurchasing 19% of investor-allocated tokens in a major strategic shift",
           "hot_score": 883.558505,
           "lev_url": "https://leviathannews.xyz/251745/movement-secures-licensed-payment-rails-access-in-the-us-canada-and-eu-commits-to-stablecoin-settlement-and-yield-infrastructure-for-emerging-markets",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260602134948_H9vcoKa2I1I5.jpg",
           "url": "https://www.movementnetwork.xyz/article/movement-secures-money-transmitter-licenses-and-rebrands-as-the-global-settlement-and-yield-layer-for-stablecoins"
+        },
+        {
+          "clicks": 71,
+          "date": "2026-07-16T17:39:04.189763+00:00",
+          "headline": "Visa introduces platform for stablecoin minting, movement and management.",
+          "hot_score": 833.481325,
+          "lev_url": "https://leviathannews.xyz/276763/visa-introduces-platform-for-stablecoin-minting-movement-and-management",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260716150101_muIyMPAufN-R.jpg",
+          "url": "https://investor.visa.com/news/news-details/2026/Visa-Introduces-Platform-for-Stablecoin-Minting-Movement-and-Management/default.aspx"
         },
         {
           "clicks": 62,
@@ -334,7 +389,16 @@
           "url": "https://x.com/i/status/2047792412970582067"
         },
         {
-          "clicks": 106,
+          "clicks": 51,
+          "date": "2026-06-30T14:02:07.528549+00:00",
+          "headline": "Open USD is a new, enterprise-focused stablecoin backed by 140+ global companies that offers no-cost minting/redemption, partner-shared reserve earnings, and collaborative governance for high‑throughput money movement.[",
+          "hot_score": 471.5428,
+          "lev_url": "https://leviathannews.xyz/265534/open-usd-is-a-new-enterprise-focused-stablecoin-backed-by-140-global-companies-that-offers-no-cost-mintingredemption-partner-shared-reserve-earnings-and-collaborative-governance-fo",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630140112_sypXdtT832Uy.jpg",
+          "url": "https://joinopenstandard.com/blog/introducing-open-usd"
+        },
+        {
+          "clicks": 111,
           "date": "2026-03-30T10:47:35.865581+00:00",
           "headline": "Real-world finance is moving onchain, but most DeFi infrastructure isn’t ready for institutional finance. Tokenized assets, lending, and payments need trusted settlement and seamless capital movement Here’s how USDC + CCTP on Pharos make it possible 🧵",
           "hot_score": 360.839628,
@@ -361,28 +425,19 @@
           "url": "https://x.com/i/status/2046602022678606022"
         },
         {
-          "clicks": 34,
+          "clicks": 35,
           "date": "2026-03-25T13:44:36.230450+00:00",
           "headline": "Movement goes live on M1 mainnet with USDCx, a native USDC stablecoin built on Circle's xReserve",
           "hot_score": 73.120314,
           "lev_url": "https://leviathannews.xyz/215882/movement-launches-usdcx-11-usdc-backed-stablecoin-on-m1-mainnet-via-circle-xreserve",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260325130146_Z4zrlaiDPw==.png",
           "url": "https://www.movementnetwork.xyz/article/introducing-usdcx-movements-native-usdc-backed-stablecoin"
-        },
-        {
-          "clicks": 30,
-          "date": "2026-05-08T09:12:40.296974+00:00",
-          "headline": "Movement invests in Stableyard to build the end-to-end experience layer of stablecoin payments.",
-          "hot_score": 59.2,
-          "lev_url": "https://leviathannews.xyz/239602/movement-invests-in-stableyard-to-build-the-end-to-end-experience-layer-of-stablecoin-payments-20260508",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260508003321_-bRM7Vv1d3YB.jpg",
-          "url": "https://x.com/movement_xyz/status/2052410958484566114"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:13:03.979808+00:00",
+      "as_of": "2026-07-29T23:02:16.503850+00:00",
       "editorial": [
         {
           "count": 4,
@@ -399,17 +454,25 @@
         {
           "count": 1,
           "source": "joinopenstandard.com"
+        },
+        {
+          "count": 1,
+          "source": "globenewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "investor.visa.com"
         }
       ],
-      "editorial_distinct": 4,
+      "editorial_distinct": 6,
       "provenance": "data",
       "universe": [
         {
-          "count": 56,
+          "count": 89,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 16,
           "source": "movementnetwork.xyz"
         },
         {
@@ -417,8 +480,16 @@
           "source": "truthsocial.com"
         },
         {
-          "count": 1,
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
           "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
         },
         {
           "count": 1,
@@ -438,22 +509,14 @@
         },
         {
           "count": 1,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 1,
           "source": "wsj.com"
         },
         {
           "count": 1,
           "source": "circle.com"
-        },
-        {
-          "count": 1,
-          "source": "euronews.com"
         }
       ],
-      "universe_distinct": 12
+      "universe_distinct": 14
     }
   },
   "official_links": [],
@@ -464,42 +527,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:44.374325+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.221,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.009,
-        "lift_log": 2.513,
-        "score": 0.2213,
-        "shared": 9
-      },
-      "rationale": "Movement integrates payments as a key use case for its blockchain.",
-      "relation_type": "ecosystem",
-      "slug": "payments",
-      "source": "cotag",
-      "tag_name": "Payments",
-      "title": "Payments, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.216,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0081,
-        "lift_log": 2.41,
-        "score": 0.2158,
-        "shared": 7
-      },
-      "rationale": "Yield generation is a core DeFi primitive that Movement supports.",
-      "relation_type": "primitive",
-      "slug": "yield",
-      "source": "cotag",
-      "tag_name": "Yield",
-      "title": "Yield, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "movement",
   "tag_name": "Movement",

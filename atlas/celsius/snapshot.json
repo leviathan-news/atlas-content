@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:12:43.547799+00:00",
+      "as_of": "2026-07-29T22:57:14.912609+00:00",
       "newsroom_total": 36,
-      "overall_share": 80,
+      "overall_share": 72,
       "provenance": "data",
       "series": [
         {
@@ -131,62 +131,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 5
         }
       ],
-      "total_universe": 45,
-      "universe_total": 9
+      "total_universe": 50,
+      "universe_total": 14
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:12:43.235420+00:00",
+      "as_of": "2026-07-29T22:57:13.845580+00:00",
       "edges": [
         {
+          "confidence": 0.229,
+          "description": "Co-covered in 4 approved stories; most recently October 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "celsius",
-          "phrase": "Celsius faced lawsuits after its bankruptcy filing.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-10-14",
+          "phrase": "Co-covered in 4 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "lawsuit",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.224,
+          "description": "Co-covered in 5 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "celsius",
-          "phrase": "Celsius was accused of fraudulent practices.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-19",
+          "phrase": "Co-covered in 5 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fraud",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.146,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "celsius",
-          "phrase": "CFTC investigated Celsius for regulatory violations.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cftc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.125,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "celsius",
-          "phrase": "Tether is a stablecoin, not directly comparable to Celsius.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tether",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "celsius",
+          "observed_at": null,
           "phrase": "banking",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "banking",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -200,42 +241,62 @@
         },
         {
           "center": false,
+          "confidence": 0.229,
           "name": "Lawsuit",
+          "observed_at": "2025-10-14",
           "slug": "lawsuit",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.224,
           "name": "Fraud",
+          "observed_at": "2026-06-19",
           "slug": "fraud",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.146,
           "name": "CFTC",
+          "observed_at": null,
           "slug": "cftc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.125,
           "name": "Tether",
+          "observed_at": null,
           "slug": "tether",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Banking",
+          "observed_at": null,
           "slug": "banking",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -305,16 +366,16 @@
     },
     "reader_signal": {
       "article_count": 36,
-      "as_of": "2026-07-01T12:12:43.989339+00:00",
+      "as_of": "2026-07-29T22:57:15.647140+00:00",
       "most_clicked": {
-        "clicks": 412,
+        "clicks": 417,
         "date": "2023-06-30T17:57:57.042643+00:00",
         "headline": "Celsius gains approval to sell off Altcoins for BTC and ETH beginning July 1st ",
         "lev_url": "https://leviathannews.xyz/1640/celsius-gains-approval-to-sell-off-altcoins-for-btc-and-eth-beginning-july-1st"
       },
       "provenance": "data",
-      "top_decile_share": 23,
-      "total_clicks": 4170
+      "top_decile_share": 24,
+      "total_clicks": 4325
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:59:21.915739+00:00",
@@ -399,10 +460,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:12:43.911213+00:00",
+      "as_of": "2026-07-29T22:57:15.638797+00:00",
       "items": [
         {
-          "clicks": 46,
+          "clicks": 50,
           "date": "2026-05-29T17:35:12.799393+00:00",
           "headline": "Ex-Celsius CEO Mashinsky files pro se motion to vacate 12-year fraud sentence, blames SBF for CEL manipulation",
           "hot_score": 450.422642,
@@ -411,7 +472,7 @@
           "url": "https://cointelegraph.com/news/celsius-alex-mashinsky-motion-vacate-sentence"
         },
         {
-          "clicks": 412,
+          "clicks": 417,
           "date": "2023-06-30T17:57:57.042643+00:00",
           "headline": "Celsius gains approval to sell off Altcoins for BTC and ETH beginning July 1st ",
           "hot_score": 0.0,
@@ -420,25 +481,16 @@
           "url": "https://www.coindesk.com/policy/2023/06/30/bankrupt-celsius-can-convert-altcoins-to-btc-eth-starting-july-1-following-sec-talks/?utm_term=organic&utm_source=twitter&utm_content=editorial&utm_campaign=coindesk_main&utm_medium=social"
         },
         {
-          "clicks": 269,
-          "date": "2025-02-12T13:01:43.002608+00:00",
-          "headline": "Celsius returns as Ionic, ‘$20’ shares now worth $0",
+          "clicks": 329,
+          "date": "2023-12-21T09:52:47.133984+00:00",
+          "headline": "Celsius creditors demand crypto return amidst bankruptcy as ETH sales fuel suspicions of prioritizing corporate needs.",
           "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/9282/celsius-returns-as-ionic-20-shares-now-worth-0",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250212123334_vPIU50quEw==.jpg",
-          "url": "https://protos.com/celsius-returns-as-ionic-20-shares-now-worth-0/"
+          "lev_url": "https://leviathannews.xyz/3643/celsius-creditors-demand-crypto-return-amidst-bankruptcy-as-eth-sales-fuel-suspicions-of-prioritizing-corporate-needs",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://blockworks.co/news/celsius-eth-sales-questioned-creditors"
         },
         {
-          "clicks": 269,
-          "date": "2024-08-10T15:19:20.342933+00:00",
-          "headline": "Celsius Files Lawsuit Against Tether, Demands Restitution of $2.4b Worth of BTC\nTether Vows To Defend Itself Against The Litigation, Calling It A \"Shake Down\"",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/6612/celsius-files-lawsuit-against-tether-demands-restitution-of-24b-worth-of-btc-tether-vows-to-defend-itself-against-the-litigation-calling-it-a-shake-down",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240810134226_vWnEksycig==.png",
-          "url": "https://tether.io/news/others/tether-will-defend-itself-against-shake-down-litigation-commenced-by-celsius/"
-        },
-        {
-          "clicks": 267,
+          "clicks": 281,
           "date": "2023-07-05T07:58:59.772318+00:00",
           "headline": "Crypto lenders Voyager and Celsius are slowly working their ways towards making customers whole",
           "hot_score": 0.0,
@@ -447,13 +499,22 @@
           "url": "https://blockworks.co/news/voyager-celsius-crypto-withdrawals"
         },
         {
-          "clicks": 240,
-          "date": "2023-12-21T09:52:47.133984+00:00",
-          "headline": "Celsius creditors demand crypto return amidst bankruptcy as ETH sales fuel suspicions of prioritizing corporate needs.",
+          "clicks": 274,
+          "date": "2024-08-10T15:19:20.342933+00:00",
+          "headline": "Celsius Files Lawsuit Against Tether, Demands Restitution of $2.4b Worth of BTC\nTether Vows To Defend Itself Against The Litigation, Calling It A \"Shake Down\"",
           "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/3643/celsius-creditors-demand-crypto-return-amidst-bankruptcy-as-eth-sales-fuel-suspicions-of-prioritizing-corporate-needs",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://blockworks.co/news/celsius-eth-sales-questioned-creditors"
+          "lev_url": "https://leviathannews.xyz/6612/celsius-files-lawsuit-against-tether-demands-restitution-of-24b-worth-of-btc-tether-vows-to-defend-itself-against-the-litigation-calling-it-a-shake-down",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240810134226_vWnEksycig==.png",
+          "url": "https://tether.io/news/others/tether-will-defend-itself-against-shake-down-litigation-commenced-by-celsius/"
+        },
+        {
+          "clicks": 270,
+          "date": "2025-02-12T13:01:43.002608+00:00",
+          "headline": "Celsius returns as Ionic, ‘$20’ shares now worth $0",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9282/celsius-returns-as-ionic-20-shares-now-worth-0",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250212123334_vPIU50quEw==.jpg",
+          "url": "https://protos.com/celsius-returns-as-ionic-20-shares-now-worth-0/"
         },
         {
           "clicks": 233,
@@ -477,7 +538,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:12:43.828369+00:00",
+      "as_of": "2026-07-29T22:57:15.621950+00:00",
       "editorial": [
         {
           "count": 7,
@@ -532,19 +593,23 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 3,
+          "count": 5,
           "source": "cointelegraph.com"
         },
         {
-          "count": 3,
+          "count": 5,
           "source": "x.com"
         },
         {
           "count": 3,
           "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
         }
       ],
-      "universe_distinct": 3
+      "universe_distinct": 4
     }
   },
   "official_links": [],
@@ -555,42 +620,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:22.107550+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.224,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0256,
-        "lift_log": 4.6,
-        "score": 0.2236,
-        "shared": 5
-      },
-      "rationale": "Celsius was accused of fraudulent practices.",
-      "relation_type": "risk",
-      "slug": "fraud",
-      "source": "cotag",
-      "tag_name": "Fraud",
-      "title": "Fraud, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.229,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0254,
-        "lift_log": 4.717,
-        "score": 0.2287,
-        "shared": 4
-      },
-      "rationale": "Celsius faced lawsuits after its bankruptcy filing.",
-      "relation_type": "event",
-      "slug": "lawsuit",
-      "source": "cotag",
-      "tag_name": "Lawsuit",
-      "title": "Lawsuit, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "celsius",
   "tag_name": "Celsius",

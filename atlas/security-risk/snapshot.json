@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:56:38.595744+00:00",
-      "newsroom_total": 22,
-      "overall_share": 67,
+      "as_of": "2026-07-29T23:04:16.283813+00:00",
+      "newsroom_total": 24,
+      "overall_share": 65,
       "provenance": "data",
       "series": [
         {
@@ -107,62 +107,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 2
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 2
         }
       ],
-      "total_universe": 33,
-      "universe_total": 11
+      "total_universe": 37,
+      "universe_total": 13
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:56:38.155622+00:00",
+      "as_of": "2026-07-29T23:04:16.092646+00:00",
       "edges": [
         {
+          "confidence": 0.318,
+          "description": "Co-covered in 39 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "security-risk",
-          "phrase": "Security risk is a subset of the broader security category.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-08",
+          "phrase": "Co-covered in 39 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "security",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 32
         },
         {
+          "confidence": 0.264,
+          "description": "Co-covered in 70 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "security-risk",
-          "phrase": "Security risk is a specific type of risk.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-26",
+          "phrase": "Co-covered in 70 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "risks",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.215,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "security-risk",
-          "phrase": "Smart contracts are a common source of security risks.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-07",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "smart-contract",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "security-risk",
-          "phrase": "Unclear direct relation; likely a peer in risk context.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "starlink",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.161,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "security-risk",
-          "phrase": "Unclear direct relation; likely a peer in risk context.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "mcp",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -176,42 +217,62 @@
         },
         {
           "center": false,
+          "confidence": 0.318,
           "name": "Security",
+          "observed_at": "2026-05-08",
           "slug": "security",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 32
         },
         {
           "center": false,
+          "confidence": 0.264,
           "name": "Risks",
+          "observed_at": "2026-06-26",
           "slug": "risks",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.215,
           "name": "Smart Contract",
+          "observed_at": "2026-05-07",
           "slug": "smart-contract",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "Starlink",
+          "observed_at": null,
           "slug": "starlink",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.161,
           "name": "MCP",
+          "observed_at": null,
           "slug": "mcp",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -280,17 +341,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 23,
-      "as_of": "2026-07-01T11:56:40.261347+00:00",
+      "article_count": 25,
+      "as_of": "2026-07-29T23:04:16.474620+00:00",
       "most_clicked": {
-        "clicks": 223,
+        "clicks": 230,
         "date": "2024-10-16T07:43:02.789354+00:00",
         "headline": "Cosmos co-founder Jae Kwon blames Iqlusion's Zaki Manian for security risks, alleging North Korean agents developed key parts of the liquid staking module.",
         "lev_url": "https://leviathannews.xyz/7362/cosmos-co-founder-jae-kwon-blames-iqlusions-zaki-manian-for-security-risks-alleging-north-korean-agents-developed-key-parts-of-the-liquid-staking-module"
       },
       "provenance": "data",
-      "top_decile_share": 19,
-      "total_clicks": 2143
+      "top_decile_share": 18,
+      "total_clicks": 2304
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:19:46.001904+00:00",
@@ -375,10 +436,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:56:40.172410+00:00",
+      "as_of": "2026-07-29T23:04:16.469698+00:00",
       "items": [
         {
-          "clicks": 190,
+          "clicks": 48,
+          "date": "2026-07-26T15:56:11.824736+00:00",
+          "headline": "Binance founder CZ warns acquiring small crypto exchanges poses hidden security risks after BitMEX and BitMart shut down.",
+          "hot_score": 1643.921318,
+          "lev_url": "https://leviathannews.xyz/282148/binance-founder-cz-warns-acquiring-small-crypto-exchanges-poses-hidden-security-risks-after-bitmex-and-bitmart-shut-down",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726143719_45jIn8SUUzeY.jpg",
+          "url": "https://x.com/wublockchain/status/2081371865591820417"
+        },
+        {
+          "clicks": 192,
           "date": "2025-12-17T09:47:57.472945+00:00",
           "headline": "Elizabeth Warren Seeks DOJ and Treasury Review of National Security Risks Posed by DeFi Exchanges",
           "hot_score": 318.615812,
@@ -387,7 +457,7 @@
           "url": "https://www.banking.senate.gov/imo/media/doc/12152025lettertobessentandbondirepancakeswap.pdf"
         },
         {
-          "clicks": 48,
+          "clicks": 50,
           "date": "2026-03-23T14:46:52.211773+00:00",
           "headline": "DeFi exploits surpass $137M in 2026 so far, with major incidents across Step Finance, Truebit and Resolv highlighting ongoing security risks",
           "hot_score": 175.017648,
@@ -405,7 +475,7 @@
           "url": "https://x.com/i/status/2040490155170238855"
         },
         {
-          "clicks": 45,
+          "clicks": 49,
           "date": "2026-03-22T10:04:27.336258+00:00",
           "headline": "ALERT🚨: \nLista DAO pauses lending platform after abnormal price fluctuations in wstUSR collateral, launching investigation into potential security risks",
           "hot_score": 108.943812,
@@ -414,7 +484,7 @@
           "url": "https://x.com/i/status/2035563647242809354"
         },
         {
-          "clicks": 80,
+          "clicks": 119,
           "date": "2026-02-19T21:20:16.097674+00:00",
           "headline": "House Democrats demand a Treasury investigation into Trump family crypto firm World Liberty Financial over a $500 million stake by Emirati “Spy Sheikh” Sheikh Tahnoon bin Zayed and potential national security risks",
           "hot_score": 73.21287,
@@ -423,7 +493,7 @@
           "url": "https://www.cnbc.com/2026/02/19/treasury-probe-trump-crypto-world-liberty-financial-democrats.html"
         },
         {
-          "clicks": 27,
+          "clicks": 30,
           "date": "2025-12-11T08:42:35.380626+00:00",
           "headline": "OpenAI Warns Its Next-Gen Models Could Pose “High” Cybersecurity Risk as Rapidly Improving Autonomy and Code Capabilities Expand the Potential for Scalable Cyberattacks",
           "hot_score": 39.8596,
@@ -432,31 +502,22 @@
           "url": "https://www.axios.com/2025/12/10/openai-new-models-cybersecurity-risks"
         },
         {
-          "clicks": 223,
+          "clicks": 230,
           "date": "2024-10-16T07:43:02.789354+00:00",
           "headline": "Cosmos co-founder Jae Kwon blames Iqlusion's Zaki Manian for security risks, alleging North Korean agents developed key parts of the liquid staking module.",
           "hot_score": 0.0,
           "lev_url": "https://leviathannews.xyz/7362/cosmos-co-founder-jae-kwon-blames-iqlusions-zaki-manian-for-security-risks-alleging-north-korean-agents-developed-key-parts-of-the-liquid-staking-module",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
           "url": "https://www.theblock.co/post/321351/cosmos-liquid-staking-north-korea"
-        },
-        {
-          "clicks": 190,
-          "date": "2023-10-22T20:16:50.024503+00:00",
-          "headline": "Bitcoin core developer exit Lightning Network citing security risks and threats to Bitcoin ecosystem",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/3071/bitcoin-core-developer-exit-lightning-network-citing-security-risks-and-threats-to-bitcoin-ecosystem",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://cryptonews.com/news/security-concerns-prompt-bitcoin-core-developer-leave-lightning-network.htm"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:56:40.068510+00:00",
+      "as_of": "2026-07-29T23:04:16.458977+00:00",
       "editorial": [
         {
-          "count": 4,
+          "count": 6,
           "source": "x.com"
         },
         {
@@ -508,7 +569,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 6,
+          "count": 8,
           "source": "x.com"
         },
         {
@@ -539,59 +600,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:54.187623+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.264,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0402,
-        "lift_log": 2.901,
-        "score": 0.2643,
-        "shared": 70
-      },
-      "rationale": "Security risk is a specific type of risk.",
-      "relation_type": "category",
-      "slug": "risks",
-      "source": "cotag",
-      "tag_name": "Risks",
-      "title": "Risks, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.318,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0819,
-        "lift_log": 3.789,
-        "score": 0.3179,
-        "shared": 39
-      },
-      "rationale": "Security risk is a subset of the broader security category.",
-      "relation_type": "category",
-      "slug": "security",
-      "source": "cotag",
-      "tag_name": "Security",
-      "title": "Security, Explained",
-      "weight": 32
-    },
-    {
-      "confidence": 0.215,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0122,
-        "lift_log": 2.376,
-        "score": 0.2153,
-        "shared": 3
-      },
-      "rationale": "Smart contracts are a common source of security risks.",
-      "relation_type": "primitive",
-      "slug": "smart-contract",
-      "source": "cotag",
-      "tag_name": "Smart Contract",
-      "title": "Smart Contract, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "security-risk",
   "tag_name": "Security Risk",

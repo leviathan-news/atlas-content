@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:08:56.404145+00:00",
+      "as_of": "2026-07-29T23:01:18.916929+00:00",
       "newsroom_total": 16,
-      "overall_share": 25,
+      "overall_share": 20,
       "provenance": "data",
       "series": [
         {
@@ -77,62 +77,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 11
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 18
         }
       ],
-      "total_universe": 64,
-      "universe_total": 48
+      "total_universe": 82,
+      "universe_total": 66
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:08:55.511528+00:00",
+      "as_of": "2026-07-29T23:01:18.653157+00:00",
       "edges": [
         {
+          "confidence": 0.209,
+          "description": "Co-covered in 5 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "litecoin",
-          "phrase": "Litecoin engages in sponsorships as marketing events.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-12",
+          "phrase": "Co-covered in 5 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "sponsorships",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.2,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "litecoin",
-          "phrase": "EVM is a different execution environment, not directly related.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "evm",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.171,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "litecoin",
-          "phrase": "DOGE is a peer cryptocurrency similar to Litecoin.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "doge",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.171,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "litecoin",
-          "phrase": "Litecoin does not natively support smart contracts.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "smart-contract",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "litecoin",
+          "observed_at": null,
           "phrase": "Bitcoin",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -146,42 +187,62 @@
         },
         {
           "center": false,
+          "confidence": 0.209,
           "name": "Sponsorships",
+          "observed_at": "2026-06-12",
           "slug": "sponsorships",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.2,
           "name": "EVM",
+          "observed_at": null,
           "slug": "evm",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.171,
           "name": "DOGE",
+          "observed_at": null,
           "slug": "doge",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.171,
           "name": "Smart Contract",
+          "observed_at": null,
           "slug": "smart-contract",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -251,16 +312,16 @@
     },
     "reader_signal": {
       "article_count": 16,
-      "as_of": "2026-07-01T12:08:57.536374+00:00",
+      "as_of": "2026-07-29T23:01:19.134148+00:00",
       "most_clicked": {
-        "clicks": 198,
+        "clicks": 201,
         "date": "2024-03-20T21:48:53.832889+00:00",
         "headline": "Coinbase to launch futures trading for Dogecoin, Litecoin, and Bitcoin Cash on... :checks notes: ... April Fools Day?",
         "lev_url": "https://leviathannews.xyz/4303/coinbase-to-launch-futures-trading-for-dogecoin-litecoin-and-bitcoin-cash-on-checks-notes-april-fools-day"
       },
       "provenance": "data",
-      "top_decile_share": 18,
-      "total_clicks": 1109
+      "top_decile_share": 17,
+      "total_clicks": 1152
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:36:22.248762+00:00",
@@ -339,10 +400,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:08:57.458142+00:00",
+      "as_of": "2026-07-29T23:01:19.129643+00:00",
       "items": [
         {
-          "clicks": 38,
+          "clicks": 39,
           "date": "2026-04-16T04:50:02.740888+00:00",
           "headline": "LitVM LiteForge testnet launches, bringing EVM smart contracts, DeFi, and Web3 to Litecoin for the first time.",
           "hot_score": 3352.782325,
@@ -351,7 +412,7 @@
           "url": "https://x.com/LitecoinVM/status/2044460314645979226"
         },
         {
-          "clicks": 42,
+          "clicks": 45,
           "date": "2026-06-19T05:52:59.345066+00:00",
           "headline": "Lite Strategy backs LitVM with $1 million bet on Litecoin smart contract expansion",
           "hot_score": 452.267552,
@@ -360,7 +421,7 @@
           "url": "https://x.com/litestrategy/status/2067590567249252389"
         },
         {
-          "clicks": 42,
+          "clicks": 43,
           "date": "2026-04-24T15:04:52.323296+00:00",
           "headline": "Litecoin's first EVM rollup LitVM picks DIA as oracle provider, opening 14-year-old chain to DeFi",
           "hot_score": 332.8,
@@ -369,7 +430,7 @@
           "url": "https://www.diadata.org/blog/post/dia-litvm-oracle-integration"
         },
         {
-          "clicks": 23,
+          "clicks": 29,
           "date": "2026-04-26T08:04:14.952526+00:00",
           "headline": "Litecoin reverses first major MWEB exploit via 13-block reorg, ~$600K in invalid pegouts undone",
           "hot_score": 328.4,
@@ -378,7 +439,7 @@
           "url": "https://www.theblock.co/post/398892/litecoin-rewrites-three-hours-of-history-to-undo-its-first-major-privacy-layer-exploit"
         },
         {
-          "clicks": 41,
+          "clicks": 43,
           "date": "2025-12-18T20:38:29.239840+00:00",
           "headline": "Litecoin Founder Charlie Lee on the Rise of Stablecoins",
           "hot_score": 43.79861,
@@ -387,7 +448,7 @@
           "url": "https://www.youtube.com/watch?v=FIT3UBCeKQ0"
         },
         {
-          "clicks": 198,
+          "clicks": 201,
           "date": "2024-03-20T21:48:53.832889+00:00",
           "headline": "Coinbase to launch futures trading for Dogecoin, Litecoin, and Bitcoin Cash on... :checks notes: ... April Fools Day?",
           "hot_score": 0.0,
@@ -396,7 +457,7 @@
           "url": "https://www.theblock.co/post/283816/coinbase-to-launch-futures-trading-for-dogecoin-litecoin-and-bitcoin-bash-on-april-1st"
         },
         {
-          "clicks": 163,
+          "clicks": 169,
           "date": "2025-04-21T16:15:18.728961+00:00",
           "headline": "There are now 72 crypto-themed ETFs waiting on SEC approval—ranging from XRP, Litecoin, and Solana to Doge, Pudgy Penguins, and even 2x Melania—looks like it’s going to be a chaotic year.",
           "hot_score": 0.0,
@@ -405,7 +466,7 @@
           "url": "https://x.com/EricBalchunas/status/1914336419314643103"
         },
         {
-          "clicks": 106,
+          "clicks": 108,
           "date": "2025-01-16T16:56:25.390549+00:00",
           "headline": "Canary Funds filed an amended S-1 for their Litecoin ETF filing kicking off SEC approval countdown.",
           "hot_score": 0.0,
@@ -417,7 +478,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:08:57.368562+00:00",
+      "as_of": "2026-07-29T23:01:19.118855+00:00",
       "editorial": [
         {
           "count": 6,
@@ -460,7 +521,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 39,
+          "count": 56,
           "source": "x.com"
         },
         {
@@ -486,9 +547,13 @@
         {
           "count": 1,
           "source": "litecoin.com"
+        },
+        {
+          "count": 1,
+          "source": "sec.gov"
         }
       ],
-      "universe_distinct": 7
+      "universe_distinct": 8
     }
   },
   "official_links": [],
@@ -499,25 +564,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:36:41.018821+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.209,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0392,
-        "lift_log": 4.131,
-        "score": 0.2085,
-        "shared": 5
-      },
-      "rationale": "Litecoin engages in sponsorships as marketing events.",
-      "relation_type": "event",
-      "slug": "sponsorships",
-      "source": "cotag",
-      "tag_name": "Sponsorships",
-      "title": "Sponsorships, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "litecoin",
   "tag_name": "Litecoin",

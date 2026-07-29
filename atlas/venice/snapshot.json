@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:13:01.283372+00:00",
-      "newsroom_total": 7,
-      "overall_share": 17,
+      "as_of": "2026-07-29T23:06:16.397325+00:00",
+      "newsroom_total": 9,
+      "overall_share": 16,
       "provenance": "data",
       "series": [
         {
@@ -59,62 +59,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 7
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 14
         }
       ],
-      "total_universe": 41,
-      "universe_total": 34
+      "total_universe": 57,
+      "universe_total": 48
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:13:00.564981+00:00",
+      "as_of": "2026-07-29T23:06:13.633765+00:00",
       "edges": [
         {
+          "confidence": 0.252,
+          "description": "Co-covered in 6 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "venice",
-          "phrase": "Venice competes with Google in AI and search.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-26",
+          "phrase": "Co-covered in 6 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "google",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.236,
+          "description": "Co-covered in 4 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "venice",
-          "phrase": "Venice is a privacy-focused AI platform.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-03",
+          "phrase": "Co-covered in 4 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "privacy",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.232,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "venice",
-          "phrase": "Venice offers AI video generation.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-22",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "video",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.123,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "venice",
-          "phrase": "Burn mechanism may be used in Venice's tokenomics.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "burn",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "venice",
+          "observed_at": null,
           "phrase": "Coinbase",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "coinbase",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -128,42 +169,62 @@
         },
         {
           "center": false,
+          "confidence": 0.252,
           "name": "Google",
+          "observed_at": "2026-05-26",
           "slug": "google",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.236,
           "name": "Privacy",
+          "observed_at": "2026-04-03",
           "slug": "privacy",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.232,
           "name": "Video",
+          "observed_at": "2026-05-22",
           "slug": "video",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.123,
           "name": "Burn",
+          "observed_at": null,
           "slug": "burn",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Coinbase",
+          "observed_at": null,
           "slug": "coinbase",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -232,17 +293,17 @@
       "source": "https://www.findas.org/tokenomics-review/coins/the-tokenomics-of-venice-token-vvv/r/Ec685o9pPq5fHa3ZahpgtD"
     },
     "reader_signal": {
-      "article_count": 7,
-      "as_of": "2026-07-01T12:13:02.186541+00:00",
+      "article_count": 9,
+      "as_of": "2026-07-29T23:06:18.332477+00:00",
       "most_clicked": {
-        "clicks": 145,
+        "clicks": 147,
         "date": "2025-01-27T21:10:50.779791+00:00",
         "headline": "Venice, founded by Erik Voorhees, with a mission to provide permissionless access to private and uncensored machine intelligence, opens its API to the public for AI agents, devs, and 3rd party apps, and launches the Venice token, VVV, also on Base, with an airdrop to over 250,000 people and AI agents this morning",
         "lev_url": "https://leviathannews.xyz/8995/venice-founded-by-erik-voorhees-with-a-mission-to-provide-permissionless-access-to-private-and-uncensored-machine-intelligence-opens-its-api-to-the-public-for-ai-agents-devs-and-3r"
       },
       "provenance": "data",
-      "top_decile_share": 29,
-      "total_clicks": 500
+      "top_decile_share": 25,
+      "total_clicks": 583
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:54:43.767966+00:00",
@@ -327,10 +388,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:13:02.110229+00:00",
+      "as_of": "2026-07-29T23:06:18.321695+00:00",
       "items": [
         {
-          "clicks": 45,
+          "clicks": 47,
           "date": "2026-04-15T23:11:49.828705+00:00",
           "headline": "Venice automates VVV buy-and-burn with per-subscription triggers as 42.9% of total supply already removed",
           "hot_score": 3096.667042,
@@ -339,7 +400,16 @@
           "url": "https://venice.ai/blog/programmatic-vvv-buy-and-burn"
         },
         {
-          "clicks": 36,
+          "clicks": 38,
+          "date": "2026-07-01T16:27:08.176499+00:00",
+          "headline": "Venice AI raises $65M Series A at $1B valuation as Dragonfly leads first outside round",
+          "hot_score": 779.483791,
+          "lev_url": "https://leviathannews.xyz/266691/venice-ai-raises-65m-series-a-at-1b-valuation-as-dragonfly-leads-first-outside-round",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701160012_Z4zrlaiDPw==.png",
+          "url": "https://venice.ai/blog/venice-raises-65-million-series-a"
+        },
+        {
+          "clicks": 39,
           "date": "2026-05-16T23:45:35.959303+00:00",
           "headline": "Cerebras’ IPO is accelerating the AI shift from training to inference, with Venice’s token ecosystem positioning API access and compute capacity as tradable onchain assets",
           "hot_score": 745.174574,
@@ -357,7 +427,16 @@
           "url": "https://x.com/strikerobot_ai/status/2052206799512879378"
         },
         {
-          "clicks": 145,
+          "clicks": 35,
+          "date": "2026-07-08T07:16:57.535143+00:00",
+          "headline": "BunnyOS picks Venice for uncensored, private LLM inference, boosting open-source adoption",
+          "hot_score": 426.622578,
+          "lev_url": "https://leviathannews.xyz/270898/bunnyos-announce-that-venice-is-now-integrated-as-its-sole-llm-inference-provider-bunnyos-love-the-product-and-recommend-it-for-any-llm-use-case",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260708065402_rDBvdnwP1-QR.jpg",
+          "url": "https://x.com/officialbunnyos/status/2074498358807499074"
+        },
+        {
+          "clicks": 147,
           "date": "2025-01-27T21:10:50.779791+00:00",
           "headline": "Venice, founded by Erik Voorhees, with a mission to provide permissionless access to private and uncensored machine intelligence, opens its API to the public for AI agents, devs, and 3rd party apps, and launches the Venice token, VVV, also on Base, with an airdrop to over 250,000 people and AI agents this morning",
           "hot_score": 0.0,
@@ -366,7 +445,7 @@
           "url": "https://x.com/AskVenice/status/1883928612317061191"
         },
         {
-          "clicks": 122,
+          "clicks": 123,
           "date": "2024-05-10T17:41:42.660651+00:00",
           "headline": "Erik Voorhees announces Venice Today, a \"permissionless AI for the purpose of unfettered civilizational advancement\"",
           "hot_score": 0.0,
@@ -375,35 +454,26 @@
           "url": "https://twitter.com/ErikVoorhees/status/1788955538933575932?t=5aw9I_fKrs66ziPvQex-OQ&s=19"
         },
         {
-          "clicks": 72,
+          "clicks": 73,
           "date": "2025-04-21T17:25:12.464959+00:00",
           "headline": "Venice introduces his new image engine, with superior photorealism, better prompt understanding, reduced artifacts and enhanced artistic range",
           "hot_score": 0.0,
           "lev_url": "https://leviathannews.xyz/10652/venice-introduces-his-new-image-engine-with-superior-photorealism-better-prompt-understanding-reduced-artifacts-and-enhanced-artistic-range",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250421172154_x_plEJIX8qI=.jpg",
           "url": "https://twitter.com/AskVenice/status/1914367158013866190"
-        },
-        {
-          "clicks": 35,
-          "date": "2025-05-22T18:35:51.725486+00:00",
-          "headline": "Venice launches $27M Incentive Fund to Advance Private, Uncensored AI Apps, Agents & Infrastructure",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/11570/venice-launches-27m-incentive-fund-to-advance-private-uncensored-ai-apps-agents-infrastructure",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250522183430_TAtQYW1V8pk=.jpg",
-          "url": "https://venice.ai/blog/venice-launches-27m-incentive-fund-to-advance-private-uncensored-ai-apps-agents-infrastructure"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:13:02.022312+00:00",
+      "as_of": "2026-07-29T23:06:18.303944+00:00",
       "editorial": [
         {
-          "count": 5,
+          "count": 6,
           "source": "x.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "venice.ai"
         }
       ],
@@ -411,7 +481,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 26,
+          "count": 33,
           "source": "x.com"
         },
         {
@@ -419,7 +489,7 @@
           "source": "cdn.venice.ai"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "venice.ai"
         },
         {
@@ -428,10 +498,34 @@
         },
         {
           "count": 1,
+          "source": "axios.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
           "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "techcrunch.com"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
+        },
+        {
+          "count": 1,
+          "source": "amd.com"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 11
     }
   },
   "official_links": [],
@@ -442,59 +536,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:37:04.427048+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.252,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0154,
-        "lift_log": 3.14,
-        "score": 0.2524,
-        "shared": 6
-      },
-      "rationale": "Venice competes with Google in AI and search.",
-      "relation_type": "peer",
-      "slug": "google",
-      "source": "cotag",
-      "tag_name": "Google",
-      "title": "Google, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.236,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0111,
-        "lift_log": 2.831,
-        "score": 0.2359,
-        "shared": 4
-      },
-      "rationale": "Venice is a privacy-focused AI platform.",
-      "relation_type": "category",
-      "slug": "privacy",
-      "source": "cotag",
-      "tag_name": "Privacy",
-      "title": "Privacy, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.232,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0444,
-        "lift_log": 4.602,
-        "score": 0.2323,
-        "shared": 4
-      },
-      "rationale": "Venice offers AI video generation.",
-      "relation_type": "product",
-      "slug": "video",
-      "source": "cotag",
-      "tag_name": "Video",
-      "title": "Video, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "venice",
   "tag_name": "Venice",

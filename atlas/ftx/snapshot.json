@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:50:18.528026+00:00",
-      "newsroom_total": 137,
-      "overall_share": 67,
+      "as_of": "2026-07-29T22:59:19.334089+00:00",
+      "newsroom_total": 138,
+      "overall_share": 62,
       "provenance": "data",
       "series": [
         {
@@ -239,62 +239,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 19
+        },
+        {
+          "ed_share": 5,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 18
         }
       ],
-      "total_universe": 203,
-      "universe_total": 66
+      "total_universe": 222,
+      "universe_total": 84
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:50:16.564546+00:00",
+      "as_of": "2026-07-29T22:59:18.969432+00:00",
       "edges": [
         {
+          "confidence": 0.296,
+          "description": "Co-covered in 8 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ftx",
-          "phrase": "FTX founder's criminal trial is a key milestone.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-24",
+          "phrase": "Co-covered in 8 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "trial",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.271,
+          "description": "Co-covered in 17 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ftx",
-          "phrase": "Sam Bankman-Fried founded FTX.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-17",
+          "phrase": "Co-covered in 17 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "sbf",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.188,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ftx",
-          "phrase": "FTX executives face prison sentences after collapse.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "prison",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.159,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ftx",
-          "phrase": "CZ is CEO of Binance, a competitor to FTX.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cz",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.151,
+          "description": "Co-covered in 14 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ftx",
-          "phrase": "Creditors file claims in FTX bankruptcy proceedings.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 14 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "claims",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -308,42 +349,62 @@
         },
         {
           "center": false,
+          "confidence": 0.296,
           "name": "Trial",
+          "observed_at": "2026-06-24",
           "slug": "trial",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.271,
           "name": "SBF",
+          "observed_at": "2026-06-17",
           "slug": "sbf",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.188,
           "name": "prison",
+          "observed_at": null,
           "slug": "prison",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.159,
           "name": "CZ",
+          "observed_at": null,
           "slug": "cz",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.151,
           "name": "Claims",
+          "observed_at": null,
           "slug": "claims",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -412,17 +473,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 137,
-      "as_of": "2026-07-01T11:50:20.968513+00:00",
+      "article_count": 138,
+      "as_of": "2026-07-29T22:59:19.612550+00:00",
       "most_clicked": {
-        "clicks": 660,
+        "clicks": 662,
         "date": "2024-03-29T22:47:53.628139+00:00",
         "headline": "Hedge funds that scooped up FTX bankruptcy claims are looking at 9-figure paydays.",
         "lev_url": "https://leviathannews.xyz/4509/hedge-funds-that-scooped-up-ftx-bankruptcy-claims-are-looking-at-9-figure-paydays"
       },
       "provenance": "data",
       "top_decile_share": 33,
-      "total_clicks": 13005
+      "total_clicks": 13232
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:06:52.861057+00:00",
@@ -507,7 +568,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:50:20.777391+00:00",
+      "as_of": "2026-07-29T22:59:19.605782+00:00",
       "items": [
         {
           "clicks": 143,
@@ -519,7 +580,16 @@
           "url": "https://www.coindesk.com/business/2026/04/07/cz-says-sbf-asked-for-billions-like-a-bologna-sandwich-as-ftx-collapsed"
         },
         {
-          "clicks": 68,
+          "clicks": 65,
+          "date": "2026-07-18T00:22:48.680150+00:00",
+          "headline": "FTX to distribute roughly $900 million to creditors in fifth payout on July 31",
+          "hot_score": 1194.263087,
+          "lev_url": "https://leviathannews.xyz/277829/ftx-to-distribute-about-900-million-to-creditors-in-fifth-payout-on-july-31-ftx-will-begin-its-fifth-creditor-distribution-on-july-31-paying-approximately-900-million-to-holders-of-20260718",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260718000130_RFTs8SQYIVVc.jpg",
+          "url": "https://x.com/wublockchain/status/2078261922013811171"
+        },
+        {
+          "clicks": 70,
           "date": "2026-05-23T19:05:52.283925+00:00",
           "headline": "FTX’s former law firm Fenwick & West will pay $54M to settle fraud claims tied to Sam Bankman-Fried, as auditors and promoters add millions more",
           "hot_score": 776.488707,
@@ -528,7 +598,7 @@
           "url": "https://www.theblock.co/post/402425/ftxs-former-law-firm-auditor-agree-to-pay-66-million-to-settle-customer-claims-over-fraud?utm_source=telegram1&utm_medium=social"
         },
         {
-          "clicks": 28,
+          "clicks": 29,
           "date": "2026-04-22T15:53:19.673891+00:00",
           "headline": "Polygon’s Agglayer withstands DeFi’s worst week since FTX as $292M bridge hack and $6.6B Aave outflows expose multisig vulnerabilities across chains",
           "hot_score": 762.2,
@@ -537,7 +607,7 @@
           "url": "https://beincrypto.com/how-polygon-agglayer-held-through-defi-worst-week-since-ftx/"
         },
         {
-          "clicks": 38,
+          "clicks": 46,
           "date": "2026-06-12T14:55:27.712880+00:00",
           "headline": "Appeals court upholds Sam Bankman-Fried's 25-year sentence, rejecting bid for new trial in landmark FTX fraud case",
           "hot_score": 680.001602,
@@ -571,24 +641,15 @@
           "lev_url": "https://leviathannews.xyz/234759/ftx-sold-alamedas-5-cursor-stake-for-200k-in-2023-spacexs-new-60b-buyout-option-values-it-at-3b",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422064849_kTiCiRWpLN_i.jpg",
           "url": "https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion"
-        },
-        {
-          "clicks": 23,
-          "date": "2026-06-08T16:44:58.413989+00:00",
-          "headline": "Sam Bankman-Fried files Trump pardon bid while serving 25-year FTX fraud sentence",
-          "hot_score": 415.018079,
-          "lev_url": "https://leviathannews.xyz/254330/sam-bankman-fried-files-trump-pardon-bid-while-serving-25-year-ftx-fraud-sentence",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260608163345_Z4zrlaiDPw==.png",
-          "url": "https://www.coindesk.com/policy/2026/06/08/sam-bankman-fried-officially-asks-donald-trump-for-a-presidential-pardon"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:50:20.679227+00:00",
+      "as_of": "2026-07-29T22:59:19.588419+00:00",
       "editorial": [
         {
-          "count": 36,
+          "count": 37,
           "source": "x.com"
         },
         {
@@ -640,7 +701,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 29,
+          "count": 36,
           "source": "x.com"
         },
         {
@@ -648,20 +709,28 @@
           "source": "decrypt.co"
         },
         {
-          "count": 8,
+          "count": 11,
           "source": "cointelegraph.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "theblock.co"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "coindesk.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "news.bloomberglaw.com"
         },
         {
           "count": 2,
@@ -678,17 +747,9 @@
         {
           "count": 1,
           "source": "straitstimes.com"
-        },
-        {
-          "count": 1,
-          "source": "news.bloomberglaw.com"
-        },
-        {
-          "count": 1,
-          "source": "fortune.com"
         }
       ],
-      "universe_distinct": 15
+      "universe_distinct": 17
     }
   },
   "official_links": [],
@@ -699,42 +760,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:32.655330+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.271,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0857,
-        "lift_log": 5.006,
-        "score": 0.2709,
-        "shared": 17
-      },
-      "rationale": "Sam Bankman-Fried founded FTX.",
-      "relation_type": "founder",
-      "slug": "sbf",
-      "source": "cotag",
-      "tag_name": "SBF",
-      "title": "SBF, Explained",
-      "weight": 27
-    },
-    {
-      "confidence": 0.296,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0331,
-        "lift_log": 3.924,
-        "score": 0.2963,
-        "shared": 8
-      },
-      "rationale": "FTX founder's criminal trial is a key milestone.",
-      "relation_type": "event",
-      "slug": "trial",
-      "source": "cotag",
-      "tag_name": "Trial",
-      "title": "Trial, Explained",
-      "weight": 30
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "ftx",
   "tag_name": "FTX",

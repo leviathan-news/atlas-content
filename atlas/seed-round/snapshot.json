@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:01:13.132889+00:00",
-      "newsroom_total": 64,
+      "as_of": "2026-07-29T23:04:17.603615+00:00",
+      "newsroom_total": 69,
       "overall_share": 78,
       "provenance": "data",
       "series": [
@@ -191,62 +191,103 @@
           "month": "2026-06",
           "newsroom": 8,
           "universe": 1
+        },
+        {
+          "ed_share": 71,
+          "month": "2026-07",
+          "newsroom": 5,
+          "universe": 2
         }
       ],
-      "total_universe": 82,
-      "universe_total": 18
+      "total_universe": 89,
+      "universe_total": 20
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:01:12.689327+00:00",
+      "as_of": "2026-07-29T23:04:17.410178+00:00",
       "edges": [
         {
+          "confidence": 0.292,
+          "description": "Co-covered in 36 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seed-round",
-          "phrase": "Seed round is a type of fundraising event.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 36 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "raises",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.291,
+          "description": "Co-covered in 19 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seed-round",
-          "phrase": "Seed round is a stage of funding.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-29",
+          "phrase": "Co-covered in 19 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "funding",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.278,
+          "description": "Co-covered in 3 approved stories; most recently November 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seed-round",
-          "phrase": "Unclear direct relation; both are early-stage concepts.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-11-27",
+          "phrase": "Co-covered in 3 approved stories; most recently November 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "build",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 28
         },
         {
+          "confidence": 0.198,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seed-round",
-          "phrase": "Unclear direct relation; participation may occur in seed rounds.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "participation",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seed-round",
-          "phrase": "Paradigm is a VC that invests in seed rounds.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "paradigm",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -260,42 +301,62 @@
         },
         {
           "center": false,
-          "name": "raises",
+          "confidence": 0.292,
+          "name": "Raises",
+          "observed_at": "2026-07-27",
           "slug": "raises",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.291,
           "name": "Funding",
+          "observed_at": "2026-06-29",
           "slug": "funding",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.278,
           "name": "BUILD",
+          "observed_at": "2025-11-27",
           "slug": "build",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 28
         },
         {
           "center": false,
+          "confidence": 0.198,
           "name": "Participation",
+          "observed_at": null,
           "slug": "participation",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "Paradigm",
+          "observed_at": null,
           "slug": "paradigm",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -352,17 +413,17 @@
       "source": "https://www.crv.com/content/seed-funding-vs-series-a"
     },
     "reader_signal": {
-      "article_count": 64,
-      "as_of": "2026-07-01T12:01:13.659762+00:00",
+      "article_count": 69,
+      "as_of": "2026-07-29T23:04:17.812829+00:00",
       "most_clicked": {
-        "clicks": 346,
+        "clicks": 350,
         "date": "2023-12-05T10:54:02.275871+00:00",
         "headline": "BlackRock's Bitcoin ETF sees $100K in seed funding according to SEC filing, with investor acting as statutory underwriter.",
         "lev_url": "https://leviathannews.xyz/3503/blackrocks-bitcoin-etf-sees-100k-in-seed-funding-according-to-sec-filing-with-investor-acting-as-statutory-underwriter"
       },
       "provenance": "data",
-      "top_decile_share": 28,
-      "total_clicks": 4287
+      "top_decile_share": 27,
+      "total_clicks": 4546
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:47:52.460443+00:00",
@@ -441,10 +502,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:01:13.541039+00:00",
+      "as_of": "2026-07-29T23:04:17.807659+00:00",
       "items": [
         {
-          "clicks": 36,
+          "clicks": 38,
           "date": "2026-04-17T05:20:21.837213+00:00",
           "headline": "Mirage raises seed funding from Seed Club Ventures and Kyber Knight, launches closed alpha for private stablecoin transfers.",
           "hot_score": 1799.227628,
@@ -453,31 +514,31 @@
           "url": "https://chainwire.org/2026/04/15/mirage-announces-seed-round-and-closed-alpha-for-private-stablecoin-transfers/"
         },
         {
-          "clicks": 23,
+          "clicks": 35,
+          "date": "2026-06-24T14:20:55.073936+00:00",
+          "headline": "a16z leads Ornn's $33M seed round to build financial markets for AI compute, introducing GPU price indices, futures, and capital products for data center investors",
+          "hot_score": 569.18969,
+          "lev_url": "https://leviathannews.xyz/261867/investing-in-ornn-a-market-for-compute",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260624140806_dw1Nzobi8lbr.jpg",
+          "url": "https://x.com/alive_/status/2069762771135148490"
+        },
+        {
+          "clicks": 24,
           "date": "2026-06-25T06:36:51.114021+00:00",
           "headline": "Mirendil raises $200m seed round led by a16z to build AI that automates AI engineering work",
-          "hot_score": 657.885089,
+          "hot_score": 545.651707,
           "lev_url": "https://leviathannews.xyz/262350/mirendil-announces-200m-a16z-led-seed-raise-to-make-ai-that-can-do-the-job-of-an-ai-engineer",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625031522_rZe7H23TzWOr.jpg",
           "url": "https://x.com/a16z/status/2069869327411749012"
         },
         {
-          "clicks": 24,
+          "clicks": 26,
           "date": "2026-06-25T06:34:16.110219+00:00",
           "headline": "AI analytics platform Polysights raises $1.5M pre-seed funding to combat insider trading in prediction markets. The raise was backed by YZi Labs S3, Maven 11 Capital, and angels from Kraken and Consensys, plus grants from Polymarket and AWS.",
-          "hot_score": 656.317457,
+          "hot_score": 544.351509,
           "lev_url": "https://leviathannews.xyz/262239/ai-analytics-platform-polysights-raises-15m-pre-seed-funding-to-combat-insider-trading-in-prediction-markets-the-raise-was-backed-by-yzi-labs-s3-maven-11-capital-and-angels-from-kr",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260624232015_F_Y_WutI2B2x.jpg",
           "url": "https://x.com/polysights/status/2069830766331121957"
-        },
-        {
-          "clicks": 34,
-          "date": "2026-06-24T14:20:55.073936+00:00",
-          "headline": "a16z leads Ornn's $33M seed round to build financial markets for AI compute, introducing GPU price indices, futures, and capital products for data center investors",
-          "hot_score": 583.181588,
-          "lev_url": "https://leviathannews.xyz/261867/investing-in-ornn-a-market-for-compute",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260624140806_dw1Nzobi8lbr.jpg",
-          "url": "https://x.com/alive_/status/2069762771135148490"
         },
         {
           "clicks": 44,
@@ -489,40 +550,40 @@
           "url": "https://www.theblock.co/post/401929/tether-gnosis-co-lead-4-4-million-seed-round-lightweight-mobile-sorted-wallet"
         },
         {
-          "clicks": 57,
+          "clicks": 37,
+          "date": "2026-07-23T06:32:03.152299+00:00",
+          "headline": "Variant leads seed round for Tenor, a decentralized finance protocol focused on fixed-income lending",
+          "hot_score": 473.808482,
+          "lev_url": "https://leviathannews.xyz/280444/variant-leads-seed-round-in-tenor",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260723041133_9ZRoTzX-5SA1.jpg",
+          "url": "https://x.com/tenorfinance/status/2079944150418432279"
+        },
+        {
+          "clicks": 41,
+          "date": "2026-07-17T03:57:53.861365+00:00",
+          "headline": "Trasia launches non-custodial Asia-first trading platform with $1.75M seed funding from Multicoin",
+          "hot_score": 426.451422,
+          "lev_url": "https://leviathannews.xyz/277175/today-we-are-thrilled-to-announce-that-we-are-launching-trasiaxyz-and-have-received-175m-seed-stage-funding-from-multicoin-we-are-grateful-for-the-strategic-support-that-multicoin-",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260717034449_BnCpaWU-dxfl.jpg",
+          "url": "https://x.com/mablejiang/status/2077786637824913537"
+        },
+        {
+          "clicks": 60,
           "date": "2026-04-02T05:26:56.559931+00:00",
           "headline": "Uniblock raises $5.2M to unify blockchain infrastructure after its oversubscribed seed round brought the total capital raised to $7.5M.",
           "hot_score": 354.519343,
           "lev_url": "https://leviathannews.xyz/219698/uniblock-raises-52m-to-unify-blockchain-infrastructure-the-seed-round-was-oversubscribed-and-the-total-capital-raised-to-75m",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260402003350_JEkbyVPlTUDC.jpg",
           "url": "https://uniblock.dev/blog/uniblock-raises-5.2m-to-unify-blockchain-infrastructure"
-        },
-        {
-          "clicks": 39,
-          "date": "2026-04-01T17:38:51.495349+00:00",
-          "headline": "Kulipa raises $6.2M seed round to expand stablecoin card issuing infrastructure, enabling fintechs and wallets to launch white-label payment cards without handling operations",
-          "hot_score": 117.690317,
-          "lev_url": "https://leviathannews.xyz/219501/kulipa-raises-62m-seed-round-to-expand-stablecoin-card-issuing-infrastructure-enabling-fintechs-and-wallets-to-launch-white-label-payment-cards-without-handling-operations-the-bloc",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401173546_Ss2Egyh0rus1.jpg",
-          "url": "https://www.theblock.co/post/396063/stablecoin-card-kulipa-seed-round?utm_source=twitter&utm_medium=social"
-        },
-        {
-          "clicks": 74,
-          "date": "2025-12-11T02:14:57.536648+00:00",
-          "headline": "State Street and Galaxy to launch tokenized liquidity fund, SWEEP on Solana in 2026. The fund will run on Solana at launch and use PYUSD. Ondo Finance committed about $200 million to seed the tokenized liquidity fund, which will later expand to other chains.",
-          "hot_score": 111.500782,
-          "lev_url": "https://leviathannews.xyz/22155/state-street-and-galaxy-to-launch-tokenized-liquidity-fund-sweep-on-solana-in-2026-the-fund-will-run-on-solana-at-launch-and-use-pyusd-ondo-finance-committed-about-200-million-to-s",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251211005139_mPGjhrTcnQY=.jpg",
-          "url": "https://archive.ph/NMI6D"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:01:13.451010+00:00",
+      "as_of": "2026-07-29T23:04:17.796515+00:00",
       "editorial": [
         {
-          "count": 31,
+          "count": 36,
           "source": "x.com"
         },
         {
@@ -574,11 +635,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 6,
+          "count": 7,
           "source": "x.com"
         },
         {
-          "count": 6,
+          "count": 7,
           "source": "theblock.co"
         },
         {
@@ -605,59 +666,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:54.360065+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.278,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0186,
-        "lift_log": 3.69,
-        "score": 0.2784,
-        "shared": 3
-      },
-      "rationale": "Unclear direct relation; both are early-stage concepts.",
-      "relation_type": "peer",
-      "slug": "build",
-      "source": "cotag",
-      "tag_name": "BUILD",
-      "title": "BUILD, Explained",
-      "weight": 28
-    },
-    {
-      "confidence": 0.291,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0423,
-        "lift_log": 3.67,
-        "score": 0.2911,
-        "shared": 18
-      },
-      "rationale": "Seed round is a stage of funding.",
-      "relation_type": "category",
-      "slug": "funding",
-      "source": "cotag",
-      "tag_name": "Funding",
-      "title": "Funding, Explained",
-      "weight": 29
-    },
-    {
-      "confidence": 0.292,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0433,
-        "lift_log": 3.637,
-        "score": 0.292,
-        "shared": 35
-      },
-      "rationale": "Seed round is a type of fundraising event.",
-      "relation_type": "event",
-      "slug": "raises",
-      "source": "cotag",
-      "tag_name": "Raises",
-      "title": "raises, Explained",
-      "weight": 29
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "seed-round",
   "tag_name": "Seed Round",

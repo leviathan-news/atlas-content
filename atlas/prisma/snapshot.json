@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:13:21.170869+00:00",
+      "as_of": "2026-07-29T23:03:29.322524+00:00",
       "newsroom_total": 40,
-      "overall_share": 93,
+      "overall_share": 91,
       "provenance": "data",
       "series": [
         {
@@ -107,62 +107,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 3
-        }
-      ],
-      "total_universe": 43,
-      "universe_total": 3
-    },
-    "entity_graph": {
-      "as_of": "2026-07-01T12:13:19.752417+00:00",
-      "edges": [
-        {
-          "dir": "out",
-          "from": "prisma",
-          "phrase": "Resupply is a yield optimizer built on Prisma's liquid staking tokens.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
-          "to": "resupply",
-          "weight": 29
         },
         {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
+        }
+      ],
+      "total_universe": 44,
+      "universe_total": 4
+    },
+    "entity_graph": {
+      "as_of": "2026-07-29T23:03:29.077317+00:00",
+      "edges": [
+        {
+          "confidence": 0.24,
+          "description": "Co-covered in 4 approved stories; most recently March 2024.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "prisma",
-          "phrase": "Prisma uses Curve pools for liquidity of its mkUSD stablecoin.",
-          "relation_type": "protocol",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2024-03-22",
+          "phrase": "Co-covered in 4 approved stories; most recently March 2024.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "curve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.199,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "prisma",
-          "phrase": "Yearn is a yield aggregator comparable to Prisma's yield strategies.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "yearn",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "prisma",
-          "phrase": "Convex",
-          "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "convex",
-          "weight": 10
-        },
-        {
-          "dir": "out",
-          "from": "prisma",
+          "observed_at": null,
           "phrase": "fork",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "fork",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "from": "prisma",
+          "observed_at": null,
+          "phrase": "Liquity",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "liquity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "from": "prisma",
+          "observed_at": null,
+          "phrase": "restaking",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "restaking",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -176,42 +217,62 @@
         },
         {
           "center": false,
-          "name": "Resupply",
-          "slug": "resupply",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 29
-        },
-        {
-          "center": false,
+          "confidence": 0.24,
           "name": "Curve",
+          "observed_at": "2024-03-22",
           "slug": "curve",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.199,
           "name": "Yearn",
+          "observed_at": null,
           "slug": "yearn",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
-          "name": "Convex",
-          "slug": "convex",
+          "confidence": 0.0,
+          "name": "fork",
+          "observed_at": null,
+          "slug": "fork",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
-          "name": "fork",
-          "slug": "fork",
+          "confidence": 0.0,
+          "name": "Liquity",
+          "observed_at": null,
+          "slug": "liquity",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "name": "Restaking",
+          "observed_at": null,
+          "slug": "restaking",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -281,16 +342,16 @@
     },
     "reader_signal": {
       "article_count": 40,
-      "as_of": "2026-07-01T12:13:22.127779+00:00",
+      "as_of": "2026-07-29T23:03:29.508834+00:00",
       "most_clicked": {
-        "clicks": 1306,
+        "clicks": 1312,
         "date": "2024-03-22T12:26:52.819649+00:00",
         "headline": "Prisma Risk team historical analysis between oracles: \"Implementing the Curve Oracle would have resulted in decreased MEV by bots and provided a better exchange rate for users\"",
         "lev_url": "https://leviathannews.xyz/4340/prisma-risk-team-historical-analysis-between-oracles-implementing-the-curve-oracle-would-have-resulted-in-decreased-mev-by-bots-and-provided-a-better-exchange-rate-for-users"
       },
       "provenance": "data",
-      "top_decile_share": 44,
-      "total_clicks": 9992
+      "top_decile_share": 43,
+      "total_clicks": 10078
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:01:31.099859+00:00",
@@ -375,10 +436,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:13:22.046403+00:00",
+      "as_of": "2026-07-29T23:03:29.504845+00:00",
       "items": [
         {
-          "clicks": 1306,
+          "clicks": 1312,
           "date": "2024-03-22T12:26:52.819649+00:00",
           "headline": "Prisma Risk team historical analysis between oracles: \"Implementing the Curve Oracle would have resulted in decreased MEV by bots and provided a better exchange rate for users\"",
           "hot_score": 0.0,
@@ -387,7 +448,7 @@
           "url": "https://hackmd.io/@PrismaRisk/AlternativeOracles"
         },
         {
-          "clicks": 1238,
+          "clicks": 1241,
           "date": "2024-03-30T14:15:36.535205+00:00",
           "headline": "Terms presented to Prisma: \"Your team need to do an online press conference, in which all of your team must show their faces with ids (its like KYC), and send apologies and thanks to all of your users, your investors, and me.\"",
           "hot_score": 0.0,
@@ -396,7 +457,7 @@
           "url": "https://etherscan.io/idm?addresses=0x2d413803a6ec3cb1ed1a93bf90608f63b157507a%2C0xd8531a94100f15af7521a7b6e724ac4959e0a025&type=1"
         },
         {
-          "clicks": 929,
+          "clicks": 936,
           "date": "2024-03-29T00:17:48.595189+00:00",
           "headline": "Prisma Finance hack possibly a whitehat rescue?",
           "hot_score": 0.0,
@@ -405,7 +466,7 @@
           "url": "https://etherscan.io/idm?addresses=0x2d413803a6ec3cb1ed1a93bf90608f63b157507a,0xd8531a94100f15af7521a7b6e724ac4959e0a025&type=1"
         },
         {
-          "clicks": 876,
+          "clicks": 879,
           "date": "2024-03-30T11:13:04.600352+00:00",
           "headline": "Prisma proposes pausing all fees",
           "hot_score": 0.0,
@@ -414,7 +475,7 @@
           "url": "https://gov.prismafinance.com/t/pip-034-pause-protocol-fee-distribution-to-veprisma-holders/155"
         },
         {
-          "clicks": 780,
+          "clicks": 782,
           "date": "2024-03-31T20:46:06.121124+00:00",
           "headline": "Prisma posts update on events, issues new recommendation of 50% cut to protocol emissions",
           "hot_score": 0.0,
@@ -423,7 +484,7 @@
           "url": "https://gov.prismafinance.com/t/a-path-forward-after-the-security-incident/157"
         },
         {
-          "clicks": 724,
+          "clicks": 728,
           "date": "2024-03-29T10:41:28.697132+00:00",
           "headline": "What do you think of the term \"Smart Contract\"?\n-- Prisma Exploiter",
           "hot_score": 0.0,
@@ -432,7 +493,7 @@
           "url": "https://etherscan.io/idm?addresses=0x2d413803a6ec3cb1ed1a93bf90608f63b157507a,0xd8531a94100f15af7521a7b6e724ac4959e0a025&type=1"
         },
         {
-          "clicks": 708,
+          "clicks": 710,
           "date": "2024-05-02T23:16:24.199600+00:00",
           "headline": "Prisma posts PIP-038: Victim Repayment Plan",
           "hot_score": 0.0,
@@ -441,7 +502,7 @@
           "url": "https://gov.prismafinance.com/t/pip-038-victim-repayment-plan/171"
         },
         {
-          "clicks": 308,
+          "clicks": 316,
           "date": "2024-12-24T11:05:10.532378+00:00",
           "headline": "A new Prisma Finance Snapshot vote is live - shut down Prisma Finance and introduce Resupply",
           "hot_score": 0.0,
@@ -453,7 +514,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:13:21.955404+00:00",
+      "as_of": "2026-07-29T23:03:29.495190+00:00",
       "editorial": [
         {
           "count": 23,
@@ -500,7 +561,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 3,
+          "count": 4,
           "source": "x.com"
         }
       ],
@@ -515,25 +576,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:49.444820+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.24,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0034,
-        "lift_log": 2.998,
-        "score": 0.2396,
-        "shared": 4
-      },
-      "rationale": "Prisma uses Curve pools for liquidity of its mkUSD stablecoin.",
-      "relation_type": "protocol",
-      "slug": "curve",
-      "source": "cotag",
-      "tag_name": "Curve",
-      "title": "Curve, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "prisma",
   "tag_name": "Prisma",

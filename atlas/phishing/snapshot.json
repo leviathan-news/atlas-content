@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:07:54.916173+00:00",
+      "as_of": "2026-07-29T23:03:14.012584+00:00",
       "newsroom_total": 33,
-      "overall_share": 35,
+      "overall_share": 31,
       "provenance": "data",
       "series": [
         {
@@ -137,62 +137,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 11
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 11
         }
       ],
-      "total_universe": 95,
-      "universe_total": 62
+      "total_universe": 106,
+      "universe_total": 73
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:07:54.485604+00:00",
+      "as_of": "2026-07-29T23:03:13.597236+00:00",
       "edges": [
         {
+          "confidence": 0.319,
+          "description": "Co-covered in 5 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "phishing",
-          "phrase": "Phishing often targets transactions to steal funds.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-15",
+          "phrase": "Co-covered in 5 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "transaction",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 32
         },
         {
+          "confidence": 0.271,
+          "description": "Co-covered in 14 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "phishing",
-          "phrase": "Phishing is a type of scam.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-18",
+          "phrase": "Co-covered in 14 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "scam",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.222,
+          "description": "Co-covered in 6 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "phishing",
-          "phrase": "Phishing is a method used to execute exploits.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-18",
+          "phrase": "Co-covered in 6 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "exploit",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.202,
+          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "phishing",
-          "phrase": "Phishing attacks often target wallets to steal assets.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-18",
+          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "wallet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 14 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "phishing",
-          "phrase": "Phishing is a security threat.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 14 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "security",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -206,42 +247,62 @@
         },
         {
           "center": false,
+          "confidence": 0.319,
           "name": "Transaction",
+          "observed_at": "2026-04-15",
           "slug": "transaction",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 32
         },
         {
           "center": false,
+          "confidence": 0.271,
           "name": "Scam",
+          "observed_at": "2026-06-18",
           "slug": "scam",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.222,
           "name": "Exploit",
+          "observed_at": "2026-06-18",
           "slug": "exploit",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.202,
           "name": "Wallet",
+          "observed_at": "2026-06-18",
           "slug": "wallet",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "Security",
+          "observed_at": null,
           "slug": "security",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -299,16 +360,16 @@
     },
     "reader_signal": {
       "article_count": 33,
-      "as_of": "2026-07-01T12:07:55.906712+00:00",
+      "as_of": "2026-07-29T23:03:14.341842+00:00",
       "most_clicked": {
-        "clicks": 446,
+        "clicks": 450,
         "date": "2024-12-08T14:36:58.216715+00:00",
         "headline": "Few hours ago a drainer stole $2.2M+ worth of meme coins from a Solana user.\nVictim was drained due to the WallStreetBets ATO on X/Twitter where a phishing site was posted.",
         "lev_url": "https://leviathannews.xyz/8109/few-hours-ago-a-drainer-stole-22m-worth-of-meme-coins-from-a-solana-user-victim-was-drained-due-to-the-wallstreetbets-ato-on-xtwitter-where-a-phishing-site-was-posted"
       },
       "provenance": "data",
       "top_decile_share": 32,
-      "total_clicks": 2974
+      "total_clicks": 3029
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:18:37.954944+00:00",
@@ -393,10 +454,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:07:55.827013+00:00",
+      "as_of": "2026-07-29T23:03:14.336467+00:00",
       "items": [
         {
-          "clicks": 59,
+          "clicks": 61,
           "date": "2026-04-22T06:08:38.278273+00:00",
           "headline": "Phishing drainer hits four wallets for $585K in 11 hours; one victim loses 3 WBTC to increaseApproval sig after Aave withdrawal",
           "hot_score": 430.6,
@@ -405,7 +466,7 @@
           "url": "https://x.com/officer_secret/status/2046803885465927948"
         },
         {
-          "clicks": 104,
+          "clicks": 110,
           "date": "2026-01-22T18:51:23.687025+00:00",
           "headline": "⚠️ Urgent Security Warning: Sophisticated Phishing Attack on Crypto Community",
           "hot_score": 176.133449,
@@ -414,7 +475,7 @@
           "url": "https://x.com/kucharmartin_/status/2014268846094311739"
         },
         {
-          "clicks": 446,
+          "clicks": 450,
           "date": "2024-12-08T14:36:58.216715+00:00",
           "headline": "Few hours ago a drainer stole $2.2M+ worth of meme coins from a Solana user.\nVictim was drained due to the WallStreetBets ATO on X/Twitter where a phishing site was posted.",
           "hot_score": 0.0,
@@ -423,7 +484,7 @@
           "url": "https://t.me/investigations/187"
         },
         {
-          "clicks": 331,
+          "clicks": 334,
           "date": "2025-01-16T10:50:08.905676+00:00",
           "headline": "Telegram malware crypto scams surge 2,000%, outpacing traditional phishing attacks, reports Scam Sniffer.",
           "hot_score": 0.0,
@@ -432,7 +493,7 @@
           "url": "https://www.theblock.co/post/334954/telegram-malware-crypto-scams-rampant-over-traditional-phishing-scam-sniffer"
         },
         {
-          "clicks": 180,
+          "clicks": 182,
           "date": "2024-01-05T11:14:26.920009+00:00",
           "headline": "CertiK's 𝕏 account apparently compromised, posting inaccurate news about a Uniswap hack tied to a malicious Revoke Cash phishing link.  Exercise caution!",
           "hot_score": 0.0,
@@ -441,7 +502,7 @@
           "url": "https://twitter.com/RevokeCash/status/1743195962082775098"
         },
         {
-          "clicks": 148,
+          "clicks": 157,
           "date": "2024-11-18T08:59:04.905781+00:00",
           "headline": "CZ’s Giggle Academy X account hacked, highlighting rising crypto phishing threats during bull run.",
           "hot_score": 0.0,
@@ -459,7 +520,7 @@
           "url": "https://slowmist.medium.com/spotting-the-difference-identifying-genuine-and-fake-twitter-accounts-14258ec0493a"
         },
         {
-          "clicks": 139,
+          "clicks": 140,
           "date": "2024-10-04T08:11:01.831401+00:00",
           "headline": "In September, 10,000 victims lost $46M to crypto phishing scams, part of Q3 2024's $127M total, with two major cases accounting for $87M.",
           "hot_score": 0.0,
@@ -471,7 +532,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:07:55.743345+00:00",
+      "as_of": "2026-07-29T23:03:14.324651+00:00",
       "editorial": [
         {
           "count": 18,
@@ -522,8 +583,12 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 34,
+          "count": 42,
           "source": "x.com"
+        },
+        {
+          "count": 7,
+          "source": "cointelegraph.com"
         },
         {
           "count": 5,
@@ -532,10 +597,6 @@
         {
           "count": 5,
           "source": "decrypt.co"
-        },
-        {
-          "count": 4,
-          "source": "cointelegraph.com"
         },
         {
           "count": 4,
@@ -573,76 +634,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:48.075813+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.222,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0092,
-        "lift_log": 2.552,
-        "score": 0.2224,
-        "shared": 6
-      },
-      "rationale": "Phishing is a method used to execute exploits.",
-      "relation_type": "peer",
-      "slug": "exploit",
-      "source": "cotag",
-      "tag_name": "Exploit",
-      "title": "Exploit, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.271,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0221,
-        "lift_log": 3.461,
-        "score": 0.2706,
-        "shared": 14
-      },
-      "rationale": "Phishing is a type of scam.",
-      "relation_type": "peer",
-      "slug": "scam",
-      "source": "cotag",
-      "tag_name": "Scam",
-      "title": "Scam, Explained",
-      "weight": 27
-    },
-    {
-      "confidence": 0.319,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.039,
-        "lift_log": 4.358,
-        "score": 0.3187,
-        "shared": 5
-      },
-      "rationale": "Phishing often targets transactions to steal funds.",
-      "relation_type": "primitive",
-      "slug": "transaction",
-      "source": "cotag",
-      "tag_name": "Transaction",
-      "title": "Transaction, Explained",
-      "weight": 32
-    },
-    {
-      "confidence": 0.202,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0061,
-        "lift_log": 2.156,
-        "score": 0.2025,
-        "shared": 3
-      },
-      "rationale": "Phishing attacks often target wallets to steal assets.",
-      "relation_type": "infrastructure",
-      "slug": "wallet",
-      "source": "cotag",
-      "tag_name": "Wallet",
-      "title": "Wallet, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "phishing",
   "tag_name": "Phishing",

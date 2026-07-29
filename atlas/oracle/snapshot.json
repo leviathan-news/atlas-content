@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:02:10.227238+00:00",
-      "newsroom_total": 47,
-      "overall_share": 29,
+      "as_of": "2026-07-29T23:02:59.680297+00:00",
+      "newsroom_total": 65,
+      "overall_share": 30,
       "provenance": "data",
       "series": [
         {
@@ -15,6 +15,12 @@
         {
           "ed_share": null,
           "month": "2023-06",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2023-07",
           "newsroom": 1,
           "universe": 0
         },
@@ -39,13 +45,19 @@
         {
           "ed_share": null,
           "month": "2024-01",
+          "newsroom": 2,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2024-02",
           "newsroom": 1,
           "universe": 0
         },
         {
           "ed_share": null,
           "month": "2024-03",
-          "newsroom": 2,
+          "newsroom": 3,
           "universe": 0
         },
         {
@@ -87,7 +99,7 @@
         {
           "ed_share": null,
           "month": "2024-10",
-          "newsroom": 1,
+          "newsroom": 2,
           "universe": 0
         },
         {
@@ -99,13 +111,13 @@
         {
           "ed_share": null,
           "month": "2025-02",
-          "newsroom": 3,
+          "newsroom": 5,
           "universe": 0
         },
         {
           "ed_share": null,
           "month": "2025-03",
-          "newsroom": 3,
+          "newsroom": 2,
           "universe": 0
         },
         {
@@ -117,25 +129,25 @@
         {
           "ed_share": null,
           "month": "2025-06",
-          "newsroom": 1,
+          "newsroom": 2,
           "universe": 0
         },
         {
           "ed_share": null,
           "month": "2025-07",
-          "newsroom": 3,
-          "universe": 0
-        },
-        {
-          "ed_share": null,
-          "month": "2025-09",
           "newsroom": 5,
           "universe": 0
         },
         {
           "ed_share": null,
+          "month": "2025-09",
+          "newsroom": 6,
+          "universe": 0
+        },
+        {
+          "ed_share": null,
           "month": "2025-10",
-          "newsroom": 1,
+          "newsroom": 2,
           "universe": 0
         },
         {
@@ -163,9 +175,9 @@
           "universe": 41
         },
         {
-          "ed_share": 7,
+          "ed_share": 19,
           "month": "2026-04",
-          "newsroom": 1,
+          "newsroom": 3,
           "universe": 13
         },
         {
@@ -179,62 +191,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 22
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-07",
+          "newsroom": 4,
+          "universe": 40
         }
       ],
-      "total_universe": 162,
-      "universe_total": 115
+      "total_universe": 220,
+      "universe_total": 155
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:02:09.671400+00:00",
+      "as_of": "2026-07-29T23:02:59.358003+00:00",
       "edges": [
         {
+          "confidence": 0.253,
+          "description": "Co-covered in 7 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "oracle",
-          "phrase": "Oracles provide price feeds essential for lending protocols to determine collateral.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-02",
+          "phrase": "Co-covered in 7 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "lending",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.167,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "oracle",
-          "phrase": "Oracles trigger liquidations by reporting price drops below thresholds.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "liquidations",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.159,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "oracle",
-          "phrase": "Tron blockchain may use oracles for smart contract data feeds.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tron",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.152,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "oracle",
-          "phrase": "Oracle manipulation can enable MEV attacks like front-running liquidations.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "mev",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.148,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "oracle",
-          "phrase": "Chainlink is a leading decentralized oracle network providing data feeds.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "chainlink",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -248,42 +301,62 @@
         },
         {
           "center": false,
+          "confidence": 0.253,
           "name": "Lending",
+          "observed_at": "2026-04-02",
           "slug": "lending",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.167,
           "name": "Liquidations",
+          "observed_at": null,
           "slug": "liquidations",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.159,
           "name": "Tron",
+          "observed_at": null,
           "slug": "tron",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.152,
           "name": "MEV",
+          "observed_at": null,
           "slug": "mev",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.148,
           "name": "Chainlink",
+          "observed_at": null,
           "slug": "chainlink",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -352,17 +425,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 47,
-      "as_of": "2026-07-01T12:02:10.694481+00:00",
+      "article_count": 65,
+      "as_of": "2026-07-29T23:03:00.128467+00:00",
       "most_clicked": {
-        "clicks": 1306,
+        "clicks": 1312,
         "date": "2024-03-22T12:26:52.819649+00:00",
         "headline": "Prisma Risk team historical analysis between oracles: \"Implementing the Curve Oracle would have resulted in decreased MEV by bots and provided a better exchange rate for users\"",
         "lev_url": "https://leviathannews.xyz/4340/prisma-risk-team-historical-analysis-between-oracles-implementing-the-curve-oracle-would-have-resulted-in-decreased-mev-by-bots-and-provided-a-better-exchange-rate-for-users"
       },
       "provenance": "data",
-      "top_decile_share": 40,
-      "total_clicks": 5549
+      "top_decile_share": 41,
+      "total_clicks": 7472
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:15:52.670237+00:00",
@@ -447,10 +520,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:02:10.612052+00:00",
+      "as_of": "2026-07-29T23:03:00.117982+00:00",
       "items": [
         {
-          "clicks": 54,
+          "clicks": 48,
+          "date": "2026-07-26T07:05:06.437023+00:00",
+          "headline": "Lido probes stETH oracle as 32 ETH deposit omission cuts daily rebase APR from 2.15% to 2.04%; funds remain safe",
+          "hot_score": 1502.159206,
+          "lev_url": "https://leviathannews.xyz/281989/lido-probes-steth-oracle-as-32-eth-deposit-omission-cuts-daily-rebase-apr-from-215-to-204-funds-remain-safe",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726002456_Z4zrlaiDPw==.png",
+          "url": "https://x.com/lidofinance/status/2081077386737549616"
+        },
+        {
+          "clicks": 56,
           "date": "2026-04-09T10:23:00.744954+00:00",
           "headline": "Venus's multi-layer oracle defense: How your DeFi Assets stay protected",
           "hot_score": 784.218744,
@@ -459,76 +541,67 @@
           "url": "https://x.com/i/status/2041816724446544003"
         },
         {
-          "clicks": 121,
-          "date": "2026-03-31T21:59:52.723249+00:00",
-          "headline": "Oracle fires 30K employees via 6am email to fund $156B AI data center bet — strongest revenue quarter in 15 years but stock halved since September",
-          "hot_score": 557.315096,
-          "lev_url": "https://leviathannews.xyz/218699/oracle-fires-30k-employees-via-6am-email-to-fund-156b-ai-data-center-bet-strongest-revenue-quarter-in-15-years-but-stock-halved-since-september",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260331160155_Z4zrlaiDPw==.png",
-          "url": "https://thenextweb.com/news/oracle-layoffs-march-2026"
+          "clicks": 37,
+          "date": "2026-07-11T22:24:13.464553+00:00",
+          "headline": "Hedera-based Bonzo Lend loses $9M after attackers exploited a flaw in Supra's oracle verifier to inflate SAUCE prices and drain protocol liquidity",
+          "hot_score": 777.527126,
+          "lev_url": "https://leviathannews.xyz/273453/hedera-lending-protocol-bonzo-lend-hit-for-9-million-after-supra-verifier-accepts-manipulated-price-update-20260711-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260711221924_ukDwmeO6oSHo.jpg",
+          "url": "https://www.theblock.co/post/407960/hedera-lending-protocol-bonzo-lend-hit-for-9-million-after-supra-verifier-accepts-manipulated-price-update?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 81,
+          "clicks": 123,
+          "date": "2026-03-30T20:32:07.164507+00:00",
+          "headline": "\"A New DeFi Primitive, with No Oracles - Ammalgam\"\n\nFirst time with Will, founder of Ammalgam!",
+          "hot_score": 572.603691,
+          "lev_url": "https://leviathannews.xyz/218149/a-new-defi-primitive-with-no-oracles-ammalgamfirst-time-with-will-founder-of-ammalgam",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260330203137_QzA83T5r7Iw_.jpg",
+          "url": "https://www.youtube.com/watch?v=YNB_9yRy-eo"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-07-11T11:36:24.591770+00:00",
+          "headline": "Supra oracle exploit lets attacker drain $9.05M from Bonzo Lend using zero-signature SAUCE price update",
+          "hot_score": 451.943958,
+          "lev_url": "https://leviathannews.xyz/273244/supra-oracle-exploit-lets-attacker-drain-905m-from-bonzo-lend-using-zero-signature-sauce-price-update",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260711103935_Z4zrlaiDPw==.png",
+          "url": "https://bonzo.finance/blog/bonzo-lend-incident-report-oracle-provider-exploit"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-07-15T17:10:24.228965+00:00",
+          "headline": "Attacker drains $18M USDC from Ostium's vault using future-dated oracle reports and registered PriceUpKeep forwarder",
+          "hot_score": 432.073074,
+          "lev_url": "https://leviathannews.xyz/276037/attacker-drains-18m-usdc-from-ostiums-vault-using-future-dated-oracle-reports-and-registered-priceupkeep-forwarder",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260518020713_Z4zrlaiDPw==.png",
+          "url": "https://x.com/blockaid_/status/2077405527428989363"
+        },
+        {
+          "clicks": 89,
+          "date": "2026-04-02T18:56:48.906037+00:00",
+          "headline": "\"DeFi is dead\" debate resurfaces as researcher argues most protocols still rely on admin keys and multisigs",
+          "hot_score": 245.050003,
+          "lev_url": "https://leviathannews.xyz/220261/defi-is-dead-debate-resurfaces-as-researcher-argues-most-protocols-rely-on-admin-keys-multisigs-and-oracles-leaving-only-uniswap-and-curve-close-to-true-decentralization",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260402170549_uxbjX9ekvXUa.jpg",
+          "url": "https://x.com/i/status/2039685517357502766"
+        },
+        {
+          "clicks": 88,
           "date": "2025-12-13T22:57:05.793205+00:00",
           "headline": "Oracle configuration to blame for the latest ribbonfinance attack",
           "hot_score": 113.770287,
           "lev_url": "https://leviathannews.xyz/22441/the-latest-ribbonfinance-attack-appears-to-be-a-oracle-configuration-fault-6-days-ago-the-owners-updated-the-oracle-pricer-which-uses-18-decimals-price-for-steth-paxg-link-and",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251213225526_jh8ZyfWnsQY=.jpg",
           "url": "https://x.com/hklst4r/status/1999661564647882859?s=46&t=iFQa_A_ZkIJab2Wryf70uQ"
-        },
-        {
-          "clicks": 51,
-          "date": "2025-12-06T02:38:33.302072+00:00",
-          "headline": "Uniswap emphasizes robust technical design and product-focused approach as other crypto projects repeatedly fail, blaming users for exploits, airdrop sniping, and oracle manipulation",
-          "hot_score": 74.110686,
-          "lev_url": "https://leviathannews.xyz/21752/uniswap-emphasizes-robust-technical-design-and-product-focused-approach-as-other-crypto-projects-repeatedly-fail-blaming-users-for-exploits-airdrop-sniping-and-oracle-manipulation",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251206023519_84h3MNn74so=.jpg",
-          "url": "https://x.com/haydenzadams/status/1996967898368114916?t=WactaU_zotU76vRRwmQtjg&s=19"
-        },
-        {
-          "clicks": 22,
-          "date": "2025-12-12T00:01:43.862624+00:00",
-          "headline": "MiniMax and Zhipu secured CSRC approval for Hong Kong IPOs planned in early 2026, marking major moves for China’s AI sector. Meanwhile, U.S. AI stocks slid after Oracle’s earnings miss spooked investors.",
-          "hot_score": 27.773067,
-          "lev_url": "https://leviathannews.xyz/22243/minimax-and-zhipu-secured-csrc-approval-for-hong-kong-ipos-planned-in-early-2026-marking-major-moves-for-chinas-ai-sector-meanwhile-us-ai-stocks-slid-after-oracles-earnings-miss-sp",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251211232649_n4cNTo4ctps=.jpg",
-          "url": "https://crypto.news/china-ai-firms-minimax-zhipu-hong-kong-ipos-2026/"
-        },
-        {
-          "clicks": 1306,
-          "date": "2024-03-22T12:26:52.819649+00:00",
-          "headline": "Prisma Risk team historical analysis between oracles: \"Implementing the Curve Oracle would have resulted in decreased MEV by bots and provided a better exchange rate for users\"",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/4340/prisma-risk-team-historical-analysis-between-oracles-implementing-the-curve-oracle-would-have-resulted-in-decreased-mev-by-bots-and-provided-a-better-exchange-rate-for-users",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240322122635_3cO8mshXZQ==.png",
-          "url": "https://hackmd.io/@PrismaRisk/AlternativeOracles"
-        },
-        {
-          "clicks": 467,
-          "date": "2024-01-23T15:46:10.272098+00:00",
-          "headline": "Uma rolls out Oval to capture 'oracle extractable value' in DeFi protocols.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/3823/uma-rolls-out-oval-to-capture-oracle-extractable-value-in-defi-protocols",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://medium.com/uma-project/announcing-oval-earn-protocol-revenue-by-capturing-oracle-mev-877192c51fe2"
-        },
-        {
-          "clicks": 268,
-          "date": "2025-02-07T22:39:47.933198+00:00",
-          "headline": "BAMM is here, and it’s changing DeFi lending forever.\n\nNo price oracles. No sudden liquidations. Just pure on-chain borrowing inside an AMM. Frax just rewrote the lending playbook, and we broke it all down.\n\nHow BAMM works, the math behind oracle-free lending, and why this changes everything for LPs and borrowers.\n\nRead the full deep dive now",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/9222/bamm-is-here-and-its-changing-defi-lending-forever-no-price-oracles-no-sudden-liquidations-just-pure-on-chain-borrowing-inside-an-amm-frax-just-rewrote-the-lending-playbook-and-we-",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250207223916_JSxtOXGPVw==.png",
-          "url": "https://leviathannews.substack.com/p/how-fraxs-bamm-turns-every-liquidity?r=3ujc5l"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:02:10.529501+00:00",
+      "as_of": "2026-07-29T23:03:00.091321+00:00",
       "editorial": [
         {
-          "count": 26,
+          "count": 38,
           "source": "x.com"
         },
         {
@@ -536,8 +609,28 @@
           "source": "medium.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "leviathannews.substack.com"
+        },
+        {
+          "count": 2,
+          "source": "news.curve.finance"
+        },
+        {
+          "count": 2,
+          "source": "cryptonews.com"
+        },
+        {
+          "count": 2,
+          "source": "youtube.com"
+        },
+        {
+          "count": 2,
+          "source": "crypto.news"
         },
         {
           "count": 1,
@@ -554,33 +647,13 @@
         {
           "count": 1,
           "source": "cryptorisks.substack.com"
-        },
-        {
-          "count": 1,
-          "source": "leviathannews.substack.com"
-        },
-        {
-          "count": 1,
-          "source": "docs.oracle.com"
-        },
-        {
-          "count": 1,
-          "source": "blog.uma.xyz"
-        },
-        {
-          "count": 1,
-          "source": "perplexity.ai"
-        },
-        {
-          "count": 1,
-          "source": "news.curve.finance"
         }
       ],
       "editorial_distinct": 19,
       "provenance": "data",
       "universe": [
         {
-          "count": 83,
+          "count": 115,
           "source": "x.com"
         },
         {
@@ -592,8 +665,16 @@
           "source": "financefeeds.com"
         },
         {
-          "count": 3,
+          "count": 5,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 4,
+          "source": "orochi.network"
+        },
+        {
+          "count": 3,
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 3,
@@ -605,11 +686,7 @@
         },
         {
           "count": 2,
-          "source": "orochi.network"
-        },
-        {
-          "count": 1,
-          "source": "crowdfundinsider.com"
+          "source": "decrypt.co"
         },
         {
           "count": 1,
@@ -621,14 +698,10 @@
         },
         {
           "count": 1,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 1,
           "source": "warpcast.com"
         }
       ],
-      "universe_distinct": 12
+      "universe_distinct": 13
     }
   },
   "official_links": [],
@@ -639,25 +712,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:46.845218+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.253,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0184,
-        "lift_log": 3.138,
-        "score": 0.2533,
-        "shared": 6
-      },
-      "rationale": "Oracles provide price feeds essential for lending protocols to determine collateral.",
-      "relation_type": "primitive",
-      "slug": "lending",
-      "source": "cotag",
-      "tag_name": "Lending",
-      "title": "Lending, Explained",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "oracle",
   "tag_name": "Oracle",

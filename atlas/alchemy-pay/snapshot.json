@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:15:31.342505+00:00",
+      "as_of": "2026-07-29T22:55:25.656390+00:00",
       "newsroom_total": 7,
-      "overall_share": 26,
+      "overall_share": 21,
       "provenance": "data",
       "series": [
         {
@@ -53,62 +53,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 6
         }
       ],
-      "total_universe": 27,
-      "universe_total": 20
+      "total_universe": 33,
+      "universe_total": 26
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:15:30.417824+00:00",
+      "as_of": "2026-07-29T22:55:20.094568+00:00",
       "edges": [
         {
+          "confidence": 0.65,
+          "description": "Co-covered in 30 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "alchemy-pay",
-          "phrase": "Alchemy Pay is a payment solution by Alchemy, integrating its ecosystem.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-01",
+          "phrase": "Co-covered in 30 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "alchemy",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 65
         },
         {
+          "confidence": 0.361,
+          "description": "Co-covered in 4 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "alchemy-pay",
-          "phrase": "Alchemy Pay enables fiat-to-crypto on-ramp, a core DeFi primitive.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-28",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fiat",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 36
         },
         {
+          "confidence": 0.283,
+          "description": "Co-covered in 7 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "alchemy-pay",
-          "phrase": "Alchemy Pay holds licenses for compliant payment operations.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-24",
+          "phrase": "Co-covered in 7 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "license",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 28
         },
         {
+          "confidence": 0.197,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "alchemy-pay",
-          "phrase": "Securities classification poses regulatory risk for Alchemy Pay.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "securities",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "alchemy-pay",
-          "phrase": "Update refers to a product or protocol update for Alchemy Pay.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "update",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -122,42 +163,62 @@
         },
         {
           "center": false,
+          "confidence": 0.65,
           "name": "Alchemy",
+          "observed_at": "2026-07-01",
           "slug": "alchemy",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 65
         },
         {
           "center": false,
+          "confidence": 0.361,
           "name": "Fiat",
+          "observed_at": "2026-05-28",
           "slug": "fiat",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 36
         },
         {
           "center": false,
+          "confidence": 0.283,
           "name": "License",
+          "observed_at": "2026-06-24",
           "slug": "license",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 28
         },
         {
           "center": false,
+          "confidence": 0.197,
           "name": "Securities",
+          "observed_at": null,
           "slug": "securities",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "update",
+          "observed_at": null,
           "slug": "update",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -227,16 +288,16 @@
     },
     "reader_signal": {
       "article_count": 7,
-      "as_of": "2026-07-01T12:15:32.410484+00:00",
+      "as_of": "2026-07-29T22:55:28.921830+00:00",
       "most_clicked": {
-        "clicks": 211,
+        "clicks": 216,
         "date": "2024-12-24T14:56:37.138533+00:00",
         "headline": "Oak Grove Ventures, Alchemy pay’s partner, powers Gate group’s bold acquisition of Japan’s Coin Master crypto exchange.",
         "lev_url": "https://leviathannews.xyz/8466/oak-grove-ventures-alchemy-pays-partner-powers-gate-groups-bold-acquisition-of-japans-coin-master-crypto-exchange"
       },
       "provenance": "data",
-      "top_decile_share": 46,
-      "total_clicks": 462
+      "top_decile_share": 45,
+      "total_clicks": 484
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:13:14.622938+00:00",
@@ -321,10 +382,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:15:32.326848+00:00",
+      "as_of": "2026-07-29T22:55:28.890014+00:00",
       "items": [
         {
-          "clicks": 27,
+          "clicks": 31,
           "date": "2026-05-20T06:24:11.909048+00:00",
           "headline": "Alchemy Pay adds Rhode Island currency transmitter license, bringing U.S. state approvals to 16",
           "hot_score": 457.026187,
@@ -333,7 +394,7 @@
           "url": "https://alchemypay.org/news-and-press/alchemy-pay-secures-currency-transmitter-license-in-rhode-island"
         },
         {
-          "clicks": 211,
+          "clicks": 216,
           "date": "2024-12-24T14:56:37.138533+00:00",
           "headline": "Oak Grove Ventures, Alchemy pay’s partner, powers Gate group’s bold acquisition of Japan’s Coin Master crypto exchange.",
           "hot_score": 0.0,
@@ -342,7 +403,7 @@
           "url": "https://alchemypay.medium.com/oak-grove-ventures-alchemy-pays-associate-company-enables-gate-group-s-acquisition-of-coin-79294978daea"
         },
         {
-          "clicks": 74,
+          "clicks": 77,
           "date": "2023-09-21T09:03:29.848281+00:00",
           "headline": "Alchemy Pay secures money transmitter license in United States, boosting crypto payment solutions",
           "hot_score": 0.0,
@@ -351,7 +412,7 @@
           "url": "https://cointelegraph.com/news/crypto-payment-firm-alchemy-pay-arkansas-license"
         },
         {
-          "clicks": 47,
+          "clicks": 50,
           "date": "2025-09-08T06:02:40.782504+00:00",
           "headline": "Alchemy Pay partners with Fiat24 to power Web3 Digital Bank service with Swiss-regulated banking solutions.",
           "hot_score": 0.0,
@@ -360,7 +421,7 @@
           "url": "https://alchemypay.org/news-and-press/alchemy-pay-partners-with-fiat24-to-power-web3-digital-bank-service-with-swiss-regulated-banking-solutions"
         },
         {
-          "clicks": 40,
+          "clicks": 43,
           "date": "2025-09-17T11:38:15.762912+00:00",
           "headline": "Alchemy Pay has launched a fiat-to-RWA investment platform in partnership with xStocks, enabling users across 170+ countries to buy tokenized U.S. stocks and ETFs directly using local fiat via Visa, Mastercard, SEPA, Apple Pay, Google Pay, and more. The platform’s assets are backed 1:1 by regulated custodians, allow fractional ownership starting at $1, and use real-time data and liquidity to ensure transparency and smooth access.",
           "hot_score": 0.0,
@@ -369,7 +430,7 @@
           "url": "https://crypto.news/alchemy-pay-fiat-to-rwa-investment-platform-2025/"
         },
         {
-          "clicks": 34,
+          "clicks": 37,
           "date": "2025-06-12T09:19:53.820484+00:00",
           "headline": "Alchemy Pay partners with Backed to offer tokenized ETFs and equities to global users",
           "hot_score": 0.0,
@@ -378,7 +439,7 @@
           "url": "https://x.com/AlchemyPay/status/1933087578347209150"
         },
         {
-          "clicks": 29,
+          "clicks": 30,
           "date": "2025-06-19T16:52:49.591482+00:00",
           "headline": "Alchemy Pay unveils Alchemy Chain for compliant cross-border payments, with native stablecoin launch slated for Q4 2025",
           "hot_score": 0.0,
@@ -390,7 +451,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:15:32.240385+00:00",
+      "as_of": "2026-07-29T22:55:28.852196+00:00",
       "editorial": [
         {
           "count": 3,
@@ -417,12 +478,12 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 8,
-          "source": "x.com"
+          "count": 13,
+          "source": "alchemypay.org"
         },
         {
-          "count": 8,
-          "source": "alchemypay.org"
+          "count": 9,
+          "source": "x.com"
         },
         {
           "count": 2,
@@ -448,59 +509,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:15.309330+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.65,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.4981,
-        "lift_log": 6.987,
-        "score": 0.65,
-        "shared": 28
-      },
-      "rationale": "Alchemy Pay is a payment solution by Alchemy, integrating its ecosystem.",
-      "relation_type": "ecosystem",
-      "slug": "alchemy",
-      "source": "cotag",
-      "tag_name": "Alchemy",
-      "title": "Alchemy, Explained",
-      "weight": 65
-    },
-    {
-      "confidence": 0.361,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0533,
-        "lift_log": 5.137,
-        "score": 0.3609,
-        "shared": 4
-      },
-      "rationale": "Alchemy Pay enables fiat-to-crypto on-ramp, a core DeFi primitive.",
-      "relation_type": "primitive",
-      "slug": "fiat",
-      "source": "cotag",
-      "tag_name": "Fiat",
-      "title": "Fiat, Explained",
-      "weight": 36
-    },
-    {
-      "confidence": 0.283,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0764,
-        "lift_log": 5.387,
-        "score": 0.2832,
-        "shared": 7
-      },
-      "rationale": "Alchemy Pay holds licenses for compliant payment operations.",
-      "relation_type": "event",
-      "slug": "license",
-      "source": "cotag",
-      "tag_name": "License",
-      "title": "License, Explained",
-      "weight": 28
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "alchemy-pay",
   "tag_name": "Alchemy Pay",

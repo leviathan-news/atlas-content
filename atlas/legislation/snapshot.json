@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:10:56.165053+00:00",
+      "as_of": "2026-07-29T23:00:52.970550+00:00",
       "newsroom_total": 35,
-      "overall_share": 35,
+      "overall_share": 27,
       "provenance": "data",
       "series": [
         {
@@ -149,62 +149,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 12
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 31
         }
       ],
-      "total_universe": 100,
-      "universe_total": 65
+      "total_universe": 131,
+      "universe_total": 96
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:10:55.829167+00:00",
+      "as_of": "2026-07-29T23:00:51.650236+00:00",
       "edges": [
         {
+          "confidence": 0.303,
+          "description": "Co-covered in 7 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "legislation",
-          "phrase": "Congress is the legislative body that enacts legislation.",
-          "relation_type": "governance",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-30",
+          "phrase": "Co-covered in 7 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "congress",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.226,
+          "description": "Co-covered in 4 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "legislation",
-          "phrase": "Bitcoin Reserve is a type of legislation proposal.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-22",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitcoin-reserve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.202,
+          "description": "Co-covered in 3 approved stories; most recently December 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "legislation",
-          "phrase": "Cryptocurrency Bill is a specific legislative act.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-12-21",
+          "phrase": "Co-covered in 3 approved stories; most recently December 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cryptocurrency-bill",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.199,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "legislation",
-          "phrase": "GENIUS Act is a specific piece of legislation.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "genius",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.177,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "legislation",
-          "phrase": "Unclear relation; likely a peer or unrelated.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "spark",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -218,42 +259,62 @@
         },
         {
           "center": false,
+          "confidence": 0.303,
           "name": "Congress",
+          "observed_at": "2026-05-30",
           "slug": "congress",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.226,
           "name": "Bitcoin Reserve",
+          "observed_at": "2026-05-22",
           "slug": "bitcoin-reserve",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.202,
           "name": "Cryptocurrency Bill",
+          "observed_at": "2025-12-21",
           "slug": "cryptocurrency-bill",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.199,
           "name": "GENIUS Act",
+          "observed_at": null,
           "slug": "genius",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.177,
           "name": "Spark",
+          "observed_at": null,
           "slug": "spark",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -311,16 +372,16 @@
     },
     "reader_signal": {
       "article_count": 35,
-      "as_of": "2026-07-01T12:10:56.632557+00:00",
+      "as_of": "2026-07-29T23:00:53.968218+00:00",
       "most_clicked": {
-        "clicks": 268,
+        "clicks": 272,
         "date": "2024-09-23T07:33:22.690536+00:00",
         "headline": "Australian regulators, led by ASIC, are preparing legislation that will require cryptocurrency exchanges to obtain financial services licenses, expanding beyond current digital currency regulations, as ASIC Commissioner Alan Kirkland emphasized at the AFR Crypto and Digital Assets summit.",
         "lev_url": "https://leviathannews.xyz/7089/australian-regulators-led-by-asic-are-preparing-legislation-that-will-require-cryptocurrency-exchanges-to-obtain-financial-services-licenses-expanding-beyond-current-digital-curren"
       },
       "provenance": "data",
       "top_decile_share": 24,
-      "total_clicks": 2217
+      "total_clicks": 2267
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:27:25.898681+00:00",
@@ -405,10 +466,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:10:56.554170+00:00",
+      "as_of": "2026-07-29T23:00:53.964005+00:00",
       "items": [
         {
-          "clicks": 110,
+          "clicks": 112,
           "date": "2026-03-30T19:06:50.493781+00:00",
           "headline": "Cassidy and Lummis drop Mined in America Act to wean U.S. miners off Chinese hardware and cement Trump's strategic Bitcoin reserve",
           "hot_score": 490.610027,
@@ -417,7 +478,7 @@
           "url": "https://www.cassidy.senate.gov/newsroom/press-releases/cassidy-lummis-introduce-bill-to-boost-u-s-digital-asset-mining-back-president-trumps-strategic-bitcoin-reserve/"
         },
         {
-          "clicks": 77,
+          "clicks": 79,
           "date": "2026-03-28T21:19:37.037408+00:00",
           "headline": "Lummis touts bipartisan CLARITY Act revisions as strongest-ever legal shield for DeFi developers",
           "hot_score": 95.196731,
@@ -426,7 +487,7 @@
           "url": "https://x.com/SenLummis/status/2037598124944830946"
         },
         {
-          "clicks": 49,
+          "clicks": 50,
           "date": "2025-12-21T15:23:11.784336+00:00",
           "headline": "Indiana State Rep. Kyle Pierce introduced a broad crypto bill arguing U.S. legislation shouldn’t favor Bitcoin alone, aiming to support the wider digital asset market, protect miners, and expand crypto exposure in public retirement programs.",
           "hot_score": 58.754648,
@@ -435,7 +496,7 @@
           "url": "https://decrypt.co/352795/crypto-bills-shouldnt-bitcoin-bust-says-indiana-lawmaker"
         },
         {
-          "clicks": 33,
+          "clicks": 35,
           "date": "2025-12-23T14:07:15.783038+00:00",
           "headline": "The Bank of Russia proposed a new crypto framework expanding retail and professional investor access under tiered limits, while keeping crypto barred from domestic payments and routed through licensed intermediaries, with full legislation targeted for 2026.",
           "hot_score": 26.973067,
@@ -444,7 +505,7 @@
           "url": "https://x.com/i/status/2003449967948759367"
         },
         {
-          "clicks": 268,
+          "clicks": 272,
           "date": "2024-09-23T07:33:22.690536+00:00",
           "headline": "Australian regulators, led by ASIC, are preparing legislation that will require cryptocurrency exchanges to obtain financial services licenses, expanding beyond current digital currency regulations, as ASIC Commissioner Alan Kirkland emphasized at the AFR Crypto and Digital Assets summit.",
           "hot_score": 0.0,
@@ -453,7 +514,7 @@
           "url": "https://www.afr.com/companies/financial-services/asic-wants-crypto-start-ups-to-hold-financial-services-licences-20240920-p5kc6t"
         },
         {
-          "clicks": 150,
+          "clicks": 160,
           "date": "2023-10-12T08:27:44.996269+00:00",
           "headline": "US lawmakers propose legislation to outlaw SEC's controversial rule crippling the viability of crypto custody businesses.",
           "hot_score": 0.0,
@@ -483,7 +544,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:10:56.470593+00:00",
+      "as_of": "2026-07-29T23:00:53.927858+00:00",
       "editorial": [
         {
           "count": 9,
@@ -538,16 +599,20 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 28,
+          "count": 49,
           "source": "x.com"
         },
         {
-          "count": 8,
+          "count": 10,
           "source": "theblock.co"
         },
         {
-          "count": 7,
+          "count": 8,
           "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 4,
+          "source": "truthsocial.com"
         },
         {
           "count": 4,
@@ -558,16 +623,20 @@
           "source": "financefeeds.com"
         },
         {
-          "count": 3,
-          "source": "truthsocial.com"
-        },
-        {
           "count": 2,
           "source": "decrypt.co"
         },
         {
           "count": 2,
+          "source": "forbes.com"
+        },
+        {
+          "count": 2,
           "source": "barrons.com"
+        },
+        {
+          "count": 2,
+          "source": "news.bloomberglaw.com"
         },
         {
           "count": 1,
@@ -576,17 +645,9 @@
         {
           "count": 1,
           "source": "certik.com"
-        },
-        {
-          "count": 1,
-          "source": "thegraph.com"
-        },
-        {
-          "count": 1,
-          "source": "news.bloombergtax.com"
         }
       ],
-      "universe_distinct": 16
+      "universe_distinct": 20
     }
   },
   "official_links": [],
@@ -597,59 +658,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:39.745081+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.226,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.034,
-        "lift_log": 4.573,
-        "score": 0.2261,
-        "shared": 4
-      },
-      "rationale": "Bitcoin Reserve is a type of legislation proposal.",
-      "relation_type": "category",
-      "slug": "bitcoin-reserve",
-      "source": "cotag",
-      "tag_name": "Bitcoin Reserve",
-      "title": "Bitcoin Reserve, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.303,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0305,
-        "lift_log": 4.095,
-        "score": 0.3029,
-        "shared": 7
-      },
-      "rationale": "Congress is the legislative body that enacts legislation.",
-      "relation_type": "governance",
-      "slug": "congress",
-      "source": "cotag",
-      "tag_name": "Congress",
-      "title": "Congress, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.202,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0229,
-        "lift_log": 4.165,
-        "score": 0.2022,
-        "shared": 3
-      },
-      "rationale": "Cryptocurrency Bill is a specific legislative act.",
-      "relation_type": "category",
-      "slug": "cryptocurrency-bill",
-      "source": "cotag",
-      "tag_name": "Cryptocurrency Bill",
-      "title": "Cryptocurrency Bill, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "legislation",
   "tag_name": "Legislation",

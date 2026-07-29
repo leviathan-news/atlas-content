@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:49:38.543143+00:00",
-      "newsroom_total": 92,
-      "overall_share": 44,
+      "as_of": "2026-07-29T23:00:16.026518+00:00",
+      "newsroom_total": 95,
+      "overall_share": 37,
       "provenance": "data",
       "series": [
         {
@@ -185,62 +185,103 @@
           "month": "2026-06",
           "newsroom": 4,
           "universe": 26
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-07",
+          "newsroom": 3,
+          "universe": 46
         }
       ],
-      "total_universe": 207,
-      "universe_total": 115
+      "total_universe": 256,
+      "universe_total": 161
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:49:37.913035+00:00",
+      "as_of": "2026-07-29T23:00:15.794717+00:00",
       "edges": [
         {
+          "confidence": 0.218,
+          "description": "Co-covered in 7 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jpmorgan",
-          "phrase": "JPMorgan is a major Wall Street bank, comparable to other financial institutions.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-13",
+          "phrase": "Co-covered in 7 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "wall-st",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.196,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jpmorgan",
-          "phrase": "COIN (Coinbase) is a crypto exchange competing with JPMorgan's blockchain efforts.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "coin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.195,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jpmorgan",
-          "phrase": "JPMorgan launched a tokenized money market fund on blockchain.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tokenized-money-market-fund",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.179,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jpmorgan",
-          "phrase": "Ponzi schemes are a risk JPMorgan warns about in crypto.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ponzi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.175,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jpmorgan",
-          "phrase": "Brian Armstrong leads Coinbase, influencing crypto adoption JPMorgan monitors.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "brian-armstrong",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -254,42 +295,62 @@
         },
         {
           "center": false,
+          "confidence": 0.218,
           "name": "Wall Street",
+          "observed_at": "2026-05-13",
           "slug": "wall-st",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.196,
           "name": "COIN",
+          "observed_at": null,
           "slug": "coin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.195,
           "name": "Tokenized Money Market Fund",
+          "observed_at": null,
           "slug": "tokenized-money-market-fund",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.179,
           "name": "Ponzi",
+          "observed_at": null,
           "slug": "ponzi",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.175,
           "name": "Brian Armstrong",
+          "observed_at": null,
           "slug": "brian-armstrong",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -358,17 +419,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 93,
-      "as_of": "2026-07-01T11:49:39.920855+00:00",
+      "article_count": 96,
+      "as_of": "2026-07-29T23:00:16.302443+00:00",
       "most_clicked": {
-        "clicks": 259,
+        "clicks": 263,
         "date": "2026-02-28T15:24:57.460789+00:00",
         "headline": "Chainlink’s institutional moment deepens as UBS, Swift, Mastercard, JPMorgan and Coinbase standardize tokenization on its infrastructure.",
         "lev_url": "https://leviathannews.xyz/36821/chainlinks-institutional-moment-deepens-as-ubs-swift-mastercard-jpmorgan-and-coinbase-standardize-tokenization-on-its-infrastructure"
       },
       "provenance": "data",
       "top_decile_share": 24,
-      "total_clicks": 7217
+      "total_clicks": 7435
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:07:35.191305+00:00",
@@ -447,10 +508,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T11:49:39.780359+00:00",
+      "as_of": "2026-07-29T23:00:16.294734+00:00",
       "items": [
         {
-          "clicks": 51,
+          "clicks": 54,
           "date": "2026-04-13T14:15:53.878622+00:00",
           "headline": "Tether poaches JPMorgan exec to bolster US stablecoin expansion",
           "hot_score": 7804.232505,
@@ -459,7 +520,7 @@
           "url": "https://www.theinformation.com/briefings/tether-hires-jpmorgan-executive-u-s-stablecoin-expansion"
         },
         {
-          "clicks": 54,
+          "clicks": 57,
           "date": "2026-04-09T15:06:40.509096+00:00",
           "headline": "Securitize appoints former SEC and JPMorgan executive Brett Redfearn as president and board member, strengthening leadership as tokenization and digital asset markets expand",
           "hot_score": 7256.829083,
@@ -468,7 +529,7 @@
           "url": "https://x.com/i/status/2042226128966865086"
         },
         {
-          "clicks": 32,
+          "clicks": 34,
           "date": "2026-04-14T20:03:12.173702+00:00",
           "headline": "JPMorgan CFO warns stablecoins risk becoming 'giant arbitrage backdoor' around banking regulation",
           "hot_score": 4181.909726,
@@ -477,13 +538,13 @@
           "url": "https://www.coindesk.com/business/2026/04/14/jpmorgan-cfo-warns-stablecoins-risk-becoming-regulatory-arbitrage-play"
         },
         {
-          "clicks": 20,
-          "date": "2026-06-29T15:37:38.584520+00:00",
-          "headline": "JPMorgan says institutional appetite for perpetual futures remains limited, arguing the products are better suited for speculation than risk managements",
-          "hot_score": 2724.059244,
-          "lev_url": "https://leviathannews.xyz/264786/jpmorgan-sees-limited-institutional-demand-for-perpetual-futures-20260629",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629153056_UR7SyhP6G3ho.jpg",
-          "url": "https://www.coindesk.com/business/2026/06/29/jpmorgan-sees-limited-institutional-demand-for-perpetual-futures"
+          "clicks": 33,
+          "date": "2026-07-26T14:09:43.624290+00:00",
+          "headline": "KB Kookmin Bank taps JPMorgan’s Kinexys blockchain rail for cross-border USD payments across 10 countries",
+          "hot_score": 1038.980637,
+          "lev_url": "https://leviathannews.xyz/282109/kb-kookmin-bank-taps-jpmorgans-kinexys-blockchain-rail-for-cross-border-usd-payments-across-10-countries",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726104429_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/south-korea-bank-payment-jpmorgans-kinexys"
         },
         {
           "clicks": 57,
@@ -495,7 +556,16 @@
           "url": "https://archive.ph/bItQg"
         },
         {
-          "clicks": 35,
+          "clicks": 28,
+          "date": "2026-06-29T15:37:38.584520+00:00",
+          "headline": "JPMorgan says institutional appetite for perpetual futures remains limited, arguing the products are better suited for speculation than risk managements",
+          "hot_score": 796.090452,
+          "lev_url": "https://leviathannews.xyz/264786/jpmorgan-sees-limited-institutional-demand-for-perpetual-futures-20260629",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629153056_UR7SyhP6G3ho.jpg",
+          "url": "https://www.coindesk.com/business/2026/06/29/jpmorgan-sees-limited-institutional-demand-for-perpetual-futures"
+        },
+        {
+          "clicks": 38,
           "date": "2026-06-08T08:07:27.110169+00:00",
           "headline": "JPMorgan flags Strategy's 6.3-month cash buffer as $1.7B dividend bill raises BTC sale fears",
           "hot_score": 716.172874,
@@ -504,35 +574,26 @@
           "url": "https://www.theblock.co/post/403905/jpmorgan-strategy-dollar-reserves-crypto-bill-chance"
         },
         {
-          "clicks": 50,
+          "clicks": 51,
           "date": "2026-06-12T05:01:40.351174+00:00",
           "headline": "DTCC, JPMorgan and UBS outline five-stage roadmap for tokenized collateral adoption as industry moves past experimentation phase",
           "hot_score": 701.518457,
           "lev_url": "https://leviathannews.xyz/256095/post-by-the_dtcc-on-x",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260612045345_fIJ-dOVX4wk1.jpg",
           "url": "https://x.com/the_dtcc/status/2065081328324808964"
-        },
-        {
-          "clicks": 65,
-          "date": "2026-04-24T23:00:46.806399+00:00",
-          "headline": "JPMorgan says tokenization will reshape the funds industry, enabling near-instant ETF settlement and 24/7 access, though meaningful real-world use cases remain years away",
-          "hot_score": 700.2,
-          "lev_url": "https://leviathannews.xyz/236297/jpmorgan-says-tokenization-will-reshape-the-funds-industry-enabling-near-instant-etf-settlement-and-247-access-though-meaningful-real-world-use-cases-remain-years-away",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260424212210_a5w_L7-Lcfzn.jpg",
-          "url": "https://www.theblock.co/post/398876/jpmorgan-tokenization-will-change-entire-funds-industry-good-use-cases-years-away?utm_source=rss&utm_medium=rss"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:49:39.630305+00:00",
+      "as_of": "2026-07-29T23:00:16.277405+00:00",
       "editorial": [
         {
           "count": 20,
           "source": "theblock.co"
         },
         {
-          "count": 15,
+          "count": 16,
           "source": "x.com"
         },
         {
@@ -540,7 +601,7 @@
           "source": "archive.ph"
         },
         {
-          "count": 6,
+          "count": 7,
           "source": "coindesk.com"
         },
         {
@@ -556,16 +617,16 @@
           "source": "crypto.news"
         },
         {
+          "count": 3,
+          "source": "cointelegraph.com"
+        },
+        {
           "count": 2,
           "source": "cnbc.com"
         },
         {
           "count": 2,
           "source": "news.bitcoin.com"
-        },
-        {
-          "count": 2,
-          "source": "cointelegraph.com"
         },
         {
           "count": 2,
@@ -580,55 +641,55 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 37,
+          "count": 66,
           "source": "x.com"
         },
         {
-          "count": 17,
+          "count": 22,
           "source": "theblock.co"
         },
         {
-          "count": 12,
+          "count": 13,
           "source": "financefeeds.com"
         },
         {
-          "count": 11,
+          "count": 12,
           "source": "decrypt.co"
         },
         {
-          "count": 10,
+          "count": 11,
           "source": "coindesk.com"
         },
         {
-          "count": 7,
+          "count": 8,
           "source": "cointelegraph.com"
         },
         {
-          "count": 5,
+          "count": 8,
           "source": "thestreet.com"
+        },
+        {
+          "count": 4,
+          "source": "bloomberg.com"
         },
         {
           "count": 3,
           "source": "dlnews.com"
         },
         {
+          "count": 3,
+          "source": "crowdfundinsider.com"
+        },
+        {
           "count": 2,
-          "source": "bloomberg.com"
+          "source": "news.bloomberglaw.com"
         },
         {
           "count": 2,
           "source": "techinasia.com"
-        },
-        {
-          "count": 2,
-          "source": "crowdfundinsider.com"
-        },
-        {
-          "count": 1,
-          "source": "forbes.com"
         }
       ],
-      "universe_distinct": 18
+      "universe_distinct": 19
     }
   },
   "official_links": [
@@ -645,25 +706,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:37.731625+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.218,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0185,
-        "lift_log": 2.358,
-        "score": 0.218,
-        "shared": 7
-      },
-      "rationale": "JPMorgan is a major Wall Street bank, comparable to other financial institutions.",
-      "relation_type": "peer",
-      "slug": "wall-st",
-      "source": "cotag",
-      "tag_name": "Wall Street",
-      "title": "Wall Street, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "jpmorgan",
   "tag_name": "JPMorgan",

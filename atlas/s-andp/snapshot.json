@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:57:59.146636+00:00",
+      "as_of": "2026-07-29T23:04:05.447368+00:00",
       "newsroom_total": 29,
-      "overall_share": 22,
+      "overall_share": 19,
       "provenance": "data",
       "series": [
         {
@@ -95,62 +95,103 @@
           "month": "2026-06",
           "newsroom": 3,
           "universe": 24
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 21
         }
       ],
-      "total_universe": 129,
-      "universe_total": 100
+      "total_universe": 150,
+      "universe_total": 121
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:57:58.695039+00:00",
+      "as_of": "2026-07-29T23:04:05.270904+00:00",
       "edges": [
         {
+          "confidence": 0.322,
+          "description": "Co-covered in 24 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "s-andp",
-          "phrase": "S&P is a stock market index.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-23",
+          "phrase": "Co-covered in 24 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "index",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 32
         },
         {
+          "confidence": 0.235,
+          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "s-andp",
-          "phrase": "S&P indexes track equity markets.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-05",
+          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "equity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.204,
+          "description": "Co-covered in 7 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "s-andp",
-          "phrase": "Both involve market-based forecasting but different domains.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-20",
+          "phrase": "Co-covered in 7 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "prediction-markets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.194,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "s-andp",
-          "phrase": "S&P is a key benchmark on Wall Street.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "wall-st",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.169,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "s-andp",
-          "phrase": "Unclear direct relation; cautious peer assignment.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "centrifuge",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -164,42 +205,62 @@
         },
         {
           "center": false,
+          "confidence": 0.322,
           "name": "Index",
+          "observed_at": "2026-07-23",
           "slug": "index",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 32
         },
         {
           "center": false,
+          "confidence": 0.235,
           "name": "Equity",
+          "observed_at": "2026-06-05",
           "slug": "equity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.204,
           "name": "Prediction Markets",
+          "observed_at": "2026-06-20",
           "slug": "prediction-markets",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.194,
           "name": "Wall Street",
+          "observed_at": null,
           "slug": "wall-st",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.169,
           "name": "Centrifuge",
+          "observed_at": null,
           "slug": "centrifuge",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -269,16 +330,16 @@
     },
     "reader_signal": {
       "article_count": 29,
-      "as_of": "2026-07-01T11:57:59.667470+00:00",
+      "as_of": "2026-07-29T23:04:05.630451+00:00",
       "most_clicked": {
-        "clicks": 328,
+        "clicks": 330,
         "date": "2025-04-03T21:32:27.220292+00:00",
         "headline": "The S&P 500 just saw $2.4 trillion in value wiped out in a single day—its steepest one-day drop since 2020.",
         "lev_url": "https://leviathannews.xyz/10400/the-sp-500-just-saw-24-trillion-in-value-wiped-out-in-a-single-dayits-steepest-one-day-drop-since-2020"
       },
       "provenance": "data",
-      "top_decile_share": 23,
-      "total_clicks": 2206
+      "top_decile_share": 22,
+      "total_clicks": 2287
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:51:11.757731+00:00",
@@ -363,19 +424,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:57:59.554208+00:00",
+      "as_of": "2026-07-29T23:04:05.626129+00:00",
       "items": [
         {
-          "clicks": 27,
-          "date": "2026-06-28T05:22:24.055585+00:00",
-          "headline": "Hypercall brings S&P 500 options live next to SPCX with calls, puts, spreads, and strategy templates",
-          "hot_score": 1024.138699,
-          "lev_url": "https://leviathannews.xyz/264077/hypercall-brings-sp-500-options-live-next-to-spcx-with-calls-puts-spreads-and-strategy-templates",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628022910_Z4zrlaiDPw==.png",
-          "url": "https://x.com/synapseprotocol/status/2071044954378387735"
-        },
-        {
-          "clicks": 80,
+          "clicks": 82,
           "date": "2026-05-06T17:49:21.097870+00:00",
           "headline": "Base launches tokenized S&P 500 exposure via Centrifuge, enabling 24/7 onchain equity trading as Coinbase backs deRWA framework to bridge institutional assets with DeFi liquidity",
           "hot_score": 757.767086,
@@ -384,7 +436,7 @@
           "url": "https://x.com/i/web/status/2052051959322947897"
         },
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-05-31T05:18:34.887055+00:00",
           "headline": "Hedgebook maps S&P 500 risks to Kalshi Prediction Markets. Ziminsky, a former fintech founder, sees it as a move toward complete markets where every risk has a tradable price on a regulated U.S. platform. Feedback praised its sleek design and hedging potential, though some questioned liquidity for real-world scale.",
           "hot_score": 465.644895,
@@ -393,7 +445,7 @@
           "url": "https://x.com/lzminsky/status/2060758432773280053"
         },
         {
-          "clicks": 113,
+          "clicks": 114,
           "date": "2026-03-18T13:36:24.852004+00:00",
           "headline": "S&P Dow Jones licenses the S&P 500 to crypto exchange Hyperliquid for the first 24/7 perpetual futures on the index, highlighting Wall Street’s push to tokenize traditional assets on blockchain",
           "hot_score": 456.491017,
@@ -402,13 +454,22 @@
           "url": "https://www.wsj.com/finance/s-p-500-owner-jumps-into-24-7-futures-for-index-on-crypto-exchange-6c65696b"
         },
         {
-          "clicks": 32,
+          "clicks": 33,
           "date": "2026-05-30T07:18:03.282520+00:00",
           "headline": "Crypto majors slip as cooling Bitcoin ETF flows leave them lagging a nine-week S&P 500 rally, with HYPE the lone large-cap gainer",
           "hot_score": 430.496231,
           "lev_url": "https://leviathannews.xyz/250374/crypto-majors-slip-as-cooling-bitcoin-etf-flows-leave-them-lagging-a-nine-week-sp-500-rally-with-hype-the-lone-large-cap-gainer",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260424065721_Z4zrlaiDPw==.png",
           "url": "https://www.coindesk.com/markets/2026/05/30/bitcoin-ether-xrp-dogecoin-lag-a-nine-week-stocks-rally-as-etf-demand-cools"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-06-28T05:22:24.055585+00:00",
+          "headline": "Hypercall brings S&P 500 options live next to SPCX with calls, puts, spreads, and strategy templates",
+          "hot_score": 417.120495,
+          "lev_url": "https://leviathannews.xyz/264077/hypercall-brings-sp-500-options-live-next-to-spcx-with-calls-puts-spreads-and-strategy-templates",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628022910_Z4zrlaiDPw==.png",
+          "url": "https://x.com/synapseprotocol/status/2071044954378387735"
         },
         {
           "clicks": 94,
@@ -420,7 +481,7 @@
           "url": "https://www.theblock.co/post/394380/jpmorgan-hyperliquid-crypto-traction-24-7-oil-trading?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 23,
+          "clicks": 34,
           "date": "2026-06-20T09:13:44.313270+00:00",
           "headline": "Schwab to join prediction markets race with S&P 500 event-based options. The planned offering would let customers bet on index moves as Coinbase and Robinhood expand in the sector.",
           "hot_score": 292.685418,
@@ -429,7 +490,7 @@
           "url": "https://archive.is/2T3w3"
         },
         {
-          "clicks": 63,
+          "clicks": 65,
           "date": "2026-04-01T10:42:12.290049+00:00",
           "headline": "S&P Dow Jones tokenizes iBoxx Treasury index on Goldman-backed Canton Network via Kaiko",
           "hot_score": 287.275698,
@@ -441,7 +502,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:57:59.465503+00:00",
+      "as_of": "2026-07-29T23:04:05.617099+00:00",
       "editorial": [
         {
           "count": 11,
@@ -496,16 +557,20 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 67,
+          "count": 80,
           "source": "x.com"
+        },
+        {
+          "count": 9,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 7,
+          "source": "spglobal.com"
         },
         {
           "count": 6,
           "source": "decrypt.co"
-        },
-        {
-          "count": 6,
-          "source": "cointelegraph.com"
         },
         {
           "count": 4,
@@ -513,11 +578,11 @@
         },
         {
           "count": 3,
-          "source": "spglobal.com"
+          "source": "dlnews.com"
         },
         {
           "count": 3,
-          "source": "dlnews.com"
+          "source": "theblock.co"
         },
         {
           "count": 2,
@@ -526,10 +591,6 @@
         {
           "count": 2,
           "source": "coindesk.com"
-        },
-        {
-          "count": 2,
-          "source": "theblock.co"
         },
         {
           "count": 1,
@@ -555,59 +616,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:56.178621+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.235,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0155,
-        "lift_log": 2.772,
-        "score": 0.235,
-        "shared": 3
-      },
-      "rationale": "S&P indexes track equity markets.",
-      "relation_type": "category",
-      "slug": "equity",
-      "source": "cotag",
-      "tag_name": "Equity",
-      "title": "Equity, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.322,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.068,
-        "lift_log": 4.097,
-        "score": 0.3217,
-        "shared": 15
-      },
-      "rationale": "S&P is a stock market index.",
-      "relation_type": "category",
-      "slug": "index",
-      "source": "cotag",
-      "tag_name": "Index",
-      "title": "Index, Explained",
-      "weight": 32
-    },
-    {
-      "confidence": 0.204,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0136,
-        "lift_log": 2.106,
-        "score": 0.2044,
-        "shared": 7
-      },
-      "rationale": "Both involve market-based forecasting but different domains.",
-      "relation_type": "peer",
-      "slug": "prediction-markets",
-      "source": "cotag",
-      "tag_name": "Prediction Markets",
-      "title": "Prediction Markets, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "s-andp",
   "tag_name": "S&P",

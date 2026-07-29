@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:06:11.754003+00:00",
-      "newsroom_total": 23,
-      "overall_share": 35,
+      "as_of": "2026-07-29T22:59:34.370194+00:00",
+      "newsroom_total": 25,
+      "overall_share": 29,
       "provenance": "data",
       "series": [
         {
@@ -101,62 +101,103 @@
           "month": "2026-06",
           "newsroom": 3,
           "universe": 4
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 17
         }
       ],
-      "total_universe": 66,
-      "universe_total": 43
+      "total_universe": 85,
+      "universe_total": 60
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:06:08.888437+00:00",
+      "as_of": "2026-07-29T22:59:34.153089+00:00",
       "edges": [
         {
+          "confidence": 0.211,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "goldman-sachs",
-          "phrase": "Goldman Sachs issues and trades ETFs.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "etfs",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.203,
+          "description": "Co-covered in 4 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "goldman-sachs",
-          "phrase": "DTCC provides clearing and settlement for Goldman Sachs.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-04",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "dtcc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.187,
+          "description": "Co-covered in 32 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "goldman-sachs",
-          "phrase": "Goldman Sachs offers Bitcoin trading and custody.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 32 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.18,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "goldman-sachs",
-          "phrase": "Goldman Sachs is an investment bank.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "investment",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.176,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "goldman-sachs",
-          "phrase": "Bloomberg Terminal is used by Goldman Sachs for data.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bloomberg",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -170,42 +211,62 @@
         },
         {
           "center": false,
+          "confidence": 0.211,
           "name": "ETFs",
+          "observed_at": null,
           "slug": "etfs",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.203,
           "name": "DTCC",
+          "observed_at": "2026-05-04",
           "slug": "dtcc",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.187,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.18,
           "name": "Investment",
+          "observed_at": null,
           "slug": "investment",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.176,
           "name": "Bloomberg",
+          "observed_at": null,
           "slug": "bloomberg",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -274,17 +335,17 @@
       "source": "https://developer.gs.com/discover/gs-dap"
     },
     "reader_signal": {
-      "article_count": 23,
-      "as_of": "2026-07-01T12:06:13.428992+00:00",
+      "article_count": 25,
+      "as_of": "2026-07-29T22:59:34.583760+00:00",
       "most_clicked": {
-        "clicks": 392,
+        "clicks": 395,
         "date": "2024-07-30T14:47:46.163727+00:00",
         "headline": "Goldman Sachs CEO David Solomon suggests BTC could be \"a store of value case,\" while still viewing it as a speculative investment with no real use case.",
         "lev_url": "https://leviathannews.xyz/6453/goldman-sachs-ceo-david-solomon-suggests-btc-could-be-a-store-of-value-case-while-still-viewing-it-as-a-speculative-investment-with-no-real-use-case"
       },
       "provenance": "data",
-      "top_decile_share": 32,
-      "total_clicks": 2008
+      "top_decile_share": 31,
+      "total_clicks": 2129
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:03:48.330324+00:00",
@@ -369,10 +430,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:06:13.341234+00:00",
+      "as_of": "2026-07-29T22:59:34.579351+00:00",
       "items": [
         {
-          "clicks": 24,
+          "clicks": 28,
           "date": "2026-04-14T16:55:06.580877+00:00",
           "headline": "Goldman Sachs files with the SEC for new managed fund, Goldman Sachs Bitcoin Premium Income ETF.",
           "hot_score": 3754.348944,
@@ -381,7 +442,16 @@
           "url": "https://news.bitcoin.com/goldman-sachs-files-for-bitcoin-premium-income-etf-with-covered-call-strategy/"
         },
         {
-          "clicks": 37,
+          "clicks": 31,
+          "date": "2026-07-28T16:52:58.432633+00:00",
+          "headline": "BlackRock, Fidelity and Goldman Sachs back Clarity Act as Senate's August recess nears",
+          "hot_score": 1695.557852,
+          "lev_url": "https://leviathannews.xyz/283515/blackrock-fidelity-and-goldman-sachs-back-clarity-act-as-senates-august-recess-nears",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728163828_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act"
+        },
+        {
+          "clicks": 38,
           "date": "2026-06-04T09:21:20.137168+00:00",
           "headline": "Goldman Sachs tokenizes real estate fund shares on GS DAP with Apex and Archax",
           "hot_score": 698.504689,
@@ -390,10 +460,10 @@
           "url": "https://www.coindesk.com/business/2026/06/04/goldman-sachs-teams-with-apex-archax-for-tokenized-real-estate-fund"
         },
         {
-          "clicks": 23,
+          "clicks": 27,
           "date": "2026-06-25T08:13:16.182949+00:00",
           "headline": "Taktile charts a course to $110M in Goldman Sachs-led Series C, steering AI transformation for financial institutions",
-          "hot_score": 664.30618,
+          "hot_score": 542.705106,
           "lev_url": "https://leviathannews.xyz/262460/taktile-secures-110m-in-goldman-sachs-led-series-c-to-power-ai-transformation-in-financial-institutions",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625080918_UT1Ymokb0KpD.jpg",
           "url": "https://x.com/taktile_org/status/2069846383960506381"
@@ -417,6 +487,15 @@
           "url": "https://x.com/i/status/2045864997188735223"
         },
         {
+          "clicks": 42,
+          "date": "2026-07-13T13:37:36.323188+00:00",
+          "headline": "UK taps BlackRock, Goldman Sachs and JPMorgan for 54-firm taskforce targeting tokenized repo",
+          "hot_score": 439.827733,
+          "lev_url": "https://leviathannews.xyz/273970/uk-taps-blackrock-goldman-sachs-and-jpmorgan-for-54-firm-taskforce-targeting-tokenized-repo",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260713121628_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/business/2026/07/13/uk-government-unveils-tokenization-taskforce-with-blackrock-goldman-jpmorgan-morgan-stanley"
+        },
+        {
           "clicks": 97,
           "date": "2026-03-20T00:02:29.007313+00:00",
           "headline": "Goldman Sachs estimates 300M jobs could face AI disruption over the next decade, while new roles emerge in data centers and power infrastructure buildout",
@@ -424,38 +503,20 @@
           "lev_url": "https://leviathannews.xyz/212743/goldman-sachs-estimates-300m-jobs-could-face-ai-disruption-over-the-next-decade-while-new-roles-emerge-in-data-centers-and-power-infrastructure-buildout",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260319235333_TQWGWih3NEfK.jpg",
           "url": "https://x.com/i/status/2034640957992267982"
-        },
-        {
-          "clicks": 71,
-          "date": "2026-02-08T19:17:51.011586+00:00",
-          "headline": "Wall Street quietly settles over 350 billion dollars in daily repo trades and more than 6 trillion dollars in tokenized real‑world assets on Canton Network, a privacy‑preserving, institution‑focused Layer 1 where major players like DTCC, JPMorgan, Goldman Sachs, and Franklin Templeton are running production systems for repo settlement, Treasury tokenization, and deposit tokens under regulatory oversight—largely off the radar of the retail crypto market.",
-          "hot_score": 86.283187,
-          "lev_url": "https://leviathannews.xyz/25799/wall-street-quietly-settles-over-350-billion-dollars-in-daily-repo-trades-and-more-than-6-trillion-dollars-in-tokenized-realworld-assets-on-canton-network-a-privacypreserving-insti",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260208191518_vgkXLyKGWtM=.jpg",
-          "url": "https://x.com/Delphi_Digital/status/2020543954253406364"
-        },
-        {
-          "clicks": 62,
-          "date": "2025-12-02T12:56:15.941012+00:00",
-          "headline": "Goldman Sachs to buy ETF sponsor Innovator in $2 billion cash-and-stock deal  as the Wall Street bank seeks to expand in one of the fastest-growing asset management segments. Active funds have regained lost ground in the last few years as investors favor a more hands-on approach following lower returns from passively managed index products amid tighter monetary policy.",
-          "hot_score": 70.371677,
-          "lev_url": "https://leviathannews.xyz/21534/goldman-sachs-to-buy-etf-sponsor-innovator-in-2-billion-cash-and-stock-deal-as-the-wall-street-bank-seeks-to-expand-in-one-of-the-fastest-growing-asset-management-segments-active-f",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251202111229_j1YGJFkm4N4=.jpg",
-          "url": "https://www.reuters.com/legal/transactional/goldman-sachs-buy-innovator-capital-2-billion-deal-2025-12-01/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:06:13.222487+00:00",
+      "as_of": "2026-07-29T22:59:34.570032+00:00",
       "editorial": [
         {
           "count": 6,
-          "source": "x.com"
+          "source": "coindesk.com"
         },
         {
-          "count": 4,
-          "source": "coindesk.com"
+          "count": 6,
+          "source": "x.com"
         },
         {
           "count": 3,
@@ -498,8 +559,12 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 9,
+          "count": 20,
           "source": "x.com"
+        },
+        {
+          "count": 6,
+          "source": "cointelegraph.com"
         },
         {
           "count": 6,
@@ -507,19 +572,19 @@
         },
         {
           "count": 5,
-          "source": "cointelegraph.com"
+          "source": "coindesk.com"
+        },
+        {
+          "count": 4,
+          "source": "decrypt.co"
         },
         {
           "count": 4,
           "source": "thestreet.com"
         },
         {
-          "count": 3,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 3,
-          "source": "coindesk.com"
+          "count": 2,
+          "source": "forbes.com"
         },
         {
           "count": 2,
@@ -539,14 +604,10 @@
         },
         {
           "count": 1,
-          "source": "forbes.com"
-        },
-        {
-          "count": 1,
           "source": "t.me"
         }
       ],
-      "universe_distinct": 16
+      "universe_distinct": 17
     }
   },
   "official_links": [
@@ -563,42 +624,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:34.077684+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.203,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0294,
-        "lift_log": 4.105,
-        "score": 0.2025,
-        "shared": 4
-      },
-      "rationale": "DTCC provides clearing and settlement for Goldman Sachs.",
-      "relation_type": "infrastructure",
-      "slug": "dtcc",
-      "source": "cotag",
-      "tag_name": "DTCC",
-      "title": "DTCC, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.211,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0098,
-        "lift_log": 2.297,
-        "score": 0.211,
-        "shared": 6
-      },
-      "rationale": "Goldman Sachs issues and trades ETFs.",
-      "relation_type": "product",
-      "slug": "etfs",
-      "source": "cotag",
-      "tag_name": "ETFs",
-      "title": "ETFs, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "goldman-sachs",
   "tag_name": "Goldman Sachs",

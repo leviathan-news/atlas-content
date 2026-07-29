@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:16:40.952642+00:00",
+      "as_of": "2026-07-29T22:59:21.167498+00:00",
       "newsroom_total": 10,
-      "overall_share": 34,
+      "overall_share": 32,
       "provenance": "data",
       "series": [
         {
@@ -59,62 +59,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 2
         }
       ],
-      "total_universe": 29,
-      "universe_total": 19
+      "total_universe": 31,
+      "universe_total": 21
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:16:40.464138+00:00",
+      "as_of": "2026-07-29T22:59:20.878972+00:00",
       "edges": [
         {
+          "confidence": 0.347,
+          "description": "Co-covered in 5 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fusion",
-          "phrase": "Both are DeFi protocols; Fusion is a DEX aggregator competing with 1inch.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-07",
+          "phrase": "Co-covered in 5 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "1inch",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 35
         },
         {
+          "confidence": 0.153,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fusion",
-          "phrase": "Fusion operates on a mainnet blockchain for its DEX aggregator services.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "mainnet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.122,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fusion",
-          "phrase": "Investment events can fund Fusion's development and growth.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "investment",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "fusion",
+          "observed_at": null,
           "phrase": "digital assets",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "digital-assets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "fusion",
+          "observed_at": null,
           "phrase": "infrastructure",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -128,42 +169,62 @@
         },
         {
           "center": false,
+          "confidence": 0.347,
           "name": "1inch",
+          "observed_at": "2026-05-07",
           "slug": "1inch",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 35
         },
         {
           "center": false,
+          "confidence": 0.153,
           "name": "Mainnet",
+          "observed_at": null,
           "slug": "mainnet",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.122,
           "name": "Investment",
+          "observed_at": null,
           "slug": "investment",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Digital Assets",
+          "observed_at": null,
           "slug": "digital-assets",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Infrastructure",
+          "observed_at": null,
           "slug": "infrastructure",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -221,16 +282,16 @@
     },
     "reader_signal": {
       "article_count": 11,
-      "as_of": "2026-07-01T12:16:41.424826+00:00",
+      "as_of": "2026-07-29T22:59:21.539587+00:00",
       "most_clicked": {
-        "clicks": 153,
+        "clicks": 164,
         "date": "2023-07-05T21:10:28.383795+00:00",
         "headline": "11,000 ETH sold by 1inch as they test their new protocol upgrade called Fusion ",
         "lev_url": "https://leviathannews.xyz/1697/11000-eth-sold-by-1inch-as-they-test-their-new-protocol-upgrade-called-fusion"
       },
       "provenance": "data",
       "top_decile_share": 25,
-      "total_clicks": 620
+      "total_clicks": 645
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:56:48.534646+00:00",
@@ -309,10 +370,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:16:41.347032+00:00",
+      "as_of": "2026-07-29T22:59:21.536139+00:00",
       "items": [
         {
-          "clicks": 68,
+          "clicks": 69,
           "date": "2026-05-07T05:45:46.173672+00:00",
           "headline": "1inch liquidity provider TrustedVolumes suffers ongoing $5.87M exploit on Ethereum, with Blockaid linking attacker to 2025 Fusion V1 hack",
           "hot_score": 932.281535,
@@ -321,7 +382,7 @@
           "url": "https://www.theblock.co/post/400332/1inch-trustedvolumes-exploit"
         },
         {
-          "clicks": 27,
+          "clicks": 28,
           "date": "2026-06-02T09:44:14.283710+00:00",
           "headline": "Quant launches Fusion Rollup mainnet across 74 networks, turning chain copies into canonical assets",
           "hot_score": 433.075461,
@@ -330,7 +391,7 @@
           "url": "https://quant.network/news/a-new-category-of-infrastructure-the-fusion-rollup-is-live-on-mainnet/"
         },
         {
-          "clicks": 51,
+          "clicks": 52,
           "date": "2026-04-01T10:07:14.495390+00:00",
           "headline": "Tesseract taps IPOR Fusion for institutional vault infrastructure, onboarding 21Shares as pilot partner to deploy compliant onchain yield strategies with segregated client vaults",
           "hot_score": 232.965464,
@@ -339,7 +400,7 @@
           "url": "https://x.com/i/status/2038960123066892489"
         },
         {
-          "clicks": 59,
+          "clicks": 61,
           "date": "2026-02-26T18:11:25.259796+00:00",
           "headline": "The Vault Engine Ethereum Needs?\n\nIntroducing Fusion by Ipor, with Darren\n\nLive now!",
           "hot_score": 134.453577,
@@ -348,7 +409,7 @@
           "url": "https://www.youtube.com/watch?v=Rqq837YLegM"
         },
         {
-          "clicks": 25,
+          "clicks": 27,
           "date": "2026-02-25T15:19:45.821229+00:00",
           "headline": "TP ICAP to shift Fusion Digital Assets crypto exchange to a matched principal model from March 2026 to boost capital efficiency and attract institutional trading. ](",
           "hot_score": 101.310498,
@@ -357,7 +418,7 @@
           "url": "https://www.thetradenews.com/tp-icap-shifts-fusion-digital-assets-exchange-to-matched-principal-model"
         },
         {
-          "clicks": 43,
+          "clicks": 46,
           "date": "2026-01-16T14:01:22.384830+00:00",
           "headline": "\"The DeFi Architecture of Agility: Why Rigidity Kills Strategy\" - a new article by Ipor",
           "hot_score": 64.363162,
@@ -366,7 +427,7 @@
           "url": "https://x.com/ipor_io/status/2012118586236477540"
         },
         {
-          "clicks": 38,
+          "clicks": 39,
           "date": "2026-01-19T17:51:36.192435+00:00",
           "headline": "Introducing - IPOR Fusion Points",
           "hot_score": 57.085143,
@@ -375,7 +436,7 @@
           "url": "https://x.com/i/status/1981702701722325137"
         },
         {
-          "clicks": 153,
+          "clicks": 164,
           "date": "2023-07-05T21:10:28.383795+00:00",
           "headline": "11,000 ETH sold by 1inch as they test their new protocol upgrade called Fusion ",
           "hot_score": 0.0,
@@ -387,7 +448,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:16:41.259847+00:00",
+      "as_of": "2026-07-29T22:59:21.526668+00:00",
       "editorial": [
         {
           "count": 5,
@@ -414,11 +475,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 15,
+          "count": 16,
           "source": "x.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "quant.network"
         },
         {
@@ -441,25 +502,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:32.807230+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.347,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0391,
-        "lift_log": 4.981,
-        "score": 0.3473,
-        "shared": 5
-      },
-      "rationale": "Both are DeFi protocols; Fusion is a DEX aggregator competing with 1inch.",
-      "relation_type": "peer",
-      "slug": "1inch",
-      "source": "cotag",
-      "tag_name": "1inch",
-      "title": "1inch, Explained",
-      "weight": 35
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "fusion",
   "tag_name": "Fusion",

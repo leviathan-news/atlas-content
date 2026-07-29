@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:02:19.068590+00:00",
+      "as_of": "2026-07-29T22:59:05.650184+00:00",
       "newsroom_total": 27,
-      "overall_share": 32,
+      "overall_share": 27,
       "provenance": "data",
       "series": [
         {
@@ -148,63 +148,98 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 1
+          "universe": 16
         }
       ],
-      "total_universe": 84,
-      "universe_total": 57
+      "total_universe": 99,
+      "universe_total": 72
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:02:16.569556+00:00",
+      "as_of": "2026-07-29T22:59:05.405585+00:00",
       "edges": [
         {
+          "confidence": 0.3,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fbi",
-          "phrase": "FBI investigates crimes as part of its law enforcement mandate.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-11",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "crime",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.258,
+          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fbi",
-          "phrase": "FBI conducts seizures of assets in criminal investigations.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-25",
+          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "seizure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.237,
+          "description": "Co-covered in 3 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fbi",
-          "phrase": "Fraud is a type of crime investigated by the FBI.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-08",
+          "phrase": "Co-covered in 3 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fraud",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.217,
+          "description": "Co-covered in 4 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fbi",
-          "phrase": "Theft is a crime that falls under FBI jurisdiction.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-16",
+          "phrase": "Co-covered in 4 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "theft",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.188,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fbi",
-          "phrase": "FBI is a component agency of the Department of Justice.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "doj",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -218,42 +253,62 @@
         },
         {
           "center": false,
+          "confidence": 0.3,
           "name": "Crime",
+          "observed_at": "2026-05-11",
           "slug": "crime",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.258,
           "name": "Seizure",
+          "observed_at": "2026-06-25",
           "slug": "seizure",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.237,
           "name": "Fraud",
+          "observed_at": "2026-04-08",
           "slug": "fraud",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.217,
           "name": "Theft",
+          "observed_at": "2026-03-16",
           "slug": "theft",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.188,
           "name": "DOJ",
+          "observed_at": null,
           "slug": "doj",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -323,16 +378,16 @@
     },
     "reader_signal": {
       "article_count": 27,
-      "as_of": "2026-07-01T12:02:21.201281+00:00",
+      "as_of": "2026-07-29T22:59:05.919906+00:00",
       "most_clicked": {
-        "clicks": 340,
+        "clicks": 345,
         "date": "2023-09-07T16:35:14.108425+00:00",
         "headline": "FBI identifies Lazarus Group as responsible for theft of $41 million from Stake.com",
         "lev_url": "https://leviathannews.xyz/2532/fbi-identifies-lazarus-group-as-responsible-for-theft-of-41-million-from-stakecom"
       },
       "provenance": "data",
       "top_decile_share": 21,
-      "total_clicks": 3056
+      "total_clicks": 3078
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:14:52.879502+00:00",
@@ -417,10 +472,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:02:21.118448+00:00",
+      "as_of": "2026-07-29T22:59:05.913779+00:00",
       "items": [
         {
-          "clicks": 108,
+          "clicks": 113,
           "date": "2026-04-07T15:59:32.350988+00:00",
           "headline": "FBI reports Americans lost $11.4B to crypto fraud in 2025, up 22%, as AI-powered scams hit $893M",
           "hot_score": 490842.773005,
@@ -429,7 +484,7 @@
           "url": "https://www.fbi.gov/news/press-releases/cryptocurrency-and-ai-scams-bilk-americans-of-billions"
         },
         {
-          "clicks": 27,
+          "clicks": 29,
           "date": "2026-04-23T08:10:36.683466+00:00",
           "headline": "Apple patches iOS bug that let FBI forensically extract deleted Signal messages from iPhone notification cache",
           "hot_score": 352.0,
@@ -456,7 +511,7 @@
           "url": "https://decrypt.co/355728/olympic-snowboarder-turned-alleged-crypto-crime-kingpin-arrested-mexico"
         },
         {
-          "clicks": 340,
+          "clicks": 345,
           "date": "2023-09-07T16:35:14.108425+00:00",
           "headline": "FBI identifies Lazarus Group as responsible for theft of $41 million from Stake.com",
           "hot_score": 0.0,
@@ -465,7 +520,7 @@
           "url": "https://www.fbi.gov/news/press-releases/fbi-identifies-lazarus-group-cyber-actors-as-responsible-for-theft-of-41-million-from-stakecom"
         },
         {
-          "clicks": 306,
+          "clicks": 307,
           "date": "2023-07-07T11:20:03.013775+00:00",
           "headline": "FBI raids house of former Kraken CEO Jesse Powell",
           "hot_score": 0.0,
@@ -483,7 +538,7 @@
           "url": "https://www.theverge.com/2023/10/19/23923759/peter-thiel-fbi-informant-foreign-influence-report"
         },
         {
-          "clicks": 182,
+          "clicks": 184,
           "date": "2023-12-16T19:38:10.824834+00:00",
           "headline": "Tether CEO unveils new security measures, involving FBI and Secret Service, to prevent illicit use of stablecoins.",
           "hot_score": 0.0,
@@ -495,7 +550,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:02:21.017527+00:00",
+      "as_of": "2026-07-29T22:59:05.903999+00:00",
       "editorial": [
         {
           "count": 4,
@@ -550,32 +605,44 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 13,
+          "count": 18,
           "source": "x.com"
         },
         {
-          "count": 11,
+          "count": 12,
           "source": "truthsocial.com"
         },
         {
-          "count": 6,
+          "count": 8,
           "source": "financefeeds.com"
         },
         {
-          "count": 6,
+          "count": 7,
           "source": "decrypt.co"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "cointelegraph.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "theblock.co"
         },
         {
           "count": 2,
+          "source": "nypost.com"
+        },
+        {
+          "count": 2,
           "source": "foxbusiness.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "foxnews.com"
         },
         {
           "count": 1,
@@ -584,21 +651,9 @@
         {
           "count": 1,
           "source": "forbes.com"
-        },
-        {
-          "count": 1,
-          "source": "cbsnews.com"
-        },
-        {
-          "count": 1,
-          "source": "nypost.com"
-        },
-        {
-          "count": 1,
-          "source": "t.me"
         }
       ],
-      "universe_distinct": 19
+      "universe_distinct": 20
     }
   },
   "official_links": [],
@@ -609,76 +664,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:31.155358+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.3,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.028,
-        "lift_log": 4.058,
-        "score": 0.2998,
-        "shared": 3
-      },
-      "rationale": "FBI investigates crimes as part of its law enforcement mandate.",
-      "relation_type": "category",
-      "slug": "crime",
-      "source": "cotag",
-      "tag_name": "Crime",
-      "title": "Crime, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.237,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0135,
-        "lift_log": 2.846,
-        "score": 0.2374,
-        "shared": 3
-      },
-      "rationale": "Fraud is a type of crime investigated by the FBI.",
-      "relation_type": "category",
-      "slug": "fraud",
-      "source": "cotag",
-      "tag_name": "Fraud",
-      "title": "Fraud, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.258,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0194,
-        "lift_log": 3.223,
-        "score": 0.2575,
-        "shared": 3
-      },
-      "rationale": "FBI conducts seizures of assets in criminal investigations.",
-      "relation_type": "event",
-      "slug": "seizure",
-      "source": "cotag",
-      "tag_name": "Seizure",
-      "title": "Seizure, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.217,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0312,
-        "lift_log": 4.411,
-        "score": 0.2174,
-        "shared": 4
-      },
-      "rationale": "Theft is a crime that falls under FBI jurisdiction.",
-      "relation_type": "category",
-      "slug": "theft",
-      "source": "cotag",
-      "tag_name": "Theft",
-      "title": "Theft, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "fbi",
   "tag_name": "FBI",

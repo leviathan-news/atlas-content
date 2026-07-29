@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:06:28.239512+00:00",
-      "newsroom_total": 30,
-      "overall_share": 56,
+      "as_of": "2026-07-29T23:05:08.131693+00:00",
+      "newsroom_total": 31,
+      "overall_share": 38,
       "provenance": "data",
       "series": [
         {
@@ -113,62 +113,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 6
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 26
         }
       ],
-      "total_universe": 54,
-      "universe_total": 24
+      "total_universe": 81,
+      "universe_total": 50
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:06:27.183610+00:00",
+      "as_of": "2026-07-29T23:05:07.926174+00:00",
       "edges": [
         {
+          "confidence": 0.28,
+          "description": "Co-covered in 9 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "swift",
-          "phrase": "Swift is integrating Chainlink's CCIP for cross-chain token transfers.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-13",
+          "phrase": "Co-covered in 9 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "chainlink",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 28
         },
         {
+          "confidence": 0.226,
+          "description": "Co-covered in 3 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "swift",
-          "phrase": "Swift is a messaging network enabling interoperability between financial systems.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-04",
+          "phrase": "Co-covered in 3 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "interoperability",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.185,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "swift",
-          "phrase": "Swift is a primary network for cross-border payments and messaging.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cross-border-payments",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.129,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "swift",
-          "phrase": "Swift is exploring stablecoin settlement via blockchain experiments.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "swift",
+          "observed_at": null,
           "phrase": "movement",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "movement",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -182,42 +223,62 @@
         },
         {
           "center": false,
+          "confidence": 0.28,
           "name": "Chainlink",
+          "observed_at": "2026-04-13",
           "slug": "chainlink",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 28
         },
         {
           "center": false,
+          "confidence": 0.226,
           "name": "Interoperability",
+          "observed_at": "2026-04-04",
           "slug": "interoperability",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.185,
           "name": "Cross-Border Payments",
+          "observed_at": null,
           "slug": "cross-border-payments",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.129,
           "name": "Stablecoins",
+          "observed_at": null,
           "slug": "stablecoins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Movement",
+          "observed_at": null,
           "slug": "movement",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -286,17 +347,17 @@
       "source": "https://chain.link/blog/the-swift-and-chainlink-partnership"
     },
     "reader_signal": {
-      "article_count": 32,
-      "as_of": "2026-07-01T12:06:28.974230+00:00",
+      "article_count": 33,
+      "as_of": "2026-07-29T23:05:08.350804+00:00",
       "most_clicked": {
-        "clicks": 259,
+        "clicks": 263,
         "date": "2026-02-28T15:24:57.460789+00:00",
         "headline": "Chainlink’s institutional moment deepens as UBS, Swift, Mastercard, JPMorgan and Coinbase standardize tokenization on its infrastructure.",
         "lev_url": "https://leviathannews.xyz/36821/chainlinks-institutional-moment-deepens-as-ubs-swift-mastercard-jpmorgan-and-coinbase-standardize-tokenization-on-its-infrastructure"
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 3124
+      "total_clicks": 3205
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:09:08.696995+00:00",
@@ -375,10 +436,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:06:28.893804+00:00",
+      "as_of": "2026-07-29T23:05:08.346336+00:00",
       "items": [
         {
-          "clicks": 57,
+          "clicks": 58,
           "date": "2026-04-07T19:25:36.333465+00:00",
           "headline": "AWS open-sources architecture bridging SWIFT ISO 20022 financial messaging to onchain settlement via Chainlink",
           "hot_score": 3907.304271,
@@ -387,7 +448,16 @@
           "url": "https://aws.amazon.com/blogs/web3/bridging-financial-messaging-systems-to-digital-asset-settlement/"
         },
         {
-          "clicks": 116,
+          "clicks": 53,
+          "date": "2026-07-09T07:54:55.453149+00:00",
+          "headline": "Swift’s blockchain ledger goes live with 17 banks set to pilot tokenised cross-border payments",
+          "hot_score": 2457.708495,
+          "lev_url": "https://leviathannews.xyz/271685/swift-today-announced-that-its-blockchain-based-ledger-is-ready-for-initial-use-enabling-early-adopter-financial-institutions-to-support-247-cross-border-p",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260709075316_WMd38L6zOCmZ.jpg",
+          "url": "https://www.businesswire.com/news/home/20260708432053/en/Swifts-Blockchain-Ledger-Ready-for-Use-as-17-Banks-Set-to-Pioneer-Tokenised-Cross-Border-Payments-on-Trusted-Global-Infrastructure"
+        },
+        {
+          "clicks": 118,
           "date": "2026-03-23T13:50:16.096849+00:00",
           "headline": "SWIFT confirms 25+ banks going live by June with blockchain-based 24/7 cross-border payments",
           "hot_score": 782.491231,
@@ -405,7 +475,7 @@
           "url": "https://www.thunes.com/news/thunes-brings-stablecoin-payouts-to-11500-banks-via-swift-connectivity-bridging-traditional-finance-and-digital-assets/"
         },
         {
-          "clicks": 34,
+          "clicks": 35,
           "date": "2026-04-23T19:25:12.658449+00:00",
           "headline": "MoonPay lands fiat-to-stablecoin virtual accounts in New York, tapping BitLicense to route ACH and SWIFT inflows directly to non-custodial wallets",
           "hot_score": 338.2,
@@ -414,7 +484,7 @@
           "url": "https://www.prnewswire.com/news-releases/moonpay-launches-virtual-accounts-in-new-york-expanding-enterprise-stablecoin-infrastructure-302750808.html"
         },
         {
-          "clicks": 65,
+          "clicks": 66,
           "date": "2026-04-02T12:17:08.255516+00:00",
           "headline": "Swift rolls out new cross-border payments framework with 50+ banks onboard, promising cost transparency, faster settlement, and full-value delivery for global retail transfers",
           "hot_score": 293.366614,
@@ -423,7 +493,7 @@
           "url": "https://x.com/i/status/2039625181010800815"
         },
         {
-          "clicks": 120,
+          "clicks": 121,
           "date": "2026-04-05T06:47:46.164963+00:00",
           "headline": "Chainlink and Swift build core infrastructure for future capital markets, unifying blockchains and legacy systems with AI, oracles, and global banking standards",
           "hot_score": 160.548315,
@@ -432,28 +502,19 @@
           "url": "https://x.com/i/status/2040446341931745742"
         },
         {
-          "clicks": 259,
+          "clicks": 263,
           "date": "2026-02-28T15:24:57.460789+00:00",
           "headline": "Chainlink’s institutional moment deepens as UBS, Swift, Mastercard, JPMorgan and Coinbase standardize tokenization on its infrastructure.",
           "hot_score": 151.63477,
           "lev_url": "https://leviathannews.xyz/36821/chainlinks-institutional-moment-deepens-as-ubs-swift-mastercard-jpmorgan-and-coinbase-standardize-tokenization-on-its-infrastructure",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260228134723_oHXW5b_TJLc=.jpg",
           "url": "https://x.com/i/status/2027432749632462883"
-        },
-        {
-          "clicks": 48,
-          "date": "2025-12-13T10:01:03.668095+00:00",
-          "headline": "Ant International and HSBC test new cross-border payments solution using tokenised deposits on Swift’s network and powered by ISO 20022. The successful POC marks a key milestone in Ant International, HSBC, and Swift’s efforts to help businesses unlock the full benefits of tokenisation for enhanced liquidity, programmable finance, and 24/7 real-time settlement.",
-          "hot_score": 74.310686,
-          "lev_url": "https://leviathannews.xyz/22409/ant-international-and-hsbc-test-new-cross-border-payments-solution-using-tokenised-deposits-on-swifts-network-and-powered-by-iso-20022-the-successful-poc-marks-a-key-milestone-in-a",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251213030307_C-Wg4MGc_Ew=.jpg",
-          "url": "https://www.ant-intl.com/en/news/detail?id=ant-international-and-hsbc-test-new-cross-border-payments-solution-using-tokenised-deposits-on-swifts-network-and-powered-by-iso20022&redirect=news&tag=PARTNERSHIP"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:06:28.814228+00:00",
+      "as_of": "2026-07-29T23:05:08.336593+00:00",
       "editorial": [
         {
           "count": 8,
@@ -504,12 +565,20 @@
           "source": "apifirst.tech"
         }
       ],
-      "editorial_distinct": 20,
+      "editorial_distinct": 21,
       "provenance": "data",
       "universe": [
         {
-          "count": 16,
+          "count": 28,
           "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
         },
         {
           "count": 2,
@@ -517,7 +586,19 @@
         },
         {
           "count": 2,
-          "source": "truthsocial.com"
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "reuters.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
         },
         {
           "count": 1,
@@ -525,18 +606,18 @@
         },
         {
           "count": 1,
-          "source": "crowdfundinsider.com"
+          "source": "bloomberg.com"
         },
         {
           "count": 1,
-          "source": "cointelegraph.com"
+          "source": "techinasia.com"
         },
         {
           "count": 1,
-          "source": "financefeeds.com"
+          "source": "theblock.co"
         }
       ],
-      "universe_distinct": 7
+      "universe_distinct": 14
     }
   },
   "official_links": [],
@@ -547,42 +628,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:59.167829+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.28,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0281,
-        "lift_log": 3.613,
-        "score": 0.28,
-        "shared": 9
-      },
-      "rationale": "Swift is integrating Chainlink's CCIP for cross-chain token transfers.",
-      "relation_type": "ecosystem",
-      "slug": "chainlink",
-      "source": "cotag",
-      "tag_name": "Chainlink",
-      "title": "Chainlink, Explained",
-      "weight": 28
-    },
-    {
-      "confidence": 0.226,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0292,
-        "lift_log": 4.611,
-        "score": 0.2256,
-        "shared": 3
-      },
-      "rationale": "Swift is a messaging network enabling interoperability between financial systems.",
-      "relation_type": "category",
-      "slug": "interoperability",
-      "source": "cotag",
-      "tag_name": "Interoperability",
-      "title": "Interoperability, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "swift",
   "tag_name": "Swift",

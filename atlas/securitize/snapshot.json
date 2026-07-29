@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:00:11.270342+00:00",
-      "newsroom_total": 39,
-      "overall_share": 39,
+      "as_of": "2026-07-29T23:04:13.831052+00:00",
+      "newsroom_total": 43,
+      "overall_share": 30,
       "provenance": "data",
       "series": [
         {
@@ -91,66 +91,101 @@
           "universe": 26
         },
         {
-          "ed_share": null,
+          "ed_share": 11,
           "month": "2026-07",
-          "newsroom": 1,
-          "universe": 0
+          "newsroom": 5,
+          "universe": 41
         }
       ],
-      "total_universe": 100,
-      "universe_total": 61
+      "total_universe": 145,
+      "universe_total": 102
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:00:10.497184+00:00",
+      "as_of": "2026-07-29T23:04:13.620857+00:00",
       "edges": [
         {
+          "confidence": 0.261,
+          "description": "Co-covered in 43 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "securitize",
-          "phrase": "Securitize partners with NYSE for tokenized asset trading.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-06",
+          "phrase": "Co-covered in 43 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "nyse",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.232,
+          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "securitize",
-          "phrase": "Cantor Fitzgerald is a strategic partner for Securitize.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-16",
+          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cantor",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.222,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "securitize",
-          "phrase": "Securitize deals with tokenized securities.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-24",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "securities",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.192,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "securitize",
-          "phrase": "Tron is a blockchain platform, not directly related to Securitize.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tron",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.19,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "securitize",
-          "phrase": "Securitize tokenizes equity assets.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "equity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -164,42 +199,62 @@
         },
         {
           "center": false,
+          "confidence": 0.261,
           "name": "NYSE",
+          "observed_at": "2026-07-06",
           "slug": "nyse",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.232,
           "name": "Cantor",
+          "observed_at": "2026-07-16",
           "slug": "cantor",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.222,
           "name": "Securities",
+          "observed_at": "2026-03-24",
           "slug": "securities",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.192,
           "name": "Tron",
+          "observed_at": null,
           "slug": "tron",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.19,
           "name": "Equity",
+          "observed_at": null,
           "slug": "equity",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -268,17 +323,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 39,
-      "as_of": "2026-07-01T12:00:11.988865+00:00",
+      "article_count": 43,
+      "as_of": "2026-07-29T23:04:14.610142+00:00",
       "most_clicked": {
-        "clicks": 244,
+        "clicks": 248,
         "date": "2025-03-17T16:55:38.938001+00:00",
         "headline": "Securitize and Ethena unveil Converge, an EVM-compatible institutional DeFi blockchain",
         "lev_url": "https://leviathannews.xyz/9962/securitize-and-ethena-unveil-converge-an-evm-compatible-institutional-defi-blockchain"
       },
       "provenance": "data",
-      "top_decile_share": 26,
-      "total_clicks": 2441
+      "top_decile_share": 28,
+      "total_clicks": 2726
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:34:54.982401+00:00",
@@ -363,10 +418,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:00:11.892111+00:00",
+      "as_of": "2026-07-29T23:04:14.593963+00:00",
       "items": [
         {
-          "clicks": 54,
+          "clicks": 57,
           "date": "2026-04-09T15:06:40.509096+00:00",
           "headline": "Securitize appoints former SEC and JPMorgan executive Brett Redfearn as president and board member, strengthening leadership as tokenization and digital asset markets expand",
           "hot_score": 7256.829083,
@@ -384,7 +439,7 @@
           "url": "https://x.com/i/status/2042592143014023629"
         },
         {
-          "clicks": 39,
+          "clicks": 45,
           "date": "2026-04-10T18:33:40.246548+00:00",
           "headline": "Benchmark says just 0.01% of NYSE’s $44T market could significantly scale Securitize, highlighting massive upside for tokenized assets as institutional adoption grows",
           "hot_score": 3623.724494,
@@ -393,25 +448,16 @@
           "url": "https://www.theblock.co/post/397043/one-basis-point-benchmark-fraction-nyse-44-trillion-market-drive-securitize-growth?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 8,
-          "date": "2026-06-30T06:52:26.572849+00:00",
-          "headline": "Tokenization giant Securitize is set for a NYSE debut after investors approved its SPAC merger, marking a milestone for blockchain-based capital markets",
-          "hot_score": 3068.22177,
-          "lev_url": "https://leviathannews.xyz/265228/securitize-heads-to-nyse-debut-after-investors-approve-spac-merger-20260630",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630064234_eSxDTRwrWlap.jpg",
-          "url": "https://www.coindesk.com/business/2026/06/29/securitize-heads-to-nyse-debut-after-investors-approve-spac-merger"
+          "clicks": 44,
+          "date": "2026-07-27T14:16:32.333149+00:00",
+          "headline": "Securitize Capital secures SEC investment adviser registration after operating as exempt reporting adviser",
+          "hot_score": 2051.974026,
+          "lev_url": "https://leviathannews.xyz/282546/securitize-capital-secures-sec-investment-adviser-registration-after-operating-as-exempt-reporting-adviser",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727133617_rd_G7iB0ElTe.jpg",
+          "url": "https://securitize.io/learn/press/securitize-becomes-registered-investment-adviser"
         },
         {
-          "clicks": 17,
-          "date": "2026-07-01T06:52:22.821744+00:00",
-          "headline": "Securitize set to begin trading on the NYSE under SECZ after its SPAC merger, becoming one of the first public pure-play tokenization firms.",
-          "hot_score": 2121.967203,
-          "lev_url": "https://leviathannews.xyz/266165/securitize-set-to-begin-trading-on-the-nyse-under-secz-after-its-spac-merger-becoming-one-of-the-first-public-pure-play-tokenization-firms",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701064857_OAzrNJe-b0hb.jpg",
-          "url": "https://www.financemagnates.com/forex/securitize-set-to-trade-on-nyse-thursday-as-first-pure-play-tokenization-company/"
-        },
-        {
-          "clicks": 49,
+          "clicks": 54,
           "date": "2026-04-08T16:57:23.116311+00:00",
           "headline": "Securitize tokenizes Nasdaq-listed Currenc Group shares on Ethereum and Solana",
           "hot_score": 1042.590496,
@@ -420,43 +466,52 @@
           "url": "https://www.prnewswire.com/news-releases/securitize-tokenizes-nasdaq-listed-currenc-group-inc-ordinary-shares-302736564.html"
         },
         {
-          "clicks": 34,
-          "date": "2026-06-26T15:10:41.808284+00:00",
-          "headline": "BlackRock-backed Securitize targets a $400M raise ahead of its NYSE debut, with the tokenization firm set to complete its SPAC merger pending shareholder approval",
-          "hot_score": 918.957629,
-          "lev_url": "https://leviathannews.xyz/263533/the-blackrock-backed-tokenization-specialist-expects-to-close-its-spac-merger-next-week-and-start-trading-on-the-nyse-pending-shareholder-approval",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626150614_ONWQ6rZIt31V.png",
-          "url": "https://www.coindesk.com/business/2026/06/26/securitize-aims-to-raise-usd400-million-as-tokenization-firm-nears-public-debut"
-        },
-        {
-          "clicks": 41,
+          "clicks": 43,
           "date": "2026-04-22T12:44:25.788727+00:00",
           "headline": "Upshift partners Securitize Fund Services to bring third-party reporting and audits to onchain vaults, marking first institutional-grade fund administration integration in DeFi",
           "hot_score": 791.8,
           "lev_url": "https://leviathannews.xyz/234901/upshift-partners-securitize-fund-services-to-bring-third-party-reporting-and-audits-to-onchain-vaults-marking-first-institutional-grade-fund-administration-integration-in-defi",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422123022_swZEodDhyZ4O.jpg",
           "url": "https://www.theblock.co/post/398437/onchain-vault-provider-upshift-taps-securitize-fund-services-for-third-party-reporting?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 23,
+          "date": "2026-06-30T06:52:26.572849+00:00",
+          "headline": "Tokenization giant Securitize is set for a NYSE debut after investors approved its SPAC merger, marking a milestone for blockchain-based capital markets",
+          "hot_score": 779.807842,
+          "lev_url": "https://leviathannews.xyz/265228/securitize-heads-to-nyse-debut-after-investors-approve-spac-merger-20260630",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630064234_eSxDTRwrWlap.jpg",
+          "url": "https://www.coindesk.com/business/2026/06/29/securitize-heads-to-nyse-debut-after-investors-approve-spac-merger"
+        },
+        {
+          "clicks": 55,
+          "date": "2026-06-05T16:51:17.394842+00:00",
+          "headline": "Securitize clears a major SEC hurdle for its SPAC merger with Cantor Equity Partners II, paving the way for a NYSE listing under ticker SECZ later this month",
+          "hot_score": 726.681519,
+          "lev_url": "https://leviathannews.xyz/253437/no-headline-20260605-3",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260605163909_nRri8ur0wcPw.jpg",
+          "url": "https://www.theblock.co/post/403842/securitize-clears-sec-registration-statement-hurdle-sets-path-to-nyse-listing-as-secz?utm_source=telegram1&utm_medium=social"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:00:11.803746+00:00",
+      "as_of": "2026-07-29T23:04:14.570408+00:00",
       "editorial": [
         {
           "count": 14,
           "source": "x.com"
         },
         {
-          "count": 10,
+          "count": 11,
           "source": "theblock.co"
         },
         {
-          "count": 5,
+          "count": 7,
           "source": "securitize.io"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "coindesk.com"
         },
         {
@@ -488,28 +543,32 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 21,
+          "count": 42,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 12,
           "source": "theblock.co"
         },
         {
-          "count": 7,
+          "count": 12,
           "source": "securitize.io"
         },
         {
-          "count": 6,
+          "count": 10,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 8,
           "source": "decrypt.co"
         },
         {
           "count": 6,
-          "source": "coindesk.com"
+          "source": "cointelegraph.com"
         },
         {
-          "count": 4,
-          "source": "cointelegraph.com"
+          "count": 2,
+          "source": "blog.redstone.finance"
         },
         {
           "count": 2,
@@ -520,8 +579,8 @@
           "source": "financefeeds.com"
         },
         {
-          "count": 1,
-          "source": "blog.redstone.finance"
+          "count": 2,
+          "source": "fortune.com"
         },
         {
           "count": 1,
@@ -530,13 +589,9 @@
         {
           "count": 1,
           "source": "euler.finance"
-        },
-        {
-          "count": 1,
-          "source": "crowdfundinsider.com"
         }
       ],
-      "universe_distinct": 12
+      "universe_distinct": 14
     }
   },
   "official_links": [
@@ -553,59 +608,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:54.024194+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.232,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0408,
-        "lift_log": 4.635,
-        "score": 0.2324,
-        "shared": 4
-      },
-      "rationale": "Cantor Fitzgerald is a strategic partner for Securitize.",
-      "relation_type": "ecosystem",
-      "slug": "cantor",
-      "source": "cotag",
-      "tag_name": "Cantor",
-      "title": "Cantor, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.261,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1048,
-        "lift_log": 4.566,
-        "score": 0.261,
-        "shared": 21
-      },
-      "rationale": "Securitize partners with NYSE for tokenized asset trading.",
-      "relation_type": "ecosystem",
-      "slug": "nyse",
-      "source": "cotag",
-      "tag_name": "NYSE",
-      "title": "NYSE, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.222,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0125,
-        "lift_log": 2.518,
-        "score": 0.2219,
-        "shared": 3
-      },
-      "rationale": "Securitize deals with tokenized securities.",
-      "relation_type": "category",
-      "slug": "securities",
-      "source": "cotag",
-      "tag_name": "Securities",
-      "title": "Securities, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "securitize",
   "tag_name": "Securitize",

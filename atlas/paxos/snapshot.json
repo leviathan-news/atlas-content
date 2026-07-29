@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:09:40.491190+00:00",
-      "newsroom_total": 37,
-      "overall_share": 65,
+      "as_of": "2026-07-29T23:03:06.435110+00:00",
+      "newsroom_total": 38,
+      "overall_share": 60,
       "provenance": "data",
       "series": [
         {
@@ -119,62 +119,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 5
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 5
         }
       ],
-      "total_universe": 57,
-      "universe_total": 20
+      "total_universe": 63,
+      "universe_total": 25
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:09:40.178732+00:00",
+      "as_of": "2026-07-29T23:03:06.162485+00:00",
       "edges": [
         {
+          "confidence": 0.263,
+          "description": "Co-covered in 6 approved stories; most recently September 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "paxos",
-          "phrase": "Paxos issues USDH, a stablecoin pegged to the US dollar.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-09-11",
+          "phrase": "Co-covered in 6 approved stories; most recently September 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "usdh",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.203,
+          "description": "Co-covered in 5 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "paxos",
-          "phrase": "Paxos powers PayPal's crypto services including stablecoin PYUSD.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-01",
+          "phrase": "Co-covered in 5 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "paypal",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.196,
+          "description": "Co-covered in 19 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "paxos",
-          "phrase": "Paxos is a regulated issuer of stablecoins like USDP and BUSD.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 19 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.192,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "paxos",
-          "phrase": "DOGE is a cryptocurrency, not directly related to Paxos.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "doge",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "paxos",
-          "phrase": "OCC granted Paxos conditional approval for national trust bank.",
-          "relation_type": "governance",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "occ",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -188,42 +229,62 @@
         },
         {
           "center": false,
+          "confidence": 0.263,
           "name": "USDH",
+          "observed_at": "2025-09-11",
           "slug": "usdh",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.203,
           "name": "PayPal",
+          "observed_at": "2026-06-01",
           "slug": "paypal",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.196,
           "name": "Stablecoins",
+          "observed_at": null,
           "slug": "stablecoins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.192,
           "name": "DOGE",
+          "observed_at": null,
           "slug": "doge",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "OCC",
+          "observed_at": null,
           "slug": "occ",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -292,17 +353,17 @@
       "source": "https://www.paxos.com/newsroom/paxos-prevails-in-sec-investigation-of-busd-stablecoin-and-sec-will-not-pursue-enforcement-action"
     },
     "reader_signal": {
-      "article_count": 37,
-      "as_of": "2026-07-01T12:09:41.010788+00:00",
+      "article_count": 38,
+      "as_of": "2026-07-29T23:03:06.815785+00:00",
       "most_clicked": {
-        "clicks": 510,
+        "clicks": 518,
         "date": "2023-08-31T08:11:19.120770+00:00",
         "headline": " Binance to terminate BUSD support alongside Paxos as it introduces new stablecoin",
         "lev_url": "https://leviathannews.xyz/2408/binance-to-terminate-busd-support-alongside-paxos-as-it-introduces-new-stablecoin"
       },
       "provenance": "data",
       "top_decile_share": 36,
-      "total_clicks": 2990
+      "total_clicks": 3052
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:47:07.684126+00:00",
@@ -387,7 +448,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:09:40.931166+00:00",
+      "as_of": "2026-07-29T23:03:06.803588+00:00",
       "items": [
         {
           "clicks": 44,
@@ -399,7 +460,7 @@
           "url": "https://www.theblock.co/post/397348/paxos-labs-raises-12-million-amplify-onchain-financial-products"
         },
         {
-          "clicks": 42,
+          "clicks": 43,
           "date": "2026-06-01T14:49:04.960787+00:00",
           "headline": "Paxos adds Dogecoin to brokerage infra used by PayPal, Venmo, and Interactive Brokers",
           "hot_score": 470.725165,
@@ -417,7 +478,7 @@
           "url": "https://www.paxos.com/newsroom/sec-registers-paxos-securities-settlement-company-as-a-clearing-agency"
         },
         {
-          "clicks": 29,
+          "clicks": 30,
           "date": "2026-05-29T06:38:05.780026+00:00",
           "headline": "SEC approves Paxos as 'blockchain-native' clearing agency",
           "hot_score": 426.771537,
@@ -435,7 +496,7 @@
           "url": "https://www.theblock.co/post/399161/stablecoin-payroll-firm-toku-taps-paxos-labs-amplify-to-offer-yield-on-paychecks?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 46,
+          "clicks": 48,
           "date": "2026-03-03T18:42:38.339731+00:00",
           "headline": "Digital asset custody is infrastructure to consume, not build, citing regulatory complexity, key management risk, and 24/7 blockchain operations as hidden costs",
           "hot_score": 223.043543,
@@ -453,7 +514,7 @@
           "url": "https://occ.gov/news-issuances/news-releases/2025/nr-occ-2025-125.html"
         },
         {
-          "clicks": 43,
+          "clicks": 45,
           "date": "2026-03-12T15:56:47.759912+00:00",
           "headline": "Paxos launches Partner Rewards Engine, enabling daily, on-chain rewards for enterprises issuing and distributing stablecoins",
           "hot_score": 153.95457,
@@ -465,10 +526,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:09:40.835535+00:00",
+      "as_of": "2026-07-29T23:03:06.762319+00:00",
       "editorial": [
         {
-          "count": 11,
+          "count": 12,
           "source": "x.com"
         },
         {
@@ -520,7 +581,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 6,
+          "count": 10,
           "source": "x.com"
         },
         {
@@ -554,9 +615,13 @@
         {
           "count": 1,
           "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "arcus.xyz"
         }
       ],
-      "universe_distinct": 9
+      "universe_distinct": 10
     }
   },
   "official_links": [
@@ -578,42 +643,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:47.606203+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.203,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0324,
-        "lift_log": 4.088,
-        "score": 0.2033,
-        "shared": 5
-      },
-      "rationale": "Paxos powers PayPal's crypto services including stablecoin PYUSD.",
-      "relation_type": "ecosystem",
-      "slug": "paypal",
-      "source": "cotag",
-      "tag_name": "PayPal",
-      "title": "PayPal, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.263,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0574,
-        "lift_log": 5.149,
-        "score": 0.2633,
-        "shared": 6
-      },
-      "rationale": "Paxos issues USDH, a stablecoin pegged to the US dollar.",
-      "relation_type": "product",
-      "slug": "usdh",
-      "source": "cotag",
-      "tag_name": "USDH",
-      "title": "USDH: Complete Guide",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "paxos",
   "tag_name": "Paxos",

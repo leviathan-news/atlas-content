@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:11:35.562513+00:00",
-      "newsroom_total": 20,
-      "overall_share": 37,
+      "as_of": "2026-07-29T23:06:50.164020+00:00",
+      "newsroom_total": 22,
+      "overall_share": 35,
       "provenance": "data",
       "series": [
         {
@@ -71,62 +71,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 8
+        },
+        {
+          "ed_share": 22,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 7
         }
       ],
-      "total_universe": 54,
-      "universe_total": 34
+      "total_universe": 63,
+      "universe_total": 41
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:11:34.971900+00:00",
+      "as_of": "2026-07-29T23:06:49.966777+00:00",
       "edges": [
         {
+          "confidence": 0.388,
+          "description": "Co-covered in 27 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "xai",
-          "phrase": "Grok is the AI chatbot product built by xAI.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 27 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "grok",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 39
         },
         {
+          "confidence": 0.353,
+          "description": "Co-covered in 12 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "xai",
-          "phrase": "Elon Musk is the founder of xAI.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-19",
+          "phrase": "Co-covered in 12 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "elon-musk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 35
         },
         {
+          "confidence": 0.263,
+          "description": "Co-covered in 6 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "xai",
-          "phrase": "SpaceX is a company owned by Elon Musk, related via founder.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-21",
+          "phrase": "Co-covered in 6 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "spacex",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.184,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "xai",
-          "phrase": "Tesla is a company owned by Elon Musk, related via founder.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tesla",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.173,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "xai",
-          "phrase": "OpenAI is a direct competitor in AI research and products.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "openai",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -140,42 +181,62 @@
         },
         {
           "center": false,
+          "confidence": 0.388,
           "name": "Grok",
+          "observed_at": "2026-07-28",
           "slug": "grok",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 39
         },
         {
           "center": false,
+          "confidence": 0.353,
           "name": "Elon Musk",
+          "observed_at": "2026-07-19",
           "slug": "elon-musk",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 35
         },
         {
           "center": false,
+          "confidence": 0.263,
           "name": "SpaceX",
+          "observed_at": "2026-05-21",
           "slug": "spacex",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.184,
           "name": "Tesla",
+          "observed_at": null,
           "slug": "tesla",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.173,
           "name": "OpenAI",
+          "observed_at": null,
           "slug": "openai",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -244,17 +305,17 @@
       "source": "https://en.wikipedia.org/wiki/XAI_(company)"
     },
     "reader_signal": {
-      "article_count": 20,
-      "as_of": "2026-07-01T12:11:36.164404+00:00",
+      "article_count": 22,
+      "as_of": "2026-07-29T23:06:50.367019+00:00",
       "most_clicked": {
-        "clicks": 102,
+        "clicks": 104,
         "date": "2024-07-31T15:53:54.735616+00:00",
         "headline": "According to TokenUnlocks, the major August unlockings, exceeding $900 million, include DYDX, SUI, ZETA, GAL, W, IMX, XAI, APT, SAND, STARK, ARB, APE, ROSE, PIXEL, AVAX, and OP.",
         "lev_url": "https://leviathannews.xyz/6474/according-to-tokenunlocks-the-major-august-unlockings-exceeding-900-million-include-dydx-sui-zeta-gal-w-imx-xai-apt-sand-stark-arb-ape-rose-pixel-avax-and-op"
       },
       "provenance": "data",
-      "top_decile_share": 18,
-      "total_clicks": 1082
+      "top_decile_share": 17,
+      "total_clicks": 1176
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:56:35.790236+00:00",
@@ -339,7 +400,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:11:36.082654+00:00",
+      "as_of": "2026-07-29T23:06:50.362835+00:00",
       "items": [
         {
           "clicks": 91,
@@ -351,7 +412,7 @@
           "url": "https://x.com/i/status/2041501301318766866"
         },
         {
-          "clicks": 36,
+          "clicks": 39,
           "date": "2026-04-10T06:46:28.930399+00:00",
           "headline": "xAI sues Colorado over AI anti-discrimination law, argues mandated Grok changes violate First Amendment",
           "hot_score": 9022.674083,
@@ -360,7 +421,7 @@
           "url": "https://cointelegraph.com/news/xai-sues-colorado-over-ai-law-restricting-free-speech"
         },
         {
-          "clicks": 42,
+          "clicks": 43,
           "date": "2026-04-11T21:36:21.444180+00:00",
           "headline": "SpaceX holds 8,285 BTC worth $603M steady as xAI costs flip $8B profit to nearly $5B loss ahead of IPO",
           "hot_score": 1791.901762,
@@ -369,7 +430,16 @@
           "url": "https://www.coindesk.com/markets/2026/04/11/musk-s-spacex-holds-usd603-million-in-bitcoin-despite-usd5-billion-loss-stemming-from-xai"
         },
         {
-          "clicks": 70,
+          "clicks": 31,
+          "date": "2026-07-01T20:47:27.407850+00:00",
+          "headline": "xAI launches Voice Agent Builder, a no-code platform for creating human-like AI voice agents powered by Grok Voice at $0.05 per minute",
+          "hot_score": 762.831128,
+          "lev_url": "https://leviathannews.xyz/266954/introducing-voice-agent-builder-a-no-code-platform-to-create-human-like-voice-agents-with-grok-voice-available-today-at-005-min-xaivoice",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701203055_ZBQyn-HdvHq3.jpg",
+          "url": "https://x.com/xai/status/2072342803787702422"
+        },
+        {
+          "clicks": 73,
           "date": "2026-03-23T08:46:03.496461+00:00",
           "headline": "Tesla, xAI and SpaceX chart a course for Terafab, a new venture in galactic infrastructure towards becoming a galactic civilization.",
           "hot_score": 620.46043,
@@ -378,7 +448,7 @@
           "url": "https://x.com/xai/status/2035520240684032012"
         },
         {
-          "clicks": 26,
+          "clicks": 29,
           "date": "2026-05-18T01:00:55.953835+00:00",
           "headline": "xAI lets Grok subscribers plug Grok 4.3, TTS, and Imagine into Hermes Agent",
           "hot_score": 486.184417,
@@ -387,7 +457,7 @@
           "url": "https://x.ai/news/grok-hermes"
         },
         {
-          "clicks": 81,
+          "clicks": 85,
           "date": "2026-03-17T07:03:38.435682+00:00",
           "headline": "Minors sue xAI in California over alleged Grok deepfake images. The class action alleges Elon Musk's AI company knowingly produced and profited from child sexual abuse material.",
           "hot_score": 394.682437,
@@ -396,31 +466,22 @@
           "url": "https://decrypt.co/361331/minors-sue-xai-california-alleged-grok-deepfake-images"
         },
         {
-          "clicks": 46,
+          "clicks": 47,
           "date": "2026-04-22T21:03:30.598814+00:00",
           "headline": "AngelList launches USVC fund offering retail investors exposure to OpenAI, Anthropic, and xAI with just $500 minimum, opening access to private AI giants",
           "hot_score": 382.6,
           "lev_url": "https://leviathannews.xyz/235293/angellist-launches-usvc-fund-offering-retail-investors-exposure-to-openai-anthropic-and-xai-with-just-500-minimum-opening-access-to-private-ai-giants",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422204536_jt9K5lpe0xTb.png",
           "url": "https://decrypt.co/365157/angellist-usvc-investors-exposure-openai-anthropic-xai-starting-500"
-        },
-        {
-          "clicks": 33,
-          "date": "2026-04-02T06:01:36.086651+00:00",
-          "headline": "Elon Musk's SpaceX reportedly files confidential IPO with SEC targeting June 2026 debut at $1.75T valuation, eyeing up to $75B raise in what could become the largest IPO in history",
-          "hot_score": 190.388542,
-          "lev_url": "https://leviathannews.xyz/219748/elon-musks-spacex-reportedly-files-confidential-ipo-with-sec-targeting-june-2026-debut-at-175t-valuation-eyeing-up-to-75b-raise-in-what-could-become-the-largest-ipo-in-history",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260402043134_5vhEqPKSgtfI.webp",
-          "url": "https://crypto.news/spacex-said-to-file-confidential-ipo-plans-with-sec-at-up-to-1-75t-valuation/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:11:35.996376+00:00",
+      "as_of": "2026-07-29T23:06:50.351981+00:00",
       "editorial": [
         {
-          "count": 6,
+          "count": 8,
           "source": "x.com"
         },
         {
@@ -468,7 +529,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 25,
+          "count": 32,
           "source": "x.com"
         },
         {
@@ -495,59 +556,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:37:06.627866+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.353,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0688,
-        "lift_log": 4.798,
-        "score": 0.3531,
-        "shared": 11
-      },
-      "rationale": "Elon Musk is the founder of xAI.",
-      "relation_type": "founder",
-      "slug": "elon-musk",
-      "source": "cotag",
-      "tag_name": "Elon Musk",
-      "title": "Elon Musk, Explained",
-      "weight": 35
-    },
-    {
-      "confidence": 0.388,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1119,
-        "lift_log": 5.081,
-        "score": 0.3878,
-        "shared": 24
-      },
-      "rationale": "Grok is the AI chatbot product built by xAI.",
-      "relation_type": "product",
-      "slug": "grok",
-      "source": "cotag",
-      "tag_name": "Grok",
-      "title": "Grok, Explained",
-      "weight": 39
-    },
-    {
-      "confidence": 0.263,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0192,
-        "lift_log": 3.326,
-        "score": 0.2627,
-        "shared": 6
-      },
-      "rationale": "SpaceX is a company owned by Elon Musk, related via founder.",
-      "relation_type": "ecosystem",
-      "slug": "spacex",
-      "source": "cotag",
-      "tag_name": "SpaceX",
-      "title": "SpaceX, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "xai",
   "tag_name": "xAI",

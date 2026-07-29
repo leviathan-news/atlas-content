@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:10:07.436795+00:00",
+      "as_of": "2026-07-29T23:00:28.266381+00:00",
       "newsroom_total": 22,
-      "overall_share": 38,
+      "overall_share": 37,
       "provenance": "data",
       "series": [
         {
@@ -77,62 +77,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
         }
       ],
-      "total_universe": 58,
-      "universe_total": 36
+      "total_universe": 59,
+      "universe_total": 37
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:10:06.957232+00:00",
+      "as_of": "2026-07-29T23:00:27.995983+00:00",
       "edges": [
         {
+          "confidence": 0.24,
+          "description": "Co-covered in 7 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "kidnapping",
-          "phrase": "Kidnapping incidents have occurred in France, involving legal cases.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-02",
+          "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "france",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 10 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "kidnapping",
-          "phrase": "Ledger executives were reportedly kidnapped in a crypto-related incident.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-23",
+          "phrase": "Co-covered in 10 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ledger",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.187,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "kidnapping",
-          "phrase": "Kidnapping cases have been reported in Texas, including crypto-related abductions.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "texas",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.164,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "kidnapping",
-          "phrase": "DOJ prosecutes kidnapping cases, including those involving crypto crimes.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "doj",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "kidnapping",
+          "observed_at": null,
           "phrase": "exploit",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "exploit",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -146,42 +187,62 @@
         },
         {
           "center": false,
+          "confidence": 0.24,
           "name": "France",
+          "observed_at": "2026-07-02",
           "slug": "france",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.206,
           "name": "Ledger",
+          "observed_at": "2026-03-23",
           "slug": "ledger",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.187,
           "name": "Texas",
+          "observed_at": null,
           "slug": "texas",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.164,
           "name": "DOJ",
+          "observed_at": null,
           "slug": "doj",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Exploit",
+          "observed_at": null,
           "slug": "exploit",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -245,16 +306,16 @@
     },
     "reader_signal": {
       "article_count": 22,
-      "as_of": "2026-07-01T12:10:07.907397+00:00",
+      "as_of": "2026-07-29T23:00:28.640551+00:00",
       "most_clicked": {
-        "clicks": 243,
+        "clicks": 245,
         "date": "2025-02-13T14:30:43.404675+00:00",
         "headline": "Six men accused of kidnapping three family members and a nanny from a Chicago townhouse in October, allegedly forcing a transfer of approximately $15 million in crypto assets.",
         "lev_url": "https://leviathannews.xyz/9310/six-men-accused-of-kidnapping-three-family-members-and-a-nanny-from-a-chicago-townhouse-in-october-allegedly-forcing-a-transfer-of-approximately-15-million-in-crypto-assets"
       },
       "provenance": "data",
       "top_decile_share": 20,
-      "total_clicks": 2339
+      "total_clicks": 2355
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:59:39.275555+00:00",
@@ -333,10 +394,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:10:07.827797+00:00",
+      "as_of": "2026-07-29T23:00:28.635366+00:00",
       "items": [
         {
-          "clicks": 74,
+          "clicks": 76,
           "date": "2026-03-23T12:13:49.736614+00:00",
           "headline": "Police nab final suspect in Ledger co-founder David Balland €10M ransom kidnapping after year on the run",
           "hot_score": 636.450012,
@@ -345,7 +406,7 @@
           "url": "https://www.dlnews.com/articles/people-culture/police-arrest-suspect-in-ledger-founder-kidnapping-case/"
         },
         {
-          "clicks": 77,
+          "clicks": 80,
           "date": "2026-05-21T11:51:05.883424+00:00",
           "headline": "Kidnappers target Sandbox co-founder Sébastien Borget's wife as France logs 41 crypto-linked cases",
           "hot_score": 522.331362,
@@ -372,7 +433,7 @@
           "url": "https://www.dlnews.com/articles/people-culture/crypto-owners-should-be-allowed-to-carry-guns-says-ledger-co-founder/"
         },
         {
-          "clicks": 65,
+          "clicks": 66,
           "date": "2026-02-09T10:03:22.009107+00:00",
           "headline": "French magistrate and her mother escape 30-hour crypto ransom kidnapping as French police arrest six suspects in botched plot. [theblock](",
           "hot_score": 76.117385,
@@ -381,7 +442,7 @@
           "url": "https://www.theblock.co/post/388990/french-police-detain-six-after-botched-crypto-ransom-attempt"
         },
         {
-          "clicks": 243,
+          "clicks": 245,
           "date": "2025-02-13T14:30:43.404675+00:00",
           "headline": "Six men accused of kidnapping three family members and a nanny from a Chicago townhouse in October, allegedly forcing a transfer of approximately $15 million in crypto assets.",
           "hot_score": 0.0,
@@ -390,7 +451,7 @@
           "url": "https://www.chicagotribune.com/2025/02/11/chicago-kidnapping-cryptocurrency/"
         },
         {
-          "clicks": 231,
+          "clicks": 233,
           "date": "2025-09-29T08:39:18.501462+00:00",
           "headline": "Two armed brothers kidnapped a Minnesota family and forced an $8M crypto transfer before being arrested days later in Texas. They now face federal kidnapping and robbery charges after the violent nine-hour ordeal.",
           "hot_score": 0.0,
@@ -411,7 +472,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:10:07.745689+00:00",
+      "as_of": "2026-07-29T23:00:28.620503+00:00",
       "editorial": [
         {
           "count": 4,
@@ -466,7 +527,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 8,
+          "count": 9,
           "source": "x.com"
         },
         {
@@ -517,42 +578,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:38.558078+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.24,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0536,
-        "lift_log": 4.684,
-        "score": 0.2405,
-        "shared": 6
-      },
-      "rationale": "Kidnapping incidents have occurred in France, involving legal cases.",
-      "relation_type": "event",
-      "slug": "france",
-      "source": "cotag",
-      "tag_name": "France",
-      "title": "France, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0413,
-        "lift_log": 4.051,
-        "score": 0.2064,
-        "shared": 10
-      },
-      "rationale": "Ledger executives were reportedly kidnapped in a crypto-related incident.",
-      "relation_type": "event",
-      "slug": "ledger",
-      "source": "cotag",
-      "tag_name": "Ledger",
-      "title": "Ledger, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "kidnapping",
   "tag_name": "Kidnapping",

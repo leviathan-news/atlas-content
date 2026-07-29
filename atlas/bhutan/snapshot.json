@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:10:19.364770+00:00",
-      "newsroom_total": 16,
+      "as_of": "2026-07-29T22:56:34.793486+00:00",
+      "newsroom_total": 17,
       "overall_share": 28,
       "provenance": "data",
       "series": [
@@ -83,62 +83,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 4
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 2
         }
       ],
-      "total_universe": 57,
-      "universe_total": 41
+      "total_universe": 60,
+      "universe_total": 43
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:10:18.940077+00:00",
+      "as_of": "2026-07-29T22:56:34.471168+00:00",
       "edges": [
         {
+          "confidence": 0.337,
+          "description": "Co-covered in 6 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bhutan",
-          "phrase": "Bhutan's Bitcoin holdings tracked by Arkham onchain data.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-17",
+          "phrase": "Co-covered in 6 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "arkham",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 34
         },
         {
+          "confidence": 0.232,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bhutan",
-          "phrase": "Bhutan engages in Bitcoin mining as a national project.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-11",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitcoin-mining",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.225,
+          "description": "Co-covered in 8 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bhutan",
-          "phrase": "Bhutan's potential sell-off of Bitcoin holdings.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-12",
+          "phrase": "Co-covered in 8 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "sell-off",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.182,
+          "description": "Co-covered in 24 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bhutan",
-          "phrase": "Bhutan mines and holds Bitcoin as a reserve asset.",
-          "relation_type": "protocol",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 24 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.147,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bhutan",
-          "phrase": "Onchain data reveals Bhutan's Bitcoin transactions.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "onchain-data",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -152,42 +193,62 @@
         },
         {
           "center": false,
+          "confidence": 0.337,
           "name": "Arkham",
+          "observed_at": "2026-06-17",
           "slug": "arkham",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 34
         },
         {
           "center": false,
+          "confidence": 0.232,
           "name": "Bitcoin Mining",
+          "observed_at": "2026-03-11",
           "slug": "bitcoin-mining",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 23
-        },
-        {
-          "center": false,
-          "name": "Sell-Off",
-          "slug": "sell-off",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 23
-        },
-        {
-          "center": false,
-          "name": "Bitcoin",
-          "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 23
+        },
+        {
+          "center": false,
+          "confidence": 0.225,
+          "name": "Sell-Off",
+          "observed_at": "2026-05-12",
+          "slug": "sell-off",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 23
+        },
+        {
+          "center": false,
+          "confidence": 0.182,
+          "name": "Bitcoin",
+          "observed_at": null,
+          "slug": "bitcoin",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.147,
           "name": "Onchain Data",
+          "observed_at": null,
           "slug": "onchain-data",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -256,17 +317,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 16,
-      "as_of": "2026-07-01T12:10:20.006993+00:00",
+      "article_count": 17,
+      "as_of": "2026-07-29T22:56:35.073975+00:00",
       "most_clicked": {
-        "clicks": 103,
+        "clicks": 104,
         "date": "2024-09-17T08:37:13.780461+00:00",
         "headline": "Bhutan has emerged as a major Bitcoin holder, surpassing El Salvador in terms of cryptocurrency holdings, according to Arkham",
         "lev_url": "https://leviathannews.xyz/7003/bhutan-has-emerged-as-a-major-bitcoin-holder-surpassing-el-salvador-in-terms-of-cryptocurrency-holdings-according-to-arkham"
       },
       "provenance": "data",
       "top_decile_share": 11,
-      "total_clicks": 901
+      "total_clicks": 942
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:12:05.226756+00:00",
@@ -351,8 +412,17 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:10:19.926426+00:00",
+      "as_of": "2026-07-29T22:56:35.067986+00:00",
       "items": [
+        {
+          "clicks": 36,
+          "date": "2026-07-07T07:11:40.390961+00:00",
+          "headline": "Sierra Leone, Bhutan NDI, and SIGN Foundation sign MOU for citizen digital identity system",
+          "hot_score": 607.078291,
+          "lev_url": "https://leviathannews.xyz/269999/sierra-leone-bhutan-ndi-and-sign-foundation-sign-mou-for-citizen-digital-identity-system",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260707035346_Z4zrlaiDPw==.png",
+          "url": "https://x.com/sign/status/2074314949598523530"
+        },
         {
           "clicks": 42,
           "date": "2026-05-16T07:07:17.052338+00:00",
@@ -381,7 +451,7 @@
           "url": "https://gmc.bt/news/bhutan-digitizes-gold-with-launch-of-sovereign-token-ter_x1hd7"
         },
         {
-          "clicks": 65,
+          "clicks": 66,
           "date": "2026-03-25T09:34:29.193667+00:00",
           "headline": "Bhutan moves $36.75M in Bitcoin to QCP Capital-linked wallets as sovereign stack continues drawdown",
           "hot_score": 161.068904,
@@ -390,7 +460,7 @@
           "url": "https://x.com/OnchainLens/status/2036652582631039408"
         },
         {
-          "clicks": 57,
+          "clicks": 58,
           "date": "2025-12-17T08:10:00.142505+00:00",
           "headline": "Bhutan Commits Up to 10,000 Bitcoin From Sovereign Reserves to Power Gelephu Mindfulness City and Long-Term Youth-Led Growth",
           "hot_score": 83.25821,
@@ -408,36 +478,27 @@
           "url": "https://blog.sei.io/announcements/kingdom-of-bhutan-to-become-sei-network-validator/"
         },
         {
-          "clicks": 25,
+          "clicks": 27,
           "date": "2026-05-04T06:20:39.295021+00:00",
           "headline": "OxPay's Bhutan subsidiary Oxygen7 secures full payment licence and appoints payments veteran Peng Chun Hsien as CEO.",
           "hot_score": 55.6,
           "lev_url": "https://leviathannews.xyz/237664/oxpays-bhutan-subsidiary-secures-full-payment-licence-and-appoints-an-industry-veteran-as-ceo-to-drive-execution",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260504052536__N6iKns85dpW.jpg",
           "url": "https://links.sgx.com/1.0.0/corporate-announcements/JO0AM86LTP607QUH/431270d9b3be70c88c363a84c07e0e1fe6fbc22567725e401a17036f939f6711"
-        },
-        {
-          "clicks": 19,
-          "date": "2025-12-11T10:18:16.926926+00:00",
-          "headline": "Bhutan Unveils TER, a Gold-Backed Digital Token on Solana Aimed at Delivering Fast, Transparent, and Globally Accessible Real-Asset Settlement",
-          "hot_score": 24.703562,
-          "lev_url": "https://leviathannews.xyz/22184/bhutan-unveils-ter-a-gold-backed-digital-token-on-solana-aimed-at-delivering-fast-transparent-and-globally-accessible-real-asset-settlement",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251211101743_mn7dR76zC3o=.webp",
-          "url": "https://coinpedia.org/news/bhutan-launches-ter-a-gold-backed-digital-token-on-solana-blockchain/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:10:19.843650+00:00",
+      "as_of": "2026-07-29T22:56:35.058116+00:00",
       "editorial": [
         {
-          "count": 3,
-          "source": "gmc.bt"
+          "count": 4,
+          "source": "x.com"
         },
         {
           "count": 3,
-          "source": "x.com"
+          "source": "gmc.bt"
         },
         {
           "count": 1,
@@ -484,7 +545,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 17,
+          "count": 19,
           "source": "x.com"
         },
         {
@@ -539,59 +600,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:36:18.548304+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.337,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0529,
-        "lift_log": 4.622,
-        "score": 0.3374,
-        "shared": 6
-      },
-      "rationale": "Bhutan's Bitcoin holdings tracked by Arkham onchain data.",
-      "relation_type": "ecosystem",
-      "slug": "arkham",
-      "source": "cotag",
-      "tag_name": "Arkham",
-      "title": "Arkham, Explained",
-      "weight": 34
-    },
-    {
-      "confidence": 0.232,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0113,
-        "lift_log": 2.756,
-        "score": 0.2323,
-        "shared": 3
-      },
-      "rationale": "Bhutan engages in Bitcoin mining as a national project.",
-      "relation_type": "product",
-      "slug": "bitcoin-mining",
-      "source": "cotag",
-      "tag_name": "Bitcoin Mining",
-      "title": "Bitcoin Mining, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.225,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0519,
-        "lift_log": 4.359,
-        "score": 0.2252,
-        "shared": 8
-      },
-      "rationale": "Bhutan's potential sell-off of Bitcoin holdings.",
-      "relation_type": "event",
-      "slug": "sell-off",
-      "source": "cotag",
-      "tag_name": "Sell-Off",
-      "title": "Sell-Off, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "bhutan",
   "tag_name": "Bhutan",

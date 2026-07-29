@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:11:22.798728+00:00",
-      "newsroom_total": 11,
-      "overall_share": 15,
+      "as_of": "2026-07-29T23:01:38.733137+00:00",
+      "newsroom_total": 13,
+      "overall_share": 16,
       "provenance": "data",
       "series": [
         {
@@ -37,66 +37,101 @@
           "universe": 20
         },
         {
-          "ed_share": 0,
+          "ed_share": 15,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 2
+          "newsroom": 2,
+          "universe": 11
         }
       ],
-      "total_universe": 71,
-      "universe_total": 60
+      "total_universe": 82,
+      "universe_total": 69
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:11:22.437988+00:00",
+      "as_of": "2026-07-29T23:01:38.361539+00:00",
       "edges": [
         {
+          "confidence": 0.302,
+          "description": "Co-covered in 4 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "mcp",
-          "phrase": "Both are AI interfaces; MCP is a protocol for AI agents.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-29",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "chatgpt",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.292,
+          "description": "Co-covered in 7 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "mcp",
-          "phrase": "Claude is an AI assistant; MCP is a protocol for AI agents.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-29",
+          "phrase": "Co-covered in 7 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "claude",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.277,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "mcp",
-          "phrase": "MCP is a protocol designed for AI agents.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 28
         },
         {
+          "confidence": 0.258,
+          "description": "Co-covered in 36 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "mcp",
-          "phrase": "MCP is a protocol for AI agents.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-23",
+          "phrase": "Co-covered in 36 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ai-agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.196,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "mcp",
-          "phrase": "MCP is a protocol for agentic AI systems.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "agentic-ai",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         }
       ],
@@ -110,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.302,
           "name": "ChatGPT",
+          "observed_at": "2026-05-29",
           "slug": "chatgpt",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.292,
           "name": "Claude",
+          "observed_at": "2026-05-29",
           "slug": "claude",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.277,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 28
         },
         {
           "center": false,
+          "confidence": 0.258,
           "name": "AI Agents",
+          "observed_at": "2026-07-23",
           "slug": "ai-agents",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.196,
           "name": "Agentic AI",
+          "observed_at": null,
           "slug": "agentic-ai",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         }
       ],
@@ -214,17 +269,17 @@
       "source": "https://blog.base.org/base-mcp"
     },
     "reader_signal": {
-      "article_count": 11,
-      "as_of": "2026-07-01T12:11:23.582696+00:00",
+      "article_count": 13,
+      "as_of": "2026-07-29T23:01:39.031880+00:00",
       "most_clicked": {
-        "clicks": 98,
+        "clicks": 102,
         "date": "2026-03-15T07:13:36.241492+00:00",
         "headline": "PitchBook announces new essential MCP integration with Perplexity, expanding access to AI-powered, verifiable market intelligence.",
         "lev_url": "https://leviathannews.xyz/209881/pitchbook-announces-new-essential-mcp-integration-with-perplexity-expanding-access-to-ai-powered-verifiable-market-intelligence"
       },
       "provenance": "data",
-      "top_decile_share": 16,
-      "total_clicks": 625
+      "top_decile_share": 14,
+      "total_clicks": 717
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:15:44.801106+00:00",
@@ -309,10 +364,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:11:23.501792+00:00",
+      "as_of": "2026-07-29T23:01:39.022932+00:00",
       "items": [
         {
-          "clicks": 48,
+          "clicks": 51,
           "date": "2026-04-15T09:44:20.082944+00:00",
           "headline": "Coinbase launches Bazaar MCP, enabling AI agents to discover, evaluate, and pay for APIs autonomously, unlocking seamless tool usage with trust-based rankings",
           "hot_score": 6740.318562,
@@ -330,7 +385,7 @@
           "url": "https://x.com/i/status/2044445649538809985"
         },
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-06-02T06:03:23.484275+00:00",
           "headline": "Injective MCP gives AI agents 22 tools to trade perps, bridge tokens, and query markets from chat",
           "hot_score": 907.232182,
@@ -348,6 +403,24 @@
           "url": "https://www.coindesk.com/tech/2026/05/26/coinbase-s-base-launches-ai-tool-for-chatgpt-to-manage-crypto-wallets-and-defi-apps"
         },
         {
+          "clicks": 39,
+          "date": "2026-07-11T15:50:59.101178+00:00",
+          "headline": "Privy enables AWS Bedrock AgentCore AI agents to autonomously pay for APIs, MCP tools, and web content using USDC via secure Privy wallets",
+          "hot_score": 765.175322,
+          "lev_url": "https://leviathannews.xyz/273365/1-every-friday-we-ship-to-make-building-on-privy-better-today-agents-on-awscloud-bedrock-agentcore-can-now-pay-for-apis-mcp-tools-and-web-content-autonomously-using-privy-w",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260711154926_AIjMS8Pj1uug.jpg",
+          "url": "https://x.com/privy_io/status/2075637158535221703"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-07-08T07:18:38.151727+00:00",
+          "headline": "Vana acquires Memory Protocol team as beta app ships local personal servers and MCP-based portable memory",
+          "hot_score": 428.845572,
+          "lev_url": "https://leviathannews.xyz/270752/vana-acquires-memory-protocol-team-as-beta-app-ships-local-personal-servers-and-mcp-based-portable-memory",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260707234134_Z4zrlaiDPw==.png",
+          "url": "https://www.vana.org/posts/vana-acquires-memory-protocol-team-as-it-launches-groundbreaking-personal-server-and-memory-upgrades-to-the-vana-app"
+        },
+        {
           "clicks": 42,
           "date": "2026-04-24T15:07:36.410572+00:00",
           "headline": "Binance Wallet launches keyless agentic sub-wallet for AI agents with MCP support on BNB, Solana, Base, and Ethereum",
@@ -357,40 +430,22 @@
           "url": "https://financefeeds.com/binance-wallet-launches-keyless-agentic-wallet-for-ai-agents/"
         },
         {
-          "clicks": 81,
+          "clicks": 83,
           "date": "2026-03-02T15:07:09.698125+00:00",
           "headline": "Dune launches Dune MCP, a new integration that lets users plug its crypto data platform directly into leading AI tools like Claude, ChatGPT, and Cursor to search tables, write queries, and build charts from a single prompt",
           "hot_score": 303.941099,
           "lev_url": "https://leviathannews.xyz/38292/dune-launches-dune-mcp-a-new-integration-that-lets-users-plug-its-crypto-data-platform-directly-into-leading-ai-tools-like-claude-chatgpt-and-cursor-to-search-tables-write-queries-",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260302150540_pgRXJV8v_Xw=.jpg",
           "url": "https://x.com/Dune/status/2028474337922281716"
-        },
-        {
-          "clicks": 53,
-          "date": "2026-04-30T08:53:08.902821+00:00",
-          "headline": "Stripe launches new Treasury product with stablecoin balances, instant US transfers, global payouts to 160 countries, and AI-native finance tools via MCP integration",
-          "hot_score": 282.6,
-          "lev_url": "https://leviathannews.xyz/237229/stripe-launches-new-treasury-product-with-stablecoin-balances-instant-us-transfers-global-payouts-to-160-countries-and-ai-native-finance-tools-via-mcp-integration",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260430085008_FF96uLk9X9VJ.jpg",
-          "url": "https://x.com/i/web/status/2049621560743608481"
-        },
-        {
-          "clicks": 98,
-          "date": "2026-03-15T07:13:36.241492+00:00",
-          "headline": "PitchBook announces new essential MCP integration with Perplexity, expanding access to AI-powered, verifiable market intelligence.",
-          "hot_score": 210.020632,
-          "lev_url": "https://leviathannews.xyz/209881/pitchbook-announces-new-essential-mcp-integration-with-perplexity-expanding-access-to-ai-powered-verifiable-market-intelligence",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260315020110_Wvbai_ULBYml.jpg",
-          "url": "https://pitchbook.com/media/press-releases/pitchbook-announces-new-essential-mcp-integration-with-perplexity-expanding-access-to-ai-powered-verifiable-market-intelligence"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:11:23.402345+00:00",
+      "as_of": "2026-07-29T23:01:39.007598+00:00",
       "editorial": [
         {
-          "count": 5,
+          "count": 6,
           "source": "x.com"
         },
         {
@@ -416,13 +471,17 @@
         {
           "count": 1,
           "source": "injective.com"
+        },
+        {
+          "count": 1,
+          "source": "vana.org"
         }
       ],
-      "editorial_distinct": 7,
+      "editorial_distinct": 8,
       "provenance": "data",
       "universe": [
         {
-          "count": 49,
+          "count": 57,
           "source": "x.com"
         },
         {
@@ -456,9 +515,13 @@
         {
           "count": 1,
           "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "hedera.com"
         }
       ],
-      "universe_distinct": 9
+      "universe_distinct": 10
     }
   },
   "official_links": [],
@@ -469,76 +532,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:42.493972+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.277,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0275,
-        "lift_log": 3.526,
-        "score": 0.2772,
-        "shared": 14
-      },
-      "rationale": "MCP is a protocol designed for AI agents.",
-      "relation_type": "category",
-      "slug": "agents",
-      "source": "cotag",
-      "tag_name": "agents",
-      "title": "agents, Explained",
-      "weight": 28
-    },
-    {
-      "confidence": 0.258,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0198,
-        "lift_log": 3.151,
-        "score": 0.2583,
-        "shared": 24
-      },
-      "rationale": "MCP is a protocol for AI agents.",
-      "relation_type": "category",
-      "slug": "ai-agents",
-      "source": "cotag",
-      "tag_name": "AI Agents",
-      "title": "AI Agents, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.302,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0325,
-        "lift_log": 4.059,
-        "score": 0.302,
-        "shared": 4
-      },
-      "rationale": "Both are AI interfaces; MCP is a protocol for AI agents.",
-      "relation_type": "peer",
-      "slug": "chatgpt",
-      "source": "cotag",
-      "tag_name": "ChatGPT",
-      "title": "ChatGPT, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.292,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0324,
-        "lift_log": 3.829,
-        "score": 0.292,
-        "shared": 7
-      },
-      "rationale": "Claude is an AI assistant; MCP is a protocol for AI agents.",
-      "relation_type": "peer",
-      "slug": "claude",
-      "source": "cotag",
-      "tag_name": "Claude",
-      "title": "Claude, Explained",
-      "weight": 29
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "mcp",
   "tag_name": "MCP",

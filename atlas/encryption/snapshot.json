@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:16:04.641028+00:00",
+      "as_of": "2026-07-29T22:58:43.013822+00:00",
       "newsroom_total": 13,
-      "overall_share": 39,
+      "overall_share": 35,
       "provenance": "data",
       "series": [
         {
@@ -89,62 +89,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 7
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 4
         }
       ],
-      "total_universe": 33,
-      "universe_total": 20
+      "total_universe": 37,
+      "universe_total": 24
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:16:04.331045+00:00",
+      "as_of": "2026-07-29T22:58:42.798256+00:00",
       "edges": [
         {
+          "confidence": 0.253,
+          "description": "Co-covered in 5 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "encryption",
-          "phrase": "Quantum computing threatens to break current encryption algorithms.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-01",
+          "phrase": "Co-covered in 5 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "quantum-computing",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.24,
+          "description": "Co-covered in 3 approved stories; most recently November 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "encryption",
-          "phrase": "Encryption is a tool for privacy, but they are distinct concepts.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-11-24",
+          "phrase": "Co-covered in 3 approved stories; most recently November 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "privacy",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.167,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "encryption",
-          "phrase": "Bitcoin uses encryption for secure transactions and wallet keys.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.156,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "encryption",
-          "phrase": "Google develops encryption technologies like HTTPS and end-to-end encryption.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "google",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.149,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "encryption",
-          "phrase": "Encryption is a fundamental component of cybersecurity.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "security",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -158,42 +199,62 @@
         },
         {
           "center": false,
+          "confidence": 0.253,
           "name": "Quantum Computing",
+          "observed_at": "2026-04-01",
           "slug": "quantum-computing",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.24,
           "name": "Privacy",
+          "observed_at": "2025-11-24",
           "slug": "privacy",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.167,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.156,
           "name": "Google",
+          "observed_at": null,
           "slug": "google",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.149,
           "name": "Security",
+          "observed_at": null,
           "slug": "security",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -263,16 +324,16 @@
     },
     "reader_signal": {
       "article_count": 13,
-      "as_of": "2026-07-01T12:16:05.079594+00:00",
+      "as_of": "2026-07-29T22:58:43.250571+00:00",
       "most_clicked": {
-        "clicks": 196,
+        "clicks": 197,
         "date": "2025-04-16T21:41:33.855592+00:00",
         "headline": "Secure encryption and online anonymity are now at risk in Switzerland",
         "lev_url": "https://leviathannews.xyz/10582/secure-encryption-and-online-anonymity-are-now-at-risk-in-switzerland"
       },
       "provenance": "data",
-      "top_decile_share": 19,
-      "total_clicks": 1018
+      "top_decile_share": 18,
+      "total_clicks": 1075
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:36:38.902812+00:00",
@@ -357,13 +418,13 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:16:05.003685+00:00",
+      "as_of": "2026-07-29T22:58:43.246805+00:00",
       "items": [
         {
-          "clicks": 18,
+          "clicks": 30,
           "date": "2026-06-29T11:59:20.285095+00:00",
           "headline": "Fhenix bets Fully Homomorphic Encryption will power confidential finance, enabling private stablecoins, MEV-resistant DeFi, and encrypted smart contracts",
-          "hot_score": 2623.397609,
+          "hot_score": 806.271794,
           "lev_url": "https://leviathannews.xyz/264554/the-future-of-confidential-finance-is-hiding-in-plain-sight",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629114612_QMxkVFqDGgg2.jpg",
           "url": "https://x.com/blocmates/status/2071553258896732583"
@@ -378,7 +439,7 @@
           "url": "https://x.com/Tether_to/status/2001269408296058890"
         },
         {
-          "clicks": 27,
+          "clicks": 28,
           "date": "2025-12-06T09:57:33.889437+00:00",
           "headline": "Quantum computing threats to blockchains are widely overstated, but urgent migration to post-quantum encryption is needed due to harvest-now-decrypt-later risks. Signature upgrades, however, require slower, deliberate adoption—especially for Bitcoin.",
           "hot_score": 23.634057,
@@ -387,7 +448,7 @@
           "url": "https://a16zcrypto.com/posts/article/quantum-computing-misconceptions-realities-blockchains-planning-migrations/#where-are-we-on-timing"
         },
         {
-          "clicks": 196,
+          "clicks": 197,
           "date": "2025-04-16T21:41:33.855592+00:00",
           "headline": "Secure encryption and online anonymity are now at risk in Switzerland",
           "hot_score": 0.0,
@@ -396,7 +457,7 @@
           "url": "https://www.techradar.com/vpn/vpn-privacy-security/secure-encryption-and-online-anonymity-are-now-at-risk-in-switzerland-heres-what-you-need-to-know"
         },
         {
-          "clicks": 114,
+          "clicks": 149,
           "date": "2024-12-15T18:39:08.738062+00:00",
           "headline": "U.S. Federal agencies link China to massive 'Salt Typhoon' hack targeting AT&T, Verizon, and government officials, urging end-to-end encryption for protection.",
           "hot_score": 0.0,
@@ -405,7 +466,7 @@
           "url": "https://www.cnbc.com/2024/12/15/why-the-fbi-wants-you-to-use-end-to-end-encrypted-messaging.html"
         },
         {
-          "clicks": 106,
+          "clicks": 108,
           "date": "2024-05-22T06:54:03.085559+00:00",
           "headline": "Going Dark: The war on encryption is on the rise. Through a shady collaboration between the US and the EU",
           "hot_score": 0.0,
@@ -414,7 +475,7 @@
           "url": "https://mullvad.net/en/why-privacy-matters/going-dark"
         },
         {
-          "clicks": 103,
+          "clicks": 104,
           "date": "2025-05-25T17:11:33.851847+00:00",
           "headline": "Google's Quantum AI advances could crack 2048-bit RSA encryption 20 times quicker, posing a Bitcoin security risk within five years.",
           "hot_score": 0.0,
@@ -435,7 +496,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:16:04.916819+00:00",
+      "as_of": "2026-07-29T22:58:43.234823+00:00",
       "editorial": [
         {
           "count": 4,
@@ -482,7 +543,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 11,
+          "count": 12,
           "source": "x.com"
         },
         {
@@ -516,9 +577,21 @@
         {
           "count": 1,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "channelnewsasia.com"
+        },
+        {
+          "count": 1,
+          "source": "reuters.com"
+        },
+        {
+          "count": 1,
+          "source": "khaleejtimes.com"
         }
       ],
-      "universe_distinct": 9
+      "universe_distinct": 12
     }
   },
   "official_links": [],
@@ -529,42 +602,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:29.455590+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.24,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0066,
-        "lift_log": 2.962,
-        "score": 0.2396,
-        "shared": 3
-      },
-      "rationale": "Encryption is a tool for privacy, but they are distinct concepts.",
-      "relation_type": "peer",
-      "slug": "privacy",
-      "source": "cotag",
-      "tag_name": "Privacy",
-      "title": "Privacy, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.253,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.047,
-        "lift_log": 5.033,
-        "score": 0.2535,
-        "shared": 5
-      },
-      "rationale": "Quantum computing threatens to break current encryption algorithms.",
-      "relation_type": "risk",
-      "slug": "quantum-computing",
-      "source": "cotag",
-      "tag_name": "Quantum Computing",
-      "title": "Quantum Computing, Explained",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "encryption",
   "tag_name": "Encryption",

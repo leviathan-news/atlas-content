@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:59:47.915614+00:00",
-      "newsroom_total": 60,
+      "as_of": "2026-07-29T22:57:47.226535+00:00",
+      "newsroom_total": 64,
       "overall_share": 100,
       "provenance": "data",
       "series": [
@@ -119,62 +119,103 @@
           "month": "2026-06",
           "newsroom": 3,
           "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-07",
+          "newsroom": 4,
+          "universe": 0
         }
       ],
-      "total_universe": 60,
+      "total_universe": 64,
       "universe_total": 0
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:59:46.827717+00:00",
+      "as_of": "2026-07-29T22:57:47.025332+00:00",
       "edges": [
         {
+          "confidence": 0.335,
+          "description": "Co-covered in 20 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crypto-payment-card",
-          "phrase": "Visa provides the payment network infrastructure for many crypto cards.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-23",
+          "phrase": "Co-covered in 20 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "visa",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 33
         },
         {
+          "confidence": 0.303,
+          "description": "Co-covered in 16 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crypto-payment-card",
-          "phrase": "Mastercard provides payment network infrastructure for crypto cards.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-14",
+          "phrase": "Co-covered in 16 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "mastercard",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 33 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crypto-payment-card",
-          "phrase": "Stablecoins are often used as the underlying asset for crypto card transactions.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-13",
+          "phrase": "Co-covered in 33 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.205,
+          "description": "Co-covered in 3 approved stories; most recently September 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crypto-payment-card",
-          "phrase": "Crypto payment cards are a subset of the broader crypto payment category.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-09-20",
+          "phrase": "Co-covered in 3 approved stories; most recently September 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "crypto-payment",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.197,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crypto-payment-card",
-          "phrase": "Ether.Fi is a liquid staking protocol, not directly related to payment cards.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ether-dotfi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         }
       ],
@@ -188,42 +229,62 @@
         },
         {
           "center": false,
+          "confidence": 0.335,
           "name": "Visa",
+          "observed_at": "2026-06-23",
           "slug": "visa",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 33
         },
         {
           "center": false,
+          "confidence": 0.303,
           "name": "Mastercard",
+          "observed_at": "2026-07-14",
           "slug": "mastercard",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.206,
           "name": "Stablecoins",
+          "observed_at": "2026-07-13",
           "slug": "stablecoins",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Crypto Payment",
-          "slug": "crypto-payment",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Ether.Fi",
-          "slug": "ether-dotfi",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.205,
+          "name": "Crypto Payment",
+          "observed_at": "2025-09-20",
+          "slug": "crypto-payment",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.197,
+          "name": "Ether.Fi",
+          "observed_at": null,
+          "slug": "ether-dotfi",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         }
       ],
@@ -292,17 +353,17 @@
       "source": "https://www.fintechbrainfood.com/p/stablecoin-linked-cards"
     },
     "reader_signal": {
-      "article_count": 60,
-      "as_of": "2026-07-01T11:59:48.475837+00:00",
+      "article_count": 64,
+      "as_of": "2026-07-29T22:57:47.477925+00:00",
       "most_clicked": {
-        "clicks": 348,
+        "clicks": 350,
         "date": "2024-10-30T01:42:39.680420+00:00",
         "headline": "Visa announces partnership with Coinbase: Coinbase customers can now transfer funds in real-time and purchase crypto directly with an eligible Visa debit card",
         "lev_url": "https://leviathannews.xyz/7571/visa-announces-partnership-with-coinbase-coinbase-customers-can-now-transfer-funds-in-real-time-and-purchase-crypto-directly-with-an-eligible-visa-debit-card"
       },
       "provenance": "data",
-      "top_decile_share": 27,
-      "total_clicks": 5108
+      "top_decile_share": 26,
+      "total_clicks": 5314
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:20:07.693217+00:00",
@@ -387,10 +448,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:59:48.395991+00:00",
+      "as_of": "2026-07-29T22:57:47.470774+00:00",
       "items": [
         {
-          "clicks": 64,
+          "clicks": 65,
           "date": "2026-04-08T19:31:17.872342+00:00",
           "headline": "Nansen integrates MoonPay fiat on-ramp, enabling seamless in-app crypto purchases via card, Apple Pay, and Google Pay without leaving platform",
           "hot_score": 12768.031385,
@@ -399,7 +460,7 @@
           "url": "https://x.com/i/status/2041837538026107199"
         },
         {
-          "clicks": 86,
+          "clicks": 88,
           "date": "2026-04-09T09:19:43.905566+00:00",
           "headline": "Crypto card usage surges to $600M monthly volume, tripling YoY as stablecoins power everyday payments and reduce reliance on traditional off-ramps",
           "hot_score": 12743.873116,
@@ -408,7 +469,7 @@
           "url": "https://www.theblock.co/post/396724/crypto-card-boom-600-million-monthly-volume-usdc-gains-ground-usdt?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 54,
+          "clicks": 56,
           "date": "2026-04-10T18:43:52.458859+00:00",
           "headline": "Crossmint launches stablecoin-backed Visa credit cards with Rain, letting developers issue cards and wallets via a single integration without complex banking or licensing setup",
           "hot_score": 3763.256098,
@@ -417,22 +478,22 @@
           "url": "https://x.com/i/status/2042252745626042453"
         },
         {
-          "clicks": 169,
+          "clicks": 23,
+          "date": "2026-07-29T13:17:43.415168+00:00",
+          "headline": "MoonPay launches PayBox, letting ChatGPT and Claude initiate crypto and card payments through an AI vault secured with MPC, passkeys and user-defined spending limits",
+          "hot_score": 2995.0399,
+          "lev_url": "https://leviathannews.xyz/284104/moonpay-launches-paybox-an-ai-payment-vault-for-chatgpt-and-claude-20260729-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729131131_JOthjGCbg3xo.jpg",
+          "url": "https://www.theblock.co/post/410032/moonpay-paybox-chatgpt-claude?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 171,
           "date": "2026-03-31T10:00:05.134742+00:00",
           "headline": "Nium launches dual-network stablecoin card issuance platform enabling businesses to spend digital dollars at hundreds of millions of merchant locations worldwide.",
           "hot_score": 905.232355,
           "lev_url": "https://leviathannews.xyz/218403/nium-launches-dual-network-stablecoin-card-issuance-platform-enabling-businesses-to-spend-digital-dollars-at-hundreds-of-millions-of-merchant-locations-worldwide",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260331093448_gHFE6sh4zfac.jpg",
           "url": "https://www.nium.com/newsroom/nium-launched-stablecoin-card-issuance-platform"
-        },
-        {
-          "clicks": 47,
-          "date": "2026-06-26T08:20:44.810046+00:00",
-          "headline": "X Money beta debit cards thrill early users with premium design by lead Benji Taylor, feature contactless chips, peer-to-peer transfers, up to 6% APY on balances, and cashback rewards.",
-          "hot_score": 899.686098,
-          "lev_url": "https://leviathannews.xyz/263249/x-money-beta-debit-cards-thrill-early-users-with-premium-design-the-cards-are-designed-by-lead-benji-taylor-feature-contactless-chips-peer-to-peer-transfers-up-to-6-apy-on-balances",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626081500_AmYQRZgTWRf_.jpg",
-          "url": "https://x.com/elonmusk/status/2070253062619328925"
         },
         {
           "clicks": 74,
@@ -444,40 +505,40 @@
           "url": "https://x.com/i/web/status/2058483101030813883"
         },
         {
-          "clicks": 64,
+          "clicks": 35,
+          "date": "2026-07-01T19:07:00.302897+00:00",
+          "headline": "Crypto card payments have surged to $1.5B monthly, but Tiger Research argues the sector remains a niche financial tool rather than true infrastructure due to weak account ownership",
+          "hot_score": 768.481382,
+          "lev_url": "https://leviathannews.xyz/266848/still-1990-crypto-cards-15-billion-a-month-but-not-yet-infrastructure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701185715_bPHTWJobubOa.jpg",
+          "url": "https://x.com/tiger_research_/status/2072138191994531979"
+        },
+        {
+          "clicks": 70,
           "date": "2026-06-12T05:12:07.873834+00:00",
           "headline": "From $100M to $1.5B monthly: crypto card spending is booming, but can neobanks become your primary bank?",
           "hot_score": 726.846562,
           "lev_url": "https://leviathannews.xyz/256088/from-100m-to-15b-monthly-crypto-card-spending-is-booming-but-can-neobanks-become-your-primary-bank",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260612044304_XWB64UlPZFW1.jpg",
           "url": "https://x.com/simonthekid_/status/2065014227828371954"
-        },
-        {
-          "clicks": 64,
-          "date": "2026-04-23T17:46:24.991047+00:00",
-          "headline": "Payy partners with Rain to add privacy-first settlement to $3B stablecoin card programs, using zero-knowledge tech to secure transactions while maintaining compliance",
-          "hot_score": 715.6,
-          "lev_url": "https://leviathannews.xyz/235841/payy-partners-with-rain-to-add-privacy-first-settlement-to-3b-stablecoin-card-programs-using-zero-knowledge-tech-to-secure-transactions-while-maintaining-compliance",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423174200_OmRzdm_-UJ0w.jpg",
-          "url": "https://x.com/i/status/2047347043580920036"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:59:48.268258+00:00",
+      "as_of": "2026-07-29T22:57:47.455898+00:00",
       "editorial": [
         {
-          "count": 34,
+          "count": 37,
           "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
         },
         {
           "count": 3,
           "source": "cointelegraph.com"
-        },
-        {
-          "count": 3,
-          "source": "theblock.co"
         },
         {
           "count": 2,
@@ -530,76 +591,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:25.465249+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.205,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0085,
-        "lift_log": 2.203,
-        "score": 0.2054,
-        "shared": 3
-      },
-      "rationale": "Crypto payment cards are a subset of the broader crypto payment category.",
-      "relation_type": "category",
-      "slug": "crypto-payment",
-      "source": "cotag",
-      "tag_name": "Crypto Payment",
-      "title": "Crypto Payment, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.303,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.051,
-        "lift_log": 3.861,
-        "score": 0.3027,
-        "shared": 15
-      },
-      "rationale": "Mastercard provides payment network infrastructure for crypto cards.",
-      "relation_type": "infrastructure",
-      "slug": "mastercard",
-      "source": "cotag",
-      "tag_name": "Mastercard",
-      "title": "Mastercard, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0121,
-        "lift_log": 2.071,
-        "score": 0.2057,
-        "shared": 31
-      },
-      "rationale": "Stablecoins are often used as the underlying asset for crypto card transactions.",
-      "relation_type": "primitive",
-      "slug": "stablecoins",
-      "source": "cotag",
-      "tag_name": "Stablecoins",
-      "title": "Stablecoins, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.335,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.077,
-        "lift_log": 4.291,
-        "score": 0.3349,
-        "shared": 20
-      },
-      "rationale": "Visa provides the payment network infrastructure for many crypto cards.",
-      "relation_type": "infrastructure",
-      "slug": "visa",
-      "source": "cotag",
-      "tag_name": "Visa",
-      "title": "Visa, Explained",
-      "weight": 33
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "crypto-payment-card",
   "tag_name": "Crypto Payment Card",

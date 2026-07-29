@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:48:07.839557+00:00",
-      "newsroom_total": 44,
-      "overall_share": 19,
+      "as_of": "2026-07-29T23:06:43.072432+00:00",
+      "newsroom_total": 47,
+      "overall_share": 16,
       "provenance": "data",
       "series": [
         {
@@ -127,66 +127,101 @@
           "universe": 21
         },
         {
-          "ed_share": 0,
+          "ed_share": 5,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 2
+          "newsroom": 3,
+          "universe": 59
         }
       ],
-      "total_universe": 232,
-      "universe_total": 188
+      "total_universe": 292,
+      "universe_total": 245
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:48:02.099242+00:00",
+      "as_of": "2026-07-29T23:06:42.752970+00:00",
       "edges": [
         {
+          "confidence": 0.212,
+          "description": "Co-covered in 24 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "white-house",
-          "phrase": "Both are branches of the U.S. government.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-24",
+          "phrase": "Co-covered in 24 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "senate",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 7 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "white-house",
-          "phrase": "Both are branches of the U.S. government.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-24",
+          "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "congress",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.187,
+          "description": "Co-covered in 23 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "white-house",
-          "phrase": "White House may regulate stablecoin yield.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 23 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoin-yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.175,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "white-house",
-          "phrase": "White House sets policy on digital assets.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "digital-assets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 35 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "white-house",
-          "phrase": "White House may regulate stablecoins.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 35 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -200,42 +235,62 @@
         },
         {
           "center": false,
+          "confidence": 0.212,
           "name": "Senate",
+          "observed_at": "2026-07-24",
           "slug": "senate",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Congress",
-          "slug": "congress",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Stablecoin Yield",
-          "slug": "stablecoin-yield",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.206,
+          "name": "Congress",
+          "observed_at": "2026-07-24",
+          "slug": "congress",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.187,
+          "name": "Stablecoin Yield",
+          "observed_at": null,
+          "slug": "stablecoin-yield",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.175,
           "name": "Digital Assets",
+          "observed_at": null,
           "slug": "digital-assets",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "Stablecoins",
+          "observed_at": null,
           "slug": "stablecoins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -304,17 +359,17 @@
       "source": "https://www.fintechweekly.com/news/clarity-act-banks-winning-stablecoin-yield-2026"
     },
     "reader_signal": {
-      "article_count": 44,
-      "as_of": "2026-07-01T11:48:12.032199+00:00",
+      "article_count": 47,
+      "as_of": "2026-07-29T23:06:43.320338+00:00",
       "most_clicked": {
-        "clicks": 349,
+        "clicks": 352,
         "date": "2025-03-07T20:47:15.719263+00:00",
         "headline": "Watch live coverage as President Trump hosts the first-ever White House Digital Assets Summit.",
         "lev_url": "https://leviathannews.xyz/9721/watch-live-coverage-as-president-trump-hosts-the-first-ever-white-house-digital-assets-summit"
       },
       "provenance": "data",
-      "top_decile_share": 27,
-      "total_clicks": 3722
+      "top_decile_share": 25,
+      "total_clicks": 4049
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:49:16.306077+00:00",
@@ -399,10 +454,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:48:11.838860+00:00",
+      "as_of": "2026-07-29T23:06:43.314489+00:00",
       "items": [
         {
-          "clicks": 102,
+          "clicks": 119,
           "date": "2026-04-10T17:06:07.562454+00:00",
           "headline": "White House warns staff against Iran war bets after Polymarket traders net $600K on ceasefire timing",
           "hot_score": 38582.908356,
@@ -411,16 +466,25 @@
           "url": "https://www.cnbc.com/2026/04/10/iran-war-prediction-markets-white-house.html"
         },
         {
-          "clicks": 21,
-          "date": "2026-06-29T17:42:14.705184+00:00",
-          "headline": "The White House will meet with law enforcement groups to address concerns over illicit-finance provisions as lawmakers push forward with the Clarity Act",
-          "hot_score": 2781.283455,
-          "lev_url": "https://leviathannews.xyz/264810/white-house-to-speak-with-law-enforcement-groups-to-push-cryptos-clarity-act-20260629",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629154331_TLppL1rHF6VX.jpg",
-          "url": "https://www.coindesk.com/policy/2026/06/29/white-house-to-speak-with-law-enforcement-groups-to-push-crypto-s-clarity-act"
+          "clicks": 46,
+          "date": "2026-07-27T14:50:26.921695+00:00",
+          "headline": "0G added Moonshot's Kimi K3 to its decentralized AI routing network, exposing the Chinese frontier model through a hardware-attested path despite mounting scrutiny from Washington",
+          "hot_score": 2060.652055,
+          "lev_url": "https://leviathannews.xyz/282618/the-decentralized-ai-network-is-routing-moonshots-kimi-k3-days-after-a-white-house-official-alleged-distillation",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727143840_Z4zrlaiDPw==.png",
+          "url": "https://app.distro.media/newslode/deai-news/0g-lists-kimi-k3-the-chinese-model-washington-is-targeting"
         },
         {
-          "clicks": 170,
+          "clicks": 129,
+          "date": "2026-07-24T14:53:06.023294+00:00",
+          "headline": "White House reportedly made Tether-backed three-year GENIUS Act grace period a red line before Bo Hines joined Tether",
+          "hot_score": 1210.593,
+          "lev_url": "https://leviathannews.xyz/281513/white-house-reportedly-made-tether-backed-three-year-genius-act-grace-period-a-red-line-before-bo-hines-joined-tether",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724143539_T75eVkIeB0_P.jpg",
+          "url": "https://www.bloomberg.com/features/2026-howard-lutnick-bo-hines-trump-tether-crypto-law/"
+        },
+        {
+          "clicks": 173,
           "date": "2026-03-05T09:41:34.785179+00:00",
           "headline": "US crypto “Clarity Act” faces new impasse as big banks reject White House compromise on stablecoin rewards, drawing fire from President Trump and casting doubt on the bill’s passage this year",
           "hot_score": 1133.928551,
@@ -429,7 +493,16 @@
           "url": "https://www.reuters.com/business/finance/crypto-bill-hits-new-impasse-raising-doubts-over-its-future-2026-03-05"
         },
         {
-          "clicks": 120,
+          "clicks": 32,
+          "date": "2026-06-29T17:42:14.705184+00:00",
+          "headline": "The White House will meet with law enforcement groups to address concerns over illicit-finance provisions as lawmakers push forward with the Clarity Act",
+          "hot_score": 797.55502,
+          "lev_url": "https://leviathannews.xyz/264810/white-house-to-speak-with-law-enforcement-groups-to-push-cryptos-clarity-act-20260629",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629154331_TLppL1rHF6VX.jpg",
+          "url": "https://www.coindesk.com/policy/2026/06/29/white-house-to-speak-with-law-enforcement-groups-to-push-crypto-s-clarity-act"
+        },
+        {
+          "clicks": 121,
           "date": "2026-03-26T07:51:56.889546+00:00",
           "headline": "Navarro confirms White House plan to hike global tariff from 10% to 15% is 'in process",
           "hot_score": 776.937672,
@@ -438,50 +511,36 @@
           "url": "https://x.com/vtg2/status/2036804302430159047"
         },
         {
-          "clicks": 31,
+          "clicks": 33,
+          "date": "2026-07-13T17:04:48.034598+00:00",
+          "headline": "Trump and the White House renew their push for the Clarity Act, urging the Senate to pass landmark crypto market rules as ethics provisions remain unresolved",
+          "hot_score": 622.553118,
+          "lev_url": "https://leviathannews.xyz/274218/no-headline-20260713-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260713165834_l9dmrHAbdK5d.jpg",
+          "url": "https://www.theblock.co/post/408054/trump-white-house-press-senate-advance-clarity-act-ethics-fight-looms?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 32,
           "date": "2026-05-19T13:10:27.273676+00:00",
           "headline": "Trump to swear in Kevin Warsh as Fed chair at White House on Friday after 54-45 Senate vote",
           "hot_score": 467.467345,
           "lev_url": "https://leviathannews.xyz/245039/trump-to-swear-in-kevin-warsh-as-fed-chair-at-white-house-on-friday-after-54-45-senate-vote",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260519125533_Z4zrlaiDPw==.png",
           "url": "https://www.washingtonpost.com/business/2026/05/18/trump-host-swearing-in-new-fed-chief-break-recent-tradition/"
-        },
-        {
-          "clicks": 24,
-          "date": "2026-06-15T15:38:31.353164+00:00",
-          "headline": "Despite White House targeting July 4 for Clarity Act signing as America's 250th birthday present, legislative math makes it logistically impossible with only nine Senate working days remaining while lawmakers still must merge committee texts, resolve ethics disputes over Trump guardrails, secure 60 cloture votes, and navigate House approval before President Trump's signature.",
-          "hot_score": 430.480724,
-          "lev_url": "https://leviathannews.xyz/257275/despite-white-house-targeting-july-4-for-clarity-act-signing-as-americas-250th-birthday-present-legislative-math-makes-it-logistically-impossible-with-only-nine-senate-working-days",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260615153657_pr21Y-pNXSVy.jpg",
-          "url": "https://www.cryptoinamerica.com/p/why-the-math-doesnt-work-for-a-july"
-        },
-        {
-          "clicks": 25,
-          "date": "2026-06-14T17:16:39.556048+00:00",
-          "headline": "UFC White House event adds $250K USD1 fighter bonus pool from Trump-linked World Liberty",
-          "hot_score": 418.606799,
-          "lev_url": "https://leviathannews.xyz/256841/ufc-white-house-event-adds-250k-usd1-fighter-bonus-pool-from-trump-linked-world-liberty",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260614132429_Z4zrlaiDPw==.png",
-          "url": "https://www.theguardian.com/us-news/2026/jun/14/white-house-ufc-fighters-crypto"
-        },
-        {
-          "clicks": 79,
-          "date": "2026-03-23T13:57:36.661751+00:00",
-          "headline": "Senate, White House, banks and crypto reps race to finalize Clarity Act stablecoin deal likely banning yield on idle balances ahead of an April markup as industry fears deposit flight grow.",
-          "hot_score": 406.130173,
-          "lev_url": "https://leviathannews.xyz/214341/senate-white-house-banks-and-crypto-reps-race-to-finalize-clarity-act-stablecoin-deal-likely-banning-yield-on-idle-balances-ahead-of-an-april-markup-as-industry-fears-deposit-fligh",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260323135615_J288-lcNN6ht.jpg",
-          "url": "https://www.cryptoinamerica.com/p/crypto-and-bank-reps-head-to-capitol"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:48:11.655931+00:00",
+      "as_of": "2026-07-29T23:06:43.301272+00:00",
       "editorial": [
         {
           "count": 11,
           "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
         },
         {
           "count": 4,
@@ -490,10 +549,6 @@
         {
           "count": 4,
           "source": "cryptoinamerica.com"
-        },
-        {
-          "count": 3,
-          "source": "theblock.co"
         },
         {
           "count": 3,
@@ -528,44 +583,48 @@
           "source": "youtube.com"
         }
       ],
-      "editorial_distinct": 22,
+      "editorial_distinct": 24,
       "provenance": "data",
       "universe": [
         {
-          "count": 53,
+          "count": 79,
           "source": "x.com"
         },
         {
-          "count": 39,
+          "count": 51,
           "source": "truthsocial.com"
         },
         {
-          "count": 19,
+          "count": 22,
           "source": "decrypt.co"
         },
         {
-          "count": 13,
+          "count": 15,
           "source": "theblock.co"
         },
         {
-          "count": 12,
+          "count": 15,
           "source": "cointelegraph.com"
         },
         {
-          "count": 8,
+          "count": 11,
           "source": "coindesk.com"
+        },
+        {
+          "count": 8,
+          "source": "whitehouse.gov"
+        },
+        {
+          "count": 5,
+          "source": "thestreet.com"
         },
         {
           "count": 5,
           "source": "dlnews.com"
         },
         {
-          "count": 5,
-          "source": "whitehouse.gov"
-        },
-        {
           "count": 4,
-          "source": "thestreet.com"
+          "source": "cryptoinamerica.com"
         },
         {
           "count": 3,
@@ -573,14 +632,10 @@
         },
         {
           "count": 3,
-          "source": "cryptoinamerica.com"
-        },
-        {
-          "count": 2,
-          "source": "crowdfundinsider.com"
+          "source": "thehill.com"
         }
       ],
-      "universe_distinct": 28
+      "universe_distinct": 30
     }
   },
   "official_links": [],
@@ -591,42 +646,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:37:05.848632+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0124,
-        "lift_log": 2.171,
-        "score": 0.2061,
-        "shared": 5
-      },
-      "rationale": "Both are branches of the U.S. government.",
-      "relation_type": "peer",
-      "slug": "congress",
-      "source": "cotag",
-      "tag_name": "Congress",
-      "title": "Congress, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.212,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0223,
-        "lift_log": 2.173,
-        "score": 0.2123,
-        "shared": 14
-      },
-      "rationale": "Both are branches of the U.S. government.",
-      "relation_type": "peer",
-      "slug": "senate",
-      "source": "cotag",
-      "tag_name": "Senate",
-      "title": "Senate, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "white-house",
   "tag_name": "White House",

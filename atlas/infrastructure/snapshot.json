@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:41:36.509182+00:00",
-      "newsroom_total": 204,
-      "overall_share": 13,
+      "as_of": "2026-07-29T22:59:51.517921+00:00",
+      "newsroom_total": 242,
+      "overall_share": 12,
       "provenance": "data",
       "series": [
         {
@@ -34,69 +34,104 @@
           "ed_share": 15,
           "month": "2026-06",
           "newsroom": 45,
-          "universe": 255
+          "universe": 256
         },
         {
-          "ed_share": 0,
+          "ed_share": 9,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 1
+          "newsroom": 38,
+          "universe": 368
         }
       ],
-      "total_universe": 1540,
-      "universe_total": 1336
+      "total_universe": 1946,
+      "universe_total": 1704
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:41:35.977672+00:00",
+      "as_of": "2026-07-29T22:59:51.271148+00:00",
       "edges": [
         {
+          "confidence": 0.216,
+          "description": "Co-covered in 98 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "infrastructure",
-          "phrase": "Both are foundational layers; payments is a subset of financial infrastructure.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 98 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "payments",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.207,
+          "description": "Co-covered in 55 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "infrastructure",
-          "phrase": "Stablecoin infrastructure is a specialized type of infrastructure.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-01",
+          "phrase": "Co-covered in 55 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "stablecoin-infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.204,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "infrastructure",
-          "phrase": "Agents are a category of infrastructure for automation.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 102 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "infrastructure",
-          "phrase": "Stablecoins are a type of digital asset infrastructure.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 102 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.184,
+          "description": "Co-covered in 61 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "infrastructure",
-          "phrase": "AI agents are a form of infrastructure for autonomous tasks.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 61 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ai-agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -110,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.216,
           "name": "Payments",
+          "observed_at": "2026-07-28",
           "slug": "payments",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.207,
           "name": "Stablecoin Infrastructure",
+          "observed_at": "2026-07-01",
           "slug": "stablecoin-infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.204,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "Stablecoins",
+          "observed_at": null,
           "slug": "stablecoins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.184,
           "name": "AI Agents",
+          "observed_at": null,
           "slug": "ai-agents",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -214,17 +269,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 204,
-      "as_of": "2026-07-01T11:41:38.157134+00:00",
+      "article_count": 242,
+      "as_of": "2026-07-29T22:59:51.891076+00:00",
       "most_clicked": {
-        "clicks": 209,
+        "clicks": 210,
         "date": "2026-03-30T15:45:51.150186+00:00",
         "headline": "Bitdeer pivots into AI infrastructure with deal to build Norway’s largest data center, supporting Nvidia next-gen chips",
         "lev_url": "https://leviathannews.xyz/217986/bitdeer-pivots-into-ai-infrastructure-with-deal-to-build-norways-largest-data-center-supporting-nvidia-next-gen-chips"
       },
       "provenance": "data",
       "top_decile_share": 20,
-      "total_clicks": 9050
+      "total_clicks": 10921
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:06:57.205792+00:00",
@@ -309,10 +364,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:41:38.076731+00:00",
+      "as_of": "2026-07-29T22:59:51.869562+00:00",
       "items": [
         {
-          "clicks": 92,
+          "clicks": 95,
           "date": "2026-04-08T16:14:02.021044+00:00",
           "headline": "Alex Cutler of Dromos Labs argues AMMs offer advantages over traditional order books",
           "hot_score": 399026.143672,
@@ -321,7 +376,7 @@
           "url": "https://x.com/therollupco/status/2039518998715392031"
         },
         {
-          "clicks": 75,
+          "clicks": 76,
           "date": "2026-04-08T18:10:15.732486+00:00",
           "headline": "Anthropic launches managed agents, a hosted infrastructure product for deploying Claude-powered AI agents at enterprise scale",
           "hot_score": 346369.342968,
@@ -330,7 +385,7 @@
           "url": "https://x.com/claudeai/status/2041927687460024721"
         },
         {
-          "clicks": 49,
+          "clicks": 50,
           "date": "2026-04-08T10:09:38.481552+00:00",
           "headline": "DigiShares integrates Aptos to expand RWA infrastructure, leveraging sub-second finality and Move-based security to deliver scalable, institutional-grade asset tokenization globally",
           "hot_score": 22646.92863,
@@ -339,7 +394,7 @@
           "url": "https://x.com/i/status/2041522881516216741"
         },
         {
-          "clicks": 43,
+          "clicks": 45,
           "date": "2026-04-10T06:56:03.134923+00:00",
           "headline": "DTCC warns 24/5 trading shift will redefine post-trade systems as clearing, settlement, and risk infrastructure face pressure to evolve beyond traditional market hours",
           "hot_score": 13833.300085,
@@ -348,7 +403,7 @@
           "url": "https://x.com/i/status/2042310336099860517"
         },
         {
-          "clicks": 41,
+          "clicks": 44,
           "date": "2026-04-08T16:57:37.396215+00:00",
           "headline": "Pharos Network raises $44M Series A backed by Sumitomo, Chainlink, and Flow Traders to build financial-grade infrastructure bridging TradFi and DeFi globally",
           "hot_score": 13116.052461,
@@ -366,7 +421,7 @@
           "url": "https://x.com/i/status/2044017113120030805"
         },
         {
-          "clicks": 40,
+          "clicks": 41,
           "date": "2026-04-15T06:07:39.208928+00:00",
           "headline": "SOL Strategies acquires Darklake Labs to integrate zero-knowledge privacy tech, strengthening Solana’s push toward scalable and secure onchain finance infrastructure",
           "hot_score": 8043.150296,
@@ -375,7 +430,7 @@
           "url": "https://x.com/i/status/2044064533052825895"
         },
         {
-          "clicks": 50,
+          "clicks": 51,
           "date": "2026-04-13T14:17:25.526479+00:00",
           "headline": "StarkWare cuts staff and restructures into two units to drive revenue, splitting into applications and Starknet development teams as it pivots beyond infrastructure",
           "hot_score": 7766.961593,
@@ -387,26 +442,26 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:41:37.904663+00:00",
+      "as_of": "2026-07-29T22:59:51.857311+00:00",
       "editorial": [
         {
-          "count": 119,
+          "count": 142,
           "source": "x.com"
         },
         {
-          "count": 17,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 15,
+          "count": 19,
           "source": "theblock.co"
         },
         {
-          "count": 11,
+          "count": 19,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 12,
           "source": "globenewswire.com"
         },
         {
-          "count": 9,
+          "count": 10,
           "source": "prnewswire.com"
         },
         {
@@ -415,11 +470,11 @@
         },
         {
           "count": 3,
-          "source": "decrypt.co"
+          "source": "tether.io"
         },
         {
-          "count": 2,
-          "source": "tether.io"
+          "count": 3,
+          "source": "decrypt.co"
         },
         {
           "count": 2,
@@ -438,12 +493,16 @@
           "source": "timesnownews.com"
         }
       ],
-      "editorial_distinct": 32,
+      "editorial_distinct": 38,
       "provenance": "data",
       "universe": [
         {
-          "count": 1083,
+          "count": 1219,
           "source": "x.com"
+        },
+        {
+          "count": 26,
+          "source": "cointelegraph.com"
         },
         {
           "count": 24,
@@ -451,10 +510,6 @@
         },
         {
           "count": 23,
-          "source": "cointelegraph.com"
-        },
-        {
-          "count": 20,
           "source": "chainwire.org"
         },
         {
@@ -462,35 +517,35 @@
           "source": "theblock.co"
         },
         {
-          "count": 16,
+          "count": 17,
           "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 15,
+          "source": "wsj.com"
+        },
+        {
+          "count": 14,
+          "source": "decrypt.co"
         },
         {
           "count": 14,
           "source": "markets.businessinsider.com"
         },
         {
-          "count": 14,
-          "source": "wsj.com"
-        },
-        {
-          "count": 13,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 6,
+          "count": 8,
           "source": "financewire.com"
         },
         {
-          "count": 5,
+          "count": 6,
           "source": "tether.io"
         },
         {
-          "count": 5,
-          "source": "orochi.network"
+          "count": 6,
+          "source": "coindesk.com"
         }
       ],
-      "universe_distinct": 76
+      "universe_distinct": 85
     }
   },
   "official_links": [],
@@ -501,59 +556,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:36.239150+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.204,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0337,
-        "lift_log": 1.763,
-        "score": 0.2038,
-        "shared": 40
-      },
-      "rationale": "Agents are a category of infrastructure for automation.",
-      "relation_type": "peer",
-      "slug": "agents",
-      "source": "cotag",
-      "tag_name": "agents",
-      "title": "agents, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.216,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.048,
-        "lift_log": 1.728,
-        "score": 0.216,
-        "shared": 79
-      },
-      "rationale": "Both are foundational layers; payments is a subset of financial infrastructure.",
-      "relation_type": "peer",
-      "slug": "payments",
-      "source": "cotag",
-      "tag_name": "Payments",
-      "title": "Payments, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.207,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0642,
-        "lift_log": 3.663,
-        "score": 0.207,
-        "shared": 50
-      },
-      "rationale": "Stablecoin infrastructure is a specialized type of infrastructure.",
-      "relation_type": "peer",
-      "slug": "stablecoin-infrastructure",
-      "source": "cotag",
-      "tag_name": "Stablecoin Infrastructure",
-      "title": "Stablecoin Infrastructure, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "infrastructure",
   "tag_name": "Infrastructure",

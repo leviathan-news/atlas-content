@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:08:05.587816+00:00",
-      "newsroom_total": 11,
+      "as_of": "2026-07-29T22:58:06.664207+00:00",
+      "newsroom_total": 12,
       "overall_share": 12,
       "provenance": "data",
       "series": [
@@ -77,62 +77,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 18
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 8
         }
       ],
-      "total_universe": 95,
-      "universe_total": 84
+      "total_universe": 104,
+      "universe_total": 92
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:08:05.083838+00:00",
+      "as_of": "2026-07-29T22:58:06.432641+00:00",
       "edges": [
         {
+          "confidence": 0.244,
+          "description": "Co-covered in 5 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "death",
-          "phrase": "Both death and threat involve potential harm or danger.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-24",
+          "phrase": "Co-covered in 5 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "threat",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.172,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "death",
-          "phrase": "Unclear direct relation; both are general topics.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "israel",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.148,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "death",
-          "phrase": "War often results in death, but not a direct crypto relation.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "war",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.13,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "death",
-          "phrase": "Scams can lead to financial death, but not directly related.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "scam",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "death",
+          "observed_at": null,
           "phrase": "Bitcoin",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -146,42 +187,62 @@
         },
         {
           "center": false,
+          "confidence": 0.244,
           "name": "Threat",
+          "observed_at": "2026-03-24",
           "slug": "threat",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.172,
           "name": "Israel",
+          "observed_at": null,
           "slug": "israel",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.148,
           "name": "War",
+          "observed_at": null,
           "slug": "war",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.13,
           "name": "Scam",
+          "observed_at": null,
           "slug": "scam",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -238,17 +299,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 11,
-      "as_of": "2026-07-01T12:08:06.167281+00:00",
+      "article_count": 12,
+      "as_of": "2026-07-29T22:58:06.872809+00:00",
       "most_clicked": {
-        "clicks": 217,
+        "clicks": 222,
         "date": "2025-02-25T15:50:36.520331+00:00",
         "headline": "Influencer accused of LIBRA insider trading flees country over death threats",
         "lev_url": "https://leviathannews.xyz/9539/influencer-accused-of-libra-insider-trading-flees-country-over-death-threats"
       },
       "provenance": "data",
-      "top_decile_share": 26,
-      "total_clicks": 848
+      "top_decile_share": 24,
+      "total_clicks": 908
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:42:17.733209+00:00",
@@ -333,10 +394,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:08:06.057503+00:00",
+      "as_of": "2026-07-29T22:58:06.868404+00:00",
       "items": [
         {
           "clicks": 31,
+          "date": "2026-07-28T11:42:19.618830+00:00",
+          "headline": "Myanmar passes anti-scam law authorizing death penalty for deadly coercion and up to life for crypto fraud",
+          "hot_score": 2403.347116,
+          "lev_url": "https://leviathannews.xyz/283238/myanmar-passes-anti-scam-law-authorizing-death-penalty-for-deadly-coercion-and-up-to-life-for-crypto-fraud",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728114000_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/374519/myanmar-approves-death-penalty-for-forced-scam-labor-life-for-crypto-fraud"
+        },
+        {
+          "clicks": 34,
           "date": "2026-05-15T13:22:14.260972+00:00",
           "headline": "Myanmar anti-scam bill seeks death penalty for coercion, life terms for crypto fraud",
           "hot_score": 555.2,
@@ -345,7 +415,7 @@
           "url": "https://www.thestar.com.my/aseanplus/2026/05/14/myanmar-proposes-death-sentence-for-cyber-scam-offences"
         },
         {
-          "clicks": 60,
+          "clicks": 63,
           "date": "2026-02-24T08:14:16.577374+00:00",
           "headline": "Jane Street Accused of Orchestrating 2022 Terra UST–LUNA Death Spiral, Triggering $40B Crypto Meltdown, as Terraform Bankruptcy Administrator Files Manhattan Lawsuit in February 2026",
           "hot_score": 114.753612,
@@ -354,7 +424,7 @@
           "url": "https://www.wsj.com/finance/currencies/jane-street-accused-of-insider-trading-that-helped-collapse-terraform-659e6993"
         },
         {
-          "clicks": 45,
+          "clicks": 46,
           "date": "2025-12-15T00:06:09.522377+00:00",
           "headline": "A public debate saw critics label transhumanism a “death cult,” arguing it erases human meaning, while advocates defended it as a humanitarian effort to end aging and suffering through technology. Philosophers warned promises of digital immortality carry deep ethical and social risks.",
           "hot_score": 70.971677,
@@ -363,7 +433,7 @@
           "url": "https://decrypt.co/352249/transhumanism-branded-death-cult-thinkers-clash-humanitys-future"
         },
         {
-          "clicks": 31,
+          "clicks": 34,
           "date": "2025-12-05T07:33:07.614345+00:00",
           "headline": "After faking death, Zerebro founder Jeffy Yu unveils AI-penned manifesto and new Solana coin. The manifesto, which did not mention a token, argues for a future in which AI and humans will converge biologically, chemically, and surgically in a new form of humanity. Physical Limits of Intelligence (PLOI) quickly surged to a $5.4 million market cap before retracing to a recent $1.1 million market cap. The top trader, known as PainCrypt0, realized profits of over $26,800 from a $2,634 investment, according to DEX Screener.",
           "hot_score": 39.8596,
@@ -372,7 +442,7 @@
           "url": "https://decrypt.co/350928/faking-death-zerebro-founder-unveils-ai-manifesto-solana-coin"
         },
         {
-          "clicks": 217,
+          "clicks": 222,
           "date": "2025-02-25T15:50:36.520331+00:00",
           "headline": "Influencer accused of LIBRA insider trading flees country over death threats",
           "hot_score": 0.0,
@@ -381,7 +451,7 @@
           "url": "https://protos.com/influencer-accused-of-libra-insider-trading-flees-country-over-death-threats"
         },
         {
-          "clicks": 163,
+          "clicks": 169,
           "date": "2024-11-20T15:35:26.422458+00:00",
           "headline": "Udi brings back the legendary \"Death of ETH\" Party—will history repeat Itself?",
           "hot_score": 0.0,
@@ -390,35 +460,26 @@
           "url": "https://x.com/udiWertheimer/status/1852064118636679574"
         },
         {
-          "clicks": 89,
+          "clicks": 90,
           "date": "2025-09-28T07:55:20.220766+00:00",
           "headline": "Digital asset treasuries are borrowing hundreds of millions to buy back their own shares as market caps sink below their Bitcoin holdings, signaling what analysts call the “death rattle” of the corporate BTC craze. Mergers like Strive’s $1.2B Semler deal hint that consolidation—not endless accumulation—may be the only path forward.",
           "hot_score": 0.0,
           "lev_url": "https://leviathannews.xyz/17707/digital-asset-treasuries-are-borrowing-hundreds-of-millions-to-buy-back-their-own-shares-as-market-caps-sink-below-their-bitcoin-holdings-signaling-what-analysts-call-the-death-rat",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250928054601_xy3jny-sZEM=.jpg",
           "url": "https://crypto.news/digital-asset-treasuries-buy-own-stocks-to-survive/"
-        },
-        {
-          "clicks": 76,
-          "date": "2024-06-04T18:08:29.997157+00:00",
-          "headline": "Today in The Tentacle: Death and DeFi: Infineo, Pudgy Penguins mobile game, Hamster Kombat token launch, Thailand's Bitcoin ETF, and more.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/5750/today-in-the-tentacle-death-and-defi-infineo-pudgy-penguins-mobile-game-hamster-kombat-token-launch-thailands-bitcoin-etf-and-more",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240604180020_e2ycXJ8_bg==.png",
-          "url": "https://leviathannews.substack.com/p/infineo-death-and-defi"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:08:05.972874+00:00",
+      "as_of": "2026-07-29T22:58:06.848466+00:00",
       "editorial": [
         {
           "count": 3,
           "source": "x.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "decrypt.co"
         },
         {
@@ -450,19 +511,19 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 31,
+          "count": 32,
           "source": "x.com"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "truthsocial.com"
         },
         {
-          "count": 6,
+          "count": 7,
           "source": "cointelegraph.com"
         },
         {
-          "count": 4,
+          "count": 6,
           "source": "decrypt.co"
         },
         {
@@ -491,14 +552,14 @@
         },
         {
           "count": 2,
-          "source": "portal.illuvium.io"
+          "source": "whitehouse.gov"
         },
         {
-          "count": 1,
-          "source": "news.bloomberglaw.com"
+          "count": 2,
+          "source": "portal.illuvium.io"
         }
       ],
-      "universe_distinct": 28
+      "universe_distinct": 30
     }
   },
   "official_links": [],
@@ -509,25 +570,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:36:26.579758+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.244,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0162,
-        "lift_log": 2.962,
-        "score": 0.2444,
-        "shared": 5
-      },
-      "rationale": "Both death and threat involve potential harm or danger.",
-      "relation_type": "peer",
-      "slug": "threat",
-      "source": "cotag",
-      "tag_name": "Threat",
-      "title": "Threat, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "death",
   "tag_name": "death",

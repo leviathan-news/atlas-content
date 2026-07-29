@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:42:05.280861+00:00",
-      "newsroom_total": 273,
-      "overall_share": 46,
+      "as_of": "2026-07-29T22:59:48.149414+00:00",
+      "newsroom_total": 289,
+      "overall_share": 41,
       "provenance": "data",
       "series": [
         {
@@ -155,62 +155,103 @@
           "month": "2026-06",
           "newsroom": 17,
           "universe": 99
+        },
+        {
+          "ed_share": 16,
+          "month": "2026-07",
+          "newsroom": 16,
+          "universe": 87
         }
       ],
-      "total_universe": 596,
-      "universe_total": 323
+      "total_universe": 699,
+      "universe_total": 410
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:42:04.878756+00:00",
+      "as_of": "2026-07-29T22:59:47.939952+00:00",
       "edges": [
         {
+          "confidence": 0.251,
+          "description": "Co-covered in 103 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hyperliquid",
-          "phrase": "HYPE is the native token of Hyperliquid.",
-          "relation_type": "token",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-20",
+          "phrase": "Co-covered in 103 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "hype",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.225,
+          "description": "Co-covered in 16 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hyperliquid",
-          "phrase": "Hyperliquid is a derivatives trading platform.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-24",
+          "phrase": "Co-covered in 16 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "derivatives",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.216,
+          "description": "Co-covered in 24 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hyperliquid",
-          "phrase": "HIP-3 is a governance proposal for Hyperliquid.",
-          "relation_type": "governance",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-16",
+          "phrase": "Co-covered in 24 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "hip-3",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.197,
+          "description": "Co-covered in 19 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hyperliquid",
-          "phrase": "USDH is a stablecoin used on Hyperliquid.",
-          "relation_type": "token",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 19 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "usdh",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 21 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hyperliquid",
-          "phrase": "Open interest is a key metric for Hyperliquid's perps.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 21 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "open-interest",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -224,42 +265,62 @@
         },
         {
           "center": false,
+          "confidence": 0.251,
           "name": "HYPE",
+          "observed_at": "2026-07-20",
           "slug": "hype",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.225,
           "name": "Derivatives",
+          "observed_at": "2026-07-24",
           "slug": "derivatives",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 22
-        },
-        {
-          "center": false,
-          "name": "HIP-3",
-          "slug": "hip-3",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 22
-        },
-        {
-          "center": false,
-          "name": "USDH",
-          "slug": "usdh",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 22
+        },
+        {
+          "center": false,
+          "confidence": 0.216,
+          "name": "HIP-3",
+          "observed_at": "2026-07-16",
+          "slug": "hip-3",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 22
+        },
+        {
+          "center": false,
+          "confidence": 0.197,
+          "name": "USDH",
+          "observed_at": null,
+          "slug": "usdh",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "Open Interest",
+          "observed_at": null,
           "slug": "open-interest",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -328,17 +389,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 273,
-      "as_of": "2026-07-01T11:42:06.065057+00:00",
+      "article_count": 289,
+      "as_of": "2026-07-29T22:59:48.466343+00:00",
       "most_clicked": {
-        "clicks": 1060,
+        "clicks": 1065,
         "date": "2024-05-09T15:31:01.816855+00:00",
         "headline": "DEX Screener integrates Hyperliquid L1, launches first order book integration.",
         "lev_url": "https://leviathannews.xyz/5248/dex-screener-integrates-hyperliquid-l1-launches-first-order-book-integration"
       },
       "provenance": "data",
-      "top_decile_share": 31,
-      "total_clicks": 20110
+      "top_decile_share": 30,
+      "total_clicks": 21186
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:13:53.237857+00:00",
@@ -423,10 +484,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:42:05.981246+00:00",
+      "as_of": "2026-07-29T22:59:48.449044+00:00",
       "items": [
         {
-          "clicks": 79,
+          "clicks": 82,
           "date": "2026-05-14T13:44:49.982863+00:00",
           "headline": "Coinbase acquires Hyperliquid's USDH deployer, Native Markets, to switch All USDH into USDC",
           "hot_score": 116546.047994,
@@ -435,7 +496,7 @@
           "url": "https://x.com/coinbase/status/2054894760859504936"
         },
         {
-          "clicks": 130,
+          "clicks": 137,
           "date": "2026-04-13T12:08:02.371483+00:00",
           "headline": "Beyond the sky: The story of how Jeff built Hyperliquid, a blockchain and crypto trading exchange, into the most profitable startup per employee on earth.",
           "hot_score": 105504.100459,
@@ -444,7 +505,7 @@
           "url": "https://archive.ph/DzHdk"
         },
         {
-          "clicks": 77,
+          "clicks": 80,
           "date": "2026-04-09T11:22:54.643566+00:00",
           "headline": "From Mt. Gox to Hyperliquid: How crypto trading finally solved the trust problem",
           "hot_score": 9230.978596,
@@ -471,7 +532,7 @@
           "url": "https://x.com/SynthdataCo/status/2039295847163211836"
         },
         {
-          "clicks": 30,
+          "clicks": 42,
           "date": "2026-04-12T20:55:55.914583+00:00",
           "headline": "Hyperliquid oil perps surge 7% after Trump orders naval blockade of Strait of Hormuz",
           "hot_score": 4421.481311,
@@ -480,7 +541,7 @@
           "url": "https://www.coindesk.com/markets/2026/04/12/oil-futures-up-7-on-hyperliquid-as-trump-orders-naval-blockade-of-hormuz"
         },
         {
-          "clicks": 34,
+          "clicks": 37,
           "date": "2026-04-15T05:42:49.806360+00:00",
           "headline": "21Shares Advances Hyperliquid Spot ETF with THYP Ticker, Targets Nasdaq",
           "hot_score": 4297.109019,
@@ -489,7 +550,7 @@
           "url": "https://x.com/JSeyff/status/2044166860912886160"
         },
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-04-16T06:52:37.612115+00:00",
           "headline": "Propr unveils Hyperliquid trading platform, providing up to $100,000 funding to seize trading opportunities.",
           "hot_score": 3725.035834,
@@ -501,10 +562,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:42:05.894691+00:00",
+      "as_of": "2026-07-29T22:59:48.433768+00:00",
       "editorial": [
         {
-          "count": 166,
+          "count": 176,
           "source": "x.com"
         },
         {
@@ -552,27 +613,27 @@
           "source": "app.hyperliquid.xyz"
         }
       ],
-      "editorial_distinct": 52,
+      "editorial_distinct": 57,
       "provenance": "data",
       "universe": [
         {
-          "count": 164,
+          "count": 217,
           "source": "x.com"
         },
         {
-          "count": 39,
+          "count": 47,
           "source": "financefeeds.com"
         },
         {
-          "count": 30,
+          "count": 36,
           "source": "theblock.co"
         },
         {
-          "count": 19,
+          "count": 25,
           "source": "cointelegraph.com"
         },
         {
-          "count": 17,
+          "count": 21,
           "source": "decrypt.co"
         },
         {
@@ -580,7 +641,11 @@
           "source": "dlnews.com"
         },
         {
-          "count": 6,
+          "count": 9,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 8,
           "source": "coindesk.com"
         },
         {
@@ -588,23 +653,19 @@
           "source": "across.to"
         },
         {
-          "count": 6,
-          "source": "crowdfundinsider.com"
-        },
-        {
           "count": 4,
           "source": "wsj.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "forbes.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "t.me"
         }
       ],
-      "universe_distinct": 27
+      "universe_distinct": 28
     }
   },
   "official_links": [],
@@ -615,59 +676,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:35.752909+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.225,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0216,
-        "lift_log": 2.452,
-        "score": 0.2249,
-        "shared": 13
-      },
-      "rationale": "Hyperliquid is a derivatives trading platform.",
-      "relation_type": "category",
-      "slug": "derivatives",
-      "source": "cotag",
-      "tag_name": "Derivatives",
-      "title": "Derivatives, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.216,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0354,
-        "lift_log": 4.271,
-        "score": 0.2157,
-        "shared": 18
-      },
-      "rationale": "HIP-3 is a governance proposal for Hyperliquid.",
-      "relation_type": "governance",
-      "slug": "hip-3",
-      "source": "cotag",
-      "tag_name": "HIP-3",
-      "title": "HIP-3, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.251,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1364,
-        "lift_log": 3.799,
-        "score": 0.2514,
-        "shared": 97
-      },
-      "rationale": "HYPE is the native token of Hyperliquid.",
-      "relation_type": "token",
-      "slug": "hype",
-      "source": "cotag",
-      "tag_name": "HYPE",
-      "title": "HYPE: Complete Guide",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "hyperliquid",
   "tag_name": "Hyperliquid",

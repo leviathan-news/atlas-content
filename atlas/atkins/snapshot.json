@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:11:25.048923+00:00",
-      "newsroom_total": 23,
-      "overall_share": 43,
+      "as_of": "2026-07-29T22:56:17.203450+00:00",
+      "newsroom_total": 24,
+      "overall_share": 39,
       "provenance": "data",
       "series": [
         {
@@ -77,62 +77,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 1
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 7
         }
       ],
-      "total_universe": 53,
-      "universe_total": 30
+      "total_universe": 61,
+      "universe_total": 37
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:11:24.564617+00:00",
+      "as_of": "2026-07-29T22:56:16.986054+00:00",
       "edges": [
         {
+          "confidence": 0.244,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "atkins",
-          "phrase": "Atkins is a category of securities regulation.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-16",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "securities",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.236,
+          "description": "Co-covered in 50 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "atkins",
-          "phrase": "Atkins and SEC are both involved in securities regulation.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-03",
+          "phrase": "Co-covered in 50 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "sec",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.185,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "atkins",
-          "phrase": "Atkins and Congress both influence securities law.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "congress",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "atkins",
-          "phrase": "Atkins is a category related to innovation in finance.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "innovation",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.165,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "atkins",
-          "phrase": "Trump's policies influence Atkins' regulatory approach.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "trump",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -146,42 +187,62 @@
         },
         {
           "center": false,
+          "confidence": 0.244,
           "name": "Securities",
+          "observed_at": "2026-03-16",
           "slug": "securities",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 24
-        },
-        {
-          "center": false,
-          "name": "SEC",
-          "slug": "sec",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 24
-        },
-        {
-          "center": false,
-          "name": "Congress",
-          "slug": "congress",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 24
+        },
+        {
+          "center": false,
+          "confidence": 0.236,
+          "name": "SEC",
+          "observed_at": "2026-07-03",
+          "slug": "sec",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 24
+        },
+        {
+          "center": false,
+          "confidence": 0.185,
+          "name": "Congress",
+          "observed_at": null,
+          "slug": "congress",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "Innovation",
+          "observed_at": null,
           "slug": "innovation",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.165,
           "name": "Trump",
+          "observed_at": null,
           "slug": "trump",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -250,17 +311,17 @@
       "source": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-sec-speaks-031926-prepared-remarks-sec-speaks"
     },
     "reader_signal": {
-      "article_count": 23,
-      "as_of": "2026-07-01T12:11:25.629903+00:00",
+      "article_count": 24,
+      "as_of": "2026-07-29T22:56:17.424380+00:00",
       "most_clicked": {
-        "clicks": 164,
+        "clicks": 167,
         "date": "2025-04-25T17:56:34.506366+00:00",
         "headline": "SEC Chair Paul Atkins to deliver his first public remarks as the Crypto Task Force zeroes in on digital asset custody",
         "lev_url": "https://leviathannews.xyz/10806/sec-chair-paul-atkins-to-deliver-his-first-public-remarks-as-the-crypto-task-force-zeroes-in-on-digital-asset-custody"
       },
       "provenance": "data",
-      "top_decile_share": 25,
-      "total_clicks": 1245
+      "top_decile_share": 24,
+      "total_clicks": 1311
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:51:06.759882+00:00",
@@ -345,10 +406,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:11:25.555558+00:00",
+      "as_of": "2026-07-29T22:56:17.420245+00:00",
       "items": [
         {
-          "clicks": 18,
+          "clicks": 20,
           "date": "2026-04-17T22:52:09.963463+00:00",
           "headline": "SEC launches “Material Matters” podcast, signaling softer crypto stance as Atkins, Peirce, and Uyeda push for pro-innovation policies and clearer rules",
           "hot_score": 1174.627089,
@@ -357,7 +418,7 @@
           "url": "https://crypto.news/secs-new-podcast-signals-softer-crypto-tone-under-atkins-peirce-and-uyeda/"
         },
         {
-          "clicks": 27,
+          "clicks": 33,
           "date": "2026-06-16T15:17:16.852952+00:00",
           "headline": "SEC Chair Paul Atkins backs CFTC Chairman Michael Selig amid concerns the agency lacks resources to oversee booming prediction markets and future crypto regulation efforts",
           "hot_score": 691.383832,
@@ -366,7 +427,7 @@
           "url": "https://www.theblock.co/post/404956/sec-atkins-defends-cftc-selig-questions-agencys-ability-regulate-prediction-markets?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2026-04-17T20:54:38.206175+00:00",
           "headline": "Elizabeth Warren accuses SEC Chair Paul Atkins of misleading Congress over declining enforcement actions, raising concerns about investor protection",
           "hot_score": 644.340633,
@@ -375,7 +436,16 @@
           "url": "https://decrypt.co/364758/elizabeth-warren-accuses-sec-chair-paul-atkins-lying-congress"
         },
         {
-          "clicks": 64,
+          "clicks": 37,
+          "date": "2026-07-03T00:40:23.223246+00:00",
+          "headline": "SEC chair Atkins says agency is modernizing rules to move U.S. markets onchain",
+          "hot_score": 578.753345,
+          "lev_url": "https://leviathannews.xyz/267997/sec-chair-atkins-says-agency-is-modernizing-rules-to-move-us-markets-onchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260703001523_Z4zrlaiDPw==.png",
+          "url": "https://x.com/secgov/status/2072745983088160996"
+        },
+        {
+          "clicks": 67,
           "date": "2026-03-24T09:03:28.342624+00:00",
           "headline": "SEC enforcement chief resigned after clashing with Atkins over softened Justin Sun, Musk settlements",
           "hot_score": 447.980476,
@@ -384,7 +454,7 @@
           "url": "https://www.reuters.com/business/finance/us-secs-ex-enforcement-chief-clashed-with-bosses-before-leaving-sources-say-2026-03-23/"
         },
         {
-          "clicks": 57,
+          "clicks": 59,
           "date": "2026-03-12T06:32:38.590142+00:00",
           "headline": "SEC’s Paul Atkins says turf wars between SEC and CFTC are ending as new coordination on definitions, oversight, and data sharing aims to deliver clearer, streamlined rules for market participants",
           "hot_score": 395.953576,
@@ -393,7 +463,7 @@
           "url": "https://x.com/SECPaulSAtkins/status/2031834357082832949"
         },
         {
-          "clicks": 33,
+          "clicks": 34,
           "date": "2026-04-22T13:16:07.217317+00:00",
           "headline": "SEC 'on the cusp' of innovation exemption for onchain tokenized securities trading, Atkins says",
           "hot_score": 393.0,
@@ -402,31 +472,22 @@
           "url": "https://cointelegraph.com/news/sec-tokenized-securities-exemption-nears-release"
         },
         {
-          "clicks": 57,
+          "clicks": 58,
           "date": "2026-03-25T19:53:29.159161+00:00",
           "headline": "SEC Chair Atkins frames landmark token taxonomy as mere 'end of the beginning' — says only Congress can make crypto rules stick",
           "hot_score": 250.515792,
           "lev_url": "https://leviathannews.xyz/215895/sec-chair-atkins-frames-landmark-token-taxonomy-as-mere-end-of-the-beginning-says-only-congress-can-make-crypto-rules-stick",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260325195258_la93xvA-aEzI.jpg",
           "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-digital-asset-summit-032426"
-        },
-        {
-          "clicks": 45,
-          "date": "2026-03-26T07:49:33.938149+00:00",
-          "headline": "SEC Chair Atkins says tokenization innovation exemption is weeks away, now clearing OMB review",
-          "hot_score": 228.259974,
-          "lev_url": "https://leviathannews.xyz/216110/sec-chair-atkins-says-tokenization-innovation-exemption-is-weeks-away-now-clearing-omb-review",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260326003321_Z4zrlaiDPw==.png",
-          "url": "https://x.com/EleanorTerrett/status/2036952050026570226"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:11:25.468811+00:00",
+      "as_of": "2026-07-29T22:56:17.404954+00:00",
       "editorial": [
         {
-          "count": 6,
+          "count": 7,
           "source": "x.com"
         },
         {
@@ -478,7 +539,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 14,
+          "count": 20,
           "source": "x.com"
         },
         {
@@ -494,12 +555,12 @@
           "source": "coindesk.com"
         },
         {
-          "count": 2,
-          "source": "financefeeds.com"
+          "count": 3,
+          "source": "decrypt.co"
         },
         {
           "count": 2,
-          "source": "decrypt.co"
+          "source": "financefeeds.com"
         },
         {
           "count": 1,
@@ -521,42 +582,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:17.227770+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.236,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0603,
-        "lift_log": 4.382,
-        "score": 0.2359,
-        "shared": 47
-      },
-      "rationale": "Atkins and SEC are both involved in securities regulation.",
-      "relation_type": "peer",
-      "slug": "sec",
-      "source": "cotag",
-      "tag_name": "SEC",
-      "title": "SEC, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.244,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0121,
-        "lift_log": 3.014,
-        "score": 0.2445,
-        "shared": 3
-      },
-      "rationale": "Atkins is a category of securities regulation.",
-      "relation_type": "category",
-      "slug": "securities",
-      "source": "cotag",
-      "tag_name": "Securities",
-      "title": "Securities, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "atkins",
   "tag_name": "Atkins",

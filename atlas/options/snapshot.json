@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:51:17.781471+00:00",
-      "newsroom_total": 89,
-      "overall_share": 27,
+      "as_of": "2026-07-29T23:02:58.824618+00:00",
+      "newsroom_total": 88,
+      "overall_share": 24,
       "provenance": "data",
       "series": [
         {
@@ -99,7 +99,7 @@
         {
           "ed_share": null,
           "month": "2024-07",
-          "newsroom": 4,
+          "newsroom": 3,
           "universe": 0
         },
         {
@@ -233,62 +233,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 90
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 50
         }
       ],
-      "total_universe": 324,
-      "universe_total": 235
+      "total_universe": 373,
+      "universe_total": 285
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:51:15.784667+00:00",
+      "as_of": "2026-07-29T23:02:58.509088+00:00",
       "edges": [
         {
+          "confidence": 0.228,
+          "description": "Co-covered in 4 approved stories; most recently October 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "options",
-          "phrase": "Open interest measures total outstanding options contracts, a core metric.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-10-23",
+          "phrase": "Co-covered in 4 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "open-interest",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.199,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "options",
-          "phrase": "Standards define option contract specifications and trading protocols.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "standards",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.199,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "options",
-          "phrase": "Volatility is a key input for options pricing models like Black-Scholes.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "volatility",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.175,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "options",
-          "phrase": "Index options are a related derivative product class.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "index",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 55 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "options",
-          "phrase": "Bitcoin options are traded on crypto exchanges and CME.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 55 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -302,42 +343,62 @@
         },
         {
           "center": false,
+          "confidence": 0.228,
           "name": "Open Interest",
+          "observed_at": "2025-10-23",
           "slug": "open-interest",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.199,
           "name": "Standards",
+          "observed_at": null,
           "slug": "standards",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.199,
           "name": "Volatility",
+          "observed_at": null,
           "slug": "volatility",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.175,
           "name": "Index",
+          "observed_at": null,
           "slug": "index",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -400,17 +461,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 89,
-      "as_of": "2026-07-01T11:51:22.779903+00:00",
+      "article_count": 88,
+      "as_of": "2026-07-29T23:02:59.106993+00:00",
       "most_clicked": {
-        "clicks": 752,
+        "clicks": 756,
         "date": "2023-06-06T16:25:29.856620+00:00",
         "headline": "LSDFi Summer Map - A repository of all ETH liquid staking options ",
         "lev_url": "https://leviathannews.xyz/1305/lsdfi-summer-map-a-repository-of-all-eth-liquid-staking-options"
       },
       "provenance": "data",
-      "top_decile_share": 36,
-      "total_clicks": 8912
+      "top_decile_share": 37,
+      "total_clicks": 8880
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:24:04.904423+00:00",
@@ -495,10 +556,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:51:22.653580+00:00",
+      "as_of": "2026-07-29T23:02:59.100454+00:00",
       "items": [
         {
-          "clicks": 57,
+          "clicks": 58,
           "date": "2025-12-11T16:10:08.159856+00:00",
           "headline": "Marketnode pioneers on-chain access to Singapore-vaulted gold on Solana, in collaboration with Lion Global Investors. Distinct from other physical gold funds in Asia, it provides full insurance coverage on allocated gold bars and options for in-kind redemption.",
           "hot_score": 89.066725,
@@ -507,7 +568,7 @@
           "url": "https://www.marketnode.com/media-centre/marketnode-pioneers-on-chain-access-to-singapore-vaulted-gold-on-solana-in-collaboration-with-lion-global-investors"
         },
         {
-          "clicks": 67,
+          "clicks": 69,
           "date": "2025-12-30T08:21:53.686023+00:00",
           "headline": "Crypto Options are poised to be the breakout instrument for 2026, per intern_cc",
           "hot_score": 73.710686,
@@ -516,7 +577,7 @@
           "url": "https://x.com/intern_cc/status/2005387306203816398"
         },
         {
-          "clicks": 40,
+          "clicks": 42,
           "date": "2026-01-29T17:40:58.178830+00:00",
           "headline": "ClickOptions introduces “Benchmark Cards”, setting a new transparency standard for crypto options pricing. Now you can compare spread, liquidity, and premiums across major venues in real time.",
           "hot_score": 37.306435,
@@ -525,7 +586,7 @@
           "url": "https://x.com/clickoptions_ai/status/2016904378288840770"
         },
         {
-          "clicks": 34,
+          "clicks": 36,
           "date": "2025-12-11T00:49:22.558395+00:00",
           "headline": "Gemini gets CFTC approval for prediction market, launching Gemini Titan with binary contracts. Platform may expand into crypto futures, options, and perps, joining rivals like Kalshi and Crypto dot com.",
           "hot_score": 34.651086,
@@ -543,7 +604,7 @@
           "url": "https://x.com/i/status/2018826442902274286"
         },
         {
-          "clicks": 752,
+          "clicks": 756,
           "date": "2023-06-06T16:25:29.856620+00:00",
           "headline": "LSDFi Summer Map - A repository of all ETH liquid staking options ",
           "hot_score": 0.0,
@@ -552,7 +613,7 @@
           "url": "https://www.notion.so/ff2b376b9a664a5eb6aa9acb25de485b?pvs=21"
         },
         {
-          "clicks": 740,
+          "clicks": 748,
           "date": "2024-09-02T17:33:02.092397+00:00",
           "headline": "Options protocol GammaSwap raises 342 ETH for their LBP",
           "hot_score": 0.0,
@@ -573,10 +634,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:51:22.445067+00:00",
+      "as_of": "2026-07-29T23:02:59.082902+00:00",
       "editorial": [
         {
-          "count": 29,
+          "count": 28,
           "source": "x.com"
         },
         {
@@ -628,52 +689,52 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 123,
+          "count": 153,
           "source": "x.com"
         },
         {
-          "count": 20,
+          "count": 25,
           "source": "federalregister.gov"
         },
         {
-          "count": 15,
+          "count": 17,
           "source": "sec.gov"
         },
         {
-          "count": 15,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 14,
+          "count": 16,
           "source": "cointelegraph.com"
         },
         {
-          "count": 7,
+          "count": 16,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 9,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 8,
           "source": "theblock.co"
+        },
+        {
+          "count": 7,
+          "source": "financefeeds.com"
         },
         {
           "count": 6,
           "source": "bloomberg.com"
         },
         {
-          "count": 6,
-          "source": "financefeeds.com"
+          "count": 4,
+          "source": "crowdfundinsider.com"
         },
         {
-          "count": 5,
-          "source": "coindesk.com"
+          "count": 3,
+          "source": "treeofalpha.com"
         },
         {
           "count": 3,
           "source": "listingcenter.nasdaq.com"
-        },
-        {
-          "count": 2,
-          "source": "treeofalpha.com"
-        },
-        {
-          "count": 2,
-          "source": "nyse.com"
         }
       ],
       "universe_distinct": 25
@@ -687,25 +748,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:46.769124+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.228,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0094,
-        "lift_log": 2.688,
-        "score": 0.2281,
-        "shared": 4
-      },
-      "rationale": "Open interest measures total outstanding options contracts, a core metric.",
-      "relation_type": "primitive",
-      "slug": "open-interest",
-      "source": "cotag",
-      "tag_name": "Open Interest",
-      "title": "Open Interest, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "options",
   "tag_name": "Options",

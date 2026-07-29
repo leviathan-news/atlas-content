@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:05:49.877567+00:00",
+      "as_of": "2026-07-29T23:00:16.881992+00:00",
       "newsroom_total": 32,
-      "overall_share": 86,
+      "overall_share": 84,
       "provenance": "data",
       "series": [
         {
@@ -137,62 +137,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
         }
       ],
-      "total_universe": 37,
-      "universe_total": 5
+      "total_universe": 38,
+      "universe_total": 6
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:05:48.597711+00:00",
+      "as_of": "2026-07-29T23:00:16.650219+00:00",
       "edges": [
         {
+          "confidence": 0.312,
+          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jump",
-          "phrase": "Jump Crypto may use or partner with launchpads for token launches.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-01",
+          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "launchpad",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 31
         },
         {
+          "confidence": 0.262,
+          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jump",
-          "phrase": "Points programs are common in crypto but not directly related to Jump.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-01",
+          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "points",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.201,
+          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jump",
-          "phrase": "Unclear relation; likely a peer or unrelated project.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-11",
+          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ready",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.166,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jump",
-          "phrase": "Securitize tokenizes securities; Jump Crypto may collaborate or invest.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "securitize",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "jump",
+          "observed_at": null,
           "phrase": "derivatives",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "derivatives",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -206,42 +247,62 @@
         },
         {
           "center": false,
+          "confidence": 0.312,
           "name": "Launchpad",
+          "observed_at": "2026-07-01",
           "slug": "launchpad",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 31
         },
         {
           "center": false,
+          "confidence": 0.262,
           "name": "Points",
+          "observed_at": "2026-07-01",
           "slug": "points",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.201,
           "name": "Ready",
+          "observed_at": "2026-06-11",
           "slug": "ready",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.166,
           "name": "Securitize",
+          "observed_at": null,
           "slug": "securitize",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Derivatives",
+          "observed_at": null,
           "slug": "derivatives",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -311,16 +372,16 @@
     },
     "reader_signal": {
       "article_count": 33,
-      "as_of": "2026-07-01T12:05:50.669665+00:00",
+      "as_of": "2026-07-29T23:00:17.108899+00:00",
       "most_clicked": {
-        "clicks": 472,
+        "clicks": 473,
         "date": "2024-07-11T15:16:50.731097+00:00",
         "headline": "Jump Crypto would often ask for over 5% of token supplies in exchange for market making a token, according to sources",
         "lev_url": "https://leviathannews.xyz/6258/jump-crypto-would-often-ask-for-over-5-of-token-supplies-in-exchange-for-market-making-a-token-according-to-sources"
       },
       "provenance": "data",
       "top_decile_share": 26,
-      "total_clicks": 4318
+      "total_clicks": 4367
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:41:17.979241+00:00",
@@ -405,10 +466,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:05:50.591375+00:00",
+      "as_of": "2026-07-29T23:00:17.103357+00:00",
       "items": [
         {
-          "clicks": 36,
+          "clicks": 37,
           "date": "2026-05-16T17:23:30.058240+00:00",
           "headline": "Jump Crypto is rolling out Firedancer cautiously across Solana, prioritizing stability and validator resilience as the network’s long-awaited second client nears adoption",
           "hot_score": 740.006919,
@@ -417,7 +478,7 @@
           "url": "https://www.coindesk.com/tech/2026/05/16/jump-crypto-s-firedancer-is-taking-a-slow-and-steady-approach-to-its-long-awaited-solana-infrastructure-rollout"
         },
         {
-          "clicks": 24,
+          "clicks": 28,
           "date": "2026-06-23T01:29:54.754074+00:00",
           "headline": "Arcium mainnet and ARX token go live on Solana after 1.6m+ confidential computations in alpha, backed by Jump Crypto and Anatoly Yakovenko",
           "hot_score": 570.177317,
@@ -426,7 +487,7 @@
           "url": "https://x.com/yrschrade/status/2069115097708941616"
         },
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-05-05T13:46:01.697003+00:00",
           "headline": "Securitize, Jump Trading Group and Jupiter launch regulated onchain trading for tokenized equities",
           "hot_score": 203.77375,
@@ -444,7 +505,7 @@
           "url": "https://www.dlnews.com/articles/regulation/jump-trading-slams-4bn-terraform-lawsuit/"
         },
         {
-          "clicks": 32,
+          "clicks": 33,
           "date": "2026-01-15T12:49:54.331734+00:00",
           "headline": "Figure announces the on-chain public equity network (OPEN) running on Provenance blockchain. Figure stock will be the first public equity trading native on public blockchain; BitGo, Jump Trading Group sign on to support. Unlike other tokenization efforts, OPEN equities are blockchain registered, not a tokenized version of Depository Trust and Clearing Corporation (DTCC) securities.",
           "hot_score": 47.737619,
@@ -453,7 +514,7 @@
           "url": "https://x.com/Figure/status/2011502346740613261"
         },
         {
-          "clicks": 25,
+          "clicks": 26,
           "date": "2025-12-04T09:11:23.448503+00:00",
           "headline": "Harvard grads raise $20 million for Ostium, a platform focused on a derivative popular with crypto traders. The Series A round was led by marquee venture outfit General Catalyst and the crypto arm of the quantitative trading firm Jump Trading, Kaledora Kiernan-Linn, cofounder and CEO, told Fortune.",
           "hot_score": 34.851086,
@@ -462,7 +523,7 @@
           "url": "https://archive.is/mWlfa"
         },
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2025-12-19T08:24:40.342063+00:00",
           "headline": "Terraform’s liquidators sued Jump Trading for $4B, alleging it secretly propped up UST, profited from Luna trades, and helped trigger crypto’s largest collapse, according to court filings and prior SEC claims.",
           "hot_score": 32.581581,
@@ -471,7 +532,7 @@
           "url": "https://cryptonews.com/news/terraform-liquidators-allege-jump-trading-helped-fuel-crash/?feed_id=24842&_unique_id=6944da654730b"
         },
         {
-          "clicks": 23,
+          "clicks": 25,
           "date": "2026-02-10T14:18:38.339528+00:00",
           "headline": "Jump Trading poised to gain stakes in Kalshi and Polymarket in exchange for providing liquidity on the prediction-market platforms.",
           "hot_score": 22.583861,
@@ -483,7 +544,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:05:50.506282+00:00",
+      "as_of": "2026-07-29T23:00:17.090980+00:00",
       "editorial": [
         {
           "count": 10,
@@ -544,9 +605,13 @@
         {
           "count": 1,
           "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
         }
       ],
-      "universe_distinct": 3
+      "universe_distinct": 4
     }
   },
   "official_links": [],
@@ -557,59 +622,7 @@
     "source": "human_gated_edit",
     "updated_at": "2026-07-28T22:36:37.805744+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.312,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.132,
-        "lift_log": 5.451,
-        "score": 0.3124,
-        "shared": 12
-      },
-      "rationale": "Jump Crypto may use or partner with launchpads for token launches.",
-      "relation_type": "ecosystem",
-      "slug": "launchpad",
-      "source": "cotag",
-      "tag_name": "Launchpad",
-      "title": "Launchpad, Explained",
-      "weight": 31
-    },
-    {
-      "confidence": 0.262,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0864,
-        "lift_log": 4.799,
-        "score": 0.2619,
-        "shared": 12
-      },
-      "rationale": "Points programs are common in crypto but not directly related to Jump.",
-      "relation_type": "peer",
-      "slug": "points",
-      "source": "cotag",
-      "tag_name": "Points",
-      "title": "Points, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.201,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0304,
-        "lift_log": 4.067,
-        "score": 0.2013,
-        "shared": 3
-      },
-      "rationale": "Unclear relation; likely a peer or unrelated project.",
-      "relation_type": "peer",
-      "slug": "ready",
-      "source": "cotag",
-      "tag_name": "Ready",
-      "title": "Ready, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "jump",
   "tag_name": "Jump Crypto",

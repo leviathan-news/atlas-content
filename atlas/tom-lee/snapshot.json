@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:02:12.631144+00:00",
+      "as_of": "2026-07-29T23:05:36.133388+00:00",
       "newsroom_total": 18,
-      "overall_share": 19,
+      "overall_share": 15,
       "provenance": "data",
       "series": [
         {
@@ -83,62 +83,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 14
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 26
         }
       ],
-      "total_universe": 96,
-      "universe_total": 78
+      "total_universe": 122,
+      "universe_total": 104
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:02:12.326773+00:00",
+      "as_of": "2026-07-29T23:05:35.813254+00:00",
       "edges": [
         {
+          "confidence": 0.486,
+          "description": "Co-covered in 38 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tom-lee",
-          "phrase": "Both are crypto-related entities; unclear direct relation.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-14",
+          "phrase": "Co-covered in 38 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitmine",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 49
         },
         {
+          "confidence": 0.3,
+          "description": "Co-covered in 5 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tom-lee",
-          "phrase": "Tom Lee is a commentator; Ethereum Treasury is unrelated.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-05",
+          "phrase": "Co-covered in 5 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ethereum-treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.215,
+          "description": "Co-covered in 6 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tom-lee",
-          "phrase": "Tom Lee is not directly linked to treasury topics.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-06",
+          "phrase": "Co-covered in 6 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 48 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tom-lee",
-          "phrase": "Tom Lee comments on ETH but no direct relation.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 48 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "eth",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.162,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tom-lee",
-          "phrase": "Tom Lee is not specifically tied to OTC markets.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "otc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -152,42 +193,62 @@
         },
         {
           "center": false,
+          "confidence": 0.486,
           "name": "BitMine",
+          "observed_at": "2026-07-14",
           "slug": "bitmine",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 49
         },
         {
           "center": false,
+          "confidence": 0.3,
           "name": "Ethereum Treasury",
+          "observed_at": "2026-06-05",
           "slug": "ethereum-treasury",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.215,
           "name": "Treasury",
+          "observed_at": "2026-07-06",
           "slug": "treasury",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "ETH",
+          "observed_at": null,
           "slug": "eth",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.162,
           "name": "OTC",
+          "observed_at": null,
           "slug": "otc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -257,16 +318,16 @@
     },
     "reader_signal": {
       "article_count": 18,
-      "as_of": "2026-07-01T12:02:13.258946+00:00",
+      "as_of": "2026-07-29T23:05:36.460943+00:00",
       "most_clicked": {
-        "clicks": 205,
+        "clicks": 210,
         "date": "2025-12-27T13:26:49.161407+00:00",
         "headline": "Ethereum Foundation researcher Abbas Khan pens article: \"Tom Lee's ETH Thesis is [REDACTED]\"",
         "lev_url": "https://leviathannews.xyz/22990/post-by-khanabbas201-on-x-recommended-by-curvecap"
       },
       "provenance": "data",
       "top_decile_share": 18,
-      "total_clicks": 1126
+      "total_clicks": 1155
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:32:40.880933+00:00",
@@ -351,10 +412,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:02:13.177627+00:00",
+      "as_of": "2026-07-29T23:05:36.456167+00:00",
       "items": [
         {
-          "clicks": 60,
+          "clicks": 62,
           "date": "2026-04-09T14:26:37.509845+00:00",
           "headline": "Tom Lee’s Bitmine uplists to NYSE, revealing 4.8M ETH holdings and expanding share buyback program to $4B in a major crypto-linked corporate treasury move",
           "hot_score": 8062.069296,
@@ -363,7 +424,7 @@
           "url": "https://www.theblock.co/post/396865/tom-lees-bitmine-uplists-nyse-eth-4-billion-buyback-authorization?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 31,
+          "clicks": 32,
           "date": "2026-05-18T06:32:50.323333+00:00",
           "headline": "Fundstrat’s Tom Lee says surging oil prices are Ethereum’s biggest macro headwind, with ETH facing record inverse correlation against crude markets",
           "hot_score": 728.033071,
@@ -372,7 +433,7 @@
           "url": "https://cointelegraph.com/news/surging-oil-prices-key-driver-of-eth-selling-pressure-says-tom-lee"
         },
         {
-          "clicks": 66,
+          "clicks": 68,
           "date": "2026-05-23T02:35:44.100431+00:00",
           "headline": "Wallets likely tied to Tom Lee's BitMine receive 60,000 ETH from Kraken and BitGo",
           "hot_score": 501.706978,
@@ -390,7 +451,7 @@
           "url": "https://www.theblock.co/post/403981/bitmine-adds-127000-ether-bringing-treasury-to-5-54-million-eth-as-tom-lee-calls-crypto-selloff-superficial"
         },
         {
-          "clicks": 205,
+          "clicks": 210,
           "date": "2025-12-27T13:26:49.161407+00:00",
           "headline": "Ethereum Foundation researcher Abbas Khan pens article: \"Tom Lee's ETH Thesis is [REDACTED]\"",
           "hot_score": 339.980365,
@@ -399,7 +460,7 @@
           "url": "https://x.com/KhanAbbas201/status/2004613414166151559"
         },
         {
-          "clicks": 46,
+          "clicks": 48,
           "date": "2026-04-24T14:42:18.606726+00:00",
           "headline": "Ethereum Foundation finalized the terms of a 10,000 ETH sale at an average price of $2,387 via OTC, to Tom Lee's Bitmine",
           "hot_score": 331.4,
@@ -408,7 +469,7 @@
           "url": "https://x.com/ethereumfndn/status/2047685166966161659"
         },
         {
-          "clicks": 77,
+          "clicks": 81,
           "date": "2026-01-16T06:30:54.015038+00:00",
           "headline": "MrBeast eyes DeFi as Tom Lee's Ethereum Treasury BitMine invests $200 million. BitMine Immersion Technologies unveiled a $200 million investment in Beast Industries, a company founded by YouTube creator MrBeast.",
           "hot_score": 105.692268,
@@ -417,7 +478,7 @@
           "url": "https://decrypt.co/354732/mrbeast-eyes-defi-ethereum-treasury-firm-bitmine-invests-200-million"
         },
         {
-          "clicks": 75,
+          "clicks": 76,
           "date": "2026-02-01T00:16:31.985295+00:00",
           "headline": "The crypto market sell-off intensified as liquidations surged past $1.6B, driven by rising geopolitical risk, falling futures open interest, and macro uncertainty around US policy and the Fed. Analysts like Tom Lee expect continued volatility before a potential recovery later this year as valuations reset.",
           "hot_score": 80.474157,
@@ -429,7 +490,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:02:13.095983+00:00",
+      "as_of": "2026-07-29T23:05:36.445864+00:00",
       "editorial": [
         {
           "count": 8,
@@ -472,19 +533,19 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 26,
+          "count": 41,
           "source": "x.com"
         },
         {
-          "count": 23,
+          "count": 28,
           "source": "decrypt.co"
         },
         {
-          "count": 11,
+          "count": 14,
           "source": "theblock.co"
         },
         {
-          "count": 9,
+          "count": 12,
           "source": "coindesk.com"
         },
         {
@@ -511,59 +572,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:37:01.411795+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.486,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.2595,
-        "lift_log": 5.737,
-        "score": 0.4861,
-        "shared": 32
-      },
-      "rationale": "Both are crypto-related entities; unclear direct relation.",
-      "relation_type": "peer",
-      "slug": "bitmine",
-      "source": "cotag",
-      "tag_name": "BitMine",
-      "title": "BitMine, Explained",
-      "weight": 49
-    },
-    {
-      "confidence": 0.3,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0321,
-        "lift_log": 4.023,
-        "score": 0.3002,
-        "shared": 5
-      },
-      "rationale": "Tom Lee is a commentator; Ethereum Treasury is unrelated.",
-      "relation_type": "peer",
-      "slug": "ethereum-treasury",
-      "source": "cotag",
-      "tag_name": "Ethereum Treasury",
-      "title": "Ethereum Treasury, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.215,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0134,
-        "lift_log": 2.341,
-        "score": 0.2151,
-        "shared": 7
-      },
-      "rationale": "Tom Lee is not directly linked to treasury topics.",
-      "relation_type": "peer",
-      "slug": "treasury",
-      "source": "cotag",
-      "tag_name": "Treasury",
-      "title": "Treasury, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "tom-lee",
   "tag_name": "Tom Lee",

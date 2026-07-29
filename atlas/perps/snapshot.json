@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:57:07.047941+00:00",
-      "newsroom_total": 47,
-      "overall_share": 20,
+      "as_of": "2026-07-29T23:03:13.003998+00:00",
+      "newsroom_total": 48,
+      "overall_share": 15,
       "provenance": "data",
       "series": [
         {
@@ -119,62 +119,103 @@
           "month": "2026-06",
           "newsroom": 3,
           "universe": 54
+        },
+        {
+          "ed_share": 1,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 81
         }
       ],
-      "total_universe": 239,
-      "universe_total": 192
+      "total_universe": 321,
+      "universe_total": 273
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:57:04.615564+00:00",
+      "as_of": "2026-07-29T23:03:12.664559+00:00",
       "edges": [
         {
+          "confidence": 0.277,
+          "description": "Co-covered in 8 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "perps",
-          "phrase": "Leverage is a core mechanism enabling amplified exposure in perps trading.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-14",
+          "phrase": "Co-covered in 8 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "leverage",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 28
         },
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 6 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "perps",
-          "phrase": "Futures are a comparable derivative product to perps.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-17",
+          "phrase": "Co-covered in 6 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "futures",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.2,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "perps",
-          "phrase": "Metals are an asset class traded via perps.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-19",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "metals",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.195,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "perps",
-          "phrase": "HIP-3 is a governance proposal related to perps on Hyperliquid.",
-          "relation_type": "governance",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "hip-3",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.183,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "perps",
-          "phrase": "GMX is a competing decentralized perps exchange.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "gmx",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -188,42 +229,62 @@
         },
         {
           "center": false,
+          "confidence": 0.277,
           "name": "Leverage",
+          "observed_at": "2026-07-14",
           "slug": "leverage",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 28
         },
         {
           "center": false,
+          "confidence": 0.206,
           "name": "Futures",
+          "observed_at": "2026-07-17",
           "slug": "futures",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.2,
           "name": "Metals",
+          "observed_at": "2026-05-19",
           "slug": "metals",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.195,
           "name": "HIP-3",
+          "observed_at": null,
           "slug": "hip-3",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.183,
           "name": "GMX",
+          "observed_at": null,
           "slug": "gmx",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -292,17 +353,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 47,
-      "as_of": "2026-07-01T11:57:08.674244+00:00",
+      "article_count": 48,
+      "as_of": "2026-07-29T23:03:13.343885+00:00",
       "most_clicked": {
-        "clicks": 125,
+        "clicks": 128,
         "date": "2025-01-26T20:47:06.103687+00:00",
         "headline": "Hyperliquid achieves a record $157B monthly perps volume, with projections indicating $0.5T by March 2025 if trends repeat.",
         "lev_url": "https://leviathannews.xyz/8967/hyperliquid-achieves-a-record-157b-monthly-perps-volume-with-projections-indicating-05t-by-march-2025-if-trends-repeat"
       },
       "provenance": "data",
       "top_decile_share": 17,
-      "total_clicks": 2551
+      "total_clicks": 2652
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:27:37.928754+00:00",
@@ -387,10 +448,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:57:08.594011+00:00",
+      "as_of": "2026-07-29T23:03:13.338874+00:00",
       "items": [
         {
-          "clicks": 39,
+          "clicks": 40,
           "date": "2026-04-15T11:38:25.202549+00:00",
           "headline": "OKX launches X-Perps across 30 EEA countries, offering MiFID II-regulated crypto derivatives to retail at 10x leverage",
           "hot_score": 3152.458338,
@@ -399,16 +460,7 @@
           "url": "https://cointelegraph.com/news/okx-europex-perps-regulated-crypto-derivatives"
         },
         {
-          "clicks": 28,
-          "date": "2026-06-30T18:53:45.985422+00:00",
-          "headline": "Phantom snaps up Ventuals co-founders and engineer after perp platform shutdown",
-          "hot_score": 1966.018895,
-          "lev_url": "https://leviathannews.xyz/265789/phantom-snaps-up-ventuals-co-founders-and-engineer-after-perp-platform-shutdown",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630185304_gEPU0xvSYnDW.jpg",
-          "url": "https://x.com/theblockco/status/2072030075579420763"
-        },
-        {
-          "clicks": 49,
+          "clicks": 50,
           "date": "2026-06-01T00:27:54.566325+00:00",
           "headline": "Synthetix taps Fireblocks' Dynamic wallet infrastructure to smooth Perps onboarding",
           "hot_score": 1020.614544,
@@ -417,7 +469,7 @@
           "url": "https://x.com/synthetix/status/2061232573725200587"
         },
         {
-          "clicks": 30,
+          "clicks": 33,
           "date": "2026-06-10T07:57:27.166190+00:00",
           "headline": "Kalshi Perps tops $1B in volume one week into private rollout before public launch",
           "hot_score": 686.244374,
@@ -426,7 +478,25 @@
           "url": "https://x.com/j0hnwang/status/2064433860390093154"
         },
         {
-          "clicks": 46,
+          "clicks": 30,
+          "date": "2026-07-23T15:58:21.112816+00:00",
+          "headline": "Ondo Perps launches tokenized stocks as collateral for perpetual futures, starting with SPY and QQQ funds.",
+          "hot_score": 501.076788,
+          "lev_url": "https://leviathannews.xyz/280813/tokenized-stock-collateral-is-live-on-ondo-perps-now-available-for-all-users-ondo-stocks-can-be-deployed-as-productive-collateral-backing-perps-positions-starting-with-spyon-qqqon",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260723134521_BIlzP-lVhJky.jpg",
+          "url": "https://x.com/ondoperps/status/2079559961638584487"
+        },
+        {
+          "clicks": 42,
+          "date": "2026-06-30T18:53:45.985422+00:00",
+          "headline": "Phantom snaps up Ventuals co-founders and engineer after perp platform shutdown",
+          "hot_score": 444.51444,
+          "lev_url": "https://leviathannews.xyz/265789/phantom-snaps-up-ventuals-co-founders-and-engineer-after-perp-platform-shutdown",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630185304_gEPU0xvSYnDW.jpg",
+          "url": "https://x.com/theblockco/status/2072030075579420763"
+        },
+        {
+          "clicks": 47,
           "date": "2026-03-26T08:35:49.827285+00:00",
           "headline": "Solana’s path to dominating crypto hinges on perps markets, with builders citing liquidity, market makers, and execution predictability as key missing pieces",
           "hot_score": 257.596096,
@@ -435,7 +505,7 @@
           "url": "https://x.com/i/status/2036828912181977290"
         },
         {
-          "clicks": 58,
+          "clicks": 61,
           "date": "2025-12-09T19:51:30.848620+00:00",
           "headline": "Autodeleveraging Meltdown Exposes $653M in Losses as 2016-Era Algorithms Buckle Under $60T Perps Market Stress",
           "hot_score": 95.744744,
@@ -451,24 +521,15 @@
           "lev_url": "https://leviathannews.xyz/22546/privacy-perps-are-live-on-mainnet-all-positions-orders-and-trades-are-now-private-by-default-visible-only-to-you-the-account-holder-and-us-the-operator",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251216110524_LSOnpCAe18o=.jpg",
           "url": "https://x.com/paradex/status/2000680628329812320"
-        },
-        {
-          "clicks": 59,
-          "date": "2026-02-04T10:20:26.071926+00:00",
-          "headline": "Perps.fun pioneers perpetual futures launchpad, unlocking new DeFi opportunities on Hyperliquid",
-          "hot_score": 79.8219,
-          "lev_url": "https://leviathannews.xyz/24777/perpsfun-the-first-ever-perpetual-futures-launchpad-coming-soon-to-hyperliquid",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260204041747__s2iCUFiV1g=.jpg",
-          "url": "https://x.com/Perpsdotfun/status/2018686226451124280"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:57:08.492247+00:00",
+      "as_of": "2026-07-29T23:03:13.324718+00:00",
       "editorial": [
         {
-          "count": 36,
+          "count": 37,
           "source": "x.com"
         },
         {
@@ -516,23 +577,23 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 147,
+          "count": 210,
           "source": "x.com"
         },
         {
-          "count": 10,
+          "count": 13,
           "source": "theblock.co"
         },
         {
-          "count": 6,
+          "count": 8,
           "source": "decrypt.co"
         },
         {
-          "count": 4,
+          "count": 7,
           "source": "cointelegraph.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "financefeeds.com"
         },
         {
@@ -542,6 +603,14 @@
         {
           "count": 4,
           "source": "blog.pancakeswap.finance"
+        },
+        {
+          "count": 3,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
         },
         {
           "count": 2,
@@ -554,17 +623,9 @@
         {
           "count": 1,
           "source": "techinasia.com"
-        },
-        {
-          "count": 1,
-          "source": "infinex.xyz"
-        },
-        {
-          "count": 1,
-          "source": "starknet.io"
         }
       ],
-      "universe_distinct": 18
+      "universe_distinct": 23
     }
   },
   "official_links": [],
@@ -575,59 +636,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:48.000560+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0124,
-        "lift_log": 2.17,
-        "score": 0.2061,
-        "shared": 5
-      },
-      "rationale": "Futures are a comparable derivative product to perps.",
-      "relation_type": "peer",
-      "slug": "futures",
-      "source": "cotag",
-      "tag_name": "Futures",
-      "title": "Futures, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.277,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0316,
-        "lift_log": 3.513,
-        "score": 0.2769,
-        "shared": 7
-      },
-      "rationale": "Leverage is a core mechanism enabling amplified exposure in perps trading.",
-      "relation_type": "primitive",
-      "slug": "leverage",
-      "source": "cotag",
-      "tag_name": "Leverage",
-      "title": "Leverage, Explained",
-      "weight": 28
-    },
-    {
-      "confidence": 0.2,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0204,
-        "lift_log": 4.147,
-        "score": 0.2004,
-        "shared": 3
-      },
-      "rationale": "Metals are an asset class traded via perps.",
-      "relation_type": "category",
-      "slug": "metals",
-      "source": "cotag",
-      "tag_name": "Metals",
-      "title": "Metals, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "perps",
   "tag_name": "Perps",

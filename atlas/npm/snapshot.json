@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:16:42.707663+00:00",
+      "as_of": "2026-07-29T23:02:41.655135+00:00",
       "newsroom_total": 17,
-      "overall_share": 85,
+      "overall_share": 68,
       "provenance": "data",
       "series": [
         {
@@ -53,62 +53,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 5
         }
       ],
-      "total_universe": 20,
-      "universe_total": 3
+      "total_universe": 25,
+      "universe_total": 8
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:16:42.331722+00:00",
+      "as_of": "2026-07-29T23:02:41.281039+00:00",
       "edges": [
         {
+          "confidence": 0.265,
+          "description": "Co-covered in 4 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "npm",
-          "phrase": "npm packages have been used to distribute malware.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-17",
+          "phrase": "Co-covered in 4 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "malware",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.198,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "npm",
-          "phrase": "Hackers exploit npm to inject malicious code.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "hacker",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "npm",
+          "observed_at": null,
           "phrase": "oracles",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "oracles",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "npm",
+          "observed_at": null,
           "phrase": "update",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "update",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "npm",
+          "observed_at": null,
           "phrase": "wallet",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "wallet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -122,42 +163,62 @@
         },
         {
           "center": false,
+          "confidence": 0.265,
           "name": "malware",
+          "observed_at": "2026-03-17",
           "slug": "malware",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.198,
           "name": "Hacker",
+          "observed_at": null,
           "slug": "hacker",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Oracles",
+          "observed_at": null,
           "slug": "oracles",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "update",
+          "observed_at": null,
           "slug": "update",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Wallet",
+          "observed_at": null,
           "slug": "wallet",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -227,16 +288,16 @@
     },
     "reader_signal": {
       "article_count": 17,
-      "as_of": "2026-07-01T12:16:43.282661+00:00",
+      "as_of": "2026-07-29T23:02:41.945745+00:00",
       "most_clicked": {
-        "clicks": 309,
+        "clicks": 317,
         "date": "2025-09-08T17:28:47.589830+00:00",
         "headline": "npm packages with 2.6 billion weekly downloads hijacked—attackers inject browser malware to steal crypto, replacing wallet addresses in 18 major libraries",
         "lev_url": "https://leviathannews.xyz/16155/the-popular-packages-debug-and-chalk-on-npm-have-been-compromised-with-malicious-code"
       },
       "provenance": "data",
       "top_decile_share": 23,
-      "total_clicks": 1351
+      "total_clicks": 1380
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:55:47.338713+00:00",
@@ -321,10 +382,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:16:43.203319+00:00",
+      "as_of": "2026-07-29T23:02:41.941065+00:00",
       "items": [
         {
-          "clicks": 84,
+          "clicks": 85,
           "date": "2026-04-08T16:54:50.169583+00:00",
           "headline": "Velora identifies and unpublishes malicious npm package version in supply chain attack targeting its DEX aggregator SDK",
           "hot_score": 366621.848899,
@@ -342,7 +403,7 @@
           "url": "https://x.com/i/status/2045904159858204733"
         },
         {
-          "clicks": 54,
+          "clicks": 57,
           "date": "2026-05-29T12:05:49.020694+00:00",
           "headline": "Researchers uncover how hackers used over 34 fake npm, PyPI and Rust packages in “TrapDoor” attack targeting Solana, Sui and Aptos developers to steal wallets and cloud credentials",
           "hot_score": 722.888199,
@@ -351,7 +412,7 @@
           "url": "https://www.coindesk.com/tech/2026/05/29/solana-sui-and-aptos-wallet-data-targeted-in-trapdoor-package-attack"
         },
         {
-          "clicks": 94,
+          "clicks": 96,
           "date": "2026-03-17T09:07:30.341362+00:00",
           "headline": "Hackers hide malware in GitHub, npm, and VS Code packages using invisible Unicode so supply‑chain attacks bypass human review and common defenses.",
           "hot_score": 541.610225,
@@ -360,7 +421,7 @@
           "url": "https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/"
         },
         {
-          "clicks": 78,
+          "clicks": 82,
           "date": "2026-03-31T11:24:05.620097+00:00",
           "headline": "Anthropic's Claude code exposed via map file in public npm registry",
           "hot_score": 369.826515,
@@ -369,7 +430,7 @@
           "url": "https://x.com/Fried_rice/status/2038894956459290963"
         },
         {
-          "clicks": 31,
+          "clicks": 35,
           "date": "2026-04-23T09:31:52.023602+00:00",
           "headline": "Lazarus Group ramps up Linux developer attacks with fake recruiter lures and poisoned npm, PyPI, and GitHub packages",
           "hot_score": 362.6,
@@ -378,7 +439,7 @@
           "url": "https://x.com/i/status/2047071481549701362"
         },
         {
-          "clicks": 55,
+          "clicks": 57,
           "date": "2026-03-31T09:26:23.419349+00:00",
           "headline": "Attacker hijacks Axios npm maintainer, ships cross-platform RAT to both 1.x and 0.x branches within 39 minutes",
           "hot_score": 252.549428,
@@ -387,7 +448,7 @@
           "url": "https://x.com/feross/status/2038807290422370479"
         },
         {
-          "clicks": 114,
+          "clicks": 115,
           "date": "2026-03-09T22:46:47.938091+00:00",
           "headline": "Malicious npm package disguised as OpenClaw AI installer deploys full RAT stealing crypto wallets, macOS Keychain, and cloud credentials",
           "hot_score": 157.2293,
@@ -399,7 +460,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:16:43.119403+00:00",
+      "as_of": "2026-07-29T23:02:41.930491+00:00",
       "editorial": [
         {
           "count": 9,
@@ -438,11 +499,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 2,
+          "count": 6,
           "source": "x.com"
         },
         {
-          "count": 1,
+          "count": 2,
           "source": "cointelegraph.com"
         }
       ],
@@ -457,25 +518,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:45.088178+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.265,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0484,
-        "lift_log": 5.266,
-        "score": 0.2645,
-        "shared": 4
-      },
-      "rationale": "npm packages have been used to distribute malware.",
-      "relation_type": "risk",
-      "slug": "malware",
-      "source": "cotag",
-      "tag_name": "malware",
-      "title": "malware, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "npm",
   "tag_name": "npm",

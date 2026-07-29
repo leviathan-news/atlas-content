@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:46:00.896412+00:00",
-      "newsroom_total": 124,
-      "overall_share": 32,
+      "as_of": "2026-07-29T23:03:51.515759+00:00",
+      "newsroom_total": 128,
+      "overall_share": 28,
       "provenance": "data",
       "series": [
         {
@@ -229,66 +229,101 @@
           "universe": 66
         },
         {
-          "ed_share": 0,
+          "ed_share": 5,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 3
+          "newsroom": 4,
+          "universe": 72
         }
       ],
-      "total_universe": 389,
-      "universe_total": 265
+      "total_universe": 462,
+      "universe_total": 334
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:45:58.110507+00:00",
+      "as_of": "2026-07-29T23:03:51.079932+00:00",
       "edges": [
         {
+          "confidence": 0.248,
+          "description": "Co-covered in 15 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ripple",
-          "phrase": "Ripple launched rlUSD, a stablecoin on XRP Ledger.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-03",
+          "phrase": "Co-covered in 15 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "rlusd",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.242,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ripple",
-          "phrase": "XRP Ledger is the underlying blockchain for Ripple.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ledger",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.182,
+          "description": "Co-covered in 53 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ripple",
-          "phrase": "XRP is the native digital asset of Ripple.",
-          "relation_type": "token",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 53 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "xrp",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.178,
+          "description": "Co-covered in 21 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ripple",
-          "phrase": "Ripple partnered with Mastercard for payment solutions.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 21 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "mastercard",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.147,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ripple",
-          "phrase": "Ripple obtained a license to operate in certain jurisdictions.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "license",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -302,42 +337,62 @@
         },
         {
           "center": false,
+          "confidence": 0.248,
           "name": "rlUSD",
+          "observed_at": "2026-04-03",
           "slug": "rlusd",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.242,
           "name": "Ledger",
+          "observed_at": null,
           "slug": "ledger",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.182,
           "name": "XRP",
+          "observed_at": null,
           "slug": "xrp",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.178,
           "name": "Mastercard",
+          "observed_at": null,
           "slug": "mastercard",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.147,
           "name": "License",
+          "observed_at": null,
           "slug": "license",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -406,17 +461,17 @@
       "source": "https://www.hklaw.com/en/insights/publications/2023/07/sec-v-ripple-when-a-security-is-not-a-security"
     },
     "reader_signal": {
-      "article_count": 124,
-      "as_of": "2026-07-01T11:46:02.857845+00:00",
+      "article_count": 128,
+      "as_of": "2026-07-29T23:03:51.838058+00:00",
       "most_clicked": {
-        "clicks": 887,
+        "clicks": 894,
         "date": "2025-03-04T02:05:44.387844+00:00",
         "headline": "Curve DAO opens gauge vote for the Ripple stablecoin RLUSD/USDC pool",
         "lev_url": "https://leviathannews.xyz/9643/curve-dao-opens-gauge-vote-for-the-ripple-stablecoin-rlusdusdc-pool"
       },
       "provenance": "data",
-      "top_decile_share": 35,
-      "total_clicks": 9934
+      "top_decile_share": 34,
+      "total_clicks": 10244
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:04:53.888552+00:00",
@@ -501,10 +556,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:46:02.759526+00:00",
+      "as_of": "2026-07-29T23:03:51.826001+00:00",
       "items": [
         {
-          "clicks": 53,
+          "clicks": 55,
           "date": "2026-04-15T06:02:27.591801+00:00",
           "headline": "Ripple partners with Kyobo Life Insurance for Korea's first tokenized government bond settlement",
           "hot_score": 4370.175885,
@@ -513,16 +568,7 @@
           "url": "https://ripple.com/insights/ripple-and-kyobo-life-insurance-partner-to-pioneer-korea-s-first-tokenised-government-bond-settlement-on-blockchain"
         },
         {
-          "clicks": 18,
-          "date": "2026-06-29T15:46:27.226626+00:00",
-          "headline": "Ripple proposes a new XRPL lending standard that would let institutions borrow against tokenized assets, bringing real-world credit markets onchain",
-          "hot_score": 2716.995277,
-          "lev_url": "https://leviathannews.xyz/264802/no-headline-20260629",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629153937_X6_lGu3VdKRb.jpg",
-          "url": "https://www.coindesk.com/tech/2026/06/29/emb-3-pm-utc-ripple-wants-institutions-to-borrow-against-tokenized-assets-on-xrpl"
-        },
-        {
-          "clicks": 60,
+          "clicks": 62,
           "date": "2026-04-11T00:47:59.902384+00:00",
           "headline": "Trident Digital Tech Holdings and Ripple Strategy Holding sign strategic cooperation agreement to co-build a stablecoin payment system for Africa market.",
           "hot_score": 1764.917385,
@@ -531,7 +577,16 @@
           "url": "https://www.globenewswire.com/news-release/2026/04/10/3271757/0/en/Trident-Digital-Tech-Holdings-and-Ripple-Strategy-Holding-Sign-Strategic-Cooperation-Agreement-to-Co-Build-a-Stablecoin-Payment-System-for-Africa-Market.html?_gl=1*1pxf74g*_up*MQ..*_ga*MTUxNjUwMDcyMi4xNzc1ODYzNjc4*_ga_B6167QB2TF*czE3NzU4NjM2NzckbzEkZzAkdDE3NzU4NjM2NzckajYwJGwwJGgw*_ga_ERWPGTJ5X8*czE3NzU4NjM2NzckbzEkZzAkdDE3NzU4NjM2NzckajYwJGwwJGgw"
         },
         {
-          "clicks": 31,
+          "clicks": 33,
+          "date": "2026-06-29T15:46:27.226626+00:00",
+          "headline": "Ripple proposes a new XRPL lending standard that would let institutions borrow against tokenized assets, bringing real-world credit markets onchain",
+          "hot_score": 801.715629,
+          "lev_url": "https://leviathannews.xyz/264802/no-headline-20260629",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629153937_X6_lGu3VdKRb.jpg",
+          "url": "https://www.coindesk.com/tech/2026/06/29/emb-3-pm-utc-ripple-wants-institutions-to-borrow-against-tokenized-assets-on-xrpl"
+        },
+        {
+          "clicks": 32,
           "date": "2026-04-22T07:59:18.620295+00:00",
           "headline": "Ripple and Unloq test RLUSD in MAS BLOOM sandbox to automate settlements based on real-time trade conditions, pushing programmable finance forward",
           "hot_score": 801.0,
@@ -540,7 +595,7 @@
           "url": "https://cointelegraph.com/explained/rlusd-mas-bloom-pilot-trade-finance-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "clicks": 39,
+          "clicks": 42,
           "date": "2026-05-28T04:47:16.566640+00:00",
           "headline": "Blockworks launches the Transparency Alliance with Coinbase, Kraken, Ripple, and VanEck to standardize token disclosures ahead of looming US crypto regulation",
           "hot_score": 740.568945,
@@ -549,7 +604,16 @@
           "url": "https://x.com/blockworks/status/2059635796345581988"
         },
         {
-          "clicks": 50,
+          "clicks": 51,
+          "date": "2026-07-15T07:29:04.178417+00:00",
+          "headline": "The Linux Foundation launches x402 governance with 40 members as Visa, Mastercard and Ripple back internet-native payments for autonomous AI agents",
+          "hot_score": 739.44101,
+          "lev_url": "https://leviathannews.xyz/275479/forty-companies-now-govern-x402-the-protocol-coinbase-built-and-handed-away-it-settled-about-24-million-last-month-across-75-million-payments",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260715071756_Oypr-ZhrREGm.jpg",
+          "url": "https://www.coindesk.com/tech/2026/07/15/visa-mastercard-and-ripple-join-the-standard-letting-ai-agents-pay-in-stablecoins"
+        },
+        {
+          "clicks": 51,
           "date": "2026-05-30T11:42:39.337028+00:00",
           "headline": "Ripple leading $1B SPAC raise to launch largest XRP treasury vehicle yet, will seed it with own holdings",
           "hot_score": 728.991184,
@@ -558,43 +622,34 @@
           "url": "https://www.coindesk.com/markets/2026/05/30/ripple-said-to-lead-usd1-billion-xrp-treasury-raise-report"
         },
         {
-          "clicks": 39,
+          "clicks": 41,
           "date": "2026-04-27T07:44:59.400878+00:00",
           "headline": "South Korea’s KBank partners Ripple to test onchain cross-border remittances, leveraging blockchain rails as part of a proof-of-concept tied to Upbit ecosystem",
           "hot_score": 715.2,
           "lev_url": "https://leviathannews.xyz/236658/south-koreas-kbank-partners-ripple-to-test-onchain-cross-border-remittances-leveraging-blockchain-rails-as-part-of-a-proof-of-concept-tied-to-upbit-ecosystem",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260427071820_6fmZvXSCvD9s.jpg",
           "url": "https://www.theblock.co/post/398927/kbank-ripple-partnership?utm_source=rss&utm_medium=rss"
-        },
-        {
-          "clicks": 29,
-          "date": "2026-06-16T12:39:48.260687+00:00",
-          "headline": "Ripple participates in Flutterwave's Series E with strategic investment to accelerate African stablecoin payments.",
-          "hot_score": 696.740597,
-          "lev_url": "https://leviathannews.xyz/257712/ripple-participates-in-flutterwaves-series-e-with-strategic-investment-to-accelerate-african-stablecoin-payments",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260616122908_oRWJUnsx7VmF.jpg",
-          "url": "https://x.com/theflutterwave/status/2066854710774989311"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:46:02.664642+00:00",
+      "as_of": "2026-07-29T23:03:51.802841+00:00",
       "editorial": [
         {
           "count": 30,
           "source": "x.com"
         },
         {
+          "count": 18,
+          "source": "coindesk.com"
+        },
+        {
           "count": 17,
           "source": "theblock.co"
         },
         {
-          "count": 16,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 11,
+          "count": 13,
           "source": "ripple.com"
         },
         {
@@ -634,23 +689,27 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 57,
+          "count": 89,
           "source": "x.com"
         },
         {
-          "count": 21,
+          "count": 28,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 23,
+          "source": "theblock.co"
+        },
+        {
+          "count": 22,
           "source": "ripple.com"
         },
         {
           "count": 20,
-          "source": "financefeeds.com"
+          "source": "thestreet.com"
         },
         {
           "count": 17,
-          "source": "theblock.co"
-        },
-        {
-          "count": 16,
           "source": "decrypt.co"
         },
         {
@@ -658,20 +717,16 @@
           "source": "bloomberg.com"
         },
         {
-          "count": 13,
-          "source": "thestreet.com"
-        },
-        {
-          "count": 12,
+          "count": 15,
           "source": "coindesk.com"
         },
         {
-          "count": 10,
-          "source": "crowdfundinsider.com"
+          "count": 14,
+          "source": "cointelegraph.com"
         },
         {
-          "count": 10,
-          "source": "cointelegraph.com"
+          "count": 13,
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 9,
@@ -682,7 +737,7 @@
           "source": "dlnews.com"
         }
       ],
-      "universe_distinct": 50
+      "universe_distinct": 52
     }
   },
   "official_links": [
@@ -704,42 +759,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:52.085891+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.242,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0302,
-        "lift_log": 2.753,
-        "score": 0.2425,
-        "shared": 14
-      },
-      "rationale": "XRP Ledger is the underlying blockchain for Ripple.",
-      "relation_type": "infrastructure",
-      "slug": "ledger",
-      "source": "cotag",
-      "tag_name": "Ledger",
-      "title": "Ledger, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.248,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0298,
-        "lift_log": 5.064,
-        "score": 0.2478,
-        "shared": 15
-      },
-      "rationale": "Ripple launched rlUSD, a stablecoin on XRP Ledger.",
-      "relation_type": "product",
-      "slug": "rlusd",
-      "source": "cotag",
-      "tag_name": "rlUSD",
-      "title": "rlUSD: Complete Guide",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "ripple",
   "tag_name": "Ripple",

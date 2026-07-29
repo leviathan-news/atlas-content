@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:03:46.529383+00:00",
-      "newsroom_total": 45,
-      "overall_share": 55,
+      "as_of": "2026-07-29T22:59:09.216018+00:00",
+      "newsroom_total": 47,
+      "overall_share": 49,
       "provenance": "data",
       "series": [
         {
@@ -161,62 +161,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 11
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 12
         }
       ],
-      "total_universe": 82,
-      "universe_total": 37
+      "total_universe": 96,
+      "universe_total": 49
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:03:46.092832+00:00",
+      "as_of": "2026-07-29T22:59:08.648950+00:00",
       "edges": [
         {
+          "confidence": 0.318,
+          "description": "Co-covered in 26 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fidelity",
-          "phrase": "Direct competitor in asset management and crypto ETF offerings.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 26 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "blackrock",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 32
         },
         {
+          "confidence": 0.185,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fidelity",
-          "phrase": "Competing asset manager with active crypto investment strategies.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ark",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fidelity",
-          "phrase": "Key metric tracking capital flows into Fidelity's crypto products.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "net-inflows",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 21 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fidelity",
-          "phrase": "Fidelity issues spot Bitcoin and Ethereum ETFs for investors.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 21 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "etfs",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.149,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fidelity",
-          "phrase": "Oracle network used by Fidelity for on-chain data feeds.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "chainlink",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -230,42 +271,62 @@
         },
         {
           "center": false,
+          "confidence": 0.318,
           "name": "BlackRock",
+          "observed_at": "2026-07-28",
           "slug": "blackrock",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 32
         },
         {
           "center": false,
+          "confidence": 0.185,
           "name": "ARK",
+          "observed_at": null,
           "slug": "ark",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "Net Inflows",
+          "observed_at": null,
           "slug": "net-inflows",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "ETFs",
+          "observed_at": null,
           "slug": "etfs",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.149,
           "name": "Chainlink",
+          "observed_at": null,
           "slug": "chainlink",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -334,17 +395,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 45,
-      "as_of": "2026-07-01T12:03:48.417166+00:00",
+      "article_count": 47,
+      "as_of": "2026-07-29T22:59:09.438972+00:00",
       "most_clicked": {
-        "clicks": 643,
+        "clicks": 650,
         "date": "2024-02-13T08:06:15.021454+00:00",
         "headline": "BlackRock and Fidelity's Bitcoin ETFs lead the most successful product launch in three decades.",
         "lev_url": "https://leviathannews.xyz/3959/blackrock-and-fidelitys-bitcoin-etfs-lead-the-most-successful-product-launch-in-three-decades"
       },
       "provenance": "data",
-      "top_decile_share": 29,
-      "total_clicks": 5536
+      "top_decile_share": 28,
+      "total_clicks": 5700
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:57:29.948939+00:00",
@@ -429,10 +490,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:03:48.327416+00:00",
+      "as_of": "2026-07-29T22:59:09.434568+00:00",
       "items": [
         {
-          "clicks": 90,
+          "clicks": 92,
           "date": "2026-04-09T23:48:36.666661+00:00",
           "headline": "Morgan Stanley debuts spot Bitcoin ETF at 0.14% fee, undercutting BlackRock and Fidelity",
           "hot_score": 28512.083879,
@@ -450,7 +511,7 @@
           "url": "https://financefeeds.com/crypto-etf-flows-hit-276-million-amid-strong-blackrock-performance/"
         },
         {
-          "clicks": 179,
+          "clicks": 182,
           "date": "2026-03-23T10:03:13.811550+00:00",
           "headline": "Fidelity urges SEC to clarify crypto rules for broker‑dealers and ATS integration into existing market structures",
           "hot_score": 1927.770898,
@@ -459,7 +520,16 @@
           "url": "https://x.com/timmyhmshen/status/2035920963712475564"
         },
         {
-          "clicks": 284,
+          "clicks": 31,
+          "date": "2026-07-28T16:52:58.432633+00:00",
+          "headline": "BlackRock, Fidelity and Goldman Sachs back Clarity Act as Senate's August recess nears",
+          "hot_score": 1695.557852,
+          "lev_url": "https://leviathannews.xyz/283515/blackrock-fidelity-and-goldman-sachs-back-clarity-act-as-senates-august-recess-nears",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728163828_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act"
+        },
+        {
+          "clicks": 287,
           "date": "2026-04-02T08:15:36.957663+00:00",
           "headline": "Citadel, Schwab, and Fidelity-backed EDX Markets files for OCC national trust bank charter",
           "hot_score": 1515.100735,
@@ -468,7 +538,7 @@
           "url": "https://www.bloomberg.com/news/articles/2026-04-01/citadel-securities-backed-crypto-exchange-seeks-bank-charter"
         },
         {
-          "clicks": 129,
+          "clicks": 131,
           "date": "2026-03-05T09:14:18.892273+00:00",
           "headline": "Global finance giants Visa, ANZ, ChinaAMC, and Fidelity International complete HKMA e‑HKD cross‑border settlement pilot using Chainlink for secure, compliant, atomic transfers of regulated assets",
           "hot_score": 907.554188,
@@ -477,7 +547,7 @@
           "url": "https://x.com/chainlink/status/2029412213358788849"
         },
         {
-          "clicks": 51,
+          "clicks": 55,
           "date": "2026-04-09T13:47:00.430185+00:00",
           "headline": "Pyth launches data marketplace as Fidelity, Tradeweb, Euronext, OTC Markets, SGX FX and EDI publish data onchain",
           "hot_score": 687.297885,
@@ -486,28 +556,19 @@
           "url": "https://www.pyth.network/blog/introducing-the-pyth-data-marketplace-major-financial-institutions-choose-pyth-for-direct-data-distribution"
         },
         {
-          "clicks": 24,
+          "clicks": 28,
           "date": "2026-06-17T20:42:42.986263+00:00",
           "headline": "Fidelity joins Wall Street’s stablecoin push, targeting reserve asset management as issuers race to secure backing for rapidly growing tokenized dollars",
           "hot_score": 672.269857,
           "lev_url": "https://leviathannews.xyz/258500/no-headline-20260617-4",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260617203843_yeP8XcoJ8mqX.jpg",
           "url": "https://www.coindesk.com/markets/2026/06/17/fidelity-joins-wall-street-s-race-to-manage-stablecoin-reserves"
-        },
-        {
-          "clicks": 24,
-          "date": "2026-06-10T20:46:12.868965+00:00",
-          "headline": "BlackRock and Fidelity cement spot bitcoin ETF duopoly as IBIT and FBTC dominate 2026 inflows despite 29% BTC slide",
-          "hot_score": 406.991644,
-          "lev_url": "https://leviathannews.xyz/255406/blackrock-and-fidelity-cement-spot-bitcoin-etf-duopoly-as-ibit-and-fbtc-dominate-2026-inflows-despite-29-btc-slide",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260610183445_Z4zrlaiDPw==.png",
-          "url": "https://www.coindesk.com/markets/2026/06/10/blackrock-and-fidelity-are-quietly-turning-bitcoin-etfs-into-a-two-firm-market"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:03:48.237648+00:00",
+      "as_of": "2026-07-29T22:59:09.423763+00:00",
       "editorial": [
         {
           "count": 11,
@@ -518,16 +579,16 @@
           "source": "theblock.co"
         },
         {
+          "count": 5,
+          "source": "coindesk.com"
+        },
+        {
           "count": 4,
           "source": "sosovalue.com"
         },
         {
           "count": 4,
           "source": "cointelegraph.com"
-        },
-        {
-          "count": 3,
-          "source": "coindesk.com"
         },
         {
           "count": 2,
@@ -562,15 +623,15 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 26,
+          "count": 32,
           "source": "x.com"
         },
         {
-          "count": 5,
+          "count": 6,
           "source": "cointelegraph.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "theblock.co"
         },
         {
@@ -578,11 +639,23 @@
           "source": "decrypt.co"
         },
         {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
           "count": 1,
           "source": "barrons.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 8
     }
   },
   "official_links": [
@@ -599,25 +672,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:31.540651+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.318,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0562,
-        "lift_log": 4.137,
-        "score": 0.3185,
-        "shared": 23
-      },
-      "rationale": "Direct competitor in asset management and crypto ETF offerings.",
-      "relation_type": "peer",
-      "slug": "blackrock",
-      "source": "cotag",
-      "tag_name": "BlackRock",
-      "title": "BlackRock, Explained",
-      "weight": 32
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "fidelity",
   "tag_name": "Fidelity",

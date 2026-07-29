@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:05:34.031961+00:00",
-      "newsroom_total": 16,
+      "as_of": "2026-07-29T23:04:11.034732+00:00",
+      "newsroom_total": 20,
       "overall_share": 17,
       "provenance": "data",
       "series": [
@@ -47,62 +47,103 @@
           "month": "2026-06",
           "newsroom": 3,
           "universe": 9
+        },
+        {
+          "ed_share": 16,
+          "month": "2026-07",
+          "newsroom": 4,
+          "universe": 21
         }
       ],
-      "total_universe": 93,
-      "universe_total": 77
+      "total_universe": 118,
+      "universe_total": 98
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:05:33.668925+00:00",
+      "as_of": "2026-07-29T23:04:10.777275+00:00",
       "edges": [
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 3 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sdk",
-          "phrase": "SDKs often integrate with LLMs for AI-powered features.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-02",
+          "phrase": "Co-covered in 3 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "llm",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.196,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sdk",
-          "phrase": "SDKs provide tools to build and deploy AI agents.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ai-agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sdk",
-          "phrase": "SDKs enable payment integration in applications.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "payments",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sdk",
-          "phrase": "Unclear direct relation; both are DeFi primitives.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.155,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sdk",
-          "phrase": "Unclear relation; possibly a competing SDK.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "openclaw",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -116,42 +157,62 @@
         },
         {
           "center": false,
+          "confidence": 0.206,
           "name": "LLM",
+          "observed_at": "2026-04-02",
           "slug": "llm",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.196,
           "name": "AI Agents",
+          "observed_at": null,
           "slug": "ai-agents",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "Payments",
+          "observed_at": null,
           "slug": "payments",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "Yield",
+          "observed_at": null,
           "slug": "yield",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.155,
           "name": "OpenClaw",
+          "observed_at": null,
           "slug": "openclaw",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -220,17 +281,17 @@
       "source": "https://www.ibm.com/think/topics/api-vs-sdk"
     },
     "reader_signal": {
-      "article_count": 17,
-      "as_of": "2026-07-01T12:05:34.532301+00:00",
+      "article_count": 21,
+      "as_of": "2026-07-29T23:04:11.319690+00:00",
       "most_clicked": {
-        "clicks": 156,
+        "clicks": 158,
         "date": "2026-04-07T20:14:37.279822+00:00",
         "headline": "Tempo releases Accounts SDK enabling passkey-based wallets with 1-line integration, bringing Face ID logins, transaction simulation, and gas sponsorship to apps",
         "lev_url": "https://leviathannews.xyz/222946/tempo-releases-accounts-sdk-enabling-passkey-based-wallets-with-1-line-integration-bringing-face-id-logins-transaction-simulation-and-gas-sponsorship-to-apps"
       },
       "provenance": "data",
-      "top_decile_share": 15,
-      "total_clicks": 1043
+      "top_decile_share": 23,
+      "total_clicks": 1214
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:39:37.266285+00:00",
@@ -315,10 +376,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:05:34.449507+00:00",
+      "as_of": "2026-07-29T23:04:11.315269+00:00",
       "items": [
         {
-          "clicks": 84,
+          "clicks": 85,
           "date": "2026-04-08T16:54:50.169583+00:00",
           "headline": "Velora identifies and unpublishes malicious npm package version in supply chain attack targeting its DEX aggregator SDK",
           "hot_score": 366621.848899,
@@ -327,7 +388,7 @@
           "url": "https://x.com/VeloraDEX/status/2041664117576962128"
         },
         {
-          "clicks": 156,
+          "clicks": 158,
           "date": "2026-04-07T20:14:37.279822+00:00",
           "headline": "Tempo releases Accounts SDK enabling passkey-based wallets with 1-line integration, bringing Face ID logins, transaction simulation, and gas sponsorship to apps",
           "hot_score": 58436.712549,
@@ -336,16 +397,25 @@
           "url": "https://x.com/i/status/2041580718829269117"
         },
         {
-          "clicks": 11,
+          "clicks": 32,
+          "date": "2026-07-29T07:47:01.165229+00:00",
+          "headline": "Cosmos SDK v0.54.4 ships state-breaking security fixes, urges chains to coordinate upgrades immediately",
+          "hot_score": 2949.637608,
+          "lev_url": "https://leviathannews.xyz/283801/cosmos-sdk-v0544-ships-state-breaking-security-fixes-urges-chains-to-coordinate-upgrades-immediately",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729053223_Z4zrlaiDPw==.png",
+          "url": "https://github.com/cosmos/cosmos-sdk/releases/tag/v0.54.4"
+        },
+        {
+          "clicks": 23,
           "date": "2026-06-29T14:51:57.572461+00:00",
           "headline": "Breez SDK turns BTC balances into USDC and USDT payouts across 30-plus chains",
-          "hot_score": 2653.064541,
+          "hot_score": 785.17355,
           "lev_url": "https://leviathannews.xyz/264721/breez-sdk-turns-btc-balances-into-usdc-and-usdt-payouts-across-30-plus-chains",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629142611_Z4zrlaiDPw==.png",
           "url": "https://cointelegraph.com/news/breez-bitcoin-wallets-send-usdc-usdt-without-holding-stablecoins"
         },
         {
-          "clicks": 25,
+          "clicks": 29,
           "date": "2026-06-17T05:18:44.717528+00:00",
           "headline": "HyperMove launches Bitcoin-backed payment SDK for AI agents, enabling API payments via BTC collateral, x402 rails and vault-secured signing without private keys",
           "hot_score": 682.176151,
@@ -354,7 +424,7 @@
           "url": "https://x.com/goatnetwork/status/2066888792632377623"
         },
         {
-          "clicks": 59,
+          "clicks": 61,
           "date": "2026-04-09T13:47:45.306741+00:00",
           "headline": "Tether launches QVAC SDK, open-source toolkit for on-device AI and peer-to-peer inference across platforms",
           "hot_score": 678.307304,
@@ -364,36 +434,27 @@
         },
         {
           "clicks": 36,
-          "date": "2026-06-05T00:03:27.635060+00:00",
-          "headline": "Stable folds USDT0 yield into its SDK, bundling deposits, rewards, transfers, bridging, and swaps",
-          "hot_score": 432.416834,
-          "lev_url": "https://leviathannews.xyz/252931/stable-folds-usdt0-yield-into-its-sdk-bundling-deposits-rewards-transfers-bridging-and-swaps",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260604190923_Z4zrlaiDPw==.png",
-          "url": "https://blog.stable.xyz/stable-build-1-introducing-the-sdk-for-stablecoin-builders"
+          "date": "2026-07-14T14:39:56.476654+00:00",
+          "headline": "Injective launches AI Agent SDK with CLI, agent skills and MCP servers in one package",
+          "hot_score": 621.989873,
+          "lev_url": "https://leviathannews.xyz/274947/injective-launches-ai-agent-sdk-with-cli-agent-skills-and-mcp-servers-in-one-package",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260714143053_Z4zrlaiDPw==.png",
+          "url": "https://injective.com/blog/ai-agent-sdk"
         },
         {
-          "clicks": 76,
-          "date": "2026-03-31T22:35:23.030416+00:00",
-          "headline": "Sui ships Messaging SDK beta to mainnet with end-to-end encrypted, wallet-linked chat via Seal and Walrus",
-          "hot_score": 360.967121,
-          "lev_url": "https://leviathannews.xyz/218904/sui-ships-messaging-sdk-beta-to-mainnet-with-end-to-end-encrypted-wallet-linked-chat-via-seal-and-walrus",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260331223357_EqCGts6q-H-l.jpg",
-          "url": "https://blog.sui.io/messaging-sdk-beta-live-mainnet"
-        },
-        {
-          "clicks": 49,
-          "date": "2026-03-19T23:15:49.653892+00:00",
-          "headline": "WLFI launches AgentPay SDK, enabling AI agents to hold and transfer USD1 with self-custodial wallets, policy controls and real-time payment execution",
-          "hot_score": 190.263053,
-          "lev_url": "https://leviathannews.xyz/212733/wlfi-launches-agentpay-sdk-enabling-ai-agents-to-hold-and-transfer-usd1-with-self-custodial-wallets-policy-controls-and-real-time-payment-execution",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260319231008_dKCf4ZNOCcYa.jpg",
-          "url": "https://x.com/i/status/2034708006366044486"
+          "clicks": 36,
+          "date": "2026-07-15T12:46:57.144948+00:00",
+          "headline": "Starknet opens STRK20 Privacy SDK and Wallet API for private transfers, swaps and DeFi integrations",
+          "hot_score": 612.037437,
+          "lev_url": "https://leviathannews.xyz/275709/starknet-opens-strk20-privacy-sdk-and-wallet-api-for-private-transfers-swaps-and-defi-integrations",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260715120554_Z4zrlaiDPw==.png",
+          "url": "https://www.starknet.io/blog/push-to-private/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:05:34.358861+00:00",
+      "as_of": "2026-07-29T23:04:11.307850+00:00",
       "editorial": [
         {
           "count": 12,
@@ -414,13 +475,29 @@
         {
           "count": 1,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "businesswire.com"
+        },
+        {
+          "count": 1,
+          "source": "injective.com"
+        },
+        {
+          "count": 1,
+          "source": "starknet.io"
+        },
+        {
+          "count": 1,
+          "source": "github.com"
         }
       ],
-      "editorial_distinct": 5,
+      "editorial_distinct": 9,
       "provenance": "data",
       "universe": [
         {
-          "count": 62,
+          "count": 81,
           "source": "x.com"
         },
         {
@@ -468,7 +545,7 @@
           "source": "blog.stable.xyz"
         }
       ],
-      "universe_distinct": 13
+      "universe_distinct": 15
     }
   },
   "official_links": [],
@@ -479,25 +556,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:53.774876+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0289,
-        "lift_log": 4.192,
-        "score": 0.2063,
-        "shared": 3
-      },
-      "rationale": "SDKs often integrate with LLMs for AI-powered features.",
-      "relation_type": "ecosystem",
-      "slug": "llm",
-      "source": "cotag",
-      "tag_name": "LLM",
-      "title": "LLM, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "sdk",
   "tag_name": "SDK",

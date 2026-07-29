@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:11:32.997858+00:00",
+      "as_of": "2026-07-29T22:56:06.809501+00:00",
       "newsroom_total": 43,
-      "overall_share": 16,
+      "overall_share": 11,
       "provenance": "data",
       "series": [
         {
@@ -160,64 +160,99 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 2
+          "universe": 116
         }
       ],
-      "total_universe": 269,
-      "universe_total": 226
+      "total_universe": 383,
+      "universe_total": 340
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:11:32.570554+00:00",
+      "as_of": "2026-07-29T22:56:06.607120+00:00",
       "edges": [
         {
+          "confidence": 0.34,
+          "description": "Co-covered in 54 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "arb",
-          "phrase": "ARB is the governance token of the Arbitrum ecosystem.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 54 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "arbitrum",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 34
         },
         {
+          "confidence": 0.241,
+          "description": "Co-covered in 5 approved stories; most recently September 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "arb",
-          "phrase": "Liquidity incentives are a DeFi mechanism used by ARB.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-09-04",
+          "phrase": "Co-covered in 5 approved stories; most recently September 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity-incentives",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.208,
+          "description": "Co-covered in 3 approved stories; most recently March 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "arb",
-          "phrase": "Michael Egorov is a founder of Curve, which uses ARB.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
-          "to": "michael-egorov",
-          "weight": 23
-        },
-        {
-          "dir": "out",
-          "from": "arb",
-          "phrase": "Gaming is a broader category that ARB may relate to.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-03-24",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "gaming",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.177,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "arb",
-          "phrase": "ARB is used for governance in the Arbitrum DAO.",
-          "relation_type": "governance",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "dao",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
+        },
+        {
+          "confidence": 0.155,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
+          "dir": "out",
+          "from": "arb",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
+          "to": "proposal",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 16
         }
       ],
       "nodes": [
@@ -230,43 +265,63 @@
         },
         {
           "center": false,
+          "confidence": 0.34,
           "name": "Arbitrum",
+          "observed_at": "2026-07-29",
           "slug": "arbitrum",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 34
         },
         {
           "center": false,
+          "confidence": 0.241,
           "name": "Liquidity Incentives",
+          "observed_at": "2025-09-04",
           "slug": "liquidity-incentives",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
-          "name": "Michael Egorov",
-          "slug": "michael-egorov",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 23
-        },
-        {
-          "center": false,
+          "confidence": 0.208,
           "name": "Gaming",
+          "observed_at": "2025-03-24",
           "slug": "gaming",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.177,
           "name": "DAO",
+          "observed_at": null,
           "slug": "dao",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
+        },
+        {
+          "center": false,
+          "confidence": 0.155,
+          "name": "Proposal",
+          "observed_at": null,
+          "slug": "proposal",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 16
         }
       ],
       "provenance": "data"
@@ -335,16 +390,16 @@
     },
     "reader_signal": {
       "article_count": 45,
-      "as_of": "2026-07-01T12:11:33.630114+00:00",
+      "as_of": "2026-07-29T22:56:07.159697+00:00",
       "most_clicked": {
-        "clicks": 931,
+        "clicks": 940,
         "date": "2024-06-06T18:27:12.466172+00:00",
         "headline": "Instadapp Fluid is going multichain. \nA new proposal to deploy on Arbitrum is now available on the governance forum. Arbitrum deployment and 400k $ARB incentives.",
         "lev_url": "https://leviathannews.xyz/5787/instadapp-fluid-is-going-multichain-a-new-proposal-to-deploy-on-arbitrum-is-now-available-on-the-governance-forum-arbitrum-deployment-and-400k-arb-incentives"
       },
       "provenance": "data",
       "top_decile_share": 45,
-      "total_clicks": 4733
+      "total_clicks": 4770
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:55:18.892281+00:00",
@@ -429,10 +484,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:11:33.552758+00:00",
+      "as_of": "2026-07-29T22:56:07.155578+00:00",
       "items": [
         {
-          "clicks": 931,
+          "clicks": 940,
           "date": "2024-06-06T18:27:12.466172+00:00",
           "headline": "Instadapp Fluid is going multichain. \nA new proposal to deploy on Arbitrum is now available on the governance forum. Arbitrum deployment and 400k $ARB incentives.",
           "hot_score": 0.0,
@@ -441,7 +496,7 @@
           "url": "https://x.com/0xfluid/status/1798760297890762916"
         },
         {
-          "clicks": 550,
+          "clicks": 554,
           "date": "2024-04-11T09:05:01.646916+00:00",
           "headline": "BitGo launches support for Arbitrum, allowing clients to custody $ARB using the provider's wallets",
           "hot_score": 0.0,
@@ -450,7 +505,7 @@
           "url": "https://blog.bitgo.com/bitgo-launches-support-for-arbitrum-arb-47c75adbf13c"
         },
         {
-          "clicks": 324,
+          "clicks": 330,
           "date": "2024-06-24T15:16:20.148001+00:00",
           "headline": "\nArbitrum proposes ARB Staking mechanism to boost DAO security and governance participation.",
           "hot_score": 0.0,
@@ -459,7 +514,7 @@
           "url": "https://forum.arbitrum.foundation/t/arb-staking-use-surplus-fees-to-align-governance/25084"
         },
         {
-          "clicks": 314,
+          "clicks": 318,
           "date": "2024-05-14T21:08:57.932272+00:00",
           "headline": "Active users on Arbitrum leapfrog Solana despite declining ARB token value",
           "hot_score": 0.0,
@@ -468,7 +523,7 @@
           "url": "https://www.dlnews.com/articles/defi/active-users-on-arbitrum-leapfrog-solana/"
         },
         {
-          "clicks": 233,
+          "clicks": 236,
           "date": "2024-04-02T20:36:54.770633+00:00",
           "headline": "Curve Founder Michael Egorov, after reinvesting $ARB investment gains into incentivizing Llama Lend on Arbitrum, requests grant for matching funds",
           "hot_score": 0.0,
@@ -486,7 +541,7 @@
           "url": "https://www.theblock.co/post/299167/arbitrum-dao-votes-to-approve-215-million-gaming-ecosystem-fund-proposed-by-arbitrum-foundation"
         },
         {
-          "clicks": 164,
+          "clicks": 166,
           "date": "2024-09-16T07:41:07.180741+00:00",
           "headline": "PSA, Delta Prime hacked on $ARB chain, it seems that admin private key compromised and pools drained, leading to an estimated $4.5M loss.",
           "hot_score": 0.0,
@@ -507,7 +562,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:11:33.470526+00:00",
+      "as_of": "2026-07-29T22:56:07.139523+00:00",
       "editorial": [
         {
           "count": 23,
@@ -562,55 +617,55 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 150,
+          "count": 239,
           "source": "x.com"
         },
         {
-          "count": 10,
+          "count": 12,
           "source": "cointelegraph.com"
         },
         {
-          "count": 7,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 6,
-          "source": "financefeeds.com"
-        },
-        {
-          "count": 6,
+          "count": 10,
           "source": "theblock.co"
         },
         {
-          "count": 6,
+          "count": 9,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 9,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 8,
           "source": "blog.arbitrum.foundation"
         },
         {
-          "count": 5,
-          "source": "truthsocial.com"
-        },
-        {
-          "count": 4,
+          "count": 6,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 4,
+          "count": 6,
+          "source": "blog.arbitrum.io"
+        },
+        {
+          "count": 6,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 5,
           "source": "coindesk.com"
         },
         {
-          "count": 4,
-          "source": "blog.arbitrum.io"
+          "count": 5,
+          "source": "chainwire.org"
         },
         {
           "count": 3,
           "source": "news.bloomberglaw.com"
-        },
-        {
-          "count": 3,
-          "source": "theguardian.com"
         }
       ],
-      "universe_distinct": 26
+      "universe_distinct": 30
     }
   },
   "official_links": [],
@@ -621,59 +676,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:36:16.222936+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.34,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0305,
-        "lift_log": 4.891,
-        "score": 0.3396,
-        "shared": 22
-      },
-      "rationale": "ARB is the governance token of the Arbitrum ecosystem.",
-      "relation_type": "ecosystem",
-      "slug": "arbitrum",
-      "source": "cotag",
-      "tag_name": "Arbitrum",
-      "title": "Arbitrum, Explained",
-      "weight": 34
-    },
-    {
-      "confidence": 0.208,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0154,
-        "lift_log": 4.376,
-        "score": 0.2084,
-        "shared": 3
-      },
-      "rationale": "Gaming is a broader category that ARB may relate to.",
-      "relation_type": "category",
-      "slug": "gaming",
-      "source": "cotag",
-      "tag_name": "Gaming",
-      "title": "Gaming, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.241,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0271,
-        "lift_log": 4.965,
-        "score": 0.2408,
-        "shared": 5
-      },
-      "rationale": "Liquidity incentives are a DeFi mechanism used by ARB.",
-      "relation_type": "primitive",
-      "slug": "liquidity-incentives",
-      "source": "cotag",
-      "tag_name": "Liquidity Incentives",
-      "title": "Liquidity Incentives, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "arb",
   "tag_name": "ARB",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:16:54.973123+00:00",
-      "newsroom_total": 12,
-      "overall_share": 67,
+      "as_of": "2026-07-29T23:02:46.785979+00:00",
+      "newsroom_total": 13,
+      "overall_share": 54,
       "provenance": "data",
       "series": [
         {
@@ -83,62 +83,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 2
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 5
         }
       ],
-      "total_universe": 18,
-      "universe_total": 6
+      "total_universe": 24,
+      "universe_total": 11
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:16:54.569588+00:00",
+      "as_of": "2026-07-29T23:02:46.461133+00:00",
       "edges": [
         {
+          "confidence": 0.247,
+          "description": "Co-covered in 4 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ofac",
-          "phrase": "OFAC is a division of the US Treasury, enforcing sanctions.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-15",
+          "phrase": "Co-covered in 4 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "us-treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 4 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ofac",
-          "phrase": "OFAC sanctions can freeze stablecoin addresses, posing regulatory risk.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-13",
+          "phrase": "Co-covered in 4 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.162,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ofac",
-          "phrase": "Tether has faced scrutiny over OFAC compliance and sanctions.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tether",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "ofac",
+          "observed_at": null,
           "phrase": "decentralization",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "decentralization",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "ofac",
+          "observed_at": null,
           "phrase": "digital assets",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "digital-assets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -152,65 +193,85 @@
         },
         {
           "center": false,
+          "confidence": 0.247,
           "name": "US Treasury",
+          "observed_at": "2026-07-15",
           "slug": "us-treasury",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.206,
           "name": "Stablecoins",
+          "observed_at": "2026-06-13",
           "slug": "stablecoins",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.162,
           "name": "Tether",
+          "observed_at": null,
           "slug": "tether",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Decentralization",
+          "observed_at": null,
           "slug": "decentralization",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Digital Assets",
+          "observed_at": null,
           "slug": "digital-assets",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
       "provenance": "data"
     },
     "reader_signal": {
-      "article_count": 12,
-      "as_of": "2026-07-01T12:16:55.480940+00:00",
+      "article_count": 13,
+      "as_of": "2026-07-29T23:02:47.039062+00:00",
       "most_clicked": {
-        "clicks": 202,
+        "clicks": 209,
         "date": "2023-12-09T18:05:58.940755+00:00",
         "headline": "Tether freezes all OFAC-sanctioned wallets in 'proactive' security measure.",
         "lev_url": "https://leviathannews.xyz/3551/tether-freezes-all-ofac-sanctioned-wallets-in-proactive-security-measure"
       },
       "provenance": "data",
-      "top_decile_share": 25,
-      "total_clicks": 815
+      "top_decile_share": 24,
+      "total_clicks": 875
     },
     "significant": {
-      "as_of": "2026-07-01T12:16:55.404052+00:00",
+      "as_of": "2026-07-29T23:02:47.034326+00:00",
       "items": [
         {
-          "clicks": 45,
+          "clicks": 47,
           "date": "2026-05-15T06:57:59.550860+00:00",
           "headline": "Lawyer behind Arbitrum asset seizure case now targets Tether in bid to recover $344M in OFAC-frozen USDT linked to Iran’s Revolutionary Guard",
           "hot_score": 773.2,
@@ -219,7 +280,16 @@
           "url": "https://www.coindesk.com/policy/2026/05/15/lawyer-behind-arbitrum-crypto-seizure-fight-now-targets-tether-for-usd344-million"
         },
         {
-          "clicks": 53,
+          "clicks": 24,
+          "date": "2026-07-02T07:06:53.355675+00:00",
+          "headline": "Tether freezes USDT in 131 ISIS-K TRON wallets after OFAC adds 134 crypto addresses",
+          "hot_score": 739.664732,
+          "lev_url": "https://leviathannews.xyz/267215/tether-freezes-usdt-in-131-isis-k-tron-wallets-after-ofac-adds-134-crypto-addresses",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260702061936_Z4zrlaiDPw==.png",
+          "url": "https://www.chainalysis.com/blog/isis-designation-crypto-addresses-july-2026/"
+        },
+        {
+          "clicks": 55,
           "date": "2026-04-23T13:09:29.856292+00:00",
           "headline": "Tether freezes over $344M in USDT across two wallets after U.S. authorities flag unlawful activity, highlighting its cooperation with OFAC and law enforcement to block criminal use of its stablecoin.",
           "hot_score": 365.6,
@@ -228,7 +298,7 @@
           "url": "https://tether.io/news/tether-supports-freeze-of-more-than-344-million-in-usdt-in-coordination-with-ofac-and-u-s-law-enforcement/"
         },
         {
-          "clicks": 202,
+          "clicks": 209,
           "date": "2023-12-09T18:05:58.940755+00:00",
           "headline": "Tether freezes all OFAC-sanctioned wallets in 'proactive' security measure.",
           "hot_score": 0.0,
@@ -237,7 +307,7 @@
           "url": "https://tether.to/en/tether-introduces-new-policy-to-strengthen-ecosystem-security/"
         },
         {
-          "clicks": 111,
+          "clicks": 116,
           "date": "2025-03-21T14:58:39.441492+00:00",
           "headline": "Tornado Cash contract addresses removed from OFAC sanctions list",
           "hot_score": 0.0,
@@ -246,25 +316,7 @@
           "url": "https://ofac.treasury.gov/recent-actions/20250321"
         },
         {
-          "clicks": 79,
-          "date": "2025-02-25T11:07:43.242306+00:00",
-          "headline": "According to EmberCN, Bybit hackers have laundered 89,500 ETH (approximately $224 million) in the past 2.5 days—representing 18% of the 499,000 ETH stolen—and they plan to convert the remaining 410,000 ETH into assets like BTC and DAI via THORChain within two weeks.\nSamczsun adds that when more than 85% of a chain's volume appears to be involved in money laundering for Kim Jong Un, validators should seriously consider taking action before OFAC imposes a massive sanction.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/9533/according-to-embercn-bybit-hackers-have-laundered-89500-eth-approximately-224-million-in-the-past-25-daysrepresenting-18-of-the-499000-eth-stolenand-they-plan-to-convert-the-remain",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250225105914_W8bbkg1I4Q==.jpg",
-          "url": "https://x.com/samczsun/status/1894211315675123897"
-        },
-        {
-          "clicks": 78,
-          "date": "2025-04-28T17:56:17.623193+00:00",
-          "headline": "How Trump Rebuilt Crypto’s Future in 100 Days\n\nWe went through every single action the Trump administration has taken on crypto.. from the White House down through every major regulatory agency,  and put it all together into one full analysis.\n\nIf you’ve been wondering what’s really changed over the past few months, and how deep the reversal goes, this is everything you need to know.\n\nRead it on The Tentacle",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/10847/how-trump-rebuilt-cryptos-future-in-100-days-we-went-through-every-single-action-the-trump-administration-has-taken-on-crypto-from-the-white-house-down-through-every-major-regulato",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250428175455_00wad2L0Q7I=.jpg",
-          "url": "https://leviathannews.substack.com/p/how-trump-rebuilt-cryptos-future"
-        },
-        {
-          "clicks": 78,
+          "clicks": 85,
           "date": "2025-08-27T16:47:34.626153+00:00",
           "headline": "OFAC hit Russian national Vitaliy Sergeyevich Andreyev, a North Korean individual, and two entities, for enabling DPRK-linked fraud. Elliptic data show Andreyev’s sanctioned Bitcoin address received over $600K tied to the 2023 Atomic Wallet hack, with cross-chain layering used for obfuscation.",
           "hot_score": 0.0,
@@ -273,19 +325,28 @@
           "url": "https://www.elliptic.co/blog/ofac-sanctions-a-fraud-network-for-assisting-the-north-korean-dprk-regime"
         },
         {
-          "clicks": 64,
-          "date": "2024-03-26T07:51:53.704051+00:00",
-          "headline": "OFAC sanctions 13 entities for aiding Russian sanctions evasion via crypto. Netex24 and Bitpapa have a history of transacting with OFAC-sanctioned Russian banks, according to research firm Chainalysis.",
+          "clicks": 83,
+          "date": "2025-04-28T17:56:17.623193+00:00",
+          "headline": "How Trump Rebuilt Crypto’s Future in 100 Days\n\nWe went through every single action the Trump administration has taken on crypto.. from the White House down through every major regulatory agency,  and put it all together into one full analysis.\n\nIf you’ve been wondering what’s really changed over the past few months, and how deep the reversal goes, this is everything you need to know.\n\nRead it on The Tentacle",
           "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/4390/ofac-sanctions-13-entities-for-aiding-russian-sanctions-evasion-via-crypto-netex24-and-bitpapa-have-a-history-of-transacting-with-ofac-sanctioned-russian-banks-according-to-researc",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240326074256_GuGzRB8kuQ==.jpg",
-          "url": "https://www.theblock.co/post/284582/us-treasury-sanctions-13-entities-for-aiding-russian-sanctions-evasion-via-crypto"
+          "lev_url": "https://leviathannews.xyz/10847/how-trump-rebuilt-cryptos-future-in-100-days-we-went-through-every-single-action-the-trump-administration-has-taken-on-crypto-from-the-white-house-down-through-every-major-regulato",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250428175455_00wad2L0Q7I=.jpg",
+          "url": "https://leviathannews.substack.com/p/how-trump-rebuilt-cryptos-future"
+        },
+        {
+          "clicks": 82,
+          "date": "2025-02-25T11:07:43.242306+00:00",
+          "headline": "According to EmberCN, Bybit hackers have laundered 89,500 ETH (approximately $224 million) in the past 2.5 days—representing 18% of the 499,000 ETH stolen—and they plan to convert the remaining 410,000 ETH into assets like BTC and DAI via THORChain within two weeks.\nSamczsun adds that when more than 85% of a chain's volume appears to be involved in money laundering for Kim Jong Un, validators should seriously consider taking action before OFAC imposes a massive sanction.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9533/according-to-embercn-bybit-hackers-have-laundered-89500-eth-approximately-224-million-in-the-past-25-daysrepresenting-18-of-the-499000-eth-stolenand-they-plan-to-convert-the-remain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250225105914_W8bbkg1I4Q==.jpg",
+          "url": "https://x.com/samczsun/status/1894211315675123897"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:16:55.319513+00:00",
+      "as_of": "2026-07-29T23:02:47.025544+00:00",
       "editorial": [
         {
           "count": 4,
@@ -318,21 +379,25 @@
         {
           "count": 1,
           "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "chainalysis.com"
         }
       ],
-      "editorial_distinct": 8,
+      "editorial_distinct": 9,
       "provenance": "data",
       "universe": [
         {
-          "count": 2,
+          "count": 4,
           "source": "x.com"
         },
         {
-          "count": 1,
+          "count": 2,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 1,
+          "count": 2,
           "source": "cointelegraph.com"
         },
         {
@@ -342,9 +407,13 @@
         {
           "count": 1,
           "source": "a16zcrypto.com"
+        },
+        {
+          "count": 1,
+          "source": "330xhmya.api.sanity.io"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 6
     }
   },
   "official_links": [],
@@ -355,42 +424,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:45.573918+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0018,
-        "lift_log": 2.281,
-        "score": 0.2064,
-        "shared": 4
-      },
-      "rationale": "OFAC sanctions can freeze stablecoin addresses, posing regulatory risk.",
-      "relation_type": "risk",
-      "slug": "stablecoins",
-      "source": "cotag",
-      "tag_name": "Stablecoins",
-      "title": "Stablecoins, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.247,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0274,
-        "lift_log": 5.102,
-        "score": 0.2473,
-        "shared": 3
-      },
-      "rationale": "OFAC is a division of the US Treasury, enforcing sanctions.",
-      "relation_type": "influence",
-      "slug": "us-treasury",
-      "source": "cotag",
-      "tag_name": "US Treasury",
-      "title": "US Treasury, Explained",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "ofac",
   "tag_name": "OFAC",

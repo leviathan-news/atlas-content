@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:57:53.396846+00:00",
-      "newsroom_total": 70,
-      "overall_share": 54,
+      "as_of": "2026-07-29T22:58:42.265075+00:00",
+      "newsroom_total": 71,
+      "overall_share": 51,
       "provenance": "data",
       "series": [
         {
@@ -161,62 +161,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 6
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 8
         }
       ],
-      "total_universe": 130,
-      "universe_total": 60
+      "total_universe": 139,
+      "universe_total": 68
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:57:53.049597+00:00",
+      "as_of": "2026-07-29T22:58:42.021884+00:00",
       "edges": [
         {
+          "confidence": 0.304,
+          "description": "Co-covered in 20 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "elon-musk",
-          "phrase": "Elon Musk founded SpaceX.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-16",
+          "phrase": "Co-covered in 20 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "spacex",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.297,
+          "description": "Co-covered in 13 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "elon-musk",
-          "phrase": "Elon Musk is CEO and co-founder of Tesla.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-27",
+          "phrase": "Co-covered in 13 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "tesla",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.253,
+          "description": "Co-covered in 12 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "elon-musk",
-          "phrase": "Elon Musk founded xAI.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-19",
+          "phrase": "Co-covered in 12 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "xai",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.197,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "elon-musk",
-          "phrase": "Elon Musk's tweets influence Dogecoin's price.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "doge",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 15 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "elon-musk",
-          "phrase": "Elon Musk's companies have IPO milestones.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 15 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ipo",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -230,42 +271,62 @@
         },
         {
           "center": false,
+          "confidence": 0.304,
           "name": "SpaceX",
+          "observed_at": "2026-06-16",
           "slug": "spacex",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.297,
           "name": "Tesla",
+          "observed_at": "2026-05-27",
           "slug": "tesla",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.253,
           "name": "xAI",
+          "observed_at": "2026-07-19",
           "slug": "xai",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.197,
           "name": "DOGE",
+          "observed_at": null,
           "slug": "doge",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "IPO",
+          "observed_at": null,
           "slug": "ipo",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -334,17 +395,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 70,
-      "as_of": "2026-07-01T11:57:54.097552+00:00",
+      "article_count": 71,
+      "as_of": "2026-07-29T22:58:42.507662+00:00",
       "most_clicked": {
-        "clicks": 234,
+        "clicks": 237,
         "date": "2025-01-23T14:15:18.713799+00:00",
         "headline": "Vine founder Rus Yusupov launched his VINE memecoin after Elon Musk hinted that he may bring back the app eight years after it was shut down.",
         "lev_url": "https://leviathannews.xyz/8909/vine-founder-rus-yusupov-launched-his-vine-memecoin-after-elon-musk-hinted-that-he-may-bring-back-the-app-eight-years-after-it-was-shut-down"
       },
       "provenance": "data",
       "top_decile_share": 24,
-      "total_clicks": 4306
+      "total_clicks": 4375
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:39:55.851284+00:00",
@@ -429,7 +490,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:57:53.990677+00:00",
+      "as_of": "2026-07-29T22:58:42.500800+00:00",
       "items": [
         {
           "clicks": 91,
@@ -450,7 +511,7 @@
           "url": "https://www.theblock.co/post/397771/elon-musk-x-money-disrupt-payments-pressure-paypal-crypto-regulatory-hurdles-mizuho?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 36,
+          "clicks": 37,
           "date": "2026-04-22T18:12:33.596832+00:00",
           "headline": "SpaceX warns investors orbital AI data centers may not be commercially viable, despite Elon Musk’s push for space-based computing in IPO filing",
           "hot_score": 754.6,
@@ -459,7 +520,7 @@
           "url": "https://decrypt.co/365132/spacex-warns-investors-elon-musk-space-ai-data-centers"
         },
         {
-          "clicks": 81,
+          "clicks": 85,
           "date": "2026-03-17T07:03:38.435682+00:00",
           "headline": "Minors sue xAI in California over alleged Grok deepfake images. The class action alleges Elon Musk's AI company knowingly produced and profited from child sexual abuse material.",
           "hot_score": 394.682437,
@@ -468,7 +529,7 @@
           "url": "https://decrypt.co/361331/minors-sue-xai-california-alleged-grok-deepfake-images"
         },
         {
-          "clicks": 33,
+          "clicks": 34,
           "date": "2026-04-27T18:08:14.001424+00:00",
           "headline": "OpenAI faces IPO risk as Elon Musk lawsuit challenges for-profit pivot, threatens $40B funding and governance model in landmark AI case",
           "hot_score": 345.4,
@@ -477,7 +538,7 @@
           "url": "https://crypto.news/musk-openai-trial-begins-in-court/"
         },
         {
-          "clicks": 48,
+          "clicks": 50,
           "date": "2026-04-17T08:12:58.000877+00:00",
           "headline": "Elon Musk proposes universal high income via federal payments to offset AI-driven job losses, arguing robotics-led abundance will prevent inflation despite money supply growth",
           "hot_score": 313.270827,
@@ -486,7 +547,7 @@
           "url": "https://x.com/i/status/2044990537145753894"
         },
         {
-          "clicks": 56,
+          "clicks": 58,
           "date": "2026-02-24T18:01:10.609017+00:00",
           "headline": "Pentagon strikes deal to deploy Elon Musk’s Grok AI in classified systems as clash with Anthropic over safety limits jeopardizes Claude’s future role.",
           "hot_score": 196.881625,
@@ -507,10 +568,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:57:53.906596+00:00",
+      "as_of": "2026-07-29T22:58:42.479264+00:00",
       "editorial": [
         {
-          "count": 21,
+          "count": 22,
           "source": "x.com"
         },
         {
@@ -562,15 +623,15 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 20,
+          "count": 22,
           "source": "x.com"
         },
         {
-          "count": 18,
+          "count": 20,
           "source": "decrypt.co"
         },
         {
-          "count": 5,
+          "count": 7,
           "source": "thestreet.com"
         },
         {
@@ -590,6 +651,10 @@
           "source": "theblock.co"
         },
         {
+          "count": 2,
+          "source": "financefeeds.com"
+        },
+        {
           "count": 1,
           "source": "timesofindia.indiatimes.com"
         },
@@ -598,7 +663,7 @@
           "source": "dlnews.com"
         }
       ],
-      "universe_distinct": 9
+      "universe_distinct": 10
     }
   },
   "official_links": [],
@@ -609,59 +674,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:29.288811+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.304,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0578,
-        "lift_log": 3.794,
-        "score": 0.304,
-        "shared": 20
-      },
-      "rationale": "Elon Musk founded SpaceX.",
-      "relation_type": "founder",
-      "slug": "spacex",
-      "source": "cotag",
-      "tag_name": "SpaceX",
-      "title": "SpaceX, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.297,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0438,
-        "lift_log": 3.828,
-        "score": 0.2973,
-        "shared": 13
-      },
-      "rationale": "Elon Musk is CEO and co-founder of Tesla.",
-      "relation_type": "founder",
-      "slug": "tesla",
-      "source": "cotag",
-      "tag_name": "Tesla",
-      "title": "Tesla, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.253,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0688,
-        "lift_log": 4.798,
-        "score": 0.2531,
-        "shared": 11
-      },
-      "rationale": "Elon Musk founded xAI.",
-      "relation_type": "founder",
-      "slug": "xai",
-      "source": "cotag",
-      "tag_name": "xAI",
-      "title": "xAI, Explained",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "elon-musk",
   "tag_name": "Elon Musk",
