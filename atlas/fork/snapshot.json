@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:00:54.071260+00:00",
-      "newsroom_total": 45,
-      "overall_share": 38,
+      "as_of": "2026-07-29T22:59:12.309470+00:00",
+      "newsroom_total": 48,
+      "overall_share": 32,
       "provenance": "data",
       "series": [
         {
@@ -185,62 +185,103 @@
           "month": "2026-06",
           "newsroom": 4,
           "universe": 25
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-07",
+          "newsroom": 3,
+          "universe": 29
         }
       ],
-      "total_universe": 118,
-      "universe_total": 73
+      "total_universe": 150,
+      "universe_total": 102
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:00:53.408218+00:00",
+      "as_of": "2026-07-29T22:59:12.050925+00:00",
       "edges": [
         {
+          "confidence": 0.308,
+          "description": "Co-covered in 6 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fork",
-          "phrase": "Liquity is a DeFi protocol; fork is a general concept, not directly comparable.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-23",
+          "phrase": "Co-covered in 6 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 31
         },
         {
+          "confidence": 0.261,
+          "description": "Co-covered in 8 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fork",
-          "phrase": "Polygon is a blockchain; fork is a general concept, not directly comparable.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-23",
+          "phrase": "Co-covered in 8 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "polygon",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.245,
+          "description": "Co-covered in 4 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fork",
-          "phrase": "Mt. Gox hack was a major event that led to forks in Bitcoin's history.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-02",
+          "phrase": "Co-covered in 4 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "mt-gox",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.197,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fork",
-          "phrase": "Ethereum upgrades often involve planned forks.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ethereum-upgrade",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.194,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "fork",
-          "phrase": "Balancer is a DeFi protocol; fork is a general concept.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "balancer",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -254,42 +295,62 @@
         },
         {
           "center": false,
+          "confidence": 0.308,
           "name": "Liquity",
+          "observed_at": "2026-03-23",
           "slug": "liquity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 31
         },
         {
           "center": false,
+          "confidence": 0.261,
           "name": "Polygon",
+          "observed_at": "2026-07-23",
           "slug": "polygon",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.245,
           "name": "Mt. Gox",
+          "observed_at": "2026-03-02",
           "slug": "mt-gox",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.197,
           "name": "Ethereum Upgrade",
+          "observed_at": null,
           "slug": "ethereum-upgrade",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.194,
           "name": "Balancer",
+          "observed_at": null,
           "slug": "balancer",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -358,17 +419,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 46,
-      "as_of": "2026-07-01T12:00:55.190970+00:00",
+      "article_count": 49,
+      "as_of": "2026-07-29T22:59:12.530292+00:00",
       "most_clicked": {
-        "clicks": 200,
+        "clicks": 203,
         "date": "2025-01-13T09:44:19.440796+00:00",
         "headline": "Monad founder Keone does not deny Andre Cronje's Avalanche Fork Accusations, Fails to change Devnet gas fees from $AVAX to $MON.",
         "lev_url": "https://leviathannews.xyz/8626/monad-founder-keone-does-not-deny-andre-cronjes-avalanche-fork-accusations-fails-to-change-devnet-gas-fees-from-avax-to-mon"
       },
       "provenance": "data",
-      "top_decile_share": 22,
-      "total_clicks": 3283
+      "top_decile_share": 21,
+      "total_clicks": 3475
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:50:33.980089+00:00",
@@ -453,10 +514,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:00:55.111701+00:00",
+      "as_of": "2026-07-29T22:59:12.525512+00:00",
       "items": [
         {
-          "clicks": 35,
+          "clicks": 38,
           "date": "2026-04-16T13:46:20.570156+00:00",
           "headline": "BNB Chain adopts 6 Ethereum EIPs in Osaka/Mendel hard fork, pivots from speed gains to network stability",
           "hot_score": 2313.905929,
@@ -465,16 +526,16 @@
           "url": "https://www.bnbchain.org/en/blog/osaka-mendel-hard-fork-strengthening-bnb-chain-after-sub-second-speed-gains"
         },
         {
-          "clicks": 29,
-          "date": "2026-06-26T10:20:38.704019+00:00",
-          "headline": "Base pushes Beryl upgrade by one day as B20 registry requires additional setup, while new hard fork cuts Ethereum withdrawal delays from 7 days to 5",
-          "hot_score": 865.62613,
-          "lev_url": "https://leviathannews.xyz/263318/base-delays-beryl-hard-fork-over-b20-registry-timing-issue-20260626-1",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626101601_AO8tqJC5ZbNl.jpg",
-          "url": "https://www.theblock.co/post/406336/base-delays-beryl-hard-fork-over-b20-registry-timing-issue?utm_source=rss&utm_medium=rss?utm_source=telegram1&utm_medium=social"
+          "clicks": 47,
+          "date": "2026-07-26T20:11:15.172453+00:00",
+          "headline": "Stacks 4.0 hard fork targets Bitcoin block 960,230 on July 29, activating Clarity 6 and Bitcoin Stacking",
+          "hot_score": 1175.036133,
+          "lev_url": "https://leviathannews.xyz/282201/stacks-40-hard-fork-targets-bitcoin-block-960230-on-july-29-activating-clarity-6-and-bitcoin-stacking",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726200942_Z4zrlaiDPw==.png",
+          "url": "https://stacks.foundation/release-4-0"
         },
         {
-          "clicks": 141,
+          "clicks": 142,
           "date": "2026-03-17T12:54:02.270035+00:00",
           "headline": "Ethereum’s Fast Confirmation Rule aims to cut L1 deposit times to ~13 seconds by using attestations instead of block depth, with no hard fork required.",
           "hot_score": 770.360208,
@@ -483,7 +544,7 @@
           "url": "https://x.com/i/status/2033851796574154808"
         },
         {
-          "clicks": 48,
+          "clicks": 52,
           "date": "2026-06-14T08:23:39.919561+00:00",
           "headline": "Ethereum researcher Nico says post-quantum account protection can be deployed today without a hard fork, costing roughly $0.07 per account and undergoing further audits",
           "hot_score": 712.749952,
@@ -492,7 +553,25 @@
           "url": "https://x.com/ncsgy/status/2065791130457747707"
         },
         {
-          "clicks": 43,
+          "clicks": 42,
+          "date": "2026-07-12T08:09:01.558056+00:00",
+          "headline": "Bitcoin's BIP-110 soft fork faces an early August deadline with zero miner support as Michael Saylor and Adam Back oppose tightening onchain data rules",
+          "hot_score": 646.077649,
+          "lev_url": "https://leviathannews.xyz/273502/bitcoins-bip-110-fork-deadline-nears-with-miner-support-at-zero-20260712",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260712075738_BdjCIeV8sfeE.jpg",
+          "url": "https://www.coindesk.com/tech/2026/07/12/bitcoin-s-bip-110-fork-deadline-nears-with-miner-support-at-zero"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-06-26T10:20:38.704019+00:00",
+          "headline": "Base pushes Beryl upgrade by one day as B20 registry requires additional setup, while new hard fork cuts Ethereum withdrawal delays from 7 days to 5",
+          "hot_score": 547.109304,
+          "lev_url": "https://leviathannews.xyz/263318/base-delays-beryl-hard-fork-over-b20-registry-timing-issue-20260626-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626101601_AO8tqJC5ZbNl.jpg",
+          "url": "https://www.theblock.co/post/406336/base-delays-beryl-hard-fork-over-b20-registry-timing-issue?utm_source=rss&utm_medium=rss?utm_source=telegram1&utm_medium=social"
+        },
+        {
+          "clicks": 50,
           "date": "2026-06-13T21:53:36.928809+00:00",
           "headline": "SPHINCS- verifies post-quantum Ethereum signatures at 127K gas without precompile or hard fork",
           "hot_score": 446.847575,
@@ -501,40 +580,22 @@
           "url": "https://ethresear.ch/t/sphincs-minus-efficient-stateless-post-quantum-signature-verification-on-the-evm/25165"
         },
         {
-          "clicks": 39,
-          "date": "2026-04-24T22:59:58.261113+00:00",
-          "headline": "Paul Sztorc announces eCash Bitcoin hard fork to ship drivechains and reassign 550K Satoshi-era coins",
-          "hot_score": 335.2,
-          "lev_url": "https://leviathannews.xyz/236303/paul-sztorc-announces-ecash-bitcoin-hard-fork-to-ship-drivechains-and-reassign-550k-satoshi-era-coins",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260424212917_Z4zrlaiDPw==.png",
-          "url": "https://x.com/Truthcoin/status/2047639261453680838"
-        },
-        {
-          "clicks": 27,
-          "date": "2026-06-16T16:56:32.612118+00:00",
-          "headline": "Ethereum's Glamsterdam fork enters final devnet phase ahead of expected H2 launch",
-          "hot_score": 308.734673,
-          "lev_url": "https://leviathannews.xyz/257797/ethereums-glamsterdam-fork-enters-final-devnet-phase-ahead-of-expected-h2-launch",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260616165454_Z4zrlaiDPw==.png",
-          "url": "https://www.coindesk.com/tech/2026/06/16/ethereum-s-biggest-protocol-overhaul-in-years-moves-into-its-final-development-stage"
-        },
-        {
-          "clicks": 51,
-          "date": "2026-03-23T16:45:34.708631+00:00",
-          "headline": "Nerite, arbitrum's Liquity v2 fork, will release their $NERI governance token tomorrow on a Balancer LBP",
-          "hot_score": 159.816704,
-          "lev_url": "https://leviathannews.xyz/214495/nerite-arbitrums-liquity-v2-fork-will-release-their-neri-governance-token-tommorow-on-a-balancer-lbp",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260323163739_cf3VXl5aAJld.jpg",
-          "url": "https://x.com/NeriteOrg/status/2036108122800935258"
+          "clicks": 38,
+          "date": "2026-07-08T13:32:59.341905+00:00",
+          "headline": "Proposed BIP-110 soft fork could split Bitcoin network by rejecting non-signaling blocks",
+          "hot_score": 427.628611,
+          "lev_url": "https://leviathannews.xyz/270994/bitcoin-knots-developers-propose-bip-110-soft-fork-to-reject-blocks-not-signaling-spam-deterrence",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260708085643_ZQxN2v8G5R3e.jpg",
+          "url": "https://x.com/dathon_ohm/status/2074582329469616534"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:00:55.029323+00:00",
+      "as_of": "2026-07-29T22:59:12.513859+00:00",
       "editorial": [
         {
-          "count": 22,
+          "count": 23,
           "source": "x.com"
         },
         {
@@ -552,6 +613,10 @@
         {
           "count": 2,
           "source": "cryptonews.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
         },
         {
           "count": 1,
@@ -576,34 +641,38 @@
         {
           "count": 1,
           "source": "medium.com"
-        },
-        {
-          "count": 1,
-          "source": "mirror.xyz"
         }
       ],
-      "editorial_distinct": 18,
+      "editorial_distinct": 19,
       "provenance": "data",
       "universe": [
         {
-          "count": 41,
+          "count": 57,
           "source": "x.com"
         },
         {
-          "count": 7,
+          "count": 13,
           "source": "treeofalpha.com"
         },
         {
-          "count": 5,
+          "count": 7,
           "source": "theblock.co"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "decrypt.co"
         },
         {
-          "count": 2,
+          "count": 4,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "financefeeds.com"
         },
         {
           "count": 1,
@@ -624,14 +693,6 @@
         {
           "count": 1,
           "source": "kaspa.org"
-        },
-        {
-          "count": 1,
-          "source": "bnbchain.org"
-        },
-        {
-          "count": 1,
-          "source": "coindesk.com"
         }
       ],
       "universe_distinct": 19
@@ -645,59 +706,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:31.927754+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.308,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0324,
-        "lift_log": 4.198,
-        "score": 0.3083,
-        "shared": 6
-      },
-      "rationale": "Liquity is a DeFi protocol; fork is a general concept, not directly comparable.",
-      "relation_type": "peer",
-      "slug": "liquity",
-      "source": "cotag",
-      "tag_name": "Liquity",
-      "title": "Liquity, Explained",
-      "weight": 31
-    },
-    {
-      "confidence": 0.245,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0411,
-        "lift_log": 4.917,
-        "score": 0.2453,
-        "shared": 4
-      },
-      "rationale": "Mt. Gox hack was a major event that led to forks in Bitcoin's history.",
-      "relation_type": "event",
-      "slug": "mt-gox",
-      "source": "cotag",
-      "tag_name": "Mt. Gox",
-      "title": "Mt. Gox, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.261,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0247,
-        "lift_log": 3.238,
-        "score": 0.2611,
-        "shared": 7
-      },
-      "rationale": "Polygon is a blockchain; fork is a general concept, not directly comparable.",
-      "relation_type": "peer",
-      "slug": "polygon",
-      "source": "cotag",
-      "tag_name": "Polygon",
-      "title": "Polygon, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "fork",
   "tag_name": "fork",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:55:03.029325+00:00",
+      "as_of": "2026-07-29T23:05:03.407018+00:00",
       "newsroom_total": 23,
-      "overall_share": 15,
+      "overall_share": 14,
       "provenance": "data",
       "series": [
         {
@@ -47,62 +47,103 @@
           "month": "2026-06",
           "newsroom": 6,
           "universe": 49
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 18
         }
       ],
-      "total_universe": 150,
-      "universe_total": 127
+      "total_universe": 168,
+      "universe_total": 145
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:55:01.158132+00:00",
+      "as_of": "2026-07-29T23:05:03.161650+00:00",
       "edges": [
         {
+          "confidence": 0.361,
+          "description": "Co-covered in 91 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "strc",
-          "phrase": "STRC is a strategy token; Strategy is a comparable DeFi strategy platform.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-08",
+          "phrase": "Co-covered in 91 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "strategy",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 36
         },
         {
+          "confidence": 0.23,
+          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "strc",
-          "phrase": "STRC uses leverage as a core DeFi mechanism to amplify returns.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-20",
+          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "leverage",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.212,
+          "description": "Co-covered in 25 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "strc",
-          "phrase": "Michael Saylor influences Bitcoin treasury narratives, relevant to STRC.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-29",
+          "phrase": "Co-covered in 25 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "saylor",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.198,
+          "description": "Co-covered in 67 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "strc",
-          "phrase": "STRC integrates with Bitcoin as a base asset for yield strategies.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 67 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.192,
+          "description": "Co-covered in 14 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "strc",
-          "phrase": "STRC generates yield through DeFi strategies.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 14 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -116,42 +157,62 @@
         },
         {
           "center": false,
+          "confidence": 0.361,
           "name": "Strategy",
+          "observed_at": "2026-07-08",
           "slug": "strategy",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 36
         },
         {
           "center": false,
+          "confidence": 0.23,
           "name": "Leverage",
+          "observed_at": "2026-06-20",
           "slug": "leverage",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.212,
           "name": "Saylor",
+          "observed_at": "2026-06-29",
           "slug": "saylor",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.198,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.192,
           "name": "Yield",
+          "observed_at": null,
           "slug": "yield",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -221,7 +282,7 @@
     },
     "reader_signal": {
       "article_count": 23,
-      "as_of": "2026-07-01T11:55:07.580112+00:00",
+      "as_of": "2026-07-29T23:05:03.781569+00:00",
       "most_clicked": {
         "clicks": 185,
         "date": "2026-03-30T15:45:04.102123+00:00",
@@ -229,8 +290,8 @@
         "lev_url": "https://leviathannews.xyz/217962/strive-and-tuttle-capital-management-file-for-crypto-credit-etf-targeting-strategys-strc-and-strives-sata-preferred-stocks"
       },
       "provenance": "data",
-      "top_decile_share": 24,
-      "total_clicks": 1080
+      "top_decile_share": 23,
+      "total_clicks": 1125
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:33:08.346503+00:00",
@@ -315,17 +376,8 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:55:07.466348+00:00",
+      "as_of": "2026-07-29T23:05:03.773832+00:00",
       "items": [
-        {
-          "clicks": 32,
-          "date": "2026-06-26T12:25:46.811905+00:00",
-          "headline": "Investors turn to Strategy's June 30 STRC ex-dividend date as markets await the preferred stock's monthly dividend rate reset amid heightened Bitcoin volatility",
-          "hot_score": 889.384557,
-          "lev_url": "https://leviathannews.xyz/263331/investors-are-watching-the-preferred-stocks-ex-dividend-date-and-monthly-dividend-rate-reset-closely",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626103151_Ki0tmY0XrOr7.jpg",
-          "url": "https://www.coindesk.com/markets/2026/06/26/all-eyes-on-strategy-s-june-30-ex-dividend-date-and-monthly-strc-dividend-rate-reset"
-        },
         {
           "clicks": 185,
           "date": "2026-03-30T15:45:04.102123+00:00",
@@ -336,7 +388,7 @@
           "url": "https://www.theblock.co/post/395703/strive-tuttle-file-etf-to-invest-strategys-preferred-strc-stock-strives-sata?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 35,
+          "clicks": 36,
           "date": "2026-04-22T04:25:01.327145+00:00",
           "headline": "Apyx tokenizes $50M of $STRC into $STRCx with xStocksFi, enabling onchain transparency, boosting RWA adoption and positioning for future reward farming on its balance sheet",
           "hot_score": 821.2,
@@ -345,7 +397,7 @@
           "url": "https://x.com/i/status/2046621263012270233"
         },
         {
-          "clicks": 53,
+          "clicks": 56,
           "date": "2026-05-06T17:30:58.725124+00:00",
           "headline": "21Shares lists Strategy Yield STRC ETN on London Stock Exchange, offering UK investors first exchange-traded access to Strategy’s perpetual preferred stock",
           "hot_score": 700.927577,
@@ -354,7 +406,7 @@
           "url": "https://www.theblock.co/post/400207/21shares-lists-strategy-linked-strc-etn-london-stock-exchange-expands-uk-footprint?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 29,
+          "clicks": 35,
           "date": "2026-06-19T10:57:42.124453+00:00",
           "headline": "Strive CEO calls Thursday the 'most difficult day in digital credit history' as forced leverage liquidations drove STRC and SATA selloff",
           "hot_score": 673.180045,
@@ -363,7 +415,7 @@
           "url": "https://www.theblock.co/post/405406/strive-ceo-strc-sata?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 27,
+          "clicks": 29,
           "date": "2026-04-17T21:07:27.912985+00:00",
           "headline": "Strategy proposes paying STRC's 11.5% yield semi-monthly, splitting each monthly payout into two cash distributions",
           "hot_score": 588.488376,
@@ -372,7 +424,16 @@
           "url": "https://www.coindesk.com/markets/2026/04/17/strategy-proposes-semi-monthly-dividends-on-its-popular-strc-preferred-stock"
         },
         {
-          "clicks": 37,
+          "clicks": 36,
+          "date": "2026-06-26T12:25:46.811905+00:00",
+          "headline": "Investors turn to Strategy's June 30 STRC ex-dividend date as markets await the preferred stock's monthly dividend rate reset amid heightened Bitcoin volatility",
+          "hot_score": 545.984804,
+          "lev_url": "https://leviathannews.xyz/263331/investors-are-watching-the-preferred-stocks-ex-dividend-date-and-monthly-dividend-rate-reset-closely",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626103151_Ki0tmY0XrOr7.jpg",
+          "url": "https://www.coindesk.com/markets/2026/06/26/all-eyes-on-strategy-s-june-30-ex-dividend-date-and-monthly-strc-dividend-rate-reset"
+        },
+        {
+          "clicks": 39,
           "date": "2026-05-17T17:41:23.913448+00:00",
           "headline": "Saylor teases Strategy BTC buy while 80% retail STRC holders face June 8 dividend vote",
           "hot_score": 502.848928,
@@ -381,7 +442,7 @@
           "url": "https://x.com/saylor/status/2055992847241711997"
         },
         {
-          "clicks": 49,
+          "clicks": 55,
           "date": "2026-06-08T12:05:46.007017+00:00",
           "headline": "Strategy has acquired 1,550 BTC for $101 million to increase our $BTC Reserve to ₿845,256. We have also increased our USD Reserve by $100 million to $1.0 billion. $MSTR $STRC\n",
           "hot_score": 467.53985,
@@ -393,7 +454,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:55:07.370959+00:00",
+      "as_of": "2026-07-29T23:05:03.762009+00:00",
       "editorial": [
         {
           "count": 10,
@@ -428,36 +489,36 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 66,
+          "count": 77,
           "source": "x.com"
         },
         {
-          "count": 19,
+          "count": 20,
           "source": "decrypt.co"
         },
         {
-          "count": 17,
+          "count": 18,
           "source": "theblock.co"
         },
         {
-          "count": 14,
+          "count": 16,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 4,
+          "source": "financefeeds.com"
         },
         {
           "count": 3,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 3,
-          "source": "financefeeds.com"
+          "count": 2,
+          "source": "t.me"
         },
         {
           "count": 1,
           "source": "wsj.com"
-        },
-        {
-          "count": 1,
-          "source": "t.me"
         },
         {
           "count": 1,
@@ -470,9 +531,13 @@
         {
           "count": 1,
           "source": "barrons.com"
+        },
+        {
+          "count": 1,
+          "source": "treeofalpha.com"
         }
       ],
-      "universe_distinct": 11
+      "universe_distinct": 12
     }
   },
   "official_links": [],
@@ -483,59 +548,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:58.445272+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.23,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0146,
-        "lift_log": 2.661,
-        "score": 0.2296,
-        "shared": 3
-      },
-      "rationale": "STRC uses leverage as a core DeFi mechanism to amplify returns.",
-      "relation_type": "primitive",
-      "slug": "leverage",
-      "source": "cotag",
-      "tag_name": "Leverage",
-      "title": "Leverage, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.212,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.074,
-        "lift_log": 3.792,
-        "score": 0.212,
-        "shared": 23
-      },
-      "rationale": "Michael Saylor influences Bitcoin treasury narratives, relevant to STRC.",
-      "relation_type": "influence",
-      "slug": "saylor",
-      "source": "cotag",
-      "tag_name": "Saylor",
-      "title": "Saylor, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.361,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1348,
-        "lift_log": 4.017,
-        "score": 0.3614,
-        "shared": 87
-      },
-      "rationale": "STRC is a strategy token; Strategy is a comparable DeFi strategy platform.",
-      "relation_type": "peer",
-      "slug": "strategy",
-      "source": "cotag",
-      "tag_name": "Strategy",
-      "title": "Strategy, Explained",
-      "weight": 36
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "strc",
   "tag_name": "STRC",

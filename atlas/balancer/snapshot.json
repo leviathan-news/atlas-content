@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:10:23.705913+00:00",
+      "as_of": "2026-07-29T22:56:24.474778+00:00",
       "newsroom_total": 44,
-      "overall_share": 79,
+      "overall_share": 75,
       "provenance": "data",
       "series": [
         {
@@ -95,62 +95,103 @@
           "month": "2026-04",
           "newsroom": 1,
           "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 3
         }
       ],
-      "total_universe": 56,
-      "universe_total": 12
+      "total_universe": 59,
+      "universe_total": 15
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:10:23.335155+00:00",
+      "as_of": "2026-07-29T22:56:24.218946+00:00",
       "edges": [
         {
+          "confidence": 0.252,
+          "description": "Co-covered in 11 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "balancer",
-          "phrase": "Balancer has suffered exploits, e.g., in 2021 and 2023.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-27",
+          "phrase": "Co-covered in 11 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "exploit",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.214,
+          "description": "Co-covered in 3 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "balancer",
-          "phrase": "Yearn integrates Balancer pools for yield strategies.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-15",
+          "phrase": "Co-covered in 3 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "yearn",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.212,
+          "description": "Co-covered in 3 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "balancer",
-          "phrase": "Paradigm invested in Balancer and supports its development.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-15",
+          "phrase": "Co-covered in 3 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "paradigm",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.194,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "balancer",
-          "phrase": "Balancer has been forked by other projects like Beethoven X.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "fork",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "balancer",
-          "phrase": "Balancer has shut down certain pools or UI versions.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "shut-down",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -164,42 +205,62 @@
         },
         {
           "center": false,
+          "confidence": 0.252,
           "name": "Exploit",
+          "observed_at": "2026-03-27",
           "slug": "exploit",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.214,
           "name": "Yearn",
+          "observed_at": "2026-04-15",
           "slug": "yearn",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Paradigm",
-          "slug": "paradigm",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "fork",
-          "slug": "fork",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.212,
+          "name": "Paradigm",
+          "observed_at": "2026-04-15",
+          "slug": "paradigm",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.194,
+          "name": "fork",
+          "observed_at": null,
+          "slug": "fork",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "Shut Down",
+          "observed_at": null,
           "slug": "shut-down",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -269,16 +330,16 @@
     },
     "reader_signal": {
       "article_count": 44,
-      "as_of": "2026-07-01T12:10:24.220819+00:00",
+      "as_of": "2026-07-29T22:56:24.868779+00:00",
       "most_clicked": {
-        "clicks": 275,
+        "clicks": 310,
         "date": "2024-07-19T01:36:38.098157+00:00",
         "headline": "Balancer launches its refreshed brand and new UI/UX - an extensive blazing fast AMM DeFi product suite",
         "lev_url": "https://leviathannews.xyz/6329/balancer-launches-its-refreshed-brand-and-new-uiux-an-extensive-blazing-fast-amm-defi-product-suite"
       },
       "provenance": "data",
       "top_decile_share": 26,
-      "total_clicks": 3412
+      "total_clicks": 3505
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:09:53.784065+00:00",
@@ -363,10 +424,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:10:24.142136+00:00",
+      "as_of": "2026-07-29T22:56:24.861996+00:00",
       "items": [
         {
-          "clicks": 79,
+          "clicks": 82,
           "date": "2026-03-24T09:57:06.149201+00:00",
           "headline": "Balancer came within inches of full shutdown before founder intervened with tokenomics overhaul, 0xngmi reveals",
           "hot_score": 486.433346,
@@ -375,7 +436,7 @@
           "url": "https://x.com/0xngmi/status/2036189205571780947"
         },
         {
-          "clicks": 93,
+          "clicks": 94,
           "date": "2026-03-12T16:30:38.234672+00:00",
           "headline": "$128M exploit on Balancer V2 reveals how a rounding error slipped past 11 audits from firms like OpenZeppelin, Certora and many more",
           "hot_score": 360.806559,
@@ -384,7 +445,7 @@
           "url": "https://x.com/i/status/2032119627824726153"
         },
         {
-          "clicks": 27,
+          "clicks": 29,
           "date": "2026-04-25T08:09:17.437260+00:00",
           "headline": "Balancer's $120M exploiter reactivates after 5 months, launders $11M through THORChain mirroring Kelp DAO route",
           "hot_score": 325.6,
@@ -393,7 +454,7 @@
           "url": "https://www.cryptotimes.io/2026/04/24/balancer-attacker-moves-11-3m-to-btc-via-thorchain-after-kelp-dao-precedent/"
         },
         {
-          "clicks": 67,
+          "clicks": 71,
           "date": "2026-03-23T21:01:15.367029+00:00",
           "headline": "Balancer opens two governance proposals targeting tokenomics overhaul and protocol priorities",
           "hot_score": 269.415213,
@@ -402,7 +463,7 @@
           "url": "https://x.com/i/status/2036163839050522911"
         },
         {
-          "clicks": 51,
+          "clicks": 53,
           "date": "2026-03-23T16:45:34.708631+00:00",
           "headline": "Nerite, arbitrum's Liquity v2 fork, will release their $NERI governance token tomorrow on a Balancer LBP",
           "hot_score": 159.816704,
@@ -411,7 +472,7 @@
           "url": "https://x.com/NeriteOrg/status/2036108122800935258"
         },
         {
-          "clicks": 34,
+          "clicks": 38,
           "date": "2026-02-25T17:11:25.666293+00:00",
           "headline": "Balancer published the largest analysis of LBP performance to date!",
           "hot_score": 127.421281,
@@ -420,7 +481,7 @@
           "url": "https://x.com/Balancer/status/2026691825688285498?s=20"
         },
         {
-          "clicks": 33,
+          "clicks": 35,
           "date": "2026-03-03T18:10:20.201683+00:00",
           "headline": "Balancer V3 is live on Monad!",
           "hot_score": 125.399257,
@@ -441,7 +502,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:10:24.055837+00:00",
+      "as_of": "2026-07-29T22:56:24.847287+00:00",
       "editorial": [
         {
           "count": 35,
@@ -484,7 +545,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 6,
+          "count": 8,
           "source": "x.com"
         },
         {
@@ -502,9 +563,13 @@
         {
           "count": 1,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 1,
+          "source": "gmxio.substack.com"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 6
     }
   },
   "official_links": [],
@@ -515,59 +580,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:17.767512+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.252,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0149,
-        "lift_log": 3.128,
-        "score": 0.252,
-        "shared": 11
-      },
-      "rationale": "Balancer has suffered exploits, e.g., in 2021 and 2023.",
-      "relation_type": "risk",
-      "slug": "exploit",
-      "source": "cotag",
-      "tag_name": "Exploit",
-      "title": "Exploit, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.212,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0317,
-        "lift_log": 4.293,
-        "score": 0.2123,
-        "shared": 3
-      },
-      "rationale": "Paradigm invested in Balancer and supports its development.",
-      "relation_type": "influence",
-      "slug": "paradigm",
-      "source": "cotag",
-      "tag_name": "Paradigm",
-      "title": "Paradigm, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.214,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0325,
-        "lift_log": 4.33,
-        "score": 0.2143,
-        "shared": 3
-      },
-      "rationale": "Yearn integrates Balancer pools for yield strategies.",
-      "relation_type": "ecosystem",
-      "slug": "yearn",
-      "source": "cotag",
-      "tag_name": "Yearn",
-      "title": "Yearn, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "balancer",
   "tag_name": "Balancer",

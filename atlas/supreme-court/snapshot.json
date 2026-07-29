@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:09:47.438778+00:00",
+      "as_of": "2026-07-29T23:05:05.749499+00:00",
       "newsroom_total": 19,
-      "overall_share": 37,
+      "overall_share": 30,
       "provenance": "data",
       "series": [
         {
@@ -113,62 +113,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 19
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 12
         }
       ],
-      "total_universe": 52,
-      "universe_total": 33
+      "total_universe": 64,
+      "universe_total": 45
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:09:46.169892+00:00",
+      "as_of": "2026-07-29T23:05:05.509776+00:00",
       "edges": [
         {
+          "confidence": 0.267,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "supreme-court",
-          "phrase": "Supreme Court may rule on tariff legality or executive power.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "tariffs",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.241,
+          "description": "Co-covered in 4 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "supreme-court",
-          "phrase": "Supreme Court is a legal institution; legal is its broader domain.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-06",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "legal",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.128,
+          "description": "Co-covered in 14 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "supreme-court",
-          "phrase": "Trump's policies and appointments shape Supreme Court cases.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 14 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "trump",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "supreme-court",
+          "observed_at": null,
           "phrase": "CFTC",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "cftc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "supreme-court",
+          "observed_at": null,
           "phrase": "launch",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "launch",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -182,42 +223,62 @@
         },
         {
           "center": false,
+          "confidence": 0.267,
           "name": "Tariffs",
+          "observed_at": null,
           "slug": "tariffs",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.241,
           "name": "legal",
+          "observed_at": "2026-05-06",
           "slug": "legal",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.128,
           "name": "Trump",
+          "observed_at": null,
           "slug": "trump",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "CFTC",
+          "observed_at": null,
           "slug": "cftc",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Launch",
+          "observed_at": null,
           "slug": "launch",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -281,16 +342,16 @@
     },
     "reader_signal": {
       "article_count": 19,
-      "as_of": "2026-07-01T12:09:48.390441+00:00",
+      "as_of": "2026-07-29T23:05:06.043624+00:00",
       "most_clicked": {
-        "clicks": 190,
+        "clicks": 198,
         "date": "2025-06-30T19:56:49.079320+00:00",
         "headline": "Supreme Court rejects bid to shield Coinbase user data from IRS.  Demand decentralization now, AIOZ is the way.",
         "lev_url": "https://leviathannews.xyz/13022/supreme-court-rejects-bid-to-shield-coinbase-user-data-from-irs-demand-decentralization-now-aioz-is-the-way"
       },
       "provenance": "data",
       "top_decile_share": 13,
-      "total_clicks": 1444
+      "total_clicks": 1530
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:58:53.821353+00:00",
@@ -375,10 +436,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:09:48.298979+00:00",
+      "as_of": "2026-07-29T23:05:06.038924+00:00",
       "items": [
         {
-          "clicks": 138,
+          "clicks": 141,
           "date": "2025-12-16T09:14:31.973604+00:00",
           "headline": "Corporate America is bracing for a messy tariff reckoning as companies rush to court to preserve billions in potential refunds if the Supreme Court overturns Trump-era levies.",
           "hot_score": 242.166117,
@@ -387,7 +448,7 @@
           "url": "https://www.axios.com/2025/12/15/trump-tariffs-supreme-court-costco-revlon"
         },
         {
-          "clicks": 97,
+          "clicks": 99,
           "date": "2026-02-20T15:13:04.261232+00:00",
           "headline": "Supreme Court Rules Trump Overstepped Authority by Imposing Global Tariffs Without Clear Congressional Approval. (",
           "hot_score": 124.44188,
@@ -396,7 +457,7 @@
           "url": "https://www.wsj.com/us-news/law/trump-tariffs-supreme-court-decision-29c26fa2"
         },
         {
-          "clicks": 64,
+          "clicks": 66,
           "date": "2026-01-09T15:54:05.140470+00:00",
           "headline": "A looming Supreme Court ruling on Learning Resources v. Trump could overturn emergency tariffs that generated over $200B in duties, putting $100B+ in revenue and potential importer refunds at risk as markets turn cautious and crypto trades sideways.",
           "hot_score": 105.292268,
@@ -405,7 +466,7 @@
           "url": "https://crypto.news/trump-tariff-ruling-looms-as-200b-in-duties-4500-page-code-hang-in-balance/"
         },
         {
-          "clicks": 190,
+          "clicks": 198,
           "date": "2025-06-30T19:56:49.079320+00:00",
           "headline": "Supreme Court rejects bid to shield Coinbase user data from IRS.  Demand decentralization now, AIOZ is the way.",
           "hot_score": 0.0,
@@ -414,7 +475,7 @@
           "url": "https://blog.bitfinex.com/education/ama-with-aioz-network-hosted-by-bitfinex-bitfreedomgus/"
         },
         {
-          "clicks": 149,
+          "clicks": 154,
           "date": "2023-09-27T18:42:32.353462+00:00",
           "headline": "Legal critics on the left are scared the US Supreme Court will modify Howey in wake of Gensler’s broad application of securities law to all crypto tokens ",
           "hot_score": 0.0,
@@ -423,7 +484,7 @@
           "url": "https://deliverypdf.ssrn.com/delivery.php?ID=953069091068000122078126093111076085042081072032058071029074124099121076096004019018037005034102047046050086082083126120072094055020062006009072094119066011064026098022069049102115112078108114068011082068070105065087108086085098000000086074089065089068&EXT=pdf&INDEX=TRUE"
         },
         {
-          "clicks": 131,
+          "clicks": 136,
           "date": "2024-10-14T19:41:51.198940+00:00",
           "headline": "Crypto companies are suing the SEC in Texas and Louisiana, aiming to challenge its regulations and push their cases to the Supreme Court.",
           "hot_score": 0.0,
@@ -432,7 +493,7 @@
           "url": "https://www.dlnews.com/articles/regulation/crypto-firms-seek-sympathetic-courts-in-texas/"
         },
         {
-          "clicks": 109,
+          "clicks": 110,
           "date": "2024-10-08T17:45:35.594866+00:00",
           "headline": "The US Supreme Court declines to review appeal over ownership of 69,370 BTC seized from Silk Road, $4.38 billion in sell pressure incoming",
           "hot_score": 0.0,
@@ -441,19 +502,19 @@
           "url": "https://x.com/BitcoinNewsCom/status/1843629921077473739"
         },
         {
-          "clicks": 95,
-          "date": "2024-06-27T16:53:15.753918+00:00",
-          "headline": "In a blow to the SEC, the Supreme Court rules defendants are entitled to a trial by jury, as opposed to in-house tribunals",
+          "clicks": 98,
+          "date": "2025-11-05T17:36:01.957727+00:00",
+          "headline": "Supreme Court signals doubt over legality of Trump’s global and fentanyl tariffs, questioning whether the former president overstepped Congress’s taxing authority.",
           "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/6130/in-a-blow-to-the-sec-the-supreme-court-rules-defendants-are-entitled-to-a-trial-by-jury-as-opposed-to-in-house-tribunals",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240627165306_G_nqwnri3Q==.png",
-          "url": "https://x.com/stephendpalley/status/1806351318296010884"
+          "lev_url": "https://leviathannews.xyz/20040/supreme-court-signals-doubt-over-legality-of-trumps-global-and-fentanyl-tariffs-questioning-whether-the-former-president-overstepped-congresss-taxing-authority",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251105173500_kDn5h8mZm7A=.jpg",
+          "url": "https://www.cnbc.com/2025/11/05/supreme-court-trump-trade-tarrifs-vos.html"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:09:48.203369+00:00",
+      "as_of": "2026-07-29T23:05:06.029255+00:00",
       "editorial": [
         {
           "count": 3,
@@ -508,11 +569,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 21,
+          "count": 26,
           "source": "truthsocial.com"
         },
         {
-          "count": 6,
+          "count": 9,
           "source": "x.com"
         },
         {
@@ -520,19 +581,27 @@
           "source": "decrypt.co"
         },
         {
+          "count": 3,
+          "source": "whitehouse.gov"
+        },
+        {
           "count": 1,
           "source": "cointelegraph.com"
         },
         {
           "count": 1,
-          "source": "whitehouse.gov"
+          "source": "financefeeds.com"
         },
         {
           "count": 1,
           "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
         }
       ],
-      "universe_distinct": 6
+      "universe_distinct": 8
     }
   },
   "official_links": [],
@@ -543,42 +612,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:58.796109+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.241,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.01,
-        "lift_log": 2.956,
-        "score": 0.2409,
-        "shared": 4
-      },
-      "rationale": "Supreme Court is a legal institution; legal is its broader domain.",
-      "relation_type": "category",
-      "slug": "legal",
-      "source": "cotag",
-      "tag_name": "legal",
-      "title": "legal, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.267,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0615,
-        "lift_log": 5.18,
-        "score": 0.2666,
-        "shared": 5
-      },
-      "rationale": "Supreme Court may rule on tariff legality or executive power.",
-      "relation_type": "event",
-      "slug": "tariffs",
-      "source": "cotag",
-      "tag_name": "Tariffs",
-      "title": "Tariffs, Explained",
-      "weight": 27
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "supreme-court",
   "tag_name": "Supreme Court",

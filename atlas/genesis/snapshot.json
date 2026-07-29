@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:08:07.728479+00:00",
+      "as_of": "2026-07-29T22:59:29.747139+00:00",
       "newsroom_total": 41,
-      "overall_share": 56,
+      "overall_share": 50,
       "provenance": "data",
       "series": [
         {
@@ -181,66 +181,107 @@
           "universe": 4
         },
         {
-          "ed_share": 22,
+          "ed_share": 20,
           "month": "2026-06",
           "newsroom": 2,
-          "universe": 7
+          "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 8
         }
       ],
-      "total_universe": 73,
-      "universe_total": 32
+      "total_universe": 82,
+      "universe_total": 41
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:08:07.344609+00:00",
+      "as_of": "2026-07-29T22:59:29.559047+00:00",
       "edges": [
         {
+          "confidence": 0.286,
+          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "genesis",
-          "phrase": "Genesis launched a points system for its lending platform.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-22",
+          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "points",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.157,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "genesis",
-          "phrase": "Genesis had a notable launch event for its services.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "launch",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.138,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "genesis",
-          "phrase": "FTX collapse impacted Genesis, leading to bankruptcy.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ftx",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.136,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "genesis",
-          "phrase": "Genesis launched its mainnet for decentralized services.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "mainnet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.132,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "genesis",
-          "phrase": "Genesis offered NFT lending and trading services.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "nft",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         }
       ],
@@ -254,42 +295,62 @@
         },
         {
           "center": false,
+          "confidence": 0.286,
           "name": "Points",
+          "observed_at": "2026-06-22",
           "slug": "points",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.157,
           "name": "Launch",
+          "observed_at": null,
           "slug": "launch",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.138,
           "name": "FTX",
+          "observed_at": null,
           "slug": "ftx",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.136,
           "name": "Mainnet",
+          "observed_at": null,
           "slug": "mainnet",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.132,
           "name": "NFT",
+          "observed_at": null,
           "slug": "nft",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         }
       ],
@@ -359,16 +420,16 @@
     },
     "reader_signal": {
       "article_count": 41,
-      "as_of": "2026-07-01T12:08:08.207004+00:00",
+      "as_of": "2026-07-29T22:59:29.967578+00:00",
       "most_clicked": {
-        "clicks": 320,
-        "date": "2024-08-02T19:14:22.293094+00:00",
-        "headline": "Genesis completes bankruptcy restructuring and plans to begin distributing $4 billion in crypto and cash with creditors receiving an average of 64% restitution",
-        "lev_url": "https://leviathannews.xyz/6525/genesis-completes-bankruptcy-restructuring-and-plans-to-begin-distributing-4-billion-in-crypto-and-cash-with-creditors-receiving-an-average-of-64-restitution"
+        "clicks": 326,
+        "date": "2024-01-12T13:39:59.864470+00:00",
+        "headline": "Genesis reaches settlement with New York regulator, will forfeit BitLicense and pay $8 million fine.",
+        "lev_url": "https://leviathannews.xyz/3736/genesis-reaches-settlement-with-new-york-regulator-will-forfeit-bitlicense-and-pay-8-million-fine"
       },
       "provenance": "data",
-      "top_decile_share": 27,
-      "total_clicks": 3907
+      "top_decile_share": 26,
+      "total_clicks": 4004
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:29:06.423583+00:00",
@@ -453,10 +514,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:08:08.124344+00:00",
+      "as_of": "2026-07-29T22:59:29.962665+00:00",
       "items": [
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2026-06-07T18:21:33.065541+00:00",
           "headline": "ZachXBT says law enforcement seized $18.9M from actors tied to Genesis creditor theft",
           "hot_score": 430.082041,
@@ -465,7 +526,7 @@
           "url": "https://x.com/zachxbt/status/2063612722315681914"
         },
         {
-          "clicks": 16,
+          "clicks": 20,
           "date": "2026-06-17T07:25:38.346364+00:00",
           "headline": "Draper Dragon opens $80M OrionFund for Cardano builders across Genesis and Apex tracks",
           "hot_score": 410.283685,
@@ -474,7 +535,7 @@
           "url": "https://x.com/draper_u/status/2066589739264971157"
         },
         {
-          "clicks": 47,
+          "clicks": 50,
           "date": "2026-04-04T06:29:42.473074+00:00",
           "headline": "Cancore launches Genesis program to reward early adopters and contributors as Mainnet rolls out.",
           "hot_score": 48.524494,
@@ -483,7 +544,7 @@
           "url": "https://x.com/cancore_io/status/2040037040562045159"
         },
         {
-          "clicks": 42,
+          "clicks": 43,
           "date": "2025-12-05T18:29:48.058822+00:00",
           "headline": "British Hacker Behind Genesis Creditor Heist Likely Arrested as $18.6M in Crypto Seized After Dubai Raid",
           "hot_score": 47.537619,
@@ -492,7 +553,16 @@
           "url": "https://t.me/investigations/290"
         },
         {
-          "clicks": 320,
+          "clicks": 326,
+          "date": "2024-01-12T13:39:59.864470+00:00",
+          "headline": "Genesis reaches settlement with New York regulator, will forfeit BitLicense and pay $8 million fine.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3736/genesis-reaches-settlement-with-new-york-regulator-will-forfeit-bitlicense-and-pay-8-million-fine",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://fortune.com/crypto/2024/01/12/genesis-settlement-department-financial-services-barry-silbert-bitlicense-crypto/"
+        },
+        {
+          "clicks": 322,
           "date": "2024-08-02T19:14:22.293094+00:00",
           "headline": "Genesis completes bankruptcy restructuring and plans to begin distributing $4 billion in crypto and cash with creditors receiving an average of 64% restitution",
           "hot_score": 0.0,
@@ -501,13 +571,13 @@
           "url": "https://www.theblock.co/post/309167/genesis-completes-bankruptcy-restructuring-begins-distributing-4-billion-in-crypto-and-cash"
         },
         {
-          "clicks": 318,
-          "date": "2024-01-12T13:39:59.864470+00:00",
-          "headline": "Genesis reaches settlement with New York regulator, will forfeit BitLicense and pay $8 million fine.",
+          "clicks": 203,
+          "date": "2024-10-24T07:56:06.358033+00:00",
+          "headline": "Denmark becomes the first country to tax unrealized crypto gains at 42%, impacting holdings from Bitcoin's genesis block in 2009, starting January 1, 2026.",
           "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/3736/genesis-reaches-settlement-with-new-york-regulator-will-forfeit-bitlicense-and-pay-8-million-fine",
+          "lev_url": "https://leviathannews.xyz/7472/denmark-becomes-the-first-country-to-tax-unrealized-crypto-gains-at-42-impacting-holdings-from-bitcoins-genesis-block-in-2009-starting-january-1-2026",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://fortune.com/crypto/2024/01/12/genesis-settlement-department-financial-services-barry-silbert-bitlicense-crypto/"
+          "url": "https://www.theblock.co/post/322789/denmark-plans-to-propose-taxing-unrealized-crypto-gains-in-upcoming-bill"
         },
         {
           "clicks": 202,
@@ -517,21 +587,12 @@
           "lev_url": "https://leviathannews.xyz/4350/gbtc-had-outflows-yes-but-it-is-largely-genesis-we-know-this-for-fact-who-is-simply-exchanging-gbtc-shares-for-spot-btc-so-net-neutral-event-plus-gbtc-is-all-pre-etf-money-bloomber",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240322233242_xVLKP26Ftw==.jpg",
           "url": "https://www.theblock.co/post/284295/much-of-gbtcs-outflows-come-from-genesis-selling-shares-says-analyst"
-        },
-        {
-          "clicks": 202,
-          "date": "2024-10-24T07:56:06.358033+00:00",
-          "headline": "Denmark becomes the first country to tax unrealized crypto gains at 42%, impacting holdings from Bitcoin's genesis block in 2009, starting January 1, 2026.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/7472/denmark-becomes-the-first-country-to-tax-unrealized-crypto-gains-at-42-impacting-holdings-from-bitcoins-genesis-block-in-2009-starting-january-1-2026",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://www.theblock.co/post/322789/denmark-plans-to-propose-taxing-unrealized-crypto-gains-in-upcoming-bill"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:08:08.042277+00:00",
+      "as_of": "2026-07-29T22:59:29.951995+00:00",
       "editorial": [
         {
           "count": 14,
@@ -586,7 +647,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 30,
+          "count": 37,
           "source": "x.com"
         },
         {
@@ -596,9 +657,17 @@
         {
           "count": 1,
           "source": "openeden.com"
+        },
+        {
+          "count": 1,
+          "source": "cantonnews.org"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
         }
       ],
-      "universe_distinct": 3
+      "universe_distinct": 5
     }
   },
   "official_links": [],
@@ -609,25 +678,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:33.682913+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.286,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.023,
-        "lift_log": 3.808,
-        "score": 0.2861,
-        "shared": 3
-      },
-      "rationale": "Genesis launched a points system for its lending platform.",
-      "relation_type": "product",
-      "slug": "points",
-      "source": "cotag",
-      "tag_name": "Points",
-      "title": "Points, Explained",
-      "weight": 29
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "genesis",
   "tag_name": "Genesis",

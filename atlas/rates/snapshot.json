@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:01:40.874917+00:00",
+      "as_of": "2026-07-29T23:03:40.548497+00:00",
       "newsroom_total": 63,
-      "overall_share": 16,
+      "overall_share": 13,
       "provenance": "data",
       "series": [
         {
@@ -190,74 +190,99 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 1
+          "universe": 102
         }
       ],
-      "total_universe": 402,
-      "universe_total": 339
+      "total_universe": 503,
+      "universe_total": 440
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:01:40.604705+00:00",
+      "as_of": "2026-07-29T23:03:40.313893+00:00",
       "edges": [
         {
+          "confidence": 0.362,
+          "description": "Co-covered in 25 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "rates",
-          "phrase": "Interest rates are a direct peer to rates, both referring to cost of borrowing.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-30",
+          "phrase": "Co-covered in 25 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "interest-rates",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 36
         },
         {
+          "confidence": 0.238,
+          "description": "Co-covered in 4 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "rates",
-          "phrase": "Rates are a core component of lending markets.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-30",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "lending",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.228,
+          "description": "Co-covered in 7 approved stories; most recently September 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "rates",
-          "phrase": "The Fed sets benchmark rates that influence market rates.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-09-18",
+          "phrase": "Co-covered in 7 approved stories; most recently September 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fed",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.219,
+          "description": "Co-covered in 5 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "rates",
-          "phrase": "Federal Reserve policy directly impacts interest rates.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-17",
+          "phrase": "Co-covered in 5 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "federal-reserve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.217,
+          "description": "Co-covered in 4 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "rates",
-          "phrase": "Powell's statements affect rate expectations.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-18",
+          "phrase": "Co-covered in 4 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "powell",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
-        },
-        {
-          "dir": "out",
-          "from": "rates",
-          "phrase": "Funding rates are a specific type of rate in crypto.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
-          "to": "funding",
-          "weight": 21
         }
       ],
       "nodes": [
@@ -270,51 +295,63 @@
         },
         {
           "center": false,
+          "confidence": 0.362,
           "name": "Interest rates",
+          "observed_at": "2026-05-30",
           "slug": "interest-rates",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 36
         },
         {
           "center": false,
+          "confidence": 0.238,
           "name": "Lending",
+          "observed_at": "2026-05-30",
           "slug": "lending",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.228,
           "name": "FED",
+          "observed_at": "2025-09-18",
           "slug": "fed",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.219,
           "name": "Federal Reserve",
+          "observed_at": "2026-06-17",
           "slug": "federal-reserve",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.217,
           "name": "Powell",
+          "observed_at": "2026-03-18",
           "slug": "powell",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
-        },
-        {
-          "center": false,
-          "name": "Funding",
-          "slug": "funding",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
         }
       ],
       "provenance": "data"
@@ -383,16 +420,16 @@
     },
     "reader_signal": {
       "article_count": 63,
-      "as_of": "2026-07-01T12:01:41.405423+00:00",
+      "as_of": "2026-07-29T23:03:40.905167+00:00",
       "most_clicked": {
-        "clicks": 1508,
+        "clicks": 1513,
         "date": "2024-04-19T21:45:33.191425+00:00",
         "headline": "BA Labs recommends Maker DAO decrease rates 3%, which would drop the Dai Savings Rate to 10%",
         "lev_url": "https://leviathannews.xyz/4927/ba-labs-recommends-maker-dao-decrease-rates-3-which-would-drop-the-dai-savings-rate-to-10"
       },
       "provenance": "data",
       "top_decile_share": 45,
-      "total_clicks": 7211
+      "total_clicks": 7302
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:53:01.092443+00:00",
@@ -477,10 +514,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:01:41.324734+00:00",
+      "as_of": "2026-07-29T23:03:40.899875+00:00",
       "items": [
         {
-          "clicks": 56,
+          "clicks": 57,
           "date": "2026-02-26T20:55:17.265313+00:00",
           "headline": "Smoothing crvUSD Borrow Rates",
           "hot_score": 154.674595,
@@ -516,7 +553,7 @@
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm"
         },
         {
-          "clicks": 1508,
+          "clicks": 1513,
           "date": "2024-04-19T21:45:33.191425+00:00",
           "headline": "BA Labs recommends Maker DAO decrease rates 3%, which would drop the Dai Savings Rate to 10%",
           "hot_score": 0.0,
@@ -525,7 +562,7 @@
           "url": "https://forum.makerdao.com/t/stability-scope-parameter-changes-12-under-sta-article-3-3/24132"
         },
         {
-          "clicks": 815,
+          "clicks": 816,
           "date": "2024-05-01T21:55:50.075622+00:00",
           "headline": "Liquity releases details on v2 BOLD stability pool opportunities: \"Will behave similarly to money markets but with opposite spreads: depending on the utilization and integration of BOLD in the broader DeFi ecosystem, the Stability Pool will generally exceed the average borrow rates\"",
           "hot_score": 0.0,
@@ -534,7 +571,7 @@
           "url": "https://www.liquity.org/blog/liquity-v2-bold-stability-pool-opportunities"
         },
         {
-          "clicks": 458,
+          "clicks": 460,
           "date": "2024-10-16T15:54:22.899987+00:00",
           "headline": "With Italy likely raising rates by 50%, it may be helpful to see which countries offer the best and worst tax rates on cryptocurrencies.",
           "hot_score": 0.0,
@@ -543,7 +580,7 @@
           "url": "https://protos.com/chart-how-bitcoin-and-crypto-are-taxed-in-the-eu/"
         },
         {
-          "clicks": 157,
+          "clicks": 159,
           "date": "2025-01-13T20:29:41.160251+00:00",
           "headline": "In today’s The Tentacle, we explore the USD0++ depeg drama that shook DeFi this weekend. Usual Money’s abrupt redemption changes sent ripples through Morpho, Pendle, and beyond—trapping leveraged farmers, spiking interest rates, and raising eyebrows over MEV Capital’s role in the chaos. Is this a case of mismanagement, bad comms, a calculated play, or all three?\n\nWe break down the mechanics, the fallout, and what this means for DeFi’s future in our latest newsletter. Don’t miss it—stay informed, stay ahead.",
           "hot_score": 0.0,
@@ -555,7 +592,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:01:41.242584+00:00",
+      "as_of": "2026-07-29T23:03:40.888000+00:00",
       "editorial": [
         {
           "count": 19,
@@ -610,32 +647,40 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 174,
+          "count": 241,
           "source": "x.com"
         },
         {
-          "count": 20,
+          "count": 25,
           "source": "theblock.co"
         },
         {
-          "count": 19,
+          "count": 23,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 22,
           "source": "financefeeds.com"
         },
         {
           "count": 19,
-          "source": "cointelegraph.com"
-        },
-        {
-          "count": 17,
           "source": "decrypt.co"
         },
         {
-          "count": 11,
+          "count": 13,
           "source": "truthsocial.com"
         },
         {
-          "count": 10,
+          "count": 12,
           "source": "chainwire.org"
+        },
+        {
+          "count": 6,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 4,
+          "source": "financewire.com"
         },
         {
           "count": 4,
@@ -647,18 +692,10 @@
         },
         {
           "count": 3,
-          "source": "financewire.com"
-        },
-        {
-          "count": 3,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 3,
-          "source": "blog.velvet.capital"
+          "source": "t.me"
         }
       ],
-      "universe_distinct": 51
+      "universe_distinct": 57
     }
   },
   "official_links": [],
@@ -669,110 +706,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:50.691995+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.228,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0415,
-        "lift_log": 4.53,
-        "score": 0.2277,
-        "shared": 7
-      },
-      "rationale": "The Fed sets benchmark rates that influence market rates.",
-      "relation_type": "influence",
-      "slug": "fed",
-      "source": "cotag",
-      "tag_name": "FED",
-      "title": "FED, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.219,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0407,
-        "lift_log": 4.354,
-        "score": 0.2193,
-        "shared": 5
-      },
-      "rationale": "Federal Reserve policy directly impacts interest rates.",
-      "relation_type": "influence",
-      "slug": "federal-reserve",
-      "source": "cotag",
-      "tag_name": "Federal Reserve",
-      "title": "Federal Reserve, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.21,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0087,
-        "lift_log": 2.298,
-        "score": 0.2103,
-        "shared": 4
-      },
-      "rationale": "Funding rates are a specific type of rate in crypto.",
-      "relation_type": "peer",
-      "slug": "funding",
-      "source": "cotag",
-      "tag_name": "Funding",
-      "title": "Funding, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.362,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1565,
-        "lift_log": 6.309,
-        "score": 0.3623,
-        "shared": 25
-      },
-      "rationale": "Interest rates are a direct peer to rates, both referring to cost of borrowing.",
-      "relation_type": "peer",
-      "slug": "interest-rates",
-      "source": "cotag",
-      "tag_name": "Interest rates",
-      "title": "Interest rates, Explained",
-      "weight": 36
-    },
-    {
-      "confidence": 0.238,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0127,
-        "lift_log": 2.867,
-        "score": 0.238,
-        "shared": 4
-      },
-      "rationale": "Rates are a core component of lending markets.",
-      "relation_type": "category",
-      "slug": "lending",
-      "source": "cotag",
-      "tag_name": "Lending",
-      "title": "Lending, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.217,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0319,
-        "lift_log": 4.396,
-        "score": 0.217,
-        "shared": 4
-      },
-      "rationale": "Powell's statements affect rate expectations.",
-      "relation_type": "influence",
-      "slug": "powell",
-      "source": "cotag",
-      "tag_name": "Powell",
-      "title": "Powell, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "rates",
   "tag_name": "Rates",

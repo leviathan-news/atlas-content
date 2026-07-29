@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:59:04.351721+00:00",
-      "newsroom_total": 22,
-      "overall_share": 59,
+      "as_of": "2026-07-29T23:04:18.991963+00:00",
+      "newsroom_total": 23,
+      "overall_share": 51,
       "provenance": "data",
       "series": [
         {
@@ -71,62 +71,103 @@
           "month": "2026-06",
           "newsroom": 3,
           "universe": 3
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 7
         }
       ],
-      "total_universe": 37,
-      "universe_total": 15
+      "total_universe": 45,
+      "universe_total": 22
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:59:03.829100+00:00",
+      "as_of": "2026-07-29T23:04:18.806218+00:00",
       "edges": [
         {
+          "confidence": 0.242,
+          "description": "Co-covered in 14 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seizure",
-          "phrase": "Coinbase Prime is used by DOJ to manage seized crypto assets.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-14",
+          "phrase": "Co-covered in 14 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "coinbase-prime",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.208,
+          "description": "Co-covered in 4 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seizure",
-          "phrase": "Bessent is a key figure in crypto seizure policy discussions.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-30",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bessent",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.176,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seizure",
-          "phrase": "DOJ conducts seizures of crypto assets in criminal cases.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "doj",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.158,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seizure",
-          "phrase": "FBI investigates and seizes crypto in law enforcement actions.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "fbi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.138,
+          "description": "Co-covered in 18 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seizure",
-          "phrase": "Bitcoin is a commonly seized crypto asset.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 18 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         }
       ],
@@ -140,42 +181,62 @@
         },
         {
           "center": false,
+          "confidence": 0.242,
           "name": "Coinbase Prime",
+          "observed_at": "2026-07-14",
           "slug": "coinbase-prime",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.208,
           "name": "Bessent",
+          "observed_at": "2026-05-30",
           "slug": "bessent",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.176,
           "name": "DOJ",
+          "observed_at": null,
           "slug": "doj",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.158,
           "name": "FBI",
+          "observed_at": null,
           "slug": "fbi",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.138,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         }
       ],
@@ -244,17 +305,17 @@
       "source": "https://www.chainalysis.com/blog/cryptocurrency-asset-seizure/"
     },
     "reader_signal": {
-      "article_count": 22,
-      "as_of": "2026-07-01T11:59:04.876832+00:00",
+      "article_count": 23,
+      "as_of": "2026-07-29T23:04:19.202712+00:00",
       "most_clicked": {
-        "clicks": 124,
+        "clicks": 126,
         "date": "2023-10-16T09:26:38.408778+00:00",
         "headline": "Due to major Bitcoin seizures, one of the largest hodlers of Bitcoin is the US government",
         "lev_url": "https://leviathannews.xyz/2977/due-to-major-bitcoin-seizures-one-of-the-largest-hodlers-of-bitcoin-is-the-us-government"
       },
       "provenance": "data",
-      "top_decile_share": 19,
-      "total_clicks": 1069
+      "top_decile_share": 18,
+      "total_clicks": 1145
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:18:54.913625+00:00",
@@ -339,10 +400,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:59:04.776692+00:00",
+      "as_of": "2026-07-29T23:04:19.197640+00:00",
       "items": [
         {
-          "clicks": 46,
+          "clicks": 48,
           "date": "2026-04-16T19:41:43.387554+00:00",
           "headline": "AI chats ruled admissible in court as US judge denies legal privilege, prompting law firms to warn clients their conversations with tools like Claude can be seized",
           "hot_score": 4162.519322,
@@ -351,7 +412,7 @@
           "url": "https://decrypt.co/364653/your-ai-chats-against-you-court-law-firms-scrambling"
         },
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-04-16T06:52:37.612115+00:00",
           "headline": "Propr unveils Hyperliquid trading platform, providing up to $100,000 funding to seize trading opportunities.",
           "hot_score": 3725.035834,
@@ -360,7 +421,7 @@
           "url": "https://x.com/ProprXYZ/status/2044416179209486756"
         },
         {
-          "clicks": 47,
+          "clicks": 51,
           "date": "2026-04-11T13:11:08.799612+00:00",
           "headline": "Bitcoin linked to suspected steroid distribution conspiracy moved by U.S. authorities to Coinbase Prime, highlighting continued handling of seized crypto assets",
           "hot_score": 2982.376752,
@@ -369,16 +430,7 @@
           "url": "https://www.theblock.co/post/397104/us-government-bitcoin-possibly-linked-steroid-distribution-conspiracy"
         },
         {
-          "clicks": 13,
-          "date": "2026-06-29T15:33:40.240741+00:00",
-          "headline": "Ukraine moves $8.3M in seized USDT to ARMA in first crypto transfer into state custody",
-          "hot_score": 2699.895628,
-          "lev_url": "https://leviathannews.xyz/264547/ukraine-moves-83m-in-seized-usdt-to-arma-in-first-crypto-transfer-into-state-custody",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629114316_Z4zrlaiDPw==.png",
-          "url": "https://decrypt.co/372279/ukraine-takes-8-3m-in-seized-crypto-under-state-management-in-a-first"
-        },
-        {
-          "clicks": 31,
+          "clicks": 33,
           "date": "2026-04-22T08:00:15.684787+00:00",
           "headline": "Arizona passes SB 1649 and SB 1042 to establish a state digital asset reserve funded by seized crypto, avoiding taxpayer costs and advancing public sector adoption",
           "hot_score": 801.6,
@@ -387,7 +439,16 @@
           "url": "https://x.com/i/status/2046648913516429364"
         },
         {
-          "clicks": 45,
+          "clicks": 22,
+          "date": "2026-06-29T15:33:40.240741+00:00",
+          "headline": "Ukraine moves $8.3M in seized USDT to ARMA in first crypto transfer into state custody",
+          "hot_score": 794.178188,
+          "lev_url": "https://leviathannews.xyz/264547/ukraine-moves-83m-in-seized-usdt-to-arma-in-first-crypto-transfer-into-state-custody",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629114316_Z4zrlaiDPw==.png",
+          "url": "https://decrypt.co/372279/ukraine-takes-8-3m-in-seized-crypto-under-state-management-in-a-first"
+        },
+        {
+          "clicks": 47,
           "date": "2026-05-15T06:57:59.550860+00:00",
           "headline": "Lawyer behind Arbitrum asset seizure case now targets Tether in bid to recover $344M in OFAC-frozen USDT linked to Iran’s Revolutionary Guard",
           "hot_score": 773.2,
@@ -396,31 +457,31 @@
           "url": "https://www.coindesk.com/policy/2026/05/15/lawyer-behind-arbitrum-crypto-seizure-fight-now-targets-tether-for-usd344-million"
         },
         {
-          "clicks": 50,
+          "clicks": 41,
+          "date": "2026-07-14T05:31:08.162363+00:00",
+          "headline": "U.S. government-linked wallets move $297M in seized BTC and ETH to Coinbase Prime",
+          "hot_score": 637.488467,
+          "lev_url": "https://leviathannews.xyz/274451/us-government-linked-wallets-move-297m-in-seized-btc-and-eth-to-coinbase-prime",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260714023556_Z4zrlaiDPw==.png",
+          "url": "https://x.com/arkham/status/2076769927428550876"
+        },
+        {
+          "clicks": 53,
           "date": "2026-05-30T07:18:28.930389+00:00",
           "headline": "US Treasury crosses $1 billion in seized Iranian crypto under Operation Economic Fury, mostly USDT on Tron",
           "hot_score": 457.02642,
           "lev_url": "https://leviathannews.xyz/250315/us-treasury-crosses-1-billion-in-seized-iranian-crypto-under-operation-economic-fury-mostly-usdt-on-tron",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260529213039_ejS9AoXYfVk8.jpg",
           "url": "https://www.theblock.co/post/403075/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says"
-        },
-        {
-          "clicks": 26,
-          "date": "2026-06-07T18:21:33.065541+00:00",
-          "headline": "ZachXBT says law enforcement seized $18.9M from actors tied to Genesis creditor theft",
-          "hot_score": 430.082041,
-          "lev_url": "https://leviathannews.xyz/253926/zachxbt-says-law-enforcement-seized-189m-from-actors-tied-to-genesis-creditor-theft",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260607151533_Z4zrlaiDPw==.png",
-          "url": "https://x.com/zachxbt/status/2063612722315681914"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:59:04.693687+00:00",
+      "as_of": "2026-07-29T23:04:19.186098+00:00",
       "editorial": [
         {
-          "count": 6,
+          "count": 7,
           "source": "x.com"
         },
         {
@@ -464,15 +525,15 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 5,
+          "count": 9,
           "source": "x.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "financefeeds.com"
         },
         {
-          "count": 1,
+          "count": 2,
           "source": "justice.gov"
         },
         {
@@ -494,9 +555,13 @@
         {
           "count": 1,
           "source": "truthsocial.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
         }
       ],
-      "universe_distinct": 8
+      "universe_distinct": 9
     }
   },
   "official_links": [],
@@ -507,42 +572,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:54.528334+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.208,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0319,
-        "lift_log": 4.185,
-        "score": 0.2076,
-        "shared": 4
-      },
-      "rationale": "Bessent is a key figure in crypto seizure policy discussions.",
-      "relation_type": "influence",
-      "slug": "bessent",
-      "source": "cotag",
-      "tag_name": "Bessent",
-      "title": "Bessent, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.242,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0485,
-        "lift_log": 4.758,
-        "score": 0.2418,
-        "shared": 6
-      },
-      "rationale": "Coinbase Prime is used by DOJ to manage seized crypto assets.",
-      "relation_type": "infrastructure",
-      "slug": "coinbase-prime",
-      "source": "cotag",
-      "tag_name": "Coinbase Prime",
-      "title": "Coinbase Prime, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "seizure",
   "tag_name": "Seizure",

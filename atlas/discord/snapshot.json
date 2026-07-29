@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:07:03.435664+00:00",
+      "as_of": "2026-07-29T22:58:17.508265+00:00",
       "newsroom_total": 27,
-      "overall_share": 34,
+      "overall_share": 29,
       "provenance": "data",
       "series": [
         {
@@ -143,62 +143,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 9
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 14
         }
       ],
-      "total_universe": 80,
-      "universe_total": 53
+      "total_universe": 94,
+      "universe_total": 67
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:07:02.272820+00:00",
+      "as_of": "2026-07-29T22:58:17.208355+00:00",
       "edges": [
         {
+          "confidence": 0.223,
+          "description": "Co-covered in 5 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "discord",
-          "phrase": "Both Discord and rewards are unrelated; rewards is a general concept.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-08",
+          "phrase": "Co-covered in 5 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "rewards",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.161,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "discord",
-          "phrase": "Telegram is a direct competitor to Discord as a messaging platform.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "telegram",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.157,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "discord",
-          "phrase": "Hacked refers to security incidents that can affect Discord.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "hacked",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "discord",
-          "phrase": "Convex",
-          "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "convex",
-          "weight": 10
-        },
-        {
-          "dir": "out",
-          "from": "discord",
+          "observed_at": null,
           "phrase": "open",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "open",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "from": "discord",
+          "observed_at": null,
+          "phrase": "unlock",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "unlock",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -212,42 +253,62 @@
         },
         {
           "center": false,
+          "confidence": 0.223,
           "name": "Rewards",
+          "observed_at": "2026-07-08",
           "slug": "rewards",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.161,
           "name": "Telegram",
+          "observed_at": null,
           "slug": "telegram",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.157,
           "name": "Hacked",
+          "observed_at": null,
           "slug": "hacked",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
-          "name": "Convex",
-          "slug": "convex",
+          "confidence": 0.0,
+          "name": "OPEN",
+          "observed_at": null,
+          "slug": "open",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
-          "name": "OPEN",
-          "slug": "open",
+          "confidence": 0.0,
+          "name": "Unlock",
+          "observed_at": null,
+          "slug": "unlock",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -305,16 +366,16 @@
     },
     "reader_signal": {
       "article_count": 27,
-      "as_of": "2026-07-01T12:07:04.516410+00:00",
+      "as_of": "2026-07-29T22:58:17.959643+00:00",
       "most_clicked": {
-        "clicks": 197,
-        "date": "2025-05-13T14:12:07.082394+00:00",
-        "headline": "Patrick Collins of Cyfrin Updraft providing a live demo of the Curve coursework, live now in Discord",
-        "lev_url": "https://leviathannews.xyz/11288/patrick-collins-of-cyfrin-updraft-providing-a-live-demo-of-the-curve-coursework-live-now-in-discord"
+        "clicks": 206,
+        "date": "2024-02-16T09:32:41.516024+00:00",
+        "headline": "Hardware wallet users face challenges claiming Dymension airdrop tokens, with Solana claimants and Ledger/Trezor users encountering hurdles. Discord reports and X reveal initial access issues for Phantom wallet users paired with Ledger hardware wallets.",
+        "lev_url": "https://leviathannews.xyz/3996/hardware-wallet-users-face-challenges-claiming-dymension-airdrop-tokens-with-solana-claimants-and-ledgertrezor-users-encountering-hurdles-discord-reports-and-x-reveal-initial-acces"
       },
       "provenance": "data",
       "top_decile_share": 17,
-      "total_clicks": 2339
+      "total_clicks": 2407
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:10:50.286667+00:00",
@@ -388,10 +449,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:07:04.439262+00:00",
+      "as_of": "2026-07-29T22:58:17.953589+00:00",
       "items": [
         {
-          "clicks": 59,
+          "clicks": 62,
           "date": "2026-04-03T12:47:10.520619+00:00",
           "headline": "AdEx evolves from blockchain ad network to solving Web3 user fragmentation after nearly a decade.",
           "hot_score": 67.203841,
@@ -400,7 +461,7 @@
           "url": "https://x.com/AdEx_Network/status/2039704479298179280"
         },
         {
-          "clicks": 47,
+          "clicks": 50,
           "date": "2026-04-04T06:29:42.473074+00:00",
           "headline": "Cancore launches Genesis program to reward early adopters and contributors as Mainnet rolls out.",
           "hot_score": 48.524494,
@@ -409,7 +470,7 @@
           "url": "https://x.com/cancore_io/status/2040037040562045159"
         },
         {
-          "clicks": 30,
+          "clicks": 33,
           "date": "2026-02-09T23:44:05.665115+00:00",
           "headline": "RAAC Discord appears to be compromised, do not interact!",
           "hot_score": 34.40192,
@@ -418,7 +479,25 @@
           "url": "https://x.com/i/status/2021006685276672420"
         },
         {
-          "clicks": 197,
+          "clicks": 206,
+          "date": "2024-02-16T09:32:41.516024+00:00",
+          "headline": "Hardware wallet users face challenges claiming Dymension airdrop tokens, with Solana claimants and Ledger/Trezor users encountering hurdles. Discord reports and X reveal initial access issues for Phantom wallet users paired with Ledger hardware wallets.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3996/hardware-wallet-users-face-challenges-claiming-dymension-airdrop-tokens-with-solana-claimants-and-ledgertrezor-users-encountering-hurdles-discord-reports-and-x-reveal-initial-acces",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://blockworks.co/news/dymension-airdrop-hardware-wallet-struggles"
+        },
+        {
+          "clicks": 203,
+          "date": "2025-04-05T13:22:31.255452+00:00",
+          "headline": "Want 24/7 crypto news powered by Leviathan in your Discord server?  Visit #leviathan-updates and click Follow!",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/10406/want-247-crypto-news-powered-by-leviathan-in-your-discord-server-visit-leviathan-updates-and-click-follow",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250405132210_eFsPZ59kzRk=.jpg",
+          "url": "https://discord.gg/bCscMg3ACE"
+        },
+        {
+          "clicks": 201,
           "date": "2025-05-13T14:12:07.082394+00:00",
           "headline": "Patrick Collins of Cyfrin Updraft providing a live demo of the Curve coursework, live now in Discord",
           "hot_score": 0.0,
@@ -428,24 +507,6 @@
         },
         {
           "clicks": 195,
-          "date": "2025-04-05T13:22:31.255452+00:00",
-          "headline": "Want 24/7 crypto news powered by Leviathan in your Discord server?  Visit #leviathan-updates and click Follow!",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/10406/want-247-crypto-news-powered-by-leviathan-in-your-discord-server-visit-leviathan-updates-and-click-follow",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250405132210_eFsPZ59kzRk=.jpg",
-          "url": "https://discord.gg/bCscMg3ACE"
-        },
-        {
-          "clicks": 194,
-          "date": "2024-02-16T09:32:41.516024+00:00",
-          "headline": "Hardware wallet users face challenges claiming Dymension airdrop tokens, with Solana claimants and Ledger/Trezor users encountering hurdles. Discord reports and X reveal initial access issues for Phantom wallet users paired with Ledger hardware wallets.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/3996/hardware-wallet-users-face-challenges-claiming-dymension-airdrop-tokens-with-solana-claimants-and-ledgertrezor-users-encountering-hurdles-discord-reports-and-x-reveal-initial-acces",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://blockworks.co/news/dymension-airdrop-hardware-wallet-struggles"
-        },
-        {
-          "clicks": 192,
           "date": "2024-07-14T14:22:41.651105+00:00",
           "headline": "Ethena Discord has been hacked, exercise caution!",
           "hot_score": 0.0,
@@ -466,7 +527,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:07:04.354955+00:00",
+      "as_of": "2026-07-29T22:58:17.940929+00:00",
       "editorial": [
         {
           "count": 17,
@@ -505,19 +566,23 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 50,
+          "count": 62,
           "source": "x.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "treeofalpha.com"
         },
         {
           "count": 1,
           "source": "zkverify.io"
+        },
+        {
+          "count": 1,
+          "source": "alienworlds.io"
         }
       ],
-      "universe_distinct": 3
+      "universe_distinct": 4
     }
   },
   "official_links": [],
@@ -528,25 +593,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:36:27.736148+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.223,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0098,
-        "lift_log": 2.556,
-        "score": 0.2226,
-        "shared": 4
-      },
-      "rationale": "Both Discord and rewards are unrelated; rewards is a general concept.",
-      "relation_type": "peer",
-      "slug": "rewards",
-      "source": "cotag",
-      "tag_name": "Rewards",
-      "title": "Rewards, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "discord",
   "tag_name": "Discord",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:59:36.336108+00:00",
-      "newsroom_total": 69,
-      "overall_share": 40,
+      "as_of": "2026-07-29T23:05:21.824180+00:00",
+      "newsroom_total": 70,
+      "overall_share": 34,
       "provenance": "data",
       "series": [
         {
@@ -191,62 +191,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 19
+        },
+        {
+          "ed_share": 3,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 34
         }
       ],
-      "total_universe": 171,
-      "universe_total": 102
+      "total_universe": 206,
+      "universe_total": 136
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:59:34.245917+00:00",
+      "as_of": "2026-07-29T23:05:21.607934+00:00",
       "edges": [
         {
+          "confidence": 0.261,
+          "description": "Co-covered in 6 approved stories; most recently September 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "testnet",
-          "phrase": "Testnets are used by developers to test applications before mainnet deployment.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-09-26",
+          "phrase": "Co-covered in 6 approved stories; most recently September 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "developers",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.236,
+          "description": "Co-covered in 10 approved stories; most recently October 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "testnet",
-          "phrase": "Testnets often host Ethereum upgrades for testing before mainnet activation.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-10-29",
+          "phrase": "Co-covered in 10 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ethereum-upgrade",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.225,
+          "description": "Co-covered in 3 approved stories; most recently October 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "testnet",
-          "phrase": "Blobs are a data structure tested on testnets for scalability improvements.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-10-29",
+          "phrase": "Co-covered in 3 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "blobs",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.212,
+          "description": "Co-covered in 3 approved stories; most recently April 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "testnet",
-          "phrase": "Pectra is an Ethereum upgrade tested on testnets.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-04-03",
+          "phrase": "Co-covered in 3 approved stories; most recently April 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "pectra",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.197,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "testnet",
-          "phrase": "Arc is a testnet for the Arcium network, comparable to other testnets.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "arc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         }
       ],
@@ -260,42 +301,62 @@
         },
         {
           "center": false,
+          "confidence": 0.261,
           "name": "Developers",
+          "observed_at": "2025-09-26",
           "slug": "developers",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.236,
           "name": "Ethereum Upgrade",
+          "observed_at": "2025-10-29",
           "slug": "ethereum-upgrade",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.225,
           "name": "Blobs",
+          "observed_at": "2025-10-29",
           "slug": "blobs",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.212,
           "name": "Pectra",
+          "observed_at": "2025-04-03",
           "slug": "pectra",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.197,
           "name": "Arc",
+          "observed_at": null,
           "slug": "arc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         }
       ],
@@ -364,17 +425,17 @@
       "source": "https://chain.link/blog/sepolia-vs-holesky-comparison"
     },
     "reader_signal": {
-      "article_count": 69,
-      "as_of": "2026-07-01T11:59:37.048941+00:00",
+      "article_count": 70,
+      "as_of": "2026-07-29T23:05:22.387602+00:00",
       "most_clicked": {
-        "clicks": 306,
+        "clicks": 317,
         "date": "2023-08-18T19:06:05.995856+00:00",
         "headline": "Ethereum core developers set to release Holesky, a groundbreaking testnet, for enhanced smart contract testing",
         "lev_url": "https://leviathannews.xyz/2286/ethereum-core-developers-set-to-release-holesky-a-groundbreaking-testnet-for-enhanced-smart-contract-testing"
       },
       "provenance": "data",
-      "top_decile_share": 22,
-      "total_clicks": 6037
+      "top_decile_share": 25,
+      "total_clicks": 6201
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:09:43.644273+00:00",
@@ -459,10 +520,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:59:36.962192+00:00",
+      "as_of": "2026-07-29T23:05:22.377600+00:00",
       "items": [
         {
-          "clicks": 51,
+          "clicks": 32,
+          "date": "2026-07-10T14:11:20.672644+00:00",
+          "headline": "Pulsar launches a neobank-style personal finance app on Arc Testnet with fiat and stablecoin support",
+          "hot_score": 426.342151,
+          "lev_url": "https://leviathannews.xyz/272660/pulsar-is-building-the-app-layer-for-personal-finance-and-everyday-payments-on-arc-testnet",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260710111709_yAJ2MqjX7096.jpg",
+          "url": "https://x.com/arc/status/2075248618253029609"
+        },
+        {
+          "clicks": 52,
           "date": "2026-04-01T08:03:43.554152+00:00",
           "headline": "ERC-8183 launches on Arc Testnet introducing Jobs for verifiable onchain work between AI agents and trustless commerce",
           "hot_score": 275.181434,
@@ -471,7 +541,7 @@
           "url": "https://x.com/i/status/2039100425551688117"
         },
         {
-          "clicks": 85,
+          "clicks": 87,
           "date": "2026-04-02T22:00:43.471902+00:00",
           "headline": "Quip Network goes live with quantum-classical testnet powered by D-Wave annealing hardware",
           "hot_score": 219.289581,
@@ -489,7 +559,7 @@
           "url": "https://x.com/dominationfi/status/2039856724291834071"
         },
         {
-          "clicks": 74,
+          "clicks": 75,
           "date": "2025-12-09T19:52:11.033890+00:00",
           "headline": "Tempo launches its public testnet",
           "hot_score": 111.100782,
@@ -498,7 +568,7 @@
           "url": "https://tempo.xyz/blog/testnet"
         },
         {
-          "clicks": 59,
+          "clicks": 61,
           "date": "2026-04-03T09:27:07.711259+00:00",
           "headline": "OKX Wallet integrates Pharos Network testnet enabling seamless exploration of their ecosystem with upcoming pre-mainnet campaign activities through the official Wallet platform.",
           "hot_score": 68.856098,
@@ -507,7 +577,7 @@
           "url": "https://x.com/i/status/2039717453060583524"
         },
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2025-12-12T19:32:28.565949+00:00",
           "headline": "Hyperliquid Debuts Portfolio Margin on Testnet, Merging Spot and Perps for Major Capital Efficiency Gains Ahead of Full HIP-3 Integration.",
           "hot_score": 37.790096,
@@ -516,31 +586,22 @@
           "url": "https://x.com/Crypto_Briefing/status/1999539909950861366?s=20"
         },
         {
-          "clicks": 306,
+          "clicks": 317,
           "date": "2023-08-18T19:06:05.995856+00:00",
           "headline": "Ethereum core developers set to release Holesky, a groundbreaking testnet, for enhanced smart contract testing",
           "hot_score": 0.0,
           "lev_url": "https://leviathannews.xyz/2286/ethereum-core-developers-set-to-release-holesky-a-groundbreaking-testnet-for-enhanced-smart-contract-testing",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
           "url": "https://www.theblock.co/post/246335/ethereum-developers-to-debut-new-testnet-holesky-next-month"
-        },
-        {
-          "clicks": 260,
-          "date": "2024-02-28T14:14:57.212862+00:00",
-          "headline": "Babylon's inaugural testnet goes live, offering NFT passes as part of Bitcoin staking protocol trial.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/4124/babylons-inaugural-testnet-goes-live-offering-nft-passes-as-part-of-bitcoin-staking-protocol-trial",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240228141110_gLrB1LaB5g==.jpg",
-          "url": "https://www.theblock.co/post/279515/bitcoin-babylon-testnet-nft-passes"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:59:36.864009+00:00",
+      "as_of": "2026-07-29T23:05:22.358494+00:00",
       "editorial": [
         {
-          "count": 32,
+          "count": 33,
           "source": "x.com"
         },
         {
@@ -592,8 +653,12 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 79,
+          "count": 105,
           "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "blog.sui.io"
         },
         {
           "count": 4,
@@ -601,15 +666,19 @@
         },
         {
           "count": 3,
-          "source": "blog.sui.io"
-        },
-        {
-          "count": 2,
           "source": "tellor.io"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "neo.org"
+        },
+        {
+          "count": 3,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 2,
+          "source": "story.foundation"
         },
         {
           "count": 2,
@@ -630,17 +699,9 @@
         {
           "count": 1,
           "source": "doublezero.xyz"
-        },
-        {
-          "count": 1,
-          "source": "cotinetwork.medium.com"
-        },
-        {
-          "count": 1,
-          "source": "story.foundation"
         }
       ],
-      "universe_distinct": 16
+      "universe_distinct": 18
     }
   },
   "official_links": [],
@@ -651,76 +712,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:37:00.174403+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.225,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0203,
-        "lift_log": 4.694,
-        "score": 0.2253,
-        "shared": 3
-      },
-      "rationale": "Blobs are a data structure tested on testnets for scalability improvements.",
-      "relation_type": "primitive",
-      "slug": "blobs",
-      "source": "cotag",
-      "tag_name": "Blobs",
-      "title": "Blobs, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.261,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0172,
-        "lift_log": 3.316,
-        "score": 0.2607,
-        "shared": 6
-      },
-      "rationale": "Testnets are used by developers to test applications before mainnet deployment.",
-      "relation_type": "infrastructure",
-      "slug": "developers",
-      "source": "cotag",
-      "tag_name": "Developers",
-      "title": "Developers, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.236,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0445,
-        "lift_log": 4.675,
-        "score": 0.2358,
-        "shared": 10
-      },
-      "rationale": "Testnets often host Ethereum upgrades for testing before mainnet activation.",
-      "relation_type": "event",
-      "slug": "ethereum-upgrade",
-      "source": "cotag",
-      "tag_name": "Ethereum Upgrade",
-      "title": "Ethereum Upgrade, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.212,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0176,
-        "lift_log": 4.435,
-        "score": 0.2122,
-        "shared": 3
-      },
-      "rationale": "Pectra is an Ethereum upgrade tested on testnets.",
-      "relation_type": "event",
-      "slug": "pectra",
-      "source": "cotag",
-      "tag_name": "Pectra",
-      "title": "Pectra, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "testnet",
   "tag_name": "Testnet",

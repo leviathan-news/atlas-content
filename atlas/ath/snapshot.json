@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:02:45.135069+00:00",
+      "as_of": "2026-07-29T22:56:16.104227+00:00",
       "newsroom_total": 55,
-      "overall_share": 7,
+      "overall_share": 5,
       "provenance": "data",
       "series": [
         {
@@ -148,63 +148,98 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 8
+          "universe": 226
         }
       ],
-      "total_universe": 786,
-      "universe_total": 731
+      "total_universe": 1004,
+      "universe_total": 949
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:02:44.846706+00:00",
+      "as_of": "2026-07-29T22:56:15.878484+00:00",
       "edges": [
         {
+          "confidence": 0.333,
+          "description": "Co-covered in 6 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ath",
-          "phrase": "ATH often correlates with high open interest in derivatives.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-02",
+          "phrase": "Co-covered in 6 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "open-interest",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 33
         },
         {
+          "confidence": 0.154,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ath",
-          "phrase": "Market cap is a key metric for ATH valuation.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "market-cap",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.13,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ath",
-          "phrase": "TVL can indicate network activity near ATH.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tvl",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.126,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ath",
-          "phrase": "Hyperliquid is a perp DEX; ATH may refer to its price.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "hyperliquid",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "ath",
+          "observed_at": null,
           "phrase": "Bitcoin",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -218,42 +253,62 @@
         },
         {
           "center": false,
+          "confidence": 0.333,
           "name": "Open Interest",
+          "observed_at": "2026-06-02",
           "slug": "open-interest",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 33
         },
         {
           "center": false,
+          "confidence": 0.154,
           "name": "Market Cap",
+          "observed_at": null,
           "slug": "market-cap",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.13,
           "name": "TVL",
+          "observed_at": null,
           "slug": "tvl",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.126,
           "name": "Hyperliquid",
+          "observed_at": null,
           "slug": "hyperliquid",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -323,16 +378,16 @@
     },
     "reader_signal": {
       "article_count": 55,
-      "as_of": "2026-07-01T12:02:45.679305+00:00",
+      "as_of": "2026-07-29T22:56:16.762140+00:00",
       "most_clicked": {
-        "clicks": 151,
+        "clicks": 153,
         "date": "2025-04-03T10:57:16.296656+00:00",
         "headline": "BTC’s hash rate just hit a new ATH, but sluggish network activity, low fees, and empty blocks are fueling doubts about the network’s long-term health and utility.",
         "lev_url": "https://leviathannews.xyz/10378/btcs-hash-rate-just-hit-a-new-ath-but-sluggish-network-activity-low-fees-and-empty-blocks-are-fueling-doubts-about-the-networks-long-term-health-and-utility"
       },
       "provenance": "data",
       "top_decile_share": 19,
-      "total_clicks": 3027
+      "total_clicks": 3122
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:28:36.698210+00:00",
@@ -417,10 +472,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:02:45.603800+00:00",
+      "as_of": "2026-07-29T22:56:16.757609+00:00",
       "items": [
         {
-          "clicks": 101,
+          "clicks": 104,
           "date": "2026-04-09T23:48:22.511642+00:00",
           "headline": "Ethereum stablecoin supply hits $180B ATH with 60% market share, up 150% in three years",
           "hot_score": 25396.888344,
@@ -429,7 +484,7 @@
           "url": "https://x.com/tokenterminal/status/2041465337149878776"
         },
         {
-          "clicks": 30,
+          "clicks": 35,
           "date": "2026-04-17T05:17:37.466830+00:00",
           "headline": "Aave V4 hits new ATH with no incentives or points, Kulechov touts safety-first approach",
           "hot_score": 1860.172612,
@@ -438,7 +493,7 @@
           "url": "https://x.com/StaniKulechov/status/2044922172062224816"
         },
         {
-          "clicks": 27,
+          "clicks": 28,
           "date": "2026-06-16T20:37:40.893724+00:00",
           "headline": "Solana tokenized equities hit $187.9M 24h spot volume ATH as $SPCX clears $105M",
           "hot_score": 433.366129,
@@ -447,7 +502,7 @@
           "url": "https://x.com/solana/status/2066909177310552191"
         },
         {
-          "clicks": 39,
+          "clicks": 40,
           "date": "2026-04-21T20:48:55.556849+00:00",
           "headline": "Tether hits $188B ATH as Drift's $285M hack and Kelp DAO exploits drive DeFi flight from USDC",
           "hot_score": 433.0,
@@ -456,7 +511,7 @@
           "url": "https://decrypt.co/365049/tether-stablecoin-dominance-over-circle-usdc-major-crypto-hacks/"
         },
         {
-          "clicks": 77,
+          "clicks": 97,
           "date": "2026-01-20T10:31:56.489597+00:00",
           "headline": "SILVER HITS $95/OZ FOR THE FIRST TIME IN HISTORY",
           "hot_score": 133.334839,
@@ -465,7 +520,7 @@
           "url": "https://www.cnbc.com/quotes/@SI.1"
         },
         {
-          "clicks": 45,
+          "clicks": 75,
           "date": "2025-12-01T11:04:59.987034+00:00",
           "headline": "Silver is hitting another ATH $58.61",
           "hot_score": 81.188706,
@@ -474,7 +529,7 @@
           "url": "https://www.cnbc.com/quotes/@SI.1"
         },
         {
-          "clicks": 45,
+          "clicks": 46,
           "date": "2026-03-09T11:52:34.436190+00:00",
           "headline": "Hyperliquid HIP-3 markets hit $1.2B open interest ATH as Bloomberg spotlights 24/7 price discovery and HSI rings NASDAQ opening bell",
           "hot_score": 45.61998,
@@ -483,7 +538,7 @@
           "url": "https://t.me/hyperliquid_announcements/523"
         },
         {
-          "clicks": 40,
+          "clicks": 42,
           "date": "2025-11-30T22:21:19.989527+00:00",
           "headline": "As Bitcoin falls 30% from its ATH, crypto analysts claim altcoin season is due though only once Bitcoin's price stabilises.",
           "hot_score": 40.2596,
@@ -495,7 +550,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:02:45.523645+00:00",
+      "as_of": "2026-07-29T22:56:16.741191+00:00",
       "editorial": [
         {
           "count": 21,
@@ -550,55 +605,55 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 496,
+          "count": 659,
           "source": "x.com"
         },
         {
-          "count": 41,
+          "count": 49,
           "source": "truthsocial.com"
         },
         {
-          "count": 23,
+          "count": 28,
           "source": "decrypt.co"
         },
         {
-          "count": 21,
+          "count": 25,
           "source": "cointelegraph.com"
         },
         {
-          "count": 14,
-          "source": "financefeeds.com"
-        },
-        {
-          "count": 13,
-          "source": "thestreet.com"
-        },
-        {
-          "count": 12,
+          "count": 16,
           "source": "coindesk.com"
         },
         {
-          "count": 12,
+          "count": 16,
           "source": "theblock.co"
+        },
+        {
+          "count": 15,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 15,
+          "source": "financefeeds.com"
         },
         {
           "count": 8,
           "source": "markets.businessinsider.com"
         },
         {
-          "count": 5,
+          "count": 7,
           "source": "wsj.com"
         },
         {
-          "count": 4,
-          "source": "bloomberg.com"
+          "count": 5,
+          "source": "crowdfundinsider.com"
         },
         {
-          "count": 4,
-          "source": "crowdfundinsider.com"
+          "count": 5,
+          "source": "whitehouse.gov"
         }
       ],
-      "universe_distinct": 65
+      "universe_distinct": 77
     }
   },
   "official_links": [],
@@ -609,25 +664,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:17.151627+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.333,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0494,
-        "lift_log": 4.573,
-        "score": 0.3334,
-        "shared": 6
-      },
-      "rationale": "ATH often correlates with high open interest in derivatives.",
-      "relation_type": "primitive",
-      "slug": "open-interest",
-      "source": "cotag",
-      "tag_name": "Open Interest",
-      "title": "Open Interest, Explained",
-      "weight": 33
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "ath",
   "tag_name": "ATH",

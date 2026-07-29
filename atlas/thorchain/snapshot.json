@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:03:52.503564+00:00",
-      "newsroom_total": 18,
-      "overall_share": 20,
+      "as_of": "2026-07-29T23:05:28.481585+00:00",
+      "newsroom_total": 20,
+      "overall_share": 17,
       "provenance": "data",
       "series": [
         {
@@ -83,62 +83,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 22
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 25
         }
       ],
-      "total_universe": 92,
-      "universe_total": 74
+      "total_universe": 119,
+      "universe_total": 99
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:03:52.196080+00:00",
+      "as_of": "2026-07-29T23:05:28.271748+00:00",
       "edges": [
         {
+          "confidence": 0.337,
+          "description": "Co-covered in 8 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "thorchain",
-          "phrase": "Both are privacy-focused but THORChain enables cross-chain swaps, Monero is a private coin.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-01",
+          "phrase": "Co-covered in 8 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "monero",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 34
         },
         {
+          "confidence": 0.202,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "thorchain",
-          "phrase": "Liquidity is a core DeFi mechanism that THORChain's AMM relies on.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-22",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.152,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "thorchain",
-          "phrase": "Milestones mark significant launches or upgrades in THORChain's roadmap.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "milestone",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.151,
+          "description": "Co-covered in 13 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "thorchain",
-          "phrase": "Exploits are security incidents that have affected THORChain's operations.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 13 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "exploit",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.14,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "thorchain",
-          "phrase": "Security risks are inherent to THORChain's cross-chain protocol design.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "security-risk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         }
       ],
@@ -152,42 +193,62 @@
         },
         {
           "center": false,
+          "confidence": 0.337,
           "name": "Monero",
+          "observed_at": "2026-07-01",
           "slug": "monero",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 34
         },
         {
           "center": false,
+          "confidence": 0.202,
           "name": "Liquidity",
+          "observed_at": "2026-05-22",
           "slug": "liquidity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.152,
           "name": "Milestone",
+          "observed_at": null,
           "slug": "milestone",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.151,
           "name": "Exploit",
+          "observed_at": null,
           "slug": "exploit",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.14,
           "name": "Security Risk",
+          "observed_at": null,
           "slug": "security-risk",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         }
       ],
@@ -256,17 +317,17 @@
       "source": "https://thorchain.org/blog/thorchain-exploit-report-1"
     },
     "reader_signal": {
-      "article_count": 18,
-      "as_of": "2026-07-01T12:03:53.003359+00:00",
+      "article_count": 20,
+      "as_of": "2026-07-29T23:05:28.722373+00:00",
       "most_clicked": {
-        "clicks": 294,
+        "clicks": 298,
         "date": "2025-04-24T23:09:45.874585+00:00",
         "headline": "THORChain will be integrating XRP, with the Mainnet rollout scheduled to begin in mid-May",
         "lev_url": "https://leviathannews.xyz/10782/thorchain-will-be-integrating-xrp-with-the-mainnet-rollout-scheduled-to-begin-in-mid-may"
       },
       "provenance": "data",
-      "top_decile_share": 20,
-      "total_clicks": 1449
+      "top_decile_share": 37,
+      "total_clicks": 1557
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:56:46.659210+00:00",
@@ -351,10 +412,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:03:52.926429+00:00",
+      "as_of": "2026-07-29T23:05:28.717736+00:00",
       "items": [
         {
-          "clicks": 27,
+          "clicks": 28,
           "date": "2026-04-18T23:31:49.257549+00:00",
           "headline": "THORChain pushes native Monero swaps for v3.18 and drafts dynamic fees to reclaim volume lost to aggregators",
           "hot_score": 774.732038,
@@ -363,7 +424,7 @@
           "url": "https://blog.thorchain.org/monero-full-steam-ahead-dynamic-fees-opt-in-chains-the-arb-debate"
         },
         {
-          "clicks": 36,
+          "clicks": 39,
           "date": "2026-06-20T06:41:38.882884+00:00",
           "headline": "THORChain says recovery is in final stages as KeyVerify checks keyshares before vault churn",
           "hot_score": 684.92636,
@@ -372,7 +433,25 @@
           "url": "https://x.com/thorchain/status/2067991983247827036"
         },
         {
-          "clicks": 22,
+          "clicks": 36,
+          "date": "2026-07-03T19:27:44.088527+00:00",
+          "headline": "THORChain traces $10M May 15 vault drain to GG20 zero-day after 864 failed signing rounds",
+          "hot_score": 579.559272,
+          "lev_url": "https://leviathannews.xyz/268473/thorchain-traces-10m-may-15-vault-drain-to-gg20-zero-day-after-864-failed-signing-rounds",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260703154630_Z4zrlaiDPw==.png",
+          "url": "https://blog.thorchain.org/thorchain-exploit-report-2"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-07-03T07:35:35.638798+00:00",
+          "headline": "Hinkal exploited for $820K as attacker routes 410 ETH through Tornado Cash and 44.7 ETH via THORChain",
+          "hot_score": 567.963579,
+          "lev_url": "https://leviathannews.xyz/268025/hinkal-exploited-for-820k-as-attacker-routes-410-eth-through-tornado-cash-and-447-eth-via-thorchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260703023923_Z4zrlaiDPw==.png",
+          "url": "https://x.com/peckshieldalert/status/2072859957167640946"
+        },
+        {
+          "clicks": 28,
           "date": "2026-06-23T12:27:12.198010+00:00",
           "headline": "THORChain resumes trading after a five-week shutdown caused by a $10.7M exploit, restoring swaps, liquidity operations, and cross-chain functionality",
           "hot_score": 559.469696,
@@ -381,7 +460,7 @@
           "url": "https://www.theblock.co/post/405767/thorchain-resumes-trading-after-exploit?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 31,
+          "clicks": 32,
           "date": "2026-05-15T21:59:08.069063+00:00",
           "headline": "THORChain halts trading after compromised Asgard vault drains estimated $10.7M from protocol funds",
           "hot_score": 543.2,
@@ -390,7 +469,7 @@
           "url": "https://x.com/thorchain/status/2055300162331742233"
         },
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2026-05-16T07:48:12.680216+00:00",
           "headline": "THORChain completes first live $RUNE to $XMR swap on 7-node chainnet with real funds",
           "hot_score": 521.8,
@@ -399,49 +478,31 @@
           "url": "https://blog.thorchain.org/jp-demos-live-monero-on-thorchain-7-nodes-real-funds-first-swap-works/"
         },
         {
-          "clicks": 33,
+          "clicks": 37,
           "date": "2026-05-27T09:06:53.049598+00:00",
           "headline": "THORChain nodes approve ADR028 recovery plan, activating hacker bounty as v3.19.0 heads to stagenet",
           "hot_score": 446.316441,
           "lev_url": "https://leviathannews.xyz/248897/thorchain-nodes-approve-adr028-recovery-plan-activating-hacker-bounty-as-v3190-heads-to-stagenet",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260527090129_Z4zrlaiDPw==.png",
           "url": "https://x.com/thorchain/status/2059524888243646942"
-        },
-        {
-          "clicks": 40,
-          "date": "2026-04-22T04:22:56.539830+00:00",
-          "headline": "Kelp DAO exploiter launders $80M of stolen ETH mostly through THORChain per onchain analysts",
-          "hot_score": 392.8,
-          "lev_url": "https://leviathannews.xyz/234695/kelp-dao-exploiter-launders-80m-of-stolen-eth-mostly-through-thorchain-per-onchain-analysts",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422041052_bkMpZhbs9_hg.jpg",
-          "url": "https://www.theblock.co/post/398382/kelp-dao-exploiter-launders-thorchain"
-        },
-        {
-          "clicks": 29,
-          "date": "2026-04-23T09:32:31.655338+00:00",
-          "headline": "Rujira launches Custom Concentrated Liquidity on THORChain, letting LPs program price ranges on RUJI Trade orderbook",
-          "hot_score": 353.4,
-          "lev_url": "https://leviathannews.xyz/235572/rujira-launches-custom-concentrated-liquidity-on-thorchain-letting-lps-program-price-ranges-on-ruji-trade-orderbook",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423083954_Z4zrlaiDPw==.png",
-          "url": "https://blog.thorchain.org/custom-concentrated-liquidity-where-liquidity-becomes-strategy"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:03:52.836276+00:00",
+      "as_of": "2026-07-29T23:05:28.705459+00:00",
       "editorial": [
         {
-          "count": 6,
+          "count": 7,
           "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "blog.thorchain.org"
         },
         {
           "count": 3,
           "source": "theblock.co"
-        },
-        {
-          "count": 3,
-          "source": "blog.thorchain.org"
         },
         {
           "count": 2,
@@ -468,16 +529,16 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 47,
+          "count": 61,
           "source": "x.com"
+        },
+        {
+          "count": 18,
+          "source": "thorchain.org"
         },
         {
           "count": 8,
           "source": "blog.thorchain.org"
-        },
-        {
-          "count": 7,
-          "source": "thorchain.org"
         },
         {
           "count": 3,
@@ -515,42 +576,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:37:00.687319+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.202,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0089,
-        "lift_log": 2.128,
-        "score": 0.2024,
-        "shared": 3
-      },
-      "rationale": "Liquidity is a core DeFi mechanism that THORChain's AMM relies on.",
-      "relation_type": "primitive",
-      "slug": "liquidity",
-      "source": "cotag",
-      "tag_name": "Liquidity",
-      "title": "Liquidity, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.337,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0538,
-        "lift_log": 4.602,
-        "score": 0.3369,
-        "shared": 6
-      },
-      "rationale": "Both are privacy-focused but THORChain enables cross-chain swaps, Monero is a private coin.",
-      "relation_type": "peer",
-      "slug": "monero",
-      "source": "cotag",
-      "tag_name": "Monero",
-      "title": "Monero, Explained",
-      "weight": 34
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "thorchain",
   "tag_name": "THORChain",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:41:21.580374+00:00",
-      "newsroom_total": 300,
-      "overall_share": 32,
+      "as_of": "2026-07-29T23:06:54.147883+00:00",
+      "newsroom_total": 320,
+      "overall_share": 28,
       "provenance": "data",
       "series": [
         {
@@ -63,7 +63,7 @@
         {
           "ed_share": null,
           "month": "2025-01",
-          "newsroom": 4,
+          "newsroom": 5,
           "universe": 0
         },
         {
@@ -163,66 +163,101 @@
           "universe": 119
         },
         {
-          "ed_share": 0,
+          "ed_share": 9,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 5
+          "newsroom": 19,
+          "universe": 185
         }
       ],
-      "total_universe": 949,
-      "universe_total": 649
+      "total_universe": 1149,
+      "universe_total": 829
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:41:19.880558+00:00",
+      "as_of": "2026-07-29T23:06:53.813277+00:00",
       "edges": [
         {
+          "confidence": 0.268,
+          "description": "Co-covered in 153 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "yield",
-          "phrase": "Stablecoin yield is a specific category of yield generation.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-30",
+          "phrase": "Co-covered in 153 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "stablecoin-yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.239,
+          "description": "Co-covered in 209 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "yield",
-          "phrase": "Stablecoins are a core primitive used to generate yield.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 209 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.181,
+          "description": "Co-covered in 99 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "yield",
-          "phrase": "Vaults are products that automate yield strategies.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 99 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "vaults",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.165,
+          "description": "Co-covered in 10 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "yield",
-          "phrase": "Lending is a DeFi primitive that generates yield.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 10 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "lending",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.159,
+          "description": "Co-covered in 16 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "yield",
-          "phrase": "Staking is a primitive that produces yield.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 16 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "staking",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -236,42 +271,62 @@
         },
         {
           "center": false,
+          "confidence": 0.268,
           "name": "Stablecoin Yield",
+          "observed_at": "2026-06-30",
           "slug": "stablecoin-yield",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.239,
           "name": "Stablecoins",
+          "observed_at": "2026-07-27",
           "slug": "stablecoins",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.181,
           "name": "Vaults",
+          "observed_at": null,
           "slug": "vaults",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.165,
           "name": "Lending",
+          "observed_at": null,
           "slug": "lending",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.159,
           "name": "Staking",
+          "observed_at": null,
           "slug": "staking",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -340,17 +395,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 312,
-      "as_of": "2026-07-01T11:41:22.349239+00:00",
+      "article_count": 332,
+      "as_of": "2026-07-29T23:06:54.633948+00:00",
       "most_clicked": {
-        "clicks": 665,
+        "clicks": 674,
         "date": "2025-03-24T17:15:56.696386+00:00",
         "headline": "We have a new SQUID pass winner!\n\nUse Rings Protocol on Sonic to boost your passive income with their asset locking system\n\nCheck out their exceptional yields:\n🤑 76% for veUSD\n🪙94% for veETH",
         "lev_url": "https://leviathannews.xyz/10107/we-have-a-new-squid-pass-winner-use-rings-protocol-on-sonic-to-boost-your-passive-income-with-their-asset-locking-system-check-out-their-exceptional-yields-76-for-veusd-94-for-veet"
       },
       "provenance": "data",
       "top_decile_share": 31,
-      "total_clicks": 20720
+      "total_clicks": 22073
     },
     "reader_threads": {
       "as_of": "2026-06-25T23:57:16.730670+00:00",
@@ -435,7 +490,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:41:22.249730+00:00",
+      "as_of": "2026-07-29T23:06:54.620655+00:00",
       "items": [
         {
           "clicks": 59,
@@ -447,7 +502,7 @@
           "url": "https://x.com/i/status/2044017113120030805"
         },
         {
-          "clicks": 23,
+          "clicks": 25,
           "date": "2026-04-14T20:01:23.888141+00:00",
           "headline": "Figure and Hastra expand DeFi credit with auto loans, bringing tokenized consumer lending beyond home equity and testing real-world yield markets onchain",
           "hot_score": 7309.489986,
@@ -465,7 +520,7 @@
           "url": "https://x.com/i/status/2044053129570988226"
         },
         {
-          "clicks": 63,
+          "clicks": 65,
           "date": "2026-04-15T13:06:26.612807+00:00",
           "headline": "Fireblocks launches Earn, enabling institutions to generate yield on stablecoins via Aave and Morpho",
           "hot_score": 5679.066025,
@@ -474,7 +529,7 @@
           "url": "https://cointelegraph.com/news/fireblocks-launches-tool-for-institutions-to-earn-yield-on-stablecoins"
         },
         {
-          "clicks": 41,
+          "clicks": 43,
           "date": "2026-04-15T15:08:05.625628+00:00",
           "headline": "Avalanche gains Wall Street access as Bitwise Asset Management lists AVAX ETF on NYSE, unlocking institutional exposure and staking yields",
           "hot_score": 5335.516299,
@@ -483,7 +538,7 @@
           "url": "https://x.com/i/status/2044400614931640514"
         },
         {
-          "clicks": 35,
+          "clicks": 38,
           "date": "2026-04-15T15:12:50.831645+00:00",
           "headline": "Brix raises $5.5M to bring institutional-grade emerging market yield onchain via MegaETH, backed by Circle Ventures and ConsenSys",
           "hot_score": 5291.807876,
@@ -492,7 +547,7 @@
           "url": "https://crypto.news/tokenization-startup-brix-raises-5-5m-to-bring-institutional-em-yield-on-chain/"
         },
         {
-          "clicks": 39,
+          "clicks": 41,
           "date": "2026-04-12T22:34:51.862832+00:00",
           "headline": "TRON’s Justin Sun launches TRX Earn on Telegram with boosted yields up to 13.61% APY, combining base rewards and a limited 60-day bonus for new users",
           "hot_score": 4683.649081,
@@ -501,7 +556,7 @@
           "url": "https://x.com/i/status/2043217899020837256"
         },
         {
-          "clicks": 40,
+          "clicks": 44,
           "date": "2026-04-15T05:46:22.630670+00:00",
           "headline": "Tillis-Alsobrooks draft bans passive stablecoin yield, preserves activity rewards to unblock CLARITY Act",
           "hot_score": 4244.908495,
@@ -513,14 +568,14 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:41:22.158905+00:00",
+      "as_of": "2026-07-29T23:06:54.602832+00:00",
       "editorial": [
         {
-          "count": 146,
+          "count": 158,
           "source": "x.com"
         },
         {
-          "count": 25,
+          "count": 28,
           "source": "theblock.co"
         },
         {
@@ -564,32 +619,36 @@
           "source": "crypto.news"
         }
       ],
-      "editorial_distinct": 57,
+      "editorial_distinct": 62,
       "provenance": "data",
       "universe": [
         {
-          "count": 426,
+          "count": 562,
           "source": "x.com"
         },
         {
-          "count": 32,
+          "count": 37,
           "source": "cointelegraph.com"
         },
         {
-          "count": 27,
+          "count": 32,
           "source": "theblock.co"
         },
         {
-          "count": 26,
+          "count": 29,
           "source": "decrypt.co"
         },
         {
-          "count": 23,
+          "count": 25,
           "source": "coindesk.com"
         },
         {
-          "count": 15,
+          "count": 21,
           "source": "treeofalpha.com"
+        },
+        {
+          "count": 12,
+          "source": "financefeeds.com"
         },
         {
           "count": 11,
@@ -597,7 +656,7 @@
         },
         {
           "count": 8,
-          "source": "financefeeds.com"
+          "source": "chainwire.org"
         },
         {
           "count": 7,
@@ -605,18 +664,14 @@
         },
         {
           "count": 6,
-          "source": "chainwire.org"
+          "source": "crowdfundinsider.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "plume.org"
-        },
-        {
-          "count": 4,
-          "source": "openeden.com"
         }
       ],
-      "universe_distinct": 50
+      "universe_distinct": 56
     }
   },
   "official_links": [],
@@ -627,42 +682,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:37:06.934520+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.239,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0641,
-        "lift_log": 1.655,
-        "score": 0.2387,
-        "shared": 194
-      },
-      "rationale": "Stablecoins are a core primitive used to generate yield.",
-      "relation_type": "primitive",
-      "slug": "stablecoins",
-      "source": "cotag",
-      "tag_name": "Stablecoins",
-      "title": "Stablecoins, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.268,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1499,
-        "lift_log": 3.825,
-        "score": 0.2683,
-        "shared": 146
-      },
-      "rationale": "Stablecoin yield is a specific category of yield generation.",
-      "relation_type": "category",
-      "slug": "stablecoin-yield",
-      "source": "cotag",
-      "tag_name": "Stablecoin Yield",
-      "title": "Stablecoin Yield, Explained",
-      "weight": 27
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "yield",
   "tag_name": "Yield",

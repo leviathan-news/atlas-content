@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:43:39.071967+00:00",
-      "newsroom_total": 216,
-      "overall_share": 59,
+      "as_of": "2026-07-29T23:03:45.058738+00:00",
+      "newsroom_total": 220,
+      "overall_share": 53,
       "provenance": "data",
       "series": [
         {
@@ -223,66 +223,101 @@
           "universe": 30
         },
         {
-          "ed_share": 0,
+          "ed_share": 7,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 3
+          "newsroom": 4,
+          "universe": 54
         }
       ],
-      "total_universe": 364,
-      "universe_total": 148
+      "total_universe": 419,
+      "universe_total": 199
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:43:35.544698+00:00",
+      "as_of": "2026-07-29T23:03:44.825069+00:00",
       "edges": [
         {
+          "confidence": 0.213,
+          "description": "Co-covered in 36 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "regulation",
-          "phrase": "Regulated stablecoins are a subset of crypto assets subject to regulation.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-01",
+          "phrase": "Co-covered in 36 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "regulated-stablecoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.212,
+          "description": "Co-covered in 28 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "regulation",
-          "phrase": "Policy is a broader category that includes regulation.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 28 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "policy",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.176,
+          "description": "Co-covered in 58 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "regulation",
-          "phrase": "Stablecoins are a category of assets often targeted by regulation.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 58 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.172,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "regulation",
-          "phrase": "Digital assets are a broader category regulated by authorities.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "digital-assets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.167,
+          "description": "Co-covered in 10 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "regulation",
-          "phrase": "Compliance is a requirement derived from regulation.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 10 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "compliance",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -296,42 +331,62 @@
         },
         {
           "center": false,
+          "confidence": 0.213,
           "name": "Regulated Stablecoin",
+          "observed_at": "2026-07-01",
           "slug": "regulated-stablecoin",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "policy",
-          "slug": "policy",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Stablecoins",
-          "slug": "stablecoins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.212,
+          "name": "policy",
+          "observed_at": "2026-07-29",
+          "slug": "policy",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.176,
+          "name": "Stablecoins",
+          "observed_at": null,
+          "slug": "stablecoins",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.172,
           "name": "Digital Assets",
+          "observed_at": null,
           "slug": "digital-assets",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.167,
           "name": "compliance",
+          "observed_at": null,
           "slug": "compliance",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -394,17 +449,17 @@
       "source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica"
     },
     "reader_signal": {
-      "article_count": 216,
-      "as_of": "2026-07-01T11:43:41.961282+00:00",
+      "article_count": 220,
+      "as_of": "2026-07-29T23:03:45.377719+00:00",
       "most_clicked": {
-        "clicks": 425,
+        "clicks": 429,
         "date": "2024-06-25T16:49:28.866258+00:00",
         "headline": "The Danish Financial Supervisory Authority (FSA) has provided guidance on determining when a DeFi offering can be considered fully decentralized and thus exempt from regulation under MiCA.",
         "lev_url": "https://leviathannews.xyz/6105/the-danish-financial-supervisory-authority-fsa-has-provided-guidance-on-determining-when-a-defi-offering-can-be-considered-fully-decentralized-and-thus-exempt-from-regulation-under"
       },
       "provenance": "data",
       "top_decile_share": 26,
-      "total_clicks": 13320
+      "total_clicks": 13799
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:31:05.705713+00:00",
@@ -483,7 +538,7 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T11:43:41.804571+00:00",
+      "as_of": "2026-07-29T23:03:45.367472+00:00",
       "items": [
         {
           "clicks": 43,
@@ -495,7 +550,7 @@
           "url": "https://www.coindesk.com/policy/2026/04/14/bank-of-korea-nominee-backs-central-bank-led-digital-currency-sees-limited-role-for-stablecoins"
         },
         {
-          "clicks": 54,
+          "clicks": 58,
           "date": "2026-04-13T16:55:28.738857+00:00",
           "headline": "UK finalises 2026 crypto rules with DeFi carve-out, exempting truly decentralised protocols while requiring FCA oversight for projects with identifiable controlling entities",
           "hot_score": 7500.245645,
@@ -504,7 +559,7 @@
           "url": "https://crypto.news/uk-finalises-2026-crypto-rules-with-defi-carve-out-and-controlling-entity-test/"
         },
         {
-          "clicks": 44,
+          "clicks": 47,
           "date": "2026-04-13T15:29:59.067299+00:00",
           "headline": "South Korea fines Coinone $3.5M and imposes three-month partial suspension over AML violations, citing 70,000 identity verification failures impacting new user transactions",
           "hot_score": 7386.023036,
@@ -513,7 +568,7 @@
           "url": "https://www.theblock.co/post/397206/coinone-hit-with-3-5-million-fine-three-month-partial-suspension-over-aml-violations-reports"
         },
         {
-          "clicks": 37,
+          "clicks": 40,
           "date": "2026-04-15T23:12:14.136565+00:00",
           "headline": "Kalshi to launch parent portal and AI checks to stop underage users exploiting ID loopholes on prediction markets",
           "hot_score": 5578.629191,
@@ -522,7 +577,7 @@
           "url": "https://cointelegraph.com/news/kalshi-parents-monitoring-minors-prediction-markets"
         },
         {
-          "clicks": 43,
+          "clicks": 45,
           "date": "2026-04-15T17:28:32.487007+00:00",
           "headline": "CFTC secures $1.3M penalty and trading ban against Florida resident in commodity pool fraud case, reinforcing crackdown on market abuse",
           "hot_score": 5280.678074,
@@ -531,7 +586,7 @@
           "url": "https://x.com/i/status/2044459011550925281"
         },
         {
-          "clicks": 32,
+          "clicks": 34,
           "date": "2026-04-14T20:03:12.173702+00:00",
           "headline": "JPMorgan CFO warns stablecoins risk becoming 'giant arbitrage backdoor' around banking regulation",
           "hot_score": 4181.909726,
@@ -540,7 +595,7 @@
           "url": "https://www.coindesk.com/business/2026/04/14/jpmorgan-cfo-warns-stablecoins-risk-becoming-regulatory-arbitrage-play"
         },
         {
-          "clicks": 47,
+          "clicks": 51,
           "date": "2026-04-12T12:46:53.074936+00:00",
           "headline": "ECB backs plan to shift EU crypto firm oversight from national regulators to ESMA",
           "hot_score": 3404.495384,
@@ -549,30 +604,30 @@
           "url": "https://crypto.news/ecb-backs-esma-as-single-supervisor-for-big-eu-crypto-firms/"
         },
         {
-          "clicks": 61,
-          "date": "2026-04-16T16:18:19.305706+00:00",
-          "headline": "France rolls out emergency security measures to combat surge in crypto-linked kidnappings, with 41 cases reported in 2026 amid rising physical extortion risks",
-          "hot_score": 2194.337225,
-          "lev_url": "https://leviathannews.xyz/230482/france-rolls-out-emergency-security-measures-to-combat-surge-in-crypto-linked-kidnappings-with-41-cases-reported-in-2026-amid-rising-physical-extortion-risks",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416131235__FJ_Nfh3fUKy.webp",
-          "url": "https://crypto.news/france-to-unveil-new-security-measures-to-combat-crypto-kidnappings/"
+          "clicks": 29,
+          "date": "2026-07-29T07:42:44.679123+00:00",
+          "headline": "Coinbase aims to become Canada's \"everything exchange,\" pushing into derivatives, tokenized assets, and DeFi while calling for permanent crypto regulations",
+          "hot_score": 2907.683807,
+          "lev_url": "https://leviathannews.xyz/283717/coinbase-canadas-new-ceo-eric-richmond-says-permanent-rules-rather-than-temporary-exemptions-are-needed-as-the-company-pushes-to-expand-into-derivatives-tokenized-assets-and",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729005511_CdyD7Cr-alNu.jpg",
+          "url": "https://www.coindesk.com/policy/2026/07/28/coinbase-wants-to-be-canada-s-everything-exchange-but-says-clearer-rules-are-needed-first"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:43:41.671257+00:00",
+      "as_of": "2026-07-29T23:03:45.349697+00:00",
       "editorial": [
         {
-          "count": 55,
+          "count": 56,
           "source": "x.com"
         },
         {
-          "count": 16,
+          "count": 17,
           "source": "theblock.co"
         },
         {
-          "count": 14,
+          "count": 15,
           "source": "coindesk.com"
         },
         {
@@ -597,15 +652,15 @@
         },
         {
           "count": 5,
+          "source": "sec.gov"
+        },
+        {
+          "count": 5,
           "source": "blockworks.co"
         },
         {
           "count": 5,
           "source": "cointelegraph.com"
-        },
-        {
-          "count": 4,
-          "source": "sec.gov"
         },
         {
           "count": 4,
@@ -616,28 +671,32 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 65,
+          "count": 94,
           "source": "x.com"
+        },
+        {
+          "count": 13,
+          "source": "truthsocial.com"
         },
         {
           "count": 13,
           "source": "financefeeds.com"
         },
         {
-          "count": 11,
-          "source": "truthsocial.com"
-        },
-        {
-          "count": 11,
+          "count": 12,
           "source": "decrypt.co"
         },
         {
-          "count": 6,
+          "count": 9,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 5,
+          "count": 7,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 5,
+          "source": "tass.ru"
         },
         {
           "count": 4,
@@ -658,13 +717,9 @@
         {
           "count": 2,
           "source": "bloomberg.com"
-        },
-        {
-          "count": 2,
-          "source": "news.bloomberglaw.com"
         }
       ],
-      "universe_distinct": 32
+      "universe_distinct": 38
     }
   },
   "official_links": [],
@@ -675,42 +730,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:51.163516+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.212,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0231,
-        "lift_log": 2.156,
-        "score": 0.2121,
-        "shared": 17
-      },
-      "rationale": "Policy is a broader category that includes regulation.",
-      "relation_type": "category",
-      "slug": "policy",
-      "source": "cotag",
-      "tag_name": "policy",
-      "title": "policy, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.213,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0651,
-        "lift_log": 3.873,
-        "score": 0.2127,
-        "shared": 33
-      },
-      "rationale": "Regulated stablecoins are a subset of crypto assets subject to regulation.",
-      "relation_type": "category",
-      "slug": "regulated-stablecoin",
-      "source": "cotag",
-      "tag_name": "Regulated Stablecoin",
-      "title": "Regulated Stablecoin, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "regulation",
   "tag_name": "Regulation",

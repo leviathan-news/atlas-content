@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:59:01.538485+00:00",
+      "as_of": "2026-07-29T23:02:56.651817+00:00",
       "newsroom_total": 23,
       "overall_share": 21,
       "provenance": "data",
@@ -35,62 +35,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 4
         }
       ],
-      "total_universe": 107,
-      "universe_total": 84
+      "total_universe": 111,
+      "universe_total": 88
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:59:00.768403+00:00",
+      "as_of": "2026-07-29T23:02:56.422997+00:00",
       "edges": [
         {
+          "confidence": 0.264,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "openclaw",
-          "phrase": "OpenClaw likely integrates with or builds agents.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "agent",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.22,
+          "description": "Co-covered in 5 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "openclaw",
-          "phrase": "LLMs are foundational infrastructure for OpenClaw's functionality.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-21",
+          "phrase": "Co-covered in 5 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "llm",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.195,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "openclaw",
-          "phrase": "OpenClaw is a platform for creating agents.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.188,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "openclaw",
-          "phrase": "Memory is a core primitive for agent persistence.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "memory",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.179,
+          "description": "Co-covered in 10 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "openclaw",
-          "phrase": "Claude may be an integrated LLM provider.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 10 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "claude",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -104,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.264,
           "name": "Agent",
+          "observed_at": null,
           "slug": "agent",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.22,
           "name": "LLM",
+          "observed_at": "2026-05-21",
           "slug": "llm",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.195,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.188,
           "name": "Memory",
+          "observed_at": null,
           "slug": "memory",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.179,
           "name": "Claude",
+          "observed_at": null,
           "slug": "claude",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -209,16 +270,16 @@
     },
     "reader_signal": {
       "article_count": 32,
-      "as_of": "2026-07-01T11:59:02.665987+00:00",
+      "as_of": "2026-07-29T23:02:56.872409+00:00",
       "most_clicked": {
-        "clicks": 131,
+        "clicks": 132,
         "date": "2026-03-04T08:21:08.737694+00:00",
         "headline": "OpenClaw hit by “ClawJacked” exploit: 40,000 AI agent systems allegedly compromised via silent web-based takeover bug, as users debate whether viral warning is real fix or social-engineering hoax",
         "lev_url": "https://leviathannews.xyz/39980/openclaw-hit-by-clawjacked-exploit-40000-ai-agent-systems-allegedly-compromised-via-silent-web-based-takeover-bug-as-users-debate-whether-viral-warning-is-real-fix-or-social-engine"
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 1575
+      "total_clicks": 1616
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:58:02.001809+00:00",
@@ -303,10 +364,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:59:02.585935+00:00",
+      "as_of": "2026-07-29T23:02:56.867758+00:00",
       "items": [
         {
-          "clicks": 91,
+          "clicks": 93,
           "date": "2026-04-08T19:15:56.296541+00:00",
           "headline": "Civic flags critical OpenClaw security gaps including 40,000 exposed instances, over 1,000 malicious skills, and a 9.9 CVSS vulnerability",
           "hot_score": 341942.110751,
@@ -315,7 +376,7 @@
           "url": "https://x.com/civickey/status/2041953920046502207"
         },
         {
-          "clicks": 31,
+          "clicks": 34,
           "date": "2026-04-21T05:37:54.400620+00:00",
           "headline": "MoonPay integrates crypto payments into OpenClaw AI agents on Rumble Cloud, enabling users to buy, swap, and manage crypto directly via chat with zero setup",
           "hot_score": 921.2,
@@ -324,7 +385,7 @@
           "url": "https://x.com/i/status/2046338124759117964"
         },
         {
-          "clicks": 131,
+          "clicks": 132,
           "date": "2026-03-04T08:21:08.737694+00:00",
           "headline": "OpenClaw hit by “ClawJacked” exploit: 40,000 AI agent systems allegedly compromised via silent web-based takeover bug, as users debate whether viral warning is real fix or social-engineering hoax",
           "hot_score": 826.154224,
@@ -333,7 +394,7 @@
           "url": "https://x.com/zaimiri/status/2029019676601401827"
         },
         {
-          "clicks": 71,
+          "clicks": 72,
           "date": "2026-05-11T07:12:26.804711+00:00",
           "headline": "CoinGecko unveils guide linking its market data APIs with OpenClaw AI agents for real-time crypto monitoring, automation and custom trading workflows",
           "hot_score": 766.90602,
@@ -342,7 +403,7 @@
           "url": "https://x.com/coingecko/status/2053580909102985510"
         },
         {
-          "clicks": 72,
+          "clicks": 74,
           "date": "2026-03-17T12:39:18.081625+00:00",
           "headline": "Pieverse launches Purr-Fect Claw: The first \"on-chain OpenClaw\" infrastructure for Line, Kakao, WhatsApp.",
           "hot_score": 352.191784,
@@ -351,7 +412,7 @@
           "url": "https://x.com/pieverse_io/status/2033791178156757094"
         },
         {
-          "clicks": 92,
+          "clicks": 94,
           "date": "2026-03-13T06:38:40.670637+00:00",
           "headline": "FlashLabs launches FlashClaw - One-click cloud hosting for OpenClaw agents.",
           "hot_score": 333.998002,
@@ -360,7 +421,7 @@
           "url": "https://www.prnewswire.com/news-releases/flashlabs-launches-flashclaw---one-click-cloud-hosting-for-openclaw-agents-302712011.html"
         },
         {
-          "clicks": 69,
+          "clicks": 70,
           "date": "2026-03-05T21:31:27.572543+00:00",
           "headline": "SerenAI launches Polymarket strategy skills with x402 & Openclaw:",
           "hot_score": 291.75315,
@@ -369,7 +430,7 @@
           "url": "https://serendb.com/blog/seren-polymarket-strategy-skills"
         },
         {
-          "clicks": 69,
+          "clicks": 71,
           "date": "2026-02-25T09:34:00.850495+00:00",
           "headline": "ObolClaw launches as Obol Stack adds native OpenClaw support, giving AI agents wallets, RPC access, and onchain skills to power Ethereum.",
           "hot_score": 190.827651,
@@ -381,7 +442,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:59:02.402810+00:00",
+      "as_of": "2026-07-29T23:02:56.854388+00:00",
       "editorial": [
         {
           "count": 16,
@@ -416,7 +477,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 59,
+          "count": 63,
           "source": "x.com"
         },
         {
@@ -475,42 +536,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:46.377111+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.264,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0358,
-        "lift_log": 3.141,
-        "score": 0.2644,
-        "shared": 21
-      },
-      "rationale": "OpenClaw likely integrates with or builds agents.",
-      "relation_type": "ecosystem",
-      "slug": "agent",
-      "source": "cotag",
-      "tag_name": "Agent",
-      "title": "Agent, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.22,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0389,
-        "lift_log": 4.374,
-        "score": 0.2196,
-        "shared": 5
-      },
-      "rationale": "LLMs are foundational infrastructure for OpenClaw's functionality.",
-      "relation_type": "infrastructure",
-      "slug": "llm",
-      "source": "cotag",
-      "tag_name": "LLM",
-      "title": "LLM, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "openclaw",
   "tag_name": "OpenClaw",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:04:34.056283+00:00",
+      "as_of": "2026-07-29T23:01:50.699191+00:00",
       "newsroom_total": 36,
-      "overall_share": 46,
+      "overall_share": 40,
       "provenance": "data",
       "series": [
         {
@@ -137,62 +137,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 12
         }
       ],
-      "total_universe": 78,
-      "universe_total": 42
+      "total_universe": 90,
+      "universe_total": 54
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:04:33.526142+00:00",
+      "as_of": "2026-07-29T23:01:49.702252+00:00",
       "edges": [
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 15 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "metrics",
-          "phrase": "Both are DeFi primitives; Curve focuses on stablecoin swaps, metrics on data.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-28",
+          "phrase": "Co-covered in 15 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "curve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.131,
+          "description": "Co-covered in 15 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "metrics",
-          "phrase": "Yield is a core DeFi primitive that metrics track and analyze.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 15 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "metrics",
-          "phrase": "chart",
-          "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "chart",
-          "weight": 10
-        },
-        {
-          "dir": "out",
-          "from": "metrics",
+          "observed_at": null,
           "phrase": "equity",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "equity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "metrics",
+          "observed_at": null,
           "phrase": "marketing",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "marketing",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "from": "metrics",
+          "observed_at": null,
+          "phrase": "points",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "points",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -206,42 +247,62 @@
         },
         {
           "center": false,
+          "confidence": 0.206,
           "name": "Curve",
+          "observed_at": "2026-05-28",
           "slug": "curve",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.131,
           "name": "Yield",
+          "observed_at": null,
           "slug": "yield",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
-          "name": "Chart",
-          "slug": "chart",
-          "source": "autolink",
-          "tier": "mentioned",
-          "weight": 10
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
           "name": "Equity",
+          "observed_at": null,
           "slug": "equity",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Marketing",
+          "observed_at": null,
           "slug": "marketing",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "name": "Points",
+          "observed_at": null,
+          "slug": "points",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -311,16 +372,16 @@
     },
     "reader_signal": {
       "article_count": 36,
-      "as_of": "2026-07-01T12:04:34.589597+00:00",
+      "as_of": "2026-07-29T23:01:51.909629+00:00",
       "most_clicked": {
-        "clicks": 195,
+        "clicks": 198,
         "date": "2024-05-27T14:18:01.825965+00:00",
         "headline": "The Balancer Report.\nUnveiling ecosystem updates, key metrics, governance proposals, and more.",
         "lev_url": "https://leviathannews.xyz/5666/the-balancer-report-unveiling-ecosystem-updates-key-metrics-governance-proposals-and-more"
       },
       "provenance": "data",
       "top_decile_share": 20,
-      "total_clicks": 2493
+      "total_clicks": 2516
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:12:00.059525+00:00",
@@ -405,10 +466,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:04:34.512928+00:00",
+      "as_of": "2026-07-29T23:01:51.869555+00:00",
       "items": [
         {
-          "clicks": 46,
+          "clicks": 50,
           "date": "2026-06-01T16:16:19.264167+00:00",
           "headline": "Variant argues Bitcoin, Ethereum and Zcash should be valued as digital stores of value, citing scarcity, censorship resistance and technical durability as key metrics",
           "hot_score": 899.880515,
@@ -417,7 +478,7 @@
           "url": "https://x.com/alanadlevin/status/2061441017333657628"
         },
         {
-          "clicks": 56,
+          "clicks": 59,
           "date": "2026-06-19T10:57:56.711881+00:00",
           "headline": "Solana’s decentralization is stronger than critics claim, with stake distribution, native staking and validator control metrics comparing favorably to Ethereum",
           "hot_score": 721.188099,
@@ -426,7 +487,7 @@
           "url": "https://x.com/j0e_cooks/status/2067640765308616841"
         },
         {
-          "clicks": 85,
+          "clicks": 86,
           "date": "2026-03-12T06:32:51.759713+00:00",
           "headline": "New framework ranks blockchain ecosystems from thriving to fading, citing tech development, usage metrics, ecosystem adoption and narrative",
           "hot_score": 600.007014,
@@ -435,7 +496,7 @@
           "url": "https://x.com/i/status/2031735087575052799"
         },
         {
-          "clicks": 32,
+          "clicks": 33,
           "date": "2026-05-02T07:54:32.655458+00:00",
           "headline": "Lido finance unveils “Financial Metrics 101” guide detailing TVL, rewards, treasury, and grants, reinforcing transparency as it leads Ethereum staking with 9.4M ETH locked",
           "hot_score": 494.0,
@@ -444,7 +505,7 @@
           "url": "https://x.com/i/web/status/2050150022595911754"
         },
         {
-          "clicks": 36,
+          "clicks": 38,
           "date": "2026-05-28T16:05:53.665268+00:00",
           "headline": "Curve Best Yields & Key Metrics | Week 22, 2026",
           "hot_score": 439.507784,
@@ -471,7 +532,7 @@
           "url": "https://news.curve.finance/curve-best-yields-key-metrics-week-8-2026/"
         },
         {
-          "clicks": 44,
+          "clicks": 45,
           "date": "2026-03-25T08:49:24.695894+00:00",
           "headline": "Blockworks launches investor relations portal for BNB Chain, centralizing on-chain analytics, quarterly reports, and ecosystem metrics into a single investor hub",
           "hot_score": 91.72003,
@@ -483,7 +544,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:04:34.433772+00:00",
+      "as_of": "2026-07-29T23:01:51.801846+00:00",
       "editorial": [
         {
           "count": 21,
@@ -538,7 +599,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 22,
+          "count": 31,
           "source": "x.com"
         },
         {
@@ -546,8 +607,12 @@
           "source": "news.curve.finance"
         },
         {
-          "count": 7,
+          "count": 8,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 1,
@@ -555,10 +620,10 @@
         },
         {
           "count": 1,
-          "source": "crowdfundinsider.com"
+          "source": "decrypt.co"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 6
     }
   },
   "official_links": [],
@@ -569,25 +634,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:43.275766+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0482,
-        "lift_log": 3.956,
-        "score": 0.206,
-        "shared": 15
-      },
-      "rationale": "Both are DeFi primitives; Curve focuses on stablecoin swaps, metrics on data.",
-      "relation_type": "peer",
-      "slug": "curve",
-      "source": "cotag",
-      "tag_name": "Curve",
-      "title": "Curve, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "metrics",
   "tag_name": "Metrics",

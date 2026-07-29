@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:57:28.218544+00:00",
+      "as_of": "2026-07-29T23:05:38.759104+00:00",
       "newsroom_total": 94,
-      "overall_share": 16,
+      "overall_share": 12,
       "provenance": "data",
       "series": [
         {
@@ -226,63 +226,98 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 4
+          "universe": 190
         }
       ],
-      "total_universe": 572,
-      "universe_total": 478
+      "total_universe": 758,
+      "universe_total": 664
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:57:27.887227+00:00",
+      "as_of": "2026-07-29T23:05:38.412682+00:00",
       "edges": [
         {
+          "confidence": 0.219,
+          "description": "Co-covered in 5 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "transaction",
-          "phrase": "Phishing attacks target users to steal transaction credentials.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-15",
+          "phrase": "Co-covered in 5 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "phishing",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.202,
+          "description": "Co-covered in 8 approved stories; most recently September 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "transaction",
-          "phrase": "EIPs define standards for Ethereum transactions.",
-          "relation_type": "protocol",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-09-02",
+          "phrase": "Co-covered in 8 approved stories; most recently September 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ethereum-improvement-proposal",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.164,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "transaction",
-          "phrase": "Upgrades can change transaction rules or gas mechanics.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ethereum-upgrade",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.15,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "transaction",
-          "phrase": "Solana is a competing blockchain for transaction processing.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "solana",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.15,
+          "description": "Co-covered in 13 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "transaction",
-          "phrase": "USDC is a stablecoin transferred via transactions.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 13 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "usdc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -296,42 +331,62 @@
         },
         {
           "center": false,
+          "confidence": 0.219,
           "name": "Phishing",
+          "observed_at": "2026-04-15",
           "slug": "phishing",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.202,
           "name": "EIP",
+          "observed_at": "2025-09-02",
           "slug": "ethereum-improvement-proposal",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.164,
           "name": "Ethereum Upgrade",
+          "observed_at": null,
           "slug": "ethereum-upgrade",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.15,
           "name": "Solana",
+          "observed_at": null,
           "slug": "solana",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.15,
           "name": "USDC",
+          "observed_at": null,
           "slug": "usdc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -401,16 +456,16 @@
     },
     "reader_signal": {
       "article_count": 100,
-      "as_of": "2026-07-01T11:57:28.814089+00:00",
+      "as_of": "2026-07-29T23:05:39.056082+00:00",
       "most_clicked": {
-        "clicks": 349,
+        "clicks": 350,
         "date": "2023-07-10T05:28:20.209486+00:00",
         "headline": "MiCA's stablecoin transaction cap stifles crypto adoption",
         "lev_url": "https://leviathannews.xyz/1756/micas-stablecoin-transaction-cap-stifles-crypto-adoption"
       },
       "provenance": "data",
       "top_decile_share": 27,
-      "total_clicks": 7877
+      "total_clicks": 7985
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:30:33.034382+00:00",
@@ -495,10 +550,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:57:28.734730+00:00",
+      "as_of": "2026-07-29T23:05:39.050918+00:00",
       "items": [
         {
-          "clicks": 59,
+          "clicks": 63,
           "date": "2026-05-28T22:28:33.652094+00:00",
           "headline": "Open Transaction Layer unites major crypto and finance players to set interoperability standard for global onchain finance",
           "hot_score": 746.39427,
@@ -507,7 +562,7 @@
           "url": "https://www.prnewswire.com/news-releases/open-transaction-layer-launches-to-build-the-coordination-standard-for-onchain-finance-302784477.html"
         },
         {
-          "clicks": 75,
+          "clicks": 79,
           "date": "2025-12-01T14:29:50.983144+00:00",
           "headline": "All crypto exchanges in the UK will automatically share transaction data with HMRC starting 1 Jan.",
           "hot_score": 138.473849,
@@ -516,7 +571,7 @@
           "url": "https://paragraph.com/@decentralised/ukcarf"
         },
         {
-          "clicks": 79,
+          "clicks": 83,
           "date": "2025-12-10T15:15:04.529195+00:00",
           "headline": "BOLTS launches quantum-resilience pilot on Canton Network to future-proof $6T real-world assets. The pilot will explore how BOLTS’ quantum-resilient software product, QFlex, could potentially bring quantum-resistant transaction assurance to Canton Network. QFlex addresses the multi-faceted complexities around fortifying blockchain networks against Q-Day.",
           "hot_score": 120.848306,
@@ -525,7 +580,7 @@
           "url": "https://chainwire.org/2025/12/10/bolts-launches-quantum-resilience-pilot-on-canton-network-to-future-proof-6t-real-world-assets/?s=bolts"
         },
         {
-          "clicks": 83,
+          "clicks": 87,
           "date": "2025-12-26T09:13:31.100546+00:00",
           "headline": "Stablecoin supply climbed past $314B in 2025, but usage told a different story as Tether led transaction activity, followed by RLUSD and USDC, while the Trump-backed USD1 surged into the top tier months after launch.",
           "hot_score": 103.822763,
@@ -534,7 +589,7 @@
           "url": "https://decrypt.co/352767/tether-trump-usd1-7-fastest-moving-stablecoins-2025"
         },
         {
-          "clicks": 67,
+          "clicks": 70,
           "date": "2025-12-02T17:56:23.895447+00:00",
           "headline": "MetaMask just dropped Transaction Shield — wallet protection that covers up to $10K/month for verified transactions. A big move toward safer DeFi interactions and user confidence in Web3 wallets.",
           "hot_score": 90.736229,
@@ -552,7 +607,7 @@
           "url": "https://membranelabs.com/first-institutional-stablecoin-for-stablecoin-repo-on-a-public-blockchain/"
         },
         {
-          "clicks": 57,
+          "clicks": 62,
           "date": "2025-12-30T08:23:49.171466+00:00",
           "headline": "Many people try crypto once and never return, not because they explored its depth, but because their first interaction felt confusing, transactional, and stacked in favor of insiders. First impressions calcify fast, especially when expectations don’t match outcomes.",
           "hot_score": 74.510686,
@@ -561,7 +616,7 @@
           "url": "https://x.com/i/status/2005659146566140059"
         },
         {
-          "clicks": 46,
+          "clicks": 47,
           "date": "2025-12-10T08:29:32.794671+00:00",
           "headline": "BMW taps JPMorgan for first onchain programmable FX payment to automate its financial operations and shorten settlement times.. The German car giant used JPMorgan’s permissioned Kinexys Digital Payments network to execute the fully pre-programmed FX transaction.",
           "hot_score": 66.632667,
@@ -573,7 +628,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:57:28.615172+00:00",
+      "as_of": "2026-07-29T23:05:39.040247+00:00",
       "editorial": [
         {
           "count": 30,
@@ -628,32 +683,44 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 373,
+          "count": 513,
           "source": "x.com"
         },
         {
-          "count": 16,
+          "count": 22,
           "source": "financefeeds.com"
         },
         {
-          "count": 13,
+          "count": 19,
+          "source": "theblock.co"
+        },
+        {
+          "count": 17,
           "source": "cointelegraph.com"
         },
         {
-          "count": 11,
+          "count": 14,
           "source": "crowdfundinsider.com"
         },
         {
           "count": 9,
-          "source": "theblock.co"
-        },
-        {
-          "count": 8,
           "source": "decrypt.co"
         },
         {
-          "count": 4,
+          "count": 6,
           "source": "coindesk.com"
+        },
+        {
+          "count": 5,
+          "source": "wsj.com"
+        },
+        {
+          "count": 4,
+          "source": "tass.ru"
+        },
+        {
+          "count": 3,
+          "source": "news.bloombergtax.com"
         },
         {
           "count": 3,
@@ -662,21 +729,9 @@
         {
           "count": 3,
           "source": "dlnews.com"
-        },
-        {
-          "count": 2,
-          "source": "our.status.im"
-        },
-        {
-          "count": 2,
-          "source": "bnbchain.org"
-        },
-        {
-          "count": 2,
-          "source": "federalregister.gov"
         }
       ],
-      "universe_distinct": 43
+      "universe_distinct": 49
     }
   },
   "official_links": [],
@@ -687,42 +742,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:37:01.814762+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.202,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0318,
-        "lift_log": 4.076,
-        "score": 0.2024,
-        "shared": 8
-      },
-      "rationale": "EIPs define standards for Ethereum transactions.",
-      "relation_type": "protocol",
-      "slug": "ethereum-improvement-proposal",
-      "source": "cotag",
-      "tag_name": "EIP",
-      "title": "EIP, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.219,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.039,
-        "lift_log": 4.358,
-        "score": 0.2187,
-        "shared": 5
-      },
-      "rationale": "Phishing attacks target users to steal transaction credentials.",
-      "relation_type": "risk",
-      "slug": "phishing",
-      "source": "cotag",
-      "tag_name": "Phishing",
-      "title": "Phishing, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "transaction",
   "tag_name": "Transaction",

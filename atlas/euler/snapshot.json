@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:09:50.581906+00:00",
-      "newsroom_total": 45,
-      "overall_share": 79,
+      "as_of": "2026-07-29T22:58:57.733023+00:00",
+      "newsroom_total": 46,
+      "overall_share": 70,
       "provenance": "data",
       "series": [
         {
@@ -125,62 +125,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 3
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 8
         }
       ],
-      "total_universe": 57,
-      "universe_total": 12
+      "total_universe": 66,
+      "universe_total": 20
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:09:50.174078+00:00",
+      "as_of": "2026-07-29T22:58:57.553004+00:00",
       "edges": [
         {
+          "confidence": 0.287,
+          "description": "Co-covered in 6 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "euler",
-          "phrase": "Euler is a lending protocol on Ethereum.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-11",
+          "phrase": "Co-covered in 6 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "lending",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.241,
+          "description": "Co-covered in 7 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "euler",
-          "phrase": "Euler offers vaults for yield strategies.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-06",
+          "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "vaults",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.217,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "euler",
-          "phrase": "Fluid is a competing lending protocol.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-15",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fluid",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.163,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "euler",
-          "phrase": "Morpho is a competing lending protocol.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "morpho",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.134,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "euler",
-          "phrase": "TVL measures Euler's deposited assets.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tvl",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         }
       ],
@@ -194,42 +235,62 @@
         },
         {
           "center": false,
+          "confidence": 0.287,
           "name": "Lending",
+          "observed_at": "2026-06-11",
           "slug": "lending",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.241,
           "name": "Vaults",
+          "observed_at": "2026-07-06",
           "slug": "vaults",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.217,
           "name": "Fluid",
+          "observed_at": "2026-03-15",
           "slug": "fluid",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.163,
           "name": "Morpho",
+          "observed_at": null,
           "slug": "morpho",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.134,
           "name": "TVL",
+          "observed_at": null,
           "slug": "tvl",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         }
       ],
@@ -298,17 +359,17 @@
       "source": "https://www.chainalysis.com/blog/euler-finance-flash-loan-attack/"
     },
     "reader_signal": {
-      "article_count": 45,
-      "as_of": "2026-07-01T12:09:51.212099+00:00",
+      "article_count": 46,
+      "as_of": "2026-07-29T22:58:57.983486+00:00",
       "most_clicked": {
-        "clicks": 583,
+        "clicks": 587,
         "date": "2023-07-13T15:48:24.917131+00:00",
         "headline": "Euler exploiter has been arrested in Paris",
         "lev_url": "https://leviathannews.xyz/1833/euler-exploiter-has-been-arrested-in-paris"
       },
       "provenance": "data",
       "top_decile_share": 38,
-      "total_clicks": 3046
+      "total_clicks": 3112
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:56:38.546063+00:00",
@@ -393,10 +454,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:09:51.132937+00:00",
+      "as_of": "2026-07-29T22:58:57.978848+00:00",
       "items": [
         {
-          "clicks": 26,
+          "clicks": 29,
           "date": "2026-06-17T10:02:03.412296+00:00",
           "headline": "DeFi lending is shifting from shared pools to modular risk isolation as Morpho, Aave, and Euler battle to become the institutional backbone for onchain credit",
           "hot_score": 676.683542,
@@ -405,7 +466,7 @@
           "url": "https://x.com/tiger_research_/status/2067068857676972062"
         },
         {
-          "clicks": 33,
+          "clicks": 34,
           "date": "2026-05-15T18:43:17.383847+00:00",
           "headline": "Euler takes HyperEVM lending in-house as HypurrFi winds down Mewler and Clearstar stays curator",
           "hot_score": 548.0,
@@ -414,7 +475,7 @@
           "url": "https://www.euler.finance/blog/euler-brings-hyperevm-market-coverage-in-house"
         },
         {
-          "clicks": 52,
+          "clicks": 55,
           "date": "2026-05-16T13:48:29.516128+00:00",
           "headline": "New security audit released for CoWSwap’s CoW-Euler integration, enabling atomic leverage on Euler",
           "hot_score": 535.807739,
@@ -423,7 +484,7 @@
           "url": "https://x.com/yauditdao/status/2055295648006553781"
         },
         {
-          "clicks": 37,
+          "clicks": 38,
           "date": "2026-05-28T12:40:22.010193+00:00",
           "headline": "VanEck's VBILL Treasury fund goes live on Euler as tokenized collateral for DeFi loans",
           "hot_score": 444.184794,
@@ -432,7 +493,16 @@
           "url": "https://www.coindesk.com/business/2026/05/27/vaneck-s-tokenized-fund-lands-on-euler-as-defi-courts-wall-street-institutions"
         },
         {
-          "clicks": 92,
+          "clicks": 41,
+          "date": "2026-07-17T03:57:26.303802+00:00",
+          "headline": "Pendle launches one-click PT looping beta on Aave V3 and Morpho, with Aave V4 and Euler support planned",
+          "hot_score": 428.919264,
+          "lev_url": "https://leviathannews.xyz/277138/pendle-opens-one-click-pt-looping-beta-on-aave-v3-and-morpho-with-aave-v4-and-euler-support-to-follow",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260717012323_Z4zrlaiDPw==.png",
+          "url": "https://x.com/pendle_fi/status/2077654555815502145"
+        },
+        {
+          "clicks": 93,
           "date": "2026-03-24T14:27:14.149783+00:00",
           "headline": "Fira launches fixed-rate lending on Ethereum with $450M in deposits migrated from Euler Finance",
           "hot_score": 288.56626,
@@ -441,7 +511,7 @@
           "url": "https://x.com/Fira_Lend/status/2034987772419658225"
         },
         {
-          "clicks": 75,
+          "clicks": 77,
           "date": "2026-01-12T21:26:24.106102+00:00",
           "headline": "Michael Bentley announces that he is stepping down as day-to-day CEO of Euler Labs after nearly six years, transitioning into an advisory and product-focused role, while Euler pivots more explicitly toward institutional and fintech credit markets and RWAs",
           "hot_score": 97.814249,
@@ -457,24 +527,15 @@
           "lev_url": "https://leviathannews.xyz/23547/euler-labs-shared-how-it-fixed-frontend-performance-by-rethinking-web3-data-fetching-replacing-hook-heavy-react-query-patterns-with-a-simple-fetch-mapper-hook-architecture-the-shif",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260112203934_TVX77u_lb8I=.jpg",
           "url": "https://x.com/i/status/2010734949955928472"
-        },
-        {
-          "clicks": 58,
-          "date": "2026-04-03T13:57:20.284577+00:00",
-          "headline": "Concrete to act as curator for Euler's vaults, bringing institutional risk standards to modular lending",
-          "hot_score": 61.594811,
-          "lev_url": "https://leviathannews.xyz/220766/concrete-will-serve-as-a-curator-within-eulers-vault-framework-bringing-institutional-risk-standards-to-isolated-lending-markets-on-modular-infrastructure-concrete-developed-by-blu",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260403131517_Ngcu85Naq5Mr.jpg",
-          "url": "https://x.com/eulerfinance/status/2040029181761724445"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:09:51.040190+00:00",
+      "as_of": "2026-07-29T22:58:57.965745+00:00",
       "editorial": [
         {
-          "count": 29,
+          "count": 30,
           "source": "x.com"
         },
         {
@@ -518,7 +579,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 8,
+          "count": 16,
           "source": "x.com"
         },
         {
@@ -541,59 +602,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:30.614599+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.217,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0298,
-        "lift_log": 4.427,
-        "score": 0.2174,
-        "shared": 3
-      },
-      "rationale": "Fluid is a competing lending protocol.",
-      "relation_type": "peer",
-      "slug": "fluid",
-      "source": "cotag",
-      "tag_name": "Fluid",
-      "title": "Fluid, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.287,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0236,
-        "lift_log": 3.828,
-        "score": 0.2874,
-        "shared": 6
-      },
-      "rationale": "Euler is a lending protocol on Ethereum.",
-      "relation_type": "category",
-      "slug": "lending",
-      "source": "cotag",
-      "tag_name": "Lending",
-      "title": "Lending, Explained",
-      "weight": 29
-    },
-    {
-      "confidence": 0.241,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.011,
-        "lift_log": 2.948,
-        "score": 0.2414,
-        "shared": 6
-      },
-      "rationale": "Euler offers vaults for yield strategies.",
-      "relation_type": "product",
-      "slug": "vaults",
-      "source": "cotag",
-      "tag_name": "Vaults",
-      "title": "Vaults, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "euler",
   "tag_name": "Euler",

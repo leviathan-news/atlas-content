@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:42:03.023814+00:00",
-      "newsroom_total": 295,
-      "overall_share": 50,
+      "as_of": "2026-07-29T22:57:28.230290+00:00",
+      "newsroom_total": 315,
+      "overall_share": 43,
       "provenance": "data",
       "series": [
         {
@@ -141,7 +141,7 @@
         {
           "ed_share": null,
           "month": "2025-01",
-          "newsroom": 4,
+          "newsroom": 5,
           "universe": 0
         },
         {
@@ -241,66 +241,101 @@
           "universe": 50
         },
         {
-          "ed_share": 20,
+          "ed_share": 13,
           "month": "2026-07",
-          "newsroom": 1,
-          "universe": 4
+          "newsroom": 20,
+          "universe": 129
         }
       ],
-      "total_universe": 590,
-      "universe_total": 295
+      "total_universe": 735,
+      "universe_total": 420
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:42:02.633576+00:00",
+      "as_of": "2026-07-29T22:57:28.029335+00:00",
       "edges": [
         {
+          "confidence": 0.358,
+          "description": "Co-covered in 581 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "circle",
-          "phrase": "Circle issues USDC, a stablecoin pegged to USD.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 581 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "usdc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 36
         },
         {
+          "confidence": 0.244,
+          "description": "Co-covered in 39 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "circle",
-          "phrase": "Arc is a platform built on Circle's infrastructure.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 39 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "arc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.22,
+          "description": "Co-covered in 47 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "circle",
-          "phrase": "Tether is a competing stablecoin issuer.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 47 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "tether",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.175,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "circle",
-          "phrase": "Legal and regulatory challenges affect Circle's operations.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "legal",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.173,
+          "description": "Co-covered in 32 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "circle",
-          "phrase": "Payments is a broader category Circle operates in.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 32 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "payments",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -314,42 +349,62 @@
         },
         {
           "center": false,
+          "confidence": 0.358,
           "name": "USDC",
+          "observed_at": "2026-07-29",
           "slug": "usdc",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 36
         },
         {
           "center": false,
+          "confidence": 0.244,
           "name": "Arc",
+          "observed_at": "2026-07-27",
           "slug": "arc",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.22,
           "name": "Tether",
+          "observed_at": "2026-07-27",
           "slug": "tether",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.175,
           "name": "legal",
+          "observed_at": null,
           "slug": "legal",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.173,
           "name": "Payments",
+          "observed_at": null,
           "slug": "payments",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -418,17 +473,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 295,
-      "as_of": "2026-07-01T11:42:03.781020+00:00",
+      "article_count": 315,
+      "as_of": "2026-07-29T22:57:28.490312+00:00",
       "most_clicked": {
-        "clicks": 967,
+        "clicks": 975,
         "date": "2024-05-03T19:01:50.454520+00:00",
         "headline": "Uniswap teams with Robinhood to trade crypto in-app, including $10 USDC as a promotion",
         "lev_url": "https://leviathannews.xyz/5185/uniswap-teams-with-robinhood-to-trade-crypto-in-app-including-10-usdc-as-a-promotion"
       },
       "provenance": "data",
       "top_decile_share": 33,
-      "total_clicks": 23260
+      "total_clicks": 24414
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:14:43.787798+00:00",
@@ -513,10 +568,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:42:03.698182+00:00",
+      "as_of": "2026-07-29T22:57:28.477500+00:00",
       "items": [
         {
-          "clicks": 69,
+          "clicks": 70,
           "date": "2026-04-08T16:08:06.549877+00:00",
           "headline": "Circle launches managed USDC settlement for banks, abstracts all crypto complexity across 20+ chains",
           "hot_score": 388409.749167,
@@ -525,7 +580,7 @@
           "url": "https://www.circle.com/pressroom/circle-launches-cpn-managed-payments-a-full-stack-platform-for-seamless-stablecoin-settlement"
         },
         {
-          "clicks": 47,
+          "clicks": 48,
           "date": "2026-04-09T23:47:54.665883+00:00",
           "headline": "Alchemy's AgentPay bridges Coinbase, Stripe, Visa, and Circle AI payment rails into single merchant integration",
           "hot_score": 23179.249276,
@@ -534,7 +589,7 @@
           "url": "https://www.coindesk.com/tech/2026/04/08/blockchain-development-firm-alchemy-unveils-interoperable-layer-for-ai-payments"
         },
         {
-          "clicks": 52,
+          "clicks": 54,
           "date": "2026-04-13T17:36:19.279408+00:00",
           "headline": "Circle declines to freeze USDC in Drift exploit as CEO Allaire warns of legal risks and ethical concerns, while expanding partnerships with major South Korean exchanges",
           "hot_score": 7502.067443,
@@ -552,7 +607,7 @@
           "url": "https://www.coindesk.com/business/2026/04/13/clearbank-secures-mica-approval-targets-circle-euro-dollar-stablecoins-for-institutional-clients"
         },
         {
-          "clicks": 35,
+          "clicks": 38,
           "date": "2026-04-15T15:12:50.831645+00:00",
           "headline": "Brix raises $5.5M to bring institutional-grade emerging market yield onchain via MegaETH, backed by Circle Ventures and ConsenSys",
           "hot_score": 5291.807876,
@@ -561,7 +616,7 @@
           "url": "https://crypto.news/tokenization-startup-brix-raises-5-5m-to-bring-institutional-em-yield-on-chain/"
         },
         {
-          "clicks": 54,
+          "clicks": 56,
           "date": "2026-04-12T22:35:34.890714+00:00",
           "headline": "Thunes brings USDC settlement to 12B wallets across 140+ countries via Circle Payments Network",
           "hot_score": 4773.58938,
@@ -570,7 +625,7 @@
           "url": "https://www.prnewswire.com/news-releases/thunes-joins-circle-payments-network-managed-payments-to-advance-global-payment-interoperability-302737086.html"
         },
         {
-          "clicks": 53,
+          "clicks": 57,
           "date": "2026-04-16T13:18:02.885668+00:00",
           "headline": "\nTether to support Drift with $150M recovery plan and new partnership to replace Circle’s USDC",
           "hot_score": 4703.398276,
@@ -579,7 +634,7 @@
           "url": "https://tether.io/news/tether-leads-support-to-the-150m-drift-recovery-plan-stabilizes-relaunch-as-drift-plans-to-expand-usdt-usage-on-solana/"
         },
         {
-          "clicks": 29,
+          "clicks": 31,
           "date": "2026-04-14T07:04:27.769455+00:00",
           "headline": "Dunamu and Circle sign MOU to launch stablecoin education programs in South Korea",
           "hot_score": 4617.596473,
@@ -591,22 +646,22 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:42:03.611956+00:00",
+      "as_of": "2026-07-29T22:57:28.465182+00:00",
       "editorial": [
         {
-          "count": 99,
+          "count": 110,
           "source": "x.com"
         },
         {
-          "count": 35,
+          "count": 38,
           "source": "circle.com"
         },
         {
-          "count": 26,
+          "count": 27,
           "source": "theblock.co"
         },
         {
-          "count": 24,
+          "count": 27,
           "source": "coindesk.com"
         },
         {
@@ -642,31 +697,31 @@
           "source": "crypto.news"
         }
       ],
-      "editorial_distinct": 67,
+      "editorial_distinct": 69,
       "provenance": "data",
       "universe": [
         {
-          "count": 135,
+          "count": 205,
           "source": "x.com"
         },
         {
-          "count": 35,
+          "count": 46,
           "source": "theblock.co"
         },
         {
-          "count": 30,
+          "count": 37,
           "source": "decrypt.co"
         },
         {
-          "count": 24,
+          "count": 31,
           "source": "cointelegraph.com"
         },
         {
-          "count": 23,
+          "count": 31,
           "source": "circle.com"
         },
         {
-          "count": 16,
+          "count": 23,
           "source": "coindesk.com"
         },
         {
@@ -674,27 +729,27 @@
           "source": "dlnews.com"
         },
         {
-          "count": 5,
-          "source": "crowdfundinsider.com"
-        },
-        {
-          "count": 3,
+          "count": 6,
           "source": "wsj.com"
         },
         {
-          "count": 3,
-          "source": "financefeeds.com"
+          "count": 6,
+          "source": "crowdfundinsider.com"
         },
         {
-          "count": 2,
-          "source": "bloomberg.com"
-        },
-        {
-          "count": 2,
+          "count": 5,
           "source": "barrons.com"
+        },
+        {
+          "count": 4,
+          "source": "techinasia.com"
+        },
+        {
+          "count": 3,
+          "source": "bloomberg.com"
         }
       ],
-      "universe_distinct": 20
+      "universe_distinct": 22
     }
   },
   "official_links": [
@@ -711,59 +766,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:22.882921+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.244,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0761,
-        "lift_log": 4.439,
-        "score": 0.2444,
-        "shared": 35
-      },
-      "rationale": "Arc is a platform built on Circle's infrastructure.",
-      "relation_type": "ecosystem",
-      "slug": "arc",
-      "source": "cotag",
-      "tag_name": "Arc",
-      "title": "Arc, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.22,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0336,
-        "lift_log": 2.182,
-        "score": 0.2202,
-        "shared": 38
-      },
-      "rationale": "Tether is a competing stablecoin issuer.",
-      "relation_type": "peer",
-      "slug": "tether",
-      "source": "cotag",
-      "tag_name": "Tether",
-      "title": "Tether, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.358,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1388,
-        "lift_log": 2.927,
-        "score": 0.3577,
-        "shared": 457
-      },
-      "rationale": "Circle issues USDC, a stablecoin pegged to USD.",
-      "relation_type": "product",
-      "slug": "usdc",
-      "source": "cotag",
-      "tag_name": "USDC",
-      "title": "USDC: Complete Guide",
-      "weight": 36
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "circle",
   "tag_name": "Circle",

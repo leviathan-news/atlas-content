@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:40:50.745899+00:00",
-      "newsroom_total": 676,
-      "overall_share": 35,
+      "as_of": "2026-07-29T22:56:58.774282+00:00",
+      "newsroom_total": 720,
+      "overall_share": 31,
       "provenance": "data",
       "series": [
         {
@@ -247,66 +247,101 @@
           "universe": 275
         },
         {
-          "ed_share": 0,
+          "ed_share": 11,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 8
+          "newsroom": 44,
+          "universe": 350
         }
       ],
-      "total_universe": 1940,
-      "universe_total": 1264
+      "total_universe": 2326,
+      "universe_total": 1606
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:40:49.715321+00:00",
+      "as_of": "2026-07-29T22:56:58.456557+00:00",
       "edges": [
         {
+          "confidence": 0.344,
+          "description": "Co-covered in 1322 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "btc",
-          "phrase": "BTC is the ticker for Bitcoin; they refer to the same asset.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 1322 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 34
         },
         {
+          "confidence": 0.196,
+          "description": "Co-covered in 218 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "btc",
-          "phrase": "Strategy is a company holding BTC; comparable corporate treasury play.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 218 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "strategy",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.175,
+          "description": "Co-covered in 12 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "btc",
-          "phrase": "Macroeconomic factors influence BTC's price and adoption narrative.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 12 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "macro",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.16,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "btc",
-          "phrase": "Satoshi Nakamoto created Bitcoin, the source of BTC.",
-          "relation_type": "founder",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "satoshi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.155,
+          "description": "Co-covered in 37 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "btc",
-          "phrase": "Metaplanet is a firm investing in BTC as treasury asset.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 37 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "metaplanet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -320,42 +355,62 @@
         },
         {
           "center": false,
+          "confidence": 0.344,
           "name": "Bitcoin",
+          "observed_at": "2026-07-29",
           "slug": "bitcoin",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 34
         },
         {
           "center": false,
+          "confidence": 0.196,
           "name": "Strategy",
+          "observed_at": null,
           "slug": "strategy",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.175,
           "name": "Macro",
+          "observed_at": null,
           "slug": "macro",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.16,
           "name": "Satoshi",
+          "observed_at": null,
           "slug": "satoshi",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.155,
           "name": "Metaplanet",
+          "observed_at": null,
           "slug": "metaplanet",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -424,17 +479,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 676,
-      "as_of": "2026-07-01T11:40:53.164890+00:00",
+      "article_count": 720,
+      "as_of": "2026-07-29T22:56:59.193172+00:00",
       "most_clicked": {
-        "clicks": 708,
+        "clicks": 721,
         "date": "2024-08-22T06:25:47.687111+00:00",
         "headline": "USDD removes 12,000 BTC from collateral without DAO approval, raising governance transparency concerns.",
         "lev_url": "https://leviathannews.xyz/6706/usdd-removes-12000-btc-from-collateral-without-dao-approval-raising-governance-transparency-concerns"
       },
       "provenance": "data",
       "top_decile_share": 33,
-      "total_clicks": 50429
+      "total_clicks": 53099
     },
     "reader_threads": {
       "as_of": "2026-06-25T23:47:13.528429+00:00",
@@ -519,10 +574,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:40:52.867204+00:00",
+      "as_of": "2026-07-29T22:56:59.154881+00:00",
       "items": [
         {
-          "clicks": 109,
+          "clicks": 114,
           "date": "2026-04-08T22:19:03.656040+00:00",
           "headline": "Bitcoin Depot discloses $3.6M BTC theft from corporate wallets in SEC filing, two weeks after breach",
           "hot_score": 319432.879689,
@@ -540,16 +595,16 @@
           "url": "https://x.com/i/status/2044017113120030805"
         },
         {
-          "clicks": 11,
-          "date": "2026-06-29T14:51:57.572461+00:00",
-          "headline": "Breez SDK turns BTC balances into USDC and USDT payouts across 30-plus chains",
-          "hot_score": 2665.521369,
-          "lev_url": "https://leviathannews.xyz/264721/breez-sdk-turns-btc-balances-into-usdc-and-usdt-payouts-across-30-plus-chains",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629142611_Z4zrlaiDPw==.png",
-          "url": "https://cointelegraph.com/news/breez-bitcoin-wallets-send-usdc-usdt-without-holding-stablecoins"
+          "clicks": 21,
+          "date": "2026-07-29T11:09:52.335230+00:00",
+          "headline": "K33 says July is on track to become bitcoin's weakest spot trading month since late 2023, with muted spot, futures and options activity reflecting a sluggish crypto market",
+          "hot_score": 2920.195164,
+          "lev_url": "https://leviathannews.xyz/284012/sleepy-july-k33-says-bitcoin-spot-volume-on-track-for-weakest-month-since-late-2023-20260729",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729110755_Opy9UKlKr0zq.jpg",
+          "url": "https://www.theblock.co/post/410017/sleepy-july-k33-says-bitcoin-spot-volume-on-track-for-weakest-month-since-late-2023?utm_source=rss&utm_medium=rss?utm_source=telegram1&utm_medium=social"
         },
         {
-          "clicks": 40,
+          "clicks": 42,
           "date": "2026-04-16T13:26:51.561157+00:00",
           "headline": "European BTC treasury firms forge own playbook as capital market and regulatory gaps block Strategy model",
           "hot_score": 2407.643196,
@@ -558,7 +613,7 @@
           "url": "https://cointelegraph.com/news/europe-bitcoin-treasury-model-not-copy-strategy-pbw"
         },
         {
-          "clicks": 47,
+          "clicks": 51,
           "date": "2026-04-16T15:00:34.819300+00:00",
           "headline": "Charles Schwab launches direct BTC/ETH trading via new Schwab Crypto arm to rival Robinhood at 0.75% fee.",
           "hot_score": 2211.111643,
@@ -567,13 +622,22 @@
           "url": "https://www.cnbc.com/2026/04/16/charles-schwab-to-launch-direct-bitcoin-ethereum-trading-to-compete-with-robinhood.html"
         },
         {
-          "clicks": 44,
+          "clicks": 49,
           "date": "2026-04-16T16:15:02.849248+00:00",
           "headline": "Zonda admits 4,500 BTC locked in inaccessible wallet as Polish prosecutors launch probe",
           "hot_score": 2169.690408,
           "lev_url": "https://leviathannews.xyz/230673/zonda-admits-4500-btc-locked-in-inaccessible-wallet-as-polish-prosecutors-launch-probe",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416160017_Z4zrlaiDPw==.png",
           "url": "https://cointelegraph.com/news/zonda-crypto-4500-btc-wallet-inaccessible-withdrawal-crisis"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-07-27T15:46:34.340857+00:00",
+          "headline": "Metaplanet's Siiibo Securities acquisition could unlock bitcoin-backed \"Bitbonds,\" with plans for 4–6% yields, stablecoin settlement and an onchain fixed-income market",
+          "hot_score": 2079.537855,
+          "lev_url": "https://leviathannews.xyz/282676/metaplanets-brokerage-deal-badly-undersells-plans-for-bitcoin-backed-bitbonds-benchmark-says-20260727",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727154357_KuVLJVFJ3cTb.jpg",
+          "url": "https://www.theblock.co/post/409752/benchmark-metaplanet-brokerage-deal-badly-undersells-plans-bitcoin-backed-bitbonds?utm_source=rss&utm_medium=rss"
         },
         {
           "clicks": 38,
@@ -583,32 +647,23 @@
           "lev_url": "https://leviathannews.xyz/230860/public-bitcoin-miners-sold-32000-btc-in-q1-2026-surpassing-all-of-2025-as-hashprice-hovers-near-35-breakeven",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416195040_Z4zrlaiDPw==.png",
           "url": "https://cointelegraph.com/news/publicly-mining-sold-btc-q1-2026-all-2025"
-        },
-        {
-          "clicks": 42,
-          "date": "2026-04-11T21:36:21.444180+00:00",
-          "headline": "SpaceX holds 8,285 BTC worth $603M steady as xAI costs flip $8B profit to nearly $5B loss ahead of IPO",
-          "hot_score": 1791.901762,
-          "lev_url": "https://leviathannews.xyz/226867/spacex-holds-8285-btc-worth-603m-steady-as-xai-costs-flip-8b-profit-to-nearly-5b-loss-ahead-of-ipo",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411204530_Z4zrlaiDPw==.png",
-          "url": "https://www.coindesk.com/markets/2026/04/11/musk-s-spacex-holds-usd603-million-in-bitcoin-despite-usd5-billion-loss-stemming-from-xai"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:40:52.776876+00:00",
+      "as_of": "2026-07-29T22:56:59.143106+00:00",
       "editorial": [
         {
-          "count": 285,
+          "count": 308,
           "source": "x.com"
         },
         {
-          "count": 64,
+          "count": 72,
           "source": "coindesk.com"
         },
         {
-          "count": 47,
+          "count": 54,
           "source": "theblock.co"
         },
         {
@@ -648,51 +703,51 @@
           "source": "dlnews.com"
         }
       ],
-      "editorial_distinct": 105,
+      "editorial_distinct": 110,
       "provenance": "data",
       "universe": [
         {
-          "count": 807,
+          "count": 968,
           "source": "x.com"
         },
         {
-          "count": 200,
+          "count": 227,
           "source": "cointelegraph.com"
         },
         {
-          "count": 52,
-          "source": "theblock.co"
-        },
-        {
-          "count": 51,
+          "count": 62,
           "source": "decrypt.co"
         },
         {
-          "count": 42,
+          "count": 59,
+          "source": "theblock.co"
+        },
+        {
+          "count": 49,
           "source": "upbit.com"
         },
         {
-          "count": 27,
+          "count": 32,
           "source": "financefeeds.com"
         },
         {
-          "count": 21,
+          "count": 27,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 14,
+          "count": 16,
           "source": "coindesk.com"
         },
         {
-          "count": 9,
+          "count": 12,
           "source": "treeofalpha.com"
         },
         {
-          "count": 7,
+          "count": 9,
           "source": "chainwire.org"
         },
         {
-          "count": 5,
+          "count": 6,
           "source": "t.me"
         },
         {
@@ -700,7 +755,7 @@
           "source": "hemi.xyz"
         }
       ],
-      "universe_distinct": 29
+      "universe_distinct": 31
     }
   },
   "official_links": [],
@@ -711,25 +766,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:20.914644+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.344,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1169,
-        "lift_log": 1.685,
-        "score": 0.3437,
-        "shared": 797
-      },
-      "rationale": "BTC is the ticker for Bitcoin; they refer to the same asset.",
-      "relation_type": "peer",
-      "slug": "bitcoin",
-      "source": "cotag",
-      "tag_name": "Bitcoin",
-      "title": "Bitcoin, Explained",
-      "weight": 34
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "btc",
   "tag_name": "BTC",

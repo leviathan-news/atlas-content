@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "affected_protocols": {
-      "as_of": "2026-07-01T11:44:31.819035+00:00",
+      "as_of": "2026-07-29T22:59:42.585352+00:00",
       "protocols": [
         {
           "name": "Crypto",
@@ -44,6 +44,11 @@
           "weight": 11
         },
         {
+          "name": "Ethereum",
+          "slug": "ethereum",
+          "weight": 10
+        },
+        {
           "name": "North Korea",
           "slug": "north-korea",
           "weight": 10
@@ -54,11 +59,6 @@
           "weight": 10
         },
         {
-          "name": "Ethereum",
-          "slug": "ethereum",
-          "weight": 9
-        },
-        {
           "name": "Memes",
           "slug": "meme",
           "weight": 9
@@ -67,9 +67,9 @@
       "provenance": "data"
     },
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:44:30.436279+00:00",
-      "newsroom_total": 214,
-      "overall_share": 87,
+      "as_of": "2026-07-29T22:59:42.262530+00:00",
+      "newsroom_total": 216,
+      "overall_share": 82,
       "provenance": "data",
       "series": [
         {
@@ -301,66 +301,101 @@
           "universe": 7
         },
         {
-          "ed_share": 50,
+          "ed_share": 17,
           "month": "2026-07",
-          "newsroom": 1,
-          "universe": 1
+          "newsroom": 3,
+          "universe": 15
         }
       ],
-      "total_universe": 247,
-      "universe_total": 33
+      "total_universe": 263,
+      "universe_total": 47
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:44:29.302171+00:00",
+      "as_of": "2026-07-29T22:59:41.851988+00:00",
       "edges": [
         {
+          "confidence": 0.276,
+          "description": "Co-covered in 23 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hacks",
-          "phrase": "North Korea is linked to hacks via state-sponsored cyberattacks.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-30",
+          "phrase": "Co-covered in 23 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "north-korea",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 28
         },
         {
+          "confidence": 0.22,
+          "description": "Co-covered in 27 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hacks",
-          "phrase": "Hacks are a subset of security incidents.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-23",
+          "phrase": "Co-covered in 27 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "security",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.185,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hacks",
-          "phrase": "Bitfinex suffered a major hack in 2016.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitfinex",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hacks",
-          "phrase": "Balancer experienced a hack in 2021.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "balancer",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.167,
+          "description": "Co-covered in 14 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hacks",
-          "phrase": "Kelp is a DeFi protocol; relation to hacks unclear.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 14 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "kelp",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -374,42 +409,62 @@
         },
         {
           "center": false,
+          "confidence": 0.276,
           "name": "North Korea",
+          "observed_at": "2026-06-30",
           "slug": "north-korea",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 28
         },
         {
           "center": false,
+          "confidence": 0.22,
           "name": "Security",
+          "observed_at": "2026-06-23",
           "slug": "security",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.185,
           "name": "Bitfinex",
+          "observed_at": null,
           "slug": "bitfinex",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "Balancer",
+          "observed_at": null,
           "slug": "balancer",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.167,
           "name": "Kelp",
+          "observed_at": null,
           "slug": "kelp",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -478,17 +533,17 @@
       "source": "https://www.chainalysis.com/blog/crypto-hacking-stolen-funds-2025/"
     },
     "reader_signal": {
-      "article_count": 214,
-      "as_of": "2026-07-01T11:44:31.536802+00:00",
+      "article_count": 216,
+      "as_of": "2026-07-29T22:59:42.533536+00:00",
       "most_clicked": {
-        "clicks": 929,
+        "clicks": 936,
         "date": "2024-03-29T00:17:48.595189+00:00",
         "headline": "Prisma Finance hack possibly a whitehat rescue?",
         "lev_url": "https://leviathannews.xyz/4492/prisma-finance-hack-possibly-a-whitehat-rescue"
       },
       "provenance": "data",
       "top_decile_share": 30,
-      "total_clicks": 19718
+      "total_clicks": 20125
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:42:31.928298+00:00",
@@ -573,10 +628,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:44:31.449764+00:00",
+      "as_of": "2026-07-29T22:59:42.524736+00:00",
       "items": [
         {
-          "clicks": 83,
+          "clicks": 89,
           "date": "2026-04-12T22:34:17.403304+00:00",
           "headline": "Analyst reviews 47 crypto OpSec failures, revealing one common mistake made by 100% of victims, highlighting critical security gaps across wallets, users, and Web3 practices",
           "hot_score": 8945.528502,
@@ -585,7 +640,7 @@
           "url": "https://x.com/i/status/2043406886968455551"
         },
         {
-          "clicks": 61,
+          "clicks": 65,
           "date": "2026-04-13T06:53:44.168101+00:00",
           "headline": "Fake Ledger app on Apple's Mac Store drains G. Love's $420K Bitcoin retirement fund",
           "hot_score": 5171.562368,
@@ -594,16 +649,7 @@
           "url": "https://cointelegraph.com/news/musician-loses-420k-bitcoin-retirement-fund-after-installing-fake-ledger-app"
         },
         {
-          "clicks": 10,
-          "date": "2026-07-01T09:26:09.028756+00:00",
-          "headline": "Crypto hacks hit $75.9M across 40 June attacks as losses dip 7% from May",
-          "hot_score": 3988.771744,
-          "lev_url": "https://leviathannews.xyz/266252/crypto-hacks-hit-759m-across-40-june-attacks-as-losses-dip-7-from-may",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701092308_7kJrPVUkMeiG.jpg",
-          "url": "https://x.com/theblockco/status/2072249132723429720"
-        },
-        {
-          "clicks": 42,
+          "clicks": 47,
           "date": "2026-04-16T21:36:48.477013+00:00",
           "headline": "Russian crypto exchange Grinex halts trading after $13M exploit, blaming “foreign special services” in alleged attempt to destabilize financial systems",
           "hot_score": 3911.650494,
@@ -612,7 +658,7 @@
           "url": "https://decrypt.co/364656/russian-crypto-exchange-grinex-halts-trading-13m-exploit"
         },
         {
-          "clicks": 42,
+          "clicks": 46,
           "date": "2026-04-17T08:13:11.221484+00:00",
           "headline": "Circle faces lawsuit over alleged role in $280M Drift Protocol hack, accused of failing to freeze stolen funds and aiding illicit transfers",
           "hot_score": 2916.152169,
@@ -621,7 +667,7 @@
           "url": "https://cointelegraph.com/news/circle-faces-class-action-lawsuit-after-drift-protocol-hack"
         },
         {
-          "clicks": 46,
+          "clicks": 49,
           "date": "2026-04-17T05:25:35.240180+00:00",
           "headline": "U.S. government moves $606K in 2016 Bitfinex hack bitcoin to Coinbase; exchange to redeem all RRTs and burn LEO",
           "hot_score": 1829.30179,
@@ -630,7 +676,7 @@
           "url": "https://www.coindesk.com/markets/2026/04/17/the-u-s-government-moves-usd606-000-in-bitcoin-linked-to-the-2016-bitfinex-hack-to-coinbase"
         },
         {
-          "clicks": 56,
+          "clicks": 59,
           "date": "2026-04-20T05:31:24.665773+00:00",
           "headline": "DeFi outflows spill into Solana after KelpDAO rsETH hack, pushing Kamino USDC markets to extreme stress with 100% utilization and zero liquidity in key lending pools",
           "hot_score": 1408.044233,
@@ -646,15 +692,24 @@
           "lev_url": "https://leviathannews.xyz/233156/users-urged-to-avoid-interacting-with-any-defi-dapps-as-vercel-linked-incident-involving-stolen-github-and-npm-keys-raises-fears-of-compromised-frontends-and-supply-chain-attacks",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420054007_xc5WGJIAg3aE.jpg",
           "url": "https://x.com/i/status/2045904159858204733"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-04-21T04:57:06.852210+00:00",
+          "headline": "Web3's recurring nightmare: what it takes to actually stop the hacks",
+          "hot_score": 946.2,
+          "lev_url": "https://leviathannews.xyz/233931/web3s-recurring-nightmare-what-it-takes-to-actually-stop-the-hacks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260420212521_FQYh1nk-n3Oz.jpg",
+          "url": "https://x.com/i/status/2046056943874412833"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:44:31.352254+00:00",
+      "as_of": "2026-07-29T22:59:42.511945+00:00",
       "editorial": [
         {
-          "count": 102,
+          "count": 103,
           "source": "x.com"
         },
         {
@@ -702,24 +757,28 @@
           "source": "medium.com"
         }
       ],
-      "editorial_distinct": 50,
+      "editorial_distinct": 51,
       "provenance": "data",
       "universe": [
         {
-          "count": 19,
+          "count": 27,
           "source": "x.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "theblock.co"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "financefeeds.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 2,
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 1,
@@ -747,14 +806,10 @@
         },
         {
           "count": 1,
-          "source": "crowdfundinsider.com"
-        },
-        {
-          "count": 1,
           "source": "coindesk.com"
         }
       ],
-      "universe_distinct": 12
+      "universe_distinct": 14
     },
     "vector_taxonomy": {
       "as_of": "2026-06-26T00:42:31.928327+00:00",
@@ -802,42 +857,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:35.018531+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.276,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0431,
-        "lift_log": 3.337,
-        "score": 0.276,
-        "shared": 22
-      },
-      "rationale": "North Korea is linked to hacks via state-sponsored cyberattacks.",
-      "relation_type": "risk",
-      "slug": "north-korea",
-      "source": "cotag",
-      "tag_name": "North Korea",
-      "title": "North Korea, Explained",
-      "weight": 28
-    },
-    {
-      "confidence": 0.22,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0302,
-        "lift_log": 2.238,
-        "score": 0.2202,
-        "shared": 27
-      },
-      "rationale": "Hacks are a subset of security incidents.",
-      "relation_type": "category",
-      "slug": "security",
-      "source": "cotag",
-      "tag_name": "Security",
-      "title": "Security, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "hacks",
   "tag_name": "Hacks",

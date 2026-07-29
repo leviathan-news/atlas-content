@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:46:56.933073+00:00",
-      "newsroom_total": 165,
-      "overall_share": 64,
+      "as_of": "2026-07-29T23:05:44.272162+00:00",
+      "newsroom_total": 167,
+      "overall_share": 60,
       "provenance": "data",
       "series": [
         {
@@ -227,62 +227,103 @@
           "month": "2026-06",
           "newsroom": 4,
           "universe": 16
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 21
         }
       ],
-      "total_universe": 256,
-      "universe_total": 91
+      "total_universe": 279,
+      "universe_total": 112
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:46:56.618229+00:00",
+      "as_of": "2026-07-29T23:05:44.046785+00:00",
       "edges": [
         {
+          "confidence": 0.233,
+          "description": "Co-covered in 21 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tvl",
-          "phrase": "Exploits directly reduce TVL by draining funds from protocols.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-16",
+          "phrase": "Co-covered in 21 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "exploit",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 4 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tvl",
-          "phrase": "fxUSD is a stablecoin whose minting contributes to TVL.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-31",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fxusd",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.179,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tvl",
-          "phrase": "Liquidity incentives attract capital, increasing TVL.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "liquidity-incentives",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.172,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tvl",
-          "phrase": "Pendle is a yield protocol competing for TVL.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "pendle",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.169,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "tvl",
-          "phrase": "Ether.Fi is a liquid staking protocol that contributes TVL.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ether-dotfi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -296,42 +337,62 @@
         },
         {
           "center": false,
+          "confidence": 0.233,
           "name": "Exploit",
+          "observed_at": "2026-06-16",
           "slug": "exploit",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.206,
           "name": "fxUSD",
+          "observed_at": "2026-05-31",
           "slug": "fxusd",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.179,
           "name": "Liquidity Incentives",
+          "observed_at": null,
           "slug": "liquidity-incentives",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.172,
           "name": "Pendle",
+          "observed_at": null,
           "slug": "pendle",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.169,
           "name": "Ether.Fi",
+          "observed_at": null,
           "slug": "ether-dotfi",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -400,17 +461,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 165,
-      "as_of": "2026-07-01T11:46:57.981095+00:00",
+      "article_count": 167,
+      "as_of": "2026-07-29T23:05:44.589711+00:00",
       "most_clicked": {
-        "clicks": 666,
+        "clicks": 667,
         "date": "2024-06-17T12:46:46.240685+00:00",
         "headline": "Ton blockchain reaches $600M TVL, becoming the fastest growing blockchain with a 118% surge during the past month ",
         "lev_url": "https://leviathannews.xyz/5910/ton-blockchain-reaches-600m-tvl-becoming-the-fastest-growing-blockchain-with-a-118-surge-during-the-past-month"
       },
       "provenance": "data",
       "top_decile_share": 32,
-      "total_clicks": 13526
+      "total_clicks": 13874
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:27:48.525510+00:00",
@@ -495,10 +556,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:46:57.904740+00:00",
+      "as_of": "2026-07-29T23:05:44.582458+00:00",
       "items": [
         {
-          "clicks": 102,
+          "clicks": 104,
           "date": "2026-04-08T22:19:48.586283+00:00",
           "headline": "Monad Foundation rolls out device subsidy program for teams with $2.5M+ TVL, funding dedicated signing laptops to boost multisig and treasury security across its ecosystem",
           "hot_score": 12179.124699,
@@ -507,7 +568,7 @@
           "url": "https://x.com/i/status/2041932260077637645"
         },
         {
-          "clicks": 65,
+          "clicks": 67,
           "date": "2026-04-14T20:02:44.232711+00:00",
           "headline": "Scroll cuts costs after losing top protocol to Optimism, triggering $160M TVL outflows and $13M revenue hit as DAO moves to dissolve security council",
           "hot_score": 7754.330036,
@@ -516,7 +577,7 @@
           "url": "https://www.coindesk.com/business/2026/04/14/scroll-moves-to-cut-costs-after-top-protocol-to-migrates-to-optimism"
         },
         {
-          "clicks": 45,
+          "clicks": 50,
           "date": "2026-04-15T15:12:56.663319+00:00",
           "headline": "OP Mainnet logs largest TVL surge in history as Etherfi migrates $200M, bringing 70K cards and 300K users to Optimism to scale real-world crypto payments",
           "hot_score": 5302.179252,
@@ -525,7 +586,16 @@
           "url": "https://www.theblock.co/post/397465/op-mainnet-largest-tvl-event-history-crypto-card-provider-etherfi-live?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 109,
+          "clicks": 42,
+          "date": "2026-07-28T17:01:06.980925+00:00",
+          "headline": "Robinhood Chain TVL climbs to $325M, but DEX volume, active users, and trading activity continue to decline as memecoin-driven launch momentum fades",
+          "hot_score": 1768.69413,
+          "lev_url": "https://leviathannews.xyz/283531/robinhood-chain-deposits-climb-but-volume-and-users-fade-after-memecoin-fueled-launch-20260728",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728165548_UJ-Nk5SnIyMr.jpg",
+          "url": "https://www.theblock.co/post/409813/robinhood-chain-deposits-climb-volume-users-fade-memecoin-fueled-launch?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 117,
           "date": "2026-05-29T15:11:35.684444+00:00",
           "headline": "Web3’s 2026 growth is increasingly driven by DeFi nomads, emerging-market users and institutions, as global crypto ownership nears 900M and TVL stabilizes above $80B",
           "hot_score": 826.948133,
@@ -552,35 +622,26 @@
           "url": "https://x.com/castle_labs/status/2058927712010387619"
         },
         {
-          "clicks": 53,
+          "clicks": 61,
           "date": "2026-06-16T07:12:12.729044+00:00",
           "headline": "Crypto's insurance sector has collapsed from $1.9B to under $100M in TVL despite $840M in exploit losses during the first five months of 2026, exposing DeFi's growing protection gap",
           "hot_score": 746.321019,
           "lev_url": "https://leviathannews.xyz/257404/i-recently-read-an-article-that-described-the-typical-human-response-when-tackling-the-hardest-problems-in-their-fields-apparently-people-dont-like-dealing-with-the-hard-stuff",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260616005746_PUaXQBD1WjRF.jpg",
           "url": "https://x.com/blocmates/status/2066510011371819185"
-        },
-        {
-          "clicks": 44,
-          "date": "2026-05-20T09:06:37.925262+00:00",
-          "headline": "New DeFi research argues retention is a stronger investment signal than TVL, revealing which protocols users trust when incentives fade and crises hit markets",
-          "hot_score": 729.312055,
-          "lev_url": "https://leviathannews.xyz/245625/new-defi-research-argues-retention-is-a-stronger-investment-signal-than-tvl-revealing-which-protocols-users-trust-when-incentives-fade-and-crises-hit-markets",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260520084902_C1b4VekA8Vug.jpg",
-          "url": "https://x.com/i/web/status/2056675894974918701"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:46:57.763701+00:00",
+      "as_of": "2026-07-29T23:05:44.529108+00:00",
       "editorial": [
         {
-          "count": 99,
+          "count": 100,
           "source": "x.com"
         },
         {
-          "count": 14,
+          "count": 15,
           "source": "theblock.co"
         },
         {
@@ -628,16 +689,16 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 73,
+          "count": 92,
           "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "theblock.co"
         },
         {
           "count": 4,
           "source": "financefeeds.com"
-        },
-        {
-          "count": 3,
-          "source": "theblock.co"
         },
         {
           "count": 2,
@@ -679,42 +740,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:37:02.444985+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.233,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0311,
-        "lift_log": 2.497,
-        "score": 0.2326,
-        "shared": 21
-      },
-      "rationale": "Exploits directly reduce TVL by draining funds from protocols.",
-      "relation_type": "risk",
-      "slug": "exploit",
-      "source": "cotag",
-      "tag_name": "Exploit",
-      "title": "Exploit, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0137,
-        "lift_log": 4.338,
-        "score": 0.2061,
-        "shared": 4
-      },
-      "rationale": "fxUSD is a stablecoin whose minting contributes to TVL.",
-      "relation_type": "product",
-      "slug": "fxusd",
-      "source": "cotag",
-      "tag_name": "fxUSD",
-      "title": "fxUSD: Complete Guide",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "tvl",
   "tag_name": "TVL",

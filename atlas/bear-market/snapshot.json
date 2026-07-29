@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:02:40.498784+00:00",
-      "newsroom_total": 22,
-      "overall_share": 29,
+      "as_of": "2026-07-29T22:56:29.525711+00:00",
+      "newsroom_total": 23,
+      "overall_share": 23,
       "provenance": "data",
       "series": [
         {
@@ -113,62 +113,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 18
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 22
         }
       ],
-      "total_universe": 77,
-      "universe_total": 55
+      "total_universe": 100,
+      "universe_total": 77
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:02:40.121157+00:00",
+      "as_of": "2026-07-29T22:56:28.964266+00:00",
       "edges": [
         {
+          "confidence": 0.217,
+          "description": "Co-covered in 5 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bear-market",
-          "phrase": "Provides on-chain data analytics used to gauge bear market conditions.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-09",
+          "phrase": "Co-covered in 5 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cryptoquant",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.19,
+          "description": "Co-covered in 33 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bear-market",
-          "phrase": "Bitcoin's price trends define bear market cycles in crypto.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 33 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.151,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bear-market",
-          "phrase": "Macroeconomic factors like interest rates drive bear market sentiment.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "macro",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.126,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bear-market",
-          "phrase": "Stablecoins like USDC see increased demand during bear markets.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "usdc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "bear-market",
+          "observed_at": null,
           "phrase": "digital assets",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "digital-assets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -182,42 +223,62 @@
         },
         {
           "center": false,
+          "confidence": 0.217,
           "name": "CryptoQuant",
+          "observed_at": "2026-07-09",
           "slug": "cryptoquant",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.19,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.151,
           "name": "Macro",
+          "observed_at": null,
           "slug": "macro",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.126,
           "name": "USDC",
+          "observed_at": null,
           "slug": "usdc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Digital Assets",
+          "observed_at": null,
           "slug": "digital-assets",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -286,17 +347,17 @@
       "source": "https://www.coinbase.com/learn/crypto-basics/what-is-a-bull-or-bear-market"
     },
     "reader_signal": {
-      "article_count": 30,
-      "as_of": "2026-07-01T12:02:40.999323+00:00",
+      "article_count": 31,
+      "as_of": "2026-07-29T22:56:29.796834+00:00",
       "most_clicked": {
-        "clicks": 393,
+        "clicks": 398,
         "date": "2023-09-01T14:42:06.491869+00:00",
         "headline": "Gearbox introduces 6 high-yield Curve V2 pools on the 660th day of the bear market, offering up to 60%+ APYs",
         "lev_url": "https://leviathannews.xyz/2439/gearbox-introduces-6-high-yield-curve-v2-pools-on-the-660th-day-of-the-bear-market-offering-up-to-60-apys"
       },
       "provenance": "data",
-      "top_decile_share": 42,
-      "total_clicks": 2001
+      "top_decile_share": 41,
+      "total_clicks": 2058
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:01:37.778335+00:00",
@@ -381,10 +442,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:02:40.920164+00:00",
+      "as_of": "2026-07-29T22:56:29.792765+00:00",
       "items": [
         {
-          "clicks": 37,
+          "clicks": 26,
+          "date": "2026-07-03T07:35:40.904984+00:00",
+          "headline": "Exchange Art will shut down its Solana onchain art platform August 1 after prolonged art bear market",
+          "hot_score": 564.039265,
+          "lev_url": "https://leviathannews.xyz/268021/exchange-art-will-shut-down-its-solana-onchain-art-platform-august-1-after-prolonged-art-bear-market",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260703023250_Z4zrlaiDPw==.png",
+          "url": "https://x.com/exchgart/status/2072744267789828222"
+        },
+        {
+          "clicks": 39,
           "date": "2026-04-21T11:11:24.283880+00:00",
           "headline": "Strategy overtakes BlackRock's IBIT with 815,061 BTC after $2.54B bear market buy, biggest weekly add since November 2024",
           "hot_score": 459.8,
@@ -393,7 +463,7 @@
           "url": "https://www.coindesk.com/markets/2026/04/21/strategy-overtakes-blackrock-ibit-in-bitcoin-holdings-after-bear-market-buying"
         },
         {
-          "clicks": 90,
+          "clicks": 97,
           "date": "2026-03-25T11:41:58.939716+00:00",
           "headline": "Eli Ben-Sasson reflects on bear market from stormy seas, calls TradFi's grip a crushing bear hug",
           "hot_score": 194.531798,
@@ -402,7 +472,7 @@
           "url": "https://x.com/EliBenSasson/status/2036439422833508606"
         },
         {
-          "clicks": 82,
+          "clicks": 84,
           "date": "2026-02-14T09:52:22.870299+00:00",
           "headline": "Bitcoin is stuck in a slow bear market as ETF demand stays negative, drawdowns age, and no macro catalyst signals reversal.",
           "hot_score": 114.076078,
@@ -429,7 +499,7 @@
           "url": "https://x.com/i/status/2014067605338730704"
         },
         {
-          "clicks": 40,
+          "clicks": 42,
           "date": "2026-02-01T10:03:38.314752+00:00",
           "headline": "Analyst breaks down the rise of neocasinos—crypto-backed casinos, prediction markets, and high-leverage trading platforms—showing how provably fair tech, stablecoin rails, and regulatory arbitrage drove GambleFi to $80B+ revenue and strong bear-market resilience.",
           "hot_score": 44.367722,
@@ -438,31 +508,22 @@
           "url": "https://x.com/i/status/2017222838676066746"
         },
         {
-          "clicks": 393,
+          "clicks": 398,
           "date": "2023-09-01T14:42:06.491869+00:00",
           "headline": "Gearbox introduces 6 high-yield Curve V2 pools on the 660th day of the bear market, offering up to 60%+ APYs",
           "hot_score": 0.0,
           "lev_url": "https://leviathannews.xyz/2439/gearbox-introduces-6-high-yield-curve-v2-pools-on-the-660th-day-of-the-bear-market-offering-up-to-60-apys",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
           "url": "https://medium.com/gearbox-protocol/leveraged-curve-v2-farm-5x-of-your-funds-23ab4ddb6731"
-        },
-        {
-          "clicks": 270,
-          "date": "2023-08-31T08:08:14.700015+00:00",
-          "headline": "Coinbase CEO shares 10 crypto ideas he wants developers to focus on during bear market",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/2407/coinbase-ceo-shares-10-crypto-ideas-he-wants-developers-to-focus-on-during-bear-market",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://www.coinbase.com/blog/request-for-builders-startups-i-would-build-today"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:02:40.834542+00:00",
+      "as_of": "2026-07-29T22:56:29.780758+00:00",
       "editorial": [
         {
-          "count": 11,
+          "count": 12,
           "source": "x.com"
         },
         {
@@ -510,11 +571,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 19,
+          "count": 27,
           "source": "cointelegraph.com"
         },
         {
-          "count": 15,
+          "count": 25,
           "source": "x.com"
         },
         {
@@ -530,8 +591,16 @@
           "source": "financefeeds.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "thestreet.com"
         },
         {
           "count": 1,
@@ -543,14 +612,10 @@
         },
         {
           "count": 1,
-          "source": "theblock.co"
-        },
-        {
-          "count": 1,
-          "source": "thestreet.com"
+          "source": "cryptoinamerica.com"
         }
       ],
-      "universe_distinct": 10
+      "universe_distinct": 11
     }
   },
   "official_links": [],
@@ -561,25 +626,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:18.001071+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.217,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0319,
-        "lift_log": 4.391,
-        "score": 0.2169,
-        "shared": 3
-      },
-      "rationale": "Provides on-chain data analytics used to gauge bear market conditions.",
-      "relation_type": "infrastructure",
-      "slug": "cryptoquant",
-      "source": "cotag",
-      "tag_name": "CryptoQuant",
-      "title": "CryptoQuant, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "bear-market",
   "tag_name": "Bear Market",

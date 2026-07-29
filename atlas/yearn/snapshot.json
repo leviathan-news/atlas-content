@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:01:05.989262+00:00",
+      "as_of": "2026-07-29T23:07:49.266233+00:00",
       "newsroom_total": 82,
-      "overall_share": 85,
+      "overall_share": 82,
       "provenance": "data",
       "series": [
         {
@@ -181,77 +181,102 @@
           "universe": 2
         },
         {
-          "ed_share": null,
+          "ed_share": 20,
           "month": "2026-07",
           "newsroom": 1,
-          "universe": 0
+          "universe": 4
         }
       ],
-      "total_universe": 96,
-      "universe_total": 14
+      "total_universe": 100,
+      "universe_total": 18
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:01:05.553597+00:00",
+      "as_of": "2026-07-29T23:07:48.905427+00:00",
       "edges": [
         {
+          "confidence": 0.0,
+          "description": "Yearn's primary product is its automated vault system.",
+          "description_source": "editorial",
           "dir": "out",
           "from": "yearn",
-          "phrase": "Yearn builds vaults for automated yield optimization.",
+          "observed_at": null,
+          "phrase": "Yearn's primary product is its automated vault system.",
           "relation_type": "product",
-          "source": "published_relation",
+          "source": "verified_relation",
           "tier": "close",
           "to": "vaults",
-          "weight": 25
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.626857+00:00",
+          "verified_by": "gerrit",
+          "weight": 92
         },
         {
+          "confidence": 0.0,
+          "description": "Yearn's yBOLD is a tokenized BOLD Stability Pool product.",
+          "description_source": "editorial",
           "dir": "out",
           "from": "yearn",
-          "phrase": "Convex integrates with Yearn for boosted yield strategies.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
-          "to": "convex",
-          "weight": 25
-        },
-        {
-          "dir": "out",
-          "from": "yearn",
-          "phrase": "BOLD is a competing yield aggregator.",
-          "relation_type": "peer",
-          "source": "published_relation",
+          "observed_at": null,
+          "phrase": "Yearn's yBOLD is a tokenized BOLD Stability Pool product.",
+          "relation_type": "product",
+          "source": "verified_relation",
           "tier": "close",
           "to": "bold",
-          "weight": 22
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.652918+00:00",
+          "verified_by": "gerrit",
+          "weight": 86
         },
         {
+          "confidence": 0.0,
+          "description": "Yearn curates Morpho vaults and offers a Morpho vault compounder.",
+          "description_source": "editorial",
           "dir": "out",
           "from": "yearn",
-          "phrase": "Yearn uses Balancer pools for liquidity strategies.",
-          "relation_type": "protocol",
-          "source": "published_relation",
-          "tier": "close",
-          "to": "balancer",
-          "weight": 21
-        },
-        {
-          "dir": "out",
-          "from": "yearn",
-          "phrase": "Yield is the core primitive Yearn optimizes.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
-          "to": "yield",
-          "weight": 21
-        },
-        {
-          "dir": "out",
-          "from": "yearn",
-          "phrase": "Berachain is a partner chain for Yearn deployments.",
+          "observed_at": null,
+          "phrase": "Yearn curates Morpho vaults and offers a Morpho vault compounder.",
           "relation_type": "ecosystem",
-          "source": "published_relation",
+          "source": "verified_relation",
           "tier": "close",
-          "to": "berachain",
-          "weight": 21
+          "to": "morpho",
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.731229+00:00",
+          "verified_by": "gerrit",
+          "weight": 82
+        },
+        {
+          "confidence": 0.0,
+          "description": "Yearn integrates with Curve and offers Curve LP vault strategies.",
+          "description_source": "editorial",
+          "dir": "out",
+          "from": "yearn",
+          "observed_at": null,
+          "phrase": "Yearn integrates with Curve and offers Curve LP vault strategies.",
+          "relation_type": "ecosystem",
+          "source": "verified_relation",
+          "tier": "close",
+          "to": "curve",
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.685468+00:00",
+          "verified_by": "gerrit",
+          "weight": 78
+        },
+        {
+          "confidence": 0.0,
+          "description": "Yearn offers vaults for crvUSD and Curve LP positions that include crvUSD.",
+          "description_source": "editorial",
+          "dir": "out",
+          "from": "yearn",
+          "observed_at": null,
+          "phrase": "Yearn offers vaults for crvUSD and Curve LP positions that include crvUSD.",
+          "relation_type": "product",
+          "source": "verified_relation",
+          "tier": "close",
+          "to": "crvusd",
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.707911+00:00",
+          "verified_by": "gerrit",
+          "weight": 74
         }
       ],
       "nodes": [
@@ -264,51 +289,63 @@
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Vaults",
+          "observed_at": null,
           "slug": "vaults",
-          "source": "published_relation",
+          "source": "verified_relation",
           "tier": "close",
-          "weight": 25
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.626857+00:00",
+          "weight": 92
         },
         {
           "center": false,
-          "name": "Convex",
-          "slug": "convex",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 25
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
           "name": "BOLD",
+          "observed_at": null,
           "slug": "bold",
-          "source": "published_relation",
+          "source": "verified_relation",
           "tier": "close",
-          "weight": 22
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.652918+00:00",
+          "weight": 86
         },
         {
           "center": false,
-          "name": "Balancer",
-          "slug": "balancer",
-          "source": "published_relation",
+          "confidence": 0.0,
+          "name": "Morpho",
+          "observed_at": null,
+          "slug": "morpho",
+          "source": "verified_relation",
           "tier": "close",
-          "weight": 21
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.731229+00:00",
+          "weight": 82
         },
         {
           "center": false,
-          "name": "Yield",
-          "slug": "yield",
-          "source": "published_relation",
+          "confidence": 0.0,
+          "name": "Curve",
+          "observed_at": null,
+          "slug": "curve",
+          "source": "verified_relation",
           "tier": "close",
-          "weight": 21
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.685468+00:00",
+          "weight": 78
         },
         {
           "center": false,
-          "name": "Berachain",
-          "slug": "berachain",
-          "source": "published_relation",
+          "confidence": 0.0,
+          "name": "crvUSD",
+          "observed_at": null,
+          "slug": "crvusd",
+          "source": "verified_relation",
           "tier": "close",
-          "weight": 21
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.707911+00:00",
+          "weight": 74
         }
       ],
       "provenance": "data"
@@ -377,16 +414,16 @@
     },
     "reader_signal": {
       "article_count": 82,
-      "as_of": "2026-07-01T12:01:06.593458+00:00",
+      "as_of": "2026-07-29T23:07:49.648013+00:00",
       "most_clicked": {
-        "clicks": 813,
+        "clicks": 816,
         "date": "2024-05-16T20:18:38.356379+00:00",
         "headline": "Stake DAO's sdYFI platform fee switch has been activated, with rewards distributed to sdYFI holders, per an AMA with Yearn",
         "lev_url": "https://leviathannews.xyz/5468/stake-daos-sdyfi-platform-fee-switch-has-been-activated-with-rewards-distributed-to-sdyfi-holders-per-an-ama-with-yearn"
       },
       "provenance": "data",
       "top_decile_share": 33,
-      "total_clicks": 7669
+      "total_clicks": 7789
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:51:58.915981+00:00",
@@ -471,19 +508,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:01:06.515194+00:00",
+      "as_of": "2026-07-29T23:07:49.638385+00:00",
       "items": [
         {
-          "clicks": 28,
+          "clicks": 48,
           "date": "2026-07-01T01:25:38.093664+00:00",
           "headline": "Yearn's risk team launches a new tool to map dependency risks across DeFi protocols",
-          "hot_score": 3863.687733,
+          "hot_score": 818.444946,
           "lev_url": "https://leviathannews.xyz/265982/yearns-risk-team-released-a-new-tool-highlighting-dependency-risk-across-different-protocols-quick-explainer-on-how-to-use-this-new-tool-20260701-1",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701001321_dyUAwkuCfRYH.jpg",
           "url": "https://x.com/yearnfi/status/2071966997680934938"
         },
         {
-          "clicks": 129,
+          "clicks": 130,
           "date": "2026-03-26T12:07:16.776067+00:00",
           "headline": "Birch Hill and Groma launch first institutional onchain REIT lending market, enabling $150M tokenized real estate to back USDC loans via Morpho-Yearn stack",
           "hot_score": 588.911886,
@@ -492,7 +529,7 @@
           "url": "https://x.com/i/status/2036881200443252830"
         },
         {
-          "clicks": 82,
+          "clicks": 83,
           "date": "2026-05-21T21:21:08.163804+00:00",
           "headline": "Yearn developer Wavey launches bot to investigate exploits based on Takopi",
           "hot_score": 527.298777,
@@ -501,7 +538,7 @@
           "url": "https://x.com/banteg/status/2057464481534325048"
         },
         {
-          "clicks": 66,
+          "clicks": 67,
           "date": "2026-05-19T19:20:45.644550+00:00",
           "headline": "Yearn gets two new security reports covering stYFI, Yearn Builders Collective expansion, and a new on-chain team management system",
           "hot_score": 520.360309,
@@ -510,7 +547,7 @@
           "url": "https://x.com/yauditdao/status/2056389096155529316"
         },
         {
-          "clicks": 83,
+          "clicks": 87,
           "date": "2026-04-02T14:54:06.579593+00:00",
           "headline": "Inverse founder Nour Haridy chronicles DeFi's builder DNA — from Cronje's weekly protocol drops to Solidly's rebirth as Aerodrome",
           "hot_score": 294.844397,
@@ -519,7 +556,7 @@
           "url": "https://x.com/NourHaridy/status/2039628860485234712"
         },
         {
-          "clicks": 55,
+          "clicks": 58,
           "date": "2026-03-17T15:26:13.950759+00:00",
           "headline": "This is a final call to exit the Flex unaudited markets",
           "hot_score": 195.824354,
@@ -528,7 +565,7 @@
           "url": "https://x.com/johnnyonline_/status/2033926896174453175?s=20"
         },
         {
-          "clicks": 107,
+          "clicks": 111,
           "date": "2025-12-01T14:33:55.383336+00:00",
           "headline": "A yETH exploit post-mortem was published by banteg",
           "hot_score": 189.819983,
@@ -537,7 +574,7 @@
           "url": "https://github.com/banteg/yeth-exploit/blob/main/report.pdf"
         },
         {
-          "clicks": 109,
+          "clicks": 115,
           "date": "2025-11-30T22:14:09.436898+00:00",
           "headline": "Yearn's yETH appears to be hacked, following an infinite mint and liquidity sent to Tornado Cash",
           "hot_score": 167.785925,
@@ -549,7 +586,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:01:06.391838+00:00",
+      "as_of": "2026-07-29T23:07:49.617236+00:00",
       "editorial": [
         {
           "count": 57,
@@ -604,7 +641,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 12,
+          "count": 16,
           "source": "x.com"
         },
         {
@@ -641,89 +678,59 @@
   },
   "relations": [
     {
-      "confidence": 0.214,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0325,
-        "lift_log": 4.33,
-        "score": 0.2143,
-        "shared": 3
-      },
-      "rationale": "Yearn uses Balancer pools for liquidity strategies.",
-      "relation_type": "protocol",
-      "slug": "balancer",
-      "source": "cotag",
-      "tag_name": "Balancer",
-      "title": "Balancer, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.205,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0235,
-        "lift_log": 4.227,
-        "score": 0.2053,
-        "shared": 4
-      },
-      "rationale": "Berachain is a partner chain for Yearn deployments.",
-      "relation_type": "ecosystem",
-      "slug": "berachain",
-      "source": "cotag",
-      "tag_name": "Berachain",
-      "title": "Berachain, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.221,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0284,
-        "lift_log": 4.509,
-        "score": 0.2206,
-        "shared": 4
-      },
-      "rationale": "BOLD is a competing yield aggregator.",
-      "relation_type": "peer",
+      "confidence": 0.0,
+      "evidence": {},
+      "rationale": "Yearn's yBOLD is a tokenized BOLD Stability Pool product.",
+      "relation_type": "product",
       "slug": "bold",
-      "source": "cotag",
+      "source": "override",
       "tag_name": "BOLD",
       "title": "BOLD: Complete Guide",
-      "weight": 22
+      "weight": 86
     },
     {
-      "confidence": 0.252,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.02,
-        "lift_log": 3.079,
-        "score": 0.2522,
-        "shared": 12
-      },
-      "rationale": "Yearn builds vaults for automated yield optimization.",
+      "confidence": 0.0,
+      "evidence": {},
+      "rationale": "Yearn offers vaults for crvUSD and Curve LP positions that include crvUSD.",
+      "relation_type": "product",
+      "slug": "crvusd",
+      "source": "override",
+      "tag_name": "crvUSD",
+      "title": "crvUSD: Complete Guide",
+      "weight": 74
+    },
+    {
+      "confidence": 0.0,
+      "evidence": {},
+      "rationale": "Yearn integrates with Curve and offers Curve LP vault strategies.",
+      "relation_type": "ecosystem",
+      "slug": "curve",
+      "source": "override",
+      "tag_name": "Curve",
+      "title": "Curve, Explained",
+      "weight": 78
+    },
+    {
+      "confidence": 0.0,
+      "evidence": {},
+      "rationale": "Yearn curates Morpho vaults and offers a Morpho vault compounder.",
+      "relation_type": "ecosystem",
+      "slug": "morpho",
+      "source": "override",
+      "tag_name": "Morpho",
+      "title": "Morpho, Explained",
+      "weight": 82
+    },
+    {
+      "confidence": 0.0,
+      "evidence": {},
+      "rationale": "Yearn's primary product is its automated vault system.",
       "relation_type": "product",
       "slug": "vaults",
-      "source": "cotag",
+      "source": "override",
       "tag_name": "Vaults",
       "title": "Vaults, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.207,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0089,
-        "lift_log": 2.206,
-        "score": 0.2069,
-        "shared": 9
-      },
-      "rationale": "Yield is the core primitive Yearn optimizes.",
-      "relation_type": "primitive",
-      "slug": "yield",
-      "source": "cotag",
-      "tag_name": "Yield",
-      "title": "Yield, Explained",
-      "weight": 21
+      "weight": 92
     }
   ],
   "schema_version": 1,

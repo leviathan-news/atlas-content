@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:10:25.846562+00:00",
+      "as_of": "2026-07-29T22:58:37.847832+00:00",
       "newsroom_total": 33,
-      "overall_share": 25,
+      "overall_share": 18,
       "provenance": "data",
       "series": [
         {
@@ -166,63 +166,98 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 13
+          "universe": 67
         }
       ],
-      "total_universe": 132,
-      "universe_total": 99
+      "total_universe": 186,
+      "universe_total": 153
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:10:25.329091+00:00",
+      "as_of": "2026-07-29T22:58:37.397365+00:00",
       "edges": [
         {
+          "confidence": 0.217,
+          "description": "Co-covered in 6 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "earnings",
-          "phrase": "Revenue is a key component of earnings reports.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-07",
+          "phrase": "Co-covered in 6 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "revenue",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.187,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "earnings",
-          "phrase": "Pump.fun is a memecoin platform, unrelated to earnings.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "pump-dotfun",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 10 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "earnings",
-          "phrase": "Coinbase reports earnings as a public company.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 10 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "coinbase",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "earnings",
+          "observed_at": null,
           "phrase": "fees",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "fees",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "earnings",
+          "observed_at": null,
           "phrase": "treasury",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -236,42 +271,62 @@
         },
         {
           "center": false,
+          "confidence": 0.217,
           "name": "Revenue",
+          "observed_at": "2026-05-07",
           "slug": "revenue",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.187,
           "name": "Pump.fun",
+          "observed_at": null,
           "slug": "pump-dotfun",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "Coinbase",
+          "observed_at": null,
           "slug": "coinbase",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Fees",
+          "observed_at": null,
           "slug": "fees",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Treasury",
+          "observed_at": null,
           "slug": "treasury",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -341,16 +396,16 @@
     },
     "reader_signal": {
       "article_count": 33,
-      "as_of": "2026-07-01T12:10:26.560337+00:00",
+      "as_of": "2026-07-29T22:58:38.254555+00:00",
       "most_clicked": {
-        "clicks": 437,
+        "clicks": 445,
         "date": "2023-08-10T21:45:48.032181+00:00",
         "headline": "SoFi's Bank Q2 earnings report discloses $166M in cryptocurrency holdings, a significant increase from last quarter",
         "lev_url": "https://leviathannews.xyz/2206/sofis-bank-q2-earnings-report-discloses-166m-in-cryptocurrency-holdings-a-significant-increase-from-last-quarter"
       },
       "provenance": "data",
       "top_decile_share": 32,
-      "total_clicks": 2892
+      "total_clicks": 2983
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:47:14.787909+00:00",
@@ -435,10 +490,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:10:26.481544+00:00",
+      "as_of": "2026-07-29T22:58:38.250636+00:00",
       "items": [
         {
-          "clicks": 22,
+          "clicks": 24,
           "date": "2025-12-12T00:01:43.862624+00:00",
           "headline": "MiniMax and Zhipu secured CSRC approval for Hong Kong IPOs planned in early 2026, marking major moves for China’s AI sector. Meanwhile, U.S. AI stocks slid after Oracle’s earnings miss spooked investors.",
           "hot_score": 27.773067,
@@ -447,7 +502,7 @@
           "url": "https://crypto.news/china-ai-firms-minimax-zhipu-hong-kong-ipos-2026/"
         },
         {
-          "clicks": 437,
+          "clicks": 445,
           "date": "2023-08-10T21:45:48.032181+00:00",
           "headline": "SoFi's Bank Q2 earnings report discloses $166M in cryptocurrency holdings, a significant increase from last quarter",
           "hot_score": 0.0,
@@ -456,7 +511,7 @@
           "url": "https://cointelegraph.com/news/us-bank-170-million-crypto-q2-earnings-report"
         },
         {
-          "clicks": 316,
+          "clicks": 319,
           "date": "2025-03-31T12:28:15.739145+00:00",
           "headline": "Trump's family secures the majority stake in World Liberty’s profits, claiming 75% of token sale earnings and $400M in fees, leaving just 5% of the $550M raised for development, according to Reuters estimates",
           "hot_score": 0.0,
@@ -465,7 +520,7 @@
           "url": "https://www.reuters.com/business/finance/how-trump-family-took-over-world-liberty-financial-it-raised-hundreds-millions-2025-03-31/"
         },
         {
-          "clicks": 184,
+          "clicks": 193,
           "date": "2025-05-08T20:28:30.365996+00:00",
           "headline": "Coinbase reported Q1 2025 earnings with total revenue of $2.0 billion and EPS of $0.24, missing the consensus estimate of $1.98 by approximately 88%",
           "hot_score": 0.0,
@@ -474,7 +529,7 @@
           "url": "https://s27.q4cdn.com/397450999/files/doc_financials/2025/q1/v2/Q1-25-Shareholder-Letter-1.pdf"
         },
         {
-          "clicks": 163,
+          "clicks": 165,
           "date": "2025-04-29T15:51:32.443777+00:00",
           "headline": "SoFi CEO Anthony Noto highlights crypto growth and future product plans during ‘Squawk Box’ as part of the company’s latest earnings breakdown.",
           "hot_score": 0.0,
@@ -483,7 +538,7 @@
           "url": "https://youtu.be/0NXkTQhHHV8?si=bZPk52CvnFrdKx-n"
         },
         {
-          "clicks": 160,
+          "clicks": 164,
           "date": "2024-01-16T07:50:19.395113+00:00",
           "headline": "MakerDAO's revenue soars as crypto loans become the dominant profit generator for the protocol. \"The bull market is driving users to seek leverage, resulting in increased earnings for Maker,\" says Phoenix Labs CEO, Sam MacPherson.",
           "hot_score": 0.0,
@@ -513,7 +568,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:10:26.391396+00:00",
+      "as_of": "2026-07-29T22:58:38.236115+00:00",
       "editorial": [
         {
           "count": 11,
@@ -568,12 +623,20 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 35,
+          "count": 54,
           "source": "x.com"
         },
         {
-          "count": 14,
+          "count": 17,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 9,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 8,
+          "source": "thestreet.com"
         },
         {
           "count": 6,
@@ -581,27 +644,23 @@
         },
         {
           "count": 6,
-          "source": "bloomberg.com"
+          "source": "wsj.com"
         },
         {
-          "count": 4,
-          "source": "barrons.com"
+          "count": 6,
+          "source": "fortune.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "theblock.co"
         },
         {
           "count": 4,
-          "source": "wsj.com"
+          "source": "coindesk.com"
         },
         {
           "count": 4,
-          "source": "thestreet.com"
-        },
-        {
-          "count": 2,
-          "source": "coindesk.com"
+          "source": "barrons.com"
         },
         {
           "count": 2,
@@ -609,14 +668,10 @@
         },
         {
           "count": 2,
-          "source": "businesstimes.com.sg"
-        },
-        {
-          "count": 1,
-          "source": "seekingalpha.com"
+          "source": "financefeeds.com"
         }
       ],
-      "universe_distinct": 27
+      "universe_distinct": 36
     }
   },
   "official_links": [],
@@ -627,25 +682,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:28.823577+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.217,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0064,
-        "lift_log": 2.465,
-        "score": 0.2168,
-        "shared": 6
-      },
-      "rationale": "Revenue is a key component of earnings reports.",
-      "relation_type": "peer",
-      "slug": "revenue",
-      "source": "cotag",
-      "tag_name": "Revenue",
-      "title": "Revenue, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "earnings",
   "tag_name": "Earnings",

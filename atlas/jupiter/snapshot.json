@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:06:04.575747+00:00",
-      "newsroom_total": 37,
-      "overall_share": 54,
+      "as_of": "2026-07-29T23:00:17.591911+00:00",
+      "newsroom_total": 42,
+      "overall_share": 50,
       "provenance": "data",
       "series": [
         {
@@ -95,62 +95,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 8
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-07",
+          "newsroom": 5,
+          "universe": 10
         }
       ],
-      "total_universe": 69,
-      "universe_total": 32
+      "total_universe": 84,
+      "universe_total": 42
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:06:03.798432+00:00",
+      "as_of": "2026-07-29T23:00:17.400895+00:00",
       "edges": [
         {
+          "confidence": 0.243,
+          "description": "Co-covered in 22 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jupiter",
-          "phrase": "Jupiter is a DEX aggregator built on Solana blockchain.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 22 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "solana",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jupiter",
-          "phrase": "Ethena's USDe is integrated into Jupiter for swaps.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ethena",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.137,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jupiter",
-          "phrase": "Jupiter facilitates trading of stablecoins like USDC and USDT.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.123,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "jupiter",
-          "phrase": "Jupiter uses buybacks to distribute protocol revenue to JUP holders.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "buybacks",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "jupiter",
+          "observed_at": null,
           "phrase": "futures",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "futures",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -164,42 +205,62 @@
         },
         {
           "center": false,
+          "confidence": 0.243,
           "name": "Solana",
+          "observed_at": "2026-07-29",
           "slug": "solana",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "Ethena",
+          "observed_at": null,
           "slug": "ethena",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.137,
           "name": "Stablecoins",
+          "observed_at": null,
           "slug": "stablecoins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.123,
           "name": "Buybacks",
+          "observed_at": null,
           "slug": "buybacks",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Futures",
+          "observed_at": null,
           "slug": "futures",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -268,17 +329,17 @@
       "source": "https://blockworks.com/analytics/jupiter"
     },
     "reader_signal": {
-      "article_count": 37,
-      "as_of": "2026-07-01T12:06:05.032854+00:00",
+      "article_count": 42,
+      "as_of": "2026-07-29T23:00:17.938625+00:00",
       "most_clicked": {
-        "clicks": 320,
+        "clicks": 327,
         "date": "2024-09-20T08:07:55.656829+00:00",
         "headline": "DEX aggregator Jupiter has acquired SolanaFM and Coinhall, aiming to significantly boost data and infrastructure capabilities, as revealed by co-founder Siong Ong at the Solana Breakpoint event in Singapore.",
         "lev_url": "https://leviathannews.xyz/7060/dex-aggregator-jupiter-has-acquired-solanafm-and-coinhall-aiming-to-significantly-boost-data-and-infrastructure-capabilities-as-revealed-by-co-founder-siong-ong-at-the-solana-break"
       },
       "provenance": "data",
-      "top_decile_share": 24,
-      "total_clicks": 3258
+      "top_decile_share": 28,
+      "total_clicks": 3483
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:08:22.574035+00:00",
@@ -363,7 +424,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:06:04.953163+00:00",
+      "as_of": "2026-07-29T23:00:17.932854+00:00",
       "items": [
         {
           "clicks": 66,
@@ -375,7 +436,7 @@
           "url": "https://x.com/i/status/2041536872242172415"
         },
         {
-          "clicks": 57,
+          "clicks": 60,
           "date": "2026-04-08T19:02:28.213463+00:00",
           "headline": "Jupiter unveils cashback program with up to $1K monthly rewards, granting Superteam users top-tier 10% USD returns as collaboration drives deeper ecosystem engagement",
           "hot_score": 13212.929198,
@@ -393,7 +454,16 @@
           "url": "https://x.com/i/status/2044840334241460495"
         },
         {
-          "clicks": 67,
+          "clicks": 26,
+          "date": "2026-07-29T18:20:24.199733+00:00",
+          "headline": "WalletConnect handles $3.82 billion in Solana value during H1 2026, with Kamino and Jupiter driving 70%",
+          "hot_score": 2179.942749,
+          "lev_url": "https://leviathannews.xyz/284372/walletconnect-handles-382-billion-in-solana-value-during-h1-2026-with-kamino-and-jupiter-driving-70",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729180601_Z4zrlaiDPw==.png",
+          "url": "https://walletconnect.com/blog/how-usd4-billion-in-solana-moved-through-walletconnect"
+        },
+        {
+          "clicks": 68,
           "date": "2026-05-13T14:24:36.444353+00:00",
           "headline": "Ethena launches a dedicated lending market on Jupiter Lend, with Bitwise overseeing risk management and institutional participation on Solana",
           "hot_score": 1185.907835,
@@ -411,7 +481,7 @@
           "url": "https://x.com/sunrisedefi/status/2054924695833829666"
         },
         {
-          "clicks": 51,
+          "clicks": 52,
           "date": "2026-04-23T08:14:27.802858+00:00",
           "headline": "Jupiter launches Telegram-native Prediction Bot, reimagining markets as social-first with zero platform fees for early users in first month rollout",
           "hot_score": 733.4,
@@ -420,31 +490,22 @@
           "url": "https://x.com/i/status/2046995051696336967"
         },
         {
-          "clicks": 43,
+          "clicks": 44,
           "date": "2026-04-23T08:07:34.595098+00:00",
           "headline": "Avici launches “Grow” yield vaults and “Smart Credit” lending, letting users earn instantly and get paid to borrow USDC/EURC against SOL via Jupiter Lend and Fluid",
           "hot_score": 723.6,
           "lev_url": "https://leviathannews.xyz/235525/avici-launches-grow-yield-vaults-and-smart-credit-lending-letting-users-earn-instantly-and-get-paid-to-borrow-usdceurc-against-sol-via-jupiter-lend-and-fluid",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423064538_5eOXk_GVTnzD.jpg",
           "url": "https://x.com/i/status/2047025804648046606"
-        },
-        {
-          "clicks": 56,
-          "date": "2026-05-06T22:39:30.810753+00:00",
-          "headline": "xStocks set sail on Jupiter Lend, offering lower borrow rates and rewards for early crews",
-          "hot_score": 718.225613,
-          "lev_url": "https://leviathannews.xyz/238834/xstocks-are-live-on-jupiter-lend-earn-xpoints-and-rewards-with-a-92-lower-borrow-rate-than-other-lending-platforms",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260506223123_n8zJiyCNAa-a.jpg",
-          "url": "https://x.com/jupiterexchange/status/2052145659764215947"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:06:04.872191+00:00",
+      "as_of": "2026-07-29T23:00:17.920674+00:00",
       "editorial": [
         {
-          "count": 26,
+          "count": 30,
           "source": "x.com"
         },
         {
@@ -478,13 +539,17 @@
         {
           "count": 1,
           "source": "solana.com"
+        },
+        {
+          "count": 1,
+          "source": "walletconnect.com"
         }
       ],
-      "editorial_distinct": 9,
+      "editorial_distinct": 10,
       "provenance": "data",
       "universe": [
         {
-          "count": 27,
+          "count": 36,
           "source": "x.com"
         },
         {
@@ -498,9 +563,13 @@
         {
           "count": 1,
           "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
         }
       ],
-      "universe_distinct": 4
+      "universe_distinct": 5
     }
   },
   "official_links": [],
@@ -511,25 +580,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:37.900205+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.243,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0171,
-        "lift_log": 2.874,
-        "score": 0.2427,
-        "shared": 19
-      },
-      "rationale": "Jupiter is a DEX aggregator built on Solana blockchain.",
-      "relation_type": "infrastructure",
-      "slug": "solana",
-      "source": "cotag",
-      "tag_name": "Solana",
-      "title": "Solana, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "jupiter",
   "tag_name": "Jupiter",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:09:58.620586+00:00",
-      "newsroom_total": 9,
-      "overall_share": 8,
+      "as_of": "2026-07-29T22:59:36.468520+00:00",
+      "newsroom_total": 11,
+      "overall_share": 7,
       "provenance": "data",
       "series": [
         {
@@ -35,62 +35,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 19
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 43
         }
       ],
-      "total_universe": 117,
-      "universe_total": 108
+      "total_universe": 162,
+      "universe_total": 151
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:09:57.874977+00:00",
+      "as_of": "2026-07-29T22:59:36.218113+00:00",
       "edges": [
         {
+          "confidence": 0.299,
+          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gpu",
-          "phrase": "GPUs are often rented via cloud services for compute.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-21",
+          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cloud",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.222,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gpu",
-          "phrase": "Open-source projects leverage GPUs for decentralized compute.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-13",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "open-source",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.199,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gpu",
-          "phrase": "GPU is a key component of computing infrastructure.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.179,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gpu",
-          "phrase": "Uncertain relation; guide may explain GPU usage.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "guide",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "gpu",
+          "observed_at": null,
           "phrase": "gaming",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "gaming",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -104,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.299,
           "name": "cloud",
+          "observed_at": "2026-07-21",
           "slug": "cloud",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
-          "name": "open source",
+          "confidence": 0.222,
+          "name": "Open Source",
+          "observed_at": "2026-05-13",
           "slug": "open-source",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.199,
           "name": "Infrastructure",
+          "observed_at": null,
           "slug": "infrastructure",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.179,
           "name": "Guide",
+          "observed_at": null,
           "slug": "guide",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Gaming",
+          "observed_at": null,
           "slug": "gaming",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -208,8 +269,8 @@
       "source": "https://ecosystem.aethir.com/blog-posts/the-financial-shift-in-ai-scaling-why-gpu-as-a-service-is-replacing-capital-expenditure"
     },
     "reader_signal": {
-      "article_count": 9,
-      "as_of": "2026-07-01T12:09:59.993485+00:00",
+      "article_count": 11,
+      "as_of": "2026-07-29T22:59:36.656524+00:00",
       "most_clicked": {
         "clicks": 53,
         "date": "2026-04-01T14:24:59.778412+00:00",
@@ -217,8 +278,8 @@
         "lev_url": "https://leviathannews.xyz/219320/qubic-drops-monero-for-dogecoin-asic-mining-after-capturing-51-of-xmr-hashrate-dedicates-full-gpu-fleet-to-ai"
       },
       "provenance": "data",
-      "top_decile_share": 16,
-      "total_clicks": 323
+      "top_decile_share": 13,
+      "total_clicks": 414
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:31:36.181047+00:00",
@@ -303,7 +364,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:09:59.905423+00:00",
+      "as_of": "2026-07-29T22:59:36.652280+00:00",
       "items": [
         {
           "clicks": 40,
@@ -315,7 +376,7 @@
           "url": "https://decrypt.co/364446/allbirds-stock-spikes-400-pivot-shoe-brand-ai-compute-yes-really"
         },
         {
-          "clicks": 40,
+          "clicks": 41,
           "date": "2026-04-16T13:23:13.746471+00:00",
           "headline": "Bitcoin miner HIVE plans $75M zero-coupon note offering to fund GPU and AI data center expansion",
           "hot_score": 2445.45713,
@@ -324,25 +385,25 @@
           "url": "https://www.newsfilecorp.com/release/292755/HIVE-Digital-Announces-Private-Offering-of-US75-Million-of-Exchangeable-Senior-Notes-due-2031"
         },
         {
-          "clicks": 20,
-          "date": "2026-06-30T23:25:48.849788+00:00",
-          "headline": "USDAI and BSQ Capital launch $1B GPU compute fund for AI boom, kickstarting with $300M across APAC",
-          "hot_score": 1983.867498,
-          "lev_url": "https://leviathannews.xyz/265459/usdai-and-bsq-capital-partners-are-forming-a-joint-venture-to-finance-ai-compute-across-apac-the-jv-targets-up-to-300m-in-gpu-backed-financings-in-its-initial-deployment-with-a-pat-20260630",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630124643_6Dpf3Fv0YJcT.png",
-          "url": "https://x.com/usdai_official/status/2071934127314759929"
+          "clicks": 36,
+          "date": "2026-07-14T14:40:12.165838+00:00",
+          "headline": "Boundless expands its 4,000-GPU decentralized network from zero-knowledge proving to AI inference, repurposing crypto infrastructure for distributed compute",
+          "hot_score": 622.691963,
+          "lev_url": "https://leviathannews.xyz/274954/distributed-compute-startup-boundless-expands-4000-gpu-network-from-zk-to-ai-20260714-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260714143238_GZaX5oW9joV0.jpg",
+          "url": "https://www.theblock.co/post/408213/distributed-compute-startup-boundless-gpus-zk-to-ai?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 34,
+          "clicks": 35,
           "date": "2026-06-24T14:20:55.073936+00:00",
           "headline": "a16z leads Ornn's $33M seed round to build financial markets for AI compute, introducing GPU price indices, futures, and capital products for data center investors",
-          "hot_score": 582.183289,
+          "hot_score": 569.18969,
           "lev_url": "https://leviathannews.xyz/261867/investing-in-ornn-a-market-for-compute",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260624140806_dw1Nzobi8lbr.jpg",
           "url": "https://x.com/alive_/status/2069762771135148490"
         },
         {
-          "clicks": 33,
+          "clicks": 35,
           "date": "2026-04-09T23:42:01.516145+00:00",
           "headline": "AlphaTON Capital inks $43M NVIDIA B300 GPU deal with Vertical Data to power Telegram's Cocoon AI",
           "hot_score": 458.319955,
@@ -351,7 +412,7 @@
           "url": "https://www.globenewswire.com/news-release/2026/04/09/3271061/0/en/AlphaTON-Capital-Announces-43-Million-AI-Infrastructure-and-Financing-Partnership-with-Vertical-Data.html"
         },
         {
-          "clicks": 23,
+          "clicks": 24,
           "date": "2026-05-28T12:40:41.085135+00:00",
           "headline": "Aethir starts provisioning Axe Compute's 2,304-GPU B300 cluster after first $43M customer payment",
           "hot_score": 431.302288,
@@ -360,35 +421,35 @@
           "url": "https://aethir.com/blog-posts/aethir-begins-provisioning-axe-computes-260m-b300-cluster-as-first-payment-lands"
         },
         {
-          "clicks": 51,
+          "clicks": 33,
+          "date": "2026-06-30T23:25:48.849788+00:00",
+          "headline": "USDAI and BSQ Capital launch $1B GPU compute fund for AI boom, kickstarting with $300M across APAC",
+          "hot_score": 428.491418,
+          "lev_url": "https://leviathannews.xyz/265459/usdai-and-bsq-capital-partners-are-forming-a-joint-venture-to-finance-ai-compute-across-apac-the-jv-targets-up-to-300m-in-gpu-backed-financings-in-its-initial-deployment-with-a-pat-20260630",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630124643_6Dpf3Fv0YJcT.png",
+          "url": "https://x.com/usdai_official/status/2071934127314759929"
+        },
+        {
+          "clicks": 52,
           "date": "2026-03-26T08:07:36.207327+00:00",
           "headline": "OTC-listed Tianrong launches DEPINfer, a Solana-based decentralized GPU compute marketplace backed by $DEPIN token",
           "hot_score": 309.368461,
           "lev_url": "https://leviathannews.xyz/216130/tianrong-internet-products-and-services-inc-otc-tips-announces-front-end-marketplace-launch-for-depinfer-decentralized-gpu-compute-platform-powered-by-depin-token-on-solana",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260326011911_PdNhbZ8C6gEO.jpg",
           "url": "https://www.globenewswire.com/news-release/2026/03/25/3262209/0/en/Tianrong-Internet-Products-and-Services-Inc-OTC-TIPS-Announces-Front-End-Marketplace-Launch-for-DEPINfer-Decentralized-GPU-Compute-Platform-Powered-by-DEPIN-Token-on-Solana.html?_gl=1*7dhp94*_up*MQ..*_ga*NDg4NjQ4MDUuMTc3NDQ4NzA1NA..*_ga_B6167QB2TF*czE3NzQ0ODcwNTMkbzEkZzAkdDE3NzQ0ODcwNTMkajYwJGwwJGgw*_ga_ERWPGTJ5X8*czE3NzQ0ODcwNTMkbzEkZzAkdDE3NzQ0ODcwNTMkajYwJGwwJGgw"
-        },
-        {
-          "clicks": 53,
-          "date": "2026-04-01T14:24:59.778412+00:00",
-          "headline": "Qubic drops Monero for Dogecoin ASIC mining after capturing 51% of XMR hashrate, dedicates full GPU fleet to AI",
-          "hot_score": 167.056051,
-          "lev_url": "https://leviathannews.xyz/219320/qubic-drops-monero-for-dogecoin-asic-mining-after-capturing-51-of-xmr-hashrate-dedicates-full-gpu-fleet-to-ai",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401133654_Z4zrlaiDPw==.png",
-          "url": "https://qubic.org/blog-detail/qubic-dogecoin-mining-transition-plan-april-2026"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:09:59.803059+00:00",
+      "as_of": "2026-07-29T22:59:36.643334+00:00",
       "editorial": [
         {
           "count": 3,
           "source": "globenewswire.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "x.com"
         },
         {
@@ -406,21 +467,25 @@
         {
           "count": 1,
           "source": "aethir.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
         }
       ],
-      "editorial_distinct": 6,
+      "editorial_distinct": 7,
       "provenance": "data",
       "universe": [
         {
-          "count": 77,
+          "count": 108,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 16,
           "source": "io.net"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "aethir.com"
         },
         {
@@ -432,16 +497,20 @@
           "source": "decrypt.co"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "icn.global"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "usd.ai"
         },
         {
           "count": 1,
           "source": "blog.brevis.network"
-        },
-        {
-          "count": 1,
-          "source": "theblock.co"
         },
         {
           "count": 1,
@@ -454,13 +523,9 @@
         {
           "count": 1,
           "source": "cointelegraph.com"
-        },
-        {
-          "count": 1,
-          "source": "usd.ai"
         }
       ],
-      "universe_distinct": 12
+      "universe_distinct": 13
     }
   },
   "official_links": [],
@@ -471,42 +536,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:34.307499+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.299,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0388,
-        "lift_log": 3.915,
-        "score": 0.299,
-        "shared": 8
-      },
-      "rationale": "GPUs are often rented via cloud services for compute.",
-      "relation_type": "infrastructure",
-      "slug": "cloud",
-      "source": "cotag",
-      "tag_name": "cloud",
-      "title": "cloud, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.222,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0353,
-        "lift_log": 4.47,
-        "score": 0.222,
-        "shared": 3
-      },
-      "rationale": "Open-source projects leverage GPUs for decentralized compute.",
-      "relation_type": "ecosystem",
-      "slug": "open-source",
-      "source": "cotag",
-      "tag_name": "Open Source",
-      "title": "open source, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "gpu",
   "tag_name": "GPU",

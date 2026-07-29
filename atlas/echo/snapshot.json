@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:16:35.263337+00:00",
+      "as_of": "2026-07-29T22:58:40.003125+00:00",
       "newsroom_total": 8,
-      "overall_share": 22,
+      "overall_share": 18,
       "provenance": "data",
       "series": [
         {
@@ -71,62 +71,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 10
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 8
         }
       ],
-      "total_universe": 37,
-      "universe_total": 29
+      "total_universe": 45,
+      "universe_total": 37
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:16:34.694810+00:00",
+      "as_of": "2026-07-29T22:58:39.692967+00:00",
       "edges": [
         {
+          "confidence": 0.391,
+          "description": "Co-covered in 7 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "echo",
-          "phrase": "Both are blockchain platforms; Echo is a DeFi chain, Monad is an EVM-compatible L1.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-19",
+          "phrase": "Co-covered in 7 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "monad",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 39
         },
         {
+          "confidence": 0.158,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "echo",
-          "phrase": "Echo could be vulnerable to exploits like other DeFi protocols.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "exploit",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "echo",
+          "observed_at": null,
           "phrase": "Bitcoin",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "echo",
+          "observed_at": null,
           "phrase": "Coinbase",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "coinbase",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "echo",
+          "observed_at": null,
           "phrase": "digital assets",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "digital-assets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -140,42 +181,62 @@
         },
         {
           "center": false,
+          "confidence": 0.391,
           "name": "Monad",
+          "observed_at": "2026-05-19",
           "slug": "monad",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 39
         },
         {
           "center": false,
+          "confidence": 0.158,
           "name": "Exploit",
+          "observed_at": null,
           "slug": "exploit",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Coinbase",
+          "observed_at": null,
           "slug": "coinbase",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Digital Assets",
+          "observed_at": null,
           "slug": "digital-assets",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -239,16 +300,16 @@
     },
     "reader_signal": {
       "article_count": 8,
-      "as_of": "2026-07-01T12:16:36.414232+00:00",
+      "as_of": "2026-07-29T22:58:40.407233+00:00",
       "most_clicked": {
-        "clicks": 453,
+        "clicks": 457,
         "date": "2025-01-16T17:20:33.681918+00:00",
         "headline": "MegaETH-based DEX GTE secures $10M funding, including $2.5M from Cobie’s Echo platform.",
         "lev_url": "https://leviathannews.xyz/8733/megaeth-based-dex-gte-secures-10m-funding-including-25m-from-cobies-echo-platform"
       },
       "provenance": "data",
       "top_decile_share": 49,
-      "total_clicks": 920
+      "total_clicks": 930
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:54:31.800544+00:00",
@@ -327,10 +388,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:16:36.340286+00:00",
+      "as_of": "2026-07-29T22:58:40.403074+00:00",
       "items": [
         {
-          "clicks": 38,
+          "clicks": 39,
           "date": "2026-04-15T22:11:21.192600+00:00",
           "headline": "Crypto Super PACs pour $8M into Ohio Senate race as 2026 midterms echo 2024 spending blitz",
           "hot_score": 2996.636269,
@@ -339,7 +400,7 @@
           "url": "https://cointelegraph.com/news/us-election-mirrors-2024-crypto-ohio"
         },
         {
-          "clicks": 45,
+          "clicks": 49,
           "date": "2026-05-18T22:41:10.414642+00:00",
           "headline": "Echo Protocol faces suspected Monad exploit after 1K eBTC mint lets attacker max-borrow WBTC on Curvance",
           "hot_score": 501.600045,
@@ -348,7 +409,7 @@
           "url": "https://x.com/dcfgod/status/2056493905680720238"
         },
         {
-          "clicks": 453,
+          "clicks": 457,
           "date": "2025-01-16T17:20:33.681918+00:00",
           "headline": "MegaETH-based DEX GTE secures $10M funding, including $2.5M from Cobie’s Echo platform.",
           "hot_score": 0.0,
@@ -384,7 +445,7 @@
           "url": "https://x.com/echodotxyz/status/1927422067801997336?s=46"
         },
         {
-          "clicks": 60,
+          "clicks": 61,
           "date": "2025-10-23T17:30:52.125255+00:00",
           "headline": "Coinbase’s acquisition of Echo marks a turning point — the full lifecycle of capitalism is now onchain, as Coinbase unifies fundraising, issuance, trading, custody, and compliance across its rails, effectively replacing, not integrating with, traditional finance.",
           "hot_score": 0.0,
@@ -405,7 +466,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:16:36.253504+00:00",
+      "as_of": "2026-07-29T22:58:40.393122+00:00",
       "editorial": [
         {
           "count": 3,
@@ -436,7 +497,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 14,
+          "count": 21,
           "source": "x.com"
         },
         {
@@ -448,7 +509,7 @@
           "source": "financefeeds.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "theblock.co"
         },
         {
@@ -491,25 +552,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:28.980677+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.391,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0797,
-        "lift_log": 5.528,
-        "score": 0.3914,
-        "shared": 7
-      },
-      "rationale": "Both are blockchain platforms; Echo is a DeFi chain, Monad is an EVM-compatible L1.",
-      "relation_type": "peer",
-      "slug": "monad",
-      "source": "cotag",
-      "tag_name": "Monad",
-      "title": "Monad, Explained",
-      "weight": 39
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "echo",
   "tag_name": "echo",

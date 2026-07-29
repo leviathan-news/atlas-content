@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:53:45.067175+00:00",
-      "newsroom_total": 59,
-      "overall_share": 18,
+      "as_of": "2026-07-29T22:56:21.467559+00:00",
+      "newsroom_total": 60,
+      "overall_share": 15,
       "provenance": "data",
       "series": [
         {
@@ -181,66 +181,101 @@
           "universe": 51
         },
         {
-          "ed_share": 0,
+          "ed_share": 1,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 2
+          "newsroom": 1,
+          "universe": 69
         }
       ],
-      "total_universe": 335,
-      "universe_total": 276
+      "total_universe": 403,
+      "universe_total": 343
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:53:43.628967+00:00",
+      "as_of": "2026-07-29T22:56:21.107325+00:00",
       "edges": [
         {
+          "confidence": 0.272,
+          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "aws",
-          "phrase": "AWS is a leading cloud computing platform.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-17",
+          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cloud",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.209,
+          "description": "Co-covered in 4 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "aws",
-          "phrase": "Outages are a risk dimension for AWS services.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-01",
+          "phrase": "Co-covered in 4 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "outage",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.197,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "aws",
-          "phrase": "Stripe uses AWS for its payment infrastructure.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stripe",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.185,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "aws",
-          "phrase": "AWS offers database services like RDS and DynamoDB.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "database",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.167,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "aws",
-          "phrase": "AWS provides cloud infrastructure services.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -254,42 +289,62 @@
         },
         {
           "center": false,
+          "confidence": 0.272,
           "name": "cloud",
+          "observed_at": "2026-07-17",
           "slug": "cloud",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.209,
           "name": "Outage",
+          "observed_at": "2026-06-01",
           "slug": "outage",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.197,
           "name": "Stripe",
+          "observed_at": null,
           "slug": "stripe",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.185,
           "name": "Database",
+          "observed_at": null,
           "slug": "database",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.167,
           "name": "Infrastructure",
+          "observed_at": null,
           "slug": "infrastructure",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -346,17 +401,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 59,
-      "as_of": "2026-07-01T11:53:48.724329+00:00",
+      "article_count": 60,
+      "as_of": "2026-07-29T22:56:21.734426+00:00",
       "most_clicked": {
-        "clicks": 208,
+        "clicks": 209,
         "date": "2024-09-20T08:38:34.557130+00:00",
         "headline": "Germany closes 47 exchanges for alleged illegal operations, citing failures to comply with anti-money laundering laws and enabling anonymous transactions without registration or verification.",
         "lev_url": "https://leviathannews.xyz/7065/germany-closes-47-exchanges-for-alleged-illegal-operations-citing-failures-to-comply-with-anti-money-laundering-laws-and-enabling-anonymous-transactions-without-registration-or-ver"
       },
       "provenance": "data",
-      "top_decile_share": 22,
-      "total_clicks": 4084
+      "top_decile_share": 25,
+      "total_clicks": 4197
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:48:12.105950+00:00",
@@ -435,10 +490,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T11:53:48.538930+00:00",
+      "as_of": "2026-07-29T22:56:21.729407+00:00",
       "items": [
         {
-          "clicks": 57,
+          "clicks": 58,
           "date": "2026-04-07T19:25:36.333465+00:00",
           "headline": "AWS open-sources architecture bridging SWIFT ISO 20022 financial messaging to onchain settlement via Chainlink",
           "hot_score": 3907.304271,
@@ -447,7 +502,7 @@
           "url": "https://aws.amazon.com/blogs/web3/bridging-financial-messaging-systems-to-digital-asset-settlement/"
         },
         {
-          "clicks": 38,
+          "clicks": 39,
           "date": "2026-04-18T23:31:23.472593+00:00",
           "headline": "Stripe positions Tempo blockchain and stablecoin stack as 'AWS for money,' sees Global South leading demand",
           "hot_score": 790.451068,
@@ -456,7 +511,16 @@
           "url": "https://www.coindesk.com/business/2026/04/18/stripe-doubles-down-on-blockchain-and-stablecoins-aiming-to-become-aws-for-money"
         },
         {
-          "clicks": 38,
+          "clicks": 39,
+          "date": "2026-07-11T15:50:59.101178+00:00",
+          "headline": "Privy enables AWS Bedrock AgentCore AI agents to autonomously pay for APIs, MCP tools, and web content using USDC via secure Privy wallets",
+          "hot_score": 765.175322,
+          "lev_url": "https://leviathannews.xyz/273365/1-every-friday-we-ship-to-make-building-on-privy-better-today-agents-on-awscloud-bedrock-agentcore-can-now-pay-for-apis-mcp-tools-and-web-content-autonomously-using-privy-w",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260711154926_AIjMS8Pj1uug.jpg",
+          "url": "https://x.com/privy_io/status/2075637158535221703"
+        },
+        {
+          "clicks": 43,
           "date": "2026-06-16T01:14:22.432339+00:00",
           "headline": "Coinbase brings x402 agent payments to AWS CloudFront and WAF for a quarter of the web",
           "hot_score": 721.731957,
@@ -474,16 +538,16 @@
           "url": "https://www.theblock.co/post/398820/aws-marketplace-integrates-chainlink?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 24,
+          "clicks": 26,
           "date": "2026-06-25T06:34:16.110219+00:00",
           "headline": "AI analytics platform Polysights raises $1.5M pre-seed funding to combat insider trading in prediction markets. The raise was backed by YZi Labs S3, Maven 11 Capital, and angels from Kraken and Consensys, plus grants from Polymarket and AWS.",
-          "hot_score": 656.786068,
+          "hot_score": 544.351509,
           "lev_url": "https://leviathannews.xyz/262239/ai-analytics-platform-polysights-raises-15m-pre-seed-funding-to-combat-insider-trading-in-prediction-markets-the-raise-was-backed-by-yzi-labs-s3-maven-11-capital-and-angels-from-kr",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260624232015_F_Y_WutI2B2x.jpg",
           "url": "https://x.com/polysights/status/2069830766331121957"
         },
         {
-          "clicks": 72,
+          "clicks": 75,
           "date": "2026-03-24T09:00:30.520721+00:00",
           "headline": "Chainalysis traces Resolv's $25M exploit to compromised AWS key that minted 80M unbacked USR",
           "hot_score": 475.598173,
@@ -499,24 +563,15 @@
           "lev_url": "https://leviathannews.xyz/235434/phalas-dstack-unifies-confidential-compute-across-aws-nitro-enclaves-google-cloud-tdx-and-its-own-tee-stack",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260423013604_Z4zrlaiDPw==.png",
           "url": "https://phala.com/posts/dstack-one-confidential-compute-framework-aws-google-cloud-phala"
-        },
-        {
-          "clicks": 42,
-          "date": "2026-04-29T21:49:01.157016+00:00",
-          "headline": "OpenAI expands to AWS via Amazon Bedrock, deploying AI agents after loosening Microsoft exclusivity in major multi-cloud shift",
-          "hot_score": 302.0,
-          "lev_url": "https://leviathannews.xyz/237086/openai-expands-to-aws-via-amazon-bedrock-deploying-ai-agents-after-loosening-microsoft-exclusivity-in-major-multi-cloud-shift",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260429114317_V88aQ_HexUuY.webp",
-          "url": "https://crypto.news/openai-taps-amazon-cloud-to-scale-ai-agents-as-microsoft-ties-loosen/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:53:48.348506+00:00",
+      "as_of": "2026-07-29T22:56:21.716371+00:00",
       "editorial": [
         {
-          "count": 12,
+          "count": 13,
           "source": "x.com"
         },
         {
@@ -568,40 +623,40 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 114,
+          "count": 143,
           "source": "x.com"
         },
         {
-          "count": 28,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 24,
+          "count": 32,
           "source": "cointelegraph.com"
         },
         {
-          "count": 21,
-          "source": "theblock.co"
+          "count": 29,
+          "source": "decrypt.co"
         },
         {
-          "count": 19,
+          "count": 26,
           "source": "financefeeds.com"
         },
         {
-          "count": 12,
+          "count": 25,
+          "source": "theblock.co"
+        },
+        {
+          "count": 15,
           "source": "coindesk.com"
         },
         {
-          "count": 8,
+          "count": 11,
           "source": "truthsocial.com"
         },
         {
-          "count": 7,
-          "source": "crowdfundinsider.com"
+          "count": 8,
+          "source": "thestreet.com"
         },
         {
-          "count": 5,
-          "source": "thestreet.com"
+          "count": 8,
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 5,
@@ -612,11 +667,11 @@
           "source": "dlnews.com"
         },
         {
-          "count": 3,
-          "source": "straitstimes.com"
+          "count": 4,
+          "source": "channelnewsasia.com"
         }
       ],
-      "universe_distinct": 32
+      "universe_distinct": 34
     }
   },
   "official_links": [],
@@ -627,42 +682,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:17.615918+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.272,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0381,
-        "lift_log": 3.318,
-        "score": 0.2717,
-        "shared": 11
-      },
-      "rationale": "AWS is a leading cloud computing platform.",
-      "relation_type": "category",
-      "slug": "cloud",
-      "source": "cotag",
-      "tag_name": "cloud",
-      "title": "cloud, Explained",
-      "weight": 27
-    },
-    {
-      "confidence": 0.209,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0236,
-        "lift_log": 4.304,
-        "score": 0.2092,
-        "shared": 4
-      },
-      "rationale": "Outages are a risk dimension for AWS services.",
-      "relation_type": "risk",
-      "slug": "outage",
-      "source": "cotag",
-      "tag_name": "Outage",
-      "title": "Outage, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "aws",
   "tag_name": "AWS",

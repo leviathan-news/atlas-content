@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:45:35.680765+00:00",
-      "newsroom_total": 190,
-      "overall_share": 53,
+      "as_of": "2026-07-29T22:56:48.690918+00:00",
+      "newsroom_total": 195,
+      "overall_share": 46,
       "provenance": "data",
       "series": [
         {
@@ -229,66 +229,101 @@
           "universe": 48
         },
         {
-          "ed_share": 50,
+          "ed_share": 9,
           "month": "2026-07",
-          "newsroom": 1,
-          "universe": 1
+          "newsroom": 6,
+          "universe": 58
         }
       ],
-      "total_universe": 358,
-      "universe_total": 168
+      "total_universe": 420,
+      "universe_total": 225
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:45:32.797136+00:00",
+      "as_of": "2026-07-29T22:56:48.434051+00:00",
       "edges": [
         {
+          "confidence": 0.218,
+          "description": "Co-covered in 26 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "blackrock",
-          "phrase": "Direct competitor in asset management and crypto ETF offerings.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 26 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fidelity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.207,
+          "description": "Co-covered in 176 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "blackrock",
-          "phrase": "BlackRock launched spot Bitcoin ETFs like IBIT.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 176 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "etf",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.195,
+          "description": "Co-covered in 128 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "blackrock",
-          "phrase": "BlackRock's ETF invests in Bitcoin as underlying asset.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 128 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.165,
+          "description": "Co-covered in 51 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "blackrock",
-          "phrase": "BlackRock offers multiple ETFs including crypto ETFs.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 51 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "etfs",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.162,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "blackrock",
-          "phrase": "Coinbase Prime provides custody for BlackRock's Bitcoin ETF.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "coinbase-prime",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -302,42 +337,62 @@
         },
         {
           "center": false,
+          "confidence": 0.218,
           "name": "Fidelity",
+          "observed_at": "2026-07-28",
           "slug": "fidelity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.207,
           "name": "ETF",
+          "observed_at": "2026-07-27",
           "slug": "etf",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.195,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.165,
           "name": "ETFs",
+          "observed_at": null,
           "slug": "etfs",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.162,
           "name": "Coinbase Prime",
+          "observed_at": null,
           "slug": "coinbase-prime",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -406,17 +461,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 190,
-      "as_of": "2026-07-01T11:45:37.493855+00:00",
+      "article_count": 195,
+      "as_of": "2026-07-29T22:56:49.004953+00:00",
       "most_clicked": {
-        "clicks": 1162,
+        "clicks": 1184,
         "date": "2024-12-20T22:59:41.515119+00:00",
         "headline": "BlackRock has proposed adding its tokenized U.S. Treasury fund, BUIDL, as a reserve asset for Frax's stablecoin treasury.",
         "lev_url": "https://leviathannews.xyz/8437/blackrock-has-proposed-adding-its-tokenized-us-treasury-fund-buidl-as-a-reserve-asset-for-fraxs-stablecoin-treasury"
       },
       "provenance": "data",
-      "top_decile_share": 39,
-      "total_clicks": 20291
+      "top_decile_share": 38,
+      "total_clicks": 20802
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:01:38.454585+00:00",
@@ -496,25 +551,16 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:45:37.375709+00:00",
+      "as_of": "2026-07-29T22:56:48.996555+00:00",
       "items": [
         {
-          "clicks": 90,
+          "clicks": 92,
           "date": "2026-04-09T23:48:36.666661+00:00",
           "headline": "Morgan Stanley debuts spot Bitcoin ETF at 0.14% fee, undercutting BlackRock and Fidelity",
           "hot_score": 28512.083879,
           "lev_url": "https://leviathannews.xyz/223369/morgan-stanley-debuts-spot-bitcoin-etf-at-014-fee-undercutting-blackrock-and-fidelity",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408094624_FC7Xja-g6Irw.jpg",
           "url": "https://cointelegraph.com/news/morgan-stanley-bitcoin-etf-debut-wednesday"
-        },
-        {
-          "clicks": 12,
-          "date": "2026-07-01T06:27:53.634128+00:00",
-          "headline": "U.S. spot Bitcoin ETFs suffered a record $4.5B in June outflows, with BlackRock's IBIT leading withdrawals as investors rotated capital toward SpaceX's historic IPO",
-          "hot_score": 3889.70369,
-          "lev_url": "https://leviathannews.xyz/266132/spot-bitcoin-etfs-record-worst-month-since-debut-shedding-45-billion-in-june-20260701-1",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701060011_nl7Snd5DorH6.jpg",
-          "url": "https://www.theblock.co/post/406802/bitcoin-etf-worst-month-yet?utm_source=rss&utm_medium=rss"
         },
         {
           "clicks": 39,
@@ -526,34 +572,34 @@
           "url": "https://financefeeds.com/crypto-etf-flows-hit-276-million-amid-strong-blackrock-performance/"
         },
         {
-          "clicks": 16,
+          "clicks": 31,
+          "date": "2026-07-28T16:52:58.432633+00:00",
+          "headline": "BlackRock, Fidelity and Goldman Sachs back Clarity Act as Senate's August recess nears",
+          "hot_score": 1696.981643,
+          "lev_url": "https://leviathannews.xyz/283515/blackrock-fidelity-and-goldman-sachs-back-clarity-act-as-senates-august-recess-nears",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728163828_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act"
+        },
+        {
+          "clicks": 25,
           "date": "2026-06-29T15:31:16.011241+00:00",
           "headline": "BlackRock adds Ethena's USDe to Aladdin as $100M facility opens BUIDL-to-stablecoin swaps",
-          "hot_score": 2723.267158,
+          "hot_score": 800.344626,
           "lev_url": "https://leviathannews.xyz/264718/blackrock-adds-ethenas-usde-to-aladdin-as-100m-facility-opens-buidl-to-stablecoin-swaps",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629150056_54Oidr3L-P0M.jpg",
           "url": "https://www.theblock.co/post/405670/blackrock-ethena-partnership-usde"
         },
         {
-          "clicks": 20,
-          "date": "2026-06-28T22:06:16.511845+00:00",
-          "headline": "Aptos Labs says BlackRock, Franklin Templeton, and Apollo tokenized funds are live on Aptos",
-          "hot_score": 1541.977129,
-          "lev_url": "https://leviathannews.xyz/264259/aptos-labs-says-blackrock-franklin-templeton-and-apollo-tokenized-funds-are-live-on-aptos",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260613171253_Z4zrlaiDPw==.png",
-          "url": "https://x.com/aptoslabs/status/2071307661229150394"
+          "clicks": 24,
+          "date": "2026-07-01T06:27:53.634128+00:00",
+          "headline": "U.S. spot Bitcoin ETFs suffered a record $4.5B in June outflows, with BlackRock's IBIT leading withdrawals as investors rotated capital toward SpaceX's historic IPO",
+          "hot_score": 773.6003,
+          "lev_url": "https://leviathannews.xyz/266132/spot-bitcoin-etfs-record-worst-month-since-debut-shedding-45-billion-in-june-20260701-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701060011_nl7Snd5DorH6.jpg",
+          "url": "https://www.theblock.co/post/406802/bitcoin-etf-worst-month-yet?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 34,
-          "date": "2026-06-26T15:10:41.808284+00:00",
-          "headline": "BlackRock-backed Securitize targets a $400M raise ahead of its NYSE debut, with the tokenization firm set to complete its SPAC merger pending shareholder approval",
-          "hot_score": 920.566363,
-          "lev_url": "https://leviathannews.xyz/263533/the-blackrock-backed-tokenization-specialist-expects-to-close-its-spac-merger-next-week-and-start-trading-on-the-nyse-pending-shareholder-approval",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626150614_ONWQ6rZIt31V.png",
-          "url": "https://www.coindesk.com/business/2026/06/26/securitize-aims-to-raise-usd400-million-as-tokenization-firm-nears-public-debut"
-        },
-        {
-          "clicks": 32,
+          "clicks": 36,
           "date": "2026-05-15T05:40:51.905619+00:00",
           "headline": "Grove opens $1B Basin facility for instant redemptions from BlackRock and Janus Henderson tokenized funds",
           "hot_score": 765.4,
@@ -562,30 +608,39 @@
           "url": "https://www.coindesk.com/business/2026/05/14/blackrock-janus-henderson-tokenized-funds-get-instant-redemptions-with-new-usd1-billion-facility"
         },
         {
-          "clicks": 44,
+          "clicks": 45,
           "date": "2026-05-16T18:31:41.875865+00:00",
           "headline": "Abu Dhabi’s Mubadala boosted its BlackRock IBIT position to nearly $660M while Harvard dumped its ether ETF and slashed bitcoin ETF exposure another 43%",
           "hot_score": 743.849536,
           "lev_url": "https://leviathannews.xyz/243609/abu-dhabis-mubadala-boosted-its-blackrock-ibit-position-to-nearly-660m-while-harvard-dumped-its-ether-etf-and-slashed-bitcoin-etf-exposure-another-43",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260516172303_c8GsuwjGt9ik.jpg",
           "url": "https://www.theblock.co/post/401518/sovereign-funds-universities-banks-reshuffle-bitcoin-altcoin-etf-positions?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 27,
+          "date": "2026-07-02T14:22:41.935991+00:00",
+          "headline": "Ondo tokenizes BlackRock's IVV ETF and Micron stock under an SEC-aligned custodial framework, bringing regulated U.S. securities onchain",
+          "hot_score": 741.325485,
+          "lev_url": "https://leviathannews.xyz/267575/no-headline-20260702",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260702141810_4yuEWQzQqPdG.jpg",
+          "url": "https://www.theblock.co/post/407031/ondo-tokenizes-blackrocks-ivv-etf-and-micron-stock-under-us-custodial-model?utm_source=rss&utm_medium=rss"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:45:37.227656+00:00",
+      "as_of": "2026-07-29T22:56:48.927568+00:00",
       "editorial": [
         {
           "count": 62,
           "source": "x.com"
         },
         {
-          "count": 21,
+          "count": 24,
           "source": "coindesk.com"
         },
         {
-          "count": 19,
+          "count": 20,
           "source": "theblock.co"
         },
         {
@@ -629,43 +684,43 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 96,
+          "count": 132,
           "source": "x.com"
         },
         {
-          "count": 12,
+          "count": 15,
           "source": "decrypt.co"
+        },
+        {
+          "count": 13,
+          "source": "theblock.co"
         },
         {
           "count": 11,
           "source": "cointelegraph.com"
         },
         {
-          "count": 10,
+          "count": 11,
           "source": "financefeeds.com"
         },
         {
-          "count": 8,
-          "source": "theblock.co"
+          "count": 9,
+          "source": "forbes.com"
         },
         {
-          "count": 8,
-          "source": "forbes.com"
+          "count": 9,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 7,
+          "source": "thestreet.com"
         },
         {
           "count": 6,
           "source": "dlnews.com"
         },
         {
-          "count": 6,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 4,
-          "source": "thestreet.com"
-        },
-        {
-          "count": 3,
+          "count": 5,
           "source": "crowdfundinsider.com"
         },
         {
@@ -677,7 +732,7 @@
           "source": "techstartups.com"
         }
       ],
-      "universe_distinct": 14
+      "universe_distinct": 17
     }
   },
   "official_links": [
@@ -694,42 +749,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:19.982551+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.207,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0953,
-        "lift_log": 3.217,
-        "score": 0.2068,
-        "shared": 123
-      },
-      "rationale": "BlackRock launched spot Bitcoin ETFs like IBIT.",
-      "relation_type": "product",
-      "slug": "etf",
-      "source": "cotag",
-      "tag_name": "ETF",
-      "title": "ETF, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.218,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0562,
-        "lift_log": 4.137,
-        "score": 0.2185,
-        "shared": 23
-      },
-      "rationale": "Direct competitor in asset management and crypto ETF offerings.",
-      "relation_type": "peer",
-      "slug": "fidelity",
-      "source": "cotag",
-      "tag_name": "Fidelity",
-      "title": "Fidelity, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "blackrock",
   "tag_name": "BlackRock",

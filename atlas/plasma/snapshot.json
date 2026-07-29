@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:11:21.234226+00:00",
-      "newsroom_total": 35,
-      "overall_share": 67,
+      "as_of": "2026-07-29T23:03:14.975678+00:00",
+      "newsroom_total": 36,
+      "overall_share": 62,
       "provenance": "data",
       "series": [
         {
@@ -71,62 +71,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 7
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 5
         }
       ],
-      "total_universe": 52,
-      "universe_total": 17
+      "total_universe": 58,
+      "universe_total": 22
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:11:20.827958+00:00",
+      "as_of": "2026-07-29T23:03:14.661499+00:00",
       "edges": [
         {
+          "confidence": 0.21,
+          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "plasma",
-          "phrase": "Both are DeFi protocols, but Pendle focuses on yield tokenization.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-22",
+          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "pendle",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.165,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "plasma",
-          "phrase": "Stablecoins are a broader category of crypto assets.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.144,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "plasma",
-          "phrase": "TVL is a core metric used to measure DeFi protocol activity.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tvl",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.142,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "plasma",
-          "phrase": "AAVE is the governance token of the Aave protocol.",
-          "relation_type": "token",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "aave-token",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.12,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "plasma",
-          "phrase": "Aave is a lending protocol, comparable to other DeFi platforms.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "aave",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         }
       ],
@@ -140,65 +181,85 @@
         },
         {
           "center": false,
+          "confidence": 0.21,
           "name": "Pendle",
+          "observed_at": "2026-06-22",
           "slug": "pendle",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.165,
           "name": "Stablecoins",
+          "observed_at": null,
           "slug": "stablecoins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.144,
           "name": "TVL",
+          "observed_at": null,
           "slug": "tvl",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.142,
           "name": "AAVE",
+          "observed_at": null,
           "slug": "aave-token",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.12,
           "name": "Aave",
+          "observed_at": null,
           "slug": "aave",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         }
       ],
       "provenance": "data"
     },
     "reader_signal": {
-      "article_count": 35,
-      "as_of": "2026-07-01T12:11:21.670329+00:00",
+      "article_count": 36,
+      "as_of": "2026-07-29T23:03:15.336691+00:00",
       "most_clicked": {
-        "clicks": 211,
+        "clicks": 213,
         "date": "2025-10-01T16:00:00.500847+00:00",
         "headline": "Stablewatch created a dashboard dedicated to Plasma",
         "lev_url": "https://leviathannews.xyz/17949/stablewatch-created-a-dashboard-dedicated-to-plasma"
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 2402
+      "total_clicks": 2477
     },
     "significant": {
-      "as_of": "2026-07-01T12:11:21.592925+00:00",
+      "as_of": "2026-07-29T23:03:15.331366+00:00",
       "items": [
         {
-          "clicks": 70,
+          "clicks": 73,
           "date": "2026-04-21T19:54:29.330309+00:00",
           "headline": "Peter Thiel-backed Ramp launches zero-fee USDT↔USD conversions across its platform, expanding support for Ethereum, Solana and Plasma as stablecoin payments gain traction",
           "hot_score": 859.2,
@@ -207,7 +268,16 @@
           "url": "https://www.theblock.co/post/398354/peter-thiel-backed-unicorn-ramp-rolls-out-0-conversions-between-usdt-and-dollars-across-product-suite?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 45,
+          "clicks": 38,
+          "date": "2026-07-14T14:39:14.648751+00:00",
+          "headline": "Plasma One launches on Android with six months of Core free for new users",
+          "hot_score": 626.878134,
+          "lev_url": "https://leviathannews.xyz/274815/plasma-one-is-now-live-on-android-get-six-months-of-core-free-when-you-download-plasma-one-from-google-play-and-sign-up-before-july-18-20260714",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260714123024_eoIhijOoYobw.jpg",
+          "url": "https://x.com/plasma/status/2077000199197839785"
+        },
+        {
+          "clicks": 47,
           "date": "2026-04-16T11:01:05.745348+00:00",
           "headline": "Plasma One enters private beta with limited early access, teasing massive ambitions as team hints at trillion-dollar scale for its next-gen financial infrastructure",
           "hot_score": 529.745132,
@@ -216,7 +286,7 @@
           "url": "https://x.com/i/status/2044415663691780443"
         },
         {
-          "clicks": 48,
+          "clicks": 50,
           "date": "2026-05-23T00:11:07.985768+00:00",
           "headline": "Chainlink expands CCIP, CRE, and Data Feeds to Robinhood Chain testnet, MegaETH, Plasma, and more",
           "hot_score": 463.402946,
@@ -225,7 +295,7 @@
           "url": "https://x.com/chainlink/status/2057952439391650088"
         },
         {
-          "clicks": 53,
+          "clicks": 54,
           "date": "2026-04-07T19:26:44.896126+00:00",
           "headline": "Zaheer Ebtikar shutters Split Capital as ETFs hollow out crypto hedge funds, joins Plasma as CSO",
           "hot_score": 218.791261,
@@ -243,7 +313,7 @@
           "url": "https://www.theblock.co/post/398515/inside-plasma-with-zaheer-the-future-of-stablecoins?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 211,
+          "clicks": 213,
           "date": "2025-10-01T16:00:00.500847+00:00",
           "headline": "Stablewatch created a dashboard dedicated to Plasma",
           "hot_score": 0.0,
@@ -259,24 +329,15 @@
           "lev_url": "https://leviathannews.xyz/17468/designed-for-stablecoins-from-the-ground-up-plasma-powers-near-instant-fee-free-payments-with-institutional-grade-security",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250924172802_NyAo7Yc4S0c=.jpg",
           "url": "https://www.plasma.to/"
-        },
-        {
-          "clicks": 136,
-          "date": "2025-09-29T09:06:47.505918+00:00",
-          "headline": "Plasma nears top 3 chains by TVL after $14B deposits over the weekend",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/17741/just-launched-plasma-blockchain-soars-to-14b-in-tvl-over-the-weekend-now-trailing-bnb-chain-to-enter-top-3-by-tvl-according-to-defillama-httpstcoh0mflux2vk",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250929090527_OyV1uwZhOdQ=.jpg",
-          "url": "https://x.com/w00tcake/status/1972588452790354214"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:11:21.511943+00:00",
+      "as_of": "2026-07-29T23:03:15.317662+00:00",
       "editorial": [
         {
-          "count": 20,
+          "count": 21,
           "source": "x.com"
         },
         {
@@ -324,7 +385,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 12,
+          "count": 15,
           "source": "x.com"
         },
         {
@@ -345,10 +406,18 @@
         },
         {
           "count": 1,
+          "source": "plasma.org"
+        },
+        {
+          "count": 1,
           "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "across.to"
         }
       ],
-      "universe_distinct": 6
+      "universe_distinct": 8
     }
   },
   "official_links": [
@@ -370,25 +439,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:48.157570+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.21,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0308,
-        "lift_log": 4.253,
-        "score": 0.21,
-        "shared": 3
-      },
-      "rationale": "Both are DeFi protocols, but Pendle focuses on yield tokenization.",
-      "relation_type": "peer",
-      "slug": "pendle",
-      "source": "cotag",
-      "tag_name": "Pendle",
-      "title": "Pendle, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "plasma",
   "tag_name": "Plasma",

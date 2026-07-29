@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:12:27.282581+00:00",
+      "as_of": "2026-07-29T22:57:59.375250+00:00",
       "newsroom_total": 22,
-      "overall_share": 54,
+      "overall_share": 44,
       "provenance": "data",
       "series": [
         {
@@ -89,62 +89,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 9
         }
       ],
-      "total_universe": 41,
-      "universe_total": 19
+      "total_universe": 50,
+      "universe_total": 28
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:12:27.016638+00:00",
+      "as_of": "2026-07-29T22:57:59.046051+00:00",
       "edges": [
         {
+          "confidence": 0.289,
+          "description": "Co-covered in 7 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cybersecurity",
-          "phrase": "Anthropic is an AI safety company, comparable to cybersecurity in risk mitigation.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-10",
+          "phrase": "Co-covered in 7 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "anthropic",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.262,
+          "description": "Co-covered in 5 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cybersecurity",
-          "phrase": "Threat is a core concept in cybersecurity, representing potential harm.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-27",
+          "phrase": "Co-covered in 5 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "threat",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cybersecurity",
-          "phrase": "Claude is an AI assistant by Anthropic, used in cybersecurity contexts.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "claude",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.153,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cybersecurity",
-          "phrase": "OpenAI develops AI models, comparable to cybersecurity in safety focus.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "openai",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "cybersecurity",
+          "observed_at": null,
           "phrase": "digital assets",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "digital-assets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -158,42 +199,62 @@
         },
         {
           "center": false,
+          "confidence": 0.289,
           "name": "Anthropic",
+          "observed_at": "2026-06-10",
           "slug": "anthropic",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.262,
           "name": "Threat",
+          "observed_at": "2026-05-27",
           "slug": "threat",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "Claude",
+          "observed_at": null,
           "slug": "claude",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.153,
           "name": "OpenAI",
+          "observed_at": null,
           "slug": "openai",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Digital Assets",
+          "observed_at": null,
           "slug": "digital-assets",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -257,16 +318,16 @@
     },
     "reader_signal": {
       "article_count": 22,
-      "as_of": "2026-07-01T12:12:27.734303+00:00",
+      "as_of": "2026-07-29T22:57:59.672729+00:00",
       "most_clicked": {
-        "clicks": 177,
+        "clicks": 181,
         "date": "2026-05-13T12:01:00.665165+00:00",
         "headline": "Yield Basis selected Firepan to perform an AI-powered security review of its live mainnet FeeDistributor contract, identifying 18 findings across 22 attack surfaces, including a previously undocumented MEV vector.",
         "lev_url": "https://leviathannews.xyz/241691/yield-basis-selected-firepan-to-perform-an-ai-powered-security-review-of-its-live-mainnet-feedistributor-contract-identifying-18-findings-across-22-attack-surfaces-including-a-prev"
       },
       "provenance": "data",
       "top_decile_share": 27,
-      "total_clicks": 1234
+      "total_clicks": 1260
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:28:57.998666+00:00",
@@ -351,10 +412,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:12:27.657205+00:00",
+      "as_of": "2026-07-29T22:57:59.668392+00:00",
       "items": [
         {
-          "clicks": 177,
+          "clicks": 181,
           "date": "2026-05-13T12:01:00.665165+00:00",
           "headline": "Yield Basis selected Firepan to perform an AI-powered security review of its live mainnet FeeDistributor contract, identifying 18 findings across 22 attack surfaces, including a previously undocumented MEV vector.",
           "hot_score": 5708.026403,
@@ -363,7 +424,7 @@
           "url": "https://firepan.com/case-studies/yieldbasis/"
         },
         {
-          "clicks": 51,
+          "clicks": 52,
           "date": "2026-04-16T19:41:51.990628+00:00",
           "headline": "OpenAI expands cybersecurity push with GPT-5.4-Cyber access for US and UK agencies, partnering with banks and tech giants to strengthen global AI defense systems",
           "hot_score": 2297.429709,
@@ -381,7 +442,7 @@
           "url": "https://decrypt.co/365099/anthropic-claude-mythos-ai-271-vulnerabilities-firefox-seriously-powerful"
         },
         {
-          "clicks": 46,
+          "clicks": 47,
           "date": "2026-04-16T08:43:04.039308+00:00",
           "headline": "NVIDIA CEO Jensen Huang says China already has the compute capacity to train Claude Mythos-level AI, raising cybersecurity concerns",
           "hot_score": 699.191276,
@@ -390,7 +451,7 @@
           "url": "https://cointelegraph.com/news/china-has-compute-train-its-own-mythos-ai-nvidia-ceo"
         },
         {
-          "clicks": 27,
+          "clicks": 28,
           "date": "2026-06-23T14:26:19.008746+00:00",
           "headline": "DeFi Education Fund, SEAL and Asymmetric Research launch OPSeC coalition to boost crypto cybersecurity, educate lawmakers and strengthen protocol defenses",
           "hot_score": 563.368779,
@@ -399,7 +460,7 @@
           "url": "https://www.theblock.co/post/405698/new-defi-education-fund-coalition-seeks-harden-crypto-against-cybersecurity-threats?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 74,
+          "clicks": 75,
           "date": "2026-03-30T13:31:39.523035+00:00",
           "headline": "Anthropic Mythos leaked via unsecured cache before announcement — company says it poses unprecedented cybersecurity risks",
           "hot_score": 321.556807,
@@ -408,7 +469,7 @@
           "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
         },
         {
-          "clicks": 77,
+          "clicks": 78,
           "date": "2026-03-27T07:02:30.810316+00:00",
           "headline": "Leak exposes Anthropic’s Claude Mythos model as company confirms testing of its most advanced AI, warning of serious cybersecurity implications",
           "hot_score": 105.362533,
@@ -429,7 +490,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:12:27.572924+00:00",
+      "as_of": "2026-07-29T22:57:59.648399+00:00",
       "editorial": [
         {
           "count": 7,
@@ -484,16 +545,16 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 7,
+          "count": 11,
           "source": "x.com"
+        },
+        {
+          "count": 5,
+          "source": "decrypt.co"
         },
         {
           "count": 3,
           "source": "cointelegraph.com"
-        },
-        {
-          "count": 3,
-          "source": "decrypt.co"
         },
         {
           "count": 2,
@@ -514,9 +575,21 @@
         {
           "count": 1,
           "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "whitehouse.gov"
+        },
+        {
+          "count": 1,
+          "source": "anthropic.com"
+        },
+        {
+          "count": 1,
+          "source": "naorisprotocol.com"
         }
       ],
-      "universe_distinct": 8
+      "universe_distinct": 11
     }
   },
   "official_links": [],
@@ -527,42 +600,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:26.035094+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.289,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0277,
-        "lift_log": 3.809,
-        "score": 0.2889,
-        "shared": 7
-      },
-      "rationale": "Anthropic is an AI safety company, comparable to cybersecurity in risk mitigation.",
-      "relation_type": "peer",
-      "slug": "anthropic",
-      "source": "cotag",
-      "tag_name": "Anthropic",
-      "title": "Anthropic, Explained",
-      "weight": 29
-    },
-    {
-      "confidence": 0.262,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0172,
-        "lift_log": 3.334,
-        "score": 0.2619,
-        "shared": 5
-      },
-      "rationale": "Threat is a core concept in cybersecurity, representing potential harm.",
-      "relation_type": "primitive",
-      "slug": "threat",
-      "source": "cotag",
-      "tag_name": "Threat",
-      "title": "Threat, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "cybersecurity",
   "tag_name": "Cybersecurity",

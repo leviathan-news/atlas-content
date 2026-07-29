@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:45:02.014548+00:00",
-      "newsroom_total": 125,
-      "overall_share": 31,
+      "as_of": "2026-07-29T23:00:06.044521+00:00",
+      "newsroom_total": 132,
+      "overall_share": 28,
       "provenance": "data",
       "series": [
         {
@@ -133,66 +133,101 @@
           "universe": 115
         },
         {
-          "ed_share": null,
+          "ed_share": 13,
           "month": "2026-07",
-          "newsroom": 1,
-          "universe": 0
+          "newsroom": 8,
+          "universe": 55
         }
       ],
-      "total_universe": 402,
-      "universe_total": 277
+      "total_universe": 464,
+      "universe_total": 332
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:44:58.634847+00:00",
+      "as_of": "2026-07-29T23:00:05.620454+00:00",
       "edges": [
         {
+          "confidence": 0.364,
+          "description": "Co-covered in 143 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ipo",
-          "phrase": "SpaceX is a private company like IPO candidates, but not directly related.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-08",
+          "phrase": "Co-covered in 143 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "spacex",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 36
         },
         {
+          "confidence": 0.246,
+          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ipo",
-          "phrase": "Equity is the core asset class traded in an IPO.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-02",
+          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "equity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.182,
+          "description": "Co-covered in 30 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ipo",
-          "phrase": "IPO is a type of investment event.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 30 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "investment",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.171,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ipo",
-          "phrase": "NYSE is a stock exchange where IPOs are listed.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "nyse",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 15 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ipo",
-          "phrase": "Elon Musk's companies have IPO potential, influencing narrative.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 15 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "elon-musk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -206,42 +241,62 @@
         },
         {
           "center": false,
+          "confidence": 0.364,
           "name": "SpaceX",
+          "observed_at": "2026-07-08",
           "slug": "spacex",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 36
         },
         {
           "center": false,
+          "confidence": 0.246,
           "name": "Equity",
+          "observed_at": "2026-07-02",
           "slug": "equity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.182,
           "name": "Investment",
+          "observed_at": null,
           "slug": "investment",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.171,
           "name": "NYSE",
+          "observed_at": null,
           "slug": "nyse",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "Elon Musk",
+          "observed_at": null,
           "slug": "elon-musk",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -310,17 +365,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 125,
-      "as_of": "2026-07-01T11:45:05.839175+00:00",
+      "article_count": 132,
+      "as_of": "2026-07-29T23:00:06.443532+00:00",
       "most_clicked": {
-        "clicks": 189,
+        "clicks": 194,
         "date": "2025-08-28T20:25:55.745316+00:00",
         "headline": "CoinDesk’s new owners, Bullish, are accused of using the outlet to launder reputations ahead of their IPO. Critics point to the firm’s roots in the $4B EOS crowdsale and warn of ongoing red flags, from suspected wash trading to no clear cash flow.",
         "lev_url": "https://leviathannews.xyz/15354/coindesks-new-owners-bullish-are-accused-of-using-the-outlet-to-launder-reputations-ahead-of-their-ipo-critics-point-to-the-firms-roots-in-the-4b-eos-crowdsale-and-warn-of-ongoing-"
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 6834
+      "total_clicks": 7326
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:51:45.377673+00:00",
@@ -405,10 +460,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:45:05.674636+00:00",
+      "as_of": "2026-07-29T23:00:06.424927+00:00",
       "items": [
         {
-          "clicks": 44,
+          "clicks": 45,
           "date": "2026-04-08T12:45:33.408123+00:00",
           "headline": "Aerospace and defense supplier Arxis targets up to $1.06B in US IPO, aiming to capitalize on rising demand for electronic and mechanical components across global defense markets",
           "hot_score": 15503.502973,
@@ -417,7 +472,7 @@
           "url": "https://x.com/i/status/2041837498511360386"
         },
         {
-          "clicks": 40,
+          "clicks": 42,
           "date": "2026-04-16T11:00:45.325987+00:00",
           "headline": "Amazon-backed X-energy targets up to $800M IPO as nuclear startup rides AI-driven power demand, with plans to supply 5GW of energy by 2039",
           "hot_score": 5644.595942,
@@ -426,16 +481,7 @@
           "url": "https://techcrunch.com/2026/04/15/amazon-backed-x-energy-files-to-raise-up-to-800m-in-ipo/?utm_source=dlvr.it&utm_medium=twitter"
         },
         {
-          "clicks": 12,
-          "date": "2026-07-01T06:27:53.634128+00:00",
-          "headline": "U.S. spot Bitcoin ETFs suffered a record $4.5B in June outflows, with BlackRock's IBIT leading withdrawals as investors rotated capital toward SpaceX's historic IPO",
-          "hot_score": 3892.372257,
-          "lev_url": "https://leviathannews.xyz/266132/spot-bitcoin-etfs-record-worst-month-since-debut-shedding-45-billion-in-june-20260701-1",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701060011_nl7Snd5DorH6.jpg",
-          "url": "https://www.theblock.co/post/406802/bitcoin-etf-worst-month-yet?utm_source=rss&utm_medium=rss"
-        },
-        {
-          "clicks": 71,
+          "clicks": 74,
           "date": "2026-04-10T10:25:27.760896+00:00",
           "headline": "Bitget opens tokenized pre-IPO trading with SpaceX as first asset on new IPO Prime platform",
           "hot_score": 3655.591003,
@@ -444,7 +490,7 @@
           "url": "https://www.theblock.co/post/396976/bitget-debuts-ipo-prime"
         },
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2026-04-16T11:00:28.716857+00:00",
           "headline": "Naver Financial targets immediate IPO after closing $10.3B Dunamu-Upbit acquisition",
           "hot_score": 2946.23252,
@@ -453,7 +499,16 @@
           "url": "https://cointelegraph.com/news/naver-financial-acquires-dunamu-upbit-10b-stock-swap"
         },
         {
-          "clicks": 42,
+          "clicks": 51,
+          "date": "2026-07-27T14:45:13.677425+00:00",
+          "headline": "Crypto bank AMINA taps Cantor to evaluate a possible IPO, weighing several public market options as institutional demand for digital asset banking keeps accelerating",
+          "hot_score": 2092.91273,
+          "lev_url": "https://leviathannews.xyz/282616/cantor-is-advising-crypto-bank-amina-on-path-to-potential-public-listing",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727143816_0LEs8GKMpsIp.jpg",
+          "url": "https://www.coindesk.com/business/2026/07/27/cantor-is-advising-crypto-bank-amina-on-path-to-potential-public-listing"
+        },
+        {
+          "clicks": 43,
           "date": "2026-04-11T21:36:21.444180+00:00",
           "headline": "SpaceX holds 8,285 BTC worth $603M steady as xAI costs flip $8B profit to nearly $5B loss ahead of IPO",
           "hot_score": 1791.901762,
@@ -462,35 +517,35 @@
           "url": "https://www.coindesk.com/markets/2026/04/11/musk-s-spacex-holds-usd603-million-in-bitcoin-despite-usd5-billion-loss-stemming-from-xai"
         },
         {
-          "clicks": 45,
+          "clicks": 36,
+          "date": "2026-07-28T16:53:14.992255+00:00",
+          "headline": "Kraken offers Jersey Mike’s IPO to retail, pairing U.S. allocations with 1:1-backed xStocks in 110+ countries",
+          "hot_score": 1731.493254,
+          "lev_url": "https://leviathannews.xyz/283518/kraken-offers-jersey-mikes-ipo-to-retail-pairing-us-allocations-with-11-backed-xstocks-in-110-countries",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728163920_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations"
+        },
+        {
+          "clicks": 46,
           "date": "2026-04-11T05:32:20.785550+00:00",
           "headline": "Binance Wallet launches onchain pre-IPO section with tokenized SpaceX and OpenAI among first five assets",
           "hot_score": 1674.724494,
           "lev_url": "https://leviathannews.xyz/226561/binance-wallet-launches-onchain-pre-ipo-section-with-tokenized-spacex-and-openai-among-first-five-assets",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411021319_Z4zrlaiDPw==.png",
           "url": "https://x.com/BinanceWallet/status/2042643829090848854"
-        },
-        {
-          "clicks": 41,
-          "date": "2026-05-13T22:24:41.214703+00:00",
-          "headline": "Ledger pauses US IPO plans amid unfavorable market conditions",
-          "hot_score": 1054.870997,
-          "lev_url": "https://leviathannews.xyz/241888/ledger-pauses-us-ipo-plans-due-to-market-conditions-crypto-wallet-provider-ledger-has-put-its-us-ipo-plans-on-hold-due-to-unfavorable-market-conditions-people-familiar-with-the-mat",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260513184534_ZQP4mqE_18G9.png",
-          "url": "https://x.com/wublockchain/status/2054588581067518040"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:45:05.499133+00:00",
+      "as_of": "2026-07-29T23:00:06.392026+00:00",
       "editorial": [
         {
           "count": 29,
           "source": "x.com"
         },
         {
-          "count": 20,
+          "count": 23,
           "source": "coindesk.com"
         },
         {
@@ -515,6 +570,10 @@
         },
         {
           "count": 3,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 3,
           "source": "archive.md"
         },
         {
@@ -528,29 +587,25 @@
         {
           "count": 2,
           "source": "dlnews.com"
-        },
-        {
-          "count": 2,
-          "source": "bloomberg.com"
         }
       ],
-      "editorial_distinct": 40,
+      "editorial_distinct": 41,
       "provenance": "data",
       "universe": [
         {
-          "count": 126,
+          "count": 158,
           "source": "x.com"
         },
         {
-          "count": 22,
+          "count": 25,
           "source": "financefeeds.com"
         },
         {
-          "count": 20,
+          "count": 23,
           "source": "cointelegraph.com"
         },
         {
-          "count": 17,
+          "count": 21,
           "source": "coindesk.com"
         },
         {
@@ -562,12 +617,16 @@
           "source": "theblock.co"
         },
         {
+          "count": 7,
+          "source": "bloomberg.com"
+        },
+        {
           "count": 6,
           "source": "crowdfundinsider.com"
         },
         {
           "count": 5,
-          "source": "bloomberg.com"
+          "source": "wsj.com"
         },
         {
           "count": 5,
@@ -580,13 +639,9 @@
         {
           "count": 4,
           "source": "channelnewsasia.com"
-        },
-        {
-          "count": 4,
-          "source": "metamask.io"
         }
       ],
-      "universe_distinct": 37
+      "universe_distinct": 42
     }
   },
   "official_links": [],
@@ -597,42 +652,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:37.138408+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.246,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0257,
-        "lift_log": 2.869,
-        "score": 0.2456,
-        "shared": 11
-      },
-      "rationale": "Equity is the core asset class traded in an IPO.",
-      "relation_type": "primitive",
-      "slug": "equity",
-      "source": "cotag",
-      "tag_name": "Equity",
-      "title": "Equity, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.364,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.3008,
-        "lift_log": 4.4,
-        "score": 0.3641,
-        "shared": 139
-      },
-      "rationale": "SpaceX is a private company like IPO candidates, but not directly related.",
-      "relation_type": "peer",
-      "slug": "spacex",
-      "source": "cotag",
-      "tag_name": "SpaceX",
-      "title": "SpaceX, Explained",
-      "weight": 36
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "ipo",
   "tag_name": "IPO",

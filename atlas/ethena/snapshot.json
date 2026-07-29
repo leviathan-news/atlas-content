@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:54:52.276445+00:00",
-      "newsroom_total": 108,
-      "overall_share": 72,
+      "as_of": "2026-07-29T22:58:49.616646+00:00",
+      "newsroom_total": 111,
+      "overall_share": 67,
       "provenance": "data",
       "series": [
         {
@@ -179,63 +179,104 @@
           "month": "2026-06",
           "newsroom": 5,
           "universe": 28
+        },
+        {
+          "ed_share": 19,
+          "month": "2026-07",
+          "newsroom": 3,
+          "universe": 13
         }
       ],
-      "total_universe": 149,
-      "universe_total": 41
+      "total_universe": 165,
+      "universe_total": 54
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:54:51.340217+00:00",
+      "as_of": "2026-07-29T22:58:49.043127+00:00",
       "edges": [
         {
+          "confidence": 0.534,
+          "description": "Co-covered in 64 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ethena",
-          "phrase": "USDe is Ethena's synthetic-dollar stablecoin.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-11",
+          "phrase": "Co-covered in 64 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "usde",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 53
         },
         {
+          "confidence": 0.185,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ethena",
-          "phrase": "DAI/sUSDe integrations and yield competition make Sky/DAI a peer.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
+          "to": "llamarisk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 19
+        },
+        {
+          "confidence": 0.179,
+          "description": "Co-covered in 6 approved stories; most recently October 2025.",
+          "description_source": "evidence",
+          "dir": "out",
+          "from": "ethena",
+          "observed_at": "2025-10-03",
+          "phrase": "Co-covered in 6 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "dai",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.177,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "ethena",
-          "phrase": "Sky and Ethena are peer yield-bearing-stablecoin issuers.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
-          "to": "sky-protocol",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
+          "to": "anchorage",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 18
+        },
+        {
+          "confidence": 0.17,
+          "description": "Co-covered in 2 approved stories.",
+          "description_source": "evidence",
+          "dir": "out",
+          "from": "ethena",
+          "observed_at": null,
+          "phrase": "Co-covered in 2 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
+          "to": "centrifuge",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
-        },
-        {
-          "dir": "out",
-          "from": "ethena",
-          "phrase": "Pendle markets are a major venue for USDe/sUSDe yield.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
-          "to": "pendle",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "ethena",
-          "phrase": "PYUSD is a peer stablecoin.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
-          "to": "pyusd",
-          "weight": 16
         }
       ],
       "nodes": [
@@ -248,43 +289,63 @@
         },
         {
           "center": false,
+          "confidence": 0.534,
           "name": "USDe",
+          "observed_at": "2026-07-11",
           "slug": "usde",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 53
         },
         {
           "center": false,
+          "confidence": 0.185,
+          "name": "LlamaRisk",
+          "observed_at": null,
+          "slug": "llamarisk",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 19
+        },
+        {
+          "center": false,
+          "confidence": 0.179,
           "name": "DAI",
+          "observed_at": "2025-10-03",
           "slug": "dai",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
-          "name": "Sky Protocol",
-          "slug": "sky-protocol",
-          "source": "published_relation",
-          "tier": "close",
+          "confidence": 0.177,
+          "name": "Anchorage Digital",
+          "observed_at": null,
+          "slug": "anchorage",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 18
+        },
+        {
+          "center": false,
+          "confidence": 0.17,
+          "name": "Centrifuge",
+          "observed_at": null,
+          "slug": "centrifuge",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
-        },
-        {
-          "center": false,
-          "name": "Pendle",
-          "slug": "pendle",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 16
-        },
-        {
-          "center": false,
-          "name": "PYUSD",
-          "slug": "pyusd",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 16
         }
       ],
       "provenance": "data"
@@ -352,17 +413,17 @@
       "source": "https://docs.ethena.fi/solution-overview/risks/funding-risk"
     },
     "reader_signal": {
-      "article_count": 108,
-      "as_of": "2026-07-01T11:54:52.898460+00:00",
+      "article_count": 111,
+      "as_of": "2026-07-29T22:58:50.069206+00:00",
       "most_clicked": {
-        "clicks": 408,
+        "clicks": 416,
         "date": "2024-12-16T14:11:24.465745+00:00",
         "headline": "Ethena Labs unveils USDtb: BlackRock-Backed BUIDL Stablecoin offering unmatched scalability, Security, and a unique risk profile.",
         "lev_url": "https://leviathannews.xyz/8323/ethena-labs-unveils-usdtb-blackrock-backed-buidl-stablecoin-offering-unmatched-scalability-security-and-a-unique-risk-profile"
       },
       "provenance": "data",
-      "top_decile_share": 26,
-      "total_clicks": 12399
+      "top_decile_share": 27,
+      "total_clicks": 12661
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:17:41.277758+00:00",
@@ -447,25 +508,34 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:54:52.794451+00:00",
+      "as_of": "2026-07-29T22:58:50.059884+00:00",
       "items": [
         {
-          "clicks": 16,
-          "date": "2026-06-29T15:31:16.011241+00:00",
-          "headline": "BlackRock adds Ethena's USDe to Aladdin as $100M facility opens BUIDL-to-stablecoin swaps",
-          "hot_score": 2720.449128,
-          "lev_url": "https://leviathannews.xyz/264718/blackrock-adds-ethenas-usde-to-aladdin-as-100m-facility-opens-buidl-to-stablecoin-swaps",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629150056_54Oidr3L-P0M.jpg",
-          "url": "https://www.theblock.co/post/405670/blackrock-ethena-partnership-usde"
-        },
-        {
-          "clicks": 67,
+          "clicks": 68,
           "date": "2026-05-13T14:24:36.444353+00:00",
           "headline": "Ethena launches a dedicated lending market on Jupiter Lend, with Bitwise overseeing risk management and institutional participation on Solana",
           "hot_score": 1185.907835,
           "lev_url": "https://leviathannews.xyz/241750/ethena-launches-a-dedicated-lending-market-on-jupiter-lend-with-bitwise-overseeing-risk-management-and-institutional-participation-on-solana",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260513142257_l805Izkei6Tp.jpg",
           "url": "https://x.com/i/web/status/2054555831501467884"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-07-24T09:49:51.570419+00:00",
+          "headline": "Ethena Foundation has opened applications for the Ethena Risk Committee re-election, inviting qualified participants to help oversee governance and protocol risk management",
+          "hot_score": 912.15281,
+          "lev_url": "https://leviathannews.xyz/281293/the-ethena-foundation-has-opened-the-re-election-process-for-the-ethena-risk-committee-an-opportunity-for-suitably-skilled-qualified-participants-to-join-the-governance-risk-m",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724093535_xVraQhBvQWkD.jpg",
+          "url": "https://x.com/ethena_eco/status/2080317609481056295"
+        },
+        {
+          "clicks": 25,
+          "date": "2026-06-29T15:31:16.011241+00:00",
+          "headline": "BlackRock adds Ethena's USDe to Aladdin as $100M facility opens BUIDL-to-stablecoin swaps",
+          "hot_score": 800.344626,
+          "lev_url": "https://leviathannews.xyz/264718/blackrock-adds-ethenas-usde-to-aladdin-as-100m-facility-opens-buidl-to-stablecoin-swaps",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629150056_54Oidr3L-P0M.jpg",
+          "url": "https://www.theblock.co/post/405670/blackrock-ethena-partnership-usde"
         },
         {
           "clicks": 26,
@@ -477,16 +547,7 @@
           "url": "https://x.com/sunrisedefi/status/2054924695833829666"
         },
         {
-          "clicks": 29,
-          "date": "2026-06-25T08:13:40.374515+00:00",
-          "headline": "Three months after launch, Ethena’s dynamic cooldown system passed its first real stress test as Tier 1 liquidity covered all redemption demands",
-          "hot_score": 680.23971,
-          "lev_url": "https://leviathannews.xyz/262425/as-a-member-of-ethena-risk-committee-we-proposed-dynamic-cooldown-for-susde-approximately-three-months-ago-the-design-principle-is-based-on-linking-the-cooldown-tenor-to-the-real",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625070356_m2TaiQVzayx7.jpg",
-          "url": "https://x.com/blockworksadv/status/2069811371441582370"
-        },
-        {
-          "clicks": 25,
+          "clicks": 30,
           "date": "2026-06-09T14:17:02.831405+00:00",
           "headline": "Janus Henderson takes a position in ENA and partners with Ethena to explore regulated investment products tied to USDe and ENA",
           "hot_score": 678.158037,
@@ -495,7 +556,7 @@
           "url": "https://www.theblock.co/post/404109/janus-henderson-takes-ena-position-eyes-regulated-investment-products-tied-to-ethena?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 33,
+          "clicks": 41,
           "date": "2026-06-12T04:18:40.120153+00:00",
           "headline": "Coinbase launches Ethena-backed SteakhouseFi USDe yield vault on Morpho",
           "hot_score": 673.140972,
@@ -504,31 +565,31 @@
           "url": "https://x.com/ethena/status/2065147131070210236"
         },
         {
-          "clicks": 34,
-          "date": "2026-05-16T06:49:22.479458+00:00",
-          "headline": "Ethena's $400M USDG lending loop drives 230x Solana USDe growth as Bitwise curates live risk",
-          "hot_score": 525.0,
-          "lev_url": "https://leviathannews.xyz/243288/ethenas-400m-usdg-lending-loop-drives-230x-solana-usde-growth-as-bitwise-curates-live-risk",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260516015304_Z4zrlaiDPw==.png",
-          "url": "https://dune.com/blog/lending-institutional-curation-solana"
+          "clicks": 47,
+          "date": "2026-07-11T12:25:47.596054+00:00",
+          "headline": "OAK Research says Ethena's future hinges on institutional partnerships as shrinking USDe yields, stalled launches and delayed fee switch pressure ENA",
+          "hot_score": 654.995332,
+          "lev_url": "https://leviathannews.xyz/273291/ethena-spent-the-last-three-years-testing-almost-every-growth-lever-available-to-a-crypto-protocol-and-every-narrative-a-proprietary-chain-a-stablecoin-ticker-bid-on-the-industry",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260711122329_lhPmsW8DBKtM.jpg",
+          "url": "https://x.com/oak_res/status/2075606478438715556"
         },
         {
-          "clicks": 31,
-          "date": "2026-06-02T19:40:47.306184+00:00",
-          "headline": "Ethena taps Anchorage's Atlas to manage offchain collateral for institutional lending",
-          "hot_score": 442.9867,
-          "lev_url": "https://leviathannews.xyz/251855/ethena-taps-anchorages-atlas-to-manage-offchain-collateral-for-institutional-lending",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260602193159_Z4zrlaiDPw==.png",
-          "url": "https://www.anchorage.com/insights/anchorage-digital-and-ethena-labs-expand-institutional-lending-through-atlas-collateral-management"
+          "clicks": 30,
+          "date": "2026-06-25T08:13:40.374515+00:00",
+          "headline": "Three months after launch, Ethena’s dynamic cooldown system passed its first real stress test as Tier 1 liquidity covered all redemption demands",
+          "hot_score": 554.637603,
+          "lev_url": "https://leviathannews.xyz/262425/as-a-member-of-ethena-risk-committee-we-proposed-dynamic-cooldown-for-susde-approximately-three-months-ago-the-design-principle-is-based-on-linking-the-cooldown-tenor-to-the-real",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625070356_m2TaiQVzayx7.jpg",
+          "url": "https://x.com/blockworksadv/status/2069811371441582370"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:54:52.686844+00:00",
+      "as_of": "2026-07-29T22:58:50.036873+00:00",
       "editorial": [
         {
-          "count": 55,
+          "count": 58,
           "source": "x.com"
         },
         {
@@ -580,7 +641,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 27,
+          "count": 37,
           "source": "x.com"
         },
         {
@@ -592,7 +653,7 @@
           "source": "theblock.co"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "blog.redstone.finance"
         },
         {
@@ -618,9 +679,17 @@
         {
           "count": 1,
           "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "originprotocol.com"
+        },
+        {
+          "count": 1,
+          "source": "centrifuge.io"
         }
       ],
-      "universe_distinct": 10
+      "universe_distinct": 12
     }
   },
   "official_links": [
@@ -637,93 +706,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:30.072234+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.179,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0182,
-        "lift_log": 3.697,
-        "score": 0.1787,
-        "shared": 6
-      },
-      "rationale": "DAI/sUSDe integrations and yield competition make Sky/DAI a peer.",
-      "relation_type": "peer",
-      "slug": "dai",
-      "source": "cotag",
-      "tag_name": "DAI",
-      "title": "DAI: Complete Guide",
-      "weight": 18
-    },
-    {
-      "confidence": 0.165,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0198,
-        "lift_log": 3.377,
-        "score": 0.1648,
-        "shared": 4
-      },
-      "rationale": "Pendle markets are a major venue for USDe/sUSDe yield.",
-      "relation_type": "ecosystem",
-      "slug": "pendle",
-      "source": "cotag",
-      "tag_name": "Pendle",
-      "title": "Pendle, Explained",
-      "weight": 16
-    },
-    {
-      "confidence": 0.16,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.014,
-        "lift_log": 3.337,
-        "score": 0.1601,
-        "shared": 2
-      },
-      "rationale": "PYUSD is a peer stablecoin.",
-      "relation_type": "peer",
-      "slug": "pyusd",
-      "source": "cotag",
-      "tag_name": "PYUSD",
-      "title": "PYUSD: Complete Guide",
-      "weight": 16
-    },
-    {
-      "confidence": 0.166,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.016,
-        "lift_log": 3.434,
-        "score": 0.1655,
-        "shared": 6
-      },
-      "rationale": "Sky and Ethena are peer yield-bearing-stablecoin issuers.",
-      "relation_type": "peer",
-      "slug": "sky-protocol",
-      "source": "cotag",
-      "tag_name": "Sky Protocol",
-      "title": "Sky Protocol, Explained",
-      "weight": 17
-    },
-    {
-      "confidence": 0.534,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.3275,
-        "lift_log": 6.098,
-        "score": 0.5339,
-        "shared": 54
-      },
-      "rationale": "USDe is Ethena's synthetic-dollar stablecoin.",
-      "relation_type": "product",
-      "slug": "usde",
-      "source": "cotag",
-      "tag_name": "USDe",
-      "title": "USDe: Complete Guide",
-      "weight": 53
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "ethena",
   "tag_name": "Ethena",

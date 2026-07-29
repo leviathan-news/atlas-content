@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:16:33.101167+00:00",
-      "newsroom_total": 10,
+      "as_of": "2026-07-29T23:01:46.845392+00:00",
+      "newsroom_total": 11,
       "overall_share": 50,
       "provenance": "data",
       "series": [
@@ -59,62 +59,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 2
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 1
         }
       ],
-      "total_universe": 20,
-      "universe_total": 10
+      "total_universe": 22,
+      "universe_total": 11
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:16:32.792787+00:00",
+      "as_of": "2026-07-29T23:01:46.510051+00:00",
       "edges": [
         {
+          "confidence": 0.243,
+          "description": "Co-covered in 4 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "metals",
-          "phrase": "Gold is a specific metal, comparable to the broader metals category.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 4 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "gold",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.2,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "metals",
-          "phrase": "Perps are trading instruments that can be used for metals exposure.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-19",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "perps",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.131,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "metals",
-          "phrase": "Metals are a subset of real-world assets.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "real-world-assets",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "metals",
+          "observed_at": null,
           "phrase": "custody",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "custody",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "metals",
+          "observed_at": null,
           "phrase": "futures",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "futures",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -128,42 +169,62 @@
         },
         {
           "center": false,
+          "confidence": 0.243,
           "name": "Gold",
+          "observed_at": "2026-07-29",
           "slug": "gold",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.2,
           "name": "Perps",
+          "observed_at": "2026-05-19",
           "slug": "perps",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.131,
           "name": "Real World Assets",
+          "observed_at": null,
           "slug": "real-world-assets",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Custody",
+          "observed_at": null,
           "slug": "custody",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Futures",
+          "observed_at": null,
           "slug": "futures",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -232,17 +293,17 @@
       "source": "https://a16zcrypto.com/posts/article/tokenized-asset-rwa-market-data-charts/"
     },
     "reader_signal": {
-      "article_count": 10,
-      "as_of": "2026-07-01T12:16:33.734695+00:00",
+      "article_count": 11,
+      "as_of": "2026-07-29T23:01:47.154005+00:00",
       "most_clicked": {
-        "clicks": 87,
+        "clicks": 95,
         "date": "2025-08-11T13:07:41.234157+00:00",
         "headline": "NYSE-parent ICE taps Chainlink to bring forex, precious metals data onchain",
         "lev_url": "https://leviathannews.xyz/14253/nyse-parent-ice-taps-chainlink-to-bring-forex-precious-metals-data-onchain"
       },
       "provenance": "data",
       "top_decile_share": 19,
-      "total_clicks": 463
+      "total_clicks": 512
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:53:16.734247+00:00",
@@ -327,10 +388,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:16:33.659572+00:00",
+      "as_of": "2026-07-29T23:01:47.150085+00:00",
       "items": [
         {
-          "clicks": 45,
+          "clicks": 49,
           "date": "2026-04-16T22:52:26.435717+00:00",
           "headline": "Tezos backs Metals platform bringing gold, uranium, and rare earth assets onchain, enabling investors to access critical materials driving AI and industrial growth",
           "hot_score": 3902.315025,
@@ -339,7 +400,7 @@
           "url": "https://x.com/i/status/2044702445402829308"
         },
         {
-          "clicks": 33,
+          "clicks": 36,
           "date": "2026-04-16T03:58:54.584811+00:00",
           "headline": "Hyperliquid HIP-3 surpasses $2B in open interest as tokenized equities displace metals",
           "hot_score": 3466.972338,
@@ -348,7 +409,16 @@
           "url": "https://www.theblock.co/post/397276/hip-3-open-interest-2-billion-demand-24-7-tokenized-equity-exposure"
         },
         {
-          "clicks": 39,
+          "clicks": 15,
+          "date": "2026-07-29T11:09:35.875974+00:00",
+          "headline": "Binance launches USDT-settled gold and silver options as metals perps each top $7B in peak daily volume",
+          "hot_score": 2857.196437,
+          "lev_url": "https://leviathannews.xyz/283985/binance-launches-usdt-settled-gold-and-silver-options-as-metals-perps-each-top-7b-in-peak-daily-volume",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729103834_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/markets/2026/07/29/binance-offers-gold-and-silver-options-after-commodity-futures-pull-in-billions-in-daily-volume"
+        },
+        {
+          "clicks": 43,
           "date": "2026-06-10T13:14:55.457705+00:00",
           "headline": "Pyth launches 24/7 indices for US stocks, oil and metals, enabling round-the-clock trading across perps, prediction markets and tokenized assets",
           "hot_score": 688.38675,
@@ -357,7 +427,7 @@
           "url": "https://www.theblock.co/post/404238/pyth-launches-24-7-proprietary-indices-for-us-equities-oil-and-metals?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 37,
+          "clicks": 38,
           "date": "2026-05-26T17:49:54.370636+00:00",
           "headline": "Most tokenized RWAs just sit onchain: bonds and metals have huge tokenized caps but minimal DeFi use, while DeFi-native assets like reinsurance and private credit see far higher onchain utilization.",
           "hot_score": 450.257074,
@@ -366,7 +436,7 @@
           "url": "https://x.com/a16zcrypto/status/2059326250234327186"
         },
         {
-          "clicks": 32,
+          "clicks": 34,
           "date": "2026-02-01T00:16:11.819088+00:00",
           "headline": "Gold suffered its worst single-day crash in over 40 years, with ~$3T wiped from precious metals, while Bitcoin held above ~$82k—fueling a thesis that capital may rotate from crowded gold trades into BTC over the next few months as macro liquidity improves.",
           "hot_score": 36.906435,
@@ -375,7 +445,7 @@
           "url": "https://x.com/i/status/2017533732102504519"
         },
         {
-          "clicks": 25,
+          "clicks": 29,
           "date": "2026-01-14T00:14:58.262787+00:00",
           "headline": "A Tennessee man accused of stealing over $11M in XRP from Nancy Jones, widow of country music legend George Jones, has countersued, claiming entitlement to the crypto, cash, and precious metals after allegedly managing and growing the assets during their relationship.",
           "hot_score": 28.842572,
@@ -384,28 +454,19 @@
           "url": "https://decrypt.co/354492/alleged-11-million-xrp-thief-countersues-widow-george-jones"
         },
         {
-          "clicks": 87,
+          "clicks": 95,
           "date": "2025-08-11T13:07:41.234157+00:00",
           "headline": "NYSE-parent ICE taps Chainlink to bring forex, precious metals data onchain",
           "hot_score": 0.0,
           "lev_url": "https://leviathannews.xyz/14253/nyse-parent-ice-taps-chainlink-to-bring-forex-precious-metals-data-onchain",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250811125134_EM6qBE6F8EM=.jpg",
           "url": "https://cointelegraph.com/news/chainlink-ice-forex-precious-metals-data-onchain"
-        },
-        {
-          "clicks": 69,
-          "date": "2025-05-06T17:31:31.004962+00:00",
-          "headline": "New Hampshire takes the lead as Governor Kelly Ayotte signs groundbreaking law allowing state investments in crypto and precious metals.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/11065/new-hampshire-takes-the-lead-as-governor-kelly-ayotte-signs-groundbreaking-law-allowing-state-investments-in-crypto-and-precious-metals",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250506172343_OfaayYROBe4=.jpg",
-          "url": "https://x.com/KellyAyotte/status/1919783147463426283"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:16:33.575412+00:00",
+      "as_of": "2026-07-29T23:01:47.140872+00:00",
       "editorial": [
         {
           "count": 5,
@@ -426,13 +487,17 @@
         {
           "count": 1,
           "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
         }
       ],
-      "editorial_distinct": 5,
+      "editorial_distinct": 6,
       "provenance": "data",
       "universe": [
         {
-          "count": 5,
+          "count": 6,
           "source": "x.com"
         },
         {
@@ -467,42 +532,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:43.044054+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.243,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0074,
-        "lift_log": 3.036,
-        "score": 0.2435,
-        "shared": 3
-      },
-      "rationale": "Gold is a specific metal, comparable to the broader metals category.",
-      "relation_type": "peer",
-      "slug": "gold",
-      "source": "cotag",
-      "tag_name": "Gold",
-      "title": "Gold, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.2,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0204,
-        "lift_log": 4.147,
-        "score": 0.2004,
-        "shared": 3
-      },
-      "rationale": "Perps are trading instruments that can be used for metals exposure.",
-      "relation_type": "infrastructure",
-      "slug": "perps",
-      "source": "cotag",
-      "tag_name": "Perps",
-      "title": "Perps, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "metals",
   "tag_name": "Metals",

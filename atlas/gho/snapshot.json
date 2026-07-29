@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:11:10.591691+00:00",
-      "newsroom_total": 51,
-      "overall_share": 46,
+      "as_of": "2026-07-29T22:59:32.211247+00:00",
+      "newsroom_total": 55,
+      "overall_share": 34,
       "provenance": "data",
       "series": [
         {
@@ -173,62 +173,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 21
+        },
+        {
+          "ed_share": 8,
+          "month": "2026-07",
+          "newsroom": 4,
+          "universe": 46
         }
       ],
-      "total_universe": 110,
-      "universe_total": 59
+      "total_universe": 160,
+      "universe_total": 105
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:11:10.233338+00:00",
+      "as_of": "2026-07-29T22:59:32.050105+00:00",
       "edges": [
         {
+          "confidence": 0.325,
+          "description": "Co-covered in 59 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gho",
-          "phrase": "GHO is a stablecoin minted on the Aave protocol.",
-          "relation_type": "protocol",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-16",
+          "phrase": "Co-covered in 59 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "aave",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 33
         },
         {
+          "confidence": 0.275,
+          "description": "Co-covered in 42 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gho",
-          "phrase": "AAVE token governs GHO through Aave DAO.",
-          "relation_type": "token",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-16",
+          "phrase": "Co-covered in 42 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "aave-token",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.26,
+          "description": "Co-covered in 5 approved stories; most recently December 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gho",
-          "phrase": "LlamaRisk provides risk assessments for GHO.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-12-10",
+          "phrase": "Co-covered in 5 approved stories; most recently December 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "llamarisk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.169,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gho",
-          "phrase": "GHO integrates with various DeFi platforms.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "integration",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.143,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gho",
-          "phrase": "Aave DAO governs GHO's parameters and policies.",
-          "relation_type": "governance",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "dao",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         }
       ],
@@ -242,42 +283,62 @@
         },
         {
           "center": false,
+          "confidence": 0.325,
           "name": "Aave",
+          "observed_at": "2026-07-16",
           "slug": "aave",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 33
         },
         {
           "center": false,
+          "confidence": 0.275,
           "name": "AAVE",
+          "observed_at": "2026-07-16",
           "slug": "aave-token",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.26,
           "name": "LlamaRisk",
+          "observed_at": "2025-12-10",
           "slug": "llamarisk",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.169,
           "name": "Integration",
+          "observed_at": null,
           "slug": "integration",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.143,
           "name": "DAO",
+          "observed_at": null,
           "slug": "dao",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         }
       ],
@@ -346,17 +407,17 @@
       "source": "https://aave.com/help/gho-stablecoin/gho"
     },
     "reader_signal": {
-      "article_count": 51,
-      "as_of": "2026-07-01T12:11:11.096342+00:00",
+      "article_count": 55,
+      "as_of": "2026-07-29T22:59:32.403295+00:00",
       "most_clicked": {
-        "clicks": 377,
+        "clicks": 380,
         "date": "2025-03-04T12:33:11.854173+00:00",
         "headline": "Aave announces substantial tokenomics revamp, seeking DAO approval on measures including revenue redistribution, an \"Umbrella\" safety system and a non-transferable Anti-GHO token able to offset debt.",
         "lev_url": "https://leviathannews.xyz/9652/aave-announces-substantial-tokenomics-revamp-seeking-dao-approval-on-measures-including-revenue-redistribution-an-umbrella-safety-system-and-a-non-transferable-anti-gho-token-able-"
       },
       "provenance": "data",
-      "top_decile_share": 26,
-      "total_clicks": 4970
+      "top_decile_share": 25,
+      "total_clicks": 5178
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:33:11.674364+00:00",
@@ -435,7 +496,7 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:11:11.017072+00:00",
+      "as_of": "2026-07-29T22:59:32.399167+00:00",
       "items": [
         {
           "clicks": 68,
@@ -447,16 +508,52 @@
           "url": "https://x.com/i/web/status/2058296570022658300"
         },
         {
-          "clicks": 33,
+          "clicks": 35,
+          "date": "2026-07-14T00:11:31.127273+00:00",
+          "headline": "Aave makes Chainlink CCIP its default cross-chain layer for app transfers, GHO, and governance",
+          "hot_score": 627.582445,
+          "lev_url": "https://leviathannews.xyz/274316/aave-makes-chainlink-ccip-its-default-cross-chain-layer-for-app-transfers-gho-and-governance",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260713193759_Z4zrlaiDPw==.png",
+          "url": "https://aave.com/blog/chainlink-ccip-secures-aave"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-07-16T19:31:52.673679+00:00",
+          "headline": "Aave launches daily Telegram channel for GHO and governance updates",
+          "hot_score": 606.779858,
+          "lev_url": "https://leviathannews.xyz/276962/introducing-aave-daily-a-new-telegram-channel-where-well-share-the-latest-aave-gho-and-governance-news-each-day-join-the-channel-below-20260716",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260716180229_ITywdWp7f5u3.jpg",
+          "url": "https://x.com/aave/status/2077783273263030339"
+        },
+        {
+          "clicks": 50,
+          "date": "2026-07-04T16:16:38.795230+00:00",
+          "headline": "Aave V4 surpasses $250M in deposits, marking a major liquidity milestone as the protocol gears up for its next phase of DeFi lending expansion",
+          "hot_score": 601.904202,
+          "lev_url": "https://leviathannews.xyz/268801/aave-v4-crossed-250-million-deposits",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260704161150_iBDY6Bck3cbi.jpg",
+          "url": "https://x.com/aave/status/2073407517166629149"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-07-04T16:21:21.436208+00:00",
+          "headline": "Aave teases upcoming consumer app launch, aiming to bring DeFi savings and yield products to mainstream users through a simplified experience",
+          "hot_score": 599.114479,
+          "lev_url": "https://leviathannews.xyz/268803/your-new-favorite-savings-app-is-almost-here-join-the-waitlist-and-invite-friends-to-skip-the-line",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260704161938_7qJj4YrNyjDp.jpg",
+          "url": "https://x.com/aave/status/2073038835278118941"
+        },
+        {
+          "clicks": 37,
           "date": "2026-06-24T16:09:29.236580+00:00",
           "headline": "Standard Chartered sees Aave outperforming Bitcoin and Ethereum through 2030, citing V4 upgrades, GHO growth, token buybacks and a 37x expansion in DeFi assets",
-          "hot_score": 588.764945,
+          "hot_score": 566.088147,
           "lev_url": "https://leviathannews.xyz/261991/no-headline-20260624-1",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260624160807_Jkk8g4WRUVfN.jpg",
           "url": "https://www.theblock.co/post/405996/standard-chartered-generational-wealth-potential-aave-recovery-predicts-50x-upside-2030?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 65,
+          "clicks": 70,
           "date": "2026-05-31T16:44:01.545160+00:00",
           "headline": "⚠️ Fluid rewards exploit: attacker abused “empty-proof” Merkle claims after a key compromise to drain 125k FLUID and 51.9k GHO, swap and launder via Tornado Cash, while Fluid quietly paused claims without disclosing the loss.",
           "hot_score": 506.75023,
@@ -465,58 +562,22 @@
           "url": "https://x.com/yieldsandmore/status/2061100297502540145"
         },
         {
-          "clicks": 119,
+          "clicks": 124,
           "date": "2026-01-13T15:24:21.714210+00:00",
           "headline": "Yield has suffered a major financial hit totaling $3.73 million. The loss occurred during a Vault operation which involves a token swap from stkGHO to USDC. Due to extreme slippage, 3.84M GHO was exchanged for a mere 112K USDC.",
           "hot_score": 184.611468,
           "lev_url": "https://leviathannews.xyz/23588/yield-has-suffered-a-major-financial-hit-totaling-373-million-the-loss-occurred-during-a-vault-operation-involving-a-swap-from-stkgho-to-usdc-due-to-extreme-slippage-384m-gho-was-e",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260113150110_X40BHkmcNrk=.jpg",
           "url": "https://x.com/PeckShieldAlert/status/2011069662377980147"
-        },
-        {
-          "clicks": 81,
-          "date": "2025-12-07T12:59:26.294512+00:00",
-          "headline": "Deep dive by intern_cc auditing the financial health of Aave",
-          "hot_score": 110.431277,
-          "lev_url": "https://leviathannews.xyz/21789/deep-dive-by-intern_cc-auditing-the-financial-health-of-aave",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251206194608_L7NWyZ5gfE0=.jpg",
-          "url": "https://x.com/intern_cc/status/1997339191819301298"
-        },
-        {
-          "clicks": 73,
-          "date": "2025-12-10T16:49:02.881407+00:00",
-          "headline": "LlamaRisk Insights: GHO’s backing and RWA integration, a portfolio analysis.",
-          "hot_score": 95.075239,
-          "lev_url": "https://leviathannews.xyz/22105/llamarisk-insights-ghos-backing-and-rwa-integration-a-portfolio-analysis",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251210155513_E_cS4x2WA48=.jpg",
-          "url": "https://governance.aave.com/t/llamarisk-insights-gho-s-backing-and-rwa-integration-a-portfolio-analysis/23521"
-        },
-        {
-          "clicks": 70,
-          "date": "2026-03-13T16:41:33.760568+00:00",
-          "headline": "Aave's GHO joins Curve's crvUSD PegKeeper basket with $3M debt ceiling after LlamaRisk review clears peg stability risks",
-          "hot_score": 81.726415,
-          "lev_url": "https://leviathannews.xyz/209486/aave-gho-pegkeeper-is-now-live-on-curvefinance-following-our-collaboration-with-token_logic-aaves-gho-has-been-integrated-into-the-crvusd-pegkeeper-framework-with-an-initi",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260313163348_u9GMcuCa49FP.jpg",
-          "url": "https://x.com/LlamaRisk/status/2032443994072916191"
-        },
-        {
-          "clicks": 377,
-          "date": "2025-03-04T12:33:11.854173+00:00",
-          "headline": "Aave announces substantial tokenomics revamp, seeking DAO approval on measures including revenue redistribution, an \"Umbrella\" safety system and a non-transferable Anti-GHO token able to offset debt.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/9652/aave-announces-substantial-tokenomics-revamp-seeking-dao-approval-on-measures-including-revenue-redistribution-an-umbrella-safety-system-and-a-non-transferable-anti-gho-token-able-",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250304122721_UrSBcXOpOw==.jpg",
-          "url": "https://governance.aave.com/t/arfc-aavenomics-implementation-part-one/21248"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:11:10.937535+00:00",
+      "as_of": "2026-07-29T22:59:32.390142+00:00",
       "editorial": [
         {
-          "count": 28,
+          "count": 31,
           "source": "x.com"
         },
         {
@@ -564,15 +625,15 @@
           "source": "leviathannews.substack.com"
         }
       ],
-      "editorial_distinct": 14,
+      "editorial_distinct": 15,
       "provenance": "data",
       "universe": [
         {
-          "count": 47,
+          "count": 88,
           "source": "x.com"
         },
         {
-          "count": 5,
+          "count": 7,
           "source": "truthsocial.com"
         },
         {
@@ -580,7 +641,7 @@
           "source": "bloomberg.com"
         },
         {
-          "count": 1,
+          "count": 2,
           "source": "cointelegraph.com"
         },
         {
@@ -598,9 +659,17 @@
         {
           "count": 1,
           "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
         }
       ],
-      "universe_distinct": 8
+      "universe_distinct": 10
     }
   },
   "official_links": [],
@@ -611,59 +680,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:33.843382+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.325,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0339,
-        "lift_log": 4.498,
-        "score": 0.3252,
-        "shared": 46
-      },
-      "rationale": "GHO is a stablecoin minted on the Aave protocol.",
-      "relation_type": "protocol",
-      "slug": "aave",
-      "source": "cotag",
-      "tag_name": "Aave",
-      "title": "Aave, Explained",
-      "weight": 33
-    },
-    {
-      "confidence": 0.275,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0684,
-        "lift_log": 5.257,
-        "score": 0.2745,
-        "shared": 31
-      },
-      "rationale": "AAVE token governs GHO through Aave DAO.",
-      "relation_type": "token",
-      "slug": "aave-token",
-      "source": "cotag",
-      "tag_name": "AAVE",
-      "title": "AAVE: Complete Guide",
-      "weight": 27
-    },
-    {
-      "confidence": 0.26,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0454,
-        "lift_log": 5.196,
-        "score": 0.2598,
-        "shared": 5
-      },
-      "rationale": "LlamaRisk provides risk assessments for GHO.",
-      "relation_type": "risk",
-      "slug": "llamarisk",
-      "source": "cotag",
-      "tag_name": "LlamaRisk",
-      "title": "LlamaRisk, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "gho",
   "tag_name": "GHO",

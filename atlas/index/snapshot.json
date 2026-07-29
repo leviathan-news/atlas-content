@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:55:46.297402+00:00",
-      "newsroom_total": 58,
-      "overall_share": 31,
+      "as_of": "2026-07-29T22:59:49.834844+00:00",
+      "newsroom_total": 64,
+      "overall_share": 28,
       "provenance": "data",
       "series": [
         {
@@ -157,72 +157,107 @@
           "universe": 26
         },
         {
-          "ed_share": 17,
+          "ed_share": 16,
           "month": "2026-06",
           "newsroom": 6,
-          "universe": 30
+          "universe": 31
         },
         {
-          "ed_share": 0,
+          "ed_share": 14,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 1
+          "newsroom": 6,
+          "universe": 38
         }
       ],
-      "total_universe": 187,
-      "universe_total": 129
+      "total_universe": 231,
+      "universe_total": 167
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:55:41.523929+00:00",
+      "as_of": "2026-07-29T22:59:49.613961+00:00",
       "edges": [
         {
+          "confidence": 0.275,
+          "description": "Co-covered in 8 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "index",
-          "phrase": "Options are derivative products similar to index-based instruments.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-16",
+          "phrase": "Co-covered in 8 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "options",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 28
         },
         {
+          "confidence": 0.249,
+          "description": "Co-covered in 11 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "index",
-          "phrase": "Futures are derivative products comparable to index-based instruments.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-12",
+          "phrase": "Co-covered in 11 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "futures",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.222,
+          "description": "Co-covered in 24 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "index",
-          "phrase": "S&P is a stock market index, comparable to other indices.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-23",
+          "phrase": "Co-covered in 24 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "s-andp",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.194,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "index",
-          "phrase": "CME Group provides trading infrastructure for index futures.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cme-group",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.192,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "index",
-          "phrase": "ADA is a cryptocurrency, not directly related to index.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ada",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -236,42 +271,62 @@
         },
         {
           "center": false,
+          "confidence": 0.275,
           "name": "Options",
+          "observed_at": "2026-06-16",
           "slug": "options",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 28
         },
         {
           "center": false,
+          "confidence": 0.249,
           "name": "Futures",
+          "observed_at": "2026-06-12",
           "slug": "futures",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.222,
           "name": "S&P",
+          "observed_at": "2026-07-23",
           "slug": "s-andp",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.194,
           "name": "CME Group",
+          "observed_at": null,
           "slug": "cme-group",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.192,
           "name": "ADA",
+          "observed_at": null,
           "slug": "ada",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -340,17 +395,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 58,
-      "as_of": "2026-07-01T11:55:51.932979+00:00",
+      "article_count": 64,
+      "as_of": "2026-07-29T22:59:50.199781+00:00",
       "most_clicked": {
-        "clicks": 456,
+        "clicks": 472,
         "date": "2023-08-22T13:39:59.709409+00:00",
         "headline": "Aevo introduces an index perpetual contract based on Friend.tech’s total market capitalization",
         "lev_url": "https://leviathannews.xyz/2302/aevo-introduces-an-index-perpetual-contract-based-on-friendtechs-total-market-capitalization"
       },
       "provenance": "data",
-      "top_decile_share": 32,
-      "total_clicks": 4492
+      "top_decile_share": 34,
+      "total_clicks": 4862
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:18:15.256641+00:00",
@@ -435,10 +490,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:55:51.741568+00:00",
+      "as_of": "2026-07-29T22:59:50.194139+00:00",
       "items": [
         {
-          "clicks": 57,
+          "clicks": 60,
           "date": "2026-04-09T23:44:04.957277+00:00",
           "headline": "Coinbase and MarketVector launch volatility-weighted Bitcoin-gold index, backtested at 31% CAGR since 2016",
           "hot_score": 19433.826449,
@@ -447,16 +502,7 @@
           "url": "https://www.marketvector.com/insights/index-licensing/marketvector-indexes-and-coinbase-asset-management-launch-the-coinbase-store-of-value-index-coinsov"
         },
         {
-          "clicks": 45,
-          "date": "2026-06-27T06:02:06.396155+00:00",
-          "headline": "TradeXYZ's dominance in equity, commodity and index perps isn't an existential threat to Hyperliquid, it's a growth engine driving users, fees and HYPE buybacks",
-          "hot_score": 1100.566434,
-          "lev_url": "https://leviathannews.xyz/263872/tradexyzs-dominance-in-equity-commodity-and-index-perps-isnt-an-existential-threat-to-hyperliquid-its-a-growth-engine-driving-users-fees-and-hype-buybacks",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260627030432_YIU8UUsZ0acP.jpg",
-          "url": "https://x.com/kidponga/status/2070574856668590437"
-        },
-        {
-          "clicks": 77,
+          "clicks": 80,
           "date": "2026-06-01T16:56:31.712759+00:00",
           "headline": "Vitalik Buterin proposes options-based DeFi without debt or liquidations. Users deposit 1 ETH to mint P and N tokens, redeemable for the full ETH at maturity based on a slow oracle's index check.",
           "hot_score": 956.067698,
@@ -465,16 +511,7 @@
           "url": "https://x.com/vitalikbuterin/status/2061469961416032653"
         },
         {
-          "clicks": 23,
-          "date": "2026-06-26T07:14:31.977166+00:00",
-          "headline": "Paystack’s new AI agent Index handles Nigerian payments but raises fresh questions on trust, UX and regulatory risk",
-          "hot_score": 825.53397,
-          "lev_url": "https://leviathannews.xyz/263207/paystack-introduces-paystack-index-an-ai-agent-that-enables-payment-for-things-in-nigeria-with-more-african-markets-coming-soon",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626070754_mjwjtjkQUp94.jpg",
-          "url": "https://x.com/shollsman/status/2070068789392121893"
-        },
-        {
-          "clicks": 110,
+          "clicks": 113,
           "date": "2026-03-03T08:24:20.383035+00:00",
           "headline": "Jane Street’s $1B trading-strategy lawsuit backfires, triggering multi-continent probes into alleged index manipulation, ETF abuses, and insider crypto trades that freeze over $500M in assets",
           "hot_score": 686.03756,
@@ -483,7 +520,7 @@
           "url": "https://x.com/1914ad/status/2028587135033327763"
         },
         {
-          "clicks": 31,
+          "clicks": 32,
           "date": "2026-05-14T16:19:25.054987+00:00",
           "headline": "CME targets June 8 for its first market-cap weighted Nasdaq CME crypto index futures across seven assets",
           "hot_score": 654.4,
@@ -492,31 +529,49 @@
           "url": "https://www.cmegroup.com/media-room/press-releases/2026/5/14/cme_group_to_launchnasdaqcmecryptoindexfutures.html"
         },
         {
-          "clicks": 113,
-          "date": "2026-03-18T13:36:24.852004+00:00",
-          "headline": "S&P Dow Jones licenses the S&P 500 to crypto exchange Hyperliquid for the first 24/7 perpetual futures on the index, highlighting Wall Street’s push to tokenize traditional assets on blockchain",
-          "hot_score": 456.491017,
-          "lev_url": "https://leviathannews.xyz/211590/sp-dow-jones-licenses-the-sp-500-to-crypto-exchange-hyperliquid-for-the-first-247-perpetual-futures-on-the-index-highlighting-wall-streets-push-to-tokenize-traditional-assets-on-bl",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260318133453_2SuLSpZmfB-U.jpg",
-          "url": "https://www.wsj.com/finance/s-p-500-owner-jumps-into-24-7-futures-for-index-on-crypto-exchange-6c65696b"
+          "clicks": 45,
+          "date": "2026-07-13T08:05:02.499722+00:00",
+          "headline": "Index says Robinhood Chain is the first Layer 2 purpose-built for tokenized real-world assets, combining Robinhood's 28M users with institutional RWA infrastructure",
+          "hot_score": 654.139838,
+          "lev_url": "https://leviathannews.xyz/273798/the-tokenization-of-real-world-assets-is-no-longer-a-thesis-waiting-for-a-home-it-has-one-and-if-you-are-building-in-this-space-you-should-be-building-here-robinhood-did-not-b",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260713073917_hIwODdQ509Tq.png",
+          "url": "https://x.com/theindexfi/status/2076444443360551285"
         },
         {
-          "clicks": 35,
-          "date": "2026-06-22T13:05:05.701014+00:00",
-          "headline": "Index Ventures leads Fomo's $75M Series B as crypto trading app hits $550M valuation",
-          "hot_score": 455.23174,
-          "lev_url": "https://leviathannews.xyz/260223/index-ventures-leads-fomos-75m-series-b-as-crypto-trading-app-hits-550m-valuation",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622130212_Z4zrlaiDPw==.png",
-          "url": "https://fortune.com/2026/06/22/fomo-series-b-fundraise-index-ventures-union-square-ventures/"
+          "clicks": 43,
+          "date": "2026-07-15T11:27:26.687159+00:00",
+          "headline": "Index launches rwa.wtf, enabling traders to access tokenized real-world assets with up to 50x leverage while directing trading fees toward treasury growth and liquidity",
+          "hot_score": 630.013666,
+          "lev_url": "https://leviathannews.xyz/275532/introducing-httprwawtf-trade-real-world-assets-with-up-to-50x-leverage-every-trade-feeds-the-flywheel-75-of-fees-buy-stocks-for-the-treasury-distributed-to-index-h",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260715081059_DZjrB1DBcXGg.jpg",
+          "url": "https://x.com/theindexfi/status/2077261198114881977"
+        },
+        {
+          "clicks": 58,
+          "date": "2026-06-27T06:02:06.396155+00:00",
+          "headline": "TradeXYZ's dominance in equity, commodity and index perps isn't an existential threat to Hyperliquid, it's a growth engine driving users, fees and HYPE buybacks",
+          "hot_score": 572.051151,
+          "lev_url": "https://leviathannews.xyz/263872/tradexyzs-dominance-in-equity-commodity-and-index-perps-isnt-an-existential-threat-to-hyperliquid-its-a-growth-engine-driving-users-fees-and-hype-buybacks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260627030432_YIU8UUsZ0acP.jpg",
+          "url": "https://x.com/kidponga/status/2070574856668590437"
+        },
+        {
+          "clicks": 26,
+          "date": "2026-06-26T07:14:31.977166+00:00",
+          "headline": "Paystack’s new AI agent Index handles Nigerian payments but raises fresh questions on trust, UX and regulatory risk",
+          "hot_score": 535.839953,
+          "lev_url": "https://leviathannews.xyz/263207/paystack-introduces-paystack-index-an-ai-agent-that-enables-payment-for-things-in-nigeria-with-more-african-markets-coming-soon",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626070754_mjwjtjkQUp94.jpg",
+          "url": "https://x.com/shollsman/status/2070068789392121893"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:55:51.617047+00:00",
+      "as_of": "2026-07-29T22:59:50.181076+00:00",
       "editorial": [
         {
-          "count": 24,
+          "count": 29,
           "source": "x.com"
         },
         {
@@ -564,16 +619,20 @@
           "source": "group.mantle.xyz"
         }
       ],
-      "editorial_distinct": 24,
+      "editorial_distinct": 25,
       "provenance": "data",
       "universe": [
         {
-          "count": 86,
+          "count": 110,
           "source": "x.com"
         },
         {
-          "count": 7,
+          "count": 9,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 8,
+          "source": "financefeeds.com"
         },
         {
           "count": 6,
@@ -581,15 +640,19 @@
         },
         {
           "count": 5,
-          "source": "financefeeds.com"
-        },
-        {
-          "count": 4,
           "source": "sec.gov"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "spglobal.com"
+        },
+        {
+          "count": 3,
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 2,
@@ -605,18 +668,10 @@
         },
         {
           "count": 2,
-          "source": "spglobal.com"
-        },
-        {
-          "count": 2,
-          "source": "crowdfundinsider.com"
-        },
-        {
-          "count": 1,
-          "source": "chainwire.org"
+          "source": "pyth.network"
         }
       ],
-      "universe_distinct": 20
+      "universe_distinct": 23
     }
   },
   "official_links": [],
@@ -627,59 +682,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:35.994837+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.249,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0283,
-        "lift_log": 2.935,
-        "score": 0.2495,
-        "shared": 11
-      },
-      "rationale": "Futures are derivative products comparable to index-based instruments.",
-      "relation_type": "peer",
-      "slug": "futures",
-      "source": "cotag",
-      "tag_name": "Futures",
-      "title": "Futures, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.275,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0357,
-        "lift_log": 3.429,
-        "score": 0.2753,
-        "shared": 8
-      },
-      "rationale": "Options are derivative products similar to index-based instruments.",
-      "relation_type": "peer",
-      "slug": "options",
-      "source": "cotag",
-      "tag_name": "Options",
-      "title": "Options, Explained",
-      "weight": 28
-    },
-    {
-      "confidence": 0.222,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.068,
-        "lift_log": 4.097,
-        "score": 0.2217,
-        "shared": 15
-      },
-      "rationale": "S&P is a stock market index, comparable to other indices.",
-      "relation_type": "peer",
-      "slug": "s-andp",
-      "source": "cotag",
-      "tag_name": "S&P",
-      "title": "S&P, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "index",
   "tag_name": "Index",

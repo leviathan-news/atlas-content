@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:56:43.899455+00:00",
-      "newsroom_total": 48,
-      "overall_share": 39,
+      "as_of": "2026-07-29T22:56:47.939966+00:00",
+      "newsroom_total": 50,
+      "overall_share": 32,
       "provenance": "data",
       "series": [
         {
@@ -143,62 +143,103 @@
           "month": "2026-06",
           "newsroom": 4,
           "universe": 11
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 29
         }
       ],
-      "total_universe": 123,
-      "universe_total": 75
+      "total_universe": 154,
+      "universe_total": 104
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:56:43.479870+00:00",
+      "as_of": "2026-07-29T22:56:47.698901+00:00",
       "edges": [
         {
+          "confidence": 0.215,
+          "description": "Co-covered in 3 approved stories; most recently October 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bitwise",
-          "phrase": "Both are asset managers offering crypto investment products.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-10-29",
+          "phrase": "Co-covered in 3 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fidelity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.189,
+          "description": "Co-covered in 14 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bitwise",
-          "phrase": "HYPE is a token; unclear direct relation to Bitwise.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 14 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "hype",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.158,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bitwise",
-          "phrase": "Bitwise is an investment management firm.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "investment",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.154,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bitwise",
-          "phrase": "Bitwise offers an AVAX fund or index product.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "avax",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.152,
+          "description": "Co-covered in 35 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bitwise",
-          "phrase": "Bitwise issues crypto ETFs like BITW.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 35 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "etf",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -212,42 +253,62 @@
         },
         {
           "center": false,
+          "confidence": 0.215,
           "name": "Fidelity",
+          "observed_at": "2025-10-29",
           "slug": "fidelity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.189,
           "name": "HYPE",
+          "observed_at": null,
           "slug": "hype",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.158,
           "name": "Investment",
+          "observed_at": null,
           "slug": "investment",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.154,
           "name": "AVAX",
+          "observed_at": null,
           "slug": "avax",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.152,
           "name": "ETF",
+          "observed_at": null,
           "slug": "etf",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -316,17 +377,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 64,
-      "as_of": "2026-07-01T11:56:44.527340+00:00",
+      "article_count": 66,
+      "as_of": "2026-07-29T22:56:48.188919+00:00",
       "most_clicked": {
-        "clicks": 294,
+        "clicks": 299,
         "date": "2025-01-14T21:53:13.612374+00:00",
         "headline": "SEC delays Bitwise 10 crypto index ETF (BTC, ETH, SOL, XRP, ADA, AVAX, LINK, BCH, DOT, UNI)",
         "lev_url": "https://leviathannews.xyz/8669/sec-delays-bitwise-10-crypto-index-etf-btc-eth-sol-xrp-ada-avax-link-bch-dot-uni"
       },
       "provenance": "data",
       "top_decile_share": 33,
-      "total_clicks": 3589
+      "total_clicks": 3768
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:19:14.986223+00:00",
@@ -411,10 +472,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:56:44.447793+00:00",
+      "as_of": "2026-07-29T22:56:48.181814+00:00",
       "items": [
         {
-          "clicks": 41,
+          "clicks": 43,
           "date": "2026-04-15T15:08:05.625628+00:00",
           "headline": "Avalanche gains Wall Street access as Bitwise Asset Management lists AVAX ETF on NYSE, unlocking institutional exposure and staking yields",
           "hot_score": 5335.516299,
@@ -432,7 +493,7 @@
           "url": "https://x.com/Matt_Hougan/status/2044095946334843168"
         },
         {
-          "clicks": 36,
+          "clicks": 41,
           "date": "2026-04-11T16:07:28.694083+00:00",
           "headline": "Bitwise locks in 0.67% fee and BHYP ticker for Hyperliquid ETF as Grayscale, VanEck chase HYPE exposure",
           "hot_score": 1495.967722,
@@ -441,7 +502,7 @@
           "url": "https://www.coindesk.com/markets/2026/04/11/bitwise-files-updated-s-1-for-hyperliquid-etf-as-hype-fund-race-heats-up"
         },
         {
-          "clicks": 67,
+          "clicks": 68,
           "date": "2026-05-13T14:24:36.444353+00:00",
           "headline": "Ethena launches a dedicated lending market on Jupiter Lend, with Bitwise overseeing risk management and institutional participation on Solana",
           "hot_score": 1185.907835,
@@ -450,7 +511,7 @@
           "url": "https://x.com/i/web/status/2054555831501467884"
         },
         {
-          "clicks": 43,
+          "clicks": 44,
           "date": "2026-06-02T14:09:01.078117+00:00",
           "headline": "Aave welcomes Bitwise's rebranded Crypto Carry Fund to Horizon, with more than $120M deposited into the tokenized fund leveraging market-neutral crypto yield opportunities",
           "hot_score": 871.49568,
@@ -459,7 +520,16 @@
           "url": "https://x.com/aave/status/2061784136084295928"
         },
         {
-          "clicks": 35,
+          "clicks": 44,
+          "date": "2026-07-23T07:15:08.631837+00:00",
+          "headline": "Bitwise CIO Matt Hougan says the next crypto bull market will be driven by TradFi-onchain convergence, naming Hyperliquid and Robinhood as early leaders",
+          "hot_score": 759.759147,
+          "lev_url": "https://leviathannews.xyz/280505/crypto-is-finally-showing-signs-of-a-bottom-since-july-1-bitcoin-is-up-9-even-as-the-nasdaq-100-is-down-6-etf-flows-are-turning-positive-and-sentiment-is-improving-while-it",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260723064654_pxSMLTN_5gB-.jpg",
+          "url": "https://x.com/matt_hougan/status/2079989491893211164"
+        },
+        {
+          "clicks": 36,
           "date": "2026-06-03T16:09:08.808494+00:00",
           "headline": "Bitwise model values Bitcoin at $224K if adopted as insurance against G20 sovereign defaults, framing BTC as a hedge against mounting government debt risks",
           "hot_score": 703.844117,
@@ -468,35 +538,26 @@
           "url": "https://www.coindesk.com/markets/2026/06/03/bitwise-model-puts-bitcoin-fair-value-at-usd224-000-as-sovereign-default-hedge"
         },
         {
-          "clicks": 35,
+          "clicks": 39,
           "date": "2026-06-16T10:44:25.924883+00:00",
           "headline": "Bitwise CIO Matt Hougan says investors are asking the wrong question about bitcoin's bottom, arguing the real focus should be whether the next cycle top still lies ahead",
           "hot_score": 703.177536,
           "lev_url": "https://leviathannews.xyz/257649/no-headline-20260616-1",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260616104136_705kL9csJAs7.jpg",
           "url": "https://www.theblock.co/post/404867/thats-the-wrong-question-bitwise-cio-reframes-bitcoin-bottom-debate-points-to-long-term-drivers?utm_source=rss&utm_medium=rss"
-        },
-        {
-          "clicks": 40,
-          "date": "2026-06-10T20:51:29.775863+00:00",
-          "headline": "Bitwise CIO Matt Hougan says stablecoins and tokenization now generate more advisor interest than Bitcoin, with Ethereum, Solana, Chainlink and Avalanche among top beneficiaries",
-          "hot_score": 688.816345,
-          "lev_url": "https://leviathannews.xyz/255431/bitwise-cio-matt-hougan-says-stablecoins-and-tokenization-now-generate-more-advisor-interest-than-bitcoin-with-ethereum-solana-chainlink-and-avalanche-among-top-beneficiaries",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260610204843_2Rg6Dh_Va2Qj.jpg",
-          "url": "https://www.theblock.co/post/404341/bitcoin-stablecoins-tokenization-bitwise-cio-financial-advisors?utm_source=rss&utm_medium=rss"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:56:44.365559+00:00",
+      "as_of": "2026-07-29T22:56:48.171089+00:00",
       "editorial": [
         {
-          "count": 19,
+          "count": 20,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 10,
           "source": "theblock.co"
         },
         {
@@ -544,15 +605,15 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 25,
+          "count": 42,
           "source": "x.com"
         },
         {
-          "count": 17,
+          "count": 20,
           "source": "cointelegraph.com"
         },
         {
-          "count": 12,
+          "count": 17,
           "source": "theblock.co"
         },
         {
@@ -560,16 +621,16 @@
           "source": "dlnews.com"
         },
         {
-          "count": 3,
-          "source": "bloomberg.com"
+          "count": 5,
+          "source": "crowdfundinsider.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "decrypt.co"
         },
         {
-          "count": 2,
-          "source": "crowdfundinsider.com"
+          "count": 3,
+          "source": "bloomberg.com"
         },
         {
           "count": 2,
@@ -599,25 +660,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:19.904320+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.215,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0076,
-        "lift_log": 2.424,
-        "score": 0.2151,
-        "shared": 3
-      },
-      "rationale": "Both are asset managers offering crypto investment products.",
-      "relation_type": "peer",
-      "slug": "fidelity",
-      "source": "cotag",
-      "tag_name": "Fidelity",
-      "title": "Fidelity, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "bitwise",
   "tag_name": "Bitwise",

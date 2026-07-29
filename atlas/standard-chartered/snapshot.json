@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:05:12.965692+00:00",
-      "newsroom_total": 24,
-      "overall_share": 32,
+      "as_of": "2026-07-29T23:04:53.606453+00:00",
+      "newsroom_total": 28,
+      "overall_share": 27,
       "provenance": "data",
       "series": [
         {
@@ -131,62 +131,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 15
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-07",
+          "newsroom": 4,
+          "universe": 25
         }
       ],
-      "total_universe": 74,
-      "universe_total": 50
+      "total_universe": 103,
+      "universe_total": 75
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:05:12.599889+00:00",
+      "as_of": "2026-07-29T23:04:53.135556+00:00",
       "edges": [
         {
+          "confidence": 0.317,
+          "description": "Co-covered in 9 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "standard-chartered",
-          "phrase": "Standard Chartered offers crypto custody services for institutional clients.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-18",
+          "phrase": "Co-covered in 9 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "custody",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 32
         },
         {
+          "confidence": 0.269,
+          "description": "Co-covered in 5 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "standard-chartered",
-          "phrase": "UNI is a token; unclear direct relation to Standard Chartered.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-02",
+          "phrase": "Co-covered in 5 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "uni",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.177,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "standard-chartered",
-          "phrase": "Standard Chartered has significant operations and crypto initiatives in Hong Kong.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "hong-kong",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.144,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "standard-chartered",
-          "phrase": "Uniswap is a DeFi protocol; no clear direct link to Standard Chartered.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "uniswap",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "standard-chartered",
+          "observed_at": null,
           "phrase": "Asia",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "asia",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -200,42 +241,62 @@
         },
         {
           "center": false,
+          "confidence": 0.317,
           "name": "Custody",
+          "observed_at": "2026-05-18",
           "slug": "custody",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 32
         },
         {
           "center": false,
+          "confidence": 0.269,
           "name": "UNI",
+          "observed_at": "2026-07-02",
           "slug": "uni",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.177,
           "name": "Hong Kong",
+          "observed_at": null,
           "slug": "hong-kong",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.144,
           "name": "Uniswap",
+          "observed_at": null,
           "slug": "uniswap",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Asia",
+          "observed_at": null,
           "slug": "asia",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -304,17 +365,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 24,
-      "as_of": "2026-07-01T12:05:13.856110+00:00",
+      "article_count": 28,
+      "as_of": "2026-07-29T23:04:54.265047+00:00",
       "most_clicked": {
-        "clicks": 212,
+        "clicks": 215,
         "date": "2023-11-09T09:17:16.704736+00:00",
         "headline": "Standard Chartered unit SBI Holdings to invest $100 million to support global crypto startups across seed to Series C funding rounds",
         "lev_url": "https://leviathannews.xyz/3243/standard-chartered-unit-sbi-holdings-to-invest-100-million-to-support-global-crypto-startups-across-seed-to-series-c-funding-rounds"
       },
       "provenance": "data",
-      "top_decile_share": 22,
-      "total_clicks": 1859
+      "top_decile_share": 21,
+      "total_clicks": 2030
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:22:17.573406+00:00",
@@ -399,10 +460,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:05:13.762161+00:00",
+      "as_of": "2026-07-29T23:04:54.260457+00:00",
       "items": [
         {
-          "clicks": 127,
+          "clicks": 128,
           "date": "2026-04-09T23:49:02.473637+00:00",
           "headline": "GSR taps Standard Chartered-backed tokenization firm in web3 investment bank push",
           "hot_score": 27546.053275,
@@ -411,7 +472,7 @@
           "url": "https://www.theblock.co/post/396594/gsr-partners-sc-ventures-tokenization-web3-investment-bank"
         },
         {
-          "clicks": 28,
+          "clicks": 30,
           "date": "2026-04-14T14:13:50.348546+00:00",
           "headline": "Visa, Stripe, and Standard Chartered's Zodia Custody become validators on Tempo payments blockchain",
           "hot_score": 4056.962492,
@@ -420,7 +481,7 @@
           "url": "https://www.theblock.co/post/397286/visa-stripe-zodia-custody-standard-chartered-validators-tempo"
         },
         {
-          "clicks": 62,
+          "clicks": 65,
           "date": "2026-04-08T17:45:57.163150+00:00",
           "headline": "Standard Chartered weighs folding Zodia Custody into corporate bank arm as crypto push deepens",
           "hot_score": 1048.86127,
@@ -429,7 +490,34 @@
           "url": "https://www.theblock.co/post/396692/standard-chartered-weighs-integrating-zodia-custody-corporate-bank-arm-bloomberg"
         },
         {
-          "clicks": 28,
+          "clicks": 32,
+          "date": "2026-07-01T14:10:11.705196+00:00",
+          "headline": "Standard Chartered initiates coverage on Morpho with a $60 price target by 2030, projecting the DeFi lending token will outperform both Bitcoin and Ethereum",
+          "hot_score": 771.510865,
+          "lev_url": "https://leviathannews.xyz/266516/we-are-bullish-on-morpho-standard-chartered-sees-token-at-60-by-2030-outperforming-bitcoin-and-ether-20260701-1",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701133350_NvRnLiWltUvv.jpg",
+          "url": "https://www.theblock.co/post/406888/bullish-on-morpho-standard-chartered-sees-token-at-60-by-2030-outperforming-bitcoin-ether?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 32,
+          "date": "2026-07-02T00:58:31.723289+00:00",
+          "headline": "Standard Chartered executes first live Bitcoin and ether prime brokerage trades with LMAX",
+          "hot_score": 757.940702,
+          "lev_url": "https://leviathannews.xyz/267059/standard-chartered-executes-first-live-bitcoin-and-ether-prime-brokerage-trades-with-lmax",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701233552_Z4zrlaiDPw==.png",
+          "url": "https://www.lmax.com/press-centre/lmax-group-and-standard-chartered-execute-first-live-digital-asset-prime-brokerage-trades"
+        },
+        {
+          "clicks": 31,
+          "date": "2026-07-02T10:49:04.008931+00:00",
+          "headline": "Standard Chartered and Circle launch launch first G-SIB-led integrated access to USDC minting and redemption.",
+          "hot_score": 750.622896,
+          "lev_url": "https://leviathannews.xyz/267388/standard-chartered-and-circle-launch-launch-first-g-sib-led-integrated-access-to-usdc-minting-and-redemption-20260702",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260702102013_q1hLdKvMZaak.jpg",
+          "url": "https://www.circle.com/pressroom/standard-chartered-and-circle-launch-launch-first-g-sib-led-integrated-access-to-usdc-minting-and-redemption"
+        },
+        {
+          "clicks": 30,
           "date": "2026-04-23T10:19:48.969064+00:00",
           "headline": "Tokenized real-world assets hit $30B but projections from BCG and Standard Chartered see $16T–$30T by 2030–2034, signaling a massive institutional shift",
           "hot_score": 705.2,
@@ -438,49 +526,22 @@
           "url": "https://x.com/i/status/2046948579353178286"
         },
         {
-          "clicks": 33,
+          "clicks": 37,
           "date": "2026-06-24T16:09:29.236580+00:00",
           "headline": "Standard Chartered sees Aave outperforming Bitcoin and Ethereum through 2030, citing V4 upgrades, GHO growth, token buybacks and a 37x expansion in DeFi assets",
-          "hot_score": 589.495792,
+          "hot_score": 566.088147,
           "lev_url": "https://leviathannews.xyz/261991/no-headline-20260624-1",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260624160807_Jkk8g4WRUVfN.jpg",
           "url": "https://www.theblock.co/post/405996/standard-chartered-generational-wealth-potential-aave-recovery-predicts-50x-upside-2030?utm_source=rss&utm_medium=rss"
-        },
-        {
-          "clicks": 46,
-          "date": "2026-04-28T11:46:28.797793+00:00",
-          "headline": "OKX integrates BlackRock’s BUIDL fund as trading collateral, advancing tokenized RWA adoption with Standard Chartered handling off-exchange custody",
-          "hot_score": 313.2,
-          "lev_url": "https://leviathannews.xyz/236968/okx-integrates-blackrocks-buidl-fund-as-trading-collateral-advancing-tokenized-rwa-adoption-with-standard-chartered-handling-off-exchange-custody",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260428113827_wfwb0jrhqQVp.webp",
-          "url": "https://crypto.news/okx-boosts-tokenized-rwa-push-with-blackrock-buidl/"
-        },
-        {
-          "clicks": 39,
-          "date": "2026-05-05T00:47:58.959222+00:00",
-          "headline": "Standard Chartered’s SC Ventures becomes first external shareholder in GSR after strategic investment, deepening tokenization ties and accelerating institutional crypto market infrastructure buildout",
-          "hot_score": 311.698293,
-          "lev_url": "https://leviathannews.xyz/237839/standard-chartereds-sc-ventures-becomes-first-external-shareholder-in-gsr-after-strategic-investment-deepening-tokenization-ties-and-accelerating-institutional-crypto-market-infras",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260505003514_m73xJDM8SZPZ.jpg",
-          "url": "https://www.theblock.co/post/399950/sc-ventures-first-external-shareholder-gsr-strategic-investment?utm_source=twitter&utm_medium=social"
-        },
-        {
-          "clicks": 27,
-          "date": "2025-12-13T10:00:58.091070+00:00",
-          "headline": "AirAsia operator Capital A and Standard Chartered Bank Malaysia Bhd. exploring Ringgit stablecoin, days after a Malaysian royal announced the launch of a similar token. They signed a letter of intent to develop and test the stablecoin through a digital-asset innovation hub overseen by Bank Negara Malaysia.",
-          "hot_score": 23.834057,
-          "lev_url": "https://leviathannews.xyz/22410/airasia-operator-capital-a-and-standard-chartered-bank-malaysia-bhd-exploring-ringgit-stablecoin-days-after-a-malaysian-royal-announced-the-launch-of-a-similar-token-they-signed-a-",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251213053357_T5uEadNVk50=.jpg",
-          "url": "https://newsroom.airasia.com/news/2025/12/12/capital-a-and-standard-chartered-malaysia-set-to-explore-myr-stablecoin-sandbox-initiative#gsc.tab=0"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:05:13.664960+00:00",
+      "as_of": "2026-07-29T23:04:54.249044+00:00",
       "editorial": [
         {
-          "count": 10,
+          "count": 11,
           "source": "theblock.co"
         },
         {
@@ -528,28 +589,32 @@
           "source": "decrypt.co"
         }
       ],
-      "editorial_distinct": 15,
+      "editorial_distinct": 18,
       "provenance": "data",
       "universe": [
         {
-          "count": 23,
+          "count": 37,
           "source": "x.com"
         },
         {
-          "count": 8,
+          "count": 10,
           "source": "decrypt.co"
         },
         {
-          "count": 6,
+          "count": 8,
           "source": "theblock.co"
         },
         {
-          "count": 6,
+          "count": 7,
           "source": "cointelegraph.com"
         },
         {
           "count": 3,
           "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "thestreet.com"
         },
         {
           "count": 1,
@@ -565,10 +630,18 @@
         },
         {
           "count": 1,
-          "source": "thestreet.com"
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "circle.com"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
         }
       ],
-      "universe_distinct": 9
+      "universe_distinct": 14
     }
   },
   "official_links": [],
@@ -579,42 +652,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:57.713725+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.317,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0506,
-        "lift_log": 4.199,
-        "score": 0.3173,
-        "shared": 9
-      },
-      "rationale": "Standard Chartered offers crypto custody services for institutional clients.",
-      "relation_type": "product",
-      "slug": "custody",
-      "source": "cotag",
-      "tag_name": "Custody",
-      "title": "Custody, Explained",
-      "weight": 32
-    },
-    {
-      "confidence": 0.269,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.057,
-        "lift_log": 5.277,
-        "score": 0.2692,
-        "shared": 4
-      },
-      "rationale": "UNI is a token; unclear direct relation to Standard Chartered.",
-      "relation_type": "peer",
-      "slug": "uni",
-      "source": "cotag",
-      "tag_name": "UNI",
-      "title": "UNI: Complete Guide",
-      "weight": 27
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "standard-chartered",
   "tag_name": "Standard Chartered",

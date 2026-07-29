@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:13:43.105804+00:00",
+      "as_of": "2026-07-29T22:58:13.219188+00:00",
       "newsroom_total": 25,
-      "overall_share": 71,
+      "overall_share": 68,
       "provenance": "data",
       "series": [
         {
@@ -107,62 +107,103 @@
           "month": "2026-05",
           "newsroom": 1,
           "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 2
         }
       ],
-      "total_universe": 35,
-      "universe_total": 10
+      "total_universe": 37,
+      "universe_total": 12
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:13:42.811214+00:00",
+      "as_of": "2026-07-29T22:58:12.730055+00:00",
       "edges": [
         {
+          "confidence": 0.257,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "deutsche-bank",
-          "phrase": "Deutsche Bank offers digital asset custody services.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-03",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "custody",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.178,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "deutsche-bank",
-          "phrase": "Deutsche Bank is developing its own stablecoin.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.124,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "deutsche-bank",
-          "phrase": "Revenue is a financial metric for Deutsche Bank.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "revenue",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "deutsche-bank",
+          "observed_at": null,
           "phrase": "adoption",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "adoption",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "deutsche-bank",
+          "observed_at": null,
           "phrase": "Europe",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "europe",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -176,42 +217,62 @@
         },
         {
           "center": false,
+          "confidence": 0.257,
           "name": "Custody",
+          "observed_at": "2026-03-03",
           "slug": "custody",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.178,
           "name": "Stablecoins",
+          "observed_at": null,
           "slug": "stablecoins",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.124,
           "name": "Revenue",
+          "observed_at": null,
           "slug": "revenue",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Adoption",
+          "observed_at": null,
           "slug": "adoption",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Europe",
+          "observed_at": null,
           "slug": "europe",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -275,16 +336,16 @@
     },
     "reader_signal": {
       "article_count": 25,
-      "as_of": "2026-07-01T12:13:43.554800+00:00",
+      "as_of": "2026-07-29T22:58:13.398005+00:00",
       "most_clicked": {
-        "clicks": 378,
+        "clicks": 392,
         "date": "2023-10-24T07:27:09.943986+00:00",
         "headline": "Deutsche Bank and SC Ventures conduct first stablecoin swaps on the Universal Digital Payments Network",
         "lev_url": "https://leviathannews.xyz/3080/deutsche-bank-and-sc-ventures-conduct-first-stablecoin-swaps-on-the-universal-digital-payments-network"
       },
       "provenance": "data",
-      "top_decile_share": 26,
-      "total_clicks": 2269
+      "top_decile_share": 25,
+      "total_clicks": 2409
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:21:46.600444+00:00",
@@ -369,10 +430,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:13:43.478124+00:00",
+      "as_of": "2026-07-29T22:58:13.393793+00:00",
       "items": [
         {
-          "clicks": 52,
+          "clicks": 56,
           "date": "2026-05-13T07:50:06.049112+00:00",
           "headline": "Elliptic secures $120 million investment from Nasdaq Ventures, Deutsche Bank, One Peak and the British Business Bank.",
           "hot_score": 912.450853,
@@ -381,7 +442,7 @@
           "url": "https://www.elliptic.co/media-center/elliptic-secures-120-million-investment"
         },
         {
-          "clicks": 30,
+          "clicks": 31,
           "date": "2026-04-17T20:59:09.006598+00:00",
           "headline": "HSBC and Deutsche Bank face up to 7% revenue risk as corporates move cross-border payments to stablecoins",
           "hot_score": 601.645148,
@@ -390,7 +451,7 @@
           "url": "https://financefeeds.com/hsbc-and-deutsche-bank-face-revenue-risk-as-crypto-payments-gain-traction/"
         },
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2026-04-20T16:06:33.490196+00:00",
           "headline": "Deutsche Bank survey shows US crypto adoption rebounding with Bitcoin held by 74% of crypto owners",
           "hot_score": 517.0,
@@ -399,7 +460,7 @@
           "url": "https://www.coindesk.com/markets/2026/04/20/u-s-crypto-adoption-is-rebounding-bitcoin-still-dominates-deutsche-bank-says"
         },
         {
-          "clicks": 111,
+          "clicks": 112,
           "date": "2026-02-26T09:26:21.843393+00:00",
           "headline": "AllUnity, backed by Deutsche Bank, has launched CHFAU, the first MiCA‑compliant Swiss franc stablecoin for institutional investors, expanding its regulated fiat‑backed stablecoin lineup beyond the euro‑pegged EURAU.",
           "hot_score": 503.803094,
@@ -408,7 +469,7 @@
           "url": "https://cointelegraph.com/news/allunity-swiss-franc-stablecoin-chfau-mica"
         },
         {
-          "clicks": 28,
+          "clicks": 30,
           "date": "2026-04-21T16:07:13.235169+00:00",
           "headline": "RBC warns European banks could lose 7% of revenue to crypto rivals, with HSBC and Deutsche Bank most exposed",
           "hot_score": 448.4,
@@ -417,7 +478,7 @@
           "url": "https://www.coindesk.com/business/2026/04/21/european-banks-are-at-risk-of-losing-customers-to-rivals-with-better-crypto-tools"
         },
         {
-          "clicks": 66,
+          "clicks": 78,
           "date": "2026-03-12T11:21:41.782155+00:00",
           "headline": "Deutsche Bank reveals €26 billion private credit exposure as the sector faces redemptions, underwriting concerns and AI-driven risks for borrowers like software firms, while downplaying major systemic threats",
           "hot_score": 379.128359,
@@ -426,7 +487,7 @@
           "url": "https://www.bloomberg.com/news/articles/2026-03-12/deutsche-bank-flags-a-30-billion-exposure-to-private-credit"
         },
         {
-          "clicks": 75,
+          "clicks": 116,
           "date": "2026-03-25T22:27:41.902292+00:00",
           "headline": "Deutsche Bank calls Iran war petroyuan catalyst as Tehran demands yuan for Hormuz passage",
           "hot_score": 288.289009,
@@ -435,7 +496,7 @@
           "url": "https://www.cnbc.com/2026/03/25/iran-war-mark-end-petrodollar-deutsche.html"
         },
         {
-          "clicks": 31,
+          "clicks": 33,
           "date": "2025-12-04T09:18:27.310247+00:00",
           "headline": "Deutsche Bank-backed Taurus announced a strategic partnership to integrate Everstake’s enterprise-grade staking infrastructure  and offer institutional clients secure staking across multiple proof-of-stake networks.",
           "hot_score": 39.8596,
@@ -447,7 +508,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:13:43.394659+00:00",
+      "as_of": "2026-07-29T22:58:13.384041+00:00",
       "editorial": [
         {
           "count": 3,
@@ -502,8 +563,12 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 2,
+          "count": 3,
           "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
         },
         {
           "count": 1,
@@ -531,10 +596,6 @@
         },
         {
           "count": 1,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 1,
           "source": "theblock.co"
         }
       ],
@@ -549,25 +610,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:27.263463+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.257,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0102,
-        "lift_log": 3.316,
-        "score": 0.2573,
-        "shared": 3
-      },
-      "rationale": "Deutsche Bank offers digital asset custody services.",
-      "relation_type": "product",
-      "slug": "custody",
-      "source": "cotag",
-      "tag_name": "Custody",
-      "title": "Custody, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "deutsche-bank",
   "tag_name": "Deutsche Bank",

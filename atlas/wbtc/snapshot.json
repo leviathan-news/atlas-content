@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:07:44.745664+00:00",
+      "as_of": "2026-07-29T23:06:39.012262+00:00",
       "newsroom_total": 41,
-      "overall_share": 55,
+      "overall_share": 51,
       "provenance": "data",
       "series": [
         {
@@ -131,62 +131,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 5
         }
       ],
-      "total_universe": 75,
-      "universe_total": 34
+      "total_universe": 80,
+      "universe_total": 39
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:07:43.473764+00:00",
+      "as_of": "2026-07-29T23:06:38.360931+00:00",
       "edges": [
         {
+          "confidence": 0.227,
+          "description": "Co-covered in 5 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wbtc",
-          "phrase": "Both are wrapped tokens representing native assets (BTC and ETH) on Ethereum.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-16",
+          "phrase": "Co-covered in 5 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "weth",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.224,
+          "description": "Co-covered in 3 approved stories; most recently October 2024.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wbtc",
-          "phrase": "WBTC relies on custody providers like BitGo to hold the underlying Bitcoin.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2024-10-22",
+          "phrase": "Co-covered in 3 approved stories; most recently October 2024.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "custody",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.219,
+          "description": "Co-covered in 4 approved stories; most recently June 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wbtc",
-          "phrase": "Delisting events (e.g., from exchanges) pose a risk to WBTC liquidity and adoption.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-06-07",
+          "phrase": "Co-covered in 4 approved stories; most recently June 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "delisting",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.21,
+          "description": "Co-covered in 4 approved stories; most recently February 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wbtc",
-          "phrase": "TRX is a blockchain token, but relation to WBTC is unclear; cautious peer.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-02-28",
+          "phrase": "Co-covered in 4 approved stories; most recently February 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "trx",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.2,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "wbtc",
-          "phrase": "WBTC is used as collateral in DeFi protocols like MakerDAO to mint DAI.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-21",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "dai",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         }
       ],
@@ -200,42 +241,62 @@
         },
         {
           "center": false,
+          "confidence": 0.227,
           "name": "WETH",
+          "observed_at": "2026-04-16",
           "slug": "weth",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.224,
           "name": "Custody",
+          "observed_at": "2024-10-22",
           "slug": "custody",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.219,
           "name": "Delisting",
+          "observed_at": "2025-06-07",
           "slug": "delisting",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.21,
           "name": "TRX",
+          "observed_at": "2026-02-28",
           "slug": "trx",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.2,
           "name": "DAI",
+          "observed_at": "2026-03-21",
           "slug": "dai",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         }
       ],
@@ -305,16 +366,16 @@
     },
     "reader_signal": {
       "article_count": 41,
-      "as_of": "2026-07-01T12:07:45.375489+00:00",
+      "as_of": "2026-07-29T23:06:39.724677+00:00",
       "most_clicked": {
-        "clicks": 327,
+        "clicks": 330,
         "date": "2025-01-22T19:31:09.298544+00:00",
         "headline": "World Liberty Financial has been diversifying its holdings, acquiring assets including Justin Sun-affiliated TRX and WBTC.",
         "lev_url": "https://leviathannews.xyz/8879/world-liberty-financial-has-been-diversifying-its-holdings-acquiring-assets-including-justin-sun-affiliated-trx-and-wbtc"
       },
       "provenance": "data",
       "top_decile_share": 25,
-      "total_clicks": 4867
+      "total_clicks": 4927
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:28:09.808523+00:00",
@@ -399,10 +460,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:07:45.300454+00:00",
+      "as_of": "2026-07-29T23:06:39.709891+00:00",
       "items": [
         {
-          "clicks": 45,
+          "clicks": 49,
           "date": "2026-05-18T22:41:10.414642+00:00",
           "headline": "Echo Protocol faces suspected Monad exploit after 1K eBTC mint lets attacker max-borrow WBTC on Curvance",
           "hot_score": 501.600045,
@@ -411,7 +472,7 @@
           "url": "https://x.com/dcfgod/status/2056493905680720238"
         },
         {
-          "clicks": 59,
+          "clicks": 61,
           "date": "2026-04-22T06:08:38.278273+00:00",
           "headline": "Phishing drainer hits four wallets for $585K in 11 hours; one victim loses 3 WBTC to increaseApproval sig after Aave withdrawal",
           "hot_score": 430.6,
@@ -429,7 +490,7 @@
           "url": "https://x.com/slowmist_team/status/2052227002980253715"
         },
         {
-          "clicks": 327,
+          "clicks": 330,
           "date": "2025-01-22T19:31:09.298544+00:00",
           "headline": "World Liberty Financial has been diversifying its holdings, acquiring assets including Justin Sun-affiliated TRX and WBTC.",
           "hot_score": 0.0,
@@ -438,7 +499,7 @@
           "url": "https://protos.com/trump-endorsed-world-liberty-financial-buys-justin-sun-tokens/"
         },
         {
-          "clicks": 320,
+          "clicks": 325,
           "date": "2024-10-22T16:08:16.857971+00:00",
           "headline": "WBTC announced it will transition the custody of bitcoin for the token from BitGo to a joint venture between BitGo, BiT Global, and Sun.",
           "hot_score": 0.0,
@@ -447,7 +508,7 @@
           "url": "https://protos.com/wbtc-supply-contracts-this-month-following-justin-sun-custody-drama/"
         },
         {
-          "clicks": 297,
+          "clicks": 299,
           "date": "2024-12-02T18:01:34.601246+00:00",
           "headline": "HTX pulls off a wild move: redeems thousands of WBTC with zero proof-of-reserves—Justin Sun magic at work?",
           "hot_score": 0.0,
@@ -456,7 +517,7 @@
           "url": "https://protos.com/justin-sun-advised-htx-has-redeemed-7300-wbtc-it-did-not-disclose/"
         },
         {
-          "clicks": 271,
+          "clicks": 279,
           "date": "2024-08-10T16:00:11.306261+00:00",
           "headline": "BA Labs urges Immediate Actions to Limit WBTC Exposure in Maker and SparkLend Ahead of August 12 Vote Due to Control Change Risks.",
           "hot_score": 0.0,
@@ -477,7 +538,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:07:45.217976+00:00",
+      "as_of": "2026-07-29T23:06:39.684862+00:00",
       "editorial": [
         {
           "count": 22,
@@ -532,7 +593,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 32,
+          "count": 36,
           "source": "x.com"
         },
         {
@@ -542,9 +603,13 @@
         {
           "count": 1,
           "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "threshold.network"
         }
       ],
-      "universe_distinct": 3
+      "universe_distinct": 4
     }
   },
   "official_links": [],
@@ -555,93 +620,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:37:05.538506+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.224,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0072,
-        "lift_log": 2.632,
-        "score": 0.2245,
-        "shared": 3
-      },
-      "rationale": "WBTC relies on custody providers like BitGo to hold the underlying Bitcoin.",
-      "relation_type": "infrastructure",
-      "slug": "custody",
-      "source": "cotag",
-      "tag_name": "Custody",
-      "title": "Custody, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.2,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0209,
-        "lift_log": 4.145,
-        "score": 0.2003,
-        "shared": 3
-      },
-      "rationale": "WBTC is used as collateral in DeFi protocols like MakerDAO to mint DAI.",
-      "relation_type": "ecosystem",
-      "slug": "dai",
-      "source": "cotag",
-      "tag_name": "DAI",
-      "title": "DAI: Complete Guide",
-      "weight": 20
-    },
-    {
-      "confidence": 0.219,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0262,
-        "lift_log": 4.495,
-        "score": 0.2188,
-        "shared": 4
-      },
-      "rationale": "Delisting events (e.g., from exchanges) pose a risk to WBTC liquidity and adoption.",
-      "relation_type": "risk",
-      "slug": "delisting",
-      "source": "cotag",
-      "tag_name": "Delisting",
-      "title": "Delisting, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.21,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0281,
-        "lift_log": 4.281,
-        "score": 0.21,
-        "shared": 4
-      },
-      "rationale": "TRX is a blockchain token, but relation to WBTC is unclear; cautious peer.",
-      "relation_type": "peer",
-      "slug": "trx",
-      "source": "cotag",
-      "tag_name": "TRX",
-      "title": "TRX: Complete Guide",
-      "weight": 21
-    },
-    {
-      "confidence": 0.227,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0337,
-        "lift_log": 4.591,
-        "score": 0.2267,
-        "shared": 5
-      },
-      "rationale": "Both are wrapped tokens representing native assets (BTC and ETH) on Ethereum.",
-      "relation_type": "peer",
-      "slug": "weth",
-      "source": "cotag",
-      "tag_name": "WETH",
-      "title": "WETH: Complete Guide",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "wbtc",
   "tag_name": "WBTC",

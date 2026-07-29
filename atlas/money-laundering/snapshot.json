@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:57:11.793382+00:00",
-      "newsroom_total": 78,
-      "overall_share": 74,
+      "as_of": "2026-07-29T23:02:11.789265+00:00",
+      "newsroom_total": 79,
+      "overall_share": 69,
       "provenance": "data",
       "series": [
         {
@@ -223,66 +223,101 @@
           "universe": 11
         },
         {
-          "ed_share": 0,
+          "ed_share": 10,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 1
+          "newsroom": 1,
+          "universe": 9
         }
       ],
-      "total_universe": 106,
-      "universe_total": 28
+      "total_universe": 115,
+      "universe_total": 36
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:57:10.734646+00:00",
+      "as_of": "2026-07-29T23:02:11.374759+00:00",
       "edges": [
         {
+          "confidence": 0.316,
+          "description": "Co-covered in 9 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "money-laundering",
-          "phrase": "Money laundering is a type of crime.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-18",
+          "phrase": "Co-covered in 9 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "crime",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 32
         },
         {
+          "confidence": 0.216,
+          "description": "Co-covered in 11 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "money-laundering",
-          "phrase": "Tornado Cash is a tool used for money laundering.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-25",
+          "phrase": "Co-covered in 11 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "tornado-cash",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.195,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "money-laundering",
-          "phrase": "DOJ prosecutes money laundering cases.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "doj",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.178,
+          "description": "Co-covered in 12 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "money-laundering",
-          "phrase": "Fraud is a related financial crime.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 12 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "fraud",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "money-laundering",
-          "phrase": "Trials are legal proceedings for money laundering.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "trial",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -296,42 +331,62 @@
         },
         {
           "center": false,
+          "confidence": 0.316,
           "name": "Crime",
+          "observed_at": "2026-06-18",
           "slug": "crime",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 32
         },
         {
           "center": false,
+          "confidence": 0.216,
           "name": "Tornado Cash",
+          "observed_at": "2026-06-25",
           "slug": "tornado-cash",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.195,
           "name": "DOJ",
+          "observed_at": null,
           "slug": "doj",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.178,
           "name": "Fraud",
+          "observed_at": null,
           "slug": "fraud",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "Trial",
+          "observed_at": null,
           "slug": "trial",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -400,17 +455,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 78,
-      "as_of": "2026-07-01T11:57:12.339866+00:00",
+      "article_count": 79,
+      "as_of": "2026-07-29T23:02:12.062737+00:00",
       "most_clicked": {
-        "clicks": 378,
+        "clicks": 385,
         "date": "2024-05-15T16:16:54.972037+00:00",
         "headline": "DOJ indicts MEV bot operators for wire fraud, money laundering",
         "lev_url": "https://leviathannews.xyz/5430/doj-indicts-mev-bot-operators-for-wire-fraud-money-laundering"
       },
       "provenance": "data",
       "top_decile_share": 26,
-      "total_clicks": 7063
+      "total_clicks": 7209
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:33:56.800697+00:00",
@@ -489,7 +544,7 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T11:57:12.253937+00:00",
+      "as_of": "2026-07-29T23:02:12.055183+00:00",
       "items": [
         {
           "clicks": 43,
@@ -501,7 +556,7 @@
           "url": "https://www.coindesk.com/policy/2026/04/14/bank-of-korea-nominee-backs-central-bank-led-digital-currency-sees-limited-role-for-stablecoins"
         },
         {
-          "clicks": 135,
+          "clicks": 137,
           "date": "2026-03-04T09:16:23.184709+00:00",
           "headline": "A new report from the Financial Action Task Force (FATF) warns that rapidly growing stablecoins and unhosted wallet P2P transfers are increasingly exploited for money laundering, terrorist and proliferation financing, urging stronger global AML/CFT controls",
           "hot_score": 866.987272,
@@ -510,7 +565,7 @@
           "url": "https://www.fatf-gafi.org/en/publications/Virtualassets/targeted-report-stablecoins-unhosted-wallets.html"
         },
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2026-05-06T07:13:51.992300+00:00",
           "headline": "Authorities freeze $41M in crypto tied to $150M BG Wealth Sharing Ponzi, as Binance, Tether, and OKX help track and halt laundering linked to alleged rug pull",
           "hot_score": 771.735338,
@@ -519,7 +574,7 @@
           "url": "https://cointelegraph.com/news/law-enforcement-freezes-millions-connected-to-crypto-ponzi-collapse"
         },
         {
-          "clicks": 31,
+          "clicks": 34,
           "date": "2026-06-08T08:29:39.809757+00:00",
           "headline": "British high schooler Alexander Browder, 17, became the youngest known person on Russia's sanctions list after exposing alleged cryptocurrency money laundering, with Russia claiming he spread \"disinformation\" that he denies, saying \"It's not disinformation at all. It's only the truth\" and \"It won't change my work\"",
           "hot_score": 699.603953,
@@ -528,16 +583,25 @@
           "url": "https://x.com/cbsnews/status/2063785258537947487"
         },
         {
-          "clicks": 22,
+          "clicks": 27,
           "date": "2026-06-25T06:35:57.988630+00:00",
           "headline": "KyberSwap exploiter sends another 2,000 ETH to Tornado Cash as laundering total hits $40M",
-          "hot_score": 656.256628,
+          "hot_score": 544.301057,
           "lev_url": "https://leviathannews.xyz/262295/kyberswap-exploiter-sends-another-2000-eth-to-tornado-cash-as-laundering-total-hits-40m",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625011756_Z4zrlaiDPw==.png",
           "url": "https://x.com/peckshieldalert/status/2069936396006281283"
         },
         {
-          "clicks": 26,
+          "clicks": 33,
+          "date": "2026-07-13T15:28:00.525888+00:00",
+          "headline": "Chinese prosecutors propose presuming money-laundering intent from mixer and privacy coin use",
+          "hot_score": 428.914757,
+          "lev_url": "https://leviathannews.xyz/273968/chinese-prosecutors-propose-presuming-money-laundering-intent-from-mixer-and-privacy-coin-use",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260713123651_x_I1ELMVwBv-.jpg",
+          "url": "https://www.spp.gov.cn/spp/llyj/202607/t20260712_731791.shtml"
+        },
+        {
+          "clicks": 32,
           "date": "2026-06-23T15:17:11.208554+00:00",
           "headline": "Thai DSI widens $300M laundering probe tied to illegal crypto mining and Chinese crime network",
           "hot_score": 425.571748,
@@ -546,28 +610,19 @@
           "url": "https://www.dsi.go.th/th/Detail/49d86f3797f6dbb520c7a4ee4a07affd"
         },
         {
-          "clicks": 31,
+          "clicks": 33,
           "date": "2026-06-11T07:08:08.400113+00:00",
           "headline": "Canadian teen pleads guilty to laundering $13M crypto theft into Miami cars, jewelry and private jet trip",
           "hot_score": 422.970491,
           "lev_url": "https://leviathannews.xyz/255535/canadian-teen-pleads-guilty-to-laundering-13m-crypto-theft-into-miami-cars-jewelry-and-private-jet-trip",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260611010525_Z4zrlaiDPw==.png",
           "url": "https://www.nytimes.com/2026/06/10/world/canada/canada-crypto-fraud.html"
-        },
-        {
-          "clicks": 83,
-          "date": "2026-03-24T14:07:36.836899+00:00",
-          "headline": "ZachXBT exposes Aleksandr Khinkis, a Russian OTC broker allegedly laundering $4.7M+ in ransomware funds through a single exchange account tied to 796 BTC across multiple payments",
-          "hot_score": 393.473797,
-          "lev_url": "https://leviathannews.xyz/215209/zachxbt-exposes-aleksandr-khinkis-a-russian-otc-broker-allegedly-laundering-47m-in-ransomware-funds-through-a-single-exchange-account-tied-to-796-btc-across-multiple-payments",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260324140356_N0pVLkcaswhF.jpg",
-          "url": "https://x.com/i/status/2036430847986003992"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:57:12.169445+00:00",
+      "as_of": "2026-07-29T23:02:12.037953+00:00",
       "editorial": [
         {
           "count": 13,
@@ -618,15 +673,15 @@
           "source": "eba.europa.eu"
         }
       ],
-      "editorial_distinct": 31,
+      "editorial_distinct": 32,
       "provenance": "data",
       "universe": [
         {
-          "count": 14,
+          "count": 17,
           "source": "x.com"
         },
         {
-          "count": 4,
+          "count": 6,
           "source": "decrypt.co"
         },
         {
@@ -634,16 +689,16 @@
           "source": "cointelegraph.com"
         },
         {
-          "count": 2,
-          "source": "dlnews.com"
-        },
-        {
-          "count": 2,
+          "count": 3,
           "source": "theblock.co"
         },
         {
-          "count": 1,
+          "count": 2,
           "source": "justice.gov"
+        },
+        {
+          "count": 2,
+          "source": "dlnews.com"
         },
         {
           "count": 1,
@@ -652,9 +707,13 @@
         {
           "count": 1,
           "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "federalreserve.gov"
         }
       ],
-      "universe_distinct": 8
+      "universe_distinct": 9
     }
   },
   "official_links": [],
@@ -665,42 +724,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:44.064275+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.316,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0398,
-        "lift_log": 4.294,
-        "score": 0.3163,
-        "shared": 9
-      },
-      "rationale": "Money laundering is a type of crime.",
-      "relation_type": "category",
-      "slug": "crime",
-      "source": "cotag",
-      "tag_name": "Crime",
-      "title": "Crime, Explained",
-      "weight": 32
-    },
-    {
-      "confidence": 0.216,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0417,
-        "lift_log": 4.261,
-        "score": 0.2157,
-        "shared": 11
-      },
-      "rationale": "Tornado Cash is a tool used for money laundering.",
-      "relation_type": "product",
-      "slug": "tornado-cash",
-      "source": "cotag",
-      "tag_name": "Tornado Cash",
-      "title": "Tornado Cash, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "money-laundering",
   "tag_name": "Money laundering",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:16:03.200497+00:00",
+      "as_of": "2026-07-29T23:06:51.737200+00:00",
       "newsroom_total": 17,
-      "overall_share": 3,
+      "overall_share": 2,
       "provenance": "data",
       "series": [
         {
@@ -70,63 +70,98 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 4
+          "universe": 227
         }
       ],
-      "total_universe": 577,
-      "universe_total": 560
+      "total_universe": 800,
+      "universe_total": 783
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:16:02.873376+00:00",
+      "as_of": "2026-07-29T23:06:51.553069+00:00",
       "edges": [
         {
+          "confidence": 0.5,
+          "description": "Co-covered in 15 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "yb",
-          "phrase": "Both are DeFi yield protocols; YB and Yield Basis compete in similar spaces.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-21",
+          "phrase": "Co-covered in 15 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "yield-basis",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 50
         },
         {
+          "confidence": 0.282,
+          "description": "Co-covered in 4 approved stories; most recently November 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "yb",
-          "phrase": "YB may be built on or integrate with Curve's stable swap infrastructure.",
-          "relation_type": "protocol",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-11-10",
+          "phrase": "Co-covered in 4 approved stories; most recently November 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "curve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 28
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "yb",
+          "observed_at": null,
           "phrase": "liquidity",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "yb",
-          "phrase": "Michael Egorov",
-          "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "michael-egorov",
-          "weight": 10
-        },
-        {
-          "dir": "out",
-          "from": "yb",
+          "observed_at": null,
           "phrase": "volatility",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "volatility",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "from": "yb",
+          "observed_at": null,
+          "phrase": "Yield",
+          "relation_type": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -140,42 +175,62 @@
         },
         {
           "center": false,
+          "confidence": 0.5,
           "name": "Yield Basis",
+          "observed_at": "2026-05-21",
           "slug": "yield-basis",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 50
         },
         {
           "center": false,
+          "confidence": 0.282,
           "name": "Curve",
+          "observed_at": "2025-11-10",
           "slug": "curve",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 28
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Liquidity",
+          "observed_at": null,
           "slug": "liquidity",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
-          "name": "Michael Egorov",
-          "slug": "michael-egorov",
-          "source": "autolink",
-          "tier": "mentioned",
-          "weight": 10
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
           "name": "Volatility",
+          "observed_at": null,
           "slug": "volatility",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "name": "Yield",
+          "observed_at": null,
+          "slug": "yield",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -245,16 +300,16 @@
     },
     "reader_signal": {
       "article_count": 23,
-      "as_of": "2026-07-01T12:16:03.652194+00:00",
+      "as_of": "2026-07-29T23:06:52.373082+00:00",
       "most_clicked": {
-        "clicks": 155,
+        "clicks": 156,
         "date": "2025-10-19T19:25:25.939391+00:00",
         "headline": "New Proposals Aim to Scale crvUSD and Expand Yield Basis Capacity — Plans include boosting Curve DAO’s YB incentives up to 360K YB/week, raising PegKeeper limits from $108M to $300M, and allocating $1B crvUSD to Yield Basis to unlock $500M capacity, strengthening peg stability and system value ahead of broader scaling.",
         "lev_url": "https://leviathannews.xyz/18921/new-proposals-aim-to-scale-crvusd-and-expand-yield-basis-capacity-plans-include-boosting-curve-daos-yb-incentives-up-to-360k-ybweek-raising-pegkeeper-limits-from-108m-to-300m-and-a"
       },
       "provenance": "data",
-      "top_decile_share": 24,
-      "total_clicks": 1225
+      "top_decile_share": 23,
+      "total_clicks": 1246
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:34:43.451143+00:00",
@@ -333,10 +388,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:16:03.575771+00:00",
+      "as_of": "2026-07-29T23:06:52.369362+00:00",
       "items": [
         {
-          "clicks": 44,
+          "clicks": 46,
           "date": "2026-04-29T17:36:06.134204+00:00",
           "headline": "Yield Basis completes first full market cycle, distributes $3.84M in fees to YB lockers",
           "hot_score": 272.6,
@@ -345,7 +400,7 @@
           "url": "https://x.com/yieldbasis/status/2048828396780834883"
         },
         {
-          "clicks": 68,
+          "clicks": 72,
           "date": "2025-12-02T22:40:10.144715+00:00",
           "headline": "YB Fee Switch: the next YieldBasis milestone",
           "hot_score": 110.700782,
@@ -354,7 +409,7 @@
           "url": "https://x.com/yieldbasis/status/1995962614522765405"
         },
         {
-          "clicks": 44,
+          "clicks": 45,
           "date": "2025-12-24T10:42:47.378280+00:00",
           "headline": "Stake DAO's sdYB Liquid Locker for Yield Basis's YB token has passed 3M veYB",
           "hot_score": 56.685143,
@@ -363,7 +418,7 @@
           "url": "https://x.com/StakeDAOHQ/status/2003777032962859193"
         },
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2025-12-24T09:46:02.426123+00:00",
           "headline": "Yearn announces yYB, a liquid locker for Yield Basis's YB token",
           "hot_score": 46.068115,
@@ -372,7 +427,7 @@
           "url": "https://x.com/yearnfi/status/2003532167444562206"
         },
         {
-          "clicks": 49,
+          "clicks": 54,
           "date": "2026-01-12T15:52:36.480540+00:00",
           "headline": "Yearn’s yYB crosses 1 million YB locked",
           "hot_score": 44.39861,
@@ -381,7 +436,7 @@
           "url": "https://x.com/dudesahn/status/2010734792577524103?s=46&t=eqCmKKI3I3LHYOXutj7Iqw"
         },
         {
-          "clicks": 155,
+          "clicks": 156,
           "date": "2025-10-19T19:25:25.939391+00:00",
           "headline": "New Proposals Aim to Scale crvUSD and Expand Yield Basis Capacity — Plans include boosting Curve DAO’s YB incentives up to 360K YB/week, raising PegKeeper limits from $108M to $300M, and allocating $1B crvUSD to Yield Basis to unlock $500M capacity, strengthening peg stability and system value ahead of broader scaling.",
           "hot_score": 0.0,
@@ -399,7 +454,7 @@
           "url": "https://x.com/defishaka/status/1990269035892838504?s=46&t=9XSYbHVgMvGZkY-GrmLucg"
         },
         {
-          "clicks": 117,
+          "clicks": 118,
           "date": "2025-10-10T14:58:54.031420+00:00",
           "headline": "In final step before implementing YB token emissions, Yield Basis proposes to add gauges to WBTC, cbBTC, and tBTC pools",
           "hot_score": 0.0,
@@ -411,7 +466,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:16:03.493732+00:00",
+      "as_of": "2026-07-29T23:06:52.358167+00:00",
       "editorial": [
         {
           "count": 15,
@@ -430,31 +485,31 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 358,
+          "count": 536,
           "source": "x.com"
         },
         {
-          "count": 28,
+          "count": 37,
           "source": "chainwire.org"
         },
         {
-          "count": 23,
-          "source": "cointelegraph.com"
-        },
-        {
-          "count": 20,
+          "count": 25,
           "source": "decrypt.co"
         },
         {
-          "count": 20,
+          "count": 24,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 23,
           "source": "financefeeds.com"
         },
         {
-          "count": 15,
+          "count": 17,
           "source": "theblock.co"
         },
         {
-          "count": 12,
+          "count": 17,
           "source": "truthsocial.com"
         },
         {
@@ -462,8 +517,12 @@
           "source": "blog.kyberswap.com"
         },
         {
-          "count": 7,
+          "count": 8,
           "source": "coindesk.com"
+        },
+        {
+          "count": 5,
+          "source": "whitehouse.gov"
         },
         {
           "count": 5,
@@ -472,13 +531,9 @@
         {
           "count": 5,
           "source": "dlnews.com"
-        },
-        {
-          "count": 4,
-          "source": "wsj.com"
         }
       ],
-      "universe_distinct": 46
+      "universe_distinct": 53
     }
   },
   "official_links": [],
@@ -489,42 +544,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:37:06.781384+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.282,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0117,
-        "lift_log": 3.831,
-        "score": 0.2819,
-        "shared": 4
-      },
-      "rationale": "YB may be built on or integrate with Curve's stable swap infrastructure.",
-      "relation_type": "protocol",
-      "slug": "curve",
-      "source": "cotag",
-      "tag_name": "Curve",
-      "title": "Curve, Explained",
-      "weight": 28
-    },
-    {
-      "confidence": 0.5,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.2009,
-        "lift_log": 6.681,
-        "score": 0.4997,
-        "shared": 15
-      },
-      "rationale": "Both are DeFi yield protocols; YB and Yield Basis compete in similar spaces.",
-      "relation_type": "peer",
-      "slug": "yield-basis",
-      "source": "cotag",
-      "tag_name": "Yield Basis",
-      "title": "Yield Basis, Explained",
-      "weight": 50
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "yb",
   "tag_name": "YB",

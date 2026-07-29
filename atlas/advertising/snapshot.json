@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:14:12.669970+00:00",
-      "newsroom_total": 13,
-      "overall_share": 42,
+      "as_of": "2026-07-29T22:55:01.320689+00:00",
+      "newsroom_total": 14,
+      "overall_share": 39,
       "provenance": "data",
       "series": [
         {
@@ -77,62 +77,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 7
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 4
         }
       ],
-      "total_universe": 31,
-      "universe_total": 18
+      "total_universe": 36,
+      "universe_total": 22
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:14:12.233423+00:00",
+      "as_of": "2026-07-29T22:55:00.705608+00:00",
       "edges": [
         {
+          "confidence": 0.241,
+          "description": "Co-covered in 3 approved stories; most recently January 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "advertising",
-          "phrase": "WETH is used as a token for transactions in advertising platforms.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-01-30",
+          "phrase": "Co-covered in 3 approved stories; most recently January 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "weth",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.223,
+          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "advertising",
-          "phrase": "Google is a major competitor in digital advertising.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-03",
+          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "google",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.154,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "advertising",
-          "phrase": "Telegram is a platform where advertising can be integrated.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "telegram",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.124,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "advertising",
-          "phrase": "Polymarket is a prediction market, not directly related to advertising.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "polymarket",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "advertising",
+          "observed_at": null,
           "phrase": "agents",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -146,42 +187,62 @@
         },
         {
           "center": false,
+          "confidence": 0.241,
           "name": "WETH",
+          "observed_at": "2026-01-30",
           "slug": "weth",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.223,
           "name": "Google",
+          "observed_at": "2026-06-03",
           "slug": "google",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.154,
           "name": "Telegram",
+          "observed_at": null,
           "slug": "telegram",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.124,
           "name": "Polymarket",
+          "observed_at": null,
           "slug": "polymarket",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -244,17 +305,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 17,
-      "as_of": "2026-07-01T12:14:13.165514+00:00",
+      "article_count": 18,
+      "as_of": "2026-07-29T22:55:02.193213+00:00",
       "most_clicked": {
-        "clicks": 139,
+        "clicks": 142,
         "date": "2024-12-14T21:35:43.810470+00:00",
         "headline": "A little over 70 hours to go - who will get to have the pinned posts on our Telegram and X available for advertising for a whole week?! Leviathan News",
         "lev_url": "https://leviathannews.xyz/8310/a-little-over-70-hours-to-go-who-will-get-to-have-the-pinned-posts-on-our-telegram-and-x-available-for-advertising-for-a-whole-week-leviathan-news"
       },
       "provenance": "data",
       "top_decile_share": 17,
-      "total_clicks": 807
+      "total_clicks": 846
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:01:01.868748+00:00",
@@ -339,10 +400,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:14:13.086758+00:00",
+      "as_of": "2026-07-29T22:55:02.187054+00:00",
       "items": [
         {
-          "clicks": 31,
+          "clicks": 25,
+          "date": "2026-07-28T04:46:22.543307+00:00",
+          "headline": "The NFL urged the CFTC to tighten oversight of sports prediction markets, calling for stricter rules on game integrity, insider trading, advertising and age restrictions",
+          "hot_score": 2220.206267,
+          "lev_url": "https://leviathannews.xyz/282911/nfl-urges-cftc-to-strengthen-rules-on-sports-prediction-markets-report-20260727",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727220814_cdSZdR_jCMEr.jpg",
+          "url": "https://www.theblock.co/post/409846/nfl-urges-cftc-to-strengthen-rules-on-sports-prediction-markets-report?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 32,
           "date": "2026-04-22T21:03:54.450092+00:00",
           "headline": "OpenAI launches pay-per-click ads inside ChatGPT, entering digital advertising and challenging Google and Meta for ad spend in AI-driven search",
           "hot_score": 737.6,
@@ -351,7 +421,7 @@
           "url": "https://crypto.news/openai-charges-advertisers-per-click/"
         },
         {
-          "clicks": 123,
+          "clicks": 126,
           "date": "2025-12-17T15:14:45.215830+00:00",
           "headline": "Leviathan News launches first AI-native advertising network with SerenAI x402 on Base",
           "hot_score": 128.126325,
@@ -369,7 +439,7 @@
           "url": "https://decrypt.co/353166/how-pudgy-penguins-landed-las-vegas-sphere-dogwifhat-couldnt"
         },
         {
-          "clicks": 51,
+          "clicks": 55,
           "date": "2026-01-08T06:04:59.285997+00:00",
           "headline": "The SQUID Pass auction for next week is live - who will get the best deal in DeFi advertising on the market, with our pinned posts on Telegram and X for the entire week?\n\nBid now on our app, much more conveniently than before, on Mainnet, with either WETH or crvUSD",
           "hot_score": 46.937619,
@@ -387,7 +457,7 @@
           "url": "https://leviathannews.xyz/auctions/1/0xfF737F349e40418Abd9D7b3c865683f93cA3c890/14"
         },
         {
-          "clicks": 139,
+          "clicks": 142,
           "date": "2024-12-14T21:35:43.810470+00:00",
           "headline": "A little over 70 hours to go - who will get to have the pinned posts on our Telegram and X available for advertising for a whole week?! Leviathan News",
           "hot_score": 0.0,
@@ -403,21 +473,12 @@
           "lev_url": "https://leviathannews.xyz/4813/blackrock-launches-bitcoin-etf-advertising-campaign-on-bloombergs-homepage",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240411231131_sb0s1TVlMQ==.jpg",
           "url": "https://twitter.com/WatcherGuru/status/1778471816073298316?t=7J6aFJlg5g8-BhJueLHwqw&s=19"
-        },
-        {
-          "clicks": 100,
-          "date": "2025-03-13T15:25:36.154831+00:00",
-          "headline": "Under 24 hours to go on our three open auction sponsored content slots - the best deal in DeFi advertising, and it's not even close. Get some $SQUID on Fraxtal and participate (or use wETH).\n\nNot one closer thing to free marketing in the industry right now",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/9890/under-24-hours-to-go-on-our-three-open-auction-sponsored-content-slots-the-best-deal-in-defi-advertising-and-its-not-even-close-get-some-squid-on-fraxtal-and-participate-or-use-wet",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250313152130_XzP_9zwpgMY=.jpg",
-          "url": "https://auction.leviathannews.xyz/auctions/7"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:14:13.000675+00:00",
+      "as_of": "2026-07-29T22:55:02.171982+00:00",
       "editorial": [
         {
           "count": 3,
@@ -454,13 +515,17 @@
         {
           "count": 1,
           "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
         }
       ],
-      "editorial_distinct": 9,
+      "editorial_distinct": 10,
       "provenance": "data",
       "universe": [
         {
-          "count": 8,
+          "count": 10,
           "source": "x.com"
         },
         {
@@ -482,9 +547,17 @@
         {
           "count": 1,
           "source": "blog.sui.io"
+        },
+        {
+          "count": 1,
+          "source": "timesofindia.indiatimes.com"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
         }
       ],
-      "universe_distinct": 6
+      "universe_distinct": 8
     }
   },
   "official_links": [],
@@ -495,42 +568,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:14.414497+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.223,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0061,
-        "lift_log": 2.613,
-        "score": 0.2233,
-        "shared": 3
-      },
-      "rationale": "Google is a major competitor in digital advertising.",
-      "relation_type": "peer",
-      "slug": "google",
-      "source": "cotag",
-      "tag_name": "Google",
-      "title": "Google, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.241,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0368,
-        "lift_log": 4.879,
-        "score": 0.2413,
-        "shared": 3
-      },
-      "rationale": "WETH is used as a token for transactions in advertising platforms.",
-      "relation_type": "infrastructure",
-      "slug": "weth",
-      "source": "cotag",
-      "tag_name": "WETH",
-      "title": "WETH: Complete Guide",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "advertising",
   "tag_name": "Advertising",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:47:17.900426+00:00",
-      "newsroom_total": 103,
-      "overall_share": 41,
+      "as_of": "2026-07-29T23:02:55.755126+00:00",
+      "newsroom_total": 109,
+      "overall_share": 36,
       "provenance": "data",
       "series": [
         {
@@ -143,62 +143,103 @@
           "month": "2026-06",
           "newsroom": 9,
           "universe": 41
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-07",
+          "newsroom": 6,
+          "universe": 46
         }
       ],
-      "total_universe": 249,
-      "universe_total": 146
+      "total_universe": 301,
+      "universe_total": 192
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:47:17.308804+00:00",
+      "as_of": "2026-07-29T23:02:55.190212+00:00",
       "edges": [
         {
+          "confidence": 0.357,
+          "description": "Co-covered in 35 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "openai",
-          "phrase": "ChatGPT is a flagship product built and shipped by OpenAI.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-21",
+          "phrase": "Co-covered in 35 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "chatgpt",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 36
         },
         {
+          "confidence": 0.203,
+          "description": "Co-covered in 39 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "openai",
-          "phrase": "Anthropic is a direct competitor in the AI safety and LLM space.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 39 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "anthropic",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.176,
+          "description": "Co-covered in 15 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "openai",
-          "phrase": "Microsoft is a key investor and integration partner for OpenAI.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 15 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "microsoft",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.173,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "openai",
-          "phrase": "xAI is a competitor founded by Elon Musk, focusing on AI.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "xai",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.17,
+          "description": "Co-covered in 12 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "openai",
-          "phrase": "Nvidia provides the GPUs that power OpenAI's training and inference.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 12 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "nvidia",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -212,42 +253,62 @@
         },
         {
           "center": false,
+          "confidence": 0.357,
           "name": "ChatGPT",
+          "observed_at": "2026-07-21",
           "slug": "chatgpt",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 36
         },
         {
           "center": false,
+          "confidence": 0.203,
           "name": "Anthropic",
+          "observed_at": "2026-07-27",
           "slug": "anthropic",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.176,
           "name": "Microsoft",
+          "observed_at": null,
           "slug": "microsoft",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.173,
           "name": "xAI",
+          "observed_at": null,
           "slug": "xai",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.17,
           "name": "Nvidia",
+          "observed_at": null,
           "slug": "nvidia",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -316,17 +377,17 @@
       "source": "https://openai.com/index/evolving-our-structure/"
     },
     "reader_signal": {
-      "article_count": 103,
-      "as_of": "2026-07-01T11:47:18.638053+00:00",
+      "article_count": 109,
+      "as_of": "2026-07-29T23:02:56.079631+00:00",
       "most_clicked": {
-        "clicks": 344,
+        "clicks": 350,
         "date": "2024-12-09T17:06:24.364634+00:00",
         "headline": "OpenAI’s video generator Sora is launching today.",
         "lev_url": "https://leviathannews.xyz/8151/openais-video-generator-sora-is-launching-today"
       },
       "provenance": "data",
-      "top_decile_share": 32,
-      "total_clicks": 6846
+      "top_decile_share": 30,
+      "total_clicks": 7246
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:37:39.067049+00:00",
@@ -411,10 +472,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:47:18.551446+00:00",
+      "as_of": "2026-07-29T23:02:56.072156+00:00",
       "items": [
         {
-          "clicks": 56,
+          "clicks": 59,
           "date": "2026-04-11T08:14:58.763126+00:00",
           "headline": "OpenAI mandates macOS app updates after Axios supply chain attack exposes code signing certificates",
           "hot_score": 30625.656098,
@@ -423,7 +484,7 @@
           "url": "https://x.com/OpenAI/status/2042780052669239782"
         },
         {
-          "clicks": 62,
+          "clicks": 64,
           "date": "2026-04-08T19:01:50.045459+00:00",
           "headline": "OpenAI Foundation commits $100M+ to AI-driven Alzheimer’s research, backing drug design, biomarkers, and datasets to crack medicine’s toughest disease",
           "hot_score": 12217.704033,
@@ -432,7 +493,7 @@
           "url": "https://openaifoundation.org/news/ai-for-alzheimers"
         },
         {
-          "clicks": 36,
+          "clicks": 40,
           "date": "2026-04-13T20:36:10.329336+00:00",
           "headline": "Coinbase international policy VP Tom Duff Gordon departs for OpenAI to lead EMEA policy",
           "hot_score": 3929.399571,
@@ -441,7 +502,7 @@
           "url": "https://www.coindesk.com/policy/2026/04/13/coinbase-vp-of-international-policy-leaves-the-exchange-for-openai"
         },
         {
-          "clicks": 59,
+          "clicks": 60,
           "date": "2026-04-11T13:15:11.906249+00:00",
           "headline": "OpenAI CEO Sam Altman speaks out after Molotov attack on his home, reflecting on AI fears, personal mistakes, and the need to democratize powerful technology amid rising tensions",
           "hot_score": 2899.256098,
@@ -450,7 +511,7 @@
           "url": "https://x.com/i/status/2042738954550603884"
         },
         {
-          "clicks": 51,
+          "clicks": 52,
           "date": "2026-04-16T19:41:51.990628+00:00",
           "headline": "OpenAI expands cybersecurity push with GPT-5.4-Cyber access for US and UK agencies, partnering with banks and tech giants to strengthen global AI defense systems",
           "hot_score": 2297.429709,
@@ -468,7 +529,7 @@
           "url": "https://openai.com/index/introducing-gpt-rosalind"
         },
         {
-          "clicks": 39,
+          "clicks": 40,
           "date": "2026-04-16T21:37:57.410557+00:00",
           "headline": "OpenAI turns Codex into desktop super app with computer use, built-in browser, image gen, and 90+ plugins",
           "hot_score": 2042.628882,
@@ -477,7 +538,7 @@
           "url": "https://decrypt.co/364670/codex-computer-use-browser-image-gen-openai-super-app/"
         },
         {
-          "clicks": 45,
+          "clicks": 46,
           "date": "2026-04-11T05:32:20.785550+00:00",
           "headline": "Binance Wallet launches onchain pre-IPO section with tokenized SpaceX and OpenAI among first five assets",
           "hot_score": 1674.724494,
@@ -489,10 +550,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:47:18.403382+00:00",
+      "as_of": "2026-07-29T23:02:56.053475+00:00",
       "editorial": [
         {
-          "count": 18,
+          "count": 20,
           "source": "x.com"
         },
         {
@@ -508,7 +569,7 @@
           "source": "decrypt.co"
         },
         {
-          "count": 6,
+          "count": 7,
           "source": "axios.com"
         },
         {
@@ -528,39 +589,39 @@
           "source": "reuters.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "testingcatalog.com"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
         },
         {
           "count": 2,
           "source": "wsj.com"
-        },
-        {
-          "count": 2,
-          "source": "coindesk.com"
         }
       ],
-      "editorial_distinct": 37,
+      "editorial_distinct": 38,
       "provenance": "data",
       "universe": [
         {
-          "count": 57,
+          "count": 77,
           "source": "x.com"
         },
         {
-          "count": 48,
+          "count": 64,
           "source": "decrypt.co"
         },
         {
-          "count": 13,
+          "count": 15,
           "source": "openai.com"
         },
         {
-          "count": 6,
+          "count": 9,
           "source": "cointelegraph.com"
         },
         {
-          "count": 4,
+          "count": 6,
           "source": "coindesk.com"
         },
         {
@@ -592,7 +653,7 @@
           "source": "aethir.com"
         }
       ],
-      "universe_distinct": 18
+      "universe_distinct": 21
     }
   },
   "official_links": [
@@ -609,42 +670,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:46.292281+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.203,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0764,
-        "lift_log": 3.548,
-        "score": 0.2033,
-        "shared": 31
-      },
-      "rationale": "Anthropic is a direct competitor in the AI safety and LLM space.",
-      "relation_type": "peer",
-      "slug": "anthropic",
-      "source": "cotag",
-      "tag_name": "Anthropic",
-      "title": "Anthropic, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.357,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1038,
-        "lift_log": 4.465,
-        "score": 0.3573,
-        "shared": 33
-      },
-      "rationale": "ChatGPT is a flagship product built and shipped by OpenAI.",
-      "relation_type": "product",
-      "slug": "chatgpt",
-      "source": "cotag",
-      "tag_name": "ChatGPT",
-      "title": "ChatGPT, Explained",
-      "weight": 36
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "openai",
   "tag_name": "OpenAI",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:03:08.548803+00:00",
+      "as_of": "2026-07-29T22:57:50.621805+00:00",
       "newsroom_total": 62,
-      "overall_share": 95,
+      "overall_share": 90,
       "provenance": "data",
       "series": [
         {
@@ -161,62 +161,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 4
         }
       ],
-      "total_universe": 65,
-      "universe_total": 3
+      "total_universe": 69,
+      "universe_total": 7
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:03:07.940199+00:00",
+      "as_of": "2026-07-29T22:57:50.083864+00:00",
       "edges": [
         {
+          "confidence": 0.337,
+          "description": "Co-covered in 8 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cryptocurrency-bill",
-          "phrase": "Both are proposed laws regulating different crypto sectors.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-12",
+          "phrase": "Co-covered in 8 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "stablecoin-bill",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 34
         },
         {
+          "confidence": 0.302,
+          "description": "Co-covered in 3 approved stories; most recently December 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cryptocurrency-bill",
-          "phrase": "Cryptocurrency Bill is a type of legislation.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-12-21",
+          "phrase": "Co-covered in 3 approved stories; most recently December 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "legislation",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.245,
+          "description": "Co-covered in 5 approved stories; most recently November 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cryptocurrency-bill",
-          "phrase": "Congress deliberates and passes the bill.",
-          "relation_type": "governance",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-11-05",
+          "phrase": "Co-covered in 5 approved stories; most recently November 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "congress",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.238,
+          "description": "Co-covered in 11 approved stories; most recently November 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cryptocurrency-bill",
-          "phrase": "Another bill addressing broader crypto market rules.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-11-10",
+          "phrase": "Co-covered in 11 approved stories; most recently November 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "crypto-market-structure-bill",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.198,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cryptocurrency-bill",
-          "phrase": "Related bill proposing a strategic bitcoin reserve.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin-reserve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         }
       ],
@@ -230,42 +271,62 @@
         },
         {
           "center": false,
+          "confidence": 0.337,
           "name": "Stablecoin Bill",
+          "observed_at": "2026-05-12",
           "slug": "stablecoin-bill",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 34
         },
         {
           "center": false,
+          "confidence": 0.302,
           "name": "Legislation",
+          "observed_at": "2025-12-21",
           "slug": "legislation",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.245,
           "name": "Congress",
+          "observed_at": "2025-11-05",
           "slug": "congress",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 24
-        },
-        {
-          "center": false,
-          "name": "Crypto Market Structure Bill",
-          "slug": "crypto-market-structure-bill",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 24
-        },
-        {
-          "center": false,
-          "name": "Bitcoin Reserve",
-          "slug": "bitcoin-reserve",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 24
+        },
+        {
+          "center": false,
+          "confidence": 0.238,
+          "name": "Crypto Market Structure Bill",
+          "observed_at": "2025-11-10",
+          "slug": "crypto-market-structure-bill",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 24
+        },
+        {
+          "center": false,
+          "confidence": 0.198,
+          "name": "Bitcoin Reserve",
+          "observed_at": null,
+          "slug": "bitcoin-reserve",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         }
       ],
@@ -335,16 +396,16 @@
     },
     "reader_signal": {
       "article_count": 64,
-      "as_of": "2026-07-01T12:03:09.992965+00:00",
+      "as_of": "2026-07-29T22:57:51.212887+00:00",
       "most_clicked": {
-        "clicks": 400,
+        "clicks": 403,
         "date": "2024-09-11T17:00:58.153848+00:00",
         "headline": "A new bill introduced to Parliament in the UK would classify cryptocurrencies as \"personal property\", clarifying their status in disputes.",
         "lev_url": "https://leviathannews.xyz/6939/a-new-bill-introduced-to-parliament-in-the-uk-would-classify-cryptocurrencies-as-personal-property-clarifying-their-status-in-disputes"
       },
       "provenance": "data",
       "top_decile_share": 30,
-      "total_clicks": 4057
+      "total_clicks": 4137
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:35:55.695433+00:00",
@@ -429,10 +490,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:03:09.902458+00:00",
+      "as_of": "2026-07-29T22:57:51.199428+00:00",
       "items": [
         {
-          "clicks": 62,
+          "clicks": 65,
           "date": "2025-12-12T09:39:31.517644+00:00",
           "headline": "Poland’s government has reintroduced its rejected crypto bill unchanged, framing it as a national-security necessity despite President Nawrocki’s veto. Critics argue the law exceeds MiCA, threatens civil liberties, and could drive Poland’s crypto sector abroad.",
           "hot_score": 89.466725,
@@ -441,7 +502,7 @@
           "url": "https://cryptonews.com/news/polish-government-defies-president-reintroduces-identical-crypto-law/?feed_id=24522&_unique_id=693bd5b59d373"
         },
         {
-          "clicks": 49,
+          "clicks": 50,
           "date": "2025-12-21T15:23:11.784336+00:00",
           "headline": "Indiana State Rep. Kyle Pierce introduced a broad crypto bill arguing U.S. legislation shouldn’t favor Bitcoin alone, aiming to support the wider digital asset market, protect miners, and expand crypto exposure in public retirement programs.",
           "hot_score": 58.754648,
@@ -450,7 +511,7 @@
           "url": "https://decrypt.co/352795/crypto-bills-shouldnt-bitcoin-bust-says-indiana-lawmaker"
         },
         {
-          "clicks": 22,
+          "clicks": 24,
           "date": "2025-12-09T07:01:38.996577+00:00",
           "headline": "Sen. Bernie Moreno says crypto bill talks have been “decently frustrating” as Senate and House struggle to align on market-structure rules, agency jurisdiction, and DeFi/stablecoin language, with year-end timelines increasingly uncertain.",
           "hot_score": 27.173067,
@@ -459,7 +520,7 @@
           "url": "https://www.theblock.co/post/381815/sen-moreno-calls-crypto-bill-talks-decently-frustrating-as-senate-races-toward-year-end-goal-posts?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 400,
+          "clicks": 403,
           "date": "2024-09-11T17:00:58.153848+00:00",
           "headline": "A new bill introduced to Parliament in the UK would classify cryptocurrencies as \"personal property\", clarifying their status in disputes.",
           "hot_score": 0.0,
@@ -468,7 +529,7 @@
           "url": "https://www.gov.uk/government/news/new-bill-introduced-in-parliament-to-clarify-cryptos-legal-status"
         },
         {
-          "clicks": 196,
+          "clicks": 205,
           "date": "2023-10-27T08:30:24.957792+00:00",
           "headline": "Taiwan introduces new crypto bill, requiring all platforms to obtain permit for operation.",
           "hot_score": 0.0,
@@ -477,22 +538,22 @@
           "url": "https://www.theblock.co/post/259726/taiwan-officially-proposes-crypto-bill-with-first-reading-passed-at-parliament"
         },
         {
-          "clicks": 162,
-          "date": "2023-04-28T07:58:28.875895+00:00",
-          "headline": "Sens. Warren, Marshall delay reintroducing Crypto Bill due to lack of sponsors",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/782/sens-warren-marshall-delay-reintroducing-crypto-bill-due-to-lack-of-sponsors",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://blockworks.co/news/warren-crypto-bill-delayed"
-        },
-        {
-          "clicks": 159,
+          "clicks": 179,
           "date": "2024-08-15T05:23:38.035034+00:00",
           "headline": "Senate Majority Leader Schumer confident in passing bipartisan Crypto Regulation Bill before year's end.",
           "hot_score": 0.0,
           "lev_url": "https://leviathannews.xyz/6645/senate-majority-leader-schumer-confident-in-passing-bipartisan-crypto-regulation-bill-before-years-end",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240815052220_V6VTINkwqA==.jpeg",
           "url": "https://www.cnbc.com/2024/08/14/schumer-says-crypto-legislation-can-pass-the-senate-this-year-on-crypto4harris-.html"
+        },
+        {
+          "clicks": 175,
+          "date": "2023-04-28T07:58:28.875895+00:00",
+          "headline": "Sens. Warren, Marshall delay reintroducing Crypto Bill due to lack of sponsors",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/782/sens-warren-marshall-delay-reintroducing-crypto-bill-due-to-lack-of-sponsors",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://blockworks.co/news/warren-crypto-bill-delayed"
         },
         {
           "clicks": 156,
@@ -507,7 +568,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:03:09.789315+00:00",
+      "as_of": "2026-07-29T22:57:51.166907+00:00",
       "editorial": [
         {
           "count": 19,
@@ -562,6 +623,10 @@
       "provenance": "data",
       "universe": [
         {
+          "count": 4,
+          "source": "tass.ru"
+        },
+        {
           "count": 1,
           "source": "thehill.com"
         },
@@ -571,10 +636,10 @@
         },
         {
           "count": 1,
-          "source": "tass.ru"
+          "source": "politico.com"
         }
       ],
-      "universe_distinct": 3
+      "universe_distinct": 4
     }
   },
   "official_links": [],
@@ -585,76 +650,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:25.237486+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.245,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0119,
-        "lift_log": 3.025,
-        "score": 0.2448,
-        "shared": 5
-      },
-      "rationale": "Congress deliberates and passes the bill.",
-      "relation_type": "governance",
-      "slug": "congress",
-      "source": "cotag",
-      "tag_name": "Congress",
-      "title": "Congress, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.238,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0525,
-        "lift_log": 4.644,
-        "score": 0.2382,
-        "shared": 11
-      },
-      "rationale": "Another bill addressing broader crypto market rules.",
-      "relation_type": "peer",
-      "slug": "crypto-market-structure-bill",
-      "source": "cotag",
-      "tag_name": "Crypto Market Structure Bill",
-      "title": "Crypto Market Structure Bill, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.302,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0229,
-        "lift_log": 4.165,
-        "score": 0.3022,
-        "shared": 3
-      },
-      "rationale": "Cryptocurrency Bill is a type of legislation.",
-      "relation_type": "category",
-      "slug": "legislation",
-      "source": "cotag",
-      "tag_name": "Legislation",
-      "title": "Legislation, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.337,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1175,
-        "lift_log": 6.153,
-        "score": 0.337,
-        "shared": 8
-      },
-      "rationale": "Both are proposed laws regulating different crypto sectors.",
-      "relation_type": "peer",
-      "slug": "stablecoin-bill",
-      "source": "cotag",
-      "tag_name": "Stablecoin Bill",
-      "title": "Stablecoin Bill, Explained",
-      "weight": 34
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "cryptocurrency-bill",
   "tag_name": "Cryptocurrency Bill",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:46:42.006124+00:00",
-      "newsroom_total": 102,
-      "overall_share": 69,
+      "as_of": "2026-07-29T23:02:35.759178+00:00",
+      "newsroom_total": 103,
+      "overall_share": 54,
       "provenance": "data",
       "series": [
         {
@@ -217,66 +217,101 @@
           "universe": 4
         },
         {
-          "ed_share": 0,
+          "ed_share": 2,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 1
+          "newsroom": 1,
+          "universe": 43
         }
       ],
-      "total_universe": 148,
-      "universe_total": 46
+      "total_universe": 191,
+      "universe_total": 88
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:46:41.658951+00:00",
+      "as_of": "2026-07-29T23:02:33.019078+00:00",
       "edges": [
         {
+          "confidence": 0.358,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "net-inflows",
-          "phrase": "ETFs are products that drive net inflows into crypto markets.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "etfs",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 36
         },
         {
+          "confidence": 0.221,
+          "description": "Co-covered in 205 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "net-inflows",
-          "phrase": "Bitcoin's price and flows are a key component of net inflows.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 205 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.196,
+          "description": "Co-covered in 93 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "net-inflows",
-          "phrase": "ETF products directly contribute to net inflows data.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 93 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "etf",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.194,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "net-inflows",
-          "phrase": "Hype can drive speculative net inflows.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "hype",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 11 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "net-inflows",
-          "phrase": "Fidelity's crypto offerings influence net inflows.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 11 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "fidelity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -290,42 +325,62 @@
         },
         {
           "center": false,
+          "confidence": 0.358,
           "name": "ETFs",
+          "observed_at": null,
           "slug": "etfs",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 36
         },
         {
           "center": false,
+          "confidence": 0.221,
           "name": "Bitcoin",
+          "observed_at": "2026-07-28",
           "slug": "bitcoin",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.196,
           "name": "ETF",
+          "observed_at": null,
           "slug": "etf",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.194,
           "name": "HYPE",
+          "observed_at": null,
           "slug": "hype",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "Fidelity",
+          "observed_at": null,
           "slug": "fidelity",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -394,17 +449,17 @@
       "source": "https://www.tradingview.com/news/cointelegraph:26615bead094b:0-what-are-etf-fund-flows-and-why-do-they-matter/"
     },
     "reader_signal": {
-      "article_count": 102,
-      "as_of": "2026-07-01T11:46:42.780894+00:00",
+      "article_count": 103,
+      "as_of": "2026-07-29T23:02:36.966551+00:00",
       "most_clicked": {
-        "clicks": 361,
+        "clicks": 362,
         "date": "2024-09-14T17:43:36.399802+00:00",
         "headline": "US spot Bitcoin ETFs record $263M inflows in largest single-day increase since July, led by Fidelity's FBTC amid Bitcoin's surge above $60,000.",
         "lev_url": "https://leviathannews.xyz/6973/us-spot-bitcoin-etfs-record-263m-inflows-in-largest-single-day-increase-since-july-led-by-fidelitys-fbtc-amid-bitcoins-surge-above-60000"
       },
       "provenance": "data",
       "top_decile_share": 30,
-      "total_clicks": 6598
+      "total_clicks": 6754
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:20:32.484459+00:00",
@@ -489,19 +544,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:46:42.700866+00:00",
+      "as_of": "2026-07-29T23:02:36.949937+00:00",
       "items": [
         {
-          "clicks": 17,
+          "clicks": 28,
           "date": "2026-06-29T10:28:50.640982+00:00",
           "headline": "India's USDT premium tops 8.5% after ED crackdown cuts stablecoin remittance inflows",
-          "hot_score": 2593.600907,
+          "hot_score": 805.189814,
           "lev_url": "https://leviathannews.xyz/264511/indias-usdt-premium-tops-85-after-ed-crackdown-cuts-stablecoin-remittance-inflows",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629102820_Z4zrlaiDPw==.png",
           "url": "https://economictimes.indiatimes.com/news/india/supply-crunch-lifts-stablecoin-premium-above-8-5-in-india/articleshow/132057502.cms"
         },
         {
-          "clicks": 185,
+          "clicks": 188,
           "date": "2026-02-26T21:34:40.478807+00:00",
           "headline": "Retail investors now treat crypto and equities as substitutes, with equity inflows draining momentum from altcoins according to Wintermute data.",
           "hot_score": 728.64491,
@@ -510,7 +565,7 @@
           "url": "https://x.com/i/status/2027006538653880495"
         },
         {
-          "clicks": 30,
+          "clicks": 32,
           "date": "2026-06-08T11:35:35.771202+00:00",
           "headline": "Crypto markets rebounded ahead of a pivotal week, but analysts warn upcoming IPOs from SpaceX and Anthropic could divert capital away from digital assets without stronger ETF inflows",
           "hot_score": 692.752629,
@@ -519,7 +574,16 @@
           "url": "https://www.coindesk.com/daybook-us/2026/06/08/crypto-s-recovery-remains-unsecure-as-spacex-anthropic-ipos-loom-stronger-etf-inflows-would-help"
         },
         {
-          "clicks": 48,
+          "clicks": 63,
+          "date": "2026-07-03T22:51:28.395198+00:00",
+          "headline": "CryptoQuant warns of heightened volatility as bitcoin exchange deposits near 49,000 BTC, with whale inflows historically preceding major market moves",
+          "hot_score": 628.822257,
+          "lev_url": "https://leviathannews.xyz/268587/cryptoquant-warns-of-heightened-volatility-as-bitcoin-exchange-deposits-near-49000-btc-with-whale-inflows-historically-preceding-major-market-moves",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260703195137_ELZPY3Vl6zSr.jpg",
+          "url": "https://www.theblock.co/post/407160/cryptoquant-bitcoin-ether-altcoin-exchange-deposits-volatility?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 50,
           "date": "2026-05-04T13:54:01.322969+00:00",
           "headline": "Dune data confirms “Pendle Effect” as PT/YT markets drive token demand surges, boosting holders, supply, and capital inflows via yield tokenization and DeFi composability",
           "hot_score": 540.2,
@@ -528,7 +592,7 @@
           "url": "https://x.com/i/web/status/2051286497974980686"
         },
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2026-04-20T08:41:05.272989+00:00",
           "headline": "Spot bitcoin etfs log nearly $1 billion in weekly inflows, highest since mid-january",
           "hot_score": 509.0,
@@ -537,7 +601,7 @@
           "url": "https://www.theblock.co/post/398044/spot-bitcoin-etfs-1-billion-weekly-inflows?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 39,
+          "clicks": 41,
           "date": "2026-06-05T15:04:57.226856+00:00",
           "headline": "Bitcoin and ether ETFs snap 13- and 17-day outflow streaks with $22.4M in inflows",
           "hot_score": 432.964974,
@@ -546,28 +610,19 @@
           "url": "https://www.theblock.co/post/403805/bitcoin-ether-etfs-end-13-and-17-day-outflow-streaks-as-traders-rotate-into-equity-perps-ahead-of-nfp-analysts"
         },
         {
-          "clicks": 24,
+          "clicks": 28,
           "date": "2026-06-10T20:46:12.868965+00:00",
           "headline": "BlackRock and Fidelity cement spot bitcoin ETF duopoly as IBIT and FBTC dominate 2026 inflows despite 29% BTC slide",
           "hot_score": 406.991644,
           "lev_url": "https://leviathannews.xyz/255406/blackrock-and-fidelity-cement-spot-bitcoin-etf-duopoly-as-ibit-and-fbtc-dominate-2026-inflows-despite-29-btc-slide",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260610183445_Z4zrlaiDPw==.png",
           "url": "https://www.coindesk.com/markets/2026/06/10/blackrock-and-fidelity-are-quietly-turning-bitcoin-etfs-into-a-two-firm-market"
-        },
-        {
-          "clicks": 39,
-          "date": "2026-04-28T04:23:04.031126+00:00",
-          "headline": "Stablecoin flywheel driving “capital suck” as $1B inflows generate ~$122B activity, reinforcing onchain growth and making capital migration structurally irreversible",
-          "hot_score": 353.6,
-          "lev_url": "https://leviathannews.xyz/236885/stablecoin-flywheel-driving-capital-suck-as-1b-inflows-generate-122b-activity-reinforcing-onchain-growth-and-making-capital-migration-structurally-irreversible",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260427213755_Cz8VLlKBUbjU.jpg",
-          "url": "https://x.com/i/status/2048837866038415690"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:46:42.582874+00:00",
+      "as_of": "2026-07-29T23:02:36.920723+00:00",
       "editorial": [
         {
           "count": 20,
@@ -578,7 +633,7 @@
           "source": "coindesk.com"
         },
         {
-          "count": 13,
+          "count": 14,
           "source": "theblock.co"
         },
         {
@@ -622,7 +677,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 42,
+          "count": 84,
           "source": "x.com"
         },
         {
@@ -649,42 +704,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:44.844491+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.221,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0264,
-        "lift_log": 1.875,
-        "score": 0.2208,
-        "shared": 150
-      },
-      "rationale": "Bitcoin's price and flows are a key component of net inflows.",
-      "relation_type": "peer",
-      "slug": "bitcoin",
-      "source": "cotag",
-      "tag_name": "Bitcoin",
-      "title": "Bitcoin, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.358,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1466,
-        "lift_log": 3.822,
-        "score": 0.3578,
-        "shared": 107
-      },
-      "rationale": "ETFs are products that drive net inflows into crypto markets.",
-      "relation_type": "product",
-      "slug": "etfs",
-      "source": "cotag",
-      "tag_name": "ETFs",
-      "title": "ETFs, Explained",
-      "weight": 36
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "net-inflows",
   "tag_name": "Net Inflows",

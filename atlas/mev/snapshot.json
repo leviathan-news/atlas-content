@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:56:41.937382+00:00",
+      "as_of": "2026-07-29T23:01:55.624796+00:00",
       "newsroom_total": 89,
-      "overall_share": 66,
+      "overall_share": 60,
       "provenance": "data",
       "series": [
         {
@@ -209,62 +209,103 @@
           "month": "2026-06",
           "newsroom": 3,
           "universe": 14
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 14
         }
       ],
-      "total_universe": 135,
-      "universe_total": 46
+      "total_universe": 149,
+      "universe_total": 60
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:56:41.382404+00:00",
+      "as_of": "2026-07-29T23:01:53.841678+00:00",
       "edges": [
         {
+          "confidence": 0.243,
+          "description": "Co-covered in 4 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "mev",
-          "phrase": "MEV is extracted from transaction ordering in blocks.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-17",
+          "phrase": "Co-covered in 4 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "transaction",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.212,
+          "description": "Co-covered in 6 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "mev",
-          "phrase": "Validators order transactions, enabling MEV extraction.",
-          "relation_type": "protocol",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-18",
+          "phrase": "Co-covered in 6 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "validators",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.205,
+          "description": "Co-covered in 4 approved stories; most recently June 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "mev",
-          "phrase": "COW token is the governance token of CoW DAO, which addresses MEV.",
-          "relation_type": "token",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-06-02",
+          "phrase": "Co-covered in 4 approved stories; most recently June 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cow-token",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "mev",
-          "phrase": "CoW Swap is a DEX that uses batch auctions to mitigate MEV.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cowswap",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.178,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "mev",
-          "phrase": "RPC endpoints are used to submit transactions and observe MEV opportunities.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "rpc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -278,42 +319,62 @@
         },
         {
           "center": false,
+          "confidence": 0.243,
           "name": "Transaction",
+          "observed_at": "2026-04-17",
           "slug": "transaction",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.212,
           "name": "Validators",
+          "observed_at": "2026-04-18",
           "slug": "validators",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "COW",
-          "slug": "cow-token",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "CoW DAO",
-          "slug": "cowswap",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.205,
+          "name": "COW",
+          "observed_at": "2025-06-02",
+          "slug": "cow-token",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.186,
+          "name": "CoW DAO",
+          "observed_at": null,
+          "slug": "cowswap",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.178,
           "name": "RPC",
+          "observed_at": null,
           "slug": "rpc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -371,16 +432,16 @@
     },
     "reader_signal": {
       "article_count": 89,
-      "as_of": "2026-07-01T11:56:42.594591+00:00",
+      "as_of": "2026-07-29T23:01:57.450425+00:00",
       "most_clicked": {
-        "clicks": 1306,
+        "clicks": 1312,
         "date": "2024-03-22T12:26:52.819649+00:00",
         "headline": "Prisma Risk team historical analysis between oracles: \"Implementing the Curve Oracle would have resulted in decreased MEV by bots and provided a better exchange rate for users\"",
         "lev_url": "https://leviathannews.xyz/4340/prisma-risk-team-historical-analysis-between-oracles-implementing-the-curve-oracle-would-have-resulted-in-decreased-mev-by-bots-and-provided-a-better-exchange-rate-for-users"
       },
       "provenance": "data",
       "top_decile_share": 37,
-      "total_clicks": 10249
+      "total_clicks": 10331
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:23:40.025643+00:00",
@@ -465,10 +526,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:56:42.466383+00:00",
+      "as_of": "2026-07-29T23:01:57.432997+00:00",
       "items": [
         {
-          "clicks": 74,
+          "clicks": 75,
           "date": "2026-04-08T08:40:15.216855+00:00",
           "headline": "Jito Labs CEO calls MEV “functionally useless,” saying most risks are solved as networks like Solana evolve toward efficient transaction ordering value and reduced exploitability",
           "hot_score": 29500.632876,
@@ -477,7 +538,7 @@
           "url": "https://x.com/i/status/2041541434008866970"
         },
         {
-          "clicks": 44,
+          "clicks": 45,
           "date": "2026-04-15T19:12:42.530166+00:00",
           "headline": "Ethereum’s EIP-8105 proposes encrypted mempool design to hide transaction data until inclusion, aiming to reduce MEV exploitation and improve network fairness",
           "hot_score": 5558.002108,
@@ -486,7 +547,7 @@
           "url": "https://cointelegraph.com/research/eip-8105-a-new-design-for-ethereums-encrypted-mempool"
         },
         {
-          "clicks": 41,
+          "clicks": 43,
           "date": "2026-04-15T22:13:11.824470+00:00",
           "headline": "Aerodrome ships flashblock-optimized fees, anti-MEV gauges, and cross-chain metaswaps ahead of July Aero launch",
           "hot_score": 2968.506697,
@@ -495,16 +556,16 @@
           "url": "https://medium.com/@aerodromefi/upgrades-for-a-supersonic-era-1861487f40c6"
         },
         {
-          "clicks": 18,
+          "clicks": 30,
           "date": "2026-06-29T11:59:20.285095+00:00",
           "headline": "Fhenix bets Fully Homomorphic Encryption will power confidential finance, enabling private stablecoins, MEV-resistant DeFi, and encrypted smart contracts",
-          "hot_score": 2632.011417,
+          "hot_score": 806.271794,
           "lev_url": "https://leviathannews.xyz/264554/the-future-of-confidential-finance-is-hiding-in-plain-sight",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629114612_QMxkVFqDGgg2.jpg",
           "url": "https://x.com/blocmates/status/2071553258896732583"
         },
         {
-          "clicks": 46,
+          "clicks": 49,
           "date": "2026-05-15T22:51:12.662063+00:00",
           "headline": "Aave V4 integrates Chainlink SVR feeds to redirect liquidation MEV back to the DAO, expanding a revenue stream that has already returned $11M since 2025",
           "hot_score": 729.4,
@@ -513,7 +574,7 @@
           "url": "https://x.com/i/web/status/2055334443758354903"
         },
         {
-          "clicks": 18,
+          "clicks": 23,
           "date": "2026-06-22T13:21:17.711064+00:00",
           "headline": "Ethereum Foundation CSA operator says fighting toxic MEV, expanding privacy, decentralizing staking, and preserving permissionless access are now core strategic priorities",
           "hot_score": 566.56881,
@@ -543,7 +604,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:56:42.379915+00:00",
+      "as_of": "2026-07-29T23:01:57.375683+00:00",
       "editorial": [
         {
           "count": 53,
@@ -598,7 +659,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 26,
+          "count": 39,
           "source": "x.com"
         },
         {
@@ -646,7 +707,7 @@
           "source": "hedera.com"
         }
       ],
-      "universe_distinct": 16
+      "universe_distinct": 17
     }
   },
   "official_links": [],
@@ -657,59 +718,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:43.352716+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.205,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0161,
-        "lift_log": 4.298,
-        "score": 0.2052,
-        "shared": 4
-      },
-      "rationale": "COW token is the governance token of CoW DAO, which addresses MEV.",
-      "relation_type": "token",
-      "slug": "cow-token",
-      "source": "cotag",
-      "tag_name": "COW",
-      "title": "COW: Complete Guide",
-      "weight": 21
-    },
-    {
-      "confidence": 0.243,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.014,
-        "lift_log": 2.961,
-        "score": 0.2429,
-        "shared": 4
-      },
-      "rationale": "MEV is extracted from transaction ordering in blocks.",
-      "relation_type": "primitive",
-      "slug": "transaction",
-      "source": "cotag",
-      "tag_name": "Transaction",
-      "title": "Transaction, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.212,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0114,
-        "lift_log": 2.317,
-        "score": 0.2123,
-        "shared": 6
-      },
-      "rationale": "Validators order transactions, enabling MEV extraction.",
-      "relation_type": "protocol",
-      "slug": "validators",
-      "source": "cotag",
-      "tag_name": "Validators",
-      "title": "Validators, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "mev",
   "tag_name": "MEV",

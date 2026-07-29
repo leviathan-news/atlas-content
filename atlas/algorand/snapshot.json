@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:16:27.059434+00:00",
+      "as_of": "2026-07-29T22:55:34.980640+00:00",
       "newsroom_total": 3,
-      "overall_share": 10,
+      "overall_share": 8,
       "provenance": "data",
       "series": [
         {
@@ -29,62 +29,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 6
         }
       ],
-      "total_universe": 30,
-      "universe_total": 27
+      "total_universe": 36,
+      "universe_total": 33
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:16:26.735634+00:00",
+      "as_of": "2026-07-29T22:55:32.298273+00:00",
       "edges": [
         {
+          "confidence": 0.305,
+          "description": "Co-covered in 5 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "algorand",
-          "phrase": "Quantum computing poses a potential threat to Algorand's cryptographic security.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-19",
+          "phrase": "Co-covered in 5 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "quantum",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.244,
+          "description": "Co-covered in 7 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "algorand",
-          "phrase": "Algorand is developing post-quantum secure signatures to mitigate quantum risks.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-26",
+          "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "post-quantum",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.17,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "algorand",
-          "phrase": "Quantum computing is a threat to blockchain security, including Algorand.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "threat",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "algorand",
-          "phrase": "Google's quantum advancements influence the narrative around quantum threats to Algorand.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "google",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "algorand",
+          "observed_at": null,
           "phrase": "agents",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -98,42 +139,62 @@
         },
         {
           "center": false,
+          "confidence": 0.305,
           "name": "quantum",
+          "observed_at": "2026-06-19",
           "slug": "quantum",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.244,
           "name": "Post-Quantum",
+          "observed_at": "2026-07-26",
           "slug": "post-quantum",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.17,
           "name": "Threat",
+          "observed_at": null,
           "slug": "threat",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "Google",
+          "observed_at": null,
           "slug": "google",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -197,16 +258,16 @@
     },
     "reader_signal": {
       "article_count": 3,
-      "as_of": "2026-07-01T12:16:27.517075+00:00",
+      "as_of": "2026-07-29T22:55:37.018287+00:00",
       "most_clicked": {
-        "clicks": 162,
+        "clicks": 163,
         "date": "2026-03-18T21:46:51.366002+00:00",
         "headline": "Algorand Foundation cuts 25% of staff amid macro gloom, joining OP Labs and Messari in crypto layoff streak",
         "lev_url": "https://leviathannews.xyz/211935/no-headline-20260318"
       },
       "provenance": "data",
-      "top_decile_share": 65,
-      "total_clicks": 251
+      "top_decile_share": 63,
+      "total_clicks": 260
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:50:01.961051+00:00",
@@ -286,10 +347,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:16:27.439310+00:00",
+      "as_of": "2026-07-29T22:55:36.989254+00:00",
       "items": [
         {
-          "clicks": 162,
+          "clicks": 163,
           "date": "2026-03-18T21:46:51.366002+00:00",
           "headline": "Algorand Foundation cuts 25% of staff amid macro gloom, joining OP Labs and Messari in crypto layoff streak",
           "hot_score": 818.978618,
@@ -298,7 +359,7 @@
           "url": "https://x.com/AlgoFoundation/status/2034298850878652616"
         },
         {
-          "clicks": 22,
+          "clicks": 29,
           "date": "2026-06-18T14:34:06.606345+00:00",
           "headline": "Algorand targets full quantum resistance by 2028, launching a multi-year cryptographic overhaul as blockchain networks race to prepare for future quantum threats",
           "hot_score": 664.750861,
@@ -307,7 +368,7 @@
           "url": "https://www.coindesk.com/tech/2026/06/18/algorand-unveils-post-quantum-roadmap-to-secure-blockchain-by-2027"
         },
         {
-          "clicks": 67,
+          "clicks": 68,
           "date": "2026-03-22T10:25:28.980437+00:00",
           "headline": "Crypto hiring demand drops 80% year over year in early 2026 as job postings fall sharply, while firms like Algorand, Gemini and Crypto.com cut hundreds of roles due to AI integration",
           "hot_score": 151.869203,
@@ -319,7 +380,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:16:27.355412+00:00",
+      "as_of": "2026-07-29T22:55:36.941192+00:00",
       "editorial": [
         {
           "count": 2,
@@ -334,12 +395,16 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 13,
+          "count": 16,
           "source": "x.com"
         },
         {
           "count": 8,
           "source": "decrypt.co"
+        },
+        {
+          "count": 4,
+          "source": "algorand.co"
         },
         {
           "count": 2,
@@ -348,10 +413,6 @@
         {
           "count": 1,
           "source": "theblock.co"
-        },
-        {
-          "count": 1,
-          "source": "algorand.co"
         },
         {
           "count": 1,
@@ -373,42 +434,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:15.390128+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.244,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.044,
-        "lift_log": 4.853,
-        "score": 0.2439,
-        "shared": 5
-      },
-      "rationale": "Algorand is developing post-quantum secure signatures to mitigate quantum risks.",
-      "relation_type": "primitive",
-      "slug": "post-quantum",
-      "source": "cotag",
-      "tag_name": "Post-Quantum",
-      "title": "Post-Quantum, Explained",
-      "weight": 24
-    },
-    {
-      "confidence": 0.305,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0247,
-        "lift_log": 4.187,
-        "score": 0.3047,
-        "shared": 5
-      },
-      "rationale": "Quantum computing poses a potential threat to Algorand's cryptographic security.",
-      "relation_type": "risk",
-      "slug": "quantum",
-      "source": "cotag",
-      "tag_name": "quantum",
-      "title": "quantum, Explained",
-      "weight": 30
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "algorand",
   "tag_name": "Algorand",

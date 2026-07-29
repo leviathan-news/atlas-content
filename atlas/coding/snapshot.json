@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:15:13.699620+00:00",
+      "as_of": "2026-07-29T22:57:33.380158+00:00",
       "newsroom_total": 14,
-      "overall_share": 11,
+      "overall_share": 10,
       "provenance": "data",
       "series": [
         {
@@ -82,63 +82,98 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 1
+          "universe": 17
         }
       ],
-      "total_universe": 123,
-      "universe_total": 109
+      "total_universe": 139,
+      "universe_total": 125
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:15:13.364741+00:00",
+      "as_of": "2026-07-29T22:57:33.183462+00:00",
       "edges": [
         {
+          "confidence": 0.433,
+          "description": "Co-covered in 7 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "coding",
-          "phrase": "Vibe Coding is a related coding methodology or trend.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-15",
+          "phrase": "Co-covered in 7 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "vibecoding",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 43
         },
         {
+          "confidence": 0.148,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "coding",
-          "phrase": "OpenAI provides AI tools that assist in coding tasks.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "openai",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.131,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "coding",
-          "phrase": "Coding produces applications as end products.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "app",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "coding",
+          "observed_at": null,
           "phrase": "agents",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "coding",
+          "observed_at": null,
           "phrase": "immutable",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "immutable",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -152,42 +187,62 @@
         },
         {
           "center": false,
+          "confidence": 0.433,
           "name": "Vibe Coding",
+          "observed_at": "2026-06-15",
           "slug": "vibecoding",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 43
         },
         {
           "center": false,
+          "confidence": 0.148,
           "name": "OpenAI",
+          "observed_at": null,
           "slug": "openai",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.131,
           "name": "App",
+          "observed_at": null,
           "slug": "app",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Immutable",
+          "observed_at": null,
           "slug": "immutable",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -251,16 +306,16 @@
     },
     "reader_signal": {
       "article_count": 17,
-      "as_of": "2026-07-01T12:15:14.251358+00:00",
+      "as_of": "2026-07-29T22:57:33.602778+00:00",
       "most_clicked": {
-        "clicks": 117,
+        "clicks": 122,
         "date": "2025-01-31T15:14:46.707141+00:00",
         "headline": "o3-mini and o3-mini-high details leaked before OpenAI’s announcement.\nOpenAI set to announce o3-mini AI models, enhancing reasoning in coding, science, and math with faster response times.",
         "lev_url": "https://leviathannews.xyz/9086/o3-mini-and-o3-mini-high-details-leaked-before-openais-announcement-openai-set-to-announce-o3-mini-ai-models-enhancing-reasoning-in-coding-science-and-math-with-faster-response-tim"
       },
       "provenance": "data",
       "top_decile_share": 16,
-      "total_clicks": 737
+      "total_clicks": 769
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:17:34.428814+00:00",
@@ -339,10 +394,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:15:14.174593+00:00",
+      "as_of": "2026-07-29T22:57:33.598339+00:00",
       "items": [
         {
-          "clicks": 30,
+          "clicks": 32,
           "date": "2026-05-26T19:58:12.001476+00:00",
           "headline": "Cysic Launches CyOps, AI Platform for Autonomous Coding and Code Verification",
           "hot_score": 447.142752,
@@ -351,7 +406,7 @@
           "url": "https://x.com/cysic_xyz/status/2059308094300340581"
         },
         {
-          "clicks": 81,
+          "clicks": 87,
           "date": "2025-12-30T21:34:04.455292+00:00",
           "headline": "Want to vibe code like Johnnyonline? A practical guide explains how “vibe coding” lets anyone build software by describing ideas to AI tools, iterating fast, and focusing on what to build rather than how to code, dramatically lowering the barrier to creating real apps.",
           "hot_score": 111.700782,
@@ -360,7 +415,7 @@
           "url": "https://x.com/i/status/2005610738149433683"
         },
         {
-          "clicks": 65,
+          "clicks": 67,
           "date": "2026-01-07T13:56:34.455100+00:00",
           "headline": "Opus 4.5 ushers in agent‑native apps, collapsing months of coding into days by letting non‑developers build production software with English prompts instead of code.",
           "hot_score": 107.361772,
@@ -369,7 +424,7 @@
           "url": "https://every.to/chain-of-thought/opus-4-5-collapsed-six-months-of-development-work-into-one-week"
         },
         {
-          "clicks": 58,
+          "clicks": 59,
           "date": "2025-12-24T21:17:08.360902+00:00",
           "headline": "2025 wasn’t about one “best” LLM—it was about stacks. Users mixed models by task: Claude for coding, GPT-5.x for agents/chat, DeepSeek/Qwen for cheap scale, Gemini for research, and niche tools for creativity.",
           "hot_score": 75.580191,
@@ -378,7 +433,7 @@
           "url": "https://decrypt.co/352615/best-ai-large-learning-models-llms-2025"
         },
         {
-          "clicks": 14,
+          "clicks": 18,
           "date": "2026-01-22T09:50:27.440435+00:00",
           "headline": "NoahAI is hosting the first Solana Vibe Coding Hackathon, focused on shipping real products fast using AI. Builders join weekly SuperTeam sprints, deploy live apps, share progress, and compete for prizes, credits, and up to $100K in fundraising.",
           "hot_score": 17.625543,
@@ -387,7 +442,7 @@
           "url": "https://x.com/i/status/2013687715787661729"
         },
         {
-          "clicks": 117,
+          "clicks": 122,
           "date": "2025-01-31T15:14:46.707141+00:00",
           "headline": "o3-mini and o3-mini-high details leaked before OpenAI’s announcement.\nOpenAI set to announce o3-mini AI models, enhancing reasoning in coding, science, and math with faster response times.",
           "hot_score": 0.0,
@@ -405,7 +460,7 @@
           "url": "https://www.youtube.com/watch?v=RO0dY1LK1Gk"
         },
         {
-          "clicks": 69,
+          "clicks": 73,
           "date": "2025-10-18T11:11:54.809952+00:00",
           "headline": "AI-powered trading tools like Stoic AI, Botty, and CryptoHopper are reshaping crypto markets, offering plug-and-play strategies without coding. Yet, risks remain—automation doesn’t erase volatility or guarantee profits.",
           "hot_score": 0.0,
@@ -417,7 +472,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:15:14.089733+00:00",
+      "as_of": "2026-07-29T22:57:33.586862+00:00",
       "editorial": [
         {
           "count": 5,
@@ -464,7 +519,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 92,
+          "count": 107,
           "source": "x.com"
         },
         {
@@ -512,7 +567,7 @@
           "source": "0g.ai"
         }
       ],
-      "universe_distinct": 13
+      "universe_distinct": 14
     }
   },
   "official_links": [],
@@ -523,25 +578,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:23.438439+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.433,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1201,
-        "lift_log": 6.05,
-        "score": 0.4335,
-        "shared": 7
-      },
-      "rationale": "Vibe Coding is a related coding methodology or trend.",
-      "relation_type": "peer",
-      "slug": "vibecoding",
-      "source": "cotag",
-      "tag_name": "Vibe Coding",
-      "title": "Vibe Coding, Explained",
-      "weight": 43
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "coding",
   "tag_name": "Coding",

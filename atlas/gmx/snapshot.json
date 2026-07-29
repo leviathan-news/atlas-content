@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:12:16.577710+00:00",
+      "as_of": "2026-07-29T22:59:32.853947+00:00",
       "newsroom_total": 24,
-      "overall_share": 49,
+      "overall_share": 45,
       "provenance": "data",
       "series": [
         {
@@ -107,62 +107,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 3
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 4
         }
       ],
-      "total_universe": 49,
-      "universe_total": 25
+      "total_universe": 53,
+      "universe_total": 29
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:12:16.090720+00:00",
+      "as_of": "2026-07-29T22:59:32.586947+00:00",
       "edges": [
         {
+          "confidence": 0.25,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gmx",
-          "phrase": "MegaETH is a high-performance L2; GMX is a perp DEX on Arbitrum, not directly comparable.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-31",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "megaeth",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.211,
+          "description": "Co-covered in 4 approved stories; most recently July 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gmx",
-          "phrase": "GMX is deployed on Arbitrum, relying on it for execution.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-07-09",
+          "phrase": "Co-covered in 4 approved stories; most recently July 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "arbitrum",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.184,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gmx",
-          "phrase": "GMX generates yield through fees and staking rewards.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.183,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gmx",
-          "phrase": "GMX is a decentralized perpetual exchange (perps).",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "perps",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.172,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gmx",
-          "phrase": "GMX uses Chainlink oracles for price feeds.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "chainlink",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -176,42 +217,62 @@
         },
         {
           "center": false,
+          "confidence": 0.25,
           "name": "MegaETH",
+          "observed_at": "2026-03-31",
           "slug": "megaeth",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.211,
           "name": "Arbitrum",
+          "observed_at": "2025-07-09",
           "slug": "arbitrum",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.184,
           "name": "Yield",
+          "observed_at": null,
           "slug": "yield",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.183,
           "name": "Perps",
+          "observed_at": null,
           "slug": "perps",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.172,
           "name": "Chainlink",
+          "observed_at": null,
           "slug": "chainlink",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -281,16 +342,16 @@
     },
     "reader_signal": {
       "article_count": 24,
-      "as_of": "2026-07-01T12:12:17.220153+00:00",
+      "as_of": "2026-07-29T22:59:33.108872+00:00",
       "most_clicked": {
-        "clicks": 281,
-        "date": "2024-04-08T21:35:59.659985+00:00",
-        "headline": "Arthur Hayes sells $9.6m of GMX as newer protocols eat market share with point systems",
-        "lev_url": "https://leviathannews.xyz/4716/arthur-hayes-sells-96m-of-gmx-as-newer-protocols-eat-market-share-with-point-systems"
+        "clicks": 293,
+        "date": "2023-10-13T10:50:56.763051+00:00",
+        "headline": "GMX to receive largest share of Arbitrum's $40 million grant, Lido misses out.",
+        "lev_url": "https://leviathannews.xyz/2961/gmx-to-receive-largest-share-of-arbitrums-40-million-grant-lido-misses-out"
       },
       "provenance": "data",
       "top_decile_share": 23,
-      "total_clicks": 2435
+      "total_clicks": 2483
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:25:12.913785+00:00",
@@ -375,10 +436,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:12:17.141992+00:00",
+      "as_of": "2026-07-29T22:59:33.104509+00:00",
       "items": [
         {
-          "clicks": 61,
+          "clicks": 66,
           "date": "2026-04-10T14:11:26.764642+00:00",
           "headline": "GMX launches 24/7 gold and silver perps with up to 100x leverage, powered by Chainlink",
           "hot_score": 2559.465128,
@@ -387,7 +448,7 @@
           "url": "https://gmxio.substack.com/p/247-gold-and-silver-perp-markets"
         },
         {
-          "clicks": 34,
+          "clicks": 36,
           "date": "2026-05-15T15:33:29.942379+00:00",
           "headline": "GMX traders pay 65% less funding after late-April changes flatten long-tail perp rates",
           "hot_score": 552.8,
@@ -396,7 +457,7 @@
           "url": "https://gmxio.substack.com/p/funding-costs-on-gmx-are-now-much"
         },
         {
-          "clicks": 43,
+          "clicks": 44,
           "date": "2026-03-31T20:36:51.755865+00:00",
           "headline": "GMX goes live on MegaETH with 50x leverage perps and 10ms execution via Chainlink",
           "hot_score": 182.253496,
@@ -405,16 +466,7 @@
           "url": "https://gmxio.substack.com/p/gmx-is-now-live-on-megaeth-trade"
         },
         {
-          "clicks": 281,
-          "date": "2024-04-08T21:35:59.659985+00:00",
-          "headline": "Arthur Hayes sells $9.6m of GMX as newer protocols eat market share with point systems",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/4716/arthur-hayes-sells-96m-of-gmx-as-newer-protocols-eat-market-share-with-point-systems",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240408210012_zh7js6uhXg==.jpg",
-          "url": "https://www.dlnews.com/articles/defi/bitmex-co-founder-arthur-hayes-sells-96-million-of-gmx/"
-        },
-        {
-          "clicks": 279,
+          "clicks": 293,
           "date": "2023-10-13T10:50:56.763051+00:00",
           "headline": "GMX to receive largest share of Arbitrum's $40 million grant, Lido misses out.",
           "hot_score": 0.0,
@@ -423,7 +475,16 @@
           "url": "https://www.theblock.co/post/256282/gmx-receives-largest-share-of-40-million-arbitrum-grants-lido-misses-out"
         },
         {
-          "clicks": 198,
+          "clicks": 284,
+          "date": "2024-04-08T21:35:59.659985+00:00",
+          "headline": "Arthur Hayes sells $9.6m of GMX as newer protocols eat market share with point systems",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/4716/arthur-hayes-sells-96m-of-gmx-as-newer-protocols-eat-market-share-with-point-systems",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240408210012_zh7js6uhXg==.jpg",
+          "url": "https://www.dlnews.com/articles/defi/bitmex-co-founder-arthur-hayes-sells-96-million-of-gmx/"
+        },
+        {
+          "clicks": 209,
           "date": "2024-09-05T07:47:39.178017+00:00",
           "headline": "GMX introduces GLV - GMX Liquidity Vaults ",
           "hot_score": 0.0,
@@ -441,7 +502,7 @@
           "url": "https://gmxio.substack.com/p/gmx-v2-beta-is-now-live?nthPub=651"
         },
         {
-          "clicks": 157,
+          "clicks": 158,
           "date": "2025-07-09T13:49:31.814434+00:00",
           "headline": "⚠️ Looks like GMX has been exploited",
           "hot_score": 0.0,
@@ -453,7 +514,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:12:17.061850+00:00",
+      "as_of": "2026-07-29T22:59:33.094208+00:00",
       "editorial": [
         {
           "count": 9,
@@ -504,11 +565,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 18,
+          "count": 20,
           "source": "x.com"
         },
         {
-          "count": 7,
+          "count": 9,
           "source": "gmxio.substack.com"
         }
       ],
@@ -523,42 +584,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:36:33.923321+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.211,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0052,
-        "lift_log": 2.364,
-        "score": 0.2112,
-        "shared": 4
-      },
-      "rationale": "GMX is deployed on Arbitrum, relying on it for execution.",
-      "relation_type": "infrastructure",
-      "slug": "arbitrum",
-      "source": "cotag",
-      "tag_name": "Arbitrum",
-      "title": "Arbitrum, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.25,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0458,
-        "lift_log": 4.981,
-        "score": 0.2502,
-        "shared": 3
-      },
-      "rationale": "MegaETH is a high-performance L2; GMX is a perp DEX on Arbitrum, not directly comparable.",
-      "relation_type": "peer",
-      "slug": "megaeth",
-      "source": "cotag",
-      "tag_name": "MegaETH",
-      "title": "MegaETH, Explained",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "gmx",
   "tag_name": "GMX",

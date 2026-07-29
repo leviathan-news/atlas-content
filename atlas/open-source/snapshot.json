@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:11:44.594053+00:00",
-      "newsroom_total": 25,
-      "overall_share": 41,
+      "as_of": "2026-07-29T23:02:54.439485+00:00",
+      "newsroom_total": 26,
+      "overall_share": 34,
       "provenance": "data",
       "series": [
         {
@@ -125,111 +125,172 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 11
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 14
         }
       ],
-      "total_universe": 61,
-      "universe_total": 36
+      "total_universe": 76,
+      "universe_total": 50
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:11:44.271463+00:00",
+      "as_of": "2026-07-29T23:02:54.088767+00:00",
       "edges": [
         {
+          "confidence": 0.222,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "open-source",
-          "phrase": "Open-source software often relies on GPU hardware for computation.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-13",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "gpu",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.144,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "open-source",
-          "phrase": "Unclear direct relation; both are concepts but not closely linked.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "betteridges-law",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "open-source",
+          "observed_at": null,
           "phrase": "Bitcoin",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "open-source",
+          "observed_at": null,
           "phrase": "innovation",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "innovation",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "open-source",
+          "observed_at": null,
           "phrase": "open",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "open",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
       "nodes": [
         {
           "center": true,
-          "name": "open source",
+          "name": "Open Source",
           "slug": "open-source",
           "source": "topic",
           "tier": "center"
         },
         {
           "center": false,
+          "confidence": 0.222,
           "name": "GPU",
+          "observed_at": "2026-05-13",
           "slug": "gpu",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.144,
           "name": "Betteridge's Law",
+          "observed_at": null,
           "slug": "betteridges-law",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Innovation",
+          "observed_at": null,
           "slug": "innovation",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "OPEN",
+          "observed_at": null,
           "slug": "open",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -292,17 +353,17 @@
       "source": "https://www.coincenter.org/education/advanced-topics/open-source/"
     },
     "reader_signal": {
-      "article_count": 25,
-      "as_of": "2026-07-01T12:11:45.033665+00:00",
+      "article_count": 26,
+      "as_of": "2026-07-29T23:02:54.764705+00:00",
       "most_clicked": {
-        "clicks": 213,
+        "clicks": 226,
         "date": "2023-08-27T15:07:49.573396+00:00",
         "headline": "Paradigm releases Rivet, open source developer wallet and tools for EVM-based chains ",
         "lev_url": "https://leviathannews.xyz/2349/paradigm-releases-rivet-open-source-developer-wallet-and-tools-for-evm-based-chains"
       },
       "provenance": "data",
       "top_decile_share": 21,
-      "total_clicks": 1798
+      "total_clicks": 1886
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:42:21.882609+00:00",
@@ -381,10 +442,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:11:44.957810+00:00",
+      "as_of": "2026-07-29T23:02:54.760672+00:00",
       "items": [
         {
-          "clicks": 70,
+          "clicks": 76,
           "date": "2026-04-12T18:03:36.341070+00:00",
           "headline": "Benthic agent ships first major update just one day after open-source debut, merging 3 Opus calls into 1 and routing trades via API",
           "hot_score": 93838.62631,
@@ -393,7 +454,7 @@
           "url": "https://github.com/leviathan-news/be-benthic/pull/1"
         },
         {
-          "clicks": 47,
+          "clicks": 50,
           "date": "2026-05-22T23:20:09.443319+00:00",
           "headline": "Paradigm and Tempo open source Centaur, a self-hosted agent runtime for secure multi-user workflows",
           "hot_score": 465.458166,
@@ -402,7 +463,7 @@
           "url": "https://x.com/gakonst/status/2057495989368561807"
         },
         {
-          "clicks": 103,
+          "clicks": 107,
           "date": "2026-03-16T17:45:48.377500+00:00",
           "headline": "Leviathan releases open source repository for Telegram moderators to fight spam amidst active bot purge",
           "hot_score": 357.011574,
@@ -420,7 +481,7 @@
           "url": "https://x.com/cipherpay_app/status/2032119657629622780?s=46&t=eqCmKKI3I3LHYOXutj7Iqw"
         },
         {
-          "clicks": 77,
+          "clicks": 79,
           "date": "2026-03-19T14:52:43.189517+00:00",
           "headline": "OpenAI to acquire Astral, bringing its popular open source Python tools into Codex to power AI agents that span the full software development lifecycle while keeping Astral’s projects open source.",
           "hot_score": 241.243282,
@@ -429,7 +490,7 @@
           "url": "https://openai.com/index/openai-to-acquire-astral"
         },
         {
-          "clicks": 85,
+          "clicks": 87,
           "date": "2026-04-02T22:00:43.471902+00:00",
           "headline": "Quip Network goes live with quantum-classical testnet powered by D-Wave annealing hardware",
           "hot_score": 219.289581,
@@ -447,7 +508,7 @@
           "url": "https://x.com/haydenzadams/status/1999171620854698190?s=20"
         },
         {
-          "clicks": 41,
+          "clicks": 46,
           "date": "2026-01-22T17:31:34.360220+00:00",
           "headline": "\"The Great Crypto Rot\" discusses the necessity of open source code in crypto",
           "hot_score": 51.676629,
@@ -459,7 +520,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:11:44.871789+00:00",
+      "as_of": "2026-07-29T23:02:54.749255+00:00",
       "editorial": [
         {
           "count": 15,
@@ -500,17 +561,21 @@
         {
           "count": 1,
           "source": "openai.com"
+        },
+        {
+          "count": 1,
+          "source": "elsewhere.news"
         }
       ],
-      "editorial_distinct": 10,
+      "editorial_distinct": 11,
       "provenance": "data",
       "universe": [
         {
-          "count": 29,
+          "count": 42,
           "source": "x.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "decrypt.co"
         },
         {
@@ -541,25 +606,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:46.611291+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.222,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0353,
-        "lift_log": 4.47,
-        "score": 0.222,
-        "shared": 3
-      },
-      "rationale": "Open-source software often relies on GPU hardware for computation.",
-      "relation_type": "infrastructure",
-      "slug": "gpu",
-      "source": "cotag",
-      "tag_name": "GPU",
-      "title": "GPU, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "open-source",
   "tag_name": "Open Source",

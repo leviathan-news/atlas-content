@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:01:47.029580+00:00",
-      "newsroom_total": 15,
-      "overall_share": 17,
+      "as_of": "2026-07-29T22:59:54.852008+00:00",
+      "newsroom_total": 21,
+      "overall_share": 14,
       "provenance": "data",
       "series": [
         {
@@ -47,62 +47,103 @@
           "month": "2026-06",
           "newsroom": 3,
           "universe": 12
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-07",
+          "newsroom": 6,
+          "universe": 62
         }
       ],
-      "total_universe": 87,
-      "universe_total": 72
+      "total_universe": 155,
+      "universe_total": 134
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:01:46.171351+00:00",
+      "as_of": "2026-07-29T22:59:53.681879+00:00",
       "edges": [
         {
+          "confidence": 0.32,
+          "description": "Co-covered in 31 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "injective",
-          "phrase": "INJ is the native governance and utility token of Injective.",
-          "relation_type": "token",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 31 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "inj",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 32
         },
         {
+          "confidence": 0.203,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "injective",
-          "phrase": "Injective supports agent-based trading and automation.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.202,
+          "description": "Co-covered in 28 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "injective",
-          "phrase": "Injective integrates AI agents for trading strategies.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 28 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ai-agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.183,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "injective",
-          "phrase": "MCP is a cross-chain protocol built on Injective.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "mcp",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.159,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "injective",
-          "phrase": "Injective partnered with Microsoft for cloud infrastructure.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "microsoft",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -116,42 +157,62 @@
         },
         {
           "center": false,
+          "confidence": 0.32,
           "name": "INJ",
+          "observed_at": "2026-07-29",
           "slug": "inj",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 32
         },
         {
           "center": false,
+          "confidence": 0.203,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 20
-        },
-        {
-          "center": false,
-          "name": "AI Agents",
-          "slug": "ai-agents",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 20
-        },
-        {
-          "center": false,
-          "name": "MCP",
-          "slug": "mcp",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 20
+        },
+        {
+          "center": false,
+          "confidence": 0.202,
+          "name": "AI Agents",
+          "observed_at": "2026-07-27",
+          "slug": "ai-agents",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 20
+        },
+        {
+          "center": false,
+          "confidence": 0.183,
+          "name": "MCP",
+          "observed_at": null,
+          "slug": "mcp",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.159,
           "name": "Microsoft",
+          "observed_at": null,
           "slug": "microsoft",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -220,17 +281,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 15,
-      "as_of": "2026-07-01T12:01:47.914736+00:00",
+      "article_count": 21,
+      "as_of": "2026-07-29T22:59:55.947726+00:00",
       "most_clicked": {
-        "clicks": 160,
+        "clicks": 162,
         "date": "2026-03-15T18:48:07.274479+00:00",
         "headline": "Bounty Hunter reveals how Injective cheated him, paid $50K for a critical vulnerability capable of draining any wallet despite a $500K max bounty in the program.",
         "lev_url": "https://leviathannews.xyz/209997/bounty-hunter-reveals-how-injective-cheated-him-paid-50k-for-a-critical-vulnerability-capable-of-draining-any-wallet-despite-a-500k-max-bounty-in-the-program"
       },
       "provenance": "data",
-      "top_decile_share": 19,
-      "total_clicks": 832
+      "top_decile_share": 24,
+      "total_clicks": 1039
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:10:41.606529+00:00",
@@ -315,10 +376,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:01:47.803295+00:00",
+      "as_of": "2026-07-29T22:59:55.940894+00:00",
       "items": [
         {
-          "clicks": 40,
+          "clicks": 42,
           "date": "2026-04-15T15:14:22.149987+00:00",
           "headline": "Injective becomes first altcoin with CFTC-regulated futures on Bitnomial, starting ETF approval clock",
           "hot_score": 2764.645523,
@@ -327,7 +388,34 @@
           "url": "https://injective.com/blog/inj-futures-now-live"
         },
         {
-          "clicks": 55,
+          "clicks": 35,
+          "date": "2026-07-27T05:20:38.350836+00:00",
+          "headline": "POSCO International and LG CNS tokenize live trade receivables on Injective in corporate finance test",
+          "hot_score": 1824.727937,
+          "lev_url": "https://leviathannews.xyz/282250/posco-international-and-lg-cns-tokenize-live-trade-receivables-on-injective-in-corporate-finance-test",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727004745_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/business/2026/07/26/south-korea-trading-giant-puts-receivables-onchain-in-tokenization-test-with-lg-cns"
+        },
+        {
+          "clicks": 26,
+          "date": "2026-07-28T15:08:43.861478+00:00",
+          "headline": "Kraken adds native USDC deposits and withdrawals on Injective, eliminating extra crosschain hop",
+          "hot_score": 1642.613698,
+          "lev_url": "https://leviathannews.xyz/283374/kraken-adds-native-usdc-deposits-and-withdrawals-on-injective-eliminating-extra-crosschain-hop",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728141457_Z4zrlaiDPw==.png",
+          "url": "https://injective.com/blog/kraken-native-usdc"
+        },
+        {
+          "clicks": 24,
+          "date": "2026-07-28T15:08:29.542641+00:00",
+          "headline": "Injective schedules v1.20.3 mainnet upgrade for July 29 at block 176,273,000",
+          "hot_score": 1628.558003,
+          "lev_url": "https://leviathannews.xyz/283372/injective-schedules-v1203-mainnet-upgrade-for-july-29-at-block-176273000",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728141402_Z4zrlaiDPw==.png",
+          "url": "https://docs.injective.network/infra/validator-mainnet/canonical-chain-upgrade-v1.20.3"
+        },
+        {
+          "clicks": 56,
           "date": "2026-06-02T06:03:23.484275+00:00",
           "headline": "Injective MCP gives AI agents 22 tools to trade perps, bridge tokens, and query markets from chat",
           "hot_score": 907.232182,
@@ -336,7 +424,7 @@
           "url": "https://injective.com/blog/injective-mcp"
         },
         {
-          "clicks": 36,
+          "clicks": 37,
           "date": "2026-04-21T09:14:47.099923+00:00",
           "headline": "Injective launches on-chain AI agents for trading, enabling verifiable identities, automated fee routing, and transparent performance tracking for anyone to audit",
           "hot_score": 901.2,
@@ -345,62 +433,35 @@
           "url": "https://x.com/i/status/2046252214369325182"
         },
         {
-          "clicks": 51,
+          "clicks": 43,
+          "date": "2026-07-16T17:39:19.985168+00:00",
+          "headline": "Injective files for SEC transfer agent registration to support regulated securities issuance onchain",
+          "hot_score": 824.117493,
+          "lev_url": "https://leviathannews.xyz/276804/injective-files-for-sec-transfer-agent-registration-to-support-regulated-securities-issuance-onchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260716153211_Z4zrlaiDPw==.png",
+          "url": "https://x.com/injective/status/2077758500554358918"
+        },
+        {
+          "clicks": 59,
           "date": "2026-06-20T06:41:43.278762+00:00",
           "headline": "Injective launches AI agent platform with ERC-8004 IDs and automatic trading fee payouts",
           "hot_score": 713.541692,
           "lev_url": "https://leviathannews.xyz/259635/injective-launches-ai-agent-platform-with-erc-8004-ids-and-automatic-trading-fee-payouts",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260619224513_Z4zrlaiDPw==.png",
           "url": "https://x.com/injective/status/2068061387088081181"
-        },
-        {
-          "clicks": 27,
-          "date": "2026-06-04T09:24:42.716784+00:00",
-          "headline": "Injective Vulcan upgrade targets June 4 with 90% lower oracle gas and RWA/stablecoin tooling",
-          "hot_score": 678.689955,
-          "lev_url": "https://leviathannews.xyz/252715/injective-vulcan-upgrade-targets-june-4-with-90-lower-oracle-gas-and-rwastablecoin-tooling",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260604075854_Z4zrlaiDPw==.png",
-          "url": "https://x.com/injective/status/2061619374016864363"
-        },
-        {
-          "clicks": 24,
-          "date": "2026-05-14T16:52:34.812973+00:00",
-          "headline": "Musicow taps Injective to tokenize fractional music IP rights for $200B market",
-          "hot_score": 643.4,
-          "lev_url": "https://leviathannews.xyz/242353/musicow-taps-injective-to-tokenize-fractional-music-ip-rights-for-200b-market",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514164822_Z4zrlaiDPw==.png",
-          "url": "https://injective.com/blog/musicow-partnership"
-        },
-        {
-          "clicks": 160,
-          "date": "2026-03-15T18:48:07.274479+00:00",
-          "headline": "Bounty Hunter reveals how Injective cheated him, paid $50K for a critical vulnerability capable of draining any wallet despite a $500K max bounty in the program.",
-          "hot_score": 505.124518,
-          "lev_url": "https://leviathannews.xyz/209997/bounty-hunter-reveals-how-injective-cheated-him-paid-50k-for-a-critical-vulnerability-capable-of-draining-any-wallet-despite-a-500k-max-bounty-in-the-program",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260315184645_haKxOu3gpy9r.jpg",
-          "url": "https://x.com/i/status/2033110168045568434"
-        },
-        {
-          "clicks": 25,
-          "date": "2026-04-21T16:04:40.246793+00:00",
-          "headline": "Alchemy launches on Injective, extending developer platform behind $4T in onchain transactions to the MultiVM chain",
-          "hot_score": 440.8,
-          "lev_url": "https://leviathannews.xyz/234351/alchemy-launches-on-injective-extending-developer-platform-behind-4t-in-onchain-transactions-to-the-multivm-chain",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421151605_Z4zrlaiDPw==.png",
-          "url": "https://injective.com/blog/alchemy-developer-platform"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:01:47.682104+00:00",
+      "as_of": "2026-07-29T22:59:55.910769+00:00",
       "editorial": [
         {
-          "count": 8,
+          "count": 10,
           "source": "x.com"
         },
         {
-          "count": 5,
+          "count": 7,
           "source": "injective.com"
         },
         {
@@ -410,18 +471,30 @@
         {
           "count": 1,
           "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "docs.injective.network"
         }
       ],
-      "editorial_distinct": 4,
+      "editorial_distinct": 6,
       "provenance": "data",
       "universe": [
         {
-          "count": 64,
+          "count": 115,
           "source": "x.com"
         },
         {
-          "count": 4,
+          "count": 11,
           "source": "injective.com"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
         },
         {
           "count": 2,
@@ -433,10 +506,10 @@
         },
         {
           "count": 1,
-          "source": "cointelegraph.com"
+          "source": "treeofalpha.com"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 6
     }
   },
   "official_links": [
@@ -453,59 +526,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:36.404056+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.203,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0111,
-        "lift_log": 2.106,
-        "score": 0.203,
-        "shared": 6
-      },
-      "rationale": "Injective supports agent-based trading and automation.",
-      "relation_type": "ecosystem",
-      "slug": "agents",
-      "source": "cotag",
-      "tag_name": "agents",
-      "title": "agents, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.202,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0115,
-        "lift_log": 2.043,
-        "score": 0.2018,
-        "shared": 15
-      },
-      "rationale": "Injective integrates AI agents for trading strategies.",
-      "relation_type": "ecosystem",
-      "slug": "ai-agents",
-      "source": "cotag",
-      "tag_name": "AI Agents",
-      "title": "AI Agents, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.32,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1411,
-        "lift_log": 5.527,
-        "score": 0.3205,
-        "shared": 15
-      },
-      "rationale": "INJ is the native governance and utility token of Injective.",
-      "relation_type": "token",
-      "slug": "inj",
-      "source": "cotag",
-      "tag_name": "INJ",
-      "title": "INJ: Complete Guide",
-      "weight": 32
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "injective",
   "tag_name": "Injective",

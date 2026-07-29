@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:53:27.582062+00:00",
-      "newsroom_total": 26,
-      "overall_share": 16,
+      "as_of": "2026-07-29T22:57:11.252145+00:00",
+      "newsroom_total": 29,
+      "overall_share": 14,
       "provenance": "data",
       "series": [
         {
@@ -83,62 +83,103 @@
           "month": "2026-06",
           "newsroom": 5,
           "universe": 43
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-07",
+          "newsroom": 3,
+          "universe": 50
         }
       ],
-      "total_universe": 159,
-      "universe_total": 133
+      "total_universe": 212,
+      "universe_total": 183
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:53:26.064929+00:00",
+      "as_of": "2026-07-29T22:57:11.048774+00:00",
       "edges": [
         {
+          "confidence": 0.293,
+          "description": "Co-covered in 49 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cardano",
-          "phrase": "ADA is the native cryptocurrency of the Cardano blockchain.",
-          "relation_type": "token",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 49 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ada",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.131,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cardano",
-          "phrase": "Cardano's development is based in Zug, Switzerland.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "switzerland",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.129,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cardano",
-          "phrase": "Satoshi Nakamoto's Bitcoin whitepaper inspired Cardano's design.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "satoshi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.127,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cardano",
-          "phrase": "Quantum computing poses a potential future risk to Cardano's cryptography.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "quantum",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.126,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "cardano",
-          "phrase": "Cardano undergoes formal audits to ensure security and correctness.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "audit",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         }
       ],
@@ -152,42 +193,62 @@
         },
         {
           "center": false,
+          "confidence": 0.293,
           "name": "ADA",
+          "observed_at": "2026-07-28",
           "slug": "ada",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.131,
           "name": "Switzerland",
+          "observed_at": null,
           "slug": "switzerland",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.129,
           "name": "Satoshi",
+          "observed_at": null,
           "slug": "satoshi",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.127,
           "name": "quantum",
+          "observed_at": null,
           "slug": "quantum",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.126,
           "name": "Audit",
+          "observed_at": null,
           "slug": "audit",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         }
       ],
@@ -250,17 +311,17 @@
       "source": "https://cardanofoundation.org/blog/impacts-cardano-treasury-mechanism"
     },
     "reader_signal": {
-      "article_count": 27,
-      "as_of": "2026-07-01T11:53:29.651003+00:00",
+      "article_count": 30,
+      "as_of": "2026-07-29T22:57:11.518913+00:00",
       "most_clicked": {
-        "clicks": 168,
+        "clicks": 172,
         "date": "2024-12-08T15:00:37.862692+00:00",
         "headline": "Cardano Foundation account has been compromised. The attackers initially attempted to scam users by promoting a fraudulent token called $ADAsol. They are now spreading disinformation claiming that support for ADA is being discontinued.",
         "lev_url": "https://leviathannews.xyz/8112/cardano-foundation-account-has-been-compromised-the-attackers-initially-attempted-to-scam-users-by-promoting-a-fraudulent-token-called-adasol-they-are-now-spreading-disinformation-"
       },
       "provenance": "data",
-      "top_decile_share": 21,
-      "total_clicks": 1386
+      "top_decile_share": 27,
+      "total_clicks": 1569
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:04:38.013337+00:00",
@@ -345,28 +406,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:53:29.541145+00:00",
+      "as_of": "2026-07-29T22:57:11.511479+00:00",
       "items": [
         {
-          "clicks": 20,
-          "date": "2026-06-28T15:17:54.614759+00:00",
-          "headline": "Midnight temporarily suspends Glacier Drop redemptions after SecondFi-linked Cardano wallet security incident",
-          "hot_score": 1438.080721,
-          "lev_url": "https://leviathannews.xyz/264149/midnight-temporarily-suspends-glacier-drop-redemptions-after-secondfi-linked-cardano-wallet-security-incident",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628124242_Z4zrlaiDPw==.png",
-          "url": "https://midnight.network/blog/glacier-drop-redemption-temporarily-suspended"
+          "clicks": 43,
+          "date": "2026-07-22T11:21:06.536790+00:00",
+          "headline": "Cardano wallet provider SecondFi will shut down after hackers stole $2.4M in ADA by exploiting a transaction-signing flaw that exposed users' private keys",
+          "hot_score": 708.305421,
+          "lev_url": "https://leviathannews.xyz/279905/secondfi-to-shut-down-after-24-million-ada-wallet-theft-20260722",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260722111304_Jv9HcZ1fwk6p.jpg",
+          "url": "https://www.coindesk.com/web3/2026/07/22/secondfi-to-shut-down-after-usd2-4-million-ada-wallet-theft"
         },
         {
-          "clicks": 20,
-          "date": "2026-06-27T23:30:57.566941+00:00",
-          "headline": "SecondFi says users hit by its $2.4M Cardano wallet exploit could recover funds within two weeks as EMURGO finalizes a restoration plan for 374 affected addresses",
-          "hot_score": 1219.036254,
-          "lev_url": "https://leviathannews.xyz/264046/secondfi-maps-recovery-path-after-24-million-cardano-wallet-exploit-aims-to-return-funds-within-two-weeks-20260627",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260627231705_w4tIHV32pao3.jpg",
-          "url": "https://www.theblock.co/post/406457/secondfi-maps-recovery-path-after-2-4-million-cardano-wallet-exploit-aims-to-return-funds-within-two-weeks?utm_source=rss&utm_medium=rss"
-        },
-        {
-          "clicks": 35,
+          "clicks": 37,
           "date": "2026-06-08T17:00:03.390365+00:00",
           "headline": "UNDP launches 26-member Blockchain Advisory Group with Ethereum, Cardano, Sui and Kraken",
           "hot_score": 706.998137,
@@ -375,7 +427,7 @@
           "url": "https://www.undp.org/digital-innovation/news/undp-launches-blockchain-advisory-group-explore-blockchain-public-good"
         },
         {
-          "clicks": 32,
+          "clicks": 36,
           "date": "2026-06-03T07:02:08.697202+00:00",
           "headline": "TapTools begins wind-down after five executive exits leave Cardano analytics platform short on technical expertise",
           "hot_score": 703.550121,
@@ -384,7 +436,7 @@
           "url": "https://cointelegraph.com/news/cardano-protocol-taptools-winds-down-after-five-execs-exit"
         },
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2026-05-15T06:45:34.069147+00:00",
           "headline": "Cardano 1M+ ADA wallets hit 67.47% of supply, their highest share since 2020",
           "hot_score": 585.6,
@@ -393,7 +445,25 @@
           "url": "https://app.santiment.net/insights/read/cardano-s-major-wallets-hit-a-major-milestone-10845"
         },
         {
-          "clicks": 36,
+          "clicks": 28,
+          "date": "2026-06-28T15:17:54.614759+00:00",
+          "headline": "Midnight temporarily suspends Glacier Drop redemptions after SecondFi-linked Cardano wallet security incident",
+          "hot_score": 535.410516,
+          "lev_url": "https://leviathannews.xyz/264149/midnight-temporarily-suspends-glacier-drop-redemptions-after-secondfi-linked-cardano-wallet-security-incident",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628124242_Z4zrlaiDPw==.png",
+          "url": "https://midnight.network/blog/glacier-drop-redemption-temporarily-suspended"
+        },
+        {
+          "clicks": 27,
+          "date": "2026-06-27T23:30:57.566941+00:00",
+          "headline": "SecondFi says users hit by its $2.4M Cardano wallet exploit could recover funds within two weeks as EMURGO finalizes a restoration plan for 374 affected addresses",
+          "hot_score": 531.713941,
+          "lev_url": "https://leviathannews.xyz/264046/secondfi-maps-recovery-path-after-24-million-cardano-wallet-exploit-aims-to-return-funds-within-two-weeks-20260627",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260627231705_w4tIHV32pao3.jpg",
+          "url": "https://www.theblock.co/post/406457/secondfi-maps-recovery-path-after-2-4-million-cardano-wallet-exploit-aims-to-return-funds-within-two-weeks?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 38,
           "date": "2026-05-16T19:45:58.187834+00:00",
           "headline": "Hoskinson puts 50%+ odds on at-scale quantum computers by 2033 as Cardano prepares PQC shift",
           "hot_score": 503.22122,
@@ -402,31 +472,22 @@
           "url": "https://www.crowdfundinsider.com/2026/05/278955-cardano-founder-charles-hoskinson-highlights-quantum-computing-risks-and-potential-blockchain-network-defenses/"
         },
         {
-          "clicks": 57,
+          "clicks": 59,
           "date": "2026-05-31T17:56:58.242438+00:00",
           "headline": "Cardano Foundation cancels 2026 summit after 7.8M ADA treasury ask misses DRep threshold",
           "hot_score": 490.815145,
           "lev_url": "https://leviathannews.xyz/250804/cardano-foundation-cancels-2026-summit-after-78m-ada-treasury-ask-misses-drep-threshold",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260531175602_TdwNlK9ajusw.jpg",
           "url": "https://www.theblock.co/post/403122/cardano-foundation-cancels-2026-summit-after-treasury-funding-vote-falls-just-short"
-        },
-        {
-          "clicks": 16,
-          "date": "2026-06-17T07:25:38.346364+00:00",
-          "headline": "Draper Dragon opens $80M OrionFund for Cardano builders across Genesis and Apex tracks",
-          "hot_score": 410.283685,
-          "lev_url": "https://leviathannews.xyz/258169/draper-dragon-opens-80m-orionfund-for-cardano-builders-across-genesis-and-apex-tracks",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260617071721_Z4zrlaiDPw==.png",
-          "url": "https://x.com/draper_u/status/2066589739264971157"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:53:29.458826+00:00",
+      "as_of": "2026-07-29T22:57:11.495566+00:00",
       "editorial": [
         {
-          "count": 4,
+          "count": 5,
           "source": "theblock.co"
         },
         {
@@ -436,6 +497,10 @@
         {
           "count": 3,
           "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "coindesk.com"
         },
         {
           "count": 1,
@@ -448,10 +513,6 @@
         {
           "count": 1,
           "source": "fortune.com"
-        },
-        {
-          "count": 1,
-          "source": "coindesk.com"
         },
         {
           "count": 1,
@@ -478,39 +539,39 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 73,
+          "count": 109,
           "source": "x.com"
         },
         {
-          "count": 14,
+          "count": 17,
           "source": "cardanofoundation.org"
         },
         {
-          "count": 12,
+          "count": 13,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 10,
+          "count": 12,
           "source": "financefeeds.com"
         },
         {
-          "count": 7,
+          "count": 10,
           "source": "decrypt.co"
         },
         {
-          "count": 5,
-          "source": "cointelegraph.com"
+          "count": 6,
+          "source": "theblock.co"
         },
         {
-          "count": 4,
-          "source": "theblock.co"
+          "count": 6,
+          "source": "cointelegraph.com"
         },
         {
           "count": 3,
           "source": "thestreet.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "coindesk.com"
         },
         {
@@ -526,7 +587,7 @@
           "source": "pyth.network"
         }
       ],
-      "universe_distinct": 12
+      "universe_distinct": 13
     }
   },
   "official_links": [],
@@ -537,25 +598,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:21.878557+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.293,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1137,
-        "lift_log": 5.178,
-        "score": 0.2928,
-        "shared": 21
-      },
-      "rationale": "ADA is the native cryptocurrency of the Cardano blockchain.",
-      "relation_type": "token",
-      "slug": "ada",
-      "source": "cotag",
-      "tag_name": "ADA",
-      "title": "ADA: Complete Guide",
-      "weight": 29
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "cardano",
   "tag_name": "Cardano",

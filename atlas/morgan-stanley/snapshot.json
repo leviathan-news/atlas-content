@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:53:34.146290+00:00",
-      "newsroom_total": 26,
-      "overall_share": 17,
+      "as_of": "2026-07-29T23:02:14.088972+00:00",
+      "newsroom_total": 28,
+      "overall_share": 16,
       "provenance": "data",
       "series": [
         {
@@ -101,62 +101,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 11
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 25
         }
       ],
-      "total_universe": 150,
-      "universe_total": 124
+      "total_universe": 177,
+      "universe_total": 149
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:53:32.348349+00:00",
+      "as_of": "2026-07-29T23:02:13.522537+00:00",
       "edges": [
         {
+          "confidence": 0.224,
+          "description": "Co-covered in 7 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "morgan-stanley",
-          "phrase": "Morgan Stanley is a major Wall Street bank, peer to other financial institutions.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-17",
+          "phrase": "Co-covered in 7 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "wall-st",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.214,
+          "description": "Co-covered in 97 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "morgan-stanley",
-          "phrase": "Morgan Stanley offers Bitcoin investment products to clients.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 97 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.214,
+          "description": "Co-covered in 87 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "morgan-stanley",
-          "phrase": "Morgan Stanley may offer or trade Bitcoin ETFs.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 87 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "etf",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.172,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "morgan-stanley",
-          "phrase": "OCC regulates national banks like Morgan Stanley.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "occ",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.154,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "morgan-stanley",
-          "phrase": "NYSE is a stock exchange where Morgan Stanley trades.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "nyse",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -170,42 +211,62 @@
         },
         {
           "center": false,
+          "confidence": 0.224,
           "name": "Wall Street",
+          "observed_at": "2026-04-17",
           "slug": "wall-st",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.214,
           "name": "Bitcoin",
+          "observed_at": "2026-07-28",
           "slug": "bitcoin",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "ETF",
-          "slug": "etf",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "OCC",
-          "slug": "occ",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.214,
+          "name": "ETF",
+          "observed_at": "2026-07-28",
+          "slug": "etf",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.172,
+          "name": "OCC",
+          "observed_at": null,
+          "slug": "occ",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.154,
           "name": "NYSE",
+          "observed_at": null,
           "slug": "nyse",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -274,17 +335,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 26,
-      "as_of": "2026-07-01T11:53:35.500873+00:00",
+      "article_count": 28,
+      "as_of": "2026-07-29T23:02:14.396807+00:00",
       "most_clicked": {
-        "clicks": 316,
+        "clicks": 317,
         "date": "2024-03-01T09:07:22.878456+00:00",
         "headline": "Morgan Stanley urged to speed up Bitcoin ETFs inclusion as demand soars post-record trading day.",
         "lev_url": "https://leviathannews.xyz/4148/morgan-stanley-urged-to-speed-up-bitcoin-etfs-inclusion-as-demand-soars-post-record-trading-day"
       },
       "provenance": "data",
-      "top_decile_share": 24,
-      "total_clicks": 1967
+      "top_decile_share": 23,
+      "total_clicks": 2060
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:49:57.181597+00:00",
@@ -369,10 +430,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:53:35.417825+00:00",
+      "as_of": "2026-07-29T23:02:14.391424+00:00",
       "items": [
         {
-          "clicks": 90,
+          "clicks": 92,
           "date": "2026-04-09T23:48:36.666661+00:00",
           "headline": "Morgan Stanley debuts spot Bitcoin ETF at 0.14% fee, undercutting BlackRock and Fidelity",
           "hot_score": 28512.083879,
@@ -381,7 +442,7 @@
           "url": "https://cointelegraph.com/news/morgan-stanley-bitcoin-etf-debut-wednesday"
         },
         {
-          "clicks": 36,
+          "clicks": 40,
           "date": "2026-04-16T21:36:23.892187+00:00",
           "headline": "Morgan Stanley says crypto is becoming “daily business” as client demand grows for both direct exposure and ETFs, pushing banks to integrate blockchain with legacy systems",
           "hot_score": 3936.371955,
@@ -390,7 +451,7 @@
           "url": "https://www.theblock.co/post/397764/morgan-stanley-amy-oldenburg-crypto-daily-business-operations-across-firm?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 44,
+          "clicks": 45,
           "date": "2026-04-17T05:17:23.119715+00:00",
           "headline": "NYSE welcomes Morgan Stanley Investment Management to launch $MSBT, the first spot Bitcoin ETF from a major U.S. bank, marking a milestone in institutional crypto adoption",
           "hot_score": 3620.3911,
@@ -399,7 +460,7 @@
           "url": "https://x.com/i/status/2044868178409369853"
         },
         {
-          "clicks": 59,
+          "clicks": 63,
           "date": "2026-04-11T19:54:02.911816+00:00",
           "headline": "Morgan Stanley eyes tokenization and crypto tax strategies beyond Bitcoin, as exec Amy Oldenburg signals expansion into tokenized funds and digital asset services",
           "hot_score": 3144.107447,
@@ -408,7 +469,7 @@
           "url": "https://decrypt.co/364030/not-going-stop-bitcoin-morgan-stanley-weighs-tokenization-tax-solutions"
         },
         {
-          "clicks": 48,
+          "clicks": 49,
           "date": "2026-04-15T19:13:01.303508+00:00",
           "headline": "Morgan Stanley CFO eyes tokenization as the next frontier for its $9.3T wealth platform",
           "hot_score": 2926.972639,
@@ -417,37 +478,37 @@
           "url": "https://www.coindesk.com/business/2026/04/15/why-morgan-stanley-s-cfo-thinks-tokenization-is-the-next-big-step-for-its-multi-trillion-wealth-business"
         },
         {
-          "clicks": 58,
+          "clicks": 28,
+          "date": "2026-07-28T15:16:06.307753+00:00",
+          "headline": "Morgan Stanley launches staking-enabled ether and Solana ETPs on NYSE Arca with 0.14% fees",
+          "hot_score": 2461.346092,
+          "lev_url": "https://leviathannews.xyz/283375/morgan-stanley-launches-staking-enabled-ether-and-solana-etps-on-nyse-arca-with-014-fees",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728141520_QykdOz2VtqeT.jpg",
+          "url": "https://www.morganstanley.com/im/en-us/financial-advisor/products/etfs.desktop.html/undefined.html"
+        },
+        {
+          "clicks": 40,
+          "date": "2026-07-24T14:53:24.870953+00:00",
+          "headline": "Institutional crypto trading platform LMAX is weighing strategic alternatives, including an acquisition or IPO, with Morgan Stanley and KBW advising the process",
+          "hot_score": 420.91985,
+          "lev_url": "https://leviathannews.xyz/281521/institutional-crypto-trading-platform-lmax-is-exploring-sale-ipo-20260724",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724144626_TsnFFYgGOTRh.jpg",
+          "url": "https://www.coindesk.com/business/2026/05/22/institutional-crypto-trading-platform-lmax-is-exploring-sale-ipo"
+        },
+        {
+          "clicks": 61,
           "date": "2026-04-24T06:18:34.128958+00:00",
           "headline": "Morgan Stanley launches stablecoin reserves portfolio for GENIUS Act compliance.",
           "hot_score": 358.6,
           "lev_url": "https://leviathannews.xyz/236001/morgan-stanley-investment-management-launches-stablecoin-reserves-portfolio",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260424044645_IgJg2b-NzmnO.jpg",
           "url": "https://www.businesswire.com/news/home/20260423878842/en/Morgan-Stanley-Investment-Management-Launches-Stablecoin-Reserves-Portfolio"
-        },
-        {
-          "clicks": 80,
-          "date": "2026-03-24T16:33:03.468391+00:00",
-          "headline": "Morgan Stanley says Wall Street’s crypto move reflects years of infrastructure work and plans for tokenized equities, not short-term FOMO, as institutional activity and stablecoin use quietly build.",
-          "hot_score": 247.653946,
-          "lev_url": "https://leviathannews.xyz/215330/morgan-stanley-says-wall-streets-crypto-move-reflects-years-of-infrastructure-work-and-plans-for-tokenized-equities-not-short-term-fomo-as-institutional-activity-and-stablecoin-use",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260324163207_ogySQv7lNn_T.jpg",
-          "url": "https://www.coindesk.com/business/2026/03/24/morgan-stanley-says-wall-street-s-crypto-push-isn-t-about-fomo-it-s-been-years-in-the-making"
-        },
-        {
-          "clicks": 53,
-          "date": "2026-03-20T05:46:19.669746+00:00",
-          "headline": "Morgan Stanley amends SEC filing for first bank Bitcoin ETF under ticker MSBT.",
-          "hot_score": 210.446514,
-          "lev_url": "https://leviathannews.xyz/212745/morgan-stanley-amends-sec-filing-for-first-bank-bitcoin-etf-under-ticker-msbt",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260320000557_0Vbq30Fsi8v2.jpg",
-          "url": "https://coingape.com/morgan-stanley-amends-sec-filing-for-first-bank-bitcoin-etf-under-ticker-msbt/?utm_source=CryptoNews&utm_medium=app"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:53:35.295383+00:00",
+      "as_of": "2026-07-29T23:02:14.380333+00:00",
       "editorial": [
         {
           "count": 5,
@@ -455,11 +516,11 @@
         },
         {
           "count": 4,
-          "source": "theblock.co"
+          "source": "coindesk.com"
         },
         {
-          "count": 3,
-          "source": "coindesk.com"
+          "count": 4,
+          "source": "theblock.co"
         },
         {
           "count": 3,
@@ -498,31 +559,31 @@
           "source": "globenewswire.com"
         }
       ],
-      "editorial_distinct": 14,
+      "editorial_distinct": 15,
       "provenance": "data",
       "universe": [
         {
-          "count": 34,
+          "count": 47,
           "source": "x.com"
         },
         {
-          "count": 14,
-          "source": "theblock.co"
-        },
-        {
-          "count": 13,
+          "count": 15,
           "source": "decrypt.co"
         },
         {
-          "count": 12,
+          "count": 15,
+          "source": "theblock.co"
+        },
+        {
+          "count": 14,
           "source": "cointelegraph.com"
         },
         {
-          "count": 12,
+          "count": 13,
           "source": "financefeeds.com"
         },
         {
-          "count": 7,
+          "count": 8,
           "source": "thestreet.com"
         },
         {
@@ -530,23 +591,23 @@
           "source": "dlnews.com"
         },
         {
+          "count": 5,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 5,
+          "source": "crowdfundinsider.com"
+        },
+        {
           "count": 4,
           "source": "bloomberg.com"
         },
         {
           "count": 4,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 4,
-          "source": "crowdfundinsider.com"
-        },
-        {
-          "count": 3,
           "source": "techinasia.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "wsj.com"
         }
       ],
@@ -567,59 +628,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:44.221560+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.214,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0183,
-        "lift_log": 1.958,
-        "score": 0.2138,
-        "shared": 94
-      },
-      "rationale": "Morgan Stanley offers Bitcoin investment products to clients.",
-      "relation_type": "product",
-      "slug": "bitcoin",
-      "source": "cotag",
-      "tag_name": "Bitcoin",
-      "title": "Bitcoin, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.214,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0835,
-        "lift_log": 3.557,
-        "score": 0.2137,
-        "shared": 74
-      },
-      "rationale": "Morgan Stanley may offer or trade Bitcoin ETFs.",
-      "relation_type": "product",
-      "slug": "etf",
-      "source": "cotag",
-      "tag_name": "ETF",
-      "title": "ETF, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.224,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0192,
-        "lift_log": 2.489,
-        "score": 0.2243,
-        "shared": 7
-      },
-      "rationale": "Morgan Stanley is a major Wall Street bank, peer to other financial institutions.",
-      "relation_type": "peer",
-      "slug": "wall-st",
-      "source": "cotag",
-      "tag_name": "Wall Street",
-      "title": "Wall Street, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "morgan-stanley",
   "tag_name": "Morgan Stanley",

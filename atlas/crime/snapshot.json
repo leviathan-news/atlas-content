@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:09:56.451546+00:00",
+      "as_of": "2026-07-29T22:57:40.754469+00:00",
       "newsroom_total": 36,
-      "overall_share": 37,
+      "overall_share": 27,
       "provenance": "data",
       "series": [
         {
@@ -137,62 +137,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 15
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 35
         }
       ],
-      "total_universe": 98,
-      "universe_total": 62
+      "total_universe": 133,
+      "universe_total": 97
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:09:56.149617+00:00",
+      "as_of": "2026-07-29T22:57:40.526647+00:00",
       "edges": [
         {
+          "confidence": 0.316,
+          "description": "Co-covered in 9 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crime",
-          "phrase": "Money laundering is a type of financial crime.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-18",
+          "phrase": "Co-covered in 9 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "money-laundering",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 32
         },
         {
+          "confidence": 0.2,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crime",
-          "phrase": "FBI investigates and enforces laws against crime.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "fbi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.198,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crime",
-          "phrase": "Tether has been associated with money laundering risks.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tether",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.193,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crime",
-          "phrase": "Tornado Cash used for laundering criminal proceeds.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tornado-cash",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.18,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "crime",
-          "phrase": "TRX may be involved in crypto crime cases.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "trx",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -206,42 +247,62 @@
         },
         {
           "center": false,
+          "confidence": 0.316,
           "name": "Money laundering",
+          "observed_at": "2026-06-18",
           "slug": "money-laundering",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 32
         },
         {
           "center": false,
+          "confidence": 0.2,
           "name": "FBI",
+          "observed_at": null,
           "slug": "fbi",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.198,
           "name": "Tether",
+          "observed_at": null,
           "slug": "tether",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.193,
           "name": "Tornado Cash",
+          "observed_at": null,
           "slug": "tornado-cash",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.18,
           "name": "TRX",
+          "observed_at": null,
           "slug": "trx",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -311,16 +372,16 @@
     },
     "reader_signal": {
       "article_count": 36,
-      "as_of": "2026-07-01T12:09:56.948105+00:00",
+      "as_of": "2026-07-29T22:57:40.926001+00:00",
       "most_clicked": {
-        "clicks": 345,
+        "clicks": 352,
         "date": "2025-01-20T17:45:51.651831+00:00",
         "headline": "Crime is legal now.  Post your favorite securities violations in the comments👇",
         "lev_url": "https://leviathannews.xyz/8826/crime-is-legal-now-post-your-favorite-securities-violations-in-the-comments"
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 3158
+      "total_clicks": 3209
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:57:46.018870+00:00",
@@ -405,7 +466,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:09:56.871779+00:00",
+      "as_of": "2026-07-29T22:57:40.921719+00:00",
       "items": [
         {
           "clicks": 35,
@@ -417,7 +478,7 @@
           "url": "https://decrypt.co/367874/tether-tron-trm-financial-crime-unit-frozen-450-million-crypto-funds"
         },
         {
-          "clicks": 84,
+          "clicks": 90,
           "date": "2025-12-18T08:59:23.645593+00:00",
           "headline": "Scammers, Spies and Triads: Inside the $15 Trillion Global Cybercrime Empire Reshaping Transnational Crime",
           "hot_score": 118.178801,
@@ -435,13 +496,22 @@
           "url": "https://www.justice.gov/usao-dc/pr/dc-scam-center-strike-force-seizures-cryptocurrency-chinese-transnational-criminals-tops"
         },
         {
-          "clicks": 31,
+          "clicks": 32,
           "date": "2025-12-08T09:56:22.489143+00:00",
           "headline": "Make revenue, not crime. 2026 crypto plan by Poopman as he surmises that crypto isn’t done, it’s evolving. Market participants are experiencing a cleanse that the market needed before making crypto a 10x better place than before.",
           "hot_score": 50.007124,
           "lev_url": "https://leviathannews.xyz/21856/make-revenue-not-crime-2026-crypto-plan-by-poopman-as-he-surmises-that-crypto-isnt-done-its-evolving-market-partcipants-are-experiencing-a-cleanse-that-the-market-needed-before-mak",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251208093432_QfbI8duWOf0=.jpg",
           "url": "https://x.com/poopmandefi/status/1997226461275849087"
+        },
+        {
+          "clicks": 33,
+          "date": "2025-12-02T18:00:49.617697+00:00",
+          "headline": "A UK man has been sentenced to 33 months after embezzling $650K from his employer and converting it into crypto for gambling. Experts warn that crypto-related white-collar crime is rising, but blockchain transparency can aid detection.",
+          "hot_score": 40.2596,
+          "lev_url": "https://leviathannews.xyz/21551/a-uk-man-has-been-sentenced-to-33-months-after-embezzling-650k-from-his-employer-and-converting-it-into-crypto-for-gambling-experts-warn-that-crypto-related-white-collar-crime-is-r",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251202180001_OMs5tMUmCgQ=.png",
+          "url": "https://decrypt.co/350649/white-collar-fraudster-jailed-in-uk-after-converting-650k-in-company-funds-to-crypto"
         },
         {
           "clicks": 31,
@@ -453,15 +523,6 @@
           "url": "https://x.com/EliBenSasson/status/1991508558328873102?t=hIDNYCDYgjI6X6BdOemI4Q&s=09"
         },
         {
-          "clicks": 30,
-          "date": "2025-12-02T18:00:49.617697+00:00",
-          "headline": "A UK man has been sentenced to 33 months after embezzling $650K from his employer and converting it into crypto for gambling. Experts warn that crypto-related white-collar crime is rising, but blockchain transparency can aid detection.",
-          "hot_score": 40.2596,
-          "lev_url": "https://leviathannews.xyz/21551/a-uk-man-has-been-sentenced-to-33-months-after-embezzling-650k-from-his-employer-and-converting-it-into-crypto-for-gambling-experts-warn-that-crypto-related-white-collar-crime-is-r",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251202180001_OMs5tMUmCgQ=.png",
-          "url": "https://decrypt.co/350649/white-collar-fraudster-jailed-in-uk-after-converting-650k-in-company-funds-to-crypto"
-        },
-        {
           "clicks": 27,
           "date": "2025-12-15T07:21:47.613359+00:00",
           "headline": "The UK Treasury plans to regulate crypto under FCA oversight by 2027, applying standards similar to traditional financial products. Officials say the move boosts consumer protection, transparency, and enforcement against scams and financial crime.",
@@ -471,7 +532,7 @@
           "url": "https://x.com/i/status/2000368060235198680"
         },
         {
-          "clicks": 345,
+          "clicks": 352,
           "date": "2025-01-20T17:45:51.651831+00:00",
           "headline": "Crime is legal now.  Post your favorite securities violations in the comments👇",
           "hot_score": 0.0,
@@ -483,7 +544,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:09:56.789991+00:00",
+      "as_of": "2026-07-29T22:57:40.911344+00:00",
       "editorial": [
         {
           "count": 8,
@@ -538,55 +599,55 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 17,
-          "source": "x.com"
-        },
-        {
-          "count": 16,
+          "count": 26,
           "source": "truthsocial.com"
         },
         {
-          "count": 7,
+          "count": 21,
+          "source": "x.com"
+        },
+        {
+          "count": 8,
           "source": "decrypt.co"
         },
         {
-          "count": 5,
-          "source": "crowdfundinsider.com"
-        },
-        {
-          "count": 4,
-          "source": "whitehouse.gov"
-        },
-        {
-          "count": 3,
-          "source": "cointelegraph.com"
-        },
-        {
-          "count": 2,
-          "source": "theblock.co"
-        },
-        {
-          "count": 2,
+          "count": 8,
           "source": "financefeeds.com"
         },
         {
-          "count": 2,
+          "count": 6,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 6,
+          "source": "whitehouse.gov"
+        },
+        {
+          "count": 4,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
           "source": "news.bloomberglaw.com"
+        },
+        {
+          "count": 2,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 2,
+          "source": "wsj.com"
         },
         {
           "count": 1,
           "source": "dlnews.com"
-        },
-        {
-          "count": 1,
-          "source": "foxbusiness.com"
-        },
-        {
-          "count": 1,
-          "source": "bloomberg.com"
         }
       ],
-      "universe_distinct": 13
+      "universe_distinct": 19
     }
   },
   "official_links": [],
@@ -597,25 +658,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:24.677963+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.316,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0398,
-        "lift_log": 4.294,
-        "score": 0.3163,
-        "shared": 9
-      },
-      "rationale": "Money laundering is a type of financial crime.",
-      "relation_type": "category",
-      "slug": "money-laundering",
-      "source": "cotag",
-      "tag_name": "Money laundering",
-      "title": "Money laundering, Explained",
-      "weight": 32
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "crime",
   "tag_name": "Crime",

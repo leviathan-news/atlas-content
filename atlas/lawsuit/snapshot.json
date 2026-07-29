@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:57:57.049198+00:00",
+      "as_of": "2026-07-29T23:00:44.385498+00:00",
       "newsroom_total": 92,
-      "overall_share": 43,
+      "overall_share": 39,
       "provenance": "data",
       "series": [
         {
@@ -232,63 +232,98 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 2
+          "universe": 27
         }
       ],
-      "total_universe": 212,
-      "universe_total": 120
+      "total_universe": 237,
+      "universe_total": 145
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:57:56.611406+00:00",
+      "as_of": "2026-07-29T23:00:43.775019+00:00",
       "edges": [
         {
+          "confidence": 0.255,
+          "description": "Co-covered in 11 approved stories; most recently December 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "lawsuit",
-          "phrase": "Lawsuit is a specific instance within the broader legal domain.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-12-19",
+          "phrase": "Co-covered in 11 approved stories; most recently December 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "legal",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.234,
+          "description": "Co-covered in 6 approved stories; most recently December 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "lawsuit",
-          "phrase": "Securities classification is often a core issue in crypto lawsuits.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-12-19",
+          "phrase": "Co-covered in 6 approved stories; most recently December 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "securities",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.229,
+          "description": "Co-covered in 4 approved stories; most recently October 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "lawsuit",
-          "phrase": "Celsius faced lawsuits after its bankruptcy and regulatory actions.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-10-14",
+          "phrase": "Co-covered in 4 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "celsius",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.189,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "lawsuit",
-          "phrase": "CFTC enforcement actions can lead to lawsuits against crypto firms.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cftc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.173,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "lawsuit",
-          "phrase": "Pump.fun may face lawsuits for alleged market manipulation.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "pump-dotfun",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -302,42 +337,62 @@
         },
         {
           "center": false,
+          "confidence": 0.255,
           "name": "legal",
+          "observed_at": "2025-12-19",
           "slug": "legal",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.234,
           "name": "Securities",
+          "observed_at": "2025-12-19",
           "slug": "securities",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 23
-        },
-        {
-          "center": false,
-          "name": "Celsius",
-          "slug": "celsius",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 23
-        },
-        {
-          "center": false,
-          "name": "CFTC",
-          "slug": "cftc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 23
+        },
+        {
+          "center": false,
+          "confidence": 0.229,
+          "name": "Celsius",
+          "observed_at": "2025-10-14",
+          "slug": "celsius",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 23
+        },
+        {
+          "center": false,
+          "confidence": 0.189,
+          "name": "CFTC",
+          "observed_at": null,
+          "slug": "cftc",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.173,
           "name": "Pump.fun",
+          "observed_at": null,
           "slug": "pump-dotfun",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -407,16 +462,16 @@
     },
     "reader_signal": {
       "article_count": 92,
-      "as_of": "2026-07-01T11:57:57.572941+00:00",
+      "as_of": "2026-07-29T23:00:44.897606+00:00",
       "most_clicked": {
-        "clicks": 581,
+        "clicks": 585,
         "date": "2023-09-07T20:16:10.827547+00:00",
         "headline": "VC firm lawsuit against Curve Founder Michael Egorov dismissed by California court, due to defendant living in Switzerland at the time of the alleged misdeeds",
         "lev_url": "https://leviathannews.xyz/2534/vc-firm-lawsuit-against-curve-founder-michael-egorov-dismissed-by-california-court-due-to-defendant-living-in-switzerland-at-the-time-of-the-alleged-misdeeds"
       },
       "provenance": "data",
       "top_decile_share": 34,
-      "total_clicks": 9396
+      "total_clicks": 9487
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:41:38.898533+00:00",
@@ -501,10 +556,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:57:57.472174+00:00",
+      "as_of": "2026-07-29T23:00:44.889590+00:00",
       "items": [
         {
-          "clicks": 125,
+          "clicks": 126,
           "date": "2025-12-18T16:04:50.422460+00:00",
           "headline": "Pumpfun and Solana Face $5.5B RICO Lawsuit Alleging Coordinated Memecoin Scheme That Wiped Out Retail Investors",
           "hot_score": 183.811468,
@@ -513,7 +568,7 @@
           "url": "https://x.com/mastrxyz/status/2001538233952248275"
         },
         {
-          "clicks": 60,
+          "clicks": 63,
           "date": "2026-02-24T08:14:16.577374+00:00",
           "headline": "Jane Street Accused of Orchestrating 2022 Terra UST–LUNA Death Spiral, Triggering $40B Crypto Meltdown, as Terraform Bankruptcy Administrator Files Manhattan Lawsuit in February 2026",
           "hot_score": 114.753612,
@@ -522,7 +577,7 @@
           "url": "https://www.wsj.com/finance/currencies/jane-street-accused-of-insider-trading-that-helped-collapse-terraform-659e6993"
         },
         {
-          "clicks": 68,
+          "clicks": 70,
           "date": "2025-12-16T18:53:27.410170+00:00",
           "headline": "Judge Allows Amended Lawsuit Alleging Pump.fun Marketplace Was Tilted to Favor Insiders on Solana",
           "hot_score": 108.831277,
@@ -531,7 +586,7 @@
           "url": "https://x.com/burwicklaw/status/2000635043421835390"
         },
         {
-          "clicks": 72,
+          "clicks": 74,
           "date": "2026-03-09T15:04:36.773239+00:00",
           "headline": "Anthropic sues U.S. government after being designated a \"supply chain risk\" for refusing to remove AI safety guardrails",
           "hot_score": 75.065128,
@@ -549,7 +604,7 @@
           "url": "https://www.sec.gov/files/litigation/complaints/2025/comp26448.pdf"
         },
         {
-          "clicks": 581,
+          "clicks": 585,
           "date": "2023-09-07T20:16:10.827547+00:00",
           "headline": "VC firm lawsuit against Curve Founder Michael Egorov dismissed by California court, due to defendant living in Switzerland at the time of the alleged misdeeds",
           "hot_score": 0.0,
@@ -567,7 +622,7 @@
           "url": "https://www.reuters.com/legal/coinbase-must-face-shareholder-lawsuit-over-sec-risks-2024-09-06/"
         },
         {
-          "clicks": 411,
+          "clicks": 415,
           "date": "2025-01-22T20:22:12.213296+00:00",
           "headline": "“They can continue objecting and appealing, but text by the court is strong.” -- Curve Founder Michael Egorov reacts to California appeals court upholding a prior ruling against VC lawsuit on jurisdictional grounds",
           "hot_score": 0.0,
@@ -579,7 +634,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:57:57.367932+00:00",
+      "as_of": "2026-07-29T23:00:44.867266+00:00",
       "editorial": [
         {
           "count": 22,
@@ -634,28 +689,32 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 34,
+          "count": 39,
           "source": "x.com"
+        },
+        {
+          "count": 20,
+          "source": "cointelegraph.com"
         },
         {
           "count": 17,
           "source": "decrypt.co"
         },
         {
-          "count": 14,
+          "count": 15,
           "source": "theblock.co"
         },
         {
-          "count": 14,
-          "source": "cointelegraph.com"
-        },
-        {
-          "count": 9,
+          "count": 12,
           "source": "financefeeds.com"
         },
         {
-          "count": 5,
+          "count": 8,
           "source": "thestreet.com"
+        },
+        {
+          "count": 7,
+          "source": "truthsocial.com"
         },
         {
           "count": 4,
@@ -663,7 +722,7 @@
         },
         {
           "count": 4,
-          "source": "truthsocial.com"
+          "source": "coindesk.com"
         },
         {
           "count": 3,
@@ -671,15 +730,11 @@
         },
         {
           "count": 3,
-          "source": "news.bloomberglaw.com"
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 3,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 2,
-          "source": "crowdfundinsider.com"
+          "source": "news.bloomberglaw.com"
         }
       ],
       "universe_distinct": 20
@@ -693,59 +748,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:39.200411+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.229,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0254,
-        "lift_log": 4.717,
-        "score": 0.2287,
-        "shared": 4
-      },
-      "rationale": "Celsius faced lawsuits after its bankruptcy and regulatory actions.",
-      "relation_type": "event",
-      "slug": "celsius",
-      "source": "cotag",
-      "tag_name": "Celsius",
-      "title": "Celsius, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.255,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.019,
-        "lift_log": 3.168,
-        "score": 0.2551,
-        "shared": 11
-      },
-      "rationale": "Lawsuit is a specific instance within the broader legal domain.",
-      "relation_type": "category",
-      "slug": "legal",
-      "source": "cotag",
-      "tag_name": "legal",
-      "title": "legal, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.234,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0119,
-        "lift_log": 2.794,
-        "score": 0.2342,
-        "shared": 6
-      },
-      "rationale": "Securities classification is often a core issue in crypto lawsuits.",
-      "relation_type": "category",
-      "slug": "securities",
-      "source": "cotag",
-      "tag_name": "Securities",
-      "title": "Securities, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "lawsuit",
   "tag_name": "Lawsuit",

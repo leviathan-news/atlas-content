@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:02:34.591799+00:00",
-      "newsroom_total": 57,
-      "overall_share": 63,
+      "as_of": "2026-07-29T23:03:12.209335+00:00",
+      "newsroom_total": 60,
+      "overall_share": 59,
       "provenance": "data",
       "series": [
         {
@@ -167,62 +167,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 10
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-07",
+          "newsroom": 3,
+          "universe": 9
         }
       ],
-      "total_universe": 90,
-      "universe_total": 33
+      "total_universe": 102,
+      "universe_total": 42
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:02:34.257512+00:00",
+      "as_of": "2026-07-29T23:03:11.940571+00:00",
       "edges": [
         {
+          "confidence": 0.257,
+          "description": "Co-covered in 3 approved stories; most recently January 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "pendle",
-          "phrase": "Pendle enables trading of future yield from yield-bearing tokens.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-01-25",
+          "phrase": "Co-covered in 3 approved stories; most recently January 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "yield-bearing",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.249,
+          "description": "Co-covered in 21 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "pendle",
-          "phrase": "Pendle is a protocol focused on yield tokenization and trading.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-16",
+          "phrase": "Co-covered in 21 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.21,
+          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "pendle",
-          "phrase": "Plasma is another yield protocol; unsure of direct relation.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-22",
+          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "plasma",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "pendle",
-          "phrase": "Pendle integrates with Morpho for yield optimization.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "morpho",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.175,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "pendle",
-          "phrase": "Pendle lists USDe as a yield-bearing asset for trading.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "usde",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -236,42 +277,62 @@
         },
         {
           "center": false,
+          "confidence": 0.257,
           "name": "Yield-Bearing",
+          "observed_at": "2026-01-25",
           "slug": "yield-bearing",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.249,
           "name": "Yield",
+          "observed_at": "2026-07-16",
           "slug": "yield",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.21,
           "name": "Plasma",
+          "observed_at": "2026-06-22",
           "slug": "plasma",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "Morpho",
+          "observed_at": null,
           "slug": "morpho",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.175,
           "name": "USDe",
+          "observed_at": null,
           "slug": "usde",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -340,17 +401,17 @@
       "source": "https://www.galaxy.com/insights/research/aave-how-much-leverage-defi-looping-eth-weth-weeth-rseth-wsteth"
     },
     "reader_signal": {
-      "article_count": 57,
-      "as_of": "2026-07-01T12:02:35.077060+00:00",
+      "article_count": 60,
+      "as_of": "2026-07-29T23:03:12.429550+00:00",
       "most_clicked": {
-        "clicks": 450,
+        "clicks": 455,
         "date": "2024-11-11T20:45:19.103310+00:00",
         "headline": "Pendle introduces Boros - yield trading with margin",
         "lev_url": "https://leviathannews.xyz/7661/pendle-introduces-boros-yield-trading-with-margin"
       },
       "provenance": "data",
-      "top_decile_share": 36,
-      "total_clicks": 4802
+      "top_decile_share": 40,
+      "total_clicks": 4975
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:26:54.053070+00:00",
@@ -435,10 +496,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:02:35.000928+00:00",
+      "as_of": "2026-07-29T23:03:12.423324+00:00",
       "items": [
         {
-          "clicks": 32,
+          "clicks": 34,
           "date": "2026-05-16T06:50:34.764931+00:00",
           "headline": "Apyx brings Strategy’s DAT preferred stock dividends onchain via Pendle, letting DeFi users lock fixed or floating yield strategies targeting 13-15% APY",
           "hot_score": 701.2,
@@ -447,7 +508,25 @@
           "url": "https://x.com/i/web/status/2055272773862212071"
         },
         {
-          "clicks": 48,
+          "clicks": 33,
+          "date": "2026-07-11T12:00:51.330674+00:00",
+          "headline": "Pendle fully integrates Bungee V3, enabling one-click cross-chain swaps into any PT/YT with faster routing, lower fees, and gasless execution",
+          "hot_score": 630.69964,
+          "lev_url": "https://leviathannews.xyz/273261/pendle-has-fully-upgraded-bungeeexchange-v3-faster-routing-lower-fees-fewer-clicks-swap-any-token-on-any-chain-into-any-ptyt-in-a-single-click-gas-is-handled-for-you-e",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260711115859_pGpkynoh35iN.jpg",
+          "url": "https://x.com/pendle_fi/status/2075807009484714030"
+        },
+        {
+          "clicks": 26,
+          "date": "2026-07-03T07:29:50.307409+00:00",
+          "headline": "Pendle staked supply hits 100M PENDLE as emissions fall 71% and buybacks reach 1.96M",
+          "hot_score": 566.642824,
+          "lev_url": "https://leviathannews.xyz/268112/pendle-staked-supply-hits-100m-pendle-as-emissions-fall-71-and-buybacks-reach-196m",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260703062642_Z4zrlaiDPw==.png",
+          "url": "https://x.com/pendle_fi/status/2072919488572629044"
+        },
+        {
+          "clicks": 50,
           "date": "2026-05-04T13:54:01.322969+00:00",
           "headline": "Dune data confirms “Pendle Effect” as PT/YT markets drive token demand surges, boosting holders, supply, and capital inflows via yield tokenization and DeFi composability",
           "hot_score": 540.2,
@@ -456,7 +535,16 @@
           "url": "https://x.com/i/web/status/2051286497974980686"
         },
         {
-          "clicks": 57,
+          "clicks": 41,
+          "date": "2026-07-17T03:57:26.303802+00:00",
+          "headline": "Pendle launches one-click PT looping beta on Aave V3 and Morpho, with Aave V4 and Euler support planned",
+          "hot_score": 428.919264,
+          "lev_url": "https://leviathannews.xyz/277138/pendle-opens-one-click-pt-looping-beta-on-aave-v3-and-morpho-with-aave-v4-and-euler-support-to-follow",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260717012323_Z4zrlaiDPw==.png",
+          "url": "https://x.com/pendle_fi/status/2077654555815502145"
+        },
+        {
+          "clicks": 58,
           "date": "2026-03-25T18:49:10.538659+00:00",
           "headline": "Pendle emerges as DeFi’s yield standard, turning fixed-rate PT tokens into liquid collateral and attracting institutional flows into tokenized yield markets",
           "hot_score": 238.72636,
@@ -465,7 +553,7 @@
           "url": "https://x.com/i/status/2036751299199602977"
         },
         {
-          "clicks": 59,
+          "clicks": 62,
           "date": "2026-04-07T08:40:24.197552+00:00",
           "headline": "Bungee enables Pendle PTs to be access from any chain and from one deep pool on Ethereum.",
           "hot_score": 226.974258,
@@ -474,49 +562,22 @@
           "url": "https://x.com/BungeeExchange/status/2039766311530848467"
         },
         {
-          "clicks": 44,
+          "clicks": 45,
           "date": "2026-04-01T09:56:35.547907+00:00",
           "headline": "Pendle to sunset April Strata pools at maturity, urging users to migrate positions as new June srUSDe and jrUSDe markets go live",
           "hot_score": 224.415288,
           "lev_url": "https://leviathannews.xyz/219115/pendle-to-sunset-april-strata-pools-at-maturity-urging-users-to-migrate-positions-as-new-june-srusde-and-jrusde-markets-go-live",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401093327_vgHP2Jy4e8ay.jpg",
           "url": "https://x.com/i/status/2039182840735359391"
-        },
-        {
-          "clicks": 55,
-          "date": "2026-03-16T17:17:13.993631+00:00",
-          "headline": "Tangent unveils $USG, a CDP stablecoin backed by Curve LP tokens and Pendle PTs, unlocking borrowing against yield positions",
-          "hot_score": 182.774845,
-          "lev_url": "https://leviathannews.xyz/210437/tangent-unveils-usg-a-cdp-stablecoin-backed-by-curve-lp-tokens-and-pendle-pts-unlocking-borrowing-against-yield-positions",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260316171429_-Qc-MmxAGwd2.jpg",
-          "url": "https://x.com/Tangent_fi/status/2033564442982592623"
-        },
-        {
-          "clicks": 105,
-          "date": "2026-02-17T13:21:55.359919+00:00",
-          "headline": "ETH yields quietly return as Pendle, Morpho, and niche chains offer fixed rates, leverage plays, and double-digit opportunities for risk-takers.",
-          "hot_score": 141.868968,
-          "lev_url": "https://leviathannews.xyz/29572/eth-yields-quietly-return-as-pendle-morpho-and-niche-chains-offer-fixed-rates-leverage-plays-and-double-digit-opportunities-for-risk-takers",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260217131952_T7IdBAY9Wxc=.jpg",
-          "url": "https://x.com/i/status/2023256546012979567"
-        },
-        {
-          "clicks": 85,
-          "date": "2026-03-13T15:35:05.527093+00:00",
-          "headline": "YOU DON'T WANT TO MISS🔥\n\nDeFi researcher outlines eight stablecoin yield strategies across Pendle, Morpho, Ostium and KiloEx, with APYs ranging from ~9% to nearly 50%",
-          "hot_score": 106.814791,
-          "lev_url": "https://leviathannews.xyz/209449/you-dont-want-to-miss-defi-researcher-outlines-eight-stablecoin-yield-strategies-across-pendle-morpho-ostium-and-kiloex-with-apys-ranging-from-9-to-nearly-50",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260313152948_BBUwewv40BJQ.jpg",
-          "url": "https://x.com/i/status/2032204557254570057"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:02:34.915837+00:00",
+      "as_of": "2026-07-29T23:03:12.411467+00:00",
       "editorial": [
         {
-          "count": 42,
+          "count": 45,
           "source": "x.com"
         },
         {
@@ -568,7 +629,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 30,
+          "count": 39,
           "source": "x.com"
         },
         {
@@ -601,59 +662,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:47.924133+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.21,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0308,
-        "lift_log": 4.253,
-        "score": 0.21,
-        "shared": 3
-      },
-      "rationale": "Plasma is another yield protocol; unsure of direct relation.",
-      "relation_type": "peer",
-      "slug": "plasma",
-      "source": "cotag",
-      "tag_name": "Plasma",
-      "title": "Plasma, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.249,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0205,
-        "lift_log": 2.965,
-        "score": 0.249,
-        "shared": 20
-      },
-      "rationale": "Pendle is a protocol focused on yield tokenization and trading.",
-      "relation_type": "category",
-      "slug": "yield",
-      "source": "cotag",
-      "tag_name": "Yield",
-      "title": "Yield, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.257,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0142,
-        "lift_log": 3.274,
-        "score": 0.2573,
-        "shared": 3
-      },
-      "rationale": "Pendle enables trading of future yield from yield-bearing tokens.",
-      "relation_type": "primitive",
-      "slug": "yield-bearing",
-      "source": "cotag",
-      "tag_name": "Yield-Bearing",
-      "title": "Yield-Bearing, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "pendle",
   "tag_name": "Pendle",

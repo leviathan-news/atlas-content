@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:00:18.379367+00:00",
-      "newsroom_total": 57,
-      "overall_share": 70,
+      "as_of": "2026-07-29T23:05:52.881011+00:00",
+      "newsroom_total": 59,
+      "overall_share": 63,
       "provenance": "data",
       "series": [
         {
@@ -185,62 +185,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 4
+        },
+        {
+          "ed_share": 17,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 10
         }
       ],
-      "total_universe": 81,
-      "universe_total": 24
+      "total_universe": 93,
+      "universe_total": 34
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:00:16.901303+00:00",
+      "as_of": "2026-07-29T23:05:51.743071+00:00",
       "edges": [
         {
+          "confidence": 0.358,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "us-treasury",
-          "phrase": "US Treasury is the U.S. department; 'treasury' is a generic term for similar entities.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 36
         },
         {
+          "confidence": 0.347,
+          "description": "Co-covered in 4 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "us-treasury",
-          "phrase": "OFAC is an enforcement arm of the US Treasury for sanctions.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-15",
+          "phrase": "Co-covered in 4 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ofac",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 35
         },
         {
+          "confidence": 0.339,
+          "description": "Co-covered in 7 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "us-treasury",
-          "phrase": "US Treasury issues T-Bills as debt securities.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-24",
+          "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "t-bills",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 34
         },
         {
+          "confidence": 0.191,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "us-treasury",
-          "phrase": "GENIUS Act is a proposed regulation related to stablecoins.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "genius",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.185,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "us-treasury",
-          "phrase": "North Korea is a sanctioned entity targeted by Treasury actions.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "north-korea",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         }
       ],
@@ -254,42 +295,62 @@
         },
         {
           "center": false,
+          "confidence": 0.358,
           "name": "Treasury",
+          "observed_at": null,
           "slug": "treasury",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 36
         },
         {
           "center": false,
+          "confidence": 0.347,
           "name": "OFAC",
+          "observed_at": "2026-07-15",
           "slug": "ofac",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 35
         },
         {
           "center": false,
+          "confidence": 0.339,
           "name": "T-Bills",
+          "observed_at": "2026-07-24",
           "slug": "t-bills",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 34
         },
         {
           "center": false,
+          "confidence": 0.191,
           "name": "GENIUS Act",
+          "observed_at": null,
           "slug": "genius",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.185,
           "name": "North Korea",
+          "observed_at": null,
           "slug": "north-korea",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         }
       ],
@@ -358,17 +419,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 57,
-      "as_of": "2026-07-01T12:00:19.213081+00:00",
+      "article_count": 59,
+      "as_of": "2026-07-29T23:05:53.520808+00:00",
       "most_clicked": {
-        "clicks": 1162,
+        "clicks": 1184,
         "date": "2024-12-20T22:59:41.515119+00:00",
         "headline": "BlackRock has proposed adding its tokenized U.S. Treasury fund, BUIDL, as a reserve asset for Frax's stablecoin treasury.",
         "lev_url": "https://leviathannews.xyz/8437/blackrock-has-proposed-adding-its-tokenized-us-treasury-fund-buidl-as-a-reserve-asset-for-fraxs-stablecoin-treasury"
       },
       "provenance": "data",
-      "top_decile_share": 40,
-      "total_clicks": 7054
+      "top_decile_share": 39,
+      "total_clicks": 7230
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:29:19.494303+00:00",
@@ -453,10 +514,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:00:19.133898+00:00",
+      "as_of": "2026-07-29T23:05:53.514355+00:00",
       "items": [
         {
-          "clicks": 116,
+          "clicks": 122,
           "date": "2026-04-09T18:47:05.981065+00:00",
           "headline": "U.S. Treasury extends cyber threat alerts to crypto firms, closing gap with traditional finance",
           "hot_score": 192776.127034,
@@ -465,7 +526,7 @@
           "url": "https://www.coindesk.com/policy/2026/04/09/u-s-treasury-to-loop-in-crypto-sector-on-hacker-warnings-shared-with-traditional-firms"
         },
         {
-          "clicks": 213,
+          "clicks": 215,
           "date": "2026-04-01T18:13:41.785066+00:00",
           "headline": "U.S. Treasury proposes first GENIUS Act rule, seeking public input on allowing smaller stablecoin issuers to operate under state-level oversight frameworks",
           "hot_score": 922.530085,
@@ -474,7 +535,7 @@
           "url": "https://www.theblock.co/post/396093/treasury-genius-act-rule-proposal-seeks-comment-oversight-smaller-issuers?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 50,
+          "clicks": 53,
           "date": "2026-05-30T07:18:28.930389+00:00",
           "headline": "US Treasury crosses $1 billion in seized Iranian crypto under Operation Economic Fury, mostly USDT on Tron",
           "hot_score": 457.02642,
@@ -483,7 +544,16 @@
           "url": "https://www.theblock.co/post/403075/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says"
         },
         {
-          "clicks": 80,
+          "clicks": 33,
+          "date": "2026-07-01T14:55:38.947225+00:00",
+          "headline": "Tradeweb executes first real-time onchain U.S. Treasury trade on its platform against USDCx via Canton",
+          "hot_score": 418.127934,
+          "lev_url": "https://leviathannews.xyz/266585/tradeweb-executes-first-real-time-onchain-us-treasury-trade-on-its-platform-against-usdcx-via-canton",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701143104_Z4zrlaiDPw==.png",
+          "url": "https://blog.digitalasset.com/press-release/tradeweb-on-chain-us-treasuries-canton"
+        },
+        {
+          "clicks": 114,
           "date": "2026-04-22T19:11:57.609800+00:00",
           "headline": "US Treasury’s Bessent says many Gulf and Asian allies seek dollar swap lines as Iran war roils markets, while Washington debates politically sensitive UAE support and protection of dollar dominance",
           "hot_score": 393.0,
@@ -492,7 +562,7 @@
           "url": "https://www.cnbc.com/2026/04/22/iran-war-treasury-uae-scott-bessent-currency-swaps.html"
         },
         {
-          "clicks": 35,
+          "clicks": 38,
           "date": "2026-05-07T23:05:51.035632+00:00",
           "headline": "US Treasury reportedly pressured Binance to fully comply with its 2023 monitoring deal after claims the exchange processed $1B tied to Iran-linked entities",
           "hot_score": 367.581188,
@@ -501,7 +571,7 @@
           "url": "https://cointelegraph.com/news/us-treasury-binance-monitoring-program-reminder"
         },
         {
-          "clicks": 60,
+          "clicks": 62,
           "date": "2026-03-13T14:20:25.026840+00:00",
           "headline": "U.S. Treasury sanctions six individuals and two entities across Asia and Europe for running North Korea IT worker fraud schemes that defraud U.S. businesses and fund the DPRK’s WMD programs, including nearly $800 million in 2024",
           "hot_score": 66.351583,
@@ -510,31 +580,22 @@
           "url": "https://home.treasury.gov/news/press-releases/sb0416"
         },
         {
-          "clicks": 65,
+          "clicks": 69,
           "date": "2026-03-09T13:01:50.907457+00:00",
           "headline": "U.S. Treasury tells Congress crypto mixers protect financial privacy but remain a top tool for DPRK hackers, fraud and ransomware operators",
           "hot_score": 60.742554,
           "lev_url": "https://leviathannews.xyz/116627/us-treasury-tells-congress-crypto-mixers-protect-financial-privacy-but-remain-a-top-tool-for-dprk-hackers-fraud-and-ransomware-operators",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260309115334_ALCvje8CUwDz.jpg",
           "url": "https://home.treasury.gov/system/files/246/GENIUS-Act-Illicit-Finance-Innovation-Congressional-Report-March-2026.pdf"
-        },
-        {
-          "clicks": 49,
-          "date": "2026-03-26T22:40:38.440858+00:00",
-          "headline": "The money printer is ready: US Treasury announces Trump's signature will appear on US paper currency",
-          "hot_score": 58.490296,
-          "lev_url": "https://leviathannews.xyz/216942/no-headline-20260326-1",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260326223819_6qd-lkXdhPo0.jpg",
-          "url": "https://home.treasury.gov/news/press-releases/sb0425"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:00:19.016418+00:00",
+      "as_of": "2026-07-29T23:05:53.498403+00:00",
       "editorial": [
         {
-          "count": 13,
+          "count": 14,
           "source": "x.com"
         },
         {
@@ -582,31 +643,31 @@
           "source": "gov.frax.finance"
         }
       ],
-      "editorial_distinct": 23,
+      "editorial_distinct": 24,
       "provenance": "data",
       "universe": [
         {
-          "count": 10,
+          "count": 11,
           "source": "cointelegraph.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "decrypt.co"
         },
         {
-          "count": 2,
+          "count": 4,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 2,
+          "count": 4,
+          "source": "x.com"
+        },
+        {
+          "count": 3,
           "source": "financefeeds.com"
         },
         {
           "count": 2,
-          "source": "x.com"
-        },
-        {
-          "count": 1,
           "source": "theblock.co"
         },
         {
@@ -624,9 +685,17 @@
         {
           "count": 1,
           "source": "tass.ru"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "cantonnews.org"
         }
       ],
-      "universe_distinct": 10
+      "universe_distinct": 12
     }
   },
   "official_links": [],
@@ -637,59 +706,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:37:03.939717+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.347,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0274,
-        "lift_log": 5.102,
-        "score": 0.3473,
-        "shared": 3
-      },
-      "rationale": "OFAC is an enforcement arm of the US Treasury for sanctions.",
-      "relation_type": "infrastructure",
-      "slug": "ofac",
-      "source": "cotag",
-      "tag_name": "OFAC",
-      "title": "OFAC, Explained",
-      "weight": 35
-    },
-    {
-      "confidence": 0.339,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0257,
-        "lift_log": 4.946,
-        "score": 0.3394,
-        "shared": 6
-      },
-      "rationale": "US Treasury issues T-Bills as debt securities.",
-      "relation_type": "product",
-      "slug": "t-bills",
-      "source": "cotag",
-      "tag_name": "T-Bills",
-      "title": "T-Bills, Explained",
-      "weight": 34
-    },
-    {
-      "confidence": 0.358,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1009,
-        "lift_log": 4.419,
-        "score": 0.3577,
-        "shared": 50
-      },
-      "rationale": "US Treasury is the U.S. department; 'treasury' is a generic term for similar entities.",
-      "relation_type": "peer",
-      "slug": "treasury",
-      "source": "cotag",
-      "tag_name": "Treasury",
-      "title": "Treasury, Explained",
-      "weight": 36
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "us-treasury",
   "tag_name": "US Treasury",

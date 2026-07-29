@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:10:33.666792+00:00",
-      "newsroom_total": 34,
-      "overall_share": 64,
+      "as_of": "2026-07-29T22:58:36.525909+00:00",
+      "newsroom_total": 35,
+      "overall_share": 61,
       "provenance": "data",
       "series": [
         {
@@ -149,62 +149,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 4
+        },
+        {
+          "ed_share": 25,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 3
         }
       ],
-      "total_universe": 53,
-      "universe_total": 19
+      "total_universe": 57,
+      "universe_total": 22
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:10:33.349434+00:00",
+      "as_of": "2026-07-29T22:58:35.967537+00:00",
       "edges": [
         {
+          "confidence": 0.319,
+          "description": "Co-covered in 6 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "dydx",
-          "phrase": "dYdX v4 is built on the Cosmos SDK.",
-          "relation_type": "protocol",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-13",
+          "phrase": "Co-covered in 6 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "cosmos",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 32
         },
         {
+          "confidence": 0.203,
+          "description": "Co-covered in 16 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "dydx",
-          "phrase": "USDC is the primary collateral and settlement asset on dYdX.",
-          "relation_type": "token",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-13",
+          "phrase": "Co-covered in 16 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "usdc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.196,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "dydx",
-          "phrase": "Apple is unrelated; cautious peer label.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "apple",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.13,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "dydx",
-          "phrase": "Fees are a core mechanism in dYdX's trading model.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "fees",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.129,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "dydx",
-          "phrase": "Google is unrelated; cautious peer label.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "google",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         }
       ],
@@ -218,42 +259,62 @@
         },
         {
           "center": false,
+          "confidence": 0.319,
           "name": "Cosmos",
+          "observed_at": "2026-05-13",
           "slug": "cosmos",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 32
         },
         {
           "center": false,
+          "confidence": 0.203,
           "name": "USDC",
+          "observed_at": "2026-06-13",
           "slug": "usdc",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.196,
           "name": "Apple",
+          "observed_at": null,
           "slug": "apple",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.13,
           "name": "Fees",
+          "observed_at": null,
           "slug": "fees",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.129,
           "name": "Google",
+          "observed_at": null,
           "slug": "google",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         }
       ],
@@ -322,17 +383,17 @@
       "source": "https://www.dydx.foundation/blog/dydx-token-mechanics"
     },
     "reader_signal": {
-      "article_count": 34,
-      "as_of": "2026-07-01T12:10:34.159164+00:00",
+      "article_count": 35,
+      "as_of": "2026-07-29T22:58:37.027218+00:00",
       "most_clicked": {
-        "clicks": 254,
+        "clicks": 260,
         "date": "2024-10-29T19:23:03.146235+00:00",
         "headline": "dYdX laid off 35% of its workforce, including core contributors, as CEO Antonio Juliano returns from sabbatical.",
         "lev_url": "https://leviathannews.xyz/7569/dydx-laid-off-35-of-its-workforce-including-core-contributors-as-ceo-antonio-juliano-returns-from-sabbatical"
       },
       "provenance": "data",
       "top_decile_share": 26,
-      "total_clicks": 2902
+      "total_clicks": 2978
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:17:44.967498+00:00",
@@ -417,10 +478,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:10:34.081163+00:00",
+      "as_of": "2026-07-29T22:58:37.022917+00:00",
       "items": [
         {
-          "clicks": 48,
+          "clicks": 39,
+          "date": "2026-07-01T20:47:36.344920+00:00",
+          "headline": "dYdX Labs and Robinhood Crypto launch Arcus for 95 stock tokens and 35 RWA perps",
+          "hot_score": 776.037371,
+          "lev_url": "https://leviathannews.xyz/266962/dydx-labs-and-robinhood-crypto-launch-arcus-for-95-stock-tokens-and-35-rwa-perps",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701203319_Z4zrlaiDPw==.png",
+          "url": "https://www.dydx.xyz/blog/a-new-arc"
+        },
+        {
+          "clicks": 51,
           "date": "2026-04-21T11:12:20.574357+00:00",
           "headline": "Philippines SEC flags dYdX, Aevo, gTrade and four others as unregistered, promoters risk 21 years prison and $89K fines",
           "hot_score": 474.2,
@@ -429,7 +499,7 @@
           "url": "https://cointelegraph.com/news/philippines-sec-warns-dydx-crypto-platforms-investor-alert"
         },
         {
-          "clicks": 133,
+          "clicks": 135,
           "date": "2026-03-29T17:20:36.563668+00:00",
           "headline": "CLARITY Act yield ban creates headwind for Aave, Uniswap, dYdX while boosting Circle moat",
           "hot_score": 420.888978,
@@ -438,7 +508,7 @@
           "url": "https://www.coindesk.com/markets/2026/03/29/crypto-s-clarity-act-could-be-a-headwind-for-defi-tokens-ring-fencing-yield-analyst-says"
         },
         {
-          "clicks": 25,
+          "clicks": 29,
           "date": "2026-06-13T19:01:32.154618+00:00",
           "headline": "dYdX mobile adds MoonPay fiat deposits via card payments, Apple Pay, and Google Pay",
           "hot_score": 411.312961,
@@ -447,7 +517,7 @@
           "url": "https://x.com/dydx/status/2065835084687753658"
         },
         {
-          "clicks": 73,
+          "clicks": 74,
           "date": "2026-04-06T07:44:01.577144+00:00",
           "headline": "dYdX governance winds down 12 low-liquidity perpetual markets with 91% approval",
           "hot_score": 205.626983,
@@ -456,7 +526,7 @@
           "url": "https://x.com/dydxfoundation/status/2039286897802121491"
         },
         {
-          "clicks": 254,
+          "clicks": 260,
           "date": "2024-10-29T19:23:03.146235+00:00",
           "headline": "dYdX laid off 35% of its workforce, including core contributors, as CEO Antonio Juliano returns from sabbatical.",
           "hot_score": 0.0,
@@ -465,16 +535,7 @@
           "url": "https://www.theblock.co/post/323612/dydx-trading-lays-off-35-of-its-employees-including-core-team-members"
         },
         {
-          "clicks": 251,
-          "date": "2023-11-28T17:17:50.878938+00:00",
-          "headline": "dYdX Chain initiates distribution of trading rewards after successful governance vote. Validators and stakers can now receive DYDX rewards as full trading commences on the decentralized derivatives trading protocol.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/3430/dydx-chain-initiates-distribution-of-trading-rewards-after-successful-governance-vote-validators-and-stakers-can-now-receive-dydx-rewards-as-full-trading-commences-on-the-decentral",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://www.theblock.co/post/264937/dydx-starts-distributing-trading-rewards"
-        },
-        {
-          "clicks": 248,
+          "clicks": 259,
           "date": "2023-06-29T04:41:22.196090+00:00",
           "headline": "dYdX releases Cosmos testnet, featuring sub 2s block times",
           "hot_score": 0.0,
@@ -483,19 +544,19 @@
           "url": "https://testnet.mintscan.io/dydx-testnet"
         },
         {
-          "clicks": 246,
-          "date": "2023-11-19T19:45:13.827176+00:00",
-          "headline": "dYdX implements stricter margin rules, prohibits \"lucrative trades\" following alleged attack on YFI.",
+          "clicks": 255,
+          "date": "2023-11-28T17:17:50.878938+00:00",
+          "headline": "dYdX Chain initiates distribution of trading rewards after successful governance vote. Validators and stakers can now receive DYDX rewards as full trading commences on the decentralized derivatives trading protocol.",
           "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/3353/dydx-implements-stricter-margin-rules-prohibits-lucrative-trades-following-alleged-attack-on-yfi",
+          "lev_url": "https://leviathannews.xyz/3430/dydx-chain-initiates-distribution-of-trading-rewards-after-successful-governance-vote-validators-and-stakers-can-now-receive-dydx-rewards-as-full-trading-commences-on-the-decentral",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://cointelegraph.com/news/dydx-raises-margin-requirements-attack"
+          "url": "https://www.theblock.co/post/264937/dydx-starts-distributing-trading-rewards"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:10:33.998137+00:00",
+      "as_of": "2026-07-29T22:58:37.011019+00:00",
       "editorial": [
         {
           "count": 7,
@@ -514,12 +575,12 @@
           "source": "cointelegraph.com"
         },
         {
-          "count": 2,
-          "source": "youtube.com"
+          "count": 3,
+          "source": "dydx.xyz"
         },
         {
           "count": 2,
-          "source": "dydx.xyz"
+          "source": "youtube.com"
         },
         {
           "count": 1,
@@ -550,12 +611,16 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 14,
+          "count": 15,
           "source": "x.com"
         },
         {
           "count": 2,
           "source": "dydx.xyz"
+        },
+        {
+          "count": 2,
+          "source": "dydx.foundation"
         },
         {
           "count": 1,
@@ -567,10 +632,10 @@
         },
         {
           "count": 1,
-          "source": "dydx.foundation"
+          "source": "cointelegraph.com"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 6
     }
   },
   "official_links": [],
@@ -581,42 +646,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:28.745212+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.319,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0277,
-        "lift_log": 4.486,
-        "score": 0.3191,
-        "shared": 6
-      },
-      "rationale": "dYdX v4 is built on the Cosmos SDK.",
-      "relation_type": "protocol",
-      "slug": "cosmos",
-      "source": "cotag",
-      "tag_name": "Cosmos",
-      "title": "Cosmos, Explained",
-      "weight": 32
-    },
-    {
-      "confidence": 0.203,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.005,
-        "lift_log": 2.141,
-        "score": 0.2029,
-        "shared": 16
-      },
-      "rationale": "USDC is the primary collateral and settlement asset on dYdX.",
-      "relation_type": "token",
-      "slug": "usdc",
-      "source": "cotag",
-      "tag_name": "USDC",
-      "title": "USDC: Complete Guide",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "dydx",
   "tag_name": "dYdX",

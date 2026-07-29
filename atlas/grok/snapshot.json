@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:51:37.444924+00:00",
-      "newsroom_total": 22,
-      "overall_share": 13,
+      "as_of": "2026-07-29T22:59:38.041825+00:00",
+      "newsroom_total": 26,
+      "overall_share": 9,
       "provenance": "data",
       "series": [
         {
@@ -77,62 +77,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 26
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-07",
+          "newsroom": 4,
+          "universe": 102
         }
       ],
-      "total_universe": 172,
-      "universe_total": 150
+      "total_universe": 278,
+      "universe_total": 252
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:51:36.779519+00:00",
+      "as_of": "2026-07-29T22:59:37.746170+00:00",
       "edges": [
         {
+          "confidence": 0.288,
+          "description": "Co-covered in 27 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "grok",
-          "phrase": "Grok is developed by xAI, the company founded by Elon Musk.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 27 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "xai",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.266,
+          "description": "Co-covered in 15 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "grok",
-          "phrase": "Elon Musk is the founder of xAI, which created Grok.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 15 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "elon-musk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "grok",
+          "observed_at": null,
           "phrase": "agents",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "grok",
+          "observed_at": null,
           "phrase": "infrastructure",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "grok",
+          "observed_at": null,
           "phrase": "media",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "media",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -146,42 +187,62 @@
         },
         {
           "center": false,
+          "confidence": 0.288,
           "name": "xAI",
+          "observed_at": "2026-07-28",
           "slug": "xai",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.266,
           "name": "Elon Musk",
+          "observed_at": "2026-07-29",
           "slug": "elon-musk",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Infrastructure",
+          "observed_at": null,
           "slug": "infrastructure",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Media",
+          "observed_at": null,
           "slug": "media",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -250,17 +311,17 @@
       "source": "https://en.wikipedia.org/wiki/Grok_(chatbot)"
     },
     "reader_signal": {
-      "article_count": 22,
-      "as_of": "2026-07-01T11:51:38.038400+00:00",
+      "article_count": 26,
+      "as_of": "2026-07-29T22:59:38.685986+00:00",
       "most_clicked": {
-        "clicks": 147,
+        "clicks": 149,
         "date": "2023-11-13T17:21:26.017144+00:00",
         "headline": "ZachXBT shares $GROK creator is a serial memecoin scammer, price dumps 50% in a few minutes losing near $50m in market cap. Grok dev burns his entire stack, but unclear how many other wallets he had.",
         "lev_url": "https://leviathannews.xyz/3281/zachxbt-shares-grok-creator-is-a-serial-memecoin-scammer-price-dumps-50-in-a-few-minutes-losing-near-50m-in-market-cap-grok-dev-burns-his-entire-stack-but-unclear-how-many-other-wa"
       },
       "provenance": "data",
-      "top_decile_share": 21,
-      "total_clicks": 1139
+      "top_decile_share": 18,
+      "total_clicks": 1330
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:31:09.709505+00:00",
@@ -345,10 +406,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:51:37.875161+00:00",
+      "as_of": "2026-07-29T22:59:38.676391+00:00",
       "items": [
         {
-          "clicks": 36,
+          "clicks": 39,
           "date": "2026-04-10T06:46:28.930399+00:00",
           "headline": "xAI sues Colorado over AI anti-discrimination law, argues mandated Grok changes violate First Amendment",
           "hot_score": 9022.674083,
@@ -357,7 +418,7 @@
           "url": "https://cointelegraph.com/news/xai-sues-colorado-over-ai-law-restricting-free-speech"
         },
         {
-          "clicks": 32,
+          "clicks": 34,
           "date": "2026-04-22T00:03:08.127348+00:00",
           "headline": "X launches Custom Timelines powered by Grok, letting users pin niche topics to their home feed with AI-driven personalization, rolling out first to Premium users on iOS",
           "hot_score": 810.2,
@@ -366,7 +427,16 @@
           "url": "https://x.com/i/status/2046736181002645520"
         },
         {
-          "clicks": 26,
+          "clicks": 31,
+          "date": "2026-07-01T20:47:27.407850+00:00",
+          "headline": "xAI launches Voice Agent Builder, a no-code platform for creating human-like AI voice agents powered by Grok Voice at $0.05 per minute",
+          "hot_score": 762.831128,
+          "lev_url": "https://leviathannews.xyz/266954/introducing-voice-agent-builder-a-no-code-platform-to-create-human-like-voice-agents-with-grok-voice-available-today-at-005-min-xaivoice",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701203055_ZBQyn-HdvHq3.jpg",
+          "url": "https://x.com/xai/status/2072342803787702422"
+        },
+        {
+          "clicks": 29,
           "date": "2026-05-18T01:00:55.953835+00:00",
           "headline": "xAI lets Grok subscribers plug Grok 4.3, TTS, and Imagine into Hermes Agent",
           "hot_score": 486.184417,
@@ -375,7 +445,7 @@
           "url": "https://x.ai/news/grok-hermes"
         },
         {
-          "clicks": 81,
+          "clicks": 85,
           "date": "2026-03-17T07:03:38.435682+00:00",
           "headline": "Minors sue xAI in California over alleged Grok deepfake images. The class action alleges Elon Musk's AI company knowingly produced and profited from child sexual abuse material.",
           "hot_score": 394.682437,
@@ -384,7 +454,7 @@
           "url": "https://decrypt.co/361331/minors-sue-xai-california-alleged-grok-deepfake-images"
         },
         {
-          "clicks": 56,
+          "clicks": 58,
           "date": "2026-02-24T18:01:10.609017+00:00",
           "headline": "Pentagon strikes deal to deploy Elon Musk’s Grok AI in classified systems as clash with Anthropic over safety limits jeopardizes Claude’s future role.",
           "hot_score": 196.881625,
@@ -393,7 +463,7 @@
           "url": "https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok"
         },
         {
-          "clicks": 94,
+          "clicks": 95,
           "date": "2026-04-04T03:07:15.185674+00:00",
           "headline": "Major AI models all recommend bitcoin in a $100k portfolio test",
           "hot_score": 112.62382,
@@ -402,31 +472,22 @@
           "url": "https://x.com/redphone/status/2039802659411267888"
         },
         {
-          "clicks": 81,
+          "clicks": 82,
           "date": "2026-02-27T16:41:31.030729+00:00",
           "headline": "U.S. agencies sound alarms over Elon Musk’s xAI Grok safety as Pentagon clears it for classified use.",
           "hot_score": 93.544474,
           "lev_url": "https://leviathannews.xyz/36137/us-agencies-sound-alarms-over-elon-musks-xai-grok-safety-as-pentagon-clears-it-for-classified-use",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260227163857_qi0c99V6Z0Q=.jpg",
           "url": "https://www.wsj.com/politics/national-security/elon-musk-xai-grok-security-safety-government-73ab4f6e"
-        },
-        {
-          "clicks": 45,
-          "date": "2026-04-05T05:54:02.678708+00:00",
-          "headline": "Elon Musk forces Wall Street firms to integrate Grok AI for SpaceX IPO roles, with massive spending commitments as $75B raise looms",
-          "hot_score": 49.324494,
-          "lev_url": "https://leviathannews.xyz/221151/musk-forces-wall-street-firms-to-integrate-grok-ai-for-spacex-ipo-roles-with-massive-spending-commitments-as-75b-raise-looms",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260404090906_MUc6qphRqrLZ.jpg",
-          "url": "https://crypto.news/musk-demands-wall-street-buy-grok-ai-subscriptions/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:51:37.792560+00:00",
+      "as_of": "2026-07-29T22:59:38.653210+00:00",
       "editorial": [
         {
-          "count": 11,
+          "count": 14,
           "source": "x.com"
         },
         {
@@ -436,6 +497,10 @@
         {
           "count": 2,
           "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "x.ai"
         },
         {
           "count": 1,
@@ -456,21 +521,17 @@
         {
           "count": 1,
           "source": "wsj.com"
-        },
-        {
-          "count": 1,
-          "source": "x.ai"
         }
       ],
       "editorial_distinct": 9,
       "provenance": "data",
       "universe": [
         {
-          "count": 143,
+          "count": 243,
           "source": "x.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "decrypt.co"
         },
         {
@@ -484,9 +545,13 @@
         {
           "count": 1,
           "source": "medium.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 6
     }
   },
   "official_links": [],
@@ -497,42 +562,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:34.468402+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.266,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0293,
-        "lift_log": 3.286,
-        "score": 0.2656,
-        "shared": 9
-      },
-      "rationale": "Elon Musk is the founder of xAI, which created Grok.",
-      "relation_type": "founder",
-      "slug": "elon-musk",
-      "source": "cotag",
-      "tag_name": "Elon Musk",
-      "title": "Elon Musk, Explained",
-      "weight": 27
-    },
-    {
-      "confidence": 0.288,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1119,
-        "lift_log": 5.081,
-        "score": 0.2878,
-        "shared": 24
-      },
-      "rationale": "Grok is developed by xAI, the company founded by Elon Musk.",
-      "relation_type": "founder",
-      "slug": "xai",
-      "source": "cotag",
-      "tag_name": "xAI",
-      "title": "xAI, Explained",
-      "weight": 29
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "grok",
   "tag_name": "Grok",

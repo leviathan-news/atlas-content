@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:14:07.622663+00:00",
+      "as_of": "2026-07-29T22:59:59.034546+00:00",
       "newsroom_total": 29,
-      "overall_share": 69,
+      "overall_share": 66,
       "provenance": "data",
       "series": [
         {
@@ -119,62 +119,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 5
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 2
         }
       ],
-      "total_universe": 42,
-      "universe_total": 13
+      "total_universe": 44,
+      "universe_total": 15
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:14:07.321636+00:00",
+      "as_of": "2026-07-29T22:59:58.781979+00:00",
       "edges": [
         {
+          "confidence": 0.462,
+          "description": "Co-covered in 25 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "interest-rates",
-          "phrase": "Rates is a direct synonym for interest rates.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-30",
+          "phrase": "Co-covered in 25 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "rates",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 46
         },
         {
+          "confidence": 0.254,
+          "description": "Co-covered in 4 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "interest-rates",
-          "phrase": "FED sets monetary policy affecting interest rates.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-20",
+          "phrase": "Co-covered in 4 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fed",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "interest-rates",
-          "phrase": "Interest rates are a key component of macroeconomics.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-20",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "macro",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.204,
+          "description": "Co-covered in 4 approved stories; most recently May 2024.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "interest-rates",
-          "phrase": "Liquity uses interest rates for its stability mechanism.",
-          "relation_type": "protocol",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2024-05-31",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2024.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "interest-rates",
+          "observed_at": null,
           "phrase": "Federal Reserve",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "federal-reserve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -188,42 +229,62 @@
         },
         {
           "center": false,
+          "confidence": 0.462,
           "name": "Rates",
+          "observed_at": "2026-05-30",
           "slug": "rates",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 46
         },
         {
           "center": false,
+          "confidence": 0.254,
           "name": "FED",
+          "observed_at": "2026-03-20",
           "slug": "fed",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.206,
           "name": "Macro",
+          "observed_at": "2026-03-20",
           "slug": "macro",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.204,
           "name": "Liquity",
+          "observed_at": "2024-05-31",
           "slug": "liquity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Federal Reserve",
+          "observed_at": null,
           "slug": "federal-reserve",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -281,16 +342,16 @@
     },
     "reader_signal": {
       "article_count": 29,
-      "as_of": "2026-07-01T12:14:08.235192+00:00",
+      "as_of": "2026-07-29T22:59:59.323537+00:00",
       "most_clicked": {
-        "clicks": 241,
+        "clicks": 242,
         "date": "2026-03-21T17:45:41.383570+00:00",
         "headline": "Private credit stress spreads as BNPL loans and fintech lending weaken, with funds limiting withdrawals amid rising defaults and pressure from higher interest rates",
         "lev_url": "https://leviathannews.xyz/213511/private-credit-stress-spreads-as-bnpl-loans-and-fintech-lending-weaken-with-funds-limiting-withdrawals-amid-rising-defaults-and-pressure-from-higher-interest-rates"
       },
       "provenance": "data",
       "top_decile_share": 15,
-      "total_clicks": 2572
+      "total_clicks": 2655
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:34:16.889222+00:00",
@@ -375,10 +436,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:14:08.159943+00:00",
+      "as_of": "2026-07-29T22:59:59.316808+00:00",
       "items": [
         {
-          "clicks": 241,
+          "clicks": 242,
           "date": "2026-03-21T17:45:41.383570+00:00",
           "headline": "Private credit stress spreads as BNPL loans and fintech lending weaken, with funds limiting withdrawals amid rising defaults and pressure from higher interest rates",
           "hot_score": 322.148887,
@@ -396,7 +457,7 @@
           "url": "https://x.com/flipdazed/status/2037895740551274569"
         },
         {
-          "clicks": 123,
+          "clicks": 154,
           "date": "2026-03-20T14:08:20.034255+00:00",
           "headline": "Fed's Waller went in ready to cut rates, but Iran war oil spike forced a hold — says cuts still possible later in 2026",
           "hot_score": 74.865128,
@@ -405,7 +466,7 @@
           "url": "https://www.bloomberg.com/news/articles/2026-03-20/fed-s-waller-cautious-on-oil-may-advocate-for-rate-cuts-later"
         },
         {
-          "clicks": 52,
+          "clicks": 55,
           "date": "2026-02-01T17:12:03.457188+00:00",
           "headline": "Crypto’s post-2021 stagnation comes down to tight liquidity, high interest rates, and weakening USD stability, keeping risk-on assets capped despite visible progress. Stablecoins stand out as the only sector with real institutional traction, while AI has absorbed most speculative capital and broader crypto awaits a clear macro or regulatory shift.",
           "hot_score": 54.733524,
@@ -414,7 +475,7 @@
           "url": "https://x.com/i/status/2017837845743050924"
         },
         {
-          "clicks": 157,
+          "clicks": 159,
           "date": "2025-01-13T20:29:41.160251+00:00",
           "headline": "In today’s The Tentacle, we explore the USD0++ depeg drama that shook DeFi this weekend. Usual Money’s abrupt redemption changes sent ripples through Morpho, Pendle, and beyond—trapping leveraged farmers, spiking interest rates, and raising eyebrows over MEV Capital’s role in the chaos. Is this a case of mismanagement, bad comms, a calculated play, or all three?\n\nWe break down the mechanics, the fallout, and what this means for DeFi’s future in our latest newsletter. Don’t miss it—stay informed, stay ahead.",
           "hot_score": 0.0,
@@ -423,7 +484,7 @@
           "url": "https://leviathannews.substack.com/p/collateral-damage-usd0-depeg-leaves"
         },
         {
-          "clicks": 153,
+          "clicks": 157,
           "date": "2024-03-08T23:47:41.085327+00:00",
           "headline": "First MakerDao, now Prisma proposes a 5% mint fee or 15% interest rates for minting its stablecoin",
           "hot_score": 0.0,
@@ -453,7 +514,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:14:08.076704+00:00",
+      "as_of": "2026-07-29T22:59:59.301427+00:00",
       "editorial": [
         {
           "count": 11,
@@ -508,7 +569,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 6,
+          "count": 7,
           "source": "x.com"
         },
         {
@@ -520,12 +581,12 @@
           "source": "metamask.io"
         },
         {
-          "count": 1,
-          "source": "decrypt.co"
+          "count": 2,
+          "source": "financefeeds.com"
         },
         {
           "count": 1,
-          "source": "financefeeds.com"
+          "source": "decrypt.co"
         }
       ],
       "universe_distinct": 5
@@ -539,76 +600,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:36.723895+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.254,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0397,
-        "lift_log": 5.116,
-        "score": 0.2536,
-        "shared": 4
-      },
-      "rationale": "FED sets monetary policy affecting interest rates.",
-      "relation_type": "influence",
-      "slug": "fed",
-      "source": "cotag",
-      "tag_name": "FED",
-      "title": "FED, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.204,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0165,
-        "lift_log": 4.272,
-        "score": 0.2041,
-        "shared": 4
-      },
-      "rationale": "Liquity uses interest rates for its stability mechanism.",
-      "relation_type": "protocol",
-      "slug": "liquity",
-      "source": "cotag",
-      "tag_name": "Liquity",
-      "title": "Liquity, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0203,
-        "lift_log": 4.275,
-        "score": 0.2062,
-        "shared": 3
-      },
-      "rationale": "Interest rates are a key component of macroeconomics.",
-      "relation_type": "category",
-      "slug": "macro",
-      "source": "cotag",
-      "tag_name": "Macro",
-      "title": "Macro, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.462,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1565,
-        "lift_log": 6.309,
-        "score": 0.4623,
-        "shared": 25
-      },
-      "rationale": "Rates is a direct synonym for interest rates.",
-      "relation_type": "peer",
-      "slug": "rates",
-      "source": "cotag",
-      "tag_name": "Rates",
-      "title": "Rates, Explained",
-      "weight": 46
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "interest-rates",
   "tag_name": "Interest rates",

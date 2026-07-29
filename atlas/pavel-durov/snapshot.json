@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:15:49.995278+00:00",
-      "newsroom_total": 21,
-      "overall_share": 81,
+      "as_of": "2026-07-29T23:03:05.697670+00:00",
+      "newsroom_total": 22,
+      "overall_share": 54,
       "provenance": "data",
       "series": [
         {
@@ -89,62 +89,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 3
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 14
         }
       ],
-      "total_universe": 26,
-      "universe_total": 5
+      "total_universe": 41,
+      "universe_total": 19
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:15:49.017439+00:00",
+      "as_of": "2026-07-29T23:03:05.499344+00:00",
       "edges": [
         {
+          "confidence": 0.403,
+          "description": "Co-covered in 39 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "pavel-durov",
-          "phrase": "Pavel Durov is the founder of Telegram.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 39 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "telegram",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 40
         },
         {
+          "confidence": 0.274,
+          "description": "Co-covered in 8 approved stories; most recently August 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "pavel-durov",
-          "phrase": "Pavel Durov was arrested in France in 2024.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-08-24",
+          "phrase": "Co-covered in 8 approved stories; most recently August 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "france",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.24,
+          "description": "Co-covered in 5 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "pavel-durov",
-          "phrase": "Pavel Durov contributed to the development of TON.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-01",
+          "phrase": "Co-covered in 5 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ton",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "pavel-durov",
+          "observed_at": null,
           "phrase": "adoption",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "adoption",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "pavel-durov",
+          "observed_at": null,
           "phrase": "Europe",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "europe",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -158,42 +199,62 @@
         },
         {
           "center": false,
+          "confidence": 0.403,
           "name": "Telegram",
+          "observed_at": "2026-07-29",
           "slug": "telegram",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 40
         },
         {
           "center": false,
+          "confidence": 0.274,
           "name": "France",
+          "observed_at": "2025-08-24",
           "slug": "france",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.24,
           "name": "TON",
+          "observed_at": "2026-06-01",
           "slug": "ton",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Adoption",
+          "observed_at": null,
           "slug": "adoption",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Europe",
+          "observed_at": null,
           "slug": "europe",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -262,17 +323,17 @@
       "source": "https://en.wikipedia.org/wiki/Arrest_and_indictment_of_Pavel_Durov"
     },
     "reader_signal": {
-      "article_count": 22,
-      "as_of": "2026-07-01T12:15:50.469760+00:00",
+      "article_count": 23,
+      "as_of": "2026-07-29T23:03:05.915585+00:00",
       "most_clicked": {
-        "clicks": 448,
+        "clicks": 451,
         "date": "2024-08-25T01:17:34.707986+00:00",
         "headline": "TON Blockchain publishes a response statement regarding Pavel Durov's arrest ",
         "lev_url": "https://leviathannews.xyz/6737/ton-blockchain-publishes-a-response-statement-regarding-pavel-durovs-arrest"
       },
       "provenance": "data",
       "top_decile_share": 23,
-      "total_clicks": 3411
+      "total_clicks": 3462
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:26:18.698783+00:00",
@@ -351,10 +412,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:15:50.391729+00:00",
+      "as_of": "2026-07-29T23:03:05.911463+00:00",
       "items": [
         {
-          "clicks": 52,
+          "clicks": 53,
           "date": "2026-04-10T06:46:33.447635+00:00",
           "headline": "Telegram CEO Pavel Durov claims WhatsApp’s encryption is deceptive, alleging the platform reads user messages and shares data externally, calling it a major consumer fraud  while positioning Telegram as a secure alternative",
           "hot_score": 9156.963133,
@@ -363,7 +424,16 @@
           "url": "https://x.com/i/status/2042354347988648292"
         },
         {
-          "clicks": 33,
+          "clicks": 31,
+          "date": "2026-07-29T07:46:57.064662+00:00",
+          "headline": "Russia’s FSB charges Telegram founder Pavel Durov with facilitating terrorism, alleging the app failed to remove content used for sabotage and mass attacks, and issues an international arrest warrant.",
+          "hot_score": 1991.865594,
+          "lev_url": "https://leviathannews.xyz/283876/russias-fsb-charges-telegram-founder-pavel-durov-with-facilitating-terrorism-alleging-the-app-failed-to-remove-content-used-for-sabotage-and-mass-attacks-and-issues-an-internationa",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729074507_BcbZXzbcX5Pe.jpg",
+          "url": "https://www.reuters.com/world/russias-fsb-charges-telegram-founder-durov-with-facilitating-terrorism-ifax-says-2026-07-29/"
+        },
+        {
+          "clicks": 34,
           "date": "2026-04-17T17:45:04.743947+00:00",
           "headline": "Telegram CEO Pavel Durov warns EU age-verification app risks mass surveillance, citing security flaws and potential expansion into broader identity tracking",
           "hot_score": 1217.663207,
@@ -372,7 +442,7 @@
           "url": "https://cointelegraph.com/news/eu-age-app-verification-surveillance-risk-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "clicks": 130,
+          "clicks": 131,
           "date": "2026-02-24T12:36:40.531000+00:00",
           "headline": "Russia opens criminal terrorism investigation into Telegram founder Pavel Durov as FSB throttles network traffic to force domestic MAX transition",
           "hot_score": 364.544749,
@@ -381,7 +451,7 @@
           "url": "https://www.reuters.com/business/media-telecom/russia-investigating-telegram-founder-durov-part-criminal-case-rossiyskaya-2026-02-24/"
         },
         {
-          "clicks": 448,
+          "clicks": 451,
           "date": "2024-08-25T01:17:34.707986+00:00",
           "headline": "TON Blockchain publishes a response statement regarding Pavel Durov's arrest ",
           "hot_score": 0.0,
@@ -390,7 +460,7 @@
           "url": "https://x.com/ton_blockchain/status/1827490660858933483"
         },
         {
-          "clicks": 338,
+          "clicks": 341,
           "date": "2024-09-06T09:03:18.408333+00:00",
           "headline": "Telegram updates rules to enable moderation of private chats following CEO Pavel Durov's arrest in France for failing to control illegal content.",
           "hot_score": 0.0,
@@ -399,7 +469,7 @@
           "url": "https://www.coindesk.com/business/2024/09/06/telegram-revamps-rules-to-allow-moderation-of-private-chats"
         },
         {
-          "clicks": 328,
+          "clicks": 330,
           "date": "2024-12-09T14:11:22.608989+00:00",
           "headline": "Telegram CEO Pavel Durov has appeared in a Paris court for questioning over alleged criminal activities linked to Telegram for the first time.",
           "hot_score": 0.0,
@@ -415,21 +485,12 @@
           "lev_url": "https://leviathannews.xyz/1882/telegram-issues-270mm-in-bonds-a-quarter-of-which-were-purchased-by-ceo-pavel-durov",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
           "url": "https://www.coindesk.com/business/2023/07/18/messaging-platform-telegram-has-issued-270m-in-bonds-to-fund-growth/"
-        },
-        {
-          "clicks": 266,
-          "date": "2024-09-13T13:52:32.339334+00:00",
-          "headline": "TON users brace for a $1 billion airdrop surge as concerns grow over network stability amid Telegram founder Pavel Durov's arrest.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/6963/ton-users-brace-for-a-1-billion-airdrop-surge-as-concerns-grow-over-network-stability-amid-telegram-founder-pavel-durovs-arrest",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240913125143_F-5xcIAXeg==.jpg",
-          "url": "https://www.dlnews.com/articles/web3/ton-users-brace-for-billion-dollar-airdrop-deluge-in-sept/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:15:50.299372+00:00",
+      "as_of": "2026-07-29T23:03:05.901026+00:00",
       "editorial": [
         {
           "count": 4,
@@ -442,6 +503,10 @@
         {
           "count": 2,
           "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "reuters.com"
         },
         {
           "count": 1,
@@ -474,29 +539,37 @@
         {
           "count": 1,
           "source": "t.me"
-        },
-        {
-          "count": 1,
-          "source": "newsbtc.com"
         }
       ],
       "editorial_distinct": 14,
       "provenance": "data",
       "universe": [
         {
-          "count": 3,
+          "count": 10,
           "source": "x.com"
         },
         {
-          "count": 1,
+          "count": 3,
           "source": "cointelegraph.com"
         },
         {
-          "count": 1,
+          "count": 2,
           "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 1,
+          "source": "thestreet.com"
         }
       ],
-      "universe_distinct": 3
+      "universe_distinct": 6
     }
   },
   "official_links": [],
@@ -507,59 +580,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:47.524012+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.274,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0502,
-        "lift_log": 5.451,
-        "score": 0.2739,
-        "shared": 8
-      },
-      "rationale": "Pavel Durov was arrested in France in 2024.",
-      "relation_type": "event",
-      "slug": "france",
-      "source": "cotag",
-      "tag_name": "France",
-      "title": "France, Explained",
-      "weight": 27
-    },
-    {
-      "confidence": 0.403,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0804,
-        "lift_log": 5.739,
-        "score": 0.4026,
-        "shared": 24
-      },
-      "rationale": "Pavel Durov is the founder of Telegram.",
-      "relation_type": "founder",
-      "slug": "telegram",
-      "source": "cotag",
-      "tag_name": "Telegram",
-      "title": "Telegram, Explained",
-      "weight": 40
-    },
-    {
-      "confidence": 0.24,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0318,
-        "lift_log": 4.898,
-        "score": 0.2403,
-        "shared": 5
-      },
-      "rationale": "Pavel Durov contributed to the development of TON.",
-      "relation_type": "product",
-      "slug": "ton",
-      "source": "cotag",
-      "tag_name": "TON",
-      "title": "TON: Complete Guide",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "pavel-durov",
   "tag_name": "Pavel Durov",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:05:59.889995+00:00",
+      "as_of": "2026-07-29T22:58:40.854072+00:00",
       "newsroom_total": 68,
-      "overall_share": 82,
+      "overall_share": 79,
       "provenance": "data",
       "series": [
         {
@@ -161,62 +161,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 2
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 3
         }
       ],
-      "total_universe": 83,
-      "universe_total": 15
+      "total_universe": 86,
+      "universe_total": 18
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:05:59.605930+00:00",
+      "as_of": "2026-07-29T22:58:40.650415+00:00",
       "edges": [
         {
+          "confidence": 0.412,
+          "description": "Co-covered in 14 approved stories; most recently April 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "eigenlayer",
-          "phrase": "EigenLayer introduces restaking as its core DeFi primitive.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-04-28",
+          "phrase": "Co-covered in 14 approved stories; most recently April 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "restaking",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 41
         },
         {
+          "confidence": 0.245,
+          "description": "Co-covered in 5 approved stories; most recently July 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "eigenlayer",
-          "phrase": "Lido's stETH can be restaked on EigenLayer.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-07-16",
+          "phrase": "Co-covered in 5 approved stories; most recently July 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "lido",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.206,
+          "description": "Co-covered in 5 approved stories; most recently September 2024.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "eigenlayer",
-          "phrase": "Restaking introduces slashing and security risks.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2024-09-11",
+          "phrase": "Co-covered in 5 approved stories; most recently September 2024.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "security",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "eigenlayer",
-          "phrase": "Ether.Fi is a liquid restaking protocol built on EigenLayer.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ether-dotfi",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.147,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "eigenlayer",
-          "phrase": "EigenLayer uses points to incentivize early restakers.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "points",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -230,42 +271,62 @@
         },
         {
           "center": false,
+          "confidence": 0.412,
           "name": "Restaking",
+          "observed_at": "2025-04-28",
           "slug": "restaking",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 41
         },
         {
           "center": false,
+          "confidence": 0.245,
           "name": "Lido Finance",
+          "observed_at": "2025-07-16",
           "slug": "lido",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.206,
           "name": "Security",
+          "observed_at": "2024-09-11",
           "slug": "security",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "Ether.Fi",
+          "observed_at": null,
           "slug": "ether-dotfi",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.147,
           "name": "Points",
+          "observed_at": null,
           "slug": "points",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -335,16 +396,16 @@
     },
     "reader_signal": {
       "article_count": 68,
-      "as_of": "2026-07-01T12:06:00.747158+00:00",
+      "as_of": "2026-07-29T22:58:41.063333+00:00",
       "most_clicked": {
-        "clicks": 583,
+        "clicks": 589,
         "date": "2024-04-29T18:50:03.150434+00:00",
         "headline": "EigenLayer airdrop is happening after all — but it won’t include US, VPN users",
         "lev_url": "https://leviathannews.xyz/5103/eigenlayer-airdrop-is-happening-after-all-but-it-wont-include-us-vpn-users"
       },
       "provenance": "data",
       "top_decile_share": 25,
-      "total_clicks": 10465
+      "total_clicks": 10607
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:48:51.807399+00:00",
@@ -429,10 +490,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:06:00.668173+00:00",
+      "as_of": "2026-07-29T22:58:41.058999+00:00",
       "items": [
         {
-          "clicks": 61,
+          "clicks": 64,
           "date": "2026-03-12T06:31:41.259756+00:00",
           "headline": "Catalysis is launching the first risk coverage infrastructure on EigenLayer",
           "hot_score": 357.011643,
@@ -441,7 +502,7 @@
           "url": "https://x.com/0xcatalysis/status/2031395261692653582"
         },
         {
-          "clicks": 583,
+          "clicks": 589,
           "date": "2024-04-29T18:50:03.150434+00:00",
           "headline": "EigenLayer airdrop is happening after all — but it won’t include US, VPN users",
           "hot_score": 0.0,
@@ -459,16 +520,7 @@
           "url": "https://www.dlnews.com/articles/defi/restaking-protocol-karak-draws-136-million-in-deposits/"
         },
         {
-          "clicks": 414,
-          "date": "2024-07-18T19:39:03.696885+00:00",
-          "headline": "EigenLayer exodus triggers wider decline in restaking sector as TVL drops across major protocols.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/6326/eigenlayer-exodus-triggers-wider-decline-in-restaking-sector-as-tvl-drops-across-major-protocols",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240718193509_KKDvjXrPbg==.jpg",
-          "url": "https://www.theblock.co/post/305378/eigenlayer-exodus-leads-wider-decline-in-the-restaking-sector"
-        },
-        {
-          "clicks": 399,
+          "clicks": 436,
           "date": "2024-02-07T10:40:45.888804+00:00",
           "headline": "EigenLayer's TVL soars after cap on deposits is lifted, reaching $3.84 billion within 24 hours, as reported on DeFiLlama.",
           "hot_score": 0.0,
@@ -477,7 +529,16 @@
           "url": "https://blockworks.co/news/eigenlayer-tvl-soars-without-deposit-cap"
         },
         {
-          "clicks": 365,
+          "clicks": 419,
+          "date": "2024-07-18T19:39:03.696885+00:00",
+          "headline": "EigenLayer exodus triggers wider decline in restaking sector as TVL drops across major protocols.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/6326/eigenlayer-exodus-triggers-wider-decline-in-restaking-sector-as-tvl-drops-across-major-protocols",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240718193509_KKDvjXrPbg==.jpg",
+          "url": "https://www.theblock.co/post/305378/eigenlayer-exodus-leads-wider-decline-in-the-restaking-sector"
+        },
+        {
+          "clicks": 366,
           "date": "2024-01-23T17:29:17.335401+00:00",
           "headline": "Pendle protocol benefits from speculative frenzy surrounding EigenLayer airdrop, experiencing 74% surge in token price within one month.",
           "hot_score": 0.0,
@@ -486,7 +547,7 @@
           "url": "https://www.dlnews.com/articles/defi/eigenlayer-airdrop-hunters-piling-into-pendle-drives-surge"
         },
         {
-          "clicks": 337,
+          "clicks": 340,
           "date": "2024-04-29T16:44:01.140849+00:00",
           "headline": "EigenLayer publishes white paper for EIGEN Token, a \"universal intersubjunctive work token\"",
           "hot_score": 0.0,
@@ -495,7 +556,7 @@
           "url": "https://github.com/Layr-Labs/whitepaper/blob/master/EIGEN_Token_Whitepaper.pdf"
         },
         {
-          "clicks": 324,
+          "clicks": 326,
           "date": "2024-04-23T17:07:05.648698+00:00",
           "headline": "Lido investors withdraw $2.5bn in Ether from staking giant as rivals circle. Its decline comes amid the rise of EigenLayer and liquid restaking protocols.",
           "hot_score": 0.0,
@@ -507,7 +568,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:06:00.577289+00:00",
+      "as_of": "2026-07-29T22:58:41.047491+00:00",
       "editorial": [
         {
           "count": 20,
@@ -562,7 +623,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 8,
+          "count": 11,
           "source": "x.com"
         },
         {
@@ -593,59 +654,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:29.134969+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.245,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0335,
-        "lift_log": 5.0,
-        "score": 0.2453,
-        "shared": 5
-      },
-      "rationale": "Lido's stETH can be restaked on EigenLayer.",
-      "relation_type": "ecosystem",
-      "slug": "lido",
-      "source": "cotag",
-      "tag_name": "Lido Finance",
-      "title": "Lido Finance, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.412,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0848,
-        "lift_log": 5.947,
-        "score": 0.4123,
-        "shared": 14
-      },
-      "rationale": "EigenLayer introduces restaking as its core DeFi primitive.",
-      "relation_type": "primitive",
-      "slug": "restaking",
-      "source": "cotag",
-      "tag_name": "Restaking",
-      "title": "Restaking, Explained",
-      "weight": 41
-    },
-    {
-      "confidence": 0.206,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0034,
-        "lift_log": 2.256,
-        "score": 0.2055,
-        "shared": 5
-      },
-      "rationale": "Restaking introduces slashing and security risks.",
-      "relation_type": "risk",
-      "slug": "security",
-      "source": "cotag",
-      "tag_name": "Security",
-      "title": "Security, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "eigenlayer",
   "tag_name": "EigenLayer",

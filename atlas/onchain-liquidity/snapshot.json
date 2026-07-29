@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:07:10.899855+00:00",
-      "newsroom_total": 35,
-      "overall_share": 81,
+      "as_of": "2026-07-29T23:02:49.232218+00:00",
+      "newsroom_total": 36,
+      "overall_share": 69,
       "provenance": "data",
       "series": [
         {
@@ -101,62 +101,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 4
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 8
         }
       ],
-      "total_universe": 43,
-      "universe_total": 8
+      "total_universe": 52,
+      "universe_total": 16
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:07:10.361399+00:00",
+      "as_of": "2026-07-29T23:02:48.937597+00:00",
       "edges": [
         {
+          "confidence": 0.303,
+          "description": "Co-covered in 18 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "onchain-liquidity",
-          "phrase": "Onchain liquidity is a subset of the broader liquidity concept.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-29",
+          "phrase": "Co-covered in 18 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.234,
+          "description": "Co-covered in 5 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "onchain-liquidity",
-          "phrase": "Both are types of liquidity, with stablecoin liquidity being a specific form.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-31",
+          "phrase": "Co-covered in 5 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "stablecoin-liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.192,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "onchain-liquidity",
-          "phrase": "frxUSD is a stablecoin that provides onchain liquidity.",
-          "relation_type": "product",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "frxusd",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.152,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "onchain-liquidity",
-          "phrase": "Onchain data is essential for analyzing and managing onchain liquidity.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "onchain-data",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.149,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "onchain-liquidity",
-          "phrase": "FX (foreign exchange) is a traditional counterpart to onchain liquidity.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "fx",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -170,42 +211,62 @@
         },
         {
           "center": false,
+          "confidence": 0.303,
           "name": "Liquidity",
+          "observed_at": "2026-06-29",
           "slug": "liquidity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.234,
           "name": "Stablecoin Liquidity",
+          "observed_at": "2026-03-31",
           "slug": "stablecoin-liquidity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.192,
           "name": "frxUSD",
+          "observed_at": null,
           "slug": "frxusd",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.152,
           "name": "Onchain Data",
+          "observed_at": null,
           "slug": "onchain-data",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.149,
           "name": "FX",
+          "observed_at": null,
           "slug": "fx",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -274,17 +335,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 35,
-      "as_of": "2026-07-01T12:07:11.418876+00:00",
+      "article_count": 36,
+      "as_of": "2026-07-29T23:02:50.091016+00:00",
       "most_clicked": {
-        "clicks": 176,
+        "clicks": 178,
         "date": "2025-01-15T20:07:19.551159+00:00",
         "headline": "Donald Trump hasn’t even taken office yet, but reports suggest the President-elect is preparing sweeping crypto-friendly executive orders for day one. Among them: reversing restrictive accounting policies, tackling de-banking, and potentially designating Bitcoin as a national reserve asset. Could this be the “orange candle” moment the market has been waiting for?\n\nMeanwhile, Ethena takes a major step forward by integrating into Spark’s Liquidity Layer, unlocking direct access to up to $1.1 billion in holdings and driving higher yields for DeFi users. Bubblemaps launched $BMT to incentivize community-driven blockchain investigations, and Derive unveiled its $DRV token with staking rewards and governance features, kicking off a new era for on-chain derivatives trading.\n\nCheck out today’s newsletter for the full story and deeper insights into these developments.",
         "lev_url": "https://leviathannews.xyz/8703/donald-trump-hasnt-even-taken-office-yet-but-reports-suggest-the-president-elect-is-preparing-sweeping-crypto-friendly-executive-orders-for-day-one-among-them-reversing-restrictive"
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 2299
+      "total_clicks": 2412
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:20:04.568977+00:00",
@@ -369,7 +430,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:07:11.336700+00:00",
+      "as_of": "2026-07-29T23:02:50.086214+00:00",
       "items": [
         {
           "clicks": 48,
@@ -381,7 +442,7 @@
           "url": "https://x.com/i/status/2042592143014023629"
         },
         {
-          "clicks": 59,
+          "clicks": 62,
           "date": "2026-05-06T17:31:02.108175+00:00",
           "headline": "a16z-backed OpenTrade raises $17M to expand stablecoin lending platform, bridging onchain liquidity with real-world asset yields for institutional markets",
           "hot_score": 704.890625,
@@ -390,7 +451,16 @@
           "url": "https://www.coindesk.com/business/2026/05/06/opentrade-raises-usd17-million-to-expand-stablecoin-yield-infrastructure"
         },
         {
-          "clicks": 165,
+          "clicks": 36,
+          "date": "2026-07-15T07:39:56.185179+00:00",
+          "headline": "Phoenix says atomic composability will let traders use spot assets, tokenized RWAs and shared collateral across spot and perps from a single on-chain liquidity pool",
+          "hot_score": 618.469521,
+          "lev_url": "https://leviathannews.xyz/275489/building-fully-on-chain-systems-has-always-been-harder-than-shipping-vanilla-server-code-on-chain-programs-are-computationally-constrained-demand-deep-domain-expertise-and-lack",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260715073124_LxgiU4P9yRYs.jpg",
+          "url": "https://x.com/jarxiao/status/2077199159774392334"
+        },
+        {
+          "clicks": 169,
           "date": "2026-03-03T09:11:05.449896+00:00",
           "headline": "Every stablecoin carries risk. Pharos shows you exactly how much. Peg scores, safety grades, depeg alerts, yield data & on-chain liquidity for 145+ coins. Don't hold blind",
           "hot_score": 595.105948,
@@ -399,7 +469,7 @@
           "url": "https://pharos.watch/"
         },
         {
-          "clicks": 44,
+          "clicks": 46,
           "date": "2026-04-09T23:41:18.665843+00:00",
           "headline": "Polygon, Frax, and Curve deploy six onchain FX liquidity pools with frxUSD as base dollar pair",
           "hot_score": 482.662446,
@@ -408,7 +478,7 @@
           "url": "https://x.com/0xPolygon/status/2042266173765787828"
         },
         {
-          "clicks": 63,
+          "clicks": 66,
           "date": "2026-03-31T08:31:38.042000+00:00",
           "headline": "StraitsX launches XSGD and XUSD on Solana, uniting native SGD and USD stablecoin liquidity onchain",
           "hot_score": 408.643008,
@@ -417,7 +487,7 @@
           "url": "https://www.straitsx.com/blog-post/xsgd-and-xusd-live-on-solana"
         },
         {
-          "clicks": 49,
+          "clicks": 51,
           "date": "2026-03-30T12:00:22.830117+00:00",
           "headline": "Midas raises $50M Series A to launch an instant liquidity layer for onchain investment products",
           "hot_score": 182.726879,
@@ -426,31 +496,22 @@
           "url": "https://x.com/MidasRWA/status/2038571950528663559"
         },
         {
-          "clicks": 91,
+          "clicks": 93,
           "date": "2026-03-07T14:25:23.281926+00:00",
           "headline": "Helios Finance secures $1M in funding to unlock on-chain Bitcoin liquidity",
           "hot_score": 109.919306,
           "lev_url": "https://leviathannews.xyz/44372/helios-finance-secures-1m-in-funding-to-unlock-on-chain-bitcoin-liquidity",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260307141600_jaiJw6coapU=.jpg",
           "url": "https://x.com/helios_finance/status/2029986872949121427"
-        },
-        {
-          "clicks": 78,
-          "date": "2025-12-13T12:16:30.606999+00:00",
-          "headline": "Stablecoins don’t replace banks—they route around them. Nearly all “onchain” payments still rely on fiat rails, FX liquidity, and banking buffers, meaning real speed and reliability belong to teams that control underlying fiat infrastructure.",
-          "hot_score": 109.431277,
-          "lev_url": "https://leviathannews.xyz/22429/stablecoins-dont-replace-banksthey-route-around-them-nearly-all-onchain-payments-still-rely-on-fiat-rails-fx-liquidity-and-banking-buffers-meaning-real-speed-and-reliability-belong",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251213121341_QF8zD_e-8sE=.webp",
-          "url": "https://stabledash.com/news/2025-12-11-the-hidden-banking-layer-behind-stablecoin-payments"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:07:11.242026+00:00",
+      "as_of": "2026-07-29T23:02:50.070711+00:00",
       "editorial": [
         {
-          "count": 20,
+          "count": 21,
           "source": "x.com"
         },
         {
@@ -502,7 +563,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 8,
+          "count": 16,
           "source": "x.com"
         }
       ],
@@ -517,42 +578,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:36:45.977335+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.303,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0444,
-        "lift_log": 3.929,
-        "score": 0.3032,
-        "shared": 17
-      },
-      "rationale": "Onchain liquidity is a subset of the broader liquidity concept.",
-      "relation_type": "category",
-      "slug": "liquidity",
-      "source": "cotag",
-      "tag_name": "Liquidity",
-      "title": "Liquidity, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.234,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0448,
-        "lift_log": 4.641,
-        "score": 0.2343,
-        "shared": 5
-      },
-      "rationale": "Both are types of liquidity, with stablecoin liquidity being a specific form.",
-      "relation_type": "peer",
-      "slug": "stablecoin-liquidity",
-      "source": "cotag",
-      "tag_name": "Stablecoin Liquidity",
-      "title": "Stablecoin Liquidity, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "onchain-liquidity",
   "tag_name": "Onchain Liquidity",

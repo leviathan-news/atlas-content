@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:01:42.657461+00:00",
-      "newsroom_total": 33,
-      "overall_share": 22,
+      "as_of": "2026-07-29T23:04:35.148034+00:00",
+      "newsroom_total": 35,
+      "overall_share": 18,
       "provenance": "data",
       "series": [
         {
@@ -113,62 +113,103 @@
           "month": "2026-06",
           "newsroom": 3,
           "universe": 35
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 48
         }
       ],
-      "total_universe": 149,
-      "universe_total": 116
+      "total_universe": 199,
+      "universe_total": 164
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:01:42.193773+00:00",
+      "as_of": "2026-07-29T23:04:34.912202+00:00",
       "edges": [
         {
+          "confidence": 0.215,
+          "description": "Co-covered in 11 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spark",
-          "phrase": "Spark integrates with Uniswap for liquidity and swaps.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-29",
+          "phrase": "Co-covered in 11 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "uniswap",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.212,
+          "description": "Co-covered in 5 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spark",
-          "phrase": "Liquidity is a core primitive for Spark's lending market.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-20",
+          "phrase": "Co-covered in 5 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.203,
+          "description": "Co-covered in 9 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spark",
-          "phrase": "FX is a comparable stablecoin protocol to Spark.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-30",
+          "phrase": "Co-covered in 9 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fx",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.188,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spark",
-          "phrase": "PYUSD is a stablecoin integrated with Spark.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "pyusd",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.18,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spark",
-          "phrase": "Spark operates in the stablecoin liquidity category.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "stablecoin-liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -182,42 +223,62 @@
         },
         {
           "center": false,
+          "confidence": 0.215,
           "name": "Uniswap",
+          "observed_at": "2026-06-29",
           "slug": "uniswap",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.212,
           "name": "Liquidity",
+          "observed_at": "2026-04-20",
           "slug": "liquidity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.203,
           "name": "FX",
+          "observed_at": "2026-06-30",
           "slug": "fx",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.188,
           "name": "PYUSD",
+          "observed_at": null,
           "slug": "pyusd",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.18,
           "name": "Stablecoin Liquidity",
+          "observed_at": null,
           "slug": "stablecoin-liquidity",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -286,17 +347,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 33,
-      "as_of": "2026-07-01T12:01:43.211701+00:00",
+      "article_count": 35,
+      "as_of": "2026-07-29T23:04:35.403486+00:00",
       "most_clicked": {
-        "clicks": 444,
+        "clicks": 445,
         "date": "2026-04-08T19:02:01.614425+00:00",
         "headline": "Meta launches Muse Spark, a multimodal reasoning model with tool-use, visual chain-of-thought & multi-agent orchestration, debuting Contemplating mode to rival frontier AI systems",
         "lev_url": "https://leviathannews.xyz/223997/meta-launches-muse-spark-a-multimodal-reasoning-model-with-tool-use-visual-chain-of-thought-multi-agent-orchestration-debuting-contemplating-mode-to-rival-frontier-ai-systems"
       },
       "provenance": "data",
-      "top_decile_share": 34,
-      "total_clicks": 2514
+      "top_decile_share": 32,
+      "total_clicks": 2629
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:56:19.470747+00:00",
@@ -381,10 +442,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:01:43.127489+00:00",
+      "as_of": "2026-07-29T23:04:35.398069+00:00",
       "items": [
         {
-          "clicks": 444,
+          "clicks": 445,
           "date": "2026-04-08T19:02:01.614425+00:00",
           "headline": "Meta launches Muse Spark, a multimodal reasoning model with tool-use, visual chain-of-thought & multi-agent orchestration, debuting Contemplating mode to rival frontier AI systems",
           "hot_score": 12605.276328,
@@ -393,16 +454,16 @@
           "url": "https://x.com/i/status/2041910285653737975"
         },
         {
-          "clicks": 24,
-          "date": "2026-06-25T15:12:05.641202+00:00",
-          "headline": "Spark seeds Uniswap v4 with $150M in USDS-PYUSD and USDS-USDT liquidity for stablecoin FX layer",
-          "hot_score": 547.195669,
-          "lev_url": "https://leviathannews.xyz/262656/spark-seeds-uniswap-v4-with-150m-in-usds-pyusd-and-usds-usdt-liquidity-for-stablecoin-fx-layer",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625131352_Z4zrlaiDPw==.png",
-          "url": "https://cointelegraph.com/news/spark-deploys-150m-stablecoin-liquidity-uniswap-v4"
+          "clicks": 42,
+          "date": "2026-07-14T16:02:37.847805+00:00",
+          "headline": "Galaxy launches GOFR to blend Aave, Morpho and Spark rates with up to $100M in first-loss capital",
+          "hot_score": 632.976408,
+          "lev_url": "https://leviathannews.xyz/275040/galaxy-launches-gofr-to-blend-aave-morpho-and-spark-rates-with-up-to-100m-in-first-loss-capital",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260714154648_Z4zrlaiDPw==.png",
+          "url": "https://www.galaxy.com/newsroom/galaxy-launches-gofr"
         },
         {
-          "clicks": 24,
+          "clicks": 28,
           "date": "2026-04-20T07:52:42.621056+00:00",
           "headline": "Spark's January rsETH delisting leaves SparkLend liquid while Aave freezes across five networks",
           "hot_score": 535.6,
@@ -411,7 +472,7 @@
           "url": "https://wublockchain.xyz/news/news-18796"
         },
         {
-          "clicks": 30,
+          "clicks": 33,
           "date": "2026-06-04T06:50:32.835396+00:00",
           "headline": "Spark unveiled Spark Prime, an institutional financing platform powered by Arkis that brings portfolio-margin lending on-chain, expanding access to funding-rate and crypto-backed yield strategies",
           "hot_score": 438.542407,
@@ -421,6 +482,24 @@
         },
         {
           "clicks": 38,
+          "date": "2026-07-08T07:18:28.896818+00:00",
+          "headline": "Polymarket enables instant BTC deposits over Lightning via Spark, cutting 10-60 minute onchain waits",
+          "hot_score": 431.463655,
+          "lev_url": "https://leviathannews.xyz/270803/polymarket-enables-instant-btc-deposits-over-lightning-via-spark-cutting-10-60-minute-onchain-waits",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260708031144_Z4zrlaiDPw==.png",
+          "url": "https://x.com/spark/status/2074539080197775421"
+        },
+        {
+          "clicks": 27,
+          "date": "2026-06-25T15:12:05.641202+00:00",
+          "headline": "Spark seeds Uniswap v4 with $150M in USDS-PYUSD and USDS-USDT liquidity for stablecoin FX layer",
+          "hot_score": 417.963502,
+          "lev_url": "https://leviathannews.xyz/262656/spark-seeds-uniswap-v4-with-150m-in-usds-pyusd-and-usds-usdt-liquidity-for-stablecoin-fx-layer",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625131352_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/spark-deploys-150m-stablecoin-liquidity-uniswap-v4"
+        },
+        {
+          "clicks": 41,
           "date": "2026-04-22T08:00:29.597100+00:00",
           "headline": "Aave loses a third of deposits ($15.1B) in 3.5 days after rsETH exploit, Spark TVL jumps to $3.2B",
           "hot_score": 409.6,
@@ -429,40 +508,22 @@
           "url": "https://x.com/EmberCN/status/2046790309804458244"
         },
         {
-          "clicks": 35,
+          "clicks": 38,
           "date": "2026-04-22T10:35:18.276702+00:00",
           "headline": "$10B exits Aave as capital rotates to Maker’s Spark, USDC and safer DeFi yields",
           "hot_score": 400.2,
           "lev_url": "https://leviathannews.xyz/234840/10b-exits-aave-as-funds-rotate-into-makers-spark-usdc-and-safer-yield-strategies-signaling-a-defi-flight-to-safety-amid-shifting-risk-appetite",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422095910_R2jn-_odFldn.jpg",
           "url": "https://www.coindesk.com/markets/2026/04/22/aave-s-usdtvl-slump-sends-capital-to-spark-lido-while-usdc-becomes-a-parking-spot"
-        },
-        {
-          "clicks": 45,
-          "date": "2026-04-24T08:57:25.257562+00:00",
-          "headline": "Spark pulls $2.4B in net deposits since April 18 as Mellow rotates $180M of Aave redemptions and Instadapp adds $88M",
-          "hot_score": 344.4,
-          "lev_url": "https://leviathannews.xyz/235989/spark-pulls-24b-in-net-deposits-since-april-18-as-mellow-rotates-180m-of-aave-redemptions-and-instadapp-adds-88m",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260424042057_Z4zrlaiDPw==.png",
-          "url": "https://x.com/defioasis/status/2047506600529981463"
-        },
-        {
-          "clicks": 55,
-          "date": "2026-03-24T18:00:32.672887+00:00",
-          "headline": "Eureka Labs raises $6.7M seed from Spark Capital, introduces programmable blocks to Ethereum PBS",
-          "hot_score": 149.969952,
-          "lev_url": "https://leviathannews.xyz/215381/eureka-labs-raises-67m-seed-from-spark-capital-introduces-programmable-blocks-to-ethereum-pbs",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260324175514_zK7Du5nlfZAq.jpg",
-          "url": "https://www.theblock.co/post/394923/ethereum-block-builder-eureka-labs-funding-programmable-blocks"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:01:43.037253+00:00",
+      "as_of": "2026-07-29T23:04:35.384356+00:00",
       "editorial": [
         {
-          "count": 18,
+          "count": 19,
           "source": "x.com"
         },
         {
@@ -510,40 +571,48 @@
           "source": "cointelegraph.com"
         }
       ],
-      "editorial_distinct": 12,
+      "editorial_distinct": 13,
       "provenance": "data",
       "universe": [
         {
-          "count": 41,
+          "count": 69,
           "source": "x.com"
         },
         {
-          "count": 16,
+          "count": 20,
           "source": "cointelegraph.com"
         },
         {
-          "count": 13,
+          "count": 15,
           "source": "financefeeds.com"
         },
         {
-          "count": 7,
+          "count": 8,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 8,
+          "source": "theblock.co"
+        },
+        {
+          "count": 8,
           "source": "decrypt.co"
         },
         {
           "count": 5,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 4,
-          "source": "theblock.co"
-        },
-        {
-          "count": 4,
           "source": "forbes.com"
         },
         {
           "count": 3,
           "source": "bloomberg.com"
+        },
+        {
+          "count": 3,
+          "source": "paragraph.com"
+        },
+        {
+          "count": 3,
+          "source": "thestreet.com"
         },
         {
           "count": 2,
@@ -552,14 +621,6 @@
         {
           "count": 2,
           "source": "news.bloomberglaw.com"
-        },
-        {
-          "count": 2,
-          "source": "blog.uniswap.org"
-        },
-        {
-          "count": 1,
-          "source": "english.news.cn"
         }
       ],
       "universe_distinct": 28
@@ -573,59 +634,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:56.334297+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.203,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0467,
-        "lift_log": 3.927,
-        "score": 0.2033,
-        "shared": 8
-      },
-      "rationale": "FX is a comparable stablecoin protocol to Spark.",
-      "relation_type": "peer",
-      "slug": "fx",
-      "source": "cotag",
-      "tag_name": "FX",
-      "title": "FX, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.212,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0113,
-        "lift_log": 2.308,
-        "score": 0.2119,
-        "shared": 5
-      },
-      "rationale": "Liquidity is a core primitive for Spark's lending market.",
-      "relation_type": "primitive",
-      "slug": "liquidity",
-      "source": "cotag",
-      "tag_name": "Liquidity",
-      "title": "Liquidity, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.215,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0579,
-        "lift_log": 4.066,
-        "score": 0.2153,
-        "shared": 11
-      },
-      "rationale": "Spark integrates with Uniswap for liquidity and swaps.",
-      "relation_type": "ecosystem",
-      "slug": "uniswap",
-      "source": "cotag",
-      "tag_name": "Uniswap",
-      "title": "Uniswap, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "spark",
   "tag_name": "Spark",

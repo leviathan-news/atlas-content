@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:57:49.740124+00:00",
+      "as_of": "2026-07-29T23:06:05.559210+00:00",
       "newsroom_total": 63,
-      "overall_share": 24,
+      "overall_share": 20,
       "provenance": "data",
       "series": [
         {
@@ -167,62 +167,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 43
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 54
         }
       ],
-      "total_universe": 268,
-      "universe_total": 205
+      "total_universe": 322,
+      "universe_total": 259
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:57:49.260645+00:00",
+      "as_of": "2026-07-29T23:06:05.335401+00:00",
       "edges": [
         {
+          "confidence": 0.22,
+          "description": "Co-covered in 9 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "valuation",
-          "phrase": "Both relate to financial metrics but funding is a capital event, not valuation.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-16",
+          "phrase": "Co-covered in 9 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "funding",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.195,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "valuation",
-          "phrase": "Arc is a fintech company; unclear direct relation to valuation.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "arc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "valuation",
-          "phrase": "Investment is an action; valuation is a metric used in investing.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "investment",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.171,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "valuation",
-          "phrase": "Seed round is a funding stage where valuation is determined.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "seed-round",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.164,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "valuation",
-          "phrase": "Revolut is a fintech company; its valuation is a known metric.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "revolut",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -236,42 +277,62 @@
         },
         {
           "center": false,
+          "confidence": 0.22,
           "name": "Funding",
+          "observed_at": "2026-07-16",
           "slug": "funding",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.195,
           "name": "Arc",
+          "observed_at": null,
           "slug": "arc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "Investment",
+          "observed_at": null,
           "slug": "investment",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.171,
           "name": "Seed Round",
+          "observed_at": null,
           "slug": "seed-round",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.164,
           "name": "Revolut",
+          "observed_at": null,
           "slug": "revolut",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -341,16 +402,16 @@
     },
     "reader_signal": {
       "article_count": 63,
-      "as_of": "2026-07-01T11:57:50.309406+00:00",
+      "as_of": "2026-07-29T23:06:05.785530+00:00",
       "most_clicked": {
-        "clicks": 519,
+        "clicks": 521,
         "date": "2025-01-19T19:11:18.861605+00:00",
         "headline": "Zack Guzman argues that reporting the market cap of the $TRUMP memecoin at $75 billion is misleading, a valuation tied to the current float would put the number closer to $13 billion",
         "lev_url": "https://leviathannews.xyz/8791/zack-guzman-argues-that-reporting-the-market-cap-of-the-trump-memecoin-at-75-billion-is-misleading-a-valuation-tied-to-the-current-float-would-put-the-number-closer-to-13-billion"
       },
       "provenance": "data",
-      "top_decile_share": 38,
-      "total_clicks": 4522
+      "top_decile_share": 37,
+      "total_clicks": 4654
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:45:31.142564+00:00",
@@ -435,10 +496,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:57:50.233818+00:00",
+      "as_of": "2026-07-29T23:06:05.779780+00:00",
       "items": [
         {
-          "clicks": 37,
+          "clicks": 79,
           "date": "2025-12-06T16:09:58.629361+00:00",
           "headline": "SpaceX Targets an $800 Billion Valuation in New Secondary Share Sale as WSJ Says a 2026 IPO Is Now on the Table.",
           "hot_score": 45.868115,
@@ -456,7 +517,7 @@
           "url": "https://decrypt.co/351893/elon-musk-spacex-moves-bitcoin-ahead-potential-record-ipo"
         },
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2025-12-09T09:36:54.347899+00:00",
           "headline": "Stripe, Adyen rival Airwallex nabs $330M at $8B valuation in a Series G funding round led by Addition, with participation from T. Rowe Price Associates, Activant, Lingotto, Robinhood Ventures, and TIAA Ventures.",
           "hot_score": 21.964553,
@@ -465,7 +526,7 @@
           "url": "https://techfundingnews.com/airwallex-raises-330m-series-g-8b-valuation-san-francisco-expansion/"
         },
         {
-          "clicks": 519,
+          "clicks": 521,
           "date": "2025-01-19T19:11:18.861605+00:00",
           "headline": "Zack Guzman argues that reporting the market cap of the $TRUMP memecoin at $75 billion is misleading, a valuation tied to the current float would put the number closer to $13 billion",
           "hot_score": 0.0,
@@ -474,7 +535,7 @@
           "url": "https://www.coinage.media/s4/trump-memecoin-surges-to-new-high"
         },
         {
-          "clicks": 418,
+          "clicks": 420,
           "date": "2023-11-14T22:06:46.803047+00:00",
           "headline": "Blockchain.com raises $110M funding round at lower valuation \"less than half\" of the $14bn they raised at in 2021",
           "hot_score": 0.0,
@@ -483,7 +544,7 @@
           "url": "https://blockworks.co/news/blockchain-com-raise-110m"
         },
         {
-          "clicks": 336,
+          "clicks": 339,
           "date": "2024-03-12T13:36:25.567406+00:00",
           "headline": "Elixir has closed a Series B at an $800M valuation ",
           "hot_score": 0.0,
@@ -513,7 +574,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:57:50.134400+00:00",
+      "as_of": "2026-07-29T23:06:05.768409+00:00",
       "editorial": [
         {
           "count": 12,
@@ -568,44 +629,44 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 103,
+          "count": 128,
           "source": "x.com"
         },
         {
-          "count": 23,
+          "count": 24,
           "source": "decrypt.co"
         },
         {
-          "count": 12,
+          "count": 19,
           "source": "theblock.co"
         },
         {
-          "count": 11,
+          "count": 16,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 12,
           "source": "cointelegraph.com"
         },
         {
           "count": 10,
-          "source": "financefeeds.com"
-        },
-        {
-          "count": 7,
           "source": "coindesk.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "reuters.com"
+        },
+        {
+          "count": 5,
+          "source": "t.me"
+        },
+        {
+          "count": 5,
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 4,
           "source": "bloomberg.com"
-        },
-        {
-          "count": 4,
-          "source": "t.me"
-        },
-        {
-          "count": 4,
-          "source": "crowdfundinsider.com"
         },
         {
           "count": 3,
@@ -616,7 +677,7 @@
           "source": "theinformation.com"
         }
       ],
-      "universe_distinct": 26
+      "universe_distinct": 31
     }
   },
   "official_links": [],
@@ -627,25 +688,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:37:04.187854+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.22,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0152,
-        "lift_log": 2.433,
-        "score": 0.22,
-        "shared": 7
-      },
-      "rationale": "Both relate to financial metrics but funding is a capital event, not valuation.",
-      "relation_type": "peer",
-      "slug": "funding",
-      "source": "cotag",
-      "tag_name": "Funding",
-      "title": "Funding, Explained",
-      "weight": 22
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "valuation",
   "tag_name": "Valuation",

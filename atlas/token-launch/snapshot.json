@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:58:07.409874+00:00",
+      "as_of": "2026-07-29T23:05:30.584274+00:00",
       "newsroom_total": 90,
-      "overall_share": 65,
+      "overall_share": 62,
       "provenance": "data",
       "series": [
         {
@@ -209,62 +209,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 8
         }
       ],
-      "total_universe": 138,
-      "universe_total": 48
+      "total_universe": 146,
+      "universe_total": 56
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:58:07.083352+00:00",
+      "as_of": "2026-07-29T23:05:29.861475+00:00",
       "edges": [
         {
+          "confidence": 0.28,
+          "description": "Co-covered in 7 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "token-launch",
-          "phrase": "Both are platforms for token launches, OpenSea for NFTs.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-17",
+          "phrase": "Co-covered in 7 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "opensea",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 28
         },
         {
+          "confidence": 0.201,
+          "description": "Co-covered in 36 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "token-launch",
-          "phrase": "Token launch is a specific type of launch event.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-30",
+          "phrase": "Co-covered in 36 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "launch",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.146,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "token-launch",
-          "phrase": "Base chain can host token launches as a platform.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "base",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "token-launch",
+          "observed_at": null,
           "phrase": "Bitcoin",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "token-launch",
-          "phrase": "chart",
+          "observed_at": null,
+          "phrase": "legal",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "chart",
+          "to": "legal",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -278,42 +319,62 @@
         },
         {
           "center": false,
+          "confidence": 0.28,
           "name": "OpenSea",
+          "observed_at": "2026-03-17",
           "slug": "opensea",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 28
         },
         {
           "center": false,
+          "confidence": 0.201,
           "name": "Launch",
+          "observed_at": "2026-06-30",
           "slug": "launch",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.146,
           "name": "Base Chain",
+          "observed_at": null,
           "slug": "base",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
-          "name": "Chart",
-          "slug": "chart",
+          "confidence": 0.0,
+          "name": "legal",
+          "observed_at": null,
+          "slug": "legal",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -377,16 +438,16 @@
     },
     "reader_signal": {
       "article_count": 90,
-      "as_of": "2026-07-01T11:58:08.151194+00:00",
+      "as_of": "2026-07-29T23:05:31.099950+00:00",
       "most_clicked": {
-        "clicks": 807,
+        "clicks": 815,
         "date": "2024-09-11T05:22:26.976424+00:00",
         "headline": "Socket and ZeroDev come together to launch Magic Accounts. Magic Accounts enable unified balances across chains, zero bridging latency, and no need for native gas tokens",
         "lev_url": "https://leviathannews.xyz/6927/socket-and-zerodev-come-together-to-launch-magic-accounts-magic-accounts-enable-unified-balances-across-chains-zero-bridging-latency-and-no-need-for-native-gas-tokens"
       },
       "provenance": "data",
       "top_decile_share": 34,
-      "total_clicks": 10159
+      "total_clicks": 10262
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:52:59.586837+00:00",
@@ -471,10 +532,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:58:08.063005+00:00",
+      "as_of": "2026-07-29T23:05:31.090685+00:00",
       "items": [
         {
-          "clicks": 92,
+          "clicks": 95,
           "date": "2026-03-17T02:37:07.480775+00:00",
           "headline": "OpenSea delays $SEA token launch indefinitely just two weeks before planned March 30 event, offers fee refunds for seasons 3-6 participants",
           "hot_score": 555.625449,
@@ -483,7 +544,7 @@
           "url": "https://x.com/dfinzer/status/2033637755838992569"
         },
         {
-          "clicks": 65,
+          "clicks": 66,
           "date": "2026-03-04T02:11:55.416780+00:00",
           "headline": "Paradex signals upcoming $DIME Token Generation Event",
           "hot_score": 360.656636,
@@ -492,7 +553,7 @@
           "url": "https://chainwire.org/2026/03/03/paradex-signals-upcoming-dime-token-generation-event/"
         },
         {
-          "clicks": 23,
+          "clicks": 25,
           "date": "2026-04-28T04:17:39.940274+00:00",
           "headline": "Real Finance blockchain gears up for token launch after $25 million raise from Nimbus Capital",
           "hot_score": 336.8,
@@ -501,7 +562,7 @@
           "url": "https://chainwire.org/2026/04/27/real-finance-blockchain-prepares-for-upcoming-tge-following-25-million-raised-from-nimbus-capital/?aff=decrypt"
         },
         {
-          "clicks": 48,
+          "clicks": 49,
           "date": "2026-03-18T06:38:56.132223+00:00",
           "headline": "Goldfish prepares GFIN governance token launch and ecosystem airdrop as GGBR expands across DeFi. By introducing a gold-backed stablecoin, Goldfish aims to bridge physical gold and DeFi.",
           "hot_score": 264.312053,
@@ -519,7 +580,7 @@
           "url": "https://cryptonews.com/news/ramarxyz-snipes-70-percent-humidifi-wet-presale/?feed_id=24218&_unique_id=69332bcd55bc7"
         },
         {
-          "clicks": 62,
+          "clicks": 63,
           "date": "2026-02-12T15:28:34.371499+00:00",
           "headline": "Crypto investor slams Aztec’s token launch as a VC-inflated fiasco that left retail holders with 50%+ losses and a fraction of its prior $480M valuation.",
           "hot_score": 81.726415,
@@ -549,7 +610,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:58:07.956492+00:00",
+      "as_of": "2026-07-29T23:05:31.071018+00:00",
       "editorial": [
         {
           "count": 37,
@@ -604,20 +665,24 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 36,
+          "count": 39,
           "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "financefeeds.com"
         },
         {
           "count": 3,
           "source": "theblock.co"
         },
         {
-          "count": 2,
-          "source": "chaingpt.org"
+          "count": 3,
+          "source": "decrypt.co"
         },
         {
           "count": 2,
-          "source": "decrypt.co"
+          "source": "chaingpt.org"
         },
         {
           "count": 1,
@@ -633,14 +698,14 @@
         },
         {
           "count": 1,
-          "source": "financefeeds.com"
+          "source": "blog.velvet.capital"
         },
         {
           "count": 1,
-          "source": "blog.velvet.capital"
+          "source": "techstartups.com"
         }
       ],
-      "universe_distinct": 9
+      "universe_distinct": 10
     }
   },
   "official_links": [],
@@ -651,42 +716,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:37:01.212629+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.201,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0089,
-        "lift_log": 1.988,
-        "score": 0.2014,
-        "shared": 35
-      },
-      "rationale": "Token launch is a specific type of launch event.",
-      "relation_type": "category",
-      "slug": "launch",
-      "source": "cotag",
-      "tag_name": "Launch",
-      "title": "Launch, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.28,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0717,
-        "lift_log": 5.368,
-        "score": 0.2802,
-        "shared": 7
-      },
-      "rationale": "Both are platforms for token launches, OpenSea for NFTs.",
-      "relation_type": "peer",
-      "slug": "opensea",
-      "source": "cotag",
-      "tag_name": "OpenSea",
-      "title": "OpenSea, Explained",
-      "weight": 28
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "token-launch",
   "tag_name": "Token Launch",

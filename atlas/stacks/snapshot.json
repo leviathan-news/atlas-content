@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:07:50.471649+00:00",
-      "newsroom_total": 12,
-      "overall_share": 15,
+      "as_of": "2026-07-29T23:04:49.413877+00:00",
+      "newsroom_total": 13,
+      "overall_share": 12,
       "provenance": "data",
       "series": [
         {
@@ -59,62 +59,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 16
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 26
         }
       ],
-      "total_universe": 82,
-      "universe_total": 70
+      "total_universe": 109,
+      "universe_total": 96
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:07:50.140933+00:00",
+      "as_of": "2026-07-29T23:04:49.102045+00:00",
       "edges": [
         {
+          "confidence": 0.249,
+          "description": "Co-covered in 4 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "stacks",
-          "phrase": "Stacks published a white paper describing its architecture.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-15",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "white-paper",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.192,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "stacks",
-          "phrase": "Stacks enables yield through stacking (STX staking).",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.189,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "stacks",
-          "phrase": "Stacks is a layer-2 blockchain for Bitcoin.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "layer-2",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.185,
+          "description": "Co-covered in 28 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "stacks",
-          "phrase": "Stacks settles transactions on Bitcoin blockchain.",
-          "relation_type": "protocol",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 28 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.169,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "stacks",
-          "phrase": "AI agents can be built on Stacks via smart contracts.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "ai-agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -128,42 +169,62 @@
         },
         {
           "center": false,
+          "confidence": 0.249,
           "name": "White Paper",
+          "observed_at": "2026-05-15",
           "slug": "white-paper",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.192,
           "name": "Yield",
+          "observed_at": null,
           "slug": "yield",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.189,
           "name": "Layer 2",
+          "observed_at": null,
           "slug": "layer-2",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.185,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.169,
           "name": "AI Agents",
+          "observed_at": null,
           "slug": "ai-agents",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -226,17 +287,17 @@
       "source": "https://www.stacks.co/bitcoin-staking"
     },
     "reader_signal": {
-      "article_count": 12,
-      "as_of": "2026-07-01T12:07:51.013436+00:00",
+      "article_count": 13,
+      "as_of": "2026-07-29T23:04:49.703685+00:00",
       "most_clicked": {
-        "clicks": 138,
+        "clicks": 148,
         "date": "2024-02-16T09:29:43.075013+00:00",
         "headline": "Stacks, the 'layer-2' Bitcoin DeFi project, is on the brink of surpassing its previous all-time high, outpacing Bitcoin's climb.",
         "lev_url": "https://leviathannews.xyz/3995/stacks-the-layer-2-bitcoin-defi-project-is-on-the-brink-of-surpassing-its-previous-all-time-high-outpacing-bitcoins-climb"
       },
       "provenance": "data",
       "top_decile_share": 21,
-      "total_clicks": 647
+      "total_clicks": 720
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:38:50.097978+00:00",
@@ -321,8 +382,17 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:07:50.937422+00:00",
+      "as_of": "2026-07-29T23:04:49.698370+00:00",
       "items": [
+        {
+          "clicks": 47,
+          "date": "2026-07-26T20:11:15.172453+00:00",
+          "headline": "Stacks 4.0 hard fork targets Bitcoin block 960,230 on July 29, activating Clarity 6 and Bitcoin Stacking",
+          "hot_score": 1173.857366,
+          "lev_url": "https://leviathannews.xyz/282201/stacks-40-hard-fork-targets-bitcoin-block-960230-on-july-29-activating-clarity-6-and-bitcoin-stacking",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726200942_Z4zrlaiDPw==.png",
+          "url": "https://stacks.foundation/release-4-0"
+        },
         {
           "clicks": 65,
           "date": "2026-05-07T15:41:34.771237+00:00",
@@ -333,7 +403,7 @@
           "url": "https://x.com/i/web/status/2051952485414175177"
         },
         {
-          "clicks": 44,
+          "clicks": 46,
           "date": "2026-05-28T22:37:32.661950+00:00",
           "headline": "Nakamoto's UTXO Management joins Stacks' Bitcoin staking launch as inaugural institution",
           "hot_score": 715.221912,
@@ -342,7 +412,7 @@
           "url": "https://x.com/utxomgmt/status/2060023640792396244"
         },
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2026-05-16T18:32:13.388757+00:00",
           "headline": "Stacks 2026 roadmap targets self-custodial BTC staking, 100x throughput, and 10K AI agents",
           "hot_score": 492.418797,
@@ -351,7 +421,7 @@
           "url": "https://www.stacks.co/roadmap"
         },
         {
-          "clicks": 66,
+          "clicks": 72,
           "date": "2026-03-17T16:33:10.162589+00:00",
           "headline": "Bitcoin Layer 2 Stacks rolls out SIP-034 upgrade, improving throughput by resetting only exhausted limits and unlocking higher efficiency for DeFi workloads",
           "hot_score": 271.435264,
@@ -360,7 +430,7 @@
           "url": "https://www.theblock.co/post/393931/bitcoin-layer-2-stacks-upgrade-boosts-defi-capacity?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 66,
+          "clicks": 69,
           "date": "2026-03-13T07:59:55.365547+00:00",
           "headline": "AI agents are beginning to earn Bitcoin on Stacks as autonomous programs trade, run services, and transact on-chain without human input",
           "hot_score": 214.065183,
@@ -369,7 +439,7 @@
           "url": "https://x.com/i/status/2032190314400870636"
         },
         {
-          "clicks": 72,
+          "clicks": 74,
           "date": "2025-12-29T09:32:03.133074+00:00",
           "headline": "The prison of financial mediocrity. The easiest thing to sell to a crowd like this is \"hope\", and when you understand this, you will understand the rise of the casinos (in all forms, dexes, prediction markets, etc) and the rise of trading gurus, business gurus, courses, and of course, substacks.",
           "hot_score": 98.414249,
@@ -378,28 +448,19 @@
           "url": "https://x.com/systematicls/status/2004900241745883205"
         },
         {
-          "clicks": 58,
+          "clicks": 59,
           "date": "2025-12-24T21:17:08.360902+00:00",
           "headline": "2025 wasn’t about one “best” LLM—it was about stacks. Users mixed models by task: Claude for coding, GPT-5.x for agents/chat, DeepSeek/Qwen for cheap scale, Gemini for research, and niche tools for creativity.",
           "hot_score": 75.580191,
           "lev_url": "https://leviathannews.xyz/22949/2025-wasnt-about-one-best-llmit-was-about-stacks-users-mixed-models-by-task-claude-for-coding-gpt-5x-for-agentschat-deepseekqwen-for-cheap-scale-gemini-for-research-and-niche-tools",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251224211413_NSAX1AVXPW8=.png",
           "url": "https://decrypt.co/352615/best-ai-large-learning-models-llms-2025"
-        },
-        {
-          "clicks": 25,
-          "date": "2026-02-05T13:09:58.148807+00:00",
-          "headline": "Fireblocks and Stacks bring institutional access to Bitcoin DeFi.",
-          "hot_score": 34.00192,
-          "lev_url": "https://leviathannews.xyz/24968/fireblocks-and-stacks-bring-institutional-access-to-bitcoin-defi",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260205124327_cByEZZ_4TJA=.jpg",
-          "url": "https://x.com/Stacks/status/2019082785219060068"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:07:50.851289+00:00",
+      "as_of": "2026-07-29T23:04:49.688548+00:00",
       "editorial": [
         {
           "count": 7,
@@ -420,30 +481,38 @@
         {
           "count": 1,
           "source": "stacks.co"
+        },
+        {
+          "count": 1,
+          "source": "stacks.foundation"
         }
       ],
-      "editorial_distinct": 5,
+      "editorial_distinct": 6,
       "provenance": "data",
       "universe": [
         {
-          "count": 37,
+          "count": 47,
           "source": "x.com"
         },
         {
-          "count": 5,
-          "source": "forbes.com"
-        },
-        {
-          "count": 5,
+          "count": 8,
           "source": "chainwire.org"
         },
         {
-          "count": 3,
+          "count": 7,
+          "source": "forbes.com"
+        },
+        {
+          "count": 6,
+          "source": "wsj.com"
+        },
+        {
+          "count": 4,
           "source": "independent.co.uk"
         },
         {
-          "count": 3,
-          "source": "wsj.com"
+          "count": 2,
+          "source": "barrons.com"
         },
         {
           "count": 2,
@@ -452,6 +521,10 @@
         {
           "count": 2,
           "source": "channelnewsasia.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
         },
         {
           "count": 1,
@@ -463,18 +536,10 @@
         },
         {
           "count": 1,
-          "source": "barrons.com"
-        },
-        {
-          "count": 1,
           "source": "theblock.co"
-        },
-        {
-          "count": 1,
-          "source": "smh.com.au"
         }
       ],
-      "universe_distinct": 20
+      "universe_distinct": 25
     }
   },
   "official_links": [],
@@ -485,25 +550,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:57.433054+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.249,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.05,
-        "lift_log": 4.904,
-        "score": 0.2488,
-        "shared": 4
-      },
-      "rationale": "Stacks published a white paper describing its architecture.",
-      "relation_type": "product",
-      "slug": "white-paper",
-      "source": "cotag",
-      "tag_name": "White Paper",
-      "title": "White Paper, Explained",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "stacks",
   "tag_name": "Stacks",

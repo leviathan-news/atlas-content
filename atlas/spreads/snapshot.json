@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:15:21.819782+00:00",
-      "newsroom_total": 5,
+      "as_of": "2026-07-29T23:04:38.325746+00:00",
+      "newsroom_total": 7,
       "overall_share": 16,
       "provenance": "data",
       "series": [
@@ -35,62 +35,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 6
+        },
+        {
+          "ed_share": 18,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 9
         }
       ],
-      "total_universe": 32,
-      "universe_total": 27
+      "total_universe": 43,
+      "universe_total": 36
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:15:21.493518+00:00",
+      "as_of": "2026-07-29T23:04:38.106134+00:00",
       "edges": [
         {
+          "confidence": 0.347,
+          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spreads",
-          "phrase": "Malware can manipulate spreads via price manipulation attacks.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-19",
+          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "malware",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 35
         },
         {
+          "confidence": 0.246,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spreads",
-          "phrase": "Spreads are directly affected by liquidity in order books.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-25",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.238,
+          "description": "Co-covered in 4 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spreads",
-          "phrase": "Unclear direct relation; both are broad tech concepts.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-19",
+          "phrase": "Co-covered in 4 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "microsoft",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.126,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spreads",
-          "phrase": "Wallets execute trades that determine spreads.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "wallet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "spreads",
+          "observed_at": null,
           "phrase": "lending",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "lending",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -104,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.347,
           "name": "malware",
+          "observed_at": "2026-06-19",
           "slug": "malware",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 35
         },
         {
           "center": false,
+          "confidence": 0.246,
           "name": "Liquidity",
+          "observed_at": "2026-05-25",
           "slug": "liquidity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.238,
           "name": "Microsoft",
+          "observed_at": "2026-06-19",
           "slug": "microsoft",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.126,
           "name": "Wallet",
+          "observed_at": null,
           "slug": "wallet",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Lending",
+          "observed_at": null,
           "slug": "lending",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -184,17 +245,17 @@
       "source": "https://alearesearch.substack.com/p/spreadsfi-defi-equity-markets"
     },
     "reader_signal": {
-      "article_count": 5,
-      "as_of": "2026-07-01T12:15:22.375575+00:00",
+      "article_count": 7,
+      "as_of": "2026-07-29T23:04:38.525592+00:00",
       "most_clicked": {
-        "clicks": 102,
+        "clicks": 103,
         "date": "2026-03-23T23:19:50.828832+00:00",
         "headline": "Spreads is live, offering users to trade tokenized stocks, and copy trade politicians, funds, and social media equities portfolio in one click",
         "lev_url": "https://leviathannews.xyz/214740/spreads-is-live-offering-users-to-trade-tokenized-stocks-and-copy-trade-politicians-funds-and-social-media-equities-portfolio-in-one-click"
       },
       "provenance": "data",
-      "top_decile_share": 38,
-      "total_clicks": 265
+      "top_decile_share": 29,
+      "total_clicks": 352
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:29:13.542759+00:00",
@@ -279,19 +340,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:15:22.298717+00:00",
+      "as_of": "2026-07-29T23:04:38.521846+00:00",
       "items": [
         {
-          "clicks": 27,
-          "date": "2026-06-28T05:22:24.055585+00:00",
-          "headline": "Hypercall brings S&P 500 options live next to SPCX with calls, puts, spreads, and strategy templates",
-          "hot_score": 1021.601924,
-          "lev_url": "https://leviathannews.xyz/264077/hypercall-brings-sp-500-options-live-next-to-spcx-with-calls-puts-spreads-and-strategy-templates",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628022910_Z4zrlaiDPw==.png",
-          "url": "https://x.com/synapseprotocol/status/2071044954378387735"
-        },
-        {
-          "clicks": 37,
+          "clicks": 41,
           "date": "2026-06-19T10:20:46.192648+00:00",
           "headline": "Microsoft warns Tor-based crypto clipper spreads via USB shortcuts to steal seed phrases and swap wallet addresses",
           "hot_score": 699.658423,
@@ -300,7 +352,25 @@
           "url": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
         },
         {
-          "clicks": 53,
+          "clicks": 37,
+          "date": "2026-07-22T08:45:28.553771+00:00",
+          "headline": "Delphi says JTX could become Solana's trading hub by leveraging Jito's infrastructure, BAM block builder and DFlow routing to deliver tighter spreads and better execution",
+          "hot_score": 643.569614,
+          "lev_url": "https://leviathannews.xyz/279793/solana-has-become-a-full-trading-ecosystem-but-its-markets-remain-fragmented-across-specialized-venues-jtx-aims-to-become-solanas-primary-trading-interface-by-connecting-those-m",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260722082926_f4vN3ZC7W0Oc.jpg",
+          "url": "https://x.com/delphi_digital/status/2079234045351747630"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-07-13T13:55:17.553747+00:00",
+          "headline": "Crypto cards often lose money on every swipe by design, using rewards as customer acquisition while profits come from FX, spreads, float, and stablecoin balances",
+          "hot_score": 636.441038,
+          "lev_url": "https://leviathannews.xyz/274066/nobody-who-signs-up-for-a-crypto-card-is-thinking-about-interchange-they-want-to-buy-a-coffee-with-the-usdt-or-usdc-sitting-in-their-wallet-or-they-live-somewhere-the-dollar-is-h",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260713134633_bwdtRVvr79P0.jpg",
+          "url": "https://x.com/obchakevich_/status/2076582639868268742"
+        },
+        {
+          "clicks": 54,
           "date": "2026-04-21T03:54:51.816348+00:00",
           "headline": "Avant's avUSD hits -87% interest rate on Aave as contagion spreads to Morpho",
           "hot_score": 495.2,
@@ -309,7 +379,7 @@
           "url": "https://x.com/AlphaFolio/status/2046410281493180576"
         },
         {
-          "clicks": 102,
+          "clicks": 103,
           "date": "2026-03-23T23:19:50.828832+00:00",
           "headline": "Spreads is live, offering users to trade tokenized stocks, and copy trade politicians, funds, and social media equities portfolio in one click",
           "hot_score": 492.474796,
@@ -318,7 +388,16 @@
           "url": "https://x.com/spreads_fi/status/2036147829211591034"
         },
         {
-          "clicks": 46,
+          "clicks": 32,
+          "date": "2026-06-28T05:22:24.055585+00:00",
+          "headline": "Hypercall brings S&P 500 options live next to SPCX with calls, puts, spreads, and strategy templates",
+          "hot_score": 417.120495,
+          "lev_url": "https://leviathannews.xyz/264077/hypercall-brings-sp-500-options-live-next-to-spcx-with-calls-puts-spreads-and-strategy-templates",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628022910_Z4zrlaiDPw==.png",
+          "url": "https://x.com/synapseprotocol/status/2071044954378387735"
+        },
+        {
+          "clicks": 48,
           "date": "2026-04-11T13:14:19.334799+00:00",
           "headline": "Binance expands Spot Altcoin Liquidity Boost Program to 40 pairs, improving spreads, reducing slippage, and enhancing trading efficiency across supported altcoins",
           "hot_score": 82.481267,
@@ -330,10 +409,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:15:22.212932+00:00",
+      "as_of": "2026-07-29T23:04:38.513668+00:00",
       "editorial": [
         {
-          "count": 4,
+          "count": 6,
           "source": "x.com"
         },
         {
@@ -345,8 +424,16 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 21,
+          "count": 26,
           "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
         },
         {
           "count": 1,
@@ -358,22 +445,18 @@
         },
         {
           "count": 1,
-          "source": "financefeeds.com"
-        },
-        {
-          "count": 1,
           "source": "metamask.io"
         },
         {
           "count": 1,
-          "source": "cointelegraph.com"
+          "source": "coindesk.com"
         },
         {
           "count": 1,
-          "source": "coindesk.com"
+          "source": "theblock.co"
         }
       ],
-      "universe_distinct": 7
+      "universe_distinct": 8
     }
   },
   "official_links": [],
@@ -384,59 +467,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:56.653445+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.246,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.01,
-        "lift_log": 3.068,
-        "score": 0.2461,
-        "shared": 3
-      },
-      "rationale": "Spreads are directly affected by liquidity in order books.",
-      "relation_type": "primitive",
-      "slug": "liquidity",
-      "source": "cotag",
-      "tag_name": "Liquidity",
-      "title": "Liquidity, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.347,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0456,
-        "lift_log": 4.902,
-        "score": 0.3466,
-        "shared": 3
-      },
-      "rationale": "Malware can manipulate spreads via price manipulation attacks.",
-      "relation_type": "risk",
-      "slug": "malware",
-      "source": "cotag",
-      "tag_name": "malware",
-      "title": "malware, Explained",
-      "weight": 35
-    },
-    {
-      "confidence": 0.238,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0443,
-        "lift_log": 4.731,
-        "score": 0.2383,
-        "shared": 4
-      },
-      "rationale": "Unclear direct relation; both are broad tech concepts.",
-      "relation_type": "peer",
-      "slug": "microsoft",
-      "source": "cotag",
-      "tag_name": "Microsoft",
-      "title": "Microsoft, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "spreads",
   "tag_name": "Spreads",

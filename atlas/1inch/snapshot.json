@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:01:44.679759+00:00",
-      "newsroom_total": 23,
-      "overall_share": 26,
+      "as_of": "2026-07-29T22:54:51.483903+00:00",
+      "newsroom_total": 25,
+      "overall_share": 20,
       "provenance": "data",
       "series": [
         {
@@ -113,62 +113,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 18
+        },
+        {
+          "ed_share": 5,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 37
         }
       ],
-      "total_universe": 88,
-      "universe_total": 65
+      "total_universe": 127,
+      "universe_total": 102
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:01:44.240859+00:00",
+      "as_of": "2026-07-29T22:54:51.267749+00:00",
       "edges": [
         {
+          "confidence": 0.247,
+          "description": "Co-covered in 5 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "1inch",
-          "phrase": "Fusion is a product built by 1inch for atomic swaps.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-07",
+          "phrase": "Co-covered in 5 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fusion",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.234,
+          "description": "Co-covered in 7 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "1inch",
-          "phrase": "Liquidity is a core DeFi primitive that 1inch aggregates.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.225,
+          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "1inch",
-          "phrase": "Wallet is a product offering from 1inch for self-custody.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "wallet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.184,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "1inch",
-          "phrase": "MCP is a tool or infrastructure used by 1inch.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "mcp",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.171,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "1inch",
-          "phrase": "MEV is a risk dimension that 1inch mitigates via Fusion.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "mev",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         }
       ],
@@ -182,42 +223,62 @@
         },
         {
           "center": false,
+          "confidence": 0.247,
           "name": "Fusion",
+          "observed_at": "2026-05-07",
           "slug": "fusion",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.234,
           "name": "Liquidity",
+          "observed_at": "2026-07-28",
           "slug": "liquidity",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 23
-        },
-        {
-          "center": false,
-          "name": "Wallet",
-          "slug": "wallet",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 23
-        },
-        {
-          "center": false,
-          "name": "MCP",
-          "slug": "mcp",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 23
+        },
+        {
+          "center": false,
+          "confidence": 0.225,
+          "name": "Wallet",
+          "observed_at": "2026-07-28",
+          "slug": "wallet",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 23
+        },
+        {
+          "center": false,
+          "confidence": 0.184,
+          "name": "MCP",
+          "observed_at": null,
+          "slug": "mcp",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.171,
           "name": "MEV",
+          "observed_at": null,
           "slug": "mev",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         }
       ],
@@ -286,17 +347,17 @@
       "source": "https://1inch.com"
     },
     "reader_signal": {
-      "article_count": 23,
-      "as_of": "2026-07-01T12:01:45.139633+00:00",
+      "article_count": 25,
+      "as_of": "2026-07-29T22:54:51.816189+00:00",
       "most_clicked": {
-        "clicks": 340,
+        "clicks": 349,
         "date": "2023-06-13T23:50:59.034230+00:00",
         "headline": "1inch DAO votes to discontinue stealing \"positive slippage\" from users when trades result in a surplus",
         "lev_url": "https://leviathannews.xyz/1428/1inch-dao-votes-to-discontinue-stealing-positive-slippage-from-users-when-trades-result-in-a-surplus"
       },
       "provenance": "data",
-      "top_decile_share": 27,
-      "total_clicks": 2230
+      "top_decile_share": 26,
+      "total_clicks": 2337
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:09:19.031426+00:00",
@@ -381,10 +442,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:01:45.059354+00:00",
+      "as_of": "2026-07-29T22:54:51.809133+00:00",
       "items": [
         {
-          "clicks": 54,
+          "clicks": 31,
+          "date": "2026-07-28T11:30:56.918587+00:00",
+          "headline": "1inch launches Aqua across 13 chains, letting liquidity providers deploy one wallet balance across multiple positions without fragmenting capital or surrendering custody",
+          "hot_score": 2403.166525,
+          "lev_url": "https://leviathannews.xyz/283220/1inch-opens-aqua-liquidity-protocol-across-13-chains-20260728",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728111946_ZQEQfGKlZsa6.png",
+          "url": "https://www.coindesk.com/web3/2026/07/27/1inch-opens-aqua-liquidity-protocol-across-13-chains"
+        },
+        {
+          "clicks": 55,
           "date": "2026-04-20T05:45:02.460840+00:00",
           "headline": "Fluid rolls out $1B-cap aWETH Redemption Protocol with Lido Finance, EtherFi, and 1inch to reduce systemic DeFi risk and unlock trapped ETH liquidity on Aave",
           "hot_score": 1158.787713,
@@ -393,7 +463,7 @@
           "url": "https://x.com/i/status/2045977506721960420"
         },
         {
-          "clicks": 68,
+          "clicks": 69,
           "date": "2026-05-07T05:45:46.173672+00:00",
           "headline": "1inch liquidity provider TrustedVolumes suffers ongoing $5.87M exploit on Ethereum, with Blockaid linking attacker to 2025 Fusion V1 hack",
           "hot_score": 932.281535,
@@ -402,7 +472,7 @@
           "url": "https://www.theblock.co/post/400332/1inch-trustedvolumes-exploit"
         },
         {
-          "clicks": 31,
+          "clicks": 34,
           "date": "2026-06-16T16:23:27.937786+00:00",
           "headline": "98.7% of all @OndoFinance SPCXon swap volume on @ethereum and @BNBCHAIN has been routed through 1inch.",
           "hot_score": 440.254381,
@@ -411,7 +481,16 @@
           "url": "https://x.com/1inch/status/2066861019268350339"
         },
         {
-          "clicks": 35,
+          "clicks": 37,
+          "date": "2026-07-17T06:37:46.778784+00:00",
+          "headline": "Anton Bukov, co-founder of 1inch, reflects on building the first DEX aggregator and Dutch-auction system, now launches new infrastructure startup Second Tier",
+          "hot_score": 420.021104,
+          "lev_url": "https://leviathannews.xyz/277205/i-co-founded-1inch-in-may-2019-ive-always-been-drawn-to-building-what-defi-didnt-have-yet-1inch-router-the-first-dex-aggregator-a-brand-new-category-1inch-fusion-the-first-dutch-au",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260717040901_uIMtM8ehZdmR.jpg",
+          "url": "https://x.com/k06a/status/2077755834235576651"
+        },
+        {
+          "clicks": 39,
           "date": "2026-03-31T08:45:51.583461+00:00",
           "headline": "1inch Business launches model context protocol for agentic DeFi trading .",
           "hot_score": 226.222378,
@@ -429,40 +508,22 @@
           "url": "https://x.com/slowmist_team/status/2052227002980253715"
         },
         {
-          "clicks": 44,
+          "clicks": 47,
           "date": "2026-03-04T15:37:29.890496+00:00",
           "headline": "1inch launches intent-based swaps via Ledger Wallet",
           "hot_score": 200.306508,
           "lev_url": "https://leviathannews.xyz/40414/security-and-gains-all-in-one-place-1inch-intent-based-swaps-are-now-live-via-ledger-wallet-experience-seamless-gasless-swaps-for-eligible-transactions-with-the-industrys",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260304152708_Z4zrlaiDPw==.png",
           "url": "https://x.com/Ledger/status/2029201250835657200?s=20"
-        },
-        {
-          "clicks": 62,
-          "date": "2026-05-11T10:56:28.785009+00:00",
-          "headline": "1inch partners with OpenUX on DeFi user survey: share your views in 10 minutes",
-          "hot_score": 124.426147,
-          "lev_url": "https://leviathannews.xyz/240656/can-you-help-us-build-better-defi-were-working-with-openux-to-understand-how-you-feel-about-different-tools-and-projects-give-us-your-opinions-by-completing-this-survey-httpssurvey",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260511100100_XAcg9HkB-UdO.jpg",
-          "url": "https://x.com/1inch/status/2053769845993349221"
-        },
-        {
-          "clicks": 340,
-          "date": "2023-06-13T23:50:59.034230+00:00",
-          "headline": "1inch DAO votes to discontinue stealing \"positive slippage\" from users when trades result in a surplus",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/1428/1inch-dao-votes-to-discontinue-stealing-positive-slippage-from-users-when-trades-result-in-a-surplus",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://blog.1inch.io/the-1inch-dao-discontinues-swap-surplus-collection/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:01:44.979802+00:00",
+      "as_of": "2026-07-29T22:54:51.790913+00:00",
       "editorial": [
         {
-          "count": 13,
+          "count": 14,
           "source": "x.com"
         },
         {
@@ -488,29 +549,37 @@
         {
           "count": 1,
           "source": "blog.1inch.com"
+        },
+        {
+          "count": 1,
+          "source": "coindesk.com"
         }
       ],
-      "editorial_distinct": 7,
+      "editorial_distinct": 8,
       "provenance": "data",
       "universe": [
+        {
+          "count": 34,
+          "source": "x.com"
+        },
         {
           "count": 23,
           "source": "blog.1inch.com"
         },
         {
           "count": 22,
-          "source": "x.com"
-        },
-        {
-          "count": 10,
           "source": "1inch-network.ghost.io"
         },
         {
-          "count": 2,
+          "count": 6,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 4,
           "source": "financewire.com"
         },
         {
-          "count": 2,
+          "count": 4,
           "source": "cointelegraph.com"
         },
         {
@@ -518,23 +587,27 @@
           "source": "financefeeds.com"
         },
         {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "chainwire.org"
+        },
+        {
           "count": 1,
           "source": "markets.businessinsider.com"
         },
         {
           "count": 1,
-          "source": "thestreet.com"
+          "source": "coindesk.com"
         },
         {
           "count": 1,
-          "source": "theblock.co"
-        },
-        {
-          "count": 1,
-          "source": "chainwire.org"
+          "source": "decrypt.co"
         }
       ],
-      "universe_distinct": 10
+      "universe_distinct": 12
     }
   },
   "official_links": [
@@ -556,59 +629,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:13.463167+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.247,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0391,
-        "lift_log": 4.981,
-        "score": 0.2473,
-        "shared": 5
-      },
-      "rationale": "Fusion is a product built by 1inch for atomic swaps.",
-      "relation_type": "product",
-      "slug": "fusion",
-      "source": "cotag",
-      "tag_name": "Fusion",
-      "title": "Fusion, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.234,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0174,
-        "lift_log": 2.73,
-        "score": 0.2345,
-        "shared": 6
-      },
-      "rationale": "Liquidity is a core DeFi primitive that 1inch aggregates.",
-      "relation_type": "primitive",
-      "slug": "liquidity",
-      "source": "cotag",
-      "tag_name": "Liquidity",
-      "title": "Liquidity, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.225,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0158,
-        "lift_log": 2.539,
-        "score": 0.2254,
-        "shared": 8
-      },
-      "rationale": "Wallet is a product offering from 1inch for self-custody.",
-      "relation_type": "product",
-      "slug": "wallet",
-      "source": "cotag",
-      "tag_name": "Wallet",
-      "title": "Wallet, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "1inch",
   "tag_name": "1inch",

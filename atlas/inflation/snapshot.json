@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:03:30.598228+00:00",
+      "as_of": "2026-07-29T22:59:50.677628+00:00",
       "newsroom_total": 50,
-      "overall_share": 34,
+      "overall_share": 28,
       "provenance": "data",
       "series": [
         {
@@ -179,62 +179,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 19
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 31
         }
       ],
-      "total_universe": 145,
-      "universe_total": 95
+      "total_universe": 176,
+      "universe_total": 126
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:03:27.124517+00:00",
+      "as_of": "2026-07-29T22:59:50.456699+00:00",
       "edges": [
         {
+          "confidence": 0.303,
+          "description": "Co-covered in 4 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "inflation",
-          "phrase": "Rates are a key monetary tool directly influencing inflation.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-18",
+          "phrase": "Co-covered in 4 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "rates",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.26,
+          "description": "Co-covered in 10 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "inflation",
-          "phrase": "The Fed sets monetary policy that drives inflation dynamics.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-20",
+          "phrase": "Co-covered in 10 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fed",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.251,
+          "description": "Co-covered in 4 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "inflation",
-          "phrase": "Rate cuts are policy actions aimed at managing inflation.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-11",
+          "phrase": "Co-covered in 4 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "rate-cut",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.214,
+          "description": "Co-covered in 5 approved stories; most recently October 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "inflation",
-          "phrase": "Powell, as Fed chair, shapes inflation narrative and policy.",
-          "relation_type": "influence",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-10-29",
+          "phrase": "Co-covered in 5 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "powell",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.197,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "inflation",
-          "phrase": "Tariffs can increase costs and contribute to inflation.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tariffs",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         }
       ],
@@ -248,42 +289,62 @@
         },
         {
           "center": false,
+          "confidence": 0.303,
           "name": "Rates",
+          "observed_at": "2026-03-18",
           "slug": "rates",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.26,
           "name": "FED",
+          "observed_at": "2026-03-20",
           "slug": "fed",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.251,
           "name": "Rate Cut",
+          "observed_at": "2026-03-11",
           "slug": "rate-cut",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.214,
           "name": "Powell",
+          "observed_at": "2025-10-29",
           "slug": "powell",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.197,
           "name": "Tariffs",
+          "observed_at": null,
           "slug": "tariffs",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         }
       ],
@@ -353,16 +414,16 @@
     },
     "reader_signal": {
       "article_count": 50,
-      "as_of": "2026-07-01T12:03:32.646013+00:00",
+      "as_of": "2026-07-29T22:59:50.931313+00:00",
       "most_clicked": {
-        "clicks": 333,
+        "clicks": 335,
         "date": "2025-01-16T22:20:51.897563+00:00",
         "headline": "Multicoin Capital proposes to cut Solana inflation, replacing it with market-based emissions",
         "lev_url": "https://leviathannews.xyz/8742/multicoin-capital-proposes-to-cut-solana-inflation-replacing-it-with-market-based-emissions"
       },
       "provenance": "data",
       "top_decile_share": 34,
-      "total_clicks": 3888
+      "total_clicks": 3987
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:42:00.205812+00:00",
@@ -447,10 +508,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:03:32.534608+00:00",
+      "as_of": "2026-07-29T22:59:50.926358+00:00",
       "items": [
         {
-          "clicks": 123,
+          "clicks": 154,
           "date": "2026-03-20T14:08:20.034255+00:00",
           "headline": "Fed's Waller went in ready to cut rates, but Iran war oil spike forced a hold — says cuts still possible later in 2026",
           "hot_score": 74.865128,
@@ -459,7 +520,7 @@
           "url": "https://www.bloomberg.com/news/articles/2026-03-20/fed-s-waller-cautious-on-oil-may-advocate-for-rate-cuts-later"
         },
         {
-          "clicks": 48,
+          "clicks": 49,
           "date": "2025-12-23T00:44:20.726251+00:00",
           "headline": "Kalshi launches Kalshi Research: Kalshi Research will provide internal Kalshi data to academics and other researchers interested in exploring topics related to prediction markets. The first research piece is live.",
           "hot_score": 71.641182,
@@ -468,7 +529,7 @@
           "url": "https://x.com/Kalshi/status/2003187264545870235"
         },
         {
-          "clicks": 333,
+          "clicks": 335,
           "date": "2025-01-16T22:20:51.897563+00:00",
           "headline": "Multicoin Capital proposes to cut Solana inflation, replacing it with market-based emissions",
           "hot_score": 0.0,
@@ -477,7 +538,7 @@
           "url": "https://blockworks.co/news/solana-weighing-sol-inflation-cut/"
         },
         {
-          "clicks": 283,
+          "clicks": 287,
           "date": "2023-12-12T08:25:11.086488+00:00",
           "headline": "Synthetix eliminates SNX token inflation, reallocates resources to buybacks and burns after passing governance proposal SIP-2043",
           "hot_score": 0.0,
@@ -486,7 +547,7 @@
           "url": "https://www.theblock.co/post/267138/synthetix-snx-token-inflation-buybacks-burns"
         },
         {
-          "clicks": 255,
+          "clicks": 256,
           "date": "2023-10-11T17:55:32.975482+00:00",
           "headline": "Ethereum Gas Fees Hit New Low for 2023 as DeFi, NFT Activity Drops.With activity waning, Ethereum’s “ultrasound money” meme is under attack as supply is currently growing at an annual inflation of 0.44%.",
           "hot_score": 0.0,
@@ -495,7 +556,7 @@
           "url": "https://decrypt.co/201001/ethereum-gas-fees-hits-new-low2023-defi-nft-activity-drops"
         },
         {
-          "clicks": 252,
+          "clicks": 256,
           "date": "2023-11-26T09:27:47.864266+00:00",
           "headline": "Cosmos community votes to limit Atom inflation rate to 10% amidst highest-ever turnout, reducing staking yield from 19% to 13.4%",
           "hot_score": 0.0,
@@ -513,7 +574,7 @@
           "url": "https://www.theblock.co/post/235529/cosmos-dex-osmosis-tokenomics"
         },
         {
-          "clicks": 170,
+          "clicks": 171,
           "date": "2025-01-15T21:23:01.115508+00:00",
           "headline": "Curve Finance’s 2024 highlights: CRV inflation cut, record token locks, Llama Lend & scrvUSD launches, Curve-Lite rollout, UX Upgrades, and TradFi integrations cement DeFi Leadership.",
           "hot_score": 0.0,
@@ -525,7 +586,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:03:32.412481+00:00",
+      "as_of": "2026-07-29T22:59:50.916744+00:00",
       "editorial": [
         {
           "count": 13,
@@ -580,20 +641,32 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 49,
+          "count": 64,
           "source": "x.com"
         },
         {
-          "count": 18,
+          "count": 22,
           "source": "cointelegraph.com"
         },
         {
-          "count": 7,
+          "count": 9,
           "source": "coindesk.com"
         },
         {
-          "count": 5,
+          "count": 6,
           "source": "bloomberg.com"
+        },
+        {
+          "count": 5,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 5,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 4,
+          "source": "thestreet.com"
         },
         {
           "count": 3,
@@ -605,19 +678,7 @@
         },
         {
           "count": 3,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 2,
-          "source": "truthsocial.com"
-        },
-        {
-          "count": 2,
           "source": "financefeeds.com"
-        },
-        {
-          "count": 1,
-          "source": "thestreet.com"
         },
         {
           "count": 1,
@@ -639,76 +700,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:36.157668+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.26,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0664,
-        "lift_log": 4.992,
-        "score": 0.2605,
-        "shared": 10
-      },
-      "rationale": "The Fed sets monetary policy that drives inflation dynamics.",
-      "relation_type": "influence",
-      "slug": "fed",
-      "source": "cotag",
-      "tag_name": "FED",
-      "title": "FED, Explained",
-      "weight": 26
-    },
-    {
-      "confidence": 0.214,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0298,
-        "lift_log": 4.342,
-        "score": 0.2135,
-        "shared": 5
-      },
-      "rationale": "Powell, as Fed chair, shapes inflation narrative and policy.",
-      "relation_type": "influence",
-      "slug": "powell",
-      "source": "cotag",
-      "tag_name": "Powell",
-      "title": "Powell, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.251,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0406,
-        "lift_log": 5.056,
-        "score": 0.2513,
-        "shared": 4
-      },
-      "rationale": "Rate cuts are policy actions aimed at managing inflation.",
-      "relation_type": "event",
-      "slug": "rate-cut",
-      "source": "cotag",
-      "tag_name": "Rate Cut",
-      "title": "Rate Cut, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.303,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0306,
-        "lift_log": 4.113,
-        "score": 0.3035,
-        "shared": 4
-      },
-      "rationale": "Rates are a key monetary tool directly influencing inflation.",
-      "relation_type": "peer",
-      "slug": "rates",
-      "source": "cotag",
-      "tag_name": "Rates",
-      "title": "Rates, Explained",
-      "weight": 30
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "inflation",
   "tag_name": "Inflation",

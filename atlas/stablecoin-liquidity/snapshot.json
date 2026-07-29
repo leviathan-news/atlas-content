@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:09:36.982094+00:00",
-      "newsroom_total": 51,
-      "overall_share": 88,
+      "as_of": "2026-07-29T23:04:43.323309+00:00",
+      "newsroom_total": 52,
+      "overall_share": 83,
       "provenance": "data",
       "series": [
         {
@@ -137,62 +137,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 1
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 4
         }
       ],
-      "total_universe": 58,
-      "universe_total": 7
+      "total_universe": 63,
+      "universe_total": 11
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:09:36.709858+00:00",
+      "as_of": "2026-07-29T23:04:43.085337+00:00",
       "edges": [
         {
+          "confidence": 0.296,
+          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "stablecoin-liquidity",
-          "phrase": "Stablecoin liquidity is a subset of overall liquidity.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-01",
+          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 30
         },
         {
+          "confidence": 0.234,
+          "description": "Co-covered in 5 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "stablecoin-liquidity",
-          "phrase": "Both refer to liquidity, but onchain is broader.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-31",
+          "phrase": "Co-covered in 5 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "onchain-liquidity",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.225,
+          "description": "Co-covered in 3 approved stories; most recently September 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "stablecoin-liquidity",
-          "phrase": "Lending markets depend on stablecoin liquidity.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-09-26",
+          "phrase": "Co-covered in 3 approved stories; most recently September 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "lending",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.213,
+          "description": "Co-covered in 4 approved stories; most recently December 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "stablecoin-liquidity",
-          "phrase": "Incentives attract stablecoin liquidity.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-12-12",
+          "phrase": "Co-covered in 4 approved stories; most recently December 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity-incentives",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.211,
+          "description": "Co-covered in 3 approved stories; most recently December 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "stablecoin-liquidity",
-          "phrase": "Pools provide the venue for stablecoin liquidity.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-12-18",
+          "phrase": "Co-covered in 3 approved stories; most recently December 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity-pool",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         }
       ],
@@ -206,42 +247,62 @@
         },
         {
           "center": false,
+          "confidence": 0.296,
           "name": "Liquidity",
+          "observed_at": "2026-07-01",
           "slug": "liquidity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 30
         },
         {
           "center": false,
+          "confidence": 0.234,
           "name": "Onchain Liquidity",
+          "observed_at": "2026-03-31",
           "slug": "onchain-liquidity",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.225,
           "name": "Lending",
+          "observed_at": "2025-09-26",
           "slug": "lending",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.213,
           "name": "Liquidity Incentives",
+          "observed_at": "2025-12-12",
           "slug": "liquidity-incentives",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.211,
           "name": "Liquidity Pool",
+          "observed_at": "2025-12-18",
           "slug": "liquidity-pool",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         }
       ],
@@ -298,17 +359,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 51,
-      "as_of": "2026-07-01T12:09:37.395109+00:00",
+      "article_count": 52,
+      "as_of": "2026-07-29T23:04:43.566618+00:00",
       "most_clicked": {
-        "clicks": 219,
+        "clicks": 221,
         "date": "2024-09-20T08:25:08.016068+00:00",
         "headline": "Tether’s dominance, surpassing 75% of the Stablecoin market, raises $118 billion in investor concerns over potential FTX-like liquidity issues, exacerbated by the lack of third-party audits and warnings from experts like Cyber Capital's Justin Bons.",
         "lev_url": "https://leviathannews.xyz/7064/tethers-dominance-surpassing-75-of-the-stablecoin-market-raises-118-billion-in-investor-concerns-over-potential-ftx-like-liquidity-issues-exacerbated-by-the-lack-of-third-party-aud"
       },
       "provenance": "data",
       "top_decile_share": 26,
-      "total_clicks": 3331
+      "total_clicks": 3430
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:44:18.737649+00:00",
@@ -387,10 +448,19 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:09:37.318543+00:00",
+      "as_of": "2026-07-29T23:04:43.562078+00:00",
       "items": [
         {
-          "clicks": 62,
+          "clicks": 35,
+          "date": "2026-07-01T18:50:21.471821+00:00",
+          "headline": "Aave V4 launches the Global Dollar Hub on Ethereum, introducing its first new Liquidity Hub designed specifically for USDG-correlated assets and stablecoin liquidity",
+          "hot_score": 772.531718,
+          "lev_url": "https://leviathannews.xyz/266840/the-global-dollar-hub-is-now-live-on-aave-v4-its-the-first-new-liquidity-hub-since-v4s-launch-live-on-ethereum-and-built-for-global_dollar-usdg-correlated-assets-20260701",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701184800_lqM2xyREOFWt.jpg",
+          "url": "https://x.com/aave/status/2072334944060268849"
+        },
+        {
+          "clicks": 67,
           "date": "2026-05-19T17:19:39.778950+00:00",
           "headline": "Checker raises $8M to give institutions one API for stablecoin liquidity and compliance",
           "hot_score": 516.730173,
@@ -399,7 +469,7 @@
           "url": "https://www.theblock.co/post/401906/stablecoin-infrastructure-startup-checker-funding"
         },
         {
-          "clicks": 63,
+          "clicks": 66,
           "date": "2026-03-31T08:31:38.042000+00:00",
           "headline": "StraitsX launches XSGD and XUSD on Solana, uniting native SGD and USD stablecoin liquidity onchain",
           "hot_score": 408.643008,
@@ -408,7 +478,7 @@
           "url": "https://www.straitsx.com/blog-post/xsgd-and-xusd-live-on-solana"
         },
         {
-          "clicks": 114,
+          "clicks": 117,
           "date": "2025-12-18T05:55:35.289548+00:00",
           "headline": "Brazilian stock exchange B3 to launch its own tokenization platform and stablecoin. The stablecoin will facilitate tokenized asset transactions and is expected to be linked to the Brazilian real. The tokenization platform is set to allow assets to be tokenized and traded on the exchange, with Luiz Masagão ,B3’s vice president of products and clients, saying both systems will share the same liquidity pool..",
           "hot_score": 195.628497,
@@ -417,7 +487,7 @@
           "url": "https://archive.ph/YLJoO"
         },
         {
-          "clicks": 78,
+          "clicks": 79,
           "date": "2025-12-13T12:16:30.606999+00:00",
           "headline": "Stablecoins don’t replace banks—they route around them. Nearly all “onchain” payments still rely on fiat rails, FX liquidity, and banking buffers, meaning real speed and reliability belong to teams that control underlying fiat infrastructure.",
           "hot_score": 109.431277,
@@ -426,7 +496,7 @@
           "url": "https://stabledash.com/news/2025-12-11-the-hidden-banking-layer-behind-stablecoin-payments"
         },
         {
-          "clicks": 47,
+          "clicks": 51,
           "date": "2025-12-16T16:10:54.780290+00:00",
           "headline": "A new stablecoin unifying liquidity across use cases, built for scale. Coming soon on BNB Chain.",
           "hot_score": 79.119201,
@@ -444,31 +514,22 @@
           "url": "https://membranelabs.com/first-institutional-stablecoin-for-stablecoin-repo-on-a-public-blockchain/"
         },
         {
-          "clicks": 51,
+          "clicks": 53,
           "date": "2026-01-15T16:47:18.009229+00:00",
           "headline": "DeFi lending is entering “Gen 2” after the 2025 crash exposed overcollateralization, fragility, and poor real-world utility. The next phase centers on compliant stablecoins, privacy-preserving credit, cross-chain liquidity, consumer-first interfaces, and reputation-based undercollateralized loans.",
           "hot_score": 73.510686,
           "lev_url": "https://leviathannews.xyz/23695/defi-lending-is-entering-gen-2-after-the-2025-crash-exposed-overcollateralization-fragility-and-poor-real-world-utility-the-next-phase-centers-on-compliant-stablecoins-privacy-pres",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260115164021_Kns8aeMLcDQ=.jpg",
           "url": "https://x.com/i/status/2011727310207197493"
-        },
-        {
-          "clicks": 44,
-          "date": "2025-12-04T14:55:42.029257+00:00",
-          "headline": "Governance voted to accept BUIDL (BlackRock’s USD Institutional Digital Liquidity fund), tokenized by Securitize, as eligible collateral for stablecoins built on M0. BUIDL can now be utilized by any M0 issuer as part of its collateral composition.",
-          "hot_score": 56.485143,
-          "lev_url": "https://leviathannews.xyz/21638/governance-voted-to-accept-buidl-blackrocks-usd-institutional-digital-liquidity-fund-tokenized-by-securitize-as-eligible-collateral-for-stablecoins-built-on-m0-buidl-can-now-be-uti",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251204145453_Xq5q-RsRvA8=.jpg",
-          "url": "https://x.com/m0/status/1996580318438924445"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:09:37.239036+00:00",
+      "as_of": "2026-07-29T23:04:43.550587+00:00",
       "editorial": [
         {
-          "count": 22,
+          "count": 23,
           "source": "x.com"
         },
         {
@@ -520,7 +581,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 5,
+          "count": 9,
           "source": "x.com"
         },
         {
@@ -543,93 +604,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:36:57.040977+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.225,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0077,
-        "lift_log": 2.628,
-        "score": 0.2246,
-        "shared": 3
-      },
-      "rationale": "Lending markets depend on stablecoin liquidity.",
-      "relation_type": "primitive",
-      "slug": "lending",
-      "source": "cotag",
-      "tag_name": "Lending",
-      "title": "Lending, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.296,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0318,
-        "lift_log": 3.91,
-        "score": 0.2959,
-        "shared": 12
-      },
-      "rationale": "Stablecoin liquidity is a subset of overall liquidity.",
-      "relation_type": "category",
-      "slug": "liquidity",
-      "source": "cotag",
-      "tag_name": "Liquidity",
-      "title": "Liquidity, Explained",
-      "weight": 30
-    },
-    {
-      "confidence": 0.213,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0293,
-        "lift_log": 4.339,
-        "score": 0.2132,
-        "shared": 4
-      },
-      "rationale": "Incentives attract stablecoin liquidity.",
-      "relation_type": "primitive",
-      "slug": "liquidity-incentives",
-      "source": "cotag",
-      "tag_name": "Liquidity Incentives",
-      "title": "Liquidity Incentives, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.211,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.025,
-        "lift_log": 4.338,
-        "score": 0.2111,
-        "shared": 3
-      },
-      "rationale": "Pools provide the venue for stablecoin liquidity.",
-      "relation_type": "infrastructure",
-      "slug": "liquidity-pool",
-      "source": "cotag",
-      "tag_name": "Liquidity Pool",
-      "title": "Liquidity Pool, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.234,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0448,
-        "lift_log": 4.641,
-        "score": 0.2343,
-        "shared": 5
-      },
-      "rationale": "Both refer to liquidity, but onchain is broader.",
-      "relation_type": "peer",
-      "slug": "onchain-liquidity",
-      "source": "cotag",
-      "tag_name": "Onchain Liquidity",
-      "title": "Onchain Liquidity, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "stablecoin-liquidity",
   "tag_name": "Stablecoin Liquidity",

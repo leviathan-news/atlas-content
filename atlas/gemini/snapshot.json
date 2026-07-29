@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:57:40.270989+00:00",
+      "as_of": "2026-07-29T22:59:28.977118+00:00",
       "newsroom_total": 62,
-      "overall_share": 48,
+      "overall_share": 40,
       "provenance": "data",
       "series": [
         {
@@ -178,63 +178,98 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 4
+          "universe": 31
         }
       ],
-      "total_universe": 128,
-      "universe_total": 66
+      "total_universe": 155,
+      "universe_total": 93
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:57:39.329689+00:00",
+      "as_of": "2026-07-29T22:59:28.774793+00:00",
       "edges": [
         {
+          "confidence": 0.429,
+          "description": "Co-covered in 19 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gemini",
-          "phrase": "Winklevoss twins founded Gemini exchange.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-15",
+          "phrase": "Co-covered in 19 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "winklevoss",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 43
         },
         {
+          "confidence": 0.269,
+          "description": "Co-covered in 23 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gemini",
-          "phrase": "Google is a tech giant, not directly comparable to Gemini.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 23 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "google",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.174,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gemini",
-          "phrase": "Gemini is a centralized cryptocurrency exchange.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cex",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.149,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gemini",
-          "phrase": "ChatGPT is an AI model, not directly related to Gemini.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "chatgpt",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.149,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "gemini",
-          "phrase": "Memory is a general concept, not specifically related.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "memory",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -248,42 +283,62 @@
         },
         {
           "center": false,
+          "confidence": 0.429,
           "name": "Winklevoss",
+          "observed_at": "2026-05-15",
           "slug": "winklevoss",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 43
         },
         {
           "center": false,
+          "confidence": 0.269,
           "name": "Google",
+          "observed_at": "2026-07-27",
           "slug": "google",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.174,
           "name": "CEX",
+          "observed_at": null,
           "slug": "cex",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.149,
           "name": "ChatGPT",
+          "observed_at": null,
           "slug": "chatgpt",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.149,
           "name": "Memory",
+          "observed_at": null,
           "slug": "memory",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -353,7 +408,7 @@
     },
     "reader_signal": {
       "article_count": 62,
-      "as_of": "2026-07-01T11:57:40.992712+00:00",
+      "as_of": "2026-07-29T22:59:29.321702+00:00",
       "most_clicked": {
         "clicks": 385,
         "date": "2023-09-14T14:37:25.729636+00:00",
@@ -361,8 +416,8 @@
         "lev_url": "https://leviathannews.xyz/2626/dcg-floats-110-recovery-for-gemini-earn-clientsan-offer-that-may-be-hard-for-the-winklevii-to-refuse"
       },
       "provenance": "data",
-      "top_decile_share": 36,
-      "total_clicks": 4070
+      "top_decile_share": 35,
+      "total_clicks": 4136
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:35:49.435746+00:00",
@@ -441,7 +496,7 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T11:57:40.892631+00:00",
+      "as_of": "2026-07-29T22:59:29.315707+00:00",
       "items": [
         {
           "clicks": 31,
@@ -453,7 +508,7 @@
           "url": "https://crypto.news/new-york-targets-coinbase-and-gemini-in-fresh-compliance-clash/"
         },
         {
-          "clicks": 37,
+          "clicks": 38,
           "date": "2026-05-05T17:31:27.795640+00:00",
           "headline": "Solana Foundation and Google Cloud launch Pay.sh, enabling AI agents to discover, access, and pay for APIs like Gemini and BigQuery using stablecoins in a breakthrough for machine-native commerce",
           "hot_score": 582.818376,
@@ -462,7 +517,7 @@
           "url": "https://x.com/i/web/status/2051698987304956281"
         },
         {
-          "clicks": 49,
+          "clicks": 51,
           "date": "2026-05-24T09:56:58.514244+00:00",
           "headline": "CFTC sidelined staff as Trump-linked Crypto.com, Polymarket, and Gemini pushed into prediction markets",
           "hot_score": 466.302231,
@@ -471,7 +526,7 @@
           "url": "https://www.nytimes.com/2026/05/24/us/how-prediction-markets-and-crypto-firms-steamrolled-a-watchdog-agency.html"
         },
         {
-          "clicks": 41,
+          "clicks": 43,
           "date": "2026-05-28T15:19:04.360049+00:00",
           "headline": "Gemini launches SpaceXAI-powered Command Center for personalized prediction market signals",
           "hot_score": 453.437186,
@@ -480,7 +535,7 @@
           "url": "https://x.com/gemini/status/2059999001777225993"
         },
         {
-          "clicks": 32,
+          "clicks": 34,
           "date": "2026-05-28T04:46:36.413706+00:00",
           "headline": "CFTC moves to void Gemini’s $5M settlement, saying 2022 enforcement case should not have been filed",
           "hot_score": 435.608421,
@@ -498,7 +553,7 @@
           "url": "https://www.cftc.gov/PressRoom/PressReleases/9236-26"
         },
         {
-          "clicks": 45,
+          "clicks": 48,
           "date": "2026-05-09T07:36:41.087652+00:00",
           "headline": "Coinbase, Kraken and Gemini reportedly lobbied US senators to remove anti-manipulation language from the CLARITY Act over concerns about token listings",
           "hot_score": 207.6,
@@ -507,7 +562,7 @@
           "url": "https://cointelegraph.com/news/crypto-companies-law-risky-tokens-manipulation"
         },
         {
-          "clicks": 67,
+          "clicks": 68,
           "date": "2026-03-22T10:25:28.980437+00:00",
           "headline": "Crypto hiring demand drops 80% year over year in early 2026 as job postings fall sharply, while firms like Algorand, Gemini and Crypto.com cut hundreds of roles due to AI integration",
           "hot_score": 151.869203,
@@ -519,7 +574,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:57:40.796240+00:00",
+      "as_of": "2026-07-29T22:59:29.304276+00:00",
       "editorial": [
         {
           "count": 13,
@@ -574,23 +629,23 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 37,
+          "count": 58,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 11,
           "source": "decrypt.co"
         },
         {
-          "count": 6,
+          "count": 7,
           "source": "cointelegraph.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "theblock.co"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "financefeeds.com"
         },
         {
@@ -611,10 +666,14 @@
         },
         {
           "count": 1,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 1,
           "source": "techinasia.com"
         }
       ],
-      "universe_distinct": 10
+      "universe_distinct": 11
     }
   },
   "official_links": [],
@@ -625,42 +684,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:33.607653+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.269,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0367,
-        "lift_log": 3.244,
-        "score": 0.2686,
-        "shared": 17
-      },
-      "rationale": "Google is a tech giant, not directly comparable to Gemini.",
-      "relation_type": "peer",
-      "slug": "google",
-      "source": "cotag",
-      "tag_name": "Google",
-      "title": "Google, Explained",
-      "weight": 27
-    },
-    {
-      "confidence": 0.429,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.123,
-        "lift_log": 5.901,
-        "score": 0.429,
-        "shared": 19
-      },
-      "rationale": "Winklevoss twins founded Gemini exchange.",
-      "relation_type": "founder",
-      "slug": "winklevoss",
-      "source": "cotag",
-      "tag_name": "Winklevoss",
-      "title": "Winklevoss, Explained",
-      "weight": 43
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "gemini",
   "tag_name": "Gemini",

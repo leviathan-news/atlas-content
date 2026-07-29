@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:11:48.306922+00:00",
-      "newsroom_total": 10,
+      "as_of": "2026-07-29T22:54:57.132914+00:00",
+      "newsroom_total": 12,
       "overall_share": 18,
       "provenance": "data",
       "series": [
@@ -35,62 +35,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 8
+        },
+        {
+          "ed_share": 20,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 8
         }
       ],
-      "total_universe": 55,
-      "universe_total": 45
+      "total_universe": 65,
+      "universe_total": 53
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:11:47.946086+00:00",
+      "as_of": "2026-07-29T22:54:56.919917+00:00",
       "edges": [
         {
+          "confidence": 0.261,
+          "description": "Co-covered in 7 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "accumulation",
-          "phrase": "Whales accumulate large amounts, similar to accumulation strategy.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "whale",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 26
         },
         {
+          "confidence": 0.214,
+          "description": "Co-covered in 4 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "accumulation",
-          "phrase": "BitMine involves mining accumulation, related concept.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-20",
+          "phrase": "Co-covered in 4 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitmine",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.21,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "accumulation",
-          "phrase": "Treasuries accumulate assets, akin to accumulation.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.199,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "accumulation",
-          "phrase": "Wallets are used to hold accumulated assets.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "wallet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.184,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "accumulation",
-          "phrase": "STRC may be a token related to accumulation strategies.",
-          "relation_type": "token",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "strc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -104,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.261,
           "name": "Whale",
+          "observed_at": "2026-07-28",
           "slug": "whale",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 26
         },
         {
           "center": false,
+          "confidence": 0.214,
           "name": "BitMine",
+          "observed_at": "2026-04-20",
           "slug": "bitmine",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Treasury",
-          "slug": "treasury",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 21
-        },
-        {
-          "center": false,
-          "name": "Wallet",
-          "slug": "wallet",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.21,
+          "name": "Treasury",
+          "observed_at": null,
+          "slug": "treasury",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
+        },
+        {
+          "center": false,
+          "confidence": 0.199,
+          "name": "Wallet",
+          "observed_at": null,
+          "slug": "wallet",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.184,
           "name": "STRC",
+          "observed_at": null,
           "slug": "strc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -208,17 +269,17 @@
       "source": "https://crypto.news/hype-whale-alert-a16z-linked-wallets-may-rank-no-6/"
     },
     "reader_signal": {
-      "article_count": 10,
-      "as_of": "2026-07-01T12:11:48.984035+00:00",
+      "article_count": 12,
+      "as_of": "2026-07-29T22:54:57.371059+00:00",
       "most_clicked": {
-        "clicks": 62,
+        "clicks": 64,
         "date": "2026-03-03T04:17:52.383820+00:00",
         "headline": "The Game Theory Rainbow Chart tracks when Bitcoin shifts from coordinated accumulation to self-interested defection regimes",
         "lev_url": "https://leviathannews.xyz/38829/the-game-theory-rainbow-chart-tracks-when-bitcoin-shifts-from-coordinated-accumulation-to-self-interested-defection-regimes"
       },
       "provenance": "data",
-      "top_decile_share": 14,
-      "total_clicks": 450
+      "top_decile_share": 12,
+      "total_clicks": 534
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:33:52.674118+00:00",
@@ -303,8 +364,26 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:11:48.907482+00:00",
+      "as_of": "2026-07-29T22:54:57.367373+00:00",
       "items": [
+        {
+          "clicks": 30,
+          "date": "2026-07-27T14:21:09.970004+00:00",
+          "headline": "Benchmark reiterates a $570 price target on Strategy, saying its $3.75B cash reserve strengthens long-term Bitcoin accumulation rather than signaling a shift in strategy",
+          "hot_score": 1969.234897,
+          "lev_url": "https://leviathannews.xyz/282583/benchmark-reiterates-570-strategy-target-says-cash-reserve-strengthens-bitcoin-acquisition-plan-20260727",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727141404_feEbkT50XXxx.jpg",
+          "url": "https://www.theblock.co/post/409743/benchmark-reiterates-570-strategy-target-says-cash-reserve-strengthens-bitcoin-acquisition-plan?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 44,
+          "date": "2026-07-18T00:22:38.003446+00:00",
+          "headline": "CryptoQuant says Strategy's new capital framework strengthens liquidity but still lacks disciplined rules for Bitcoin accumulation and selling during future bull markets",
+          "hot_score": 911.384144,
+          "lev_url": "https://leviathannews.xyz/277826/cryptoquant-says-strategy-still-needs-disciplined-bitcoin-buying-and-selling-framework-20260718",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260718000155_MJZbV4uF1nzr.jpg",
+          "url": "https://www.theblock.co/post/408825/cryptoquant-strategy-bitcoin-buying-selling-framework-mstr?utm_source=rss&utm_medium=rss"
+        },
         {
           "clicks": 34,
           "date": "2026-04-24T09:57:30.174147+00:00",
@@ -324,7 +403,7 @@
           "url": "https://x.com/ai_9684xtpa/status/2056911965092798926"
         },
         {
-          "clicks": 62,
+          "clicks": 64,
           "date": "2026-03-03T04:17:52.383820+00:00",
           "headline": "The Game Theory Rainbow Chart tracks when Bitcoin shifts from coordinated accumulation to self-interested defection regimes",
           "hot_score": 350.735602,
@@ -333,7 +412,7 @@
           "url": "https://x.com/i/status/2028570049146179770"
         },
         {
-          "clicks": 54,
+          "clicks": 55,
           "date": "2026-03-16T13:33:31.151549+00:00",
           "headline": "STRC 8-K shows 16,816 BTC bought last week via 11.8M new shares worth $1.18B at ~$70k per BTC, lifting Bitcoin treasury accumulation to record, accelerating pace versus prior weeks.",
           "hot_score": 201.176977,
@@ -342,7 +421,7 @@
           "url": "https://x.com/STRC_live/status/2033513951124742200"
         },
         {
-          "clicks": 45,
+          "clicks": 46,
           "date": "2026-03-31T12:12:28.936115+00:00",
           "headline": "Bitmine drops $147M on ETH in largest weekly buy of 2026, extends accumulation streak to five weeks",
           "hot_score": 162.881024,
@@ -351,44 +430,26 @@
           "url": "https://x.com/BitMNR/status/2038617414951149827"
         },
         {
-          "clicks": 44,
+          "clicks": 45,
           "date": "2026-03-02T12:13:00.380413+00:00",
           "headline": "Whale accumulation drives $1B inflows into digital asset funds after five-week outflow streak",
           "hot_score": 122.050478,
           "lev_url": "https://leviathannews.xyz/38100/whale-accumulation-drives-1b-inflows-into-digital-asset-funds-after-five-week-outflow-streak",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260302121129_ISLMm_696as=.jpg",
           "url": "https://x.com/cryptounfolded/status/2028434646405652990"
-        },
-        {
-          "clicks": 52,
-          "date": "2026-03-15T07:36:49.975837+00:00",
-          "headline": "Ethereum Foundation offloads 5,000 ETH to BitMine in $10M OTC transaction as the world’s largest ETH treasury firm continues aggressive accumulation.",
-          "hot_score": 106.18757,
-          "lev_url": "https://leviathannews.xyz/209903/ethereum-foundation-offloads-5000-eth-to-bitmine-in-10m-otc-transaction-as-the-worlds-largest-eth-treasury-firm-continues-aggressive-accumulation",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260315072638_7P_tYHP51Nzf.jpg",
-          "url": "https://www.theblock.co/post/393614/ethereum-foundation-sells-5000-eth-to-tom-lees-bitmine-in-10-million-otc-deal?utm_source=twitter&utm_medium=social"
-        },
-        {
-          "clicks": 39,
-          "date": "2026-05-11T09:26:13.655638+00:00",
-          "headline": "STRC climbs back above $100 after its longest post-dividend recovery yet, clearing the way for ATM sales to resume and Bitcoin accumulation to restart.",
-          "hot_score": 63.848882,
-          "lev_url": "https://leviathannews.xyz/240640/strc-climbs-back-above-100-after-its-longest-post-dividend-recovery-yet-clearing-the-way-for-atm-sales-to-resume-and-bitcoin-accumulation-to-restart",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260511092430_j49y98nAAXBo.jpg",
-          "url": "https://x.com/strc_live/status/2053747232504004748"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:11:48.815645+00:00",
+      "as_of": "2026-07-29T22:54:57.360273+00:00",
       "editorial": [
         {
           "count": 8,
           "source": "x.com"
         },
         {
-          "count": 1,
+          "count": 3,
           "source": "theblock.co"
         },
         {
@@ -400,7 +461,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 30,
+          "count": 34,
           "source": "x.com"
         },
         {
@@ -408,7 +469,7 @@
           "source": "cointelegraph.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "theblock.co"
         },
         {
@@ -416,15 +477,23 @@
           "source": "financefeeds.com"
         },
         {
+          "count": 2,
+          "source": "crowdfundinsider.com"
+        },
+        {
           "count": 1,
           "source": "decrypt.co"
         },
         {
           "count": 1,
-          "source": "crowdfundinsider.com"
+          "source": "wsj.com"
+        },
+        {
+          "count": 1,
+          "source": "financewire.com"
         }
       ],
-      "universe_distinct": 6
+      "universe_distinct": 8
     }
   },
   "official_links": [],
@@ -435,59 +504,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:14.094911+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.214,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0365,
-        "lift_log": 4.277,
-        "score": 0.2138,
-        "shared": 4
-      },
-      "rationale": "BitMine involves mining accumulation, related concept.",
-      "relation_type": "peer",
-      "slug": "bitmine",
-      "source": "cotag",
-      "tag_name": "BitMine",
-      "title": "BitMine, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.21,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0076,
-        "lift_log": 2.303,
-        "score": 0.21,
-        "shared": 4
-      },
-      "rationale": "Treasuries accumulate assets, akin to accumulation.",
-      "relation_type": "peer",
-      "slug": "treasury",
-      "source": "cotag",
-      "tag_name": "Treasury",
-      "title": "Treasury, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.261,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0189,
-        "lift_log": 3.297,
-        "score": 0.261,
-        "shared": 5
-      },
-      "rationale": "Whales accumulate large amounts, similar to accumulation strategy.",
-      "relation_type": "peer",
-      "slug": "whale",
-      "source": "cotag",
-      "tag_name": "Whale",
-      "title": "Whale, Explained",
-      "weight": 26
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "accumulation",
   "tag_name": "Accumulation",

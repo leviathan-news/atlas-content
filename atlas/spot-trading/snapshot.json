@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:02:57.471855+00:00",
-      "newsroom_total": 12,
+      "as_of": "2026-07-29T23:04:36.818816+00:00",
+      "newsroom_total": 15,
       "overall_share": 15,
       "provenance": "data",
       "series": [
@@ -61,66 +61,101 @@
           "universe": 10
         },
         {
-          "ed_share": 0,
+          "ed_share": 12,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 1
+          "newsroom": 3,
+          "universe": 21
         }
       ],
-      "total_universe": 79,
-      "universe_total": 67
+      "total_universe": 102,
+      "universe_total": 87
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:02:57.009944+00:00",
+      "as_of": "2026-07-29T23:04:36.632010+00:00",
       "edges": [
         {
+          "confidence": 0.2,
+          "description": "Co-covered in 25 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spot-trading",
-          "phrase": "Binance is a major centralized exchange offering spot trading.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-29",
+          "phrase": "Co-covered in 25 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "binance",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.179,
+          "description": "Co-covered in 19 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spot-trading",
-          "phrase": "Coinbase is a major centralized exchange offering spot trading.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 19 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "coinbase",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.149,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spot-trading",
-          "phrase": "Retail traders are primary users of spot trading platforms.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "retail",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.134,
+          "description": "Co-covered in 13 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spot-trading",
-          "phrase": "Bitcoin is a commonly traded asset on spot markets.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 13 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.121,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "spot-trading",
-          "phrase": "Telegram is used for trading signals and community coordination.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "telegram",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         }
       ],
@@ -134,42 +169,62 @@
         },
         {
           "center": false,
+          "confidence": 0.2,
           "name": "Binance",
+          "observed_at": "2026-07-29",
           "slug": "binance",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.179,
           "name": "Coinbase",
+          "observed_at": null,
           "slug": "coinbase",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.149,
           "name": "Retail",
+          "observed_at": null,
           "slug": "retail",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.134,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.121,
           "name": "Telegram",
+          "observed_at": null,
           "slug": "telegram",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         }
       ],
@@ -238,17 +293,17 @@
       "source": "https://www.decentrader.com/education/introduction-to-crypto-trading-spot-vs-derivatives/"
     },
     "reader_signal": {
-      "article_count": 12,
-      "as_of": "2026-07-01T12:02:57.968199+00:00",
+      "article_count": 15,
+      "as_of": "2026-07-29T23:04:37.133812+00:00",
       "most_clicked": {
-        "clicks": 252,
+        "clicks": 253,
         "date": "2023-09-25T06:24:44.960197+00:00",
         "headline": "With spot trading volumes tumbling, Coinbase explored an acquisition of FTX Europe. Though never reaching a late stage, Coinbase interest in FTX Europe demonstrates the growing importance of derivatives to the Coinbase global business plan.",
         "lev_url": "https://leviathannews.xyz/2762/with-spot-trading-volumes-tumbling-coinbase-explored-an-acquisition-of-ftx-europe-though-never-reaching-a-late-stage-coinbase-interest-in-ftx-europe-demonstrates-the-growing-import"
       },
       "provenance": "data",
-      "top_decile_share": 30,
-      "total_clicks": 844
+      "top_decile_share": 25,
+      "total_clicks": 1007
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:43:00.770487+00:00",
@@ -333,16 +388,25 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:02:57.889478+00:00",
+      "as_of": "2026-07-29T23:04:37.128736+00:00",
       "items": [
         {
-          "clicks": 49,
+          "clicks": 51,
           "date": "2026-04-10T17:05:37.676220+00:00",
           "headline": "Kraken opens spot trading for Quai Network, merged-mined PoW chain claiming 50,000+ TPS",
           "hot_score": 33143.385781,
           "lev_url": "https://leviathannews.xyz/225984/kraken-opens-spot-trading-for-quai-network-merged-mined-pow-chain-claiming-50000-tps",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410125523_Z4zrlaiDPw==.png",
           "url": "https://blog.kraken.com/product/asset-listings/quai-is-available-for-trading"
+        },
+        {
+          "clicks": 21,
+          "date": "2026-07-29T11:09:52.335230+00:00",
+          "headline": "K33 says July is on track to become bitcoin's weakest spot trading month since late 2023, with muted spot, futures and options activity reflecting a sluggish crypto market",
+          "hot_score": 2914.216768,
+          "lev_url": "https://leviathannews.xyz/284012/sleepy-july-k33-says-bitcoin-spot-volume-on-track-for-weakest-month-since-late-2023-20260729",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729110755_Opy9UKlKr0zq.jpg",
+          "url": "https://www.theblock.co/post/410017/sleepy-july-k33-says-bitcoin-spot-volume-on-track-for-weakest-month-since-late-2023?utm_source=rss&utm_medium=rss?utm_source=telegram1&utm_medium=social"
         },
         {
           "clicks": 37,
@@ -354,7 +418,25 @@
           "url": "https://x.com/0xsoju/status/2061828283965243400"
         },
         {
-          "clicks": 62,
+          "clicks": 40,
+          "date": "2026-07-13T06:10:41.111523+00:00",
+          "headline": "WOO X signs MOU with Kraken's Payward Services to bring spot trading to EU users",
+          "hot_score": 648.901678,
+          "lev_url": "https://leviathannews.xyz/273740/woo-x-signs-mou-with-krakens-payward-services-to-bring-spot-trading-to-eu-users",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260713051118_Z4zrlaiDPw==.png",
+          "url": "https://woox.io/blog/woo-x-signs-memorandum-of-understanding-mou-with-payward-services-kraken"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-07-14T00:11:41.248869+00:00",
+          "headline": "Jito opens JTX to 100,000-user waitlist July 14 with self-custodial spot and equities trading",
+          "hot_score": 626.657116,
+          "lev_url": "https://leviathannews.xyz/274322/jito-opens-jtx-to-100000-user-waitlist-july-14-with-self-custodial-spot-and-equities-trading",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260713193927_Z4zrlaiDPw==.png",
+          "url": "https://x.com/jtx_trade/status/2076720880747692282"
+        },
+        {
+          "clicks": 64,
           "date": "2026-06-07T09:19:40.007286+00:00",
           "headline": "Bybit opens SpaceX IPO Express subscriptions in USDC for VIP and Pro users before June 12 spot trading",
           "hot_score": 495.872902,
@@ -363,7 +445,7 @@
           "url": "https://announcements.bybit.com/en/article/introducing-spacex-the-first-ipo-on-bybit-ipo-express-blt360da1ebb3f31f8a/"
         },
         {
-          "clicks": 47,
+          "clicks": 49,
           "date": "2026-04-23T14:51:15.072947+00:00",
           "headline": "Robinhood lists $ZEC for spot trading, blocks deposits and restricts withdrawals to unshielded addresses",
           "hot_score": 356.4,
@@ -372,50 +454,27 @@
           "url": "https://robinhood.com/us/en/crypto/ZEC"
         },
         {
-          "clicks": 46,
+          "clicks": 48,
           "date": "2026-04-11T13:14:19.334799+00:00",
           "headline": "Binance expands Spot Altcoin Liquidity Boost Program to 40 pairs, improving spreads, reducing slippage, and enhancing trading efficiency across supported altcoins",
           "hot_score": 82.481267,
           "lev_url": "https://leviathannews.xyz/226689/binance-updates-the-spot-altcoin-liquidity-boost-program-weve-doubled-the-number-of-supported-pairs-from-20-to-40-meaning-more-altcoins-now-benefit-from-tighter-spreads-r",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260411115047_tLV2IubpoYFD.jpg",
           "url": "https://x.com/i/status/2042890803408966115"
-        },
-        {
-          "clicks": 46,
-          "date": "2026-04-03T16:13:57.868986+00:00",
-          "headline": "$7T Charles Schwab to offer spot Bitcoin and Ethereum trading to 37M clients by mid-April",
-          "hot_score": 50.176752,
-          "lev_url": "https://leviathannews.xyz/220888/7t-charles-schwab-to-offer-spot-bitcoin-and-ethereum-trading-to-37m-clients-by-mid-april",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260403160936_Z4zrlaiDPw==.png",
-          "url": "https://www.crowdfundinsider.com/2026/04/270986-the-everything-app-charles-schwab-to-offer-crypto-trading/"
-        },
-        {
-          "clicks": 252,
-          "date": "2023-09-25T06:24:44.960197+00:00",
-          "headline": "With spot trading volumes tumbling, Coinbase explored an acquisition of FTX Europe. Though never reaching a late stage, Coinbase interest in FTX Europe demonstrates the growing importance of derivatives to the Coinbase global business plan.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/2762/with-spot-trading-volumes-tumbling-coinbase-explored-an-acquisition-of-ftx-europe-though-never-reaching-a-late-stage-coinbase-interest-in-ftx-europe-demonstrates-the-growing-import",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://archive.ph/MluxD"
-        },
-        {
-          "clicks": 137,
-          "date": "2023-09-06T08:13:37.407244+00:00",
-          "headline": "Genesis Global Trading (GGT) will shutter its crypto spot trading operations in September",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/2498/genesis-global-trading-ggt-will-shutter-its-crypto-spot-trading-operations-in-september",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://www.blockworks.co/news/genesis-global-trading-shutter-september"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:02:57.807220+00:00",
+      "as_of": "2026-07-29T23:04:37.117512+00:00",
       "editorial": [
         {
-          "count": 3,
+          "count": 4,
           "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
         },
         {
           "count": 1,
@@ -424,10 +483,6 @@
         {
           "count": 1,
           "source": "coindesk.com"
-        },
-        {
-          "count": 1,
-          "source": "theblock.co"
         },
         {
           "count": 1,
@@ -452,21 +507,29 @@
         {
           "count": 1,
           "source": "announcements.bybit.com"
-        }
-      ],
-      "editorial_distinct": 10,
-      "provenance": "data",
-      "universe": [
-        {
-          "count": 42,
-          "source": "x.com"
-        },
-        {
-          "count": 20,
-          "source": "treeofalpha.com"
         },
         {
           "count": 1,
+          "source": "woox.io"
+        }
+      ],
+      "editorial_distinct": 11,
+      "provenance": "data",
+      "universe": [
+        {
+          "count": 50,
+          "source": "x.com"
+        },
+        {
+          "count": 27,
+          "source": "treeofalpha.com"
+        },
+        {
+          "count": 4,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 2,
           "source": "cointelegraph.com"
         },
         {
@@ -483,10 +546,10 @@
         },
         {
           "count": 1,
-          "source": "crowdfundinsider.com"
+          "source": "financefeeds.com"
         }
       ],
-      "universe_distinct": 7
+      "universe_distinct": 8
     }
   },
   "official_links": [],
@@ -497,25 +560,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:56.571900+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.2,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0104,
-        "lift_log": 2.022,
-        "score": 0.2002,
-        "shared": 16
-      },
-      "rationale": "Binance is a major centralized exchange offering spot trading.",
-      "relation_type": "peer",
-      "slug": "binance",
-      "source": "cotag",
-      "tag_name": "Binance",
-      "title": "Binance, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "spot-trading",
   "tag_name": "Spot Trading",

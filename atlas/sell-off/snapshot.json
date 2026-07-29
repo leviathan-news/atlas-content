@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:58:30.272877+00:00",
+      "as_of": "2026-07-29T23:04:19.768127+00:00",
       "newsroom_total": 23,
-      "overall_share": 43,
+      "overall_share": 37,
       "provenance": "data",
       "series": [
         {
@@ -101,62 +101,103 @@
           "month": "2026-06",
           "newsroom": 5,
           "universe": 13
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 9
         }
       ],
-      "total_universe": 54,
-      "universe_total": 31
+      "total_universe": 63,
+      "universe_total": 40
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:58:28.506869+00:00",
+      "as_of": "2026-07-29T23:04:19.506740+00:00",
       "edges": [
         {
+          "confidence": 0.225,
+          "description": "Co-covered in 8 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sell-off",
-          "phrase": "Bhutan is a country, not directly related to sell-off.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-12",
+          "phrase": "Co-covered in 8 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bhutan",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.163,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sell-off",
-          "phrase": "Discount is a pricing mechanism often seen during sell-offs.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "discount",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.159,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sell-off",
-          "phrase": "STRC is a token; unclear direct relation to sell-off.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "strc",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.144,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sell-off",
-          "phrase": "Tom Lee is an analyst who comments on market sell-offs.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tom-lee",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.14,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sell-off",
-          "phrase": "S&P is an index; sell-offs affect it but not direct relation.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "s-andp",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         }
       ],
@@ -170,42 +211,62 @@
         },
         {
           "center": false,
+          "confidence": 0.225,
           "name": "Bhutan",
+          "observed_at": "2026-05-12",
           "slug": "bhutan",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.163,
           "name": "Discount",
+          "observed_at": null,
           "slug": "discount",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.159,
           "name": "STRC",
+          "observed_at": null,
           "slug": "strc",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.144,
           "name": "Tom Lee",
+          "observed_at": null,
           "slug": "tom-lee",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.14,
           "name": "S&P",
+          "observed_at": null,
           "slug": "s-andp",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         }
       ],
@@ -275,16 +336,16 @@
     },
     "reader_signal": {
       "article_count": 23,
-      "as_of": "2026-07-01T11:58:31.649559+00:00",
+      "as_of": "2026-07-29T23:04:20.034656+00:00",
       "most_clicked": {
-        "clicks": 412,
+        "clicks": 417,
         "date": "2023-06-30T17:57:57.042643+00:00",
         "headline": "Celsius gains approval to sell off Altcoins for BTC and ETH beginning July 1st ",
         "lev_url": "https://leviathannews.xyz/1640/celsius-gains-approval-to-sell-off-altcoins-for-btc-and-eth-beginning-july-1st"
       },
       "provenance": "data",
-      "top_decile_share": 39,
-      "total_clicks": 1906
+      "top_decile_share": 38,
+      "total_clicks": 1982
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:24:56.694845+00:00",
@@ -369,10 +430,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:58:31.553025+00:00",
+      "as_of": "2026-07-29T23:04:20.029361+00:00",
       "items": [
         {
-          "clicks": 33,
+          "clicks": 36,
           "date": "2026-05-18T06:35:22.278243+00:00",
           "headline": "Crypto bulls suffered $563M in liquidations as macro fears triggered sharp sell-offs across bitcoin and ether, wiping out leveraged rally bets",
           "hot_score": 728.096268,
@@ -381,7 +442,7 @@
           "url": "https://www.coindesk.com/markets/2026/05/18/crypto-traders-betting-on-a-rally-lose-usd563-million-in-liquidations-ether-and-bitcoin-suffer-the-most"
         },
         {
-          "clicks": 42,
+          "clicks": 43,
           "date": "2026-06-06T09:41:57.838496+00:00",
           "headline": "Crypto sell-off data suggests traders rotated capital within digital assets rather than exiting to cash, challenging claims that SpaceX IPO demand is draining Bitcoin liquidity",
           "hot_score": 704.404377,
@@ -390,7 +451,7 @@
           "url": "https://www.coindesk.com/markets/2026/06/06/are-retail-traders-selling-their-bitcoin-to-buy-the-spacex-ipo"
         },
         {
-          "clicks": 27,
+          "clicks": 31,
           "date": "2026-06-08T08:19:53.703222+00:00",
           "headline": "Korea's KOSPI plunged over 8% to 7,400 on June 8, 2026, triggering a Level 1 circuit breaker (20-minute trading halt) amid sharp sell-off driven by US semiconductor rout, Fed rate hike fears, and heavy foreign selling of 543.4 billion won.",
           "hot_score": 699.230273,
@@ -399,7 +460,7 @@
           "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=270799"
         },
         {
-          "clicks": 29,
+          "clicks": 35,
           "date": "2026-06-19T10:57:42.124453+00:00",
           "headline": "Strive CEO calls Thursday the 'most difficult day in digital credit history' as forced leverage liquidations drove STRC and SATA selloff",
           "hot_score": 673.180045,
@@ -417,7 +478,7 @@
           "url": "https://www.theblock.co/post/403981/bitmine-adds-127000-ether-bringing-treasury-to-5-54-million-eth-as-tom-lee-calls-crypto-selloff-superficial"
         },
         {
-          "clicks": 68,
+          "clicks": 72,
           "date": "2026-03-29T15:39:16.500237+00:00",
           "headline": "TRUMP team allocation wallets deposit 5.48M TRUMP to OKX in suspected $16M sell-off",
           "hot_score": 185.612226,
@@ -426,7 +487,7 @@
           "url": "https://x.com/ai_9684xtpa/status/2038176332878893194"
         },
         {
-          "clicks": 102,
+          "clicks": 105,
           "date": "2026-02-03T20:18:54.827111+00:00",
           "headline": "AI-driven competition fears from a new Anthropic tool trigger a sharp tech-led selloff, sinking the Nasdaq about 500 points and hammering software and data stocks.",
           "hot_score": 137.112196,
@@ -435,7 +496,7 @@
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-02-03-2026"
         },
         {
-          "clicks": 75,
+          "clicks": 76,
           "date": "2026-02-01T00:16:31.985295+00:00",
           "headline": "The crypto market sell-off intensified as liquidations surged past $1.6B, driven by rising geopolitical risk, falling futures open interest, and macro uncertainty around US policy and the Fed. Analysts like Tom Lee expect continued volatility before a potential recovery later this year as valuations reset.",
           "hot_score": 80.474157,
@@ -447,7 +508,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:58:31.448740+00:00",
+      "as_of": "2026-07-29T23:04:20.018514+00:00",
       "editorial": [
         {
           "count": 6,
@@ -502,12 +563,12 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 11,
-          "source": "x.com"
+          "count": 12,
+          "source": "cointelegraph.com"
         },
         {
-          "count": 5,
-          "source": "cointelegraph.com"
+          "count": 12,
+          "source": "x.com"
         },
         {
           "count": 3,
@@ -518,7 +579,7 @@
           "source": "financefeeds.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "decrypt.co"
         },
         {
@@ -561,25 +622,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:54.628369+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.225,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0519,
-        "lift_log": 4.359,
-        "score": 0.2252,
-        "shared": 8
-      },
-      "rationale": "Bhutan is a country, not directly related to sell-off.",
-      "relation_type": "peer",
-      "slug": "bhutan",
-      "source": "cotag",
-      "tag_name": "Bhutan",
-      "title": "Bhutan, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "sell-off",
   "tag_name": "Sell-Off",

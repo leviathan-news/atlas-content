@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:13:13.966514+00:00",
+      "as_of": "2026-07-29T23:01:07.047502+00:00",
       "newsroom_total": 32,
-      "overall_share": 54,
+      "overall_share": 52,
       "provenance": "data",
       "series": [
         {
@@ -118,63 +118,98 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 1
+          "universe": 3
         }
       ],
-      "total_universe": 59,
-      "universe_total": 27
+      "total_universe": 61,
+      "universe_total": 29
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:13:13.653400+00:00",
+      "as_of": "2026-07-29T23:01:06.001951+00:00",
       "edges": [
         {
+          "confidence": 0.245,
+          "description": "Co-covered in 3 approved stories; most recently January 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "linea",
-          "phrase": "SharpLink is a cross-chain oracle built on Linea.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-01-08",
+          "phrase": "Co-covered in 3 approved stories; most recently January 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "sharplink",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.234,
+          "description": "Co-covered in 4 approved stories; most recently October 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "linea",
-          "phrase": "Linea is developed by Consensys, a blockchain software company.",
-          "relation_type": "founder",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-10-06",
+          "phrase": "Co-covered in 4 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "consensys",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.226,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "linea",
-          "phrase": "Liquidity incentives are used to attract capital to Linea's DeFi.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-31",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "liquidity-incentives",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.197,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "linea",
-          "phrase": "Yield is generated from DeFi activities on Linea.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "yield",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.181,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "linea",
-          "phrase": "Linea is an EVM-compatible zk-rollup.",
-          "relation_type": "protocol",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "evm",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         }
       ],
@@ -188,42 +223,62 @@
         },
         {
           "center": false,
+          "confidence": 0.245,
           "name": "SharpLink",
+          "observed_at": "2026-01-08",
           "slug": "sharplink",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.234,
           "name": "Consensys",
+          "observed_at": "2025-10-06",
           "slug": "consensys",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 23
-        },
-        {
-          "center": false,
-          "name": "Liquidity Incentives",
-          "slug": "liquidity-incentives",
-          "source": "published_relation",
-          "tier": "close",
-          "weight": 23
-        },
-        {
-          "center": false,
-          "name": "Yield",
-          "slug": "yield",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 23
+        },
+        {
+          "center": false,
+          "confidence": 0.226,
+          "name": "Liquidity Incentives",
+          "observed_at": "2026-03-31",
+          "slug": "liquidity-incentives",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 23
+        },
+        {
+          "center": false,
+          "confidence": 0.197,
+          "name": "Yield",
+          "observed_at": null,
+          "slug": "yield",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.181,
           "name": "EVM",
+          "observed_at": null,
           "slug": "evm",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         }
       ],
@@ -293,16 +348,16 @@
     },
     "reader_signal": {
       "article_count": 32,
-      "as_of": "2026-07-01T12:13:14.435996+00:00",
+      "as_of": "2026-07-29T23:01:07.948067+00:00",
       "most_clicked": {
-        "clicks": 174,
+        "clicks": 180,
         "date": "2024-03-12T08:10:26.235362+00:00",
         "headline": "As Ethereum L2s multiply, new layer 3 blockchain aims to stitch them together. ZkLink Nova, which launched Monday, aggregates liquidity across five layer 2 blockchains: zkSync, Linea, Arbitrum, Manta, and Mantle.",
         "lev_url": "https://leviathannews.xyz/4192/as-ethereum-l2s-multiply-new-layer-3-blockchain-aims-to-stitch-them-together-zklink-nova-which-launched-monday-aggregates-liquidity-across-five-layer-2-blockchains-zksync-linea-arb"
       },
       "provenance": "data",
       "top_decile_share": 20,
-      "total_clicks": 2156
+      "total_clicks": 2210
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:52:56.837503+00:00",
@@ -387,7 +442,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:13:14.356484+00:00",
+      "as_of": "2026-07-29T23:01:07.939943+00:00",
       "items": [
         {
           "clicks": 38,
@@ -408,7 +463,7 @@
           "url": "https://x.com/i/status/2038265142509547684"
         },
         {
-          "clicks": 90,
+          "clicks": 93,
           "date": "2026-04-02T20:19:08.752687+00:00",
           "headline": "Linea goes live across the full Uniswap stack, expanding zkEVM access with lower fees and native staking yield",
           "hot_score": 270.93036,
@@ -426,7 +481,7 @@
           "url": "https://x.com/i/status/2038641367035854875"
         },
         {
-          "clicks": 58,
+          "clicks": 60,
           "date": "2026-01-08T14:24:27.464840+00:00",
           "headline": "SharpLink Deploys $170M ETH on Linea in First-of-Its-Kind Institutional Strategy Combining Native Yield, Restaking Rewards, and Network Incentives.",
           "hot_score": 77.449696,
@@ -435,7 +490,7 @@
           "url": "https://x.com/SharpLink/status/2009264108022243671"
         },
         {
-          "clicks": 38,
+          "clicks": 39,
           "date": "2026-04-11T12:45:31.786698+00:00",
           "headline": "Linea launches “Linea Insights,” a new series showcasing its cryptography team’s work, offering deeper visibility into protocol design and technical decision-making",
           "hot_score": 70.515465,
@@ -444,7 +499,7 @@
           "url": "https://x.com/i/status/2042638909142671544"
         },
         {
-          "clicks": 46,
+          "clicks": 47,
           "date": "2026-04-03T15:46:20.940213+00:00",
           "headline": "Linea rolls out EIP-7702, enabling existing wallets to run smart contract logic with batching, gas sponsorship, and account recovery without migrating addresses - 𝕏/LineaBuild",
           "hot_score": 54.733524,
@@ -453,7 +508,7 @@
           "url": "https://x.com/i/status/2040063790977278411"
         },
         {
-          "clicks": 174,
+          "clicks": 180,
           "date": "2024-03-12T08:10:26.235362+00:00",
           "headline": "As Ethereum L2s multiply, new layer 3 blockchain aims to stitch them together. ZkLink Nova, which launched Monday, aggregates liquidity across five layer 2 blockchains: zkSync, Linea, Arbitrum, Manta, and Mantle.",
           "hot_score": 0.0,
@@ -465,7 +520,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:13:14.271035+00:00",
+      "as_of": "2026-07-29T23:01:07.924879+00:00",
       "editorial": [
         {
           "count": 16,
@@ -516,7 +571,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 23,
+          "count": 25,
           "source": "x.com"
         },
         {
@@ -553,59 +608,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:40.300086+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.234,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0309,
-        "lift_log": 4.769,
-        "score": 0.2335,
-        "shared": 4
-      },
-      "rationale": "Linea is developed by Consensys, a blockchain software company.",
-      "relation_type": "founder",
-      "slug": "consensys",
-      "source": "cotag",
-      "tag_name": "Consensys",
-      "title": "Consensys, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.226,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0323,
-        "lift_log": 4.588,
-        "score": 0.226,
-        "shared": 3
-      },
-      "rationale": "Liquidity incentives are used to attract capital to Linea's DeFi.",
-      "relation_type": "primitive",
-      "slug": "liquidity-incentives",
-      "source": "cotag",
-      "tag_name": "Liquidity Incentives",
-      "title": "Liquidity Incentives, Explained",
-      "weight": 23
-    },
-    {
-      "confidence": 0.245,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0381,
-        "lift_log": 4.955,
-        "score": 0.2454,
-        "shared": 3
-      },
-      "rationale": "SharpLink is a cross-chain oracle built on Linea.",
-      "relation_type": "ecosystem",
-      "slug": "sharplink",
-      "source": "cotag",
-      "tag_name": "SharpLink",
-      "title": "SharpLink, Explained",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "linea",
   "tag_name": "Linea",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:15:43.528876+00:00",
-      "newsroom_total": 18,
-      "overall_share": 51,
+      "as_of": "2026-07-29T23:04:21.502041+00:00",
+      "newsroom_total": 27,
+      "overall_share": 44,
       "provenance": "data",
       "series": [
         {
@@ -35,62 +35,103 @@
           "month": "2026-06",
           "newsroom": 7,
           "universe": 3
+        },
+        {
+          "ed_share": 33,
+          "month": "2026-07",
+          "newsroom": 9,
+          "universe": 18
         }
       ],
-      "total_universe": 35,
-      "universe_total": 17
+      "total_universe": 62,
+      "universe_total": 35
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:15:42.784031+00:00",
+      "as_of": "2026-07-29T23:04:21.197966+00:00",
       "edges": [
         {
+          "confidence": 0.229,
+          "description": "Co-covered in 4 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "series-a",
-          "phrase": "Series A is a type of funding round.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-17",
+          "phrase": "Co-covered in 4 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "funding",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.197,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "series-a",
-          "phrase": "Infrastructure projects often raise Series A rounds.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.194,
+          "description": "Co-covered in 15 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "series-a",
-          "phrase": "Series A is a specific type of capital raise.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 15 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "raises",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.14,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "series-a",
-          "phrase": "UK-based startups may conduct Series A rounds.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "uk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.123,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "series-a",
-          "phrase": "Treasury management can be funded via Series A.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         }
       ],
@@ -104,42 +145,62 @@
         },
         {
           "center": false,
+          "confidence": 0.229,
           "name": "Funding",
+          "observed_at": "2026-07-17",
           "slug": "funding",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.197,
           "name": "Infrastructure",
+          "observed_at": null,
           "slug": "infrastructure",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
-          "name": "raises",
+          "confidence": 0.194,
+          "name": "Raises",
+          "observed_at": null,
           "slug": "raises",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.14,
           "name": "UK",
+          "observed_at": null,
           "slug": "uk",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.123,
           "name": "Treasury",
+          "observed_at": null,
           "slug": "treasury",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         }
       ],
@@ -202,17 +263,17 @@
       "source": "https://www.galaxy.com/insights/research/crypto-blockchain-venture-capital-q4-2024"
     },
     "reader_signal": {
-      "article_count": 18,
-      "as_of": "2026-07-01T12:15:44.081804+00:00",
+      "article_count": 27,
+      "as_of": "2026-07-29T23:04:21.994350+00:00",
       "most_clicked": {
-        "clicks": 61,
+        "clicks": 62,
         "date": "2026-04-09T13:13:03.337643+00:00",
         "headline": "Oh hauls in $7.5m series A anchored by Maven 11, reaching $12m total with L1D, Auras, Hashed, Maelstrom, Cadenza and seed backers.",
         "lev_url": "https://leviathannews.xyz/224692/oh-announces-75m-series-a-bringing-total-funding-to-12m-backed-by-maven-11-with-participation-from-l1d-auras-hashed-maelstrom-and-cadenza-ventures-alongside-existing-seed-investors"
       },
       "provenance": "data",
-      "top_decile_share": 9,
-      "total_clicks": 694
+      "top_decile_share": 11,
+      "total_clicks": 1078
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:19:25.493433+00:00",
@@ -297,10 +358,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:15:44.007202+00:00",
+      "as_of": "2026-07-29T23:04:21.987991+00:00",
       "items": [
         {
-          "clicks": 41,
+          "clicks": 44,
           "date": "2026-04-08T16:57:37.396215+00:00",
           "headline": "Pharos Network raises $44M Series A backed by Sumitomo, Chainlink, and Flow Traders to build financial-grade infrastructure bridging TradFi and DeFi globally",
           "hot_score": 13116.052461,
@@ -309,7 +370,16 @@
           "url": "https://x.com/i/status/2041850490078818490"
         },
         {
-          "clicks": 61,
+          "clicks": 27,
+          "date": "2026-07-29T15:21:59.656752+00:00",
+          "headline": "Weave announces $13.5M Series A raise led by Standard Capital to get most out of every dollar spent on tokens.",
+          "hot_score": 3090.809966,
+          "lev_url": "https://leviathannews.xyz/284237/weave-announces-135m-series-a-raise-led-by-standard-capital-to-get-most-out-of-every-dollar-spent-on-tokens",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729150704_y-6l8qmtdFct.jpg",
+          "url": "https://x.com/adambcohen93/status/2082122814539334018"
+        },
+        {
+          "clicks": 62,
           "date": "2026-04-09T13:13:03.337643+00:00",
           "headline": "Oh hauls in $7.5m series A anchored by Maven 11, reaching $12m total with L1D, Auras, Hashed, Maelstrom, Cadenza and seed backers.",
           "hot_score": 2550.945656,
@@ -318,7 +388,16 @@
           "url": "https://x.com/ohdotxyz/status/2041823332148847035"
         },
         {
-          "clicks": 42,
+          "clicks": 38,
+          "date": "2026-07-01T16:27:08.176499+00:00",
+          "headline": "Venice AI raises $65M Series A at $1B valuation as Dragonfly leads first outside round",
+          "hot_score": 779.483791,
+          "lev_url": "https://leviathannews.xyz/266691/venice-ai-raises-65m-series-a-at-1b-valuation-as-dragonfly-leads-first-outside-round",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701160012_Z4zrlaiDPw==.png",
+          "url": "https://venice.ai/blog/venice-raises-65-million-series-a"
+        },
+        {
+          "clicks": 47,
           "date": "2026-06-15T14:04:24.011346+00:00",
           "headline": "Paradigm leads El Dorado's $9M Series A as the LatAm payments app scales to 100K+ users, targeting a cross-border payments market estimated at up to $1T annually",
           "hot_score": 711.497418,
@@ -327,7 +406,7 @@
           "url": "https://www.theblock.co/post/404709/paradigm-leads-9-million-round-el-dorado?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 27,
+          "clicks": 33,
           "date": "2026-06-18T06:07:09.038645+00:00",
           "headline": "Trace Finance raises $32M Series A as stablecoin payments push takes valuation 10x above seed",
           "hot_score": 682.820048,
@@ -336,7 +415,7 @@
           "url": "https://www.theblock.co/post/405104/trace-finance-funding-valuation-stablecoins-crypto"
         },
         {
-          "clicks": 24,
+          "clicks": 29,
           "date": "2026-06-18T12:02:10.577753+00:00",
           "headline": "Range raises $8.3m series A to chart unified treasury, risk and compliance across stablecoin and fiat waters",
           "hot_score": 675.917801,
@@ -345,44 +424,26 @@
           "url": "https://chainwire.org/2026/06/18/range-raises-8-3m-series-a-to-unify-treasury-risk-and-compliance-across-stablecoins-and-fiat/"
         },
         {
-          "clicks": 42,
-          "date": "2026-05-15T15:33:36.330261+00:00",
-          "headline": "Onramp raises Series A at $135M valuation led by Early Riders to expand financial platform built on multi-institution custody.",
-          "hot_score": 559.0,
-          "lev_url": "https://leviathannews.xyz/243024/onramp-raises-series-a-at-135m-valuation-led-by-early-riders-to-expand-financial-platform-built-on-multi-institution-custody",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260515150941_KGFzJ7Md0y7C.png",
-          "url": "https://onrampbitcoin.com/newsletter/onramp-raises-series-a"
-        },
-        {
-          "clicks": 28,
-          "date": "2026-04-20T22:14:19.342206+00:00",
-          "headline": "Bybit leads $8M Series A in Hata, Malaysia's dual-licensed crypto exchange with 209K users",
-          "hot_score": 485.8,
-          "lev_url": "https://leviathannews.xyz/233952/bybit-leads-8m-series-a-in-hata-malaysias-dual-licensed-crypto-exchange-with-209k-users",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260421000120_WVhPFia9gqge.jpg",
-          "url": "https://cointelegraph.com/news/bybit-leads-8m-round-in-malaysian-crypto-exchange-hata"
-        },
-        {
-          "clicks": 29,
-          "date": "2026-06-09T06:28:48.265506+00:00",
-          "headline": "Edge Markets raises $29.2 million Series A to scale banking and payment rails for prediction and gaming markets",
-          "hot_score": 428.80271,
-          "lev_url": "https://leviathannews.xyz/254596/edge-markets-raises-292-million-series-a-funding-round-with-this-funding-edge-markets-is-expanding-its-offerings-to-introduce-edge-pro-the-first-high-throughput-deposit-accounts-fo",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260609060841_QYaNZSa1MYbh.png",
-          "url": "https://edgemarkets.io/newsroom/edge-markets-raises-29.2-million-series-a-funding-round"
+          "clicks": 44,
+          "date": "2026-07-14T14:39:28.183741+00:00",
+          "headline": "Velocity raises $38M Series A led by Dragonfly and FirstMark to expand enterprise stablecoin rails",
+          "hot_score": 638.567984,
+          "lev_url": "https://leviathannews.xyz/274872/velocity-raises-38m-series-a-led-by-dragonfly-and-firstmark-to-expand-enterprise-stablecoin-rails",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260714132038_Z4zrlaiDPw==.png",
+          "url": "https://www.velocity.xyz/blog-post/series-a"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:15:43.909485+00:00",
+      "as_of": "2026-07-29T23:04:21.972711+00:00",
       "editorial": [
         {
-          "count": 4,
+          "count": 9,
           "source": "x.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "theblock.co"
         },
         {
@@ -426,12 +487,16 @@
           "source": "chainwire.org"
         }
       ],
-      "editorial_distinct": 13,
+      "editorial_distinct": 16,
       "provenance": "data",
       "universe": [
         {
-          "count": 11,
+          "count": 23,
           "source": "x.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
         },
         {
           "count": 3,
@@ -443,14 +508,26 @@
         },
         {
           "count": 1,
-          "source": "theblock.co"
+          "source": "tether.io"
         },
         {
           "count": 1,
           "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "venice.ai"
+        },
+        {
+          "count": 1,
+          "source": "techcrunch.com"
+        },
+        {
+          "count": 1,
+          "source": "t.me"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 9
     }
   },
   "official_links": [],
@@ -461,25 +538,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:54.798325+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.229,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0074,
-        "lift_log": 2.723,
-        "score": 0.2291,
-        "shared": 3
-      },
-      "rationale": "Series A is a type of funding round.",
-      "relation_type": "category",
-      "slug": "funding",
-      "source": "cotag",
-      "tag_name": "Funding",
-      "title": "Funding, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "series-a",
   "tag_name": "Series A",

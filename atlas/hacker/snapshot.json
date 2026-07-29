@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:50:29.118336+00:00",
-      "newsroom_total": 114,
-      "overall_share": 56,
+      "as_of": "2026-07-29T22:59:40.181711+00:00",
+      "newsroom_total": 116,
+      "overall_share": 53,
       "provenance": "data",
       "series": [
         {
@@ -221,62 +221,103 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 18
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 14
         }
       ],
-      "total_universe": 202,
-      "universe_total": 88
+      "total_universe": 218,
+      "universe_total": 102
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:50:28.759779+00:00",
+      "as_of": "2026-07-29T22:59:39.970433+00:00",
       "edges": [
         {
+          "confidence": 0.333,
+          "description": "Co-covered in 8 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hacker",
-          "phrase": "Common technique used by hackers to deceive victims.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-05",
+          "phrase": "Co-covered in 8 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "social-engineering",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 33
         },
         {
+          "confidence": 0.287,
+          "description": "Co-covered in 41 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hacker",
-          "phrase": "State-sponsored hacking group linked to cyberattacks.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 41 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "north-korea",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.231,
+          "description": "Co-covered in 5 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hacker",
-          "phrase": "Outcome of many hacking incidents.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-28",
+          "phrase": "Co-covered in 5 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "theft",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.215,
+          "description": "Co-covered in 6 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hacker",
-          "phrase": "Acronym for North Korea, known for hacking.",
-          "relation_type": "risk",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-10",
+          "phrase": "Co-covered in 6 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "dprk",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.198,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "hacker",
-          "phrase": "Package manager targeted by hackers for supply chain attacks.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "npm",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         }
       ],
@@ -290,42 +331,62 @@
         },
         {
           "center": false,
+          "confidence": 0.333,
           "name": "Social Engineering",
+          "observed_at": "2026-05-05",
           "slug": "social-engineering",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 33
         },
         {
           "center": false,
+          "confidence": 0.287,
           "name": "North Korea",
+          "observed_at": "2026-07-28",
           "slug": "north-korea",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.231,
           "name": "Theft",
+          "observed_at": "2026-07-28",
           "slug": "theft",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.215,
           "name": "DPRK",
+          "observed_at": "2026-06-10",
           "slug": "dprk",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.198,
           "name": "npm",
+          "observed_at": null,
           "slug": "npm",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         }
       ],
@@ -394,17 +455,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 114,
-      "as_of": "2026-07-01T11:50:29.803432+00:00",
+      "article_count": 116,
+      "as_of": "2026-07-29T22:59:40.448516+00:00",
       "most_clicked": {
-        "clicks": 387,
+        "clicks": 396,
         "date": "2023-09-30T19:10:45.988799+00:00",
         "headline": "FTX hacker wallet moves $4 million after nearly a year of inactivity ",
         "lev_url": "https://leviathannews.xyz/2813/ftx-hacker-wallet-moves-4-million-after-nearly-a-year-of-inactivity"
       },
       "provenance": "data",
       "top_decile_share": 32,
-      "total_clicks": 9811
+      "total_clicks": 10008
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:15:25.312608+00:00",
@@ -489,7 +550,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:50:29.689301+00:00",
+      "as_of": "2026-07-29T22:59:40.438774+00:00",
       "items": [
         {
           "clicks": 48,
@@ -501,7 +562,7 @@
           "url": "https://www.theblock.co/post/401280/unfair-game-certik-ceo-defi-attackers-using-ai-outspend-defenders"
         },
         {
-          "clicks": 57,
+          "clicks": 60,
           "date": "2026-05-11T06:54:17.203308+00:00",
           "headline": "Whitehat hacker returns $190K out for $209K to Renegade protocol after exploiting flawed Arbitrum dark pool contract, keeping 10% bounty to avoid legal action",
           "hot_score": 758.442072,
@@ -510,7 +571,7 @@
           "url": "https://cointelegraph.com/news/whitehat-returns-190k-renegade-hours-after-hacking-the-protocol"
         },
         {
-          "clicks": 33,
+          "clicks": 35,
           "date": "2026-04-20T05:18:26.745568+00:00",
           "headline": "OneKey's Yishi on KelpDAO hack: 10-15% hacker bounty, LayerZero fund, Aave backstop — don't cut WETH depositors",
           "hot_score": 750.442594,
@@ -519,7 +580,7 @@
           "url": "https://x.com/ohyishi/status/2046028695161409863"
         },
         {
-          "clicks": 54,
+          "clicks": 57,
           "date": "2026-05-29T12:05:49.020694+00:00",
           "headline": "Researchers uncover how hackers used over 34 fake npm, PyPI and Rust packages in “TrapDoor” attack targeting Solana, Sui and Aptos developers to steal wallets and cloud credentials",
           "hot_score": 722.888199,
@@ -528,7 +589,7 @@
           "url": "https://www.coindesk.com/tech/2026/05/29/solana-sui-and-aptos-wallet-data-targeted-in-trapdoor-package-attack"
         },
         {
-          "clicks": 45,
+          "clicks": 48,
           "date": "2026-06-10T07:56:00.920953+00:00",
           "headline": "Chainalysis signs KNPA deal to train Korean police after DPRK hackers stole over $2B in 2025",
           "hot_score": 711.278563,
@@ -537,7 +598,16 @@
           "url": "https://www.chainalysis.com/blog/chainalysis-and-the-korean-national-police-agency-knpa-sign-mou-to-strengthen-virtual-asset-investigation-capabilities/"
         },
         {
-          "clicks": 26,
+          "clicks": 43,
+          "date": "2026-07-22T11:21:06.536790+00:00",
+          "headline": "Cardano wallet provider SecondFi will shut down after hackers stole $2.4M in ADA by exploiting a transaction-signing flaw that exposed users' private keys",
+          "hot_score": 708.305421,
+          "lev_url": "https://leviathannews.xyz/279905/secondfi-to-shut-down-after-24-million-ada-wallet-theft-20260722",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260722111304_Jv9HcZ1fwk6p.jpg",
+          "url": "https://www.coindesk.com/web3/2026/07/22/secondfi-to-shut-down-after-usd2-4-million-ada-wallet-theft"
+        },
+        {
+          "clicks": 29,
           "date": "2026-06-24T06:36:04.310560+00:00",
           "headline": "SecondFi losses may exceed $20M as SlowMist founder flags 129M ADA tied to suspected hacker wallets",
           "hot_score": 560.364344,
@@ -546,39 +616,30 @@
           "url": "https://x.com/evilcos/status/2069586691535655276"
         },
         {
-          "clicks": 94,
+          "clicks": 96,
           "date": "2026-03-17T09:07:30.341362+00:00",
           "headline": "Hackers hide malware in GitHub, npm, and VS Code packages using invisible Unicode so supply‑chain attacks bypass human review and common defenses.",
           "hot_score": 541.610225,
           "lev_url": "https://leviathannews.xyz/210757/hackers-hide-malware-in-github-npm-and-vs-code-packages-using-invisible-unicode-so-supplychain-attacks-bypass-human-review-and-common-defenses",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260317090610_zjG-WuqPnm7E.jpg",
           "url": "https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/"
-        },
-        {
-          "clicks": 33,
-          "date": "2026-05-27T09:06:53.049598+00:00",
-          "headline": "THORChain nodes approve ADR028 recovery plan, activating hacker bounty as v3.19.0 heads to stagenet",
-          "hot_score": 446.316441,
-          "lev_url": "https://leviathannews.xyz/248897/thorchain-nodes-approve-adr028-recovery-plan-activating-hacker-bounty-as-v3190-heads-to-stagenet",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260527090129_Z4zrlaiDPw==.png",
-          "url": "https://x.com/thorchain/status/2059524888243646942"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:50:29.604878+00:00",
+      "as_of": "2026-07-29T22:59:40.424472+00:00",
       "editorial": [
         {
           "count": 43,
           "source": "x.com"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "coindesk.com"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "theblock.co"
         },
         {
@@ -622,19 +683,19 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 37,
+          "count": 42,
           "source": "x.com"
         },
         {
-          "count": 17,
+          "count": 19,
           "source": "decrypt.co"
         },
         {
-          "count": 12,
+          "count": 15,
           "source": "cointelegraph.com"
         },
         {
-          "count": 6,
+          "count": 8,
           "source": "coindesk.com"
         },
         {
@@ -642,7 +703,7 @@
           "source": "dlnews.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "financefeeds.com"
         },
         {
@@ -664,9 +725,13 @@
         {
           "count": 1,
           "source": "eznewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "crowdfundinsider.com"
         }
       ],
-      "universe_distinct": 11
+      "universe_distinct": 12
     }
   },
   "official_links": [],
@@ -677,76 +742,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:34.855440+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.215,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0349,
-        "lift_log": 4.319,
-        "score": 0.2153,
-        "shared": 6
-      },
-      "rationale": "Acronym for North Korea, known for hacking.",
-      "relation_type": "risk",
-      "slug": "dprk",
-      "source": "cotag",
-      "tag_name": "DPRK",
-      "title": "DPRK, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.287,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.1416,
-        "lift_log": 4.729,
-        "score": 0.2866,
-        "shared": 38
-      },
-      "rationale": "State-sponsored hacking group linked to cyberattacks.",
-      "relation_type": "risk",
-      "slug": "north-korea",
-      "source": "cotag",
-      "tag_name": "North Korea",
-      "title": "North Korea, Explained",
-      "weight": 29
-    },
-    {
-      "confidence": 0.333,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.045,
-        "lift_log": 4.591,
-        "score": 0.3326,
-        "shared": 8
-      },
-      "rationale": "Common technique used by hackers to deceive victims.",
-      "relation_type": "primitive",
-      "slug": "social-engineering",
-      "source": "cotag",
-      "tag_name": "Social Engineering",
-      "title": "Social Engineering, Explained",
-      "weight": 33
-    },
-    {
-      "confidence": 0.231,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.007,
-        "lift_log": 2.784,
-        "score": 0.2314,
-        "shared": 3
-      },
-      "rationale": "Outcome of many hacking incidents.",
-      "relation_type": "risk",
-      "slug": "theft",
-      "source": "cotag",
-      "tag_name": "Theft",
-      "title": "Theft, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "hacker",
   "tag_name": "Hacker",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:07:08.775355+00:00",
-      "newsroom_total": 28,
-      "overall_share": 51,
+      "as_of": "2026-07-29T22:56:19.495767+00:00",
+      "newsroom_total": 31,
+      "overall_share": 48,
       "provenance": "data",
       "series": [
         {
@@ -85,66 +85,101 @@
           "universe": 4
         },
         {
-          "ed_share": null,
+          "ed_share": 40,
           "month": "2026-07",
-          "newsroom": 1,
-          "universe": 0
+          "newsroom": 4,
+          "universe": 6
         }
       ],
-      "total_universe": 55,
-      "universe_total": 27
+      "total_universe": 64,
+      "universe_total": 33
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:07:08.229485+00:00",
+      "as_of": "2026-07-29T22:56:19.275010+00:00",
       "edges": [
         {
+          "confidence": 0.222,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "automation",
-          "phrase": "Both automation and agents involve automated processes, but agents are a specific implementation.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.205,
+          "description": "Co-covered in 19 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "automation",
-          "phrase": "AI agents are a subset of automation, focusing on intelligent decision-making.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-14",
+          "phrase": "Co-covered in 19 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ai-agents",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.125,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "automation",
-          "phrase": "Anthropic develops AI systems that drive automation narratives.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "anthropic",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         },
         {
+          "confidence": 0.125,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "automation",
-          "phrase": "Chainlink provides oracles that enable automated smart contracts.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "chainlink",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 12
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "automation",
+          "observed_at": null,
           "phrase": "infrastructure",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "infrastructure",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -158,42 +193,62 @@
         },
         {
           "center": false,
+          "confidence": 0.222,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.205,
           "name": "AI Agents",
+          "observed_at": "2026-07-14",
           "slug": "ai-agents",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.125,
           "name": "Anthropic",
+          "observed_at": null,
           "slug": "anthropic",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         },
         {
           "center": false,
+          "confidence": 0.125,
           "name": "Chainlink",
+          "observed_at": null,
           "slug": "chainlink",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 12
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Infrastructure",
+          "observed_at": null,
           "slug": "infrastructure",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -238,17 +293,17 @@
       "source": "https://www.cryptohopper.com"
     },
     "reader_signal": {
-      "article_count": 28,
-      "as_of": "2026-07-01T12:07:09.567553+00:00",
+      "article_count": 31,
+      "as_of": "2026-07-29T22:56:19.839801+00:00",
       "most_clicked": {
-        "clicks": 129,
+        "clicks": 136,
         "date": "2026-02-13T23:15:33.222852+00:00",
         "headline": "The new AI that outperforms Clawdbot, offering safer, cheaper agentic automation with zero setup and powerful real-world workflows.",
         "lev_url": "https://leviathannews.xyz/27811/the-new-ai-that-outperforms-clawdbot-offering-safer-cheaper-agentic-automation-with-zero-setup-and-powerful-real-world-workflows"
       },
       "provenance": "data",
-      "top_decile_share": 14,
-      "total_clicks": 1523
+      "top_decile_share": 19,
+      "total_clicks": 1686
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:35:53.937819+00:00",
@@ -327,19 +382,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:07:09.472306+00:00",
+      "as_of": "2026-07-29T22:56:19.835074+00:00",
       "items": [
         {
-          "clicks": 20,
-          "date": "2026-07-01T08:58:15.702618+00:00",
-          "headline": "Base says AI agents are already spending millions via x402, paying for search, scraping, browser automation, and data services to complete tasks autonomously",
-          "hot_score": 4082.453157,
-          "lev_url": "https://leviathannews.xyz/266229/written-by-must_be_ash-youve-heard-the-slogans-the-agentic-economy-is-here-and-agents-are-becoming-the-internets-newest-paying-customers-they-sound-big-but-they-skip-the",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701085522_-7amVVgj-0Vq.jpg",
-          "url": "https://x.com/base/status/2072209466058064327"
-        },
-        {
-          "clicks": 33,
+          "clicks": 34,
           "date": "2026-04-16T22:52:57.734747+00:00",
           "headline": "Blocmates questions whether crypto’s “human layer” is fading as automation, bots, and AI reshape participation, culture, and decision-making across Web3 ecosystems",
           "hot_score": 3771.960907,
@@ -348,13 +394,22 @@
           "url": "https://x.com/i/status/2044731211248288165"
         },
         {
-          "clicks": 60,
+          "clicks": 61,
           "date": "2026-04-17T11:34:15.925574+00:00",
           "headline": "DWF Ventures explores whether AI agents will take over DeFi, highlighting automation, on-chain execution, and the shift toward autonomous financial decision-making",
           "hot_score": 2466.18846,
           "lev_url": "https://leviathannews.xyz/231201/dwf-ventures-explores-whether-ai-agents-will-take-over-defi-highlighting-automation-on-chain-execution-and-the-shift-toward-autonomous-financial-decision-making",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417053814_JZPEGikpu1JV.jpg",
           "url": "https://x.com/i/status/2044762919997722936"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-07-01T08:58:15.702618+00:00",
+          "headline": "Base says AI agents are already spending millions via x402, paying for search, scraping, browser automation, and data services to complete tasks autonomously",
+          "hot_score": 788.056303,
+          "lev_url": "https://leviathannews.xyz/266229/written-by-must_be_ash-youve-heard-the-slogans-the-agentic-economy-is-here-and-agents-are-becoming-the-internets-newest-paying-customers-they-sound-big-but-they-skip-the",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701085522_-7amVVgj-0Vq.jpg",
+          "url": "https://x.com/base/status/2072209466058064327"
         },
         {
           "clicks": 39,
@@ -366,7 +421,7 @@
           "url": "https://x.com/i/status/2046693450565955694"
         },
         {
-          "clicks": 71,
+          "clicks": 72,
           "date": "2026-05-11T07:12:26.804711+00:00",
           "headline": "CoinGecko unveils guide linking its market data APIs with OpenClaw AI agents for real-time crypto monitoring, automation and custom trading workflows",
           "hot_score": 766.90602,
@@ -375,7 +430,16 @@
           "url": "https://x.com/coingecko/status/2053580909102985510"
         },
         {
-          "clicks": 67,
+          "clicks": 41,
+          "date": "2026-07-15T08:10:15.999087+00:00",
+          "headline": "Uniswap adds DCA, index rebalancing, and copy-trading automation to its AI toolkit",
+          "hot_score": 439.721516,
+          "lev_url": "https://leviathannews.xyz/275175/uniswap-adds-dca-index-rebalancing-and-copy-trading-automation-to-its-ai-toolkit",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260714184429_Z4zrlaiDPw==.png",
+          "url": "https://blog.uniswap.org/introducing-uniswap-trading-tools"
+        },
+        {
+          "clicks": 71,
           "date": "2026-03-04T02:12:40.906773+00:00",
           "headline": "AI-driven reshoring and automation may shrink foreign dollar recycling and passive income flows, raising questions about the next marginal equity buyer",
           "hot_score": 389.732288,
@@ -391,24 +455,15 @@
           "lev_url": "https://leviathannews.xyz/219039/aave-deepens-chainlink-integration-to-automate-dao-governance-across-18-chains-leveraging-automation-and-cre-to-enable-secure-scalable-multi-chain-workflows",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401070145_zms-DSKkIeLH.jpg",
           "url": "https://x.com/i/status/2039000395016495457"
-        },
-        {
-          "clicks": 129,
-          "date": "2026-02-13T23:15:33.222852+00:00",
-          "headline": "The new AI that outperforms Clawdbot, offering safer, cheaper agentic automation with zero setup and powerful real-world workflows.",
-          "hot_score": 168.209602,
-          "lev_url": "https://leviathannews.xyz/27811/the-new-ai-that-outperforms-clawdbot-offering-safer-cheaper-agentic-automation-with-zero-setup-and-powerful-real-world-workflows",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260213225139_mEn1jW3Jdeg=.jpg",
-          "url": "https://x.com/i/status/2022205999478952000"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:07:09.369042+00:00",
+      "as_of": "2026-07-29T22:56:19.822599+00:00",
       "editorial": [
         {
-          "count": 18,
+          "count": 20,
           "source": "x.com"
         },
         {
@@ -442,13 +497,17 @@
         {
           "count": 1,
           "source": "businesswire.com"
+        },
+        {
+          "count": 1,
+          "source": "blog.uniswap.org"
         }
       ],
-      "editorial_distinct": 9,
+      "editorial_distinct": 10,
       "provenance": "data",
       "universe": [
         {
-          "count": 22,
+          "count": 27,
           "source": "x.com"
         },
         {
@@ -470,9 +529,13 @@
         {
           "count": 1,
           "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "circle.com"
         }
       ],
-      "universe_distinct": 6
+      "universe_distinct": 7
     }
   },
   "official_links": [],
@@ -483,42 +546,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:17.460703+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.222,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0112,
-        "lift_log": 2.51,
-        "score": 0.2216,
-        "shared": 6
-      },
-      "rationale": "Both automation and agents involve automated processes, but agents are a specific implementation.",
-      "relation_type": "peer",
-      "slug": "agents",
-      "source": "cotag",
-      "tag_name": "agents",
-      "title": "agents, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.205,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0084,
-        "lift_log": 2.16,
-        "score": 0.205,
-        "shared": 11
-      },
-      "rationale": "AI agents are a subset of automation, focusing on intelligent decision-making.",
-      "relation_type": "peer",
-      "slug": "ai-agents",
-      "source": "cotag",
-      "tag_name": "AI Agents",
-      "title": "AI Agents, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "automation",
   "tag_name": "Automation",

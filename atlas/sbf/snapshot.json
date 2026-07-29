@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:07:14.651882+00:00",
+      "as_of": "2026-07-29T23:04:07.648580+00:00",
       "newsroom_total": 38,
-      "overall_share": 70,
+      "overall_share": 69,
       "provenance": "data",
       "series": [
         {
@@ -125,62 +125,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 1
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 1
         }
       ],
-      "total_universe": 54,
-      "universe_total": 16
+      "total_universe": 55,
+      "universe_total": 17
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:07:14.171196+00:00",
+      "as_of": "2026-07-29T23:04:07.409802+00:00",
       "edges": [
         {
+          "confidence": 0.358,
+          "description": "Co-covered in 12 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sbf",
-          "phrase": "SBF was sentenced to prison after his fraud conviction.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-17",
+          "phrase": "Co-covered in 12 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "prison",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 36
         },
         {
+          "confidence": 0.271,
+          "description": "Co-covered in 17 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sbf",
-          "phrase": "SBF founded and was CEO of FTX exchange.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-17",
+          "phrase": "Co-covered in 17 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "ftx",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 27
         },
         {
+          "confidence": 0.205,
+          "description": "Co-covered in 4 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sbf",
-          "phrase": "SBF's criminal trial concluded with a guilty verdict.",
-          "relation_type": "event",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-12",
+          "phrase": "Co-covered in 4 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "trial",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.194,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sbf",
-          "phrase": "CZ is a rival exchange founder also facing legal issues.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "cz",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.139,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sbf",
-          "phrase": "SBF was a major political donor influencing policy.",
-          "relation_type": "influence",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "white-house",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         }
       ],
@@ -194,42 +235,62 @@
         },
         {
           "center": false,
+          "confidence": 0.358,
           "name": "prison",
+          "observed_at": "2026-06-17",
           "slug": "prison",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 36
         },
         {
           "center": false,
+          "confidence": 0.271,
           "name": "FTX",
+          "observed_at": "2026-06-17",
           "slug": "ftx",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 27
         },
         {
           "center": false,
+          "confidence": 0.205,
           "name": "Trial",
+          "observed_at": "2026-03-12",
           "slug": "trial",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.194,
           "name": "CZ",
+          "observed_at": null,
           "slug": "cz",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.139,
           "name": "White House",
+          "observed_at": null,
           "slug": "white-house",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         }
       ],
@@ -299,16 +360,16 @@
     },
     "reader_signal": {
       "article_count": 38,
-      "as_of": "2026-07-01T12:07:15.289121+00:00",
+      "as_of": "2026-07-29T23:04:07.894325+00:00",
       "most_clicked": {
-        "clicks": 874,
+        "clicks": 877,
         "date": "2024-09-25T05:11:08.470271+00:00",
         "headline": "SBF and Sean (P-Diddy) Combs share dormitory-style cell in Brooklyn detention center.",
         "lev_url": "https://leviathannews.xyz/7110/sbf-and-sean-p-diddy-combs-share-dormitory-style-cell-in-brooklyn-detention-center"
       },
       "provenance": "data",
       "top_decile_share": 37,
-      "total_clicks": 4508
+      "total_clicks": 4551
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:15:01.728974+00:00",
@@ -387,7 +448,7 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:07:15.209459+00:00",
+      "as_of": "2026-07-29T23:04:07.889983+00:00",
       "items": [
         {
           "clicks": 143,
@@ -399,7 +460,7 @@
           "url": "https://www.coindesk.com/business/2026/04/07/cz-says-sbf-asked-for-billions-like-a-bologna-sandwich-as-ftx-collapsed"
         },
         {
-          "clicks": 46,
+          "clicks": 50,
           "date": "2026-05-29T17:35:12.799393+00:00",
           "headline": "Ex-Celsius CEO Mashinsky files pro se motion to vacate 12-year fraud sentence, blames SBF for CEL manipulation",
           "hot_score": 450.422642,
@@ -408,7 +469,7 @@
           "url": "https://cointelegraph.com/news/celsius-alex-mashinsky-motion-vacate-sentence"
         },
         {
-          "clicks": 161,
+          "clicks": 164,
           "date": "2026-03-21T17:57:24.189154+00:00",
           "headline": "SBF's Mom Speaks Out on Potential Trump Pardon",
           "hot_score": 219.944262,
@@ -417,7 +478,7 @@
           "url": "https://x.com/coinage_media/status/2035406226364768302"
         },
         {
-          "clicks": 120,
+          "clicks": 124,
           "date": "2026-03-15T00:20:47.102060+00:00",
           "headline": "As slick as ever, SBF oils up President Donald Trump",
           "hot_score": 196.887279,
@@ -426,7 +487,7 @@
           "url": "https://x.com/SBF_FTX/status/2032685330537787689"
         },
         {
-          "clicks": 61,
+          "clicks": 63,
           "date": "2026-02-27T09:42:41.701798+00:00",
           "headline": "Senator Lummis torches SBF, blasting the pardon‑seeker by warning her Clarity Act would lock him up longer than 25 years and slamming his failed 2022 bid to buy a softer crypto bill.",
           "hot_score": 144.792927,
@@ -435,7 +496,7 @@
           "url": "https://x.com/SenLummis/status/2027034522517184633"
         },
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2026-02-10T11:01:56.303163+00:00",
           "headline": "SBF claims FTX was never truly bankrupt and alleges company lawyers staged a bogus bankruptcy filing to enrich themselves.",
           "hot_score": 49.976752,
@@ -444,7 +505,7 @@
           "url": "https://x.com/SBF_FTX/status/2021165548306907339"
         },
         {
-          "clicks": 46,
+          "clicks": 48,
           "date": "2026-02-19T15:03:36.105927+00:00",
           "headline": "SBF claims in his latest X post that a new Second Circuit ruling overturning a conviction for wrongly excluding intent evidence bolsters his own appeal, arguing Judge Kaplan likewise blocked his testimony and key evidence about FTX’s business practices.",
           "hot_score": 40.01095,
@@ -453,7 +514,7 @@
           "url": "https://x.com/SBF_FTX/status/2024472689725850004"
         },
         {
-          "clicks": 874,
+          "clicks": 877,
           "date": "2024-09-25T05:11:08.470271+00:00",
           "headline": "SBF and Sean (P-Diddy) Combs share dormitory-style cell in Brooklyn detention center.",
           "hot_score": 0.0,
@@ -465,7 +526,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:07:15.124816+00:00",
+      "as_of": "2026-07-29T23:04:07.879272+00:00",
       "editorial": [
         {
           "count": 19,
@@ -524,16 +585,16 @@
           "source": "x.com"
         },
         {
+          "count": 2,
+          "source": "cointelegraph.com"
+        },
+        {
           "count": 1,
           "source": "theblock.co"
         },
         {
           "count": 1,
           "source": "dlnews.com"
-        },
-        {
-          "count": 1,
-          "source": "cointelegraph.com"
         },
         {
           "count": 1,
@@ -551,59 +612,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:53.438155+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.271,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0857,
-        "lift_log": 5.006,
-        "score": 0.2709,
-        "shared": 17
-      },
-      "rationale": "SBF founded and was CEO of FTX exchange.",
-      "relation_type": "product",
-      "slug": "ftx",
-      "source": "cotag",
-      "tag_name": "FTX",
-      "title": "FTX, Explained",
-      "weight": 27
-    },
-    {
-      "confidence": 0.358,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0692,
-        "lift_log": 4.912,
-        "score": 0.3584,
-        "shared": 12
-      },
-      "rationale": "SBF was sentenced to prison after his fraud conviction.",
-      "relation_type": "event",
-      "slug": "prison",
-      "source": "cotag",
-      "tag_name": "prison",
-      "title": "prison, Explained",
-      "weight": 36
-    },
-    {
-      "confidence": 0.205,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.027,
-        "lift_log": 4.187,
-        "score": 0.2052,
-        "shared": 4
-      },
-      "rationale": "SBF's criminal trial concluded with a guilty verdict.",
-      "relation_type": "event",
-      "slug": "trial",
-      "source": "cotag",
-      "tag_name": "Trial",
-      "title": "Trial, Explained",
-      "weight": 21
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "sbf",
   "tag_name": "SBF",

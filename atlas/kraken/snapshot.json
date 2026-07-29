@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:45:25.751192+00:00",
-      "newsroom_total": 152,
-      "overall_share": 41,
+      "as_of": "2026-07-29T23:00:29.451858+00:00",
+      "newsroom_total": 164,
+      "overall_share": 37,
       "provenance": "data",
       "series": [
         {
@@ -221,62 +221,103 @@
           "month": "2026-06",
           "newsroom": 20,
           "universe": 61
+        },
+        {
+          "ed_share": 19,
+          "month": "2026-07",
+          "newsroom": 12,
+          "universe": 52
         }
       ],
-      "total_universe": 374,
-      "universe_total": 222
+      "total_universe": 438,
+      "universe_total": 274
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:45:22.832149+00:00",
+      "as_of": "2026-07-29T23:00:29.149479+00:00",
       "edges": [
         {
+          "confidence": 0.24,
+          "description": "Co-covered in 6 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "kraken",
-          "phrase": "Kraken offers equities trading alongside crypto.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-22",
+          "phrase": "Co-covered in 6 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "equities",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 24
         },
         {
+          "confidence": 0.213,
+          "description": "Co-covered in 9 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "kraken",
-          "phrase": "Kraken provides derivatives trading services.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-19",
+          "phrase": "Co-covered in 9 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "derivatives",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.168,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "kraken",
-          "phrase": "Kraken offers banking-like services such as custody.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "banking",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.154,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "kraken",
-          "phrase": "Fed policies impact Kraken's regulatory environment.",
-          "relation_type": "risk",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "federal-reserve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.153,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "kraken",
-          "phrase": "Unclear relation; cautious peer assignment.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "superchain",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         }
       ],
@@ -290,42 +331,62 @@
         },
         {
           "center": false,
+          "confidence": 0.24,
           "name": "Equities",
+          "observed_at": "2026-07-22",
           "slug": "equities",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 24
         },
         {
           "center": false,
+          "confidence": 0.213,
           "name": "Derivatives",
+          "observed_at": "2026-07-19",
           "slug": "derivatives",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.168,
           "name": "Banking",
+          "observed_at": null,
           "slug": "banking",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.154,
           "name": "Federal Reserve",
+          "observed_at": null,
           "slug": "federal-reserve",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.153,
           "name": "Superchain",
+          "observed_at": null,
           "slug": "superchain",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         }
       ],
@@ -394,17 +455,17 @@
       "source": "https://www.kraken.com"
     },
     "reader_signal": {
-      "article_count": 152,
-      "as_of": "2026-07-01T11:45:28.740027+00:00",
+      "article_count": 164,
+      "as_of": "2026-07-29T23:00:29.796668+00:00",
       "most_clicked": {
-        "clicks": 3193,
+        "clicks": 3197,
         "date": "2025-10-21T11:14:55.756734+00:00",
         "headline": "Kraken data shows Australians favor Ethereum, Solana, and meme coins like WIF, PEPE, and BONK, reflecting a cultural “speculative streak” and playful approach to crypto beyond Bitcoin.",
         "lev_url": "https://leviathannews.xyz/19070/kraken-data-shows-australians-favor-ethereum-solana-and-meme-coins-like-wif-pepe-and-bonk-reflecting-a-cultural-speculative-streak-and-playful-approach-to-crypto-beyond-bitcoin"
       },
       "provenance": "data",
-      "top_decile_share": 46,
-      "total_clicks": 13982
+      "top_decile_share": 45,
+      "total_clicks": 14668
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:57:23.658180+00:00",
@@ -489,10 +550,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:45:28.578522+00:00",
+      "as_of": "2026-07-29T23:00:29.788442+00:00",
       "items": [
         {
-          "clicks": 63,
+          "clicks": 66,
           "date": "2026-04-10T17:06:13.208860+00:00",
           "headline": "Kraken wins first-ever crypto Fed master account as banks and lawmakers sound alarm over systemic risk",
           "hot_score": 39426.769643,
@@ -501,7 +562,7 @@
           "url": "https://financefeeds.com/us-banks-warn-of-risks-after-kraken-wins-federal-reserve-account/"
         },
         {
-          "clicks": 49,
+          "clicks": 51,
           "date": "2026-04-10T17:05:37.676220+00:00",
           "headline": "Kraken opens spot trading for Quai Network, merged-mined PoW chain claiming 50,000+ TPS",
           "hot_score": 33143.385781,
@@ -510,7 +571,7 @@
           "url": "https://blog.kraken.com/product/asset-listings/quai-is-available-for-trading"
         },
         {
-          "clicks": 49,
+          "clicks": 51,
           "date": "2026-04-13T17:36:46.861382+00:00",
           "headline": "Kraken unveils Ink Points with Season 1 rollout, marking major shift toward gamified trading and long-term user retention strategy",
           "hot_score": 7252.465056,
@@ -519,7 +580,7 @@
           "url": "https://x.com/i/status/2043719770428633379"
         },
         {
-          "clicks": 33,
+          "clicks": 45,
           "date": "2026-04-14T14:15:11.294657+00:00",
           "headline": "Deutsche Börse takes $200M stake in Kraken at $13.3B valuation, 33% below prior round",
           "hot_score": 4181.026955,
@@ -528,7 +589,7 @@
           "url": "https://www.bloomberg.com/news/articles/2026-04-14/deutsche-borse-takes-200-million-stake-in-crypto-exchange-kraken"
         },
         {
-          "clicks": 42,
+          "clicks": 43,
           "date": "2026-04-13T17:35:55.385618+00:00",
           "headline": "Kraken says no systems breached and client funds safe after extortion attempt",
           "hot_score": 3973.647178,
@@ -537,52 +598,52 @@
           "url": "https://www.coindesk.com/business/2026/04/13/crypto-exchange-kraken-targeted-in-extortion-attempt-but-says-there-was-no-breach-and-no-client-funds-at-risk"
         },
         {
-          "clicks": 12,
-          "date": "2026-06-30T09:57:49.686412+00:00",
-          "headline": "Kraken Prime integrates with Trever, giving European banks and brokers access to 20+ venues and qualified custody",
-          "hot_score": 3190.324846,
-          "lev_url": "https://leviathannews.xyz/265340/kraken-prime-integrates-with-trever-giving-european-banks-and-brokers-access-to-20-venues-and-qualified-custody",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630095147_Z4zrlaiDPw==.png",
-          "url": "https://blog.kraken.com/product/kraken-prime/trever-european-financial-institutions"
+          "clicks": 35,
+          "date": "2026-07-27T14:16:38.773766+00:00",
+          "headline": "Kraken parent Payward agrees to buy Magic Labs' embedded wallet unit, which created over 60 million wallets",
+          "hot_score": 2001.739594,
+          "lev_url": "https://leviathannews.xyz/282543/kraken-parent-payward-agrees-to-buy-magic-labs-embedded-wallet-unit-which-created-over-60-million-wallets",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727133334_XWevAE5xJ9TU.jpg",
+          "url": "https://www.theblock.co/post/409705/kraken-parent-payward-acquires-magic-labs-embedded-wallet-business"
         },
         {
-          "clicks": 68,
-          "date": "2026-05-06T07:14:00.099620+00:00",
-          "headline": "Kraken says it’s “80% ready” for IPO as it partners with MoneyGram to bridge crypto-to-cash gap, targeting last-mile access and mainstream digital asset adoption",
-          "hot_score": 1040.177968,
-          "lev_url": "https://leviathannews.xyz/238125/kraken-says-its-80-ready-for-ipo-as-it-partners-with-moneygram-to-bridge-crypto-to-cash-gap-targeting-last-mile-access-and-mainstream-digital-asset-adoption",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260506000538_6aBq1WJDa0V_.jpg",
-          "url": "https://www.coindesk.com/business/2026/05/05/kraken-eyes-ipo-as-it-partners-with-moneygram-to-bridge-crypto-to-cash-gap"
+          "clicks": 36,
+          "date": "2026-07-28T16:53:14.992255+00:00",
+          "headline": "Kraken offers Jersey Mike’s IPO to retail, pairing U.S. allocations with 1:1-backed xStocks in 110+ countries",
+          "hot_score": 1731.493254,
+          "lev_url": "https://leviathannews.xyz/283518/kraken-offers-jersey-mikes-ipo-to-retail-pairing-us-allocations-with-11-backed-xstocks-in-110-countries",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728163920_Z4zrlaiDPw==.png",
+          "url": "https://cointelegraph.com/news/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations"
         },
         {
-          "clicks": 28,
-          "date": "2026-06-27T02:41:27.128256+00:00",
-          "headline": "Kraken opens Bending Spoons IPO access to eligible users via xStocks with 24/5 trading.",
-          "hot_score": 1013.701295,
-          "lev_url": "https://leviathannews.xyz/263806/kraken-opens-bending-spoons-ipo-interest-to-eligible-users-via-xstocks-with-bspx-set-to-trade-245",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626235155_Z4zrlaiDPw==.png",
-          "url": "https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available"
+          "clicks": 26,
+          "date": "2026-07-28T15:08:43.861478+00:00",
+          "headline": "Kraken adds native USDC deposits and withdrawals on Injective, eliminating extra crosschain hop",
+          "hot_score": 1642.613698,
+          "lev_url": "https://leviathannews.xyz/283374/kraken-adds-native-usdc-deposits-and-withdrawals-on-injective-eliminating-extra-crosschain-hop",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728141457_Z4zrlaiDPw==.png",
+          "url": "https://injective.com/blog/kraken-native-usdc"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:45:28.360292+00:00",
+      "as_of": "2026-07-29T23:00:29.766543+00:00",
       "editorial": [
         {
-          "count": 41,
+          "count": 44,
           "source": "x.com"
         },
         {
-          "count": 22,
+          "count": 24,
           "source": "coindesk.com"
         },
         {
-          "count": 19,
+          "count": 22,
           "source": "blog.kraken.com"
         },
         {
-          "count": 18,
+          "count": 19,
           "source": "theblock.co"
         },
         {
@@ -594,7 +655,7 @@
           "source": "archive.ph"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "cointelegraph.com"
         },
         {
@@ -618,35 +679,35 @@
           "source": "businesswire.com"
         }
       ],
-      "editorial_distinct": 38,
+      "editorial_distinct": 40,
       "provenance": "data",
       "universe": [
         {
-          "count": 65,
+          "count": 91,
           "source": "x.com"
         },
         {
-          "count": 27,
+          "count": 33,
           "source": "cointelegraph.com"
         },
         {
-          "count": 27,
+          "count": 31,
           "source": "decrypt.co"
         },
         {
-          "count": 18,
+          "count": 21,
+          "source": "theblock.co"
+        },
+        {
+          "count": 21,
           "source": "coindesk.com"
         },
         {
           "count": 16,
-          "source": "theblock.co"
-        },
-        {
-          "count": 14,
           "source": "financefeeds.com"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "crowdfundinsider.com"
         },
         {
@@ -659,18 +720,18 @@
         },
         {
           "count": 4,
+          "source": "news.bloomberglaw.com"
+        },
+        {
+          "count": 4,
           "source": "dlnews.com"
         },
         {
           "count": 4,
           "source": "techinasia.com"
-        },
-        {
-          "count": 3,
-          "source": "wsj.com"
         }
       ],
-      "universe_distinct": 31
+      "universe_distinct": 34
     }
   },
   "official_links": [
@@ -687,42 +748,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:38.636449+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.213,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0162,
-        "lift_log": 2.282,
-        "score": 0.2135,
-        "shared": 7
-      },
-      "rationale": "Kraken provides derivatives trading services.",
-      "relation_type": "category",
-      "slug": "derivatives",
-      "source": "cotag",
-      "tag_name": "Derivatives",
-      "title": "Derivatives, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.24,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0104,
-        "lift_log": 2.93,
-        "score": 0.24,
-        "shared": 5
-      },
-      "rationale": "Kraken offers equities trading alongside crypto.",
-      "relation_type": "category",
-      "slug": "equities",
-      "source": "cotag",
-      "tag_name": "Equities",
-      "title": "Equities, Explained",
-      "weight": 24
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "kraken",
   "tag_name": "Kraken",

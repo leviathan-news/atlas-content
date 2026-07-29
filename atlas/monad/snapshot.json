@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:00:40.300033+00:00",
-      "newsroom_total": 43,
-      "overall_share": 46,
+      "as_of": "2026-07-29T23:02:09.820824+00:00",
+      "newsroom_total": 47,
+      "overall_share": 40,
       "provenance": "data",
       "series": [
         {
@@ -103,66 +103,101 @@
           "universe": 11
         },
         {
-          "ed_share": null,
+          "ed_share": 21,
           "month": "2026-07",
-          "newsroom": 1,
-          "universe": 0
+          "newsroom": 5,
+          "universe": 19
         }
       ],
-      "total_universe": 94,
-      "universe_total": 51
+      "total_universe": 117,
+      "universe_total": 70
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:00:39.776103+00:00",
+      "as_of": "2026-07-29T23:02:08.981268+00:00",
       "edges": [
         {
+          "confidence": 0.291,
+          "description": "Co-covered in 7 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "monad",
-          "phrase": "Echo is a project building on Monad.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-19",
+          "phrase": "Co-covered in 7 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "echo",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.189,
+          "description": "Co-covered in 9 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "monad",
-          "phrase": "Monad competes with Solana as a high-performance L1.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 9 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "solana",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.172,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "monad",
-          "phrase": "Liquidity incentives are a core DeFi mechanism used on Monad.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "liquidity-incentives",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.144,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "monad",
-          "phrase": "TVL measures total value locked in Monad's DeFi protocols.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "tvl",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.132,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "monad",
-          "phrase": "Vaults are DeFi products that can be built on Monad.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "vaults",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         }
       ],
@@ -176,42 +211,62 @@
         },
         {
           "center": false,
+          "confidence": 0.291,
           "name": "echo",
+          "observed_at": "2026-05-19",
           "slug": "echo",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.189,
           "name": "Solana",
+          "observed_at": null,
           "slug": "solana",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.172,
           "name": "Liquidity Incentives",
+          "observed_at": null,
           "slug": "liquidity-incentives",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.144,
           "name": "TVL",
+          "observed_at": null,
           "slug": "tvl",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.132,
           "name": "Vaults",
+          "observed_at": null,
           "slug": "vaults",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         }
       ],
@@ -280,17 +335,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 43,
-      "as_of": "2026-07-01T12:00:40.824993+00:00",
+      "article_count": 47,
+      "as_of": "2026-07-29T23:02:10.163452+00:00",
       "most_clicked": {
-        "clicks": 359,
+        "clicks": 361,
         "date": "2024-04-09T12:58:01.539695+00:00",
         "headline": "Paradigm leads $225 million round for Monad Labs, which is building an L1 intended to rival Ethereum and Solana",
         "lev_url": "https://leviathannews.xyz/4734/paradigm-leads-225-million-round-for-monad-labs-which-is-building-an-l1-intended-to-rival-ethereum-and-solana"
       },
       "provenance": "data",
-      "top_decile_share": 32,
-      "total_clicks": 3042
+      "top_decile_share": 30,
+      "total_clicks": 3316
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:11:38.234466+00:00",
@@ -375,10 +430,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:00:40.726093+00:00",
+      "as_of": "2026-07-29T23:02:10.158139+00:00",
       "items": [
         {
-          "clicks": 102,
+          "clicks": 104,
           "date": "2026-04-08T22:19:48.586283+00:00",
           "headline": "Monad Foundation rolls out device subsidy program for teams with $2.5M+ TVL, funding dedicated signing laptops to boost multisig and treasury security across its ecosystem",
           "hot_score": 12179.124699,
@@ -396,7 +451,7 @@
           "url": "https://x.com/i/status/2044053129570988226"
         },
         {
-          "clicks": 39,
+          "clicks": 41,
           "date": "2026-04-12T13:09:32.167659+00:00",
           "headline": "How Monad achieves parallel execution: concurrent transaction processing, conflict detection, and re-execution combine to deliver faster blocks while maintaining Ethereum’s ordered state model",
           "hot_score": 6344.643048,
@@ -405,7 +460,7 @@
           "url": "https://x.com/i/status/2043025228255621177"
         },
         {
-          "clicks": 50,
+          "clicks": 51,
           "date": "2026-04-16T19:41:56.573250+00:00",
           "headline": "Monad ecosystem expands as tokenized stocks go live on Monday Trade, bringing real-world equities onchain for seamless trading and DeFi integration",
           "hot_score": 4155.635821,
@@ -414,25 +469,25 @@
           "url": "https://x.com/i/status/2044789141531951445"
         },
         {
-          "clicks": 15,
-          "date": "2026-07-01T06:15:40.917731+00:00",
-          "headline": "Ethereum co-founder Joseph Lubin and Monad's Keone Hon discuss AI-powered finance, stablecoin adoption, and MetaMask's new Money Account in a wide-ranging interview",
-          "hot_score": 3904.957446,
-          "lev_url": "https://leviathannews.xyz/266143/we-sat-down-for-the-first-time-with-ethereumjoseph-founder-and-ceo-of-consensys-and-co-founder-of-ethereum-and-keonehd-co-founder-and-gm-of-monad-foundation-a-conversation-a",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701060455_xn2JyG6x1FVX.jpg",
-          "url": "https://x.com/monad/status/2072000512707244132"
-        },
-        {
-          "clicks": 12,
-          "date": "2026-06-30T06:36:52.824926+00:00",
-          "headline": "Monad Foundation joins x402 Foundation to bring HTTP-native agent payments into DeFi",
-          "hot_score": 3095.431948,
-          "lev_url": "https://leviathannews.xyz/264978/monad-foundation-joins-x402-foundation-to-bring-http-native-agent-payments-into-defi",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629195042_Z4zrlaiDPw==.png",
-          "url": "https://blog.monad.xyz/blog/monad-foundation-joins-x402-foundation"
+          "clicks": 72,
+          "date": "2026-07-26T07:31:38.649126+00:00",
+          "headline": "Monad's Keone says Phantom's decision to remove the network is a step backward, recommending MetaMask, Backpack, Rabby, Rainbow, Infinex and Ambire",
+          "hot_score": 1608.316962,
+          "lev_url": "https://leviathannews.xyz/282061/phantom-let-us-know-that-they-are-removing-monad-along-with-another-network-in-an-effort-to-focus-more-on-their-core-business-we-want-monad-to-be-everywhere-so-this-is-a-step-b",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726071431_kxRhtWxxQpSN.jpg",
+          "url": "https://x.com/keonehd/status/2081170128386076868"
         },
         {
           "clicks": 38,
+          "date": "2026-07-25T06:05:57.845362+00:00",
+          "headline": "Phantom will end Monad support on August 12, urging users to migrate funds from Phantom Wallet to another compatible EVM wallet before the deadline",
+          "hot_score": 1129.013652,
+          "lev_url": "https://leviathannews.xyz/281796/phantom-is-ending-support-for-monad-on-august-12th-if-you-hold-funds-in-a-phantom-wallet-please-migrate-to-another-evm-wallet-before-this-date-a-list-of-supported-wallets-can-be",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260725053747_uvxymXfE7N_4.jpg",
+          "url": "https://x.com/monad/status/2080775556191178832"
+        },
+        {
+          "clicks": 39,
           "date": "2026-05-13T07:49:53.982239+00:00",
           "headline": "FalconX launches Credit Vault on Pareto Credit for use as collateral on Monad blockchain.",
           "hot_score": 888.561287,
@@ -441,7 +496,7 @@
           "url": "https://x.com/monad/status/2054199324519653451"
         },
         {
-          "clicks": 28,
+          "clicks": 29,
           "date": "2026-05-14T16:48:08.720923+00:00",
           "headline": "LI.FI launches a validator on Monad, deepening its role in securing the network and expanding decentralization across the ecosystem",
           "hot_score": 835.2,
@@ -453,10 +508,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:00:40.633640+00:00",
+      "as_of": "2026-07-29T23:02:10.141007+00:00",
       "editorial": [
         {
-          "count": 29,
+          "count": 31,
           "source": "x.com"
         },
         {
@@ -464,7 +519,7 @@
           "source": "theblock.co"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "blog.monad.xyz"
         },
         {
@@ -504,19 +559,19 @@
           "source": "mento.org"
         }
       ],
-      "editorial_distinct": 12,
+      "editorial_distinct": 13,
       "provenance": "data",
       "universe": [
         {
-          "count": 25,
+          "count": 35,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 10,
           "source": "blog.monad.xyz"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "theblock.co"
         },
         {
@@ -528,8 +583,16 @@
           "source": "walletconnect.network"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "financefeeds.com"
+        },
+        {
+          "count": 3,
+          "source": "chainwire.org"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
         },
         {
           "count": 1,
@@ -545,18 +608,10 @@
         },
         {
           "count": 1,
-          "source": "cointelegraph.com"
-        },
-        {
-          "count": 1,
           "source": "across.to"
-        },
-        {
-          "count": 1,
-          "source": "chainwire.org"
         }
       ],
-      "universe_distinct": 12
+      "universe_distinct": 15
     }
   },
   "official_links": [],
@@ -567,25 +622,7 @@
     "source": "human_gated_edit",
     "updated_at": "2026-07-28T22:36:43.908203+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.291,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0797,
-        "lift_log": 5.528,
-        "score": 0.2914,
-        "shared": 7
-      },
-      "rationale": "Echo is a project building on Monad.",
-      "relation_type": "ecosystem",
-      "slug": "echo",
-      "source": "cotag",
-      "tag_name": "echo",
-      "title": "echo, Explained",
-      "weight": 29
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "monad",
   "tag_name": "Monad",

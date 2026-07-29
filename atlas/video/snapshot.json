@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:03:42.427674+00:00",
-      "newsroom_total": 45,
-      "overall_share": 22,
+      "as_of": "2026-07-29T23:06:26.059491+00:00",
+      "newsroom_total": 43,
+      "overall_share": 17,
       "provenance": "data",
       "series": [
         {
@@ -123,7 +123,7 @@
         {
           "ed_share": null,
           "month": "2025-12",
-          "newsroom": 3,
+          "newsroom": 2,
           "universe": 0
         },
         {
@@ -139,9 +139,9 @@
           "universe": 53
         },
         {
-          "ed_share": 11,
+          "ed_share": 6,
           "month": "2026-04",
-          "newsroom": 4,
+          "newsroom": 2,
           "universe": 34
         },
         {
@@ -155,62 +155,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 32
+        },
+        {
+          "ed_share": 2,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 49
         }
       ],
-      "total_universe": 200,
-      "universe_total": 155
+      "total_universe": 247,
+      "universe_total": 204
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:03:41.474439+00:00",
+      "as_of": "2026-07-29T23:06:25.269531+00:00",
       "edges": [
         {
+          "confidence": 0.232,
+          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "video",
-          "phrase": "Venice is a video platform, comparable to general video services.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-22",
+          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "venice",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "video",
-          "phrase": "Curve is unrelated to video; cautious peer assignment.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "curve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.142,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "video",
-          "phrase": "Video is a subset of the broader media category.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "media",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.136,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "video",
-          "phrase": "Research is unrelated to video; cautious peer assignment.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "research",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "video",
+          "observed_at": null,
           "phrase": "earnings",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "earnings",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -224,42 +265,62 @@
         },
         {
           "center": false,
+          "confidence": 0.232,
           "name": "Venice",
+          "observed_at": "2026-05-22",
           "slug": "venice",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "Curve",
+          "observed_at": null,
           "slug": "curve",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.142,
           "name": "Media",
+          "observed_at": null,
           "slug": "media",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.136,
           "name": "Research",
+          "observed_at": null,
           "slug": "research",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Earnings",
+          "observed_at": null,
           "slug": "earnings",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -328,17 +389,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 45,
-      "as_of": "2026-07-01T12:03:42.943268+00:00",
+      "article_count": 43,
+      "as_of": "2026-07-29T23:06:26.701953+00:00",
       "most_clicked": {
-        "clicks": 350,
+        "clicks": 351,
         "date": "2023-06-08T17:15:06.690958+00:00",
         "headline": "In Wall Street Journal video interview, Coinbase CEO Brian Armstrong says he'll fight the SEC for the good of the crypto industry.",
         "lev_url": "https://leviathannews.xyz/1354/in-wall-street-journal-video-interview-coinbase-ceo-brian-armstrong-says-hell-fight-the-sec-for-the-good-of-the-crypto-industry"
       },
       "provenance": "data",
-      "top_decile_share": 29,
-      "total_clicks": 4369
+      "top_decile_share": 30,
+      "total_clicks": 4259
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:11:08.989344+00:00",
@@ -417,7 +478,7 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:03:42.859858+00:00",
+      "as_of": "2026-07-29T23:06:26.697434+00:00",
       "items": [
         {
           "clicks": 52,
@@ -438,25 +499,7 @@
           "url": "https://x.com/i/status/2044467217920614714"
         },
         {
-          "clicks": 96,
-          "date": "2026-04-02T20:42:18.164073+00:00",
-          "headline": "Google debuts Veo 3.1 Lite, a high-efficiency video model cutting developer costs by over 50% for AI-driven applications",
-          "hot_score": 271.737137,
-          "lev_url": "https://leviathannews.xyz/220303/google-debuts-veo-31-lite-a-high-efficiency-video-model-cutting-developer-costs-by-over-50-for-ai-driven-applications",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260402174756_v71bKGppJRga.jpg",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/"
-        },
-        {
-          "clicks": 16,
-          "date": "2026-06-30T23:49:30.193865+00:00",
-          "headline": "ArAIstotle's Polymarket analysis on every market plus live fact-checking on every video, podcast, and article you watch or read. Same extension, two superpowers.",
-          "hot_score": 132.99556,
-          "lev_url": "https://leviathannews.xyz/265619/araistotles-polymarket-analysis-on-every-market-plus-live-fact-checking-on-every-video-podcast-and-article-you-watch-or-read-same-extension-two-superpowers-tldr-weve-launched-a-goo",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630151127_v0RopAjnxBMN.jpg",
-          "url": "https://x.com/araistotle/status/2071555852763554228"
-        },
-        {
-          "clicks": 75,
+          "clicks": 80,
           "date": "2025-12-11T14:14:42.759286+00:00",
           "headline": "Disney Invests $1 Billion in OpenAI, Opening Sora to 200+ Disney, Marvel, Pixar, and Star Wars Characters for AI-Generated Video Content",
           "hot_score": 62.293658,
@@ -465,16 +508,16 @@
           "url": "https://www.cnbc.com/2025/12/11/disney-openai-sora-characters-video.html"
         },
         {
-          "clicks": 65,
-          "date": "2025-12-21T08:20:48.341339+00:00",
-          "headline": "Sony files patent for AI-powered censorship tech to alter video game content as part of its push to future-proof PlayStation as it prepares for the next console generation Playstation 6 era. Sony’s approach could allow players to customize what they see and hear without developers creating separate game versions.",
-          "hot_score": 57.285143,
-          "lev_url": "https://leviathannews.xyz/22825/sony-files-patent-for-ai-powered-censorship-tech-to-alter-video-game-content-as-part-of-its-push-to-future-proof-playstation-as-it-prepares-for-the-next-console-generation-playstat",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251221055228_uVPN-Wk_Xgw=.jpg",
-          "url": "https://interestingengineering.com/ai-robotics/sony-ai-censorship-patent-playstation"
+          "clicks": 27,
+          "date": "2026-06-30T23:49:30.193865+00:00",
+          "headline": "ArAIstotle's Polymarket analysis on every market plus live fact-checking on every video, podcast, and article you watch or read. Same extension, two superpowers.",
+          "hot_score": 38.403154,
+          "lev_url": "https://leviathannews.xyz/265619/araistotles-polymarket-analysis-on-every-market-plus-live-fact-checking-on-every-video-podcast-and-article-you-watch-or-read-same-extension-two-superpowers-tldr-weve-launched-a-goo",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630151127_v0RopAjnxBMN.jpg",
+          "url": "https://x.com/araistotle/status/2071555852763554228"
         },
         {
-          "clicks": 24,
+          "clicks": 25,
           "date": "2025-12-12T09:34:56.715363+00:00",
           "headline": "YouTube launches option for U.S. creators to receive stablecoin payouts through PayPal. A spokesperson for Google, which owns YouTube, confirmed the video site has added payouts for creators in PayPal’s stablecoin but declined to comment further.",
           "hot_score": 25.303562,
@@ -483,19 +526,37 @@
           "url": "https://archive.ph/tqGv6"
         },
         {
-          "clicks": 350,
+          "clicks": 351,
           "date": "2023-06-08T17:15:06.690958+00:00",
           "headline": "In Wall Street Journal video interview, Coinbase CEO Brian Armstrong says he'll fight the SEC for the good of the crypto industry.",
           "hot_score": 0.0,
           "lev_url": "https://leviathannews.xyz/1354/in-wall-street-journal-video-interview-coinbase-ceo-brian-armstrong-says-hell-fight-the-sec-for-the-good-of-the-crypto-industry",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
           "url": "https://www.youtube.com/watch?v=xObqhb2QBzs"
+        },
+        {
+          "clicks": 350,
+          "date": "2024-12-09T17:06:24.364634+00:00",
+          "headline": "OpenAI’s video generator Sora is launching today.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/8151/openais-video-generator-sora-is-launching-today",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241209170516_7EqPhagvag==.jpg",
+          "url": "https://www.theverge.com/2024/12/9/24317090/openai-sora-text-to-video-ai-generator-confirmed-release"
+        },
+        {
+          "clicks": 333,
+          "date": "2025-03-05T22:22:42.047913+00:00",
+          "headline": "A SQUID whale and a SQUID shrimp are fighting it out for the newly issued \"Waj Pass,\" to win editorial direction over an @0xmughal video, in the latest action (auction)",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/9676/a-squid-whale-and-a-squid-shrimp-are-fighting-it-out-for-the-newly-issued-waj-pass-to-win-editorial-direction-over-an-0xmughal-video-in-the-latest-action-auction",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250305221901_f75C3eGYQjg=.jpg",
+          "url": "https://leviathannews.xyz/auctions/5"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:03:42.759963+00:00",
+      "as_of": "2026-07-29T23:06:26.682562+00:00",
       "editorial": [
         {
           "count": 21,
@@ -531,10 +592,6 @@
         },
         {
           "count": 1,
-          "source": "interestingengineering.com"
-        },
-        {
-          "count": 1,
           "source": "leviathannews.substack.com"
         },
         {
@@ -543,18 +600,18 @@
         },
         {
           "count": 1,
-          "source": "blog.google"
+          "source": "crypto.news"
         }
       ],
-      "editorial_distinct": 13,
+      "editorial_distinct": 11,
       "provenance": "data",
       "universe": [
         {
-          "count": 129,
+          "count": 173,
           "source": "x.com"
         },
         {
-          "count": 6,
+          "count": 9,
           "source": "decrypt.co"
         },
         {
@@ -598,7 +655,7 @@
           "source": "cdn.venice.ai"
         }
       ],
-      "universe_distinct": 18
+      "universe_distinct": 20
     }
   },
   "official_links": [],
@@ -609,25 +666,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:37:04.664580+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.232,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0444,
-        "lift_log": 4.602,
-        "score": 0.2323,
-        "shared": 4
-      },
-      "rationale": "Venice is a video platform, comparable to general video services.",
-      "relation_type": "peer",
-      "slug": "venice",
-      "source": "cotag",
-      "tag_name": "Venice",
-      "title": "Venice, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "video",
   "tag_name": "Video",

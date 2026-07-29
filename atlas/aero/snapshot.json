@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:11:40.772403+00:00",
-      "newsroom_total": 14,
-      "overall_share": 13,
+      "as_of": "2026-07-29T22:55:02.982450+00:00",
+      "newsroom_total": 15,
+      "overall_share": 11,
       "provenance": "data",
       "series": [
         {
@@ -89,62 +89,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 18
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 25
         }
       ],
-      "total_universe": 107,
-      "universe_total": 93
+      "total_universe": 133,
+      "universe_total": 118
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:11:40.445522+00:00",
+      "as_of": "2026-07-29T22:55:02.674925+00:00",
       "edges": [
         {
+          "confidence": 0.534,
+          "description": "Co-covered in 44 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "aero",
-          "phrase": "AERO is the token of the Aerodrome DEX on Base.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-25",
+          "phrase": "Co-covered in 44 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "aerodrome",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 53
         },
         {
+          "confidence": 0.226,
+          "description": "Co-covered in 7 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "aero",
-          "phrase": "Revenue from fees is used for buybacks and rewards.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-25",
+          "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "revenue",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.219,
+          "description": "Co-covered in 20 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "aero",
-          "phrase": "Buybacks reduce supply and distribute fees to veAERO holders.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-25",
+          "phrase": "Co-covered in 20 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "buybacks",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.15,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "aero",
-          "phrase": "Aerodrome is built on the Base L2 chain.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "base",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.142,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "aero",
-          "phrase": "Aerodrome acquired Velodrome's liquidity and technology.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "acquisition",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         }
       ],
@@ -158,42 +199,62 @@
         },
         {
           "center": false,
+          "confidence": 0.534,
           "name": "Aerodrome",
+          "observed_at": "2026-07-25",
           "slug": "aerodrome",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 53
         },
         {
           "center": false,
+          "confidence": 0.226,
           "name": "Revenue",
+          "observed_at": "2026-07-25",
           "slug": "revenue",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.219,
           "name": "Buybacks",
+          "observed_at": "2026-07-25",
           "slug": "buybacks",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.15,
           "name": "Base Chain",
+          "observed_at": null,
           "slug": "base",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.142,
           "name": "Acquisition",
+          "observed_at": null,
           "slug": "acquisition",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         }
       ],
@@ -256,17 +317,17 @@
       "source": "https://tokenomics.com/articles/aerodrome-tokenomics-how-aero-captures-100-of-protocol-fees"
     },
     "reader_signal": {
-      "article_count": 18,
-      "as_of": "2026-07-01T12:11:41.545858+00:00",
+      "article_count": 19,
+      "as_of": "2026-07-29T22:55:03.270643+00:00",
       "most_clicked": {
-        "clicks": 1023,
+        "clicks": 1027,
         "date": "2024-06-30T14:53:24.410065+00:00",
         "headline": "Aerodrome updates its Flight School program, which buys back AERO, locks as veAERO and distributes as rewards to lockers, increased its bonus to its highest ever rate of 60%",
         "lev_url": "https://leviathannews.xyz/6147/aerodrome-updates-its-flight-school-program-which-buys-back-aero-locks-as-veaero-and-distributes-as-rewards-to-lockers-increased-its-bonus-to-its-highest-ever-rate-of-60"
       },
       "provenance": "data",
-      "top_decile_share": 43,
-      "total_clicks": 2371
+      "top_decile_share": 42,
+      "total_clicks": 2442
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:54:26.319207+00:00",
@@ -351,10 +412,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:11:41.468990+00:00",
+      "as_of": "2026-07-29T22:55:03.261012+00:00",
       "items": [
         {
-          "clicks": 25,
+          "clicks": 29,
           "date": "2026-06-17T10:02:06.992731+00:00",
           "headline": "Aerodrome’s Ethereum expansion could transform AERO into cross-chain exchange infrastructure, but sustainable growth hinges on reducing subsidy-driven liquidity",
           "hot_score": 673.806955,
@@ -363,7 +424,16 @@
           "url": "https://x.com/thesebasv/status/2066897389949002223"
         },
         {
-          "clicks": 141,
+          "clicks": 32,
+          "date": "2026-07-08T08:04:22.238626+00:00",
+          "headline": "Delphi Digital argues AERO inflation is overstated, saying much of its supply remains permanently locked as the AER Engine aligns emissions with protocol revenue",
+          "hot_score": 605.267253,
+          "lev_url": "https://leviathannews.xyz/270937/aerodrome-is-frequently-criticized-for-emitting-more-than-it-earns-but-much-of-this-supply-is-locked-away-and-doesnt-reach-the-market-aerodrome-pays-for-its-liquidity-in-newly",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260708075824_O3LXyMSMtHOB.jpg",
+          "url": "https://x.com/delphi_digital/status/2074541058420302121"
+        },
+        {
+          "clicks": 143,
           "date": "2026-03-30T20:18:42.767251+00:00",
           "headline": "Aerodrome and Velodrome to merge in July, with $VELO fungible for 0.55 $AERO",
           "hot_score": 604.527539,
@@ -372,7 +442,7 @@
           "url": "https://x.com/cryptocyphernow/status/2038611126657712339?s=46"
         },
         {
-          "clicks": 31,
+          "clicks": 33,
           "date": "2026-01-30T08:23:12.772645+00:00",
           "headline": "Aerodrome is introducing a Market-Aware buyback model through its upcoming Momentum Fund, using algorithmic, volatility-responsive rules to acquire AERO more efficiently than fixed schedules or discretionary buys. The pilot showed strong results, accumulating 8.7M AERO and scaling buy pressure during high volatility, with plans to consolidate capital programs and introduce buyback-and-burns to strengthen long-term protocol economics.",
           "hot_score": 31.897406,
@@ -381,7 +451,7 @@
           "url": "https://x.com/i/status/2016935022893089042"
         },
         {
-          "clicks": 1023,
+          "clicks": 1027,
           "date": "2024-06-30T14:53:24.410065+00:00",
           "headline": "Aerodrome updates its Flight School program, which buys back AERO, locks as veAERO and distributes as rewards to lockers, increased its bonus to its highest ever rate of 60%",
           "hot_score": 0.0,
@@ -390,7 +460,7 @@
           "url": "https://x.com/AerodromeFi/status/1807049888271896977"
         },
         {
-          "clicks": 436,
+          "clicks": 442,
           "date": "2025-11-12T20:29:02.891581+00:00",
           "headline": "Dromos announces Aero, an expansion to mainnet via a merger between Aerodrome and Velodrome, with a token distributed to current VELO & AERO holders spilt 94.5/4.5 based on annual revenue",
           "hot_score": 0.0,
@@ -399,7 +469,7 @@
           "url": "https://x.com/i/broadcasts/1YpKkkdNPXMKj?s=20"
         },
         {
-          "clicks": 158,
+          "clicks": 162,
           "date": "2024-04-15T06:35:02.763146+00:00",
           "headline": "Aerodrome's AERO added as collateral for MAI Stablecoin on Base",
           "hot_score": 0.0,
@@ -415,24 +485,15 @@
           "lev_url": "https://leviathannews.xyz/8506/aero-soars-3139-in-2024-user-activity-grew-nearly-800-fueled-by-bases-success-experts-debate-whether-its-a-hidden-gem-or-high-risk-bet-for-2025",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20241231152407_gDI2FkRRftw=.jpg",
           "url": "https://cryptonews.com/exclusives/explosive-3000-growth-why-aero-has-caught-smart-moneys-eye/"
-        },
-        {
-          "clicks": 89,
-          "date": "2025-11-15T19:40:50.506035+00:00",
-          "headline": "Dromos Labs announce Aero, the new liquidity hub meant to unite and bring together the best of both Aerodrome and Velodrome, built on the new MetaDEX03 architecture",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/20606/dromos-labs-announc-aero-the-new-liquidity-hub-meant-to-unite-and-bring-together-the-best-of-both-aerodrome-and-velodrome",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20251115193747_8mFI5gv8FAM=.jpg&publishedDate=1763234128534",
-          "url": "https://paragraph.com/@aerodrome-foundation/aero"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:11:41.380696+00:00",
+      "as_of": "2026-07-29T22:55:03.233802+00:00",
       "editorial": [
         {
-          "count": 11,
+          "count": 12,
           "source": "x.com"
         },
         {
@@ -452,8 +513,12 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 76,
+          "count": 95,
           "source": "x.com"
+        },
+        {
+          "count": 4,
+          "source": "treeofalpha.com"
         },
         {
           "count": 3,
@@ -470,6 +535,10 @@
         {
           "count": 2,
           "source": "blog.velvet.capital"
+        },
+        {
+          "count": 2,
+          "source": "binance.com"
         },
         {
           "count": 1,
@@ -490,17 +559,9 @@
         {
           "count": 1,
           "source": "financewire.com"
-        },
-        {
-          "count": 1,
-          "source": "reuters.com"
-        },
-        {
-          "count": 1,
-          "source": "dlnews.com"
         }
       ],
-      "universe_distinct": 13
+      "universe_distinct": 15
     }
   },
   "official_links": [],
@@ -511,59 +572,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:14.496526+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.534,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.3162,
-        "lift_log": 6.248,
-        "score": 0.5345,
-        "shared": 31
-      },
-      "rationale": "AERO is the token of the Aerodrome DEX on Base.",
-      "relation_type": "product",
-      "slug": "aerodrome",
-      "source": "cotag",
-      "tag_name": "Aerodrome",
-      "title": "Aerodrome, Explained",
-      "weight": 53
-    },
-    {
-      "confidence": 0.219,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0462,
-        "lift_log": 4.258,
-        "score": 0.219,
-        "shared": 14
-      },
-      "rationale": "Buybacks reduce supply and distribute fees to veAERO holders.",
-      "relation_type": "primitive",
-      "slug": "buybacks",
-      "source": "cotag",
-      "tag_name": "Buybacks",
-      "title": "Buybacks, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.226,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0093,
-        "lift_log": 2.631,
-        "score": 0.226,
-        "shared": 5
-      },
-      "rationale": "Revenue from fees is used for buybacks and rewards.",
-      "relation_type": "primitive",
-      "slug": "revenue",
-      "source": "cotag",
-      "tag_name": "Revenue",
-      "title": "Revenue, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "aero",
   "tag_name": "AERO",

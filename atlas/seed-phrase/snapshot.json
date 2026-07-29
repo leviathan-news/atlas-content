@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:14:14.372523+00:00",
-      "newsroom_total": 13,
-      "overall_share": 38,
+      "as_of": "2026-07-29T23:04:16.922056+00:00",
+      "newsroom_total": 14,
+      "overall_share": 33,
       "provenance": "data",
       "series": [
         {
@@ -71,62 +71,103 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 2
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 7
         }
       ],
-      "total_universe": 34,
-      "universe_total": 21
+      "total_universe": 42,
+      "universe_total": 28
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:14:14.035838+00:00",
+      "as_of": "2026-07-29T23:04:16.736041+00:00",
       "edges": [
         {
+          "confidence": 0.227,
+          "description": "Co-covered in 6 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seed-phrase",
-          "phrase": "Seed phrases are used to recover wallets.",
-          "relation_type": "infrastructure",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-27",
+          "phrase": "Co-covered in 6 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "wallet",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.165,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seed-phrase",
-          "phrase": "South Korea has regulations affecting seed phrase security.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "south-korea",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.156,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seed-phrase",
-          "phrase": "Both are crypto topics but not directly related.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "crypto-taxes",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.146,
+          "description": "Co-covered in 6 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "seed-phrase",
-          "phrase": "Bitcoin uses seed phrases but is a separate concept.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 6 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "seed-phrase",
+          "observed_at": null,
           "phrase": "banking",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "banking",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -140,42 +181,62 @@
         },
         {
           "center": false,
+          "confidence": 0.227,
           "name": "Wallet",
+          "observed_at": "2026-07-27",
           "slug": "wallet",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.165,
           "name": "South Korea",
+          "observed_at": null,
           "slug": "south-korea",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.156,
           "name": "Crypto Taxes",
+          "observed_at": null,
           "slug": "crypto-taxes",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.146,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "Banking",
+          "observed_at": null,
           "slug": "banking",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -238,17 +299,17 @@
       "source": "https://www.ledger.com/academy/private-key-and-seed-phrase-whats-the-difference"
     },
     "reader_signal": {
-      "article_count": 14,
-      "as_of": "2026-07-01T12:14:14.863776+00:00",
+      "article_count": 15,
+      "as_of": "2026-07-29T23:04:17.186667+00:00",
       "most_clicked": {
-        "clicks": 187,
+        "clicks": 191,
         "date": "2025-06-20T00:44:28.149697+00:00",
         "headline": "Crypto wallet drained after police bodycam footage exposes seed phrase during arrest",
         "lev_url": "https://leviathannews.xyz/12738/crypto-wallet-drained-after-police-bodycam-footage-exposes-seed-phrase-during-arrest"
       },
       "provenance": "data",
-      "top_decile_share": 17,
-      "total_clicks": 1106
+      "top_decile_share": 16,
+      "total_clicks": 1197
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:52:40.792275+00:00",
@@ -333,10 +394,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:14:14.785914+00:00",
+      "as_of": "2026-07-29T23:04:17.182683+00:00",
       "items": [
         {
-          "clicks": 84,
+          "clicks": 85,
           "date": "2026-04-09T11:15:20.842699+00:00",
           "headline": "Solo developer launches 5 working products from seed recovery tool to batch bridging and NFT rescue, highlighting speed of execution and low barrier to building in crypto today",
           "hot_score": 9725.124556,
@@ -345,7 +406,7 @@
           "url": "https://x.com/i/status/2042156823789396380"
         },
         {
-          "clicks": 37,
+          "clicks": 41,
           "date": "2026-06-19T10:20:46.192648+00:00",
           "headline": "Microsoft warns Tor-based crypto clipper spreads via USB shortcuts to steal seed phrases and swap wallet addresses",
           "hot_score": 699.658423,
@@ -354,7 +415,16 @@
           "url": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/"
         },
         {
-          "clicks": 39,
+          "clicks": 73,
+          "date": "2026-07-18T17:29:48.553376+00:00",
+          "headline": "Kaspersky exposes active OkoBot malware targeting hundreds across 25+ countries with crypto wallet and seed phrase theft",
+          "hot_score": 680.048613,
+          "lev_url": "https://leviathannews.xyz/278013/kaspersky-exposes-active-okobot-malware-targeting-hundreds-across-25-countries-with-crypto-wallet-and-seed-phrase-theft",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260718121043_Z4zrlaiDPw==.png",
+          "url": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/"
+        },
+        {
+          "clicks": 40,
           "date": "2026-04-17T16:02:31.825498+00:00",
           "headline": "Counterfeit Ledger Nano S Plus with embedded WiFi sold on Chinese marketplace, steals seed phrases via fake Ledger Live",
           "hot_score": 666.272237,
@@ -363,7 +433,7 @@
           "url": "https://cointelegraph.com/news/fake-ledger-device-sold-chinese-market-place"
         },
         {
-          "clicks": 77,
+          "clicks": 78,
           "date": "2026-03-17T09:11:17.683934+00:00",
           "headline": "UK court in awe after woman is allegedly accused of stealing 2,323 BTC worth $176M after allegedly using CCTV to capture husband’s seed phrase and wallet access",
           "hot_score": 448.290732,
@@ -372,7 +442,7 @@
           "url": "https://cointelegraph.com/news/uk-wife-accused-stealing-176m-bitcoin-cctv-seed-phrase"
         },
         {
-          "clicks": 56,
+          "clicks": 57,
           "date": "2026-02-02T17:58:53.356915+00:00",
           "headline": "Vultisig launched its Plugin Marketplace, introducing the first fully self-custodial, on-chain automation layer that enables DCA, payroll, and other automated actions across 30+ chains without exposing keys or seed phrases.",
           "hot_score": 53.681267,
@@ -381,7 +451,7 @@
           "url": "https://x.com/i/status/2018349045081620746"
         },
         {
-          "clicks": 187,
+          "clicks": 191,
           "date": "2025-06-20T00:44:28.149697+00:00",
           "headline": "Crypto wallet drained after police bodycam footage exposes seed phrase during arrest",
           "hot_score": 0.0,
@@ -397,21 +467,12 @@
           "lev_url": "https://leviathannews.xyz/10346/aaves-parent-avara-rolls-out-simplified-self-custody-with-family-wallet-enabling-users-to-sign-up-using-email-or-sms-instead-of-traditional-seed-phrases",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250402131543_deLHj9baVp8=.jpg",
           "url": "https://www.coindesk.com/business/2025/04/02/creators-of-defi-firm-aave-simplify-its-family-self-custody-wallet"
-        },
-        {
-          "clicks": 124,
-          "date": "2025-06-24T15:52:10.609871+00:00",
-          "headline": "Ledger announces Ledger Recovery Key, a PIN protected physical card enabling storage of 24-word seed phrases.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/12886/ledger-announces-ledger-recovery-key-a-pin-protected-physical-card-enabling-storage-of-24-word-seed-phrases",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250624155013_UlWxal6JcG0=.jpg",
-          "url": "https://x.com/P3b7_/status/1937501354232008974"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:14:14.697686+00:00",
+      "as_of": "2026-07-29T23:04:17.173977+00:00",
       "editorial": [
         {
           "count": 6,
@@ -440,13 +501,17 @@
         {
           "count": 1,
           "source": "microsoft.com"
+        },
+        {
+          "count": 1,
+          "source": "securelist.com"
         }
       ],
-      "editorial_distinct": 7,
+      "editorial_distinct": 8,
       "provenance": "data",
       "universe": [
         {
-          "count": 10,
+          "count": 14,
           "source": "x.com"
         },
         {
@@ -455,15 +520,15 @@
         },
         {
           "count": 2,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 2,
           "source": "financefeeds.com"
         },
         {
           "count": 1,
           "source": "coindesk.com"
-        },
-        {
-          "count": 1,
-          "source": "decrypt.co"
         },
         {
           "count": 1,
@@ -476,9 +541,17 @@
         {
           "count": 1,
           "source": "thestreet.com"
+        },
+        {
+          "count": 1,
+          "source": "theblock.co"
+        },
+        {
+          "count": 1,
+          "source": "gnosis.io"
         }
       ],
-      "universe_distinct": 8
+      "universe_distinct": 10
     }
   },
   "official_links": [],
@@ -489,25 +562,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:54.276278+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.227,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0067,
-        "lift_log": 2.688,
-        "score": 0.2273,
-        "shared": 3
-      },
-      "rationale": "Seed phrases are used to recover wallets.",
-      "relation_type": "infrastructure",
-      "slug": "wallet",
-      "source": "cotag",
-      "tag_name": "Wallet",
-      "title": "Wallet, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "seed-phrase",
   "tag_name": "Seed Phrase",

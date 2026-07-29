@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:03:54.137141+00:00",
-      "newsroom_total": 72,
-      "overall_share": 92,
+      "as_of": "2026-07-29T23:01:18.009593+00:00",
+      "newsroom_total": 73,
+      "overall_share": 91,
       "provenance": "data",
       "series": [
         {
@@ -173,62 +173,103 @@
           "month": "2026-05",
           "newsroom": 0,
           "universe": 1
+        },
+        {
+          "ed_share": 50,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 1
         }
       ],
-      "total_universe": 78,
-      "universe_total": 6
+      "total_universe": 80,
+      "universe_total": 7
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:03:53.768010+00:00",
+      "as_of": "2026-07-29T23:01:17.769481+00:00",
       "edges": [
         {
+          "confidence": 0.466,
+          "description": "Co-covered in 19 approved stories; most recently May 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "liquity",
-          "phrase": "BOLD is the new stablecoin token from Liquity.",
-          "relation_type": "token",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-05-06",
+          "phrase": "Co-covered in 19 approved stories; most recently May 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bold",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 47
         },
         {
+          "confidence": 0.208,
+          "description": "Co-covered in 6 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "liquity",
-          "phrase": "Liquity has inspired several forks in DeFi.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-23",
+          "phrase": "Co-covered in 6 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "fork",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 21
         },
         {
+          "confidence": 0.204,
+          "description": "Co-covered in 4 approved stories; most recently May 2024.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "liquity",
-          "phrase": "Liquity uses interest rates for its stability pool.",
-          "relation_type": "primitive",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2024-05-31",
+          "phrase": "Co-covered in 4 approved stories; most recently May 2024.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "interest-rates",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "liquity",
-          "phrase": "Yearn integrates Liquity for yield strategies.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "yearn",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.163,
+          "description": "Co-covered in 7 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "liquity",
-          "phrase": "LUSD is traded on Curve pools.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 7 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "curve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -242,42 +283,62 @@
         },
         {
           "center": false,
+          "confidence": 0.466,
           "name": "BOLD",
+          "observed_at": "2026-05-06",
           "slug": "bold",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 47
         },
         {
           "center": false,
+          "confidence": 0.208,
           "name": "fork",
+          "observed_at": "2026-03-23",
           "slug": "fork",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 21
         },
         {
           "center": false,
+          "confidence": 0.204,
           "name": "Interest rates",
+          "observed_at": "2024-05-31",
           "slug": "interest-rates",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "Yearn",
+          "observed_at": null,
           "slug": "yearn",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.163,
           "name": "Curve",
+          "observed_at": null,
           "slug": "curve",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -346,17 +407,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 72,
-      "as_of": "2026-07-01T12:03:54.648321+00:00",
+      "article_count": 73,
+      "as_of": "2026-07-29T23:01:18.306366+00:00",
       "most_clicked": {
-        "clicks": 815,
+        "clicks": 816,
         "date": "2024-05-01T21:55:50.075622+00:00",
         "headline": "Liquity releases details on v2 BOLD stability pool opportunities: \"Will behave similarly to money markets but with opposite spreads: depending on the utilization and integration of BOLD in the broader DeFi ecosystem, the Stability Pool will generally exceed the average borrow rates\"",
         "lev_url": "https://leviathannews.xyz/5152/liquity-releases-details-on-v2-bold-stability-pool-opportunities-will-behave-similarly-to-money-markets-but-with-opposite-spreads-depending-on-the-utilization-and-integration-of-bo"
       },
       "provenance": "data",
-      "top_decile_share": 37,
-      "total_clicks": 7688
+      "top_decile_share": 36,
+      "total_clicks": 7844
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:49:44.571153+00:00",
@@ -441,8 +502,17 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:03:54.570383+00:00",
+      "as_of": "2026-07-29T23:01:18.301295+00:00",
       "items": [
+        {
+          "clicks": 83,
+          "date": "2026-07-15T12:46:31.865095+00:00",
+          "headline": "Leviathan Atlas is now charting Liquity, the immutable core protocol with automatic safety rails across BOLD and collateral branches",
+          "hot_score": 512.781053,
+          "lev_url": "https://leviathannews.xyz/275725/leviathan-atlas-is-now-charting-liquity-immutable-core-automatic-safety-rails",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260715121922_sha256:08c9d.png",
+          "url": "https://leviathan.news/atlas/liquity"
+        },
         {
           "clicks": 93,
           "date": "2026-02-26T08:17:12.907208+00:00",
@@ -453,7 +523,7 @@
           "url": "https://x.com/ethereumfndn/status/2026790158750855404"
         },
         {
-          "clicks": 79,
+          "clicks": 80,
           "date": "2026-04-01T09:10:21.929787+00:00",
           "headline": "Liquity announces Circle buyout for non-freezable stablecoin tech — conveniently timed for April 1st",
           "hot_score": 470.751407,
@@ -462,7 +532,7 @@
           "url": "https://x.com/LiquityProtocol/status/2039227004567126299"
         },
         {
-          "clicks": 50,
+          "clicks": 51,
           "date": "2026-04-26T14:39:53.524772+00:00",
           "headline": "Liquity stays clear of DeFi United alliance: no revenue, no fees withheld, all returns to users.",
           "hot_score": 358.8,
@@ -480,7 +550,7 @@
           "url": "https://x.com/i/broadcasts/1dJrPErvmypKX"
         },
         {
-          "clicks": 51,
+          "clicks": 53,
           "date": "2026-03-23T16:45:34.708631+00:00",
           "headline": "Nerite, arbitrum's Liquity v2 fork, will release their $NERI governance token tomorrow on a Balancer LBP",
           "hot_score": 159.816704,
@@ -489,7 +559,7 @@
           "url": "https://x.com/NeriteOrg/status/2036108122800935258"
         },
         {
-          "clicks": 127,
+          "clicks": 128,
           "date": "2026-01-26T15:01:14.302967+00:00",
           "headline": "Stand up for trustless solutions on Ethereum.\nBe part of the Trustless Force.\nJoin Curve, f(x), Liquity and Leviathan this Wed. 3pm CET.",
           "hot_score": 138.273849,
@@ -498,28 +568,19 @@
           "url": "https://x.com/TrustlessForce"
         },
         {
-          "clicks": 105,
+          "clicks": 108,
           "date": "2026-02-08T20:56:39.913069+00:00",
           "headline": "The wild west is back",
           "hot_score": 125.294137,
           "lev_url": "https://leviathannews.xyz/25817/the-wild-west-is-back",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260208205453_mOEVcat8IyM=.jpg",
           "url": "https://x.com/CowboyVaults/status/2020602060752961908?s=20"
-        },
-        {
-          "clicks": 85,
-          "date": "2026-01-30T17:32:24.657803+00:00",
-          "headline": "Liquity’s BOLD became the first decentralized stablecoin to earn an A- rating from Bluechip, scoring perfect 1.0 marks in Management, Decentralization, and Governance. Unlike USDC or DAI, BOLD cannot be frozen, has no admin keys, and is fully crypto-backed—highlighting the tradeoff between counterparty risk and smart-contract risk.",
-          "hot_score": 94.344474,
-          "lev_url": "https://leviathannews.xyz/24222/liquitys-bold-became-the-first-decentralized-stablecoin-to-earn-an-a-rating-from-bluechip-scoring-perfect-10-marks-in-management-decentralization-and-governance-unlike-usdc-or-dai-",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260130165026_VIc2KKjoca4=.jpg",
-          "url": "https://x.com/i/status/2017191227855409380"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:03:54.472474+00:00",
+      "as_of": "2026-07-29T23:01:18.286541+00:00",
       "editorial": [
         {
           "count": 49,
@@ -570,11 +631,11 @@
           "source": "docs.liquity.org"
         }
       ],
-      "editorial_distinct": 14,
+      "editorial_distinct": 15,
       "provenance": "data",
       "universe": [
         {
-          "count": 6,
+          "count": 7,
           "source": "x.com"
         }
       ],
@@ -610,59 +671,7 @@
     "source": "human_gated_edit",
     "updated_at": "2026-07-28T22:36:40.943257+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.466,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1678,
-        "lift_log": 6.271,
-        "score": 0.4656,
-        "shared": 19
-      },
-      "rationale": "BOLD is the new stablecoin token from Liquity.",
-      "relation_type": "token",
-      "slug": "bold",
-      "source": "cotag",
-      "tag_name": "BOLD",
-      "title": "BOLD: Complete Guide",
-      "weight": 47
-    },
-    {
-      "confidence": 0.208,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0324,
-        "lift_log": 4.198,
-        "score": 0.2083,
-        "shared": 6
-      },
-      "rationale": "Liquity has inspired several forks in DeFi.",
-      "relation_type": "peer",
-      "slug": "fork",
-      "source": "cotag",
-      "tag_name": "fork",
-      "title": "fork, Explained",
-      "weight": 21
-    },
-    {
-      "confidence": 0.204,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0165,
-        "lift_log": 4.272,
-        "score": 0.2041,
-        "shared": 4
-      },
-      "rationale": "Liquity uses interest rates for its stability pool.",
-      "relation_type": "primitive",
-      "slug": "interest-rates",
-      "source": "cotag",
-      "tag_name": "Interest rates",
-      "title": "Interest rates, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "liquity",
   "tag_name": "Liquity",

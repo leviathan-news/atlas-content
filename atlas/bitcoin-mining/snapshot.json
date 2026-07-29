@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:49:30.003703+00:00",
-      "newsroom_total": 100,
-      "overall_share": 55,
+      "as_of": "2026-07-29T22:56:39.661267+00:00",
+      "newsroom_total": 102,
+      "overall_share": 48,
       "provenance": "data",
       "series": [
         {
@@ -179,62 +179,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 12
+        },
+        {
+          "ed_share": 7,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 27
         }
       ],
-      "total_universe": 182,
-      "universe_total": 82
+      "total_universe": 211,
+      "universe_total": 109
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:49:28.387073+00:00",
+      "as_of": "2026-07-29T22:56:39.495003+00:00",
       "edges": [
         {
+          "confidence": 0.232,
+          "description": "Co-covered in 141 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bitcoin-mining",
-          "phrase": "Bitcoin mining is the process of securing and minting Bitcoin.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-06-30",
+          "phrase": "Co-covered in 141 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 23
         },
         {
+          "confidence": 0.192,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bitcoin-mining",
-          "phrase": "Bitcoin mining is a subset of the broader mining industry.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "mining",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.18,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bitcoin-mining",
-          "phrase": "Foundry is a major Bitcoin mining pool and services provider.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "foundry",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 18
         },
         {
+          "confidence": 0.146,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bitcoin-mining",
-          "phrase": "Mining pools aggregate hashrate for consistent rewards.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "pools",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 15
         },
         {
+          "confidence": 0.143,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "bitcoin-mining",
-          "phrase": "Bitcoin reserve relates to holding, not mining.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin-reserve",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 14
         }
       ],
@@ -248,42 +289,62 @@
         },
         {
           "center": false,
+          "confidence": 0.232,
           "name": "Bitcoin",
+          "observed_at": "2026-06-30",
           "slug": "bitcoin",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 23
         },
         {
           "center": false,
+          "confidence": 0.192,
           "name": "Mining",
+          "observed_at": null,
           "slug": "mining",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.18,
           "name": "Foundry",
+          "observed_at": null,
           "slug": "foundry",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 18
         },
         {
           "center": false,
+          "confidence": 0.146,
           "name": "Pools",
+          "observed_at": null,
           "slug": "pools",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 15
         },
         {
           "center": false,
+          "confidence": 0.143,
           "name": "Bitcoin Reserve",
+          "observed_at": null,
           "slug": "bitcoin-reserve",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 14
         }
       ],
@@ -352,17 +413,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 100,
-      "as_of": "2026-07-01T11:49:32.580318+00:00",
+      "article_count": 102,
+      "as_of": "2026-07-29T22:56:39.926875+00:00",
       "most_clicked": {
-        "clicks": 413,
+        "clicks": 415,
         "date": "2024-09-08T15:46:47.535770+00:00",
         "headline": "Tether diversifies with a $100M investment in an agriculture firm, expanding beyond AI, Bitcoin mining, and digital education as stablecoin competition intensifies.",
         "lev_url": "https://leviathannews.xyz/6893/tether-diversifies-with-a-100m-investment-in-an-agriculture-firm-expanding-beyond-ai-bitcoin-mining-and-digital-education-as-stablecoin-competition-intensifies"
       },
       "provenance": "data",
-      "top_decile_share": 30,
-      "total_clicks": 7725
+      "top_decile_share": 29,
+      "total_clicks": 7850
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:59:51.905304+00:00",
@@ -447,10 +508,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:49:32.372053+00:00",
+      "as_of": "2026-07-29T22:56:39.920602+00:00",
       "items": [
         {
-          "clicks": 36,
+          "clicks": 37,
           "date": "2026-04-13T14:48:36.731530+00:00",
           "headline": "Research shows AI becoming more decentralized as Bitcoin mining centralizes, driven by edge computing growth and rising energy costs pushing miners to new global hubs",
           "hot_score": 7666.57464,
@@ -468,7 +529,7 @@
           "url": "https://www.theblock.co/post/397631/bitdeer-self-mining-bitcoin-70-eh-s-canaan-cleanspark"
         },
         {
-          "clicks": 40,
+          "clicks": 41,
           "date": "2026-04-16T13:23:13.746471+00:00",
           "headline": "Bitcoin miner HIVE plans $75M zero-coupon note offering to fund GPU and AI data center expansion",
           "hot_score": 2445.45713,
@@ -477,7 +538,25 @@
           "url": "https://www.newsfilecorp.com/release/292755/HIVE-Digital-Announces-Private-Offering-of-US75-Million-of-Exchangeable-Senior-Notes-due-2031"
         },
         {
-          "clicks": 50,
+          "clicks": 17,
+          "date": "2026-07-02T15:03:21.073846+00:00",
+          "headline": "SBI Crypto winds down Bitcoin mining pool with roughly 2% of network hashrate by July 31",
+          "hot_score": 723.418521,
+          "lev_url": "https://leviathannews.xyz/267627/sbi-crypto-winds-down-bitcoin-mining-pool-with-roughly-2-of-network-hashrate-by-july-31",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260413161059_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/business/2026/07/02/sbi-crypto-to-shut-down-mining-pool-that-holds-roughly-2-of-bitcoin-s-hashrate"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-07-14T05:32:43.920189+00:00",
+          "headline": "A solo Bitcoin miner earned nearly $200K after mining a block with a $60–$150 Bitaxe device, highlighting the rare but growing success of hobbyist solo mining",
+          "hot_score": 629.261489,
+          "lev_url": "https://leviathannews.xyz/274495/a-solo-miner-just-hit-a-full-bitcoin-block-with-a-tiny-150-open-source-rig",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260714050954__93vFHFQRCq7.jpg",
+          "url": "https://www.coindesk.com/markets/2026/07/14/solo-btc-miner-makes-usd200-000-using-usd150-equipment"
+        },
+        {
+          "clicks": 54,
           "date": "2026-05-01T09:59:54.107480+00:00",
           "headline": "Riot reports $33M in initial data center revenue as AMD doubles contracted capacity, signaling shift beyond Bitcoin mining into AI infrastructure - The Block",
           "hot_score": 515.4,
@@ -486,7 +565,7 @@
           "url": "https://www.theblock.co/post/399685/riot-33-million-data-center-revenue-debut-amd-doubles-contracted-capacity?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 34,
+          "clicks": 37,
           "date": "2026-04-20T20:54:06.952452+00:00",
           "headline": "Reabold Resources draws UK political heat for plan to burn Yorkshire gas — enough for 10% of national energy — on Bitcoin mining",
           "hot_score": 508.4,
@@ -502,30 +581,12 @@
           "lev_url": "https://leviathannews.xyz/222205/anthropic-taps-bitcoin-miner-hut-8-for-up-to-23gw-of-ai-data-center-power-in-7b-deal",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407054611_Z4zrlaiDPw==.png",
           "url": "https://www.coindesk.com/tech/2026/04/07/bitcoin-miners-face-a-new-rival-for-cheap-power-as-anthropic-signs-multi-gigawatt-compute-deal"
-        },
-        {
-          "clicks": 28,
-          "date": "2026-04-27T18:14:25.875161+00:00",
-          "headline": "Compass Mining partners with SpiderPool to offer 1% Bitcoin mining pool fees.",
-          "hot_score": 351.8,
-          "lev_url": "https://leviathannews.xyz/236780/compass-mining-partners-with-spiderpool-to-offer-1-bitcoin-mining-pool-fees",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260427132916_sF4OdFBAppvy.jpg",
-          "url": "https://www.prnewswire.com/news-releases/compass-mining-partners-with-spiderpool-to-offer-1-bitcoin-mining-pool-fees-302753496.html"
-        },
-        {
-          "clicks": 42,
-          "date": "2026-04-28T11:46:37.479470+00:00",
-          "headline": "Core Scientific pivots from Bitcoin mining to AI, converting Texas site into 1.5GW data center campus with 1GW capacity aimed at leasing demand",
-          "hot_score": 307.0,
-          "lev_url": "https://leviathannews.xyz/236967/core-scientific-pivots-from-bitcoin-mining-to-ai-converting-texas-site-into-15gw-data-center-campus-with-1gw-capacity-aimed-at-leasing-demand",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260428113653_1rrHPB3ZKOsF.webp",
-          "url": "https://crypto.news/core-scientific-shifts-bitcoin-mining-site-toward-1-5gw-ai-data-center-plan/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:49:32.255754+00:00",
+      "as_of": "2026-07-29T22:56:39.905175+00:00",
       "editorial": [
         {
           "count": 17,
@@ -534,6 +595,10 @@
         {
           "count": 11,
           "source": "theblock.co"
+        },
+        {
+          "count": 7,
+          "source": "coindesk.com"
         },
         {
           "count": 6,
@@ -546,10 +611,6 @@
         {
           "count": 5,
           "source": "dlnews.com"
-        },
-        {
-          "count": 5,
-          "source": "coindesk.com"
         },
         {
           "count": 3,
@@ -580,28 +641,36 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 22,
+          "count": 33,
           "source": "x.com"
         },
         {
-          "count": 15,
+          "count": 20,
           "source": "cointelegraph.com"
         },
         {
-          "count": 12,
+          "count": 14,
           "source": "decrypt.co"
         },
         {
-          "count": 9,
+          "count": 12,
           "source": "theblock.co"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "financefeeds.com"
         },
         {
-          "count": 3,
+          "count": 4,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 4,
           "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "nst.com.my"
         },
         {
           "count": 2,
@@ -612,20 +681,12 @@
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 2,
-          "source": "thestreet.com"
-        },
-        {
           "count": 1,
           "source": "forbes.com"
         },
         {
           "count": 1,
           "source": "timesofindia.indiatimes.com"
-        },
-        {
-          "count": 1,
-          "source": "wsj.com"
         }
       ],
       "universe_distinct": 16
@@ -639,25 +700,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:19.103881+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.232,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0256,
-        "lift_log": 2.146,
-        "score": 0.2319,
-        "shared": 138
-      },
-      "rationale": "Bitcoin mining is the process of securing and minting Bitcoin.",
-      "relation_type": "category",
-      "slug": "bitcoin",
-      "source": "cotag",
-      "tag_name": "Bitcoin",
-      "title": "Bitcoin, Explained",
-      "weight": 23
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "bitcoin-mining",
   "tag_name": "Bitcoin Mining",

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:10:08.961573+00:00",
+      "as_of": "2026-07-29T22:58:14.720494+00:00",
       "newsroom_total": 41,
-      "overall_share": 84,
+      "overall_share": 77,
       "provenance": "data",
       "series": [
         {
@@ -113,62 +113,103 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 4
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 4
         }
       ],
-      "total_universe": 49,
-      "universe_total": 8
+      "total_universe": 53,
+      "universe_total": 12
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:10:08.625234+00:00",
+      "as_of": "2026-07-29T22:58:14.499917+00:00",
       "edges": [
         {
+          "confidence": 0.293,
+          "description": "Observed together in Leviathan's approved coverage.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "digital-asset-treasury",
-          "phrase": "Digital Asset Treasury is a specific type of treasury management.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": null,
+          "phrase": "Observed together in Leviathan's approved coverage.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 29
         },
         {
+          "confidence": 0.215,
+          "description": "Co-covered in 8 approved stories; most recently October 2025.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "digital-asset-treasury",
-          "phrase": "Strategy is a related concept but not directly a product or protocol.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2025-10-29",
+          "phrase": "Co-covered in 8 approved stories; most recently October 2025.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "strategy",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 22
         },
         {
+          "confidence": 0.171,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "digital-asset-treasury",
-          "phrase": "Leverage is a core DeFi mechanism used in treasury management.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "leverage",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 17
         },
         {
+          "confidence": 0.161,
+          "description": "Co-covered in 3 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "digital-asset-treasury",
-          "phrase": "Bitcoin Treasury is a comparable approach focusing on Bitcoin.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 3 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin-treasury",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.126,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "digital-asset-treasury",
-          "phrase": "Bitcoin is a foundational asset for digital asset treasuries.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 13
         }
       ],
@@ -182,42 +223,62 @@
         },
         {
           "center": false,
+          "confidence": 0.293,
           "name": "Treasury",
+          "observed_at": null,
           "slug": "treasury",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 29
         },
         {
           "center": false,
+          "confidence": 0.215,
           "name": "Strategy",
+          "observed_at": "2025-10-29",
           "slug": "strategy",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 22
         },
         {
           "center": false,
+          "confidence": 0.171,
           "name": "Leverage",
+          "observed_at": null,
           "slug": "leverage",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 17
         },
         {
           "center": false,
+          "confidence": 0.161,
           "name": "Bitcoin Treasury",
+          "observed_at": null,
           "slug": "bitcoin-treasury",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.126,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 13
         }
       ],
@@ -287,16 +348,16 @@
     },
     "reader_signal": {
       "article_count": 41,
-      "as_of": "2026-07-01T12:10:09.453122+00:00",
+      "as_of": "2026-07-29T22:58:15.714704+00:00",
       "most_clicked": {
-        "clicks": 508,
+        "clicks": 512,
         "date": "2023-08-25T13:16:33.141141+00:00",
         "headline": "US Treasury Department issues proposed regulations for reporting digital asset transactions. ",
         "lev_url": "https://leviathannews.xyz/2339/us-treasury-department-issues-proposed-regulations-for-reporting-digital-asset-transactions"
       },
       "provenance": "data",
       "top_decile_share": 33,
-      "total_clicks": 2432
+      "total_clicks": 2502
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:50:55.046270+00:00",
@@ -381,10 +442,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:10:09.368489+00:00",
+      "as_of": "2026-07-29T22:58:15.707873+00:00",
       "items": [
         {
-          "clicks": 58,
+          "clicks": 63,
           "date": "2026-05-30T13:09:14.529044+00:00",
           "headline": "Crypto treasury firms pivot to dilutive preferreds and PIPEs as falling prices choke off easy ATM raises",
           "hot_score": 743.475362,
@@ -393,7 +454,7 @@
           "url": "https://www.ft.com/content/0c91bb8d-92bb-4701-988d-12855543ab2d"
         },
         {
-          "clicks": 28,
+          "clicks": 30,
           "date": "2026-04-17T22:44:09.041599+00:00",
           "headline": "Boyaa Interactive, Asia's third-largest corporate BTC holder, proposes $70M crypto treasury mandate earmarked mainly for Bitcoin",
           "hot_score": 586.288376,
@@ -402,7 +463,7 @@
           "url": "https://x.com/btctreasuries/status/2045215719026237801"
         },
         {
-          "clicks": 94,
+          "clicks": 96,
           "date": "2026-03-20T08:57:01.135453+00:00",
           "headline": "Sono Group abandons core solar business for crypto treasury gamble",
           "hot_score": 263.759874,
@@ -411,7 +472,7 @@
           "url": "https://ir.sonomotors.com/news-releases/news-release-details/sono-group-nv-announces-strategic-evolution-adoption-digital"
         },
         {
-          "clicks": 30,
+          "clicks": 32,
           "date": "2026-05-07T15:31:36.591592+00:00",
           "headline": "Treasure Global launches ethereum-based digital asset treasury with BitGo as licensed custody provider.",
           "hot_score": 183.354926,
@@ -420,7 +481,7 @@
           "url": "https://www.globenewswire.com/news-release/2026/05/07/3289902/0/en/treasure-global-establishes-digital-asset-treasury-anchored-in-ethereum-as-core-blockchain-infrastructure-asset-with-bitgo-as-licensed-custody-provider.html?_gl=1*fvubpr*_up*MQ..*_ga*MTMxMjM0ODUyNy4xNzc4MTU0OTg2*_ga_B6167QB2TF*czE3NzgxNTQ5ODYkbzEkZzAkdDE3NzgxNTQ5ODYkajYwJGwwJGg5NDk2MTEzODU.*_ga_ERWPGTJ5X8*czE3NzgxNTQ5ODYkbzEkZzAkdDE3NzgxNTQ5ODYkajYwJGwwJGgw"
         },
         {
-          "clicks": 61,
+          "clicks": 64,
           "date": "2026-01-06T21:25:49.671698+00:00",
           "headline": "MSCI will not exclude digital asset treasury companies from indexes",
           "hot_score": 94.275239,
@@ -429,7 +490,7 @@
           "url": "https://x.com/Stocktwits/status/2008650116606160923"
         },
         {
-          "clicks": 50,
+          "clicks": 52,
           "date": "2025-12-02T10:55:15.705867+00:00",
           "headline": "Digital asset treasury inflows plunged to $1.32B in November the weakest month of 2025 as the corporate treasury boom cools, with Bitcoin firms driving $1.06B of the total while Ether treasuries slipped into $37M of outflows despite continued BitMine accumulation",
           "hot_score": 84.527715,
@@ -438,7 +499,7 @@
           "url": "https://cointelegraph.com/news/dat-inflows-2025-low-as-stocks-sell-off"
         },
         {
-          "clicks": 47,
+          "clicks": 48,
           "date": "2026-01-16T16:39:54.944308+00:00",
           "headline": "How Digital Asset Treasury firms must evolve from passive token-holding shells into cash-flow-backed, actively value-creating “fix-it-men” that control, redesign, and compound crypto assets on their balance sheets in 2026.",
           "hot_score": 73.310686,
@@ -459,7 +520,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:10:09.282843+00:00",
+      "as_of": "2026-07-29T22:58:15.688908+00:00",
       "editorial": [
         {
           "count": 7,
@@ -514,7 +575,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 3,
+          "count": 5,
           "source": "x.com"
         },
         {
@@ -522,15 +583,19 @@
           "source": "crowdfundinsider.com"
         },
         {
+          "count": 2,
+          "source": "wsj.com"
+        },
+        {
           "count": 1,
           "source": "dlnews.com"
         },
         {
           "count": 1,
-          "source": "wsj.com"
+          "source": "barrons.com"
         }
       ],
-      "universe_distinct": 4
+      "universe_distinct": 5
     }
   },
   "official_links": [],
@@ -541,42 +606,7 @@
     "source": "sonnet_websearch",
     "updated_at": "2026-07-28T22:36:27.584404+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.215,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0081,
-        "lift_log": 2.402,
-        "score": 0.2151,
-        "shared": 8
-      },
-      "rationale": "Strategy is a related concept but not directly a product or protocol.",
-      "relation_type": "peer",
-      "slug": "strategy",
-      "source": "cotag",
-      "tag_name": "Strategy",
-      "title": "Strategy, Explained",
-      "weight": 22
-    },
-    {
-      "confidence": 0.293,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0333,
-        "lift_log": 3.803,
-        "score": 0.2929,
-        "shared": 17
-      },
-      "rationale": "Digital Asset Treasury is a specific type of treasury management.",
-      "relation_type": "category",
-      "slug": "treasury",
-      "source": "cotag",
-      "tag_name": "Treasury",
-      "title": "Treasury, Explained",
-      "weight": 29
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "digital-asset-treasury",
   "tag_name": "Digital Asset Treasury",

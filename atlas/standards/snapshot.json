@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:10:13.981590+00:00",
-      "newsroom_total": 31,
-      "overall_share": 28,
+      "as_of": "2026-07-29T23:04:55.314799+00:00",
+      "newsroom_total": 32,
+      "overall_share": 23,
       "provenance": "data",
       "series": [
         {
@@ -130,63 +130,104 @@
           "ed_share": 0,
           "month": "2026-06",
           "newsroom": 0,
-          "universe": 18
+          "universe": 19
+        },
+        {
+          "ed_share": 4,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 24
         }
       ],
-      "total_universe": 112,
-      "universe_total": 81
+      "total_universe": 138,
+      "universe_total": 106
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:10:12.644721+00:00",
+      "as_of": "2026-07-29T23:04:54.769413+00:00",
       "edges": [
         {
+          "confidence": 0.25,
+          "description": "Co-covered in 4 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "standards",
-          "phrase": "Standards define rules for tokenization processes.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-26",
+          "phrase": "Co-covered in 4 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "tokenization",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.202,
+          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "standards",
-          "phrase": "Standards include security protocols and best practices.",
-          "relation_type": "category",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-03-17",
+          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "security",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.199,
+          "description": "Co-covered in 5 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "standards",
-          "phrase": "Options are financial instruments with their own standards.",
-          "relation_type": "peer",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 5 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "options",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.162,
+          "description": "Co-covered in 4 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "standards",
-          "phrase": "Standards govern the classification and trading of securities.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 4 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "securities",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         },
         {
+          "confidence": 0.0,
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
           "from": "standards",
+          "observed_at": null,
           "phrase": "ETFs",
           "relation_type": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "etfs",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
@@ -200,42 +241,62 @@
         },
         {
           "center": false,
+          "confidence": 0.25,
           "name": "Tokenization",
+          "observed_at": "2026-03-26",
           "slug": "tokenization",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.202,
           "name": "Security",
+          "observed_at": "2026-03-17",
           "slug": "security",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.199,
           "name": "Options",
+          "observed_at": null,
           "slug": "options",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.162,
           "name": "Securities",
+          "observed_at": null,
           "slug": "securities",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         },
         {
           "center": false,
+          "confidence": 0.0,
           "name": "ETFs",
+          "observed_at": null,
           "slug": "etfs",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
@@ -292,17 +353,17 @@
       "source": "https://www.sec.gov/newsroom/press-releases/2025-121-sec-approves-generic-listing-standards-commodity-based-trust-shares"
     },
     "reader_signal": {
-      "article_count": 31,
-      "as_of": "2026-07-01T12:10:16.006435+00:00",
+      "article_count": 32,
+      "as_of": "2026-07-29T23:04:55.969014+00:00",
       "most_clicked": {
-        "clicks": 215,
-        "date": "2023-11-17T09:45:09.374871+00:00",
-        "headline": " IOSCO publishes crypto markets policy recommendations to address global regulatory risks. Global securities standards setter releases guidelines to manage risks from crypto asset service providers.",
-        "lev_url": "https://leviathannews.xyz/3339/iosco-publishes-crypto-markets-policy-recommendations-to-address-global-regulatory-risks-global-securities-standards-setter-releases-guidelines-to-manage-risks-from-crypto-asset-se"
+        "clicks": 234,
+        "date": "2025-05-08T09:22:53.760323+00:00",
+        "headline": "Bitcoin core developers push for clear, minimal governance standards amid ongoing debate over expanding use cases.",
+        "lev_url": "https://leviathannews.xyz/11123/bitcoin-core-developers-push-for-clear-minimal-governance-standards-amid-ongoing-debate-over-expanding-use-cases"
       },
       "provenance": "data",
-      "top_decile_share": 27,
-      "total_clicks": 2001
+      "top_decile_share": 28,
+      "total_clicks": 2135
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:04:59.923578+00:00",
@@ -387,10 +448,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:10:15.919807+00:00",
+      "as_of": "2026-07-29T23:04:55.963985+00:00",
       "items": [
         {
-          "clicks": 47,
+          "clicks": 50,
           "date": "2025-12-15T00:06:04.651920+00:00",
           "headline": "ZachXBT accuses edgeX of MEXC cartel ties in DeFi clash. The on-chain investigator pointed to suspicious volume surges on edgeX, suggesting fake trading activity and connections to manipulative networks tied to the MEXC exchange. edgeX co-founder KF.edge quickly denied the claims, stressing their partnership with Amber Group and commitment to professional standards.",
           "hot_score": 70.571677,
@@ -399,7 +460,7 @@
           "url": "https://x.com/zachxbt/status/2000184449493827649"
         },
         {
-          "clicks": 43,
+          "clicks": 45,
           "date": "2025-12-03T12:57:25.374374+00:00",
           "headline": "Global crypto regulation tightened in 2025 as the US shifted toward clearer rules and Europe fully enforced MiCA, pushing exchanges toward stricter licensing. Traders now face tougher KYC, tax reporting, and stablecoin compliance standards.",
           "hot_score": 69.971677,
@@ -408,7 +469,7 @@
           "url": "https://cryptopotato.com/crypto-exchange-regulations/"
         },
         {
-          "clicks": 39,
+          "clicks": 43,
           "date": "2025-12-07T15:33:34.478885+00:00",
           "headline": "South Korea plans bank-level liability for crypto exchanges after the Upbit hack, requiring no-fault compensation, tougher IT standards, and fines up to 3% of revenue for security failures.",
           "hot_score": 51.876629,
@@ -426,7 +487,7 @@
           "url": "https://x.com/i/status/2000368060235198680"
         },
         {
-          "clicks": 27,
+          "clicks": 30,
           "date": "2025-12-06T09:58:39.587256+00:00",
           "headline": "GBBC’s GSMI 6.0 Report Warns That DeFi’s Next Era Hinges on Clear Governance Standards, True Decentralization, and User Protection Frameworks.",
           "hot_score": 36.520591,
@@ -435,16 +496,7 @@
           "url": "https://assets.ctfassets.net/so75yocayyva/6Jf66pdOBJrDQAJPl098e4/4de6fb57fbe2509cde36ea832bb05e6a/DeFi_-_GSMI_6.0.pdf"
         },
         {
-          "clicks": 215,
-          "date": "2023-11-17T09:45:09.374871+00:00",
-          "headline": " IOSCO publishes crypto markets policy recommendations to address global regulatory risks. Global securities standards setter releases guidelines to manage risks from crypto asset service providers.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/3339/iosco-publishes-crypto-markets-policy-recommendations-to-address-global-regulatory-risks-global-securities-standards-setter-releases-guidelines-to-manage-risks-from-crypto-asset-se",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://www.coindesk.com/policy/2023/11/17/global-standards-setter-for-securities-regulation-publishes-crypto-markets-policy-recommendations/"
-        },
-        {
-          "clicks": 182,
+          "clicks": 234,
           "date": "2025-05-08T09:22:53.760323+00:00",
           "headline": "Bitcoin core developers push for clear, minimal governance standards amid ongoing debate over expanding use cases.",
           "hot_score": 0.0,
@@ -453,7 +505,16 @@
           "url": "https://blockworks.co/news/bitcoin-op-return-ordinals-miners-chain-data"
         },
         {
-          "clicks": 151,
+          "clicks": 219,
+          "date": "2023-11-17T09:45:09.374871+00:00",
+          "headline": " IOSCO publishes crypto markets policy recommendations to address global regulatory risks. Global securities standards setter releases guidelines to manage risks from crypto asset service providers.",
+          "hot_score": 0.0,
+          "lev_url": "https://leviathannews.xyz/3339/iosco-publishes-crypto-markets-policy-recommendations-to-address-global-regulatory-risks-global-securities-standards-setter-releases-guidelines-to-manage-risks-from-crypto-asset-se",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
+          "url": "https://www.coindesk.com/policy/2023/11/17/global-standards-setter-for-securities-regulation-publishes-crypto-markets-policy-recommendations/"
+        },
+        {
+          "clicks": 153,
           "date": "2025-02-19T09:56:00.383866+00:00",
           "headline": "Great article from our friends at Rekt.Even by the standards of crypto's political meme coins, this weekend's LIBRA launch redefined what's possible in the art of the rug pull.",
           "hot_score": 0.0,
@@ -465,10 +526,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:10:15.818435+00:00",
+      "as_of": "2026-07-29T23:04:55.951148+00:00",
       "editorial": [
         {
-          "count": 5,
+          "count": 6,
           "source": "x.com"
         },
         {
@@ -520,11 +581,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 58,
+          "count": 74,
           "source": "x.com"
         },
         {
-          "count": 5,
+          "count": 6,
           "source": "federalregister.gov"
         },
         {
@@ -538,6 +599,10 @@
         {
           "count": 2,
           "source": "listingcenter.nasdaq.com"
+        },
+        {
+          "count": 2,
+          "source": "decrypt.co"
         },
         {
           "count": 1,
@@ -557,18 +622,14 @@
         },
         {
           "count": 1,
+          "source": "cantonnews.org"
+        },
+        {
+          "count": 1,
           "source": "multiversx.com"
-        },
-        {
-          "count": 1,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 1,
-          "source": "sec.gov"
         }
       ],
-      "universe_distinct": 16
+      "universe_distinct": 23
     }
   },
   "official_links": [],
@@ -579,42 +640,7 @@
     "source": "pplx_sonar",
     "updated_at": "2026-07-28T22:36:57.809746+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.202,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0059,
-        "lift_log": 2.154,
-        "score": 0.2022,
-        "shared": 3
-      },
-      "rationale": "Standards include security protocols and best practices.",
-      "relation_type": "category",
-      "slug": "security",
-      "source": "cotag",
-      "tag_name": "Security",
-      "title": "Security, Explained",
-      "weight": 20
-    },
-    {
-      "confidence": 0.25,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0141,
-        "lift_log": 3.111,
-        "score": 0.25,
-        "shared": 4
-      },
-      "rationale": "Standards define rules for tokenization processes.",
-      "relation_type": "category",
-      "slug": "tokenization",
-      "source": "cotag",
-      "tag_name": "Tokenization",
-      "title": "Tokenization, Explained",
-      "weight": 25
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "standards",
   "tag_name": "Standards",

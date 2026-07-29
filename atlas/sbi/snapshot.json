@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:03:57.794766+00:00",
-      "newsroom_total": 22,
-      "overall_share": 27,
+      "as_of": "2026-07-29T23:04:08.336263+00:00",
+      "newsroom_total": 33,
+      "overall_share": 20,
       "provenance": "data",
       "series": [
         {
@@ -71,62 +71,103 @@
           "month": "2026-06",
           "newsroom": 4,
           "universe": 27
+        },
+        {
+          "ed_share": 14,
+          "month": "2026-07",
+          "newsroom": 11,
+          "universe": 69
         }
       ],
-      "total_universe": 82,
-      "universe_total": 60
+      "total_universe": 162,
+      "universe_total": 129
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:03:57.410769+00:00",
+      "as_of": "2026-07-29T23:04:08.147623+00:00",
       "edges": [
         {
+          "confidence": 0.398,
+          "description": "Co-covered in 77 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sbi",
-          "phrase": "SBI is a Japanese financial conglomerate operating primarily in Japan.",
-          "relation_type": "ecosystem",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-24",
+          "phrase": "Co-covered in 77 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "japan",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 40
         },
         {
+          "confidence": 0.254,
+          "description": "Co-covered in 4 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sbi",
-          "phrase": "Sony is another major Japanese conglomerate with financial services.",
-          "relation_type": "peer",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-04-09",
+          "phrase": "Co-covered in 4 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "sony",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 25
         },
         {
+          "confidence": 0.201,
+          "description": "Co-covered in 31 approved stories; most recently July 2026.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sbi",
-          "phrase": "SBI has developed and issued stablecoins like SBI Stablecoin.",
-          "relation_type": "product",
-          "source": "published_relation",
-          "tier": "close",
+          "observed_at": "2026-07-17",
+          "phrase": "Co-covered in 31 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "source": "observed_relation",
+          "tier": "related",
           "to": "stablecoins",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 20
         },
         {
+          "confidence": 0.186,
+          "description": "Co-covered in 8 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sbi",
-          "phrase": "SBI is an investment-focused financial group.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 8 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "investment",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 19
         },
         {
+          "confidence": 0.156,
+          "description": "Co-covered in 10 approved stories.",
+          "description_source": "evidence",
           "dir": "out",
           "from": "sbi",
-          "phrase": "SBI has made notable acquisitions in crypto and finance.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": null,
+          "phrase": "Co-covered in 10 approved stories.",
+          "relation_type": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "acquisition",
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 16
         }
       ],
@@ -140,42 +181,62 @@
         },
         {
           "center": false,
+          "confidence": 0.398,
           "name": "Japan",
+          "observed_at": "2026-07-24",
           "slug": "japan",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 40
         },
         {
           "center": false,
+          "confidence": 0.254,
           "name": "Sony",
+          "observed_at": "2026-04-09",
           "slug": "sony",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 25
         },
         {
           "center": false,
+          "confidence": 0.201,
           "name": "Stablecoins",
+          "observed_at": "2026-07-17",
           "slug": "stablecoins",
-          "source": "published_relation",
-          "tier": "close",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 20
         },
         {
           "center": false,
+          "confidence": 0.186,
           "name": "Investment",
+          "observed_at": null,
           "slug": "investment",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 19
         },
         {
           "center": false,
+          "confidence": 0.156,
           "name": "Acquisition",
+          "observed_at": null,
           "slug": "acquisition",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
+          "verified": false,
+          "verified_at": null,
           "weight": 16
         }
       ],
@@ -244,17 +305,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 22,
-      "as_of": "2026-07-01T12:03:58.285821+00:00",
+      "article_count": 33,
+      "as_of": "2026-07-29T23:04:08.647412+00:00",
       "most_clicked": {
-        "clicks": 221,
+        "clicks": 224,
         "date": "2023-12-11T15:43:19.190242+00:00",
         "headline": "Japan's SBI bank and Saudi Aramco form an innovative alliance in the realm of digital asset investments.",
         "lev_url": "https://leviathannews.xyz/3560/japans-sbi-bank-and-saudi-aramco-form-an-innovative-alliance-in-the-realm-of-digital-asset-investments"
       },
       "provenance": "data",
-      "top_decile_share": 31,
-      "total_clicks": 1385
+      "top_decile_share": 33,
+      "total_clicks": 1886
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:12:32.923920+00:00",
@@ -339,19 +400,46 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:03:58.206605+00:00",
+      "as_of": "2026-07-29T23:04:08.642304+00:00",
       "items": [
         {
-          "clicks": 21,
-          "date": "2026-06-28T15:17:45.350235+00:00",
-          "headline": "SBI's $289M acquisition of Bitbank signals a new phase of consolidation in Japan's crypto industry as regulation pushes exchanges toward scale and institutional strength",
-          "hot_score": 1439.508895,
-          "lev_url": "https://leviathannews.xyz/264187/the-investment-bank-said-the-purchase-of-japanese-crypto-exchange-bitbank-is-a-bet-on-regulated-scale-as-sweeping-reforms-reshape-the-countrys-digital-asset-market",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260628150157_ZQNDwaySQLj_.jpg",
-          "url": "https://www.coindesk.com/business/2026/06/28/sbi-s-usd289-million-bitbank-deal-is-symptomatic-of-japan-s-crypto-consolidation-architect-partners"
+          "clicks": 31,
+          "date": "2026-07-29T07:49:57.134903+00:00",
+          "headline": "SBI rebrands security subsidiary as Digital Practice to build Canton Network financial infrastructure",
+          "hot_score": 2937.869933,
+          "lev_url": "https://leviathannews.xyz/283805/sbi-rebrands-security-subsidiary-as-digital-practice-to-build-canton-network-financial-infrastructure",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729053840_FmuEBtIa1eO0.jpg",
+          "url": "https://www.sbigroup.co.jp/english/news/pdf/2026/0728_a_en.pdf"
         },
         {
-          "clicks": 25,
+          "clicks": 60,
+          "date": "2026-07-24T12:28:30.514484+00:00",
+          "headline": "SBI-owned crypto market maker B2C2 explored sale talks with multiple potential buyers over the past 18 months, though valuation disagreements stalled deals",
+          "hot_score": 1000.153719,
+          "lev_url": "https://leviathannews.xyz/281403/the-sbi-owned-crypto-trading-firm-is-said-to-have-attracted-takeover-interest-from-several-suitors-over-the-past-18-months-but-valuation-has-been-a-sticking-point",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724120238__XwuYlNxLBOi.jpg",
+          "url": "https://www.coindesk.com/business/2026/06/29/crypto-market-maker-b2c2-held-sale-talks-with-multiple-potential-buyers"
+        },
+        {
+          "clicks": 40,
+          "date": "2026-07-16T14:51:37.642367+00:00",
+          "headline": "Ondo and SBI plan tokenized Japanese equities with JPYSC settlement and collateral",
+          "hot_score": 766.646001,
+          "lev_url": "https://leviathannews.xyz/276628/ondo-and-sbi-plan-tokenized-japanese-equities-with-jpysc-settlement-and-collateral",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260716130239_Z4zrlaiDPw==.png",
+          "url": "https://ondo.finance/blog/ondo-partners-with-sbi-group"
+        },
+        {
+          "clicks": 17,
+          "date": "2026-07-02T15:03:21.073846+00:00",
+          "headline": "SBI Crypto winds down Bitcoin mining pool with roughly 2% of network hashrate by July 31",
+          "hot_score": 723.418521,
+          "lev_url": "https://leviathannews.xyz/267627/sbi-crypto-winds-down-bitcoin-mining-pool-with-roughly-2-of-network-hashrate-by-july-31",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260413161059_Z4zrlaiDPw==.png",
+          "url": "https://www.coindesk.com/business/2026/07/02/sbi-crypto-to-shut-down-mining-pool-that-holds-roughly-2-of-bitcoin-s-hashrate"
+        },
+        {
+          "clicks": 31,
           "date": "2026-06-09T10:27:56.787432+00:00",
           "headline": "SBI Shinsei plans BTC, ETH, and XRP vouchers equal to 20% of yen deposit interest",
           "hot_score": 684.540316,
@@ -360,84 +448,61 @@
           "url": "https://www.nikkei.com/article/DGXZQOUB012860R00C26A6000000/"
         },
         {
-          "clicks": 21,
+          "clicks": 43,
+          "date": "2026-07-13T07:28:42.431688+00:00",
+          "headline": "SBI targets July launch for Japan's first JPYSC lending service with 3% annual yield",
+          "hot_score": 650.074405,
+          "lev_url": "https://leviathannews.xyz/273765/sbi-targets-july-launch-for-japans-first-jpysc-lending-service-with-3-annual-yield",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260713062355_Z4zrlaiDPw==.png",
+          "url": "https://www.nikkei.com/article/DGXZQOUB120L60S6A710C2000000/"
+        },
+        {
+          "clicks": 43,
+          "date": "2026-07-13T07:37:30.385200+00:00",
+          "headline": "Japan's SBI Holdings is building an end-to-end onchain finance empire through crypto acquisitions, stablecoins and tokenization bets across Asia",
+          "hot_score": 648.701097,
+          "lev_url": "https://leviathannews.xyz/273792/the-funding-why-japans-sbi-holdings-is-investing-big-in-crypto-20260713-2",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260713073037_ZI7LrgGX2gJj.jpg",
+          "url": "https://www.theblock.co/post/407977/the-funding-why-japan-sbi-holdings-is-investing-big-in-crypto?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 26,
           "date": "2026-06-24T13:54:47.253263+00:00",
           "headline": "SBI launches Japan's first trust bank-backed yen stablecoin JPYSC, limited to SBI VC Trade",
-          "hot_score": 559.369157,
+          "hot_score": 549.346826,
           "lev_url": "https://leviathannews.xyz/261740/sbi-launches-japans-first-trust-bank-backed-yen-stablecoin-jpysc-limited-to-sbi-vc-trade",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625030006_lu6YIRi1H6Mc.jpg",
           "url": "https://www.theblock.co/post/405952/japan-sbi-group-launches-jpysc"
-        },
-        {
-          "clicks": 23,
-          "date": "2026-06-25T15:12:38.197569+00:00",
-          "headline": "SBI agrees to acquire Bitbank for ¥46.7B, lifting crypto custody assets to ¥1.1T",
-          "hot_score": 544.898625,
-          "lev_url": "https://leviathannews.xyz/262597/sbi-agrees-to-acquire-bitbank-for-467b-lifting-crypto-custody-assets-to-11t",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260625125631_pRxU51xTWhC_.jpg",
-          "url": "https://www.sbigroup.co.jp/news/2026/0625_16429.html"
-        },
-        {
-          "clicks": 35,
-          "date": "2026-05-16T23:41:15.078914+00:00",
-          "headline": "Fasset raises $51M Series B from SBI and Investcorp to scale stablecoin rails across emerging markets",
-          "hot_score": 506.630587,
-          "lev_url": "https://leviathannews.xyz/243705/fasset-raises-51m-series-b-from-sbi-and-investcorp-to-scale-stablecoin-rails-across-emerging-markets",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260516220244_Z4zrlaiDPw==.png",
-          "url": "https://www.fasset.com/blog/fasset-has-raised-a-51-million-series-b-round"
-        },
-        {
-          "clicks": 34,
-          "date": "2026-05-17T07:39:19.575851+00:00",
-          "headline": "Japan's SBI and Rakuten plan crypto investment trusts as 11 brokers prepare for 2028",
-          "hot_score": 503.202444,
-          "lev_url": "https://leviathannews.xyz/243820/japans-sbi-and-rakuten-plan-crypto-investment-trusts-as-11-brokers-prepare-for-2028",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260517072523_Z4zrlaiDPw==.png",
-          "url": "https://www.nikkei.com/article/DGXZQOUB153GC0V10C26A4000000/"
-        },
-        {
-          "clicks": 176,
-          "date": "2026-02-22T10:01:17.937906+00:00",
-          "headline": "Japan's SBI to issue 10 billion yen onchain bond with XRP rewards for retail investors.",
-          "hot_score": 243.526987,
-          "lev_url": "https://leviathannews.xyz/31907/japans-sbi-to-issue-10-billion-yen-onchain-bond-with-xrp-rewards-for-retail-investors",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260222025052_Y5kwD82bp5A=.jpg",
-          "url": "https://archive.ph/7709J"
-        },
-        {
-          "clicks": 62,
-          "date": "2026-04-01T10:50:37.043537+00:00",
-          "headline": "SBI-backed B2C2 taps Solana as primary stablecoin settlement rail for institutions as TradFi infrastructure shifts onchain",
-          "hot_score": 218.898444,
-          "lev_url": "https://leviathannews.xyz/219157/sbi-backed-b2c2-taps-solana-as-primary-stablecoin-settlement-rail-for-institutions-routing-large-scale-flows-via-high-speed-l1-as-adoption-grows-among-banks-and-fintech-giants",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401102635_TQm5ihTvZWZJ.jpg",
-          "url": "https://www.theblock.co/post/395985/b2c2-solana-institutional-stablecoin-network-sbi-holdings?utm_source=twitter&utm_medium=social"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:03:58.119680+00:00",
+      "as_of": "2026-07-29T23:04:08.631212+00:00",
       "editorial": [
         {
-          "count": 5,
+          "count": 6,
           "source": "theblock.co"
         },
         {
-          "count": 2,
+          "count": 4,
+          "source": "sbigroup.co.jp"
+        },
+        {
+          "count": 3,
           "source": "startale.com"
         },
         {
-          "count": 2,
-          "source": "sbigroup.co.jp"
+          "count": 3,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 3,
+          "source": "nikkei.com"
         },
         {
           "count": 2,
           "source": "archive.ph"
-        },
-        {
-          "count": 2,
-          "source": "nikkei.com"
         },
         {
           "count": 1,
@@ -462,65 +527,61 @@
         {
           "count": 1,
           "source": "techinasia.com"
-        },
-        {
-          "count": 1,
-          "source": "crypto.news"
         }
       ],
-      "editorial_distinct": 14,
+      "editorial_distinct": 18,
       "provenance": "data",
       "universe": [
         {
-          "count": 36,
+          "count": 75,
           "source": "x.com"
         },
         {
-          "count": 6,
+          "count": 13,
           "source": "theblock.co"
         },
         {
-          "count": 3,
+          "count": 7,
           "source": "cointelegraph.com"
         },
         {
-          "count": 3,
+          "count": 6,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 4,
           "source": "financefeeds.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "startale.com"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "crowdfundinsider.com"
         },
         {
+          "count": 3,
+          "source": "techinasia.com"
+        },
+        {
+          "count": 3,
+          "source": "decrypt.co"
+        },
+        {
           "count": 2,
-          "source": "coindesk.com"
+          "source": "asia.nikkei.com"
+        },
+        {
+          "count": 2,
+          "source": "thestreet.com"
         },
         {
           "count": 1,
           "source": "chiliz.com"
-        },
-        {
-          "count": 1,
-          "source": "forbes.com"
-        },
-        {
-          "count": 1,
-          "source": "asia.nikkei.com"
-        },
-        {
-          "count": 1,
-          "source": "techinasia.com"
-        },
-        {
-          "count": 1,
-          "source": "ripple.com"
         }
       ],
-      "universe_distinct": 13
+      "universe_distinct": 19
     }
   },
   "official_links": [],
@@ -531,59 +592,7 @@
     "source": "opus_websearch",
     "updated_at": "2026-07-28T22:36:53.518238+00:00"
   },
-  "relations": [
-    {
-      "confidence": 0.398,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.1499,
-        "lift_log": 4.841,
-        "score": 0.3976,
-        "shared": 42
-      },
-      "rationale": "SBI is a Japanese financial conglomerate operating primarily in Japan.",
-      "relation_type": "ecosystem",
-      "slug": "japan",
-      "source": "cotag",
-      "tag_name": "Japan",
-      "title": "Japan, Explained",
-      "weight": 40
-    },
-    {
-      "confidence": 0.254,
-      "evidence": {
-        "autolink": false,
-        "jaccard": 0.0436,
-        "lift_log": 5.088,
-        "score": 0.2543,
-        "shared": 4
-      },
-      "rationale": "Sony is another major Japanese conglomerate with financial services.",
-      "relation_type": "peer",
-      "slug": "sony",
-      "source": "cotag",
-      "tag_name": "Sony",
-      "title": "Sony, Explained",
-      "weight": 25
-    },
-    {
-      "confidence": 0.201,
-      "evidence": {
-        "autolink": true,
-        "jaccard": 0.0098,
-        "lift_log": 2.013,
-        "score": 0.201,
-        "shared": 23
-      },
-      "rationale": "SBI has developed and issued stablecoins like SBI Stablecoin.",
-      "relation_type": "product",
-      "slug": "stablecoins",
-      "source": "cotag",
-      "tag_name": "Stablecoins",
-      "title": "Stablecoins, Explained",
-      "weight": 20
-    }
-  ],
+  "relations": [],
   "schema_version": 1,
   "slug": "sbi",
   "tag_name": "SBI",
