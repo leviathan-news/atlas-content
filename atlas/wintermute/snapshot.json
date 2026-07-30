@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:06:45.565885+00:00",
+      "as_of": "2026-07-30T18:33:48.318387+00:00",
       "newsroom_total": 28,
       "overall_share": 53,
       "provenance": "data",
@@ -131,92 +131,123 @@
       "universe_total": 25
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:06:45.350821+00:00",
+      "as_of": "2026-07-30T18:33:47.977385+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.214,
-          "description": "Co-covered in 4 approved stories; most recently June 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "On-chain investigators have documented this pattern extensively: Grayscale-linked addresses reportedly accumulated significant positions in **HYPE** via OTC desks including Wintermute, FalconX, and Coinbase.",
           "from": "wintermute",
           "observed_at": "2026-06-16",
-          "phrase": "Co-covered in 4 approved stories; most recently June 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "otc",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
-          "confidence": 0.193,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "wintermute",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "Bitcoin",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidity",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 19
+          "weight": 10
         },
         {
-          "confidence": 0.174,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "wintermute",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "digital assets",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "evm",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "digital-assets",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 17
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "otc",
+          "relation_type": null,
+          "role": null,
+          "to": "wintermute",
+          "verified": false,
+          "weight": 21
         },
         {
-          "confidence": 0.152,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "wintermute",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "cz",
+          "role": null,
+          "to": "bitcoin",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 15
+          "weight": 13
         },
         {
-          "confidence": 0.14,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "wintermute",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "net-inflows",
+          "role": null,
+          "to": "otc",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 14
+          "weight": 21
         }
       ],
       "nodes": [
@@ -230,6 +261,7 @@
         {
           "center": false,
           "confidence": 0.214,
+          "is_stub": false,
           "name": "OTC",
           "observed_at": "2026-06-16",
           "slug": "otc",
@@ -241,54 +273,60 @@
         },
         {
           "center": false,
-          "confidence": 0.193,
-          "name": "Liquidity",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Bitcoin",
           "observed_at": null,
-          "slug": "liquidity",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.174,
-          "name": "EVM",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Digital Assets",
           "observed_at": null,
-          "slug": "evm",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "digital-assets",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.152,
-          "name": "CZ",
-          "observed_at": null,
-          "slug": "cz",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 15
-        },
-        {
-          "center": false,
-          "confidence": 0.14,
-          "name": "Net Inflows",
-          "observed_at": null,
-          "slug": "net-inflows",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 14
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Galaxy Digital",
+          "shared_neighbors": 2,
+          "slug": "galaxy-digital"
+        },
+        {
+          "is_stub": false,
+          "name": "Investment",
+          "shared_neighbors": 2,
+          "slug": "investment"
+        },
+        {
+          "is_stub": false,
+          "name": "Markets",
+          "shared_neighbors": 2,
+          "slug": "markets"
+        },
+        {
+          "is_stub": false,
+          "name": "Net Inflows",
+          "shared_neighbors": 2,
+          "slug": "net-inflows"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T08:52:33.383030+00:00",
@@ -354,7 +392,7 @@
     },
     "reader_signal": {
       "article_count": 28,
-      "as_of": "2026-07-29T23:06:45.847378+00:00",
+      "as_of": "2026-07-30T18:33:48.711319+00:00",
       "most_clicked": {
         "clicks": 251,
         "date": "2026-02-04T19:47:04.075466+00:00",
@@ -363,7 +401,7 @@
       },
       "provenance": "data",
       "top_decile_share": 17,
-      "total_clicks": 2905
+      "total_clicks": 2906
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:52:33.382952+00:00",
@@ -448,7 +486,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:06:45.843598+00:00",
+      "as_of": "2026-07-30T18:33:48.706528+00:00",
       "items": [
         {
           "clicks": 79,
@@ -526,7 +564,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:06:45.834521+00:00",
+      "as_of": "2026-07-30T18:33:48.694944+00:00",
       "editorial": [
         {
           "count": 15,

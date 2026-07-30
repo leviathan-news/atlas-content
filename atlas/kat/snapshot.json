@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:00:20.967512+00:00",
+      "as_of": "2026-07-30T18:14:57.304131+00:00",
       "newsroom_total": 7,
       "overall_share": 4,
       "provenance": "data",
@@ -59,92 +59,85 @@
       "universe_total": 188
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:00:20.587137+00:00",
+      "as_of": "2026-07-30T18:14:57.088760+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.544,
-          "description": "Co-covered in 27 approved stories; most recently March 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Katana’s KAT token is the native asset of an Ethereum Layer‑2 blockchain purpose‑built for decentralized finance, where users stake KAT into a chain‑wide ve(3,3)-style system to direct liquidity incentives and earn a share of protocol revenue.",
           "from": "kat",
           "observed_at": "2026-03-27",
-          "phrase": "Co-covered in 27 approved stories; most recently March 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "katana",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 54
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
-          "from": "kat",
-          "observed_at": null,
-          "phrase": "fees",
-          "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "fees",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
-        },
-        {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "from": "kat",
-          "observed_at": null,
-          "phrase": "liquidity",
-          "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "liquidity",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
-        },
-        {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "kat",
           "observed_at": null,
           "phrase": "liquidity incentives",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "liquidity-incentives",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "kat",
+          "relation_type": null,
+          "role": null,
+          "to": "katana",
+          "verified": false,
+          "weight": 54
         },
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "from": "kat",
-          "observed_at": null,
-          "phrase": "revenue",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "katana",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "revenue",
+          "role": null,
+          "to": "kat",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 44
         }
       ],
       "nodes": [
@@ -158,6 +151,7 @@
         {
           "center": false,
           "confidence": 0.544,
+          "is_stub": false,
           "name": "Katana",
           "observed_at": "2026-03-27",
           "slug": "katana",
@@ -170,30 +164,7 @@
         {
           "center": false,
           "confidence": 0.0,
-          "name": "Fees",
-          "observed_at": null,
-          "slug": "fees",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Liquidity",
-          "observed_at": null,
-          "slug": "liquidity",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
+          "is_stub": false,
           "name": "Liquidity Incentives",
           "observed_at": null,
           "slug": "liquidity-incentives",
@@ -202,21 +173,19 @@
           "verified": false,
           "verified_at": null,
           "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Revenue",
-          "observed_at": null,
-          "slug": "revenue",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Yearn",
+          "shared_neighbors": 2,
+          "slug": "yearn"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T09:42:57.374160+00:00",
@@ -276,7 +245,7 @@
     },
     "reader_signal": {
       "article_count": 7,
-      "as_of": "2026-07-29T23:00:21.224602+00:00",
+      "as_of": "2026-07-30T18:14:57.568655+00:00",
       "most_clicked": {
         "clicks": 81,
         "date": "2026-03-18T16:06:16.319175+00:00",
@@ -284,8 +253,8 @@
         "lev_url": "https://leviathannews.xyz/211714/katana-launches-its-kat-with-its-chain-wide-ve33-engine-stakers-earn-from-the-pools-they-vote-to-direct-incentives-to-early-stakers-get-founding-staker-status"
       },
       "provenance": "data",
-      "top_decile_share": 19,
-      "total_clicks": 437
+      "top_decile_share": 18,
+      "total_clicks": 438
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:42:57.374071+00:00",
@@ -370,7 +339,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:00:21.217893+00:00",
+      "as_of": "2026-07-30T18:14:57.564792+00:00",
       "items": [
         {
           "clicks": 81,
@@ -382,7 +351,7 @@
           "url": "https://x.com/katana/status/2034278059587612933"
         },
         {
-          "clicks": 47,
+          "clicks": 48,
           "date": "2026-03-12T17:45:40.206769+00:00",
           "headline": "Katana KAT Pre-staking is live. vKAT pre-stakers can earn 3x voting power and rewards for the first 8 weeks. The chain-wide ve(3,3) economy is coming soon",
           "hot_score": 154.406346,
@@ -439,7 +408,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:00:21.204619+00:00",
+      "as_of": "2026-07-30T18:14:57.551134+00:00",
       "editorial": [
         {
           "count": 7,

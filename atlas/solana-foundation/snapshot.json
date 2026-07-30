@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:04:31.602676+00:00",
+      "as_of": "2026-07-30T18:26:43.531375+00:00",
       "newsroom_total": 19,
-      "overall_share": 32,
+      "overall_share": 31,
       "provenance": "data",
       "series": [
         {
@@ -82,99 +82,118 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 11
+          "universe": 12
         }
       ],
-      "total_universe": 60,
-      "universe_total": 41
+      "total_universe": 61,
+      "universe_total": 42
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:04:31.204486+00:00",
+      "as_of": "2026-07-30T18:26:43.114700+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.31,
-          "description": "Co-covered in 37 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "The Solana Foundation is a non-profit organization based in Zug, Switzerland, tasked with advancing the **adoption, decentralization, and security** of the Solana blockchain ecosystem.",
           "from": "solana-foundation",
           "observed_at": "2026-07-15",
-          "phrase": "Co-covered in 37 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "solana",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 31
         },
         {
-          "confidence": 0.159,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "solana-foundation",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "cloud",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
-        },
-        {
-          "confidence": 0.157,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "solana-foundation",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "mastercard",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
-        },
-        {
-          "confidence": 0.135,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "solana-foundation",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "google",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 13
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "solana-foundation",
           "observed_at": null,
-          "phrase": "adoption",
+          "phrase": "decentralization",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "adoption",
+          "to": "decentralization",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "solana-foundation",
+          "observed_at": null,
+          "phrase": "Switzerland",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "switzerland",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "solana",
+          "relation_type": null,
+          "role": null,
+          "to": "solana-foundation",
+          "verified": false,
+          "weight": 21
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "solana-foundation",
+          "relation_type": null,
+          "role": null,
+          "to": "solana",
+          "verified": false,
+          "weight": 31
         }
       ],
       "nodes": [
@@ -188,6 +207,7 @@
         {
           "center": false,
           "confidence": 0.31,
+          "is_stub": false,
           "name": "Solana",
           "observed_at": "2026-07-15",
           "slug": "solana",
@@ -199,46 +219,24 @@
         },
         {
           "center": false,
-          "confidence": 0.159,
-          "name": "cloud",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Decentralization",
           "observed_at": null,
-          "slug": "cloud",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "decentralization",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 16
-        },
-        {
-          "center": false,
-          "confidence": 0.157,
-          "name": "Mastercard",
-          "observed_at": null,
-          "slug": "mastercard",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
-        },
-        {
-          "center": false,
-          "confidence": 0.135,
-          "name": "Google",
-          "observed_at": null,
-          "slug": "google",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 13
+          "weight": 10
         },
         {
           "center": false,
           "confidence": 0.0,
-          "name": "Adoption",
+          "is_stub": false,
+          "name": "Switzerland",
           "observed_at": null,
-          "slug": "adoption",
+          "slug": "switzerland",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -246,7 +244,10 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T09:50:27.651111+00:00",
@@ -312,7 +313,7 @@
     },
     "reader_signal": {
       "article_count": 19,
-      "as_of": "2026-07-29T23:04:31.820665+00:00",
+      "as_of": "2026-07-30T18:26:43.834212+00:00",
       "most_clicked": {
         "clicks": 128,
         "date": "2024-09-11T19:06:07.255689+00:00",
@@ -321,7 +322,7 @@
       },
       "provenance": "data",
       "top_decile_share": 12,
-      "total_clicks": 1109
+      "total_clicks": 1110
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:50:27.651009+00:00",
@@ -406,7 +407,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:04:31.816483+00:00",
+      "as_of": "2026-07-30T18:26:43.828288+00:00",
       "items": [
         {
           "clicks": 37,
@@ -418,7 +419,7 @@
           "url": "https://x.com/i/status/2044038713349722326"
         },
         {
-          "clicks": 30,
+          "clicks": 31,
           "date": "2026-05-20T09:19:46.062584+00:00",
           "headline": "Solana launches new developer training program with three live sessions led by Solana Foundation DevRel, featuring two real apps built live during cohort classes",
           "hot_score": 695.87714,
@@ -484,7 +485,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:04:31.806803+00:00",
+      "as_of": "2026-07-30T18:26:43.817310+00:00",
       "editorial": [
         {
           "count": 13,
@@ -511,7 +512,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 21,
+          "count": 22,
           "source": "x.com"
         },
         {

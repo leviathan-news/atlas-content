@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:43:54.594858+00:00",
-      "newsroom_total": 90,
-      "overall_share": 9,
+      "as_of": "2026-07-30T18:32:39.633888+00:00",
+      "newsroom_total": 94,
+      "overall_share": 7,
       "provenance": "data",
       "series": [
         {
@@ -196,72 +196,75 @@
           "ed_share": 1,
           "month": "2026-06",
           "newsroom": 1,
-          "universe": 188
+          "universe": 189
         },
         {
-          "ed_share": 0,
+          "ed_share": 1,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 6
+          "newsroom": 4,
+          "universe": 302
         }
       ],
-      "total_universe": 960,
-      "universe_total": 870
+      "total_universe": 1261,
+      "universe_total": 1167
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:43:51.892822+00:00",
+      "as_of": "2026-07-30T18:32:39.392217+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "update",
-          "phrase": "Updates often affect liquidity provision in DeFi protocols.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "liquidity",
-          "weight": 17
+          "observed_at": null,
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "update",
-          "phrase": "Alchemy Pay provides fiat-crypto onramp for updates.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "alchemy-pay",
-          "weight": 17
-        },
-        {
-          "dir": "out",
-          "from": "update",
-          "phrase": "Updates frequently include UI changes or improvements.",
-          "relation_type": "product",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "ui",
-          "weight": 15
-        },
-        {
-          "dir": "out",
-          "from": "update",
-          "phrase": "Alchemy provides blockchain infrastructure for updates.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "alchemy",
-          "weight": 14
-        },
-        {
-          "dir": "out",
-          "from": "update",
-          "phrase": "THORChain may undergo updates for cross-chain swaps.",
-          "relation_type": "protocol",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "thorchain",
-          "weight": 13
+          "observed_at": null,
+          "phrase": "regulation",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "regulation",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         }
       ],
+      "intra_edges": [],
       "nodes": [
         {
           "center": true,
@@ -272,46 +275,48 @@
         },
         {
           "center": false,
-          "name": "Liquidity",
-          "slug": "liquidity",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Bitcoin",
+          "observed_at": null,
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Alchemy Pay",
-          "slug": "alchemy-pay",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
-        },
-        {
-          "center": false,
-          "name": "UI",
-          "slug": "ui",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
-        },
-        {
-          "center": false,
-          "name": "Alchemy",
-          "slug": "alchemy",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
-        },
-        {
-          "center": false,
-          "name": "THORChain",
-          "slug": "thorchain",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 13
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Regulation",
+          "observed_at": null,
+          "slug": "regulation",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Jobs",
+          "shared_neighbors": 2,
+          "slug": "jobs"
+        },
+        {
+          "is_stub": false,
+          "name": "Risks",
+          "shared_neighbors": 2,
+          "slug": "risks"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T00:37:02.135294+00:00",
@@ -376,17 +381,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 90,
-      "as_of": "2026-07-01T11:43:56.963861+00:00",
+      "article_count": 94,
+      "as_of": "2026-07-30T18:32:40.143577+00:00",
       "most_clicked": {
-        "clicks": 780,
+        "clicks": 782,
         "date": "2024-03-31T20:46:06.121124+00:00",
         "headline": "Prisma posts update on events, issues new recommendation of 50% cut to protocol emissions",
         "lev_url": "https://leviathannews.xyz/4522/prisma-posts-update-on-events-issues-new-recommendation-of-50-cut-to-protocol-emissions"
       },
       "provenance": "data",
-      "top_decile_share": 34,
-      "total_clicks": 8993
+      "top_decile_share": 33,
+      "total_clicks": 9231
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:37:02.135161+00:00",
@@ -471,10 +476,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:43:56.883112+00:00",
+      "as_of": "2026-07-30T18:32:40.134638+00:00",
       "items": [
         {
-          "clicks": 293,
+          "clicks": 294,
           "date": "2026-03-10T21:09:43.642364+00:00",
           "headline": "Aave suffered about $21M dollars in wrongful liquidations after an automated wstETH oracle cap update from Chaos Labs’ system underpriced collateral, briefly making healthy positions appear undercollateralized",
           "hot_score": 1475.799159,
@@ -483,7 +488,25 @@
           "url": "https://x.com/yieldsandmore/status/2031468808012210538"
         },
         {
-          "clicks": 154,
+          "clicks": 38,
+          "date": "2026-07-24T09:41:58.380646+00:00",
+          "headline": "Robinhood Chain goes live on Phantom, giving users direct access to trade tokens on the network after installing the wallet's newest update",
+          "hot_score": 758.59196,
+          "lev_url": "https://leviathannews.xyz/281286/start-trading-on-robinhood-chain-today-tap-trade-tokens-and-select-robinhood-chain-dont-see-it-make-sure-to-update-phantom-to-the-latest-version",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724093139_wPsjhcE-sGfT.jpg",
+          "url": "https://x.com/phantom/status/2080407189328650729"
+        },
+        {
+          "clicks": 62,
+          "date": "2026-07-04T09:30:21.570566+00:00",
+          "headline": "ASIC secures A$20.5M ASX penalty over misleading blockchain CHESS replacement update",
+          "hot_score": 627.354674,
+          "lev_url": "https://leviathannews.xyz/268578/asic-secures-a205m-asx-penalty-over-misleading-blockchain-chess-replacement-update",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260327125333_Z4zrlaiDPw==.png",
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-143mr-asx-ordered-to-pay-20-5-million-penalty-for-misleading-conduct-relating-to-chess-replacement-project/"
+        },
+        {
+          "clicks": 155,
           "date": "2026-03-17T09:11:32.290174+00:00",
           "headline": "UPDATE: Bybit’s $1.4B hack traced to signer failure as malicious DELEGATECALL transaction rewrote Safe proxy logic after hardware wallet verification was skipped.",
           "hot_score": 618.330712,
@@ -492,7 +515,7 @@
           "url": "https://x.com/i/status/2033574144093380810"
         },
         {
-          "clicks": 34,
+          "clicks": 36,
           "date": "2026-05-16T23:40:35.594429+00:00",
           "headline": "Irys queues Ethereum-Irys bridge transfers while LayerZero update adds verification layers",
           "hot_score": 501.248533,
@@ -501,7 +524,7 @@
           "url": "https://x.com/irys_xyz/status/2055748394057093174"
         },
         {
-          "clicks": 129,
+          "clicks": 131,
           "date": "2026-03-12T20:55:20.056068+00:00",
           "headline": "Update: User loses almost entire $50M USDT trying to buy AAVE via Aave after accepting an extreme slippage warning Stani says which was clearly flagged in the interface, prompting debate and a 600k fee refund pledge",
           "hot_score": 496.283931,
@@ -510,7 +533,7 @@
           "url": "https://x.com/StaniKulechov/status/2032193345414664659"
         },
         {
-          "clicks": 70,
+          "clicks": 74,
           "date": "2026-03-24T09:01:52.859055+00:00",
           "headline": "Delaware files Payment Stablecoin Act mandating 1:1 reserves, banning yield in first banking code update since 1981",
           "hot_score": 484.475874,
@@ -526,33 +549,15 @@
           "lev_url": "https://leviathannews.xyz/219609/update-summary-of-the-driftprotocol-exploit-thus-far-from-oshield_io",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401202659_K5V3e2XPLPmd.jpg",
           "url": "https://x.com/oshield_io/status/2039409973822906387"
-        },
-        {
-          "clicks": 34,
-          "date": "2026-03-11T08:37:55.113935+00:00",
-          "headline": "CROSS Forge Update Unleashes Agent Skills and Token Categories for Epic Gains",
-          "hot_score": 193.202727,
-          "lev_url": "https://leviathannews.xyz/207646/cross-forge-update-unleashes-agent-skills-and-token-categories-for-epic-gains",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260311083726_tp4kgM5Ns4lO.jpg",
-          "url": "https://twitter.com/CROSS_gamechain/status/2031649637472551341"
-        },
-        {
-          "clicks": 44,
-          "date": "2026-03-12T21:03:45.697320+00:00",
-          "headline": "Update: Saylor's Strategy is now estimated to have accumulated 4,038 BTC today via STRC",
-          "hot_score": 160.843323,
-          "lev_url": "https://leviathannews.xyz/209027/update-saylors-strategy-is-now-estimated-to-have-accumulated-4038-btc-today-via-strc",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260312205812_H1hOTxD2P1G_.jpg",
-          "url": "https://x.com/BitcoinMagazine/status/2032186657332465697"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:43:56.669996+00:00",
+      "as_of": "2026-07-30T18:32:40.073649+00:00",
       "editorial": [
         {
-          "count": 54,
+          "count": 56,
           "source": "x.com"
         },
         {
@@ -600,36 +605,44 @@
           "source": "forbes.com"
         }
       ],
-      "editorial_distinct": 32,
+      "editorial_distinct": 34,
       "provenance": "data",
       "universe": [
         {
-          "count": 687,
+          "count": 915,
           "source": "x.com"
         },
         {
-          "count": 46,
+          "count": 59,
           "source": "treeofalpha.com"
         },
         {
-          "count": 13,
+          "count": 17,
+          "source": "wsj.com"
+        },
+        {
+          "count": 14,
           "source": "tools.cdc.gov"
         },
         {
           "count": 12,
-          "source": "wsj.com"
+          "source": "crowdfundinsider.com"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "cointelegraph.com"
         },
         {
           "count": 8,
-          "source": "crowdfundinsider.com"
+          "source": "coindesk.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "theblock.co"
+        },
+        {
+          "count": 5,
+          "source": "news.gala.com"
         },
         {
           "count": 4,
@@ -637,22 +650,14 @@
         },
         {
           "count": 4,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 3,
-          "source": "blog.chromia.com"
-        },
-        {
-          "count": 3,
-          "source": "contentoshome.medium.com"
-        },
-        {
-          "count": 3,
           "source": "decrypt.co"
+        },
+        {
+          "count": 4,
+          "source": "truthsocial.com"
         }
       ],
-      "universe_distinct": 73
+      "universe_distinct": 93
     }
   },
   "official_links": [],

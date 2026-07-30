@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:58:51.980864+00:00",
-      "newsroom_total": 1023,
+      "as_of": "2026-07-30T18:09:08.519890+00:00",
+      "newsroom_total": 1025,
       "overall_share": 42,
       "provenance": "data",
       "series": [
@@ -249,100 +249,145 @@
         {
           "ed_share": 10,
           "month": "2026-07",
-          "newsroom": 37,
-          "universe": 326
+          "newsroom": 39,
+          "universe": 340
         }
       ],
-      "total_universe": 2450,
-      "universe_total": 1427
+      "total_universe": 2466,
+      "universe_total": 1441
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:58:51.432855+00:00",
+      "as_of": "2026-07-30T18:09:08.232804+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.232,
+          "curation_status": "observed",
           "description": "Co-covered in 180 approved stories; most recently July 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "ethereum",
           "observed_at": "2026-07-29",
           "phrase": "Co-covered in 180 approved stories; most recently July 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "eth-foundation",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 23
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.209,
-          "description": "Co-covered in 377 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Conceptually, it extends the idea introduced by Bitcoin—tamper‑resistant shared ledgers secured by cryptography—by adding a fully programmable virtual machine capable of running arbitrary applications, or smart contracts.",
           "from": "ethereum",
           "observed_at": "2026-07-28",
-          "phrase": "Co-covered in 377 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "bitcoin",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
-          "confidence": 0.195,
-          "description": "Co-covered in 301 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "ethereum",
           "observed_at": null,
-          "phrase": "Co-covered in 301 approved stories.",
+          "phrase": "digital assets",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "eth",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "digital-assets",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 20
+          "weight": 10
         },
         {
-          "confidence": 0.18,
-          "description": "Co-covered in 23 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "ethereum",
           "observed_at": null,
-          "phrase": "Co-covered in 23 approved stories.",
+          "phrase": "payments",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "transaction",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "payments",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 18
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ethereum",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 21
         },
         {
-          "confidence": 0.177,
-          "description": "Co-covered in 133 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "ethereum",
-          "observed_at": null,
-          "phrase": "Co-covered in 133 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "vitalik-buterin",
+          "role": null,
+          "to": "eth-foundation",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
+          "weight": 23
         }
       ],
       "nodes": [
@@ -356,6 +401,7 @@
         {
           "center": false,
           "confidence": 0.232,
+          "is_stub": false,
           "name": "ETH Foundation",
           "observed_at": "2026-07-29",
           "slug": "eth-foundation",
@@ -368,6 +414,7 @@
         {
           "center": false,
           "confidence": 0.209,
+          "is_stub": false,
           "name": "Bitcoin",
           "observed_at": "2026-07-28",
           "slug": "bitcoin",
@@ -379,42 +426,60 @@
         },
         {
           "center": false,
-          "confidence": 0.195,
-          "name": "ETH",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Digital Assets",
           "observed_at": null,
-          "slug": "eth",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "digital-assets",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 20
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.18,
-          "name": "Transaction",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Payments",
           "observed_at": null,
-          "slug": "transaction",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "payments",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.177,
-          "name": "Vitalik Buterin",
-          "observed_at": null,
-          "slug": "vitalik-buterin",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 18
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Bitcoin Payments",
+          "shared_neighbors": 2,
+          "slug": "bitcoin-payments"
+        },
+        {
+          "is_stub": false,
+          "name": "BitMine",
+          "shared_neighbors": 2,
+          "slug": "bitmine"
+        },
+        {
+          "is_stub": false,
+          "name": "ETH",
+          "shared_neighbors": 2,
+          "slug": "eth"
+        },
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 2,
+          "slug": "infrastructure"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-25T23:45:34.170251+00:00",
@@ -467,8 +532,8 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 1023,
-      "as_of": "2026-07-29T22:58:53.016102+00:00",
+      "article_count": 1025,
+      "as_of": "2026-07-30T18:09:09.050444+00:00",
       "most_clicked": {
         "clicks": 3197,
         "date": "2025-10-21T11:14:55.756734+00:00",
@@ -477,7 +542,7 @@
       },
       "provenance": "data",
       "top_decile_share": 33,
-      "total_clicks": 91418
+      "total_clicks": 91509
     },
     "reader_threads": {
       "as_of": "2026-06-25T23:45:34.170152+00:00",
@@ -562,7 +627,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:58:52.922243+00:00",
+      "as_of": "2026-07-30T18:09:09.003750+00:00",
       "items": [
         {
           "clicks": 78,
@@ -640,10 +705,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:58:52.905176+00:00",
+      "as_of": "2026-07-30T18:09:08.993365+00:00",
       "editorial": [
         {
-          "count": 415,
+          "count": 416,
           "source": "x.com"
         },
         {
@@ -651,7 +716,7 @@
           "source": "theblock.co"
         },
         {
-          "count": 48,
+          "count": 49,
           "source": "coindesk.com"
         },
         {
@@ -695,7 +760,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 738,
+          "count": 748,
           "source": "x.com"
         },
         {
@@ -707,7 +772,7 @@
           "source": "financefeeds.com"
         },
         {
-          "count": 85,
+          "count": 86,
           "source": "cointelegraph.com"
         },
         {
@@ -719,7 +784,7 @@
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 49,
+          "count": 50,
           "source": "coindesk.com"
         },
         {
@@ -732,15 +797,15 @@
         },
         {
           "count": 11,
-          "source": "fortune.com"
+          "source": "warpcast.com"
         },
         {
           "count": 11,
-          "source": "sec.gov"
+          "source": "thestreet.com"
         },
         {
-          "count": 10,
-          "source": "warpcast.com"
+          "count": 11,
+          "source": "fortune.com"
         }
       ],
       "universe_distinct": 57

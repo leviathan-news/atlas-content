@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:02:49.232218+00:00",
-      "newsroom_total": 36,
-      "overall_share": 69,
+      "as_of": "2026-07-30T18:21:05.743128+00:00",
+      "newsroom_total": 37,
+      "overall_share": 70,
       "provenance": "data",
       "series": [
         {
@@ -103,104 +103,72 @@
           "universe": 4
         },
         {
-          "ed_share": 11,
+          "ed_share": 20,
           "month": "2026-07",
-          "newsroom": 1,
+          "newsroom": 2,
           "universe": 8
         }
       ],
-      "total_universe": 52,
+      "total_universe": 53,
       "universe_total": 16
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:02:48.937597+00:00",
+      "as_of": "2026-07-30T18:21:05.530784+00:00",
       "edges": [
         {
-          "confidence": 0.303,
-          "description": "Co-covered in 18 approved stories; most recently June 2026.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
-          "from": "onchain-liquidity",
-          "observed_at": "2026-06-29",
-          "phrase": "Co-covered in 18 approved stories; most recently June 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidity",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 30
-        },
-        {
-          "confidence": 0.234,
-          "description": "Co-covered in 5 approved stories; most recently March 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "onchain-liquidity",
-          "observed_at": "2026-03-31",
-          "phrase": "Co-covered in 5 approved stories; most recently March 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoin-liquidity",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 23
-        },
-        {
-          "confidence": 0.192,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "onchain-liquidity",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "ledger",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "frxusd",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "ledger",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 19
+          "weight": 10
         },
         {
-          "confidence": 0.152,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "onchain-liquidity",
           "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
+          "phrase": "Solana",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "onchain-data",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "solana",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 15
-        },
-        {
-          "confidence": 0.149,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "onchain-liquidity",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "fx",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 15
+          "weight": 10
         }
       ],
+      "intra_edges": [],
       "nodes": [
         {
           "center": true,
@@ -211,66 +179,35 @@
         },
         {
           "center": false,
-          "confidence": 0.303,
-          "name": "Liquidity",
-          "observed_at": "2026-06-29",
-          "slug": "liquidity",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 30
-        },
-        {
-          "center": false,
-          "confidence": 0.234,
-          "name": "Stablecoin Liquidity",
-          "observed_at": "2026-03-31",
-          "slug": "stablecoin-liquidity",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 23
-        },
-        {
-          "center": false,
-          "confidence": 0.192,
-          "name": "frxUSD",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Ledger",
           "observed_at": null,
-          "slug": "frxusd",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "ledger",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.152,
-          "name": "Onchain Data",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Solana",
           "observed_at": null,
-          "slug": "onchain-data",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "solana",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 15
-        },
-        {
-          "center": false,
-          "confidence": 0.149,
-          "name": "FX",
-          "observed_at": null,
-          "slug": "fx",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 15
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T07:20:04.569070+00:00",
@@ -335,8 +272,8 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 36,
-      "as_of": "2026-07-29T23:02:50.091016+00:00",
+      "article_count": 37,
+      "as_of": "2026-07-30T18:21:06.096521+00:00",
       "most_clicked": {
         "clicks": 178,
         "date": "2025-01-15T20:07:19.551159+00:00",
@@ -344,8 +281,8 @@
         "lev_url": "https://leviathannews.xyz/8703/donald-trump-hasnt-even-taken-office-yet-but-reports-suggest-the-president-elect-is-preparing-sweeping-crypto-friendly-executive-orders-for-day-one-among-them-reversing-restrictive"
       },
       "provenance": "data",
-      "top_decile_share": 22,
-      "total_clicks": 2412
+      "top_decile_share": 21,
+      "total_clicks": 2432
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:20:04.568977+00:00",
@@ -430,7 +367,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:02:50.086214+00:00",
+      "as_of": "2026-07-30T18:21:06.090137+00:00",
       "items": [
         {
           "clicks": 48,
@@ -440,6 +377,15 @@
           "lev_url": "https://leviathannews.xyz/226082/securitize-integrates-with-tron-to-expand-tokenized-real-world-assets-across-one-of-the-largest-blockchain-ecosystems-unlocking-broader-access-to-onchain-securities-and-defi-liquid",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260410142504_twE011HxB8In.jpg",
           "url": "https://x.com/i/status/2042592143014023629"
+        },
+        {
+          "clicks": 20,
+          "date": "2026-07-30T15:08:11.274000+00:00",
+          "headline": "Tower Exchange launches Tower AMM on ARC, boosting onchain liquidity, improving trade execution and laying the groundwork for public liquidity pools",
+          "hot_score": 1297.534615,
+          "lev_url": "https://leviathannews.xyz/284943/were-introducing-tower-amm-our-automated-market-maker-is-now-live-on-arc-bringing-deeper-liquidity-and-better-pricing-across-all-supported-assets-on-tower-exchange-this-laun",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260730145456_bhjBMfH7ULBU.jpg",
+          "url": "https://x.com/towerexchange/status/2082816480521937204"
         },
         {
           "clicks": 62,
@@ -494,24 +440,15 @@
           "lev_url": "https://leviathannews.xyz/217784/midas-raises-50m-series-a-to-launch-an-instant-liquidity-layer-for-onchain-investment-products",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260330115855_kKhsxA_-Sy9t.jpg",
           "url": "https://x.com/MidasRWA/status/2038571950528663559"
-        },
-        {
-          "clicks": 93,
-          "date": "2026-03-07T14:25:23.281926+00:00",
-          "headline": "Helios Finance secures $1M in funding to unlock on-chain Bitcoin liquidity",
-          "hot_score": 109.919306,
-          "lev_url": "https://leviathannews.xyz/44372/helios-finance-secures-1m-in-funding-to-unlock-on-chain-bitcoin-liquidity",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260307141600_jaiJw6coapU=.jpg",
-          "url": "https://x.com/helios_finance/status/2029986872949121427"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:02:50.070711+00:00",
+      "as_of": "2026-07-30T18:21:06.076355+00:00",
       "editorial": [
         {
-          "count": 21,
+          "count": 22,
           "source": "x.com"
         },
         {

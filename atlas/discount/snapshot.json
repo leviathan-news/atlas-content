@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:09:11.745210+00:00",
+      "as_of": "2026-07-30T18:07:57.716273+00:00",
       "newsroom_total": 5,
-      "overall_share": 9,
+      "overall_share": 7,
       "provenance": "data",
       "series": [
         {
@@ -35,63 +35,97 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 18
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 11
         }
       ],
-      "total_universe": 58,
-      "universe_total": 53
+      "total_universe": 69,
+      "universe_total": 64
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:09:11.379158+00:00",
+      "as_of": "2026-07-30T18:07:57.099063+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "discount",
-          "phrase": "Both are DeFi tokens; AAVE is a lending protocol token.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "aave-token",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "discount",
-          "phrase": "Sell-offs can cause price discounts in crypto markets.",
-          "relation_type": "event",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "sell-off",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "discount",
-          "phrase": "Bitcoin is a major crypto asset; discount may refer to price.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "bitcoin",
-          "weight": 15
-        },
-        {
-          "dir": "out",
-          "from": "discount",
-          "phrase": "Binance is an exchange where discounted tokens may trade.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "binance",
-          "weight": 15
-        },
-        {
-          "dir": "out",
-          "from": "discount",
-          "phrase": "derivatives",
+          "observed_at": null,
+          "phrase": "Binance",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "derivatives",
+          "to": "binance",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "discount",
+          "observed_at": null,
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "discount",
+          "relation_type": null,
+          "role": null,
+          "to": "binance",
+          "verified": false,
+          "weight": 15
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "discount",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 15
         }
       ],
       "nodes": [
@@ -104,46 +138,48 @@
         },
         {
           "center": false,
-          "name": "AAVE",
-          "slug": "aave-token",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
-        },
-        {
-          "center": false,
-          "name": "Sell-Off",
-          "slug": "sell-off",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
-        },
-        {
-          "center": false,
-          "name": "Bitcoin",
-          "slug": "bitcoin",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Binance",
+          "observed_at": null,
           "slug": "binance",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
-        },
-        {
-          "center": false,
-          "name": "Derivatives",
-          "slug": "derivatives",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Bitcoin",
+          "observed_at": null,
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Spot Trading",
+          "shared_neighbors": 2,
+          "slug": "spot-trading"
+        },
+        {
+          "is_stub": false,
+          "name": "Stocks",
+          "shared_neighbors": 2,
+          "slug": "stocks"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T08:16:09.019831+00:00",
@@ -209,16 +245,16 @@
     },
     "reader_signal": {
       "article_count": 5,
-      "as_of": "2026-07-01T12:09:12.195992+00:00",
+      "as_of": "2026-07-30T18:07:58.419758+00:00",
       "most_clicked": {
-        "clicks": 83,
+        "clicks": 87,
         "date": "2026-03-26T12:25:12.696641+00:00",
         "headline": "MARA Holdings sells 15,133 BTC for $1.1B, slashes convertible debt by 30% with discounted buyback",
         "lev_url": "https://leviathannews.xyz/216496/mara-holdings-sells-15133-btc-for-11b-slashes-convertible-debt-by-30-with-discounted-buyback"
       },
       "provenance": "data",
-      "top_decile_share": 34,
-      "total_clicks": 244
+      "top_decile_share": 33,
+      "total_clicks": 265
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:16:09.019764+00:00",
@@ -303,19 +339,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:09:12.123418+00:00",
+      "as_of": "2026-07-30T18:07:58.403018+00:00",
       "items": [
         {
-          "clicks": 29,
-          "date": "2026-06-26T07:51:10.444759+00:00",
-          "headline": "Aave founder Stani Kulechov dismisses reports of a Payward stake sale at a 70% discount, saying AAVE isn't for sale as DAO revenue tops $134M annually",
-          "hot_score": 846.496068,
-          "lev_url": "https://leviathannews.xyz/263216/aave-founder-stani-kulechov-says-aave-isnt-for-sale-at-a-70-discount-following-report-of-payward-bid-20260626",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626073241_DCoDf8vQj-zS.jpg",
-          "url": "https://www.theblock.co/post/406252/aave-stani-kulechov-says-aave-isnt-for-sale-at-70-discount-report-payward-bid?utm_source=rss&utm_medium=rss"
-        },
-        {
-          "clicks": 56,
+          "clicks": 59,
           "date": "2026-05-11T06:54:11.632191+00:00",
           "headline": "Australia plans to scrap its 50% capital gains tax discount for crypto, replacing it with an inflation-indexed model that could raise investor tax burdens",
           "hot_score": 626.093382,
@@ -324,7 +351,16 @@
           "url": "https://cointelegraph.com/news/australia-government-eyes-swap-from-cgt-to-inflation-indexation-on-crypto-gains"
         },
         {
-          "clicks": 83,
+          "clicks": 35,
+          "date": "2026-06-26T07:51:10.444759+00:00",
+          "headline": "Aave founder Stani Kulechov dismisses reports of a Payward stake sale at a 70% discount, saying AAVE isn't for sale as DAO revenue tops $134M annually",
+          "hot_score": 547.62862,
+          "lev_url": "https://leviathannews.xyz/263216/aave-founder-stani-kulechov-says-aave-isnt-for-sale-at-a-70-discount-following-report-of-payward-bid-20260626",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626073241_DCoDf8vQj-zS.jpg",
+          "url": "https://www.theblock.co/post/406252/aave-stani-kulechov-says-aave-isnt-for-sale-at-70-discount-report-payward-bid?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 87,
           "date": "2026-03-26T12:25:12.696641+00:00",
           "headline": "MARA Holdings sells 15,133 BTC for $1.1B, slashes convertible debt by 30% with discounted buyback",
           "hot_score": 250.177926,
@@ -333,7 +369,7 @@
           "url": "https://ir.mara.com/news-events/press-releases/detail/1418/mara-holdings-inc-announces-1-0-billion-repurchase-of-0-00-convertible-senior-notes-due-2030-and-2031-and-sale-of-15133-bitcoin"
         },
         {
-          "clicks": 31,
+          "clicks": 34,
           "date": "2026-02-25T15:16:02.531530+00:00",
           "headline": "You Don't Have a Bitcoin Problem. You Have a Psychology Problem.",
           "hot_score": 120.727032,
@@ -342,7 +378,7 @@
           "url": "https://x.com/coinage_x_daic/status/2026665448310231049"
         },
         {
-          "clicks": 45,
+          "clicks": 50,
           "date": "2026-02-18T22:37:40.481567+00:00",
           "headline": "GridPlus celebrates the Lunar New Year with a sale - a $100 dollar discount on the flagship Lattice1 wallet, with 3 SafeCards, for $297 instead of $397! \n\nAvailable until February 24th!",
           "hot_score": 54.533524,
@@ -354,7 +390,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:09:12.044538+00:00",
+      "as_of": "2026-07-30T18:07:58.386692+00:00",
       "editorial": [
         {
           "count": 1,
@@ -381,8 +417,12 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 27,
+          "count": 34,
           "source": "x.com"
+        },
+        {
+          "count": 7,
+          "source": "treeofalpha.com"
         },
         {
           "count": 5,
@@ -390,14 +430,10 @@
         },
         {
           "count": 5,
-          "source": "treeofalpha.com"
-        },
-        {
-          "count": 5,
           "source": "cointelegraph.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "federalreserve.gov"
         },
         {
@@ -429,7 +465,7 @@
           "source": "crowdfundinsider.com"
         }
       ],
-      "universe_distinct": 12
+      "universe_distinct": 13
     }
   },
   "official_links": [],

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:48:51.481463+00:00",
-      "newsroom_total": 31,
-      "overall_share": 3,
+      "as_of": "2026-07-30T18:09:22.811095+00:00",
+      "newsroom_total": 61,
+      "overall_share": 5,
       "provenance": "data",
       "series": [
         {
@@ -37,67 +37,135 @@
           "universe": 228
         },
         {
-          "ed_share": 0,
+          "ed_share": 8,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 6
+          "newsroom": 30,
+          "universe": 331
         }
       ],
-      "total_universe": 933,
-      "universe_total": 902
+      "total_universe": 1288,
+      "universe_total": 1227
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:48:47.851279+00:00",
+      "as_of": "2026-07-30T18:09:22.507271+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "exchange",
-          "phrase": "Binance is a direct competitor in the crypto exchange market.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
+          "observed_at": null,
+          "phrase": "Binance",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "binance",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "exchange",
+          "observed_at": null,
+          "phrase": "custody",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "custody",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "exchange",
+          "observed_at": null,
+          "phrase": "digital assets",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "digital-assets",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "exchange",
+          "observed_at": null,
+          "phrase": "retail",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "retail",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "exchange",
+          "relation_type": null,
+          "role": null,
+          "to": "binance",
+          "verified": false,
           "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "exchange",
-          "phrase": "SBI is a Japanese financial group with a crypto exchange.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "sbi",
-          "weight": 17
-        },
-        {
-          "dir": "out",
-          "from": "exchange",
-          "phrase": "OKX is a major global cryptocurrency exchange.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "okx",
-          "weight": 15
-        },
-        {
-          "dir": "out",
-          "from": "exchange",
-          "phrase": "Bithumb is a South Korean crypto exchange competitor.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "bithumb",
-          "weight": 15
-        },
-        {
-          "dir": "out",
-          "from": "exchange",
-          "phrase": "Exchanges rely on blockchain infrastructure for operations.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "infrastructure",
-          "weight": 15
         }
       ],
       "nodes": [
@@ -110,46 +178,86 @@
         },
         {
           "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Binance",
+          "observed_at": null,
           "slug": "binance",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "SBI",
-          "slug": "sbi",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Custody",
+          "observed_at": null,
+          "slug": "custody",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "OKX",
-          "slug": "okx",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Digital Assets",
+          "observed_at": null,
+          "slug": "digital-assets",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Bithumb",
-          "slug": "bithumb",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
-        },
-        {
-          "center": false,
-          "name": "Infrastructure",
-          "slug": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Retail",
+          "observed_at": null,
+          "slug": "retail",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Adoption",
+          "shared_neighbors": 2,
+          "slug": "adoption"
+        },
+        {
+          "is_stub": false,
+          "name": "Coinbase",
+          "shared_neighbors": 2,
+          "slug": "coinbase"
+        },
+        {
+          "is_stub": false,
+          "name": "Derivatives",
+          "shared_neighbors": 2,
+          "slug": "derivatives"
+        },
+        {
+          "is_stub": false,
+          "name": "ETFs",
+          "shared_neighbors": 2,
+          "slug": "etfs"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-26T02:16:43.029175+00:00",
@@ -214,17 +322,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 31,
-      "as_of": "2026-07-01T11:48:54.081237+00:00",
+      "article_count": 61,
+      "as_of": "2026-07-30T18:09:23.256253+00:00",
       "most_clicked": {
-        "clicks": 108,
+        "clicks": 113,
         "date": "2026-05-23T14:48:41.179769+00:00",
         "headline": "Trump‑backed crypto firm’s key networks processed $2.3B for Iran’s top exchange, exposing how World Liberty’s industry allies enabled flows tied to sanctioned institutions during the U.S.–Iran war.",
         "lev_url": "https://leviathannews.xyz/247411/trumpbacked-crypto-firms-key-networks-processed-23b-for-irans-top-exchange-exposing-how-world-libertys-industry-allies-enabled-flows-tied-to-sanctioned-institutions-during-the-usir"
       },
       "provenance": "data",
-      "top_decile_share": 17,
-      "total_clicks": 1247
+      "top_decile_share": 16,
+      "total_clicks": 2528
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:16:43.029081+00:00",
@@ -309,104 +417,104 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:48:53.981691+00:00",
+      "as_of": "2026-07-30T18:09:23.249507+00:00",
       "items": [
         {
-          "clicks": 32,
+          "clicks": 29,
+          "date": "2026-07-29T07:42:44.679123+00:00",
+          "headline": "Coinbase aims to become Canada's \"everything exchange,\" pushing into derivatives, tokenized assets, and DeFi while calling for permanent crypto regulations",
+          "hot_score": 2379.108211,
+          "lev_url": "https://leviathannews.xyz/283717/coinbase-canadas-new-ceo-eric-richmond-says-permanent-rules-rather-than-temporary-exemptions-are-needed-as-the-company-pushes-to-expand-into-derivatives-tokenized-assets-and",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729005511_CdyD7Cr-alNu.jpg",
+          "url": "https://www.coindesk.com/policy/2026/07/28/coinbase-wants-to-be-canada-s-everything-exchange-but-says-clearer-rules-are-needed-first"
+        },
+        {
+          "clicks": 35,
+          "date": "2026-07-28T15:18:46.764770+00:00",
+          "headline": "Nigeria's first SEC-licensed exchange Quidax expands stablecoin payment infrastructure to 21 countries, aims to make cross-border payments faster and cheaper for businesses.",
+          "hot_score": 2068.650763,
+          "lev_url": "https://leviathannews.xyz/283406/nigerias-first-sec-licensed-exchange-quidax-expands-stablecoin-payment-infrastructure-to-21-countries-aims-to-make-cross-border-payments-faster-and-cheaper-for-businesses",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728151047_eEIKHg1mUdRJ.jpeg",
+          "url": "https://thecondia.com/quidax-stablecoin-payment-infrastructure/"
+        },
+        {
+          "clicks": 30,
+          "date": "2026-07-30T05:32:36.968820+00:00",
+          "headline": "South Korean lawmakers propose letting regulators request crypto exchange account freezes over illicit transfers",
+          "hot_score": 2023.623827,
+          "lev_url": "https://leviathannews.xyz/284593/south-korean-lawmakers-propose-letting-regulators-request-crypto-exchange-account-freezes-over-illicit-transfers",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260730043958_Z4zrlaiDPw==.png",
+          "url": "https://x.com/theblockco/status/2082675973120790551"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-07-30T10:29:30.709268+00:00",
+          "headline": "Crypto exchange Luno is cutting 20% of its workforce as automation reshapes operations and weaker retail trading volumes pressure the DCG-owned platform",
+          "hot_score": 1404.053196,
+          "lev_url": "https://leviathannews.xyz/284752/the-dcg-owned-company-previously-cut-35-of-staff-in-january-2023-citing-tough-market-conditions",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260730101330_qVGoDkiK8xVf.jpg",
+          "url": "https://www.coindesk.com/business/2026/07/30/crypto-exchange-luno-cuts-20-of-staff-amid-automation-push-and-retail-trading-slumps"
+        },
+        {
+          "clicks": 53,
           "date": "2026-06-29T08:18:19.549788+00:00",
           "headline": "o1.exchange secures $4.8m seed from Coinbase Ventures and a16z to bring AI trading terminal to Base.",
-          "hot_score": 4354.993272,
+          "hot_score": 1378.935542,
           "lev_url": "https://leviathannews.xyz/264426/o1exchange-raised-49m-seed-round-from-coinbase-ventures-a16z-and-others",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629075536_43LGR8pz_N0y.jpg",
           "url": "https://x.com/o1_exchange/status/2064824230823477498"
         },
         {
-          "clicks": 29,
-          "date": "2026-06-26T16:12:11.166732+00:00",
-          "headline": "DraftKings launches proprietary prediction markets exchange DKeX as annualized consumer volume tops $3.4B, intensifying competition with Polymarket and Kalshi",
-          "hot_score": 913.509161,
-          "lev_url": "https://leviathannews.xyz/263578/draftkings-launches-its-own-prediction-markets-exchange-as-consumer-volume-exceeds-3-billion-20260626",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260626160951_kAkIyot5RygV.jpg",
-          "url": "https://www.theblock.co/post/406375/draftkings-launches-own-prediction-markets-exchange-consumer-volume-exceeds-3-billion?utm_source=rss&utm_medium=rss?utm_source=telegram1&utm_medium=social"
+          "clicks": 27,
+          "date": "2026-07-28T15:08:36.228679+00:00",
+          "headline": "Tether, Nairobi Securities Exchange sign pact to explore tokenized securities and instant settlement via Hadron",
+          "hot_score": 1361.193344,
+          "lev_url": "https://leviathannews.xyz/283373/tether-nairobi-securities-exchange-sign-pact-to-explore-tokenized-securities-and-instant-settlement-via-hadron",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728141409_Z4zrlaiDPw==.png",
+          "url": "https://tether.io/news/tether-signs-mou-with-the-nairobi-securities-exchange-to-explore-digital-assets-use-cases-tokenization-blockchain-technology-and-digital-asset-education-in-africa/"
         },
         {
-          "clicks": 50,
-          "date": "2026-05-17T07:37:36.351619+00:00",
-          "headline": "Binance says AI is making its workforce 10x more effective as the exchange ramps hiring with 380+ open roles spanning engineering, compliance, product, and AI research",
-          "hot_score": 751.729687,
-          "lev_url": "https://leviathannews.xyz/243803/binance-says-ai-is-making-its-workforce-10x-more-effective-as-the-exchange-ramps-hiring-with-380-open-roles-spanning-engineering-compliance-product-and-ai-research",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260517070619_1gYnAKxuO5Cb.jpg",
-          "url": "https://x.com/i/web/status/2055800643843928305"
+          "clicks": 20,
+          "date": "2026-07-30T15:08:11.274000+00:00",
+          "headline": "Tower Exchange launches Tower AMM on ARC, boosting onchain liquidity, improving trade execution and laying the groundwork for public liquidity pools",
+          "hot_score": 1302.21452,
+          "lev_url": "https://leviathannews.xyz/284943/were-introducing-tower-amm-our-automated-market-maker-is-now-live-on-arc-bringing-deeper-liquidity-and-better-pricing-across-all-supported-assets-on-tower-exchange-this-laun",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260730145456_bhjBMfH7ULBU.jpg",
+          "url": "https://x.com/towerexchange/status/2082816480521937204"
         },
         {
-          "clicks": 54,
-          "date": "2026-05-29T06:34:26.396206+00:00",
-          "headline": "OKX Ventures acquires a $53M stake in South Korea’s Coinone exchange as the platform expands into stablecoins and tokenized securities",
-          "hot_score": 738.919609,
-          "lev_url": "https://leviathannews.xyz/249924/the-crypto-exchanges-investment-arm-and-korea-investment-securities-will-each-invest-krw-80-billion-53-million-as-coinone-pushes-into-stablecoins-and-tokenized-securities",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260529062516_pZZnrdhWf6xL.jpg",
-          "url": "https://www.coindesk.com/markets/2026/05/29/okx-ventures-buys-usd53-million-stake-in-korea-s-coinone-exchange"
-        },
-        {
-          "clicks": 38,
-          "date": "2026-05-28T10:56:52.377560+00:00",
-          "headline": "Aave Labs secures FCA approval for UK crypto exchange operations through Push subsidiaries, expanding regulated stablecoin and payments infrastructure",
-          "hot_score": 738.41913,
-          "lev_url": "https://leviathannews.xyz/249452/aave-labs-uk-subsidiaries-push-labs-ltd-and-push-virtual-assets-ltd-together-push-have-received-approval-from-the-uks-financial-conduct-authority-fca-to-register-as-a-cry",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260528105523_N0KhrYmqjHb6.jpg",
-          "url": "https://x.com/aave/status/2059922168843304970"
-        },
-        {
-          "clicks": 47,
-          "date": "2026-05-29T06:37:31.214910+00:00",
-          "headline": "Korean institutions are racing to dominate crypto infrastructure through exchange acquisitions, stablecoin rails and STO alliances ahead of full regulation",
-          "hot_score": 726.265516,
-          "lev_url": "https://leviathannews.xyz/249937/korean-institutions-are-racing-to-dominate-crypto-infrastructure-through-exchange-acquisitions-stablecoin-rails-and-sto-alliances-ahead-of-full-regulation",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260529063446_g0eRDO1lloDv.jpg",
-          "url": "https://x.com/tiger_research_/status/2060178000633807359"
-        },
-        {
-          "clicks": 45,
-          "date": "2026-06-14T22:45:27.560845+00:00",
-          "headline": "Despite the rise of Stablecoin payment applications, P2P remains dominant as users prioritize better exchange rates over convenience in stablecoin payments",
-          "hot_score": 717.526153,
-          "lev_url": "https://leviathannews.xyz/256922/there-are-already-several-ways-to-fund-a-wallet-with-usdc-and-spend-locally-without-going-through-p2p-first-products-like-redotpay-chipper-cash-azza-and-grey-have-made-it-possi",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260614223624_wr2avDELffML.jpg",
-          "url": "https://x.com/carbzxbt/status/2066127609524523514"
-        },
-        {
-          "clicks": 40,
-          "date": "2026-06-16T20:44:35.664856+00:00",
-          "headline": "Coinbase unveils AI-powered SEC-registered advisor, unified global liquidity, options trading and tokenized stocks as it expands its vision of an \"Everything Exchange\"",
-          "hot_score": 711.854267,
-          "lev_url": "https://leviathannews.xyz/257903/no-headline-20260616-3",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260616204037_tFGbk_jZHpdC.jpg",
-          "url": "https://www.theblock.co/post/405012/coinbase-unveils-system-update-unlocking-an-ai-advisor-global-unified-liquidity-options-trading-and-more?utm_source=rss&utm_medium=rss"
+          "clicks": 51,
+          "date": "2026-07-26T07:31:34.878730+00:00",
+          "headline": "The EU adds HTX to its Russia sanctions list, banning EU individuals and companies from transacting with the crypto exchange starting August 23",
+          "hot_score": 1253.7677,
+          "lev_url": "https://leviathannews.xyz/282059/eu-adds-htx-to-russia-sanctions-list-barring-transactions-starting-aug-23-20260726",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726071100_Km1RxiwDFA0q.jpg",
+          "url": "https://www.theblock.co/post/409668/eu-adds-htx-to-russia-sanctions-list-barring-transactions-starting-aug-23?utm_source=rss&utm_medium=rss"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:48:53.829044+00:00",
+      "as_of": "2026-07-30T18:09:23.235209+00:00",
       "editorial": [
         {
-          "count": 10,
+          "count": 22,
           "source": "x.com"
         },
         {
-          "count": 7,
+          "count": 10,
           "source": "theblock.co"
+        },
+        {
+          "count": 8,
+          "source": "coindesk.com"
         },
         {
           "count": 4,
           "source": "reuters.com"
         },
         {
-          "count": 4,
-          "source": "coindesk.com"
-        },
-        {
-          "count": 1,
+          "count": 2,
           "source": "prnewswire.com"
         },
         {
@@ -427,62 +535,70 @@
         },
         {
           "count": 1,
+          "source": "blog.valr.com"
+        },
+        {
+          "count": 1,
           "source": "globenewswire.com"
+        },
+        {
+          "count": 1,
+          "source": "binance.com"
         }
       ],
-      "editorial_distinct": 10,
+      "editorial_distinct": 20,
       "provenance": "data",
       "universe": [
         {
-          "count": 501,
+          "count": 715,
           "source": "x.com"
         },
         {
-          "count": 44,
+          "count": 55,
           "source": "decrypt.co"
         },
         {
-          "count": 36,
+          "count": 51,
           "source": "cointelegraph.com"
         },
         {
-          "count": 32,
+          "count": 45,
           "source": "theblock.co"
         },
         {
-          "count": 27,
+          "count": 33,
           "source": "financefeeds.com"
         },
         {
-          "count": 25,
+          "count": 32,
           "source": "coindesk.com"
         },
         {
-          "count": 20,
+          "count": 23,
           "source": "federalregister.gov"
         },
         {
-          "count": 18,
+          "count": 23,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 20,
           "source": "bloomberg.com"
+        },
+        {
+          "count": 18,
+          "source": "chainwire.org"
         },
         {
           "count": 15,
           "source": "dlnews.com"
         },
         {
-          "count": 15,
-          "source": "crowdfundinsider.com"
-        },
-        {
           "count": 14,
-          "source": "chainwire.org"
-        },
-        {
-          "count": 10,
-          "source": "reuters.com"
+          "source": "wsj.com"
         }
       ],
-      "universe_distinct": 72
+      "universe_distinct": 78
     }
   },
   "official_links": [],

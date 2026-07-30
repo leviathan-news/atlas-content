@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:03:54.290202+00:00",
+      "as_of": "2026-07-30T18:25:34.025510+00:00",
       "newsroom_total": 24,
       "overall_share": 41,
       "provenance": "data",
@@ -95,92 +95,111 @@
       "universe_total": 35
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:03:53.885376+00:00",
+      "as_of": "2026-07-30T18:25:33.738094+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.224,
-          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "The sudden failure of one of the system’s core assumptions—that USR supply could only be minted against properly authorized collateral—reverberated quickly through that network, turning Resolv from a quiet yield engine into the epicenter of a broader liquidity and risk management stress test for DeFi.",
           "from": "risk-management",
           "observed_at": "2026-03-24",
-          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "resolv",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 22
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "risk-management",
           "observed_at": null,
           "phrase": "automation",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "automation",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "risk-management",
           "observed_at": null,
           "phrase": "digital assets",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "digital-assets",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "resolv",
+          "relation_type": null,
+          "role": null,
+          "to": "risk-management",
+          "verified": false,
+          "weight": 22
         },
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "risk-management",
-          "observed_at": null,
-          "phrase": "open",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "open",
+          "role": null,
+          "to": "resolv",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
-        },
-        {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "from": "risk-management",
-          "observed_at": null,
-          "phrase": "risks",
-          "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "risks",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 22
         }
       ],
       "nodes": [
@@ -194,6 +213,7 @@
         {
           "center": false,
           "confidence": 0.224,
+          "is_stub": false,
           "name": "Resolv",
           "observed_at": "2026-03-24",
           "slug": "resolv",
@@ -206,6 +226,7 @@
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Automation",
           "observed_at": null,
           "slug": "automation",
@@ -218,6 +239,7 @@
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Digital Assets",
           "observed_at": null,
           "slug": "digital-assets",
@@ -226,33 +248,12 @@
           "verified": false,
           "verified_at": null,
           "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "OPEN",
-          "observed_at": null,
-          "slug": "open",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Risks",
-          "observed_at": null,
-          "slug": "risks",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T10:11:45.244938+00:00",
@@ -318,16 +319,16 @@
     },
     "reader_signal": {
       "article_count": 24,
-      "as_of": "2026-07-29T23:03:54.594128+00:00",
+      "as_of": "2026-07-30T18:25:34.307931+00:00",
       "most_clicked": {
-        "clicks": 247,
+        "clicks": 248,
         "date": "2023-10-17T06:58:06.979942+00:00",
         "headline": "Fidelity Digital Assets partners with EY for blockchain analytics solution, aiming to enhance risk management capabilities",
         "lev_url": "https://leviathannews.xyz/2989/fidelity-digital-assets-partners-with-ey-for-blockchain-analytics-solution-aiming-to-enhance-risk-management-capabilities"
       },
       "provenance": "data",
       "top_decile_share": 25,
-      "total_clicks": 1759
+      "total_clicks": 1763
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:11:45.244871+00:00",
@@ -412,19 +413,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:03:54.588245+00:00",
+      "as_of": "2026-07-30T18:25:34.301150+00:00",
       "items": [
         {
           "clicks": 51,
           "date": "2026-07-27T20:38:42.430482+00:00",
           "headline": "A growing share of lending activity now happens through curated vaults. DefiLlama Research and Sentora investigate the 'vaultification' of onchain lending and the vault economy in this new report.",
-          "hot_score": 1519.65307,
+          "hot_score": 1249.813009,
           "lev_url": "https://leviathannews.xyz/282838/a-growing-share-of-lending-activity-now-happens-through-curated-vaults-defillama-research-and-sentora-investigate-the-vaultification-of-onchain-lending-and-the-vault-economy-in-thi",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727194429_Z4zrlaiDPw==.png",
           "url": "https://defillama.com/research/report/sentora-the-vault-economy-scale-and-composition"
         },
         {
-          "clicks": 68,
+          "clicks": 69,
           "date": "2026-05-13T14:24:36.444353+00:00",
           "headline": "Ethena launches a dedicated lending market on Jupiter Lend, with Bitwise overseeing risk management and institutional participation on Solana",
           "hot_score": 1185.907835,
@@ -460,15 +461,6 @@
           "url": "https://crypto.news/piraeus-launches-ai-hub-with-accenture-and-anthropic-to-modernize-banking-operations/"
         },
         {
-          "clicks": 34,
-          "date": "2026-07-24T09:49:51.570419+00:00",
-          "headline": "Ethena Foundation has opened applications for the Ethena Risk Committee re-election, inviting qualified participants to help oversee governance and protocol risk management",
-          "hot_score": 912.15281,
-          "lev_url": "https://leviathannews.xyz/281293/the-ethena-foundation-has-opened-the-re-election-process-for-the-ethena-risk-committee-an-opportunity-for-suitably-skilled-qualified-participants-to-join-the-governance-risk-m",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724093535_xVraQhBvQWkD.jpg",
-          "url": "https://x.com/ethena_eco/status/2080317609481056295"
-        },
-        {
           "clicks": 28,
           "date": "2026-06-29T15:37:38.584520+00:00",
           "headline": "JPMorgan says institutional appetite for perpetual futures remains limited, arguing the products are better suited for speculation than risk managements",
@@ -476,6 +468,15 @@
           "lev_url": "https://leviathannews.xyz/264786/jpmorgan-sees-limited-institutional-demand-for-perpetual-futures-20260629",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629153056_UR7SyhP6G3ho.jpg",
           "url": "https://www.coindesk.com/business/2026/06/29/jpmorgan-sees-limited-institutional-demand-for-perpetual-futures"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-07-24T09:49:51.570419+00:00",
+          "headline": "Ethena Foundation has opened applications for the Ethena Risk Committee re-election, inviting qualified participants to help oversee governance and protocol risk management",
+          "hot_score": 750.184677,
+          "lev_url": "https://leviathannews.xyz/281293/the-ethena-foundation-has-opened-the-re-election-process-for-the-ethena-risk-committee-an-opportunity-for-suitably-skilled-qualified-participants-to-join-the-governance-risk-m",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724093535_xVraQhBvQWkD.jpg",
+          "url": "https://x.com/ethena_eco/status/2080317609481056295"
         },
         {
           "clicks": 53,
@@ -490,7 +491,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:03:54.574983+00:00",
+      "as_of": "2026-07-30T18:25:34.287977+00:00",
       "editorial": [
         {
           "count": 12,

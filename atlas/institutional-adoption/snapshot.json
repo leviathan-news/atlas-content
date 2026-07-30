@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:59:57.141070+00:00",
-      "newsroom_total": 270,
+      "as_of": "2026-07-30T18:14:31.223936+00:00",
+      "newsroom_total": 272,
       "overall_share": 81,
       "provenance": "data",
       "series": [
@@ -135,99 +135,116 @@
         {
           "ed_share": 66,
           "month": "2026-07",
-          "newsroom": 38,
-          "universe": 20
+          "newsroom": 40,
+          "universe": 21
         }
       ],
-      "total_universe": 334,
-      "universe_total": 64
+      "total_universe": 337,
+      "universe_total": 65
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:59:56.729917+00:00",
+      "as_of": "2026-07-30T18:14:30.469254+00:00",
       "edges": [
         {
-          "confidence": 0.262,
-          "description": "Co-covered in 81 approved stories; most recently July 2026.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
-          "from": "institutional-adoption",
-          "observed_at": "2026-07-29",
-          "phrase": "Co-covered in 81 approved stories; most recently July 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "adoption",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 26
-        },
-        {
-          "confidence": 0.225,
-          "description": "Co-covered in 94 approved stories; most recently July 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "institutional-adoption",
-          "observed_at": "2026-07-29",
-          "phrase": "Co-covered in 94 approved stories; most recently July 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "infrastructure",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 23
-        },
-        {
-          "confidence": 0.162,
-          "description": "Co-covered in 13 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "institutional-adoption",
           "observed_at": null,
-          "phrase": "Co-covered in 13 approved stories.",
+          "phrase": "Bitcoin",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "foundry",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 16
+          "weight": 10
         },
         {
-          "confidence": 0.152,
-          "description": "Co-covered in 18 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "institutional-adoption",
           "observed_at": null,
-          "phrase": "Co-covered in 18 approved stories.",
+          "phrase": "ETFs",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "etfs",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "bitcoin",
+          "relation_type": null,
+          "role": null,
           "to": "etfs",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 15
+          "weight": 17
         },
         {
-          "confidence": 0.151,
-          "description": "Co-covered in 13 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "institutional-adoption",
-          "observed_at": null,
-          "phrase": "Co-covered in 13 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "etfs",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "centrifuge",
+          "role": null,
+          "to": "bitcoin",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
+          "weight": 27
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "institutional-adoption",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 12
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "institutional-adoption",
+          "relation_type": null,
+          "role": null,
+          "to": "etfs",
+          "verified": false,
           "weight": 15
         }
       ],
@@ -241,66 +258,60 @@
         },
         {
           "center": false,
-          "confidence": 0.262,
-          "name": "Adoption",
-          "observed_at": "2026-07-29",
-          "slug": "adoption",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 26
-        },
-        {
-          "center": false,
-          "confidence": 0.225,
-          "name": "Infrastructure",
-          "observed_at": "2026-07-29",
-          "slug": "infrastructure",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 23
-        },
-        {
-          "center": false,
-          "confidence": 0.162,
-          "name": "Foundry",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Bitcoin",
           "observed_at": null,
-          "slug": "foundry",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 16
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.152,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "ETFs",
           "observed_at": null,
           "slug": "etfs",
-          "source": "observed_relation",
-          "tier": "related",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 15
-        },
-        {
-          "center": false,
-          "confidence": 0.151,
-          "name": "Centrifuge",
-          "observed_at": null,
-          "slug": "centrifuge",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 15
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "21Shares",
+          "shared_neighbors": 2,
+          "slug": "21shares"
+        },
+        {
+          "is_stub": false,
+          "name": "BlackRock",
+          "shared_neighbors": 2,
+          "slug": "blackrock"
+        },
+        {
+          "is_stub": false,
+          "name": "ETF",
+          "shared_neighbors": 2,
+          "slug": "etf"
+        },
+        {
+          "is_stub": false,
+          "name": "Foundry",
+          "shared_neighbors": 2,
+          "slug": "foundry"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T00:03:52.634422+00:00",
@@ -353,8 +364,8 @@
       "source": "https://thomasmurray.com/insights/institutional-adoption-digital-assets-2025-factors-driving-industry-forward"
     },
     "reader_signal": {
-      "article_count": 271,
-      "as_of": "2026-07-29T22:59:57.590301+00:00",
+      "article_count": 273,
+      "as_of": "2026-07-30T18:14:32.001497+00:00",
       "most_clicked": {
         "clicks": 263,
         "date": "2026-02-28T15:24:57.460789+00:00",
@@ -363,7 +374,7 @@
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 13888
+      "total_clicks": 13944
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:03:52.634310+00:00",
@@ -448,7 +459,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:59:57.562170+00:00",
+      "as_of": "2026-07-30T18:14:31.971472+00:00",
       "items": [
         {
           "clicks": 50,
@@ -526,14 +537,14 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:59:57.544542+00:00",
+      "as_of": "2026-07-30T18:14:31.954274+00:00",
       "editorial": [
         {
-          "count": 115,
+          "count": 116,
           "source": "x.com"
         },
         {
-          "count": 30,
+          "count": 31,
           "source": "coindesk.com"
         },
         {
@@ -593,6 +604,10 @@
           "source": "crowdfundinsider.com"
         },
         {
+          "count": 2,
+          "source": "theblock.co"
+        },
+        {
           "count": 1,
           "source": "blog.arbitrum.foundation"
         },
@@ -615,10 +630,6 @@
         {
           "count": 1,
           "source": "foxbusiness.com"
-        },
-        {
-          "count": 1,
-          "source": "theblock.co"
         }
       ],
       "universe_distinct": 10

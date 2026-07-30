@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:59:36.468520+00:00",
+      "as_of": "2026-07-30T18:13:50.806464+00:00",
       "newsroom_total": 11,
       "overall_share": 7,
       "provenance": "data",
@@ -47,92 +47,135 @@
       "universe_total": 151
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:59:36.218113+00:00",
+      "as_of": "2026-07-30T18:13:50.352211+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.299,
-          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "As AI, cloud infrastructure, and decentralized finance (DeFi) converge, GPUs are no longer just components on gaming rigs; they have become scarce infrastructure assets, collateral for on-chain credit, and the hardware substrate for a new generation of crypto-native compute networks.",
           "from": "gpu",
           "observed_at": "2026-07-21",
-          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "cloud",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 30
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.222,
+          "curation_status": "observed",
           "description": "Co-covered in 3 approved stories; most recently May 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "gpu",
           "observed_at": "2026-05-13",
           "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "open-source",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 22
         },
         {
-          "confidence": 0.199,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "gpu",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "infrastructure",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 20
-        },
-        {
-          "confidence": 0.179,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "gpu",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "guide",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "gpu",
           "observed_at": null,
           "phrase": "gaming",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "gaming",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "cloud",
+          "relation_type": null,
+          "role": null,
+          "to": "gpu",
+          "verified": false,
+          "weight": 20
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "gpu",
+          "relation_type": null,
+          "role": null,
+          "to": "cloud",
+          "verified": false,
+          "weight": 30
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "gpu",
+          "relation_type": null,
+          "role": null,
+          "to": "open-source",
+          "verified": false,
+          "weight": 22
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "open-source",
+          "relation_type": null,
+          "role": null,
+          "to": "gpu",
+          "verified": false,
+          "weight": 22
         }
       ],
       "nodes": [
@@ -146,6 +189,7 @@
         {
           "center": false,
           "confidence": 0.299,
+          "is_stub": false,
           "name": "cloud",
           "observed_at": "2026-07-21",
           "slug": "cloud",
@@ -158,6 +202,7 @@
         {
           "center": false,
           "confidence": 0.222,
+          "is_stub": false,
           "name": "Open Source",
           "observed_at": "2026-05-13",
           "slug": "open-source",
@@ -169,31 +214,8 @@
         },
         {
           "center": false,
-          "confidence": 0.199,
-          "name": "Infrastructure",
-          "observed_at": null,
-          "slug": "infrastructure",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 20
-        },
-        {
-          "center": false,
-          "confidence": 0.179,
-          "name": "Guide",
-          "observed_at": null,
-          "slug": "guide",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Gaming",
           "observed_at": null,
           "slug": "gaming",
@@ -204,7 +226,17 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 2,
+          "slug": "infrastructure"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T08:31:36.181119+00:00",
@@ -270,7 +302,7 @@
     },
     "reader_signal": {
       "article_count": 11,
-      "as_of": "2026-07-29T22:59:36.656524+00:00",
+      "as_of": "2026-07-30T18:13:51.083993+00:00",
       "most_clicked": {
         "clicks": 53,
         "date": "2026-04-01T14:24:59.778412+00:00",
@@ -279,7 +311,7 @@
       },
       "provenance": "data",
       "top_decile_share": 13,
-      "total_clicks": 414
+      "total_clicks": 416
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:31:36.181047+00:00",
@@ -364,7 +396,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:59:36.652280+00:00",
+      "as_of": "2026-07-30T18:13:51.079559+00:00",
       "items": [
         {
           "clicks": 40,
@@ -442,7 +474,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:59:36.643334+00:00",
+      "as_of": "2026-07-30T18:13:51.068990+00:00",
       "editorial": [
         {
           "count": 3,

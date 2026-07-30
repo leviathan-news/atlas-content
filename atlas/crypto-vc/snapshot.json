@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:04:39.234917+00:00",
-      "newsroom_total": 65,
-      "overall_share": 82,
+      "as_of": "2026-07-30T18:07:14.837257+00:00",
+      "newsroom_total": 67,
+      "overall_share": 71,
       "provenance": "data",
       "series": [
         {
@@ -179,63 +179,123 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 4
+        },
+        {
+          "ed_share": 12,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 14
         }
       ],
-      "total_universe": 79,
-      "universe_total": 14
+      "total_universe": 95,
+      "universe_total": 28
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:04:38.807594+00:00",
+      "as_of": "2026-07-30T18:07:14.162289+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "crypto-vc",
-          "phrase": "RISE is a crypto VC firm comparable to the source.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "rise",
-          "weight": 19
+          "observed_at": null,
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "crypto-vc",
-          "phrase": "Galaxy Digital is a crypto investment firm like the source.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "galaxy-digital",
-          "weight": 19
+          "observed_at": null,
+          "phrase": "equity",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "equity",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "crypto-vc",
-          "phrase": "Paradigm is a prominent crypto VC firm similar to the source.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "paradigm",
-          "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "crypto-vc",
-          "phrase": "Investment is the broader activity that crypto VCs engage in.",
-          "relation_type": "category",
-          "source": "draft_relation",
-          "tier": "related",
+          "observed_at": null,
+          "phrase": "investment",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "investment",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "crypto-vc",
+          "relation_type": null,
+          "role": null,
+          "to": "investment",
+          "verified": false,
           "weight": 18
         },
         {
-          "dir": "out",
-          "from": "crypto-vc",
-          "phrase": "Seed rounds are early-stage funding events that crypto VCs participate in.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "seed-round",
-          "weight": 14
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "investment",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 17
         }
       ],
       "nodes": [
@@ -248,46 +308,73 @@
         },
         {
           "center": false,
-          "name": "RISE",
-          "slug": "rise",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 19
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Bitcoin",
+          "observed_at": null,
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Galaxy Digital",
-          "slug": "galaxy-digital",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 19
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Equity",
+          "observed_at": null,
+          "slug": "equity",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Paradigm",
-          "slug": "paradigm",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Investment",
+          "observed_at": null,
           "slug": "investment",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
-          "name": "Seed Round",
-          "slug": "seed-round",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "ARK",
+          "shared_neighbors": 2,
+          "slug": "ark"
+        },
+        {
+          "is_stub": false,
+          "name": "Bitcoin Treasury",
+          "shared_neighbors": 2,
+          "slug": "bitcoin-treasury"
+        },
+        {
+          "is_stub": false,
+          "name": "Cantor",
+          "shared_neighbors": 2,
+          "slug": "cantor"
+        },
+        {
+          "is_stub": false,
+          "name": "ETF",
+          "shared_neighbors": 2,
+          "slug": "etf"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T06:06:59.582288+00:00",
@@ -346,17 +433,17 @@
       "source": "https://fortune.com/2026/02/17/dragonfly-fourth-fund-crypto-venture-capital-blockchain-polymarket-ethena/"
     },
     "reader_signal": {
-      "article_count": 65,
-      "as_of": "2026-07-01T12:04:40.120981+00:00",
+      "article_count": 67,
+      "as_of": "2026-07-30T18:07:15.329243+00:00",
       "most_clicked": {
-        "clicks": 380,
+        "clicks": 383,
         "date": "2025-02-13T14:44:56.489963+00:00",
         "headline": "A new VC-backed Stablecoin blockchain is on the way.",
         "lev_url": "https://leviathannews.xyz/9311/a-new-vc-backed-stablecoin-blockchain-is-on-the-way"
       },
       "provenance": "data",
       "top_decile_share": 23,
-      "total_clicks": 6476
+      "total_clicks": 6611
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:06:59.582238+00:00",
@@ -441,16 +528,34 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:04:40.041740+00:00",
+      "as_of": "2026-07-30T18:07:15.323783+00:00",
       "items": [
         {
-          "clicks": 32,
+          "clicks": 40,
           "date": "2026-06-16T09:37:00.198318+00:00",
           "headline": "Former Hyperliquid skeptic Pavel Paramonov argues HYPE is among crypto's few truly investable assets, citing its no-VC structure, token buybacks and growing challenge to Binance's dominance",
           "hot_score": 700.216059,
           "lev_url": "https://leviathannews.xyz/257621/i-used-to-be-a-hater-of-hyperliquid-the-first-time-i-started-learning-about-it-was-at-the-beginning-of-2024-and-it-didnt-click-just-some-perp-dex-on-arbitrum-like-there-were-d",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260616093131_Gx6SojDiAvy2.jpg",
           "url": "https://x.com/paramonoww/status/2066471252714528863"
+        },
+        {
+          "clicks": 45,
+          "date": "2026-07-17T08:00:43.218857+00:00",
+          "headline": "Defiant news founder Camila Russo warns crypto media is facing a structural crisis as VC funding shifts to AI, marketing budgets shrink and publishers grapple with layoffs across the industry",
+          "hot_score": 619.981142,
+          "lev_url": "https://leviathannews.xyz/277301/vc-money-is-flowing-to-ai-trust-in-media-is-at-record-lows-and-crypto-is-growing-up-ive-been-running-a-media-company-covering-crypto-since-2019-ive-been-through-the-ups-and-d",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260717075026_paeEoVjy9E13.jpg",
+          "url": "https://x.com/camirusso/status/2077828440095686741"
+        },
+        {
+          "clicks": 39,
+          "date": "2026-07-06T07:29:06.084698+00:00",
+          "headline": "Sovereign wealth funds are gaining crypto exposure through Bitcoin ETFs, blockchain firms and VC funds, favoring regulated vehicles over direct token ownership",
+          "hot_score": 607.483732,
+          "lev_url": "https://leviathannews.xyz/269290/how-sovereign-wealth-funds-invest-in-digital-assets-20260706",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260706070232_ayBE2OKuiARX.jpg",
+          "url": "https://www.theblock.co/learn/407186/how-sovereign-wealth-funds-invest-in-digital-assets?utm_source=rss&utm_medium=rss"
         },
         {
           "clicks": 53,
@@ -462,7 +567,7 @@
           "url": "https://x.com/i/status/2026747999939080217"
         },
         {
-          "clicks": 77,
+          "clicks": 80,
           "date": "2025-12-21T08:21:04.164315+00:00",
           "headline": "Crypto VCs are shifting toward FinTech-style investing as token-first exits fade, prioritizing real revenue, payments, trading, and compliance-driven models. Stablecoins and markets now anchor sustainable crypto businesses as fundamentals replace narrative-driven growth.",
           "hot_score": 98.614249,
@@ -471,7 +576,7 @@
           "url": "https://x.com/i/status/2001911473862513072"
         },
         {
-          "clicks": 72,
+          "clicks": 73,
           "date": "2025-12-11T18:46:26.284647+00:00",
           "headline": "AlphaGrowth launches largest crypto VC and DAO treasury dataset on SerenAI x402 payment gateway with over 70,000 deals tracked",
           "hot_score": 94.875239,
@@ -480,7 +585,7 @@
           "url": "https://serendb.com/blog/alphagrowth-is-now-live-on-serenai-vc-investment-intelligence-for-ai-agents"
         },
         {
-          "clicks": 64,
+          "clicks": 65,
           "date": "2025-11-29T10:41:08.724674+00:00",
           "headline": "VC money is flooding back into crypto, with nearly $25B deployed in 2025—a 150% jump led by Binance, Polymarket, and Circle. Investors are now backing compliance-first, revenue-real businesses as the market matures.",
           "hot_score": 70.171677,
@@ -489,40 +594,22 @@
           "url": "https://www.dlnews.com/articles/deals/binance-polymarket-lead-as-vcs-deploy-25-billion-into-crypto-companies/?utm_source=twitter&utm_medium=organic_social&utm_campaign="
         },
         {
-          "clicks": 35,
+          "clicks": 39,
           "date": "2026-02-17T12:49:19.673237+00:00",
           "headline": "VC-backed crypto token launches are failing in 2025, with 85% underwater and the old “Top VC = pump” playbook breaking down as capital dries up and fundamentals start to matter.",
           "hot_score": 42.515465,
           "lev_url": "https://leviathannews.xyz/29561/vc-backed-crypto-token-launches-are-failing-in-2025-with-85-underwater-and-the-old-top-vc-pump-playbook-breaking-down-as-capital-dries-up-and-fundamentals-start-to-matter",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260217124731_T9DhD_py-v8=.jpg",
           "url": "https://x.com/thedefiedge/status/2023710133964906912"
-        },
-        {
-          "clicks": 380,
-          "date": "2025-02-13T14:44:56.489963+00:00",
-          "headline": "A new VC-backed Stablecoin blockchain is on the way.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/9311/a-new-vc-backed-stablecoin-blockchain-is-on-the-way",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250213144010_o56LBgPqXQ==.jpg",
-          "url": "https://fortune.com/crypto/2025/02/13/exclusive-stablecoin-company-plasma-raises-24-million-from-framework-to-launch-its-own-blockchain/"
-        },
-        {
-          "clicks": 274,
-          "date": "2023-11-28T09:34:03.100503+00:00",
-          "headline": "MakerDAO Co-Founder, Rune Christensen, discusses crypto's fundamental challenges at DevConnect 2023 in Istanbul.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/3415/makerdao-co-founder-rune-christensen-discusses-cryptos-fundamental-challenges-at-devconnect-2023-in-istanbul",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://www.youtube.com/watch?v=KU8otKxaXr8&t=623s"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:04:39.956395+00:00",
+      "as_of": "2026-07-30T18:07:15.309411+00:00",
       "editorial": [
         {
-          "count": 13,
+          "count": 14,
           "source": "x.com"
         },
         {
@@ -530,7 +617,7 @@
           "source": "dlnews.com"
         },
         {
-          "count": 7,
+          "count": 8,
           "source": "theblock.co"
         },
         {
@@ -574,11 +661,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 4,
+          "count": 10,
           "source": "x.com"
         },
         {
-          "count": 3,
+          "count": 5,
           "source": "cointelegraph.com"
         },
         {
@@ -586,12 +673,20 @@
           "source": "theblock.co"
         },
         {
+          "count": 2,
+          "source": "bloomberg.com"
+        },
+        {
+          "count": 2,
+          "source": "techinasia.com"
+        },
+        {
           "count": 1,
           "source": "theinformation.com"
         },
         {
           "count": 1,
-          "source": "bloomberg.com"
+          "source": "techcrunch.com"
         },
         {
           "count": 1,
@@ -599,10 +694,18 @@
         },
         {
           "count": 1,
-          "source": "techinasia.com"
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "techfundingnews.com"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
         }
       ],
-      "universe_distinct": 7
+      "universe_distinct": 11
     }
   },
   "official_links": [],

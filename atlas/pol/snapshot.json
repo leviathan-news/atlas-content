@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:03:17.295337+00:00",
-      "newsroom_total": 65,
+      "as_of": "2026-07-30T18:21:45.465609+00:00",
+      "newsroom_total": 66,
       "overall_share": 4,
       "provenance": "data",
       "series": [
@@ -121,102 +121,121 @@
           "universe": 294
         },
         {
-          "ed_share": 1,
+          "ed_share": 2,
           "month": "2026-07",
-          "newsroom": 5,
-          "universe": 366
+          "newsroom": 6,
+          "universe": 377
         }
       ],
-      "total_universe": 1844,
-      "universe_total": 1779
+      "total_universe": 1856,
+      "universe_total": 1790
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:03:16.997472+00:00",
+      "as_of": "2026-07-30T18:21:44.900737+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.734,
-          "description": "Co-covered in 199 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "As the successor to MATIC, the Polygon ecosystem token **POL** is the native gas, staking, and governance asset of Polygon’s multi-chain Ethereum scaling network, designed to coordinate validators and value across a growing family of Layer 2 chains.",
           "from": "pol",
           "observed_at": "2026-07-27",
-          "phrase": "Co-covered in 199 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "polygon",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 73
         },
         {
-          "confidence": 0.207,
-          "description": "Co-covered in 3 approved stories; most recently May 2026.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
-          "from": "pol",
-          "observed_at": "2026-05-13",
-          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "immutable",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 21
-        },
-        {
-          "confidence": 0.194,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "pol",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "Layer 2",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "dolomite",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "layer-2",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 19
+          "weight": 10
         },
         {
-          "confidence": 0.172,
-          "description": "Co-covered in 7 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "pol",
           "observed_at": null,
-          "phrase": "Co-covered in 7 approved stories.",
+          "phrase": "validators",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "fork",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "validators",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 17
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "pol",
+          "relation_type": null,
+          "role": null,
+          "to": "polygon",
+          "verified": false,
+          "weight": 73
         },
         {
-          "confidence": 0.156,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "pol",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "polygon",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "pools",
+          "role": null,
+          "to": "pol",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
+          "weight": 63
         }
       ],
       "nodes": [
@@ -230,6 +249,7 @@
         {
           "center": false,
           "confidence": 0.734,
+          "is_stub": false,
           "name": "Polygon",
           "observed_at": "2026-07-27",
           "slug": "polygon",
@@ -241,54 +261,60 @@
         },
         {
           "center": false,
-          "confidence": 0.207,
-          "name": "Immutable",
-          "observed_at": "2026-05-13",
-          "slug": "immutable",
-          "source": "observed_relation",
-          "tier": "related",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Layer 2",
+          "observed_at": null,
+          "slug": "layer-2",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 21
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.194,
-          "name": "Dolomite",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Validators",
           "observed_at": null,
-          "slug": "dolomite",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "validators",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.172,
-          "name": "fork",
-          "observed_at": null,
-          "slug": "fork",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.156,
-          "name": "Pools",
-          "observed_at": null,
-          "slug": "pools",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Arbitrum",
+          "shared_neighbors": 3,
+          "slug": "arbitrum"
+        },
+        {
+          "is_stub": false,
+          "name": "Crosschain",
+          "shared_neighbors": 2,
+          "slug": "crosschain"
+        },
+        {
+          "is_stub": false,
+          "name": "Decentralization",
+          "shared_neighbors": 2,
+          "slug": "decentralization"
+        },
+        {
+          "is_stub": false,
+          "name": "Dolomite",
+          "shared_neighbors": 2,
+          "slug": "dolomite"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T02:22:19.649679+00:00",
@@ -353,8 +379,8 @@
       "source": "https://coinmarketcap.com/currencies/polygon-ecosystem-token/"
     },
     "reader_signal": {
-      "article_count": 65,
-      "as_of": "2026-07-29T23:03:17.852404+00:00",
+      "article_count": 66,
+      "as_of": "2026-07-30T18:21:45.821821+00:00",
       "most_clicked": {
         "clicks": 640,
         "date": "2024-02-21T09:41:35.888054+00:00",
@@ -363,7 +389,7 @@
       },
       "provenance": "data",
       "top_decile_share": 32,
-      "total_clicks": 4099
+      "total_clicks": 4138
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:22:19.649597+00:00",
@@ -448,7 +474,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:03:17.844387+00:00",
+      "as_of": "2026-07-30T18:21:45.815404+00:00",
       "items": [
         {
           "clicks": 132,
@@ -478,10 +504,19 @@
           "url": "https://x.com/i/status/2042743133927280693"
         },
         {
+          "clicks": 38,
+          "date": "2026-07-30T06:43:08.701814+00:00",
+          "headline": "Kansai Electric's MOACT lets users swap NORM Points 1:1 for yen-backed JPYC on Polygon",
+          "hot_score": 3091.32504,
+          "lev_url": "https://leviathannews.xyz/284592/kansai-electrics-moact-lets-users-swap-norm-points-11-for-yen-backed-jpyc-on-polygon",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260730043943_Z4zrlaiDPw==.png",
+          "url": "https://service.moact.jp/news/2026-07-30-3959/"
+        },
+        {
           "clicks": 41,
           "date": "2026-07-27T14:54:14.490238+00:00",
           "headline": "Mento launches onchain FX on Polygon with USDm/EURm pool, Capa liquidity and EURØP backing",
-          "hot_score": 1389.137987,
+          "hot_score": 1143.625811,
           "lev_url": "https://leviathannews.xyz/282623/mento-launches-onchain-fx-on-polygon-with-usdmeurm-pool-capa-liquidity-and-eurp-backing",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727144701_Z4zrlaiDPw==.png",
           "url": "https://polygon.technology/blog/mento-protocol-launches-on-polygon-for-local-currency-stablecoin-payments"
@@ -512,21 +547,12 @@
           "lev_url": "https://leviathannews.xyz/235040/polygons-agglayer-withstands-defis-worst-week-since-ftx-as-292m-bridge-hack-and-66b-aave-outflows-expose-multisig-vulnerabilities-across-chains",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422144314_pBqIzgHs_a7T.jpg",
           "url": "https://beincrypto.com/how-polygon-agglayer-held-through-defi-worst-week-since-ftx/"
-        },
-        {
-          "clicks": 46,
-          "date": "2026-06-03T07:01:59.956819+00:00",
-          "headline": "Mastercard plans onchain settlement for 6 stablecoins across Ethereum, Solana, Base, Polygon, Arbitrum and XRPL",
-          "hot_score": 731.475095,
-          "lev_url": "https://leviathannews.xyz/252073/mastercard-plans-onchain-settlement-for-6-stablecoins-across-ethereum-solana-base-polygon-arbitrum-and-xrpl",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260603041443_Z4zrlaiDPw==.png",
-          "url": "https://www.coindesk.com/markets/2026/06/03/mastercard-expands-on-chain-settlement-in-bet-on-stablecoins-and-always-on-finance"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:03:17.827497+00:00",
+      "as_of": "2026-07-30T18:21:45.796140+00:00",
       "editorial": [
         {
           "count": 35,
@@ -577,7 +603,7 @@
           "source": "beincrypto.com"
         }
       ],
-      "editorial_distinct": 14,
+      "editorial_distinct": 15,
       "provenance": "data",
       "universe": [
         {

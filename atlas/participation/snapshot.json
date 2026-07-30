@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:03:05.065262+00:00",
+      "as_of": "2026-07-30T18:21:29.364597+00:00",
       "newsroom_total": 30,
       "overall_share": 20,
       "provenance": "data",
@@ -130,99 +130,106 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 32
+          "universe": 33
         }
       ],
-      "total_universe": 152,
-      "universe_total": 122
+      "total_universe": 153,
+      "universe_total": 123
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:03:04.829718+00:00",
+      "as_of": "2026-07-30T18:21:29.169959+00:00",
       "edges": [
         {
-          "confidence": 0.241,
-          "description": "Co-covered in 4 approved stories; most recently February 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "participation",
-          "observed_at": "2026-02-27",
-          "phrase": "Co-covered in 4 approved stories; most recently February 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "staking",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 24
-        },
-        {
-          "confidence": 0.198,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "participation",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "seed-round",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 20
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "evidence",
+          "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "A governance attack or a low-participation vote could alter withdrawal conditions, fee structures, or strategy whitelists in ways unfavorable to depositors.",
+          "from": "participation",
+          "observed_at": "2026-07-30",
+          "phrase": "Mentioned in this territory's explainer.",
+          "relation_type": null,
+          "role": null,
+          "source": "observed_relation",
+          "tier": "related",
+          "to": "yearn",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 70
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "participation",
           "observed_at": null,
           "phrase": "agents",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "agents",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "participation",
           "observed_at": null,
           "phrase": "digital assets",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "digital-assets",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
-        },
+        }
+      ],
+      "intra_edges": [
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "from": "participation",
-          "observed_at": null,
-          "phrase": "blockchain",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "yearn",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "blockchain",
+          "role": null,
+          "to": "participation",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 70
         }
       ],
       "nodes": [
@@ -235,31 +242,21 @@
         },
         {
           "center": false,
-          "confidence": 0.241,
-          "name": "Staking",
-          "observed_at": "2026-02-27",
-          "slug": "staking",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Yearn",
+          "observed_at": "2026-07-30",
+          "slug": "yearn",
           "source": "observed_relation",
           "tier": "related",
           "verified": false,
           "verified_at": null,
-          "weight": 24
-        },
-        {
-          "center": false,
-          "confidence": 0.198,
-          "name": "Seed Round",
-          "observed_at": null,
-          "slug": "seed-round",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 20
+          "weight": 70
         },
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "agents",
           "observed_at": null,
           "slug": "agents",
@@ -272,6 +269,7 @@
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Digital Assets",
           "observed_at": null,
           "slug": "digital-assets",
@@ -280,21 +278,37 @@
           "verified": false,
           "verified_at": null,
           "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Blockchain",
-          "observed_at": null,
-          "slug": "blockchain",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 3,
+          "slug": "infrastructure"
+        },
+        {
+          "is_stub": false,
+          "name": "policy",
+          "shared_neighbors": 2,
+          "slug": "policy"
+        },
+        {
+          "is_stub": true,
+          "name": "Resupply",
+          "shared_neighbors": 2,
+          "slug": "resupply"
+        },
+        {
+          "is_stub": false,
+          "name": "Roadmap",
+          "shared_neighbors": 2,
+          "slug": "roadmap"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T09:24:10.201106+00:00",
@@ -348,7 +362,7 @@
     },
     "reader_signal": {
       "article_count": 30,
-      "as_of": "2026-07-29T23:03:05.285273+00:00",
+      "as_of": "2026-07-30T18:21:29.621731+00:00",
       "most_clicked": {
         "clicks": 330,
         "date": "2024-06-24T15:16:20.148001+00:00",
@@ -442,7 +456,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:03:05.280879+00:00",
+      "as_of": "2026-07-30T18:21:29.617985+00:00",
       "items": [
         {
           "clicks": 52,
@@ -520,7 +534,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:03:05.264036+00:00",
+      "as_of": "2026-07-30T18:21:29.608304+00:00",
       "editorial": [
         {
           "count": 10,
@@ -575,7 +589,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 110,
+          "count": 111,
           "source": "x.com"
         },
         {

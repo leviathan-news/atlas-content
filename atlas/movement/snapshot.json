@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:02:16.143521+00:00",
+      "as_of": "2026-07-30T18:20:29.105115+00:00",
       "newsroom_total": 10,
-      "overall_share": 8,
+      "overall_share": 7,
       "provenance": "data",
       "series": [
         {
@@ -40,99 +40,118 @@
           "ed_share": 4,
           "month": "2026-07",
           "newsroom": 2,
-          "universe": 48
+          "universe": 49
         }
       ],
-      "total_universe": 133,
-      "universe_total": 123
+      "total_universe": 134,
+      "universe_total": 124
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:02:15.841720+00:00",
+      "as_of": "2026-07-30T18:20:28.625941+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.221,
-          "description": "Co-covered in 9 approved stories; most recently June 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Built on the Move programming language, Movement is a blockchain network that aims to be a **global settlement and yield layer for stablecoins**, targeting cross‑border payments, remittances, and dollar savings products for emerging markets.",
           "from": "movement",
           "observed_at": "2026-06-25",
-          "phrase": "Co-covered in 9 approved stories; most recently June 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "payments",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 22
         },
         {
-          "confidence": 0.216,
-          "description": "Co-covered in 7 approved stories; most recently June 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "movement",
-          "observed_at": "2026-06-17",
-          "phrase": "Co-covered in 7 approved stories; most recently June 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "yield",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 22
-        },
-        {
-          "confidence": 0.182,
-          "description": "Co-covered in 9 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "movement",
-          "observed_at": null,
-          "phrase": "Co-covered in 9 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoins",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
-        },
-        {
-          "confidence": 0.135,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "movement",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoin-payments",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 13
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "movement",
           "observed_at": null,
           "phrase": "Layer 2",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "layer-2",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "movement",
+          "observed_at": null,
+          "phrase": "regulated stablecoin",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "regulated-stablecoin",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "movement",
+          "relation_type": null,
+          "role": null,
+          "to": "payments",
+          "verified": false,
+          "weight": 22
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "payments",
+          "relation_type": null,
+          "role": null,
+          "to": "movement",
+          "verified": false,
+          "weight": 22
         }
       ],
       "nodes": [
@@ -146,6 +165,7 @@
         {
           "center": false,
           "confidence": 0.221,
+          "is_stub": false,
           "name": "Payments",
           "observed_at": "2026-06-25",
           "slug": "payments",
@@ -157,43 +177,8 @@
         },
         {
           "center": false,
-          "confidence": 0.216,
-          "name": "Yield",
-          "observed_at": "2026-06-17",
-          "slug": "yield",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 22
-        },
-        {
-          "center": false,
-          "confidence": 0.182,
-          "name": "Stablecoins",
-          "observed_at": null,
-          "slug": "stablecoins",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.135,
-          "name": "Stablecoin Payments",
-          "observed_at": null,
-          "slug": "stablecoin-payments",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 13
-        },
-        {
-          "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Layer 2",
           "observed_at": null,
           "slug": "layer-2",
@@ -202,9 +187,50 @@
           "verified": false,
           "verified_at": null,
           "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Regulated Stablecoin",
+          "observed_at": null,
+          "slug": "regulated-stablecoin",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Stablecoins",
+          "shared_neighbors": 3,
+          "slug": "stablecoins"
+        },
+        {
+          "is_stub": false,
+          "name": "compliance",
+          "shared_neighbors": 2,
+          "slug": "compliance"
+        },
+        {
+          "is_stub": false,
+          "name": "GENIUS Act",
+          "shared_neighbors": 2,
+          "slug": "genius"
+        },
+        {
+          "is_stub": false,
+          "name": "Stablecoin Infrastructure",
+          "shared_neighbors": 2,
+          "slug": "stablecoin-infrastructure"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T10:09:09.895657+00:00",
@@ -270,7 +296,7 @@
     },
     "reader_signal": {
       "article_count": 10,
-      "as_of": "2026-07-29T23:02:16.522855+00:00",
+      "as_of": "2026-07-30T18:20:29.568951+00:00",
       "most_clicked": {
         "clicks": 111,
         "date": "2026-03-30T10:47:35.865581+00:00",
@@ -279,7 +305,7 @@
       },
       "provenance": "data",
       "top_decile_share": 20,
-      "total_clicks": 552
+      "total_clicks": 553
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:09:09.895576+00:00",
@@ -359,7 +385,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:02:16.514168+00:00",
+      "as_of": "2026-07-30T18:20:29.564434+00:00",
       "items": [
         {
           "clicks": 49,
@@ -416,7 +442,7 @@
           "url": "https://www.businesswire.com/news/home/20260402548535/en/Enrys-Island-Unveils-Enrys-Island-Adventures-Venture-Capital-Becomes-a-Videogame-and-Launches-the-Strap-Movement-on-Kickstarter"
         },
         {
-          "clicks": 29,
+          "clicks": 30,
           "date": "2026-04-21T19:53:17.239214+00:00",
           "headline": "STBL CEO Avtar Sehra heads to CNBC Converge to outline how stablecoins and tokenization will reshape global finance, as onchain systems redefine value issuance and movement",
           "hot_score": 88.6,
@@ -437,7 +463,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:02:16.503850+00:00",
+      "as_of": "2026-07-30T18:20:29.554011+00:00",
       "editorial": [
         {
           "count": 4,
@@ -468,7 +494,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 89,
+          "count": 90,
           "source": "x.com"
         },
         {

@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:03:56.423105+00:00",
-      "newsroom_total": 130,
-      "overall_share": 24,
+      "as_of": "2026-07-30T18:25:38.215978+00:00",
+      "newsroom_total": 131,
+      "overall_share": 23,
       "provenance": "data",
       "series": [
         {
@@ -177,100 +177,207 @@
         {
           "ed_share": 12,
           "month": "2026-07",
-          "newsroom": 41,
-          "universe": 297
+          "newsroom": 42,
+          "universe": 303
         }
       ],
-      "total_universe": 552,
-      "universe_total": 422
+      "total_universe": 559,
+      "universe_total": 428
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:03:56.203542+00:00",
+      "as_of": "2026-07-30T18:25:37.963256+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.21,
-          "description": "Co-covered in 8 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "-based retail brokerage that pioneered commission-free stock trading and has since evolved into a multi-asset financial platform spanning equities, options, cryptocurrency, prediction markets, and wealth management.",
           "from": "robinhood",
           "observed_at": "2026-07-21",
-          "phrase": "Co-covered in 8 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "retail",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
-          "confidence": 0.195,
-          "description": "Co-covered in 10 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "robinhood",
           "observed_at": null,
-          "phrase": "Co-covered in 10 approved stories.",
+          "phrase": "equities",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "prediction-markets",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "equities",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "robinhood",
+          "observed_at": null,
+          "phrase": "Fidelity",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "fidelity",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "robinhood",
+          "observed_at": null,
+          "phrase": "Nasdaq",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "nasdaq",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "robinhood",
+          "observed_at": null,
+          "phrase": "prediction markets",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "prediction-markets",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "equities",
+          "relation_type": null,
+          "role": null,
+          "to": "nasdaq",
+          "verified": false,
+          "weight": 19
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "nasdaq",
+          "relation_type": null,
+          "role": null,
+          "to": "equities",
+          "verified": false,
+          "weight": 19
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "prediction-markets",
+          "relation_type": null,
+          "role": null,
+          "to": "retail",
+          "verified": false,
+          "weight": 16
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "robinhood",
+          "relation_type": null,
+          "role": null,
+          "to": "prediction-markets",
+          "verified": false,
           "weight": 20
         },
         {
-          "confidence": 0.181,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "robinhood",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "options",
+          "role": null,
+          "to": "retail",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
-        },
-        {
-          "confidence": 0.172,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "robinhood",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "bernstein",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
-        },
-        {
-          "confidence": 0.167,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "robinhood",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "gambling",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
+          "weight": 21
         }
       ],
       "nodes": [
@@ -284,6 +391,7 @@
         {
           "center": false,
           "confidence": 0.21,
+          "is_stub": false,
           "name": "Retail",
           "observed_at": "2026-07-21",
           "slug": "retail",
@@ -295,54 +403,86 @@
         },
         {
           "center": false,
-          "confidence": 0.195,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Equities",
+          "observed_at": null,
+          "slug": "equities",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Fidelity",
+          "observed_at": null,
+          "slug": "fidelity",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "NASDAQ",
+          "observed_at": null,
+          "slug": "nasdaq",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Prediction Markets",
           "observed_at": null,
           "slug": "prediction-markets",
-          "source": "observed_relation",
-          "tier": "related",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 20
-        },
-        {
-          "center": false,
-          "confidence": 0.181,
-          "name": "Options",
-          "observed_at": null,
-          "slug": "options",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.172,
-          "name": "Bernstein",
-          "observed_at": null,
-          "slug": "bernstein",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.167,
-          "name": "Gambling",
-          "observed_at": null,
-          "slug": "gambling",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "ETFs",
+          "shared_neighbors": 3,
+          "slug": "etfs"
+        },
+        {
+          "is_stub": false,
+          "name": "Stocks",
+          "shared_neighbors": 3,
+          "slug": "stocks"
+        },
+        {
+          "is_stub": false,
+          "name": "ARK",
+          "shared_neighbors": 2,
+          "slug": "ark"
+        },
+        {
+          "is_stub": false,
+          "name": "S&P",
+          "shared_neighbors": 2,
+          "slug": "s-andp"
+        }
+      ],
+      "total_routes": 5,
+      "visible_routes": 5
     },
     "event_timeline": {
       "as_of": "2026-06-26T02:12:35.936469+00:00",
@@ -407,8 +547,8 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 130,
-      "as_of": "2026-07-29T23:03:57.350558+00:00",
+      "article_count": 131,
+      "as_of": "2026-07-30T18:25:38.631959+00:00",
       "most_clicked": {
         "clicks": 975,
         "date": "2024-05-03T19:01:50.454520+00:00",
@@ -416,8 +556,8 @@
         "lev_url": "https://leviathannews.xyz/5185/uniswap-teams-with-robinhood-to-trade-crypto-in-app-including-10-usdc-as-a-promotion"
       },
       "provenance": "data",
-      "top_decile_share": 43,
-      "total_clicks": 10694
+      "top_decile_share": 42,
+      "total_clicks": 10735
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:12:35.936396+00:00",
@@ -502,13 +642,13 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:03:57.324396+00:00",
+      "as_of": "2026-07-30T18:25:38.616203+00:00",
       "items": [
         {
-          "clicks": 24,
+          "clicks": 32,
           "date": "2026-07-29T08:03:05.097066+00:00",
           "headline": "Ark Invest buys $12.2M of SpaceX while trimming positions in Block, Bullish, and Robinhood as Cathie Wood continues rebalancing ETF portfolios",
-          "hot_score": 2870.353418,
+          "hot_score": 2400.873693,
           "lev_url": "https://leviathannews.xyz/283879/ark-invest-buys-12-million-in-spacex-as-it-trims-block-bullish-and-robinhood-holdings-20260729",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729075216_qaLDsHzT1bVB.jpg",
           "url": "https://www.theblock.co/post/410002/ark-invest-buys-spacex-trims-block-bullish-robinhood?utm_source=rss&utm_medium=rss"
@@ -523,10 +663,19 @@
           "url": "https://www.cnbc.com/2026/04/16/charles-schwab-to-launch-direct-bitcoin-ethereum-trading-to-compete-with-robinhood.html"
         },
         {
-          "clicks": 50,
+          "clicks": 22,
+          "date": "2026-07-30T14:18:21.817590+00:00",
+          "headline": "Uniswap adds beta launchpad aggregator after 340K Robinhood Chain tokens drive $3.6B July volume",
+          "hot_score": 2144.139876,
+          "lev_url": "https://leviathannews.xyz/284909/uniswap-adds-beta-launchpad-aggregator-after-340k-robinhood-chain-tokens-drive-36b-july-volume",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260730141721_Z4zrlaiDPw==.png",
+          "url": "https://blog.uniswap.org/launch-aggregator-explore-top-uniswap-launchpads-in-one-place"
+        },
+        {
+          "clicks": 51,
           "date": "2026-07-28T17:56:43.407439+00:00",
           "headline": "Robinhood Chain Reaches $325M as Trading Activity Cools",
-          "hot_score": 1847.731853,
+          "hot_score": 1525.779202,
           "lev_url": "https://leviathannews.xyz/283567/robinhood-chain-reaches-325m-as-trading-activity-cools",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728175356_0IhbLNw2DkWe.jpg",
           "url": "https://leviathan.news/atlas/robinhood"
@@ -535,37 +684,19 @@
           "clicks": 42,
           "date": "2026-07-28T17:01:06.980925+00:00",
           "headline": "Robinhood Chain TVL climbs to $325M, but DEX volume, active users, and trading activity continue to decline as memecoin-driven launch momentum fades",
-          "hot_score": 1770.470223,
+          "hot_score": 1456.093342,
           "lev_url": "https://leviathannews.xyz/283531/robinhood-chain-deposits-climb-but-volume-and-users-fade-after-memecoin-fueled-launch-20260728",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728165548_UJ-Nk5SnIyMr.jpg",
           "url": "https://www.theblock.co/post/409813/robinhood-chain-deposits-climb-volume-users-fade-memecoin-fueled-launch?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 64,
+          "clicks": 70,
           "date": "2026-07-25T14:00:19.524420+00:00",
           "headline": "Robinhood Chain's tokenized real-world assets surge 5x as onchain stocks gain traction, with multiple tokenized equities now exceeding $500K in daily volume",
-          "hot_score": 1314.309729,
+          "hot_score": 1098.114585,
           "lev_url": "https://leviathannews.xyz/281867/robinhood-chains-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260725102446_wYCwXzWFRSz0.jpg",
           "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size"
-        },
-        {
-          "clicks": 38,
-          "date": "2026-07-26T07:05:11.692512+00:00",
-          "headline": "Robinhood holds talks to add Crypto.com event contracts as Kalshi rivalry intensifies",
-          "hot_score": 983.473929,
-          "lev_url": "https://leviathannews.xyz/281965/robinhood-holds-talks-to-add-cryptocom-event-contracts-as-kalshi-rivalry-intensifies",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260725221134_DDuEPrHenetA.jpg",
-          "url": "https://www.wsj.com/finance/currencies/prediction-markets-race-heats-up-as-robinhood-and-crypto-com-hold-talks-9fc211dd"
-        },
-        {
-          "clicks": 38,
-          "date": "2026-07-24T09:41:58.380646+00:00",
-          "headline": "Robinhood Chain goes live on Phantom, giving users direct access to trade tokens on the network after installing the wallet's newest update",
-          "hot_score": 923.295337,
-          "lev_url": "https://leviathannews.xyz/281286/start-trading-on-robinhood-chain-today-tap-trade-tokens-and-select-robinhood-chain-dont-see-it-make-sure-to-update-phantom-to-the-latest-version",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724093139_wPsjhcE-sGfT.jpg",
-          "url": "https://x.com/phantom/status/2080407189328650729"
         },
         {
           "clicks": 40,
@@ -575,12 +706,21 @@
           "lev_url": "https://leviathannews.xyz/251494/robinhood-enters-canada-with-c250m-wonderfi-close-adding-bitbuy-coinsquare-and-300k-funded-customers",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260602031524_Z4zrlaiDPw==.png",
           "url": "https://robinhood.com/us/en/newsroom/robinhood-enters-canada-completes-acquisition-wonderfi/"
+        },
+        {
+          "clicks": 38,
+          "date": "2026-07-26T07:05:11.692512+00:00",
+          "headline": "Robinhood holds talks to add Crypto.com event contracts as Kalshi rivalry intensifies",
+          "hot_score": 808.841528,
+          "lev_url": "https://leviathannews.xyz/281965/robinhood-holds-talks-to-add-cryptocom-event-contracts-as-kalshi-rivalry-intensifies",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260725221134_DDuEPrHenetA.jpg",
+          "url": "https://www.wsj.com/finance/currencies/prediction-markets-race-heats-up-as-robinhood-and-crypto-com-hold-talks-9fc211dd"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:03:57.282518+00:00",
+      "as_of": "2026-07-30T18:25:38.570053+00:00",
       "editorial": [
         {
           "count": 49,
@@ -635,7 +775,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 274,
+          "count": 279,
           "source": "x.com"
         },
         {
@@ -643,7 +783,7 @@
           "source": "theblock.co"
         },
         {
-          "count": 19,
+          "count": 20,
           "source": "decrypt.co"
         },
         {

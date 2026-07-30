@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:05:15.181422+00:00",
-      "newsroom_total": 9,
-      "overall_share": 13,
+      "as_of": "2026-07-30T18:27:26.052257+00:00",
+      "newsroom_total": 11,
+      "overall_share": 11,
       "provenance": "data",
       "series": [
         {
@@ -35,63 +35,85 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 16
+        },
+        {
+          "ed_share": 6,
+          "month": "2026-07",
+          "newsroom": 2,
+          "universe": 29
         }
       ],
-      "total_universe": 70,
-      "universe_total": 61
+      "total_universe": 101,
+      "universe_total": 90
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:05:14.880191+00:00",
+      "as_of": "2026-07-30T18:27:25.555822+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "stellar",
-          "phrase": "DTCC explores blockchain settlement, potentially integrating with Stellar.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "dtcc",
-          "weight": 20
-        },
-        {
-          "dir": "out",
-          "from": "stellar",
-          "phrase": "Stellar is a blockchain network focused on payments.",
-          "relation_type": "category",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "payments",
-          "weight": 20
-        },
-        {
-          "dir": "out",
-          "from": "stellar",
-          "phrase": "Stellar specializes in fast, low-cost cross-border payments.",
-          "relation_type": "category",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "cross-border-payments",
-          "weight": 19
-        },
-        {
-          "dir": "out",
-          "from": "stellar",
-          "phrase": "Stellar supports stablecoin issuance and transfers on its network.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "stablecoins",
-          "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "stellar",
-          "phrase": "fees",
+          "observed_at": null,
+          "phrase": "payments",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "fees",
+          "to": "payments",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "stellar",
+          "observed_at": null,
+          "phrase": "tokenization",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "tokenization",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "stellar",
+          "relation_type": null,
+          "role": null,
+          "to": "payments",
+          "verified": false,
+          "weight": 20
         }
       ],
       "nodes": [
@@ -104,46 +126,54 @@
         },
         {
           "center": false,
-          "name": "DTCC",
-          "slug": "dtcc",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 20
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Payments",
+          "observed_at": null,
           "slug": "payments",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 20
-        },
-        {
-          "center": false,
-          "name": "Cross-Border Payments",
-          "slug": "cross-border-payments",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 19
-        },
-        {
-          "center": false,
-          "name": "Stablecoins",
-          "slug": "stablecoins",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
-          "name": "Fees",
-          "slug": "fees",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Tokenization",
+          "observed_at": null,
+          "slug": "tokenization",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Cross-Border Payments",
+          "shared_neighbors": 2,
+          "slug": "cross-border-payments"
+        },
+        {
+          "is_stub": false,
+          "name": "DTCC",
+          "shared_neighbors": 2,
+          "slug": "dtcc"
+        },
+        {
+          "is_stub": false,
+          "name": "Stablecoins",
+          "shared_neighbors": 2,
+          "slug": "stablecoins"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T06:47:07.739264+00:00",
@@ -208,8 +238,8 @@
       "source": "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-expands-settlement-capabilities-to-include-stablecoin.html"
     },
     "reader_signal": {
-      "article_count": 9,
-      "as_of": "2026-07-01T12:05:15.708474+00:00",
+      "article_count": 11,
+      "as_of": "2026-07-30T18:27:26.342233+00:00",
       "most_clicked": {
         "clicks": 58,
         "date": "2026-04-09T14:20:53.464886+00:00",
@@ -217,8 +247,8 @@
         "lev_url": "https://leviathannews.xyz/224972/splyce-finance-closed-its-strategic-round-backed-by-sui-foundation-stellar-solana-foundation-lucid-drakes-sarson-funds-and-kin-capital"
       },
       "provenance": "data",
-      "top_decile_share": 17,
-      "total_clicks": 349
+      "top_decile_share": 13,
+      "total_clicks": 431
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:47:07.739131+00:00",
@@ -303,7 +333,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:05:15.629350+00:00",
+      "as_of": "2026-07-30T18:27:26.335866+00:00",
       "items": [
         {
           "clicks": 36,
@@ -315,7 +345,7 @@
           "url": "https://x.com/i/status/2044785236454850858"
         },
         {
-          "clicks": 36,
+          "clicks": 37,
           "date": "2026-05-19T17:18:54.609327+00:00",
           "headline": "Circle expands CCTP to Stellar, enabling developers and institutions to move USDC across 23 blockchains using canonical burn-and-mint infrastructure",
           "hot_score": 714.208196,
@@ -324,7 +354,16 @@
           "url": "https://x.com/i/web/status/2056767949445472739"
         },
         {
-          "clicks": 11,
+          "clicks": 33,
+          "date": "2026-07-06T21:02:31.834647+00:00",
+          "headline": "UNDP scales Stellar-based payments for country offices after 17-country research and 5 live pilots",
+          "hot_score": 424.390654,
+          "lev_url": "https://leviathannews.xyz/269778/undp-scales-stellar-based-payments-for-country-offices-after-17-country-research-and-5-live-pilots",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260706175951_Z4zrlaiDPw==.png",
+          "url": "https://innovation.eurasia.undp.org/undp-stellar-digital-payment-solutions/"
+        },
+        {
+          "clicks": 14,
           "date": "2026-06-10T08:00:03.892045+00:00",
           "headline": "Stellar plans quantum-safe signers for all accounts by 2027 as QPP targets Ed25519 risk",
           "hot_score": 397.002207,
@@ -351,7 +390,7 @@
           "url": "https://www.coindesk.com/coindesk-news/2026/04/29/stellar-s-cmo-says-crypto-must-ditch-hype-and-get-rich-slow-to-win-mainstream-trust"
         },
         {
-          "clicks": 49,
+          "clicks": 50,
           "date": "2026-03-02T22:21:53.370729+00:00",
           "headline": "CME Group says crypto futures suite now covers over 75% of total market cap after adding Cardano, Chainlink, and Stellar contracts",
           "hot_score": 200.768833,
@@ -360,31 +399,22 @@
           "url": "https://www.cmegroup.com/articles/2026/navigating-the-crypto-market-evolution-with-cardano-chainlink-and-stellar-futures.html"
         },
         {
-          "clicks": 42,
+          "clicks": 45,
           "date": "2026-04-02T14:59:39.457754+00:00",
           "headline": "Volatility Shares launches 2x leveraged ETFs for Cardano, Stellar, and Chainlink",
           "hot_score": 136.693675,
           "lev_url": "https://leviathannews.xyz/219658/volatility-shares-launches-2x-leveraged-etfs-for-cardano-stellar-and-chainlink",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260401225754_Z4zrlaiDPw==.png",
           "url": "https://decrypt.co/363089/volatility-shares-everaged-crypto-etfs-three-altcoins/"
-        },
-        {
-          "clicks": 38,
-          "date": "2026-04-03T06:19:51.650097+00:00",
-          "headline": "Wirex expands to Stellar with Ultrastellar, launching native payment rails for cards, accounts, payouts, and stablecoin yield to power real-world financial apps",
-          "hot_score": 77.556833,
-          "lev_url": "https://leviathannews.xyz/220529/1-were-expanding-our-payment-infrastructure-to-stellar-together-with-ultrastellar-the-team-behind-lobstr-and-stellarxhq-we-are-launching-native-stellar-payment-infrastruct",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260403050246_r8fP4UcPHPsF.jpg",
-          "url": "https://x.com/wirexapp/status/2039689359411249182"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:05:15.548529+00:00",
+      "as_of": "2026-07-30T18:27:26.322788+00:00",
       "editorial": [
         {
-          "count": 4,
+          "count": 5,
           "source": "x.com"
         },
         {
@@ -406,18 +436,26 @@
         {
           "count": 1,
           "source": "stellar.org"
+        },
+        {
+          "count": 1,
+          "source": "innovation.eurasia.undp.org"
         }
       ],
-      "editorial_distinct": 6,
+      "editorial_distinct": 7,
       "provenance": "data",
       "universe": [
         {
-          "count": 36,
+          "count": 56,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 14,
           "source": "stellar.org"
+        },
+        {
+          "count": 5,
+          "source": "cointelegraph.com"
         },
         {
           "count": 4,
@@ -425,19 +463,15 @@
         },
         {
           "count": 3,
-          "source": "cointelegraph.com"
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "financefeeds.com"
         },
         {
           "count": 3,
           "source": "coindesk.com"
-        },
-        {
-          "count": 2,
-          "source": "theblock.co"
-        },
-        {
-          "count": 2,
-          "source": "financefeeds.com"
         },
         {
           "count": 1,

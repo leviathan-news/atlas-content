@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:04:11.034732+00:00",
+      "as_of": "2026-07-30T18:25:56.979542+00:00",
       "newsroom_total": 20,
       "overall_share": 17,
       "provenance": "data",
@@ -59,92 +59,147 @@
       "universe_total": 98
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:04:10.777275+00:00",
+      "as_of": "2026-07-30T18:25:56.742212+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.206,
+          "curation_status": "observed",
           "description": "Co-covered in 3 approved stories; most recently April 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "sdk",
           "observed_at": "2026-04-02",
           "phrase": "Co-covered in 3 approved stories; most recently April 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "llm",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
-          "confidence": 0.196,
-          "description": "Co-covered in 11 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "sdk",
           "observed_at": null,
-          "phrase": "Co-covered in 11 approved stories.",
+          "phrase": "AI agents",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "ai-agents",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "sdk",
+          "observed_at": null,
+          "phrase": "payments",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "payments",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ai-agents",
+          "relation_type": null,
+          "role": null,
+          "to": "payments",
+          "verified": false,
+          "weight": 13
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "llm",
+          "relation_type": null,
+          "role": null,
+          "to": "sdk",
+          "verified": false,
+          "weight": 21
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "sdk",
+          "relation_type": null,
+          "role": null,
+          "to": "ai-agents",
+          "verified": false,
           "weight": 20
         },
         {
-          "confidence": 0.191,
-          "description": "Co-covered in 8 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "sdk",
-          "observed_at": null,
-          "phrase": "Co-covered in 8 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
+          "role": null,
+          "to": "llm",
+          "verified": false,
+          "weight": 21
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "sdk",
+          "relation_type": null,
+          "role": null,
           "to": "payments",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
           "weight": 19
-        },
-        {
-          "confidence": 0.191,
-          "description": "Co-covered in 7 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "sdk",
-          "observed_at": null,
-          "phrase": "Co-covered in 7 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "yield",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 19
-        },
-        {
-          "confidence": 0.155,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "sdk",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "openclaw",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 15
         }
       ],
       "nodes": [
@@ -158,6 +213,7 @@
         {
           "center": false,
           "confidence": 0.206,
+          "is_stub": false,
           "name": "LLM",
           "observed_at": "2026-04-02",
           "slug": "llm",
@@ -169,54 +225,60 @@
         },
         {
           "center": false,
-          "confidence": 0.196,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "AI Agents",
           "observed_at": null,
           "slug": "ai-agents",
-          "source": "observed_relation",
-          "tier": "related",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 20
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.191,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Payments",
           "observed_at": null,
           "slug": "payments",
-          "source": "observed_relation",
-          "tier": "related",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.191,
-          "name": "Yield",
-          "observed_at": null,
-          "slug": "yield",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.155,
-          "name": "OpenClaw",
-          "observed_at": null,
-          "slug": "openclaw",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 15
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "API",
+          "shared_neighbors": 3,
+          "slug": "api"
+        },
+        {
+          "is_stub": false,
+          "name": "OpenClaw",
+          "shared_neighbors": 3,
+          "slug": "openclaw"
+        },
+        {
+          "is_stub": false,
+          "name": "Agent",
+          "shared_neighbors": 2,
+          "slug": "agent"
+        },
+        {
+          "is_stub": false,
+          "name": "agents",
+          "shared_neighbors": 2,
+          "slug": "agents"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T06:39:37.266366+00:00",
@@ -282,7 +344,7 @@
     },
     "reader_signal": {
       "article_count": 21,
-      "as_of": "2026-07-29T23:04:11.319690+00:00",
+      "as_of": "2026-07-30T18:25:57.229015+00:00",
       "most_clicked": {
         "clicks": 158,
         "date": "2026-04-07T20:14:37.279822+00:00",
@@ -291,7 +353,7 @@
       },
       "provenance": "data",
       "top_decile_share": 23,
-      "total_clicks": 1214
+      "total_clicks": 1216
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:39:37.266285+00:00",
@@ -376,7 +438,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:04:11.315269+00:00",
+      "as_of": "2026-07-30T18:25:57.225152+00:00",
       "items": [
         {
           "clicks": 85,
@@ -400,7 +462,7 @@
           "clicks": 32,
           "date": "2026-07-29T07:47:01.165229+00:00",
           "headline": "Cosmos SDK v0.54.4 ships state-breaking security fixes, urges chains to coordinate upgrades immediately",
-          "hot_score": 2949.637608,
+          "hot_score": 2404.689413,
           "lev_url": "https://leviathannews.xyz/283801/cosmos-sdk-v0544-ships-state-breaking-security-fixes-urges-chains-to-coordinate-upgrades-immediately",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729053223_Z4zrlaiDPw==.png",
           "url": "https://github.com/cosmos/cosmos-sdk/releases/tag/v0.54.4"
@@ -415,7 +477,7 @@
           "url": "https://cointelegraph.com/news/breez-bitcoin-wallets-send-usdc-usdt-without-holding-stablecoins"
         },
         {
-          "clicks": 29,
+          "clicks": 30,
           "date": "2026-06-17T05:18:44.717528+00:00",
           "headline": "HyperMove launches Bitcoin-backed payment SDK for AI agents, enabling API payments via BTC collateral, x402 rails and vault-secured signing without private keys",
           "hot_score": 682.176151,
@@ -433,7 +495,7 @@
           "url": "https://tether.io/news/tether-launches-qvac-sdk-as-the-ai-universal-building-block-that-runs-trains-and-evolves-intelligence-across-any-device-and-platform/"
         },
         {
-          "clicks": 36,
+          "clicks": 37,
           "date": "2026-07-14T14:39:56.476654+00:00",
           "headline": "Injective launches AI Agent SDK with CLI, agent skills and MCP servers in one package",
           "hot_score": 621.989873,
@@ -454,7 +516,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:04:11.307850+00:00",
+      "as_of": "2026-07-30T18:25:57.215094+00:00",
       "editorial": [
         {
           "count": 12,

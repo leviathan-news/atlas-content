@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:41:34.182962+00:00",
-      "newsroom_total": 262,
-      "overall_share": 9,
+      "as_of": "2026-07-30T17:57:59.751512+00:00",
+      "newsroom_total": 291,
+      "overall_share": 7,
       "provenance": "data",
       "series": [
         {
@@ -75,7 +75,7 @@
         {
           "ed_share": null,
           "month": "2024-07",
-          "newsroom": 2,
+          "newsroom": 1,
           "universe": 0
         },
         {
@@ -202,70 +202,136 @@
           "ed_share": 3,
           "month": "2026-06",
           "newsroom": 20,
-          "universe": 631
+          "universe": 636
         },
         {
-          "ed_share": 11,
+          "ed_share": 3,
           "month": "2026-07",
-          "newsroom": 1,
-          "universe": 8
+          "newsroom": 31,
+          "universe": 947
         }
       ],
-      "total_universe": 2932,
-      "universe_total": 2670
+      "total_universe": 3905,
+      "universe_total": 3614
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:41:33.592121+00:00",
+      "as_of": "2026-07-30T17:57:59.475622+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "app",
-          "phrase": "Apps often integrate with wallets for user onboarding and transactions.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
-          "tier": "related",
+          "observed_at": null,
+          "phrase": "agents",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "agents",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "app",
+          "observed_at": null,
+          "phrase": "games",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "games",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "app",
+          "observed_at": null,
+          "phrase": "wallets",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "wallets",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "app",
+          "relation_type": null,
+          "role": null,
+          "to": "agents",
+          "verified": false,
+          "weight": 16
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "app",
+          "relation_type": null,
+          "role": null,
+          "to": "wallets",
+          "verified": false,
           "weight": 18
         },
         {
-          "dir": "out",
-          "from": "app",
-          "phrase": "iOS is a platform where many apps are deployed.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "ios",
-          "weight": 17
-        },
-        {
-          "dir": "out",
-          "from": "app",
-          "phrase": "Agents and apps are both software entities but serve different functions.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "wallets",
+          "relation_type": null,
+          "role": null,
           "to": "agents",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "app",
-          "phrase": "Apple provides the iOS ecosystem and app store for apps.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "apple",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "app",
-          "phrase": "Vibe Coding is a development approach, not directly comparable to apps.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "vibecoding",
-          "weight": 14
+          "verified": false,
+          "weight": 20
         }
       ],
       "nodes": [
@@ -278,46 +344,73 @@
         },
         {
           "center": false,
-          "name": "wallets",
-          "slug": "wallets",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
-          "name": "iOS",
-          "slug": "ios",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Apple",
-          "slug": "apple",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Games",
+          "observed_at": null,
+          "slug": "games",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Vibe Coding",
-          "slug": "vibecoding",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "wallets",
+          "observed_at": null,
+          "slug": "wallets",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "API",
+          "shared_neighbors": 2,
+          "slug": "api"
+        },
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 2,
+          "slug": "infrastructure"
+        },
+        {
+          "is_stub": false,
+          "name": "Wallet",
+          "shared_neighbors": 2,
+          "slug": "wallet"
+        },
+        {
+          "is_stub": false,
+          "name": "Web3",
+          "shared_neighbors": 2,
+          "slug": "web3"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T00:04:53.695457+00:00",
@@ -382,17 +475,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 276,
-      "as_of": "2026-07-01T11:41:35.018030+00:00",
+      "article_count": 305,
+      "as_of": "2026-07-30T17:58:00.009504+00:00",
       "most_clicked": {
-        "clicks": 967,
+        "clicks": 975,
         "date": "2024-05-03T19:01:50.454520+00:00",
         "headline": "Uniswap teams with Robinhood to trade crypto in-app, including $10 USDC as a promotion",
         "lev_url": "https://leviathannews.xyz/5185/uniswap-teams-with-robinhood-to-trade-crypto-in-app-including-10-usdc-as-a-promotion"
       },
       "provenance": "data",
       "top_decile_share": 35,
-      "total_clicks": 18545
+      "total_clicks": 20073
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:04:53.695366+00:00",
@@ -472,10 +565,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:41:34.930627+00:00",
+      "as_of": "2026-07-30T17:57:59.993484+00:00",
       "items": [
         {
-          "clicks": 156,
+          "clicks": 158,
           "date": "2026-04-07T20:14:37.279822+00:00",
           "headline": "Tempo releases Accounts SDK enabling passkey-based wallets with 1-line integration, bringing Face ID logins, transaction simulation, and gas sponsorship to apps",
           "hot_score": 58436.712549,
@@ -484,7 +577,7 @@
           "url": "https://x.com/i/status/2041580718829269117"
         },
         {
-          "clicks": 56,
+          "clicks": 59,
           "date": "2026-04-11T08:14:58.763126+00:00",
           "headline": "OpenAI mandates macOS app updates after Axios supply chain attack exposes code signing certificates",
           "hot_score": 30625.656098,
@@ -493,7 +586,7 @@
           "url": "https://x.com/OpenAI/status/2042780052669239782"
         },
         {
-          "clicks": 59,
+          "clicks": 62,
           "date": "2026-04-09T23:46:26.333354+00:00",
           "headline": "Binance Convert adds recurring buys for Ondo tokenized securities across app and web",
           "hot_score": 21722.342703,
@@ -502,7 +595,7 @@
           "url": "https://www.binance.com/en/support/announcement/56491d77154e49ed96a31d75d64ed713"
         },
         {
-          "clicks": 66,
+          "clicks": 68,
           "date": "2026-04-09T04:50:16.399416+00:00",
           "headline": "Tubi becomes first streamer to launch native app inside ChatGPT, unlocking discovery across 300K+ movies and TV episodes",
           "hot_score": 15195.207524,
@@ -511,7 +604,7 @@
           "url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/?utm_source=dlvr.it&utm_medium=twitter"
         },
         {
-          "clicks": 64,
+          "clicks": 65,
           "date": "2026-04-08T19:31:17.872342+00:00",
           "headline": "Nansen integrates MoonPay fiat on-ramp, enabling seamless in-app crypto purchases via card, Apple Pay, and Google Pay without leaving platform",
           "hot_score": 12768.031385,
@@ -520,7 +613,7 @@
           "url": "https://x.com/i/status/2041837538026107199"
         },
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2026-04-14T08:14:53.667776+00:00",
           "headline": "Polymarket launches $5M bug bounty on Cantina, exposing full-stack prediction market infra including smart contracts, oracles, and web app to security researchers",
           "hot_score": 8917.125185,
@@ -529,7 +622,7 @@
           "url": "https://x.com/i/status/2043753857638093063"
         },
         {
-          "clicks": 41,
+          "clicks": 44,
           "date": "2026-04-15T00:39:11.232133+00:00",
           "headline": "X rolls out Cashtags on iPhone in US & Canada, enabling real-time stock and crypto tracking with in-app price charts tied to posts",
           "hot_score": 8309.051938,
@@ -538,7 +631,7 @@
           "url": "https://x.com/i/status/2044187672969879654"
         },
         {
-          "clicks": 61,
+          "clicks": 65,
           "date": "2026-04-13T06:53:44.168101+00:00",
           "headline": "Fake Ledger app on Apple's Mac Store drains G. Love's $420K Bitcoin retirement fund",
           "hot_score": 5171.562368,
@@ -550,27 +643,27 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:41:34.760791+00:00",
+      "as_of": "2026-07-30T17:57:59.975164+00:00",
       "editorial": [
         {
-          "count": 136,
+          "count": 150,
           "source": "x.com"
         },
         {
-          "count": 20,
+          "count": 23,
           "source": "theblock.co"
         },
         {
-          "count": 9,
+          "count": 10,
           "source": "cointelegraph.com"
         },
         {
           "count": 8,
-          "source": "decrypt.co"
+          "source": "coindesk.com"
         },
         {
-          "count": 6,
-          "source": "coindesk.com"
+          "count": 8,
+          "source": "decrypt.co"
         },
         {
           "count": 4,
@@ -601,11 +694,11 @@
           "source": "crypto.news"
         }
       ],
-      "editorial_distinct": 64,
+      "editorial_distinct": 71,
       "provenance": "data",
       "universe": [
         {
-          "count": 1094,
+          "count": 1092,
           "source": "x.com"
         },
         {
@@ -613,23 +706,23 @@
           "source": "cointelegraph.com"
         },
         {
-          "count": 46,
+          "count": 45,
           "source": "decrypt.co"
         },
         {
-          "count": 42,
-          "source": "theblock.co"
-        },
-        {
-          "count": 41,
+          "count": 43,
           "source": "truthsocial.com"
         },
         {
-          "count": 21,
+          "count": 41,
+          "source": "theblock.co"
+        },
+        {
+          "count": 22,
           "source": "financefeeds.com"
         },
         {
-          "count": 13,
+          "count": 12,
           "source": "coindesk.com"
         },
         {
@@ -645,15 +738,15 @@
           "source": "dlnews.com"
         },
         {
-          "count": 9,
-          "source": "bloomberg.com"
+          "count": 10,
+          "source": "wsj.com"
         },
         {
           "count": 9,
-          "source": "wsj.com"
+          "source": "bloomberg.com"
         }
       ],
-      "universe_distinct": 84
+      "universe_distinct": 85
     }
   },
   "official_links": [],

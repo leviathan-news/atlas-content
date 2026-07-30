@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:04:57.875171+00:00",
+      "as_of": "2026-07-30T18:27:24.650067+00:00",
       "newsroom_total": 2,
       "overall_share": 4,
       "provenance": "data",
@@ -40,99 +40,92 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 8
+          "universe": 9
         }
       ],
-      "total_universe": 47,
-      "universe_total": 45
+      "total_universe": 48,
+      "universe_total": 46
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:04:57.496595+00:00",
+      "as_of": "2026-07-30T18:27:24.342182+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.233,
-          "description": "Co-covered in 3 approved stories; most recently March 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Starlink is a low-Earth-orbit (LEO) satellite internet constellation built and operated by SpaceX that provides high-speed broadband and emerging direct-to-cell connectivity to homes, businesses, vehicles, and smartphones around the world.",
           "from": "starlink",
           "observed_at": "2026-03-31",
-          "phrase": "Co-covered in 3 approved stories; most recently March 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "spacex",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 23
         },
         {
-          "confidence": 0.174,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "starlink",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "macro",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "security-risk",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "macro",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 17
-        },
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
         {
-          "confidence": 0.134,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "starlink",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "spacex",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "launch",
+          "role": null,
+          "to": "starlink",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
           "weight": 13
         },
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "starlink",
-          "observed_at": null,
-          "phrase": "adoption",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "adoption",
+          "role": null,
+          "to": "spacex",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
-        },
-        {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "from": "starlink",
-          "observed_at": null,
-          "phrase": "infrastructure",
-          "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "infrastructure",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 23
         }
       ],
       "nodes": [
@@ -146,6 +139,7 @@
         {
           "center": false,
           "confidence": 0.233,
+          "is_stub": false,
           "name": "SpaceX",
           "observed_at": "2026-03-31",
           "slug": "spacex",
@@ -157,46 +151,11 @@
         },
         {
           "center": false,
-          "confidence": 0.174,
-          "name": "Security Risk",
-          "observed_at": null,
-          "slug": "security-risk",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.134,
-          "name": "Launch",
-          "observed_at": null,
-          "slug": "launch",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 13
-        },
-        {
-          "center": false,
           "confidence": 0.0,
-          "name": "Adoption",
+          "is_stub": false,
+          "name": "Macro",
           "observed_at": null,
-          "slug": "adoption",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Infrastructure",
-          "observed_at": null,
-          "slug": "infrastructure",
+          "slug": "macro",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -204,7 +163,10 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T10:28:44.891179+00:00",
@@ -264,7 +226,7 @@
     },
     "reader_signal": {
       "article_count": 2,
-      "as_of": "2026-07-29T23:04:58.410556+00:00",
+      "as_of": "2026-07-30T18:27:24.961531+00:00",
       "most_clicked": {
         "clicks": 85,
         "date": "2026-03-21T07:22:02.381294+00:00",
@@ -353,7 +315,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:04:58.404885+00:00",
+      "as_of": "2026-07-30T18:27:24.957180+00:00",
       "items": [
         {
           "clicks": 48,
@@ -377,7 +339,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:04:58.390525+00:00",
+      "as_of": "2026-07-30T18:27:24.948666+00:00",
       "editorial": [
         {
           "count": 2,
@@ -388,7 +350,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 45,
+          "count": 46,
           "source": "x.com"
         }
       ],

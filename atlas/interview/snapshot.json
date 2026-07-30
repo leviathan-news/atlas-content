@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:00:02.393128+00:00",
+      "as_of": "2026-07-30T18:14:35.090055+00:00",
       "newsroom_total": 49,
       "overall_share": 18,
       "provenance": "data",
@@ -172,99 +172,130 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 48
+          "universe": 50
         }
       ],
-      "total_universe": 278,
-      "universe_total": 229
+      "total_universe": 280,
+      "universe_total": 231
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:00:01.561396+00:00",
+      "as_of": "2026-07-30T18:14:34.818050+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.26,
-          "description": "Co-covered in 5 approved stories; most recently November 2025.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Similarly, when Bitwise CIO Matt Hougan tells CNBC that crypto retail is in “max desperation,” that leverage has been flushed, and that Bitcoin could end the year at new all-time highs above \\(125{,}000\\) to \\(130{,}000\\) dollars, traders interpret those statements as both sentiment and soft guidance.",
           "from": "interview",
           "observed_at": "2025-11-22",
-          "phrase": "Co-covered in 5 approved stories; most recently November 2025.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "cnbc",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 26
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "interview",
           "observed_at": null,
           "phrase": "Bitcoin",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "bitcoin",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "interview",
           "observed_at": null,
-          "phrase": "infrastructure",
+          "phrase": "Tether",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "infrastructure",
+          "to": "tether",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "cnbc",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 13
         },
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "interview",
-          "observed_at": null,
-          "phrase": "narrative",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "narrative",
+          "role": null,
+          "to": "cnbc",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 26
         },
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "from": "interview",
-          "observed_at": null,
-          "phrase": "stablecoins",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "tether",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "stablecoins",
+          "role": null,
+          "to": "bitcoin",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 13
         }
       ],
       "nodes": [
@@ -278,6 +309,7 @@
         {
           "center": false,
           "confidence": 0.26,
+          "is_stub": false,
           "name": "CNBC",
           "observed_at": "2025-11-22",
           "slug": "cnbc",
@@ -290,6 +322,7 @@
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Bitcoin",
           "observed_at": null,
           "slug": "bitcoin",
@@ -302,33 +335,10 @@
         {
           "center": false,
           "confidence": 0.0,
-          "name": "Infrastructure",
+          "is_stub": false,
+          "name": "Tether",
           "observed_at": null,
-          "slug": "infrastructure",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Narrative",
-          "observed_at": null,
-          "slug": "narrative",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Stablecoins",
-          "observed_at": null,
-          "slug": "stablecoins",
+          "slug": "tether",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -336,7 +346,35 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Bitcoin Mining",
+          "shared_neighbors": 2,
+          "slug": "bitcoin-mining"
+        },
+        {
+          "is_stub": false,
+          "name": "Bitcoin Payments",
+          "shared_neighbors": 2,
+          "slug": "bitcoin-payments"
+        },
+        {
+          "is_stub": false,
+          "name": "Bitfinex",
+          "shared_neighbors": 2,
+          "slug": "bitfinex"
+        },
+        {
+          "is_stub": false,
+          "name": "Cantor",
+          "shared_neighbors": 2,
+          "slug": "cantor"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T07:06:03.228049+00:00",
@@ -402,7 +440,7 @@
     },
     "reader_signal": {
       "article_count": 53,
-      "as_of": "2026-07-29T23:00:03.051004+00:00",
+      "as_of": "2026-07-30T18:14:35.635005+00:00",
       "most_clicked": {
         "clicks": 511,
         "date": "2024-02-01T15:08:15.746199+00:00",
@@ -411,7 +449,7 @@
       },
       "provenance": "data",
       "top_decile_share": 34,
-      "total_clicks": 4950
+      "total_clicks": 4954
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:06:03.227931+00:00",
@@ -496,7 +534,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:00:03.044604+00:00",
+      "as_of": "2026-07-30T18:14:35.622423+00:00",
       "items": [
         {
           "clicks": 55,
@@ -574,7 +612,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:00:03.015680+00:00",
+      "as_of": "2026-07-30T18:14:35.608205+00:00",
       "editorial": [
         {
           "count": 14,
@@ -629,7 +667,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 213,
+          "count": 215,
           "source": "x.com"
         },
         {

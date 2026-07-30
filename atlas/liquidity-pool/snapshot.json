@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:01:17.135310+00:00",
+      "as_of": "2026-07-30T18:16:13.981472+00:00",
       "newsroom_total": 26,
       "overall_share": 29,
       "provenance": "data",
@@ -136,99 +136,92 @@
           "ed_share": 6,
           "month": "2026-07",
           "newsroom": 1,
-          "universe": 16
+          "universe": 17
         }
       ],
-      "total_universe": 90,
-      "universe_total": 64
+      "total_universe": 91,
+      "universe_total": 65
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:01:16.810202+00:00",
+      "as_of": "2026-07-30T18:16:13.634442+00:00",
       "edges": [
         {
-          "confidence": 0.284,
-          "description": "Co-covered in 7 approved stories; most recently June 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "liquidity-pool",
-          "observed_at": "2026-06-16",
-          "phrase": "Co-covered in 7 approved stories; most recently June 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidity",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 28
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.221,
+          "curation_status": "observed",
           "description": "Co-covered in 4 approved stories; most recently June 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "liquidity-pool",
           "observed_at": "2026-06-14",
           "phrase": "Co-covered in 4 approved stories; most recently June 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "liquidity-incentives",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 22
         },
         {
-          "confidence": 0.211,
-          "description": "Co-covered in 3 approved stories; most recently December 2025.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
-          "from": "liquidity-pool",
-          "observed_at": "2025-12-18",
-          "phrase": "Co-covered in 3 approved stories; most recently December 2025.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoin-liquidity",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 21
-        },
-        {
-          "confidence": 0.194,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "liquidity-pool",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "tokenization",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "crvusd",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "tokenization",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 19
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "liquidity-incentives",
+          "relation_type": null,
+          "role": null,
+          "to": "liquidity-pool",
+          "verified": false,
+          "weight": 22
         },
         {
-          "confidence": 0.177,
-          "description": "Co-covered in 9 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "liquidity-pool",
-          "observed_at": null,
-          "phrase": "Co-covered in 9 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "curve",
+          "role": null,
+          "to": "liquidity-incentives",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
+          "weight": 22
         }
       ],
       "nodes": [
@@ -241,19 +234,8 @@
         },
         {
           "center": false,
-          "confidence": 0.284,
-          "name": "Liquidity",
-          "observed_at": "2026-06-16",
-          "slug": "liquidity",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 28
-        },
-        {
-          "center": false,
           "confidence": 0.221,
+          "is_stub": false,
           "name": "Liquidity Incentives",
           "observed_at": "2026-06-14",
           "slug": "liquidity-incentives",
@@ -265,42 +247,41 @@
         },
         {
           "center": false,
-          "confidence": 0.211,
-          "name": "Stablecoin Liquidity",
-          "observed_at": "2025-12-18",
-          "slug": "stablecoin-liquidity",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 21
-        },
-        {
-          "center": false,
-          "confidence": 0.194,
-          "name": "crvUSD",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Tokenization",
           "observed_at": null,
-          "slug": "crvusd",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "tokenization",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.177,
-          "name": "Curve",
-          "observed_at": null,
-          "slug": "curve",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 18
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Curve",
+          "shared_neighbors": 2,
+          "slug": "curve"
+        },
+        {
+          "is_stub": false,
+          "name": "Liquidity",
+          "shared_neighbors": 2,
+          "slug": "liquidity"
+        },
+        {
+          "is_stub": false,
+          "name": "Stablecoin Liquidity",
+          "shared_neighbors": 2,
+          "slug": "stablecoin-liquidity"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T09:22:08.773676+00:00",
@@ -360,16 +341,16 @@
     },
     "reader_signal": {
       "article_count": 26,
-      "as_of": "2026-07-29T23:01:17.354576+00:00",
+      "as_of": "2026-07-30T18:16:14.516007+00:00",
       "most_clicked": {
-        "clicks": 257,
+        "clicks": 261,
         "date": "2023-11-27T18:32:22.859915+00:00",
         "headline": "DeFi audits fail to prevent recent protocol exploits. Despite undergoing multiple audits, two DeFi protocols, Raft Finance and KyperSwap, experienced catastrophic exploits that resulted in the draining of funds. Raft Finance fell victim to an infinite mint bug, while KyperSwap had its liquidity pools drained.",
         "lev_url": "https://leviathannews.xyz/3412/defi-audits-fail-to-prevent-recent-protocol-exploits-despite-undergoing-multiple-audits-two-defi-protocols-raft-finance-and-kyperswap-experienced-catastrophic-exploits-that-resulte"
       },
       "provenance": "data",
       "top_decile_share": 21,
-      "total_clicks": 2043
+      "total_clicks": 2048
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:22:08.773610+00:00",
@@ -454,7 +435,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:01:17.350364+00:00",
+      "as_of": "2026-07-30T18:16:14.510998+00:00",
       "items": [
         {
           "clicks": 38,
@@ -502,7 +483,7 @@
           "url": "https://x.com/CurveFinance/status/1996565099662721034"
         },
         {
-          "clicks": 257,
+          "clicks": 261,
           "date": "2023-11-27T18:32:22.859915+00:00",
           "headline": "DeFi audits fail to prevent recent protocol exploits. Despite undergoing multiple audits, two DeFi protocols, Raft Finance and KyperSwap, experienced catastrophic exploits that resulted in the draining of funds. Raft Finance fell victim to an infinite mint bug, while KyperSwap had its liquidity pools drained.",
           "hot_score": 0.0,
@@ -532,7 +513,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:01:17.339932+00:00",
+      "as_of": "2026-07-30T18:16:14.491685+00:00",
       "editorial": [
         {
           "count": 14,
@@ -579,7 +560,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 51,
+          "count": 52,
           "source": "x.com"
         },
         {

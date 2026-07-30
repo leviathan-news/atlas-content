@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:14:17.750357+00:00",
+      "as_of": "2026-07-30T17:41:59.851556+00:00",
       "newsroom_total": 21,
-      "overall_share": 40,
+      "overall_share": 39,
       "provenance": "data",
       "series": [
         {
@@ -119,63 +119,85 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 6
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 2
         }
       ],
-      "total_universe": 52,
-      "universe_total": 31
+      "total_universe": 54,
+      "universe_total": 33
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:14:15.927311+00:00",
+      "as_of": "2026-07-30T17:41:59.511825+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "altcoins",
-          "phrase": "Altcoins and stocks are both investment assets but differ in market structure.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "stocks",
-          "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "altcoins",
-          "phrase": "Altcoins are cryptocurrencies other than Bitcoin, often compared as peers.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
+          "observed_at": null,
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "bitcoin",
-          "weight": 18
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "altcoins",
-          "phrase": "SOL is a prominent altcoin, comparable to other altcoins.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "sol",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "altcoins",
-          "phrase": "XRP is a notable altcoin, often grouped with other altcoins.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "xrp",
-          "weight": 13
-        },
-        {
-          "dir": "out",
-          "from": "altcoins",
+          "observed_at": null,
           "phrase": "Solana",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "solana",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "altcoins",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 18
         }
       ],
       "nodes": [
@@ -188,46 +210,60 @@
         },
         {
           "center": false,
-          "name": "Stocks",
-          "slug": "stocks",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "SOL",
-          "slug": "sol",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
-        },
-        {
-          "center": false,
-          "name": "XRP",
-          "slug": "xrp",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 13
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Solana",
+          "observed_at": null,
           "slug": "solana",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Stocks",
+          "shared_neighbors": 3,
+          "slug": "stocks"
+        },
+        {
+          "is_stub": false,
+          "name": "Morgan Stanley",
+          "shared_neighbors": 2,
+          "slug": "morgan-stanley"
+        },
+        {
+          "is_stub": false,
+          "name": "SOL",
+          "shared_neighbors": 2,
+          "slug": "sol"
+        },
+        {
+          "is_stub": false,
+          "name": "Transaction",
+          "shared_neighbors": 2,
+          "slug": "transaction"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T10:37:15.806787+00:00",
@@ -293,16 +329,16 @@
     },
     "reader_signal": {
       "article_count": 22,
-      "as_of": "2026-07-01T12:14:19.318035+00:00",
+      "as_of": "2026-07-30T17:42:00.426947+00:00",
       "most_clicked": {
-        "clicks": 412,
+        "clicks": 417,
         "date": "2023-06-30T17:57:57.042643+00:00",
         "headline": "Celsius gains approval to sell off Altcoins for BTC and ETH beginning July 1st ",
         "lev_url": "https://leviathannews.xyz/1640/celsius-gains-approval-to-sell-off-altcoins-for-btc-and-eth-beginning-july-1st"
       },
       "provenance": "data",
       "top_decile_share": 31,
-      "total_clicks": 1908
+      "total_clicks": 1946
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:37:15.806707+00:00",
@@ -387,7 +423,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:14:19.235819+00:00",
+      "as_of": "2026-07-30T17:42:00.417817+00:00",
       "items": [
         {
           "clicks": 46,
@@ -399,7 +435,7 @@
           "url": "https://x.com/i/status/2001681954798727222"
         },
         {
-          "clicks": 412,
+          "clicks": 417,
           "date": "2023-06-30T17:57:57.042643+00:00",
           "headline": "Celsius gains approval to sell off Altcoins for BTC and ETH beginning July 1st ",
           "hot_score": 0.0,
@@ -408,7 +444,7 @@
           "url": "https://www.coindesk.com/policy/2023/06/30/bankrupt-celsius-can-convert-altcoins-to-btc-eth-starting-july-1-following-sec-talks/?utm_term=organic&utm_source=twitter&utm_content=editorial&utm_campaign=coindesk_main&utm_medium=social"
         },
         {
-          "clicks": 180,
+          "clicks": 184,
           "date": "2025-03-03T16:34:15.636835+00:00",
           "headline": "Experts call Trump’s crypto reserve “ridiculous” and “messed up,” criticizing the inclusion of centralized altcoins alongside Bitcoin and Ethereum.",
           "hot_score": 0.0,
@@ -417,7 +453,7 @@
           "url": "https://cryptonews.com/exclusives/trump-crypto-reserve-ridiculous-and-messed-up-experts-say/"
         },
         {
-          "clicks": 128,
+          "clicks": 136,
           "date": "2025-09-18T07:45:25.939608+00:00",
           "headline": "Ex-SEC chief Gary Gensler sounds alarm on altcoins as agency pivots on crypto; Fed cuts rates, Warren targets crypto czar Sacks, and Dragonfly’s Rob Hadick breaks down funding trends.",
           "hot_score": 0.0,
@@ -426,7 +462,7 @@
           "url": "https://www.cnbc.com/video/2025/09/17/former-sec-chair-gensler-concerns-altcoins-agency-crypto-pivot-crypto-world.html"
         },
         {
-          "clicks": 121,
+          "clicks": 125,
           "date": "2025-01-14T23:23:31.827176+00:00",
           "headline": "The crypto and equity markets took a nosedive after a stronger-than-expected U.S. jobs report dampened hopes for Federal Reserve rate cuts. BTC dropped below $90K, losing 7%, while altcoins felt even sharper pain—though XRP managed to defy the trend, surging nearly 10%.\n\nMeanwhile, Soneium’s much-hyped Web3 launch by Sony sparked drama, with blacklisted memecoins causing outrage in the DeFi community. Critics called it centralized overreach, while others praised Ethereum’s OP stack for enabling censorship-resistant workarounds.\n\nOn the brighter side, Euler Finance is making a comeback, turning a $200M hack into a new era of innovation. Their v2 protocol is live, TVL is climbing, and the team is proving that resilience pays off.\n\nFor the full scoop on these stories and more, check out our latest newsletter! 🦑",
           "hot_score": 0.0,
@@ -435,7 +471,7 @@
           "url": "https://leviathannews.substack.com/p/the-macro-drag-is-still-on-fridays"
         },
         {
-          "clicks": 107,
+          "clicks": 114,
           "date": "2025-09-10T20:01:21.432998+00:00",
           "headline": "The SEC has once again hit pause on crypto ETF decisions—delaying bids from BlackRock, Fidelity & Franklin Templeton to add ETH staking, plus Franklin’s proposed XRP and Solana funds.",
           "hot_score": 0.0,
@@ -444,7 +480,7 @@
           "url": "https://www.theblock.co/post/370232/sec-delays-decisions-on-staking-for-ethereum-etfs-along-with-xrp-and-sol-funds?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 103,
+          "clicks": 104,
           "date": "2025-03-04T12:56:35.007978+00:00",
           "headline": "Trump’s crypto reserve plan sparks backlash among pro-Trump tech supporters, dividing the community over the inclusion of altcoins.",
           "hot_score": 0.0,
@@ -465,7 +501,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:14:19.153313+00:00",
+      "as_of": "2026-07-30T17:42:00.384198+00:00",
       "editorial": [
         {
           "count": 5,
@@ -516,7 +552,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 16,
+          "count": 17,
           "source": "x.com"
         },
         {
@@ -534,9 +570,13 @@
         {
           "count": 2,
           "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 1,
+          "source": "fortune.com"
         }
       ],
-      "universe_distinct": 5
+      "universe_distinct": 6
     }
   },
   "official_links": [],

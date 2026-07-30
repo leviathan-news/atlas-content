@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:09:28.377906+00:00",
-      "newsroom_total": 19,
-      "overall_share": 25,
+      "as_of": "2026-07-30T18:22:13.242049+00:00",
+      "newsroom_total": 20,
+      "overall_share": 23,
       "provenance": "data",
       "series": [
         {
@@ -29,63 +29,223 @@
           "month": "2026-06",
           "newsroom": 5,
           "universe": 14
+        },
+        {
+          "ed_share": 9,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 10
         }
       ],
-      "total_universe": 76,
-      "universe_total": 57
+      "total_universe": 87,
+      "universe_total": 67
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:09:27.621082+00:00",
+      "as_of": "2026-07-30T18:22:12.830343+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.249,
+          "curation_status": "observed",
+          "description": "Co-covered in 11 approved stories; most recently June 2026.",
+          "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "private-credit",
-          "phrase": "Private credit is a subset of real-world assets.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": "2026-06-25",
+          "phrase": "Co-covered in 11 approved stories; most recently June 2026.",
+          "relation_type": null,
+          "role": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "real-world-assets",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 25
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.232,
+          "curation_status": "observed",
+          "description": "Co-covered in 5 approved stories; most recently July 2026.",
+          "description_source": "evidence",
+          "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "private-credit",
+          "observed_at": "2026-07-15",
+          "phrase": "Co-covered in 5 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "role": null,
+          "source": "observed_relation",
+          "tier": "related",
+          "to": "tokenization",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 23
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "private-credit",
+          "observed_at": null,
+          "phrase": "banking",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "banking",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "private-credit",
+          "observed_at": null,
+          "phrase": "equity",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "equity",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "private-credit",
+          "observed_at": null,
+          "phrase": "funding",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "funding",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "private-credit",
+          "relation_type": null,
+          "role": null,
+          "to": "real-world-assets",
+          "verified": false,
           "weight": 15
         },
         {
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "private-credit",
-          "phrase": "Private credit and bonds are both debt instruments.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "bond",
-          "weight": 14
-        },
-        {
-          "dir": "out",
-          "from": "private-credit",
-          "phrase": "Onchain data enables transparency for private credit.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "onchain-data",
-          "weight": 14
-        },
-        {
-          "dir": "out",
-          "from": "private-credit",
-          "phrase": "Tokenization is a core mechanism for onchain private credit.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
-          "tier": "related",
+          "relation_type": null,
+          "role": null,
           "to": "tokenization",
+          "verified": false,
           "weight": 13
         },
         {
-          "dir": "out",
-          "from": "private-credit",
-          "phrase": "Canton Network provides infrastructure for private credit.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "cantonnetwork",
-          "weight": 13
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "real-world-assets",
+          "relation_type": null,
+          "role": null,
+          "to": "private-credit",
+          "verified": false,
+          "weight": 25
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "real-world-assets",
+          "relation_type": null,
+          "role": null,
+          "to": "tokenization",
+          "verified": false,
+          "weight": 15
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "tokenization",
+          "relation_type": null,
+          "role": null,
+          "to": "private-credit",
+          "verified": false,
+          "weight": 23
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "tokenization",
+          "relation_type": null,
+          "role": null,
+          "to": "real-world-assets",
+          "verified": false,
+          "weight": 15
         }
       ],
       "nodes": [
@@ -98,46 +258,99 @@
         },
         {
           "center": false,
+          "confidence": 0.249,
+          "is_stub": false,
           "name": "Real World Assets",
+          "observed_at": "2026-06-25",
           "slug": "real-world-assets",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
-          "weight": 15
+          "verified": false,
+          "verified_at": null,
+          "weight": 25
         },
         {
           "center": false,
-          "name": "Bond",
-          "slug": "bond",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
-        },
-        {
-          "center": false,
-          "name": "Onchain Data",
-          "slug": "onchain-data",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
-        },
-        {
-          "center": false,
+          "confidence": 0.232,
+          "is_stub": false,
           "name": "Tokenization",
+          "observed_at": "2026-07-15",
           "slug": "tokenization",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
-          "weight": 13
+          "verified": false,
+          "verified_at": null,
+          "weight": 23
         },
         {
           "center": false,
-          "name": "Canton Network",
-          "slug": "cantonnetwork",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 13
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Banking",
+          "observed_at": null,
+          "slug": "banking",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Equity",
+          "observed_at": null,
+          "slug": "equity",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Funding",
+          "observed_at": null,
+          "slug": "funding",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Ondo Finance",
+          "shared_neighbors": 3,
+          "slug": "ondo-finance"
+        },
+        {
+          "is_stub": false,
+          "name": "Tokenomics",
+          "shared_neighbors": 3,
+          "slug": "tokenomics"
+        },
+        {
+          "is_stub": false,
+          "name": "Bond",
+          "shared_neighbors": 2,
+          "slug": "bond"
+        },
+        {
+          "is_stub": false,
+          "name": "Centrifuge",
+          "shared_neighbors": 2,
+          "slug": "centrifuge"
+        }
+      ],
+      "total_routes": 5,
+      "visible_routes": 5
     },
     "event_timeline": {
       "as_of": "2026-06-26T07:54:49.963399+00:00",
@@ -190,17 +403,17 @@
       "source": "https://www.spglobal.com/content/dam/spglobal/global-assets/en/special-reports/Corp_1022_TokenizedPrivateCredit.pdf"
     },
     "reader_signal": {
-      "article_count": 19,
-      "as_of": "2026-07-01T12:09:29.203336+00:00",
+      "article_count": 20,
+      "as_of": "2026-07-30T18:22:13.734749+00:00",
       "most_clicked": {
-        "clicks": 241,
+        "clicks": 242,
         "date": "2026-03-21T17:45:41.383570+00:00",
         "headline": "Private credit stress spreads as BNPL loans and fintech lending weaken, with funds limiting withdrawals amid rising defaults and pressure from higher interest rates",
         "lev_url": "https://leviathannews.xyz/213511/private-credit-stress-spreads-as-bnpl-loans-and-fintech-lending-weaken-with-funds-limiting-withdrawals-amid-rising-defaults-and-pressure-from-higher-interest-rates"
       },
       "provenance": "data",
-      "top_decile_share": 18,
-      "total_clicks": 1362
+      "top_decile_share": 30,
+      "total_clicks": 1476
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:54:49.963327+00:00",
@@ -285,10 +498,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:09:29.121368+00:00",
+      "as_of": "2026-07-30T18:22:13.730733+00:00",
       "items": [
         {
-          "clicks": 71,
+          "clicks": 76,
           "date": "2026-04-15T12:08:24.332810+00:00",
           "headline": "Franklin Templeton Digital Assets warns AI could pressure private credit and DeFi ecosystems, with insights from Roger Bayston on shifting financial conditions",
           "hot_score": 5972.112684,
@@ -297,7 +510,7 @@
           "url": "https://x.com/i/status/2044037960295731715"
         },
         {
-          "clicks": 38,
+          "clicks": 40,
           "date": "2026-04-17T13:28:09.756011+00:00",
           "headline": "Hong Kong's Flow Capital to tokenize $150M private credit fund on DigiFT, targets $250M by year-end",
           "hot_score": 995.317984,
@@ -306,7 +519,7 @@
           "url": "https://www.theblock.co/post/397849/hong-kongs-flow-capital-plans-to-bring-150-million-private-credit-fund-onchain-report"
         },
         {
-          "clicks": 206,
+          "clicks": 207,
           "date": "2026-04-01T10:59:37.364774+00:00",
           "headline": "Tokenized RWAs face critical data gap as offchain inputs drive onchain logic, exposing private credit to systemic risk",
           "hot_score": 973.981704,
@@ -324,7 +537,7 @@
           "url": "https://x.com/i/status/2048019141513138404"
         },
         {
-          "clicks": 45,
+          "clicks": 51,
           "date": "2026-06-19T18:46:57.355183+00:00",
           "headline": "Can Private Credit Actually Work Onchain? Cap Founder Explains What It Fixes",
           "hot_score": 700.62566,
@@ -333,13 +546,22 @@
           "url": "https://youtu.be/-YJbLdK6xiU?si=4pttu1svN1TJI0I3"
         },
         {
-          "clicks": 34,
+          "clicks": 37,
           "date": "2026-06-09T17:56:21.667149+00:00",
           "headline": "Trad.Fi and W3 plan $650M Avalanche private credit push with one-day AI loan underwriting",
           "hot_score": 687.528281,
           "lev_url": "https://leviathannews.xyz/254853/tradfi-and-w3-plan-650m-avalanche-private-credit-push-with-one-day-ai-loan-underwriting",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260609153505_Z4zrlaiDPw==.png",
           "url": "https://www.coindesk.com/business/2026/06/09/trad-fi-w3-target-usd650-million-in-onchain-private-credit-using-ai-evaluation"
+        },
+        {
+          "clicks": 46,
+          "date": "2026-07-07T07:27:59.928963+00:00",
+          "headline": "Valdora launches curated vaults that help stablecoin holders access diversified yield from private credit, tokenized assets, and quantitative trading strategies",
+          "hot_score": 626.179585,
+          "lev_url": "https://leviathannews.xyz/270085/stablecoins-are-evolving-from-a-settlement-asset-into-an-allocation-asset-a-lot-of-users-are-now-holding-stablecoins-onchain-but-the-yield-bearing-opportunities-available-to-the",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260707071958_mdcIhDYnshyU.jpg",
+          "url": "https://x.com/valdora_finance/status/2074116156772770145"
         },
         {
           "clicks": 59,
@@ -349,24 +571,15 @@
           "lev_url": "https://leviathannews.xyz/246406/hyperlend-introduces-aviya-a-private-compliance-gated-credit-venue-built-on-hyperliquid-designed-to-extend-structured-credit-access-to-institutional-participants",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260521120708_yM-P_pvUO5Ua.jpg",
           "url": "https://x.com/hyperlendx/status/2057144633000395081"
-        },
-        {
-          "clicks": 37,
-          "date": "2026-05-26T17:49:54.370636+00:00",
-          "headline": "Most tokenized RWAs just sit onchain: bonds and metals have huge tokenized caps but minimal DeFi use, while DeFi-native assets like reinsurance and private credit see far higher onchain utilization.",
-          "hot_score": 450.257074,
-          "lev_url": "https://leviathannews.xyz/248523/most-tokenized-rwas-just-sit-onchain-bonds-and-metals-have-huge-tokenized-caps-but-minimal-defi-use-while-defi-native-assets-like-reinsurance-and-private-credit-see-far-higher-onch",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260526174906_snqWcf0lkMQP.jpg",
-          "url": "https://x.com/a16zcrypto/status/2059326250234327186"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:09:29.028708+00:00",
+      "as_of": "2026-07-30T18:22:13.717714+00:00",
       "editorial": [
         {
-          "count": 14,
+          "count": 15,
           "source": "x.com"
         },
         {
@@ -390,11 +603,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 33,
+          "count": 40,
           "source": "x.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "cointelegraph.com"
         },
         {
@@ -408,6 +621,10 @@
         {
           "count": 2,
           "source": "reuters.com"
+        },
+        {
+          "count": 2,
+          "source": "theblock.co"
         },
         {
           "count": 1,
@@ -432,13 +649,9 @@
         {
           "count": 1,
           "source": "fortune.com"
-        },
-        {
-          "count": 1,
-          "source": "spaceandtime.io"
         }
       ],
-      "universe_distinct": 17
+      "universe_distinct": 18
     }
   },
   "official_links": [],

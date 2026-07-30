@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:47:26.615812+00:00",
-      "newsroom_total": 40,
-      "overall_share": 13,
+      "as_of": "2026-07-30T18:33:30.240424+00:00",
+      "newsroom_total": 43,
+      "overall_share": 12,
       "provenance": "data",
       "series": [
         {
@@ -133,67 +133,157 @@
           "universe": 48
         },
         {
-          "ed_share": 0,
+          "ed_share": 4,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 4
+          "newsroom": 3,
+          "universe": 65
         }
       ],
-      "total_universe": 298,
-      "universe_total": 258
+      "total_universe": 362,
+      "universe_total": 319
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:47:26.223119+00:00",
+      "as_of": "2026-07-30T18:33:28.670321+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.261,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "It is the opposite of distribution, and it underpins everything from long‑term Bitcoin holding and ETH treasury strategies to whale wallets quietly building positions in emerging tokens.",
           "from": "whale",
-          "phrase": "Whales use wallets to store and manage large crypto holdings.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "wallets",
-          "weight": 20
-        },
-        {
-          "dir": "out",
-          "from": "whale",
-          "phrase": "Large whale positions can trigger liquidations during market moves.",
-          "relation_type": "risk",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "liquidation",
-          "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "whale",
-          "phrase": "ETH is a major asset often held by whales alongside others.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "eth",
-          "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "whale",
-          "phrase": "DAI is a stablecoin whales may use for trading or collateral.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "dai",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "whale",
-          "phrase": "Accumulation is a key behavior of whales building positions.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": "2026-07-28",
+          "phrase": "Mentioned in this territory's explainer.",
+          "relation_type": null,
+          "role": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "accumulation",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 26
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "whale",
+          "observed_at": null,
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "whale",
+          "observed_at": null,
+          "phrase": "wallets",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "wallets",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "accumulation",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 18
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "accumulation",
+          "relation_type": null,
+          "role": null,
+          "to": "whale",
+          "verified": false,
+          "weight": 26
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "whale",
+          "relation_type": null,
+          "role": null,
+          "to": "accumulation",
+          "verified": false,
           "weight": 16
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "whale",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 13
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "whale",
+          "relation_type": null,
+          "role": null,
+          "to": "wallets",
+          "verified": false,
+          "weight": 20
         }
       ],
       "nodes": [
@@ -206,46 +296,73 @@
         },
         {
           "center": false,
-          "name": "wallets",
-          "slug": "wallets",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 20
-        },
-        {
-          "center": false,
-          "name": "Liquidation",
-          "slug": "liquidation",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
-          "name": "ETH",
-          "slug": "eth",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
-          "name": "DAI",
-          "slug": "dai",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
-        },
-        {
-          "center": false,
+          "confidence": 0.261,
+          "is_stub": false,
           "name": "Accumulation",
+          "observed_at": "2026-07-28",
           "slug": "accumulation",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
-          "weight": 16
+          "verified": false,
+          "verified_at": null,
+          "weight": 26
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Bitcoin",
+          "observed_at": null,
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "wallets",
+          "observed_at": null,
+          "slug": "wallets",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Arkham",
+          "shared_neighbors": 2,
+          "slug": "arkham"
+        },
+        {
+          "is_stub": false,
+          "name": "ETH",
+          "shared_neighbors": 2,
+          "slug": "eth"
+        },
+        {
+          "is_stub": false,
+          "name": "quantum",
+          "shared_neighbors": 2,
+          "slug": "quantum"
+        },
+        {
+          "is_stub": false,
+          "name": "Risks",
+          "shared_neighbors": 2,
+          "slug": "risks"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T01:40:35.782971+00:00",
@@ -304,17 +421,17 @@
       "source": "https://nansen.ai/post/whale-influence-how-crypto-token-whales-drive-market-shifts-trading-patterns"
     },
     "reader_signal": {
-      "article_count": 40,
-      "as_of": "2026-07-01T11:47:27.361192+00:00",
+      "article_count": 43,
+      "as_of": "2026-07-30T18:33:32.350522+00:00",
       "most_clicked": {
-        "clicks": 330,
+        "clicks": 334,
         "date": "2025-03-05T22:22:42.047913+00:00",
         "headline": "A SQUID whale and a SQUID shrimp are fighting it out for the newly issued \"Waj Pass,\" to win editorial direction over an @0xmughal video, in the latest action (auction)",
         "lev_url": "https://leviathannews.xyz/9676/a-squid-whale-and-a-squid-shrimp-are-fighting-it-out-for-the-newly-issued-waj-pass-to-win-editorial-direction-over-an-0xmughal-video-in-the-latest-action-auction"
       },
       "provenance": "data",
-      "top_decile_share": 32,
-      "total_clicks": 3252
+      "top_decile_share": 30,
+      "total_clicks": 3415
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:40:35.782884+00:00",
@@ -399,16 +516,34 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:47:27.274994+00:00",
+      "as_of": "2026-07-30T18:33:32.324923+00:00",
       "items": [
         {
-          "clicks": 32,
+          "clicks": 35,
+          "date": "2026-07-30T07:47:33.726805+00:00",
+          "headline": "Jupiter launches Spot V2, merging Swap and Terminal into a unified Solana trading hub with live news, whale tracking, heatmaps and market signals",
+          "hot_score": 3062.102492,
+          "lev_url": "https://leviathannews.xyz/284665/jupiter-spot-v2-is-live-we-merged-swap-and-terminal-into-one-page-everything-you-need-to-discover-a-trade-and-make-it-in-one-place-we-built-it-with-one-aim-to-help-you-find-t",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260730071104_Oif_poBTIcbI.jpg",
+          "url": "https://x.com/jupiterexchange/status/2082471405237699005"
+        },
+        {
+          "clicks": 33,
           "date": "2026-05-06T07:13:37.005824+00:00",
           "headline": "Crypto whale sues Coinbase over refusal to return stolen DAI tied to $55M phishing hack, despite exchange freezing funds and demanding court order to verify ownership",
           "hot_score": 788.437396,
           "lev_url": "https://leviathannews.xyz/238260/crypto-whale-sues-coinbase-over-refusal-to-return-stolen-dai-tied-to-55m-phishing-hack-despite-exchange-freezing-funds-and-demanding-court-order-to-verify-ownership",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260506070625_v5bv-TpFxNr3.jpg",
           "url": "https://www.theblock.co/post/400152/crypto-whale-sues-coinbase?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 63,
+          "date": "2026-07-03T22:51:28.395198+00:00",
+          "headline": "CryptoQuant warns of heightened volatility as bitcoin exchange deposits near 49,000 BTC, with whale inflows historically preceding major market moves",
+          "hot_score": 628.822257,
+          "lev_url": "https://leviathannews.xyz/268587/cryptoquant-warns-of-heightened-volatility-as-bitcoin-exchange-deposits-near-49000-btc-with-whale-inflows-historically-preceding-major-market-moves",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260703195137_ELZPY3Vl6zSr.jpg",
+          "url": "https://www.theblock.co/post/407160/cryptoquant-bitcoin-ether-altcoin-exchange-deposits-volatility?utm_source=rss&utm_medium=rss"
         },
         {
           "clicks": 47,
@@ -420,7 +555,7 @@
           "url": "https://x.com/arkham/status/2036109211676123408"
         },
         {
-          "clicks": 92,
+          "clicks": 93,
           "date": "2026-03-28T23:34:22.346656+00:00",
           "headline": "Bitcoin recovery could stretch into 2027 if $60K breaks as whale selling hits 18-month high",
           "hot_score": 131.982621,
@@ -429,7 +564,7 @@
           "url": "https://cointelegraph.com/news/potential-bitcoin-crash-below-dollar60k-may-delay-recovery-to-2027-data"
         },
         {
-          "clicks": 44,
+          "clicks": 45,
           "date": "2026-03-02T12:13:00.380413+00:00",
           "headline": "Whale accumulation drives $1B inflows into digital asset funds after five-week outflow streak",
           "hot_score": 122.050478,
@@ -438,7 +573,7 @@
           "url": "https://x.com/cryptounfolded/status/2028434646405652990"
         },
         {
-          "clicks": 89,
+          "clicks": 91,
           "date": "2026-03-20T13:16:00.686838+00:00",
           "headline": "A long-dormant bitcoin whale resurfaces, moving 2,100 btc worth $148 million",
           "hot_score": 114.076078,
@@ -447,44 +582,26 @@
           "url": "https://x.com/TheBlockCo/status/2034959039742742918"
         },
         {
-          "clicks": 330,
+          "clicks": 334,
           "date": "2025-03-05T22:22:42.047913+00:00",
           "headline": "A SQUID whale and a SQUID shrimp are fighting it out for the newly issued \"Waj Pass,\" to win editorial direction over an @0xmughal video, in the latest action (auction)",
           "hot_score": 0.0,
           "lev_url": "https://leviathannews.xyz/9676/a-squid-whale-and-a-squid-shrimp-are-fighting-it-out-for-the-newly-issued-waj-pass-to-win-editorial-direction-over-an-0xmughal-video-in-the-latest-action-auction",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250305221901_f75C3eGYQjg=.jpg",
           "url": "https://leviathannews.xyz/auctions/5"
-        },
-        {
-          "clicks": 273,
-          "date": "2024-04-05T15:44:02.003508+00:00",
-          "headline": "A whale on Aave is effectively betting $118MM that Bitcoin will outperform Ethereum",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/4651/a-whale-on-aave-is-effectively-betting-118mm-that-bitcoin-will-outperform-ethereum",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240405153523_bBw5xcWQvA==.jpg",
-          "url": "https://www.dlnews.com/articles/defi/trader-bets-big-that-bitcoin-will-outperform-ethereum/"
-        },
-        {
-          "clicks": 233,
-          "date": "2025-01-15T17:43:57.924713+00:00",
-          "headline": "Chainlink Whale ‘Oldwhite’ cashes out $20M in LINK to Binance after using 100+ wallets to bypass staking limits.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/8696/chainlink-whale-oldwhite-cashes-out-20m-in-link-to-binance-after-using-100-wallets-to-bypass-staking-limits",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20250115174347_vhpn2Q19dzI=.jpg",
-          "url": "https://unchainedcrypto.com/chainlink-whale-with-over-100-staking-wallets-starts-cashing-out-to-binance/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:47:27.118222+00:00",
+      "as_of": "2026-07-30T18:33:32.268433+00:00",
       "editorial": [
         {
-          "count": 19,
+          "count": 21,
           "source": "x.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "theblock.co"
         },
         {
@@ -532,28 +649,36 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 192,
+          "count": 236,
           "source": "x.com"
         },
         {
-          "count": 25,
+          "count": 27,
           "source": "cointelegraph.com"
         },
         {
-          "count": 15,
+          "count": 17,
           "source": "theblock.co"
         },
         {
-          "count": 8,
+          "count": 12,
           "source": "financefeeds.com"
         },
         {
-          "count": 5,
+          "count": 6,
           "source": "decrypt.co"
         },
         {
-          "count": 3,
+          "count": 6,
           "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 3,
+          "source": "thestreet.com"
+        },
+        {
+          "count": 2,
+          "source": "treeofalpha.com"
         },
         {
           "count": 2,
@@ -561,7 +686,7 @@
         },
         {
           "count": 2,
-          "source": "thestreet.com"
+          "source": "blog.bubblemaps.io"
         },
         {
           "count": 1,
@@ -569,18 +694,10 @@
         },
         {
           "count": 1,
-          "source": "treeofalpha.com"
-        },
-        {
-          "count": 1,
           "source": "markets.businessinsider.com"
-        },
-        {
-          "count": 1,
-          "source": "bloomberg.com"
         }
       ],
-      "universe_distinct": 14
+      "universe_distinct": 16
     }
   },
   "official_links": [],

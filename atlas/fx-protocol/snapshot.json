@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:59:24.904646+00:00",
+      "as_of": "2026-07-30T18:13:31.356987+00:00",
       "newsroom_total": 78,
       "overall_share": 99,
       "provenance": "data",
@@ -173,92 +173,135 @@
       "universe_total": 1
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:59:24.626387+00:00",
+      "as_of": "2026-07-30T18:13:30.574515+00:00",
       "edges": [
         {
-          "confidence": 0.413,
-          "description": "Co-covered in 15 approved stories; most recently May 2026.",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.513,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "A decentralized, on-chain USD-pegged asset, fxUSD is the primary stablecoin of **f(x) Protocol**, minted against ETH and BTC collateral and tightly coupled to a novel leverage engine that splits yield and risk between stable holders and leveraged traders.",
           "from": "fx-protocol",
           "observed_at": "2026-05-31",
-          "phrase": "Co-covered in 15 approved stories; most recently May 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "fxusd",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
+          "weight": 51
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "fx-protocol",
+          "observed_at": null,
+          "phrase": "funding",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "funding",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "fx-protocol",
+          "observed_at": null,
+          "phrase": "WBTC",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "wbtc",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "fx-protocol",
+          "relation_type": null,
+          "role": null,
+          "to": "fxusd",
+          "verified": false,
           "weight": 41
         },
         {
-          "confidence": 0.362,
-          "description": "Co-covered in 8 approved stories; most recently February 2025.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "fx-protocol",
-          "observed_at": "2025-02-28",
-          "phrase": "Co-covered in 8 approved stories; most recently February 2025.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "wsteth",
+          "role": null,
+          "to": "wbtc",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 36
+          "weight": 18
         },
         {
-          "confidence": 0.259,
-          "description": "Co-covered in 18 approved stories; most recently February 2025.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "fx-protocol",
-          "observed_at": "2025-02-18",
-          "phrase": "Co-covered in 18 approved stories; most recently February 2025.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "fxusd",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "sponsorships",
+          "role": null,
+          "to": "fx-protocol",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 26
+          "weight": 51
         },
         {
-          "confidence": 0.223,
-          "description": "Co-covered in 11 approved stories; most recently June 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "fx-protocol",
-          "observed_at": "2026-06-04",
-          "phrase": "Co-covered in 11 approved stories; most recently June 2026.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "wbtc",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidation",
+          "role": null,
+          "to": "fx-protocol",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 22
-        },
-        {
-          "confidence": 0.216,
-          "description": "Observed together in Leviathan's approved coverage.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "fx-protocol",
-          "observed_at": null,
-          "phrase": "Observed together in Leviathan's approved coverage.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidations",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 22
+          "weight": 18
         }
       ],
       "nodes": [
@@ -271,7 +314,8 @@
         },
         {
           "center": false,
-          "confidence": 0.413,
+          "confidence": 0.513,
+          "is_stub": false,
           "name": "fxUSD",
           "observed_at": "2026-05-31",
           "slug": "fxusd",
@@ -279,58 +323,64 @@
           "tier": "related",
           "verified": false,
           "verified_at": null,
-          "weight": 41
+          "weight": 51
         },
         {
           "center": false,
-          "confidence": 0.362,
-          "name": "wstETH",
-          "observed_at": "2025-02-28",
-          "slug": "wsteth",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 36
-        },
-        {
-          "center": false,
-          "confidence": 0.259,
-          "name": "Sponsorships",
-          "observed_at": "2025-02-18",
-          "slug": "sponsorships",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 26
-        },
-        {
-          "center": false,
-          "confidence": 0.223,
-          "name": "Liquidation",
-          "observed_at": "2026-06-04",
-          "slug": "liquidation",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 22
-        },
-        {
-          "center": false,
-          "confidence": 0.216,
-          "name": "Liquidations",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Funding",
           "observed_at": null,
-          "slug": "liquidations",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "funding",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 22
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "WBTC",
+          "observed_at": null,
+          "slug": "wbtc",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Leviathan",
+          "shared_neighbors": 2,
+          "slug": "leviathan"
+        },
+        {
+          "is_stub": false,
+          "name": "Sponsorships",
+          "shared_neighbors": 2,
+          "slug": "sponsorships"
+        },
+        {
+          "is_stub": false,
+          "name": "TVL",
+          "shared_neighbors": 2,
+          "slug": "tvl"
+        },
+        {
+          "is_stub": false,
+          "name": "USDC",
+          "shared_neighbors": 2,
+          "slug": "usdc"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T05:51:27.876556+00:00",
@@ -396,7 +446,7 @@
     },
     "reader_signal": {
       "article_count": 78,
-      "as_of": "2026-07-29T22:59:25.184881+00:00",
+      "as_of": "2026-07-30T18:13:31.973512+00:00",
       "most_clicked": {
         "clicks": 578,
         "date": "2025-02-25T09:05:44.984694+00:00",
@@ -405,7 +455,7 @@
       },
       "provenance": "data",
       "top_decile_share": 35,
-      "total_clicks": 7497
+      "total_clicks": 7503
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:51:27.876468+00:00",
@@ -490,7 +540,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:59:25.179035+00:00",
+      "as_of": "2026-07-30T18:13:31.966265+00:00",
       "items": [
         {
           "clicks": 34,
@@ -511,7 +561,7 @@
           "url": "https://x.com/0xwhizmiz/status/2060670155177284038"
         },
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2026-06-04T05:37:37.775600+00:00",
           "headline": "Inspired by Curve's LLAMMA and f(x)'s Liquidation Brake, protocol architect outlines a fixed-rate lending model where collateral self-hedges before liquidation thresholds are breached",
           "hot_score": 706.384025,
@@ -568,7 +618,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:59:25.163726+00:00",
+      "as_of": "2026-07-30T18:13:31.935909+00:00",
       "editorial": [
         {
           "count": 64,

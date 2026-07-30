@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:06:49.493038+00:00",
+      "as_of": "2026-07-30T18:33:54.966168+00:00",
       "newsroom_total": 52,
       "overall_share": 27,
       "provenance": "data",
@@ -67,102 +67,205 @@
           "universe": 16
         },
         {
-          "ed_share": 20,
+          "ed_share": 19,
           "month": "2026-07",
           "newsroom": 9,
-          "universe": 37
+          "universe": 38
         }
       ],
-      "total_universe": 195,
-      "universe_total": 143
+      "total_universe": 196,
+      "universe_total": 144
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:06:49.323447+00:00",
+      "as_of": "2026-07-30T18:33:54.702615+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.28,
-          "description": "Co-covered in 78 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "x402 is an open, HTTP-native payments standard that revives the long-dormant 402 “Payment Required” status code so web servers, apps, and AI agents can settle stablecoin transactions directly inside ordinary HTTP requests.",
           "from": "x402",
           "observed_at": "2026-07-24",
-          "phrase": "Co-covered in 78 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "payments",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 28
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.245,
-          "description": "Co-covered in 85 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "x402 is an open, HTTP-native payments standard that revives the long-dormant 402 “Payment Required” status code so web servers, apps, and AI agents can settle stablecoin transactions directly inside ordinary HTTP requests.",
           "from": "x402",
           "observed_at": "2026-07-28",
-          "phrase": "Co-covered in 85 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "ai-agents",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 24
         },
         {
-          "confidence": 0.238,
-          "description": "Observed together in Leviathan's approved coverage.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "x402",
           "observed_at": null,
-          "phrase": "Observed together in Leviathan's approved coverage.",
+          "phrase": "agents",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "agents",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "agents",
+          "relation_type": null,
+          "role": null,
+          "to": "ai-agents",
+          "verified": false,
+          "weight": 37
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "agents",
+          "relation_type": null,
+          "role": null,
+          "to": "x402",
+          "verified": false,
+          "weight": 14
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ai-agents",
+          "relation_type": null,
+          "role": null,
           "to": "agents",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
+          "weight": 47
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ai-agents",
+          "relation_type": null,
+          "role": null,
+          "to": "payments",
+          "verified": false,
+          "weight": 13
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ai-agents",
+          "relation_type": null,
+          "role": null,
+          "to": "x402",
+          "verified": false,
+          "weight": 14
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "payments",
+          "relation_type": null,
+          "role": null,
+          "to": "x402",
+          "verified": false,
+          "weight": 18
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "x402",
+          "relation_type": null,
+          "role": null,
+          "to": "agents",
+          "verified": false,
           "weight": 24
         },
         {
-          "confidence": 0.213,
-          "description": "Co-covered in 51 approved stories; most recently July 2026.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "x402",
-          "observed_at": "2026-07-22",
-          "phrase": "Co-covered in 51 approved stories; most recently July 2026.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "usdc",
+          "role": null,
+          "to": "ai-agents",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 21
+          "weight": 24
         },
         {
-          "confidence": 0.181,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "x402",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "mcp",
+          "role": null,
+          "to": "payments",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
+          "weight": 28
         }
       ],
       "nodes": [
@@ -176,6 +279,7 @@
         {
           "center": false,
           "confidence": 0.28,
+          "is_stub": false,
           "name": "Payments",
           "observed_at": "2026-07-24",
           "slug": "payments",
@@ -188,6 +292,7 @@
         {
           "center": false,
           "confidence": 0.245,
+          "is_stub": false,
           "name": "AI Agents",
           "observed_at": "2026-07-28",
           "slug": "ai-agents",
@@ -199,42 +304,47 @@
         },
         {
           "center": false,
-          "confidence": 0.238,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "agents",
           "observed_at": null,
           "slug": "agents",
-          "source": "observed_relation",
-          "tier": "related",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 24
-        },
-        {
-          "center": false,
-          "confidence": 0.213,
-          "name": "USDC",
-          "observed_at": "2026-07-22",
-          "slug": "usdc",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 21
-        },
-        {
-          "center": false,
-          "confidence": 0.181,
-          "name": "MCP",
-          "observed_at": null,
-          "slug": "mcp",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 18
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Agentic AI",
+          "shared_neighbors": 3,
+          "slug": "agentic-ai"
+        },
+        {
+          "is_stub": false,
+          "name": "API",
+          "shared_neighbors": 3,
+          "slug": "api"
+        },
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 3,
+          "slug": "infrastructure"
+        },
+        {
+          "is_stub": false,
+          "name": "MCP",
+          "shared_neighbors": 3,
+          "slug": "mcp"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T03:21:18.804940+00:00",
@@ -294,7 +404,7 @@
     },
     "reader_signal": {
       "article_count": 55,
-      "as_of": "2026-07-29T23:06:49.736272+00:00",
+      "as_of": "2026-07-30T18:33:55.320186+00:00",
       "most_clicked": {
         "clicks": 126,
         "date": "2025-12-17T15:14:45.215830+00:00",
@@ -303,7 +413,7 @@
       },
       "provenance": "data",
       "top_decile_share": 19,
-      "total_clicks": 2976
+      "total_clicks": 2978
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:21:18.804828+00:00",
@@ -388,7 +498,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:06:49.730763+00:00",
+      "as_of": "2026-07-30T18:33:55.315133+00:00",
       "items": [
         {
           "clicks": 70,
@@ -466,7 +576,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:06:49.718398+00:00",
+      "as_of": "2026-07-30T18:33:55.300786+00:00",
       "editorial": [
         {
           "count": 26,
@@ -521,7 +631,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 100,
+          "count": 101,
           "source": "x.com"
         },
         {

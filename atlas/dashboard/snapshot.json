@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:58:05.750245+00:00",
+      "as_of": "2026-07-30T18:07:36.890583+00:00",
       "newsroom_total": 27,
       "overall_share": 28,
       "provenance": "data",
@@ -131,92 +131,135 @@
       "universe_total": 69
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:58:05.473156+00:00",
+      "as_of": "2026-07-30T18:07:36.698698+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.255,
-          "description": "Co-covered in 4 approved stories; most recently August 2025.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Platforms such as Dune and DefiLlama provide generic frameworks where creators can query on‑chain data, define visualizations, and assemble them into multi‑page dashboards.",
           "from": "dashboard",
           "observed_at": "2025-08-18",
-          "phrase": "Co-covered in 4 approved stories; most recently August 2025.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "dune",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 26
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.249,
-          "description": "Co-covered in 5 approved stories; most recently October 2025.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "Its current dashboard surfaces:",
           "from": "dashboard",
           "observed_at": "2025-10-21",
-          "phrase": "Co-covered in 5 approved stories; most recently October 2025.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "defillama",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 25
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "dashboard",
           "observed_at": null,
-          "phrase": "bridges",
+          "phrase": "wallets",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "bridges",
+          "to": "wallets",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "dashboard",
+          "relation_type": null,
+          "role": null,
+          "to": "defillama",
+          "verified": false,
+          "weight": 25
         },
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "dashboard",
-          "observed_at": null,
-          "phrase": "lending",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "lending",
+          "role": null,
+          "to": "dune",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 26
         },
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "from": "dashboard",
-          "observed_at": null,
-          "phrase": "risks",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "defillama",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "risks",
+          "role": null,
+          "to": "dashboard",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 25
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "dune",
+          "relation_type": null,
+          "role": null,
+          "to": "dashboard",
+          "verified": false,
+          "weight": 26
         }
       ],
       "nodes": [
@@ -230,6 +273,7 @@
         {
           "center": false,
           "confidence": 0.255,
+          "is_stub": false,
           "name": "Dune",
           "observed_at": "2025-08-18",
           "slug": "dune",
@@ -242,6 +286,7 @@
         {
           "center": false,
           "confidence": 0.249,
+          "is_stub": false,
           "name": "DefiLlama",
           "observed_at": "2025-10-21",
           "slug": "defillama",
@@ -254,33 +299,10 @@
         {
           "center": false,
           "confidence": 0.0,
-          "name": "Bridges",
+          "is_stub": false,
+          "name": "wallets",
           "observed_at": null,
-          "slug": "bridges",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Lending",
-          "observed_at": null,
-          "slug": "lending",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Risks",
-          "observed_at": null,
-          "slug": "risks",
+          "slug": "wallets",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -288,7 +310,10 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T10:03:39.770036+00:00",
@@ -354,7 +379,7 @@
     },
     "reader_signal": {
       "article_count": 30,
-      "as_of": "2026-07-29T22:58:06.153202+00:00",
+      "as_of": "2026-07-30T18:07:37.098877+00:00",
       "most_clicked": {
         "clicks": 313,
         "date": "2024-05-13T10:35:27.941923+00:00",
@@ -448,13 +473,13 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:58:06.149313+00:00",
+      "as_of": "2026-07-30T18:07:37.094801+00:00",
       "items": [
         {
           "clicks": 48,
           "date": "2026-07-24T20:31:11.285965+00:00",
           "headline": "Michael Saylor unveils Strategy's Bitcoin Dashboard, combining price, liquidity, volatility, valuation, adoption, sentiment and network security into one live view",
-          "hot_score": 1051.754182,
+          "hot_score": 867.601697,
           "lev_url": "https://leviathannews.xyz/281697/one-integrated-view-of-the-bitcoin-market-and-network-the-bitcoin-dashboard-brings-price-performance-liquidity-volatility-valuation-sentiment-adoption-and-security-into-a-s",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724194535_uGNeSofW7NXf.jpg",
           "url": "https://x.com/saylor/status/2080735534129836117"
@@ -526,7 +551,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:58:06.138568+00:00",
+      "as_of": "2026-07-30T18:07:37.084918+00:00",
       "editorial": [
         {
           "count": 17,

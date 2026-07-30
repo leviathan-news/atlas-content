@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:04:46.753458+00:00",
+      "as_of": "2026-07-30T18:27:15.146920+00:00",
       "newsroom_total": 112,
       "overall_share": 52,
       "provenance": "data",
@@ -197,92 +197,111 @@
       "universe_total": 104
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:04:46.293728+00:00",
+      "as_of": "2026-07-30T18:27:14.900851+00:00",
       "edges": [
         {
-          "confidence": 0.368,
-          "description": "Co-covered in 153 approved stories; most recently June 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "stablecoin-yield",
-          "observed_at": "2026-06-30",
-          "phrase": "Co-covered in 153 approved stories; most recently June 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "yield",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 37
-        },
-        {
-          "confidence": 0.298,
-          "description": "Co-covered in 178 approved stories; most recently July 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "stablecoin-yield",
-          "observed_at": "2026-07-01",
-          "phrase": "Co-covered in 178 approved stories; most recently July 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoins",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 30
-        },
-        {
-          "confidence": 0.263,
-          "description": "Co-covered in 30 approved stories; most recently July 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "stablecoin-yield",
-          "observed_at": "2026-07-15",
-          "phrase": "Co-covered in 30 approved stories; most recently July 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "yield-bearing",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 26
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.213,
+          "curation_status": "observed",
           "description": "Co-covered in 5 approved stories; most recently April 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "stablecoin-yield",
           "observed_at": "2026-04-14",
           "phrase": "Co-covered in 5 approved stories; most recently April 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "stablecoin-bill",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
-          "confidence": 0.187,
-          "description": "Co-covered in 23 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "stablecoin-yield",
           "observed_at": null,
-          "phrase": "Co-covered in 23 approved stories.",
+          "phrase": "Franklin Templeton",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "white-house",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "franklin-templeton",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 19
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "stablecoin-yield",
+          "observed_at": null,
+          "phrase": "legislation",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "legislation",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "stablecoin-bill",
+          "relation_type": null,
+          "role": null,
+          "to": "stablecoin-yield",
+          "verified": false,
+          "weight": 21
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "stablecoin-yield",
+          "relation_type": null,
+          "role": null,
+          "to": "stablecoin-bill",
+          "verified": false,
+          "weight": 21
         }
       ],
       "nodes": [
@@ -295,43 +314,8 @@
         },
         {
           "center": false,
-          "confidence": 0.368,
-          "name": "Yield",
-          "observed_at": "2026-06-30",
-          "slug": "yield",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 37
-        },
-        {
-          "center": false,
-          "confidence": 0.298,
-          "name": "Stablecoins",
-          "observed_at": "2026-07-01",
-          "slug": "stablecoins",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 30
-        },
-        {
-          "center": false,
-          "confidence": 0.263,
-          "name": "Yield-Bearing",
-          "observed_at": "2026-07-15",
-          "slug": "yield-bearing",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 26
-        },
-        {
-          "center": false,
           "confidence": 0.213,
+          "is_stub": false,
           "name": "Stablecoin Bill",
           "observed_at": "2026-04-14",
           "slug": "stablecoin-bill",
@@ -343,18 +327,60 @@
         },
         {
           "center": false,
-          "confidence": 0.187,
-          "name": "White House",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Franklin Templeton",
           "observed_at": null,
-          "slug": "white-house",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "franklin-templeton",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Legislation",
+          "observed_at": null,
+          "slug": "legislation",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Cryptocurrency Bill",
+          "shared_neighbors": 3,
+          "slug": "cryptocurrency-bill"
+        },
+        {
+          "is_stub": false,
+          "name": "GENIUS Act",
+          "shared_neighbors": 2,
+          "slug": "genius"
+        },
+        {
+          "is_stub": false,
+          "name": "Senate",
+          "shared_neighbors": 2,
+          "slug": "senate"
+        },
+        {
+          "is_stub": false,
+          "name": "Stablecoins",
+          "shared_neighbors": 2,
+          "slug": "stablecoins"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T01:36:44.995300+00:00",
@@ -420,7 +446,7 @@
     },
     "reader_signal": {
       "article_count": 120,
-      "as_of": "2026-07-29T23:04:47.487929+00:00",
+      "as_of": "2026-07-30T18:27:15.504560+00:00",
       "most_clicked": {
         "clicks": 511,
         "date": "2024-02-01T15:08:15.746199+00:00",
@@ -429,7 +455,7 @@
       },
       "provenance": "data",
       "top_decile_share": 29,
-      "total_clicks": 10642
+      "total_clicks": 10643
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:36:44.995208+00:00",
@@ -514,7 +540,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:04:47.465417+00:00",
+      "as_of": "2026-07-30T18:27:15.496827+00:00",
       "items": [
         {
           "clicks": 65,
@@ -592,7 +618,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:04:47.438790+00:00",
+      "as_of": "2026-07-30T18:27:15.369844+00:00",
       "editorial": [
         {
           "count": 53,

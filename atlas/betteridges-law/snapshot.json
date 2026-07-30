@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:46:59.377118+00:00",
-      "newsroom_total": 9,
+      "as_of": "2026-07-30T17:58:41.212914+00:00",
+      "newsroom_total": 10,
       "overall_share": 100,
       "provenance": "data",
       "series": [
@@ -29,63 +29,111 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 0
+        },
+        {
+          "ed_share": null,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 0
         }
       ],
-      "total_universe": 9,
+      "total_universe": 10,
       "universe_total": 0
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:46:59.035009+00:00",
+      "as_of": "2026-07-30T17:58:41.009049+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "betteridges-law",
-          "phrase": "Betteridge's Law is a journalistic adage; Bitcoin is a cryptocurrency, unrelated.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
+          "observed_at": null,
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "bitcoin",
-          "weight": 17
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "betteridges-law",
-          "phrase": "Betteridge's Law is a headline rule; open source is a development model, unrelated.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "open-source",
-          "weight": 14
-        },
-        {
-          "dir": "out",
-          "from": "betteridges-law",
-          "phrase": "Betteridge's Law is a journalistic principle; open interest is a trading metric, unrelated.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "open-interest",
-          "weight": 13
-        },
-        {
-          "dir": "out",
-          "from": "betteridges-law",
+          "observed_at": null,
           "phrase": "fluid",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "fluid",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "betteridges-law",
-          "phrase": "media",
+          "observed_at": null,
+          "phrase": "technology",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "media",
+          "to": "technology",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "betteridges-law",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 17
         }
       ],
       "nodes": [
@@ -98,46 +146,48 @@
         },
         {
           "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "open source",
-          "slug": "open-source",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
-        },
-        {
-          "center": false,
-          "name": "Open Interest",
-          "slug": "open-interest",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 13
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Fluid",
+          "observed_at": null,
           "slug": "fluid",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
-          "name": "Media",
-          "slug": "media",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Technology",
+          "observed_at": null,
+          "slug": "technology",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T01:34:50.696522+00:00",
@@ -190,17 +240,17 @@
       "source": "https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines"
     },
     "reader_signal": {
-      "article_count": 9,
-      "as_of": "2026-07-01T11:47:00.081639+00:00",
+      "article_count": 10,
+      "as_of": "2026-07-30T17:58:41.412028+00:00",
       "most_clicked": {
-        "clicks": 79,
+        "clicks": 85,
         "date": "2026-04-02T19:38:57.508587+00:00",
         "headline": "Virtuals launches AI Council, pitting agents against each other in weekly $100K Hyperliquid trading competitions",
         "lev_url": "https://leviathannews.xyz/220253/introducing-virtuals-ai-council-every-week-we-run-a-100000-ai-trading-competition-where-agents-compete-on-hyperliquid-perps-hundreds-of-agents-enter-thousands-of-trades-execute-the"
       },
       "provenance": "data",
-      "top_decile_share": 19,
-      "total_clicks": 418
+      "top_decile_share": 17,
+      "total_clicks": 511
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:34:50.696434+00:00",
@@ -285,10 +335,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:46:59.907697+00:00",
+      "as_of": "2026-07-30T17:58:41.406041+00:00",
       "items": [
         {
-          "clicks": 64,
+          "clicks": 70,
           "date": "2026-06-12T05:12:07.873834+00:00",
           "headline": "From $100M to $1.5B monthly: crypto card spending is booming, but can neobanks become your primary bank?",
           "hot_score": 726.846562,
@@ -297,7 +347,7 @@
           "url": "https://x.com/simonthekid_/status/2065014227828371954"
         },
         {
-          "clicks": 31,
+          "clicks": 37,
           "date": "2026-04-21T20:47:18.760092+00:00",
           "headline": "Are circuit breakers the next step for DeFi?",
           "hot_score": 417.8,
@@ -306,7 +356,7 @@
           "url": "https://x.com/DunkingSquirrel/status/2046632318186426421"
         },
         {
-          "clicks": 79,
+          "clicks": 85,
           "date": "2026-04-02T19:38:57.508587+00:00",
           "headline": "Virtuals launches AI Council, pitting agents against each other in weekly $100K Hyperliquid trading competitions",
           "hot_score": 234.61314,
@@ -315,7 +365,7 @@
           "url": "https://x.com/virtuals_io/status/2039710463202902251"
         },
         {
-          "clicks": 63,
+          "clicks": 64,
           "date": "2026-02-24T22:25:15.807985+00:00",
           "headline": "Are Audits Dead?",
           "hot_score": 182.489185,
@@ -324,7 +374,7 @@
           "url": "https://x.com/r0bre/status/2026340165674037418"
         },
         {
-          "clicks": 41,
+          "clicks": 44,
           "date": "2026-04-18T13:03:40.500620+00:00",
           "headline": "The Real Question: What is the ultimate goal of Tether borrowing into Drift Protocol?",
           "hot_score": 136.115465,
@@ -333,16 +383,7 @@
           "url": "https://x.com/i/status/2045082863973085304"
         },
         {
-          "clicks": 17,
-          "date": "2026-06-30T23:28:54.562116+00:00",
-          "headline": "Can Nomerra’s $2M AI bet really fix private markets’ looming paperwork crunch?",
-          "hot_score": 125.015106,
-          "lev_url": "https://leviathannews.xyz/265412/how-nomerra-plans-to-solve-the-paperwork-crisis-in-private-markets-with-2m-raise",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630120206_BxuejUUXsmu8.jpg",
-          "url": "https://archive.ph/S7lVe"
-        },
-        {
-          "clicks": 46,
+          "clicks": 50,
           "date": "2026-05-08T16:46:41.784731+00:00",
           "headline": "Does DeFi even matter anymore?",
           "hot_score": 45.6,
@@ -351,19 +392,28 @@
           "url": "https://x.com/blocmates/status/2051618040811544887"
         },
         {
-          "clicks": 29,
-          "date": "2026-05-14T09:39:23.473664+00:00",
-          "headline": "Blockchain.com offers crypto loans at 1.9%—a risky tide for collateral underwater?",
-          "hot_score": -602.69976,
-          "lev_url": "https://leviathannews.xyz/242071/blockchaincom-unveils-highly-anticipated-crypto-backed-loans-bringing-borrowing-to-crypto-holders-worldwide-20260514",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514083834_BUkhjSqHJHob.jpg",
-          "url": "https://www.blockchain.com/blog/posts/blockchain-launches-crypto-backed-loans-starting-at-19"
+          "clicks": 26,
+          "date": "2026-06-30T23:28:54.562116+00:00",
+          "headline": "Can Nomerra’s $2M AI bet really fix private markets’ looming paperwork crunch?",
+          "hot_score": 34.667975,
+          "lev_url": "https://leviathannews.xyz/265412/how-nomerra-plans-to-solve-the-paperwork-crisis-in-private-markets-with-2m-raise",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630120206_BxuejUUXsmu8.jpg",
+          "url": "https://archive.ph/S7lVe"
+        },
+        {
+          "clicks": 54,
+          "date": "2026-07-25T06:04:56.652362+00:00",
+          "headline": "What Happens to Crypto If the CLARITY Act Fails?",
+          "hot_score": -84.756181,
+          "lev_url": "https://leviathannews.xyz/281748/what-happens-to-crypto-if-the-clarity-act-fails",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724220440_N0mQGQ030QOO.jpg",
+          "url": "https://www.youtube.com/watch?v=dD8GvkHNFo0"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:46:59.818314+00:00",
+      "as_of": "2026-07-30T17:58:41.393623+00:00",
       "editorial": [
         {
           "count": 6,
@@ -380,9 +430,13 @@
         {
           "count": 1,
           "source": "archive.ph"
+        },
+        {
+          "count": 1,
+          "source": "youtube.com"
         }
       ],
-      "editorial_distinct": 4,
+      "editorial_distinct": 5,
       "provenance": "data",
       "universe": [],
       "universe_distinct": 0

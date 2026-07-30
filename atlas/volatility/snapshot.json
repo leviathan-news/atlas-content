@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:47:12.068323+00:00",
-      "newsroom_total": 65,
-      "overall_share": 34,
+      "as_of": "2026-07-30T18:33:09.521478+00:00",
+      "newsroom_total": 66,
+      "overall_share": 31,
       "provenance": "data",
       "series": [
         {
@@ -173,63 +173,135 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 31
-        }
-      ],
-      "total_universe": 189,
-      "universe_total": 124
-    },
-    "entity_graph": {
-      "as_of": "2026-07-01T11:47:11.449184+00:00",
-      "edges": [
-        {
-          "dir": "out",
-          "from": "volatility",
-          "phrase": "Both are key market microstructure concepts; liquidity affects volatility.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "liquidity",
-          "weight": 18
         },
         {
+          "ed_share": 4,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 23
+        }
+      ],
+      "total_universe": 213,
+      "universe_total": 147
+    },
+    "entity_graph": {
+      "as_of": "2026-07-30T18:33:09.322969+00:00",
+      "edges": [
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "volatility",
-          "phrase": "Bitcoin is known for high price volatility.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
+          "observed_at": null,
+          "phrase": "Bitcoin",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "bitcoin",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "volatility",
+          "observed_at": null,
+          "phrase": "bond",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bond",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "volatility",
+          "observed_at": null,
+          "phrase": "equity",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "equity",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "bond",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 16
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "volatility",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
           "weight": 17
         },
         {
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "volatility",
-          "phrase": "CME offers Bitcoin futures, a venue for volatility trading.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "cme-group",
-          "weight": 15
-        },
-        {
-          "dir": "out",
-          "from": "volatility",
-          "phrase": "Bonds have lower volatility compared to crypto assets.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
+          "relation_type": null,
+          "role": null,
           "to": "bond",
+          "verified": false,
           "weight": 15
-        },
-        {
-          "dir": "out",
-          "from": "volatility",
-          "phrase": "Liquidations are triggered by high volatility in leveraged positions.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "liquidations",
-          "weight": 14
         }
       ],
       "nodes": [
@@ -242,46 +314,73 @@
         },
         {
           "center": false,
-          "name": "Liquidity",
-          "slug": "liquidity",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Bitcoin",
+          "observed_at": null,
           "slug": "bitcoin",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "CME Group",
-          "slug": "cme-group",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Bond",
+          "observed_at": null,
           "slug": "bond",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Liquidations",
-          "slug": "liquidations",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Equity",
+          "observed_at": null,
+          "slug": "equity",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Bloomberg",
+          "shared_neighbors": 2,
+          "slug": "bloomberg"
+        },
+        {
+          "is_stub": false,
+          "name": "BTC",
+          "shared_neighbors": 2,
+          "slug": "btc"
+        },
+        {
+          "is_stub": false,
+          "name": "Cantor",
+          "shared_neighbors": 2,
+          "slug": "cantor"
+        },
+        {
+          "is_stub": false,
+          "name": "CME Group",
+          "shared_neighbors": 2,
+          "slug": "cme-group"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T01:30:22.279929+00:00",
@@ -340,17 +439,17 @@
       "source": "https://financefeeds.com/implied-volatility-in-crypto-options-market-risk/"
     },
     "reader_signal": {
-      "article_count": 65,
-      "as_of": "2026-07-01T11:47:12.861033+00:00",
+      "article_count": 66,
+      "as_of": "2026-07-30T18:33:09.987213+00:00",
       "most_clicked": {
-        "clicks": 391,
+        "clicks": 399,
         "date": "2025-01-24T14:29:14.843636+00:00",
         "headline": "Curve ecosystem update Week 4, 2025. \n\nTVL declines to $2.355B (-2.7%) amid market volatility, while Liquity V2’s BOLD pools attract $10M in 24 hours, offering top USD yields at over 40%.",
         "lev_url": "https://leviathannews.xyz/8938/curve-ecosystem-update-week-4-2025-tvl-declines-to-2355b-27-amid-market-volatility-while-liquity-v2s-bold-pools-attract-10m-in-24-hours-offering-top-usd-yields-at-over-40"
       },
       "provenance": "data",
       "top_decile_share": 28,
-      "total_clicks": 5163
+      "total_clicks": 5268
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:30:22.279819+00:00",
@@ -435,10 +534,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:47:12.691344+00:00",
+      "as_of": "2026-07-30T18:33:09.956315+00:00",
       "items": [
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2026-06-08T08:30:18.181249+00:00",
           "headline": "CME's Bitcoin Volatility futures go live as DV Chain and Monarq execute first block trades",
           "hot_score": 724.993113,
@@ -447,7 +546,7 @@
           "url": "https://investor.cmegroup.com/news-releases/news-release-details/cme-group-announces-first-trades-new-bitcoin-volatility-futures"
         },
         {
-          "clicks": 162,
+          "clicks": 163,
           "date": "2025-12-04T01:54:37.024171+00:00",
           "headline": "Visualized strategy reveals how Polymarket’s smartest bot turns volatility into guaranteed payouts.",
           "hot_score": 238.427107,
@@ -456,7 +555,7 @@
           "url": "https://x.com/Jaydenatwar/status/1996281508550877314?t=gQqf0Y5_BezsrgrAEaT77A&s=19"
         },
         {
-          "clicks": 42,
+          "clicks": 45,
           "date": "2026-04-02T14:59:39.457754+00:00",
           "headline": "Volatility Shares launches 2x leveraged ETFs for Cardano, Stellar, and Chainlink",
           "hot_score": 136.693675,
@@ -474,7 +573,7 @@
           "url": "https://news.curve.finance/inside-crvusd-borrow-rate/"
         },
         {
-          "clicks": 46,
+          "clicks": 51,
           "date": "2025-12-15T00:05:53.644250+00:00",
           "headline": "Brazil’s largest bank recommends allocating 1–3% of portfolios to Bitcoin, citing diversification and protection against currency devaluation. Itaú says BTC offers uncorrelated returns and long-term value amid FX volatility.",
           "hot_score": 65.363162,
@@ -483,7 +582,7 @@
           "url": "https://www.theblock.co/post/382459/brazils-largest-bank-recommends-a-3-bitcoin-portfolio-allocation-real-diversification?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2025-12-01T18:08:48.710331+00:00",
           "headline": "Jane Street and Citadel Securities are on track for record years, with Q3 trading revenue jumping 18% and 9% respectively as market volatility driven by Trump-era policy shifts boosts activity and erodes Wall Street’s dominance.",
           "hot_score": 23.434057,
@@ -492,7 +591,7 @@
           "url": "https://archive.ph/HeTjj"
         },
         {
-          "clicks": 391,
+          "clicks": 399,
           "date": "2025-01-24T14:29:14.843636+00:00",
           "headline": "Curve ecosystem update Week 4, 2025. \n\nTVL declines to $2.355B (-2.7%) amid market volatility, while Liquity V2’s BOLD pools attract $10M in 24 hours, offering top USD yields at over 40%.",
           "hot_score": 0.0,
@@ -513,10 +612,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:47:12.496773+00:00",
+      "as_of": "2026-07-30T18:33:09.898429+00:00",
       "editorial": [
         {
-          "count": 18,
+          "count": 19,
           "source": "x.com"
         },
         {
@@ -568,19 +667,19 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 64,
+          "count": 75,
           "source": "x.com"
         },
         {
-          "count": 11,
+          "count": 13,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 13,
           "source": "decrypt.co"
         },
         {
           "count": 10,
-          "source": "financefeeds.com"
-        },
-        {
-          "count": 9,
           "source": "cointelegraph.com"
         },
         {
@@ -588,16 +687,16 @@
           "source": "bloomberg.com"
         },
         {
-          "count": 5,
+          "count": 8,
           "source": "crowdfundinsider.com"
         },
         {
           "count": 5,
-          "source": "coindesk.com"
+          "source": "theblock.co"
         },
         {
-          "count": 3,
-          "source": "theblock.co"
+          "count": 5,
+          "source": "coindesk.com"
         },
         {
           "count": 2,
@@ -616,7 +715,7 @@
           "source": "coinbase.com"
         }
       ],
-      "universe_distinct": 16
+      "universe_distinct": 17
     }
   },
   "official_links": [],

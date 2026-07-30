@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:10:05.177019+00:00",
+      "as_of": "2026-07-30T17:59:56.067410+00:00",
       "newsroom_total": 25,
-      "overall_share": 45,
+      "overall_share": 41,
       "provenance": "data",
       "series": [
         {
@@ -113,63 +113,123 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 7
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 5
         }
       ],
-      "total_universe": 56,
-      "universe_total": 31
+      "total_universe": 61,
+      "universe_total": 36
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:10:04.794272+00:00",
+      "as_of": "2026-07-30T17:59:55.307861+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "chainalysis",
-          "phrase": "Chainalysis tracks blockchain payments for compliance and investigation.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "payments",
-          "weight": 17
-        },
-        {
-          "dir": "out",
-          "from": "chainalysis",
-          "phrase": "Chainalysis monitors stablecoin transactions for illicit activity.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "stablecoins",
-          "weight": 17
-        },
-        {
-          "dir": "out",
-          "from": "chainalysis",
-          "phrase": "Chainalysis investigates North Korean crypto hacking incidents.",
-          "relation_type": "risk",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "north-korea",
-          "weight": 14
-        },
-        {
-          "dir": "out",
-          "from": "chainalysis",
+          "observed_at": null,
           "phrase": "compliance",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "compliance",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "chainalysis",
+          "observed_at": null,
           "phrase": "hacks",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "hacks",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "chainalysis",
+          "observed_at": null,
+          "phrase": "payments",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "payments",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "chainalysis",
+          "relation_type": null,
+          "role": null,
+          "to": "payments",
+          "verified": false,
+          "weight": 17
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "compliance",
+          "relation_type": null,
+          "role": null,
+          "to": "payments",
+          "verified": false,
+          "weight": 16
         }
       ],
       "nodes": [
@@ -182,46 +242,67 @@
         },
         {
           "center": false,
-          "name": "Payments",
-          "slug": "payments",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
-        },
-        {
-          "center": false,
-          "name": "Stablecoins",
-          "slug": "stablecoins",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
-        },
-        {
-          "center": false,
-          "name": "North Korea",
-          "slug": "north-korea",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "compliance",
+          "observed_at": null,
           "slug": "compliance",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Hacks",
+          "observed_at": null,
           "slug": "hacks",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Payments",
+          "observed_at": null,
+          "slug": "payments",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 2,
+          "slug": "infrastructure"
+        },
+        {
+          "is_stub": false,
+          "name": "North Korea",
+          "shared_neighbors": 2,
+          "slug": "north-korea"
+        },
+        {
+          "is_stub": false,
+          "name": "Stablecoins",
+          "shared_neighbors": 2,
+          "slug": "stablecoins"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T08:19:43.342724+00:00",
@@ -287,16 +368,16 @@
     },
     "reader_signal": {
       "article_count": 25,
-      "as_of": "2026-07-01T12:10:05.731664+00:00",
+      "as_of": "2026-07-30T17:59:56.708717+00:00",
       "most_clicked": {
-        "clicks": 511,
+        "clicks": 528,
         "date": "2024-02-01T18:18:16.165156+00:00",
         "headline": "Chainalysis report claims majority of ERC-20 tokens are susceptible to pump and dump schemes, but dumpers average a mere $2,672 per attack",
         "lev_url": "https://leviathannews.xyz/3896/chainalysis-report-claims-majority-of-erc-20-tokens-are-susceptible-to-pump-and-dump-schemes-but-dumpers-average-a-mere-2672-per-attack"
       },
       "provenance": "data",
       "top_decile_share": 29,
-      "total_clicks": 2581
+      "total_clicks": 2640
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:19:43.342585+00:00",
@@ -381,19 +462,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:10:05.653429+00:00",
+      "as_of": "2026-07-30T17:59:56.701596+00:00",
       "items": [
         {
-          "clicks": 15,
-          "date": "2026-06-29T15:46:37.949573+00:00",
-          "headline": "Chainalysis proposes tracing ontology to separate wallet clusters from attribution claims",
-          "hot_score": 1416.793406,
-          "lev_url": "https://leviathannews.xyz/264803/chainalysis-proposes-tracing-ontology-to-separate-wallet-clusters-from-attribution-claims",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629153939_Z4zrlaiDPw==.png",
-          "url": "https://www.chainalysis.com/blog/ontology-data-quality-blockchain-analytics/"
-        },
-        {
-          "clicks": 48,
+          "clicks": 49,
           "date": "2026-04-08T20:14:04.446985+00:00",
           "headline": "Chainalysis projects stablecoin volume reaching $1.5 quadrillion by 2035, rivaling Visa and Mastercard",
           "hot_score": 818.988004,
@@ -402,7 +474,7 @@
           "url": "https://www.chainalysis.com/blog/stablecoin-utility-future-of-payments/"
         },
         {
-          "clicks": 45,
+          "clicks": 48,
           "date": "2026-06-10T07:56:00.920953+00:00",
           "headline": "Chainalysis signs KNPA deal to train Korean police after DPRK hackers stole over $2B in 2025",
           "hot_score": 711.278563,
@@ -411,7 +483,7 @@
           "url": "https://www.chainalysis.com/blog/chainalysis-and-the-korean-national-police-agency-knpa-sign-mou-to-strengthen-virtual-asset-investigation-capabilities/"
         },
         {
-          "clicks": 86,
+          "clicks": 87,
           "date": "2026-04-01T09:24:01.133157+00:00",
           "headline": "Chainalysis launches AI-powered blockchain intelligence agents for crypto investigations and compliance",
           "hot_score": 523.399889,
@@ -420,7 +492,7 @@
           "url": "https://www.chainalysis.com/blog/introducing-first-blockchain-intelligence-agents-2026/"
         },
         {
-          "clicks": 72,
+          "clicks": 75,
           "date": "2026-03-24T09:00:30.520721+00:00",
           "headline": "Chainalysis traces Resolv's $25M exploit to compromised AWS key that minted 80M unbacked USR",
           "hot_score": 475.598173,
@@ -429,7 +501,16 @@
           "url": "https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/"
         },
         {
-          "clicks": 511,
+          "clicks": 28,
+          "date": "2026-06-29T15:46:37.949573+00:00",
+          "headline": "Chainalysis proposes tracing ontology to separate wallet clusters from attribution claims",
+          "hot_score": 427.354723,
+          "lev_url": "https://leviathannews.xyz/264803/chainalysis-proposes-tracing-ontology-to-separate-wallet-clusters-from-attribution-claims",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629153939_Z4zrlaiDPw==.png",
+          "url": "https://www.chainalysis.com/blog/ontology-data-quality-blockchain-analytics/"
+        },
+        {
+          "clicks": 528,
           "date": "2024-02-01T18:18:16.165156+00:00",
           "headline": "Chainalysis report claims majority of ERC-20 tokens are susceptible to pump and dump schemes, but dumpers average a mere $2,672 per attack",
           "hot_score": 0.0,
@@ -438,7 +519,7 @@
           "url": "https://blockworks.co/news/chainalysis-rug-pull-report"
         },
         {
-          "clicks": 226,
+          "clicks": 232,
           "date": "2023-10-19T07:21:13.421235+00:00",
           "headline": "Inaccurate estimations of Cryptocurrency's role in terrorism financing following Hamas attacks on Israel: Let's correct the record",
           "hot_score": 0.0,
@@ -447,7 +528,7 @@
           "url": "https://www.chainalysis.com/blog/cryptocurrency-terrorism-financing-accuracy-check/"
         },
         {
-          "clicks": 218,
+          "clicks": 219,
           "date": "2024-12-29T19:38:56.448435+00:00",
           "headline": "$2.2B worth of crypto was stolen in 2024, with 61% of that amount going to North Korea.",
           "hot_score": 0.0,
@@ -459,7 +540,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:10:05.570194+00:00",
+      "as_of": "2026-07-30T17:59:56.652590+00:00",
       "editorial": [
         {
           "count": 14,
@@ -502,16 +583,16 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 7,
-          "source": "cointelegraph.com"
-        },
-        {
-          "count": 6,
+          "count": 9,
           "source": "x.com"
         },
         {
-          "count": 6,
+          "count": 8,
           "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 7,
+          "source": "cointelegraph.com"
         },
         {
           "count": 5,

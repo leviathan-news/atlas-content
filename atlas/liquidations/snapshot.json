@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:01:13.157695+00:00",
+      "as_of": "2026-07-30T18:16:07.597369+00:00",
       "newsroom_total": 0,
       "overall_share": 0,
       "provenance": "data",
@@ -47,92 +47,109 @@
       "universe_total": 58
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:01:12.904568+00:00",
+      "as_of": "2026-07-30T18:16:07.000721+00:00",
       "edges": [
         {
-          "confidence": 0.333,
-          "description": "Observed together in Leviathan's approved coverage.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "liquidations",
           "observed_at": null,
-          "phrase": "Observed together in Leviathan's approved coverage.",
+          "phrase": "futures",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidation",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "futures",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 33
+          "weight": 10
         },
         {
-          "confidence": 0.273,
-          "description": "Observed together in Leviathan's approved coverage.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "liquidations",
           "observed_at": null,
-          "phrase": "Observed together in Leviathan's approved coverage.",
+          "phrase": "open interest",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "lending",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "open-interest",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 27
-        },
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
         {
-          "confidence": 0.266,
-          "description": "Observed together in Leviathan's approved coverage.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "liquidations",
-          "observed_at": null,
-          "phrase": "Observed together in Leviathan's approved coverage.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "futures",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidated",
+          "role": null,
+          "to": "liquidations",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 27
+          "weight": 15
         },
         {
-          "confidence": 0.249,
-          "description": "Observed together in Leviathan's approved coverage.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "liquidations",
-          "observed_at": null,
-          "phrase": "Observed together in Leviathan's approved coverage.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "futures",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
+          "role": null,
+          "to": "open-interest",
+          "verified": false,
+          "weight": 13
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "liquidations",
+          "relation_type": null,
+          "role": null,
           "to": "futures",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
           "weight": 25
         },
         {
-          "confidence": 0.216,
-          "description": "Observed together in Leviathan's approved coverage.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "liquidations",
-          "observed_at": null,
-          "phrase": "Observed together in Leviathan's approved coverage.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "open-interest",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "fx-protocol",
+          "role": null,
+          "to": "futures",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 22
+          "weight": 23
         }
       ],
       "nodes": [
@@ -145,66 +162,60 @@
         },
         {
           "center": false,
-          "confidence": 0.333,
-          "name": "Liquidation",
-          "observed_at": null,
-          "slug": "liquidation",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 33
-        },
-        {
-          "center": false,
-          "confidence": 0.273,
-          "name": "Lending",
-          "observed_at": null,
-          "slug": "lending",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 27
-        },
-        {
-          "center": false,
-          "confidence": 0.266,
-          "name": "Liquidated",
-          "observed_at": null,
-          "slug": "liquidated",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 27
-        },
-        {
-          "center": false,
-          "confidence": 0.249,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Futures",
           "observed_at": null,
           "slug": "futures",
-          "source": "observed_relation",
-          "tier": "related",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 25
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.216,
-          "name": "f(x) Protocol",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Open Interest",
           "observed_at": null,
-          "slug": "fx-protocol",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "open-interest",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 22
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Leverage",
+          "shared_neighbors": 3,
+          "slug": "leverage"
+        },
+        {
+          "is_stub": false,
+          "name": "Hyperliquid",
+          "shared_neighbors": 2,
+          "slug": "hyperliquid"
+        },
+        {
+          "is_stub": false,
+          "name": "Liquidation",
+          "shared_neighbors": 2,
+          "slug": "liquidation"
+        },
+        {
+          "is_stub": false,
+          "name": "Options",
+          "shared_neighbors": 2,
+          "slug": "options"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T06:26:39.703943+00:00",
@@ -364,12 +375,12 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:01:13.969839+00:00",
+      "as_of": "2026-07-30T18:16:08.450837+00:00",
       "items": [],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:01:13.961303+00:00",
+      "as_of": "2026-07-30T18:16:08.439935+00:00",
       "editorial": [],
       "editorial_distinct": 0,
       "provenance": "data",

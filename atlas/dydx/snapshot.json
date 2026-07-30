@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:58:36.525909+00:00",
+      "as_of": "2026-07-30T18:08:46.284989+00:00",
       "newsroom_total": 35,
       "overall_share": 61,
       "provenance": "data",
@@ -161,92 +161,85 @@
       "universe_total": 22
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:58:35.967537+00:00",
+      "as_of": "2026-07-30T18:08:45.975919+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.319,
-          "description": "Co-covered in 6 approved stories; most recently May 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "A leading decentralized derivatives platform, dYdX is a non‑custodial crypto exchange focused on perpetual futures, now powered by its own proof‑of‑stake blockchain built with the Cosmos SDK.",
           "from": "dydx",
           "observed_at": "2026-05-13",
-          "phrase": "Co-covered in 6 approved stories; most recently May 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "cosmos",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 32
         },
         {
-          "confidence": 0.203,
-          "description": "Co-covered in 16 approved stories; most recently June 2026.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
-          "from": "dydx",
-          "observed_at": "2026-06-13",
-          "phrase": "Co-covered in 16 approved stories; most recently June 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "usdc",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 20
-        },
-        {
-          "confidence": 0.196,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "dydx",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "futures",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "apple",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "futures",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 20
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "cosmos",
+          "relation_type": null,
+          "role": null,
+          "to": "dydx",
+          "verified": false,
+          "weight": 22
         },
         {
-          "confidence": 0.13,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "dydx",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "fees",
+          "role": null,
+          "to": "cosmos",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 13
-        },
-        {
-          "confidence": 0.129,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "dydx",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "google",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 13
+          "weight": 32
         }
       ],
       "nodes": [
@@ -260,6 +253,7 @@
         {
           "center": false,
           "confidence": 0.319,
+          "is_stub": false,
           "name": "Cosmos",
           "observed_at": "2026-05-13",
           "slug": "cosmos",
@@ -271,54 +265,22 @@
         },
         {
           "center": false,
-          "confidence": 0.203,
-          "name": "USDC",
-          "observed_at": "2026-06-13",
-          "slug": "usdc",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 20
-        },
-        {
-          "center": false,
-          "confidence": 0.196,
-          "name": "Apple",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Futures",
           "observed_at": null,
-          "slug": "apple",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "futures",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 20
-        },
-        {
-          "center": false,
-          "confidence": 0.13,
-          "name": "Fees",
-          "observed_at": null,
-          "slug": "fees",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 13
-        },
-        {
-          "center": false,
-          "confidence": 0.129,
-          "name": "Google",
-          "observed_at": null,
-          "slug": "google",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 13
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T08:17:44.967593+00:00",
@@ -384,7 +346,7 @@
     },
     "reader_signal": {
       "article_count": 35,
-      "as_of": "2026-07-29T22:58:37.027218+00:00",
+      "as_of": "2026-07-30T18:08:46.765214+00:00",
       "most_clicked": {
         "clicks": 260,
         "date": "2024-10-29T19:23:03.146235+00:00",
@@ -393,7 +355,7 @@
       },
       "provenance": "data",
       "top_decile_share": 26,
-      "total_clicks": 2978
+      "total_clicks": 2979
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:17:44.967498+00:00",
@@ -478,7 +440,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:58:37.022917+00:00",
+      "as_of": "2026-07-30T18:08:46.760437+00:00",
       "items": [
         {
           "clicks": 39,
@@ -508,7 +470,7 @@
           "url": "https://www.coindesk.com/markets/2026/03/29/crypto-s-clarity-act-could-be-a-headwind-for-defi-tokens-ring-fencing-yield-analyst-says"
         },
         {
-          "clicks": 29,
+          "clicks": 30,
           "date": "2026-06-13T19:01:32.154618+00:00",
           "headline": "dYdX mobile adds MoonPay fiat deposits via card payments, Apple Pay, and Google Pay",
           "hot_score": 411.312961,
@@ -556,7 +518,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:58:37.011019+00:00",
+      "as_of": "2026-07-30T18:08:46.750593+00:00",
       "editorial": [
         {
           "count": 7,

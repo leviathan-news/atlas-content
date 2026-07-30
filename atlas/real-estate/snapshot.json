@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:03:42.691626+00:00",
+      "as_of": "2026-07-30T18:25:07.744985+00:00",
       "newsroom_total": 32,
       "overall_share": 39,
       "provenance": "data",
@@ -107,92 +107,149 @@
       "universe_total": 50
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:03:42.421056+00:00",
+      "as_of": "2026-07-30T18:25:07.035990+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "evidence",
+          "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "On the institutional side, Birch Hill and Groma launched what they described as the first institutional on-chain REIT lending market, using a Morpho-Yearn stack to enable $150 million in tokenized real estate to back USDC loans.",
+          "from": "real-estate",
+          "observed_at": "2026-07-30",
+          "phrase": "Mentioned in this territory's explainer.",
+          "relation_type": null,
+          "role": null,
+          "source": "observed_relation",
+          "tier": "related",
+          "to": "yearn",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 70
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.249,
+          "curation_status": "observed",
           "description": "Co-covered in 7 approved stories; most recently July 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "real-estate",
           "observed_at": "2026-07-10",
           "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "tokenization",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 25
         },
         {
-          "confidence": 0.148,
-          "description": "Co-covered in 10 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "real-estate",
-          "observed_at": null,
-          "phrase": "Co-covered in 10 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "real-world-assets",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 15
-        },
-        {
-          "confidence": 0.143,
-          "description": "Co-covered in 9 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "real-estate",
-          "observed_at": null,
-          "phrase": "Co-covered in 9 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "tokenomics",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 14
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "real-estate",
           "observed_at": null,
           "phrase": "ledger",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "ledger",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "real-estate",
           "observed_at": null,
           "phrase": "legal",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "legal",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "real-estate",
+          "relation_type": null,
+          "role": null,
+          "to": "tokenization",
+          "verified": false,
+          "weight": 25
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "tokenization",
+          "relation_type": null,
+          "role": null,
+          "to": "real-estate",
+          "verified": false,
+          "weight": 25
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "yearn",
+          "relation_type": null,
+          "role": null,
+          "to": "real-estate",
+          "verified": false,
+          "weight": 70
         }
       ],
       "nodes": [
@@ -205,7 +262,21 @@
         },
         {
           "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Yearn",
+          "observed_at": "2026-07-30",
+          "slug": "yearn",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 70
+        },
+        {
+          "center": false,
           "confidence": 0.249,
+          "is_stub": false,
           "name": "Tokenization",
           "observed_at": "2026-07-10",
           "slug": "tokenization",
@@ -217,31 +288,8 @@
         },
         {
           "center": false,
-          "confidence": 0.148,
-          "name": "Real World Assets",
-          "observed_at": null,
-          "slug": "real-world-assets",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 15
-        },
-        {
-          "center": false,
-          "confidence": 0.143,
-          "name": "Tokenomics",
-          "observed_at": null,
-          "slug": "tokenomics",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 14
-        },
-        {
-          "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Ledger",
           "observed_at": null,
           "slug": "ledger",
@@ -254,6 +302,7 @@
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "legal",
           "observed_at": null,
           "slug": "legal",
@@ -264,7 +313,35 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Tokenomics",
+          "shared_neighbors": 3,
+          "slug": "tokenomics"
+        },
+        {
+          "is_stub": false,
+          "name": "Balancer",
+          "shared_neighbors": 2,
+          "slug": "balancer"
+        },
+        {
+          "is_stub": false,
+          "name": "BUILD",
+          "shared_neighbors": 2,
+          "slug": "build"
+        },
+        {
+          "is_stub": false,
+          "name": "Circle",
+          "shared_neighbors": 2,
+          "slug": "circle"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-26T08:06:58.767581+00:00",
@@ -324,7 +401,7 @@
     },
     "reader_signal": {
       "article_count": 32,
-      "as_of": "2026-07-29T23:03:43.060093+00:00",
+      "as_of": "2026-07-30T18:25:08.155856+00:00",
       "most_clicked": {
         "clicks": 199,
         "date": "2025-04-29T15:30:34.206563+00:00",
@@ -418,7 +495,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:03:43.054918+00:00",
+      "as_of": "2026-07-30T18:25:08.150709+00:00",
       "items": [
         {
           "clicks": 113,
@@ -496,7 +573,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:03:43.040741+00:00",
+      "as_of": "2026-07-30T18:25:08.139780+00:00",
       "editorial": [
         {
           "count": 13,

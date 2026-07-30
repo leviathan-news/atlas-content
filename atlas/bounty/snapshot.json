@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:00:38.251414+00:00",
+      "as_of": "2026-07-30T17:59:19.181664+00:00",
       "newsroom_total": 15,
-      "overall_share": 23,
+      "overall_share": 19,
       "provenance": "data",
       "series": [
         {
@@ -29,65 +29,48 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 12
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-07",
+          "newsroom": 0,
+          "universe": 16
         }
       ],
-      "total_universe": 65,
-      "universe_total": 50
+      "total_universe": 81,
+      "universe_total": 66
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:00:37.837966+00:00",
+      "as_of": "2026-07-30T17:59:18.835526+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "bounty",
-          "phrase": "Both are platforms for token launches, but Pump.fun focuses on memecoins.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "pump-dotfun",
-          "weight": 19
-        },
-        {
-          "dir": "out",
-          "from": "bounty",
-          "phrase": "ZachXBT investigates bounty-related scams and hacks in crypto.",
-          "relation_type": "influence",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "zachxbt",
-          "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "bounty",
-          "phrase": "Hackers exploit bounty programs for vulnerabilities or theft.",
-          "relation_type": "risk",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "hacker",
-          "weight": 14
-        },
-        {
-          "dir": "out",
-          "from": "bounty",
-          "phrase": "Bounty programs carry risks like fraud and misallocation of funds.",
-          "relation_type": "risk",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "risks",
-          "weight": 13
-        },
-        {
-          "dir": "out",
-          "from": "bounty",
-          "phrase": "integration",
+          "observed_at": null,
+          "phrase": "vulnerability",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "integration",
+          "to": "vulnerability",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
         }
       ],
+      "intra_edges": [],
       "nodes": [
         {
           "center": true,
@@ -98,46 +81,22 @@
         },
         {
           "center": false,
-          "name": "Pump.fun",
-          "slug": "pump-dotfun",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 19
-        },
-        {
-          "center": false,
-          "name": "ZachXBT",
-          "slug": "zachxbt",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
-          "name": "Hacker",
-          "slug": "hacker",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
-        },
-        {
-          "center": false,
-          "name": "Risks",
-          "slug": "risks",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 13
-        },
-        {
-          "center": false,
-          "name": "Integration",
-          "slug": "integration",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "vulnerability",
+          "observed_at": null,
+          "slug": "vulnerability",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 1,
+      "visible_routes": 1
     },
     "event_timeline": {
       "as_of": "2026-06-26T04:48:53.869985+00:00",
@@ -203,16 +162,16 @@
     },
     "reader_signal": {
       "article_count": 15,
-      "as_of": "2026-07-01T12:00:38.804166+00:00",
+      "as_of": "2026-07-30T17:59:19.453574+00:00",
       "most_clicked": {
-        "clicks": 95,
+        "clicks": 99,
         "date": "2026-05-22T16:47:36.437122+00:00",
         "headline": "Templ.Fun is live on Base and a bounty program has been started! Up to 10,000 USDC at stakes 🐸",
         "lev_url": "https://leviathannews.xyz/247023/templfun-is-live-on-base-and-a-bounty-program-has-been-started-up-to-10000-usdc-at-stakes"
       },
       "provenance": "data",
       "top_decile_share": 13,
-      "total_clicks": 738
+      "total_clicks": 763
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:48:53.869872+00:00",
@@ -297,10 +256,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:00:38.728401+00:00",
+      "as_of": "2026-07-30T17:59:19.448828+00:00",
       "items": [
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2026-04-14T08:14:53.667776+00:00",
           "headline": "Polymarket launches $5M bug bounty on Cantina, exposing full-stack prediction market infra including smart contracts, oracles, and web app to security researchers",
           "hot_score": 8917.125185,
@@ -309,7 +268,7 @@
           "url": "https://x.com/i/status/2043753857638093063"
         },
         {
-          "clicks": 95,
+          "clicks": 99,
           "date": "2026-05-22T16:47:36.437122+00:00",
           "headline": "Templ.Fun is live on Base and a bounty program has been started! Up to 10,000 USDC at stakes 🐸",
           "hot_score": 2046.246366,
@@ -318,7 +277,7 @@
           "url": "https://x.com/marcoworms/status/2057840571700425150"
         },
         {
-          "clicks": 28,
+          "clicks": 29,
           "date": "2026-04-20T21:26:53.774294+00:00",
           "headline": "OKX CEO Star offers $25K bounty to support ZachXBT probe into RAVE token, following massive 11,000% surge and 95% crash linked to insider activity",
           "hot_score": 949.8,
@@ -336,7 +295,7 @@
           "url": "https://x.com/i/web/status/2054931252050841684"
         },
         {
-          "clicks": 57,
+          "clicks": 60,
           "date": "2026-05-11T06:54:17.203308+00:00",
           "headline": "Whitehat hacker returns $190K out for $209K to Renegade protocol after exploiting flawed Arbitrum dark pool contract, keeping 10% bounty to avoid legal action",
           "hot_score": 758.442072,
@@ -345,7 +304,7 @@
           "url": "https://cointelegraph.com/news/whitehat-returns-190k-renegade-hours-after-hacking-the-protocol"
         },
         {
-          "clicks": 33,
+          "clicks": 35,
           "date": "2026-04-20T05:18:26.745568+00:00",
           "headline": "OneKey's Yishi on KelpDAO hack: 10-15% hacker bounty, LayerZero fund, Aave backstop — don't cut WETH depositors",
           "hot_score": 750.442594,
@@ -354,7 +313,7 @@
           "url": "https://x.com/ohyishi/status/2046028695161409863"
         },
         {
-          "clicks": 49,
+          "clicks": 52,
           "date": "2026-06-09T14:16:34.412163+00:00",
           "headline": "Pump.fun GO draws scrutiny as $690,000 suicide-related bounty raises moderation and safety concerns",
           "hot_score": 721.667157,
@@ -375,7 +334,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:00:38.566424+00:00",
+      "as_of": "2026-07-30T17:59:19.436274+00:00",
       "editorial": [
         {
           "count": 12,
@@ -398,7 +357,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 33,
+          "count": 46,
           "source": "x.com"
         },
         {
@@ -432,9 +391,21 @@
         {
           "count": 1,
           "source": "blog.arbitrum.foundation"
+        },
+        {
+          "count": 1,
+          "source": "news.gala.com"
+        },
+        {
+          "count": 1,
+          "source": "openai.com"
+        },
+        {
+          "count": 1,
+          "source": "coinbase.com"
         }
       ],
-      "universe_distinct": 9
+      "universe_distinct": 12
     }
   },
   "official_links": [],
