@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:54:51.483903+00:00",
+      "as_of": "2026-07-30T17:41:20.871055+00:00",
       "newsroom_total": 25,
-      "overall_share": 20,
+      "overall_share": 19,
       "provenance": "data",
       "series": [
         {
@@ -118,99 +118,142 @@
           "ed_share": 5,
           "month": "2026-07",
           "newsroom": 2,
-          "universe": 37
+          "universe": 39
         }
       ],
-      "total_universe": 127,
-      "universe_total": 102
+      "total_universe": 129,
+      "universe_total": 104
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:54:51.267749+00:00",
+      "as_of": "2026-07-30T17:41:20.191128+00:00",
       "edges": [
         {
-          "confidence": 0.247,
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.347,
+          "curation_status": "observed",
           "description": "Co-covered in 5 approved stories; most recently May 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "1inch",
           "observed_at": "2026-05-07",
           "phrase": "Co-covered in 5 approved stories; most recently May 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "fusion",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 25
+          "weight": 35
         },
         {
-          "confidence": 0.234,
-          "description": "Co-covered in 7 approved stories; most recently July 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "1inch",
-          "observed_at": "2026-07-28",
-          "phrase": "Co-covered in 7 approved stories; most recently July 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidity",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 23
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.225,
-          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Around that core swap engine, 1inch has developed a broader Web3 stack that includes a self-custodial wallet, shared-liquidity infrastructure, institutional and retail APIs, and governance via the 1INCH token, while facing the same onchain risks, regulatory uncertainty, and infrastructure challenges that shape the rest of DeFi.",
           "from": "1inch",
-          "observed_at": "2026-07-28",
-          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "observed_at": "2026-07-30",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "wallet",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 23
         },
         {
-          "confidence": 0.184,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "1inch",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "retail",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "mcp",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "retail",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 18
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "1inch",
+          "relation_type": null,
+          "role": null,
+          "to": "fusion",
+          "verified": false,
+          "weight": 25
         },
         {
-          "confidence": 0.171,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "1inch",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "mev",
+          "role": null,
+          "to": "wallet",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
+          "weight": 23
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "fusion",
+          "relation_type": null,
+          "role": null,
+          "to": "1inch",
+          "verified": false,
+          "weight": 35
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "wallet",
+          "relation_type": null,
+          "role": null,
+          "to": "1inch",
+          "verified": false,
+          "weight": 13
         }
       ],
       "nodes": [
@@ -223,7 +266,8 @@
         },
         {
           "center": false,
-          "confidence": 0.247,
+          "confidence": 0.347,
+          "is_stub": false,
           "name": "Fusion",
           "observed_at": "2026-05-07",
           "slug": "fusion",
@@ -231,25 +275,14 @@
           "tier": "related",
           "verified": false,
           "verified_at": null,
-          "weight": 25
-        },
-        {
-          "center": false,
-          "confidence": 0.234,
-          "name": "Liquidity",
-          "observed_at": "2026-07-28",
-          "slug": "liquidity",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 23
+          "weight": 35
         },
         {
           "center": false,
           "confidence": 0.225,
+          "is_stub": false,
           "name": "Wallet",
-          "observed_at": "2026-07-28",
+          "observed_at": "2026-07-30",
           "slug": "wallet",
           "source": "observed_relation",
           "tier": "related",
@@ -259,30 +292,41 @@
         },
         {
           "center": false,
-          "confidence": 0.184,
-          "name": "MCP",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Retail",
           "observed_at": null,
-          "slug": "mcp",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "retail",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.171,
-          "name": "MEV",
-          "observed_at": null,
-          "slug": "mev",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "API",
+          "shared_neighbors": 2,
+          "slug": "api"
+        },
+        {
+          "is_stub": false,
+          "name": "Investment",
+          "shared_neighbors": 2,
+          "slug": "investment"
+        },
+        {
+          "is_stub": false,
+          "name": "KuCoin",
+          "shared_neighbors": 2,
+          "slug": "kucoin"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T05:09:19.031523+00:00",
@@ -348,7 +392,7 @@
     },
     "reader_signal": {
       "article_count": 25,
-      "as_of": "2026-07-29T22:54:51.816189+00:00",
+      "as_of": "2026-07-30T17:41:21.329615+00:00",
       "most_clicked": {
         "clicks": 349,
         "date": "2023-06-13T23:50:59.034230+00:00",
@@ -357,7 +401,7 @@
       },
       "provenance": "data",
       "top_decile_share": 26,
-      "total_clicks": 2337
+      "total_clicks": 2338
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:09:19.031426+00:00",
@@ -442,13 +486,13 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:54:51.809133+00:00",
+      "as_of": "2026-07-30T17:41:21.323303+00:00",
       "items": [
         {
-          "clicks": 31,
+          "clicks": 32,
           "date": "2026-07-28T11:30:56.918587+00:00",
           "headline": "1inch launches Aqua across 13 chains, letting liquidity providers deploy one wallet balance across multiple positions without fragmenting capital or surrendering custody",
-          "hot_score": 2403.166525,
+          "hot_score": 1995.878999,
           "lev_url": "https://leviathannews.xyz/283220/1inch-opens-aqua-liquidity-protocol-across-13-chains-20260728",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728111946_ZQEQfGKlZsa6.png",
           "url": "https://www.coindesk.com/web3/2026/07/27/1inch-opens-aqua-liquidity-protocol-across-13-chains"
@@ -520,7 +564,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:54:51.790913+00:00",
+      "as_of": "2026-07-30T17:41:21.297967+00:00",
       "editorial": [
         {
           "count": 14,
@@ -559,7 +603,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 34,
+          "count": 35,
           "source": "x.com"
         },
         {
@@ -567,7 +611,7 @@
           "source": "blog.1inch.com"
         },
         {
-          "count": 22,
+          "count": 23,
           "source": "1inch-network.ghost.io"
         },
         {
