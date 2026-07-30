@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:42:27.725170+00:00",
-      "newsroom_total": 213,
-      "overall_share": 40,
+      "as_of": "2026-07-30T18:19:29.711360+00:00",
+      "newsroom_total": 223,
+      "overall_share": 35,
       "provenance": "data",
       "series": [
         {
@@ -247,69 +247,72 @@
           "universe": 56
         },
         {
-          "ed_share": 0,
+          "ed_share": 9,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 1
+          "newsroom": 10,
+          "universe": 97
         }
       ],
-      "total_universe": 534,
-      "universe_total": 321
+      "total_universe": 640,
+      "universe_total": 417
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:42:26.229000+00:00",
+      "as_of": "2026-07-30T18:19:29.499135+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "mainnet",
-          "phrase": "OP is a layer-2 scaling solution, comparable to mainnet as a network.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "op",
-          "weight": 20
+          "observed_at": null,
+          "phrase": "ledger",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "ledger",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "mainnet",
-          "phrase": "Testnet is a testing network, counterpart to mainnet.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "testnet",
-          "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "mainnet",
-          "phrase": "Pectra is an Ethereum upgrade that may affect mainnet.",
-          "relation_type": "event",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "pectra",
-          "weight": 17
-        },
-        {
-          "dir": "out",
-          "from": "mainnet",
-          "phrase": "Tempo is a consensus protocol, comparable to mainnet's consensus.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "tempo",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "mainnet",
-          "phrase": "Developers build and maintain applications on mainnet.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "developers",
-          "weight": 16
+          "observed_at": null,
+          "phrase": "technology",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "technology",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         }
       ],
+      "intra_edges": [],
       "nodes": [
         {
           "center": true,
@@ -320,46 +323,35 @@
         },
         {
           "center": false,
-          "name": "OP",
-          "slug": "op",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 20
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Ledger",
+          "observed_at": null,
+          "slug": "ledger",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Testnet",
-          "slug": "testnet",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
-          "name": "Pectra",
-          "slug": "pectra",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
-        },
-        {
-          "center": false,
-          "name": "Tempo",
-          "slug": "tempo",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
-        },
-        {
-          "center": false,
-          "name": "Developers",
-          "slug": "developers",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Technology",
+          "observed_at": null,
+          "slug": "technology",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T00:20:29.471474+00:00",
@@ -424,17 +416,17 @@
       "source": "https://coinmarketcap.com/academy/glossary/mainnet"
     },
     "reader_signal": {
-      "article_count": 221,
-      "as_of": "2026-07-01T11:42:28.592919+00:00",
+      "article_count": 231,
+      "as_of": "2026-07-30T18:19:30.114596+00:00",
       "most_clicked": {
-        "clicks": 439,
+        "clicks": 442,
         "date": "2023-06-21T10:30:09.239560+00:00",
         "headline": "Decentralized computation protocol Arpa Network launches on Ethereum Mainnet, with 500MM $ARPA tokens set aside for staking rewards",
         "lev_url": "https://leviathannews.xyz/1511/decentralized-computation-protocol-arpa-network-launches-on-ethereum-mainnet-with-500mm-arpa-tokens-set-aside-for-staking-rewards"
       },
       "provenance": "data",
       "top_decile_share": 32,
-      "total_clicks": 18180
+      "total_clicks": 18818
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:20:29.471389+00:00",
@@ -519,10 +511,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:42:28.490230+00:00",
+      "as_of": "2026-07-30T18:19:30.099745+00:00",
       "items": [
         {
-          "clicks": 46,
+          "clicks": 49,
           "date": "2026-04-16T10:59:12.567619+00:00",
           "headline": "Talus Protocol v1.0 launches on Sui mainnet, introducing verifiable AI agents executing onchain with transparent, accountable actions in closed mainnet phase",
           "hot_score": 5697.474393,
@@ -531,7 +523,7 @@
           "url": "https://x.com/i/status/2044438573433139502"
         },
         {
-          "clicks": 45,
+          "clicks": 50,
           "date": "2026-04-15T15:12:56.663319+00:00",
           "headline": "OP Mainnet logs largest TVL surge in history as Etherfi migrates $200M, bringing 70K cards and 300K users to Optimism to scale real-world crypto payments",
           "hot_score": 5302.179252,
@@ -540,7 +532,7 @@
           "url": "https://www.theblock.co/post/397465/op-mainnet-largest-tvl-event-history-crypto-card-provider-etherfi-live?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 42,
+          "clicks": 44,
           "date": "2026-04-16T18:50:48.389836+00:00",
           "headline": "Optimism launches stake-based transaction ordering on OP Mainnet, with 100,000 OP staked unlocking priority block access",
           "hot_score": 2147.593811,
@@ -549,13 +541,31 @@
           "url": "https://www.optimism.io/blog/stake-based-transaction-ordering-a-new-experiment-on-op-mainnet"
         },
         {
-          "clicks": 39,
+          "clicks": 43,
           "date": "2026-04-16T21:10:39.304148+00:00",
           "headline": "Tempo ships Zones on testnet: private EVM chains running parallel to mainnet for enterprise stablecoin payments",
           "hot_score": 2055.89421,
           "lev_url": "https://leviathannews.xyz/230950/tempo-ships-zones-on-testnet-private-evm-chains-running-parallel-to-mainnet-for-enterprise-stablecoin-payments",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260416210711_Z4zrlaiDPw==.png",
           "url": "https://tempo.xyz/blog/introducing-tempo-zones"
+        },
+        {
+          "clicks": 37,
+          "date": "2026-07-28T11:30:54.629399+00:00",
+          "headline": "Solana will raise its mainnet block compute limit by 66% to 100M compute units as SIMD-0286 activates in Epoch 1009, expanding network throughput and execution capacity",
+          "hot_score": 2007.85864,
+          "lev_url": "https://leviathannews.xyz/283222/breaking-solana-is-set-to-increase-its-mainnet-block-compute-limit-by-66-in-less-than-24-hours-from-60m-to-100m-cus-with-simd-0286-scheduled-to-activate-at-the-start-of-epoch",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728112306_U2bGeufb2CuQ.jpg",
+          "url": "https://x.com/solanafloor/status/2082046794519945399"
+        },
+        {
+          "clicks": 28,
+          "date": "2026-07-28T04:54:28.227775+00:00",
+          "headline": "SOON fully restores mainnet after July 12 offchain infrastructure incident, says no user assets were affected",
+          "hot_score": 1842.630245,
+          "lev_url": "https://leviathannews.xyz/283042/soon-fully-restores-mainnet-after-july-12-offchain-infrastructure-incident-says-no-user-assets-were-affected",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728040723_Z4zrlaiDPw==.png",
+          "url": "https://x.com/soon_svm/status/2081951799280312407"
         },
         {
           "clicks": 47,
@@ -567,40 +577,22 @@
           "url": "https://www.dlnews.com/articles/defi/dogecoin-developers-prepare-for-quantum-threat/"
         },
         {
-          "clicks": 70,
+          "clicks": 71,
           "date": "2026-04-08T12:45:08.095267+00:00",
           "headline": "Hyperswap's tap trading enters final invite-only testing on mainnet",
           "hot_score": 1437.417559,
           "lev_url": "https://leviathannews.xyz/223639/hyperswaps-tap-trading-is-now-live-on-mainnet-for-its-final-testing-phase-in-invite-only",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260408115802_6_konQe79epZ.jpg",
           "url": "https://x.com/HyperSwapX/status/2041527128030663148"
-        },
-        {
-          "clicks": 34,
-          "date": "2026-04-17T13:19:41.994120+00:00",
-          "headline": "Mitsui launches yield-bearing Zipangcoin on OP Mainnet, backed by physical gold, silver, and platinum",
-          "hot_score": 992.705402,
-          "lev_url": "https://leviathannews.xyz/231475/mitsui-launches-yield-bearing-zipangcoin-on-op-mainnet-backed-by-physical-gold-silver-and-platinum",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260417122657_Z4zrlaiDPw==.png",
-          "url": "https://www.optimism.io/blog/mitsui-co.-digital-commodities-launches-zipangcoin-on-op-mainnet"
-        },
-        {
-          "clicks": 200,
-          "date": "2026-03-30T15:44:15.212692+00:00",
-          "headline": "Hoskinson's $200M privacy chain Midnight launches mainnet with Google Cloud, Telegram, MoneyGram running nodes",
-          "hot_score": 908.742559,
-          "lev_url": "https://leviathannews.xyz/217912/hoskinsons-200m-privacy-chain-midnight-launches-mainnet-with-google-cloud-telegram-moneygram-running-nodes",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260330143126_Z4zrlaiDPw==.png",
-          "url": "https://www.coindesk.com/tech/2026/03/30/charles-hoskinson-s-usd200-million-bet-midnight-goes-live-to-tackle-crypto-s-biggest-flaws"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:42:28.393746+00:00",
+      "as_of": "2026-07-30T18:19:30.026896+00:00",
       "editorial": [
         {
-          "count": 99,
+          "count": 106,
           "source": "x.com"
         },
         {
@@ -648,20 +640,24 @@
           "source": "blog.chain.link"
         }
       ],
-      "editorial_distinct": 57,
+      "editorial_distinct": 60,
       "provenance": "data",
       "universe": [
         {
-          "count": 251,
+          "count": 329,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 11,
           "source": "theblock.co"
         },
         {
-          "count": 5,
+          "count": 7,
           "source": "financefeeds.com"
+        },
+        {
+          "count": 6,
+          "source": "zama.org"
         },
         {
           "count": 4,
@@ -680,12 +676,12 @@
           "source": "chainwire.org"
         },
         {
-          "count": 2,
-          "source": "cointelegraph.com"
+          "count": 3,
+          "source": "neo.org"
         },
         {
           "count": 2,
-          "source": "neo.org"
+          "source": "cointelegraph.com"
         },
         {
           "count": 2,
@@ -694,13 +690,9 @@
         {
           "count": 2,
           "source": "blog.sui.io"
-        },
-        {
-          "count": 2,
-          "source": "tellor.io"
         }
       ],
-      "universe_distinct": 38
+      "universe_distinct": 46
     }
   },
   "official_links": [],

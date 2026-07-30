@@ -1,8 +1,8 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:57:07.197340+00:00",
-      "newsroom_total": 93,
+      "as_of": "2026-07-30T17:59:33.551379+00:00",
+      "newsroom_total": 94,
       "overall_share": 48,
       "provenance": "data",
       "series": [
@@ -175,101 +175,94 @@
           "universe": 24
         },
         {
-          "ed_share": 17,
+          "ed_share": 21,
           "month": "2026-07",
-          "newsroom": 4,
+          "newsroom": 5,
           "universe": 19
         }
       ],
-      "total_universe": 193,
+      "total_universe": 194,
       "universe_total": 100
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:57:06.833357+00:00",
+      "as_of": "2026-07-30T17:59:33.224660+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.263,
-          "description": "Co-covered in 13 approved stories; most recently June 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "It now sits at the center of debates about offshore exchanges, regulatory perimeter, tokenized equities such as SpaceX pre‑IPO shares, and the security implications of running institutional‑scale crypto infrastructure.",
           "from": "bybit",
           "observed_at": "2026-06-13",
-          "phrase": "Co-covered in 13 approved stories; most recently June 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "spacex",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 26
         },
         {
-          "confidence": 0.178,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "bybit",
           "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
+          "phrase": "equities",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "security",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "equities",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 18
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "bybit",
+          "relation_type": null,
+          "role": null,
+          "to": "spacex",
+          "verified": false,
+          "weight": 26
         },
         {
-          "confidence": 0.172,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "bybit",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "spacex",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "plume",
+          "role": null,
+          "to": "bybit",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
-        },
-        {
-          "confidence": 0.171,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "bybit",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "bitget",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
-        },
-        {
-          "confidence": 0.161,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "bybit",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "cex",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
           "weight": 16
         }
       ],
@@ -284,6 +277,7 @@
         {
           "center": false,
           "confidence": 0.263,
+          "is_stub": false,
           "name": "SpaceX",
           "observed_at": "2026-06-13",
           "slug": "spacex",
@@ -295,54 +289,41 @@
         },
         {
           "center": false,
-          "confidence": 0.178,
-          "name": "Security",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Equities",
           "observed_at": null,
-          "slug": "security",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "equities",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.172,
-          "name": "Plume",
-          "observed_at": null,
-          "slug": "plume",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.171,
-          "name": "Bitget",
-          "observed_at": null,
-          "slug": "bitget",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.161,
-          "name": "CEX",
-          "observed_at": null,
-          "slug": "cex",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Bitget",
+          "shared_neighbors": 2,
+          "slug": "bitget"
+        },
+        {
+          "is_stub": false,
+          "name": "Equity",
+          "shared_neighbors": 2,
+          "slug": "equity"
+        },
+        {
+          "is_stub": false,
+          "name": "IPO",
+          "shared_neighbors": 2,
+          "slug": "ipo"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T02:42:53.975924+00:00",
@@ -407,8 +388,8 @@
       "source": "https://www.huntress.com/threat-library/data-breach/bybit-cryptocurrency-exchange-data-breach"
     },
     "reader_signal": {
-      "article_count": 93,
-      "as_of": "2026-07-29T22:57:07.489494+00:00",
+      "article_count": 94,
+      "as_of": "2026-07-30T17:59:33.894760+00:00",
       "most_clicked": {
         "clicks": 591,
         "date": "2025-02-21T17:05:29.025003+00:00",
@@ -417,7 +398,7 @@
       },
       "provenance": "data",
       "top_decile_share": 31,
-      "total_clicks": 7617
+      "total_clicks": 7648
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:42:53.975837+00:00",
@@ -502,7 +483,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:57:07.482801+00:00",
+      "as_of": "2026-07-30T17:59:33.889066+00:00",
       "items": [
         {
           "clicks": 69,
@@ -521,6 +502,15 @@
           "lev_url": "https://leviathannews.xyz/227356/bybit-and-bitget-churn-reserves-3-5x-faster-than-coinbase-and-binance-as-top-cex-holdings-hit-225b",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260412221307_Z4zrlaiDPw==.png",
           "url": "https://www.coingecko.com/research/publications/spot-centralized-exchanges-report-2026"
+        },
+        {
+          "clicks": 20,
+          "date": "2026-07-30T10:57:40.844830+00:00",
+          "headline": "Bybit says institutional crypto risk now extends beyond custody, with compliance, governance, reporting and settlement controls becoming essential infrastructure for digital assets",
+          "hot_score": 3022.852176,
+          "lev_url": "https://leviathannews.xyz/284764/a-few-years-ago-institutional-risk-in-digital-assets-was-usually-reduced-to-one-question-where-are-the-assets-held-that-question-still-matters-but-it-is-no-longer-enough-as-in",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260730103824_nqbx80LqfLh7.jpg",
+          "url": "https://x.com/bybit_ins/status/2082765671486857587"
         },
         {
           "clicks": 82,
@@ -566,24 +556,15 @@
           "lev_url": "https://leviathannews.xyz/235105/bybit-uncovers-macos-malware-campaign-targeting-claude-code-searches-using-seo-poisoning-to-steal-crypto-wallet-credentials-and-enable-remote-access",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422162704_XlXmej9i87cL.jpg",
           "url": "https://x.com/i/status/2046920003073560607"
-        },
-        {
-          "clicks": 31,
-          "date": "2026-07-01T14:18:36.998399+00:00",
-          "headline": "Bybit’s bank triparty service unlocks regulated custody, giving institutional investors a smoother path to manage counterparty risk",
-          "hot_score": 766.824424,
-          "lev_url": "https://leviathannews.xyz/266540/bybit-launches-bank-triparty-service-in-partnership-enabling-institutional-investors-to-manage-counterparty-risk-with-regulated-custody",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701135534_Sny2bOD_h3tJ.jpg",
-          "url": "https://www.prnewswire.com/news-releases/bybit-launches-bank-triparty-service-in-partnership-enabling-institutional-investors-to-manage-counterparty-risk-with-regulated-custody-302815793.html"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:57:07.464807+00:00",
+      "as_of": "2026-07-30T17:59:33.871203+00:00",
       "editorial": [
         {
-          "count": 32,
+          "count": 33,
           "source": "x.com"
         },
         {

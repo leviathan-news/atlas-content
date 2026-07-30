@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:03:19.857548+00:00",
+      "as_of": "2026-07-30T18:21:48.124222+00:00",
       "newsroom_total": 6,
       "overall_share": 11,
       "provenance": "data",
@@ -71,92 +71,97 @@
       "universe_total": 48
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:03:19.530596+00:00",
+      "as_of": "2026-07-30T18:21:47.662481+00:00",
       "edges": [
         {
-          "confidence": 0.242,
-          "description": "Co-covered in 4 approved stories; most recently May 2026.",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.342,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "A specialist issuer of crypto exchange‑traded products, 21Shares builds ETFs, ETPs and ETNs that wrap digital assets like Bitcoin, Polkadot, Solana and Hyperliquid’s HYPE token into familiar securities accessible via traditional brokerage and bank accounts.",
           "from": "polkadot",
           "observed_at": "2026-05-08",
-          "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "21shares",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 24
+          "weight": 34
         },
         {
-          "confidence": 0.186,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "polkadot",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "vulnerability",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 19
-        },
-        {
-          "confidence": 0.163,
-          "description": "Co-covered in 11 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "polkadot",
-          "observed_at": null,
-          "phrase": "Co-covered in 11 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "exploit",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "polkadot",
           "observed_at": null,
           "phrase": "Bitcoin",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "bitcoin",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "21shares",
+          "relation_type": null,
+          "role": null,
+          "to": "bitcoin",
+          "verified": false,
+          "weight": 14
         },
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "from": "polkadot",
-          "observed_at": null,
-          "phrase": "infrastructure",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "21shares",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "infrastructure",
+          "role": null,
+          "to": "polkadot",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 34
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "polkadot",
+          "relation_type": null,
+          "role": null,
+          "to": "21shares",
+          "verified": false,
+          "weight": 24
         }
       ],
       "nodes": [
@@ -169,7 +174,8 @@
         },
         {
           "center": false,
-          "confidence": 0.242,
+          "confidence": 0.342,
+          "is_stub": false,
           "name": "21Shares",
           "observed_at": "2026-05-08",
           "slug": "21shares",
@@ -177,35 +183,12 @@
           "tier": "related",
           "verified": false,
           "verified_at": null,
-          "weight": 24
-        },
-        {
-          "center": false,
-          "confidence": 0.186,
-          "name": "vulnerability",
-          "observed_at": null,
-          "slug": "vulnerability",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.163,
-          "name": "Exploit",
-          "observed_at": null,
-          "slug": "exploit",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
+          "weight": 34
         },
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Bitcoin",
           "observed_at": null,
           "slug": "bitcoin",
@@ -214,21 +197,37 @@
           "verified": false,
           "verified_at": null,
           "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Infrastructure",
-          "observed_at": null,
-          "slug": "infrastructure",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "ARK",
+          "shared_neighbors": 2,
+          "slug": "ark"
+        },
+        {
+          "is_stub": false,
+          "name": "ETF",
+          "shared_neighbors": 2,
+          "slug": "etf"
+        },
+        {
+          "is_stub": false,
+          "name": "ETFs",
+          "shared_neighbors": 2,
+          "slug": "etfs"
+        },
+        {
+          "is_stub": false,
+          "name": "Options",
+          "shared_neighbors": 2,
+          "slug": "options"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T09:19:39.863953+00:00",
@@ -294,7 +293,7 @@
     },
     "reader_signal": {
       "article_count": 6,
-      "as_of": "2026-07-29T23:03:20.110662+00:00",
+      "as_of": "2026-07-30T18:21:48.596761+00:00",
       "most_clicked": {
         "clicks": 362,
         "date": "2023-10-18T08:31:12.123520+00:00",
@@ -303,7 +302,7 @@
       },
       "provenance": "data",
       "top_decile_share": 43,
-      "total_clicks": 839
+      "total_clicks": 850
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:19:39.863868+00:00",
@@ -388,13 +387,13 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:03:20.106689+00:00",
+      "as_of": "2026-07-30T18:21:48.591938+00:00",
       "items": [
         {
-          "clicks": 49,
+          "clicks": 56,
           "date": "2026-07-25T10:04:54.784762+00:00",
           "headline": "Polkadot Products Devnet launch is live now.",
-          "hot_score": 1212.1611,
+          "hot_score": 1017.218165,
           "lev_url": "https://leviathannews.xyz/281845/polkadot-products-devnet-launch-is-live-now",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260725075645_s74UKfHgA-t4.jpg",
           "url": "https://x.com/polkadot/status/2080276840443224236"
@@ -418,7 +417,7 @@
           "url": "https://www.dlnews.com/articles/defi/polkadot-workers-told-to-attend-retreat-after-being-laid-off/"
         },
         {
-          "clicks": 231,
+          "clicks": 235,
           "date": "2023-07-14T18:06:35.451406+00:00",
           "headline": "Polkadot to abandon Parachain auctions ",
           "hot_score": 0.0,
@@ -448,7 +447,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:03:20.097346+00:00",
+      "as_of": "2026-07-30T18:21:48.580962+00:00",
       "editorial": [
         {
           "count": 4,

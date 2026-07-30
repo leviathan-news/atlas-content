@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:02:46.785979+00:00",
+      "as_of": "2026-07-30T18:20:57.658385+00:00",
       "newsroom_total": 13,
       "overall_share": 54,
       "provenance": "data",
@@ -95,92 +95,161 @@
       "universe_total": 11
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:02:46.461133+00:00",
+      "as_of": "2026-07-30T18:20:57.437645+00:00",
       "edges": [
         {
-          "confidence": 0.247,
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.347,
+          "curation_status": "observed",
           "description": "Co-covered in 4 approved stories; most recently July 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "ofac",
           "observed_at": "2026-07-15",
           "phrase": "Co-covered in 4 approved stories; most recently July 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "us-treasury",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 25
+          "weight": 35
         },
         {
-          "confidence": 0.206,
-          "description": "Co-covered in 4 approved stories; most recently June 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "ofac",
-          "observed_at": "2026-06-13",
-          "phrase": "Co-covered in 4 approved stories; most recently June 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoins",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 21
-        },
-        {
-          "confidence": 0.162,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "ofac",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "tether",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "ofac",
           "observed_at": null,
           "phrase": "decentralization",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "decentralization",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "ofac",
           "observed_at": null,
           "phrase": "digital assets",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "digital-assets",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "ofac",
+          "observed_at": null,
+          "phrase": "money laundering",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "money-laundering",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "money-laundering",
+          "relation_type": null,
+          "role": null,
+          "to": "us-treasury",
+          "verified": false,
+          "weight": 14
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ofac",
+          "relation_type": null,
+          "role": null,
+          "to": "us-treasury",
+          "verified": false,
+          "weight": 25
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "us-treasury",
+          "relation_type": null,
+          "role": null,
+          "to": "money-laundering",
+          "verified": false,
+          "weight": 14
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "us-treasury",
+          "relation_type": null,
+          "role": null,
+          "to": "ofac",
+          "verified": false,
+          "weight": 35
         }
       ],
       "nodes": [
@@ -193,7 +262,8 @@
         },
         {
           "center": false,
-          "confidence": 0.247,
+          "confidence": 0.347,
+          "is_stub": false,
           "name": "US Treasury",
           "observed_at": "2026-07-15",
           "slug": "us-treasury",
@@ -201,35 +271,12 @@
           "tier": "related",
           "verified": false,
           "verified_at": null,
-          "weight": 25
-        },
-        {
-          "center": false,
-          "confidence": 0.206,
-          "name": "Stablecoins",
-          "observed_at": "2026-06-13",
-          "slug": "stablecoins",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 21
-        },
-        {
-          "center": false,
-          "confidence": 0.162,
-          "name": "Tether",
-          "observed_at": null,
-          "slug": "tether",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
+          "weight": 35
         },
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Decentralization",
           "observed_at": null,
           "slug": "decentralization",
@@ -242,6 +289,7 @@
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Digital Assets",
           "observed_at": null,
           "slug": "digital-assets",
@@ -250,13 +298,48 @@
           "verified": false,
           "verified_at": null,
           "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Money laundering",
+          "observed_at": null,
+          "slug": "money-laundering",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "North Korea",
+          "shared_neighbors": 2,
+          "slug": "north-korea"
+        },
+        {
+          "is_stub": false,
+          "name": "Security",
+          "shared_neighbors": 2,
+          "slug": "security"
+        },
+        {
+          "is_stub": false,
+          "name": "Treasury",
+          "shared_neighbors": 2,
+          "slug": "treasury"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "reader_signal": {
       "article_count": 13,
-      "as_of": "2026-07-29T23:02:47.039062+00:00",
+      "as_of": "2026-07-30T18:20:57.905066+00:00",
       "most_clicked": {
         "clicks": 209,
         "date": "2023-12-09T18:05:58.940755+00:00",
@@ -268,7 +351,7 @@
       "total_clicks": 875
     },
     "significant": {
-      "as_of": "2026-07-29T23:02:47.034326+00:00",
+      "as_of": "2026-07-30T18:20:57.901186+00:00",
       "items": [
         {
           "clicks": 47,
@@ -346,7 +429,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:02:47.025544+00:00",
+      "as_of": "2026-07-30T18:20:57.892442+00:00",
       "editorial": [
         {
           "count": 4,

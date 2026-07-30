@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:06:48.962604+00:00",
+      "as_of": "2026-07-30T18:33:53.401148+00:00",
       "newsroom_total": 29,
-      "overall_share": 54,
+      "overall_share": 53,
       "provenance": "data",
       "series": [
         {
@@ -112,101 +112,43 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 3
+          "universe": 4
         }
       ],
-      "total_universe": 54,
-      "universe_total": 25
+      "total_universe": 55,
+      "universe_total": 26
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:06:48.803597+00:00",
+      "as_of": "2026-07-30T18:33:52.976745+00:00",
       "edges": [
         {
-          "confidence": 0.262,
-          "description": "Co-covered in 8 approved stories; most recently February 2025.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
-          "from": "wsteth",
-          "observed_at": "2025-02-28",
-          "phrase": "Co-covered in 8 approved stories; most recently February 2025.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "fx-protocol",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 26
-        },
-        {
-          "confidence": 0.249,
-          "description": "Co-covered in 11 approved stories; most recently February 2025.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "wsteth",
-          "observed_at": "2025-02-01",
-          "phrase": "Co-covered in 11 approved stories; most recently February 2025.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "lido",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 25
-        },
-        {
-          "confidence": 0.226,
-          "description": "Co-covered in 3 approved stories; most recently April 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "wsteth",
-          "observed_at": "2026-04-03",
-          "phrase": "Co-covered in 3 approved stories; most recently April 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "staking",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 23
-        },
-        {
-          "confidence": 0.214,
-          "description": "Co-covered in 8 approved stories; most recently February 2025.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "wsteth",
-          "observed_at": "2025-02-18",
-          "phrase": "Co-covered in 8 approved stories; most recently February 2025.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "sponsorships",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 21
-        },
-        {
-          "confidence": 0.164,
-          "description": "Co-covered in 11 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "wsteth",
           "observed_at": null,
-          "phrase": "Co-covered in 11 approved stories.",
+          "phrase": "stETH",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "aave",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "steth",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 16
+          "weight": 10
         }
       ],
+      "intra_edges": [],
       "nodes": [
         {
           "center": true,
@@ -217,66 +159,22 @@
         },
         {
           "center": false,
-          "confidence": 0.262,
-          "name": "f(x) Protocol",
-          "observed_at": "2025-02-28",
-          "slug": "fx-protocol",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 26
-        },
-        {
-          "center": false,
-          "confidence": 0.249,
-          "name": "Lido Finance",
-          "observed_at": "2025-02-01",
-          "slug": "lido",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 25
-        },
-        {
-          "center": false,
-          "confidence": 0.226,
-          "name": "Staking",
-          "observed_at": "2026-04-03",
-          "slug": "staking",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 23
-        },
-        {
-          "center": false,
-          "confidence": 0.214,
-          "name": "Sponsorships",
-          "observed_at": "2025-02-18",
-          "slug": "sponsorships",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 21
-        },
-        {
-          "center": false,
-          "confidence": 0.164,
-          "name": "Aave",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "stETH",
           "observed_at": null,
-          "slug": "aave",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "steth",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 16
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 1,
+      "visible_routes": 1
     },
     "event_timeline": {
       "as_of": "2026-06-26T09:10:23.898209+00:00",
@@ -336,7 +234,7 @@
     },
     "reader_signal": {
       "article_count": 29,
-      "as_of": "2026-07-29T23:06:49.129777+00:00",
+      "as_of": "2026-07-30T18:33:53.806990+00:00",
       "most_clicked": {
         "clicks": 294,
         "date": "2026-03-10T21:09:43.642364+00:00",
@@ -345,7 +243,7 @@
       },
       "provenance": "data",
       "top_decile_share": 24,
-      "total_clicks": 2315
+      "total_clicks": 2317
     },
     "reader_threads": {
       "as_of": "2026-06-26T09:10:23.898146+00:00",
@@ -430,7 +328,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:06:49.125926+00:00",
+      "as_of": "2026-07-30T18:33:53.801456+00:00",
       "items": [
         {
           "clicks": 294,
@@ -508,7 +406,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:06:49.116980+00:00",
+      "as_of": "2026-07-30T18:33:53.788773+00:00",
       "editorial": [
         {
           "count": 24,
@@ -539,7 +437,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 20,
+          "count": 21,
           "source": "x.com"
         },
         {

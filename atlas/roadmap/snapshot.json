@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:02:04.219982+00:00",
-      "newsroom_total": 41,
-      "overall_share": 22,
+      "as_of": "2026-07-30T18:25:36.987585+00:00",
+      "newsroom_total": 42,
+      "overall_share": 18,
       "provenance": "data",
       "series": [
         {
@@ -155,63 +155,185 @@
           "month": "2026-06",
           "newsroom": 0,
           "universe": 24
+        },
+        {
+          "ed_share": 2,
+          "month": "2026-07",
+          "newsroom": 1,
+          "universe": 40
         }
       ],
-      "total_universe": 190,
-      "universe_total": 149
+      "total_universe": 231,
+      "universe_total": 189
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:02:03.856759+00:00",
+      "as_of": "2026-07-30T18:25:36.714422+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "Yearn's product roadmap centers on new cross-chain vaults like yvUSD, its Curve and Convex integrations, and an emerging institutional stack.",
           "from": "roadmap",
-          "phrase": "Scaling is a broader category that roadmaps often address.",
-          "relation_type": "category",
-          "source": "draft_relation",
+          "observed_at": "2026-07-30",
+          "phrase": "Mentioned in this territory's explainer.",
+          "relation_type": null,
+          "role": null,
+          "source": "observed_relation",
           "tier": "related",
-          "to": "scaling",
-          "weight": 19
+          "to": "yearn",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 70
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "roadmap",
-          "phrase": "Security is a category often included in roadmaps.",
-          "relation_type": "category",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "security",
-          "weight": 19
-        },
-        {
-          "dir": "out",
-          "from": "roadmap",
-          "phrase": "Agents are a category that may appear in roadmaps.",
-          "relation_type": "category",
-          "source": "draft_relation",
-          "tier": "related",
+          "observed_at": null,
+          "phrase": "agents",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "agents",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "roadmap",
+          "observed_at": null,
+          "phrase": "AI agents",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "ai-agents",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "roadmap",
+          "observed_at": null,
+          "phrase": "quantum",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "quantum",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "agents",
+          "relation_type": null,
+          "role": null,
+          "to": "ai-agents",
+          "verified": false,
+          "weight": 37
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ai-agents",
+          "relation_type": null,
+          "role": null,
+          "to": "agents",
+          "verified": false,
+          "weight": 47
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "roadmap",
+          "relation_type": null,
+          "role": null,
+          "to": "agents",
+          "verified": false,
           "weight": 18
         },
         {
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "roadmap",
-          "phrase": "FRAX is a project with its own roadmap, comparable.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "frax",
+          "relation_type": null,
+          "role": null,
+          "to": "ai-agents",
+          "verified": false,
           "weight": 17
         },
         {
-          "dir": "out",
-          "from": "roadmap",
-          "phrase": "AI Agents are a category that roadmaps may cover.",
-          "relation_type": "category",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "ai-agents",
-          "weight": 17
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "yearn",
+          "relation_type": null,
+          "role": null,
+          "to": "roadmap",
+          "verified": false,
+          "weight": 70
         }
       ],
       "nodes": [
@@ -224,46 +346,86 @@
         },
         {
           "center": false,
-          "name": "Scaling",
-          "slug": "scaling",
-          "source": "draft_relation",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Yearn",
+          "observed_at": "2026-07-30",
+          "slug": "yearn",
+          "source": "observed_relation",
           "tier": "related",
-          "weight": 19
+          "verified": false,
+          "verified_at": null,
+          "weight": 70
         },
         {
           "center": false,
-          "name": "Security",
-          "slug": "security",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 19
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "agents",
+          "observed_at": null,
           "slug": "agents",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "FRAX",
-          "slug": "frax",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "AI Agents",
+          "observed_at": null,
           "slug": "ai-agents",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "quantum",
+          "observed_at": null,
+          "slug": "quantum",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 3,
+          "slug": "infrastructure"
+        },
+        {
+          "is_stub": false,
+          "name": "Agent",
+          "shared_neighbors": 2,
+          "slug": "agent"
+        },
+        {
+          "is_stub": false,
+          "name": "Agentic AI",
+          "shared_neighbors": 2,
+          "slug": "agentic-ai"
+        },
+        {
+          "is_stub": false,
+          "name": "AI",
+          "shared_neighbors": 2,
+          "slug": "ai"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-26T05:06:09.377441+00:00",
@@ -328,17 +490,17 @@
       "source": "https://ethereum.org/roadmap/"
     },
     "reader_signal": {
-      "article_count": 41,
-      "as_of": "2026-07-01T12:02:04.742631+00:00",
+      "article_count": 42,
+      "as_of": "2026-07-30T18:25:37.525950+00:00",
       "most_clicked": {
-        "clicks": 243,
+        "clicks": 244,
         "date": "2025-04-11T01:48:37.932136+00:00",
         "headline": "Vitalik publishes his current privacy roadmap, shares pcaversaccio's post on X from yesterday as well and encourages the public to read both visions",
         "lev_url": "https://leviathannews.xyz/10512/vitalik-publishes-his-current-privacy-roadmap-shares-pcaversaccios-post-on-x-from-yesterday-as-well-and-encourages-the-public-to-read-both-visions"
       },
       "provenance": "data",
-      "top_decile_share": 25,
-      "total_clicks": 3697
+      "top_decile_share": 24,
+      "total_clicks": 3755
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:06:09.377329+00:00",
@@ -423,8 +585,17 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:02:04.666689+00:00",
+      "as_of": "2026-07-30T18:25:37.519775+00:00",
       "items": [
+        {
+          "clicks": 39,
+          "date": "2026-07-09T21:43:24.041525+00:00",
+          "headline": "Brave plans BAT buybacks tied to BravePay, Wallet, and Rewards Card revenue in Roadmap 4.0",
+          "hot_score": 431.197962,
+          "lev_url": "https://leviathannews.xyz/272151/brave-plans-bat-buybacks-tied-to-bravepay-wallet-and-rewards-card-revenue-in-roadmap-40",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260709164312_Z4zrlaiDPw==.png",
+          "url": "https://brave.com/blog/bat-roadmap-4-0/"
+        },
         {
           "clicks": 79,
           "date": "2026-02-25T22:01:34.379964+00:00",
@@ -444,7 +615,7 @@
           "url": "https://x.com/i/status/2004925868230222193"
         },
         {
-          "clicks": 43,
+          "clicks": 45,
           "date": "2025-12-15T09:01:43.978680+00:00",
           "headline": "Curve Finance founder Michael Egorov has proposed a $6.6M CRV grant (17.45M CRV) to fund long-term ecosystem development. The funds would go to Swiss Stake AG to support its 2026 roadmap, including Llamalend upgrades, infrastructure, security, and continued R&D, with biannual transparency reports and open-source commitments.",
           "hot_score": 57.885143,
@@ -471,7 +642,7 @@
           "url": "https://x.com/CoinbaseMarkets/status/1999622324383858752"
         },
         {
-          "clicks": 243,
+          "clicks": 244,
           "date": "2025-04-11T01:48:37.932136+00:00",
           "headline": "Vitalik publishes his current privacy roadmap, shares pcaversaccio's post on X from yesterday as well and encourages the public to read both visions",
           "hot_score": 0.0,
@@ -480,28 +651,19 @@
           "url": "https://ethereum-magicians.org/t/a-maximally-simple-l1-privacy-roadmap/23459"
         },
         {
-          "clicks": 224,
+          "clicks": 226,
           "date": "2024-05-10T15:04:01.937156+00:00",
           "headline": "The roadmap and unified vision for Ethena in the coming months.",
           "hot_score": 0.0,
           "lev_url": "https://leviathannews.xyz/5295/the-roadmap-and-unified-vision-for-ethena-in-the-coming-months",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20240510144016_CBXcAfo5IA==.png",
           "url": "https://mirror.xyz/0x29a99F7Fe080F72223dAd48D5E1E86670a984326/odrjQynMr3PrtRhCzHa2k7tcdNIpibJLyRe7yXY944Q"
-        },
-        {
-          "clicks": 223,
-          "date": "2023-05-11T22:19:58.281328+00:00",
-          "headline": "MakerDAO has published a detailed roadmap for its five-phase Endgame plan that will lead to the introduction of a new blockchain.",
-          "hot_score": 0.0,
-          "lev_url": "https://leviathannews.xyz/961/makerdao-has-published-a-detailed-roadmap-for-its-five-phase-endgame-plan-that-will-lead-to-the-introduction-of-a-new-blockchain",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260622195225_brand.png",
-          "url": "https://www.theblock.co/post/230518/makerdao-roadmap-endgame-update"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:02:04.582120+00:00",
+      "as_of": "2026-07-30T18:25:37.504751+00:00",
       "editorial": [
         {
           "count": 23,
@@ -552,16 +714,20 @@
           "source": "reuters.com"
         }
       ],
-      "editorial_distinct": 15,
+      "editorial_distinct": 16,
       "provenance": "data",
       "universe": [
         {
-          "count": 112,
+          "count": 143,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 10,
           "source": "cointelegraph.com"
+        },
+        {
+          "count": 4,
+          "source": "theblock.co"
         },
         {
           "count": 3,
@@ -585,10 +751,6 @@
         },
         {
           "count": 2,
-          "source": "theblock.co"
-        },
-        {
-          "count": 2,
           "source": "blog.kaia.io"
         },
         {
@@ -604,7 +766,7 @@
           "source": "aztec.network"
         }
       ],
-      "universe_distinct": 20
+      "universe_distinct": 26
     }
   },
   "official_links": [],

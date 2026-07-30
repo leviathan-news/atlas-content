@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:04:40.221105+00:00",
+      "as_of": "2026-07-30T18:27:07.598729+00:00",
       "newsroom_total": 69,
       "overall_share": 100,
       "provenance": "data",
@@ -101,92 +101,85 @@
       "universe_total": 0
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:04:39.721300+00:00",
+      "as_of": "2026-07-30T18:27:07.354682+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.285,
-          "description": "Co-covered in 4 approved stories; most recently April 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "This has overlapped with the use of Squid Pass credentials and related tools in some RAAC-aligned communities, connecting access to RAAC content, events, or rewards with broader on-chain media and reputation systems.",
           "from": "squid-pass",
           "observed_at": "2026-04-15",
-          "phrase": "Co-covered in 4 approved stories; most recently April 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "raac",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 28
         },
         {
-          "confidence": 0.193,
-          "description": "Co-covered in 7 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "squid-pass",
           "observed_at": null,
-          "phrase": "Co-covered in 7 approved stories.",
+          "phrase": "advertising",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "decentralization",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "advertising",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 19
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "raac",
+          "relation_type": null,
+          "role": null,
+          "to": "squid-pass",
+          "verified": false,
+          "weight": 28
         },
         {
-          "confidence": 0.171,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "squid-pass",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "yearn",
+          "role": null,
+          "to": "raac",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
-        },
-        {
-          "confidence": 0.128,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "squid-pass",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "telegram",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 13
-        },
-        {
-          "confidence": 0.123,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "squid-pass",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "gold",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 12
+          "weight": 28
         }
       ],
       "nodes": [
@@ -200,6 +193,7 @@
         {
           "center": false,
           "confidence": 0.285,
+          "is_stub": false,
           "name": "RAAC",
           "observed_at": "2026-04-15",
           "slug": "raac",
@@ -211,54 +205,47 @@
         },
         {
           "center": false,
-          "confidence": 0.193,
-          "name": "Decentralization",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Advertising",
           "observed_at": null,
-          "slug": "decentralization",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "advertising",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.171,
-          "name": "Yearn",
-          "observed_at": null,
-          "slug": "yearn",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.128,
-          "name": "Telegram",
-          "observed_at": null,
-          "slug": "telegram",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 13
-        },
-        {
-          "center": false,
-          "confidence": 0.123,
-          "name": "Gold",
-          "observed_at": null,
-          "slug": "gold",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 12
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Auction",
+          "shared_neighbors": 2,
+          "slug": "auction"
+        },
+        {
+          "is_stub": false,
+          "name": "Gold",
+          "shared_neighbors": 2,
+          "slug": "gold"
+        },
+        {
+          "is_stub": false,
+          "name": "Leviathan",
+          "shared_neighbors": 2,
+          "slug": "leviathan"
+        },
+        {
+          "is_stub": false,
+          "name": "SQUID",
+          "shared_neighbors": 2,
+          "slug": "squid"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T06:50:35.851115+00:00",
@@ -312,7 +299,7 @@
     },
     "reader_signal": {
       "article_count": 69,
-      "as_of": "2026-07-29T23:04:40.683583+00:00",
+      "as_of": "2026-07-30T18:27:07.902529+00:00",
       "most_clicked": {
         "clicks": 674,
         "date": "2025-03-24T17:15:56.696386+00:00",
@@ -321,7 +308,7 @@
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 12030
+      "total_clicks": 12035
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:50:35.851009+00:00",
@@ -406,7 +393,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:04:40.674740+00:00",
+      "as_of": "2026-07-30T18:27:07.895622+00:00",
       "items": [
         {
           "clicks": 254,
@@ -484,7 +471,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:04:40.659769+00:00",
+      "as_of": "2026-07-30T18:27:07.879586+00:00",
       "editorial": [
         {
           "count": 26,

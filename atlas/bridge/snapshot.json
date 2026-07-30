@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:56:58.015170+00:00",
+      "as_of": "2026-07-30T17:59:22.814455+00:00",
       "newsroom_total": 8,
       "overall_share": 100,
       "provenance": "data",
@@ -53,92 +53,161 @@
       "universe_total": 0
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:56:57.798691+00:00",
+      "as_of": "2026-07-30T17:59:22.590338+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.413,
-          "description": "Co-covered in 9 approved stories; most recently April 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Stripe’s stablecoin infrastructure arm, Bridge, is a developer-focused platform that lets businesses receive, store, convert, issue, and spend stablecoins through a single API while Bridge handles on-chain operations, compliance, and treasury management behind the scenes.",
           "from": "bridge",
           "observed_at": "2026-04-09",
-          "phrase": "Co-covered in 9 approved stories; most recently April 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "stripe",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 41
         },
         {
-          "confidence": 0.205,
-          "description": "Co-covered in 5 approved stories; most recently July 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "bridge",
-          "observed_at": "2026-07-03",
-          "phrase": "Co-covered in 5 approved stories; most recently July 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoins",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 20
-        },
-        {
-          "confidence": 0.149,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "bridge",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "payments",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 15
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "bridge",
           "observed_at": null,
           "phrase": "compliance",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "compliance",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "bridge",
           "observed_at": null,
           "phrase": "fintech",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "fintech",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "bridge",
+          "observed_at": null,
+          "phrase": "stablecoin infrastructure",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "stablecoin-infrastructure",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "bridge",
+          "relation_type": null,
+          "role": null,
+          "to": "stripe",
+          "verified": false,
+          "weight": 41
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "fintech",
+          "relation_type": null,
+          "role": null,
+          "to": "stripe",
+          "verified": false,
+          "weight": 18
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "stripe",
+          "relation_type": null,
+          "role": null,
+          "to": "bridge",
+          "verified": false,
+          "weight": 31
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "stripe",
+          "relation_type": null,
+          "role": null,
+          "to": "fintech",
+          "verified": false,
+          "weight": 18
         }
       ],
       "nodes": [
@@ -152,6 +221,7 @@
         {
           "center": false,
           "confidence": 0.413,
+          "is_stub": false,
           "name": "Stripe",
           "observed_at": "2026-04-09",
           "slug": "stripe",
@@ -163,31 +233,8 @@
         },
         {
           "center": false,
-          "confidence": 0.205,
-          "name": "Stablecoins",
-          "observed_at": "2026-07-03",
-          "slug": "stablecoins",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 20
-        },
-        {
-          "center": false,
-          "confidence": 0.149,
-          "name": "Payments",
-          "observed_at": null,
-          "slug": "payments",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 15
-        },
-        {
-          "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "compliance",
           "observed_at": null,
           "slug": "compliance",
@@ -200,6 +247,7 @@
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Fintech",
           "observed_at": null,
           "slug": "fintech",
@@ -208,13 +256,54 @@
           "verified": false,
           "verified_at": null,
           "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Stablecoin Infrastructure",
+          "observed_at": null,
+          "slug": "stablecoin-infrastructure",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Payments",
+          "shared_neighbors": 4,
+          "slug": "payments"
+        },
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 3,
+          "slug": "infrastructure"
+        },
+        {
+          "is_stub": false,
+          "name": "Stablecoins",
+          "shared_neighbors": 3,
+          "slug": "stablecoins"
+        },
+        {
+          "is_stub": false,
+          "name": "Mastercard",
+          "shared_neighbors": 2,
+          "slug": "mastercard"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "reader_signal": {
       "article_count": 8,
-      "as_of": "2026-07-29T22:56:58.227662+00:00",
+      "as_of": "2026-07-30T17:59:23.149251+00:00",
       "most_clicked": {
         "clicks": 115,
         "date": "2024-10-21T12:29:24.442423+00:00",
@@ -226,7 +315,7 @@
       "total_clicks": 477
     },
     "significant": {
-      "as_of": "2026-07-29T22:56:58.223752+00:00",
+      "as_of": "2026-07-30T17:59:23.143099+00:00",
       "items": [
         {
           "clicks": 48,
@@ -304,7 +393,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:56:58.214816+00:00",
+      "as_of": "2026-07-30T17:59:23.128540+00:00",
       "editorial": [
         {
           "count": 3,

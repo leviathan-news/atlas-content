@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:05:28.481585+00:00",
+      "as_of": "2026-07-30T18:31:42.342626+00:00",
       "newsroom_total": 20,
       "overall_share": 17,
       "provenance": "data",
@@ -95,92 +95,111 @@
       "universe_total": 99
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:05:28.271748+00:00",
+      "as_of": "2026-07-30T18:31:41.851575+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.337,
-          "description": "Co-covered in 8 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "A cross-chain liquidity protocol built as its own layer 1 blockchain, THORChain enables users to swap native assets like Bitcoin, Ethereum, and Monero directly between chains without custodians, wrapped tokens, or KYC.",
           "from": "thorchain",
           "observed_at": "2026-07-01",
-          "phrase": "Co-covered in 8 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "monero",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 34
         },
         {
-          "confidence": 0.202,
-          "description": "Co-covered in 3 approved stories; most recently May 2026.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
-          "from": "thorchain",
-          "observed_at": "2026-05-22",
-          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidity",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 20
-        },
-        {
-          "confidence": 0.152,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "thorchain",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "Bitcoin",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "milestone",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "bitcoin",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 15
+          "weight": 10
         },
         {
-          "confidence": 0.151,
-          "description": "Co-covered in 13 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "thorchain",
           "observed_at": null,
-          "phrase": "Co-covered in 13 approved stories.",
+          "phrase": "layer 1",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "exploit",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "layer-1",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 15
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "monero",
+          "relation_type": null,
+          "role": null,
+          "to": "thorchain",
+          "verified": false,
+          "weight": 24
         },
         {
-          "confidence": 0.14,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "thorchain",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "security-risk",
+          "role": null,
+          "to": "monero",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 14
+          "weight": 34
         }
       ],
       "nodes": [
@@ -194,6 +213,7 @@
         {
           "center": false,
           "confidence": 0.337,
+          "is_stub": false,
           "name": "Monero",
           "observed_at": "2026-07-01",
           "slug": "monero",
@@ -205,54 +225,48 @@
         },
         {
           "center": false,
-          "confidence": 0.202,
-          "name": "Liquidity",
-          "observed_at": "2026-05-22",
-          "slug": "liquidity",
-          "source": "observed_relation",
-          "tier": "related",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Bitcoin",
+          "observed_at": null,
+          "slug": "bitcoin",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 20
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.152,
-          "name": "Milestone",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Layer 1",
           "observed_at": null,
-          "slug": "milestone",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "layer-1",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 15
-        },
-        {
-          "center": false,
-          "confidence": 0.151,
-          "name": "Exploit",
-          "observed_at": null,
-          "slug": "exploit",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 15
-        },
-        {
-          "center": false,
-          "confidence": 0.14,
-          "name": "Security Risk",
-          "observed_at": null,
-          "slug": "security-risk",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 14
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "DOGE",
+          "shared_neighbors": 2,
+          "slug": "doge"
+        },
+        {
+          "is_stub": false,
+          "name": "Mining",
+          "shared_neighbors": 2,
+          "slug": "mining"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T05:56:46.659313+00:00",
@@ -318,7 +332,7 @@
     },
     "reader_signal": {
       "article_count": 20,
-      "as_of": "2026-07-29T23:05:28.722373+00:00",
+      "as_of": "2026-07-30T18:31:42.785005+00:00",
       "most_clicked": {
         "clicks": 298,
         "date": "2025-04-24T23:09:45.874585+00:00",
@@ -412,7 +426,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:05:28.717736+00:00",
+      "as_of": "2026-07-30T18:31:42.779043+00:00",
       "items": [
         {
           "clicks": 28,
@@ -490,7 +504,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:05:28.705459+00:00",
+      "as_of": "2026-07-30T18:31:42.765572+00:00",
       "editorial": [
         {
           "count": 7,

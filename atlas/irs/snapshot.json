@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:00:08.411939+00:00",
+      "as_of": "2026-07-30T18:14:40.893477+00:00",
       "newsroom_total": 36,
       "overall_share": 2,
       "provenance": "data",
@@ -142,99 +142,144 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 523
+          "universe": 536
         }
       ],
-      "total_universe": 2256,
-      "universe_total": 2220
+      "total_universe": 2269,
+      "universe_total": 2233
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:00:08.095621+00:00",
+      "as_of": "2026-07-30T18:14:40.683491+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.248,
+          "curation_status": "observed",
           "description": "Co-covered in 31 approved stories; most recently July 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "irs",
           "observed_at": "2026-07-01",
           "phrase": "Co-covered in 31 approved stories; most recently July 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "crypto-taxes",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 25
         },
         {
-          "confidence": 0.137,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "irs",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "compliance",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 14
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "irs",
           "observed_at": null,
           "phrase": "digital assets",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "digital-assets",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
-          "from": "irs",
-          "observed_at": null,
-          "phrase": "fees",
-          "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "fees",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
-        },
-        {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "irs",
           "observed_at": null,
           "phrase": "legal",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "legal",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "irs",
+          "observed_at": null,
+          "phrase": "mining",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "mining",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "crypto-taxes",
+          "relation_type": null,
+          "role": null,
+          "to": "irs",
+          "verified": false,
+          "weight": 25
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "irs",
+          "relation_type": null,
+          "role": null,
+          "to": "crypto-taxes",
+          "verified": false,
+          "weight": 25
         }
       ],
       "nodes": [
@@ -248,6 +293,7 @@
         {
           "center": false,
           "confidence": 0.248,
+          "is_stub": false,
           "name": "Crypto Taxes",
           "observed_at": "2026-07-01",
           "slug": "crypto-taxes",
@@ -259,19 +305,8 @@
         },
         {
           "center": false,
-          "confidence": 0.137,
-          "name": "compliance",
-          "observed_at": null,
-          "slug": "compliance",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 14
-        },
-        {
-          "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Digital Assets",
           "observed_at": null,
           "slug": "digital-assets",
@@ -284,9 +319,10 @@
         {
           "center": false,
           "confidence": 0.0,
-          "name": "Fees",
+          "is_stub": false,
+          "name": "legal",
           "observed_at": null,
-          "slug": "fees",
+          "slug": "legal",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -296,9 +332,10 @@
         {
           "center": false,
           "confidence": 0.0,
-          "name": "legal",
+          "is_stub": false,
+          "name": "Mining",
           "observed_at": null,
-          "slug": "legal",
+          "slug": "mining",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -306,7 +343,29 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "compliance",
+          "shared_neighbors": 2,
+          "slug": "compliance"
+        },
+        {
+          "is_stub": false,
+          "name": "Regulation",
+          "shared_neighbors": 2,
+          "slug": "regulation"
+        },
+        {
+          "is_stub": false,
+          "name": "Rewards",
+          "shared_neighbors": 2,
+          "slug": "rewards"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-26T07:16:58.474118+00:00",
@@ -372,7 +431,7 @@
     },
     "reader_signal": {
       "article_count": 36,
-      "as_of": "2026-07-29T23:00:09.075578+00:00",
+      "as_of": "2026-07-30T18:14:41.312233+00:00",
       "most_clicked": {
         "clicks": 244,
         "date": "2024-01-02T19:12:17.105422+00:00",
@@ -381,7 +440,7 @@
       },
       "provenance": "data",
       "top_decile_share": 24,
-      "total_clicks": 2483
+      "total_clicks": 2484
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:16:58.473989+00:00",
@@ -454,7 +513,7 @@
       "total": 4
     },
     "significant": {
-      "as_of": "2026-07-29T23:00:09.069294+00:00",
+      "as_of": "2026-07-30T18:14:41.307324+00:00",
       "items": [
         {
           "clicks": 97,
@@ -532,7 +591,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:00:09.044500+00:00",
+      "as_of": "2026-07-30T18:14:41.294145+00:00",
       "editorial": [
         {
           "count": 8,

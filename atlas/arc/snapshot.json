@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:56:08.392313+00:00",
+      "as_of": "2026-07-30T17:58:06.592649+00:00",
       "newsroom_total": 26,
       "overall_share": 1,
       "provenance": "data",
@@ -70,99 +70,130 @@
           "ed_share": 1,
           "month": "2026-07",
           "newsroom": 3,
-          "universe": 345
+          "universe": 355
         }
       ],
-      "total_universe": 1989,
-      "universe_total": 1963
+      "total_universe": 1999,
+      "universe_total": 1973
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:56:08.103493+00:00",
+      "as_of": "2026-07-30T17:58:06.369406+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.344,
-          "description": "Co-covered in 39 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Arc is a public, EVM‑compatible layer‑1 blockchain developed by Circle and purpose‑built for stablecoin finance, positioning itself as an “economic operating system” for digital dollars, global payments, FX, credit, and capital markets.",
           "from": "arc",
           "observed_at": "2026-07-27",
-          "phrase": "Co-covered in 39 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "circle",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 34
         },
         {
-          "confidence": 0.247,
-          "description": "Co-covered in 45 approved stories; most recently July 2026.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
-          "from": "arc",
-          "observed_at": "2026-07-27",
-          "phrase": "Co-covered in 45 approved stories; most recently July 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "usdc",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 25
-        },
-        {
-          "confidence": 0.197,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "arc",
           "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
+          "phrase": "fiat",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "testnet",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "fiat",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 20
+          "weight": 10
         },
         {
-          "confidence": 0.195,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "arc",
           "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
+          "phrase": "payments",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "valuation",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "payments",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 19
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "arc",
+          "relation_type": null,
+          "role": null,
+          "to": "circle",
+          "verified": false,
+          "weight": 34
         },
         {
-          "confidence": 0.164,
-          "description": "Co-covered in 8 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "arc",
-          "observed_at": null,
-          "phrase": "Co-covered in 8 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "circle",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoins",
+          "role": null,
+          "to": "arc",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
+          "weight": 24
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "circle",
+          "relation_type": null,
+          "role": null,
+          "to": "payments",
+          "verified": false,
+          "weight": 17
         }
       ],
       "nodes": [
@@ -176,6 +207,7 @@
         {
           "center": false,
           "confidence": 0.344,
+          "is_stub": false,
           "name": "Circle",
           "observed_at": "2026-07-27",
           "slug": "circle",
@@ -187,54 +219,60 @@
         },
         {
           "center": false,
-          "confidence": 0.247,
-          "name": "USDC",
-          "observed_at": "2026-07-27",
-          "slug": "usdc",
-          "source": "observed_relation",
-          "tier": "related",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Fiat",
+          "observed_at": null,
+          "slug": "fiat",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 25
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.197,
-          "name": "Testnet",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Payments",
           "observed_at": null,
-          "slug": "testnet",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "payments",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 20
-        },
-        {
-          "center": false,
-          "confidence": 0.195,
-          "name": "Valuation",
-          "observed_at": null,
-          "slug": "valuation",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.164,
-          "name": "Stablecoins",
-          "observed_at": null,
-          "slug": "stablecoins",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "USDC",
+          "shared_neighbors": 3,
+          "slug": "usdc"
+        },
+        {
+          "is_stub": false,
+          "name": "Alchemy",
+          "shared_neighbors": 2,
+          "slug": "alchemy"
+        },
+        {
+          "is_stub": false,
+          "name": "Crypto Payment",
+          "shared_neighbors": 2,
+          "slug": "crypto-payment"
+        },
+        {
+          "is_stub": false,
+          "name": "Mastercard",
+          "shared_neighbors": 2,
+          "slug": "mastercard"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T08:08:00.524161+00:00",
@@ -300,7 +338,7 @@
     },
     "reader_signal": {
       "article_count": 28,
-      "as_of": "2026-07-29T22:56:08.847161+00:00",
+      "as_of": "2026-07-30T17:58:07.064650+00:00",
       "most_clicked": {
         "clicks": 85,
         "date": "2026-04-04T07:58:05.603608+00:00",
@@ -309,7 +347,7 @@
       },
       "provenance": "data",
       "top_decile_share": 13,
-      "total_clicks": 1204
+      "total_clicks": 1206
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:08:00.524022+00:00",
@@ -394,7 +432,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:56:08.843076+00:00",
+      "as_of": "2026-07-30T17:58:07.057179+00:00",
       "items": [
         {
           "clicks": 30,
@@ -409,7 +447,7 @@
           "clicks": 44,
           "date": "2026-07-26T20:10:56.527006+00:00",
           "headline": "Unofficial Arc bridge lets anonymous owner sweep $490K USDC reserve from unverified vault",
-          "hot_score": 1159.482269,
+          "hot_score": 957.413501,
           "lev_url": "https://leviathannews.xyz/282179/unofficial-arc-bridge-lets-anonymous-owner-sweep-490k-usdc-reserve-from-unverified-vault",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726174921_Z4zrlaiDPw==.png",
           "url": "https://x.com/panchu2605/status/2081271886038901193"
@@ -472,7 +510,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:56:08.830338+00:00",
+      "as_of": "2026-07-30T17:58:07.046888+00:00",
       "editorial": [
         {
           "count": 17,

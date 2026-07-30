@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:58:40.003125+00:00",
+      "as_of": "2026-07-30T18:08:50.321311+00:00",
       "newsroom_total": 8,
-      "overall_share": 18,
+      "overall_share": 17,
       "provenance": "data",
       "series": [
         {
@@ -76,99 +76,144 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 8
+          "universe": 10
         }
       ],
-      "total_universe": 45,
-      "universe_total": 37
+      "total_universe": 47,
+      "universe_total": 39
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:58:39.692967+00:00",
+      "as_of": "2026-07-30T18:08:49.909529+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.391,
-          "description": "Co-covered in 7 approved stories; most recently May 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "This explainer disentangles those overlapping meanings, traces how Echo-branded projects fit into Bitcoin, Monad, and onchain markets, and examines what the recent Echo Protocol exploit reveals about the risks of admin keys, cross‑chain wrapped BTC, and reflexive crypto ecosystems.",
           "from": "echo",
           "observed_at": "2026-05-19",
-          "phrase": "Co-covered in 7 approved stories; most recently May 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "monad",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 39
         },
         {
-          "confidence": 0.158,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "echo",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "exploit",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "echo",
           "observed_at": null,
           "phrase": "Bitcoin",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "bitcoin",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "echo",
           "observed_at": null,
           "phrase": "Coinbase",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "coinbase",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "echo",
           "observed_at": null,
           "phrase": "digital assets",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "digital-assets",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "echo",
+          "relation_type": null,
+          "role": null,
+          "to": "monad",
+          "verified": false,
+          "weight": 39
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "monad",
+          "relation_type": null,
+          "role": null,
+          "to": "echo",
+          "verified": false,
+          "weight": 29
         }
       ],
       "nodes": [
@@ -182,6 +227,7 @@
         {
           "center": false,
           "confidence": 0.391,
+          "is_stub": false,
           "name": "Monad",
           "observed_at": "2026-05-19",
           "slug": "monad",
@@ -193,19 +239,8 @@
         },
         {
           "center": false,
-          "confidence": 0.158,
-          "name": "Exploit",
-          "observed_at": null,
-          "slug": "exploit",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
-        },
-        {
-          "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Bitcoin",
           "observed_at": null,
           "slug": "bitcoin",
@@ -218,6 +253,7 @@
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Coinbase",
           "observed_at": null,
           "slug": "coinbase",
@@ -230,6 +266,7 @@
         {
           "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Digital Assets",
           "observed_at": null,
           "slug": "digital-assets",
@@ -240,7 +277,35 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Brian Armstrong",
+          "shared_neighbors": 2,
+          "slug": "brian-armstrong"
+        },
+        {
+          "is_stub": false,
+          "name": "Coinbase Prime",
+          "shared_neighbors": 2,
+          "slug": "coinbase-prime"
+        },
+        {
+          "is_stub": false,
+          "name": "Crypto",
+          "shared_neighbors": 2,
+          "slug": "crypto"
+        },
+        {
+          "is_stub": false,
+          "name": "Investment",
+          "shared_neighbors": 2,
+          "slug": "investment"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-26T11:54:31.800649+00:00",
@@ -300,7 +365,7 @@
     },
     "reader_signal": {
       "article_count": 8,
-      "as_of": "2026-07-29T22:58:40.407233+00:00",
+      "as_of": "2026-07-30T18:08:50.631589+00:00",
       "most_clicked": {
         "clicks": 457,
         "date": "2025-01-16T17:20:33.681918+00:00",
@@ -388,7 +453,7 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-29T22:58:40.403074+00:00",
+      "as_of": "2026-07-30T18:08:50.627431+00:00",
       "items": [
         {
           "clicks": 39,
@@ -466,7 +531,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:58:40.393122+00:00",
+      "as_of": "2026-07-30T18:08:50.617886+00:00",
       "editorial": [
         {
           "count": 3,
@@ -497,7 +562,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 21,
+          "count": 23,
           "source": "x.com"
         },
         {

@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:02:56.651817+00:00",
+      "as_of": "2026-07-30T18:21:13.760294+00:00",
       "newsroom_total": 23,
       "overall_share": 21,
       "provenance": "data",
@@ -47,92 +47,245 @@
       "universe_total": 88
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:02:56.422997+00:00",
+      "as_of": "2026-07-30T18:21:13.198486+00:00",
       "edges": [
         {
-          "confidence": 0.264,
-          "description": "Observed together in Leviathan's approved coverage.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "openclaw",
-          "observed_at": null,
-          "phrase": "Observed together in Leviathan's approved coverage.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "agent",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 26
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.22,
+          "curation_status": "observed",
           "description": "Co-covered in 5 approved stories; most recently May 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "openclaw",
           "observed_at": "2026-05-21",
           "phrase": "Co-covered in 5 approved stories; most recently May 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "llm",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 22
         },
         {
-          "confidence": 0.195,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "openclaw",
           "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
+          "phrase": "agent",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "agent",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "openclaw",
+          "observed_at": null,
+          "phrase": "agents",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "agents",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "openclaw",
+          "observed_at": null,
+          "phrase": "wallets",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "wallets",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "agent",
+          "relation_type": null,
+          "role": null,
           "to": "agents",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
+          "weight": 29
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "agent",
+          "relation_type": null,
+          "role": null,
+          "to": "llm",
+          "verified": false,
+          "weight": 15
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "agent",
+          "relation_type": null,
+          "role": null,
+          "to": "openclaw",
+          "verified": false,
+          "weight": 16
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "agents",
+          "relation_type": null,
+          "role": null,
+          "to": "agent",
+          "verified": false,
+          "weight": 29
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "llm",
+          "relation_type": null,
+          "role": null,
+          "to": "agent",
+          "verified": false,
+          "weight": 15
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "llm",
+          "relation_type": null,
+          "role": null,
+          "to": "agents",
+          "verified": false,
+          "weight": 21
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "llm",
+          "relation_type": null,
+          "role": null,
+          "to": "openclaw",
+          "verified": false,
+          "weight": 22
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "openclaw",
+          "relation_type": null,
+          "role": null,
+          "to": "agent",
+          "verified": false,
+          "weight": 26
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "openclaw",
+          "relation_type": null,
+          "role": null,
+          "to": "agents",
+          "verified": false,
           "weight": 19
         },
         {
-          "confidence": 0.188,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "openclaw",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "memory",
+          "role": null,
+          "to": "llm",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 19
+          "weight": 22
         },
         {
-          "confidence": 0.179,
-          "description": "Co-covered in 10 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "openclaw",
-          "observed_at": null,
-          "phrase": "Co-covered in 10 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "wallets",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "claude",
+          "role": null,
+          "to": "agents",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
+          "weight": 20
         }
       ],
       "nodes": [
@@ -145,19 +298,8 @@
         },
         {
           "center": false,
-          "confidence": 0.264,
-          "name": "Agent",
-          "observed_at": null,
-          "slug": "agent",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 26
-        },
-        {
-          "center": false,
           "confidence": 0.22,
+          "is_stub": false,
           "name": "LLM",
           "observed_at": "2026-05-21",
           "slug": "llm",
@@ -169,42 +311,73 @@
         },
         {
           "center": false,
-          "confidence": 0.195,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Agent",
+          "observed_at": null,
+          "slug": "agent",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "agents",
           "observed_at": null,
           "slug": "agents",
-          "source": "observed_relation",
-          "tier": "related",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.188,
-          "name": "Memory",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "wallets",
           "observed_at": null,
-          "slug": "memory",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "wallets",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.179,
-          "name": "Claude",
-          "observed_at": null,
-          "slug": "claude",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 18
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "API",
+          "shared_neighbors": 4,
+          "slug": "api"
+        },
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 4,
+          "slug": "infrastructure"
+        },
+        {
+          "is_stub": false,
+          "name": "AI Agents",
+          "shared_neighbors": 3,
+          "slug": "ai-agents"
+        },
+        {
+          "is_stub": false,
+          "name": "Memory",
+          "shared_neighbors": 3,
+          "slug": "memory"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-26T03:58:02.001948+00:00",
@@ -270,7 +443,7 @@
     },
     "reader_signal": {
       "article_count": 32,
-      "as_of": "2026-07-29T23:02:56.872409+00:00",
+      "as_of": "2026-07-30T18:21:15.004542+00:00",
       "most_clicked": {
         "clicks": 132,
         "date": "2026-03-04T08:21:08.737694+00:00",
@@ -279,7 +452,7 @@
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 1616
+      "total_clicks": 1617
     },
     "reader_threads": {
       "as_of": "2026-06-26T03:58:02.001809+00:00",
@@ -364,7 +537,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:02:56.867758+00:00",
+      "as_of": "2026-07-30T18:21:14.979864+00:00",
       "items": [
         {
           "clicks": 93,
@@ -442,7 +615,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:02:56.854388+00:00",
+      "as_of": "2026-07-30T18:21:14.944231+00:00",
       "editorial": [
         {
           "count": 16,

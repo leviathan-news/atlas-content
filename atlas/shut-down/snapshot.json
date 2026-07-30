@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:52:32.910520+00:00",
-      "newsroom_total": 70,
-      "overall_share": 69,
+      "as_of": "2026-07-30T18:26:27.740892+00:00",
+      "newsroom_total": 79,
+      "overall_share": 60,
       "provenance": "data",
       "series": [
         {
@@ -137,62 +137,122 @@
           "month": "2026-06",
           "newsroom": 11,
           "universe": 10
-        }
-      ],
-      "total_universe": 101,
-      "universe_total": 31
-    },
-    "entity_graph": {
-      "as_of": "2026-07-01T11:52:31.121365+00:00",
-      "edges": [
-        {
-          "dir": "out",
-          "from": "shut-down",
-          "phrase": "Both are DeFi protocols; Balancer is still active, shut-down is not.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "balancer",
-          "weight": 19
         },
         {
+          "ed_share": 29,
+          "month": "2026-07",
+          "newsroom": 9,
+          "universe": 22
+        }
+      ],
+      "total_universe": 132,
+      "universe_total": 53
+    },
+    "entity_graph": {
+      "as_of": "2026-07-30T18:26:27.582791+00:00",
+      "edges": [
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "shut-down",
-          "phrase": "Funding events can lead to or follow a project shut-down.",
-          "relation_type": "event",
-          "source": "draft_relation",
-          "tier": "related",
+          "observed_at": null,
+          "phrase": "Coinbase",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "coinbase",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "shut-down",
+          "observed_at": null,
+          "phrase": "funding",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "funding",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "shut-down",
+          "observed_at": null,
+          "phrase": "Hyperliquid",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "hyperliquid",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "shut-down",
+          "relation_type": null,
+          "role": null,
+          "to": "funding",
+          "verified": false,
           "weight": 18
         },
         {
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "shut-down",
-          "phrase": "a16z investments may influence decisions to shut down projects.",
-          "relation_type": "influence",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "a16z",
-          "weight": 14
-        },
-        {
-          "dir": "out",
-          "from": "shut-down",
-          "phrase": "Horizon is a blockchain game platform; shut-down indicates closure.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "horizon",
-          "weight": 13
-        },
-        {
-          "dir": "out",
-          "from": "shut-down",
-          "phrase": "Hyperliquid is a competing DEX; shut-down implies closure.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
+          "relation_type": null,
+          "role": null,
           "to": "hyperliquid",
+          "verified": false,
           "weight": 13
         }
       ],
@@ -206,46 +266,73 @@
         },
         {
           "center": false,
-          "name": "Balancer",
-          "slug": "balancer",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 19
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Coinbase",
+          "observed_at": null,
+          "slug": "coinbase",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Funding",
+          "observed_at": null,
           "slug": "funding",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "a16z",
-          "slug": "a16z",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
-        },
-        {
-          "center": false,
-          "name": "Horizon",
-          "slug": "horizon",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 13
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Hyperliquid",
+          "observed_at": null,
           "slug": "hyperliquid",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 13
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "CEX",
+          "shared_neighbors": 2,
+          "slug": "cex"
+        },
+        {
+          "is_stub": false,
+          "name": "Derivatives",
+          "shared_neighbors": 2,
+          "slug": "derivatives"
+        },
+        {
+          "is_stub": false,
+          "name": "Futures",
+          "shared_neighbors": 2,
+          "slug": "futures"
+        },
+        {
+          "is_stub": false,
+          "name": "USDH",
+          "shared_neighbors": 2,
+          "slug": "usdh"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T02:47:19.007714+00:00",
@@ -310,17 +397,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 70,
-      "as_of": "2026-07-01T11:52:34.790208+00:00",
+      "article_count": 79,
+      "as_of": "2026-07-30T18:26:27.937963+00:00",
       "most_clicked": {
-        "clicks": 308,
+        "clicks": 316,
         "date": "2024-12-24T11:05:10.532378+00:00",
         "headline": "A new Prisma Finance Snapshot vote is live - shut down Prisma Finance and introduce Resupply",
         "lev_url": "https://leviathannews.xyz/8462/a-new-prisma-finance-snapshot-vote-is-live-shut-down-prisma-finance-and-introduce-resupply"
       },
       "provenance": "data",
-      "top_decile_share": 28,
-      "total_clicks": 5199
+      "top_decile_share": 25,
+      "total_clicks": 5762
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:47:19.007621+00:00",
@@ -405,7 +492,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:52:34.681814+00:00",
+      "as_of": "2026-07-30T18:26:27.933008+00:00",
       "items": [
         {
           "clicks": 42,
@@ -417,7 +504,25 @@
           "url": "https://x.com/i/status/2044980026819617147"
         },
         {
-          "clicks": 100,
+          "clicks": 49,
+          "date": "2026-07-26T15:56:11.824736+00:00",
+          "headline": "Binance founder CZ warns acquiring small crypto exchanges poses hidden security risks after BitMEX and BitMart shut down.",
+          "hot_score": 1355.731761,
+          "lev_url": "https://leviathannews.xyz/282148/binance-founder-cz-warns-acquiring-small-crypto-exchanges-poses-hidden-security-risks-after-bitmex-and-bitmart-shut-down",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726143719_45jIn8SUUzeY.jpg",
+          "url": "https://x.com/wublockchain/status/2081371865591820417"
+        },
+        {
+          "clicks": 56,
+          "date": "2026-07-26T10:52:06.701626+00:00",
+          "headline": "Forma shuts down its chain over unsustainable operations, moving NFTs to Ethereum",
+          "hot_score": 1310.077015,
+          "lev_url": "https://leviathannews.xyz/282101/forma-shuts-down-its-chain-over-unsustainable-operations-moving-nfts-to-ethereum",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726093012_Z4zrlaiDPw==.png",
+          "url": "https://x.com/formachain/status/2081046187570798955"
+        },
+        {
+          "clicks": 101,
           "date": "2026-05-13T21:38:29.910740+00:00",
           "headline": "Code4rena is shutting down",
           "hot_score": 1087.809212,
@@ -426,16 +531,16 @@
           "url": "https://x.com/code4rena/status/2054492081876324458"
         },
         {
-          "clicks": 31,
-          "date": "2026-06-27T02:56:34.479648+00:00",
-          "headline": "EU MiCA licenses near 230 before July 1 deadline as smaller crypto firms face shutdown pressure",
-          "hot_score": 1024.053031,
-          "lev_url": "https://leviathannews.xyz/263835/eu-mica-licenses-near-230-before-july-1-deadline-as-smaller-crypto-firms-face-shutdown-pressure",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260627011208_glYpFe-Kf-U6.jpg",
-          "url": "https://www.lesechos.fr/finance-marches/marches-financiers/mica-lindustrie-europeenne-de-la-crypto-a-laube-dun-grand-menage-2239282"
+          "clicks": 36,
+          "date": "2026-07-24T11:55:07.409307+00:00",
+          "headline": "India orders the takedown of Jack Dorsey's Bitcoin-linked Bitchat app as protesters use its offline Bluetooth mesh network to bypass internet shutdowns",
+          "hot_score": 764.866611,
+          "lev_url": "https://leviathannews.xyz/281383/india-orders-takedown-of-jack-dorseys-bitcoin-linked-messaging-app-bitchat-20260724",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724114804_Hip16fZKcPW7.jpg",
+          "url": "https://www.coindesk.com/tech/2026/07/24/india-orders-takedown-of-jack-dorsey-s-bitcoin-linked-messaging-app-bitchat"
         },
         {
-          "clicks": 50,
+          "clicks": 51,
           "date": "2026-05-17T17:50:18.031377+00:00",
           "headline": "KelpDAO is shutting down rsETH bridging support across 19 networks, urging users to return assets to Ethereum mainnet before the June 15 deadline",
           "hot_score": 763.919598,
@@ -444,7 +549,7 @@
           "url": "https://x.com/i/web/status/2056054156306301425"
         },
         {
-          "clicks": 72,
+          "clicks": 77,
           "date": "2026-05-21T12:21:21.118835+00:00",
           "headline": "Solv Protocol is shutting down burn-mint permissions for SolvBTC assets across major chains, urging users to redeem and withdraw underlying assets before June ends",
           "hot_score": 760.973386,
@@ -453,40 +558,22 @@
           "url": "https://x.com/i/web/status/2057382136252891192"
         },
         {
-          "clicks": 50,
-          "date": "2026-06-10T16:18:07.080712+00:00",
-          "headline": "Hyli blockchain shuts down after two years of ZK innovation and raising $3.4 million in funding.",
-          "hot_score": 703.24173,
-          "lev_url": "https://leviathannews.xyz/255377/hyli-blockchain-shuts-down-after-two-years-of-zk-innovation-and-raising-34-million-in-funding",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260610161246_pYZIUcgZOR8H.jpg",
-          "url": "https://x.com/hyli_org/status/2064678967035224555"
-        },
-        {
-          "clicks": 40,
-          "date": "2026-06-18T04:41:21.436441+00:00",
-          "headline": "Most crypto neobanks still rely on banks, issuers, Visa/Mastercard rails and regulators, making “bankless” apps vulnerable to shutdowns, freezes and policy shifts",
-          "hot_score": 702.464175,
-          "lev_url": "https://leviathannews.xyz/258635/most-crypto-neobanks-still-rely-on-banks-issuers-visamastercard-rails-and-regulators-making-bankless-apps-vulnerable-to-shutdowns-freezes-and-policy-shifts",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260618043048_A2IvJlJejzWh.jpg",
-          "url": "https://x.com/strato_money/status/2067182762118037727"
-        },
-        {
-          "clicks": 38,
-          "date": "2026-06-18T09:06:37.892492+00:00",
-          "headline": "Ionic Protocol shuts down after 2025 exploit, tells users to withdraw assets",
-          "hot_score": 698.84943,
-          "lev_url": "https://leviathannews.xyz/258707/ionic-protocol-shuts-down-after-2025-exploit-tells-users-to-withdraw-assets",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260618085223_Z4zrlaiDPw==.png",
-          "url": "https://x.com/ionicmoney/status/2067518110635016213"
+          "clicks": 43,
+          "date": "2026-07-22T11:21:06.536790+00:00",
+          "headline": "Cardano wallet provider SecondFi will shut down after hackers stole $2.4M in ADA by exploiting a transaction-signing flaw that exposed users' private keys",
+          "hot_score": 708.305421,
+          "lev_url": "https://leviathannews.xyz/279905/secondfi-to-shut-down-after-24-million-ada-wallet-theft-20260722",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260722111304_Jv9HcZ1fwk6p.jpg",
+          "url": "https://www.coindesk.com/web3/2026/07/22/secondfi-to-shut-down-after-usd2-4-million-ada-wallet-theft"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:52:34.596130+00:00",
+      "as_of": "2026-07-30T18:26:27.917665+00:00",
       "editorial": [
         {
-          "count": 28,
+          "count": 34,
           "source": "x.com"
         },
         {
@@ -494,7 +581,7 @@
           "source": "theblock.co"
         },
         {
-          "count": 4,
+          "count": 7,
           "source": "coindesk.com"
         },
         {
@@ -538,20 +625,28 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 19,
+          "count": 25,
           "source": "x.com"
         },
         {
-          "count": 4,
+          "count": 7,
           "source": "decrypt.co"
         },
         {
-          "count": 3,
+          "count": 5,
           "source": "theblock.co"
         },
         {
-          "count": 3,
+          "count": 5,
           "source": "financefeeds.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "cointelegraph.com"
         },
         {
           "count": 1,
@@ -560,9 +655,25 @@
         {
           "count": 1,
           "source": "wsj.com"
+        },
+        {
+          "count": 1,
+          "source": "channelnewsasia.com"
+        },
+        {
+          "count": 1,
+          "source": "techinasia.com"
+        },
+        {
+          "count": 1,
+          "source": "theinformation.com"
+        },
+        {
+          "count": 1,
+          "source": "reuters.com"
         }
       ],
-      "universe_distinct": 6
+      "universe_distinct": 13
     }
   },
   "official_links": [],

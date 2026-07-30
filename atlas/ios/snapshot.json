@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:00:05.036471+00:00",
+      "as_of": "2026-07-30T18:14:37.568806+00:00",
       "newsroom_total": 15,
       "overall_share": 7,
       "provenance": "data",
@@ -95,92 +95,111 @@
       "universe_total": 211
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:00:04.777270+00:00",
+      "as_of": "2026-07-30T18:14:37.347366+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.34,
-          "description": "Co-covered in 10 approved stories; most recently June 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "iOS is Apple’s mobile operating system that powers iPhones and iPads, and it has quietly evolved from a general-purpose smartphone platform into one of the most important interfaces for storing, trading, and spending cryptoassets.",
           "from": "ios",
           "observed_at": "2026-06-22",
-          "phrase": "Co-covered in 10 approved stories; most recently June 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "apple",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 34
         },
         {
-          "confidence": 0.196,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "ios",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "regulation",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "security",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "regulation",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 20
+          "weight": 10
         },
         {
-          "confidence": 0.176,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "ios",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "wallets",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "canada",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "wallets",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 18
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "apple",
+          "relation_type": null,
+          "role": null,
+          "to": "ios",
+          "verified": false,
+          "weight": 24
         },
         {
-          "confidence": 0.166,
-          "description": "Co-covered in 22 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "ios",
-          "observed_at": null,
-          "phrase": "Co-covered in 22 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "app",
+          "role": null,
+          "to": "apple",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
-        },
-        {
-          "confidence": 0.132,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "ios",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "google",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 13
+          "weight": 34
         }
       ],
       "nodes": [
@@ -194,6 +213,7 @@
         {
           "center": false,
           "confidence": 0.34,
+          "is_stub": false,
           "name": "Apple",
           "observed_at": "2026-06-22",
           "slug": "apple",
@@ -205,54 +225,48 @@
         },
         {
           "center": false,
-          "confidence": 0.196,
-          "name": "Security",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Regulation",
           "observed_at": null,
-          "slug": "security",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "regulation",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 20
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.176,
-          "name": "Canada",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "wallets",
           "observed_at": null,
-          "slug": "canada",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "wallets",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.166,
-          "name": "App",
-          "observed_at": null,
-          "slug": "app",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.132,
-          "name": "Google",
-          "observed_at": null,
-          "slug": "google",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 13
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "App",
+          "shared_neighbors": 3,
+          "slug": "app"
+        },
+        {
+          "is_stub": false,
+          "name": "Google",
+          "shared_neighbors": 2,
+          "slug": "google"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T07:33:27.136694+00:00",
@@ -318,7 +332,7 @@
     },
     "reader_signal": {
       "article_count": 15,
-      "as_of": "2026-07-29T23:00:05.319235+00:00",
+      "as_of": "2026-07-30T18:14:37.932643+00:00",
       "most_clicked": {
         "clicks": 233,
         "date": "2024-04-15T20:09:24.608637+00:00",
@@ -327,7 +341,7 @@
       },
       "provenance": "data",
       "top_decile_share": 20,
-      "total_clicks": 1141
+      "total_clicks": 1143
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:33:27.136610+00:00",
@@ -412,7 +426,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:00:05.309859+00:00",
+      "as_of": "2026-07-30T18:14:37.927863+00:00",
       "items": [
         {
           "clicks": 34,
@@ -490,7 +504,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:00:05.292212+00:00",
+      "as_of": "2026-07-30T18:14:37.914860+00:00",
       "editorial": [
         {
           "count": 9,

@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:03:14.012584+00:00",
+      "as_of": "2026-07-30T18:21:38.445474+00:00",
       "newsroom_total": 33,
       "overall_share": 31,
       "provenance": "data",
@@ -149,91 +149,172 @@
       "universe_total": 73
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:03:13.597236+00:00",
+      "as_of": "2026-07-30T18:21:38.265350+00:00",
       "edges": [
         {
-          "confidence": 0.319,
-          "description": "Co-covered in 5 approved stories; most recently April 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "phishing",
-          "observed_at": "2026-04-15",
-          "phrase": "Co-covered in 5 approved stories; most recently April 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "transaction",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 32
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.271,
-          "description": "Co-covered in 14 approved stories; most recently June 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "This hard finality is crucial for permissionless finance, but it also means that any error induced by a phishing scam can be catastrophic and permanent for the victim.",
           "from": "phishing",
           "observed_at": "2026-06-18",
-          "phrase": "Co-covered in 14 approved stories; most recently June 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "scam",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 27
         },
         {
-          "confidence": 0.222,
-          "description": "Co-covered in 6 approved stories; most recently June 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "phishing",
-          "observed_at": "2026-06-18",
-          "phrase": "Co-covered in 6 approved stories; most recently June 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "exploit",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 22
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.202,
-          "description": "Co-covered in 3 approved stories; most recently June 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Once an attacker moves funds out of a victim’s wallet, there is usually no mechanism for reversing that transaction, and there is no central institution obliged to reimburse the loss.",
           "from": "phishing",
           "observed_at": "2026-06-18",
-          "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "wallet",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 20
         },
         {
-          "confidence": 0.186,
-          "description": "Co-covered in 14 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "phishing",
           "observed_at": null,
-          "phrase": "Co-covered in 14 approved stories.",
+          "phrase": "asymmetry",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "security",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "asymmetry",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "phishing",
+          "observed_at": null,
+          "phrase": "wallets",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "wallets",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "phishing",
+          "relation_type": null,
+          "role": null,
+          "to": "scam",
+          "verified": false,
+          "weight": 27
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "phishing",
+          "relation_type": null,
+          "role": null,
+          "to": "wallet",
+          "verified": false,
+          "weight": 20
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "scam",
+          "relation_type": null,
+          "role": null,
+          "to": "phishing",
+          "verified": false,
+          "weight": 17
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "wallet",
+          "relation_type": null,
+          "role": null,
+          "to": "wallets",
+          "verified": false,
+          "weight": 19
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "wallets",
+          "relation_type": null,
+          "role": null,
+          "to": "wallet",
+          "verified": false,
           "weight": 19
         }
       ],
@@ -247,19 +328,8 @@
         },
         {
           "center": false,
-          "confidence": 0.319,
-          "name": "Transaction",
-          "observed_at": "2026-04-15",
-          "slug": "transaction",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 32
-        },
-        {
-          "center": false,
           "confidence": 0.271,
+          "is_stub": false,
           "name": "Scam",
           "observed_at": "2026-06-18",
           "slug": "scam",
@@ -271,19 +341,8 @@
         },
         {
           "center": false,
-          "confidence": 0.222,
-          "name": "Exploit",
-          "observed_at": "2026-06-18",
-          "slug": "exploit",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 22
-        },
-        {
-          "center": false,
           "confidence": 0.202,
+          "is_stub": false,
           "name": "Wallet",
           "observed_at": "2026-06-18",
           "slug": "wallet",
@@ -295,18 +354,60 @@
         },
         {
           "center": false,
-          "confidence": 0.186,
-          "name": "Security",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Asymmetry",
           "observed_at": null,
-          "slug": "security",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "asymmetry",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "wallets",
+          "observed_at": null,
+          "slug": "wallets",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "agents",
+          "shared_neighbors": 2,
+          "slug": "agents"
+        },
+        {
+          "is_stub": false,
+          "name": "API",
+          "shared_neighbors": 2,
+          "slug": "api"
+        },
+        {
+          "is_stub": false,
+          "name": "Arkham",
+          "shared_neighbors": 2,
+          "slug": "arkham"
+        },
+        {
+          "is_stub": false,
+          "name": "Ledger",
+          "shared_neighbors": 2,
+          "slug": "ledger"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-26T07:18:37.955022+00:00",
@@ -360,7 +461,7 @@
     },
     "reader_signal": {
       "article_count": 33,
-      "as_of": "2026-07-29T23:03:14.341842+00:00",
+      "as_of": "2026-07-30T18:21:38.670432+00:00",
       "most_clicked": {
         "clicks": 450,
         "date": "2024-12-08T14:36:58.216715+00:00",
@@ -454,7 +555,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:03:14.336467+00:00",
+      "as_of": "2026-07-30T18:21:38.665649+00:00",
       "items": [
         {
           "clicks": 61,
@@ -532,7 +633,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:03:14.324651+00:00",
+      "as_of": "2026-07-30T18:21:38.655943+00:00",
       "editorial": [
         {
           "count": 18,

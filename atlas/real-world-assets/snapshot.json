@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:03:43.522216+00:00",
+      "as_of": "2026-07-30T18:25:09.238844+00:00",
       "newsroom_total": 218,
       "overall_share": 94,
       "provenance": "data",
@@ -185,92 +185,123 @@
       "universe_total": 15
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:03:43.305726+00:00",
+      "as_of": "2026-07-30T18:25:08.954428+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.249,
-          "description": "Co-covered in 11 approved stories; most recently June 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Treasuries and stocks to reinsurance risk and private credit into programmable, composable building blocks.",
           "from": "real-world-assets",
           "observed_at": "2026-06-25",
-          "phrase": "Co-covered in 11 approved stories; most recently June 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "private-credit",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 25
         },
         {
-          "confidence": 0.212,
-          "description": "Co-covered in 70 approved stories; most recently July 2026.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "real-world-assets",
-          "observed_at": "2026-07-22",
-          "phrase": "Co-covered in 70 approved stories; most recently July 2026.",
+          "observed_at": null,
+          "phrase": "better",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "yield",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "better",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 21
+          "weight": 10
         },
         {
-          "confidence": 0.181,
-          "description": "Co-covered in 16 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "real-world-assets",
           "observed_at": null,
-          "phrase": "Co-covered in 16 approved stories.",
+          "phrase": "stocks",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "plume",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "stocks",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 18
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "private-credit",
+          "relation_type": null,
+          "role": null,
+          "to": "real-world-assets",
+          "verified": false,
+          "weight": 15
         },
         {
-          "confidence": 0.167,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "real-world-assets",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
+          "role": null,
+          "to": "private-credit",
+          "verified": false,
+          "weight": 25
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "real-world-assets",
+          "relation_type": null,
+          "role": null,
           "to": "stocks",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
           "weight": 17
-        },
-        {
-          "confidence": 0.161,
-          "description": "Co-covered in 12 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "real-world-assets",
-          "observed_at": null,
-          "phrase": "Co-covered in 12 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "centrifuge",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
         }
       ],
       "nodes": [
@@ -284,6 +315,7 @@
         {
           "center": false,
           "confidence": 0.249,
+          "is_stub": false,
           "name": "Private Credit",
           "observed_at": "2026-06-25",
           "slug": "private-credit",
@@ -295,54 +327,60 @@
         },
         {
           "center": false,
-          "confidence": 0.212,
-          "name": "Yield",
-          "observed_at": "2026-07-22",
-          "slug": "yield",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 21
-        },
-        {
-          "center": false,
-          "confidence": 0.181,
-          "name": "Plume",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Better",
           "observed_at": null,
-          "slug": "plume",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "better",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 18
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.167,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Stocks",
           "observed_at": null,
           "slug": "stocks",
-          "source": "observed_relation",
-          "tier": "related",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.161,
-          "name": "Centrifuge",
-          "observed_at": null,
-          "slug": "centrifuge",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Coinbase",
+          "shared_neighbors": 2,
+          "slug": "coinbase"
+        },
+        {
+          "is_stub": false,
+          "name": "Equities",
+          "shared_neighbors": 2,
+          "slug": "equities"
+        },
+        {
+          "is_stub": false,
+          "name": "Ondo Finance",
+          "shared_neighbors": 2,
+          "slug": "ondo-finance"
+        },
+        {
+          "is_stub": false,
+          "name": "Tokenization",
+          "shared_neighbors": 2,
+          "slug": "tokenization"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T00:16:40.779808+00:00",
@@ -408,7 +446,7 @@
     },
     "reader_signal": {
       "article_count": 218,
-      "as_of": "2026-07-29T23:03:43.753338+00:00",
+      "as_of": "2026-07-30T18:25:09.602633+00:00",
       "most_clicked": {
         "clicks": 980,
         "date": "2024-05-31T20:04:56.704201+00:00",
@@ -417,7 +455,7 @@
       },
       "provenance": "data",
       "top_decile_share": 35,
-      "total_clicks": 14917
+      "total_clicks": 14930
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:16:40.779729+00:00",
@@ -502,7 +540,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:03:43.743167+00:00",
+      "as_of": "2026-07-30T18:25:09.585603+00:00",
       "items": [
         {
           "clicks": 50,
@@ -580,7 +618,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:03:43.711621+00:00",
+      "as_of": "2026-07-30T18:25:09.524896+00:00",
       "editorial": [
         {
           "count": 127,

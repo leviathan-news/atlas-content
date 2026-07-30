@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:59:16.569474+00:00",
+      "as_of": "2026-07-30T18:09:44.501774+00:00",
       "newsroom_total": 32,
       "overall_share": 94,
       "provenance": "data",
@@ -107,92 +107,111 @@
       "universe_total": 2
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:59:16.393506+00:00",
+      "as_of": "2026-07-30T18:09:44.295057+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.411,
-          "description": "Co-covered in 11 approved stories; most recently September 2025.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "FRAX is the core governance and utility token of the Frax Finance ecosystem, a stablecoin and DeFi protocol that is evolving into a full-stack “stablecoin operating system” built around its fully collateralized dollar stablecoin Frax USD (frxUSD) and its modular rollup chain Fraxtal.",
           "from": "fraxtal",
           "observed_at": "2025-09-04",
-          "phrase": "Co-covered in 11 approved stories; most recently September 2025.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "frax",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 41
         },
         {
-          "confidence": 0.168,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "fraxtal",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "dao",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
-        },
-        {
-          "confidence": 0.15,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "fraxtal",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "points",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 15
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "fraxtal",
           "observed_at": null,
           "phrase": "Layer 2",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "layer-2",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "fraxtal",
           "observed_at": null,
-          "phrase": "lending",
+          "phrase": "Optimism",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "lending",
+          "to": "optimism",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "frax",
+          "relation_type": null,
+          "role": null,
+          "to": "fraxtal",
+          "verified": false,
+          "weight": 41
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "fraxtal",
+          "relation_type": null,
+          "role": null,
+          "to": "frax",
+          "verified": false,
+          "weight": 41
         }
       ],
       "nodes": [
@@ -206,6 +225,7 @@
         {
           "center": false,
           "confidence": 0.411,
+          "is_stub": false,
           "name": "FRAX",
           "observed_at": "2025-09-04",
           "slug": "frax",
@@ -217,31 +237,8 @@
         },
         {
           "center": false,
-          "confidence": 0.168,
-          "name": "DAO",
-          "observed_at": null,
-          "slug": "dao",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.15,
-          "name": "Points",
-          "observed_at": null,
-          "slug": "points",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 15
-        },
-        {
-          "center": false,
           "confidence": 0.0,
+          "is_stub": false,
           "name": "Layer 2",
           "observed_at": null,
           "slug": "layer-2",
@@ -254,9 +251,10 @@
         {
           "center": false,
           "confidence": 0.0,
-          "name": "Lending",
+          "is_stub": false,
+          "name": "Optimism",
           "observed_at": null,
-          "slug": "lending",
+          "slug": "optimism",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -264,7 +262,35 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Arbitrum",
+          "shared_neighbors": 2,
+          "slug": "arbitrum"
+        },
+        {
+          "is_stub": false,
+          "name": "Base Chain",
+          "shared_neighbors": 2,
+          "slug": "base"
+        },
+        {
+          "is_stub": false,
+          "name": "L2",
+          "shared_neighbors": 2,
+          "slug": "l2"
+        },
+        {
+          "is_stub": false,
+          "name": "OP",
+          "shared_neighbors": 2,
+          "slug": "op"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T10:30:59.130443+00:00",
@@ -330,7 +356,7 @@
     },
     "reader_signal": {
       "article_count": 32,
-      "as_of": "2026-07-29T22:59:16.777196+00:00",
+      "as_of": "2026-07-30T18:09:44.693859+00:00",
       "most_clicked": {
         "clicks": 1131,
         "date": "2024-03-26T16:16:18.854378+00:00",
@@ -339,7 +365,7 @@
       },
       "provenance": "data",
       "top_decile_share": 46,
-      "total_clicks": 5906
+      "total_clicks": 5907
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:30:59.130307+00:00",
@@ -424,7 +450,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:59:16.772324+00:00",
+      "as_of": "2026-07-30T18:09:44.689343+00:00",
       "items": [
         {
           "clicks": 173,
@@ -436,7 +462,7 @@
           "url": "https://digest.leviathannews.xyz/launching-a-recovery-pool-parameter-optimization-for-distressed-assets-on-curve/"
         },
         {
-          "clicks": 59,
+          "clicks": 60,
           "date": "2026-05-21T09:37:04.764943+00:00",
           "headline": "Curve DAO voting opens on the SQUID Recovery pool on Fraxtal",
           "hot_score": 2806.376591,
@@ -502,7 +528,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:59:16.758490+00:00",
+      "as_of": "2026-07-30T18:09:44.679482+00:00",
       "editorial": [
         {
           "count": 20,

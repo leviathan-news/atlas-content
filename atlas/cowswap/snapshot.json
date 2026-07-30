@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:57:40.083309+00:00",
+      "as_of": "2026-07-30T18:06:00.673086+00:00",
       "newsroom_total": 42,
       "overall_share": 84,
       "provenance": "data",
@@ -161,92 +161,85 @@
       "universe_total": 8
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:57:39.919784+00:00",
+      "as_of": "2026-07-30T18:05:57.861260+00:00",
       "edges": [
         {
-          "confidence": 0.472,
-          "description": "Co-covered in 29 approved stories; most recently March 2026.",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.572,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "CoW is the governance token of **CoW DAO**, the decentralized community behind CoW Protocol, CoW Swap, MEV Blocker, and CoW AMM—an ecosystem of Ethereum-based tools designed to make on-chain trading safer, more efficient, and less vulnerable to miner extractable value (MEV) and liquidity value loss.",
           "from": "cowswap",
           "observed_at": "2026-03-11",
-          "phrase": "Co-covered in 29 approved stories; most recently March 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "cow-token",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
+          "weight": 57
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "cowswap",
+          "observed_at": null,
+          "phrase": "retail",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "retail",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "cowswap",
+          "relation_type": null,
+          "role": null,
+          "to": "cow-token",
+          "verified": false,
           "weight": 47
         },
         {
-          "confidence": 0.227,
-          "description": "Co-covered in 5 approved stories; most recently March 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "cowswap",
-          "observed_at": "2026-03-20",
-          "phrase": "Co-covered in 5 approved stories; most recently March 2026.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "cow-token",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidity",
+          "role": null,
+          "to": "cowswap",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 23
-        },
-        {
-          "confidence": 0.187,
-          "description": "Co-covered in 12 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "cowswap",
-          "observed_at": null,
-          "phrase": "Co-covered in 12 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "dao",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 19
-        },
-        {
-          "confidence": 0.186,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "cowswap",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "mev",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 19
-        },
-        {
-          "confidence": 0.177,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "cowswap",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "amm",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
+          "weight": 57
         }
       ],
       "nodes": [
@@ -259,7 +252,8 @@
         },
         {
           "center": false,
-          "confidence": 0.472,
+          "confidence": 0.572,
+          "is_stub": false,
           "name": "COW",
           "observed_at": "2026-03-11",
           "slug": "cow-token",
@@ -267,58 +261,51 @@
           "tier": "related",
           "verified": false,
           "verified_at": null,
-          "weight": 47
+          "weight": 57
         },
         {
           "center": false,
-          "confidence": 0.227,
-          "name": "Liquidity",
-          "observed_at": "2026-03-20",
-          "slug": "liquidity",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 23
-        },
-        {
-          "center": false,
-          "confidence": 0.187,
-          "name": "DAO",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Retail",
           "observed_at": null,
-          "slug": "dao",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "retail",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.186,
-          "name": "MEV",
-          "observed_at": null,
-          "slug": "mev",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.177,
-          "name": "AMM",
-          "observed_at": null,
-          "slug": "amm",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 18
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "AMM",
+          "shared_neighbors": 2,
+          "slug": "amm"
+        },
+        {
+          "is_stub": false,
+          "name": "DAO",
+          "shared_neighbors": 2,
+          "slug": "dao"
+        },
+        {
+          "is_stub": false,
+          "name": "Liquidity",
+          "shared_neighbors": 2,
+          "slug": "liquidity"
+        },
+        {
+          "is_stub": false,
+          "name": "MEV",
+          "shared_neighbors": 2,
+          "slug": "mev"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T06:58:51.186400+00:00",
@@ -384,7 +371,7 @@
     },
     "reader_signal": {
       "article_count": 44,
-      "as_of": "2026-07-29T22:57:40.267883+00:00",
+      "as_of": "2026-07-30T18:06:02.384307+00:00",
       "most_clicked": {
         "clicks": 998,
         "date": "2024-05-14T12:09:45.626648+00:00",
@@ -478,7 +465,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:57:40.261122+00:00",
+      "as_of": "2026-07-30T18:06:02.373014+00:00",
       "items": [
         {
           "clicks": 45,
@@ -556,7 +543,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:57:40.247757+00:00",
+      "as_of": "2026-07-30T18:06:02.336333+00:00",
       "editorial": [
         {
           "count": 33,

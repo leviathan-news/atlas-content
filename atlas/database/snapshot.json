@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:14:54.862228+00:00",
+      "as_of": "2026-07-30T18:07:37.848979+00:00",
       "newsroom_total": 12,
-      "overall_share": 24,
+      "overall_share": 21,
       "provenance": "data",
       "series": [
         {
@@ -88,64 +88,170 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 1
+          "universe": 10
         }
       ],
-      "total_universe": 49,
-      "universe_total": 37
+      "total_universe": 58,
+      "universe_total": 46
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:14:54.327595+00:00",
+      "as_of": "2026-07-30T18:07:37.683280+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "database",
-          "phrase": "Stripe is a payment processor, not directly comparable to databases.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "stripe",
-          "weight": 20
-        },
-        {
-          "dir": "out",
-          "from": "database",
-          "phrase": "APIs are used to interact with databases.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "api",
-          "weight": 20
-        },
-        {
-          "dir": "out",
-          "from": "database",
-          "phrase": "AWS provides cloud database services like RDS.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "aws",
-          "weight": 19
-        },
-        {
-          "dir": "out",
-          "from": "database",
-          "phrase": "Payments is a different domain from databases.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "payments",
-          "weight": 17
-        },
-        {
-          "dir": "out",
-          "from": "database",
+          "observed_at": null,
           "phrase": "ledger",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "ledger",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "database",
+          "observed_at": null,
+          "phrase": "memory",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "memory",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "database",
+          "observed_at": null,
+          "phrase": "payments",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "payments",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "database",
+          "observed_at": null,
+          "phrase": "regulation",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "regulation",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "database",
+          "observed_at": null,
+          "phrase": "wallet",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "wallet",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "database",
+          "relation_type": null,
+          "role": null,
+          "to": "payments",
+          "verified": false,
+          "weight": 17
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ledger",
+          "relation_type": null,
+          "role": null,
+          "to": "wallet",
+          "verified": false,
+          "weight": 21
         }
       ],
       "nodes": [
@@ -158,46 +264,99 @@
         },
         {
           "center": false,
-          "name": "Stripe",
-          "slug": "stripe",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 20
-        },
-        {
-          "center": false,
-          "name": "API",
-          "slug": "api",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 20
-        },
-        {
-          "center": false,
-          "name": "AWS",
-          "slug": "aws",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 19
-        },
-        {
-          "center": false,
-          "name": "Payments",
-          "slug": "payments",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Ledger",
+          "observed_at": null,
           "slug": "ledger",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Memory",
+          "observed_at": null,
+          "slug": "memory",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Payments",
+          "observed_at": null,
+          "slug": "payments",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Regulation",
+          "observed_at": null,
+          "slug": "regulation",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Wallet",
+          "observed_at": null,
+          "slug": "wallet",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "AI Agents",
+          "shared_neighbors": 3,
+          "slug": "ai-agents"
+        },
+        {
+          "is_stub": false,
+          "name": "agents",
+          "shared_neighbors": 2,
+          "slug": "agents"
+        },
+        {
+          "is_stub": false,
+          "name": "API",
+          "shared_neighbors": 2,
+          "slug": "api"
+        },
+        {
+          "is_stub": false,
+          "name": "Apple",
+          "shared_neighbors": 2,
+          "slug": "apple"
+        }
+      ],
+      "total_routes": 5,
+      "visible_routes": 5
     },
     "event_timeline": {
       "as_of": "2026-06-26T10:55:54.506329+00:00",
@@ -257,16 +416,16 @@
     },
     "reader_signal": {
       "article_count": 12,
-      "as_of": "2026-07-01T12:14:55.487081+00:00",
+      "as_of": "2026-07-30T18:07:38.025514+00:00",
       "most_clicked": {
-        "clicks": 193,
+        "clicks": 201,
         "date": "2023-10-05T08:06:11.321657+00:00",
         "headline": "India developing global database of crypto exchanges to combat crypto crimes and money laundering",
         "lev_url": "https://leviathannews.xyz/2855/india-developing-global-database-of-crypto-exchanges-to-combat-crypto-crimes-and-money-laundering"
       },
       "provenance": "data",
-      "top_decile_share": 26,
-      "total_clicks": 733
+      "top_decile_share": 27,
+      "total_clicks": 755
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:55:54.506244+00:00",
@@ -351,10 +510,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T12:14:55.405516+00:00",
+      "as_of": "2026-07-30T18:07:38.021354+00:00",
       "items": [
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-04-29T08:21:37.509337+00:00",
           "headline": "Polymarket rejects hacker breach claims, says alleged 300K user records are scraped from public APIs and on-chain data, not a database leak",
           "hot_score": 321.0,
@@ -372,7 +531,7 @@
           "url": "https://decrypt.co/365897/ai-agent-deletes-startup-database-9-seconds-founder-says"
         },
         {
-          "clicks": 50,
+          "clicks": 51,
           "date": "2025-12-16T16:09:14.386491+00:00",
           "headline": "SerenAI joins MongoDB Startups to enable pay-per-call x402 payments on MongoDB and Base",
           "hot_score": 51.676629,
@@ -381,7 +540,7 @@
           "url": "https://serendb.com/blog/serenai-joins-mongodb-for-startups-to-enable-pay-per-call-monetization-for-ai-agent-data-access"
         },
         {
-          "clicks": 38,
+          "clicks": 40,
           "date": "2026-02-08T08:24:36.227683+00:00",
           "headline": "Monad launches MonadDb, a custom state database that speeds up EVM nodes with async I/O, SSD-aware storage, and persistent trie design.",
           "hot_score": 50.376752,
@@ -390,7 +549,7 @@
           "url": "https://x.com/i/status/2020388066725179801"
         },
         {
-          "clicks": 28,
+          "clicks": 30,
           "date": "2026-01-07T19:39:34.016120+00:00",
           "headline": "Web3 project Arkiv is tackling centralized data in blockchain by building decentralized databases for web3 and web2 apps. Its Ethereum-aligned Layer 3 DB-Chains provide globally replicated, always-available, blockchain-secured data, powered by GLM. Arkiv aims to remove single points of failure while enabling DePIN and open-network applications.",
           "hot_score": 42.529105,
@@ -399,7 +558,7 @@
           "url": "https://crypto.news/centralized-databases-have-failed-us-heres-how-one-web3-project-is-fixing-it/"
         },
         {
-          "clicks": 38,
+          "clicks": 42,
           "date": "2026-02-02T17:56:06.517954+00:00",
           "headline": "Concerns are rising around Moltbook’s “AI-only” narrative, as reports highlight weak safeguards, no rate-limiting, exposed databases, and the ease with which humans can impersonate agents via simple API calls. While the platform is undeniably viral and entertaining, questions remain over whether it’s genuine agent coordination or just engagement farming dressed as sci-fi.",
           "hot_score": 38.558693,
@@ -408,7 +567,7 @@
           "url": "https://x.com/i/status/2018287095383818340"
         },
         {
-          "clicks": 193,
+          "clicks": 201,
           "date": "2023-10-05T08:06:11.321657+00:00",
           "headline": "India developing global database of crypto exchanges to combat crypto crimes and money laundering",
           "hot_score": 0.0,
@@ -429,7 +588,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:14:55.318050+00:00",
+      "as_of": "2026-07-30T18:07:38.011220+00:00",
       "editorial": [
         {
           "count": 5,
@@ -464,11 +623,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 18,
+          "count": 22,
           "source": "x.com"
         },
         {
-          "count": 17,
+          "count": 19,
           "source": "orochi.network"
         },
         {
@@ -478,9 +637,21 @@
         {
           "count": 1,
           "source": "financefeeds.com"
+        },
+        {
+          "count": 1,
+          "source": "venturebeat.com"
+        },
+        {
+          "count": 1,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "truthsocial.com"
         }
       ],
-      "universe_distinct": 4
+      "universe_distinct": 7
     }
   },
   "official_links": [],

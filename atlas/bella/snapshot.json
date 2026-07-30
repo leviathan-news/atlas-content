@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:56:31.179612+00:00",
+      "as_of": "2026-07-30T17:58:35.697976+00:00",
       "newsroom_total": 1,
-      "overall_share": 3,
+      "overall_share": 2,
       "provenance": "data",
       "series": [
         {
@@ -40,99 +40,118 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 9
+          "universe": 10
         }
       ],
-      "total_universe": 39,
-      "universe_total": 38
+      "total_universe": 40,
+      "universe_total": 39
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:56:30.552330+00:00",
+      "as_of": "2026-07-30T17:58:35.474285+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.33,
-          "description": "Co-covered in 13 approved stories; most recently July 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "A suite of AI-powered tools for trading, yield optimization, and research, Bella Protocol combines decentralized finance (DeFi) infrastructure with agentic AI bots that surface signals and insights across multiple crypto platforms.",
           "from": "bella",
           "observed_at": "2026-07-24",
-          "phrase": "Co-covered in 13 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "research",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 33
         },
         {
-          "confidence": 0.174,
-          "description": "Co-covered in 9 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "bella",
           "observed_at": null,
-          "phrase": "Co-covered in 9 approved stories.",
+          "phrase": "agentic AI",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "agents",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "agentic-ai",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 17
+          "weight": 10
         },
         {
-          "confidence": 0.166,
-          "description": "Co-covered in 19 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "bella",
           "observed_at": null,
-          "phrase": "Co-covered in 19 approved stories.",
+          "phrase": "Telegram",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "ai-agents",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "telegram",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 17
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "bella",
+          "relation_type": null,
+          "role": null,
+          "to": "research",
+          "verified": false,
+          "weight": 33
         },
         {
-          "confidence": 0.158,
-          "description": "Co-covered in 7 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "bella",
-          "observed_at": null,
-          "phrase": "Co-covered in 7 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "research",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "agent",
+          "role": null,
+          "to": "bella",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
-        },
-        {
-          "confidence": 0.125,
-          "description": "Co-covered in 26 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "bella",
-          "observed_at": null,
-          "phrase": "Co-covered in 26 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "ai",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 12
+          "weight": 23
         }
       ],
       "nodes": [
@@ -146,6 +165,7 @@
         {
           "center": false,
           "confidence": 0.33,
+          "is_stub": false,
           "name": "Research",
           "observed_at": "2026-07-24",
           "slug": "research",
@@ -157,54 +177,60 @@
         },
         {
           "center": false,
-          "confidence": 0.174,
-          "name": "agents",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Agentic AI",
           "observed_at": null,
-          "slug": "agents",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "agentic-ai",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 17
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.166,
-          "name": "AI Agents",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Telegram",
           "observed_at": null,
-          "slug": "ai-agents",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "telegram",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.158,
-          "name": "Agent",
-          "observed_at": null,
-          "slug": "agent",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
-        },
-        {
-          "center": false,
-          "confidence": 0.125,
-          "name": "AI",
-          "observed_at": null,
-          "slug": "ai",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 12
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "agents",
+          "shared_neighbors": 3,
+          "slug": "agents"
+        },
+        {
+          "is_stub": false,
+          "name": "AI Agents",
+          "shared_neighbors": 3,
+          "slug": "ai-agents"
+        },
+        {
+          "is_stub": false,
+          "name": "Agent",
+          "shared_neighbors": 2,
+          "slug": "agent"
+        },
+        {
+          "is_stub": false,
+          "name": "AI",
+          "shared_neighbors": 2,
+          "slug": "ai"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T11:16:34.928320+00:00",
@@ -258,7 +284,7 @@
     },
     "reader_signal": {
       "article_count": 1,
-      "as_of": "2026-07-29T22:56:31.813265+00:00",
+      "as_of": "2026-07-30T17:58:35.907147+00:00",
       "most_clicked": {
         "clicks": 45,
         "date": "2025-06-24T09:20:07.366182+00:00",
@@ -341,7 +367,7 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-29T22:56:31.809607+00:00",
+      "as_of": "2026-07-30T17:58:35.903389+00:00",
       "items": [
         {
           "clicks": 45,
@@ -356,7 +382,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:56:31.791196+00:00",
+      "as_of": "2026-07-30T17:58:35.896475+00:00",
       "editorial": [
         {
           "count": 1,
@@ -367,7 +393,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 37,
+          "count": 38,
           "source": "x.com"
         },
         {

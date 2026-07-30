@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:56:51.500509+00:00",
+      "as_of": "2026-07-30T17:59:17.044592+00:00",
       "newsroom_total": 43,
       "overall_share": 44,
       "provenance": "data",
@@ -137,92 +137,209 @@
       "universe_total": 55
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:56:50.914552+00:00",
+      "as_of": "2026-07-30T17:59:16.852745+00:00",
       "edges": [
         {
+          "attested": true,
+          "attested_at": null,
+          "attested_by": "",
+          "confidence": 0.0,
+          "curation_status": "attested",
+          "description": "Yearn's yBOLD is a tokenized BOLD Stability Pool product.",
+          "description_source": "canonical",
+          "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "bold",
+          "observed_at": null,
+          "phrase": "Yearn's yBOLD is a tokenized BOLD Stability Pool product.",
+          "relation_type": "product",
+          "role": "",
+          "source": "canonical_relation",
+          "tier": "close",
+          "to": "yearn",
+          "verification_kind": "operator",
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.652918+00:00",
+          "verified_by": "gerrit",
+          "weight": 86
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.466,
+          "curation_status": "observed",
           "description": "Co-covered in 19 approved stories; most recently May 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "bold",
           "observed_at": "2026-05-06",
           "phrase": "Co-covered in 19 approved stories; most recently May 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "liquity",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 47
         },
         {
-          "confidence": 0.265,
-          "description": "Co-covered in 3 approved stories; most recently May 2024.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "bold",
-          "observed_at": "2024-05-31",
-          "phrase": "Co-covered in 3 approved stories; most recently May 2024.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "rates",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 27
-        },
-        {
-          "confidence": 0.221,
-          "description": "Co-covered in 4 approved stories; most recently July 2025.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "bold",
-          "observed_at": "2025-07-22",
-          "phrase": "Co-covered in 4 approved stories; most recently July 2025.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "yearn",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 22
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.212,
+          "curation_status": "observed",
           "description": "Co-covered in 4 approved stories; most recently July 2025.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "bold",
           "observed_at": "2025-07-22",
           "phrase": "Co-covered in 4 approved stories; most recently July 2025.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "ready",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
-          "confidence": 0.163,
-          "description": "Co-covered in 8 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "bold",
           "observed_at": null,
-          "phrase": "Co-covered in 8 approved stories.",
+          "phrase": "fiat",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoins",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "fiat",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 16
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "bold",
+          "relation_type": null,
+          "role": null,
+          "to": "liquity",
+          "verified": false,
+          "weight": 47
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "bold",
+          "relation_type": null,
+          "role": null,
+          "to": "ready",
+          "verified": false,
+          "weight": 21
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "bold",
+          "relation_type": null,
+          "role": null,
+          "to": "yearn",
+          "verified": false,
+          "weight": 22
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "liquity",
+          "relation_type": null,
+          "role": null,
+          "to": "bold",
+          "verified": false,
+          "weight": 47
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "liquity",
+          "relation_type": null,
+          "role": null,
+          "to": "yearn",
+          "verified": false,
+          "weight": 19
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ready",
+          "relation_type": null,
+          "role": null,
+          "to": "bold",
+          "verified": false,
+          "weight": 21
+        },
+        {
+          "attested": true,
+          "curation_status": "attested",
+          "description": "Yearn's yBOLD is a tokenized BOLD Stability Pool product.",
+          "ended_at": null,
+          "from": "yearn",
+          "relation_type": "product",
+          "role": null,
+          "to": "bold",
+          "verified": true,
+          "weight": 86
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "yearn",
+          "relation_type": null,
+          "role": null,
+          "to": "liquity",
+          "verified": false,
+          "weight": 19
         }
       ],
       "nodes": [
@@ -235,7 +352,21 @@
         },
         {
           "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Yearn",
+          "observed_at": null,
+          "slug": "yearn",
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-07-29T23:07:48.652918+00:00",
+          "weight": 86
+        },
+        {
+          "center": false,
           "confidence": 0.466,
+          "is_stub": false,
           "name": "Liquity",
           "observed_at": "2026-05-06",
           "slug": "liquity",
@@ -247,31 +378,8 @@
         },
         {
           "center": false,
-          "confidence": 0.265,
-          "name": "Rates",
-          "observed_at": "2024-05-31",
-          "slug": "rates",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 27
-        },
-        {
-          "center": false,
-          "confidence": 0.221,
-          "name": "Yearn",
-          "observed_at": "2025-07-22",
-          "slug": "yearn",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 22
-        },
-        {
-          "center": false,
           "confidence": 0.212,
+          "is_stub": false,
           "name": "Ready",
           "observed_at": "2025-07-22",
           "slug": "ready",
@@ -283,18 +391,47 @@
         },
         {
           "center": false,
-          "confidence": 0.163,
-          "name": "Stablecoins",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Fiat",
           "observed_at": null,
-          "slug": "stablecoins",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "fiat",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 16
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Fees",
+          "shared_neighbors": 3,
+          "slug": "fees"
+        },
+        {
+          "is_stub": false,
+          "name": "Curve",
+          "shared_neighbors": 2,
+          "slug": "curve"
+        },
+        {
+          "is_stub": false,
+          "name": "DeFi",
+          "shared_neighbors": 2,
+          "slug": "defi"
+        },
+        {
+          "is_stub": false,
+          "name": "Liquidation",
+          "shared_neighbors": 2,
+          "slug": "liquidation"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-26T09:12:32.915880+00:00",
@@ -360,7 +497,7 @@
     },
     "reader_signal": {
       "article_count": 43,
-      "as_of": "2026-07-29T22:56:52.698041+00:00",
+      "as_of": "2026-07-30T17:59:17.262055+00:00",
       "most_clicked": {
         "clicks": 816,
         "date": "2024-05-01T21:55:50.075622+00:00",
@@ -454,7 +591,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:56:52.683464+00:00",
+      "as_of": "2026-07-30T17:59:17.256496+00:00",
       "items": [
         {
           "clicks": 86,
@@ -532,7 +669,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:56:52.652786+00:00",
+      "as_of": "2026-07-30T17:59:17.240454+00:00",
       "editorial": [
         {
           "count": 17,

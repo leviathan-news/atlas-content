@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:06:58.159206+00:00",
+      "as_of": "2026-07-30T18:34:18.060325+00:00",
       "newsroom_total": 62,
       "overall_share": 48,
       "provenance": "data",
@@ -185,92 +185,135 @@
       "universe_total": 67
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:06:57.977175+00:00",
+      "as_of": "2026-07-30T18:34:17.656823+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.23,
-          "description": "Co-covered in 3 approved stories; most recently June 2025.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "ZachXBT is a pseudonymous blockchain investigator and open‑source intelligence (*OSINT*) researcher known for tracing hacked, laundered, or misappropriated crypto across chains and publicly calling out alleged scams, Ponzi schemes, and insider trading.",
           "from": "zachxbt",
           "observed_at": "2025-06-02",
-          "phrase": "Co-covered in 3 approved stories; most recently June 2025.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "hacked",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 23
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.224,
+          "curation_status": "observed",
           "description": "Co-covered in 3 approved stories; most recently June 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "zachxbt",
           "observed_at": "2026-06-06",
           "phrase": "Co-covered in 3 approved stories; most recently June 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "wld",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 22
         },
         {
-          "confidence": 0.181,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "zachxbt",
           "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
+          "phrase": "Ponzi",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "bitget",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "ponzi",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 18
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "hacked",
+          "relation_type": null,
+          "role": null,
+          "to": "zachxbt",
+          "verified": false,
+          "weight": 13
         },
         {
-          "confidence": 0.176,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "zachxbt",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "wld",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "bounty",
+          "role": null,
+          "to": "zachxbt",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
+          "weight": 22
         },
         {
-          "confidence": 0.169,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "zachxbt",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "otc",
+          "role": null,
+          "to": "hacked",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
+          "weight": 23
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "zachxbt",
+          "relation_type": null,
+          "role": null,
+          "to": "wld",
+          "verified": false,
+          "weight": 22
         }
       ],
       "nodes": [
@@ -284,6 +327,7 @@
         {
           "center": false,
           "confidence": 0.23,
+          "is_stub": false,
           "name": "Hacked",
           "observed_at": "2025-06-02",
           "slug": "hacked",
@@ -296,6 +340,7 @@
         {
           "center": false,
           "confidence": 0.224,
+          "is_stub": false,
           "name": "WLD",
           "observed_at": "2026-06-06",
           "slug": "wld",
@@ -307,42 +352,22 @@
         },
         {
           "center": false,
-          "confidence": 0.181,
-          "name": "Bitget",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Ponzi",
           "observed_at": null,
-          "slug": "bitget",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "ponzi",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.176,
-          "name": "Bounty",
-          "observed_at": null,
-          "slug": "bounty",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.169,
-          "name": "OTC",
-          "observed_at": null,
-          "slug": "otc",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T04:06:14.426191+00:00",
@@ -408,16 +433,16 @@
     },
     "reader_signal": {
       "article_count": 62,
-      "as_of": "2026-07-29T23:06:58.352723+00:00",
+      "as_of": "2026-07-30T18:34:18.407149+00:00",
       "most_clicked": {
-        "clicks": 322,
+        "clicks": 324,
         "date": "2025-02-23T19:52:10.450266+00:00",
         "headline": "ZachXBT continues to investigate the Bybit hack and reveals a complex laundering scheme involving meme coin-related wallets & funds traded for SOL over 920 connected addresses",
         "lev_url": "https://leviathannews.xyz/9499/zachxbt-continues-to-investigate-the-bybit-hack-and-reveals-a-complex-laundering-scheme-involving-meme-coin-related-wallets-funds-traded-for-sol-over-920-connected-addresses"
       },
       "provenance": "data",
       "top_decile_share": 23,
-      "total_clicks": 5666
+      "total_clicks": 5673
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:06:14.426099+00:00",
@@ -502,7 +527,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:06:58.347797+00:00",
+      "as_of": "2026-07-30T18:34:18.400384+00:00",
       "items": [
         {
           "clicks": 44,
@@ -580,7 +605,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:06:58.335492+00:00",
+      "as_of": "2026-07-30T18:34:18.384401+00:00",
       "editorial": [
         {
           "count": 40,

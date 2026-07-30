@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:05:07.399782+00:00",
+      "as_of": "2026-07-30T18:30:46.726795+00:00",
       "newsroom_total": 41,
-      "overall_share": 21,
+      "overall_share": 20,
       "provenance": "data",
       "series": [
         {
@@ -154,99 +154,130 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 37
+          "universe": 40
         }
       ],
-      "total_universe": 199,
-      "universe_total": 158
+      "total_universe": 202,
+      "universe_total": 161
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:05:06.970267+00:00",
+      "as_of": "2026-07-30T18:30:45.729017+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.214,
-          "description": "Co-covered in 8 approved stories; most recently May 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "**1inch** is the most widely integrated aggregator by API adoption.",
           "from": "swaps",
           "observed_at": "2026-05-07",
-          "phrase": "Co-covered in 8 approved stories; most recently May 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "1inch",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.205,
+          "curation_status": "observed",
           "description": "Co-covered in 8 approved stories; most recently June 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "swaps",
           "observed_at": "2026-06-04",
           "phrase": "Co-covered in 8 approved stories; most recently June 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "crosschain",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 20
         },
         {
-          "confidence": 0.189,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "swaps",
           "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
+          "phrase": "custody",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "thorchain",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "custody",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 19
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "1inch",
+          "relation_type": null,
+          "role": null,
+          "to": "crosschain",
+          "verified": false,
+          "weight": 13
         },
         {
-          "confidence": 0.185,
-          "description": "Co-covered in 9 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "swaps",
-          "observed_at": null,
-          "phrase": "Co-covered in 9 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "uniswap",
+          "role": null,
+          "to": "1inch",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 19
+          "weight": 21
         },
         {
-          "confidence": 0.175,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "swaps",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "metamask",
+          "role": null,
+          "to": "crosschain",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
+          "weight": 20
         }
       ],
       "nodes": [
@@ -260,6 +291,7 @@
         {
           "center": false,
           "confidence": 0.214,
+          "is_stub": false,
           "name": "1inch",
           "observed_at": "2026-05-07",
           "slug": "1inch",
@@ -272,6 +304,7 @@
         {
           "center": false,
           "confidence": 0.205,
+          "is_stub": false,
           "name": "Crosschain",
           "observed_at": "2026-06-04",
           "slug": "crosschain",
@@ -283,42 +316,47 @@
         },
         {
           "center": false,
-          "confidence": 0.189,
-          "name": "THORChain",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Custody",
           "observed_at": null,
-          "slug": "thorchain",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "custody",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.185,
-          "name": "Uniswap",
-          "observed_at": null,
-          "slug": "uniswap",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.175,
-          "name": "MetaMask",
-          "observed_at": null,
-          "slug": "metamask",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "API",
+          "shared_neighbors": 2,
+          "slug": "api"
+        },
+        {
+          "is_stub": false,
+          "name": "Integration",
+          "shared_neighbors": 2,
+          "slug": "integration"
+        },
+        {
+          "is_stub": false,
+          "name": "MEV",
+          "shared_neighbors": 2,
+          "slug": "mev"
+        },
+        {
+          "is_stub": false,
+          "name": "Uniswap",
+          "shared_neighbors": 2,
+          "slug": "uniswap"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T05:02:13.288761+00:00",
@@ -384,7 +422,7 @@
     },
     "reader_signal": {
       "article_count": 42,
-      "as_of": "2026-07-29T23:05:07.658433+00:00",
+      "as_of": "2026-07-30T18:30:47.489806+00:00",
       "most_clicked": {
         "clicks": 998,
         "date": "2024-05-14T12:09:45.626648+00:00",
@@ -393,7 +431,7 @@
       },
       "provenance": "data",
       "top_decile_share": 41,
-      "total_clicks": 4876
+      "total_clicks": 4879
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:02:13.288641+00:00",
@@ -478,7 +516,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:05:07.653813+00:00",
+      "as_of": "2026-07-30T18:30:47.484804+00:00",
       "items": [
         {
           "clicks": 76,
@@ -508,7 +546,7 @@
           "url": "https://x.com/CoWSwap/status/1790352311124213912"
         },
         {
-          "clicks": 392,
+          "clicks": 393,
           "date": "2023-10-24T07:27:09.943986+00:00",
           "headline": "Deutsche Bank and SC Ventures conduct first stablecoin swaps on the Universal Digital Payments Network",
           "hot_score": 0.0,
@@ -556,7 +594,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:05:07.642721+00:00",
+      "as_of": "2026-07-30T18:30:47.461951+00:00",
       "editorial": [
         {
           "count": 20,
@@ -611,7 +649,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 114,
+          "count": 117,
           "source": "x.com"
         },
         {

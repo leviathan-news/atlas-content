@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:02:59.680297+00:00",
+      "as_of": "2026-07-30T18:21:20.955876+00:00",
       "newsroom_total": 65,
-      "overall_share": 30,
+      "overall_share": 29,
       "provenance": "data",
       "series": [
         {
@@ -196,99 +196,116 @@
           "ed_share": 9,
           "month": "2026-07",
           "newsroom": 4,
-          "universe": 40
+          "universe": 43
         }
       ],
-      "total_universe": 220,
-      "universe_total": 155
+      "total_universe": 223,
+      "universe_total": 158
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:02:59.358003+00:00",
+      "as_of": "2026-07-30T18:21:20.613187+00:00",
       "edges": [
         {
-          "confidence": 0.253,
-          "description": "Co-covered in 7 approved stories; most recently April 2026.",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.248,
+          "curation_status": "observed",
+          "description": "Co-covered in 11 approved stories; most recently May 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "oracle",
-          "observed_at": "2026-04-02",
-          "phrase": "Co-covered in 7 approved stories; most recently April 2026.",
+          "observed_at": "2026-05-14",
+          "phrase": "Co-covered in 11 approved stories; most recently May 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
-          "to": "lending",
+          "to": "chainlink",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 25
         },
         {
-          "confidence": 0.167,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "oracle",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "Oracles",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidations",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "oracles",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 17
-        },
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
         {
-          "confidence": 0.159,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "oracle",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "chainlink",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "tron",
+          "role": null,
+          "to": "oracle",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
+          "weight": 25
         },
         {
-          "confidence": 0.152,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "oracle",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "chainlink",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "mev",
+          "role": null,
+          "to": "oracles",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 15
+          "weight": 19
         },
         {
-          "confidence": 0.148,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "oracle",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
+          "role": null,
           "to": "chainlink",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
           "weight": 15
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "oracles",
+          "relation_type": null,
+          "role": null,
+          "to": "chainlink",
+          "verified": false,
+          "weight": 19
         }
       ],
       "nodes": [
@@ -301,10 +318,11 @@
         },
         {
           "center": false,
-          "confidence": 0.253,
-          "name": "Lending",
-          "observed_at": "2026-04-02",
-          "slug": "lending",
+          "confidence": 0.248,
+          "is_stub": false,
+          "name": "Chainlink",
+          "observed_at": "2026-05-14",
+          "slug": "chainlink",
           "source": "observed_relation",
           "tier": "related",
           "verified": false,
@@ -313,54 +331,22 @@
         },
         {
           "center": false,
-          "confidence": 0.167,
-          "name": "Liquidations",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Oracles",
           "observed_at": null,
-          "slug": "liquidations",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "oracles",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.159,
-          "name": "Tron",
-          "observed_at": null,
-          "slug": "tron",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
-        },
-        {
-          "center": false,
-          "confidence": 0.152,
-          "name": "MEV",
-          "observed_at": null,
-          "slug": "mev",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 15
-        },
-        {
-          "center": false,
-          "confidence": 0.148,
-          "name": "Chainlink",
-          "observed_at": null,
-          "slug": "chainlink",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 15
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T05:15:52.670346+00:00",
@@ -426,7 +412,7 @@
     },
     "reader_signal": {
       "article_count": 65,
-      "as_of": "2026-07-29T23:03:00.128467+00:00",
+      "as_of": "2026-07-30T18:21:21.320015+00:00",
       "most_clicked": {
         "clicks": 1312,
         "date": "2024-03-22T12:26:52.819649+00:00",
@@ -435,7 +421,7 @@
       },
       "provenance": "data",
       "top_decile_share": 41,
-      "total_clicks": 7472
+      "total_clicks": 7473
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:15:52.670237+00:00",
@@ -520,13 +506,13 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:03:00.117982+00:00",
+      "as_of": "2026-07-30T18:21:21.313215+00:00",
       "items": [
         {
           "clicks": 48,
           "date": "2026-07-26T07:05:06.437023+00:00",
           "headline": "Lido probes stETH oracle as 32 ETH deposit omission cuts daily rebase APR from 2.15% to 2.04%; funds remain safe",
-          "hot_score": 1502.159206,
+          "hot_score": 1236.671991,
           "lev_url": "https://leviathannews.xyz/281989/lido-probes-steth-oracle-as-32-eth-deposit-omission-cuts-daily-rebase-apr-from-215-to-204-funds-remain-safe",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260726002456_Z4zrlaiDPw==.png",
           "url": "https://x.com/lidofinance/status/2081077386737549616"
@@ -577,7 +563,7 @@
           "url": "https://x.com/blockaid_/status/2077405527428989363"
         },
         {
-          "clicks": 89,
+          "clicks": 90,
           "date": "2026-04-02T18:56:48.906037+00:00",
           "headline": "\"DeFi is dead\" debate resurfaces as researcher argues most protocols still rely on admin keys and multisigs",
           "hot_score": 245.050003,
@@ -598,7 +584,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:03:00.091321+00:00",
+      "as_of": "2026-07-30T18:21:21.299520+00:00",
       "editorial": [
         {
           "count": 38,
@@ -653,7 +639,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 115,
+          "count": 117,
           "source": "x.com"
         },
         {
@@ -670,15 +656,15 @@
         },
         {
           "count": 4,
+          "source": "diadata.org"
+        },
+        {
+          "count": 4,
           "source": "orochi.network"
         },
         {
           "count": 3,
           "source": "crowdfundinsider.com"
-        },
-        {
-          "count": 3,
-          "source": "diadata.org"
         },
         {
           "count": 2,

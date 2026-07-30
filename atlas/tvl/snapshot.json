@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:05:44.272162+00:00",
+      "as_of": "2026-07-30T18:32:25.484390+00:00",
       "newsroom_total": 167,
-      "overall_share": 60,
+      "overall_share": 59,
       "provenance": "data",
       "series": [
         {
@@ -229,102 +229,95 @@
           "universe": 16
         },
         {
-          "ed_share": 9,
+          "ed_share": 8,
           "month": "2026-07",
           "newsroom": 2,
-          "universe": 21
+          "universe": 23
         }
       ],
-      "total_universe": 279,
-      "universe_total": 112
+      "total_universe": 281,
+      "universe_total": 114
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:05:44.046785+00:00",
+      "as_of": "2026-07-30T18:32:23.383243+00:00",
       "edges": [
         {
-          "confidence": 0.233,
-          "description": "Co-covered in 21 approved stories; most recently June 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "tvl",
-          "observed_at": "2026-06-16",
-          "phrase": "Co-covered in 21 approved stories; most recently June 2026.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "exploit",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 23
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.206,
+          "curation_status": "observed",
           "description": "Co-covered in 4 approved stories; most recently May 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "tvl",
           "observed_at": "2026-05-31",
           "phrase": "Co-covered in 4 approved stories; most recently May 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "fxusd",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
-          "confidence": 0.179,
-          "description": "Co-covered in 7 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "tvl",
           "observed_at": null,
-          "phrase": "Co-covered in 7 approved stories.",
+          "phrase": "research",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "liquidity-incentives",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "research",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 18
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "fxusd",
+          "relation_type": null,
+          "role": null,
+          "to": "tvl",
+          "verified": false,
+          "weight": 21
         },
         {
-          "confidence": 0.172,
-          "description": "Co-covered in 9 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "tvl",
-          "observed_at": null,
-          "phrase": "Co-covered in 9 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "pendle",
+          "role": null,
+          "to": "fxusd",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
-        },
-        {
-          "confidence": 0.169,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "tvl",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "ether-dotfi",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
+          "weight": 21
         }
       ],
       "nodes": [
@@ -337,19 +330,8 @@
         },
         {
           "center": false,
-          "confidence": 0.233,
-          "name": "Exploit",
-          "observed_at": "2026-06-16",
-          "slug": "exploit",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 23
-        },
-        {
-          "center": false,
           "confidence": 0.206,
+          "is_stub": false,
           "name": "fxUSD",
           "observed_at": "2026-05-31",
           "slug": "fxusd",
@@ -361,42 +343,35 @@
         },
         {
           "center": false,
-          "confidence": 0.179,
-          "name": "Liquidity Incentives",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Research",
           "observed_at": null,
-          "slug": "liquidity-incentives",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "research",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.172,
-          "name": "Pendle",
-          "observed_at": null,
-          "slug": "pendle",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
-        },
-        {
-          "center": false,
-          "confidence": 0.169,
-          "name": "Ether.Fi",
-          "observed_at": null,
-          "slug": "ether-dotfi",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "DefiLlama",
+          "shared_neighbors": 2,
+          "slug": "defillama"
+        },
+        {
+          "is_stub": false,
+          "name": "f(x) Protocol",
+          "shared_neighbors": 2,
+          "slug": "fx-protocol"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T01:27:48.525617+00:00",
@@ -462,7 +437,7 @@
     },
     "reader_signal": {
       "article_count": 167,
-      "as_of": "2026-07-29T23:05:44.589711+00:00",
+      "as_of": "2026-07-30T18:32:27.456850+00:00",
       "most_clicked": {
         "clicks": 667,
         "date": "2024-06-17T12:46:46.240685+00:00",
@@ -471,7 +446,7 @@
       },
       "provenance": "data",
       "top_decile_share": 32,
-      "total_clicks": 13874
+      "total_clicks": 13882
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:27:48.525510+00:00",
@@ -556,7 +531,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:05:44.582458+00:00",
+      "as_of": "2026-07-30T18:32:27.426545+00:00",
       "items": [
         {
           "clicks": 104,
@@ -589,7 +564,7 @@
           "clicks": 42,
           "date": "2026-07-28T17:01:06.980925+00:00",
           "headline": "Robinhood Chain TVL climbs to $325M, but DEX volume, active users, and trading activity continue to decline as memecoin-driven launch momentum fades",
-          "hot_score": 1768.69413,
+          "hot_score": 1454.642327,
           "lev_url": "https://leviathannews.xyz/283531/robinhood-chain-deposits-climb-but-volume-and-users-fade-after-memecoin-fueled-launch-20260728",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728165548_UJ-Nk5SnIyMr.jpg",
           "url": "https://www.theblock.co/post/409813/robinhood-chain-deposits-climb-volume-users-fade-memecoin-fueled-launch?utm_source=rss&utm_medium=rss"
@@ -622,7 +597,7 @@
           "url": "https://x.com/castle_labs/status/2058927712010387619"
         },
         {
-          "clicks": 61,
+          "clicks": 63,
           "date": "2026-06-16T07:12:12.729044+00:00",
           "headline": "Crypto's insurance sector has collapsed from $1.9B to under $100M in TVL despite $840M in exploit losses during the first five months of 2026, exposing DeFi's growing protection gap",
           "hot_score": 746.321019,
@@ -634,7 +609,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:05:44.529108+00:00",
+      "as_of": "2026-07-30T18:32:27.344965+00:00",
       "editorial": [
         {
           "count": 100,
@@ -689,7 +664,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 92,
+          "count": 94,
           "source": "x.com"
         },
         {

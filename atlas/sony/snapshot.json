@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:04:32.855610+00:00",
+      "as_of": "2026-07-30T18:26:46.184092+00:00",
       "newsroom_total": 18,
       "overall_share": 46,
       "provenance": "data",
@@ -113,92 +113,109 @@
       "universe_total": 21
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:04:32.661912+00:00",
+      "as_of": "2026-07-30T18:26:45.500903+00:00",
       "edges": [
         {
-          "confidence": 0.329,
-          "description": "Co-covered in 11 approved stories; most recently July 2026.",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.429,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "As an Ethereum-based layer‑2 network built with Optimism’s OP Stack and Superchain technology, Soneium is a public blockchain developed by Sony Block Solutions Labs (Sony BSL) to host games, NFTs, DeFi tools, and entertainment applications while inheriting Ethereum’s security.",
           "from": "sony",
           "observed_at": "2026-07-10",
-          "phrase": "Co-covered in 11 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "soneium",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 33
+          "weight": 43
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.254,
+          "curation_status": "observed",
           "description": "Co-covered in 4 approved stories; most recently April 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "sony",
           "observed_at": "2026-04-09",
           "phrase": "Co-covered in 4 approved stories; most recently April 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "sbi",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 25
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "sbi",
+          "relation_type": null,
+          "role": null,
+          "to": "sony",
+          "verified": false,
+          "weight": 25
         },
         {
-          "confidence": 0.18,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "sony",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "soneium",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoins",
+          "role": null,
+          "to": "sony",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
+          "weight": 43
         },
         {
-          "confidence": 0.135,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "sony",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "japan",
+          "role": null,
+          "to": "sbi",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 13
+          "weight": 25
         },
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "sony",
-          "observed_at": null,
-          "phrase": "infrastructure",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "infrastructure",
+          "role": null,
+          "to": "soneium",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 33
         }
       ],
       "nodes": [
@@ -211,7 +228,8 @@
         },
         {
           "center": false,
-          "confidence": 0.329,
+          "confidence": 0.429,
+          "is_stub": false,
           "name": "Soneium",
           "observed_at": "2026-07-10",
           "slug": "soneium",
@@ -219,11 +237,12 @@
           "tier": "related",
           "verified": false,
           "verified_at": null,
-          "weight": 33
+          "weight": 43
         },
         {
           "center": false,
           "confidence": 0.254,
+          "is_stub": false,
           "name": "SBI",
           "observed_at": "2026-04-09",
           "slug": "sbi",
@@ -232,45 +251,25 @@
           "verified": false,
           "verified_at": null,
           "weight": 25
-        },
-        {
-          "center": false,
-          "confidence": 0.18,
-          "name": "Stablecoins",
-          "observed_at": null,
-          "slug": "stablecoins",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.135,
-          "name": "Japan",
-          "observed_at": null,
-          "slug": "japan",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 13
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Infrastructure",
-          "observed_at": null,
-          "slug": "infrastructure",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Japan",
+          "shared_neighbors": 2,
+          "slug": "japan"
+        },
+        {
+          "is_stub": false,
+          "name": "Stablecoins",
+          "shared_neighbors": 2,
+          "slug": "stablecoins"
+        }
+      ],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T11:14:21.273595+00:00",
@@ -336,16 +335,16 @@
     },
     "reader_signal": {
       "article_count": 20,
-      "as_of": "2026-07-29T23:04:33.140552+00:00",
+      "as_of": "2026-07-30T18:26:46.626430+00:00",
       "most_clicked": {
-        "clicks": 272,
+        "clicks": 273,
         "date": "2025-04-21T06:57:34.563410+00:00",
         "headline": "Inside North Korea’s Cyber State: With a 6,000-strong hacker army, the regime pulls off global attack from Sony to WannaCry, waging war without ever setting foot on foreign soil.",
         "lev_url": "https://leviathannews.xyz/10625/inside-north-koreas-cyber-state-with-a-6000-strong-hacker-army-the-regime-pulls-off-global-attack-from-sony-to-wannacry-waging-war-without-ever-setting-foot-on-foreign-soil"
       },
       "provenance": "data",
       "top_decile_share": 28,
-      "total_clicks": 1861
+      "total_clicks": 1869
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:14:21.273523+00:00",
@@ -430,7 +429,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:04:33.135634+00:00",
+      "as_of": "2026-07-30T18:26:46.622113+00:00",
       "items": [
         {
           "clicks": 37,
@@ -478,7 +477,7 @@
           "url": "https://x.com/cryptonews/status/1995416461054288354?t=XRNjwv6fdCs0Ne8TI0tXMg&s=19"
         },
         {
-          "clicks": 272,
+          "clicks": 273,
           "date": "2025-04-21T06:57:34.563410+00:00",
           "headline": "Inside North Korea’s Cyber State: With a 6,000-strong hacker army, the regime pulls off global attack from Sony to WannaCry, waging war without ever setting foot on foreign soil.",
           "hot_score": 0.0,
@@ -508,7 +507,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:04:33.126030+00:00",
+      "as_of": "2026-07-30T18:26:46.607092+00:00",
       "editorial": [
         {
           "count": 5,

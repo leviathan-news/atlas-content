@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:00:00.179783+00:00",
+      "as_of": "2026-07-30T18:14:34.172550+00:00",
       "newsroom_total": 20,
       "overall_share": 27,
       "provenance": "data",
@@ -113,92 +113,161 @@
       "universe_total": 53
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:59:59.733520+00:00",
+      "as_of": "2026-07-30T18:14:33.858216+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.226,
+          "curation_status": "observed",
           "description": "Co-covered in 3 approved stories; most recently April 2026.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "interoperability",
           "observed_at": "2026-04-04",
           "phrase": "Co-covered in 3 approved stories; most recently April 2026.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "swift",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 23
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.205,
+          "curation_status": "observed",
           "description": "Co-covered in 7 approved stories; most recently September 2025.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "interoperability",
           "observed_at": "2025-09-08",
           "phrase": "Co-covered in 7 approved stories; most recently September 2025.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "crosschain",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
-          "confidence": 0.193,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "interoperability",
           "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
+          "phrase": "layer 2",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "ccip",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "layer-2",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 19
+          "weight": 10
         },
         {
-          "confidence": 0.178,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "interoperability",
           "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
+          "phrase": "wallets",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "layerzero",
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "wallets",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 18
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "crosschain",
+          "relation_type": null,
+          "role": null,
+          "to": "interoperability",
+          "verified": false,
+          "weight": 21
         },
         {
-          "confidence": 0.166,
-          "description": "Co-covered in 7 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "interoperability",
-          "observed_at": null,
-          "phrase": "Co-covered in 7 approved stories.",
           "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "chainlink",
+          "role": null,
+          "to": "crosschain",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 17
+          "weight": 21
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "interoperability",
+          "relation_type": null,
+          "role": null,
+          "to": "swift",
+          "verified": false,
+          "weight": 23
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "swift",
+          "relation_type": null,
+          "role": null,
+          "to": "interoperability",
+          "verified": false,
+          "weight": 23
         }
       ],
       "nodes": [
@@ -212,6 +281,7 @@
         {
           "center": false,
           "confidence": 0.226,
+          "is_stub": false,
           "name": "Swift",
           "observed_at": "2026-04-04",
           "slug": "swift",
@@ -224,6 +294,7 @@
         {
           "center": false,
           "confidence": 0.205,
+          "is_stub": false,
           "name": "Crosschain",
           "observed_at": "2025-09-08",
           "slug": "crosschain",
@@ -235,42 +306,60 @@
         },
         {
           "center": false,
-          "confidence": 0.193,
-          "name": "CCIP",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Layer 2",
           "observed_at": null,
-          "slug": "ccip",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "layer-2",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.178,
-          "name": "LayerZero",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "wallets",
           "observed_at": null,
-          "slug": "layerzero",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "wallets",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.166,
-          "name": "Chainlink",
-          "observed_at": null,
-          "slug": "chainlink",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 17
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Chainlink",
+          "shared_neighbors": 3,
+          "slug": "chainlink"
+        },
+        {
+          "is_stub": false,
+          "name": "CCIP",
+          "shared_neighbors": 2,
+          "slug": "ccip"
+        },
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 2,
+          "slug": "infrastructure"
+        },
+        {
+          "is_stub": false,
+          "name": "LayerZero",
+          "shared_neighbors": 2,
+          "slug": "layerzero"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-26T10:30:03.433394+00:00",
@@ -336,16 +425,16 @@
     },
     "reader_signal": {
       "article_count": 20,
-      "as_of": "2026-07-29T23:00:00.777509+00:00",
+      "as_of": "2026-07-30T18:14:34.386658+00:00",
       "most_clicked": {
-        "clicks": 411,
+        "clicks": 412,
         "date": "2024-09-30T19:50:13.373304+00:00",
         "headline": "Sui bridge goes live on mainnet today, providing native interoperability between the Ethereum and Sui blockchains.",
         "lev_url": "https://leviathannews.xyz/7186/sui-bridge-goes-live-on-mainnet-today-providing-native-interoperability-between-the-ethereum-and-sui-blockchains"
       },
       "provenance": "data",
       "top_decile_share": 34,
-      "total_clicks": 1970
+      "total_clicks": 1973
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:30:03.433305+00:00",
@@ -430,7 +519,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:00:00.772728+00:00",
+      "as_of": "2026-07-30T18:14:34.382103+00:00",
       "items": [
         {
           "clicks": 46,
@@ -442,7 +531,7 @@
           "url": "https://decrypt.co/352375/ripple-expand-1-3-billion-rlusd-stablecoin-ethereum-layer-2-networks?utm_source=twitter&utm_medium=social&utm_campaign=auto"
         },
         {
-          "clicks": 411,
+          "clicks": 412,
           "date": "2024-09-30T19:50:13.373304+00:00",
           "headline": "Sui bridge goes live on mainnet today, providing native interoperability between the Ethereum and Sui blockchains.",
           "hot_score": 0.0,
@@ -469,7 +558,7 @@
           "url": "https://uniswapfoundation.mirror.xyz/5A2kLtIERTV4nAAdM_3t4KqYFxsWxTJvOhHFuwxu74I?s=35"
         },
         {
-          "clicks": 174,
+          "clicks": 175,
           "date": "2024-02-16T09:57:44.980503+00:00",
           "headline": "Lava Network secures $15M in funding, Launches Magma Access Layer for seamless Blockchain data retrieval and Interoperability.",
           "hot_score": 0.0,
@@ -496,7 +585,7 @@
           "url": "https://snapshot.box/#/s:gmx.eth/proposal/0xc0fa577853fa0d066e876a4df3cf8ae7302c60b68f1f13675821dbf5d2acac1b"
         },
         {
-          "clicks": 90,
+          "clicks": 91,
           "date": "2025-09-09T14:51:08.869643+00:00",
           "headline": "HSBC and BNP Paribas join the GlobalSyncFdn, reinforcing industry efforts on privacy, control & interoperability. With 30+ members, the Canton Network strengthens governance to build trusted blockchain infrastructure for regulated markets.",
           "hot_score": 0.0,
@@ -508,7 +597,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:00:00.759519+00:00",
+      "as_of": "2026-07-30T18:14:34.371747+00:00",
       "editorial": [
         {
           "count": 5,

@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T22:57:08.371112+00:00",
+      "as_of": "2026-07-30T17:59:36.341294+00:00",
       "newsroom_total": 13,
       "overall_share": 17,
       "provenance": "data",
@@ -47,92 +47,85 @@
       "universe_total": 63
     },
     "entity_graph": {
-      "as_of": "2026-07-29T22:57:07.859896+00:00",
+      "as_of": "2026-07-30T17:59:35.976167+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.319,
-          "description": "Co-covered in 7 approved stories; most recently March 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "” For a crypto audience, the name increasingly denotes not just a city, but a recurring season of launches, sponsorships, and strategic meetings that shape the narrative and capital flows of the onchain economy.",
           "from": "cannes",
           "observed_at": "2026-03-18",
-          "phrase": "Co-covered in 7 approved stories; most recently March 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "sponsorships",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 32
         },
         {
-          "confidence": 0.129,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "cannes",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "tokenization",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 13
-        },
-        {
-          "confidence": 0.122,
-          "description": "Co-covered in 4 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "cannes",
-          "observed_at": null,
-          "phrase": "Co-covered in 4 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "stablecoins",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 12
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "cannes",
           "observed_at": null,
-          "phrase": "infrastructure",
+          "phrase": "wallet",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "infrastructure",
+          "to": "wallet",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "cannes",
+          "relation_type": null,
+          "role": null,
+          "to": "sponsorships",
+          "verified": false,
+          "weight": 32
         },
         {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "from": "cannes",
-          "observed_at": null,
-          "phrase": "narrative",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "sponsorships",
           "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "narrative",
+          "role": null,
+          "to": "cannes",
           "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "weight": 22
         }
       ],
       "nodes": [
@@ -146,6 +139,7 @@
         {
           "center": false,
           "confidence": 0.319,
+          "is_stub": false,
           "name": "Sponsorships",
           "observed_at": "2026-03-18",
           "slug": "sponsorships",
@@ -157,46 +151,11 @@
         },
         {
           "center": false,
-          "confidence": 0.129,
-          "name": "Tokenization",
-          "observed_at": null,
-          "slug": "tokenization",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 13
-        },
-        {
-          "center": false,
-          "confidence": 0.122,
-          "name": "Stablecoins",
-          "observed_at": null,
-          "slug": "stablecoins",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 12
-        },
-        {
-          "center": false,
           "confidence": 0.0,
-          "name": "Infrastructure",
+          "is_stub": false,
+          "name": "Wallet",
           "observed_at": null,
-          "slug": "infrastructure",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "name": "Narrative",
-          "observed_at": null,
-          "slug": "narrative",
+          "slug": "wallet",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -204,7 +163,10 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T07:31:31.421798+00:00",
@@ -252,7 +214,7 @@
     },
     "reader_signal": {
       "article_count": 13,
-      "as_of": "2026-07-29T22:57:08.639147+00:00",
+      "as_of": "2026-07-30T17:59:36.556634+00:00",
       "most_clicked": {
         "clicks": 104,
         "date": "2026-03-18T11:29:04.036195+00:00",
@@ -260,8 +222,8 @@
         "lev_url": "https://leviathannews.xyz/211489/stable-summit-steps-up-the-2026-program-reflects-where-stablecoins-are-today-at-the-intersection-of-payments-policy-capital-markets-and-onchain-infrastructure-across-keynotes-panel"
       },
       "provenance": "data",
-      "top_decile_share": 13,
-      "total_clicks": 825
+      "top_decile_share": 12,
+      "total_clicks": 833
     },
     "reader_threads": {
       "as_of": "2026-06-26T07:31:31.421724+00:00",
@@ -346,7 +308,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T22:57:08.634858+00:00",
+      "as_of": "2026-07-30T17:59:36.552332+00:00",
       "items": [
         {
           "clicks": 32,
@@ -358,7 +320,7 @@
           "url": "https://x.com/i/status/2044053483918372981"
         },
         {
-          "clicks": 68,
+          "clicks": 69,
           "date": "2026-03-23T10:11:16.412705+00:00",
           "headline": "Our friends and partners at Stable Summit 2026 in Cannes  (March 27th-28th) bring together leaders across payments, policy, capital markets, and onchain infrastructure to explore the future of stablecoins, FX, tokenized cash, RWAs, liquidity, and credit — don't miss it, get your tickets!",
           "hot_score": 582.265905,
@@ -376,7 +338,7 @@
           "url": "https://x.com/stable_summit/status/2034216854332580297"
         },
         {
-          "clicks": 66,
+          "clicks": 67,
           "date": "2026-03-16T21:17:03.277299+00:00",
           "headline": "Stable Summit, March 27-28, Cannes",
           "hot_score": 328.681186,
@@ -385,7 +347,7 @@
           "url": "https://x.com/stable_summit/status/2033589216207376876"
         },
         {
-          "clicks": 48,
+          "clicks": 49,
           "date": "2026-03-30T13:28:58.633607+00:00",
           "headline": "505 attendees. 75 speakers. 33 sessions. 1 future of finance.\n\nStable Summit Cannes 2026 was incredible!",
           "hot_score": 195.138887,
@@ -394,7 +356,7 @@
           "url": "https://x.com/stable_summit/status/2038604520624898414"
         },
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-04-01T11:41:27.765617+00:00",
           "headline": "Vault Summit 2026 live in Cannes",
           "hot_score": 194.272638,
@@ -412,7 +374,7 @@
           "url": "https://x.com/DAdvisoor/status/2040939389681897919"
         },
         {
-          "clicks": 51,
+          "clicks": 52,
           "date": "2026-02-26T15:25:33.243506+00:00",
           "headline": "OAK Research CEO Artem Sinyakin to discuss data-driven crypto research at Stable Summit IV in Cannes",
           "hot_score": 162.817696,
@@ -424,7 +386,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T22:57:08.624655+00:00",
+      "as_of": "2026-07-30T17:59:36.542456+00:00",
       "editorial": [
         {
           "count": 11,

@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:03:02.581582+00:00",
+      "as_of": "2026-07-30T18:21:24.978699+00:00",
       "newsroom_total": 15,
       "overall_share": 28,
       "provenance": "data",
@@ -107,92 +107,197 @@
       "universe_total": 38
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:03:02.345263+00:00",
+      "as_of": "2026-07-30T18:21:24.703952+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.21,
-          "description": "Co-covered in 11 approved stories; most recently June 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": "Outages are no longer rare edge cases in crypto but recurring stress tests across every layer of the stack, from centralized exchanges like Coinbase and Gate.",
           "from": "outage",
           "observed_at": "2026-06-01",
-          "phrase": "Co-covered in 11 approved stories; most recently June 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "coinbase",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.209,
-          "description": "Co-covered in 4 approved stories; most recently June 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "The company pointed finger at AWS cloud outage in its public communications, though Amazon's own service health dashboard acknowledged the underlying infrastructure event.",
           "from": "outage",
           "observed_at": "2026-06-01",
-          "phrase": "Co-covered in 4 approved stories; most recently June 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "aws",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 21
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.202,
+          "curation_status": "observed",
           "description": "Co-covered in 3 approved stories; most recently October 2025.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "outage",
           "observed_at": "2025-10-25",
           "phrase": "Co-covered in 3 approved stories; most recently October 2025.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "base",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 20
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
-          "from": "outage",
-          "observed_at": null,
-          "phrase": "infrastructure",
-          "relation_type": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "infrastructure",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
-        },
-        {
-          "confidence": 0.0,
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "outage",
           "observed_at": null,
           "phrase": "Starknet",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "starknet",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "aws",
+          "relation_type": null,
+          "role": null,
+          "to": "outage",
+          "verified": false,
+          "weight": 21
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "base",
+          "relation_type": null,
+          "role": null,
+          "to": "coinbase",
+          "verified": false,
+          "weight": 23
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "base",
+          "relation_type": null,
+          "role": null,
+          "to": "outage",
+          "verified": false,
+          "weight": 20
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "coinbase",
+          "relation_type": null,
+          "role": null,
+          "to": "base",
+          "verified": false,
+          "weight": 13
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "outage",
+          "relation_type": null,
+          "role": null,
+          "to": "aws",
+          "verified": false,
+          "weight": 21
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "outage",
+          "relation_type": null,
+          "role": null,
+          "to": "base",
+          "verified": false,
+          "weight": 20
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "outage",
+          "relation_type": null,
+          "role": null,
+          "to": "coinbase",
+          "verified": false,
+          "weight": 21
         }
       ],
       "nodes": [
@@ -206,6 +311,7 @@
         {
           "center": false,
           "confidence": 0.21,
+          "is_stub": false,
           "name": "Coinbase",
           "observed_at": "2026-06-01",
           "slug": "coinbase",
@@ -218,6 +324,7 @@
         {
           "center": false,
           "confidence": 0.209,
+          "is_stub": false,
           "name": "AWS",
           "observed_at": "2026-06-01",
           "slug": "aws",
@@ -230,6 +337,7 @@
         {
           "center": false,
           "confidence": 0.202,
+          "is_stub": false,
           "name": "Base Chain",
           "observed_at": "2025-10-25",
           "slug": "base",
@@ -242,18 +350,7 @@
         {
           "center": false,
           "confidence": 0.0,
-          "name": "Infrastructure",
-          "observed_at": null,
-          "slug": "infrastructure",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
+          "is_stub": false,
           "name": "Starknet",
           "observed_at": null,
           "slug": "starknet",
@@ -264,7 +361,35 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Aerodrome",
+          "shared_neighbors": 2,
+          "slug": "aerodrome"
+        },
+        {
+          "is_stub": false,
+          "name": "L2",
+          "shared_neighbors": 2,
+          "slug": "l2"
+        },
+        {
+          "is_stub": false,
+          "name": "Layer 2",
+          "shared_neighbors": 2,
+          "slug": "layer-2"
+        },
+        {
+          "is_stub": false,
+          "name": "x402",
+          "shared_neighbors": 2,
+          "slug": "x402"
+        }
+      ],
+      "total_routes": 4,
+      "visible_routes": 4
     },
     "event_timeline": {
       "as_of": "2026-06-26T11:27:33.542400+00:00",
@@ -318,7 +443,7 @@
     },
     "reader_signal": {
       "article_count": 15,
-      "as_of": "2026-07-29T23:03:02.801244+00:00",
+      "as_of": "2026-07-30T18:21:25.843886+00:00",
       "most_clicked": {
         "clicks": 233,
         "date": "2024-05-14T08:49:40.200592+00:00",
@@ -327,7 +452,7 @@
       },
       "provenance": "data",
       "top_decile_share": 15,
-      "total_clicks": 1534
+      "total_clicks": 1547
     },
     "reader_threads": {
       "as_of": "2026-06-26T11:27:33.542305+00:00",
@@ -412,7 +537,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:03:02.797160+00:00",
+      "as_of": "2026-07-30T18:21:25.835569+00:00",
       "items": [
         {
           "clicks": 233,
@@ -424,7 +549,7 @@
           "url": "https://twitter.com/CoinbaseSupport/status/1790239326321733819?t=JwAcD-zpXBhDbayWLWrKmw"
         },
         {
-          "clicks": 217,
+          "clicks": 218,
           "date": "2024-08-28T06:01:37.607251+00:00",
           "headline": "TON blockchain experienced over six-hour outage, halting block production and prompting Binance and Bybit to suspend transactions.",
           "hot_score": 0.0,
@@ -433,7 +558,7 @@
           "url": "https://www.theblock.co/post/313367/ton-blockchain-now-down-six-hours"
         },
         {
-          "clicks": 157,
+          "clicks": 158,
           "date": "2025-08-06T11:41:27.597739+00:00",
           "headline": "Base Incident report reveals infrastructure weakness behind outage",
           "hot_score": 0.0,
@@ -442,7 +567,7 @@
           "url": "https://news.bitcoin.com/base-incident-report-reveals-infrastructure-weakness-behind-outage/"
         },
         {
-          "clicks": 154,
+          "clicks": 155,
           "date": "2025-10-20T10:10:54.428928+00:00",
           "headline": "AWS Several major online services, including Coinbase, experienced access issues following a widespread disruption at Amazon Web Services",
           "hot_score": 0.0,
@@ -451,7 +576,7 @@
           "url": "https://cryptonews.com/news/major-online-platforms-face-outages-amid-aws-disruption-coinbase-among-those-affected"
         },
         {
-          "clicks": 154,
+          "clicks": 155,
           "date": "2025-08-05T09:36:45.887853+00:00",
           "headline": "Base chain resumes block production after one hour outage",
           "hot_score": 0.0,
@@ -460,7 +585,7 @@
           "url": "https://status.base.org/incidents/kdq3t8s13gfs"
         },
         {
-          "clicks": 128,
+          "clicks": 129,
           "date": "2025-10-25T14:50:31.640784+00:00",
           "headline": "AWS Blockchain Tracker provides a post mortem analysis on the impact of the October 20th AWS outage on various chains. L1's such as Solana prove to be the least dependent on AWS, with L2's like Base being the most dependent.",
           "hot_score": 0.0,
@@ -469,7 +594,7 @@
           "url": "https://www.awsblockchaintracker.com/"
         },
         {
-          "clicks": 110,
+          "clicks": 111,
           "date": "2025-04-23T13:53:45.346759+00:00",
           "headline": "Gate .io to compensate users for outage losses — but there’s a catch",
           "hot_score": 0.0,
@@ -478,7 +603,7 @@
           "url": "https://protos.com/gate-io-to-compensate-users-for-outage-losses-but-theres-a-catch/"
         },
         {
-          "clicks": 71,
+          "clicks": 73,
           "date": "2025-11-18T12:51:31.118725+00:00",
           "headline": "Leviathan News marked safe from global Cloudflare outage",
           "hot_score": 0.0,
@@ -490,7 +615,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:03:02.787594+00:00",
+      "as_of": "2026-07-30T18:21:25.822152+00:00",
       "editorial": [
         {
           "count": 4,

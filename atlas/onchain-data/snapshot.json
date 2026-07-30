@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:52:26.928751+00:00",
-      "newsroom_total": 52,
-      "overall_share": 66,
+      "as_of": "2026-07-30T18:21:04.962646+00:00",
+      "newsroom_total": 56,
+      "overall_share": 64,
       "provenance": "data",
       "series": [
         {
@@ -101,63 +101,135 @@
           "month": "2026-06",
           "newsroom": 1,
           "universe": 9
-        }
-      ],
-      "total_universe": 79,
-      "universe_total": 27
-    },
-    "entity_graph": {
-      "as_of": "2026-07-01T11:52:24.711734+00:00",
-      "edges": [
-        {
-          "dir": "out",
-          "from": "onchain-data",
-          "phrase": "Chainlink provides oracle infrastructure for onchain data feeds.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "chainlink",
-          "weight": 18
         },
         {
+          "ed_share": 44,
+          "month": "2026-07",
+          "newsroom": 4,
+          "universe": 5
+        }
+      ],
+      "total_universe": 88,
+      "universe_total": 32
+    },
+    "entity_graph": {
+      "as_of": "2026-07-30T18:21:04.778646+00:00",
+      "edges": [
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.274,
+          "curation_status": "observed",
+          "description": "Co-covered in 6 approved stories; most recently April 2026.",
+          "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "onchain-data",
-          "phrase": "Switzerland hosts blockchain projects that generate onchain data.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
+          "observed_at": "2026-04-16",
+          "phrase": "Co-covered in 6 approved stories; most recently April 2026.",
+          "relation_type": null,
+          "role": null,
+          "source": "observed_relation",
           "tier": "related",
           "to": "switzerland",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 27
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "onchain-data",
+          "observed_at": null,
+          "phrase": "ledger",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "ledger",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "onchain-data",
+          "observed_at": null,
+          "phrase": "wallet",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "wallet",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ledger",
+          "relation_type": null,
+          "role": null,
+          "to": "wallet",
+          "verified": false,
+          "weight": 21
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "onchain-data",
+          "relation_type": null,
+          "role": null,
+          "to": "switzerland",
+          "verified": false,
           "weight": 17
         },
         {
-          "dir": "out",
-          "from": "onchain-data",
-          "phrase": "Arkham is a competitor in onchain data analytics.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "arkham",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "onchain-data",
-          "phrase": "Onchain liquidity is a related concept but not directly comparable.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "onchain-liquidity",
-          "weight": 15
-        },
-        {
-          "dir": "out",
-          "from": "onchain-data",
-          "phrase": "OTC trading is a different market segment from onchain data.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "otc",
-          "weight": 15
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "switzerland",
+          "relation_type": null,
+          "role": null,
+          "to": "onchain-data",
+          "verified": false,
+          "weight": 27
         }
       ],
       "nodes": [
@@ -170,46 +242,73 @@
         },
         {
           "center": false,
-          "name": "Chainlink",
-          "slug": "chainlink",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
+          "confidence": 0.274,
+          "is_stub": false,
           "name": "Switzerland",
+          "observed_at": "2026-04-16",
           "slug": "switzerland",
-          "source": "draft_relation",
+          "source": "observed_relation",
           "tier": "related",
-          "weight": 17
+          "verified": false,
+          "verified_at": null,
+          "weight": 27
         },
         {
           "center": false,
-          "name": "Arkham",
-          "slug": "arkham",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Ledger",
+          "observed_at": null,
+          "slug": "ledger",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Onchain Liquidity",
-          "slug": "onchain-liquidity",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
-        },
-        {
-          "center": false,
-          "name": "OTC",
-          "slug": "otc",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Wallet",
+          "observed_at": null,
+          "slug": "wallet",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Arkham",
+          "shared_neighbors": 2,
+          "slug": "arkham"
+        },
+        {
+          "is_stub": false,
+          "name": "Cardano",
+          "shared_neighbors": 2,
+          "slug": "cardano"
+        },
+        {
+          "is_stub": false,
+          "name": "Chainlink",
+          "shared_neighbors": 2,
+          "slug": "chainlink"
+        },
+        {
+          "is_stub": false,
+          "name": "Phishing",
+          "shared_neighbors": 2,
+          "slug": "phishing"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T02:44:58.096347+00:00",
@@ -274,17 +373,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 53,
-      "as_of": "2026-07-01T11:52:28.677942+00:00",
+      "article_count": 57,
+      "as_of": "2026-07-30T18:21:05.144077+00:00",
       "most_clicked": {
-        "clicks": 292,
+        "clicks": 312,
         "date": "2024-07-03T08:08:46.789450+00:00",
         "headline": "Fidelity, Sygnum partner with Chainlink to bring NAV data onchain",
         "lev_url": "https://leviathannews.xyz/6179/fidelity-sygnum-partner-with-chainlink-to-bring-nav-data-onchain"
       },
       "provenance": "data",
-      "top_decile_share": 28,
-      "total_clicks": 3396
+      "top_decile_share": 27,
+      "total_clicks": 3648
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:44:58.096214+00:00",
@@ -369,10 +468,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:52:28.591062+00:00",
+      "as_of": "2026-07-30T18:21:05.138778+00:00",
       "items": [
         {
-          "clicks": 44,
+          "clicks": 46,
           "date": "2026-04-13T15:29:23.191823+00:00",
           "headline": "$58B inefficiency in corporate actions meets solution as Chainlink and banks use AI plus decentralized oracles to automate, verify, and publish financial data onchain",
           "hot_score": 7404.94483,
@@ -381,7 +480,7 @@
           "url": "https://x.com/i/status/2043675984524685797"
         },
         {
-          "clicks": 41,
+          "clicks": 44,
           "date": "2026-04-16T13:21:48.005398+00:00",
           "headline": "Aave Labs unveils Aave Checkpoint, a verification tool that audits governance proposals by cross-referencing onchain data with forum specs before execution",
           "hot_score": 4687.610837,
@@ -390,7 +489,7 @@
           "url": "https://x.com/i/status/2044476098206175307"
         },
         {
-          "clicks": 49,
+          "clicks": 52,
           "date": "2026-04-15T08:20:13.984450+00:00",
           "headline": "SIX Group taps Chainlink DataLink to bring Swiss and Spanish equity data onchain",
           "hot_score": 4332.266076,
@@ -408,16 +507,16 @@
           "url": "https://x.com/fourdotmemezh/status/2044426802454790623"
         },
         {
-          "clicks": 10,
-          "date": "2026-06-30T16:37:25.233180+00:00",
-          "headline": "Nasdaq taps Pyth as first onchain network to distribute TotalView order book and imbalance data",
-          "hot_score": 1767.652509,
-          "lev_url": "https://leviathannews.xyz/265528/nasdaq-taps-pyth-as-first-onchain-network-to-distribute-totalview-order-book-and-imbalance-data",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260630135434_Z4zrlaiDPw==.png",
-          "url": "https://www.pyth.network/blog/nasdaq-selects-pyth-for-data-distribution"
+          "clicks": 48,
+          "date": "2026-07-28T19:56:58.486296+00:00",
+          "headline": "Base launches Verify Onchain, enabling smart contracts to enforce one real person, one claim for airdrops, governance, and token sales without exposing user data",
+          "hot_score": 2223.571821,
+          "lev_url": "https://leviathannews.xyz/283634/say-you-run-an-airdrop-for-the-people-who-actually-use-your-product-you-set-the-rules-fund-the-pool-and-open-it-up-within-hours-most-of-it-is-gone-swept-up-by-industrial-aird",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728194904_8U0iPGADPKJZ.jpg",
+          "url": "https://x.com/buildonbase/status/2082128781406306558"
         },
         {
-          "clicks": 206,
+          "clicks": 207,
           "date": "2026-04-01T10:59:37.364774+00:00",
           "headline": "Tokenized RWAs face critical data gap as offchain inputs drive onchain logic, exposing private credit to systemic risk",
           "hot_score": 973.981704,
@@ -447,10 +546,10 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:52:28.502738+00:00",
+      "as_of": "2026-07-30T18:21:05.127777+00:00",
       "editorial": [
         {
-          "count": 33,
+          "count": 35,
           "source": "x.com"
         },
         {
@@ -460,6 +559,10 @@
         {
           "count": 3,
           "source": "decrypt.co"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
         },
         {
           "count": 2,
@@ -492,22 +595,22 @@
         {
           "count": 1,
           "source": "crv.lol"
-        },
-        {
-          "count": 1,
-          "source": "coindesk.com"
         }
       ],
-      "editorial_distinct": 14,
+      "editorial_distinct": 15,
       "provenance": "data",
       "universe": [
         {
-          "count": 15,
+          "count": 17,
           "source": "x.com"
         },
         {
-          "count": 6,
+          "count": 8,
           "source": "theblock.co"
+        },
+        {
+          "count": 2,
+          "source": "thegraph.com"
         },
         {
           "count": 2,
@@ -524,10 +627,6 @@
         {
           "count": 1,
           "source": "crowdfundinsider.com"
-        },
-        {
-          "count": 1,
-          "source": "thegraph.com"
         }
       ],
       "universe_distinct": 7

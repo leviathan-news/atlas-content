@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:46:13.586368+00:00",
-      "newsroom_total": 132,
-      "overall_share": 24,
+      "as_of": "2026-07-30T18:07:47.638670+00:00",
+      "newsroom_total": 139,
+      "overall_share": 20,
       "provenance": "data",
       "series": [
         {
@@ -214,70 +214,86 @@
           "ed_share": 6,
           "month": "2026-06",
           "newsroom": 5,
-          "universe": 78
+          "universe": 80
         },
         {
-          "ed_share": 0,
+          "ed_share": 5,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 1
+          "newsroom": 7,
+          "universe": 132
         }
       ],
-      "total_universe": 542,
-      "universe_total": 410
+      "total_universe": 682,
+      "universe_total": 543
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:46:13.091999+00:00",
+      "as_of": "2026-07-30T18:07:47.401402+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "dex",
-          "phrase": "CEX is a direct competitor to DEX as centralized exchange.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "cex",
-          "weight": 18
+          "observed_at": null,
+          "phrase": "futures",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "futures",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "dex",
-          "phrase": "Aster is a DEX on Astar network, part of DEX ecosystem.",
-          "relation_type": "ecosystem",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "aster",
-          "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "dex",
-          "phrase": "Wallets are infrastructure used to interact with DEXs.",
-          "relation_type": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
+          "observed_at": null,
+          "phrase": "wallets",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "wallets",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "dex",
+          "relation_type": null,
+          "role": null,
+          "to": "wallets",
+          "verified": false,
           "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "dex",
-          "phrase": "HIP-3 is a governance proposal related to DEX on Hive.",
-          "relation_type": "governance",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "hip-3",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "dex",
-          "phrase": "Fluid is a DEX product built on the Fluid protocol.",
-          "relation_type": "product",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "fluid",
-          "weight": 15
         }
       ],
       "nodes": [
@@ -290,46 +306,35 @@
         },
         {
           "center": false,
-          "name": "CEX",
-          "slug": "cex",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Futures",
+          "observed_at": null,
+          "slug": "futures",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Aster",
-          "slug": "aster",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "wallets",
+          "observed_at": null,
           "slug": "wallets",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
-          "name": "HIP-3",
-          "slug": "hip-3",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
-        },
-        {
-          "center": false,
-          "name": "Fluid",
-          "slug": "fluid",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 2,
+      "visible_routes": 2
     },
     "event_timeline": {
       "as_of": "2026-06-26T01:08:36.290843+00:00",
@@ -394,17 +399,17 @@
       "source": "https://chain.link/education-hub/what-is-decentralized-exchange-dex"
     },
     "reader_signal": {
-      "article_count": 132,
-      "as_of": "2026-07-01T11:46:14.347825+00:00",
+      "article_count": 139,
+      "as_of": "2026-07-30T18:07:47.899329+00:00",
       "most_clicked": {
-        "clicks": 1873,
+        "clicks": 1877,
         "date": "2024-04-12T15:57:29.796647+00:00",
         "headline": "Firefly, a Manta exclusive DEX, launches with plans to distribute 30% of their $FLY token to early users",
         "lev_url": "https://leviathannews.xyz/4823/firefly-a-manta-exclusive-dex-launches-with-plans-to-distribute-30-of-their-fly-token-to-early-users"
       },
       "provenance": "data",
-      "top_decile_share": 49,
-      "total_clicks": 14659
+      "top_decile_share": 48,
+      "total_clicks": 15127
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:08:36.290717+00:00",
@@ -489,10 +494,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:46:14.257096+00:00",
+      "as_of": "2026-07-30T18:07:47.893021+00:00",
       "items": [
         {
-          "clicks": 84,
+          "clicks": 85,
           "date": "2026-04-08T16:54:50.169583+00:00",
           "headline": "Velora identifies and unpublishes malicious npm package version in supply chain attack targeting its DEX aggregator SDK",
           "hot_score": 366621.848899,
@@ -501,7 +506,7 @@
           "url": "https://x.com/VeloraDEX/status/2041664117576962128"
         },
         {
-          "clicks": 66,
+          "clicks": 67,
           "date": "2026-04-08T12:43:18.800967+00:00",
           "headline": "Jupiter launches Express Verification API, letting DEXes, launchpads, and agents integrate instant token verification directly into user flows and streamline onboarding",
           "hot_score": 14819.391309,
@@ -510,7 +515,7 @@
           "url": "https://x.com/i/status/2041536872242172415"
         },
         {
-          "clicks": 45,
+          "clicks": 48,
           "date": "2026-04-13T23:33:17.335657+00:00",
           "headline": "Aster DEX lists first GENIUS perpetuals with $200K trading incentives as token surges 850% amid speculative frenzy",
           "hot_score": 7887.038556,
@@ -519,7 +524,7 @@
           "url": "https://crypto.news/aster-dex-lists-first-genius-perpetuals-as-token-rockets-850/"
         },
         {
-          "clicks": 58,
+          "clicks": 60,
           "date": "2026-04-15T23:12:06.631075+00:00",
           "headline": "Ethereum DEX aggregator market heats up as Kyber Network leads with ~30% share and CowSwap climbs to 22%, pressuring rivals",
           "hot_score": 5742.663564,
@@ -528,22 +533,13 @@
           "url": "https://www.theblock.co/post/397278/ethereum-dex-aggregator-competitive-kyber-cowswap-gain?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 103,
+          "clicks": 108,
           "date": "2026-04-07T19:24:03.124282+00:00",
           "headline": "Solana DEX Stabble urges LPs to withdraw after identifying former North Korean employee",
           "hot_score": 5443.960448,
           "lev_url": "https://leviathannews.xyz/222911/solana-dex-stabble-urges-lps-to-withdraw-after-identifying-former-north-korean-employee",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260407192342_LOaFMVAsA4DD.jpg",
           "url": "https://www.theblock.co/post/396569/solana-stabble-lps-withdraw-funds-identifying-former-north-korean-employee"
-        },
-        {
-          "clicks": 17,
-          "date": "2026-06-29T19:16:37.999595+00:00",
-          "headline": "Fluid commits $100M of its own capital to deepen sUSDai DEX liquidity for USD.AI",
-          "hot_score": 2801.554071,
-          "lev_url": "https://leviathannews.xyz/264925/fluid-commits-100m-of-its-own-capital-to-deepen-susdai-dex-liquidity-for-usdai",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629182807_Z4zrlaiDPw==.png",
-          "url": "https://usd.ai/insights/usdai-fluid-100m-liquidity-facility"
         },
         {
           "clicks": 44,
@@ -555,26 +551,35 @@
           "url": "https://x.com/BaselineMarkets/status/2044809025527984167"
         },
         {
-          "clicks": 13,
-          "date": "2026-06-29T06:26:21.219453+00:00",
-          "headline": "Loopring to wind down DEX and AMM services as project exits DeFi business and plans asset distribution",
-          "hot_score": 1257.507669,
-          "lev_url": "https://leviathannews.xyz/264363/loopring-shuts-down-dex-and-amm-after-failing-to-gain-traction-against-larger-rivals",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629061818_Z4zrlaiDPw==.png",
-          "url": "https://x.com/theblockco/status/2071461202933563612"
+          "clicks": 42,
+          "date": "2026-07-28T17:01:06.980925+00:00",
+          "headline": "Robinhood Chain TVL climbs to $325M, but DEX volume, active users, and trading activity continue to decline as memecoin-driven launch momentum fades",
+          "hot_score": 1461.703559,
+          "lev_url": "https://leviathannews.xyz/283531/robinhood-chain-deposits-climb-but-volume-and-users-fade-after-memecoin-fueled-launch-20260728",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728165548_UJ-Nk5SnIyMr.jpg",
+          "url": "https://www.theblock.co/post/409813/robinhood-chain-deposits-climb-volume-users-fade-memecoin-fueled-launch?utm_source=rss&utm_medium=rss"
+        },
+        {
+          "clicks": 28,
+          "date": "2026-06-29T19:16:37.999595+00:00",
+          "headline": "Fluid commits $100M of its own capital to deepen sUSDai DEX liquidity for USD.AI",
+          "hot_score": 790.927302,
+          "lev_url": "https://leviathannews.xyz/264925/fluid-commits-100m-of-its-own-capital-to-deepen-susdai-dex-liquidity-for-usdai",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629182807_Z4zrlaiDPw==.png",
+          "url": "https://usd.ai/insights/usdai-fluid-100m-liquidity-facility"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:46:14.162197+00:00",
+      "as_of": "2026-07-30T18:07:47.881320+00:00",
       "editorial": [
         {
-          "count": 68,
+          "count": 73,
           "source": "x.com"
         },
         {
-          "count": 16,
+          "count": 17,
           "source": "theblock.co"
         },
         {
@@ -618,32 +623,36 @@
           "source": "thedefiant.io"
         }
       ],
-      "editorial_distinct": 28,
+      "editorial_distinct": 29,
       "provenance": "data",
       "universe": [
         {
-          "count": 306,
+          "count": 402,
           "source": "x.com"
         },
         {
-          "count": 12,
+          "count": 17,
           "source": "cointelegraph.com"
         },
         {
-          "count": 11,
+          "count": 15,
           "source": "theblock.co"
         },
         {
-          "count": 7,
+          "count": 12,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 10,
           "source": "decrypt.co"
         },
         {
           "count": 7,
-          "source": "financefeeds.com"
+          "source": "openai.com"
         },
         {
-          "count": 6,
-          "source": "openai.com"
+          "count": 7,
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 6,
@@ -654,23 +663,19 @@
           "source": "federalregister.gov"
         },
         {
-          "count": 4,
-          "source": "crowdfundinsider.com"
+          "count": 5,
+          "source": "sec.gov"
         },
         {
-          "count": 4,
-          "source": "sec.gov"
+          "count": 5,
+          "source": "blog.kyberswap.com"
         },
         {
           "count": 3,
           "source": "binance.com"
-        },
-        {
-          "count": 3,
-          "source": "treeofalpha.com"
         }
       ],
-      "universe_distinct": 37
+      "universe_distinct": 42
     }
   },
   "official_links": [],

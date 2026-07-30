@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:47:36.705411+00:00",
-      "newsroom_total": 106,
-      "overall_share": 65,
+      "as_of": "2026-07-30T18:32:51.162600+00:00",
+      "newsroom_total": 115,
+      "overall_share": 57,
       "provenance": "data",
       "series": [
         {
@@ -203,63 +203,147 @@
           "month": "2026-06",
           "newsroom": 6,
           "universe": 7
+        },
+        {
+          "ed_share": 24,
+          "month": "2026-07",
+          "newsroom": 9,
+          "universe": 28
         }
       ],
-      "total_universe": 163,
-      "universe_total": 57
+      "total_universe": 200,
+      "universe_total": 85
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:47:36.388516+00:00",
+      "as_of": "2026-07-30T18:32:50.950072+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.263,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "They are the language that client developers, researchers, wallets, DeFi protocols and validators use to coordinate upgrades on a live, permissionless network without centralized control.",
           "from": "validators",
-          "phrase": "Validators process blobs as part of data availability in Ethereum.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
+          "observed_at": "2026-04-17",
+          "phrase": "Mentioned in this territory's explainer.",
+          "relation_type": null,
+          "role": null,
+          "source": "observed_relation",
           "tier": "related",
-          "to": "blobs",
-          "weight": 19
+          "to": "ethereum-improvement-proposal",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 26
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.212,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "Originally called \"Miner Extractable Value,\" the label shifted to \"Maximal Extractable Value\" after Ethereum's transition to proof-of-stake in 2022, when validators replaced miners as the parties controlling block construction.",
           "from": "validators",
-          "phrase": "Pectra is an Ethereum upgrade affecting validator operations.",
-          "relation_type": "event",
-          "source": "draft_relation",
+          "observed_at": "2026-04-18",
+          "phrase": "Mentioned in this territory's explainer.",
+          "relation_type": null,
+          "role": null,
+          "source": "observed_relation",
           "tier": "related",
-          "to": "pectra",
-          "weight": 18
+          "to": "mev",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 21
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "validators",
-          "phrase": "Validators are a key component of blockchain infrastructure.",
-          "relation_type": "category",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "infrastructure",
-          "weight": 17
+          "observed_at": null,
+          "phrase": "institutional adoption",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "institutional-adoption",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ethereum-improvement-proposal",
+          "relation_type": null,
+          "role": null,
+          "to": "validators",
+          "verified": false,
+          "weight": 26
         },
         {
-          "dir": "out",
-          "from": "validators",
-          "phrase": "Tempo is a consensus protocol comparable to validator-based systems.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "tempo",
-          "weight": 17
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "mev",
+          "relation_type": null,
+          "role": null,
+          "to": "validators",
+          "verified": false,
+          "weight": 21
         },
         {
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "validators",
-          "phrase": "Canton Network uses validators in its privacy-focused design.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "cantonnetwork",
-          "weight": 17
+          "relation_type": null,
+          "role": null,
+          "to": "ethereum-improvement-proposal",
+          "verified": false,
+          "weight": 16
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "validators",
+          "relation_type": null,
+          "role": null,
+          "to": "institutional-adoption",
+          "verified": false,
+          "weight": 14
         }
       ],
       "nodes": [
@@ -272,46 +356,73 @@
         },
         {
           "center": false,
-          "name": "Blobs",
-          "slug": "blobs",
-          "source": "draft_relation",
+          "confidence": 0.263,
+          "is_stub": false,
+          "name": "EIP",
+          "observed_at": "2026-04-17",
+          "slug": "ethereum-improvement-proposal",
+          "source": "observed_relation",
           "tier": "related",
-          "weight": 19
+          "verified": false,
+          "verified_at": null,
+          "weight": 26
         },
         {
           "center": false,
-          "name": "Pectra",
-          "slug": "pectra",
-          "source": "draft_relation",
+          "confidence": 0.212,
+          "is_stub": false,
+          "name": "MEV",
+          "observed_at": "2026-04-18",
+          "slug": "mev",
+          "source": "observed_relation",
           "tier": "related",
-          "weight": 18
+          "verified": false,
+          "verified_at": null,
+          "weight": 21
         },
         {
           "center": false,
-          "name": "Infrastructure",
-          "slug": "infrastructure",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
-        },
-        {
-          "center": false,
-          "name": "Tempo",
-          "slug": "tempo",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
-        },
-        {
-          "center": false,
-          "name": "Canton Network",
-          "slug": "cantonnetwork",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Institutional Adoption",
+          "observed_at": null,
+          "slug": "institutional-adoption",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Blobs",
+          "shared_neighbors": 2,
+          "slug": "blobs"
+        },
+        {
+          "is_stub": false,
+          "name": "Canton Network",
+          "shared_neighbors": 2,
+          "slug": "cantonnetwork"
+        },
+        {
+          "is_stub": false,
+          "name": "Ethereum Upgrade",
+          "shared_neighbors": 2,
+          "slug": "ethereum-upgrade"
+        },
+        {
+          "is_stub": false,
+          "name": "Infrastructure",
+          "shared_neighbors": 2,
+          "slug": "infrastructure"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T01:39:27.897780+00:00",
@@ -376,17 +487,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 106,
-      "as_of": "2026-07-01T11:47:37.313931+00:00",
+      "article_count": 115,
+      "as_of": "2026-07-30T18:32:51.427518+00:00",
       "most_clicked": {
-        "clicks": 636,
+        "clicks": 639,
         "date": "2024-03-22T15:59:54.461505+00:00",
         "headline": "Ethereum's upcoming Pectra upgrade to adjust validator stake range to ease operational burden and enhance reward opportunities for validators.",
         "lev_url": "https://leviathannews.xyz/4344/ethereums-upcoming-pectra-upgrade-to-adjust-validator-stake-range-to-ease-operational-burden-and-enhance-reward-opportunities-for-validators"
       },
       "provenance": "data",
-      "top_decile_share": 33,
-      "total_clicks": 8075
+      "top_decile_share": 34,
+      "total_clicks": 8571
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:39:27.897693+00:00",
@@ -471,10 +582,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:47:37.136862+00:00",
+      "as_of": "2026-07-30T18:32:51.419911+00:00",
       "items": [
         {
-          "clicks": 58,
+          "clicks": 59,
           "date": "2026-04-09T01:11:10.138657+00:00",
           "headline": "Ethereum’s Pectra upgrade powers Lido’s consolidation mechanism, letting validators transfer balances directly and stay productive while migrating into stVaults",
           "hot_score": 25983.05143,
@@ -483,7 +594,7 @@
           "url": "https://x.com/i/status/2041795861647131100"
         },
         {
-          "clicks": 51,
+          "clicks": 56,
           "date": "2026-04-09T01:06:27.587543+00:00",
           "headline": "Ethereum researchers propose “Block-in-Blobs” (EIP-8142) to shift execution data into blobs, reducing validator load while preserving availability in next-gen network scaling push",
           "hot_score": 21051.895296,
@@ -492,7 +603,7 @@
           "url": "https://www.theblock.co/post/396669/blocks-are-dead-long-live-blobs-ethereum-researchers-explore-upgrade-to-ease-validator-data-burden?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 45,
+          "clicks": 47,
           "date": "2026-04-15T09:44:32.198548+00:00",
           "headline": "Alchemy integrates with Canton Network, joining 800+ validators and major financial giants to scale $8T+ tokenized asset ecosystem for institutional blockchain adoption",
           "hot_score": 6640.313036,
@@ -501,7 +612,7 @@
           "url": "https://x.com/i/status/2044077407720862094"
         },
         {
-          "clicks": 28,
+          "clicks": 30,
           "date": "2026-04-14T14:13:50.348546+00:00",
           "headline": "Visa, Stripe, and Standard Chartered's Zodia Custody become validators on Tempo payments blockchain",
           "hot_score": 4056.962492,
@@ -510,7 +621,25 @@
           "url": "https://www.theblock.co/post/397286/visa-stripe-zodia-custody-standard-chartered-validators-tempo"
         },
         {
-          "clicks": 38,
+          "clicks": 36,
+          "date": "2026-07-29T07:45:36.160518+00:00",
+          "headline": "BirdAI Labs raises $4M seed led by Castle Island Ventures to build transparent onchain trading infrastructure that improves execution for traders, market makers, and validators",
+          "hot_score": 2426.594604,
+          "lev_url": "https://leviathannews.xyz/283793/birdai-labs-raises-4-million-seed-round-led-by-castle-island-ventures-to-return-onchain-trading-value-to-the-people-who-create-it-the-company-is-building-a-transparent-path-to-bett",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260729052546_wm7dtYaDjFol.jpg",
+          "url": "https://www.prnewswire.com/news-releases/birdai-labs-raises-4-million-to-return-onchain-trading-value-to-the-people-who-create-it-302836052.html"
+        },
+        {
+          "clicks": 34,
+          "date": "2026-07-27T14:21:00.713628+00:00",
+          "headline": "Lido begins migrating $16.5B in staked ETH to a new architecture, reducing validator count by one-third while introducing bonded requirements for node operators",
+          "hot_score": 1636.793565,
+          "lev_url": "https://leviathannews.xyz/282582/lido-begins-moving-165-billion-in-staked-ether-to-cut-validator-count-by-a-third-20260727",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727141054_bddEdySVLJfZ.png",
+          "url": "https://www.coindesk.com/tech/2026/07/27/lido-begins-moving-usd16-5-billion-in-staked-ether-to-cut-validator-count-by-a-third"
+        },
+        {
+          "clicks": 39,
           "date": "2026-06-02T14:32:14.690566+00:00",
           "headline": "Lido targets a July launch for Curated Module v2 after DAO approval of a new operator framework rewarding validator reliability, client diversity and long-term ecosystem participation",
           "hot_score": 861.051234,
@@ -519,40 +648,22 @@
           "url": "https://x.com/lidofinance/status/2061778850388820266"
         },
         {
-          "clicks": 28,
+          "clicks": 29,
           "date": "2026-05-14T16:48:08.720923+00:00",
           "headline": "LI.FI launches a validator on Monad, deepening its role in securing the network and expanding decentralization across the ecosystem",
           "hot_score": 835.2,
           "lev_url": "https://leviathannews.xyz/242347/lifi-launches-a-validator-on-monad-deepening-its-role-in-securing-the-network-and-expanding-decentralization-across-the-ecosystem",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260514164348_TxRJ32z-t3ko.jpg",
           "url": "https://x.com/i/web/status/2054922064570859820"
-        },
-        {
-          "clicks": 36,
-          "date": "2026-05-16T17:23:30.058240+00:00",
-          "headline": "Jump Crypto is rolling out Firedancer cautiously across Solana, prioritizing stability and validator resilience as the network’s long-awaited second client nears adoption",
-          "hot_score": 740.006919,
-          "lev_url": "https://leviathannews.xyz/243562/jump-crypto-is-rolling-out-firedancer-cautiously-across-solana-prioritizing-stability-and-validator-resilience-as-the-networks-long-awaited-second-client-nears-adoption",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260516150832_zco1QlW_RbEh.jpg",
-          "url": "https://www.coindesk.com/tech/2026/05/16/jump-crypto-s-firedancer-is-taking-a-slow-and-steady-approach-to-its-long-awaited-solana-infrastructure-rollout"
-        },
-        {
-          "clicks": 56,
-          "date": "2026-06-19T10:57:56.711881+00:00",
-          "headline": "Solana’s decentralization is stronger than critics claim, with stake distribution, native staking and validator control metrics comparing favorably to Ethereum",
-          "hot_score": 721.188099,
-          "lev_url": "https://leviathannews.xyz/259350/decentralization-the-multi-dimensional-problem-a-public-blockchains-entire-premise-depends-on-control-being-distributed-widely-enough-so-that-no-individual-or-coordinated-small-g",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260619103701_HSQvFhvaeLxR.jpg",
-          "url": "https://x.com/j0e_cooks/status/2067640765308616841"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:47:37.053812+00:00",
+      "as_of": "2026-07-30T18:32:51.393445+00:00",
       "editorial": [
         {
-          "count": 40,
+          "count": 44,
           "source": "x.com"
         },
         {
@@ -560,11 +671,11 @@
           "source": "theblock.co"
         },
         {
-          "count": 7,
+          "count": 9,
           "source": "coindesk.com"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "ethresear.ch"
         },
         {
@@ -584,6 +695,10 @@
           "source": "crypto.news"
         },
         {
+          "count": 2,
+          "source": "prnewswire.com"
+        },
+        {
           "count": 1,
           "source": "businesswire.com"
         },
@@ -594,18 +709,22 @@
         {
           "count": 1,
           "source": "eips.ethereum.org"
-        },
-        {
-          "count": 1,
-          "source": "discord.com"
         }
       ],
-      "editorial_distinct": 38,
+      "editorial_distinct": 39,
       "provenance": "data",
       "universe": [
         {
-          "count": 51,
+          "count": 71,
           "source": "x.com"
+        },
+        {
+          "count": 2,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 2,
+          "source": "crowdfundinsider.com"
         },
         {
           "count": 1,
@@ -629,10 +748,22 @@
         },
         {
           "count": 1,
-          "source": "coindesk.com"
+          "source": "decrypt.co"
+        },
+        {
+          "count": 1,
+          "source": "avax.network"
+        },
+        {
+          "count": 1,
+          "source": "stellar.org"
+        },
+        {
+          "count": 1,
+          "source": "financefeeds.com"
         }
       ],
-      "universe_distinct": 7
+      "universe_distinct": 13
     }
   },
   "official_links": [],

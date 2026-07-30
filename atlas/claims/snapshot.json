@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:50:56.220004+00:00",
+      "as_of": "2026-07-30T18:00:48.708745+00:00",
       "newsroom_total": 123,
-      "overall_share": 41,
+      "overall_share": 36,
       "provenance": "data",
       "series": [
         {
@@ -232,64 +232,118 @@
           "ed_share": 0,
           "month": "2026-07",
           "newsroom": 0,
-          "universe": 1
+          "universe": 38
         }
       ],
-      "total_universe": 300,
-      "universe_total": 177
+      "total_universe": 337,
+      "universe_total": 214
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:50:55.790983+00:00",
+      "as_of": "2026-07-30T18:00:42.563287+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "claims",
-          "phrase": "Claims often fall under legal disputes or regulatory actions.",
-          "relation_type": "category",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "legal",
-          "weight": 19
+          "observed_at": null,
+          "phrase": "Biden",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "biden",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         },
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "claims",
-          "phrase": "BIS is a central bank body; unclear direct relation to claims.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "bis",
-          "weight": 16
-        },
-        {
-          "dir": "out",
-          "from": "claims",
-          "phrase": "FTX collapse generated many claims from creditors.",
-          "relation_type": "event",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "ftx",
-          "weight": 15
-        },
-        {
-          "dir": "out",
-          "from": "claims",
-          "phrase": "Binance faces claims similar to other exchanges.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
+          "observed_at": null,
+          "phrase": "Binance",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
           "to": "binance",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "claims",
+          "observed_at": null,
+          "phrase": "legal",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "legal",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "claims",
+          "relation_type": null,
+          "role": null,
+          "to": "binance",
+          "verified": false,
           "weight": 15
         },
         {
-          "dir": "out",
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
           "from": "claims",
-          "phrase": "Claims are central to lawsuits.",
-          "relation_type": "category",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "lawsuit",
-          "weight": 15
+          "relation_type": null,
+          "role": null,
+          "to": "legal",
+          "verified": false,
+          "weight": 19
         }
       ],
       "nodes": [
@@ -302,46 +356,67 @@
         },
         {
           "center": false,
-          "name": "legal",
-          "slug": "legal",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 19
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Biden",
+          "observed_at": null,
+          "slug": "biden",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "BIS",
-          "slug": "bis",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 16
-        },
-        {
-          "center": false,
-          "name": "FTX",
-          "slug": "ftx",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Binance",
+          "observed_at": null,
           "slug": "binance",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
-          "name": "Lawsuit",
-          "slug": "lawsuit",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "legal",
+          "observed_at": null,
+          "slug": "legal",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "CZ",
+          "shared_neighbors": 3,
+          "slug": "cz"
+        },
+        {
+          "is_stub": false,
+          "name": "DOJ",
+          "shared_neighbors": 2,
+          "slug": "doj"
+        },
+        {
+          "is_stub": false,
+          "name": "Lawsuit",
+          "shared_neighbors": 2,
+          "slug": "lawsuit"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T02:18:50.677913+00:00",
@@ -401,16 +476,16 @@
     },
     "reader_signal": {
       "article_count": 123,
-      "as_of": "2026-07-01T11:50:57.967886+00:00",
+      "as_of": "2026-07-30T18:00:56.167591+00:00",
       "most_clicked": {
-        "clicks": 660,
+        "clicks": 662,
         "date": "2024-03-29T22:47:53.628139+00:00",
         "headline": "Hedge funds that scooped up FTX bankruptcy claims are looking at 9-figure paydays.",
         "lev_url": "https://leviathannews.xyz/4509/hedge-funds-that-scooped-up-ftx-bankruptcy-claims-are-looking-at-9-figure-paydays"
       },
       "provenance": "data",
       "top_decile_share": 29,
-      "total_clicks": 13067
+      "total_clicks": 13171
     },
     "reader_threads": {
       "as_of": "2026-06-26T02:18:50.677817+00:00",
@@ -495,10 +570,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:50:57.884032+00:00",
+      "as_of": "2026-07-30T18:00:56.048547+00:00",
       "items": [
         {
-          "clicks": 69,
+          "clicks": 71,
           "date": "2025-12-12T09:05:19.374983+00:00",
           "headline": "Pavel Paramonov argues crypto cards have no long-term future, saying they rely on banks, add fees, lack privacy, and contradict crypto’s permissionless ethos. He claims most will die out, with only models like EtherFi aligning with real crypto values.",
           "hot_score": 115.239792,
@@ -507,7 +582,7 @@
           "url": "https://x.com/i/status/1999124531143721283"
         },
         {
-          "clicks": 92,
+          "clicks": 95,
           "date": "2026-01-31T08:39:48.761596+00:00",
           "headline": "JPMorgan’s Jamie Dimon Tells Coinbase CEO Brian Armstrong “You Are Full of Sh*t” in Davos Clash Over Claims Banks Are Undermining US Crypto Market Structure Bill [cryptonews](",
           "hot_score": 110.771563,
@@ -516,7 +591,7 @@
           "url": "https://cryptonews.com/news/jpmorgans-dimon-tells-coinbases-armstrong-to-stop-lying-about-crypto-bill/"
         },
         {
-          "clicks": 46,
+          "clicks": 49,
           "date": "2025-12-01T14:52:02.166671+00:00",
           "headline": "Another day, another headline. Now it’s the White House’s AI & crypto czar, David Sacks, pushing back on conflict-of-interest claims. Politics, power, crypto, always the perfect storm.",
           "hot_score": 83.05821,
@@ -525,7 +600,7 @@
           "url": "https://www.theblock.co/post/380916/white-house-ai-crypto-czar-david-sacks-rejects-conflict-of-interest-claims?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 47,
+          "clicks": 52,
           "date": "2025-12-15T00:06:04.651920+00:00",
           "headline": "ZachXBT accuses edgeX of MEXC cartel ties in DeFi clash. The on-chain investigator pointed to suspicious volume surges on edgeX, suggesting fake trading activity and connections to manipulative networks tied to the MEXC exchange. edgeX co-founder KF.edge quickly denied the claims, stressing their partnership with Amber Group and commitment to professional standards.",
           "hot_score": 70.571677,
@@ -534,7 +609,7 @@
           "url": "https://x.com/zachxbt/status/2000184449493827649"
         },
         {
-          "clicks": 29,
+          "clicks": 33,
           "date": "2025-12-11T00:49:59.224583+00:00",
           "headline": "Crypto-focused AI startup Surf raised $15 million from Pantera Capital, Coinbase Ventures, and Digital Currency Group. Surf claims its platform outperforms ChatGPT and Grok on crypto tasks, aiming to reduce trading errors and improve investor decision-making.",
           "hot_score": 36.520591,
@@ -543,7 +618,7 @@
           "url": "https://www.theblock.co/post/382082/crypto-ai-four-times-better-chatgpt-grok-raises-15-million-fortune?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 27,
+          "clicks": 28,
           "date": "2025-12-19T07:15:36.534497+00:00",
           "headline": "Fetch.ai says its AI agents will overcome online retail barriers faced by today’s tools. The AI developer claims the system, set to launch in January 2026, allows agents to complete payments with credit cards, stablecoins, and FET tokens. Fetch.ai says they’ve been working on the new feature for at least five years as society is moving from a web-based economy to an AI-first economy.",
           "hot_score": 35.051086,
@@ -552,7 +627,7 @@
           "url": "https://decrypt.co/352805/fetchai-says-ai-agents-overcome-online-retail-barriers-todays-tools"
         },
         {
-          "clicks": 26,
+          "clicks": 28,
           "date": "2025-12-19T08:24:40.342063+00:00",
           "headline": "Terraform’s liquidators sued Jump Trading for $4B, alleging it secretly propped up UST, profited from Luna trades, and helped trigger crypto’s largest collapse, according to court filings and prior SEC claims.",
           "hot_score": 32.581581,
@@ -561,7 +636,7 @@
           "url": "https://cryptonews.com/news/terraform-liquidators-allege-jump-trading-helped-fuel-crash/?feed_id=24842&_unique_id=6944da654730b"
         },
         {
-          "clicks": 31,
+          "clicks": 32,
           "date": "2025-12-15T09:01:19.985560+00:00",
           "headline": "Binance denied claims it delayed freezing funds tied to the Upbit hack, saying it acted immediately and worked with law enforcement. South Korean authorities allege only part of the stolen assets were frozen as hackers laundered funds rapidly.",
           "hot_score": 30.712076,
@@ -573,7 +648,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:50:57.695369+00:00",
+      "as_of": "2026-07-30T18:00:55.560176+00:00",
       "editorial": [
         {
           "count": 46,
@@ -628,55 +703,55 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 84,
+          "count": 103,
           "source": "x.com"
         },
         {
-          "count": 25,
+          "count": 26,
           "source": "cointelegraph.com"
         },
         {
-          "count": 13,
+          "count": 15,
+          "source": "decrypt.co"
+        },
+        {
+          "count": 15,
           "source": "financefeeds.com"
         },
         {
           "count": 12,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 10,
           "source": "crowdfundinsider.com"
         },
         {
-          "count": 9,
+          "count": 11,
           "source": "theblock.co"
         },
         {
-          "count": 4,
+          "count": 5,
           "source": "coindesk.com"
         },
         {
-          "count": 3,
+          "count": 4,
           "source": "independent.co.uk"
         },
         {
-          "count": 2,
+          "count": 3,
           "source": "news.bloomberglaw.com"
+        },
+        {
+          "count": 3,
+          "source": "truthsocial.com"
+        },
+        {
+          "count": 2,
+          "source": "thestreet.com"
         },
         {
           "count": 2,
           "source": "reuters.com"
-        },
-        {
-          "count": 1,
-          "source": "businessinsider.com"
-        },
-        {
-          "count": 1,
-          "source": "investing.com"
         }
       ],
-      "universe_distinct": 23
+      "universe_distinct": 24
     }
   },
   "official_links": [],

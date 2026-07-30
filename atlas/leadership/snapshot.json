@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T12:02:52.448574+00:00",
-      "newsroom_total": 12,
-      "overall_share": 15,
+      "as_of": "2026-07-30T18:15:30.437519+00:00",
+      "newsroom_total": 17,
+      "overall_share": 13,
       "provenance": "data",
       "series": [
         {
@@ -35,63 +35,111 @@
           "month": "2026-06",
           "newsroom": 2,
           "universe": 12
+        },
+        {
+          "ed_share": 11,
+          "month": "2026-07",
+          "newsroom": 5,
+          "universe": 39
         }
       ],
-      "total_universe": 82,
-      "universe_total": 70
+      "total_universe": 126,
+      "universe_total": 109
     },
     "entity_graph": {
-      "as_of": "2026-07-01T12:02:51.234766+00:00",
+      "as_of": "2026-07-30T18:15:29.564313+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "leadership",
-          "phrase": "Leadership changes often coincide with protocol updates or announcements.",
-          "relation_type": "event",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "update",
-          "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "leadership",
-          "phrase": "CEX leadership decisions impact market dynamics similarly to DeFi governance.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "cex",
-          "weight": 18
-        },
-        {
-          "dir": "out",
-          "from": "leadership",
-          "phrase": "ETH Foundation leadership influences Ethereum's direction and community.",
-          "relation_type": "influence",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "eth-foundation",
-          "weight": 17
-        },
-        {
-          "dir": "out",
-          "from": "leadership",
-          "phrase": "Gemini's leadership is comparable in centralized exchange context.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "gemini",
-          "weight": 14
-        },
-        {
-          "dir": "out",
-          "from": "leadership",
+          "observed_at": null,
           "phrase": "decentralization",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "decentralization",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "leadership",
+          "observed_at": null,
+          "phrase": "Layer 1",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "layer-1",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "leadership",
+          "observed_at": null,
+          "phrase": "update",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "update",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "leadership",
+          "relation_type": null,
+          "role": null,
+          "to": "update",
+          "verified": false,
+          "weight": 18
         }
       ],
       "nodes": [
@@ -104,46 +152,48 @@
         },
         {
           "center": false,
-          "name": "update",
-          "slug": "update",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
-          "name": "CEX",
-          "slug": "cex",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 18
-        },
-        {
-          "center": false,
-          "name": "ETH Foundation",
-          "slug": "eth-foundation",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 17
-        },
-        {
-          "center": false,
-          "name": "Gemini",
-          "slug": "gemini",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 14
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Decentralization",
+          "observed_at": null,
           "slug": "decentralization",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Layer 1",
+          "observed_at": null,
+          "slug": "layer-1",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "update",
+          "observed_at": null,
+          "slug": "update",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T05:46:05.809693+00:00",
@@ -202,17 +252,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 12,
-      "as_of": "2026-07-01T12:02:53.613921+00:00",
+      "article_count": 17,
+      "as_of": "2026-07-30T18:15:31.309205+00:00",
       "most_clicked": {
-        "clicks": 149,
+        "clicks": 155,
         "date": "2026-03-17T06:47:36.269380+00:00",
         "headline": "Messari CEO steps down as company cuts staff and pivots to become an AI-first platform, with CTO Diran Li taking over leadership",
         "lev_url": "https://leviathannews.xyz/210697/messari-ceo-steps-down-as-company-cuts-staff-and-pivots-to-become-an-ai-first-platform-with-cto-diran-li-taking-over-leadership"
       },
       "provenance": "data",
-      "top_decile_share": 23,
-      "total_clicks": 650
+      "top_decile_share": 17,
+      "total_clicks": 896
     },
     "reader_threads": {
       "as_of": "2026-06-26T05:46:05.809611+00:00",
@@ -291,10 +341,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-01T12:02:53.530368+00:00",
+      "as_of": "2026-07-30T18:15:31.299343+00:00",
       "items": [
         {
-          "clicks": 54,
+          "clicks": 57,
           "date": "2026-04-09T15:06:40.509096+00:00",
           "headline": "Securitize appoints former SEC and JPMorgan executive Brett Redfearn as president and board member, strengthening leadership as tokenization and digital asset markets expand",
           "hot_score": 7256.829083,
@@ -303,7 +353,16 @@
           "url": "https://x.com/i/status/2042226128966865086"
         },
         {
-          "clicks": 47,
+          "clicks": 16,
+          "date": "2026-07-30T15:08:47.324892+00:00",
+          "headline": "Ethereum enters its second decade following a transformative year marked by Ethereum Foundation leadership changes and accelerating institutional adoption",
+          "hot_score": 3106.237843,
+          "lev_url": "https://leviathannews.xyz/284975/ethereum-enters-its-second-decade-after-a-year-of-upheaval-at-the-foundation-20260730",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260730150652_qwNX4grxK_q8.jpg",
+          "url": "https://www.coindesk.com/tech/2026/07/30/ethereum-enters-its-second-decade-after-a-year-of-upheaval-at-the-foundation"
+        },
+        {
+          "clicks": 50,
           "date": "2026-04-16T16:15:53.510669+00:00",
           "headline": "ETHGlobal co-founder Josh Stark steps down from Ethereum Foundation amid continued leadership turnover",
           "hot_score": 2178.344038,
@@ -321,7 +380,7 @@
           "url": "https://x.com/i/status/2046247709569323411"
         },
         {
-          "clicks": 149,
+          "clicks": 155,
           "date": "2026-03-17T06:47:36.269380+00:00",
           "headline": "Messari CEO steps down as company cuts staff and pivots to become an AI-first platform, with CTO Diran Li taking over leadership",
           "hot_score": 914.051897,
@@ -330,7 +389,16 @@
           "url": "https://www.theblock.co/post/393840/messari-ceo-steps-down-layoffs?utm_source=twitter&utm_medium=social"
         },
         {
-          "clicks": 36,
+          "clicks": 74,
+          "date": "2026-07-23T07:15:31.558753+00:00",
+          "headline": "a16z Chris Dixon urges Congress to pass the CLARITY ACT, arguing clear blockchain rules will unlock tokenization, stablecoins and institutional crypto adoption while strengthening U.S. leadership",
+          "hot_score": 751.060496,
+          "lev_url": "https://leviathannews.xyz/280513/every-generation-gets-a-chance-to-upgrade-its-infrastructure-in-the-1990s-it-was-the-internet-policymakers-worried-that-it-would-disrupt-existing-industries-and-create-new-risks",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260723065935_51sU8WXdXJrP.jpg",
+          "url": "https://x.com/cdixon/status/2079986298434339301"
+        },
+        {
+          "clicks": 39,
           "date": "2026-05-26T10:14:20.700412+00:00",
           "headline": "GSR Researcher, Carlos Guzman, says Ethereum’s long-term moat lies in “credible neutrality,” even as leadership exits, declining revenues, and rising competitors pressure the ecosystem",
           "hot_score": 733.283741,
@@ -339,45 +407,31 @@
           "url": "https://x.com/carlos_guzman/status/2058999409162293419"
         },
         {
-          "clicks": 43,
+          "clicks": 53,
           "date": "2026-06-18T15:28:33.633791+00:00",
           "headline": "Ethereum Foundation leadership changes are becoming a governance story, not just personnel churn.",
           "hot_score": 455.828811,
           "lev_url": "https://leviathannews.xyz/258914/ethereum-foundation-leadership-changes-are-becoming-a-governance-story-not-just-personnel-churn",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260618152720_nTM5jTQnVigr.jpg",
           "url": "https://www.theblock.co/post/405271/ethereum-foundation-co-exec-director-board-member-hsiao-wei-wang-steps-down"
-        },
-        {
-          "clicks": 33,
-          "date": "2026-04-28T20:06:13.591328+00:00",
-          "headline": "SEC opens public comment on NYSE Arca proposal requiring 85% of crypto ETF assets meet listing standards, signaling push for clearer product rules under new leadership",
-          "hot_score": 300.4,
-          "lev_url": "https://leviathannews.xyz/236998/sec-opens-public-comment-on-nyse-arca-proposal-requiring-85-of-crypto-etf-assets-meet-listing-standards-signaling-push-for-clearer-product-rules-under-new-leadership",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260428133645_CcEWxDpeWbVw.jpg",
-          "url": "https://www.theblock.co/post/399135/us-sec-seeks-comment-on-nyse-arca-proposal-for-85-eligible-asset-rule-in-crypto-etf-listings?utm_source=rss&utm_medium=rss"
-        },
-        {
-          "clicks": 19,
-          "date": "2026-06-29T07:07:55.390785+00:00",
-          "headline": "BitMEX removes its CEO, CFO, and head of growth in a leadership shakeup, appointing general counsel Peter Wilkinson as the crypto exchange’s new chief executive",
-          "hot_score": 90.175438,
-          "lev_url": "https://leviathannews.xyz/264391/crypto-exchange-bitmex-removes-ceo-cfo-and-head-of-growth-20260629",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629070538_jTpTFyKKJgvN.png",
-          "url": "https://www.coindesk.com/business/2026/06/29/crypto-exchange-bitmex-removes-ceo-cfo-and-head-of-growth"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T12:02:53.436034+00:00",
+      "as_of": "2026-07-30T18:15:31.277966+00:00",
       "editorial": [
         {
-          "count": 4,
+          "count": 6,
           "source": "x.com"
         },
         {
           "count": 4,
           "source": "theblock.co"
+        },
+        {
+          "count": 4,
+          "source": "coindesk.com"
         },
         {
           "count": 1,
@@ -390,26 +444,38 @@
         {
           "count": 1,
           "source": "anthropic.com"
-        },
-        {
-          "count": 1,
-          "source": "coindesk.com"
         }
       ],
       "editorial_distinct": 6,
       "provenance": "data",
       "universe": [
         {
-          "count": 41,
+          "count": 59,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 13,
           "source": "truthsocial.com"
         },
         {
-          "count": 3,
+          "count": 5,
+          "source": "coindesk.com"
+        },
+        {
+          "count": 4,
           "source": "financefeeds.com"
+        },
+        {
+          "count": 4,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 3,
+          "source": "theblock.co"
+        },
+        {
+          "count": 3,
+          "source": "decrypt.co"
         },
         {
           "count": 2,
@@ -417,38 +483,22 @@
         },
         {
           "count": 2,
-          "source": "theblock.co"
+          "source": "thestreet.com"
         },
         {
           "count": 2,
-          "source": "crowdfundinsider.com"
+          "source": "wsj.com"
         },
         {
           "count": 2,
-          "source": "decrypt.co"
+          "source": "chainwire.org"
         },
         {
           "count": 1,
           "source": "blog.binance.us"
-        },
-        {
-          "count": 1,
-          "source": "thestreet.com"
-        },
-        {
-          "count": 1,
-          "source": "blog.somnia.network"
-        },
-        {
-          "count": 1,
-          "source": "algorand.co"
-        },
-        {
-          "count": 1,
-          "source": "markets.businessinsider.com"
         }
       ],
-      "universe_distinct": 16
+      "universe_distinct": 21
     }
   },
   "official_links": [],

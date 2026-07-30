@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-01T11:41:31.037372+00:00",
-      "newsroom_total": 153,
-      "overall_share": 12,
+      "as_of": "2026-07-30T17:59:13.027090+00:00",
+      "newsroom_total": 178,
+      "overall_share": 11,
       "provenance": "data",
       "series": [
         {
@@ -34,70 +34,112 @@
           "ed_share": 12,
           "month": "2026-06",
           "newsroom": 29,
-          "universe": 216
+          "universe": 217
         },
         {
-          "ed_share": 0,
+          "ed_share": 6,
           "month": "2026-07",
-          "newsroom": 0,
-          "universe": 2
+          "newsroom": 25,
+          "universe": 362
         }
       ],
-      "total_universe": 1260,
-      "universe_total": 1107
+      "total_universe": 1646,
+      "universe_total": 1468
     },
     "entity_graph": {
-      "as_of": "2026-07-01T11:41:29.857990+00:00",
+      "as_of": "2026-07-30T17:59:12.787599+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "blockchain",
-          "phrase": "Both are foundational distributed ledger technologies, often compared.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "ledger",
-          "weight": 15
-        },
-        {
-          "dir": "out",
-          "from": "blockchain",
-          "phrase": "Conferences are events where blockchain topics are discussed.",
-          "relation_type": "event",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "conference",
-          "weight": 13
-        },
-        {
-          "dir": "out",
-          "from": "blockchain",
-          "phrase": "Unclear relation; likely a comparable project or concept.",
-          "relation_type": "peer",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "arc",
-          "weight": 12
-        },
-        {
-          "dir": "out",
-          "from": "blockchain",
-          "phrase": "Stablecoins are a core DeFi primitive built on blockchain.",
-          "relation_type": "primitive",
-          "source": "draft_relation",
-          "tier": "related",
-          "to": "stablecoins",
-          "weight": 12
-        },
-        {
-          "dir": "out",
-          "from": "blockchain",
+          "observed_at": null,
           "phrase": "database",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
           "to": "database",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "blockchain",
+          "observed_at": null,
+          "phrase": "ledger",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "ledger",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "blockchain",
+          "observed_at": null,
+          "phrase": "technology",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "technology",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "blockchain",
+          "relation_type": null,
+          "role": null,
+          "to": "ledger",
+          "verified": false,
+          "weight": 15
         }
       ],
       "nodes": [
@@ -110,46 +152,48 @@
         },
         {
           "center": false,
-          "name": "Ledger",
-          "slug": "ledger",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 15
-        },
-        {
-          "center": false,
-          "name": "Conference",
-          "slug": "conference",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 13
-        },
-        {
-          "center": false,
-          "name": "Arc",
-          "slug": "arc",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 12
-        },
-        {
-          "center": false,
-          "name": "Stablecoins",
-          "slug": "stablecoins",
-          "source": "draft_relation",
-          "tier": "related",
-          "weight": 12
-        },
-        {
-          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Database",
+          "observed_at": null,
           "slug": "database",
           "source": "autolink",
           "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Ledger",
+          "observed_at": null,
+          "slug": "ledger",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Technology",
+          "observed_at": null,
+          "slug": "technology",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T00:05:55.450626+00:00",
@@ -214,17 +258,17 @@
       "source": "https://a16zcrypto.com/posts/article/why-wall-street-is-moving-onchain/"
     },
     "reader_signal": {
-      "article_count": 153,
-      "as_of": "2026-07-01T11:41:32.138324+00:00",
+      "article_count": 178,
+      "as_of": "2026-07-30T17:59:13.735834+00:00",
       "most_clicked": {
-        "clicks": 130,
+        "clicks": 137,
         "date": "2026-04-13T12:08:02.371483+00:00",
         "headline": "Beyond the sky: The story of how Jeff built Hyperliquid, a blockchain and crypto trading exchange, into the most profitable startup per employee on earth.",
         "lev_url": "https://leviathannews.xyz/227659/beyond-the-sky-the-story-of-how-jeff-built-hyperliquid-a-blockchain-and-crypto-trading-exchange-into-the-most-profitable-startup-per-employee-on-earth"
       },
       "provenance": "data",
-      "top_decile_share": 20,
-      "total_clicks": 6391
+      "top_decile_share": 19,
+      "total_clicks": 7696
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:05:55.450559+00:00",
@@ -309,10 +353,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-01T11:41:32.046594+00:00",
+      "as_of": "2026-07-30T17:59:13.711930+00:00",
       "items": [
         {
-          "clicks": 130,
+          "clicks": 137,
           "date": "2026-04-13T12:08:02.371483+00:00",
           "headline": "Beyond the sky: The story of how Jeff built Hyperliquid, a blockchain and crypto trading exchange, into the most profitable startup per employee on earth.",
           "hot_score": 105504.100459,
@@ -321,7 +365,7 @@
           "url": "https://archive.ph/DzHdk"
         },
         {
-          "clicks": 51,
+          "clicks": 54,
           "date": "2026-04-09T23:51:09.587870+00:00",
           "headline": "Operation Atlantic deploys real-time blockchain tracing to disrupt $83.8M in crypto approval phishing",
           "hot_score": 46698.948783,
@@ -330,7 +374,7 @@
           "url": "https://cointelegraph.com/news/operation-atlantic-crypto-scam-networks"
         },
         {
-          "clicks": 57,
+          "clicks": 60,
           "date": "2026-04-10T07:47:11.615879+00:00",
           "headline": "Coinbase teams up with US Secret Service and UK NCA to freeze $12M stolen via phishing, identifying over 20,000 victims as blockchain speed outpaces traditional finance response times",
           "hot_score": 11923.314774,
@@ -339,7 +383,7 @@
           "url": "https://x.com/i/status/2042398203342176474"
         },
         {
-          "clicks": 35,
+          "clicks": 37,
           "date": "2026-04-14T16:11:51.019046+00:00",
           "headline": "SkyMapper taps Avalanche to secure global telescope data, launching blockchain network to turn astronomical observations into immutable, verifiable records",
           "hot_score": 7330.22304,
@@ -348,7 +392,7 @@
           "url": "https://www.coindesk.com/tech/2026/04/13/avalanche-heads-to-the-stars-seti-telescope-data-goes-onchain"
         },
         {
-          "clicks": 51,
+          "clicks": 54,
           "date": "2026-04-16T08:45:33.319175+00:00",
           "headline": "South Korea to pilot blockchain-based deposit tokens replacing government expense cards, targeting full rollout by Q4 as public sector payments go onchain",
           "hot_score": 7141.635994,
@@ -357,7 +401,7 @@
           "url": "https://www.theblock.co/post/397688/south-korea-deposit-token-pilot?utm_source=rss&utm_medium=rss"
         },
         {
-          "clicks": 45,
+          "clicks": 47,
           "date": "2026-04-15T09:44:32.198548+00:00",
           "headline": "Alchemy integrates with Canton Network, joining 800+ validators and major financial giants to scale $8T+ tokenized asset ecosystem for institutional blockchain adoption",
           "hot_score": 6640.313036,
@@ -366,7 +410,7 @@
           "url": "https://x.com/i/status/2044077407720862094"
         },
         {
-          "clicks": 39,
+          "clicks": 41,
           "date": "2026-04-12T13:09:32.167659+00:00",
           "headline": "How Monad achieves parallel execution: concurrent transaction processing, conflict detection, and re-execution combine to deliver faster blocks while maintaining Ethereum’s ordered state model",
           "hot_score": 6344.643048,
@@ -375,7 +419,7 @@
           "url": "https://x.com/i/status/2043025228255621177"
         },
         {
-          "clicks": 62,
+          "clicks": 64,
           "date": "2026-04-12T08:52:08.390733+00:00",
           "headline": "Raise CEO George Bousis compares gift cards to stablecoins as platform moves $400B industry onto Solana, aiming to upgrade payments and stored value with blockchain rails",
           "hot_score": 5577.796945,
@@ -387,26 +431,26 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-01T11:41:31.955480+00:00",
+      "as_of": "2026-07-30T17:59:13.687107+00:00",
       "editorial": [
         {
-          "count": 62,
+          "count": 76,
           "source": "x.com"
         },
         {
-          "count": 16,
+          "count": 19,
           "source": "coindesk.com"
         },
         {
-          "count": 13,
+          "count": 16,
           "source": "theblock.co"
         },
         {
-          "count": 10,
+          "count": 11,
           "source": "cointelegraph.com"
         },
         {
-          "count": 8,
+          "count": 9,
           "source": "prnewswire.com"
         },
         {
@@ -438,59 +482,59 @@
           "source": "trmlabs.com"
         }
       ],
-      "editorial_distinct": 37,
+      "editorial_distinct": 40,
       "provenance": "data",
       "universe": [
         {
-          "count": 626,
+          "count": 821,
           "source": "x.com"
         },
         {
-          "count": 44,
+          "count": 59,
+          "source": "financefeeds.com"
+        },
+        {
+          "count": 57,
           "source": "wsj.com"
         },
         {
-          "count": 38,
+          "count": 54,
+          "source": "cointelegraph.com"
+        },
+        {
+          "count": 54,
+          "source": "crowdfundinsider.com"
+        },
+        {
+          "count": 54,
           "source": "coindesk.com"
+        },
+        {
+          "count": 49,
+          "source": "chainwire.org"
         },
         {
           "count": 38,
           "source": "markets.businessinsider.com"
         },
         {
-          "count": 37,
-          "source": "cointelegraph.com"
-        },
-        {
-          "count": 37,
-          "source": "crowdfundinsider.com"
-        },
-        {
-          "count": 37,
-          "source": "financefeeds.com"
-        },
-        {
-          "count": 35,
-          "source": "chainwire.org"
-        },
-        {
-          "count": 24,
-          "source": "decrypt.co"
-        },
-        {
-          "count": 23,
+          "count": 33,
           "source": "theblock.co"
         },
         {
-          "count": 12,
-          "source": "thestreet.com"
+          "count": 28,
+          "source": "decrypt.co"
         },
         {
-          "count": 12,
-          "source": "forbes.com"
+          "count": 15,
+          "source": "techinasia.com"
+        },
+        {
+          "count": 14,
+          "source": "thestreet.com"
         }
       ],
-      "universe_distinct": 77
+      "universe_distinct": 90
     }
   },
   "official_links": [],

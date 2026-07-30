@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:06:26.059491+00:00",
+      "as_of": "2026-07-30T18:33:05.564600+00:00",
       "newsroom_total": 43,
       "overall_share": 17,
       "provenance": "data",
@@ -160,99 +160,130 @@
           "ed_share": 2,
           "month": "2026-07",
           "newsroom": 1,
-          "universe": 49
+          "universe": 55
         }
       ],
-      "total_universe": 247,
-      "universe_total": 204
+      "total_universe": 253,
+      "universe_total": 210
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:06:25.269531+00:00",
+      "as_of": "2026-07-30T18:33:05.231089+00:00",
       "edges": [
         {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.232,
-          "description": "Co-covered in 3 approved stories; most recently May 2026.",
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "In practical terms, Venice offers a unified interface where users can generate text, images, audio, and video, as well as run agents and search, while developers can program against the same capabilities via API or onchain primitives.",
           "from": "video",
           "observed_at": "2026-05-22",
-          "phrase": "Co-covered in 3 approved stories; most recently May 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "venice",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 23
         },
         {
-          "confidence": 0.186,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "video",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "curve",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 19
-        },
-        {
-          "confidence": 0.142,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "video",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "media",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 14
-        },
-        {
-          "confidence": 0.136,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "video",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "research",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 14
-        },
-        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
           "confidence": 0.0,
+          "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
           "description_source": "autolink",
           "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
           "from": "video",
           "observed_at": null,
-          "phrase": "earnings",
+          "phrase": "curve",
           "relation_type": null,
+          "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "earnings",
+          "to": "curve",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
           "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "video",
+          "observed_at": null,
+          "phrase": "Telegram",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "telegram",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "venice",
+          "relation_type": null,
+          "role": null,
+          "to": "video",
+          "verified": false,
+          "weight": 23
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "video",
+          "relation_type": null,
+          "role": null,
+          "to": "curve",
+          "verified": false,
+          "weight": 19
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "video",
+          "relation_type": null,
+          "role": null,
+          "to": "venice",
+          "verified": false,
+          "weight": 23
         }
       ],
       "nodes": [
@@ -266,6 +297,7 @@
         {
           "center": false,
           "confidence": 0.232,
+          "is_stub": false,
           "name": "Venice",
           "observed_at": "2026-05-22",
           "slug": "venice",
@@ -277,46 +309,24 @@
         },
         {
           "center": false,
-          "confidence": 0.186,
+          "confidence": 0.0,
+          "is_stub": false,
           "name": "Curve",
           "observed_at": null,
           "slug": "curve",
-          "source": "observed_relation",
-          "tier": "related",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
-        },
-        {
-          "center": false,
-          "confidence": 0.142,
-          "name": "Media",
-          "observed_at": null,
-          "slug": "media",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 14
-        },
-        {
-          "center": false,
-          "confidence": 0.136,
-          "name": "Research",
-          "observed_at": null,
-          "slug": "research",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 14
+          "weight": 10
         },
         {
           "center": false,
           "confidence": 0.0,
-          "name": "Earnings",
+          "is_stub": false,
+          "name": "Telegram",
           "observed_at": null,
-          "slug": "earnings",
+          "slug": "telegram",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -324,7 +334,29 @@
           "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "crvUSD",
+          "shared_neighbors": 2,
+          "slug": "crvusd"
+        },
+        {
+          "is_stub": false,
+          "name": "Media",
+          "shared_neighbors": 2,
+          "slug": "media"
+        },
+        {
+          "is_stub": false,
+          "name": "Privacy",
+          "shared_neighbors": 2,
+          "slug": "privacy"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T06:11:08.989431+00:00",
@@ -390,7 +422,7 @@
     },
     "reader_signal": {
       "article_count": 43,
-      "as_of": "2026-07-29T23:06:26.701953+00:00",
+      "as_of": "2026-07-30T18:33:05.864156+00:00",
       "most_clicked": {
         "clicks": 351,
         "date": "2023-06-08T17:15:06.690958+00:00",
@@ -399,7 +431,7 @@
       },
       "provenance": "data",
       "top_decile_share": 30,
-      "total_clicks": 4259
+      "total_clicks": 4271
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:11:08.989344+00:00",
@@ -478,10 +510,10 @@
       "total": 5
     },
     "significant": {
-      "as_of": "2026-07-29T23:06:26.697434+00:00",
+      "as_of": "2026-07-30T18:33:05.859743+00:00",
       "items": [
         {
-          "clicks": 52,
+          "clicks": 53,
           "date": "2026-04-23T10:40:15.139867+00:00",
           "headline": "WLFI co-founder Zach Witkoff faces scrutiny after 2022 arrest video resurfaces, as Justin Sun lawsuit over frozen tokens adds pressure on DeFi project",
           "hot_score": 722.8,
@@ -490,7 +522,7 @@
           "url": "https://crypto.news/wlfi-co-founder-zach-witkoff-under-spotlight-after-2022-drug-arrest-video-surfaces/"
         },
         {
-          "clicks": 45,
+          "clicks": 46,
           "date": "2026-04-16T08:46:08.231648+00:00",
           "headline": "Solana sparks speculation after mentioning XRP in new video, fueling rumors of potential collaboration between two major blockchain ecosystems",
           "hot_score": 601.85312,
@@ -499,7 +531,7 @@
           "url": "https://x.com/i/status/2044467217920614714"
         },
         {
-          "clicks": 80,
+          "clicks": 81,
           "date": "2025-12-11T14:14:42.759286+00:00",
           "headline": "Disney Invests $1 Billion in OpenAI, Opening Sora to 200+ Disney, Marvel, Pixar, and Star Wars Characters for AI-Generated Video Content",
           "hot_score": 62.293658,
@@ -517,7 +549,7 @@
           "url": "https://x.com/araistotle/status/2071555852763554228"
         },
         {
-          "clicks": 25,
+          "clicks": 26,
           "date": "2025-12-12T09:34:56.715363+00:00",
           "headline": "YouTube launches option for U.S. creators to receive stablecoin payouts through PayPal. A spokesperson for Google, which owns YouTube, confirmed the video site has added payouts for creators in PayPal’s stablecoin but declined to comment further.",
           "hot_score": 25.303562,
@@ -544,7 +576,7 @@
           "url": "https://www.theverge.com/2024/12/9/24317090/openai-sora-text-to-video-ai-generator-confirmed-release"
         },
         {
-          "clicks": 333,
+          "clicks": 334,
           "date": "2025-03-05T22:22:42.047913+00:00",
           "headline": "A SQUID whale and a SQUID shrimp are fighting it out for the newly issued \"Waj Pass,\" to win editorial direction over an @0xmughal video, in the latest action (auction)",
           "hot_score": 0.0,
@@ -556,7 +588,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:06:26.682562+00:00",
+      "as_of": "2026-07-30T18:33:05.848432+00:00",
       "editorial": [
         {
           "count": 21,
@@ -607,11 +639,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 173,
+          "count": 177,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 11,
           "source": "decrypt.co"
         },
         {

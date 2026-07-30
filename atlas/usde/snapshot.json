@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-29T23:05:57.957128+00:00",
+      "as_of": "2026-07-30T18:32:45.964695+00:00",
       "newsroom_total": 55,
-      "overall_share": 57,
+      "overall_share": 56,
       "provenance": "data",
       "series": [
         {
@@ -157,102 +157,121 @@
           "universe": 12
         },
         {
-          "ed_share": 10,
+          "ed_share": 8,
           "month": "2026-07",
           "newsroom": 1,
-          "universe": 9
+          "universe": 11
         }
       ],
-      "total_universe": 97,
-      "universe_total": 42
+      "total_universe": 99,
+      "universe_total": 44
     },
     "entity_graph": {
-      "as_of": "2026-07-29T23:05:57.691527+00:00",
+      "as_of": "2026-07-30T18:32:45.571654+00:00",
       "edges": [
         {
-          "confidence": 0.525,
-          "description": "Co-covered in 64 approved stories; most recently July 2026.",
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.534,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
           "description_source": "evidence",
           "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": "Ethena is a synthetic dollar protocol built on Ethereum that issues USDe, a crypto-backed, derivatives-hedged asset designed to behave like a stablecoin while remaining fully onchain, permissionless, and independent of traditional bank reserves.",
           "from": "usde",
           "observed_at": "2026-07-11",
-          "phrase": "Co-covered in 64 approved stories; most recently July 2026.",
+          "phrase": "Mentioned in this territory's explainer.",
           "relation_type": null,
+          "role": null,
           "source": "observed_relation",
           "tier": "related",
           "to": "ethena",
+          "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
+          "weight": 53
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "usde",
+          "observed_at": null,
+          "phrase": "fiat",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "fiat",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "usde",
+          "observed_at": null,
+          "phrase": "Visa",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "visa",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        }
+      ],
+      "intra_edges": [
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "ethena",
+          "relation_type": null,
+          "role": null,
+          "to": "usde",
+          "verified": false,
+          "weight": 53
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "usde",
+          "relation_type": null,
+          "role": null,
+          "to": "ethena",
+          "verified": false,
           "weight": 52
-        },
-        {
-          "confidence": 0.207,
-          "description": "Co-covered in 5 approved stories; most recently October 2025.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "usde",
-          "observed_at": "2025-10-03",
-          "phrase": "Co-covered in 5 approved stories; most recently October 2025.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "dai",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 21
-        },
-        {
-          "confidence": 0.191,
-          "description": "Co-covered in 5 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "usde",
-          "observed_at": null,
-          "phrase": "Co-covered in 5 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "yield",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 19
-        },
-        {
-          "confidence": 0.175,
-          "description": "Co-covered in 3 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "usde",
-          "observed_at": null,
-          "phrase": "Co-covered in 3 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "pendle",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 18
-        },
-        {
-          "confidence": 0.161,
-          "description": "Co-covered in 6 approved stories.",
-          "description_source": "evidence",
-          "dir": "out",
-          "from": "usde",
-          "observed_at": null,
-          "phrase": "Co-covered in 6 approved stories.",
-          "relation_type": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "aave-token",
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 16
         }
       ],
       "nodes": [
@@ -265,7 +284,8 @@
         },
         {
           "center": false,
-          "confidence": 0.525,
+          "confidence": 0.534,
+          "is_stub": false,
           "name": "Ethena",
           "observed_at": "2026-07-11",
           "slug": "ethena",
@@ -273,58 +293,64 @@
           "tier": "related",
           "verified": false,
           "verified_at": null,
-          "weight": 52
+          "weight": 53
         },
         {
           "center": false,
-          "confidence": 0.207,
-          "name": "DAI",
-          "observed_at": "2025-10-03",
-          "slug": "dai",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 21
-        },
-        {
-          "center": false,
-          "confidence": 0.191,
-          "name": "Yield",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Fiat",
           "observed_at": null,
-          "slug": "yield",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "fiat",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 19
+          "weight": 10
         },
         {
           "center": false,
-          "confidence": 0.175,
-          "name": "Pendle",
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Visa",
           "observed_at": null,
-          "slug": "pendle",
-          "source": "observed_relation",
-          "tier": "related",
+          "slug": "visa",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 18
-        },
-        {
-          "center": false,
-          "confidence": 0.161,
-          "name": "AAVE",
-          "observed_at": null,
-          "slug": "aave-token",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 16
+          "weight": 10
         }
       ],
-      "provenance": "data"
+      "provenance": "data",
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "Alchemy",
+          "shared_neighbors": 2,
+          "slug": "alchemy"
+        },
+        {
+          "is_stub": false,
+          "name": "DAI",
+          "shared_neighbors": 2,
+          "slug": "dai"
+        },
+        {
+          "is_stub": false,
+          "name": "Mastercard",
+          "shared_neighbors": 2,
+          "slug": "mastercard"
+        },
+        {
+          "is_stub": false,
+          "name": "Pendle",
+          "shared_neighbors": 2,
+          "slug": "pendle"
+        }
+      ],
+      "total_routes": 3,
+      "visible_routes": 3
     },
     "event_timeline": {
       "as_of": "2026-06-26T06:54:06.778586+00:00",
@@ -390,7 +416,7 @@
     },
     "reader_signal": {
       "article_count": 55,
-      "as_of": "2026-07-29T23:05:58.178635+00:00",
+      "as_of": "2026-07-30T18:32:46.218576+00:00",
       "most_clicked": {
         "clicks": 326,
         "date": "2024-08-01T10:45:45.738840+00:00",
@@ -399,7 +425,7 @@
       },
       "provenance": "data",
       "top_decile_share": 22,
-      "total_clicks": 5481
+      "total_clicks": 5482
     },
     "reader_threads": {
       "as_of": "2026-06-26T06:54:06.778510+00:00",
@@ -484,7 +510,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-29T23:05:58.173449+00:00",
+      "as_of": "2026-07-30T18:32:46.214078+00:00",
       "items": [
         {
           "clicks": 25,
@@ -562,7 +588,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-29T23:05:58.159681+00:00",
+      "as_of": "2026-07-30T18:32:46.197787+00:00",
       "editorial": [
         {
           "count": 27,
@@ -617,7 +643,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 37,
+          "count": 39,
           "source": "x.com"
         },
         {
