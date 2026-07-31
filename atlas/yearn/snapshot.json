@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-31T07:28:12.728278+00:00",
+      "as_of": "2026-07-31T11:35:40.776571+00:00",
       "newsroom_total": 82,
       "overall_share": 82,
       "provenance": "data",
@@ -191,8 +191,34 @@
       "universe_total": 18
     },
     "entity_graph": {
-      "as_of": "2026-07-31T07:28:12.310067+00:00",
+      "as_of": "2026-07-31T11:35:40.286885+00:00",
       "edges": [
+        {
+          "attested": true,
+          "attested_at": null,
+          "attested_by": "",
+          "confidence": 0.99,
+          "curation_status": "attested",
+          "description": "Resupply's first-party launch post says the protocol was developed jointly as a SubDAO of Convex Finance and Yearn Finance; its current multisig disclosure names two Yearn contributors.",
+          "description_source": "canonical",
+          "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "yearn",
+          "observed_at": null,
+          "phrase": "Resupply's first-party launch post says the protocol was developed jointly as a SubDAO of Convex Finance and Yearn Finance; its current multisig disclosure names two Yearn contributors.",
+          "relation_type": "governance",
+          "role": "has_subdao",
+          "source": "canonical_relation",
+          "tier": "close",
+          "to": "resupply",
+          "verification_kind": "operator",
+          "verified": true,
+          "verified_at": "2026-07-31T11:35:12.325237+00:00",
+          "verified_by": "gerrithall",
+          "weight": 94
+        },
         {
           "attested": true,
           "attested_at": null,
@@ -218,6 +244,32 @@
           "verified_at": "2026-07-29T23:07:48.626857+00:00",
           "verified_by": "gerrit",
           "weight": 92
+        },
+        {
+          "attested": true,
+          "attested_at": null,
+          "attested_by": "",
+          "confidence": 0.99,
+          "curation_status": "attested",
+          "description": "Resupply says Convex Finance and Yearn Finance jointly developed it as their SubDAO, and its main multisig names two contributors from each ecosystem; this is a current operating partnership, not governance control by one party over the other.",
+          "description_source": "canonical",
+          "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "yearn",
+          "observed_at": null,
+          "phrase": "Resupply says Convex Finance and Yearn Finance jointly developed it as their SubDAO, and its main multisig names two contributors from each ecosystem; this is a current operating partnership, not governance control by one party over the other.",
+          "relation_type": "ecosystem",
+          "role": "",
+          "source": "canonical_relation",
+          "tier": "close",
+          "to": "convex",
+          "verification_kind": "operator",
+          "verified": true,
+          "verified_at": "2026-07-31T11:35:11.146938+00:00",
+          "verified_by": "gerrithall",
+          "weight": 90
         },
         {
           "attested": true,
@@ -322,46 +374,32 @@
           "verified_at": "2026-07-29T23:07:48.707911+00:00",
           "verified_by": "gerrit",
           "weight": 74
-        },
-        {
-          "attested": false,
-          "attested_at": null,
-          "attested_by": null,
-          "confidence": 0.99,
-          "curation_status": "canonical",
-          "description": "E009 explicitly identifies Convex as an integration in Yearn's roadmap.",
-          "description_source": "canonical",
-          "dir": "out",
-          "direction": "in",
-          "ended_at": null,
-          "evidence_excerpt": null,
-          "from": "yearn",
-          "observed_at": null,
-          "phrase": "E009 explicitly identifies Convex as an integration in Yearn's roadmap.",
-          "relation_type": "peer",
-          "role": "integrates_with",
-          "source": "canonical_relation",
-          "tier": "close",
-          "to": "convex",
-          "verification_kind": "agent",
-          "verified": true,
-          "verified_at": "2026-07-31T07:28:08.843191+00:00",
-          "verified_by": "agent:gpt-5.6-luna:terra-timebox-20260730",
-          "weight": 99
         }
       ],
       "intra_edges": [
         {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
+          "attested": true,
+          "curation_status": "attested",
+          "description": "Convex's public Governance Power dashboard reported control of 419.9m veCRV, or 53.59% of the total, at the evidence capture; Convex's voting documentation says those veCRV rights are exercised through vlCVX.",
           "ended_at": null,
           "from": "convex",
-          "relation_type": null,
+          "relation_type": "governance",
           "role": null,
           "to": "curve",
-          "verified": false,
-          "weight": 32
+          "verified": true,
+          "weight": 100
+        },
+        {
+          "attested": true,
+          "curation_status": "attested",
+          "description": "Resupply's first-party launch post says the protocol was developed jointly as a SubDAO of Convex Finance and Yearn Finance; its current multisig disclosure names two Convex contributors.",
+          "ended_at": null,
+          "from": "resupply",
+          "relation_type": "governance",
+          "role": "subdao_of",
+          "to": "convex",
+          "verified": true,
+          "weight": 94
         },
         {
           "attested": false,
@@ -374,6 +412,30 @@
           "to": "curve",
           "verified": false,
           "weight": 39
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "crvusd",
+          "relation_type": null,
+          "role": null,
+          "to": "resupply",
+          "verified": false,
+          "weight": 23
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "curve",
+          "relation_type": null,
+          "role": null,
+          "to": "resupply",
+          "verified": false,
+          "weight": 20
         },
         {
           "attested": false,
@@ -398,6 +460,19 @@
         },
         {
           "center": false,
+          "confidence": 0.99,
+          "is_stub": true,
+          "name": "Resupply",
+          "observed_at": null,
+          "slug": "resupply",
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-07-31T11:35:12.325237+00:00",
+          "weight": 94
+        },
+        {
+          "center": false,
           "confidence": 0.0,
           "is_stub": false,
           "name": "Vaults",
@@ -408,6 +483,19 @@
           "verified": true,
           "verified_at": "2026-07-29T23:07:48.626857+00:00",
           "weight": 92
+        },
+        {
+          "center": false,
+          "confidence": 0.99,
+          "is_stub": true,
+          "name": "Convex",
+          "observed_at": null,
+          "slug": "convex",
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-07-31T11:35:11.146938+00:00",
+          "weight": 90
         },
         {
           "center": false,
@@ -460,19 +548,6 @@
           "verified": true,
           "verified_at": "2026-07-29T23:07:48.707911+00:00",
           "weight": 74
-        },
-        {
-          "center": false,
-          "confidence": 0.99,
-          "is_stub": true,
-          "name": "Convex",
-          "observed_at": null,
-          "slug": "convex",
-          "source": "canonical_relation",
-          "tier": "close",
-          "verified": true,
-          "verified_at": "2026-07-31T07:28:08.843191+00:00",
-          "weight": 99
         }
       ],
       "provenance": "data",
@@ -484,16 +559,16 @@
           "slug": "crv"
         },
         {
-          "is_stub": true,
-          "name": "Resupply",
-          "shared_neighbors": 3,
-          "slug": "resupply"
-        },
-        {
           "is_stub": false,
           "name": "Liquidity Incentives",
           "shared_neighbors": 2,
           "slug": "liquidity-incentives"
+        },
+        {
+          "is_stub": false,
+          "name": "Llama Party",
+          "shared_neighbors": 2,
+          "slug": "llama-party"
         },
         {
           "is_stub": false,
@@ -503,7 +578,7 @@
         }
       ],
       "total_routes": 18,
-      "visible_routes": 6
+      "visible_routes": 7
     },
     "event_timeline": {
       "as_of": "2026-06-26T04:51:58.916066+00:00",
@@ -569,7 +644,7 @@
     },
     "reader_signal": {
       "article_count": 82,
-      "as_of": "2026-07-31T07:28:13.416238+00:00",
+      "as_of": "2026-07-31T11:35:41.776377+00:00",
       "most_clicked": {
         "clicks": 816,
         "date": "2024-05-16T20:18:38.356379+00:00",
@@ -578,7 +653,7 @@
       },
       "provenance": "data",
       "top_decile_share": 33,
-      "total_clicks": 7791
+      "total_clicks": 7792
     },
     "reader_threads": {
       "as_of": "2026-06-26T04:51:58.915981+00:00",
@@ -663,7 +738,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-31T07:28:13.407755+00:00",
+      "as_of": "2026-07-31T11:35:41.696209+00:00",
       "items": [
         {
           "clicks": 48,
@@ -741,7 +816,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-31T07:28:13.391237+00:00",
+      "as_of": "2026-07-31T11:35:41.593093+00:00",
       "editorial": [
         {
           "count": 57,
