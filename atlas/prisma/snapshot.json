@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-30T18:22:05.566500+00:00",
+      "as_of": "2026-07-31T07:28:11.260286+00:00",
       "newsroom_total": 40,
       "overall_share": 91,
       "provenance": "data",
@@ -119,33 +119,33 @@
       "universe_total": 4
     },
     "entity_graph": {
-      "as_of": "2026-07-30T18:22:04.990303+00:00",
+      "as_of": "2026-07-31T07:28:11.041214+00:00",
       "edges": [
         {
           "attested": false,
           "attested_at": null,
           "attested_by": null,
-          "confidence": 0.0,
-          "curation_status": "observed",
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
+          "confidence": 0.99,
+          "curation_status": "canonical",
+          "description": "E010 explicitly states that Prisma is deeply integrated with Convex.",
+          "description_source": "canonical",
           "dir": "out",
-          "direction": "out",
+          "direction": "in",
           "ended_at": null,
           "evidence_excerpt": null,
           "from": "prisma",
           "observed_at": null,
-          "phrase": "Convex",
-          "relation_type": null,
-          "role": null,
-          "source": "autolink",
-          "tier": "mentioned",
+          "phrase": "E010 explicitly states that Prisma is deeply integrated with Convex.",
+          "relation_type": "peer",
+          "role": "integrates_with",
+          "source": "canonical_relation",
+          "tier": "close",
           "to": "convex",
-          "verification_kind": null,
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "verification_kind": "agent",
+          "verified": true,
+          "verified_at": "2026-07-31T07:28:08.818698+00:00",
+          "verified_by": "agent:gpt-5.6-luna:terra-timebox-20260730",
+          "weight": 99
         },
         {
           "attested": false,
@@ -270,72 +270,12 @@
           "curation_status": "observed",
           "description": null,
           "ended_at": null,
-          "from": "convex",
-          "relation_type": null,
-          "role": null,
-          "to": "prisma",
-          "verified": false,
-          "weight": 22
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "curve",
-          "relation_type": null,
-          "role": null,
-          "to": "convex",
-          "verified": false,
-          "weight": 22
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
           "from": "fork",
           "relation_type": null,
           "role": null,
           "to": "liquity",
           "verified": false,
           "weight": 31
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "liquity",
-          "relation_type": null,
-          "role": null,
-          "to": "curve",
-          "verified": false,
-          "weight": 16
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "liquity",
-          "relation_type": null,
-          "role": null,
-          "to": "fork",
-          "verified": false,
-          "weight": 21
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "prisma",
-          "relation_type": null,
-          "role": null,
-          "to": "curve",
-          "verified": false,
-          "weight": 24
         }
       ],
       "nodes": [
@@ -348,16 +288,16 @@
         },
         {
           "center": false,
-          "confidence": 0.0,
+          "confidence": 0.99,
           "is_stub": true,
           "name": "Convex",
           "observed_at": null,
           "slug": "convex",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-07-31T07:28:08.818698+00:00",
+          "weight": 99
         },
         {
           "center": false,
@@ -416,27 +356,27 @@
       "second_ring": [
         {
           "is_stub": false,
-          "name": "Yearn",
-          "shared_neighbors": 4,
-          "slug": "yearn"
-        },
-        {
-          "is_stub": true,
-          "name": "Resupply",
-          "shared_neighbors": 3,
-          "slug": "resupply"
-        },
-        {
-          "is_stub": false,
           "name": "CRV",
           "shared_neighbors": 2,
           "slug": "crv"
         },
         {
           "is_stub": false,
-          "name": "Decentralization",
+          "name": "Liquidity Incentives",
           "shared_neighbors": 2,
-          "slug": "decentralization"
+          "slug": "liquidity-incentives"
+        },
+        {
+          "is_stub": true,
+          "name": "Resupply",
+          "shared_neighbors": 2,
+          "slug": "resupply"
+        },
+        {
+          "is_stub": false,
+          "name": "Yearn",
+          "shared_neighbors": 2,
+          "slug": "yearn"
         }
       ],
       "total_routes": 5,
@@ -506,7 +446,7 @@
     },
     "reader_signal": {
       "article_count": 40,
-      "as_of": "2026-07-30T18:22:05.965263+00:00",
+      "as_of": "2026-07-31T07:28:11.550478+00:00",
       "most_clicked": {
         "clicks": 1312,
         "date": "2024-03-22T12:26:52.819649+00:00",
@@ -600,7 +540,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-30T18:22:05.959562+00:00",
+      "as_of": "2026-07-31T07:28:11.546566+00:00",
       "items": [
         {
           "clicks": 1312,
@@ -678,7 +618,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-30T18:22:05.946866+00:00",
+      "as_of": "2026-07-31T07:28:11.537661+00:00",
       "editorial": [
         {
           "count": 23,
