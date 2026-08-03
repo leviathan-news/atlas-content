@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-30T18:07:36.890583+00:00",
+      "as_of": "2026-08-03T17:25:11.920195+00:00",
       "newsroom_total": 27,
       "overall_share": 28,
       "provenance": "data",
@@ -131,7 +131,7 @@
       "universe_total": 69
     },
     "entity_graph": {
-      "as_of": "2026-07-30T18:07:36.698698+00:00",
+      "as_of": "2026-08-03T17:25:09.979587+00:00",
       "edges": [
         {
           "attested": false,
@@ -163,27 +163,79 @@
           "attested": false,
           "attested_at": null,
           "attested_by": null,
-          "confidence": 0.249,
+          "confidence": 0.0,
           "curation_status": "observed",
           "description": "Mentioned in this territory's explainer.",
-          "description_source": "evidence",
+          "description_source": "autolink",
           "dir": "out",
-          "direction": "in",
+          "direction": "out",
           "ended_at": null,
-          "evidence_excerpt": "Its current dashboard surfaces:",
+          "evidence_excerpt": null,
           "from": "dashboard",
-          "observed_at": "2025-10-21",
-          "phrase": "Mentioned in this territory's explainer.",
+          "observed_at": null,
+          "phrase": "Curve",
           "relation_type": null,
           "role": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "defillama",
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "curve",
           "verification_kind": null,
           "verified": false,
           "verified_at": null,
           "verified_by": null,
-          "weight": 25
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "dashboard",
+          "observed_at": null,
+          "phrase": "Ethena",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "ethena",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "dashboard",
+          "observed_at": null,
+          "phrase": "near",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "near",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
         },
         {
           "attested": false,
@@ -212,56 +264,7 @@
           "weight": 10
         }
       ],
-      "intra_edges": [
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "dashboard",
-          "relation_type": null,
-          "role": null,
-          "to": "defillama",
-          "verified": false,
-          "weight": 25
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "dashboard",
-          "relation_type": null,
-          "role": null,
-          "to": "dune",
-          "verified": false,
-          "weight": 26
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "defillama",
-          "relation_type": null,
-          "role": null,
-          "to": "dashboard",
-          "verified": false,
-          "weight": 25
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "dune",
-          "relation_type": null,
-          "role": null,
-          "to": "dashboard",
-          "verified": false,
-          "weight": 26
-        }
-      ],
+      "intra_edges": [],
       "nodes": [
         {
           "center": true,
@@ -285,16 +288,42 @@
         },
         {
           "center": false,
-          "confidence": 0.249,
+          "confidence": 0.0,
           "is_stub": false,
-          "name": "DefiLlama",
-          "observed_at": "2025-10-21",
-          "slug": "defillama",
-          "source": "observed_relation",
-          "tier": "related",
+          "name": "Curve",
+          "observed_at": null,
+          "slug": "curve",
+          "source": "autolink",
+          "tier": "mentioned",
           "verified": false,
           "verified_at": null,
-          "weight": 25
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Ethena",
+          "observed_at": null,
+          "slug": "ethena",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "NEAR",
+          "observed_at": null,
+          "slug": "near",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
         },
         {
           "center": false,
@@ -311,9 +340,22 @@
         }
       ],
       "provenance": "data",
-      "second_ring": [],
-      "total_routes": 3,
-      "visible_routes": 3
+      "second_ring": [
+        {
+          "is_stub": false,
+          "name": "LlamaRisk",
+          "shared_neighbors": 2,
+          "slug": "llamarisk"
+        },
+        {
+          "is_stub": false,
+          "name": "Yearn",
+          "shared_neighbors": 2,
+          "slug": "yearn"
+        }
+      ],
+      "total_routes": 5,
+      "visible_routes": 5
     },
     "event_timeline": {
       "as_of": "2026-06-26T10:03:39.770036+00:00",
@@ -379,16 +421,16 @@
     },
     "reader_signal": {
       "article_count": 30,
-      "as_of": "2026-07-30T18:07:37.098877+00:00",
+      "as_of": "2026-08-03T17:25:13.029669+00:00",
       "most_clicked": {
-        "clicks": 313,
+        "clicks": 314,
         "date": "2024-05-13T10:35:27.941923+00:00",
         "headline": "El Salvador launches online dashboard to monitor its $360MM worth of Bitcoin holdings in realtime",
         "lev_url": "https://leviathannews.xyz/5335/el-salvador-launches-online-dashboard-to-monitor-its-360mm-worth-of-bitcoin-holdings-in-realtime"
       },
       "provenance": "data",
       "top_decile_share": 33,
-      "total_clicks": 2618
+      "total_clicks": 2627
     },
     "reader_threads": {
       "as_of": "2026-06-26T10:03:39.769965+00:00",
@@ -473,19 +515,19 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-30T18:07:37.094801+00:00",
+      "as_of": "2026-08-03T17:25:13.016259+00:00",
       "items": [
         {
-          "clicks": 48,
+          "clicks": 50,
           "date": "2026-07-24T20:31:11.285965+00:00",
           "headline": "Michael Saylor unveils Strategy's Bitcoin Dashboard, combining price, liquidity, volatility, valuation, adoption, sentiment and network security into one live view",
-          "hot_score": 867.601697,
+          "hot_score": 667.029103,
           "lev_url": "https://leviathannews.xyz/281697/one-integrated-view-of-the-bitcoin-market-and-network-the-bitcoin-dashboard-brings-price-performance-liquidity-volatility-valuation-sentiment-adoption-and-security-into-a-s",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260724194535_uGNeSofW7NXf.jpg",
           "url": "https://x.com/saylor/status/2080735534129836117"
         },
         {
-          "clicks": 55,
+          "clicks": 56,
           "date": "2026-03-13T13:50:44.369402+00:00",
           "headline": "OpenClaw releases version 2026.3.12, debuting a redesigned Dashboard v2, faster local AI modes, and 100+ security improvements for its multi‑platform proactive agent framework.",
           "hot_score": 61.394811,
@@ -494,7 +536,7 @@
           "url": "https://x.com/openclaw/status/2032315035360641362"
         },
         {
-          "clicks": 313,
+          "clicks": 314,
           "date": "2024-05-13T10:35:27.941923+00:00",
           "headline": "El Salvador launches online dashboard to monitor its $360MM worth of Bitcoin holdings in realtime",
           "hot_score": 0.0,
@@ -503,7 +545,7 @@
           "url": "https://cointelegraph.com/news/el-salvador-bitcoin-treasury-website"
         },
         {
-          "clicks": 295,
+          "clicks": 296,
           "date": "2024-05-24T11:29:47.840533+00:00",
           "headline": "Track ETH ETF inflows on Hildobby's Dune dashboard",
           "hot_score": 0.0,
@@ -512,7 +554,7 @@
           "url": "https://dune.com/hildobby/eth-etfs"
         },
         {
-          "clicks": 247,
+          "clicks": 248,
           "date": "2023-06-04T11:08:51.407028+00:00",
           "headline": "Atomic Wallet hack visualized, a Dune dashboard created by Taylor Monahan. ",
           "hot_score": 0.0,
@@ -521,7 +563,7 @@
           "url": "https://dune.com/tayvano/atomic-wallet-hack"
         },
         {
-          "clicks": 213,
+          "clicks": 214,
           "date": "2025-10-01T16:00:00.500847+00:00",
           "headline": "Stablewatch created a dashboard dedicated to Plasma",
           "hot_score": 0.0,
@@ -530,7 +572,7 @@
           "url": "https://plasma.stablewatch.io/"
         },
         {
-          "clicks": 139,
+          "clicks": 140,
           "date": "2025-04-27T01:19:47.590586+00:00",
           "headline": "Dune dashboard for tracking stablecoin yields",
           "hot_score": 0.0,
@@ -551,7 +593,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-30T18:07:37.084918+00:00",
+      "as_of": "2026-08-03T17:25:12.961012+00:00",
       "editorial": [
         {
           "count": 17,

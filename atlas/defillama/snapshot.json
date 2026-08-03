@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-30T18:07:42.646301+00:00",
+      "as_of": "2026-08-03T17:30:28.500451+00:00",
       "newsroom_total": 99,
-      "overall_share": 89,
+      "overall_share": 88,
       "provenance": "data",
       "series": [
         {
@@ -191,193 +191,152 @@
           "month": "2026-07",
           "newsroom": 6,
           "universe": 8
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-08",
+          "newsroom": 0,
+          "universe": 1
         }
       ],
-      "total_universe": 111,
-      "universe_total": 12
+      "total_universe": 112,
+      "universe_total": 13
     },
     "entity_graph": {
-      "as_of": "2026-07-30T18:07:42.464575+00:00",
+      "as_of": "2026-08-03T17:30:27.405748+00:00",
       "edges": [
         {
-          "attested": false,
+          "attested": true,
           "attested_at": null,
-          "attested_by": null,
-          "confidence": 0.249,
-          "curation_status": "observed",
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "evidence",
-          "dir": "out",
-          "direction": "out",
-          "ended_at": null,
-          "evidence_excerpt": "Its current dashboard surfaces:",
-          "from": "defillama",
-          "observed_at": "2025-10-21",
-          "phrase": "Mentioned in this territory's explainer.",
-          "relation_type": null,
-          "role": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "dashboard",
-          "verification_kind": null,
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 25
-        },
-        {
-          "attested": false,
-          "attested_at": null,
-          "attested_by": null,
-          "confidence": 0.21,
-          "curation_status": "observed",
-          "description": "Co-covered in 5 approved stories; most recently July 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "direction": "in",
-          "ended_at": null,
-          "evidence_excerpt": null,
-          "from": "defillama",
-          "observed_at": "2026-07-03",
-          "phrase": "Co-covered in 5 approved stories; most recently July 2026.",
-          "relation_type": null,
-          "role": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "hiring",
-          "verification_kind": null,
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 21
-        },
-        {
-          "attested": false,
-          "attested_at": null,
-          "attested_by": null,
-          "confidence": 0.206,
-          "curation_status": "observed",
-          "description": "Co-covered in 4 approved stories; most recently February 2026.",
-          "description_source": "evidence",
-          "dir": "out",
-          "direction": "in",
-          "ended_at": null,
-          "evidence_excerpt": null,
-          "from": "defillama",
-          "observed_at": "2026-02-10",
-          "phrase": "Co-covered in 4 approved stories; most recently February 2026.",
-          "relation_type": null,
-          "role": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "katana",
-          "verification_kind": null,
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 21
-        },
-        {
-          "attested": false,
-          "attested_at": null,
-          "attested_by": null,
-          "confidence": 0.0,
-          "curation_status": "observed",
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
+          "attested_by": "",
+          "confidence": 0.99,
+          "curation_status": "attested",
+          "description": "DefiLlama tracks total value locked across DeFi protocols and chains.",
+          "description_source": "canonical",
           "dir": "out",
           "direction": "out",
           "ended_at": null,
           "evidence_excerpt": null,
           "from": "defillama",
           "observed_at": null,
-          "phrase": "retail",
-          "relation_type": null,
-          "role": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "retail",
-          "verification_kind": null,
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
+          "phrase": "DefiLlama tracks total value locked across DeFi protocols and chains.",
+          "relation_type": "primitive",
+          "role": "",
+          "source": "canonical_relation",
+          "tier": "close",
+          "to": "tvl",
+          "verification_kind": "operator",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:07.896688+00:00",
+          "verified_by": "operator:source-review:defillama-20260803",
+          "weight": 96
+        },
+        {
+          "attested": true,
+          "attested_at": null,
+          "attested_by": "",
+          "confidence": 0.99,
+          "curation_status": "attested",
+          "description": "DefiLlama's data suite reports protocol-level fee income and revenue.",
+          "description_source": "canonical",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "defillama",
+          "observed_at": null,
+          "phrase": "DefiLlama's data suite reports protocol-level fee income and revenue.",
+          "relation_type": "primitive",
+          "role": "",
+          "source": "canonical_relation",
+          "tier": "close",
+          "to": "fees",
+          "verification_kind": "operator",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:07.983163+00:00",
+          "verified_by": "operator:source-review:defillama-20260803",
+          "weight": 92
+        },
+        {
+          "attested": true,
+          "attested_at": null,
+          "attested_by": "",
+          "confidence": 0.99,
+          "curation_status": "attested",
+          "description": "DefiLlama tracks stablecoin supply, peg deviation, and chain distribution.",
+          "description_source": "canonical",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "defillama",
+          "observed_at": null,
+          "phrase": "DefiLlama tracks stablecoin supply, peg deviation, and chain distribution.",
+          "relation_type": "category",
+          "role": "",
+          "source": "canonical_relation",
+          "tier": "close",
+          "to": "stablecoins",
+          "verification_kind": "operator",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:08.036254+00:00",
+          "verified_by": "operator:source-review:defillama-20260803",
+          "weight": 90
+        },
+        {
+          "attested": true,
+          "attested_at": null,
+          "attested_by": "",
+          "confidence": 0.98,
+          "curation_status": "attested",
+          "description": "DefiLlama aggregates decentralized-exchange volume across chains and protocols.",
+          "description_source": "canonical",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "defillama",
+          "observed_at": null,
+          "phrase": "DefiLlama aggregates decentralized-exchange volume across chains and protocols.",
+          "relation_type": "infrastructure",
+          "role": "",
+          "source": "canonical_relation",
+          "tier": "close",
+          "to": "dex",
+          "verification_kind": "operator",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:08.098003+00:00",
+          "verified_by": "operator:source-review:defillama-20260803",
+          "weight": 86
+        },
+        {
+          "attested": true,
+          "attested_at": null,
+          "attested_by": "",
+          "confidence": 0.97,
+          "curation_status": "attested",
+          "description": "DefiLlama's yield surface compares opportunities across lending and liquidity protocols.",
+          "description_source": "canonical",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "defillama",
+          "observed_at": null,
+          "phrase": "DefiLlama's yield surface compares opportunities across lending and liquidity protocols.",
+          "relation_type": "product",
+          "role": "",
+          "source": "canonical_relation",
+          "tier": "close",
+          "to": "vaults",
+          "verification_kind": "operator",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:08.164164+00:00",
+          "verified_by": "operator:source-review:defillama-20260803",
+          "weight": 82
         }
       ],
-      "intra_edges": [
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "dashboard",
-          "relation_type": null,
-          "role": null,
-          "to": "defillama",
-          "verified": false,
-          "weight": 25
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "defillama",
-          "relation_type": null,
-          "role": null,
-          "to": "dashboard",
-          "verified": false,
-          "weight": 25
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "defillama",
-          "relation_type": null,
-          "role": null,
-          "to": "hiring",
-          "verified": false,
-          "weight": 21
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "defillama",
-          "relation_type": null,
-          "role": null,
-          "to": "katana",
-          "verified": false,
-          "weight": 21
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "hiring",
-          "relation_type": null,
-          "role": null,
-          "to": "defillama",
-          "verified": false,
-          "weight": 21
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "katana",
-          "relation_type": null,
-          "role": null,
-          "to": "defillama",
-          "verified": false,
-          "weight": 21
-        }
-      ],
+      "intra_edges": [],
       "nodes": [
         {
           "center": true,
@@ -388,84 +347,97 @@
         },
         {
           "center": false,
-          "confidence": 0.249,
+          "confidence": 0.99,
           "is_stub": false,
-          "name": "Dashboard",
-          "observed_at": "2025-10-21",
-          "slug": "dashboard",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 25
-        },
-        {
-          "center": false,
-          "confidence": 0.21,
-          "is_stub": false,
-          "name": "hiring",
-          "observed_at": "2026-07-03",
-          "slug": "hiring",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 21
-        },
-        {
-          "center": false,
-          "confidence": 0.206,
-          "is_stub": false,
-          "name": "Katana",
-          "observed_at": "2026-02-10",
-          "slug": "katana",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 21
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "is_stub": false,
-          "name": "Retail",
+          "name": "TVL",
           "observed_at": null,
-          "slug": "retail",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
+          "slug": "tvl",
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:07.896688+00:00",
+          "weight": 96
+        },
+        {
+          "center": false,
+          "confidence": 0.99,
+          "is_stub": false,
+          "name": "Fees",
+          "observed_at": null,
+          "slug": "fees",
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:07.983163+00:00",
+          "weight": 92
+        },
+        {
+          "center": false,
+          "confidence": 0.99,
+          "is_stub": false,
+          "name": "Stablecoins",
+          "observed_at": null,
+          "slug": "stablecoins",
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:08.036254+00:00",
+          "weight": 90
+        },
+        {
+          "center": false,
+          "confidence": 0.98,
+          "is_stub": false,
+          "name": "DEX",
+          "observed_at": null,
+          "slug": "dex",
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:08.098003+00:00",
+          "weight": 86
+        },
+        {
+          "center": false,
+          "confidence": 0.97,
+          "is_stub": false,
+          "name": "Vaults",
+          "observed_at": null,
+          "slug": "vaults",
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:08.164164+00:00",
+          "weight": 82
         }
       ],
       "provenance": "data",
       "second_ring": [
         {
           "is_stub": false,
-          "name": "Vaults",
+          "name": "Yearn",
           "shared_neighbors": 2,
-          "slug": "vaults"
+          "slug": "yearn"
         }
       ],
-      "total_routes": 4,
-      "visible_routes": 4
+      "total_routes": 5,
+      "visible_routes": 5
     },
     "reader_signal": {
       "article_count": 99,
-      "as_of": "2026-07-30T18:07:42.855305+00:00",
+      "as_of": "2026-08-03T17:30:28.906458+00:00",
       "most_clicked": {
-        "clicks": 1012,
+        "clicks": 1015,
         "date": "2024-09-09T16:31:59.889292+00:00",
         "headline": "DefiLlama launches Llama Feed",
         "lev_url": "https://leviathannews.xyz/6907/defillama-launches-llama-feed"
       },
       "provenance": "data",
       "top_decile_share": 38,
-      "total_clicks": 9232
+      "total_clicks": 9244
     },
     "significant": {
-      "as_of": "2026-07-30T18:07:42.849248+00:00",
+      "as_of": "2026-08-03T17:30:28.894613+00:00",
       "items": [
         {
           "clicks": 100,
@@ -504,15 +476,6 @@
           "url": "https://x.com/0xngmi/status/2048882995260531186"
         },
         {
-          "clicks": 51,
-          "date": "2026-07-27T20:38:42.430482+00:00",
-          "headline": "A growing share of lending activity now happens through curated vaults. DefiLlama Research and Sentora investigate the 'vaultification' of onchain lending and the vault economy in this new report.",
-          "hot_score": 1254.628444,
-          "lev_url": "https://leviathannews.xyz/282838/a-growing-share-of-lending-activity-now-happens-through-curated-vaults-defillama-research-and-sentora-investigate-the-vaultification-of-onchain-lending-and-the-vault-economy-in-thi",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727194429_Z4zrlaiDPw==.png",
-          "url": "https://defillama.com/research/report/sentora-the-vault-economy-scale-and-composition"
-        },
-        {
           "clicks": 183,
           "date": "2026-03-22T23:57:53.321190+00:00",
           "headline": "0xngmi catches AI-generated DeFi project faking arbitrage profits with Math.random() in bid for DefiLlama listing",
@@ -538,12 +501,21 @@
           "lev_url": "https://leviathannews.xyz/267097/introducing-a-new-tool-to-help-you-find-exchanges-for-all-your-tokens-1-add-tokens-to-your-watchlist-on-defillama-2-track-performance-in-one-place-3-view-spot-and-perp-marke",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260702012228_rvdZE_g7Zf2d.jpg",
           "url": "https://x.com/defillama/status/2072414729079844940"
+        },
+        {
+          "clicks": 57,
+          "date": "2026-06-09T17:58:17.647736+00:00",
+          "headline": "DefiLlama Research highlights how Starknet is reimagining privacy with the release of the STRK20 privacy token standard.",
+          "hot_score": 727.001777,
+          "lev_url": "https://leviathannews.xyz/254885/defillama-research-highlights-how-starknet-is-reimagining-privacy-with-the-release-of-the-strk20-privacy-token-standard",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260609174443_Z4zrlaiDPw==.png",
+          "url": "https://defillama.com/research/spotlight/how-starknet-is-reimagining-privacy-with-strk20"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-30T18:07:42.837814+00:00",
+      "as_of": "2026-08-03T17:30:28.869852+00:00",
       "editorial": [
         {
           "count": 61,
@@ -598,7 +570,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 11,
+          "count": 12,
           "source": "x.com"
         },
         {
@@ -633,7 +605,88 @@
     "source": "human_gated_edit",
     "updated_at": "2026-08-01T08:51:52.324222+00:00"
   },
-  "relations": [],
+  "relations": [
+    {
+      "confidence": 0.98,
+      "evidence": {
+        "body_sha256": "f0c7afff0ff08b7a62c1c525cf471dbd4aab54b441ec57836d76fcff4626198d",
+        "captured_at": "2026-08-03",
+        "quote": "DEX volumes. Aggregated trading volumes across decentralized exchanges, useful for tracking liquidity migration between chains and protocols.",
+        "source": "published_pillar_body"
+      },
+      "rationale": "DefiLlama aggregates decentralized-exchange volume across chains and protocols.",
+      "relation_type": "infrastructure",
+      "slug": "dex",
+      "source": "override",
+      "tag_name": "DEX",
+      "title": "DEX, Explained",
+      "weight": 86
+    },
+    {
+      "confidence": 0.99,
+      "evidence": {
+        "body_sha256": "f0c7afff0ff08b7a62c1c525cf471dbd4aab54b441ec57836d76fcff4626198d",
+        "captured_at": "2026-08-03",
+        "quote": "Fees and Revenue. Protocol-level fee income, broken down by chain and application.",
+        "source": "published_pillar_body"
+      },
+      "rationale": "DefiLlama's data suite reports protocol-level fee income and revenue.",
+      "relation_type": "primitive",
+      "slug": "fees",
+      "source": "override",
+      "tag_name": "Fees",
+      "title": "Fees, Explained",
+      "weight": 92
+    },
+    {
+      "confidence": 0.99,
+      "evidence": {
+        "body_sha256": "f0c7afff0ff08b7a62c1c525cf471dbd4aab54b441ec57836d76fcff4626198d",
+        "captured_at": "2026-08-03",
+        "quote": "Stablecoins. Supply, peg deviation, and chain distribution for major stablecoins.",
+        "source": "published_pillar_body"
+      },
+      "rationale": "DefiLlama tracks stablecoin supply, peg deviation, and chain distribution.",
+      "relation_type": "category",
+      "slug": "stablecoins",
+      "source": "override",
+      "tag_name": "Stablecoins",
+      "title": "Stablecoins, Explained",
+      "weight": 90
+    },
+    {
+      "confidence": 0.99,
+      "evidence": {
+        "body_sha256": "f0c7afff0ff08b7a62c1c525cf471dbd4aab54b441ec57836d76fcff4626198d",
+        "captured_at": "2026-08-03",
+        "quote": "DefiLlama is an open-source analytics aggregator that tracks total value locked (TVL), fees, revenue, stablecoin flows, and protocol-level metrics across hundreds of blockchains and thousands of DeFi applications.",
+        "source": "published_pillar_body"
+      },
+      "rationale": "DefiLlama tracks total value locked across DeFi protocols and chains.",
+      "relation_type": "primitive",
+      "slug": "tvl",
+      "source": "override",
+      "tag_name": "TVL",
+      "title": "TVL, Explained",
+      "weight": 96
+    },
+    {
+      "confidence": 0.97,
+      "evidence": {
+        "body_sha256": "f0c7afff0ff08b7a62c1c525cf471dbd4aab54b441ec57836d76fcff4626198d",
+        "captured_at": "2026-08-03",
+        "quote": "Yields. An aggregator of yield opportunities across lending and liquidity protocols, helping users compare returns across the ecosystem.",
+        "source": "published_pillar_body"
+      },
+      "rationale": "DefiLlama's yield surface compares opportunities across lending and liquidity protocols.",
+      "relation_type": "product",
+      "slug": "vaults",
+      "source": "override",
+      "tag_name": "Vaults",
+      "title": "Vaults, Explained",
+      "weight": 82
+    }
+  ],
   "schema_version": 1,
   "slug": "defillama",
   "tag_name": "DefiLlama",

@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-30T18:14:08.154758+00:00",
+      "as_of": "2026-08-03T17:25:44.221116+00:00",
       "newsroom_total": 37,
       "overall_share": 46,
       "provenance": "data",
@@ -119,13 +119,19 @@
           "month": "2026-07",
           "newsroom": 6,
           "universe": 10
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-08",
+          "newsroom": 0,
+          "universe": 1
         }
       ],
-      "total_universe": 80,
-      "universe_total": 43
+      "total_universe": 81,
+      "universe_total": 44
     },
     "entity_graph": {
-      "as_of": "2026-07-30T18:14:07.942554+00:00",
+      "as_of": "2026-08-03T17:25:42.741545+00:00",
       "edges": [
         {
           "attested": false,
@@ -152,32 +158,6 @@
           "verified_at": null,
           "verified_by": null,
           "weight": 27
-        },
-        {
-          "attested": false,
-          "attested_at": null,
-          "attested_by": null,
-          "confidence": 0.21,
-          "curation_status": "observed",
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "evidence",
-          "dir": "out",
-          "direction": "in",
-          "ended_at": null,
-          "evidence_excerpt": "The platform's hiring of additional developers (fully async, distributed positions) reflects the scale of maintenance work required to keep adapters current as protocols upgrade contracts, migrate chains, or rebrand.",
-          "from": "hiring",
-          "observed_at": "2026-07-03",
-          "phrase": "Mentioned in this territory's explainer.",
-          "relation_type": null,
-          "role": null,
-          "source": "observed_relation",
-          "tier": "related",
-          "to": "defillama",
-          "verification_kind": null,
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 21
         },
         {
           "attested": false,
@@ -219,6 +199,32 @@
           "evidence_excerpt": null,
           "from": "hiring",
           "observed_at": null,
+          "phrase": "digital assets",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "digital-assets",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "hiring",
+          "observed_at": null,
           "phrase": "regulation",
           "relation_type": null,
           "role": null,
@@ -232,68 +238,7 @@
           "weight": 10
         }
       ],
-      "intra_edges": [
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "defillama",
-          "relation_type": null,
-          "role": null,
-          "to": "hiring",
-          "verified": false,
-          "weight": 21
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "hiring",
-          "relation_type": null,
-          "role": null,
-          "to": "defillama",
-          "verified": false,
-          "weight": 21
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "hiring",
-          "relation_type": null,
-          "role": null,
-          "to": "jobs",
-          "verified": false,
-          "weight": 27
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "jobs",
-          "relation_type": null,
-          "role": null,
-          "to": "hiring",
-          "verified": false,
-          "weight": 17
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "jobs",
-          "relation_type": null,
-          "role": null,
-          "to": "regulation",
-          "verified": false,
-          "weight": 17
-        }
-      ],
+      "intra_edges": [],
       "nodes": [
         {
           "center": true,
@@ -317,24 +262,24 @@
         },
         {
           "center": false,
-          "confidence": 0.21,
-          "is_stub": false,
-          "name": "DefiLlama",
-          "observed_at": "2026-07-03",
-          "slug": "defillama",
-          "source": "observed_relation",
-          "tier": "related",
-          "verified": false,
-          "verified_at": null,
-          "weight": 21
-        },
-        {
-          "center": false,
           "confidence": 0.0,
           "is_stub": false,
           "name": "agents",
           "observed_at": null,
           "slug": "agents",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Digital Assets",
+          "observed_at": null,
+          "slug": "digital-assets",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -356,20 +301,7 @@
         }
       ],
       "provenance": "data",
-      "second_ring": [
-        {
-          "is_stub": false,
-          "name": "Research",
-          "shared_neighbors": 2,
-          "slug": "research"
-        },
-        {
-          "is_stub": false,
-          "name": "Wall Street",
-          "shared_neighbors": 2,
-          "slug": "wall-st"
-        }
-      ],
+      "second_ring": [],
       "total_routes": 4,
       "visible_routes": 4
     },
@@ -431,16 +363,16 @@
     },
     "reader_signal": {
       "article_count": 37,
-      "as_of": "2026-07-30T18:14:08.453756+00:00",
+      "as_of": "2026-08-03T17:25:45.625240+00:00",
       "most_clicked": {
-        "clicks": 318,
+        "clicks": 319,
         "date": "2025-04-10T12:02:56.399072+00:00",
         "headline": "If you’re reading this, you’re likely well qualified to join our frens at DefiLlama News, who are hiring for the role of DeFi Correspondent",
         "lev_url": "https://leviathannews.xyz/10490/if-youre-reading-this-youre-likely-well-qualified-to-join-our-frens-at-defillama-news-who-are-hiring-for-the-role-of-defi-correspondent"
       },
       "provenance": "data",
       "top_decile_share": 31,
-      "total_clicks": 2816
+      "total_clicks": 2827
     },
     "reader_threads": {
       "as_of": "2026-06-26T08:03:05.866580+00:00",
@@ -525,7 +457,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-30T18:14:08.449527+00:00",
+      "as_of": "2026-08-03T17:25:45.614256+00:00",
       "items": [
         {
           "clicks": 109,
@@ -537,16 +469,7 @@
           "url": "https://x.com/0xngmi/status/2048882995260531186"
         },
         {
-          "clicks": 56,
-          "date": "2026-07-27T15:46:28.620850+00:00",
-          "headline": "Binance's Yi He tweets that Binance is on a hiring spree.",
-          "hot_score": 1764.713376,
-          "lev_url": "https://leviathannews.xyz/282675/binances-yi-he-playfully-tweets-that-binance-is-on-a-hiring-spree",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727154200_thNr0ZmWoVWT.jpg",
-          "url": "https://x.com/heyibinance/status/2081719751185666498"
-        },
-        {
-          "clicks": 79,
+          "clicks": 80,
           "date": "2026-05-07T06:10:46.650246+00:00",
           "headline": "a16z backs Ethos as startup uses AI voice agents to transform hiring, expert networks and fractional work, with top users already earning over $10K monthly",
           "hot_score": 1279.889241,
@@ -564,7 +487,7 @@
           "url": "https://x.com/revolut/status/2071907027937374366"
         },
         {
-          "clicks": 51,
+          "clicks": 52,
           "date": "2026-05-17T07:37:36.351619+00:00",
           "headline": "Binance says AI is making its workforce 10x more effective as the exchange ramps hiring with 380+ open roles spanning engineering, compliance, product, and AI research",
           "hot_score": 751.729687,
@@ -573,13 +496,22 @@
           "url": "https://x.com/i/web/status/2055800643843928305"
         },
         {
-          "clicks": 32,
+          "clicks": 33,
           "date": "2026-05-18T21:59:50.279813+00:00",
           "headline": "Solana pushes ecosystem hiring spree with 390+ open roles across engineering, product, growth and crypto startups building on the network’s expanding infrastructure",
           "hot_score": 713.984653,
           "lev_url": "https://leviathannews.xyz/244675/solana-pushes-ecosystem-hiring-spree-with-390-open-roles-across-engineering-product-growth-and-crypto-startups-building-on-the-networks-expanding-infrastructure",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260518215620_DpTu-LHfNGGW.jpg",
           "url": "https://x.com/i/web/status/2056456205275668848"
+        },
+        {
+          "clicks": 59,
+          "date": "2026-07-27T15:46:28.620850+00:00",
+          "headline": "Binance's Yi He tweets that Binance is on a hiring spree.",
+          "hot_score": 694.176244,
+          "lev_url": "https://leviathannews.xyz/282675/binances-yi-he-playfully-tweets-that-binance-is-on-a-hiring-spree",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260727154200_thNr0ZmWoVWT.jpg",
+          "url": "https://x.com/heyibinance/status/2081719751185666498"
         },
         {
           "clicks": 45,
@@ -591,7 +523,7 @@
           "url": "https://x.com/ethereuminsti/status/2074571053033017705"
         },
         {
-          "clicks": 27,
+          "clicks": 29,
           "date": "2026-06-25T07:05:05.278802+00:00",
           "headline": "Crypto hiring plunged 80% YoY in early 2026, but compliance roles surged to become the sector's second-largest hiring category, Tiger Research says",
           "hot_score": 548.855548,
@@ -603,7 +535,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-30T18:14:08.438785+00:00",
+      "as_of": "2026-08-03T17:25:45.575500+00:00",
       "editorial": [
         {
           "count": 24,
@@ -650,7 +582,7 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 28,
+          "count": 29,
           "source": "x.com"
         },
         {

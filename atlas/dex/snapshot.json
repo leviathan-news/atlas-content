@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-30T18:07:47.638670+00:00",
+      "as_of": "2026-08-03T17:25:26.212256+00:00",
       "newsroom_total": 139,
       "overall_share": 20,
       "provenance": "data",
@@ -220,15 +220,47 @@
           "ed_share": 5,
           "month": "2026-07",
           "newsroom": 7,
-          "universe": 132
+          "universe": 141
+        },
+        {
+          "ed_share": 0,
+          "month": "2026-08",
+          "newsroom": 0,
+          "universe": 13
         }
       ],
-      "total_universe": 682,
-      "universe_total": 543
+      "total_universe": 704,
+      "universe_total": 565
     },
     "entity_graph": {
-      "as_of": "2026-07-30T18:07:47.401402+00:00",
+      "as_of": "2026-08-03T17:25:23.468653+00:00",
       "edges": [
+        {
+          "attested": true,
+          "attested_at": null,
+          "attested_by": "",
+          "confidence": 0.98,
+          "curation_status": "attested",
+          "description": "DefiLlama aggregates decentralized-exchange volume across chains and protocols.",
+          "description_source": "canonical",
+          "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "dex",
+          "observed_at": null,
+          "phrase": "DefiLlama aggregates decentralized-exchange volume across chains and protocols.",
+          "relation_type": "infrastructure",
+          "role": "",
+          "source": "canonical_relation",
+          "tier": "close",
+          "to": "defillama",
+          "verification_kind": "operator",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:08.098003+00:00",
+          "verified_by": "operator:source-review:defillama-20260803",
+          "weight": 86
+        },
         {
           "attested": false,
           "attested_at": null,
@@ -269,6 +301,58 @@
           "evidence_excerpt": null,
           "from": "dex",
           "observed_at": null,
+          "phrase": "marketplace",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "marketplace",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "dex",
+          "observed_at": null,
+          "phrase": "wallet",
+          "relation_type": null,
+          "role": null,
+          "source": "autolink",
+          "tier": "mentioned",
+          "to": "wallet",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 10
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.0,
+          "curation_status": "observed",
+          "description": "Mentioned in this territory's explainer.",
+          "description_source": "autolink",
+          "dir": "out",
+          "direction": "out",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "dex",
+          "observed_at": null,
           "phrase": "wallets",
           "relation_type": null,
           "role": null,
@@ -282,20 +366,7 @@
           "weight": 10
         }
       ],
-      "intra_edges": [
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "dex",
-          "relation_type": null,
-          "role": null,
-          "to": "wallets",
-          "verified": false,
-          "weight": 18
-        }
-      ],
+      "intra_edges": [],
       "nodes": [
         {
           "center": true,
@@ -306,11 +377,50 @@
         },
         {
           "center": false,
+          "confidence": 0.98,
+          "is_stub": false,
+          "name": "DefiLlama",
+          "observed_at": null,
+          "slug": "defillama",
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:08.098003+00:00",
+          "weight": 86
+        },
+        {
+          "center": false,
           "confidence": 0.0,
           "is_stub": false,
           "name": "Futures",
           "observed_at": null,
           "slug": "futures",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Marketplace",
+          "observed_at": null,
+          "slug": "marketplace",
+          "source": "autolink",
+          "tier": "mentioned",
+          "verified": false,
+          "verified_at": null,
+          "weight": 10
+        },
+        {
+          "center": false,
+          "confidence": 0.0,
+          "is_stub": false,
+          "name": "Wallet",
+          "observed_at": null,
+          "slug": "wallet",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -333,8 +443,8 @@
       ],
       "provenance": "data",
       "second_ring": [],
-      "total_routes": 2,
-      "visible_routes": 2
+      "total_routes": 5,
+      "visible_routes": 5
     },
     "event_timeline": {
       "as_of": "2026-06-26T01:08:36.290843+00:00",
@@ -400,7 +510,7 @@
     },
     "reader_signal": {
       "article_count": 139,
-      "as_of": "2026-07-30T18:07:47.899329+00:00",
+      "as_of": "2026-08-03T17:25:28.489470+00:00",
       "most_clicked": {
         "clicks": 1877,
         "date": "2024-04-12T15:57:29.796647+00:00",
@@ -409,7 +519,7 @@
       },
       "provenance": "data",
       "top_decile_share": 48,
-      "total_clicks": 15127
+      "total_clicks": 15142
     },
     "reader_threads": {
       "as_of": "2026-06-26T01:08:36.290717+00:00",
@@ -494,7 +604,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-30T18:07:47.893021+00:00",
+      "as_of": "2026-08-03T17:25:28.416954+00:00",
       "items": [
         {
           "clicks": 85,
@@ -551,28 +661,28 @@
           "url": "https://x.com/BaselineMarkets/status/2044809025527984167"
         },
         {
-          "clicks": 42,
-          "date": "2026-07-28T17:01:06.980925+00:00",
-          "headline": "Robinhood Chain TVL climbs to $325M, but DEX volume, active users, and trading activity continue to decline as memecoin-driven launch momentum fades",
-          "hot_score": 1461.703559,
-          "lev_url": "https://leviathannews.xyz/283531/robinhood-chain-deposits-climb-but-volume-and-users-fade-after-memecoin-fueled-launch-20260728",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728165548_UJ-Nk5SnIyMr.jpg",
-          "url": "https://www.theblock.co/post/409813/robinhood-chain-deposits-climb-volume-users-fade-memecoin-fueled-launch?utm_source=rss&utm_medium=rss"
-        },
-        {
-          "clicks": 28,
+          "clicks": 29,
           "date": "2026-06-29T19:16:37.999595+00:00",
           "headline": "Fluid commits $100M of its own capital to deepen sUSDai DEX liquidity for USD.AI",
           "hot_score": 790.927302,
           "lev_url": "https://leviathannews.xyz/264925/fluid-commits-100m-of-its-own-capital-to-deepen-susdai-dex-liquidity-for-usdai",
           "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260629182807_Z4zrlaiDPw==.png",
           "url": "https://usd.ai/insights/usdai-fluid-100m-liquidity-facility"
+        },
+        {
+          "clicks": 33,
+          "date": "2026-07-01T15:35:54.533453+00:00",
+          "headline": "Avail launches Atomic for DEXs to tap CLOB and PropAMM pricing while settling swaps onchain",
+          "hot_score": 773.907737,
+          "lev_url": "https://leviathannews.xyz/266582/avail-launches-atomic-for-dexs-to-tap-clob-and-propamm-pricing-while-settling-swaps-onchain",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260701143026_Z4zrlaiDPw==.png",
+          "url": "https://blog.availproject.org/avail-atomic-optimal-price-execution-across-clobs-and-propamms/"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-30T18:07:47.881320+00:00",
+      "as_of": "2026-08-03T17:25:28.340575+00:00",
       "editorial": [
         {
           "count": 73,
@@ -627,11 +737,11 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 402,
+          "count": 419,
           "source": "x.com"
         },
         {
-          "count": 17,
+          "count": 18,
           "source": "cointelegraph.com"
         },
         {
@@ -655,15 +765,15 @@
           "source": "crowdfundinsider.com"
         },
         {
+          "count": 7,
+          "source": "federalregister.gov"
+        },
+        {
           "count": 6,
           "source": "chainwire.org"
         },
         {
           "count": 6,
-          "source": "federalregister.gov"
-        },
-        {
-          "count": 5,
           "source": "sec.gov"
         },
         {
@@ -675,7 +785,7 @@
           "source": "binance.com"
         }
       ],
-      "universe_distinct": 42
+      "universe_distinct": 43
     }
   },
   "official_links": [],
