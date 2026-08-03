@@ -1,9 +1,9 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-07-30T18:09:31.130214+00:00",
-      "newsroom_total": 231,
-      "overall_share": 36,
+      "as_of": "2026-08-03T17:25:34.079146+00:00",
+      "newsroom_total": 233,
+      "overall_share": 35,
       "provenance": "data",
       "series": [
         {
@@ -229,18 +229,50 @@
           "universe": 63
         },
         {
-          "ed_share": 10,
+          "ed_share": 9,
           "month": "2026-07",
           "newsroom": 11,
-          "universe": 103
+          "universe": 108
+        },
+        {
+          "ed_share": 29,
+          "month": "2026-08",
+          "newsroom": 2,
+          "universe": 5
         }
       ],
-      "total_universe": 645,
-      "universe_total": 414
+      "total_universe": 657,
+      "universe_total": 424
     },
     "entity_graph": {
-      "as_of": "2026-07-30T18:09:30.698598+00:00",
+      "as_of": "2026-08-03T17:25:31.871801+00:00",
       "edges": [
+        {
+          "attested": true,
+          "attested_at": null,
+          "attested_by": "",
+          "confidence": 0.99,
+          "curation_status": "attested",
+          "description": "DefiLlama's data suite reports protocol-level fee income and revenue.",
+          "description_source": "canonical",
+          "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "fees",
+          "observed_at": null,
+          "phrase": "DefiLlama's data suite reports protocol-level fee income and revenue.",
+          "relation_type": "primitive",
+          "role": "",
+          "source": "canonical_relation",
+          "tier": "close",
+          "to": "defillama",
+          "verification_kind": "operator",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:07.983163+00:00",
+          "verified_by": "operator:source-review:defillama-20260803",
+          "weight": 92
+        },
         {
           "attested": false,
           "attested_at": null,
@@ -333,64 +365,12 @@
           "evidence_excerpt": null,
           "from": "fees",
           "observed_at": null,
-          "phrase": "payments",
+          "phrase": "Coinbase",
           "relation_type": null,
           "role": null,
           "source": "autolink",
           "tier": "mentioned",
-          "to": "payments",
-          "verification_kind": null,
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
-        },
-        {
-          "attested": false,
-          "attested_at": null,
-          "attested_by": null,
-          "confidence": 0.0,
-          "curation_status": "observed",
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "direction": "out",
-          "ended_at": null,
-          "evidence_excerpt": null,
-          "from": "fees",
-          "observed_at": null,
-          "phrase": "ready",
-          "relation_type": null,
-          "role": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "ready",
-          "verification_kind": null,
-          "verified": false,
-          "verified_at": null,
-          "verified_by": null,
-          "weight": 10
-        },
-        {
-          "attested": false,
-          "attested_at": null,
-          "attested_by": null,
-          "confidence": 0.0,
-          "curation_status": "observed",
-          "description": "Mentioned in this territory's explainer.",
-          "description_source": "autolink",
-          "dir": "out",
-          "direction": "out",
-          "ended_at": null,
-          "evidence_excerpt": null,
-          "from": "fees",
-          "observed_at": null,
-          "phrase": "validators",
-          "relation_type": null,
-          "role": null,
-          "source": "autolink",
-          "tier": "mentioned",
-          "to": "validators",
+          "to": "coinbase",
           "verification_kind": null,
           "verified": false,
           "verified_at": null,
@@ -407,69 +387,9 @@
           "from": "base",
           "relation_type": null,
           "role": null,
-          "to": "fees",
+          "to": "coinbase",
           "verified": false,
-          "weight": 21
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "fees",
-          "relation_type": null,
-          "role": null,
-          "to": "payments",
-          "verified": false,
-          "weight": 14
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "fees",
-          "relation_type": null,
-          "role": null,
-          "to": "ready",
-          "verified": false,
-          "weight": 18
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "fees",
-          "relation_type": null,
-          "role": null,
-          "to": "validators",
-          "verified": false,
-          "weight": 17
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "polygon",
-          "relation_type": null,
-          "role": null,
-          "to": "fees",
-          "verified": false,
-          "weight": 21
-        },
-        {
-          "attested": false,
-          "curation_status": "observed",
-          "description": null,
-          "ended_at": null,
-          "from": "yearn",
-          "relation_type": null,
-          "role": null,
-          "to": "fees",
-          "verified": false,
-          "weight": 70
+          "weight": 23
         },
         {
           "attested": false,
@@ -491,6 +411,19 @@
           "slug": "fees",
           "source": "topic",
           "tier": "center"
+        },
+        {
+          "center": false,
+          "confidence": 0.99,
+          "is_stub": false,
+          "name": "DefiLlama",
+          "observed_at": null,
+          "slug": "defillama",
+          "source": "canonical_relation",
+          "tier": "close",
+          "verified": true,
+          "verified_at": "2026-08-03T17:25:07.983163+00:00",
+          "weight": 92
         },
         {
           "center": false,
@@ -535,35 +468,9 @@
           "center": false,
           "confidence": 0.0,
           "is_stub": false,
-          "name": "Payments",
+          "name": "Coinbase",
           "observed_at": null,
-          "slug": "payments",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "is_stub": false,
-          "name": "Ready",
-          "observed_at": null,
-          "slug": "ready",
-          "source": "autolink",
-          "tier": "mentioned",
-          "verified": false,
-          "verified_at": null,
-          "weight": 10
-        },
-        {
-          "center": false,
-          "confidence": 0.0,
-          "is_stub": false,
-          "name": "Validators",
-          "observed_at": null,
-          "slug": "validators",
+          "slug": "coinbase",
           "source": "autolink",
           "tier": "mentioned",
           "verified": false,
@@ -575,31 +482,19 @@
       "second_ring": [
         {
           "is_stub": false,
-          "name": "BOLD",
+          "name": "Katana",
           "shared_neighbors": 3,
-          "slug": "bold"
+          "slug": "katana"
         },
         {
           "is_stub": false,
-          "name": "Infrastructure",
-          "shared_neighbors": 3,
-          "slug": "infrastructure"
-        },
-        {
-          "is_stub": false,
-          "name": "Optimism",
-          "shared_neighbors": 3,
-          "slug": "optimism"
-        },
-        {
-          "is_stub": false,
-          "name": "Arbitrum",
+          "name": "Outage",
           "shared_neighbors": 2,
-          "slug": "arbitrum"
+          "slug": "outage"
         }
       ],
-      "total_routes": 6,
-      "visible_routes": 6
+      "total_routes": 8,
+      "visible_routes": 5
     },
     "event_timeline": {
       "as_of": "2026-06-26T00:49:28.887059+00:00",
@@ -664,17 +559,17 @@
       "source": ""
     },
     "reader_signal": {
-      "article_count": 239,
-      "as_of": "2026-07-30T18:09:31.618241+00:00",
+      "article_count": 241,
+      "as_of": "2026-08-03T17:25:37.151095+00:00",
       "most_clicked": {
-        "clicks": 879,
+        "clicks": 880,
         "date": "2024-03-30T11:13:04.600352+00:00",
         "headline": "Prisma proposes pausing all fees",
         "lev_url": "https://leviathannews.xyz/4515/prisma-proposes-pausing-all-fees"
       },
       "provenance": "data",
-      "top_decile_share": 31,
-      "total_clicks": 20439
+      "top_decile_share": 32,
+      "total_clicks": 20538
     },
     "reader_threads": {
       "as_of": "2026-06-26T00:49:28.886937+00:00",
@@ -759,10 +654,10 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-07-30T18:09:31.605363+00:00",
+      "as_of": "2026-08-03T17:25:37.106083+00:00",
       "items": [
         {
-          "clicks": 34,
+          "clicks": 35,
           "date": "2026-04-14T16:55:46.798140+00:00",
           "headline": "Polygon introduces sPOL to boost staking rewards, distributing priority fees to delegators while enabling liquidity and composability across DeFi ecosystem",
           "hot_score": 7203.24804,
@@ -780,7 +675,7 @@
           "url": "https://x.com/i/status/2042743133927280693"
         },
         {
-          "clicks": 43,
+          "clicks": 44,
           "date": "2026-04-15T22:13:11.824470+00:00",
           "headline": "Aerodrome ships flashblock-optimized fees, anti-MEV gauges, and cross-chain metaswaps ahead of July Aero launch",
           "hot_score": 2968.506697,
@@ -789,16 +684,16 @@
           "url": "https://medium.com/@aerodromefi/upgrades-for-a-supersonic-era-1861487f40c6"
         },
         {
-          "clicks": 30,
-          "date": "2026-07-28T15:16:06.307753+00:00",
-          "headline": "Morgan Stanley launches staking-enabled ether and Solana ETPs on NYSE Arca with 0.14% fees",
-          "hot_score": 2042.058916,
-          "lev_url": "https://leviathannews.xyz/283375/morgan-stanley-launches-staking-enabled-ether-and-solana-etps-on-nyse-arca-with-014-fees",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728141520_QykdOz2VtqeT.jpg",
-          "url": "https://www.morganstanley.com/im/en-us/financial-advisor/products/etfs.desktop.html/undefined.html"
+          "clicks": 54,
+          "date": "2026-08-01T16:40:15.160375+00:00",
+          "headline": "Bank of Italy research finds stablecoin remittances aren't always cheaper, with fees, FX spreads and banking rails eroding cost advantages",
+          "hot_score": 2278.498576,
+          "lev_url": "https://leviathannews.xyz/286185/bank-of-italy-research-suggests-stablecoins-arent-necessarily-cheaper-for-remittances-20260801",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260801161710_KCho0t9wDGVH.jpg",
+          "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances"
         },
         {
-          "clicks": 37,
+          "clicks": 38,
           "date": "2026-04-19T16:33:15.660566+00:00",
           "headline": "137 SPAR supermarkets in Switzerland accept ADA via DFX.swiss Open Crypto Pay, cutting processing fees by two-thirds",
           "hot_score": 1486.697773,
@@ -807,7 +702,7 @@
           "url": "https://x.com/Cardano_CF/status/2045887879553884558"
         },
         {
-          "clicks": 59,
+          "clicks": 60,
           "date": "2026-05-14T09:52:59.612710+00:00",
           "headline": "New Curve Letters paper just dropped  \nThey prove LvR doesn’t actually hurt LPs and derive an SDE linking volatility and fees to arb volume, giving a clean framework for dynamic fees and LP/arb profitability.",
           "hot_score": 1222.991022,
@@ -825,22 +720,22 @@
           "url": "https://cryptoslate.com/the-next-bitcoin-drawdown-will-expose-which-crypto-fees-are-real/"
         },
         {
-          "clicks": 26,
-          "date": "2026-04-22T11:56:55.265562+00:00",
-          "headline": "a16z-backed Gensyn launches Delphi, an AI-settled information markets platform where users can create markets and earn fees from trading volume",
-          "hot_score": 781.8,
-          "lev_url": "https://leviathannews.xyz/234864/a16z-backed-gensyn-launches-delphi-an-ai-settled-information-markets-platform-where-users-can-create-markets-and-earn-fees-from-trading-volume",
-          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260422111606_hF7dW39ztqxx.jpg",
-          "url": "https://www.theblock.co/post/398419/a16z-crypto-gensyn-delphi-ai-settled-information-markets-platform?utm_source=rss&utm_medium=rss"
+          "clicks": 31,
+          "date": "2026-07-28T15:16:06.307753+00:00",
+          "headline": "Morgan Stanley launches staking-enabled ether and Solana ETPs on NYSE Arca with 0.14% fees",
+          "hot_score": 786.397641,
+          "lev_url": "https://leviathannews.xyz/283375/morgan-stanley-launches-staking-enabled-ether-and-solana-etps-on-nyse-arca-with-014-fees",
+          "thumb": "https://leviathan-media.nyc3.digitaloceanspaces.com/media/20260728141520_QykdOz2VtqeT.jpg",
+          "url": "https://www.morganstanley.com/im/en-us/financial-advisor/products/etfs.desktop.html/undefined.html"
         }
       ],
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-07-30T18:09:31.586218+00:00",
+      "as_of": "2026-08-03T17:25:36.794269+00:00",
       "editorial": [
         {
-          "count": 108,
+          "count": 109,
           "source": "x.com"
         },
         {
@@ -848,12 +743,12 @@
           "source": "theblock.co"
         },
         {
-          "count": 6,
-          "source": "dlnews.com"
+          "count": 7,
+          "source": "coindesk.com"
         },
         {
           "count": 6,
-          "source": "coindesk.com"
+          "source": "dlnews.com"
         },
         {
           "count": 5,
@@ -892,15 +787,15 @@
       "provenance": "data",
       "universe": [
         {
-          "count": 340,
+          "count": 347,
           "source": "x.com"
         },
         {
-          "count": 9,
+          "count": 10,
           "source": "treeofalpha.com"
         },
         {
-          "count": 7,
+          "count": 8,
           "source": "sec.gov"
         },
         {
@@ -912,7 +807,7 @@
           "source": "financefeeds.com"
         },
         {
-          "count": 5,
+          "count": 6,
           "source": "listingcenter.nasdaq.com"
         },
         {
