@@ -1,7 +1,7 @@
 {
   "atlas_blocks": {
     "coverage_timeline": {
-      "as_of": "2026-08-03T17:26:20.715107+00:00",
+      "as_of": "2026-08-03T17:56:40.812589+00:00",
       "newsroom_total": 1023,
       "overall_share": 60,
       "provenance": "data",
@@ -251,34 +251,8 @@
       "universe_total": 693
     },
     "entity_graph": {
-      "as_of": "2026-08-03T17:26:19.239047+00:00",
+      "as_of": "2026-08-03T17:56:40.172020+00:00",
       "edges": [
-        {
-          "attested": true,
-          "attested_at": null,
-          "attested_by": "",
-          "confidence": 0.99,
-          "curation_status": "attested",
-          "description": "DefiLlama tracks stablecoin supply, peg deviation, and chain distribution.",
-          "description_source": "canonical",
-          "dir": "out",
-          "direction": "in",
-          "ended_at": null,
-          "evidence_excerpt": null,
-          "from": "stablecoins",
-          "observed_at": null,
-          "phrase": "DefiLlama tracks stablecoin supply, peg deviation, and chain distribution.",
-          "relation_type": "category",
-          "role": "",
-          "source": "canonical_relation",
-          "tier": "close",
-          "to": "defillama",
-          "verification_kind": "operator",
-          "verified": true,
-          "verified_at": "2026-08-03T17:25:08.036254+00:00",
-          "verified_by": "operator:source-review:defillama-20260803",
-          "weight": 90
-        },
         {
           "attested": false,
           "attested_at": null,
@@ -382,6 +356,32 @@
           "verified_at": null,
           "verified_by": null,
           "weight": 27
+        },
+        {
+          "attested": false,
+          "attested_at": null,
+          "attested_by": null,
+          "confidence": 0.262,
+          "curation_status": "observed",
+          "description": "Co-covered in 77 approved stories; most recently July 2026.",
+          "description_source": "evidence",
+          "dir": "out",
+          "direction": "in",
+          "ended_at": null,
+          "evidence_excerpt": null,
+          "from": "stablecoins",
+          "observed_at": "2026-07-24",
+          "phrase": "Co-covered in 77 approved stories; most recently July 2026.",
+          "relation_type": null,
+          "role": null,
+          "source": "observed_relation",
+          "tier": "related",
+          "to": "stablecoin-infrastructure",
+          "verification_kind": null,
+          "verified": false,
+          "verified_at": null,
+          "verified_by": null,
+          "weight": 26
         }
       ],
       "intra_edges": [
@@ -396,6 +396,30 @@
           "to": "payments",
           "verified": false,
           "weight": 44
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "stablecoin-infrastructure",
+          "relation_type": null,
+          "role": null,
+          "to": "payments",
+          "verified": false,
+          "weight": 23
+        },
+        {
+          "attested": false,
+          "curation_status": "observed",
+          "description": null,
+          "ended_at": null,
+          "from": "stablecoin-infrastructure",
+          "relation_type": null,
+          "role": null,
+          "to": "stablecoin-payments",
+          "verified": false,
+          "weight": 21
         }
       ],
       "nodes": [
@@ -405,19 +429,6 @@
           "slug": "stablecoins",
           "source": "topic",
           "tier": "center"
-        },
-        {
-          "center": false,
-          "confidence": 0.99,
-          "is_stub": false,
-          "name": "DefiLlama",
-          "observed_at": null,
-          "slug": "defillama",
-          "source": "canonical_relation",
-          "tier": "close",
-          "verified": true,
-          "verified_at": "2026-08-03T17:25:08.036254+00:00",
-          "weight": 90
         },
         {
           "center": false,
@@ -470,6 +481,19 @@
           "verified": false,
           "verified_at": null,
           "weight": 27
+        },
+        {
+          "center": false,
+          "confidence": 0.262,
+          "is_stub": false,
+          "name": "Stablecoin Infrastructure",
+          "observed_at": "2026-07-24",
+          "slug": "stablecoin-infrastructure",
+          "source": "observed_relation",
+          "tier": "related",
+          "verified": false,
+          "verified_at": null,
+          "weight": 26
         }
       ],
       "provenance": "data",
@@ -479,15 +503,9 @@
           "name": "Cross-Border Payments",
           "shared_neighbors": 2,
           "slug": "cross-border-payments"
-        },
-        {
-          "is_stub": false,
-          "name": "Stablecoin Infrastructure",
-          "shared_neighbors": 2,
-          "slug": "stablecoin-infrastructure"
         }
       ],
-      "total_routes": 28,
+      "total_routes": 27,
       "visible_routes": 5
     },
     "event_timeline": {
@@ -554,7 +572,7 @@
     },
     "reader_signal": {
       "article_count": 1023,
-      "as_of": "2026-08-03T17:26:24.190289+00:00",
+      "as_of": "2026-08-03T17:56:41.841471+00:00",
       "most_clicked": {
         "clicks": 3030,
         "date": "2025-10-21T07:22:13.851514+00:00",
@@ -648,7 +666,7 @@
       "total": 6
     },
     "significant": {
-      "as_of": "2026-08-03T17:26:23.846744+00:00",
+      "as_of": "2026-08-03T17:56:41.759316+00:00",
       "items": [
         {
           "clicks": 88,
@@ -726,7 +744,7 @@
       "provenance": "data"
     },
     "source_map": {
-      "as_of": "2026-08-03T17:26:23.823955+00:00",
+      "as_of": "2026-08-03T17:56:41.742214+00:00",
       "editorial": [
         {
           "count": 382,
