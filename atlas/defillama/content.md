@@ -30,6 +30,10 @@ DefiLlama has grown well beyond a single-metric tracker. Its current dashboard s
 
 **Yields.** An aggregator of yield opportunities across lending and liquidity protocols, helping users compare returns across the ecosystem.
 
+**Tokens.** DefiLlama's [token rankings](https://defillama.com/tokens) track price, market capitalization, fully diluted valuation, and upcoming unlock schedules across thousands of assets, pairing price with the unlock schedule that governs future supply.
+
+**Real-World Assets (RWA).** A separate [RWA dashboard](https://defillama.com/rwa) ranks tokenized treasuries, commodities, private credit, and other off-chain assets by active and onchain market capitalization, and reports what share of each asset's value is actually deployed inside DeFi rather than sitting idle in custody — the same issuance-versus-use question DefiLlama Research examined in its RWAfi report, but as a live, per-asset breakdown instead of a point-in-time study. Redemption terms, KYC requirements, and custody model are listed per asset, the due-diligence detail institutional allocators look for before touching tokenized exposure.
+
 **Raises and Hacks.** Fundraising announcements and a running ledger of DeFi exploits, both sourced semi-automatically and manually curated.
 
 In 2026, DefiLlama expanded its data surface further by acquiring Bulletin, a platform that provided structured valuation and OTC data for private crypto companies. The acquisition signals an ambition to connect on-chain public-market data with private-market fundamentals — giving investors a view into how a protocol's publicly-visible TVL and revenue numbers align with its private valuation and OTC pricing.
@@ -46,13 +50,15 @@ The move into AI-assisted analytics positions DefiLlama in a competitive space, 
 
 Alongside its data platform, DefiLlama operates a research publishing function under the DefiLlama Research banner, which distributes work through its own Telegram channel and publishes in-depth reports on DeFi sector trends.
 
-Recent research output has concentrated on two themes:
+DefiLlama Research's [catalog](https://defillama.com/research) runs across tokenized-equities adoption, DAO treasury management, credit-ratings infrastructure, and RWA sector analysis in 2026 alone, alongside protocol-specific reports.
 
-**Real-World Assets (RWAs).** The *State of RWAfi Q1 2026* report, co-published by DefiLlama and DefiLlama Research, examined the macro trend of tokenized commodities, equities, real estate, and alternative finance entering DeFi rails. The headline tension the report surfaced: approximately $30 billion in RWAs have been tokenized on-chain, but only $1.9 billion of that total is actively deployed in DeFi protocols — a utilization rate of roughly 6%. The disconnect between issuance and active use has since become a recurring theme in institutional discussions about the RWA narrative.
+One example is [The State of RWAfi: Q1 2026](https://defillama.com/research/report/the-state-of-rwafi-q1-2026-report), which used DefiLlama's own RWA data to size the gap between issuance and use: the report's measure of the active real-world-asset market grew from roughly $4.1 billion in early 2025 to about $25.2 billion by March 2026, while against the broader total onchain RWA market capitalisation of about $28.6 billion, only around $2.81 billion was actually deployed inside DeFi protocols. The report treats that gap — assets issued onchain but sitting outside DeFi entirely — as the sector's real constraint, not a rounding error.
 
-**Katana and ve(3,3) tokenomics.** DefiLlama released a 30-page research report on Katana, examining how the protocol's chain-wide ve(3,3) veTokenomics model routes chain-level revenues back to users rather than to validators or a foundation treasury. The analysis of Katana's KAT token mechanics and its approach to aligning liquidity providers with protocol sustainability drew significant readership. Research into Katana's chain-wide model was one of the more detailed public analyses of how ve(3,3) mechanics play out at a network level rather than a single-DEX level.
+Another dated example is [Katana: Bringing ve(3,3) to the Chain Level](https://defillama.com/research/report/katana-bringing-ve33-to-the-chain-level) (DefiLlama Research, 10 February 2026), which examined how Katana routes chain-level revenue — Vaultbridge yield, AUSD yield, chain-owned-liquidity returns, and sequencer fees — back to vKAT holders rather than to validators or a foundation treasury.
 
-DefiLlama Research has also flagged macro risks for the sector, warning that digital assets face heightened regulatory scrutiny and cybersecurity exposure in 2026 — consistent with the platform's pattern of publishing neutral, sometimes cautionary analysis rather than promotional content.
+DefiLlama Research describes itself as offering "bespoke digital asset research and market intelligence," publishes a "Trusted by" client list that includes exchanges such as Binance and Bybit, and marks some catalog entries as sponsored. That combination cuts both ways: it lets DefiLlama monetize the credibility its neutral dashboard built, while asking a reader to judge each report on its own terms rather than assume the same independence that governs the TVL numbers.
+
+
 
 ## The DL News Closure and What It Signals
 
