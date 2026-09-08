@@ -1,6 +1,6 @@
 # Retail, Explained
 
-> Retail crypto investors — individuals trading through consumer platforms — shape markets, drive regulation, and increasingly access tokenized assets. Here's how retail participation works, what risks it carries, and where it's heading.
+> Retail crypto is evolving from direct token speculation into a broader market for regulated funds, tokenized assets, automated trading tools and payment rails. Wider access matters, but leverage, custody and information gaps still determine who benefits.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/retail)**
 
