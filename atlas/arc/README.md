@@ -1,6 +1,6 @@
 # Arc, Explained
 
-> Arc is Circle’s stablecoin‑native L1 built around USDC gas, fast finality, built‑in FX, and post‑quantum security, backed by a $222M ARC token raise and early partners like Aave, Aerodrome, and Visa as it targets institutional onchain payments and capital markets.
+> Arc is Circle’s attempt to turn stablecoin issuance into a complete financial stack: an EVM-compatible chain built around predictable USDC fees, institutional settlement, embedded FX, selective privacy, and eventually decentralized security.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/arc)**
 
