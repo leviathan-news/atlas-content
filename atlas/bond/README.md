@@ -1,6 +1,6 @@
 # Bond, Explained
 
-> Bonds intersect with crypto in three ways: as a macro yield signal that moves Bitcoin prices, as tokenized RWAs reshaping institutional markets, and as native DeFi mechanisms for yield and collateral.
+> Bonds shape crypto through interest rates, institutional allocation, tokenized markets, Bitcoin-linked financing, and DeFi mechanisms. The essential task is separating genuine debt instruments from products that merely borrow the bond label.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/bond)**
 
