@@ -1,6 +1,6 @@
 # UK, Explained
 
-> The UK is building a comprehensive crypto regulatory regime under FCA oversight, with stablecoin rules, a proposed 10% crypto ETN fund cap, and a 2027 full authorisation deadline shaping its bid to become a leading digital-asset hub.
+> The UK is replacing its narrow crypto registration system with full regulation. Its prospects now turn on authorisation, stablecoin policy, retail access, enforcement, and whether regulated products can compete with overseas markets.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/uk)**
 
