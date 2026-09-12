@@ -1,6 +1,6 @@
 # Uniswap, Explained
 
-> Uniswap is the leading decentralized exchange protocol, powering AMM-based token swaps on Ethereum and 18+ chains. This explainer covers how it works, UNI governance, Unichain L2, RWA adoption, SEC scrutiny, and the fee switch debate.
+> Uniswap turned automated market making into core DeFi infrastructure. Its next test is whether a widening product surface—from concentrated liquidity and Unichain to lending and launch aggregation—can create durable value without obscuring the risks.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/uniswap)**
 
