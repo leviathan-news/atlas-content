@@ -1,6 +1,6 @@
 # Jupiter, Explained
 
-> Deep dive into Jupiter, Solana’s “everything exchange,” covering its DEX aggregation, perps, lending, JupUSD stablecoin, prediction markets, tokenized equities, security model, and JUP buybacks shaping a revenue‑driven DeFi token economy.
+> Jupiter has grown from Solana’s default swap router into a broader onchain financial stack spanning spot execution, perpetuals, lending, stablecoins, tokenized assets, prediction markets, portfolio management, and JUP buybacks.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/jupiter)**
 
