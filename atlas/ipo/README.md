@@ -1,6 +1,6 @@
 # IPO, Explained
 
-> An IPO converts private company ownership into publicly traded equity. For crypto audiences, the SpaceX listing revealed what tokenized pre-IPO products can and can't deliver — and where decentralized markets are genuinely reshaping price discovery.
+> IPOs turn private ownership into public equity. Crypto extends price discovery and access around that transition, but perpetuals, tokenized shares, and SPV interests carry very different ownership, liquidity, and counterparty risks.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/ipo)**
 
