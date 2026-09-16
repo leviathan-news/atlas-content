@@ -1,6 +1,6 @@
 # AVAX: Complete Guide
 
-> Avalanche (AVAX) is a Layer-1 blockchain combining sub-second finality, EVM compatibility, and customizable L1s, increasingly adopted by institutions for tokenized assets, stablecoin payments, and regulated settlement infrastructure.
+> Avalanche is a high-throughput Layer-1 built around customizable application chains. Its case rests on institutional settlement, tokenization, and consumer deployments, balanced against liquidity fragmentation, bridge risk, competition, and uncertain token demand.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/avax)**
 
