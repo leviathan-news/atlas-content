@@ -1,6 +1,6 @@
 # Binance, Explained
 
-> Deep explainer on Binance’s evolution from startup exchange to global crypto infrastructure, covering products, BNB ecosystem, derivatives, launches, stablecoins, proof of reserves, regulatory battles, Iran and sanctions issues, and emerging market impact.
+> Binance is simultaneously a dominant exchange, derivatives venue, token-distribution platform, Web3 gateway, and regulatory test case. Its scale creates deep liquidity and broad access, but also concentrates custody, compliance, and market-structure risk.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/binance)**
 
