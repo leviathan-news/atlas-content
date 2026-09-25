@@ -1,6 +1,6 @@
 # EU, Explained
 
-> The EU's MiCA regulation, AML rules, ECB oversight, and Russia sanctions create the world's most comprehensive crypto framework — covering licensing, stablecoins, KYC, and sanctions enforcement across 27 member states.
+> The EU regulates crypto as a layered market spanning licensing, financial crime, sanctions, and settlement infrastructure. MiCA supplies the passport, but national supervisors, the ECB, ESMA, and future AML rules determine what that passport is worth.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/eu)**
 
