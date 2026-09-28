@@ -1,6 +1,6 @@
 # Arc, Explained
 
-> Arc is Circle’s attempt to turn stablecoin issuance into a complete financial stack: an EVM-compatible chain built around predictable USDC fees, institutional settlement, embedded FX, selective privacy, and eventually decentralized security.
+> Arc brings USDC gas, deterministic finality, integrated FX, selective privacy, and structured payment data into one Circle-led chain. Its promise is coherent financial infrastructure; its defining risk is concentrated control.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/arc)**
 
