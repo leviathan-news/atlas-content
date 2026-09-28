@@ -1,5 +1,3 @@
-# Arc: Circle’s Stablecoin-Native Layer‑1 Explained
-
 Arc is a public, EVM-compatible layer‑1 blockchain developed by Circle and purpose-built for stablecoin finance. Circle describes it as an economic operating system for digital dollars, global payments, foreign exchange, credit, and capital markets. The more useful classification is narrower: Arc is an attempt to make the stablecoin issuer part of the settlement infrastructure beneath the stablecoin.
 
 Instead of centering the user experience on a volatile native gas token, Arc uses USDC as the fee asset and treats fiat-backed stablecoins as first-class monetary instruments. The intended gain is predictable, dollar-denominated execution for institutions and ordinary users; the corresponding cost is a network whose monetary plumbing, early governance, and commercial incentives are unusually close to one company.
