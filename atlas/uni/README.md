@@ -1,6 +1,6 @@
 # UNI: Complete Guide
 
-> In‑depth explainer on UNI, the token behind Uniswap’s DeFi ecosystem. Covers governance, fee switch, UNIfication, Unichain staking, regulatory backdrop, institutional adoption, RWA narrative and key risks shaping UNI’s long‑term role in crypto markets.
+> UNI is evolving beyond governance as Uniswap experiments with protocol fees, burns, delegated voting, legal structures, and its own scaling network. The opportunity is stronger economic alignment; the cost is greater technical, regulatory, and governance complexity.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/uni)**
 
