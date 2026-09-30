@@ -1,6 +1,6 @@
 # Ledger, Explained
 
-> Comprehensive explainer on “ledger” in crypto, covering Ledger hardware wallets, public blockchains like the XRP Ledger, security practices, tokenized assets, AI-driven payments, and how users safely interact with Bitcoin, XRP, stablecoins and DeFi.
+> A durable guide to crypto ledgers, Ledger hardware wallets, self-custody, Bitcoin, XRPL, privacy networks, stablecoins, tokenized assets, protocol security, and the practical trade-offs of controlling digital value.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/ledger)**
 
