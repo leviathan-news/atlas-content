@@ -1,6 +1,6 @@
 # Buybacks, Explained
 
-> In‑depth explainer on crypto token buybacks, covering mechanics, funding, burns, ve‑models, legal risks, and case studies from Hyperliquid to Uniswap and Aster, with guidance for investors and builders on evaluating sustainable value accrual.
+> Token buybacks can connect protocol revenue to token demand, offset dilution, reward committed holders, or fund growth. Their value depends less on the label than on sustainable cash flow, net issuance, execution rules, and governance.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/buybacks)**
 
