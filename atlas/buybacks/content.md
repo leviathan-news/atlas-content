@@ -1,243 +1,369 @@
-# Crypto Token Buybacks: How DeFi Is Turning Repurchases Into a Core Primitive
+Token buybacks occur when a protocol, DAO, foundation, or related entity uses capital to repurchase its own token, usually on the open market, and then holds, distributes, locks, recycles, or destroys the acquired supply. In practice, buybacks sit at the intersection of revenue sharing, monetary policy, governance, and market structure. They have become one of DeFi’s main attempts to turn speculative cryptoassets into instruments tied to observable economic activity.
 
-Token buybacks in crypto occur when a protocol, DAO, or related entity uses capital to repurchase its own token, usually on the open market, and then holds, distributes, or destroys those tokens as part of its tokenomics design. In practice, buybacks sit at the intersection of revenue sharing, burning, governance, and market structure, and have become one of the main ways DeFi projects attempt to turn speculative cryptoassets into cash‑flowing, value‑accruing instruments tied to real economic activity.  
+That description sounds familiar because the vocabulary comes from public equities. The resemblance is real, but incomplete. A company repurchasing shares and a protocol buying tokens may both reduce tradable supply, yet tokens can also govern software, secure networks, direct emissions, earn incentives, or function inside applications. The destination of a repurchased token therefore matters as much as the purchase itself.
 
-## From Wall Street Tool to On‑Chain Primitive
+The useful question is not whether a protocol has a buyback. It is what economic circuit the buyback completes. Sustainable programs convert recurring revenue into token demand under rules outsiders can inspect. Weak programs spend finite treasury assets to create a temporary bid while emissions, unlocks, or operating losses continue in the background. The same word covers both.
 
-In traditional finance, share buybacks allow a company to repurchase its outstanding stock, reducing free‑float supply and indirectly returning capital to shareholders by boosting earnings per share. Crypto teams borrowed this vocabulary, but transplanted it into a very different environment: tokens trade on 24/7 global markets, issuance and burns can be automated in smart contracts, and many projects are not incorporated entities in any single jurisdiction. As a result, what looks like a familiar corporate finance mechanic quickly mutates into something more programmable, transparent, and experimental once it lives on‑chain.
+## From Wall Street Tool to On-Chain Primitive
 
-At its simplest, a crypto token buyback is exactly what it sounds like: a protocol, DAO, or foundation uses assets it controls—typically protocol revenue, treasury reserves, or occasionally debt—to buy its native token on the secondary market. Those repurchased tokens might then sit in a treasury wallet, be redistributed to stakers or lock‑up participants, be permanently locked, or be sent to a burn address and destroyed. The overarching goal is usually some combination of value accrual, supply management, and signaling: tying token value to protocol usage, offsetting inflation from emissions and unlocks, or signaling confidence after stress events like hacks or market drawdowns.
+In traditional finance, a share buyback allows a company to repurchase outstanding stock. If the shares are retired, the remaining owners hold a larger proportional claim on the business. Repurchases can also absorb employee issuance, alter the capital structure, or signal that management considers the stock undervalued. Their merits depend on the price paid, the company’s alternatives for investing the money, and whether the balance sheet can support the expenditure.
 
-The concept would be incomplete without understanding **burns**. Burning refers to sending tokens to an unusable “eater” or zero address from which they can never be recovered, effectively removing them from circulation forever. Some consensus mechanisms even embed burning in block production; in proof‑of‑burn systems, miners deliberately destroy tokens to earn the right to add new blocks. In DeFi tokenomics, buybacks and burns often appear together as “buyback and burn” programs, where the project first reacquires its token in the market and then sends it to a burn address to engineer a deflationary supply schedule. Other teams, influenced by research like Placeholder’s “buyback and make” thesis, argue that it can be more productive to recycle repurchased tokens back into the protocol rather than destroying them.
+Crypto imported this vocabulary into a substantially different environment. Tokens trade around the clock across global venues. Issuance, transfers, locking, and destruction can be automated through smart contracts. Many protocols are governed by tokenholders rather than conventional boards, while foundations, development companies, delegates, and multisignature signers may divide operational authority. A familiar corporate-finance mechanism becomes a programmable monetary-policy tool once it moves on-chain.
 
-Because these decisions affect both the token’s supply trajectory and its cash‑flow profile, buybacks sit at the core of modern governance debates. Many tokens that launched as pure governance chips with no explicit claim on revenue are now revisiting that design, as holders push for fee switches and buyback programs to compete with protocols that already offer direct value accrual. Examples such as Uniswap’s fee switch, Ethena’s ENA fee redirection, and LayerZero’s ZRO referendum show buybacks evolving from a post‑launch afterthought into a central part of protocol roadmaps.
+At its simplest, a protocol uses assets it controls—normally fees, treasury reserves, or investment income—to buy its native token in the secondary market. The acquired tokens may remain in a treasury wallet, be distributed to stakers, be locked in a governance system, supply protocol-owned liquidity, fund grants, or be sent to an inaccessible address. Each destination produces a different balance between scarcity, current income, strategic flexibility, and future dilution.
 
-## Mechanics: Where the Money Comes From and How Buybacks Execute
+The distinction between a buyback and a burn is fundamental. A buyback changes ownership: the protocol or its agent acquires tokens that another holder sells. A burn changes supply: tokens are sent to an address or contract from which they cannot practically return. A protocol can buy without burning, burn tokens it already owns without buying, or combine both steps in a buyback-and-burn program.
 
-### Funding sources: revenue, treasuries, and leverage
+That combination has intuitive appeal. Revenue creates market demand, while the subsequent burn permanently reduces supply. It resembles a company using profits to repurchase and cancel stock, but tokens complicate the analogy because they may also be productive assets inside the network. Destroying them maximizes finality; retaining them preserves optionality. The gain is credible scarcity, and the cost is surrendering capital that might otherwise deepen liquidity, secure the protocol, or finance growth.
 
-The first question in any buyback discussion is simple: **what pays for it?** In DeFi, the most sustainable answer is protocol revenue. Hyperliquid, for example, directs more than 90% of its platform fees into an Assistance Fund that systematically repurchases its HYPE token on the open market, a model that has led the exchange to account for nearly half of all token buyback activity in 2025 by some measures. Aster recently overhauled its tokenomics so that 99% of daily platform fees are automatically used to buy ASTER, directly linking protocol usage to token demand. Jupiter routes 50% of trading fee revenues into a JUP buyback program that Blockworks Research estimates could correspond to roughly 40% of circulating supply at current run‑rate revenues.
+Research advocating “buyback and make” pushes this logic further. Instead of treating destruction as the natural endpoint, a protocol can reuse acquired tokens as productive capital. It might pair them with stablecoins in protocol-owned liquidity, place them in security modules, use them to underwrite insurance, or direct them toward ecosystem development. This reclassifies a buyback from a distribution policy into a capital-allocation policy—closer to retained earnings than to a cash dividend.
 
-Other protocols source buybacks from more complex yield streams. Ethena’s fee switch, approved in a November 2024 governance proposal, captures a portion of the yield generated by its synthetic dollar sUSDe and channels it into ENA buybacks, with potential redistribution to staked sENA holders. This structure effectively transforms part of a derivatives‑driven stablecoin yield into a token buyback pipeline. AI‑adjacent projects like FLock do something similar with inference revenue, using income from model APIs to buy back and burn model‑specific tokens while also powering buybacks of the FLOCK governance token.
+Because these decisions alter both supply and the distribution of economic benefits, buybacks belong at the center of token governance. A governance-only token asks holders to value influence. A revenue-linked token adds a measurable economic circuit. That does not automatically make it valuable, but it gives holders an observable test: compare recurring revenue with emissions, unlocks, operating needs, and the amount actually committed to repurchases.
 
-Treasury‑funded buybacks, where a foundation or DAO spends previously raised capital or token reserves to support the market, are also common, especially around key events like hacks or unlocks. After security incidents, some teams pair compensation with buyback‑and‑burn programs that target a fixed percentage of total supply, attempting to restore confidence by tightening token supply and signaling long‑term commitment. In the listed‑equity world, Bitcoin‑focused public companies have authorized share buybacks funded by selling some BTC and paying down debt, underscoring that treasury management and repurchases are closely intertwined even outside DeFi.
+## Mechanics: Where the Money Comes From
 
-A more controversial variant involves **leveraged buybacks**, where a project or corporate parent borrows—directly in fiat, in stablecoins, or against its token holdings—to fund repurchases. Debt‑financed share buybacks are a familiar feature in traditional markets, and similar dynamics can appear around Bitcoin‑exposed firms using debt to buy back stock. In crypto, this approach heightens reflexivity: if the token price falls after a debt‑funded buyback, collateral values shrink and repayment burdens grow, raising the specter of Terra‑style doom loops where financial engineering accelerates a drawdown rather than cushioning it.
+### Recurring protocol revenue
 
-### Execution: from manual buys to on‑chain TWAP and auctions
+The strongest funding source is recurring revenue generated by a product people use. A decentralized exchange may allocate part of trading fees, a lending market may use an interest spread, and an application protocol may dedicate service income. When purchases rise and fall with usage, the program exposes the protocol’s economics rather than disguising them.
 
-Once funds are earmarked, the next design choice is execution. Some projects opt for relatively simple **open‑market purchases** via centralized exchanges (CEXs) or decentralized exchanges (DEXs). Others encode buybacks as on‑chain routines that execute against automated market makers according to predefined parameters. Aster’s revamped model, for instance, uses an automated time‑weighted average price (TWAP) mechanism to execute daily fee‑funded buybacks of ASTER on the open market, smoothing market impact and reducing the risk of slippage and manipulation. Purchased tokens flow into a public buyback wallet before being distributed to veASTER holders during reward epochs.
+This arrangement has a clean virtue: the token receives demand only when the underlying product earns money. It also has a clear limitation: revenue is cyclical. Trading fees can contract sharply during quiet markets, lending income can fall with utilization, and application demand can migrate elsewhere. A fee-funded buyback is not a permanent price floor. It is a variable distribution whose durability depends on competitive advantage.
 
-Auction‑based mechanisms offer a more market‑driven approach. Injective’s tokenomics include an auction module that periodically sells a basket of tokens (collected fees and other assets) in exchange for bids denominated in INJ; the winning INJ bid is then burned. Rather than a protocol passively buying in the market, here users compete to spend INJ, and the protocol destroys the winning bids, turning auction demand into a continuous burn mechanism. This design merges **revenue collection, price discovery, and burning** into a single on‑chain primitive.
+Hyperliquid is an important example of the revenue-maximalist model. Its Assistance Fund directs a very large share of platform fees toward open-market purchases of HYPE. The structure is unusually legible: trading activity generates fees, fees finance purchases, and purchases accumulate tokens. That makes estimated repurchase capacity easier to model than a discretionary treasury program.
 
-Programmatic execution is not just a matter of convenience. It also addresses regulatory and ethical concerns. In a widely viewed explainer, attorney Adam Tracy notes that while there is no clear “black‑letter law” governing token buybacks, best practices can be borrowed from U.S. securities law Rule 10b‑18, which shapes how stock buybacks should be executed to avoid manipulation claims. Those norms emphasize limiting daily volume participation, avoiding trades around the open and close, and, crucially, disclosing the program’s parameters. Crypto equivalents, such as automated TWAP buying directly tied to verifiable on‑chain fee flows, can reduce discretionary timing by insiders and make it easier for markets and regulators to observe what is happening in real time.
+The benefit is tight linkage between product use and token demand. The cost is concentration around a single economic engine. If derivatives volume falls, fee income and buying capacity fall together. A holder assessing the model should therefore track fee revenue, the share sent to the fund, acquired balances, and any governance power or future disposition attached to those balances.
 
-### What happens to the repurchased tokens?
+Jupiter provides another version of the same logic by routing a substantial share of trading-fee revenue toward JUP purchases. The relevant comparison is not the headline allocation alone but the buyback budget relative to circulating market value, expected unlocks, and retained operating capital. A large percentage of a small revenue base can matter less than a modest percentage of a dominant one.
 
-The fate of repurchased tokens is where design choices most directly shape value accrual. At least four broad patterns have emerged.
+### Treasury reserves
 
-The first is **buyback‑and‑hold**, in which the protocol or foundation holds the tokens in treasury or locks them in smart contracts. Aerodrome offers a clear example: the protocol has acquired and locked around 190 million AERO through its buyback program as part of a broader merger and upgrade process, reducing circulating supply ahead of changes that include rebase elimination and other deflationary mechanics. Locking repurchased tokens supports tokenomics by shrinking effective float while preserving optionality to use them later for liquidity, grants, or further incentives.
+Treasury-funded repurchases draw on assets accumulated earlier through fundraising, token sales, grants, or retained revenue. They are common after market stress, security incidents, or major tokenomics changes because they can be deployed before a protocol develops sufficient recurring income.
 
-The second is **buyback‑and‑distribute**. Pendle, a protocol for tokenized yield, has acquired more than 1.7 million PENDLE from the open market since launching its sPENDLE staking system and has distributed every token to sPENDLE holders. Here buybacks turn protocol revenue or activity into direct rewards for long‑term participants, conceptually closer to dividends than to pure deflation. Aster’s model does something similar, sending buybacked ASTER to veASTER stakers as additional rewards each epoch. This aligns with the broader “real yield” narrative, where holders receive a share of genuine cash flows rather than dilutionary token emissions.
+A treasury buyback can communicate that governing stakeholders consider the token cheap or that they are willing to absorb part of a shock. Yet it does not itself prove that the protocol has a viable revenue model. It transfers treasury assets to sellers and replaces them with exposure to the protocol’s own token. That may be sensible when the treasury is overcapitalized, but dangerous when operating runway is limited.
 
-The third pattern is **buyback‑and‑burn**, where the repurchased tokens are destroyed. Aster couples its fee‑funded buybacks with matched burns from its reserve allocations, executing burns every two weeks and aiming to reduce total supply from 8 billion tokens to 3 billion over time. FLock’s model likewise uses revenue to buy back and burn specialized Model Tokens, permanently removing them from circulation as model usage grows. Uniswap’s fee switch ties a portion of protocol fees to UNI supply reduction, converting protocol usage into recurring UNI burns estimated at roughly 4–5 million UNI annually during the initial observation period. Injective’s auction mechanism also results in a steady burn of INJ as users compete to spend tokens in auctions.
+The central test is opportunity cost. Capital spent on buybacks cannot simultaneously pay contributors, audits, insurance claims, integrations, liquidity incentives, or legal expenses. A protocol with a defensible product and excess reserves may rationally return capital. A struggling protocol that consumes its runway to support the token may weaken the very business expected to fund future purchases.
 
-A fourth category, sometimes called **buyback‑and‑make**, has been articulated by venture firm Placeholder. Rather than burning, a protocol uses repurchased tokens as productive capital, recycling them into activities such as liquidity provision, lending, or funding of ecosystem projects. The idea is that permanently destroying tokens might create speculative scarcity but does nothing to deepen the protocol’s economic moat, whereas reinvesting repurchased tokens can grow the underlying business and ultimately benefit holders more. This approach often overlaps with “ve‑token” models in which locked tokens confer rights to fee flows, emissions, and governance influence.
+Treasury composition also matters. A diversified reserve spending stable assets to acquire the native token becomes less diversified. During a drawdown, both operating capacity and treasury value may then decline together. The buyback can reduce market supply while increasing institutional fragility.
 
-These design choices are not purely mechanical. They shape the token’s narrative: is it a deflationary asset akin to Bitcoin’s halving‑driven scarcity, an income‑generating stake in protocol revenue, or a governance chip whose power depends on long‑term locking? Buybacks, burns, and recycling into ve‑systems are now primary tools for answering that question.
+### Yield and other protocol income
 
-## Why Protocols Lean on Buybacks
+Some protocols fund purchases from yield rather than conventional transaction fees. A synthetic-dollar system, for example, can direct part of the income generated by its reserve or hedging strategy toward its governance token. This converts balance-sheet performance into token demand, but it also transmits the risks of the underlying strategy.
 
-### Aligning tokens with revenue and usage
+Ethena’s governance discussions illustrate the pattern. The project has considered mechanisms that route part of the economic output associated with its synthetic-dollar system toward ENA purchases or rewards for committed holders. The attraction is obvious: a governance token gains a connection to an operating engine. The trade-off is that the engine’s yield, hedging costs, counterparty exposure, and growth conditions all become relevant to the token’s value-accrual thesis.
 
-The most compelling argument for buybacks is simple: they connect token value to protocol **revenue** and usage. For much of the last cycle, many tokens functioned primarily as governance abstractions with little or no direct link to cash flows. Research from Novora, covering a dataset of dozens of major tokens, concludes that “active value accrual” models—combining direct fee sharing, buyback‑and‑burn, buyback‑and‑hold, or ve‑models—on average outperformed governance‑only tokens by around ten percentage points, while the median governance‑only token returned roughly negative sixty‑seven percent, with only one positive performer in the cohort. In the same study, the authors emphasize that **revenue scale**, more than any particular accrual mechanism, explained most of the variation in outcomes: tokens attached to genuinely productive, high‑revenue protocols outperformed regardless of the exact mechanics.
+The same analytical rule applies to application revenue. If an AI protocol uses inference income to repurchase model-specific tokens, the arrangement connects customer activity to token demand. It also means the buyback is only as durable as genuine paid usage. Subsidized activity, circular token incentives, and gross transaction volume are not substitutes for retained revenue.
 
-A growing share of DeFi blue chips have taken this lesson to heart. Uniswap’s activation of its fee switch turned UNI from a pure governance token into one with a programmatic link between trading activity and token supply reduction, as protocol fees now contribute to ongoing UNI burns rather than purely inflationary issuance. Jupiter’s JUP program, which directs half of trading fee revenue into buybacks that could retire a significant fraction of circulating supply at current volumes, explicitly markets the token as a claim on aggregator revenues rather than as a mere voting right. Hyperliquid’s revenue‑driven buybacks have been central to bullish theses that describe HYPE as one of the few “truly investable” exchange tokens thanks to its legitimate cash flows and aggressive repurchase policy.
+### Leverage
 
-Newer governance debates follow the same pattern. Ethena’s fee switch shifted part of the sUSDe yield into ENA buybacks and potential distributions to long‑term stakers, and LayerZero has asked ZRO holders to vote on a referendum that would activate a protocol fee in order to fund ZRO buybacks and burns. In both cases, communities are explicitly weighing whether to leave fees in the protocol treasury or to route them, directly or indirectly, to token holders. The directional trend is clear: revenue‑driven buybacks are becoming a default expectation for mature DeFi protocols.
+Debt-financed buybacks are the most reflexive form. The issuer borrows fiat, stablecoins, or another asset and uses the proceeds to purchase its own token or shares. This can increase exposure per remaining unit when the acquired asset appreciates, but it introduces a fixed obligation against a volatile balance sheet.
 
-### Stabilizing markets and managing supply
+The danger is easiest to see as a feedback loop. A falling token price reduces collateral value; weaker collateral increases refinancing pressure; refinancing pressure forces asset sales or reduces future buyback capacity; and those changes can place further pressure on price. What begins as support can become an accelerant.
 
-Buybacks are also a tool for **managing supply** in a landscape dominated by emissions, unlocks, and mercenary liquidity. Many protocols launch with generous token incentives, vesting schedules for investors and teams, and low initial float, which can create persistent sell‑side pressure as cliffs vest and farming rewards enter the market. Delphi‑style research has highlighted that insider unlocks and poorly aligned listings often generate substantial negative excess returns around those events, while protocols that route a meaningful share of fees back to holders through buybacks or burns fare better over time.
+Debt is not automatically irrational. A well-capitalized issuer may borrow at a low rate when its securities appear deeply undervalued. The relevant distinction is between a financing decision supported by resilient cash flow and a leveraged wager whose repayment depends on the repurchased asset rising. In crypto, where volatility is high and liquidity can disappear quickly, that distinction is decisive.
 
-In this context, buybacks function as an **offset** to dilution. Aster’s plan to use 99% of daily platform fees to buy ASTER, while burning an equal amount from reserves until supply falls from 8 billion to 3 billion, is an explicit attempt to counteract past token issuance and re‑anchor tokenomics around sustainable revenue. Hyperliquid’s large‑scale buybacks, representing nearly half of total token buyback volume in 2025 by some measures, similarly reduce free‑float over time as the platform grows. Aerodrome’s accumulation and locking of 190 million AERO ahead of its July merger reduce the circulating base of tokens even before additional deflationary mechanics take effect.
+## Execution: From Manual Purchases to On-Chain Policy
 
-Core blockchain assets like Bitcoin addressed supply management at the protocol level with a fixed issuance schedule and periodic halvings. In contrast, DeFi tokens often rely on **discretionary, governance‑driven supply policy**, making buybacks and burns politically mediated tools rather than hard‑coded monetary policy. That flexibility cuts both ways. When markets are strong and fees are high, aggressive buybacks can help dampen volatility and keep circulating supply in check. When revenues fall, buybacks shrink or disappear, and token holders discover that prior repurchases were less a permanent floor and more a function of cyclical cash flows.
+Once capital is allocated, execution determines who can anticipate the orders, how much price impact they create, and whether insiders retain discretion.
 
-### Repairing trust after hacks and stress events
+### Open-market purchases
 
-Beyond everyday tokenomics, buybacks often appear as **emergency tools** after crises. Following hacks, oracle failures, or governance missteps, teams may deploy treasury funds to buy back and burn a portion of supply, framing the move as a way to compensate affected users or to offset security‑related dilution. By removing tokens from circulation, such programs can signal that insiders are willing to bear some of the cost of remediation, not just external holders.
+The simplest approach is buying through centralized or decentralized exchanges. It is easy to understand and can access deep liquidity, but it leaves important questions. Which venue executes the trade? Who controls the account? How are order sizes and timing selected? Can insiders know the schedule before the market? What reporting confirms that announced purchases occurred?
 
-In the Bitcoin and listed‑equity space, related dynamics arise when highly leveraged BTC‑treasury firms use debt buybacks and share repurchases as part of complex capital‑structure management. When these maneuvers send signals of over‑confidence or stretch balance sheets, markets can respond violently; recent drawdowns following debt buyback announcements illustrate how reflexive feedback loops between asset price, collateral value, and leverage can resemble the dynamics of algorithmic stablecoin collapses, even if the instruments are very different.
+Centralized execution may provide better depth and lower immediate slippage, but outsiders cannot always verify individual trades. Decentralized execution produces an auditable trail, though public orders can be anticipated or exploited. Neither venue is inherently superior; the program must match execution rules to liquidity and disclosure needs.
 
-DeFi has not seen a Terra‑scale doom loop triggered by buybacks alone, but the cautionary lesson is relevant. A buyback funded from sustainable, recurring revenue is fundamentally different from one financed by leverage or one‑time treasury depletion. Markets increasingly distinguish between the two.
+A one-time market order is especially vulnerable to poor pricing. If buyers announce a fixed budget and then cross a thin order book, sellers can raise offers in anticipation. The protocol may create a dramatic candle while acquiring fewer tokens than a patient strategy would have secured.
 
-### Narrative, competition, and “investable” tokens
+### Time-weighted execution
 
-Finally, buybacks are about **narrative** and competition. Research from both independent analysts and sell‑side firms often highlights protocols with robust, transparent buyback programs as more “investable” than those relying solely on governance and emissions. Citrini Research’s report on Hyperliquid, widely cited in industry commentary, describes the combination of high fee capture, aggressive buybacks, and no‑VC token structure as a compelling investment case in a sea of poorly designed exchange tokens. Blockworks’ coverage of Jupiter’s JUP emphasizes that its buyback scale is comparable to high‑dividend or high‑repurchase equities, reframing a DeFi token in terms familiar to traditional asset managers.
+Time-weighted average price mechanisms divide purchases across an interval. Rather than allowing an operator to choose a single moment, the program buys in smaller increments under preset parameters. This reduces timing discretion and usually limits immediate market impact.
 
-Tools like Blocmates’ proposed **Holder Multiple** metric formalize this intuition by adjusting a token’s effective valuation for expected emissions and buybacks. Their approach takes current market capitalization, adds projected supply from investor and team unlocks and token rewards, and subtracts estimated buyback volume to arrive at a more realistic picture of what long‑term holders will own. For institutions exploring token allocations, metrics that explicitly model how buybacks and unlocks interact are critical to comparing tokens not just by headline revenue, but by the net value that actually accrues to circulating holders over time.
+Aster’s model illustrates the approach: fee-funded purchases are executed over time and accumulated before distribution through its locking system. The mechanism turns a governance decision into a recurring rule. The gain is predictability and reduced insider discretion; the cost is that a public schedule can still be anticipated, and rigid execution may continue through unfavorable market conditions.
 
-In this competitive environment, tokens that lack any credible path to value accrual via fees, buybacks, or equivalent mechanisms increasingly struggle to attract attention or maintain valuations once speculative froth recedes. Governance alone is no longer enough; buybacks have become a shorthand for “this token is tethered to something real.”
+TWAP is not a synonym for fairness. Parameters still matter: execution interval, maximum slippage, eligible venues, oracle selection, pause authority, and the treatment of failed trades. A robust program publishes enough information for an outside observer to reconstruct expected behavior and compare it with actual transactions.
 
-## Design Patterns: Burn, ve‑Models, and “Buyback and Make”
+### Auctions
 
-### Buyback‑and‑burn: engineered scarcity
+Auction systems reverse the usual direction. Rather than taking treasury assets to the market and buying the native token, a protocol offers fee assets or another basket to users who bid with the native token. The winning bid is then burned or retained.
 
-The most straightforward pattern is **buyback‑and‑burn**. Here, a fixed or variable portion of protocol revenue is used to buy back tokens, which are then sent to a burn address. This creates explicit, observable deflation. Aster’s matching mechanism—using 99% of daily fees to buy ASTER while burning an equal amount from reserves every two weeks until supply falls from 8 billion to 3 billion—is a textbook example of combining demand‑side support with scheduled supply reduction. FLock channels revenue from its AI inference marketplace into buybacks and burns of specialized Model Tokens, so that model usage translates into permanent supply removal as well as powering FLOCK buybacks. Uniswap’s fee switch effectively turns a slice of trading fees into recurring UNI burns, replacing a purely inflationary token issuance schedule with one that, at the margin, can be net deflationary under high usage.
+Injective’s auction module demonstrates the model. Users compete for collected assets using INJ, and the winning INJ is destroyed. Revenue collection, price discovery, and supply reduction occur in a single process. This is closer to a periodic exchange of protocol income for token supply than to a passive market buy.
 
-Burning has strong optical appeal. It is simple to explain, easy to verify on‑chain, and maps neatly onto narratives of digital scarcity that Bitcoin popularized. When tokens are sent to a verifiable burn address—an account without known private keys and typically with a distinctive format—they are, in practical terms, unrecoverable. In systems like Injective’s auction module, users themselves create the burn by competing to spend INJ in auctions, which the protocol then destroys. The result is a supply curve that is not only capped but actively driven down by economic activity, a feature some compare to Ethereum’s post‑EIP‑1559 fee burn dynamics.
+Auctions can reduce reliance on discretionary trade execution and give users a direct role in price discovery. Their effectiveness nevertheless depends on participation. Thin competition may allow bidders to acquire valuable assets cheaply, while complex auction rules may concentrate benefits among sophisticated operators.
 
-However, burning is also irreversible. Critics argue that removing tokens from circulation may maximize speculative upside but forecloses opportunities to use those tokens productively in future ecosystem growth. It can also be misleading if burn rates are small relative to inflation. A protocol that trumpets its burn program while quietly emitting far greater quantities of new tokens through liquidity mining or unlocks is not truly deflationary; only a comprehensive view of net issuance reveals whether buyback‑and‑burn is more than a marketing slogan.
+### Programmatic rules and governance controls
 
-### Buyback‑and‑hold: treasury as strategic asset
+Automation changes the governance problem; it does not eliminate it. Someone defines the allocation rate, venues, contracts, or auction cadence. Someone may hold emergency powers. Governance can often amend the rules.
 
-Under **buyback‑and‑hold**, the protocol retains repurchased tokens in a treasury, multisig, or locking contract rather than burning them. Aerodrome’s choice to acquire and lock roughly 190 million AERO tokens ahead of its July merger and upgrade is a representative case. Locking those tokens reduces effective float and supports price resilience, while preserving flexibility to deploy them later for incentives, partnerships, or further protocol mergers. In ve‑token systems, locked treasury holdings can also be used to direct governance and fee flows across interconnected protocols.
+A credible design separates ordinary execution from exceptional intervention. Routine purchases follow public parameters. Emergency pauses require explicit conditions. Material changes pass through governance with enough delay for market participants to react. Reporting reconciles revenue, allocated funds, completed purchases, and the final destination of acquired tokens.
 
-From a balance‑sheet perspective, buyback‑and‑hold resembles a firm retiring shares but keeping them in treasury stock rather than canceling them outright. It can support valuations by reducing supply available to trade without committing to permanent destruction. Yet it also introduces a **future overhang**: if governance later votes to re‑emit or sell those tokens, today’s buybacks may become tomorrow’s dilution. The credibility of a buyback‑and‑hold program therefore depends heavily on governance constraints, transparency, and the protocol’s long‑term strategy.
+This turns transparency into a practical test. An observer should be able to identify the funding wallet, trace transfers into the execution contract, verify purchases, and locate the resulting tokens. If the program cannot be followed from revenue to final disposition, its advertised allocation is less informative than it appears.
 
-### Buyback‑and‑distribute: real‑yield style rewards
+## What Happens to Repurchased Tokens?
 
-**Buyback‑and‑distribute** turns repurchases into a direct cash‑flow channel for active participants. Pendle’s model, where the protocol has acquired over 1.7 million PENDLE from the open market since launching its sPENDLE system and has distributed every token to sPENDLE holders, exemplifies this approach. Rather than destroying tokens or hoarding them, the protocol effectively recycles trading fees and yield‑related revenues into additional PENDLE for those who commit to the ecosystem via staking. Aster’s buyback program similarly sends repurchased ASTER to veASTER stakers as additional rewards, letting active participants capture a high percentage of fee‑driven buybacks at maximum lock weight.
+The endpoint determines whether a buyback creates permanent scarcity, current rewards, strategic reserves, or new productive capacity.
 
-This pattern resembles a dividend in equity markets but in token form. It avoids some regulatory sensitivities around direct fee sharing by routing value via buybacks and token redistribution rather than explicit payment streams in stablecoins or fiat. Economically, however, the effect is similar: revenue supports token price both through reduced float and through increased token balances for long‑term holders.
+### Buyback and hold
 
-### Vote‑escrowed (ve) models and compounded buybacks
+Under buyback-and-hold, acquired tokens remain in a treasury, multisignature wallet, or contract. This reduces public float while preserving the ability to use the tokens later. The protocol may deploy them for grants, liquidity, mergers, security incentives, or governance.
 
-**ve‑Models**—originating with Curve’s veCRV—layer time‑based locking and governance power on top of value accrual. In these systems, users lock tokens for a fixed period to receive a non‑transferable ve‑token that confers voting rights and a share of protocol fees, incentives, or external “bribes.” Protocols like Curve, Aerodrome, Velodrome, Balancer, and Convex use ve‑architectures that can incorporate buyback flows either directly, by routing repurchased tokens to lockers, or indirectly, by letting ve‑holders direct emissions and thus influence where buyback‑funded liquidity is deployed.
+The structure resembles treasury stock more than canceled shares. It creates flexibility, but that flexibility is also an overhang. Tokens removed from the market today may return tomorrow. Holders must distinguish between circulating supply, liquid supply, total supply, and protocol-controlled supply rather than treating every acquired token as permanently retired.
 
-Aster’s veASTER exemplifies a design where buybacks and ve‑locking are deeply intertwined. Fee‑funded buybacks accumulate ASTER in a public wallet and then distribute those tokens to veASTER holders during reward epochs, while matched burns reduce long‑term supply. The result is a **triple flywheel**: protocol revenue lifts buyback capacity, buybacks and burns lower float, and ve‑lockers receive an increasing share of a scarcer asset.
+Aerodrome’s accumulation and locking of AERO shows how this design can accompany a broader architectural transition. Locking can reduce effective float while positioning the protocol to direct governance and incentives inside a vote-escrow ecosystem. The repurchase therefore changes political power as well as market supply.
 
-Novora’s research groups these systems under “active value accrual” and finds that, as a class, they materially outperform governance‑only tokens, though again, the magnitude of revenue matters more than the exact ve implementation. Still, ve‑models combined with buybacks tend to attract a committed base of long‑term participants willing to endure illiquidity in exchange for compounding exposure to protocol success.
+That dual effect is easy to miss. A protocol acquiring its own governance token may gain voting influence over emissions, liquidity, and integrations. The transaction is not merely financial; it can centralize control. Governance constraints should state whether treasury-held or locked tokens can vote and who directs them.
 
-### “Buyback and make”: recycling tokens into productive capital
+### Buyback and distribute
 
-Placeholder’s “Stop Burning Tokens – Buyback and Make Instead” essay critiques the reflexive assumption that burning is always the optimal use of buybacks. Their core argument is that repurchased tokens can act as **productive capital** if reinvested creatively: for instance, by seeding liquidity pools, backing stablecoins, underwriting insurance, or funding ecosystem development in ways that increase protocol revenue. In this framing, burning is akin to distributing all profits as dividends, while “make” functions more like retained earnings deployed into growth projects.
+Buyback-and-distribute routes acquired tokens to stakers, lockers, liquidity providers, or another designated group. The economic effect resembles a token-denominated distribution: protocol income buys assets that are then allocated to participants.
 
-For example, a lending protocol could buy back its governance token and then stake those tokens to secure the protocol, channeling the resulting yield back into reserves. A DEX might accumulate its token and pair it with stablecoins in liquidity pools, deepening markets and generating trading fees. While many current systems still default to burn‑heavy narratives, “buyback and make” offers a blueprint for more **capital‑efficient, growth‑oriented** use of repurchased tokens, particularly for younger protocols still chasing market share.
+Pendle’s sPENDLE model is a clear example. The protocol acquires PENDLE and distributes the tokens to participants in its staking system. Revenue supports market demand, while committed users receive the resulting assets. This aligns rewards with participation rather than benefiting all passive holders equally.
 
-### Fee switches and staged value accrual
+The upside is a visible connection between use and holder rewards. The cost is selection. Only eligible participants receive distributions, and they may accept lock-up, smart-contract, governance, or liquidity risk. A buyback-and-distribute program can therefore widen the difference between liquid tokenholders and long-term lockers.
 
-An important nuance is timing. Several flagship protocols launched with **no value accrual** to token holders beyond governance, only later introducing fee switches and buybacks once they achieved product‑market fit and navigated early regulatory uncertainty. Uniswap is the clearest case: UNI initially conferred only governance rights, with protocol fees either disabled or flowing to a treasury; the later fee switch flipped UNI into a token where usage generated supply‑reducing burns. Ethena’s ENA and LayerZero’s ZRO are following a similar arc, with communities debating how and when to route protocol fees into buybacks and burns.
+Distribution also affects supply analysis. Purchased tokens leave the market briefly but may return when recipients claim or sell them. The mechanism creates demand and reallocates ownership, but it does not necessarily reduce total or circulating supply for long. Calling the result deflationary would be misleading unless the lock or burn conditions justify that label.
 
-This staged approach reflects both legal and strategic considerations. From a legal standpoint, deferring explicit revenue linkage may reduce the risk that a token is classified as a security at launch. From a strategic perspective, it allows teams to first prove out usage and revenue, then deploy buybacks when the economic engine is running at scale. The trade‑off is that early holders must tolerate a period of weak or nonexistent value accrual, which Novora’s data suggests can be painful in bear markets. As the regulatory environment evolves, more teams may choose to bake fee‑funded buybacks into their design from day one rather than as an afterthought.
+### Buyback and burn
 
-## Measuring Impact: Beyond “Number Go Up”
+Buyback-and-burn is the cleanest scarcity mechanism. The protocol buys tokens and sends them to an inaccessible address or destroys them through contract logic. Both steps can be verified, and the supply reduction is irreversible.
 
-### Token‑level valuation: emissions, unlocks, and buybacks
+The design is easy to communicate because it maps usage to shrinking supply. If revenue rises, purchases and burns rise. If the program is large enough to exceed new issuance, the token becomes net deflationary over the measurement period.
 
-Investors assessing buybacks need tools that go beyond headlines. A token with aggressive emissions and unlocks can still see net dilution even if it touts an active buyback program. This is where metrics like Blocmates’ **Holder Multiple** enter the picture. Their methodology, designed for institutional comparison of tokens, essentially adjusts a project’s valuation by taking the current market cap, adding projected supply from investor and team unlocks and token‑based rewards, and subtracting expected buybacks tied to credible revenue forecasts. The result is a “holder‑adjusted” measure of how much economic exposure current and future holders actually receive after accounting for all in‑ and out‑flows.
+The phrase “large enough” does most of the work. A protocol burning one million tokens while emitting ten million has not reduced supply. A complete analysis compares burns with staking rewards, liquidity incentives, team vesting, investor unlocks, bridge issuance, and any governance-authorized minting. Gross burns are publicity; net issuance is economics.
 
-In such a framework, a protocol like Jupiter, with an estimated annualized buyback budget of roughly three‑quarters of a billion dollars at current fee levels, which could retire around forty percent of circulating supply in a year, scores very differently from a project with similar market cap but minimal revenue and purely inflationary emissions. Hyperliquid’s choice to direct over ninety percent of fees into buybacks likewise improves its Holder Multiple profile, as large chunks of future fee flows are effectively pre‑committed to counteracting dilution. Conversely, projects that wrap small or irregular buybacks around substantial unlocks may look worse on a Holder Multiple basis than their branding suggests.
+Aster combines purchases, distributions, and reserve burns, illustrating why categories can overlap. Fee-funded buying creates market demand, acquired tokens reward lockers, and a separate burn reduces total supply. The system offers committed users income while pursuing scarcity, but it is more complex than a simple repurchase. Each leg must be measured separately.
 
-### On‑chain observable metrics: burn rates, locked supply, and participation
+FLock applies burn logic to model-specific assets, linking application use with token removal. The concept extends beyond exchanges: any protocol with identifiable revenue and a native asset can build a repurchase circuit. Whether it should do so depends on what else that revenue could finance.
 
-On‑chain data makes it possible to track buyback programs with a granularity impossible in traditional markets. Analysts can measure the **rate of supply reduction** from burns, the proportion of outstanding tokens held in locked treasury or ve‑contracts, and the share of protocol fees actually used for buybacks versus retained in treasuries. Uniswap’s initial post‑UNIfication data, for instance, showed that ongoing burns corresponded to an annualized rate of roughly 4–5 million UNI per year, giving markets a concrete sense of the program’s scale relative to total supply and daily trading volume.
+### Buyback and make
 
-Similarly, Aster’s commitment to burn tokens every two weeks until supply falls from 8 billion to 3 billion defines a clear, trackable trajectory. Aerodrome’s accumulation and locking of 190 million AERO can be monitored directly in the smart contracts that hold those tokens. Pendle’s periodic updates on the aggregate amount of PENDLE repurchased and distributed to sPENDLE holders provide another stream of measurable data for evaluating program efficacy. Lista’s weekly recaps that include the total amount of LISTA bought back each week are a more centralized but still transparent form of disclosure, helping holders understand how much capital is being returned to the token versus held back for growth.
+Buyback-and-make retains acquired tokens but assigns them a productive job. A decentralized exchange might pair them with stablecoins to deepen liquidity. A lending protocol might place them in a safety module. A network might use them as rewards for operators who supply measurable services.
 
-The Hyperliquid case illustrates the importance of relative metrics. Citrini’s research finding that Hyperliquid’s buybacks account for nearly half of all crypto token buyback activity in 2025 underscores that absolute numbers matter, but so does scale relative to the rest of the market. A protocol capturing a large share of aggregate buyback volume is, by definition, routing more of the ecosystem’s real revenue into its token than peers are, a fact that any cross‑protocol analysis should account for.
+This is analogous to a company retaining earnings for investment rather than distributing every dollar. The potential gain is compounding: repurchased tokens help improve the product, which may generate additional revenue, which supports further purchases. The cost is execution risk. Productive deployment may lose money, distort incentives, or place more protocol assets at risk.
 
-### Market reaction: Ethena, BitGo, and the limits of financial engineering
+The strategy also requires honest accounting. Liquidity provision can generate fees, but it exposes the treasury to inventory changes and impermanent loss. Security staking can earn yield, but it may introduce slashing risk. Grants may grow the ecosystem, but their returns are difficult to attribute. “Productive” cannot simply mean “not burned.”
 
-Despite the appeal of neat models and impressive burn dashboards, market reaction to buybacks is far from automatic. Ethena’s price action, plunging close to eight percent around the time it announced a new buyback program funded by sUSDe yield, shows that investors may remain skeptical if they question the sustainability of revenue, the scale of buybacks relative to dilution, or the governance structure controlling the switch. In some cases, buybacks are interpreted as a sign that the team lacks better growth opportunities or is attempting to prop up price rather than address deeper structural issues.
+## Why Protocols Use Buybacks
 
-In the broader crypto capital markets, publicly listed firms like custody providers have seen their shares climb on buyback announcements, echoing the traditional equity market pattern where repurchases are often read as a signal of management’s confidence. Yet these rallies can fade quickly if markets reassess fundamentals. Gate.io’s “Why Can’t Buybacks Save Decentralized Finance?” commentary emphasizes that repurchases are not a cure‑all: they cannot fix missing product‑market fit, weak risk management, or unsustainable business models. In DeFi especially, where underlying usage can evaporate rapidly, buybacks are only as durable as the cash flows that fund them.
+### Connecting the token to revenue
 
-Bitcoin’s own price dynamics around leveraged debt and treasury strategies underscore this point. When a heavily indebted BTC‑treasury firm announces aggressive buybacks or complex debt reduction plans, markets scrutinize whether these moves genuinely de‑risk the balance sheet or simply rearrange leverage. A buyback that improves per‑share metrics in the short term but leaves the issuer exposed to a 20–30% BTC drawdown may ultimately increase risk rather than reduce it, a pattern observers have likened to the reflexive doom loops seen in failed algorithmic stablecoins.
+Many tokens began as governance instruments with no explicit economic claim. Holders could vote, but protocol success did not necessarily create token demand. Buybacks create a bridge: revenue funds purchases, and purchases affect ownership, rewards, or supply.
 
-### Governance, fairness, and transparency
+This shifts the token from a governance abstraction toward a capital-allocation instrument. That is a meaningful improvement when the underlying revenue is real and the rules are durable. It does not transform weak revenue into strong economics. A token linked to negligible cash flow remains linked to negligible cash flow.
 
-Because buybacks sit at the junction of capital allocation and market microstructure, **governance and disclosure** are central to their legitimacy. Adam Tracy’s legal analysis highlights that, even in the absence of specific token‑buyback case law, regulators will likely examine whether projects disclosed the source of funds, the timing and size of buybacks, and any insider advantages in execution. Traditional Rule 10b‑18 guidelines for corporate buybacks exist precisely to prevent manipulative practices; the crypto analog is transparent smart‑contract logic and public reporting of execution details.
+Revenue scale matters more than tokenomic ornament. A protocol earning substantial, recurring fees can choose among burns, distributions, reserves, and reinvestment. A protocol without demand cannot manufacture durable value by routing a large percentage of a small number through an elaborate contract.
 
-Protocols like LayerZero have pushed core buyback decisions directly to token holders. The ZRO fee switch referendum, for example, asks holders to vote on whether to activate a protocol fee that, if approved, would be routed into ZRO buybacks and burns, with a specified quorum threshold. Ethena’s ENA fee switch was likewise decided via governance, with community debates about optimal buyback frequency and size before adoption. Lista’s regular public updates on weekly buyback amounts and third‑party security scores add another layer of signaling, combining quantitative disclosures with audits and transparency ratings.
+The simplest investor test is to calculate buyback yield: annualized repurchases divided by the token’s relevant market value. That result should then be adjusted for issuance and unlocks. A ten-percent gross buyback yield alongside fifteen-percent dilution is not a ten-percent return to holders; it is one component of a net expansion in supply.
 
-On the other hand, discretionary, opaque buybacks executed solely at team discretion and funded from treasury raise concerns about insider trading and unequal access to information. If insiders know the timing and scale of repurchases in advance, they can trade ahead of the market. Programmatic, revenue‑linked buybacks executed via on‑chain mechanisms can mitigate this by tying repurchases to observable variables like daily fees rather than private decisions.
+### Offsetting emissions and unlocks
 
-## Legal, Regulatory, and Ethical Considerations
+Crypto protocols frequently issue tokens to bootstrap liquidity, reward users, compensate contributors, and attract validators or other service providers. These emissions can help a network reach scale, but they create persistent selling pressure when recipients monetize rewards.
 
-### Market manipulation and the shadow of securities law
+Buybacks act as a counterflow. Revenue-funded purchases absorb some supply entering the market. This does not erase the economic cost of issuance, but it can make the exchange explicit: the protocol issues tokens to acquire services and uses revenue to reacquire part of what it issued.
 
-Legally, token buybacks exist in a grey zone. Adam Tracy notes that there is no specific enforcement action or precedent in crypto that defines how token buybacks should operate, nor a dedicated set of “black‑letter” rules comparable to those governing corporate stock repurchases. Nonetheless, regulators are likely to view them through the lens of existing securities and market‑manipulation frameworks. If a token is deemed a security under tests like Howey, buybacks could be scrutinized as potential attempts to support the price or mislead investors, especially if executed around key events such as listings, unlocks, or earnings announcements.
+Unlocks require separate attention. Team and investor tokens entering circulation can overwhelm a buyback budget even when total supply does not change. The relevant comparison is therefore between expected purchases and newly liquid supply, not merely newly minted supply.
 
-Rule 10b‑18 in the United States provides public companies with a “safe harbor” for stock buybacks, prescribing conditions on volume, timing, and pricing to reduce manipulation concerns. Tracy suggests that, in the absence of specific token guidance, crypto projects should voluntarily adopt analogous practices: clear disclosure of buyback plans, limits on the proportion of daily volume they represent, and avoidance of opportunistic timing that could disadvantage ordinary traders. While these norms are not legally binding for tokens, teams that ignore them may attract unwelcome attention from regulators, particularly if token holders are predominantly retail.
+A well-designed dashboard would show both sides over the same period: tokens emitted or unlocked, tokens purchased, tokens burned, tokens distributed, and the resulting change in liquid float. Without that reconciliation, a buyback number is context-free.
 
-### Value accrual and the risk of being a de facto security
+### Rewarding long-term participation
 
-Buybacks also intersect with the question of whether a token is a **security**. When a protocol generates revenue and uses that revenue to buy back and burn tokens or to redistribute them to stakers, holders begin to resemble equity investors benefiting from share repurchases or dividends. Novora’s conclusion that “governance‑only is a dead model” from a returns perspective suggests that many tokens will move in this direction. But each step toward explicit value accrual can strengthen the argument that the token represents an investment contract tied to the efforts of a managerial team.
+Programs tied to staking or vote-escrow systems direct value toward holders who accept illiquidity and governance responsibility. Lockers may receive repurchased tokens, fee assets, voting power, or boosted incentives. The model attempts to separate committed participants from short-term traders.
 
-Some protocols have attempted to thread this needle by avoiding direct fee sharing in stablecoins or ETH and instead routing value through tokens (via buybacks and emissions) or ve‑structures where benefits are intertwined with governance responsibilities. Others delay fee switches until the protocol is meaningfully decentralized, hoping that a sufficiently diffuse governance set will help differentiate tokens from traditional securities. None of these strategies provide legal certainty, and jurisdictional approaches vary widely. Projects contemplating large‑scale, revenue‑funded buybacks should seek specialized legal advice rather than assume that clever tokenomics can outrun regulatory scrutiny.
+The locked mode is analogous to a certificate of deposit: less liquid, potentially more rewarding, and exposed to the risk that market conditions change before the commitment ends. In crypto, the lock may last longer than the protocol’s competitive advantage.
 
-### Information asymmetry, insiders, and fair markets
+Vote-escrow designs add political complexity. Holders can use voting power to direct emissions toward favored pools, and outside protocols may offer incentives for those votes. Buyback flows can compound this system by increasing the rewards available to lockers. The result may strengthen alignment, or it may create a marketplace for governance influence dominated by large aggregators.
 
-Ethically, buybacks raise questions about **fairness and information asymmetry** in markets that already struggle with insider advantages. Founders, core contributors, and large investors often have privileged knowledge of protocol financials, upcoming feature launches, and governance proposals that could materially affect revenue and, by extension, buyback capacity. If those insiders can also control or anticipate buyback execution, the risk of front‑running or unfair enrichment grows.
+The test is not simply how much is locked. Analysts should ask who controls the locked voting power, whether rewards depend on continued inflation, and whether ordinary holders can participate without prohibitive transaction costs or operational complexity.
 
-Programmatic buybacks tied directly to observable metrics—such as “X% of daily fees are automatically used to buy back the token via an on‑chain TWAP contract”—reduce discretionary room for abuse. Transparent reporting, such as Pendle’s public accounting of total PENDLE bought back and distributed to sPENDLE holders or Lista’s weekly recaps of LISTA buyback volumes, gives outside participants a clearer picture of capital flows. Still, governance structures must grapple with who can adjust these parameters, how quickly changes can take effect, and what safeguards exist against governance capture.
+### Signaling confidence
 
-### Can buybacks “save” DeFi?
+A repurchase can signal that insiders or governors believe the token is undervalued. The signal is strongest when purchases use scarce, unrestricted capital and occur under a durable authorization. It is weaker when the program merely recycles newly issued tokens or announces a maximum budget that may never be spent.
 
-Finally, there is a broader ethical and strategic question: **what are buybacks for?** Gate.io’s skeptical essay asks why buybacks cannot “save” decentralized finance, arguing that they are often deployed as cosmetic fixes when deeper problems go unaddressed. A protocol without sustainable product‑market fit, robust risk controls, and a coherent roadmap will not become healthy simply by allocating more of its thin revenue to token buybacks. Indeed, starving development budgets to fund repurchases can worsen long‑term outcomes if it slows innovation or undermines security audits.
+Execution data separates commitment from publicity. Announced authorization is not completed purchasing. A protocol should report cumulative authorization, capital actually deployed, average purchase price, tokens acquired, and their final destination.
 
-Research from Novora and others underscores that the main predictor of token outperformance is revenue scale, not the cleverness of the buyback or value‑accrual mechanism. In that light, buybacks are best understood as **capital allocation tools** for protocols that have already found real demand, not as panaceas for struggling ones. Ethically designed buybacks share revenue with those who support and govern the protocol without jeopardizing its ability to invest in growth, security, and ecosystem health.
+Signaling cuts both ways. A buyback may indicate confidence, but it may also suggest that governance lacks better growth opportunities or feels pressure to support price. The surrounding business decides which interpretation is more credible.
 
-## Case Studies Across the Stack
+### Managing crises
 
-### Hyperliquid: revenue‑maximalist buybacks
+After a hack, insolvency scare, or governance failure, a project may use buybacks or burns as part of a recovery plan. Removing supply can signal that insiders are absorbing costs, and purchases can stabilize thin liquidity while a remediation program proceeds.
 
-Hyperliquid offers perhaps the clearest expression of a **revenue‑maximalist buyback model**. According to Citrini Research, more than ninety percent of the DEX’s platform fees flow into an Assistance Fund that uses them to repurchase HYPE on the open market. These buybacks have been so large relative to the rest of the ecosystem that Hyperliquid has accounted for nearly half of all token buyback activity in 2025 by some metrics. A separate proposal to burn roughly thirteen percent of circulating supply adds a deflationary dimension on top of continuous repurchases.
+Yet a token purchase does not compensate users unless value reaches those who suffered the loss. Nor does a burn repair code, replenish reserves, or improve risk controls. Crisis buybacks are financial measures, not substitutes for operational remediation.
 
-For holders, this structure means that nearly every trade on Hyperliquid creates incremental demand for HYPE, while sustained burns chip away at supply. From a valuation perspective, it is straightforward to model: as long as trading volumes and fee rates are known, one can estimate annual buyback capacity and compare it to market cap and float. This simplicity, combined with sizable realized buyback volumes, underpins arguments that HYPE is a “truly investable” token in a sector where many exchange tokens have historically failed to accrue value.
+The correct test is sequencing. Security failures require containment, accounting, user restitution where applicable, and system repair. A buyback may support the recovery only after those obligations are funded. Spending scarce assets on market support while liabilities remain unresolved can deepen the damage.
 
-At the same time, Hyperliquid’s model illustrates the dependence of buybacks on cyclical revenues. Should derivatives volumes fall, fee‑funded repurchases would slow, and the token’s support from buybacks would weaken. The Assistance Fund also concentrates capital and decision‑making, raising questions about how governance will manage this pool in down markets.
+## Measuring Impact Beyond Price
 
-### Aster: fee‑funded TWAP buybacks plus matched burns
+### Net issuance
 
-Aster’s June 2025 tokenomics overhaul exemplifies a **hybrid buyback‑and‑burn with ve‑distribution** design. The protocol committed to using 99% of daily platform fees to buy ASTER on the open market via an automated TWAP mechanism, sending the purchased tokens to a public buyback wallet. Those buybacked tokens are then distributed to veASTER holders as rewards, giving lockers a direct share of fee‑driven demand. At the same time, the protocol burns an equal number of ASTER from its reserve allocations every two weeks, continuing until total supply declines from 8 billion to 3 billion tokens.
+Net issuance is the first essential metric. Start with tokens created or released into liquid circulation. Subtract tokens permanently burned. Treat treasury-held and locked tokens according to their actual constraints rather than automatically counting them as destroyed.
 
-This creates a layered incentive stack. Users who lock ASTER into veASTER gain exposure to both ongoing buybacks and structural supply reduction. Because the buys are executed via TWAP and tied to daily fees, the program is relatively resistant to manual manipulation and easy for outsiders to monitor. The matching burn from reserves ensures that long‑term supply shrinks even if circulating float remains relatively stable due to redistribution.
+This framework prevents a common error: celebrating a burn while ignoring a larger stream of emissions. It also distinguishes supply reduction from ownership transfer. Buyback-and-distribute creates demand but can leave net supply unchanged. Buyback-and-hold reduces market float only while the protocol refrains from selling.
 
-The Aster example also highlights a broader trend: complex, carefully parameterized tokenomics upgrades that treat buybacks as a programmable economic policy rather than an occasional manual intervention. As protocols mature, tokenomics increasingly resemble macro‑policy decisions, with buybacks, burns, emissions, and ve‑lock incentives all interacting in a quasi‑monetary system.
+Measurement periods matter. A weekly burn may exceed emissions during a high-revenue month and fall far below them over a full market cycle. Analysts should examine both current run rate and cumulative history.
 
-### Aerodrome: accumulation and locking ahead of structural change
+### Buyback yield and revenue coverage
 
-Aerodrome’s buyback program demonstrates how repurchases can accompany major **architectural transitions**. In the lead‑up to a July merger and upgrades, including the elimination of rebasing and introduction of other deflationary mechanics, the protocol accumulated and locked about 190 million AERO tokens. By taking this supply off the market and effectively sequestering it in preparation for its unified platform, Aerodrome reinforced the credibility of its new tokenomics, which emphasize long‑term alignment and reduced inflation.
+Buyback yield compares annualized purchases with market capitalization or circulating value. It offers a rough analogue to shareholder yield, but token structures make the denominator contested. Fully diluted value may overstate the present base, while circulating capitalization may ignore major unlocks.
 
-Because Aerodrome is part of the broader ve‑ecosystem alongside protocols like Velodrome and Balancer, its buyback‑and‑lock strategy also feeds into governance politics: locked AERO can help direct future fee flows and emissions. As a case study, Aerodrome illustrates how buybacks can be used not only to return capital but to re‑denominate power within a protocol and its surrounding ecosystem.
+Revenue coverage asks what fraction of genuine net revenue funds the program. Gross fees can exaggerate capacity if the protocol must pay liquidity providers, validators, market makers, or users. The sustainable pool is what remains after the costs required to produce that revenue.
 
-### Pendle: buyback‑driven real yield
+A protocol allocating most of gross fees may still be spending more than its economic profit. Conversely, a smaller allocation from high-margin net revenue may be durable. Cash-flow quality matters more than the advertised percentage.
 
-Pendle’s approach looks more like a **real‑yield income stream**. Since the launch of the sPENDLE system, the protocol has acquired over 1.7 million PENDLE from the open market and distributed every token to sPENDLE holders. This effectively converts trading fees and yield‑splitting revenues into incremental PENDLE balances for long‑term stakers, who bear lock‑up risk in exchange for a claim on protocol success.
+### Execution quality
 
-Pendle also shows how buybacks can integrate smoothly into a broader modular design. Because the protocol’s core business is tokenized yield and fixed‑rate markets, revenues naturally fluctuate with interest‑rate cycles and crypto credit conditions. Tying buybacks to actual usage rather than to fixed schedules helps avoid over‑promising. As usage grows, buybacks grow; when activity slows, buybacks contract, aligning rewards with genuine performance.
+Average acquisition price should be compared with volume-weighted market prices during the same interval. Persistent overpayment may indicate predictable execution or poor liquidity. Slippage, failed transactions, and sandwich exposure can materially reduce the number of tokens acquired.
 
-### Uniswap, Jupiter, and the consolidation of value‑accrual norms
+On-chain programs enable unusually granular review. Observers can trace funds, measure execution, and verify burns or distributions. That transparency is valuable only if wallets and contracts are correctly identified and governance cannot quietly route activity elsewhere.
 
-Uniswap’s fee switch and Jupiter’s buyback commitments occupy a special place because they are **benchmarks** in their respective domains. Uniswap, the flagship Ethereum DEX, moved UNI from a governance‑only token toward a deflationary asset where protocol fees flow into UNI supply reduction rather than purely into treasury, with an early annualized burn rate around 4–5 million UNI observed. Jupiter, the dominant aggregator on Solana, has articulated a JUP program that channels half of fee revenue into buybacks, which Blockworks estimates could remove around forty percent of circulating supply per year at current market conditions.
+The best programs give readers observable tests: locate the revenue wallet, follow the allocation, inspect each purchase, and verify the destination. Transparency becomes a property of the mechanism rather than a periodic promise from the team.
 
-Together with Hyperliquid, these protocols set expectations across DeFi’s core exchange infrastructure. Exchange tokens that do not share fees via buybacks or burns must justify that omission to increasingly sophisticated investors. Their decisions also shape how newer projects structure launches. Rather than debuting with vague promises of future value accrual, many teams now specify from day one what share of fees will be routed to holders and through which mechanism.
+### Treasury health
 
-### Injective and burn‑heavy models
+A buyback should be evaluated beside operating runway, reserve quality, liabilities, and future capital needs. Spending stable assets while retaining mostly native tokens can make a treasury appear large in nominal terms but fragile in a downturn.
 
-Injective’s auction‑and‑burn mechanism represents a **burn‑heavy approach** where buybacks happen implicitly rather than via explicit purchases. The protocol periodically auctions a basket of tokens—representing fees and other revenues—in exchange for bids denominated in INJ. The winning INJ bid is burned, turning user demand for auctioned assets into permanent supply reduction for INJ. This method has the advantage of integrating price discovery, user engagement, and burning in one process, with burns scaling naturally with activity and competitive bidding.
+Runway analysis should use conservative assumptions for expenses and liquid reserves. Restricted tokens, illiquid investments, and receivables should not be treated like cash. If the protocol would need to sell its own token to finance operations after conducting a buyback, the program may merely defer dilution.
 
-Compared to Hyperliquid’s direct buybacks, Injective’s model relies more on user behavior and auction dynamics. It shows that engineered scarcity can be achieved through multiple pathways, and that a protocol’s choice among them shapes both narrative and actual distribution of costs and benefits across users and holders.
+### Participation and concentration
 
-### AI model economies: FLock’s dual buybacks
+Distribution programs should disclose who receives the acquired tokens. If rewards accrue mainly to a few large lockers, the program can concentrate ownership and governance even while appearing community-oriented.
 
-FLock’s design sits at the intersection of AI and DeFi, using model inference revenue to buy back and burn **Model Tokens** while also powering buybacks of the overarching FLOCK token. As users call model APIs, revenue is collected and then partially spent repurchasing tokens associated with those models, which are subsequently burned, and partially used to buy back FLOCK, creating a flywheel where increased model usage drives both deflation and governance‑token demand.
+Useful measures include the number of eligible participants, the share received by the largest wallets, the duration of locks, and the degree of delegation. Sybil behavior and custodial aggregation can complicate wallet counts, so no single measure is definitive.
 
-This case underscores how buybacks are spreading beyond traditional DeFi into application‑layer protocols. They are becoming a standard lever for aligning end‑user activity with tokenholder value, whether the underlying product is trading, lending, or AI inference.
+Concentration is not inherently bad; large, committed holders may provide valuable governance continuity. The trade-off is resilience versus capture. A concentrated group can act decisively, but it can also redirect parameters toward itself.
 
-### Governance‑driven midcaps: Ethena, LayerZero, Lista
+### Market reaction
 
-Ethena, LayerZero, and Lista illustrate **governance‑intensive adoption** of buybacks. Ethena’s ENA fee switch debate culminated in a governance vote to divert a portion of sUSDe’s yield into ENA buybacks and potential rewards for sENA stakers, though subsequent market reaction showed that the mere existence of a buyback program does not guarantee price appreciation if concerns about sustainability or design remain. LayerZero’s ZRO holders are scheduled to vote on whether to activate a protocol fee that would fund ZRO buybacks and burns, with a specified quorum requirement, reflecting careful attention to collective decision‑making and legitimacy. Lista, meanwhile, adopts a more incremental approach, reporting weekly LISTA buyback amounts as part of its regular governance and transparency updates.
+Price response is the noisiest measure. A token may fall after a buyback announcement because the program is smaller than expected, because unlocks dominate, or because the broader market declines. It may rise even when execution never occurs.
 
-These examples highlight how mid‑cap protocols integrate buybacks into broader governance narratives. Rather than being unilateral executive decisions, buyback parameters are increasingly subject to community debate, modeling, and iteration, as seen in external research that questions whether intermittent buybacks may be more harmful than none in certain regimes.
+Short-term returns therefore establish little about program quality. More useful evidence accumulates over time: realized revenue, completed purchases, net supply change, treasury health, and the durability of product demand.
+
+Buybacks cannot fix missing product-market fit, weak risk management, or an unsustainable subsidy loop. They distribute or redeploy economic output; they do not create that output.
+
+## Governance, Fairness, and Legal Risk
+
+### Who sets the parameters?
+
+Every program embeds decisions about allocation, timing, venues, token destination, and emergency control. In a DAO, these may pass through formal proposals. In foundation-led systems, a board, multisignature group, or operating company may retain more authority.
+
+Governance legitimacy depends on more than a vote. Token distribution, delegation, quorum rules, and proposal thresholds determine who can meaningfully participate. A technically public process can remain economically concentrated.
+
+Parameter changes deserve particular scrutiny because they can move markets. Advance notice and execution delays reduce the advantage of insiders who learn about changes first. Emergency powers should be narrow enough to stop malfunction without becoming a general license for discretionary trading.
+
+### Information asymmetry
+
+Core contributors often know more than outside holders about revenue, product launches, security incidents, and upcoming governance proposals. If the same group chooses when to trade, it can exploit information unavailable to the market.
+
+Programmatic execution reduces that discretion by tying purchases to observable inputs. It does not eliminate informational advantage around changing the inputs or pausing the system. Strong controls separate proposal, approval, and execution roles and make material changes visible before they take effect.
+
+Disclosure should cover funding sources, maximum and expected size, timing method, eligible venues, destination of tokens, and conflicts of interest. Vague statements that a project “may buy” tokens provide little basis for evaluation.
+
+### Market manipulation
+
+A repurchase naturally affects demand, so the legal and ethical issue is not whether it influences price but whether it is conducted deceptively or unfairly. Undisclosed timing, wash trading, misleading announcements, or insider front-running create risks distinct from a transparent allocation rule.
+
+Traditional equity-market safeguards offer a useful analogy because they constrain timing, price, and volume. Token markets differ in venue structure and legal classification, but the underlying concern is recognizable: an issuer or affiliated actor should not use informational and financial power to manufacture a false appearance of demand.
+
+On-chain execution can improve observability, yet transparency after the fact may not protect traders if insiders knew the schedule beforehand. Fair design combines predictable rules, timely disclosure, volume limits appropriate to liquidity, and accountable control of exceptions.
+
+### Securities analysis
+
+Revenue-funded buybacks raise difficult classification questions because they can make a token look more like an investment tied to the success of an organized enterprise. Direct distributions, burns, and indirect value-accrual mechanisms may receive different legal treatment across jurisdictions.
+
+The economic resemblance to equity does not settle the legal question. Tokens may have consumptive functions, decentralized governance, network-security roles, or other characteristics absent from stock. Legal analysis turns on the whole arrangement rather than the presence of a buyback alone.
+
+For protocols, the practical lesson is that clever routing does not guarantee a different legal result. Paying stablecoins, distributing repurchased tokens, or burning supply may differ mechanically while expressing a similar promise of value accrual. Specialized advice and jurisdiction-specific analysis remain necessary.
+
+## Design Patterns Across DeFi
+
+### Hyperliquid: revenue-maximalist accumulation
+
+Hyperliquid offers a highly legible circuit: trading activity generates fees, a large share flows to the Assistance Fund, and the fund purchases HYPE. The model has become a benchmark because the economic link is direct and the purchases are observable.
+
+Its strength is simplicity. Analysts can estimate buying capacity from fee generation and allocation rules. Its vulnerability is the same simplicity: a slowdown in derivatives activity passes quickly into lower repurchases.
+
+The fund’s growing token position also creates governance and disposition questions. Accumulation can reduce liquid float, but holders need to know whether acquired tokens are burned, permanently restricted, or potentially redeployed. A balance is not the same as a burn.
+
+### Aster: buying, distribution, and matched scarcity
+
+Aster combines several mechanisms. Fees support recurring purchases, acquired tokens reward vote-escrow participants, and reserve burns pursue a longer-term reduction in supply. The design seeks both present income for committed holders and structural scarcity.
+
+This is best understood as a miniature monetary system rather than a single buyback. Revenue determines purchasing capacity; execution rules shape market impact; locking determines who receives value; and burns alter total supply. Each component can succeed or fail independently.
+
+The benefit is layered alignment. The cost is complexity. Participants must model fee variability, lock duration, reserve treatment, and emissions together. A simple headline percentage cannot capture the whole system.
+
+### Aerodrome: buybacks as governance strategy
+
+Aerodrome’s acquisition and locking of AERO demonstrates that repurchases can reshape governance power. In a vote-escrow system, locked tokens influence emissions and incentives. Protocol-controlled locks can therefore strengthen the treasury’s strategic position across liquidity markets.
+
+This reclassifies the program. It is not only capital returned to tokenholders or supply removed from trading; it is an acquisition of economic voting power. The relevant evaluation includes how that power is exercised and whether other holders retain meaningful influence.
+
+### Pendle: distribution to committed users
+
+Pendle’s approach sends repurchased PENDLE to participants in its staking system. The mechanism converts protocol economics into token-denominated rewards for users who accept the structure’s commitments.
+
+The model resembles an income distribution more than engineered scarcity. Purchases create demand, but claimed rewards may later return to circulation. Its success depends on whether rewards attract durable participation or merely subsidize holders who sell when locks permit.
+
+Pendle’s underlying activity is sensitive to yield and credit conditions, so distributions naturally vary with the market. That variability is economically honest: rewards expand when the product earns more and contract when activity weakens.
+
+### Uniswap and the fee-switch question
+
+Uniswap has long represented the central debate over whether a successful governance token should capture protocol economics. Its scale makes any fee allocation consequential, but the core choice is universal: retain value for growth and liquidity, route it toward tokenholders, or divide it between the two.
+
+A fee switch is not free money. Directing fees to token value accrual can alter incentives for liquidity providers, traders, delegates, and developers. The gain is a clearer economic link for UNI; the cost may be reduced resources elsewhere in the exchange’s ecosystem.
+
+Uniswap also shows why staged value accrual is common. Protocols often establish usage and governance before activating explicit economic benefits. That sequence can preserve resources during growth, but it asks early tokenholders to accept uncertain future policy.
+
+### Jupiter: aggregator economics
+
+Jupiter applies buyback logic to an aggregation business. Trading activity produces fees, and a designated share can support JUP purchases. The model demonstrates that value accrual does not require owning the underlying liquidity venues; distribution and routing can themselves become an economic engine.
+
+The important comparison is between aggregator revenue and the token’s dilution schedule. High volume is not enough if margins are thin, costs are substantial, or future unlocks dwarf purchases. Net revenue and net supply remain the decisive measures.
+
+### Injective: auction-driven burns
+
+Injective replaces routine market buying with competitive auctions. Users bid INJ for assets collected by the protocol, and winning bids are burned. The process makes users the buyers of protocol revenue while the protocol removes their payment token from supply.
+
+This approach combines exchange and burn in one event. Its effectiveness scales with the value of auctioned assets and the competitiveness of bidding. A transparent auction can produce strong price discovery, but participation concentration can leave value with specialist bidders.
+
+### FLock and application-layer buybacks
+
+FLock’s use of application income for model-token repurchases shows how far the primitive can travel. The underlying product is not a conventional exchange or lending pool; it is model usage. Revenue can still be routed toward a token associated with that activity.
+
+This is the broader significance of buybacks. They offer any tokenized application a method for connecting paid use with ownership or supply. The mechanism is portable, but its quality still depends on whether customers pay for a service rather than merely farm incentives.
+
+### Governance-intensive adoption
+
+Ethena, LayerZero, Lista, and other governance-led protocols illustrate the political side of buybacks. Communities must decide whether fees remain in treasuries, support users, fund development, or accrue to tokens. Those choices distribute both value and risk.
+
+Regular reporting is especially important for smaller programs. Weekly or periodic disclosures can show whether authorization becomes execution and whether the amount is material relative to supply. Governance debate is useful only when participants receive reconciled economic data.
+
+## A Framework for Evaluating Any Buyback
+
+A disciplined review can begin with eight questions.
+
+First, what generates the money? Recurring external revenue is stronger than token issuance, borrowed capital, or finite treasury reserves.
+
+Second, is the stated figure gross fees or net revenue? A protocol cannot sustainably distribute costs that belong to users, liquidity providers, validators, or essential operations.
+
+Third, what share of revenue is allocated, and can governance change it? A high rate offers stronger current accrual but leaves less capital for security and growth.
+
+Fourth, how are purchases executed? Predictable rules reduce discretion, while poor scheduling can invite front-running and excessive slippage.
+
+Fifth, where do the acquired tokens go? Burning, holding, locking, distributing, and productive deployment have materially different effects.
+
+Sixth, what issuance or unlocking runs in the opposite direction? Gross purchases must be reconciled with new liquid supply.
+
+Seventh, who controls exceptions and treasury-held voting power? Economic policy can become governance capture if control accumulates without constraints.
+
+Eighth, can an outsider verify the full circuit? Revenue, transfers, purchases, burns, distributions, and balances should reconcile.
+
+These questions turn a marketing label into an auditable capital-allocation policy. A program need not maximize every dimension. A young protocol may rationally retain more revenue, while a mature one may return more. What matters is that the design matches the business stage and that trade-offs are explicit.
 
 ## Outlook
 
-Crypto token buybacks have evolved from a borrowed Wall Street trick into a foundational DeFi primitive. They connect tokens to revenue, offer tools for managing supply in a world of emissions and unlocks, and give protocols a programmable way to share success with long‑term participants. Case studies from Hyperliquid, Aster, Aerodrome, Pendle, Uniswap, Jupiter, Injective, FLock, and others show an expanding design space that ranges from burn‑heavy scarcity plays to nuanced ve‑systems and “buyback and make” growth models.
+Token buybacks have evolved from borrowed corporate-finance vocabulary into a native DeFi primitive. Smart contracts can connect revenue, execution, distribution, and supply policy in a single observable circuit. Auctions, time-weighted purchases, vote-escrow rewards, burns, and productive treasury deployment show that “buyback” now describes a design space rather than one maneuver.
 
-At the same time, the limits of financial engineering are clear. Buybacks cannot substitute for real product‑market fit, robust risk management, or sustainable revenue, and they carry legal, regulatory, and ethical risks if executed opaquely or funded unsustainably. As the token asset class matures and institutions adopt evaluation frameworks like the Holder Multiple, markets are likely to reward protocols that pair meaningful, recurring cash flows with transparent, well‑governed buyback policies, while punishing those that rely on cosmetic repurchases or unsound leverage.
+The strongest programs do three things at once: they begin with recurring economic demand, apply transparent rules, and account honestly for dilution. Remove any one of those and the mechanism weakens. Revenue without governance can be captured; governance without revenue distributes little; buybacks without supply accounting can mask net dilution.
 
-Looking ahead, the most important evolution may be increased **automation and integration**. On‑chain fee switches, TWAP contracts, and auction modules will continue to turn buybacks into predictable, rule‑driven policy rather than ad hoc decisions, while governance frameworks refine how parameters can be changed without inviting abuse. In parallel, regulatory clarity around tokenized cash flows will shape how aggressively protocols can tie buybacks to revenue without becoming de facto securities. In that environment, DeFi projects that treat buybacks as one tool among many—alongside burns, emissions, ve‑locks, and reinvestment—are best positioned to offer tokens that behave less like casino chips and more like coherent claims on productive crypto networks.
+The central trade-off will remain capital return versus reinvestment. Mature protocols with defensible revenue may be able to fund both. Younger systems may damage long-term prospects by prioritizing token support over security, product development, or liquidity. Burning maximizes finality, holding preserves flexibility, distributing rewards commitment, and making seeks growth. None is universally superior.
+
+Automation will make execution more predictable, but governance will still decide the policy. The important controls will be parameter transparency, delayed changes, narrow emergency powers, and reporting that reconciles every stage of the flow. Legal treatment will continue to depend on the wider function and organization of each token rather than on a single tokenomic feature.
+
+Buybacks ultimately deserve the same sober treatment as any other use of capital. They are neither proof of value nor empty theater by definition. If a protocol generates durable net revenue, buys under fair and verifiable rules, keeps total capital needs funded, and produces value accrual greater than dilution, the buyback can turn usage into a coherent economic benefit for holders. If those conditions fail, the program is only a bid with an expiration date.
