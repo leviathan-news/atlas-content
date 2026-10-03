@@ -1,6 +1,6 @@
 # compliance, Explained
 
-> Compliance in crypto refers to the systems, processes, and controls that ensure digital asset activity follows applicable laws, regulations, and standards across jurisdictions, from anti–money laundering (AML) and sanctions to securities, tax, and data protection rules.
+> Crypto compliance is becoming infrastructure: a system spanning licenses, AML, sanctions, privacy, custody, market integrity, and programmable controls across exchanges, stablecoins, DeFi, and institutional markets.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/compliance)**
 
