@@ -1,6 +1,6 @@
 # Singapore, Explained
 
-> Singapore's MAS has built one of the world's most deliberate crypto regulatory frameworks — stablecoin rules, DPT licensing, institutional tokenization, and strict enforcement — making it Asia's benchmark digital asset hub.
+> Singapore is neither a crypto free port nor a hostile market. Its advantage is a legible regulatory system that welcomes institutional digital finance while keeping retail speculation, licensing and consumer risk under tight supervision.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/singapore)**
 
