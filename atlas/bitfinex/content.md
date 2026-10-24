@@ -16,7 +16,7 @@ Geographically, Bitfinex has generally operated from offshore jurisdictions rath
 
 This produces a hybrid position. Bitfinex can be economically important to Bitcoin and stablecoin liquidity without being legally interchangeable with a U.S.-regulated exchange. For a trader, that distinction affects onboarding, recourse, permitted products, reporting obligations, and the assumptions that can safely be made about customer-asset protection. Deep liquidity is a market property; it is not a substitute for legal protection.
 
-Strategically, Bitfinex now spans several layers. It remains a centralized venue for spot, margin, derivatives, and block trading. It is also a primary market for tokens associated with iFinex and Tether, including UNUS SED LEO, Recovery Right Tokens, and Tether Gold. The result is not merely an exchange with affiliated products. It is the commercial center of a Tether-oriented network in which trading, token issuance, corporate financing, and infrastructure development reinforce one another.
+Strategically, Bitfinex spans several layers. It remains a centralized venue for spot, margin, derivatives, and block trading. It is also a primary market for tokens associated with iFinex and Tether, including UNUS SED LEO, Recovery Right Tokens, and Tether Gold. The result is not merely an exchange with affiliated products. It is the commercial center of a Tether-oriented network in which trading, token issuance, corporate financing, and infrastructure development reinforce one another.
 
 That integration is a double-edged sword. It can concentrate liquidity and make related products easier to trade, hedge, and settle. It also concentrates dependency on a small corporate group. A disruption affecting banking access, reserves, governance, or regulation can travel across more than one product surface at once.
 
@@ -63,6 +63,8 @@ Stablecoins also blur the boundary between cash and financial product. A token c
 This reclassifies USDT from an exchange convenience into general-purpose financial infrastructure. The gain is composability: the same unit can move through trading, payments, lending, and settlement. The cost is risk stacking. A user may simultaneously depend on Tether, a blockchain, a wallet, a bridge, a lending protocol, and a front-end provider while experiencing the result as a single dollar balance.
 
 For Bitfinex, USDT’s reach provides liquidity and commercial gravity. It also ensures that developments far beyond the exchange can affect its markets. Demand for stablecoin borrowing, changes in redemption behavior, disruptions on supported networks, or regulatory restrictions can influence deposits, withdrawals, spreads, and collateral preferences even when Bitfinex’s matching engine is operating normally.
+
+The analytical point is not that every use of USDT belongs to Bitfinex. It is that broader USDT adoption strengthens a settlement network to which Bitfinex is unusually close. More wallets, lending markets, payment channels, and cross-chain routes can deepen demand for USDT liquidity. The gain is a larger addressable settlement system. The cost is that failures elsewhere in that system can arrive at Bitfinex as collateral stress, redemption demand, or abrupt changes in market-maker behavior.
 
 ## The 2016 Bitfinex Hack: Anatomy and Legal Aftermath
 
