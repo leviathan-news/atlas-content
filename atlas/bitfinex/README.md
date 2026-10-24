@@ -1,6 +1,6 @@
 # Bitfinex, Explained
 
-> Bitfinex is more than a trading venue: it is a central node in the Tether ecosystem, a case study in exchange risk, and the architect of tokenized claims whose value still depends on the aftermath of the 2016 hack.
+> Bitfinex is best understood as offshore market infrastructure built around professional trading, USDT liquidity, and tokenized financial claims—a resilient model whose integration also concentrates legal, custody, and corporate risk.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/bitfinex)**
 
