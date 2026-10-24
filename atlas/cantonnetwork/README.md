@@ -1,6 +1,6 @@
 # Canton Network, Explained
 
-> Comprehensive explainer on Canton Network, a public privacy-enabled L1 for institutional onchain markets. Covers architecture, Canton Coin economics, repo and Treasuries tokenization, Visa stablecoin pilots, governance, risks, and ETF implications.
+> Canton is a public blockchain built around confidential, interoperable financial workflows. Its wager is that institutions will move real assets onchain only when privacy, compliance, settlement, and existing market structures work together.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/cantonnetwork)**
 
