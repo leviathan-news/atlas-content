@@ -106,6 +106,10 @@ For crypto investors, bonds deserve attention across four dimensions.
 
 Across all four, the same test applies: identify the source of yield. A coupon funded by tax revenue, a corporate cash flow, a token subsidy, and a leveraged trading strategy may produce similar percentages on a dashboard while representing radically different claims.
 
+A second test is to map the chain of obligations. Who owes the investor money? Who holds the collateral? Which party processes transfers and redemptions? What happens if the token platform fails while the underlying bond remains valid, or if the underlying borrower defaults while the token platform continues operating? These questions separate technological access from economic protection.
+
+Liquidity must also be examined at both layers. A widely traded underlying bond does not guarantee a liquid token market, while an actively traded token cannot make an impaired underlying claim sound. Investors need an exit from the token and an enforceable path to the asset or cash it represents.
+
 ---
 
 ## Outlook
