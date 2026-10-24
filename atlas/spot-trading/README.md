@@ -1,6 +1,6 @@
 # Spot Trading, Explained
 
-> Comprehensive explainer on crypto spot trading: how it works on exchanges, key pairs like BTC/USDT and ETH/USD, differences vs futures, margin and ETFs, the role of stablecoins, venues from Coinbase to DEXs, and evolving market structure and regulation.
+> A durable guide to crypto’s cash markets: ownership, order books, execution, settlement, custody, stablecoins, derivatives, ETFs, tokenized assets, onchain venues, liquidity, and risk.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/spot-trading)**
 
