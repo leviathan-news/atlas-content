@@ -1,6 +1,6 @@
 # Stripe, Explained
 
-> Deep explainer on Stripe’s evolving crypto strategy, covering Tempo blockchain, stablecoins, USDC payouts, AI agent payments, and partnerships with Visa, Mastercard, Coinbase, Meta and MoneyGram as it positions to be the “AWS for money.”
+> Stripe is turning stablecoins, payment-focused blockchains, and agentic commerce into enterprise infrastructure. The opportunity is faster, programmable global settlement; the cost is greater dependence on regulated intermediaries.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/stripe)**
 
