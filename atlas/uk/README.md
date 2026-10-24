@@ -1,6 +1,6 @@
 # UK, Explained
 
-> The UK is replacing its narrow crypto registration system with full regulation. Its prospects now turn on authorisation, stablecoin policy, retail access, enforcement, and whether regulated products can compete with overseas markets.
+> The UK is moving crypto into a purpose-built financial-services regime. Its prospects now turn on authorisation, stablecoin economics, banking access, enforcement and whether tokenisation can strengthen London’s established markets.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/uk)**
 
