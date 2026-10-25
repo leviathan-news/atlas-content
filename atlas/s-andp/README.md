@@ -1,6 +1,6 @@
 # S&P, Explained
 
-> Deep dive on how the S&P 500 works, why it anchors global risk markets, and how its exposure is migrating onchain via prediction markets, tokenized index funds, and licensed perps—plus what this means for Bitcoin, DeFi, and crypto traders.
+> The S&P 500 is becoming more than crypto’s benchmark competitor. It is a macro signal, a hedging market, and an increasingly composable form of equity exposure whose offchain dependencies remain essential.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/s-andp)**
 
