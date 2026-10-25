@@ -1,6 +1,6 @@
 # Stablecoin Rules, Explained
 
-> In-depth explainer on global stablecoin rules, covering U.S. GENIUS Act reforms, EU MiCA, UK and Asian regimes, AML/KYC, reserve and risk standards, and what evolving regulations mean for stablecoin users, DeFi builders and institutional crypto adoption.
+> Stablecoin regulation is turning crypto’s settlement asset into supervised financial infrastructure. The decisive questions now concern reserves, redemption, identity, secondary markets, yield, and whether regulated tokens can remain usable on open networks.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/stablecoin-rules)**
 
