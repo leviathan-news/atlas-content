@@ -1,6 +1,6 @@
 # IPO, Explained
 
-> IPOs turn private ownership into public equity. Crypto extends price discovery and access around that transition, but perpetuals, tokenized shares, and SPV interests carry very different ownership, liquidity, and counterparty risks.
+> IPOs turn private ownership into public equity. Crypto adds earlier price discovery, tokenized exposure, and synthetic markets—but easier trading does not necessarily confer shares, voting rights, or dependable settlement.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/ipo)**
 

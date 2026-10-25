@@ -1,6 +1,6 @@
 # Burn, Explained
 
-> Deep-dive explainer on crypto “burns”: how tokens are permanently removed from supply, how buyback-and-burn and fee burns work, their role in tokenomics, governance and revenue, and how to interpret burn headlines, onchain data and risks.
+> Token burns permanently remove units from circulation, but scarcity alone does not create value. The useful questions are what funds the burn, how it compares with issuance, who controls it, and whether demand can endure.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/burn)**
 

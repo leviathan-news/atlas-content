@@ -1,6 +1,6 @@
 Retail participation in crypto markets refers to the involvement of individual, non-institutional investors — everyday people buying, selling and holding digital assets through consumer-facing platforms rather than through prime brokerages or institutional desks.
 
-That definition now covers more than someone buying Bitcoin on an exchange. Retail users can encounter crypto through brokerage accounts, tokenized commodities, payment systems, autonomous trading tools and products that connect public blockchains with traditionally restricted markets. The category is expanding, but the central tension has not changed: access creates opportunity while transferring risks that professional investors are better equipped to manage.
+That definition now covers more than someone buying Bitcoin on an exchange. Retail users can encounter crypto through brokerage accounts, regulated funds, tokenized commodities, payment systems, autonomous trading tools and products that connect public blockchains with traditionally restricted markets. The category is expanding, but the central tension has not changed: access creates opportunity while transferring risks that professional investors are better equipped to manage.
 
 ---
 
@@ -36,11 +36,13 @@ Regulators are arriving at different answers to the same question: how can ordin
 
 The UK Financial Conduct Authority has proposed allowing authorized investment funds to allocate up to 10% of their assets to crypto exchange-traded notes. The structure represents controlled exposure rather than unrestricted access: a defined cap, regulated vehicles and existing retail safeguards. Separately, members of the UK House of Lords have challenged proposed limits on retail stablecoin holdings, arguing that a £20,000 per-wallet cap and a 40% central-bank backing requirement would be too restrictive for useful innovation.
 
-Singapore offers another model. DBS Bank has begun offering retail customers tokenized gold represented by digital tokens backed one-to-one by physical gold held in dedicated Singapore vaults. This is crypto infrastructure used as a wrapper for a familiar asset, not an invitation to treat every token as equivalent. The gain is fractional and digitally transferable access; the cost is dependence on the issuer, custody arrangement and enforceability of the claimed backing.
+Switzerland supplies another version of controlled access. [The regulator’s announcement](https://www.finma.ch/news/2026/10/20261020-mm-finma-bitcoin-etf/) establishes the relevant product and the conditions attached to it: FINMA approves Switzerland’s first retail Bitcoin ETF, with custody safeguards and risk warnings. This is not permissionless access translated into a brokerage screen. It is a regulated wrapper that reduces some operational burdens while retaining both market risk and dependence on the institutions responsible for custody and administration.
+
+Singapore offers a related model. DBS Bank has begun offering retail customers tokenized gold represented by digital tokens backed one-to-one by physical gold held in dedicated Singapore vaults. This is crypto infrastructure used as a wrapper for a familiar asset, not an invitation to treat every token as equivalent. The gain is fractional and digitally transferable access; the cost is dependence on the issuer, custody arrangement and enforceability of the claimed backing.
 
 India presents a different problem. Coinbase introduced IMPS-based rupee payment rails while targeting a retail crypto market it valued at $3 billion. The bet is that local-currency friction, rather than lack of demand, constrains participation. Easier on-ramps broaden access, but they do not resolve the regulatory uncertainty that has repeatedly shaped India’s crypto market.
 
-These approaches reveal three distinct regulatory tools: limit the size of exposure, constrain the products through which exposure occurs, or improve access while supervising the intermediary. None eliminates risk. They decide where that risk sits and which institution is expected to control it.
+These approaches reveal several distinct regulatory tools: limit the size of exposure, constrain the products through which exposure occurs, impose custody and disclosure safeguards, or improve access while supervising the intermediary. None eliminates risk. They decide where that risk sits and which institution is expected to control it.
 
 ---
 
@@ -76,7 +78,7 @@ Tokenization is increasingly presented as a way to broaden retail access to equi
 
 The SpaceX public-market story illustrated the underlying access gap. Retail investors built indirect exposure through space-themed exchange-traded funds because direct ownership was unavailable to them while the company remained private. By the time a large private company lists, a substantial portion of its value creation may already have accrued to founders, employees and private investors.
 
-Platforms are responding with combinations of conventional allocations and tokenized representations. As CoinTelegraph’s [report on Kraken’s offering](https://cointelegraph.com/news/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations) describes it, Kraken offers Jersey Mike’s IPO to retail, pairing U.S. allocations with 1:1-backed xStocks in 110+ countries
+Platforms are responding with combinations of conventional allocations and tokenized representations. As CoinTelegraph’s [report on Kraken’s offering](https://cointelegraph.com/news/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations) describes it, Kraken offers Jersey Mike’s IPO to retail, pairing U.S. allocations with 1:1-backed xStocks in more than 110 countries.
 
 That structure matters because it separates two forms of access that can look similar on a trading screen. A direct allocation is a route into the conventional security; a backed token is a digital representation whose value depends on its legal, custodial and redemption structure. Tokenization can improve distribution without making every token economically or legally identical to the underlying share.
 
@@ -100,6 +102,8 @@ Retail investors in crypto face risks distinct from both institutional crypto fi
 
 **Regulatory fragmentation.** A product available to retail investors in Singapore may be restricted in the United States or prohibited elsewhere. Users crossing jurisdictions can encounter different disclosure, tax and consumer-protection regimes even when the interface looks identical.
 
+**Delegation risk.** Software that recommends a trade and software authorized to execute it are different products. Delegation reduces friction, but it can also convert a bad assumption, excessive permission or faulty risk limit into an immediate transaction. The test is whether the user can understand the mandate, restrict its scope, inspect what occurred and revoke authority before an error compounds.
+
 ---
 
 ## What Retail Participation Means for Bitcoin and Broader Markets
@@ -111,6 +115,8 @@ Accumulation by wallets holding less than one Bitcoin is watched as a potential 
 Bitcoin exchange-traded funds add another layer. Individuals can obtain price exposure through brokerage accounts without managing wallets or private keys. That expands the addressable market and reduces custody friction, but it also places supposedly retail Bitcoin exposure back inside traditional financial intermediaries.
 
 This is the central reclassification of modern retail crypto: participation no longer means choosing between a centralized exchange and a self-hosted wallet. It spans direct ownership, fund shares, tokenized claims, derivatives and delegated software. Those routes may reference the same underlying market while giving the holder very different rights and risks.
+
+The distinction changes what “adoption” means. More accounts, easier payments or broader product availability can demonstrate distribution without proving that individuals have gained greater control. A regulated fund may be easier to hold but impossible to redeem for the underlying asset. A tokenized claim may trade continuously while depending on a conventional custodian. A self-hosted wallet may offer direct control while placing every security mistake on its owner.
 
 ---
 

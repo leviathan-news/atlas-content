@@ -1,6 +1,6 @@
 # Retail, Explained
 
-> Retail crypto is evolving from direct token speculation into a broader market for regulated funds, tokenized assets, automated trading tools and payment rails. Wider access matters, but leverage, custody and information gaps still determine who benefits.
+> Retail crypto now spans direct ownership, regulated funds, tokenized claims, derivatives, payments and delegated software. The decisive question is not merely what individuals can access, but what rights, risks and intermediaries each route introduces.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/retail)**
 
