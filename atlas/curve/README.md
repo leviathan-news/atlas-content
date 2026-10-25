@@ -1,6 +1,6 @@
 # Curve, Explained
 
-> Curve Finance is DeFi's leading stablecoin DEX, built on the StableSwap invariant. This explainer covers crvUSD, LLAMMA soft liquidations, LlamaLend v2, YieldBasis, veCRV governance, and the protocol's 2026 expansion.
+> Curve began as a specialized exchange for near-parity assets. Its larger significance is the stack built around that exchange: vote-directed liquidity, soft-liquidation lending, crvUSD, and markets that turn LP positions into productive collateral.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/curve)**
 
