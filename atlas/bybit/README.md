@@ -1,6 +1,6 @@
 # Bybit, Explained
 
-> Bybit has grown from a derivatives specialist into a broad crypto-finance platform. Its opportunity lies in joining trading, tokenization and institutional services; its central tests remain regulation, product transparency and custody security.
+> Bybit has grown from a derivatives exchange into a cross-asset platform spanning spot markets, yield, tokenization and automation. Its opportunity rests on distribution; its risks converge in custody, leverage, legal structure and fragmented regulation.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/bybit)**
 
