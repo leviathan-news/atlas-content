@@ -1,6 +1,6 @@
 # DAO, Explained
 
-> In‑depth explainer on decentralized autonomous organizations (DAOs), tracing their evolution from The DAO hack to modern DeFi, gaming and treasury DAOs, with case studies on Aave, Curve, JustLend, Kelp, security risks, governance design and legal issues.
+> DAOs turn governance into programmable infrastructure, but token voting alone does not create decentralization. This guide explains how DAOs allocate power, execute decisions, manage security, use legal wrappers, and respond when governance fails.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/dao)**
 
