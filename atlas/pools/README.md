@@ -1,6 +1,6 @@
 # Pools, Explained
 
-> In crypto, “pools” aggregate capital, hashpower, or rewards into shared structures that power DEX liquidity, lending, staking, mining, stablecoin FX and incentives. This explainer maps key pool types, risks, designs and their role in onchain markets.
+> Crypto pools aggregate capital, computing power, or rewards under shared rules. This guide explains liquidity, lending, mining, staking, incentive, stablecoin, and institutional pools—and the risks each structure redistributes.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/pools)**
 
