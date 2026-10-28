@@ -1,6 +1,6 @@
 # OCC, Explained
 
-> The OCC grants federal trust charters to banks and crypto firms including Coinbase, Ripple, and Kraken, making it the central U.S. regulator for institutional digital asset custody and stablecoin issuance.
+> The OCC has moved from interpreting whether banks may handle crypto to defining how federally supervised custody, trust banking, and stablecoin issuance work—and what firms must surrender for that legitimacy.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/occ)**
 
