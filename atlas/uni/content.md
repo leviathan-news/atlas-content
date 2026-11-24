@@ -154,7 +154,7 @@ Custody creates a similar trade-off. Regulated or specialized custodians may red
 
 Retail integrations through financial applications reduce friction for users who would not interact directly with decentralized exchanges. They can make UNI appear alongside larger crypto assets in a familiar account. But an app balance is not necessarily equivalent to self-custodied UNI. Withdrawal rights, spreads, custody structure, and governance access determine what the customer actually owns and can do.
 
-Derivatives would add another layer. Futures can help professional participants hedge exposure, express directional views, and arbitrage price differences without moving spot tokens. That may deepen price discovery, but leveraged derivatives can also amplify liquidation cascades and separate trading interest from participation in the protocol itself. A large futures market would make UNI more institutionally tradable without making its governance more decentralized.
+Derivatives add another layer. Futures can help professional participants hedge exposure, express directional views, and arbitrage price differences without moving spot tokens. That may deepen price discovery, but leveraged derivatives can also amplify liquidation cascades and separate trading interest from participation in the protocol itself. A large futures market can make UNI more institutionally tradable without making its governance more decentralized.
 
 The broad trend is a migration from crypto-native possession toward multiple wrappers. That development should not be described simply as adoption. It is a change in market structure: more people can obtain economic exposure, while intermediaries may gain control over custody, voting, hedging, and liquidity.
 
@@ -252,7 +252,7 @@ Protocol fees sharpen those competitive pressures. Liquidity providers compare n
 
 Brand and liquidity create genuine advantages. A known protocol can attract integrations, and deep markets can reinforce themselves because traders prefer better execution while providers prefer greater volume. Those network effects are not permanent. Capital can move, interfaces can reroute orders, and incentives can bootstrap rivals.
 
-Uniswap v4’s flexibility is one response. Rather than attempting to design every market centrally, it lets developers create specialized behavior on shared infrastructure. Unichain is another response, giving the ecosystem more influence over execution. The fee-and-burn model is a third, connecting token economics to use.
+Uniswap v4’s flexibility is one response. Rather than attempting to design every market centrally, it lets developers create specialized behavior on shared infrastructure. Unichain is another response, giving the ecosystem more influence over execution. A fee-and-burn model would be a third, connecting token economics to use.
 
 Together these moves transform Uniswap from a single AMM design into a platform strategy. The benefit is adaptability. The cost is that success becomes harder to measure. Volume may occur across versions, chains, interfaces, and externally developed hooks, with different economics for liquidity providers and UNI holders.
 

@@ -1,6 +1,6 @@
 # Ledger, Explained
 
-> A durable guide to crypto ledgers, Ledger hardware wallets, self-custody, Bitcoin, XRPL, privacy networks, stablecoins, tokenized assets, protocol security, and the practical trade-offs of controlling digital value.
+> A durable guide to public ledgers, Ledger hardware wallets, self-custody, recovery, signing, staking, DeFi, tokenized assets, privacy, institutional settlement, AI agents, and the boundaries between ownership and control.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/ledger)**
 

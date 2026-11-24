@@ -1,6 +1,6 @@
 # Spot Trading, Explained
 
-> A durable guide to crypto’s cash markets: ownership, order books, execution, settlement, custody, stablecoins, derivatives, ETFs, tokenized assets, onchain venues, liquidity, and risk.
+> Spot trading exchanges assets for near-immediate delivery, but execution, settlement, custody, quote assets, wrappers, and venue design determine what the buyer truly owns and which risks remain.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/spot-trading)**
 

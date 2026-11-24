@@ -1,6 +1,6 @@
 # BitGo, Explained
 
-> Deep dive into BitGo, the OCC‑regulated crypto custodian powering institutional Bitcoin, DeFi and MiCA‑ready infrastructure, covering its products, global regulation, financials, risks and its growing role in crypto market structure.
+> BitGo has grown from a multi-signature wallet specialist into a regulated custody, trading, settlement, and infrastructure provider. Its opportunity is to become neutral market plumbing; its challenge is preserving that neutrality as it expands.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/bitgo)**
 

@@ -160,7 +160,7 @@ The advantage is programmability. Tokenized assets can potentially trade for lon
 
 A useful test is to trace the full loop. Who issues the token? What asset or obligation backs it? Who holds the backing? Can the holder redeem, and under what eligibility rules? What happens to distributions and corporate actions? Which law governs the claim? What occurs if the issuer, custodian, broker, or blockchain system fails?
 
-Without those answers, “spot trading” describes only the trading action. It does not establish the quality of the instrument being traded.
+Without those answers, spot trading describes only the trading action. It does not establish the quality of the instrument being traded.
 
 Tokenized markets can also combine spot assets with derivatives and shared collateral. A platform may let a trader hold a tokenized equity, borrow against it, and hedge its price with a perpetual contract. That consolidation improves capital efficiency and reduces the need to move assets among separate venues. It also concentrates dependencies: a failure in valuation, custody, liquidation, or smart contracts can propagate across products that share collateral.
 
@@ -176,7 +176,7 @@ A broker can provide crypto exposure alongside stocks, funds, and other assets. 
 
 Decentralized exchanges let users trade through smart contracts. Automated market makers replace a traditional central order book with liquidity pools and formulas that adjust prices as reserves change. Liquidity providers supply assets and receive fees, but they assume exposure to price changes, contract risk, and the possibility that arbitrage leaves the pool holding more of the underperforming asset.
 
-Onchain order-book venues attempt to provide familiar bids and asks while settling through blockchain systems. Designs vary in where orders are stored, how matching occurs, who can sequence transactions, and when final settlement reaches the chain. “Decentralized” is a spectrum across custody, governance, matching, data availability, front ends, and administrative controls.
+Onchain order-book venues attempt to provide familiar bids and asks while settling through blockchain systems. Designs vary in where orders are stored, how matching occurs, who can sequence transactions, and when final settlement reaches the chain. Decentralized is a spectrum across custody, governance, matching, data availability, front ends, and administrative controls.
 
 Centralized venues offer speed, customer support, fiat access, and account recovery, but require trust in an operator. Decentralized venues offer self-directed access and public settlement, but demand greater technical competence and expose users to contracts, wallets, network conditions, and transaction ordering. Neither architecture removes trust; each relocates it.
 

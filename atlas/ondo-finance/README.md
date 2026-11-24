@@ -1,6 +1,6 @@
 # Ondo Finance, Explained
 
-> Ondo Finance packages Treasuries, money-market funds, stocks, and ETFs for blockchain-based ownership and settlement. Its opportunity is to connect traditional assets with crypto rails; its challenge is preserving legal rights, liquidity, and trust across that bridge.
+> Ondo combines tokenized funds, equities, yield-bearing dollars, derivatives, and blockchain infrastructure. Its opportunity is making conventional assets programmable; its challenge is preserving legal rights, liquidity, and operational reliability across every layer.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/ondo-finance)**
 
