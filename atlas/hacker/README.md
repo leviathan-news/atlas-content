@@ -1,6 +1,6 @@
 # Hacker, Explained
 
-> Explainer on what “hacker” means in crypto today, covering black-, white- and gray-hat roles, DeFi and bridge exploits, DPRK campaigns, AI-augmented attacks, malware and scams, plus practical security lessons for users, builders and institutions.
+> A durable guide to crypto hackers: black hats, white hats, state-backed groups, exchange breaches, DeFi exploits, phishing, malware, AI-enabled attacks, laundering, and the defenses that matter.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/hacker)**
 

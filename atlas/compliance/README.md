@@ -1,6 +1,6 @@
 # compliance, Explained
 
-> Crypto compliance is becoming infrastructure: a system spanning licenses, AML, sanctions, privacy, custody, market integrity, and programmable controls across exchanges, stablecoins, DeFi, and institutional markets.
+> Crypto compliance connects permissionless infrastructure with regulated finance. The durable question is whether controls are proportionate, auditable, privacy-aware, and embedded deeply enough to work under real operating pressure.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/compliance)**
 

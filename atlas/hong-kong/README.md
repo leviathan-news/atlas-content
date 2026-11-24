@@ -1,6 +1,6 @@
 # Hong Kong, Explained
 
-> Comprehensive explainer on Hong Kong’s role as a regulated hub for crypto, stablecoins, tokenized bonds, AI and Web3, covering SFC/HKMA rules, stablecoin law, Ethereum pilots, regional context and what it means for builders and investors.
+> Hong Kong is building a tightly regulated bridge between crypto and institutional finance, combining licensed exchanges, stablecoin supervision, tokenized securities, and experiments spanning public blockchains, Web3, and AI.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/hong-kong)**
 

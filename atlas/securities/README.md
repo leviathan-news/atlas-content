@@ -1,6 +1,6 @@
 # Securities, Explained
 
-> Securities law and crypto are converging fast — from SEC rulemaking and tokenized stocks to Bitcoin-linked bonds and licensed settlement infrastructure. Here's what every crypto participant needs to understand.
+> Securities law determines how crypto assets can be issued, sold, and traded. The durable distinction is not simply between traditional and digital assets, but between commodities, investment contracts, and regulated instruments moving on-chain.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/securities)**
 

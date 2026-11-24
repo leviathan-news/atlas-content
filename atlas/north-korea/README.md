@@ -1,6 +1,6 @@
 # North Korea, Explained
 
-> Deep dive on how North Korea’s Lazarus-led hacker ecosystem steals and launders billions in crypto, the tactics behind major DPRK-linked exploits, and what this evolving threat means for exchanges, DeFi and users.
+> North Korea has turned crypto theft into a state revenue system built on social engineering, compromised insiders, remote IT workers, key theft, and rapid laundering. Its success makes DPRK tradecraft a core security concern for exchanges, protocols, builders, and users.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/north-korea)**
 

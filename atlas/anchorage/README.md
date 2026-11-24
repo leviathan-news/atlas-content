@@ -1,6 +1,6 @@
 # Anchorage Digital, Explained
 
-> In-depth explainer on Anchorage Digital, the first federally chartered U.S. crypto bank, covering its custody and settlement platform, stablecoin issuance for partners like Tether and Ethena, AI-driven “Agentic Banking,” and role in institutional crypto adoption.
+> Anchorage Digital combines federal bank supervision with crypto-native custody, settlement, staking, stablecoin issuance, and emerging AI infrastructure. Its advantage is institutional trust; its trade-off is greater centralization and regulatory constraint.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/anchorage)**
 

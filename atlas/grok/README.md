@@ -1,6 +1,6 @@
 # Grok, Explained
 
-> Deep explainer on xAI’s Grok AI stack—chat, code, voice, and video—its Musk-led origins, safety scripts, Pentagon ties, and how exchanges like Gemini use Grok for crypto data feeds, trading agents, and on-chain analytics.
+> Grok has grown from an X-integrated chatbot into a stack spanning reasoning, code, voice, video, and developer infrastructure. For crypto teams, its value lies in agentic interfaces—and its risk in centralized, opaque dependencies.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/grok)**
 

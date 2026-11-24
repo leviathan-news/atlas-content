@@ -1,6 +1,6 @@
 # IPO, Explained
 
-> IPOs turn private ownership into public equity. Crypto adds earlier price discovery, tokenized exposure, and synthetic markets—but easier trading does not necessarily confer shares, voting rights, or dependable settlement.
+> Crypto can widen access to pre-IPO price exposure, but it cannot manufacture equity. The durable test is whether an instrument delivers shares, a contractual claim, or merely a wager on price.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/ipo)**
 
