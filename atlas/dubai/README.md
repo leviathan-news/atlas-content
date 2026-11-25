@@ -1,6 +1,6 @@
 # Dubai, Explained
 
-> In-depth explainer on Dubai as a global crypto hub, covering VARA regulation, exchanges, stablecoins, tokenization, enforcement, scams and events like TOKEN2049, with context on UAE, China and regional dynamics for builders and investors.
+> Dubai is building a regulated crypto centre rather than a laissez-faire haven. Its advantage comes from dedicated licensing, local financial infrastructure and access to regional markets; its cost is a complex regulatory map and increasingly visible enforcement.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/dubai)**
 
