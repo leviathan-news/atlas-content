@@ -1,6 +1,6 @@
 # Chainalysis, Explained
 
-> In‑depth explainer on Chainalysis, the blockchain‑intelligence firm at the heart of crypto crime tracing, stablecoin analytics and AI‑driven compliance, covering its tools, case studies, privacy debates and outlook for on‑chain payments.
+> Chainalysis turns public-ledger activity into intelligence for compliance and investigations. Its rise explains both crypto’s institutionalization and the harder trade-offs around attribution, privacy, security and automated surveillance.
 
 **[Read the live territory on the Leviathan Atlas →](https://leviathan.news/atlas/chainalysis)**
 
